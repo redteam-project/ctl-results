@@ -1,0 +1,53 @@
+{
+    "results": {
+        "usr/bin/elftrunc": {
+            "report-functions": [], 
+            "rpm": "dietlibc-0.33-11.fc26.x86_64.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/elftrunc"
+        }, 
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/bin/diet": {
+            "report-functions": [], 
+            "rpm": "dietlibc-0.33-11.fc26.x86_64.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/diet"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " dietlibc", 
+            "License": " GPLv2", 
+            "URL": " http://www.fefe.de/dietlibc/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-09.phx2.fedoraproject.org", 
+            "Description": "\nThe diet libc is a libc that is optimized for small size. It can be\nused to create small statically linked binaries for Linux on alpha,\narm, hppa, ia64, i386, mips, s390, sparc, sparc64, ppc and x86_64.\n", 
+            "Build Date": " Fri 10 Feb 2017 09:27:27 AM EST", 
+            "Source RPM": " dietlibc-0.33-11.fc26.src.rpm", 
+            "Version": " 0.33", 
+            "Architecture": " x86_64", 
+            "Signature": " RSA/SHA256, Fri 10 Feb 2017 11:13:13 AM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 11.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Small libc implementation", 
+            "Size": " 121376"
+        }
+    }
+}

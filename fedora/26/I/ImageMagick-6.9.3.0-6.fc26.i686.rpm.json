@@ -1,0 +1,301 @@
+{
+    "results": {
+        "usr/bin/composite": {
+            "report-functions": [
+                "__libc_start_main", 
+                "MagickCoreGenesis", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable", 
+                "DestroyExceptionInfo", 
+                "AcquireExceptionInfo", 
+                "MagickCommandGenesis", 
+                "__cxa_finalize", 
+                "AcquireImageInfo", 
+                "MagickCoreTerminus", 
+                "DestroyImageInfo"
+            ], 
+            "rpm": "ImageMagick-6.9.3.0-6.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/composite"
+        }, 
+        "usr/bin/animate": {
+            "report-functions": [
+                "__libc_start_main", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "DestroyExceptionInfo", 
+                "MagickCoreTerminus", 
+                "DestroyImageInfo", 
+                "__cxa_finalize", 
+                "AnimateImageCommand", 
+                "MagickCommandGenesis", 
+                "_ITM_registerTMCloneTable", 
+                "MagickCoreGenesis"
+            ], 
+            "rpm": "ImageMagick-6.9.3.0-6.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/animate"
+        }, 
+        "usr/bin/montage": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "MagickCoreTerminus", 
+                "DestroyExceptionInfo", 
+                "__cxa_finalize", 
+                "AcquireImageInfo", 
+                "_ITM_registerTMCloneTable", 
+                "DestroyImageInfo", 
+                "MagickCoreGenesis", 
+                "MontageImageCommand", 
+                "__libc_start_main"
+            ], 
+            "rpm": "ImageMagick-6.9.3.0-6.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/montage"
+        }, 
+        "usr/bin/identify": {
+            "report-functions": [
+                "AcquireExceptionInfo", 
+                "__stack_chk_fail", 
+                "AcquireImageInfo", 
+                "__gmon_start__", 
+                "IdentifyImageCommand", 
+                "MagickCoreGenesis", 
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable", 
+                "MagickCoreTerminus", 
+                "MagickCommandGenesis", 
+                "__libc_start_main", 
+                "DestroyString", 
+                "DestroyImageInfo"
+            ], 
+            "rpm": "ImageMagick-6.9.3.0-6.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/identify"
+        }, 
+        "usr/bin/stream": {
+            "report-functions": [
+                "AcquireExceptionInfo", 
+                "DestroyImageInfo", 
+                "AcquireImageInfo", 
+                "__libc_start_main", 
+                "_ITM_registerTMCloneTable", 
+                "__gmon_start__", 
+                "MagickCommandGenesis", 
+                "MagickCoreGenesis", 
+                "StreamImageCommand", 
+                "DestroyExceptionInfo", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "ImageMagick-6.9.3.0-6.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/stream"
+        }, 
+        "usr/bin/mogrify": {
+            "report-functions": [
+                "MagickCoreGenesis", 
+                "AcquireImageInfo", 
+                "DestroyImageInfo", 
+                "MagickCoreTerminus", 
+                "__cxa_finalize", 
+                "MogrifyImageCommand", 
+                "_ITM_deregisterTMCloneTable", 
+                "DestroyExceptionInfo", 
+                "__libc_start_main", 
+                "_ITM_registerTMCloneTable", 
+                "AcquireExceptionInfo"
+            ], 
+            "rpm": "ImageMagick-6.9.3.0-6.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/mogrify"
+        }, 
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/bin/convert": {
+            "report-functions": [
+                "ConvertImageCommand", 
+                "__gmon_start__", 
+                "MagickCoreTerminus", 
+                "_ITM_registerTMCloneTable", 
+                "__libc_start_main", 
+                "MagickCoreGenesis", 
+                "AcquireImageInfo", 
+                "AcquireExceptionInfo", 
+                "DestroyImageInfo", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "ImageMagick-6.9.3.0-6.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/convert"
+        }, 
+        "usr/bin/import": {
+            "report-functions": [
+                "DestroyImageInfo", 
+                "MagickCoreTerminus", 
+                "AcquireExceptionInfo", 
+                "__cxa_finalize", 
+                "DestroyExceptionInfo", 
+                "AcquireImageInfo", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "__libc_start_main", 
+                "ImportImageCommand", 
+                "MagickCommandGenesis"
+            ], 
+            "rpm": "ImageMagick-6.9.3.0-6.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/import"
+        }, 
+        "usr/bin/display": {
+            "report-functions": [
+                "DestroyExceptionInfo", 
+                "_ITM_deregisterTMCloneTable", 
+                "DestroyImageInfo", 
+                "MagickCoreTerminus", 
+                "AcquireImageInfo", 
+                "MagickCommandGenesis", 
+                "DisplayImageCommand", 
+                "__libc_start_main", 
+                "_ITM_registerTMCloneTable", 
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "MagickCoreGenesis"
+            ], 
+            "rpm": "ImageMagick-6.9.3.0-6.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/display"
+        }, 
+        "usr/bin/conjure": {
+            "report-functions": [
+                "MagickCommandGenesis", 
+                "AcquireImageInfo", 
+                "ConjureImageCommand", 
+                "_ITM_deregisterTMCloneTable", 
+                "DestroyExceptionInfo", 
+                "__libc_start_main", 
+                "_ITM_registerTMCloneTable", 
+                "MagickCoreTerminus", 
+                "__gmon_start__", 
+                "AcquireExceptionInfo", 
+                "MagickCoreGenesis", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "ImageMagick-6.9.3.0-6.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/conjure"
+        }, 
+        "usr/bin/compare": {
+            "report-functions": [
+                "IsMagickTrue", 
+                "MagickCoreGenesis", 
+                "__gmon_start__", 
+                "MagickCommandGenesis", 
+                "AcquireExceptionInfo", 
+                "MagickCoreTerminus", 
+                "_ITM_registerTMCloneTable", 
+                "__stack_chk_fail", 
+                "__libc_start_main", 
+                "DestroyImageInfo", 
+                "CompareImageCommand", 
+                "DestroyExceptionInfo", 
+                "AcquireImageInfo", 
+                "DestroyString", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "ImageMagick-6.9.3.0-6.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/compare"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Applications/Multimedia", 
+            "Name": " ImageMagick", 
+            "License": " ImageMagick", 
+            "URL": " http://www.imagemagick.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-05.phx2.fedoraproject.org", 
+            "Description": "\nImageMagick is an image display and manipulation tool for the X\nWindow System. ImageMagick can read and write JPEG, TIFF, PNM, GIF,\nand Photo CD image formats. It can resize, rotate, sharpen, color\nreduce, or add special effects to an image, and when finished you can\neither save the completed work in the original format or a different\none. ImageMagick also includes command line programs for creating\nanimated or transparent .gifs, creating composite images, creating\nthumbnail images, and more.\n\nImageMagick is one of your choices if you need a program to manipulate\nand display images. If you want to develop your own applications\nwhich use ImageMagick code or APIs, you need to install\nImageMagick-devel as well.\n", 
+            "Build Date": " Sat 11 Mar 2017 02:28:16 AM EST", 
+            "Source RPM": " ImageMagick-6.9.3.0-6.fc26.src.rpm", 
+            "Version": " 6.9.3.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 11 Mar 2017 03:22:11 AM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 6.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " An X application for displaying and manipulating images", 
+            "Size": " 461813"
+        }
+    }
+}

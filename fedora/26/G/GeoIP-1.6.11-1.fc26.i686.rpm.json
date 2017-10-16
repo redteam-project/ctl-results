@@ -1,0 +1,153 @@
+{
+    "results": {
+        "usr/bin/geoiplookup": {
+            "report-functions": [
+                "GeoIP_open_type", 
+                "GeoIP_database_edition", 
+                "__sprintf_chk", 
+                "free", 
+                "GeoIP_database_info", 
+                "GeoIP_name_by_ipnum", 
+                "GeoIP_region_name_by_code", 
+                "GeoIP_last_netmask", 
+                "_ITM_deregisterTMCloneTable", 
+                "_GeoIP_setup_dbfilename", 
+                "GeoIP_delete", 
+                "GeoIPRecord_delete", 
+                "GeoIP_open", 
+                "GeoIPRegion_delete", 
+                "__printf_chk", 
+                "__libc_start_main", 
+                "_GeoIP_lookupaddress", 
+                "GeoIP_db_avail", 
+                "GeoIP_org_by_ipnum", 
+                "GeoIP_setup_custom_directory", 
+                "fwrite", 
+                "exit", 
+                "__gmon_start__", 
+                "__stack_chk_fail", 
+                "GeoIP_region_by_ipnum", 
+                "GeoIP_range_by_ip_delete", 
+                "GeoIP_record_by_ipnum", 
+                "GeoIP_range_by_ip", 
+                "GeoIP_num_countries", 
+                "GeoIP_id_by_ipnum"
+            ], 
+            "rpm": "GeoIP-1.6.11-1.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/geoiplookup"
+        }, 
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/bin/geoiplookup6": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "exit", 
+                "_GeoIP_lookupaddress_v6", 
+                "__gmon_start__", 
+                "GeoIP_record_by_ipnum_v6", 
+                "__printf_chk", 
+                "__cxa_finalize", 
+                "GeoIP_open_type", 
+                "GeoIP_open", 
+                "_ITM_registerTMCloneTable", 
+                "GeoIP_id_by_ipnum_v6", 
+                "__GEOIP_V6_IS_NULL", 
+                "fwrite", 
+                "_ITM_deregisterTMCloneTable", 
+                "GeoIP_name_by_ipnum_v6", 
+                "free", 
+                "GeoIP_db_avail", 
+                "GeoIP_delete", 
+                "GeoIP_database_info", 
+                "GeoIP_database_edition", 
+                "GeoIP_num_countries", 
+                "GeoIP_setup_custom_directory"
+            ], 
+            "rpm": "GeoIP-1.6.11-1.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/geoiplookup6"
+        }, 
+        "usr/lib/libGeoIP_so_1_6_11": {
+            "report-functions": [
+                "calloc", 
+                "malloc", 
+                "gethostbyname_r", 
+                "strcmp", 
+                "fclose", 
+                "__cxa_finalize", 
+                "__printf_chk", 
+                "strerror", 
+                "inet_pton", 
+                "munmap", 
+                "_ITM_registerTMCloneTable", 
+                "__fprintf_chk", 
+                "free", 
+                "strncpy", 
+                "strlen", 
+                "_ITM_deregisterTMCloneTable", 
+                "realloc", 
+                "gettimeofday", 
+                "mmap", 
+                "inet_addr", 
+                "inet_ntop", 
+                "__stack_chk_fail", 
+                "pread", 
+                "getaddrinfo", 
+                "__fxstat", 
+                "__pread_chk", 
+                "__snprintf_chk", 
+                "puts", 
+                "__gmon_start__", 
+                "__errno_location", 
+                "__xstat", 
+                "freeaddrinfo", 
+                "fileno"
+            ], 
+            "rpm": "GeoIP-1.6.11-1.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libGeoIP.so.1.6.11"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " GeoIP", 
+            "License": " LGPLv2+", 
+            "URL": " http://www.maxmind.com/app/c", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-09.phx2.fedoraproject.org", 
+            "Description": "\nGeoIP is a C library that enables the user to find the country that any IP\naddress or hostname originates from.\n\nIt uses file based databases that can optionally be updated on a weekly basis\nby installing the geoipupdate-cron (IPv4) and/or geoipupdate-cron6 (IPv6)\npackages.\n", 
+            "Build Date": " Tue 16 May 2017 10:32:59 AM EDT", 
+            "Source RPM": " GeoIP-1.6.11-1.fc26.src.rpm", 
+            "Version": " 1.6.11", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 16 May 2017 01:06:20 PM EDT, Key ID 812a6b4b64dab85d", 
+            "Release": " 1.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Library for country/city/organization to IP address or hostname mapping", 
+            "Size": " 297812"
+        }
+    }
+}

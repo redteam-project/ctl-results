@@ -1,0 +1,59 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/libcmark_so_0_27_1": {
+            "report-functions": [
+                "strcmp", 
+                "__cxa_finalize", 
+                "__fprintf_chk", 
+                "strlen", 
+                "fread", 
+                "memcmp", 
+                "_ITM_registerTMCloneTable", 
+                "memchr", 
+                "strncmp", 
+                "memmove", 
+                "__gmon_start__", 
+                "__snprintf_chk", 
+                "realloc", 
+                "_ITM_deregisterTMCloneTable", 
+                "calloc", 
+                "__stack_chk_fail", 
+                "strchr"
+            ], 
+            "rpm": "cmark-lib-0.27.1-1.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libcmark.so.0.27.1"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " cmark-lib", 
+            "License": " BSD and MIT", 
+            "URL": " https://github.com/jgm/cmark", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-06.phx2.fedoraproject.org", 
+            "Description": "\nThis package provides the cmark library.\n", 
+            "Build Date": " Tue 21 Feb 2017 08:54:03 PM EST", 
+            "Source RPM": " cmark-0.27.1-1.fc26.src.rpm", 
+            "Version": " 0.27.1", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 27 Feb 2017 11:00:01 AM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 1.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " CommonMark parsing and rendering library", 
+            "Size": " 277627"
+        }
+    }
+}

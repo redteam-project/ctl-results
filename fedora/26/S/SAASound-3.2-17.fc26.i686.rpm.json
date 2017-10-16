@@ -1,0 +1,49 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/libSAASound-3_2_so_0_0_0": {
+            "report-functions": [
+                "__gxx_personality_v0", 
+                "__cxa_finalize", 
+                "_ITM_deregisterTMCloneTable", 
+                "_Unwind_Resume", 
+                "__stack_chk_fail", 
+                "_ZdlPvj", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "SAASound-3.2-17.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libSAASound-3.2.so.0.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " SAASound", 
+            "License": " BSD", 
+            "URL": " http://simonowen.com/sam/saasound", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-10.phx2.fedoraproject.org", 
+            "Description": "\nPhillips SAA 1099 sound chip emulator library\n", 
+            "Build Date": " Fri 10 Feb 2017 12:37:57 AM EST", 
+            "Source RPM": " SAASound-3.2-17.fc26.src.rpm", 
+            "Version": " 3.2", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 13 Feb 2017 02:23:22 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 17.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Phillips SAA 1099 sound chip emulator library", 
+            "Size": " 37131"
+        }
+    }
+}

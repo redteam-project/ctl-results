@@ -1,0 +1,67 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/libglobus_authz_so_0_3_15": {
+            "report-functions": [
+                "__errno_location", 
+                "_ITM_deregisterTMCloneTable", 
+                "globus_callout_read_config", 
+                "globus_object_free", 
+                "globus_module_activate", 
+                "_ITM_registerTMCloneTable", 
+                "globus_error_put", 
+                "globus_error_wrap_errno_error", 
+                "globus_error_construct_error", 
+                "globus_callout_call_type", 
+                "globus_callout_handle_destroy", 
+                "fclose", 
+                "strtol", 
+                "globus_error_match", 
+                "malloc", 
+                "free", 
+                "__gmon_start__", 
+                "__stack_chk_fail", 
+                "__fprintf_chk", 
+                "globus_callout_handle_init", 
+                "globus_module_getenv", 
+                "globus_module_deactivate", 
+                "__cxa_finalize", 
+                "globus_error_get", 
+                "globus_gsi_sysconfig_get_authz_conf_filename_unix"
+            ], 
+            "rpm": "globus-authz-3.15-3.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libglobus_authz.so.0.3.15"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " globus-authz", 
+            "License": " ASL 2.0", 
+            "URL": " http://toolkit.globus.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-09.phx2.fedoraproject.org", 
+            "Description": "\nThe Globus Toolkit is an open source software toolkit used for building Grid\nsystems and applications. It is being developed by the Globus Alliance and\nmany others all over the world. A growing number of projects and companies are\nusing the Globus Toolkit to unlock the potential of grids for their cause.\n\nThe globus-authz package contains:\nGlobus authz library\n", 
+            "Build Date": " Tue 28 Mar 2017 07:01:26 AM EDT", 
+            "Source RPM": " globus-authz-3.15-3.fc26.src.rpm", 
+            "Version": " 3.15", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 28 Mar 2017 08:53:14 AM EDT, Key ID 812a6b4b64dab85d", 
+            "Release": " 3.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Globus Toolkit - Globus authz library", 
+            "Size": " 25528"
+        }
+    }
+}

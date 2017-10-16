@@ -1,0 +1,77 @@
+{
+    "results": {
+        "usr/lib/sasl2/libldapdb_so_3_0_0": {
+            "report-functions": [
+                "__snprintf_chk", 
+                "__stack_chk_fail", 
+                "ldap_first_message", 
+                "ldap_search_ext_s", 
+                "ldap_whoami_s", 
+                "putenv", 
+                "uname", 
+                "_ITM_deregisterTMCloneTable", 
+                "ldap_initialize", 
+                "ldap_get_option", 
+                "strlen", 
+                "freeaddrinfo", 
+                "ldap_err2string", 
+                "ldap_unbind_ext", 
+                "strncpy", 
+                "__gmon_start__", 
+                "strcat", 
+                "strchr", 
+                "ldap_start_tls_s", 
+                "ldap_msgfree", 
+                "_ITM_registerTMCloneTable", 
+                "strcasecmp", 
+                "ldap_msgtype", 
+                "__cxa_finalize", 
+                "ldap_next_message", 
+                "strcpy", 
+                "strerror", 
+                "ldap_sasl_interactive_bind_s", 
+                "__ctype_b_loc", 
+                "ldap_modify_ext_s", 
+                "__memcpy_chk", 
+                "ldap_set_option", 
+                "getaddrinfo", 
+                "strncasecmp", 
+                "ldap_get_values_len"
+            ], 
+            "rpm": "cyrus-sasl-ldap-2.1.26-32.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/sasl2/libldapdb.so.3.0.0"
+        }, 
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " cyrus-sasl-ldap", 
+            "License": " BSD with advertising", 
+            "URL": " http://asg.web.cmu.edu/sasl/sasl-library.html", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-14.phx2.fedoraproject.org", 
+            "Description": "\nThe cyrus-sasl-ldap package contains the Cyrus SASL plugin which supports using\na directory server, accessed using LDAP, for storing shared secrets.\n", 
+            "Build Date": " Wed 19 Apr 2017 09:13:36 AM EDT", 
+            "Source RPM": " cyrus-sasl-2.1.26-32.fc26.src.rpm", 
+            "Version": " 2.1.26", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Wed 19 Apr 2017 09:20:01 AM EDT, Key ID 812a6b4b64dab85d", 
+            "Release": " 32.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " LDAP auxprop support for Cyrus SASL", 
+            "Size": " 23368"
+        }
+    }
+}

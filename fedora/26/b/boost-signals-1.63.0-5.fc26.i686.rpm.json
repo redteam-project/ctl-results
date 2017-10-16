@@ -1,0 +1,72 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/libboost_signals_so_1_63_0": {
+            "report-functions": [
+                "_ZNKSt13runtime_error4whatEv", 
+                "__gmon_start__", 
+                "_ZdlPvj", 
+                "_ZSt18_Rb_tree_decrementPSt18_Rb_tree_node_base", 
+                "__cxa_pure_virtual", 
+                "_ZNSt8__detail15_List_node_base4swapERS0_S1_", 
+                "__cxa_free_exception", 
+                "_ZSt18_Rb_tree_incrementPSt18_Rb_tree_node_base", 
+                "_ZNSt8__detail15_List_node_base7_M_hookEPS0_", 
+                "_ZNSt8__detail15_List_node_base10_M_reverseEv", 
+                "__stack_chk_fail", 
+                "_Znwj", 
+                "_ITM_registerTMCloneTable", 
+                "_ZSt9terminatev", 
+                "__cxa_allocate_exception", 
+                "__cxa_begin_catch", 
+                "__gxx_personality_v0", 
+                "_ZNSt13runtime_errorC2EPKc", 
+                "__cxa_finalize", 
+                "__cxa_end_catch", 
+                "_ZSt29_Rb_tree_insert_and_rebalancebPSt18_Rb_tree_node_baseS0_RS_", 
+                "_ZSt28_Rb_tree_rebalance_for_erasePSt18_Rb_tree_node_baseRS_", 
+                "_Unwind_Resume", 
+                "_ZNSt13runtime_errorC2ERKS_", 
+                "__cxa_throw", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_rethrow", 
+                "_ZNSt8__detail15_List_node_base11_M_transferEPS0_S1_", 
+                "_ZNSt13runtime_errorD2Ev", 
+                "_ZNSt8__detail15_List_node_base9_M_unhookEv"
+            ], 
+            "rpm": "boost-signals-1.63.0-5.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libboost_signals.so.1.63.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " boost-signals", 
+            "License": " Boost and MIT and Python", 
+            "URL": " http://www.boost.org", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-25.phx2.fedoraproject.org", 
+            "Description": "\n\nRun-time support for managed signals & slots callback implementation.\n", 
+            "Build Date": " Sun 12 Mar 2017 12:17:05 PM EDT", 
+            "Source RPM": " boost-1.63.0-5.fc26.src.rpm", 
+            "Version": " 1.63.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sun 12 Mar 2017 01:48:27 PM EDT, Key ID 812a6b4b64dab85d", 
+            "Release": " 5.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Run-time component of boost signals and slots library", 
+            "Size": " 98390"
+        }
+    }
+}

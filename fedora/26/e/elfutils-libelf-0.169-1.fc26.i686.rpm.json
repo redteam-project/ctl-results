@@ -1,0 +1,174 @@
+{
+    "results": {
+        "usr/lib/libelf-0_169_so": {
+            "report-functions": [
+                "free", 
+                "memchr", 
+                "strcmp", 
+                "realloc", 
+                "pwrite64", 
+                "strtoll", 
+                "memccpy", 
+                "ftruncate64", 
+                "munmap", 
+                "deflate", 
+                "pread64", 
+                "memmove", 
+                "__ctype_b_loc", 
+                "__cxa_finalize", 
+                "qsort", 
+                "dcgettext", 
+                "mempcpy", 
+                "open64", 
+                "_ITM_deregisterTMCloneTable", 
+                "inflate", 
+                "msync", 
+                "_ITM_registerTMCloneTable", 
+                "strtol", 
+                "close", 
+                "__assert_fail", 
+                "fcntl", 
+                "inflateEnd", 
+                "deflateInit_", 
+                "__fxstat64", 
+                "sysconf", 
+                "__gmon_start__", 
+                "rawmemchr", 
+                "malloc", 
+                "__stack_chk_fail", 
+                "deflateEnd", 
+                "calloc", 
+                "mmap64", 
+                "fchmod", 
+                "inflateReset", 
+                "__errno_location", 
+                "memrchr", 
+                "posix_fallocate64"
+            ], 
+            "rpm": "elfutils-libelf-0.169-1.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libelf-0.169.so"
+        }, 
+        "usr/share/locale/pl/LC_MESSAGES/elfutils_mo": {
+            "report-functions": [], 
+            "rpm": "elfutils-libelf-0.169-1.fc26.i686.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {}, 
+            "filename": "usr/share/locale/pl/LC_MESSAGES/elfutils.mo"
+        }, 
+        "usr/share/licenses/elfutils-libelf/COPYING-GPLV2": {
+            "report-functions": [], 
+            "rpm": "elfutils-libelf-0.169-1.fc26.i686.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {}, 
+            "filename": "usr/share/licenses/elfutils-libelf/COPYING-GPLV2"
+        }, 
+        "usr/share/locale/en@quot/LC_MESSAGES/elfutils_mo": {
+            "report-functions": [], 
+            "rpm": "elfutils-libelf-0.169-1.fc26.i686.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {}, 
+            "filename": "usr/share/locale/en@quot/LC_MESSAGES/elfutils.mo"
+        }, 
+        "usr/share/locale/es/LC_MESSAGES/elfutils_mo": {
+            "report-functions": [], 
+            "rpm": "elfutils-libelf-0.169-1.fc26.i686.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {}, 
+            "filename": "usr/share/locale/es/LC_MESSAGES/elfutils.mo"
+        }, 
+        "usr/share/locale/de/LC_MESSAGES/elfutils_mo": {
+            "report-functions": [], 
+            "rpm": "elfutils-libelf-0.169-1.fc26.i686.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {}, 
+            "filename": "usr/share/locale/de/LC_MESSAGES/elfutils.mo"
+        }, 
+        "elfutils-libelf-0_169-1_fc26_i686_rpm": {
+            "report-functions": [], 
+            "rpm": "elfutils-libelf-0.169-1.fc26.i686.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {}, 
+            "filename": "elfutils-libelf-0.169-1.fc26.i686.rpm"
+        }, 
+        "usr/share/locale/ja/LC_MESSAGES/elfutils_mo": {
+            "report-functions": [], 
+            "rpm": "elfutils-libelf-0.169-1.fc26.i686.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {}, 
+            "filename": "usr/share/locale/ja/LC_MESSAGES/elfutils.mo"
+        }, 
+        "usr/share/locale/uk/LC_MESSAGES/elfutils_mo": {
+            "report-functions": [], 
+            "rpm": "elfutils-libelf-0.169-1.fc26.i686.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {}, 
+            "filename": "usr/share/locale/uk/LC_MESSAGES/elfutils.mo"
+        }, 
+        "usr/share/locale/en@boldquot/LC_MESSAGES/elfutils_mo": {
+            "report-functions": [], 
+            "rpm": "elfutils-libelf-0.169-1.fc26.i686.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {}, 
+            "filename": "usr/share/locale/en@boldquot/LC_MESSAGES/elfutils.mo"
+        }, 
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/share/licenses/elfutils-libelf/COPYING-LGPLV3": {
+            "report-functions": [], 
+            "rpm": "elfutils-libelf-0.169-1.fc26.i686.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {}, 
+            "filename": "usr/share/licenses/elfutils-libelf/COPYING-LGPLV3"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Tools", 
+            "Name": " elfutils-libelf", 
+            "License": " GPLv2+ or LGPLv3+", 
+            "URL": " http://elfutils.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-02.phx2.fedoraproject.org", 
+            "Description": "\nThe elfutils-libelf package provides a DSO which allows reading and\nwriting ELF files on a high level.  Third party programs depend on\nthis package to read internals of ELF files.  The programs of the\nelfutils package use it also to generate new ELF files.\n", 
+            "Build Date": " Fri 05 May 2017 06:17:56 AM EDT", 
+            "Source RPM": " elfutils-0.169-1.fc26.src.rpm", 
+            "Version": " 0.169", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 05 May 2017 07:27:20 AM EDT, Key ID 812a6b4b64dab85d", 
+            "Release": " 1.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Library to read and write ELF files", 
+            "Size": " 942861"
+        }
+    }
+}

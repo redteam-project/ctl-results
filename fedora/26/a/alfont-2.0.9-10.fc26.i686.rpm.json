@@ -1,0 +1,84 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/libalfont_so_2_0_9": {
+            "report-functions": [
+                "FT_Set_Pixel_Sizes", 
+                "FT_Glyph_Copy", 
+                "ustrlen", 
+                "__stack_chk_fail", 
+                "_ITM_registerTMCloneTable", 
+                "makecol", 
+                "create_bitmap_ex", 
+                "calloc", 
+                "get_uformat", 
+                "FT_New_Face", 
+                "FT_Get_Char_Index", 
+                "FT_New_Memory_Face", 
+                "getr", 
+                "FT_Init_FreeType", 
+                "FT_Done_Glyph", 
+                "solid_mode", 
+                "FT_Get_Glyph", 
+                "malloc", 
+                "__sprintf_chk", 
+                "set_trans_blender", 
+                "getg", 
+                "wcstombs", 
+                "FT_Done_FreeType", 
+                "FT_Done_Face", 
+                "set_uformat", 
+                "mbstowcs", 
+                "FT_Load_Glyph", 
+                "drawing_mode", 
+                "need_uconvert", 
+                "uvszprintf", 
+                "wcslen", 
+                "__cxa_finalize", 
+                "setlocale", 
+                "FT_Glyph_To_Bitmap", 
+                "strlen", 
+                "strcpy", 
+                "_ITM_deregisterTMCloneTable", 
+                "masked_blit", 
+                "stpcpy", 
+                "__gmon_start__", 
+                "free", 
+                "__ctype_get_mb_cur_max"
+            ], 
+            "rpm": "alfont-2.0.9-10.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libalfont.so.2.0.9"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " alfont", 
+            "License": " FTL", 
+            "URL": " http://chernsha.sitesled.com/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-10.phx2.fedoraproject.org", 
+            "Description": "\nalfont also known as AllegroFont or AlFont is a wrapper around the freetype2\nlibrary for use with the Allegro game library. Thus allowing the display of\ntext using freetype fonts on Allegro bitmaps.\n", 
+            "Build Date": " Fri 10 Feb 2017 12:56:54 AM EST", 
+            "Source RPM": " alfont-2.0.9-10.fc26.src.rpm", 
+            "Version": " 2.0.9", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 13 Feb 2017 02:57:06 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 10.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Font rendering library for the Allegro game library", 
+            "Size": " 69977"
+        }
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/bin/tolua++": {
+            "report-functions": [
+                "tolua_endmodule", 
+                "tolua_dobuffer", 
+                "lua_getfield", 
+                "tolua_beginmodule", 
+                "lua_settop", 
+                "tolua_module", 
+                "lua_createtable", 
+                "lua_objlen", 
+                "luaL_openlibs", 
+                "tolua_open", 
+                "lua_gettop", 
+                "lua_setfield", 
+                "luaL_newstate", 
+                "__libc_start_main", 
+                "lua_rawseti", 
+                "__fprintf_chk", 
+                "exit", 
+                "lua_pushvalue", 
+                "fwrite", 
+                "lua_pushstring"
+            ], 
+            "rpm": "compat-tolua++-devel-1.0.93-5.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/tolua++"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " compat-tolua++-devel", 
+            "License": " MIT", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-17.phx2.fedoraproject.org", 
+            "Description": "\nDevelopment files for compat-tolua++.\n", 
+            "Build Date": " Fri 10 Feb 2017 08:49:17 AM EST", 
+            "Source RPM": " compat-tolua++-1.0.93-5.fc26.src.rpm", 
+            "Version": " 1.0.93", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 10 Feb 2017 11:55:12 AM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 5.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Development files for compat-tolua++", 
+            "Size": " 138692"
+        }
+    }
+}

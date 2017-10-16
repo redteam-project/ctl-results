@@ -1,0 +1,84 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/liballegro_physfs_so_5_2_0": {
+            "report-functions": [
+                "al_ustr_new", 
+                "PHYSFS_tell", 
+                "PHYSFS_mkdir", 
+                "al_ustr_to_buffer", 
+                "PHYSFS_flush", 
+                "al_calloc_with_context", 
+                "PHYSFS_getLastError", 
+                "PHYSFS_isDirectory", 
+                "al_cstr", 
+                "al_ustr_append_cstr", 
+                "PHYSFS_freeList", 
+                "al_create_path", 
+                "al_free_with_context", 
+                "_ITM_deregisterTMCloneTable", 
+                "PHYSFS_getLastModTime", 
+                "_ITM_registerTMCloneTable", 
+                "PHYSFS_close", 
+                "PHYSFS_eof", 
+                "al_set_errno", 
+                "al_ustr_size", 
+                "PHYSFS_openAppend", 
+                "al_ustr_append_chr", 
+                "PHYSFS_delete", 
+                "PHYSFS_exists", 
+                "al_fopen_interface", 
+                "al_malloc_with_context", 
+                "al_set_fs_interface", 
+                "PHYSFS_enumerateFiles", 
+                "PHYSFS_openWrite", 
+                "al_ustr_prev_get", 
+                "al_set_new_file_interface", 
+                "__gmon_start__", 
+                "al_path_cstr", 
+                "PHYSFS_write", 
+                "al_ustr_free", 
+                "PHYSFS_fileLength", 
+                "__cxa_finalize", 
+                "PHYSFS_read", 
+                "al_destroy_path", 
+                "al_get_file_userdata", 
+                "strncpy", 
+                "PHYSFS_openRead"
+            ], 
+            "rpm": "allegro5-addon-physfs-5.2.0-2.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/liballegro_physfs.so.5.2.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " allegro5-addon-physfs", 
+            "License": " zlib", 
+            "URL": " http://liballeg.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-08.phx2.fedoraproject.org", 
+            "Description": "\nThis package provides the physfs addon for the Allegro 5 library. This\naddon provides an interface to the PhysicsFS library, allowing you to\nmount virtual file-systems (e.g., archives) and access files as if they\nwere physically on the file-system.\n", 
+            "Build Date": " Fri 10 Feb 2017 01:00:20 AM EST", 
+            "Source RPM": " allegro5-5.2.0-2.fc26.src.rpm", 
+            "Version": " 5.2.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 13 Feb 2017 01:56:13 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 2.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Physfs addon for the Allegro 5 library", 
+            "Size": " 15812"
+        }
+    }
+}

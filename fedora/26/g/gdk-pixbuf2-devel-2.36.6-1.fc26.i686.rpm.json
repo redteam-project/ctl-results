@@ -1,0 +1,86 @@
+{
+    "results": {
+        "usr/bin/gdk-pixbuf-csource": {
+            "report-functions": [
+                "g_free", 
+                "g_fprintf", 
+                "g_log_set_always_fatal", 
+                "__gmon_start__", 
+                "__libc_start_main", 
+                "gdk_pixdata_from_pixbuf", 
+                "strcmp", 
+                "strncmp", 
+                "_ITM_registerTMCloneTable", 
+                "_ITM_deregisterTMCloneTable", 
+                "g_object_unref", 
+                "__cxa_finalize", 
+                "g_error_free", 
+                "gdk_pixbuf_new_from_file", 
+                "g_strdup", 
+                "exit"
+            ], 
+            "rpm": "gdk-pixbuf2-devel-2.36.6-1.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/gdk-pixbuf-csource"
+        }, 
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/bin/gdk-pixbuf-pixdata": {
+            "report-functions": [
+                "g_log_set_always_fatal", 
+                "gdk_pixdata_from_pixbuf", 
+                "g_error_free", 
+                "g_free", 
+                "g_printerr", 
+                "__stack_chk_fail", 
+                "gdk_pixbuf_new_from_file", 
+                "exit", 
+                "__gmon_start__", 
+                "__libc_start_main", 
+                "__cxa_finalize", 
+                "g_file_set_contents", 
+                "g_object_unref", 
+                "gdk_pixdata_serialize", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "gdk-pixbuf2-devel-2.36.6-1.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/gdk-pixbuf-pixdata"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " gdk-pixbuf2-devel", 
+            "License": " LGPLv2+", 
+            "URL": " http://www.gtk.org", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-10.phx2.fedoraproject.org", 
+            "Description": "\nThis package contains the libraries and header files that are needed\nfor writing applications that are using gdk-pixbuf.\n", 
+            "Build Date": " Mon 03 Apr 2017 06:58:26 AM EDT", 
+            "Source RPM": " gdk-pixbuf2-2.36.6-1.fc26.src.rpm", 
+            "Version": " 2.36.6", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 03 Apr 2017 07:35:47 AM EDT, Key ID 812a6b4b64dab85d", 
+            "Release": " 1.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Development files for gdk-pixbuf", 
+            "Size": " 1221302"
+        }
+    }
+}

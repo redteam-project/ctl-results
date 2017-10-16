@@ -1,0 +1,104 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/bin/compface": {
+            "report-functions": [
+                "__errno_location", 
+                "strlen", 
+                "__stpcpy_chk", 
+                "__cxa_finalize", 
+                "read", 
+                "_setjmp", 
+                "_ITM_registerTMCloneTable", 
+                "strerror", 
+                "open", 
+                "GenFace", 
+                "CompAll", 
+                "exit", 
+                "write", 
+                "__libc_start_main", 
+                "__gmon_start__"
+            ], 
+            "rpm": "compface-1.5.2-22.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/compface"
+        }, 
+        "usr/bin/uncompface": {
+            "report-functions": [
+                "read", 
+                "__errno_location", 
+                "__libc_start_main", 
+                "_ITM_registerTMCloneTable", 
+                "strerror", 
+                "open", 
+                "__stpcpy_chk", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize", 
+                "uncompface", 
+                "write", 
+                "strlen"
+            ], 
+            "rpm": "compface-1.5.2-22.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/uncompface"
+        }, 
+        "usr/lib/libcompface_so_1_0_0": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "fwrite", 
+                "__isoc99_sscanf", 
+                "_setjmp", 
+                "__cxa_finalize", 
+                "__longjmp_chk", 
+                "strlen", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__"
+            ], 
+            "rpm": "compface-1.5.2-22.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libcompface.so.1.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " compface", 
+            "License": " MIT", 
+            "URL": " http://ftp.xemacs.org/pub/xemacs/aux/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-12.phx2.fedoraproject.org", 
+            "Description": "\nThis is the Compface image compression and decompression library and its\nuser tools. Compface converts 48x48 .xbm format (X bitmap) images to a\ncompressed format that can be placed in the X-Face: mail header. Some mail\nprograms are able to display such images when opening messages.\n", 
+            "Build Date": " Fri 10 Feb 2017 08:49:09 AM EST", 
+            "Source RPM": " compface-1.5.2-22.fc26.src.rpm", 
+            "Version": " 1.5.2", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 10 Feb 2017 12:06:50 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 22.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Library and tools for handling X-Face data", 
+            "Size": " 50509"
+        }
+    }
+}

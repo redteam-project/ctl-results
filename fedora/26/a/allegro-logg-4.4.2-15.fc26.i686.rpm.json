@@ -1,0 +1,66 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/liblogg_so_4_4_2": {
+            "report-functions": [
+                "ov_pcm_total", 
+                "ov_info", 
+                "ov_open_callbacks", 
+                "ftell", 
+                "__cxa_finalize", 
+                "_ITM_deregisterTMCloneTable", 
+                "strncpy", 
+                "stop_audio_stream", 
+                "ov_clear", 
+                "free_audio_stream_buffer", 
+                "free", 
+                "fread", 
+                "calloc", 
+                "__stack_chk_fail", 
+                "uszprintf", 
+                "_al_malloc", 
+                "fopen", 
+                "__gmon_start__", 
+                "ov_read", 
+                "fclose", 
+                "play_audio_stream", 
+                "get_audio_stream_buffer", 
+                "__strdup", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "allegro-logg-4.4.2-15.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/liblogg.so.4.4.2"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " allegro-logg", 
+            "License": " MIT", 
+            "URL": " http://trent.gamblin.ca/logg/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-10.phx2.fedoraproject.org", 
+            "Description": "\nLOGG is an Allegro add-on library for playing OGG/Vorbis audio files.\n", 
+            "Build Date": " Fri 10 Feb 2017 12:57:54 AM EST", 
+            "Source RPM": " allegro-4.4.2-15.fc26.src.rpm", 
+            "Version": " 4.4.2", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 13 Feb 2017 03:15:17 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 15.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " OGG/Vorbis library for the Allegro game library", 
+            "Size": " 11505"
+        }
+    }
+}

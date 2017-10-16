@@ -1,0 +1,107 @@
+{
+    "results": {
+        "usr/lib/libfakeroot/libfakeroot-sysv_so": {
+            "report-functions": [
+                "msgrcv", 
+                "strtol", 
+                "semop", 
+                "semget", 
+                "_ITM_deregisterTMCloneTable", 
+                "open", 
+                "msgget", 
+                "strlen", 
+                "getpid", 
+                "setenv", 
+                "unsetenv", 
+                "openat", 
+                "_ITM_registerTMCloneTable", 
+                "perror", 
+                "umask", 
+                "__errno_location", 
+                "close", 
+                "dlerror", 
+                "exit", 
+                "getenv", 
+                "msgsnd", 
+                "__gmon_start__", 
+                "dlsym", 
+                "__snprintf_chk", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "fakeroot-libs-1.21-3.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libfakeroot/libfakeroot-sysv.so"
+        }, 
+        "usr/lib/libfakeroot/libfakeroot-tcp_so": {
+            "report-functions": [
+                "strlen", 
+                "strerror", 
+                "socket", 
+                "__stack_chk_fail", 
+                "__memcpy_chk", 
+                "__cxa_finalize", 
+                "getenv", 
+                "fcntl", 
+                "pthread_mutex_lock", 
+                "connect", 
+                "dup", 
+                "strtol", 
+                "__fprintf_chk", 
+                "__snprintf_chk", 
+                "_ITM_deregisterTMCloneTable", 
+                "read", 
+                "umask", 
+                "open", 
+                "dlsym", 
+                "_ITM_registerTMCloneTable", 
+                "__errno_location", 
+                "write", 
+                "__gmon_start__", 
+                "openat", 
+                "dlerror", 
+                "unsetenv", 
+                "pthread_mutex_unlock"
+            ], 
+            "rpm": "fakeroot-libs-1.21-3.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libfakeroot/libfakeroot-tcp.so"
+        }, 
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Tools", 
+            "Name": " fakeroot-libs", 
+            "License": " GPLv3+ and LGPLv2+ and (GPL+ or Artistic)", 
+            "URL": " http://fakeroot.alioth.debian.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-02.phx2.fedoraproject.org", 
+            "Description": "\nThis package contains the libraries required by fakeroot.\n", 
+            "Build Date": " Fri 10 Feb 2017 10:41:30 AM EST", 
+            "Source RPM": " fakeroot-1.21-3.fc26.src.rpm", 
+            "Version": " 1.21", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 10 Feb 2017 07:03:02 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 3.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Gives a fake root environment (libraries)", 
+            "Size": " 107688"
+        }
+    }
+}

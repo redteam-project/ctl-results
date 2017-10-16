@@ -1,0 +1,85 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/libsdp_so_6_1_1": {
+            "report-functions": [
+                "fputc", 
+                "__cxa_finalize", 
+                "strtod", 
+                "omp_get_max_threads", 
+                "dasum_", 
+                "_ITM_deregisterTMCloneTable", 
+                "__printf_chk", 
+                "signal", 
+                "GOMP_loop_dynamic_start", 
+                "_IO_getc", 
+                "omp_get_thread_num", 
+                "dpotrf_", 
+                "GOMP_loop_dynamic_next", 
+                "__isoc99_sscanf", 
+                "fopen", 
+                "sqrt", 
+                "malloc", 
+                "strtol", 
+                "__fprintf_chk", 
+                "ungetc", 
+                "qsort", 
+                "exit", 
+                "puts", 
+                "GOMP_parallel", 
+                "__stack_chk_fail", 
+                "dnrm2_", 
+                "dtrtri_", 
+                "dgemm_", 
+                "__gmon_start__", 
+                "idamax_", 
+                "ddot_", 
+                "__isoc99_fscanf", 
+                "GOMP_loop_end_nowait", 
+                "ATL_dgemm", 
+                "__gcc_personality_v0", 
+                "dgemv_", 
+                "fclose", 
+                "_ITM_registerTMCloneTable", 
+                "fflush", 
+                "dpotrs_", 
+                "free", 
+                "GOMP_barrier", 
+                "omp_get_num_threads"
+            ], 
+            "rpm": "csdp-6.1.1-13.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libsdp.so.6.1.1"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " csdp", 
+            "License": " CPL", 
+            "URL": " https://projects.coin-or.org/Csdp/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-27.phx2.fedoraproject.org", 
+            "Description": "\nCSDP is a library of routines that implements a predictor corrector\nvariant of the semidefinite programming algorithm of Helmberg, Rendl,\nVanderbei, and Wolkowicz.  The main advantages of this code are that it\nis written to be used as a callable subroutine, it is written in C for\nefficiency, the code runs in parallel on shared memory multiprocessor\nsystems, and it makes effective use of sparsity in the constraint\nmatrices.\n", 
+            "Build Date": " Fri 10 Feb 2017 09:08:08 AM EST", 
+            "Source RPM": " csdp-6.1.1-13.fc26.src.rpm", 
+            "Version": " 6.1.1", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 10 Feb 2017 01:15:15 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 13.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " C library for SemiDefinite Programming", 
+            "Size": " 364012"
+        }
+    }
+}

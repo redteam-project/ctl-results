@@ -1,0 +1,91 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/libcpptest_so_0_0_7": {
+            "report-functions": [
+                "_ZNSt6localeC1Ev", 
+                "_Znwj", 
+                "_ZNSt8ios_base4InitC1Ev", 
+                "_ZSt16__throw_bad_castv", 
+                "_ZdlPvj", 
+                "_ZNKSt5ctypeIcE13_M_widen_initEv", 
+                "_ZNSo5flushEv", 
+                "_ZNSt9basic_iosIcSt11char_traitsIcEE4initEPSt15basic_streambufIcS1_E", 
+                "_ZNSt8ios_baseD2Ev", 
+                "_ZNSt11logic_errorD2Ev", 
+                "_ZSt24__throw_out_of_range_fmtPKcz", 
+                "_ITM_registerTMCloneTable", 
+                "gettimeofday", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_assignERKS4_", 
+                "_ZNSt8ios_baseC2Ev", 
+                "_ZNSt8ios_base4InitD1Ev", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_replaceEjjPKcj", 
+                "strlen", 
+                "_ZNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEE7_M_syncEPcjj", 
+                "__cxa_end_catch", 
+                "__cxa_atexit", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ZNSt6localeD1Ev", 
+                "_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_i", 
+                "_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE4findEcj", 
+                "_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7compareEjjRKS4_", 
+                "__gxx_personality_v0", 
+                "_ZNSo9_M_insertImEERSoT_", 
+                "__gmon_start__", 
+                "_ZdlPv", 
+                "_ZNKSt11logic_error4whatEv", 
+                "__cxa_allocate_exception", 
+                "_ZSt19__throw_logic_errorPKc", 
+                "__cxa_finalize", 
+                "_ZNSolsEi", 
+                "_ZNSt8__detail15_List_node_base7_M_hookEPS0_", 
+                "_ZNSo3putEc", 
+                "_Unwind_Resume", 
+                "__cxa_begin_catch", 
+                "_ZNSt11logic_errorC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE", 
+                "_ZNSt9basic_iosIcSt11char_traitsIcEE5clearESt12_Ios_Iostate", 
+                "__assert_fail", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERjj", 
+                "_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE4findEPKcjj", 
+                "_ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEED1Ev", 
+                "__cxa_free_exception", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7reserveEj", 
+                "__cxa_throw", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "cpptest-1.1.2-7.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libcpptest.so.0.0.7"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " cpptest", 
+            "License": " LGPLv2+", 
+            "URL": " http://cpptest.sourceforge.net/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-24.phx2.fedoraproject.org", 
+            "Description": "\nCppTest is a portable and powerful, yet simple, unit testing framework\nfor handling automated tests in C++. The focus lies on usability and\nextendability.\n", 
+            "Build Date": " Fri 10 Feb 2017 09:03:00 AM EST", 
+            "Source RPM": " cpptest-1.1.2-7.fc26.src.rpm", 
+            "Version": " 1.1.2", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sun 12 Feb 2017 04:23:16 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 7.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A portable and powerful and simple unit testing framework for C++", 
+            "Size": " 187790"
+        }
+    }
+}

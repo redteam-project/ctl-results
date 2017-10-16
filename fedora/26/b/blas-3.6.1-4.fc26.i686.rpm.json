@@ -1,0 +1,53 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/libblas_so_3_6_1": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "cabs", 
+                "__gmon_start__", 
+                "cabsf", 
+                "_gfortran_string_len_trim", 
+                "_gfortran_st_write", 
+                "__cxa_finalize", 
+                "_gfortran_stop_string", 
+                "_gfortran_transfer_integer_write", 
+                "_gfortran_st_write_done", 
+                "_gfortran_transfer_character_write"
+            ], 
+            "rpm": "blas-3.6.1-4.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libblas.so.3.6.1"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " blas", 
+            "License": " BSD", 
+            "URL": " http://www.netlib.org/lapack/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-07.phx2.fedoraproject.org", 
+            "Description": "\nBLAS (Basic Linear Algebra Subprograms) is a standard library which\nprovides a number of basic algorithms for numerical algebra.\n", 
+            "Build Date": " Fri 10 Feb 2017 08:34:14 PM EST", 
+            "Source RPM": " lapack-3.6.1-4.fc26.src.rpm", 
+            "Version": " 3.6.1", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 11 Feb 2017 12:31:51 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 4.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " The Basic Linear Algebra Subprograms library", 
+            "Size": " 760039"
+        }
+    }
+}

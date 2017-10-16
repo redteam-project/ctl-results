@@ -1,0 +1,96 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/libgdbm_compat_so_3_0_0": {
+            "report-functions": [
+                "unlink", 
+                "gdbm_nextkey", 
+                "strcasecmp", 
+                "__cxa_finalize", 
+                "getenv", 
+                "malloc", 
+                "gdbm_firstkey", 
+                "strtol", 
+                "__xstat", 
+                "__gmon_start__", 
+                "__stack_chk_fail", 
+                "gdbm_delete", 
+                "_ITM_deregisterTMCloneTable", 
+                "free", 
+                "gdbm_open", 
+                "gdbm_fetch", 
+                "gdbm_store", 
+                "gdbm_close", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "compat-gdbm-1.8.3-23.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libgdbm_compat.so.3.0.0"
+        }, 
+        "usr/lib/libgdbm_so_3_0_0": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "strlen", 
+                "__cxa_finalize", 
+                "free", 
+                "close", 
+                "malloc", 
+                "__gmon_start__", 
+                "unlink", 
+                "lseek", 
+                "fcntl", 
+                "open", 
+                "write", 
+                "fsync", 
+                "rename", 
+                "ftruncate", 
+                "calloc", 
+                "__errno_location", 
+                "read", 
+                "__fxstat", 
+                "exit", 
+                "_ITM_deregisterTMCloneTable", 
+                "bcmp"
+            ], 
+            "rpm": "compat-gdbm-1.8.3-23.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libgdbm.so.3.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " compat-gdbm", 
+            "License": " GPLv2+", 
+            "URL": " http://www.gnu.org/software/gdbm/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-17.phx2.fedoraproject.org", 
+            "Description": "\nGdbm is a GNU database indexing library, including routines which use\nextensible hashing.  Gdbm works in a similar way to standard UNIX dbm\nroutines.  Gdbm is useful for developers who write C applications and\nneed access to a simple and efficient database or who are building C\napplications which will use such a database.\n\nThis package contains older version of gdbm which was included in\nprevious release of Fedora.\n", 
+            "Build Date": " Fri 10 Feb 2017 08:50:02 AM EST", 
+            "Source RPM": " compat-gdbm-1.8.3-23.fc26.src.rpm", 
+            "Version": " 1.8.3", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 10 Feb 2017 12:14:39 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 23.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A GNU set of database routines compatibility library", 
+            "Size": " 56849"
+        }
+    }
+}

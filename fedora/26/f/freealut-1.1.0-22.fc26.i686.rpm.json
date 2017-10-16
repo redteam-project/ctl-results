@@ -1,0 +1,75 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/libalut_so_0_1_0": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "__errno_location", 
+                "malloc", 
+                "_ITM_deregisterTMCloneTable", 
+                "alcMakeContextCurrent", 
+                "ungetc", 
+                "alcCreateContext", 
+                "__xstat", 
+                "strcpy", 
+                "__fprintf_chk", 
+                "fclose", 
+                "alcOpenDevice", 
+                "free", 
+                "sin", 
+                "alBufferData", 
+                "nanosleep", 
+                "ferror", 
+                "isupper", 
+                "alcGetError", 
+                "alcGetCurrentContext", 
+                "strlen", 
+                "alcGetContextsDevice", 
+                "getenv", 
+                "alcDestroyContext", 
+                "__gmon_start__", 
+                "random", 
+                "alGetError", 
+                "alGenBuffers", 
+                "alcCloseDevice", 
+                "fgetc", 
+                "fopen", 
+                "fread", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "freealut-1.1.0-22.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libalut.so.0.1.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " freealut", 
+            "License": " LGPLv2", 
+            "URL": " http://openal.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-09.phx2.fedoraproject.org", 
+            "Description": "\nfreealut is a free implementation of OpenAL's ALUT standard. See the file\nAUTHORS for the people involved.\n", 
+            "Build Date": " Fri 10 Feb 2017 11:11:32 AM EST", 
+            "Source RPM": " freealut-1.1.0-22.fc26.src.rpm", 
+            "Version": " 1.1.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 10 Feb 2017 08:17:57 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 22.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Implementation of OpenAL's ALUT standard", 
+            "Size": " 92011"
+        }
+    }
+}

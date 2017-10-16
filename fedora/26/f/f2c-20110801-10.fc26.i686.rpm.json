@@ -1,0 +1,89 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/bin/f2c": {
+            "report-functions": [
+                "memcmp", 
+                "fflush", 
+                "__isoc99_fscanf", 
+                "strcmp", 
+                "malloc", 
+                "free", 
+                "__stack_chk_fail", 
+                "__ctype_tolower_loc", 
+                "__ctype_b_loc", 
+                "fopen", 
+                "mkdtemp", 
+                "strtol", 
+                "fork", 
+                "strncpy", 
+                "rmdir", 
+                "puts", 
+                "fwrite", 
+                "__sprintf_chk", 
+                "__vsprintf_chk", 
+                "calloc", 
+                "fputs", 
+                "ferror", 
+                "getpid", 
+                "signal", 
+                "__strcpy_chk", 
+                "strchr", 
+                "strncmp", 
+                "__fprintf_chk", 
+                "strcpy", 
+                "exit", 
+                "fgets", 
+                "qsort", 
+                "fclose", 
+                "__gmon_start__", 
+                "_IO_getc", 
+                "__printf_chk", 
+                "setbuf", 
+                "__cxa_atexit", 
+                "__strncpy_chk", 
+                "strlen", 
+                "__libc_start_main", 
+                "unlink", 
+                "wait", 
+                "strtod", 
+                "feof", 
+                "ungetc", 
+                "realloc"
+            ], 
+            "rpm": "f2c-20110801-10.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/f2c"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Languages", 
+            "Name": " f2c", 
+            "License": " MIT", 
+            "URL": " http://netlib.org/f2c/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-05.phx2.fedoraproject.org", 
+            "Description": "\nF2c converts Fortran 77 source code to C or C++ source files. If no\nFortran files are named on the command line, f2c can read Fortran from\nstandard input and write C to standard output.\n", 
+            "Build Date": " Fri 10 Feb 2017 10:41:11 AM EST", 
+            "Source RPM": " f2c-20110801-10.fc26.src.rpm", 
+            "Version": " 20110801", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 10 Feb 2017 07:02:05 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 10.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A Fortran 77 to C/C++ conversion program", 
+            "Size": " 671057"
+        }
+    }
+}

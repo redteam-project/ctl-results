@@ -1,0 +1,46 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/libfreetiger_so_0_0_5": {
+            "report-functions": [
+                "__memcpy_chk", 
+                "__gmon_start__", 
+                "__stack_chk_fail", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "freetiger-5-7.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libfreetiger.so.0.0.5"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " freetiger", 
+            "License": " BSD", 
+            "URL": " http://klondike.es/freetiger", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-05.phx2.fedoraproject.org", 
+            "Description": "\nfreetiger is an implementation of the tiger hash algorithm made looking\nonly at the tiger reference paper (thus ignoring the reference code until\na working implementation was made). It also includes a modified version\nof the main program included with the tiger reference implementation which\nwas used for benchmarking purposes.\n\nIt has been optimized for usage in the TTH calculation algorithm and\nincludes optimized versions that will calculate the hashes for the\n1024 byte file chunks and the 48 byte hash concatenation appending the\nproper suffix automatically thus minimizing memory to memory copying.\n\nAlso freetiger features interleaved hashing where the hashes of two\ndifferent blocks are calculated at the same time interleaving the\noperations of one and the other. Using this increases the\nimplementation performance.\n\nfreetiger also supports SSE2 for key scheduling during the tiger rounds\nwhich also increases performance on processors supporting it and\nprovides an implementation of the partial hashing scheme for a more\nsecure password storage when authenticating clients using the GPA\ncommand in ADC.\n", 
+            "Build Date": " Fri 10 Feb 2017 11:13:03 AM EST", 
+            "Source RPM": " freetiger-5-7.fc26.src.rpm", 
+            "Version": " 5", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 10 Feb 2017 08:38:02 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 7.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Free implementation of the tiger hash algorithm", 
+            "Size": " 56369"
+        }
+    }
+}

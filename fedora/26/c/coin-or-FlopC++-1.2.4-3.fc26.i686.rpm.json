@@ -1,0 +1,90 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/libFlopCpp_so_0_0_0": {
+            "report-functions": [
+                "__cxa_get_exception_ptr", 
+                "_ZNSt9basic_iosIcSt11char_traitsIcEE4initEPSt15basic_streambufIcS1_E", 
+                "_ZN16CoinPackedVector6insertEid", 
+                "_Unwind_Resume", 
+                "_ZNSo5flushEv", 
+                "_ZNSolsEi", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_atexit", 
+                "_ZN16CoinPackedVectorD1Ev", 
+                "__cxa_pure_virtual", 
+                "_ZdaPv", 
+                "_ZN16CoinPackedMatrixC1EbiiiPKdPKiS3_S3_", 
+                "_Znwj", 
+                "_ZNSo9_M_insertIdEERSoT_", 
+                "_ZNSt8ios_base4InitD1Ev", 
+                "__stack_chk_fail", 
+                "__cxa_finalize", 
+                "_ZNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEED1Ev", 
+                "_ZSt18_Rb_tree_incrementPKSt18_Rb_tree_node_base", 
+                "_ZNSt6localeD1Ev", 
+                "_ZNSo3putEc", 
+                "_ZSt20__throw_length_errorPKc", 
+                "_ZNSt8ios_base4InitC1Ev", 
+                "_ZNKSt5ctypeIcE13_M_widen_initEv", 
+                "_ZSt16__throw_bad_castv", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERjj", 
+                "_ZSt19__throw_logic_errorPKc", 
+                "_ZSt29_Rb_tree_insert_and_rebalancebPSt18_Rb_tree_node_baseS0_RS_", 
+                "_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_", 
+                "__assert_fail", 
+                "getrusage", 
+                "__gmon_start__", 
+                "_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_i", 
+                "_ZSt17__throw_bad_allocv", 
+                "_ZdlPvj", 
+                "_ZNSt6localeC1Ev", 
+                "__gxx_personality_v0", 
+                "_ZN16CoinPackedMatrixD1Ev", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_assignERKS4_", 
+                "__cxa_begin_catch", 
+                "_ZSt18_Rb_tree_decrementPSt18_Rb_tree_node_base", 
+                "_ZNSo9_M_insertImEERSoT_", 
+                "_Znaj", 
+                "__cxa_throw_bad_array_new_length", 
+                "_ZNSt8ios_baseD2Ev", 
+                "_ITM_registerTMCloneTable", 
+                "_ZN16CoinPackedVectorC1Eb", 
+                "_ZNSt8ios_baseC2Ev"
+            ], 
+            "rpm": "coin-or-FlopC++-1.2.4-3.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libFlopCpp.so.0.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Applications/Engineering", 
+            "Name": " coin-or-FlopC++", 
+            "License": " EPL", 
+            "URL": " http://www.coin-or.org/modules/FlopC++.xml", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-19.phx2.fedoraproject.org", 
+            "Description": "\nAn open source algebraic modelling language implemented as a C++ class\nlibrary.\n\nUsing FLOPC++, linear optimization models can be specified in a declarative\nstyle, similar to algebraic modelling languages such as GAMS and AMPL,\nwithin a C++ program. As a result the traditional strengths of algebraic\nmodelling languages are preserved, while embedding linear optimization\nmodels in software applications is facilitated.\n\nFLOPC++ can be used as a substitute for traditional modelling languages,\nwhen modelling linear optimization problems, but its principal strength\nlies in the fact that the modelling facilities are combined with a\npowerful general purpose programming language. This combination is\nessential for implementing efficient algorithms (using linear optimization\nfor subproblems), integrating optimization models in user applications, etc.\n", 
+            "Build Date": " Mon 15 May 2017 07:08:43 PM EDT", 
+            "Source RPM": " coin-or-FlopC++-1.2.4-3.fc26.src.rpm", 
+            "Version": " 1.2.4", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 22 May 2017 05:09:40 PM EDT, Key ID 812a6b4b64dab85d", 
+            "Release": " 3.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Algebraic modelling language", 
+            "Size": " 255706"
+        }
+    }
+}

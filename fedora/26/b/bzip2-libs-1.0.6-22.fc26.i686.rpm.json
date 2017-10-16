@@ -1,0 +1,60 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/libbz2_so_1_0_6": {
+            "report-functions": [
+                "fdopen", 
+                "fopen64", 
+                "fclose", 
+                "fgetc", 
+                "__gmon_start__", 
+                "ungetc", 
+                "fwrite", 
+                "fflush", 
+                "__stack_chk_fail", 
+                "fputc", 
+                "free", 
+                "malloc", 
+                "fread", 
+                "_ITM_deregisterTMCloneTable", 
+                "ferror", 
+                "__ctype_b_loc", 
+                "__cxa_finalize", 
+                "__fprintf_chk"
+            ], 
+            "rpm": "bzip2-libs-1.0.6-22.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libbz2.so.1.0.6"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " bzip2-libs", 
+            "License": " BSD", 
+            "URL": " http://www.bzip.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-02.phx2.fedoraproject.org", 
+            "Description": "\n\nLibraries for applications using the bzip2 compression format.\n", 
+            "Build Date": " Fri 10 Feb 2017 02:25:05 AM EST", 
+            "Source RPM": " bzip2-1.0.6-22.fc26.src.rpm", 
+            "Version": " 1.0.6", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 13 Feb 2017 04:03:26 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 22.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Libraries for applications using bzip2", 
+            "Size": " 69025"
+        }
+    }
+}

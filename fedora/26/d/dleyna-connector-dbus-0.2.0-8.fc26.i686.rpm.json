@@ -1,0 +1,75 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/dleyna-1_0/connectors/libdleyna-connector-dbus_so": {
+            "report-functions": [
+                "g_dbus_connection_register_object", 
+                "g_str_equal", 
+                "g_str_hash", 
+                "g_hash_table_insert", 
+                "g_free", 
+                "g_bus_own_name", 
+                "g_bus_unwatch_name", 
+                "_ITM_registerTMCloneTable", 
+                "__gmon_start__", 
+                "g_strdup", 
+                "g_bus_unown_name", 
+                "g_malloc", 
+                "g_object_unref", 
+                "g_dbus_interface_info_ref", 
+                "g_direct_hash", 
+                "g_hash_table_unref", 
+                "g_dbus_method_invocation_return_value", 
+                "g_dbus_connection_unregister_subtree", 
+                "strcmp", 
+                "g_dbus_node_info_new_for_xml", 
+                "g_dbus_connection_emit_signal", 
+                "g_dbus_connection_unregister_object", 
+                "g_malloc0", 
+                "_ITM_deregisterTMCloneTable", 
+                "g_dbus_node_info_unref", 
+                "g_direct_equal", 
+                "g_dbus_connection_register_subtree", 
+                "__cxa_finalize", 
+                "g_dbus_method_invocation_return_gerror", 
+                "g_bus_watch_name", 
+                "g_malloc0_n", 
+                "g_hash_table_lookup", 
+                "g_hash_table_remove"
+            ], 
+            "rpm": "dleyna-connector-dbus-0.2.0-8.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/dleyna-1.0/connectors/libdleyna-connector-dbus.so"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " dleyna-connector-dbus", 
+            "License": " LGPLv2", 
+            "URL": " https://01.org/dleyna/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-31.phx2.fedoraproject.org", 
+            "Description": "\nD-Bus connector for dLeyna services.\n", 
+            "Build Date": " Fri 10 Feb 2017 09:31:10 AM EST", 
+            "Source RPM": " dleyna-connector-dbus-0.2.0-8.fc26.src.rpm", 
+            "Version": " 0.2.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 10 Feb 2017 04:06:25 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 8.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " D-Bus connector for dLeyna services", 
+            "Size": " 43371"
+        }
+    }
+}

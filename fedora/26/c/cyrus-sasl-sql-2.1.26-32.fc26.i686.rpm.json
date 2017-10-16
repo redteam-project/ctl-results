@@ -1,0 +1,84 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/sasl2/libsql_so_3_0_0": {
+            "report-functions": [
+                "mysql_fetch_row", 
+                "mysql_real_connect", 
+                "strchr", 
+                "PQexec", 
+                "mysql_field_count", 
+                "PQconnectdb", 
+                "PQntuples", 
+                "_ITM_registerTMCloneTable", 
+                "mysql_escape_string", 
+                "freeaddrinfo", 
+                "__snprintf_chk", 
+                "PQerrorMessage", 
+                "mysql_init", 
+                "strcat", 
+                "strerror", 
+                "PQstatus", 
+                "PQclear", 
+                "uname", 
+                "__gmon_start__", 
+                "mysql_store_result", 
+                "strncpy", 
+                "PQresultStatus", 
+                "getaddrinfo", 
+                "PQescapeString", 
+                "strlen", 
+                "mysql_errno", 
+                "strcpy", 
+                "PQfinish", 
+                "mysql_error", 
+                "PQresStatus", 
+                "PQgetvalue", 
+                "mysql_real_query", 
+                "strcasecmp", 
+                "__ctype_b_loc", 
+                "_ITM_deregisterTMCloneTable", 
+                "__memcpy_chk", 
+                "mysql_free_result", 
+                "stpcpy", 
+                "mysql_close", 
+                "free", 
+                "__stack_chk_fail", 
+                "strtoul"
+            ], 
+            "rpm": "cyrus-sasl-sql-2.1.26-32.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/sasl2/libsql.so.3.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " cyrus-sasl-sql", 
+            "License": " BSD with advertising", 
+            "URL": " http://asg.web.cmu.edu/sasl/sasl-library.html", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-14.phx2.fedoraproject.org", 
+            "Description": "\nThe cyrus-sasl-sql package contains the Cyrus SASL plugin which supports\nusing a RDBMS for storing shared secrets.\n", 
+            "Build Date": " Wed 19 Apr 2017 09:13:36 AM EDT", 
+            "Source RPM": " cyrus-sasl-2.1.26-32.fc26.src.rpm", 
+            "Version": " 2.1.26", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Wed 19 Apr 2017 09:20:17 AM EDT, Key ID 812a6b4b64dab85d", 
+            "Release": " 32.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " SQL auxprop support for Cyrus SASL", 
+            "Size": " 31556"
+        }
+    }
+}

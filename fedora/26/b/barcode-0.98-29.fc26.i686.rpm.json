@@ -1,0 +1,75 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/bin/barcode": {
+            "report-functions": [
+                "stpcpy", 
+                "exit", 
+                "free", 
+                "strcmp", 
+                "puts", 
+                "fputc", 
+                "strcasecmp", 
+                "getenv", 
+                "__isoc99_sscanf", 
+                "_IO_putc", 
+                "__strdup", 
+                "strcat", 
+                "strcpy", 
+                "__strncpy_chk", 
+                "__sprintf_chk", 
+                "__stack_chk_fail", 
+                "__errno_location", 
+                "__strcat_chk", 
+                "fgets", 
+                "strerror", 
+                "__strcpy_chk", 
+                "__ctype_toupper_loc", 
+                "malloc", 
+                "__fprintf_chk", 
+                "strncpy", 
+                "strlen", 
+                "fopen", 
+                "__libc_start_main", 
+                "fwrite", 
+                "__gmon_start__", 
+                "getopt", 
+                "strtol", 
+                "calloc"
+            ], 
+            "rpm": "barcode-0.98-29.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/barcode"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Applications/Text", 
+            "Name": " barcode", 
+            "License": " GPLv2+", 
+            "URL": " http://www.gnu.org/software/barcode/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-28.phx2.fedoraproject.org", 
+            "Description": "\nBarcode is meant to solve most needs in barcode creation with a\nconventional printer. It can create printouts for the conventional\nproduct tagging standards: UPC-A, UPC-E, EAN-13, EAN-8, ISBN, as well\nas a few other formats. Ouput is generated as either Postscript or\nEncapsulated Postscript.\n", 
+            "Build Date": " Fri 10 Feb 2017 01:56:27 AM EST", 
+            "Source RPM": " barcode-0.98-29.fc26.src.rpm", 
+            "Version": " 0.98", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 13 Feb 2017 05:30:07 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 29.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " generates barcodes from text strings", 
+            "Size": " 176203"
+        }
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/R/library/mvtnorm/libs/mvtnorm_so": {
+            "report-functions": [
+                "Rf_dnorm4", 
+                "exp", 
+                "fmod", 
+                "Rprintf", 
+                "_ITM_registerTMCloneTable", 
+                "sin", 
+                "R_registerRoutines", 
+                "atan", 
+                "log", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize", 
+                "atan2", 
+                "LENGTH", 
+                "__gmon_start__", 
+                "Rf_pt", 
+                "R_useDynamicSymbols", 
+                "PutRNGstate", 
+                "INTEGER", 
+                "REAL", 
+                "Rf_pnorm5", 
+                "Rf_protect", 
+                "Rf_qchisq", 
+                "Rf_allocVector", 
+                "Rf_unprotect", 
+                "pow", 
+                "R_RegisterCCallable", 
+                "GetRNGstate", 
+                "__stack_chk_fail", 
+                "asin"
+            ], 
+            "rpm": "R-mvtnorm-1.0.6-1.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/R/library/mvtnorm/libs/mvtnorm.so"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Applications/Engineering", 
+            "Name": " R-mvtnorm", 
+            "License": " GPLv2", 
+            "URL": " http://cran.r-project.org/web/packages/mvtnorm/index.html", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-18.phx2.fedoraproject.org", 
+            "Description": "\nThis R package computes multivariate normal and t probabilities, quantiles\nand densities.\n", 
+            "Build Date": " Wed 31 May 2017 09:25:05 AM EDT", 
+            "Source RPM": " R-mvtnorm-1.0.6-1.fc26.src.rpm", 
+            "Version": " 1.0.6", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 09 Jun 2017 07:23:59 PM EDT, Key ID 812a6b4b64dab85d", 
+            "Release": " 1.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Multivariate normal and T distribution R Package", 
+            "Size": " 273670"
+        }
+    }
+}

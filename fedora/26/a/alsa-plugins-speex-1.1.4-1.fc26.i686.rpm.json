@@ -1,0 +1,94 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/alsa-lib/libasound_module_rate_speexrate_so": {
+            "report-functions": [
+                "calloc", 
+                "speex_resampler_reset_mem", 
+                "speex_resampler_init_frac", 
+                "snd_output_printf", 
+                "__cxa_finalize", 
+                "speex_resampler_set_rate_frac", 
+                "_ITM_registerTMCloneTable", 
+                "speex_resampler_get_ratio", 
+                "_ITM_deregisterTMCloneTable", 
+                "speex_resampler_destroy", 
+                "__gmon_start__", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "alsa-plugins-speex-1.1.4-1.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/alsa-lib/libasound_module_rate_speexrate.so"
+        }, 
+        "usr/lib/alsa-lib/libasound_module_pcm_speex_so": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "speex_preprocess_state_destroy", 
+                "_ITM_registerTMCloneTable", 
+                "speex_preprocess_run", 
+                "speex_echo_capture", 
+                "calloc", 
+                "speex_preprocess_ctl", 
+                "free", 
+                "snd_config_get_bool", 
+                "speex_preprocess_state_init", 
+                "speex_echo_ctl", 
+                "speex_echo_state_init", 
+                "snd_pcm_extplug_create", 
+                "snd_config_iterator_next", 
+                "snd_config_get_integer", 
+                "speex_echo_playback", 
+                "snd_pcm_extplug_set_param_list", 
+                "snd_pcm_extplug_set_slave_param_list", 
+                "strcmp", 
+                "snd_config_iterator_entry", 
+                "snd_config_iterator_end", 
+                "snd_config_iterator_first", 
+                "malloc", 
+                "__gmon_start__", 
+                "snd_config_get_ireal", 
+                "speex_echo_state_destroy", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "alsa-plugins-speex-1.1.4-1.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/alsa-lib/libasound_module_pcm_speex.so"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " alsa-plugins-speex", 
+            "License": " LGPLv2+", 
+            "URL": " http://www.alsa-project.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-21.phx2.fedoraproject.org", 
+            "Description": "\nThe rate plugin is an external rate converter using the Speex resampler\n(aka Public Parrot Hack) by Jean-Marc Valin. The pcm plugin provides\npre-processing of a mono stream like denoise using libspeex DSP API.\n", 
+            "Build Date": " Tue 16 May 2017 09:15:06 AM EDT", 
+            "Source RPM": " alsa-plugins-1.1.4-1.fc26.src.rpm", 
+            "Version": " 1.1.4", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 23 May 2017 03:33:57 PM EDT, Key ID 812a6b4b64dab85d", 
+            "Release": " 1.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Rate Converter Plugin Using Speex Resampler", 
+            "Size": " 67682"
+        }
+    }
+}

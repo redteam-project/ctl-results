@@ -1,0 +1,64 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/libboost_container_so_1_63_0": {
+            "report-functions": [
+                "_ZNSt9bad_allocD1Ev", 
+                "_Znaj", 
+                "__cxa_throw", 
+                "sbrk", 
+                "__gmon_start__", 
+                "sched_yield", 
+                "__errno_location", 
+                "sysconf", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ZdaPv", 
+                "munmap", 
+                "abort", 
+                "__stack_chk_fail", 
+                "_Unwind_Resume", 
+                "__cxa_finalize", 
+                "time", 
+                "_ZdlPvj", 
+                "mmap", 
+                "__cxa_atexit", 
+                "mremap", 
+                "__cxa_allocate_exception", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "boost-container-1.63.0-5.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libboost_container.so.1.63.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " boost-container", 
+            "License": " Boost and MIT and Python", 
+            "URL": " http://www.boost.org", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-25.phx2.fedoraproject.org", 
+            "Description": "\n\nBoost.Container library implements several well-known containers,\nincluding STL containers. The aim of the library is to offers advanced\nfeatures not present in standard containers or to offer the latest\nstandard draft features for compilers that comply with C++03.\n", 
+            "Build Date": " Sun 12 Mar 2017 12:17:05 PM EDT", 
+            "Source RPM": " boost-1.63.0-5.fc26.src.rpm", 
+            "Version": " 1.63.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sun 12 Mar 2017 01:46:10 PM EDT, Key ID 812a6b4b64dab85d", 
+            "Release": " 5.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Run-time component of boost container library", 
+            "Size": " 82674"
+        }
+    }
+}

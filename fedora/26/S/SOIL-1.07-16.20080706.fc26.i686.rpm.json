@@ -1,0 +1,72 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/libSOIL_so_1_07-20071110": {
+            "report-functions": [
+                "malloc", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "_ITM_deregisterTMCloneTable", 
+                "glTexParameteri", 
+                "ftell", 
+                "__stack_chk_fail", 
+                "glTexImage2D", 
+                "glXGetProcAddressARB", 
+                "glDeleteTextures", 
+                "strstr", 
+                "fgetc", 
+                "fread", 
+                "__assert_fail", 
+                "glGetIntegerv", 
+                "fwrite", 
+                "realloc", 
+                "strtol", 
+                "glBindTexture", 
+                "free", 
+                "fseek", 
+                "fclose", 
+                "glGenTextures", 
+                "glGetString", 
+                "glReadPixels", 
+                "__cxa_finalize", 
+                "feof", 
+                "fopen", 
+                "ldexp", 
+                "sqrtf"
+            ], 
+            "rpm": "SOIL-1.07-16.20080706.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libSOIL.so.1.07-20071110"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " SOIL", 
+            "License": " Publ1ic Domain and MIT", 
+            "URL": " http://www.lonesock.net/soil.html", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-15.phx2.fedoraproject.org", 
+            "Description": "\nSOIL is a tiny C library used primarily for uploading textures into OpenGL. It\nis based on stb_image version 1.16, the public domain code from Sean Barrett.\nThe author has extended it to load TGA and DDS files, and to perform common\nfunctions needed in loading OpenGL textures. SOIL can also be used to save and\nload images in a variety of formats (useful for loading height maps, non-OpenGL\napplications, etc.)\n", 
+            "Build Date": " Fri 10 Feb 2017 12:39:36 AM EST", 
+            "Source RPM": " SOIL-1.07-16.20080706.fc26.src.rpm", 
+            "Version": " 1.07", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 13 Feb 2017 02:50:06 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 16.20080706.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Simple OpenGL Image Library", 
+            "Size": " 112241"
+        }
+    }
+}

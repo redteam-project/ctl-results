@@ -1,0 +1,55 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/libchipmunk_so_5_3_4": {
+            "report-functions": [
+                "__printf_chk", 
+                "_ITM_deregisterTMCloneTable", 
+                "realloc", 
+                "__gmon_start__", 
+                "malloc", 
+                "__stack_chk_fail", 
+                "puts", 
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable", 
+                "abort", 
+                "free", 
+                "__sprintf_chk", 
+                "calloc"
+            ], 
+            "rpm": "chipmunk-5.3.4-13.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libchipmunk.so.5.3.4"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " chipmunk", 
+            "License": " MIT", 
+            "URL": " http://code.google.com/p/chipmunk-physics/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-21.phx2.fedoraproject.org", 
+            "Description": "\nChipmunk is a 2D rigid body physics library distributed under the MIT license.\nThough not yet complete, it is intended to be fast, numerically stable, and\neasy to use.\n", 
+            "Build Date": " Tue 21 Feb 2017 01:39:14 PM EST", 
+            "Source RPM": " chipmunk-5.3.4-13.fc26.src.rpm", 
+            "Version": " 5.3.4", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 21 Feb 2017 01:58:35 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 13.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Physics engine for 2D games", 
+            "Size": " 119409"
+        }
+    }
+}

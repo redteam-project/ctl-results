@@ -1,0 +1,80 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/libBcps_so_1_7_4": {
+            "report-functions": [
+                "_Unwind_Resume", 
+                "_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_i", 
+                "_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7compareEPKc", 
+                "_ITM_registerTMCloneTable", 
+                "_ZN12CoinMessagesC2Ei", 
+                "_ZNSo5flushEv", 
+                "__cxa_atexit", 
+                "_ZdaPv", 
+                "_ZdlPvj", 
+                "_ZSt18_Rb_tree_incrementPSt18_Rb_tree_node_base", 
+                "_Znwj", 
+                "__gmon_start__", 
+                "_ZSt19__throw_logic_errorPKc", 
+                "_ZSt29_Rb_tree_insert_and_rebalancebPSt18_Rb_tree_node_baseS0_RS_", 
+                "_ZSt16__throw_bad_castv", 
+                "_ZNSt8ios_base4InitC1Ev", 
+                "__cxa_finalize", 
+                "memmove", 
+                "_ZNKSt5ctypeIcE13_M_widen_initEv", 
+                "_ZN14CoinOneMessageC1EicPKc", 
+                "_ZNSo9_M_insertIdEERSoT_", 
+                "_ZN12CoinMessagesD2Ev", 
+                "__assert_fail", 
+                "__gxx_personality_v0", 
+                "_ITM_deregisterTMCloneTable", 
+                "_Znaj", 
+                "__stack_chk_fail", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERjj", 
+                "_ZNK13AlpsKnowledge6decodeER11AlpsEncoded", 
+                "_ZN14CoinOneMessageD1Ev", 
+                "_ZNK13AlpsKnowledge6encodeEv", 
+                "_ZdlPv", 
+                "_ZN12CoinMessages10addMessageEiRK14CoinOneMessage", 
+                "__cxa_pure_virtual", 
+                "__dynamic_cast", 
+                "_ZNSo3putEc", 
+                "_ZSt18_Rb_tree_decrementPSt18_Rb_tree_node_base", 
+                "__cxa_throw_bad_array_new_length"
+            ], 
+            "rpm": "coin-or-Bcps-0.94.4-3.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libBcps.so.1.7.4"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Applications/Engineering", 
+            "Name": " coin-or-Bcps", 
+            "License": " EPL", 
+            "URL": " http://projects.coin-or.org/CHiPPS", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-20.phx2.fedoraproject.org", 
+            "Description": "\nBiCePS is one of the libraries that make up the CHiPPS (COIN High Performance\nParallel Search Framework) library hierarchy. It implements that data-handling\nfunctions needed to support development of many types of relaxation-based\nbranch-and-bound algorithms, especially for solving mathematical programs. It\nis intended to capture the implementation of methods common to all such\nalgorithms without assuming anything about the structure of the mathematical\nprogram or the bounding method used. BLIS, which is another layer built on top\nof BiCePS, is a concretization of Bcps for the case of mixed integer linear\nprograms. DIP is another implementation being developed using BLIS that\nimplements a decomposition-based bounding procedure.\n", 
+            "Build Date": " Mon 15 May 2017 07:30:27 PM EDT", 
+            "Source RPM": " coin-or-Bcps-0.94.4-3.fc26.src.rpm", 
+            "Version": " 0.94.4", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 22 May 2017 05:07:36 PM EDT, Key ID 812a6b4b64dab85d", 
+            "Release": " 3.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Part of the COIN High Performance Parallel Search Framework", 
+            "Size": " 65237"
+        }
+    }
+}

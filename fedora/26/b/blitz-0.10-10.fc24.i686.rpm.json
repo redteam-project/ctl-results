@@ -1,0 +1,50 @@
+{
+    "results": {
+        "usr/lib/libblitz_so_0_0_0": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_atexit", 
+                "_Jv_RegisterClasses", 
+                "__cxa_finalize", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev", 
+                "__gmon_start__", 
+                "_ZNSt8ios_base4InitC1Ev", 
+                "_ZNSt8ios_base4InitD1Ev"
+            ], 
+            "rpm": "blitz-0.10-10.fc24.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libblitz.so.0.0.0"
+        }, 
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " blitz", 
+            "License": " LGPLv3+ or BSD or Artistic 2.0", 
+            "URL": " http://sourceforge.net/projects/blitz", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-02-nfs.phx2.fedoraproject.org", 
+            "Description": "\nBlitz++ is a C++ class library for scientific computing which provides\nperformance on par with Fortran 77/90. It uses template techniques to achieve\nhigh performance. Blitz++ provides dense arrays and vectors, random number\ngenerators, and small vectors\n", 
+            "Build Date": " Wed 03 Feb 2016 01:13:31 PM EST", 
+            "Source RPM": " blitz-0.10-10.fc24.src.rpm", 
+            "Version": " 0.10", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 23 Sep 2016 09:54:30 PM EDT, Key ID 812a6b4b64dab85d", 
+            "Release": " 10.fc24", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " C++ class library for matrix scientific computing", 
+            "Size": " 67185"
+        }
+    }
+}

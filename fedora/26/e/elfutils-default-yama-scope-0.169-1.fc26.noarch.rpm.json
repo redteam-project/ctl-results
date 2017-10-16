@@ -1,0 +1,38 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "elfutils-default-yama-scope-0_169-1_fc26_noarch_rpm": {
+            "report-functions": [], 
+            "rpm": "elfutils-default-yama-scope-0.169-1.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {}, 
+            "filename": "elfutils-default-yama-scope-0.169-1.fc26.noarch.rpm"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Tools", 
+            "Name": " elfutils-default-yama-scope", 
+            "License": " GPLv2+ or LGPLv3+", 
+            "URL": " http://elfutils.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-20.phx2.fedoraproject.org", 
+            "Description": "\nYama sysctl setting to enable default attach scope settings\nenabling programs to use ptrace attach, access to\n/proc/PID/{mem,personality,stack,syscall}, and the syscalls\nprocess_vm_readv and process_vm_writev which are used for\ninterprocess services, communication and introspection\n(like synchronisation, signaling, debugging, tracing and\nprofiling) of processes.\n", 
+            "Build Date": " Fri 05 May 2017 06:17:47 AM EDT", 
+            "Source RPM": " elfutils-0.169-1.fc26.src.rpm", 
+            "Version": " 0.169", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Fri 05 May 2017 07:27:07 AM EDT, Key ID 812a6b4b64dab85d", 
+            "Release": " 1.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Default yama attach scope sysctl setting", 
+            "Size": " 1810"
+        }
+    }
+}

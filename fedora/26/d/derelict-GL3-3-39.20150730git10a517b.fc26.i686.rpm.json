@@ -1,0 +1,85 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/libDerelictGL3_so_3_0_0": {
+            "report-functions": [
+                "_D4core10checkedint4muluFNaNbNiNfkkKbZk", 
+                "_D8derelict4util9exception17DerelictException6__ctorMFAyaZC8derelict4util9exception17DerelictException", 
+                "memcmp", 
+                "_d_arraysetlengthT", 
+                "__gmon_start__", 
+                "_D8derelict4util9exception19SymbolLoadException6__vtblZ", 
+                "_D8derelict4util9exception17DerelictException6__initZ", 
+                "_d_newitemiT", 
+                "_D6object9Exception6__ctorMFNaNbNiNfAyaAyakC6object9ThrowableZC9Exception", 
+                "_D6object6Object5opCmpMFC6ObjectZi", 
+                "_D8derelict4util6loader15SharedLibLoader7__ClassZ", 
+                "_D8derelict4util9exception19SymbolLoadException7__ClassZ", 
+                "_ITM_deregisterTMCloneTable", 
+                "_D8derelict4util9exception17DerelictException7__ClassZ", 
+                "strstr", 
+                "_D8derelict4util9exception17DerelictException6__vtblZ", 
+                "_D6object6Object6toHashMFNbNeZk", 
+                "memcpy", 
+                "_D8derelict4util6loader15SharedLibLoader6__ctorMFAyaZC8derelict4util6loader15SharedLibLoader", 
+                "_D8derelict4util6loader15SharedLibLoader8bindFuncMFPPvAyabZv", 
+                "_D8derelict4util9exception19SymbolLoadException6__ctorMFAyaZC8derelict4util9exception19SymbolLoadException", 
+                "_D8derelict4util6loader15SharedLibLoader23configureMinimumVersionMFS8derelict4util6loader16SharedLibVersionZv", 
+                "_d_arraybounds", 
+                "_D8derelict4util6loader15SharedLibLoader10loadSymbolMFAyabZPv", 
+                "_d_allocclass", 
+                "_D6object6Object8toStringMFZAya", 
+                "_D6object6Object8opEqualsMFC6ObjectZb", 
+                "_D4core6memory2GC6extendFNaNbPvkkxC8TypeInfoZk", 
+                "_D8derelict4util9exception19SymbolLoadException6__initZ", 
+                "_D3std6string9toStringzFNaNbNexAyaZPya", 
+                "_d_eh_enter_catch", 
+                "_d_eh_personality", 
+                "___tls_get_addr", 
+                "strcmp", 
+                "_D6object8TypeInfo8postblitMxFPvZv", 
+                "__cxa_finalize", 
+                "_D4core5bitop3bsrFNaNbNiNfkZi", 
+                "_d_dso_registry", 
+                "_ITM_registerTMCloneTable", 
+                "_d_eh_resume_unwind", 
+                "_d_arraysetcapacity", 
+                "_d_throw_exception", 
+                "_D4core6memory2GC6qallocFNaNbkkxC8TypeInfoZS4core6memory8BlkInfo_"
+            ], 
+            "rpm": "derelict-GL3-3-39.20150730git10a517b.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libDerelictGL3.so.3.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " derelict-GL3", 
+            "License": " Boost", 
+            "URL": " http://www.dsource.org/projects/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-30.phx2.fedoraproject.org", 
+            "Description": "\nLibraries for GL3 to use in D programming language.\n", 
+            "Build Date": " Wed 14 Jun 2017 02:16:08 AM EDT", 
+            "Source RPM": " derelict-3-39.20150730git10a517b.fc26.src.rpm", 
+            "Version": " 3", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Wed 14 Jun 2017 03:07:56 AM EDT, Key ID 812a6b4b64dab85d", 
+            "Release": " 39.20150730git10a517b.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Libraries to use GL3", 
+            "Size": " 1035492"
+        }
+    }
+}

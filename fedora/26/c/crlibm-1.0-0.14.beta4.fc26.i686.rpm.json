@@ -1,0 +1,58 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/libcrlibm_so_0_0_0": {
+            "report-functions": [
+                "__printf_chk", 
+                "scs_set_d", 
+                "scs_mul", 
+                "scs_get_d", 
+                "scs_square", 
+                "_ITM_deregisterTMCloneTable", 
+                "scs_sub", 
+                "scs_get_d_pinf", 
+                "__cxa_finalize", 
+                "scs_inv", 
+                "__stack_chk_fail", 
+                "scs_set", 
+                "_ITM_registerTMCloneTable", 
+                "scs_get_d_minf", 
+                "scs_add", 
+                "scs_div"
+            ], 
+            "rpm": "crlibm-1.0-0.14.beta4.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libcrlibm.so.0.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " crlibm", 
+            "License": " LGPLv2+", 
+            "URL": " http://lipforge.ens-lyon.fr/www/crlibm/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-09.phx2.fedoraproject.org", 
+            "Description": "\nCRlibm is a free mathematical library (libm) which provides:\n* implementations of the double-precision C99 standard elementary functions,\n* correctly rounded in the four IEEE-754 rounding modes,\n* with a comprehensive proof of both the algorithms used and their\n  implementation,\n* sufficiently efficient in average time, worst-case time, and memory\n  consumption to replace existing libms transparently.\n", 
+            "Build Date": " Fri 10 Feb 2017 09:07:22 AM EST", 
+            "Source RPM": " crlibm-1.0-0.14.beta4.fc26.src.rpm", 
+            "Version": " 1.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 10 Feb 2017 01:09:41 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 0.14.beta4.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Correctly Rounded mathematical library", 
+            "Size": " 649280"
+        }
+    }
+}

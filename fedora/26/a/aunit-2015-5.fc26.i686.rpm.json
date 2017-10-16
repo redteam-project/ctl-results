@@ -1,0 +1,87 @@
+{
+    "results": {
+        "usr/lib/aunit/libaunit_so_2015": {
+            "report-functions": [
+                "__gmon_start__", 
+                "__stack_chk_fail", 
+                "system__soft_links__save_library_occurrence", 
+                "__gnat_rcheck_CE_Access_Check", 
+                "_ITM_registerTMCloneTable", 
+                "__gnat_rcheck_CE_Overflow_Check", 
+                "__gnat_rcheck_CE_Invalid_Data", 
+                "__gnat_rcheck_CE_Range_Check", 
+                "system__finalization_masters__set_base_pool", 
+                "__gnat_set_exception_parameter", 
+                "ada__calendar__cumulative_leap_seconds", 
+                "ada__tags__unregister_tag", 
+                "gnat__io__put_line__2", 
+                "gnat__io__new_line__2", 
+                "__gnat_begin_handler", 
+                "ada__exceptions__exception_name__2", 
+                "ada__calendar__time_of", 
+                "__gnat_rcheck_CE_Index_Check", 
+                "ada__exceptions__exception_message", 
+                "__gnat_rcheck_PE_Accessibility_Check", 
+                "system__traceback__symbolic__symbolic_traceback__2", 
+                "__gnat_rcheck_CE_Discriminant_Check", 
+                "__gnat_rcheck_PE_Explicit_Raise", 
+                "gnat__io__put__2", 
+                "__gnat_end_handler", 
+                "__gnat_rcheck_CE_Tag_Check", 
+                "__gnat_malloc", 
+                "__gnat_free", 
+                "memcmp", 
+                "system__finalization_masters__finalize", 
+                "system__os_primitives__clock", 
+                "__cxa_finalize", 
+                "gnat__io__put__6", 
+                "system__exp_int__exp_integer", 
+                "system__finalization_masters__set_finalize_address", 
+                "__gnat_rcheck_CE_Explicit_Raise", 
+                "__gnat_personality_v0", 
+                "system__secondary_stack__ss_allocate", 
+                "ada__tags__register_tag", 
+                "__gnat_raise_exception", 
+                "_ITM_deregisterTMCloneTable", 
+                "ada__tags__check_tsd", 
+                "system__secondary_stack__ss_release", 
+                "system__secondary_stack__ss_mark", 
+                "system__finalization_masters__initialize__2"
+            ], 
+            "rpm": "aunit-2015-5.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/aunit/libaunit.so.2015"
+        }, 
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Languages", 
+            "Name": " aunit", 
+            "License": " GPLv2+", 
+            "URL": " http://libre.adacore.com/libre/tools/aunit", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-11.phx2.fedoraproject.org", 
+            "Description": "\nUnit test framework for Ada\n", 
+            "Build Date": " Mon 13 Feb 2017 02:22:46 PM EST", 
+            "Source RPM": " aunit-2015-5.fc26.src.rpm", 
+            "Version": " 2015", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 13 Feb 2017 02:33:48 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 5.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Unit test framework for Ada", 
+            "Size": " 202849"
+        }
+    }
+}

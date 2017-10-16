@@ -1,0 +1,82 @@
+{
+    "results": {
+        "usr/lib/sasl2/libgs2_so_3_0_0": {
+            "report-functions": [
+                "gss_compare_name", 
+                "strcpy", 
+                "strcmp", 
+                "gss_accept_sec_context", 
+                "__ctype_b_loc", 
+                "__gmon_start__", 
+                "gss_display_status", 
+                "gss_release_cred", 
+                "gss_inquire_mech_for_saslname", 
+                "__stack_chk_fail", 
+                "strchr", 
+                "uname", 
+                "gss_inquire_saslname_for_mech", 
+                "_ITM_registerTMCloneTable", 
+                "freeaddrinfo", 
+                "gss_init_sec_context", 
+                "gss_release_name", 
+                "gss_release_oid_set", 
+                "__snprintf_chk", 
+                "memchr", 
+                "gss_release_buffer", 
+                "gss_indicate_mechs_by_attrs", 
+                "strlen", 
+                "strerror", 
+                "gss_inquire_cred", 
+                "strncpy", 
+                "_ITM_deregisterTMCloneTable", 
+                "gss_test_oid_set_member", 
+                "gss_delete_sec_context", 
+                "gss_decapsulate_token", 
+                "strcat", 
+                "gss_encapsulate_token", 
+                "__memcpy_chk", 
+                "gss_acquire_cred", 
+                "gss_display_name", 
+                "gss_inquire_context", 
+                "gss_acquire_cred_with_password", 
+                "getaddrinfo", 
+                "__cxa_finalize", 
+                "gss_inquire_attrs_for_mech"
+            ], 
+            "rpm": "cyrus-sasl-gs2-2.1.26-32.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/sasl2/libgs2.so.3.0.0"
+        }, 
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " cyrus-sasl-gs2", 
+            "License": " BSD with advertising", 
+            "URL": " http://asg.web.cmu.edu/sasl/sasl-library.html", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-14.phx2.fedoraproject.org", 
+            "Description": "\nThe cyrus-sasl-gs2 package contains the Cyrus SASL plugin which supports\nthe GS2 authentication scheme.\n", 
+            "Build Date": " Wed 19 Apr 2017 09:13:36 AM EDT", 
+            "Source RPM": " cyrus-sasl-2.1.26-32.fc26.src.rpm", 
+            "Version": " 2.1.26", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Wed 19 Apr 2017 09:20:10 AM EDT, Key ID 812a6b4b64dab85d", 
+            "Release": " 32.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " GS2 support for Cyrus SASL", 
+            "Size": " 35628"
+        }
+    }
+}

@@ -1,0 +1,83 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/libbibutils_so_5_5": {
+            "report-functions": [
+                "__ctype_b_loc", 
+                "__sprintf_chk", 
+                "__gmon_start__", 
+                "strncasecmp", 
+                "strlen", 
+                "strncpy", 
+                "qsort", 
+                "strcmp", 
+                "strtoll", 
+                "fopen", 
+                "calloc", 
+                "strncat", 
+                "fflush", 
+                "fgetc", 
+                "__assert_fail", 
+                "strncmp", 
+                "ungetc", 
+                "_ITM_registerTMCloneTable", 
+                "strtol", 
+                "feof", 
+                "strstr", 
+                "__ctype_tolower_loc", 
+                "malloc", 
+                "__stack_chk_fail", 
+                "__strdup", 
+                "__cxa_finalize", 
+                "free", 
+                "fputs", 
+                "fclose", 
+                "strcasecmp", 
+                "rand", 
+                "__ctype_toupper_loc", 
+                "strchr", 
+                "realloc", 
+                "fputc", 
+                "_ITM_deregisterTMCloneTable", 
+                "__fprintf_chk", 
+                "__rawmemchr", 
+                "exit", 
+                "fgets", 
+                "progname"
+            ], 
+            "rpm": "bibutils-libs-5.5-4.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libbibutils.so.5.5"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " bibutils-libs", 
+            "License": " GPL+", 
+            "URL": " http://sourceforge.net/p/bibutils/home/Bibutils/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-20.phx2.fedoraproject.org", 
+            "Description": "\nBibutils library.\n", 
+            "Build Date": " Fri 10 Feb 2017 02:01:11 AM EST", 
+            "Source RPM": " bibutils-5.5-4.fc26.src.rpm", 
+            "Version": " 5.5", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 13 Feb 2017 02:25:36 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 4.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Bibutils library", 
+            "Size": " 1691016"
+        }
+    }
+}

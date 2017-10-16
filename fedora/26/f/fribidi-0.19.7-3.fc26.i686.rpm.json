@@ -1,0 +1,89 @@
+{
+    "results": {
+        "usr/bin/fribidi": {
+            "report-functions": [
+                "fribidi_char_set_name", 
+                "__libc_start_main", 
+                "fribidi_char_set_title", 
+                "fribidi_charset_to_unicode", 
+                "exit", 
+                "__printf_chk", 
+                "__fprintf_chk", 
+                "fribidi_remove_bidi_marks", 
+                "free", 
+                "getenv", 
+                "fopen", 
+                "_ITM_deregisterTMCloneTable", 
+                "fribidi_char_set_desc", 
+                "fribidi_get_bidi_type", 
+                "getopt_long", 
+                "strtol", 
+                "fribidi_set_reorder_nsm", 
+                "fribidi_unicode_to_charset", 
+                "fribidi_set_debug", 
+                "fribidi_parse_charset", 
+                "strlen", 
+                "fribidi_set_mirroring", 
+                "__cxa_finalize", 
+                "fribidi_log2vis", 
+                "_ITM_registerTMCloneTable", 
+                "fgets", 
+                "__gmon_start__"
+            ], 
+            "rpm": "fribidi-0.19.7-3.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/fribidi"
+        }, 
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/libfribidi_so_0_3_6": {
+            "report-functions": [
+                "__fprintf_chk", 
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable", 
+                "__stack_chk_fail", 
+                "__sprintf_chk", 
+                "free"
+            ], 
+            "rpm": "fribidi-0.19.7-3.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libfribidi.so.0.3.6"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " fribidi", 
+            "License": " LGPLv2+ and UCD", 
+            "URL": " http://fribidi.org", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-04.phx2.fedoraproject.org", 
+            "Description": "\nA library to handle bidirectional scripts (for example Hebrew, Arabic),\nso that the display is done in the proper way; while the text data itself\nis always written in logical order.\n", 
+            "Build Date": " Fri 10 Feb 2017 11:12:30 AM EST", 
+            "Source RPM": " fribidi-0.19.7-3.fc26.src.rpm", 
+            "Version": " 0.19.7", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 10 Feb 2017 08:31:57 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 3.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Library implementing the Unicode Bidirectional Algorithm", 
+            "Size": " 233559"
+        }
+    }
+}

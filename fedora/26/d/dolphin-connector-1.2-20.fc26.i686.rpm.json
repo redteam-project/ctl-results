@@ -1,0 +1,77 @@
+{
+    "results": {
+        "usr/lib/libdolphinconn_so_1_2_0": {
+            "report-functions": [
+                "__gmon_start__", 
+                "mysql_store_result", 
+                "mysql_affected_rows", 
+                "_Znaj", 
+                "mysql_close", 
+                "mysql_init", 
+                "mysql_thread_end", 
+                "__stack_chk_fail", 
+                "mysql_insert_id", 
+                "mysql_fetch_lengths", 
+                "_ITM_deregisterTMCloneTable", 
+                "strtod", 
+                "mysql_options", 
+                "mysql_num_fields", 
+                "mysql_sqlstate", 
+                "mysql_fetch_row", 
+                "mysql_num_rows", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERjj", 
+                "strtoull", 
+                "mysql_server_end", 
+                "mysql_set_character_set", 
+                "mysql_real_query", 
+                "strlen", 
+                "_ITM_registerTMCloneTable", 
+                "mysql_real_escape_string", 
+                "mysql_errno", 
+                "mysql_server_init", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_replaceEjjPKcj", 
+                "mysql_error", 
+                "mysql_free_result", 
+                "mysql_real_connect", 
+                "__cxa_finalize", 
+                "strtoll", 
+                "_ZdaPv", 
+                "strtol"
+            ], 
+            "rpm": "dolphin-connector-1.2-20.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libdolphinconn.so.1.2.0"
+        }, 
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " dolphin-connector", 
+            "License": " BSD", 
+            "URL": " https://github.com/poetinha/dolphin-connector", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-08.phx2.fedoraproject.org", 
+            "Description": "\nDolphin Connector is a simple MySQL C API wrapper for C++.\n\nIt is originally designed to be as efficient as is possible,\nand makes no use of exceptions.\n", 
+            "Build Date": " Fri 10 Feb 2017 09:36:50 AM EST", 
+            "Source RPM": " dolphin-connector-1.2-20.fc26.src.rpm", 
+            "Version": " 1.2", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 10 Feb 2017 04:19:23 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 20.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Simple MySQL C API wrapper for C++", 
+            "Size": " 16737"
+        }
+    }
+}

@@ -1,0 +1,84 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/libfstrm_so_0_0_0": {
+            "report-functions": [
+                "pthread_cond_timedwait", 
+                "read", 
+                "sendmsg", 
+                "fcntl", 
+                "connect", 
+                "malloc", 
+                "fopen64", 
+                "free", 
+                "socket", 
+                "__strdup", 
+                "_ITM_deregisterTMCloneTable", 
+                "calloc", 
+                "memcmp", 
+                "__errno_location", 
+                "ferror", 
+                "__gmon_start__", 
+                "feof", 
+                "__stack_chk_fail", 
+                "close", 
+                "fclose", 
+                "strlen", 
+                "sigaddset", 
+                "pthread_condattr_setclock", 
+                "pthread_join", 
+                "pthread_mutex_init", 
+                "__cxa_finalize", 
+                "fread", 
+                "pthread_cond_signal", 
+                "pthread_mutex_unlock", 
+                "memmove", 
+                "realloc", 
+                "fwrite", 
+                "__assert_fail", 
+                "pthread_sigmask", 
+                "pthread_condattr_init", 
+                "sigemptyset", 
+                "strncpy", 
+                "pthread_condattr_destroy", 
+                "pthread_create", 
+                "pthread_mutex_lock", 
+                "clock_gettime", 
+                "pthread_mutex_destroy"
+            ], 
+            "rpm": "fstrm-0.3.0-2.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libfstrm.so.0.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " fstrm", 
+            "License": " ASL 2.0", 
+            "URL": " https://github.com/farsightsec/fstrm", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-29.phx2.fedoraproject.org", 
+            "Description": "\nFrame Streams is a light weight, binary clean protocol that allows for the\ntransport of arbitrarily encoded data payload sequences with minimal framing\noverhead -- just four bytes per data frame. Frame Streams does not specify\nan encoding format for data frames and can be used with any data serialization\nformat that produces byte sequences, such as Protocol Buffers, XML, JSON,\nMessagePack, YAML, etc.\n", 
+            "Build Date": " Fri 10 Feb 2017 11:18:32 AM EST", 
+            "Source RPM": " fstrm-0.3.0-2.fc26.src.rpm", 
+            "Version": " 0.3.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 10 Feb 2017 08:41:48 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 2.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Frame Streams implementation in C", 
+            "Size": " 51672"
+        }
+    }
+}

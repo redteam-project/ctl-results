@@ -1,0 +1,45 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/libfastlz_so_0": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "_ITM_deregisterTMCloneTable", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "fastlz-0.1.0-0.4.20070619svnrev12.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libfastlz.so.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " fastlz", 
+            "License": " MIT", 
+            "URL": " http://fastlz.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-16.phx2.fedoraproject.org", 
+            "Description": "\nFastLZ is a lossless data compression library designed for real-time\ncompression and decompression. It favors speed over compression ratio.\nDecompression requires no memory. Decompression algorithm is very simple,\nand thus extremely fast.\n", 
+            "Build Date": " Fri 10 Feb 2017 10:40:09 AM EST", 
+            "Source RPM": " fastlz-0.1.0-0.4.20070619svnrev12.fc26.src.rpm", 
+            "Version": " 0.1.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 10 Feb 2017 06:57:23 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 0.4.20070619svnrev12.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Portable real-time compression library", 
+            "Size": " 11562"
+        }
+    }
+}

@@ -1,0 +1,82 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/libglite_lb_statemachine_so_6_0_9": {
+            "report-functions": [
+                "edg_wll_StringToCreamStat", 
+                "trio_asprintf", 
+                "strlen", 
+                "edg_wll_StatToString", 
+                "malloc", 
+                "__snprintf_chk", 
+                "__isoc99_sscanf", 
+                "glite_jobid_free", 
+                "edg_wll_CreamStatToString", 
+                "_ITM_registerTMCloneTable", 
+                "edg_wll_SourceToString", 
+                "strcasecmp", 
+                "glite_jobid_unparse", 
+                "edg_wll_EventToString", 
+                "edg_wll_CopyTagList", 
+                "realloc", 
+                "strtol", 
+                "strstr", 
+                "edg_wll_FreeStatus", 
+                "__fprintf_chk", 
+                "sscanf", 
+                "edg_wll_InitStatus", 
+                "strchr", 
+                "edg_wll_StringToStat", 
+                "snprintf", 
+                "calloc", 
+                "__stack_chk_fail", 
+                "__printf_chk", 
+                "_ITM_deregisterTMCloneTable", 
+                "__syslog_chk", 
+                "__assert_fail", 
+                "__cxa_finalize", 
+                "free", 
+                "edg_wll_gss_equal_subj", 
+                "glite_jobid_parse", 
+                "glite_jobid_dup", 
+                "qsort", 
+                "__strdup", 
+                "strcmp", 
+                "__sprintf_chk"
+            ], 
+            "rpm": "glite-lb-state-machine-2.0.9-5.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libglite_lb_statemachine.so.6.0.9"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " glite-lb-state-machine", 
+            "License": " ASL 2.0", 
+            "URL": " http://glite.cern.ch", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-07.phx2.fedoraproject.org", 
+            "Description": "\nglite-lb-state-machine is the gLite L&B job state machine -- server core\nprocessing L&B events to produce job state presented to the user. This package\ncontains the state machine library (linked by server) and dynamic plugin (used\nby other tools and Job Provenance).\n", 
+            "Build Date": " Fri 10 Feb 2017 12:52:18 PM EST", 
+            "Source RPM": " glite-lb-state-machine-2.0.9-5.fc26.src.rpm", 
+            "Version": " 2.0.9", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 11 Feb 2017 12:57:46 AM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 5.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " gLite Logging and Bookkeeping state machine", 
+            "Size": " 64467"
+        }
+    }
+}

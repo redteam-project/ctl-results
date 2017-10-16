@@ -1,0 +1,95 @@
+{
+    "results": {
+        "usr/lib/dietlibc/lib-x86_64/start_o": {
+            "report-functions": [
+                "environ", 
+                "exit"
+            ], 
+            "rpm": "dietlibc-devel-0.33-11.fc26.x86_64.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/lib/dietlibc/lib-x86_64/start.o"
+        }, 
+        "usr/lib/dietlibc/include/elf_h": {
+            "report-functions": [], 
+            "rpm": "dietlibc-devel-0.33-11.fc26.x86_64.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {}, 
+            "filename": "usr/lib/dietlibc/include/elf.h"
+        }, 
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/dietlibc/lib-x86_64/dyn_stop_o": {
+            "report-functions": [], 
+            "rpm": "dietlibc-devel-0.33-11.fc26.x86_64.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/lib/dietlibc/lib-x86_64/dyn_stop.o"
+        }, 
+        "usr/lib/dietlibc/lib-x86_64/dyn_start_o": {
+            "report-functions": [], 
+            "rpm": "dietlibc-devel-0.33-11.fc26.x86_64.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/lib/dietlibc/lib-x86_64/dyn_start.o"
+        }, 
+        "usr/lib/dietlibc/include/linux/elf-em_h": {
+            "report-functions": [], 
+            "rpm": "dietlibc-devel-0.33-11.fc26.x86_64.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {}, 
+            "filename": "usr/lib/dietlibc/include/linux/elf-em.h"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " dietlibc-devel", 
+            "License": " GPLv2", 
+            "URL": " http://www.fefe.de/dietlibc/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-09.phx2.fedoraproject.org", 
+            "Description": "\nThe diet libc is a libc that is optimized for small size. It can be\nused to create small statically linked binaries for Linux on alpha,\narm, hppa, ia64, i386, mips, s390, sparc, sparc64, ppc and x86_64.\n\nThis package contains the object files for dietlibc.\n", 
+            "Build Date": " Fri 10 Feb 2017 09:27:27 AM EST", 
+            "Source RPM": " dietlibc-0.33-11.fc26.src.rpm", 
+            "Version": " 0.33", 
+            "Architecture": " x86_64", 
+            "Signature": " RSA/SHA256, Fri 10 Feb 2017 11:13:11 AM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 11.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " dietlibc development files", 
+            "Size": " 2419673"
+        }
+    }
+}

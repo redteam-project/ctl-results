@@ -1,0 +1,87 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/libglobus_usage_so_0_4_5": {
+            "report-functions": [
+                "globus_error_construct_error", 
+                "malloc", 
+                "globus_xio_stack_destroy", 
+                "free", 
+                "globus_xio_stack_push_driver", 
+                "_ITM_registerTMCloneTable", 
+                "globus_list_first", 
+                "globus_xio_close", 
+                "globus_error_put", 
+                "_ITM_deregisterTMCloneTable", 
+                "gettimeofday", 
+                "__gmon_start__", 
+                "globus_xio_handle_create", 
+                "globus_xio_open", 
+                "globus_xio_data_descriptor_destroy", 
+                "globus_module_activate", 
+                "globus_mutex_destroy", 
+                "globus_debug_init", 
+                "__stack_chk_fail", 
+                "globus_mutex_init", 
+                "globus_list_rest", 
+                "globus_libc_addr_to_contact_string", 
+                "fwrite", 
+                "strchr", 
+                "__sprintf_chk", 
+                "calloc", 
+                "globus_list_insert", 
+                "globus_xio_write", 
+                "globus_thread_self", 
+                "globus_module_deactivate", 
+                "globus_libc_strdup", 
+                "globus_libc_gethostname", 
+                "strlen", 
+                "globus_list_destroy_all", 
+                "globus_libc_contact_string_to_ints", 
+                "globus_xio_data_descriptor_cntl", 
+                "__cxa_finalize", 
+                "globus_xio_driver_load", 
+                "globus_list_remove", 
+                "globus_mutex_lock", 
+                "globus_libc_gethostaddr", 
+                "globus_list_empty", 
+                "globus_xio_stack_init", 
+                "globus_xio_data_descriptor_init", 
+                "globus_mutex_unlock"
+            ], 
+            "rpm": "globus-usage-4.5-3.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libglobus_usage.so.0.4.5"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " globus-usage", 
+            "License": " ASL 2.0", 
+            "URL": " http://toolkit.globus.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-03.phx2.fedoraproject.org", 
+            "Description": "\nThe Globus Toolkit is an open source software toolkit used for building Grid\nsystems and applications. It is being developed by the Globus Alliance and\nmany others all over the world. A growing number of projects and companies are\nusing the Globus Toolkit to unlock the potential of grids for their cause.\n\nThe globus-usage package contains:\nUsage Library - client library for the Globus usage statistics collection\nservice\n", 
+            "Build Date": " Tue 28 Mar 2017 07:19:56 AM EDT", 
+            "Source RPM": " globus-usage-4.5-3.fc26.src.rpm", 
+            "Version": " 4.5", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 28 Mar 2017 08:56:50 AM EDT, Key ID 812a6b4b64dab85d", 
+            "Release": " 3.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Globus Toolkit - Usage Library", 
+            "Size": " 25289"
+        }
+    }
+}

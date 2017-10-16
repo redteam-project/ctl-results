@@ -1,0 +1,1632 @@
+{
+    "results": {
+        "usr/arm-none-eabi/lib/redboot-crt0_o": {
+            "report-functions": [
+                "__bss_end__", 
+                "exit", 
+                "_init", 
+                "atexit", 
+                "memset", 
+                "main", 
+                "_fini"
+            ], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/redboot-crt0.o"
+        }, 
+        "usr/arm-none-eabi/lib/armv7e-m/fpu/crt0_o": {
+            "report-functions": [
+                "software_init_hook", 
+                "__libc_init_array", 
+                "exit", 
+                "atexit", 
+                "memset", 
+                "__bss_end__", 
+                "__libc_fini_array", 
+                "hardware_init_hook", 
+                "__stack"
+            ], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/armv7e-m/fpu/crt0.o"
+        }, 
+        "usr/arm-none-eabi/lib/armv7-ar/thumb/fpu/linux-crt0_o": {
+            "report-functions": [
+                "main"
+            ], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/armv7-ar/thumb/fpu/linux-crt0.o"
+        }, 
+        "usr/arm-none-eabi/lib/armv7e-m/softfp/rdpmon-crt0_o": {
+            "report-functions": [
+                "__bss_start__", 
+                "memset", 
+                "__libc_fini_array", 
+                "atexit", 
+                "__bss_end__", 
+                "__libc_init_array", 
+                "exit"
+            ], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/armv7e-m/softfp/rdpmon-crt0.o"
+        }, 
+        "usr/arm-none-eabi/lib/fpu/crt0_o": {
+            "report-functions": [
+                "software_init_hook", 
+                "__libc_fini_array", 
+                "atexit", 
+                "__libc_init_array", 
+                "__bss_start__", 
+                "memset", 
+                "__stack", 
+                "main", 
+                "__bss_end__"
+            ], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/fpu/crt0.o"
+        }, 
+        "usr/arm-none-eabi/lib/armv7-m/rdimon-crt0_o": {
+            "report-functions": [
+                "__bss_end__", 
+                "__heap_limit", 
+                "__end__", 
+                "initialise_monitor_handles", 
+                "memset", 
+                "atexit", 
+                "__libc_fini_array", 
+                "exit", 
+                "__libc_init_array"
+            ], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/armv7-m/rdimon-crt0.o"
+        }, 
+        "usr/arm-none-eabi/lib/thumb/rdimon-crt0_o": {
+            "report-functions": [
+                "__bss_end__", 
+                "__bss_start__", 
+                "initialise_monitor_handles", 
+                "__end__", 
+                "atexit", 
+                "main", 
+                "exit", 
+                "__libc_fini_array", 
+                "__heap_limit"
+            ], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/thumb/rdimon-crt0.o"
+        }, 
+        "usr/arm-none-eabi/lib/fpu/redboot-crt0_o": {
+            "report-functions": [
+                "__get_memtop", 
+                "__bss_end__", 
+                "__bss_start__", 
+                "exit", 
+                "main", 
+                "_fini", 
+                "_init", 
+                "atexit"
+            ], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/fpu/redboot-crt0.o"
+        }, 
+        "usr/arm-none-eabi/lib/armv7e-m/softfp/cpu-init/rdimon-aem_o": {
+            "report-functions": [], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/armv7e-m/softfp/cpu-init/rdimon-aem.o"
+        }, 
+        "usr/arm-none-eabi/lib/armv7e-m/redboot-syscalls_o": {
+            "report-functions": [
+                "__errno"
+            ], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/armv7e-m/redboot-syscalls.o"
+        }, 
+        "usr/arm-none-eabi/lib/armv7e-m/redboot-crt0_o": {
+            "report-functions": [
+                "_init", 
+                "exit", 
+                "__bss_start__", 
+                "__bss_end__", 
+                "_fini", 
+                "atexit", 
+                "main"
+            ], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/armv7e-m/redboot-crt0.o"
+        }, 
+        "usr/arm-none-eabi/lib/thumb/redboot-crt0_o": {
+            "report-functions": [
+                "memset", 
+                "atexit", 
+                "_init", 
+                "main", 
+                "__get_memtop", 
+                "exit", 
+                "_fini"
+            ], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/thumb/redboot-crt0.o"
+        }, 
+        "usr/arm-none-eabi/lib/armv7-ar/thumb/rdimon-crt0_o": {
+            "report-functions": [
+                "__libc_init_array", 
+                "atexit", 
+                "exit", 
+                "__end__", 
+                "__heap_limit", 
+                "initialise_monitor_handles", 
+                "__bss_start__", 
+                "__libc_fini_array", 
+                "memset"
+            ], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/armv7-ar/thumb/rdimon-crt0.o"
+        }, 
+        "usr/arm-none-eabi/lib/armv7e-m/fpu/linux-crt0_o": {
+            "report-functions": [
+                "environ", 
+                "exit"
+            ], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/armv7e-m/fpu/linux-crt0.o"
+        }, 
+        "usr/arm-none-eabi/lib/armv7-ar/thumb/crt0_o": {
+            "report-functions": [
+                "hardware_init_hook", 
+                "__stack", 
+                "__libc_fini_array", 
+                "__bss_end__", 
+                "__libc_init_array", 
+                "memset", 
+                "atexit", 
+                "exit", 
+                "main"
+            ], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/armv7-ar/thumb/crt0.o"
+        }, 
+        "usr/arm-none-eabi/lib/fpu/cpu-init/rdimon-aem_o": {
+            "report-functions": [], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/fpu/cpu-init/rdimon-aem.o"
+        }, 
+        "usr/arm-none-eabi/lib/thumb/rdpmon-crt0_o": {
+            "report-functions": [
+                "memset", 
+                "main", 
+                "__bss_start__", 
+                "atexit", 
+                "__libc_init_array", 
+                "initialise_monitor_handles", 
+                "__bss_end__"
+            ], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/thumb/rdpmon-crt0.o"
+        }, 
+        "usr/arm-none-eabi/lib/armv7-ar/thumb/softfp/linux-crt0_o": {
+            "report-functions": [
+                "main", 
+                "environ"
+            ], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/armv7-ar/thumb/softfp/linux-crt0.o"
+        }, 
+        "usr/arm-none-eabi/lib/thumb/linux-crt0_o": {
+            "report-functions": [
+                "main", 
+                "exit"
+            ], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/thumb/linux-crt0.o"
+        }, 
+        "usr/arm-none-eabi/lib/armv7-ar/thumb/fpu/cpu-init/rdimon-aem_o": {
+            "report-functions": [], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/armv7-ar/thumb/fpu/cpu-init/rdimon-aem.o"
+        }, 
+        "usr/arm-none-eabi/lib/armv7e-m/rdpmon-crt0_o": {
+            "report-functions": [
+                "exit", 
+                "main", 
+                "__libc_init_array", 
+                "__bss_end__", 
+                "__bss_start__", 
+                "atexit", 
+                "__libc_fini_array"
+            ], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/armv7e-m/rdpmon-crt0.o"
+        }, 
+        "usr/arm-none-eabi/lib/armv7-ar/thumb/softfp/cpu-init/rdimon-aem_o": {
+            "report-functions": [], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/armv7-ar/thumb/softfp/cpu-init/rdimon-aem.o"
+        }, 
+        "usr/arm-none-eabi/lib/armv7-ar/thumb/fpu/rdpmon-crt0_o": {
+            "report-functions": [
+                "memset", 
+                "exit", 
+                "atexit", 
+                "__libc_fini_array", 
+                "initialise_monitor_handles", 
+                "__libc_init_array", 
+                "main"
+            ], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/armv7-ar/thumb/fpu/rdpmon-crt0.o"
+        }, 
+        "usr/arm-none-eabi/lib/armv7-m/redboot-crt0_o": {
+            "report-functions": [
+                "__bss_end__", 
+                "exit", 
+                "atexit", 
+                "memset", 
+                "__bss_start__", 
+                "_init", 
+                "main"
+            ], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/armv7-m/redboot-crt0.o"
+        }, 
+        "usr/arm-none-eabi/lib/armv6-m/crt0_o": {
+            "report-functions": [
+                "__libc_init_array", 
+                "memset", 
+                "software_init_hook", 
+                "exit", 
+                "hardware_init_hook", 
+                "__bss_start__", 
+                "__libc_fini_array", 
+                "main", 
+                "__bss_end__"
+            ], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/armv6-m/crt0.o"
+        }, 
+        "usr/arm-none-eabi/lib/fpu/redboot-syscalls_o": {
+            "report-functions": [
+                "end"
+            ], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/fpu/redboot-syscalls.o"
+        }, 
+        "usr/arm-none-eabi/lib/armv7e-m/rdimon-crt0_o": {
+            "report-functions": [
+                "atexit", 
+                "__bss_end__", 
+                "__bss_start__", 
+                "initialise_monitor_handles", 
+                "exit", 
+                "__heap_limit", 
+                "__libc_fini_array", 
+                "main", 
+                "__libc_init_array"
+            ], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/armv7e-m/rdimon-crt0.o"
+        }, 
+        "usr/arm-none-eabi/lib/armv7-m/crt0_o": {
+            "report-functions": [
+                "__bss_start__", 
+                "memset", 
+                "__stack", 
+                "__libc_init_array", 
+                "exit", 
+                "hardware_init_hook", 
+                "main", 
+                "atexit", 
+                "__libc_fini_array"
+            ], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/armv7-m/crt0.o"
+        }, 
+        "usr/arm-none-eabi/lib/armv7e-m/softfp/rdimon-crt0_o": {
+            "report-functions": [
+                "__end__", 
+                "__libc_fini_array", 
+                "main", 
+                "__heap_limit", 
+                "memset", 
+                "__bss_end__", 
+                "initialise_monitor_handles", 
+                "atexit", 
+                "exit"
+            ], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/armv7e-m/softfp/rdimon-crt0.o"
+        }, 
+        "usr/arm-none-eabi/lib/armv7e-m/softfp/crt0_o": {
+            "report-functions": [
+                "__bss_start__", 
+                "__stack", 
+                "__bss_end__", 
+                "hardware_init_hook", 
+                "__libc_fini_array", 
+                "__libc_init_array", 
+                "atexit", 
+                "main", 
+                "exit"
+            ], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/armv7e-m/softfp/crt0.o"
+        }, 
+        "usr/arm-none-eabi/lib/armv7-ar/thumb/fpu/redboot-syscalls_o": {
+            "report-functions": [
+                "end"
+            ], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/armv7-ar/thumb/fpu/redboot-syscalls.o"
+        }, 
+        "usr/arm-none-eabi/lib/rdpmon-crt0_o": {
+            "report-functions": [
+                "atexit", 
+                "memset", 
+                "__libc_fini_array", 
+                "__libc_init_array", 
+                "__bss_end__", 
+                "__bss_start__", 
+                "initialise_monitor_handles", 
+                "exit"
+            ], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/rdpmon-crt0.o"
+        }, 
+        "usr/arm-none-eabi/lib/linux-crt0_o": {
+            "report-functions": [
+                "main"
+            ], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/linux-crt0.o"
+        }, 
+        "usr/arm-none-eabi/lib/armv7e-m/fpu/cpu-init/rdimon-aem_o": {
+            "report-functions": [], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/armv7e-m/fpu/cpu-init/rdimon-aem.o"
+        }, 
+        "usr/arm-none-eabi/lib/armv7e-m/cpu-init/rdimon-aem_o": {
+            "report-functions": [], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/armv7e-m/cpu-init/rdimon-aem.o"
+        }, 
+        "usr/arm-none-eabi/lib/armv7-ar/thumb/softfp/redboot-syscalls_o": {
+            "report-functions": [
+                "__errno"
+            ], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/armv7-ar/thumb/softfp/redboot-syscalls.o"
+        }, 
+        "usr/arm-none-eabi/lib/armv7-ar/thumb/fpu/redboot-crt0_o": {
+            "report-functions": [
+                "_init", 
+                "__bss_end__", 
+                "_fini", 
+                "__bss_start__", 
+                "atexit", 
+                "memset", 
+                "exit", 
+                "__get_memtop"
+            ], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/armv7-ar/thumb/fpu/redboot-crt0.o"
+        }, 
+        "usr/arm-none-eabi/lib/armv7-m/linux-crt0_o": {
+            "report-functions": [
+                "environ", 
+                "exit"
+            ], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/armv7-m/linux-crt0.o"
+        }, 
+        "usr/arm-none-eabi/lib/armv7e-m/fpu/redboot-crt0_o": {
+            "report-functions": [
+                "__bss_end__", 
+                "__bss_start__", 
+                "atexit", 
+                "__get_memtop", 
+                "main", 
+                "exit", 
+                "_fini"
+            ], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/armv7e-m/fpu/redboot-crt0.o"
+        }, 
+        "usr/arm-none-eabi/lib/armv7-ar/thumb/cpu-init/rdimon-aem_o": {
+            "report-functions": [], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/armv7-ar/thumb/cpu-init/rdimon-aem.o"
+        }, 
+        "usr/arm-none-eabi/lib/armv6-m/redboot-syscalls_o": {
+            "report-functions": [
+                "end"
+            ], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/armv6-m/redboot-syscalls.o"
+        }, 
+        "usr/arm-none-eabi/lib/armv7e-m/softfp/redboot-syscalls_o": {
+            "report-functions": [], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/armv7e-m/softfp/redboot-syscalls.o"
+        }, 
+        "usr/arm-none-eabi/lib/crt0_o": {
+            "report-functions": [
+                "exit", 
+                "__bss_start__", 
+                "__libc_init_array", 
+                "__bss_end__", 
+                "atexit", 
+                "memset", 
+                "__libc_fini_array", 
+                "__stack", 
+                "main"
+            ], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/crt0.o"
+        }, 
+        "usr/arm-none-eabi/lib/thumb/redboot-syscalls_o": {
+            "report-functions": [
+                "__errno"
+            ], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/thumb/redboot-syscalls.o"
+        }, 
+        "usr/arm-none-eabi/lib/fpu/linux-crt0_o": {
+            "report-functions": [
+                "main", 
+                "exit"
+            ], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/fpu/linux-crt0.o"
+        }, 
+        "usr/arm-none-eabi/lib/armv7-ar/thumb/softfp/rdimon-crt0_o": {
+            "report-functions": [
+                "exit", 
+                "__bss_start__", 
+                "main", 
+                "__end__", 
+                "__bss_end__", 
+                "__libc_fini_array", 
+                "atexit", 
+                "initialise_monitor_handles", 
+                "memset"
+            ], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/armv7-ar/thumb/softfp/rdimon-crt0.o"
+        }, 
+        "usr/arm-none-eabi/lib/armv7-ar/thumb/fpu/crt0_o": {
+            "report-functions": [
+                "__stack", 
+                "__bss_start__", 
+                "__libc_init_array", 
+                "__bss_end__", 
+                "hardware_init_hook", 
+                "exit", 
+                "memset", 
+                "__libc_fini_array", 
+                "main"
+            ], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/armv7-ar/thumb/fpu/crt0.o"
+        }, 
+        "usr/arm-none-eabi/lib/thumb/crt0_o": {
+            "report-functions": [
+                "__bss_start__", 
+                "hardware_init_hook", 
+                "__bss_end__", 
+                "exit", 
+                "__stack", 
+                "software_init_hook", 
+                "__libc_init_array", 
+                "main", 
+                "atexit"
+            ], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/thumb/crt0.o"
+        }, 
+        "usr/arm-none-eabi/lib/armv7-ar/thumb/linux-crt0_o": {
+            "report-functions": [
+                "exit"
+            ], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/armv7-ar/thumb/linux-crt0.o"
+        }, 
+        "usr/arm-none-eabi/lib/cpu-init/rdimon-aem_o": {
+            "report-functions": [], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/cpu-init/rdimon-aem.o"
+        }, 
+        "usr/arm-none-eabi/lib/armv7e-m/fpu/redboot-syscalls_o": {
+            "report-functions": [], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/armv7e-m/fpu/redboot-syscalls.o"
+        }, 
+        "usr/arm-none-eabi/lib/redboot-syscalls_o": {
+            "report-functions": [
+                "end"
+            ], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/redboot-syscalls.o"
+        }, 
+        "usr/arm-none-eabi/lib/thumb/cpu-init/rdimon-aem_o": {
+            "report-functions": [], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/thumb/cpu-init/rdimon-aem.o"
+        }, 
+        "usr/arm-none-eabi/lib/armv7-m/cpu-init/rdimon-aem_o": {
+            "report-functions": [], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/armv7-m/cpu-init/rdimon-aem.o"
+        }, 
+        "usr/arm-none-eabi/lib/armv7-ar/thumb/softfp/redboot-crt0_o": {
+            "report-functions": [
+                "atexit", 
+                "exit", 
+                "_init", 
+                "__bss_start__", 
+                "__bss_end__", 
+                "memset", 
+                "main"
+            ], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/armv7-ar/thumb/softfp/redboot-crt0.o"
+        }, 
+        "usr/arm-none-eabi/lib/armv7-ar/thumb/fpu/rdimon-crt0_o": {
+            "report-functions": [
+                "exit", 
+                "memset", 
+                "__heap_limit", 
+                "__bss_end__", 
+                "__end__", 
+                "__bss_start__", 
+                "__libc_fini_array", 
+                "main", 
+                "__libc_init_array"
+            ], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/armv7-ar/thumb/fpu/rdimon-crt0.o"
+        }, 
+        "usr/arm-none-eabi/lib/fpu/rdpmon-crt0_o": {
+            "report-functions": [
+                "__libc_init_array", 
+                "main", 
+                "atexit", 
+                "__bss_start__", 
+                "memset", 
+                "exit", 
+                "__libc_fini_array"
+            ], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/fpu/rdpmon-crt0.o"
+        }, 
+        "usr/arm-none-eabi/lib/armv7-ar/thumb/redboot-syscalls_o": {
+            "report-functions": [], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/armv7-ar/thumb/redboot-syscalls.o"
+        }, 
+        "usr/arm-none-eabi/lib/armv7-ar/thumb/softfp/crt0_o": {
+            "report-functions": [
+                "hardware_init_hook", 
+                "atexit", 
+                "memset", 
+                "__libc_init_array", 
+                "__bss_end__", 
+                "__bss_start__", 
+                "exit", 
+                "__libc_fini_array", 
+                "main"
+            ], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/armv7-ar/thumb/softfp/crt0.o"
+        }, 
+        "usr/arm-none-eabi/lib/armv7e-m/softfp/linux-crt0_o": {
+            "report-functions": [
+                "exit", 
+                "environ"
+            ], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/armv7e-m/softfp/linux-crt0.o"
+        }, 
+        "usr/arm-none-eabi/lib/armv7e-m/linux-crt0_o": {
+            "report-functions": [
+                "environ", 
+                "main"
+            ], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/armv7e-m/linux-crt0.o"
+        }, 
+        "usr/arm-none-eabi/lib/armv7-ar/thumb/rdpmon-crt0_o": {
+            "report-functions": [
+                "__libc_fini_array", 
+                "initialise_monitor_handles", 
+                "main", 
+                "__libc_init_array", 
+                "exit", 
+                "__bss_start__", 
+                "atexit", 
+                "__bss_end__"
+            ], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/armv7-ar/thumb/rdpmon-crt0.o"
+        }, 
+        "usr/arm-none-eabi/lib/armv6-m/rdimon-crt0_o": {
+            "report-functions": [
+                "__bss_end__", 
+                "__libc_init_array", 
+                "__libc_fini_array", 
+                "exit", 
+                "memset", 
+                "__end__", 
+                "atexit", 
+                "initialise_monitor_handles", 
+                "main"
+            ], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/armv6-m/rdimon-crt0.o"
+        }, 
+        "usr/arm-none-eabi/lib/armv6-m/rdpmon-crt0_o": {
+            "report-functions": [
+                "__bss_start__", 
+                "memset", 
+                "__libc_init_array", 
+                "exit", 
+                "__bss_end__", 
+                "atexit", 
+                "initialise_monitor_handles"
+            ], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/armv6-m/rdpmon-crt0.o"
+        }, 
+        "usr/arm-none-eabi/lib/armv6-m/linux-crt0_o": {
+            "report-functions": [
+                "exit", 
+                "environ"
+            ], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/armv6-m/linux-crt0.o"
+        }, 
+        "usr/arm-none-eabi/lib/armv7e-m/fpu/rdpmon-crt0_o": {
+            "report-functions": [
+                "atexit", 
+                "exit", 
+                "__libc_fini_array", 
+                "memset", 
+                "__libc_init_array", 
+                "initialise_monitor_handles", 
+                "__bss_start__"
+            ], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/armv7e-m/fpu/rdpmon-crt0.o"
+        }, 
+        "usr/arm-none-eabi/lib/fpu/rdimon-crt0_o": {
+            "report-functions": [
+                "__bss_start__", 
+                "memset", 
+                "main", 
+                "atexit", 
+                "__end__", 
+                "__libc_fini_array", 
+                "__bss_end__", 
+                "__libc_init_array", 
+                "__heap_limit", 
+                "exit"
+            ], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/fpu/rdimon-crt0.o"
+        }, 
+        "usr/arm-none-eabi/lib/armv7e-m/crt0_o": {
+            "report-functions": [
+                "__bss_start__", 
+                "atexit", 
+                "__stack", 
+                "main", 
+                "__libc_init_array", 
+                "__libc_fini_array", 
+                "hardware_init_hook", 
+                "software_init_hook", 
+                "exit"
+            ], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/armv7e-m/crt0.o"
+        }, 
+        "usr/arm-none-eabi/lib/armv6-m/redboot-crt0_o": {
+            "report-functions": [
+                "__bss_end__", 
+                "exit", 
+                "memset", 
+                "_fini", 
+                "__get_memtop", 
+                "atexit", 
+                "__bss_start__"
+            ], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/armv6-m/redboot-crt0.o"
+        }, 
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/arm-none-eabi/lib/armv6-m/cpu-init/rdimon-aem_o": {
+            "report-functions": [], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/armv6-m/cpu-init/rdimon-aem.o"
+        }, 
+        "usr/arm-none-eabi/lib/armv7-m/rdpmon-crt0_o": {
+            "report-functions": [
+                "__libc_init_array", 
+                "memset", 
+                "exit", 
+                "initialise_monitor_handles", 
+                "__bss_start__", 
+                "__bss_end__", 
+                "atexit"
+            ], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/armv7-m/rdpmon-crt0.o"
+        }, 
+        "usr/arm-none-eabi/lib/armv7-m/redboot-syscalls_o": {
+            "report-functions": [
+                "end"
+            ], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/armv7-m/redboot-syscalls.o"
+        }, 
+        "usr/arm-none-eabi/lib/armv7-ar/thumb/softfp/rdpmon-crt0_o": {
+            "report-functions": [
+                "initialise_monitor_handles", 
+                "memset", 
+                "exit", 
+                "__bss_end__", 
+                "atexit", 
+                "__bss_start__", 
+                "main"
+            ], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/armv7-ar/thumb/softfp/rdpmon-crt0.o"
+        }, 
+        "usr/arm-none-eabi/lib/armv7e-m/softfp/redboot-crt0_o": {
+            "report-functions": [
+                "__bss_start__", 
+                "atexit", 
+                "__bss_end__", 
+                "_init", 
+                "_fini", 
+                "main", 
+                "exit"
+            ], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/armv7e-m/softfp/redboot-crt0.o"
+        }, 
+        "usr/arm-none-eabi/lib/rdimon-crt0_o": {
+            "report-functions": [
+                "memset", 
+                "atexit", 
+                "__bss_start__", 
+                "initialise_monitor_handles", 
+                "__libc_init_array", 
+                "__libc_fini_array", 
+                "__bss_end__", 
+                "exit", 
+                "__end__", 
+                "main"
+            ], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/rdimon-crt0.o"
+        }, 
+        "usr/arm-none-eabi/lib/armv7-ar/thumb/redboot-crt0_o": {
+            "report-functions": [
+                "__bss_start__", 
+                "memset", 
+                "__bss_end__", 
+                "main", 
+                "__get_memtop", 
+                "exit", 
+                "_init"
+            ], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/armv7-ar/thumb/redboot-crt0.o"
+        }, 
+        "usr/arm-none-eabi/lib/armv7e-m/fpu/rdimon-crt0_o": {
+            "report-functions": [
+                "atexit", 
+                "exit", 
+                "__libc_fini_array", 
+                "__bss_start__", 
+                "memset", 
+                "__heap_limit", 
+                "initialise_monitor_handles", 
+                "__end__", 
+                "__libc_init_array"
+            ], 
+            "rpm": "arm-none-eabi-newlib-2.4.0-9.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-none-eabi/lib/armv7e-m/fpu/rdimon-crt0.o"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Tools", 
+            "Name": " arm-none-eabi-newlib", 
+            "License": " BSD and MIT and LGPLv2+ and ISC", 
+            "URL": " http://sourceware.org/newlib/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-11.phx2.fedoraproject.org", 
+            "Description": "\nNewlib is a C library intended for use on embedded systems. It is a\nconglomeration of several library parts, all under free software licenses\nthat make them easily usable on embedded products.\n", 
+            "Build Date": " Fri 10 Feb 2017 01:50:52 AM EST", 
+            "Source RPM": " arm-none-eabi-newlib-2.4.0-9.fc26.src.rpm", 
+            "Version": " 2.4.0", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Mon 13 Feb 2017 12:59:44 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 9.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " C library intended for use on arm-none-eabi embedded systems", 
+            "Size": " 150375758"
+        }
+    }
+}

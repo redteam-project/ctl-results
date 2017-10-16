@@ -1,0 +1,115 @@
+{
+    "results": {
+        "usr/lib/libdaq_so_2_0_4": {
+            "report-functions": [
+                "__gmon_start__", 
+                "closedir", 
+                "__stack_chk_fail", 
+                "dlerror", 
+                "dlsym", 
+                "__fprintf_chk", 
+                "__strdup", 
+                "__snprintf_chk", 
+                "dlclose", 
+                "strrchr", 
+                "__cxa_finalize", 
+                "calloc", 
+                "__xstat", 
+                "readdir", 
+                "strcmp", 
+                "opendir", 
+                "dlopen", 
+                "__printf_chk", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable", 
+                "strlen"
+            ], 
+            "rpm": "daq-2.0.6-2.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libdaq.so.2.0.4"
+        }, 
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/libsfbpf_so_0_0_1": {
+            "report-functions": [
+                "fwrite", 
+                "clearerr", 
+                "__vsnprintf_chk", 
+                "strcmp", 
+                "strlen", 
+                "_ITM_registerTMCloneTable", 
+                "strncpy", 
+                "calloc", 
+                "ffs", 
+                "__memset_chk", 
+                "getnetbyname", 
+                "getaddrinfo", 
+                "__ctype_b_loc", 
+                "__errno_location", 
+                "__strdup", 
+                "_IO_getc", 
+                "malloc", 
+                "gethostbyname", 
+                "realloc", 
+                "_setjmp", 
+                "sscanf", 
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "ferror", 
+                "abort", 
+                "getservbyname", 
+                "__longjmp_chk", 
+                "isatty", 
+                "freeaddrinfo", 
+                "__printf_chk", 
+                "getprotobyname", 
+                "strchr", 
+                "fread", 
+                "rewind", 
+                "_ITM_deregisterTMCloneTable", 
+                "fopen", 
+                "exit", 
+                "free", 
+                "__fprintf_chk"
+            ], 
+            "rpm": "daq-2.0.6-2.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libsfbpf.so.0.0.1"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " daq", 
+            "License": " GPLv2 and BSD", 
+            "URL": " https://www.snort.org", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-10.phx2.fedoraproject.org", 
+            "Description": "\nSnort 2.9 introduces the DAQ, or Data Acquisition library, for packet I/O.  The\nDAQ replaces direct calls to libpcap functions with an abstraction layer that\nfacilitates operation on a variety of hardware and software interfaces without\nrequiring changes to Snort.\n", 
+            "Build Date": " Fri 10 Feb 2017 09:12:01 AM EST", 
+            "Source RPM": " daq-2.0.6-2.fc26.src.rpm", 
+            "Version": " 2.0.6", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 10 Feb 2017 02:00:36 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 2.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Data Acquisition Library", 
+            "Size": " 205734"
+        }
+    }
+}

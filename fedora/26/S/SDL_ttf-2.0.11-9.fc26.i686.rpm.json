@@ -1,0 +1,77 @@
+{
+    "results": {
+        "usr/lib/libSDL_ttf-2_0_so_0_10_1": {
+            "report-functions": [
+                "SDL_FillRect", 
+                "malloc", 
+                "FT_Set_Char_Size", 
+                "SDL_SetError", 
+                "free", 
+                "_ITM_deregisterTMCloneTable", 
+                "FT_Set_Pixel_Sizes", 
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable", 
+                "FT_Done_Glyph", 
+                "FT_Get_Glyph", 
+                "SDL_GetError", 
+                "FT_Render_Glyph", 
+                "FT_Glyph_To_Bitmap", 
+                "SDL_RWFromFile", 
+                "FT_Glyph_Stroke", 
+                "FT_Get_Kerning", 
+                "FT_MulFix", 
+                "FT_Stroker_New", 
+                "FT_Outline_Transform", 
+                "SDL_SetColorKey", 
+                "SDL_FreeSurface", 
+                "ceilf", 
+                "FT_Load_Glyph", 
+                "FT_Stroker_Done", 
+                "SDL_CreateRGBSurface", 
+                "FT_Open_Face", 
+                "FT_Set_Charmap", 
+                "calloc", 
+                "FT_Done_FreeType", 
+                "FT_Done_Face", 
+                "FT_Stroker_Set", 
+                "__stack_chk_fail", 
+                "FT_Get_Char_Index", 
+                "strlen"
+            ], 
+            "rpm": "SDL_ttf-2.0.11-9.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libSDL_ttf-2.0.so.0.10.1"
+        }, 
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " SDL_ttf", 
+            "License": " LGPLv2+", 
+            "URL": " http://www.libsdl.org/projects/SDL_ttf/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-03.phx2.fedoraproject.org", 
+            "Description": "\nThis library allows you to use TrueType fonts to render text in SDL\napplications.\n", 
+            "Build Date": " Fri 10 Feb 2017 12:39:34 AM EST", 
+            "Source RPM": " SDL_ttf-2.0.11-9.fc26.src.rpm", 
+            "Version": " 2.0.11", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 13 Feb 2017 04:15:20 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 9.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Simple DirectMedia Layer TrueType Font library", 
+            "Size": " 35201"
+        }
+    }
+}

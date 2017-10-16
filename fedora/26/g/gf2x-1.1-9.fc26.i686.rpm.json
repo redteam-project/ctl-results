@@ -1,0 +1,78 @@
+{
+    "results": {
+        "usr/lib/libgf2x_so_1_0_0": {
+            "report-functions": [
+                "__assert_fail", 
+                "__gmon_start__", 
+                "__printf_chk", 
+                "malloc", 
+                "__cxa_finalize", 
+                "realloc", 
+                "exit", 
+                "__fprintf_chk", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable", 
+                "abort"
+            ], 
+            "rpm": "gf2x-1.1-9.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libgf2x.so.1.0.0"
+        }, 
+        "usr/lib/sse2/libgf2x_so_1_0_0": {
+            "report-functions": [
+                "__fprintf_chk", 
+                "realloc", 
+                "__stack_chk_fail", 
+                "__assert_fail", 
+                "exit", 
+                "_ITM_registerTMCloneTable", 
+                "free", 
+                "_ITM_deregisterTMCloneTable", 
+                "__printf_chk", 
+                "abort", 
+                "memset", 
+                "malloc"
+            ], 
+            "rpm": "gf2x-1.1-9.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/sse2/libgf2x.so.1.0.0"
+        }, 
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " gf2x", 
+            "License": " GPLv2+", 
+            "URL": " http://gf2x.gforge.inria.fr/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-08.phx2.fedoraproject.org", 
+            "Description": "\nGf2x is a C/C++ software package containing routines for fast arithmetic\nin GF(2)[x] (multiplication, squaring, GCD) and searching for\nirreducible/primitive trinomials.\n", 
+            "Build Date": " Fri 10 Feb 2017 11:54:54 AM EST", 
+            "Source RPM": " gf2x-1.1-9.fc26.src.rpm", 
+            "Version": " 1.1", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 10 Feb 2017 10:06:13 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 9.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Polynomial multiplication over the binary field", 
+            "Size": " 134893"
+        }
+    }
+}

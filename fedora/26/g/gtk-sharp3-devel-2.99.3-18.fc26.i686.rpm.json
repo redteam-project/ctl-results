@@ -1,0 +1,102 @@
+{
+    "results": {
+        "usr/lib/libatksharpglue-3_so": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "g_type_class_peek"
+            ], 
+            "rpm": "gtk-sharp3-devel-2.99.3-18.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libatksharpglue-3.so"
+        }, 
+        "usr/lib/libgiosharpglue-3_so": {
+            "report-functions": [
+                "__gmon_start__", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "gtk-sharp3-devel-2.99.3-18.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libgiosharpglue-3.so"
+        }, 
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/libpangosharpglue-3_so": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable", 
+                "__gmon_start__"
+            ], 
+            "rpm": "gtk-sharp3-devel-2.99.3-18.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libpangosharpglue-3.so"
+        }, 
+        "usr/lib/libgtksharpglue-3_so": {
+            "report-functions": [
+                "g_type_check_instance_cast", 
+                "g_type_class_ref", 
+                "g_type_name", 
+                "g_value_init", 
+                "__cxa_finalize", 
+                "gtk_container_child_get_property", 
+                "__gmon_start__", 
+                "g_type_parent", 
+                "g_type_class_peek", 
+                "_ITM_registerTMCloneTable", 
+                "g_type_class_peek_parent"
+            ], 
+            "rpm": "gtk-sharp3-devel-2.99.3-18.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libgtksharpglue-3.so"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " gtk-sharp3-devel", 
+            "License": " LGPLv2", 
+            "URL": " http://www.mono-project.com/docs/gui/gtksharp/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-26.phx2.fedoraproject.org", 
+            "Description": "\nThis package provides the necessary development libraries and headers\nfor writing gtk-sharp3 applications.\n", 
+            "Build Date": " Fri 10 Feb 2017 03:28:39 PM EST", 
+            "Source RPM": " gtk-sharp3-2.99.3-18.fc26.src.rpm", 
+            "Version": " 2.99.3", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 11 Feb 2017 04:21:05 AM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 18.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Files needed for developing with gtk-sharp3", 
+            "Size": " 188396"
+        }
+    }
+}

@@ -1,0 +1,76 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/R/library/zoo/libs/zoo_so": {
+            "report-functions": [
+                "__gmon_start__", 
+                "Rf_unprotect", 
+                "COMPLEX", 
+                "Rf_asLogical", 
+                "Rf_protect", 
+                "IS_S4_OBJECT", 
+                "SET_STRING_ELT", 
+                "TYPEOF", 
+                "R_do_new_object", 
+                "REAL", 
+                "Rf_error", 
+                "Rf_ScalarInteger", 
+                "Rf_install", 
+                "STRING_ELT", 
+                "__cxa_finalize", 
+                "Rf_isNull", 
+                "Rf_nrows", 
+                "_ITM_deregisterTMCloneTable", 
+                "R_registerRoutines", 
+                "Rf_ncols", 
+                "R_useDynamicSymbols", 
+                "Rf_mkChar", 
+                "Rf_getAttrib", 
+                "R_do_slot", 
+                "INTEGER", 
+                "R_do_MAKE_CLASS", 
+                "Rf_setAttrib", 
+                "RAW", 
+                "Rf_copyMostAttrib", 
+                "_ITM_registerTMCloneTable", 
+                "R_do_slot_assign", 
+                "Rf_coerceVector", 
+                "LOGICAL", 
+                "Rf_length"
+            ], 
+            "rpm": "R-zoo-1.7.13-4.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/R/library/zoo/libs/zoo.so"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Applications/Engineering", 
+            "Name": " R-zoo", 
+            "License": " GPLv2 or GPLv3", 
+            "URL": " http://cran.r-project.org/web/packages/zoo/index.html", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-25.phx2.fedoraproject.org", 
+            "Description": "\nAn S3 class with methods for totally ordered indexed observations. It is\nparticularly aimed at irregular time series of numeric vectors/matrices and\nfactors. zoo's key design goals are independence of a particular index/date/\ntime class and consistency with with ts and base R by providing methods to\nextend standard generics.\n", 
+            "Build Date": " Fri 17 Feb 2017 05:11:01 PM EST", 
+            "Source RPM": " R-zoo-1.7.13-4.fc26.src.rpm", 
+            "Version": " 1.7.13", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 17 Feb 2017 05:50:53 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 4.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Z's ordered observations for irregular time series", 
+            "Size": " 1300290"
+        }
+    }
+}

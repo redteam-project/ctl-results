@@ -1,0 +1,70 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/libdbus-c++-ecore-1_so_0_0_0": {
+            "report-functions": [
+                "_ZN4DBus7TimeoutC2EPNS0_8InternalE", 
+                "__gxx_personality_v0", 
+                "__cxa_atexit", 
+                "_ZNK4DBus5Watch10descriptorEv", 
+                "_ZN4DBus10Dispatcher16dispatch_pendingEv", 
+                "_ZN4DBus5Watch6handleEi", 
+                "_ZNK4DBus5Watch5flagsEv", 
+                "_Unwind_Resume", 
+                "ecore_timer_del", 
+                "ecore_main_fd_handler_del", 
+                "_ZN4DBus7Timeout6handleEv", 
+                "ecore_main_fd_handler_active_set", 
+                "_ZNSt8ios_base4InitC1Ev", 
+                "_ZdlPv", 
+                "_Znwj", 
+                "_ZN4DBus12DefaultMutexC1Ev", 
+                "_ZNK4DBus7Timeout8intervalEv", 
+                "_ZN4DBus9debug_logE", 
+                "_ZNK4DBus5Watch7enabledEv", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "ecore_main_fd_handler_add", 
+                "ecore_timer_add", 
+                "_ZN4DBus12DefaultMutexD1Ev", 
+                "_ZN4DBus5WatchC2EPNS0_8InternalE", 
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable", 
+                "_ZNSt8ios_base4InitD1Ev"
+            ], 
+            "rpm": "dbus-c++-ecore-0.9.0-13.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libdbus-c++-ecore-1.so.0.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " dbus-c++-ecore", 
+            "License": " LGPLv2+", 
+            "URL": " http://sourceforge.net/projects/dbus-cplusplus/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-30.phx2.fedoraproject.org", 
+            "Description": "\nThis package contains the ecore mainloop library for dbus-c++\n", 
+            "Build Date": " Thu 16 Feb 2017 07:36:28 AM EST", 
+            "Source RPM": " dbus-c++-0.9.0-13.fc26.src.rpm", 
+            "Version": " 0.9.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 16 Feb 2017 07:47:58 AM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 13.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Ecore library for dbus-c++", 
+            "Size": " 14528"
+        }
+    }
+}

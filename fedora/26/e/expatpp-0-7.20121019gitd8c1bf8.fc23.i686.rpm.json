@@ -1,0 +1,78 @@
+{
+    "results": {
+        "usr/lib/libexpatpp_so_0_6_0": {
+            "report-functions": [
+                "XML_ParserCreate", 
+                "_ITM_registerTMCloneTable", 
+                "sscanf", 
+                "strcmp", 
+                "_ZdlPv", 
+                "XML_SetEntityDeclHandler", 
+                "_Unwind_Resume", 
+                "_ITM_deregisterTMCloneTable", 
+                "strlen", 
+                "XML_SetAttlistDeclHandler", 
+                "fread", 
+                "__cxa_finalize", 
+                "XML_GetErrorCode", 
+                "fseek", 
+                "XML_GetCurrentLineNumber", 
+                "XML_GetCurrentColumnNumber", 
+                "XML_SetDefaultHandler", 
+                "XML_SetUnparsedEntityDeclHandler", 
+                "XML_SetXmlDeclHandler", 
+                "__gxx_personality_v0", 
+                "_Jv_RegisterClasses", 
+                "XML_SetNamespaceDeclHandler", 
+                "XML_SetProcessingInstructionHandler", 
+                "XML_Parse", 
+                "__gmon_start__", 
+                "XML_SetUserData", 
+                "XML_SetElementHandler", 
+                "XML_ParserFree", 
+                "XML_SetDoctypeDeclHandler", 
+                "XML_SetNotStandaloneHandler", 
+                "XML_SetCommentHandler", 
+                "XML_ParserReset", 
+                "XML_SetElementDeclHandler", 
+                "XML_SetSkippedEntityHandler", 
+                "XML_SetNotationDeclHandler", 
+                "XML_SetCdataSectionHandler"
+            ], 
+            "rpm": "expatpp-0-7.20121019gitd8c1bf8.fc23.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libexpatpp.so.0.6.0"
+        }, 
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " expatpp", 
+            "License": " MPLv1.1", 
+            "URL": " http://sourceforge.net/projects/expatpp/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-11.phx2.fedoraproject.org", 
+            "Description": "\nExpatpp is a simple C++ layer to make using the open source expat XML parsing\nlibrary vastly easier for complex schemas. It has been used widely in industry\nincluding the Valve Steam project.\n", 
+            "Build Date": " Wed 17 Jun 2015 02:05:42 AM EDT", 
+            "Source RPM": " expatpp-0-7.20121019gitd8c1bf8.fc23.src.rpm", 
+            "Version": " 0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Wed 14 Sep 2016 05:04:58 PM EDT, Key ID 812a6b4b64dab85d", 
+            "Release": " 7.20121019gitd8c1bf8.fc23", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " C++ layer for expat", 
+            "Size": " 33203"
+        }
+    }
+}

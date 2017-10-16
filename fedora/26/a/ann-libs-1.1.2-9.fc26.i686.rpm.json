@@ -1,0 +1,70 @@
+{
+    "results": {
+        "usr/lib/libANN_so_1_0": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "_ITM_registerTMCloneTable", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ZNSt8ios_base4InitC1Ev", 
+                "_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_i", 
+                "__gxx_personality_v0", 
+                "__gmon_start__", 
+                "_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc", 
+                "sqrt", 
+                "__cxa_atexit", 
+                "_ZNSo9_M_insertIdEERSoT_", 
+                "_ZNSt9basic_iosIcSt11char_traitsIcEE5clearESt12_Ios_Iostate", 
+                "_ZNSt8ios_base4InitD1Ev", 
+                "exit", 
+                "_ZStrsIcSt11char_traitsIcEERSt13basic_istreamIT_T0_ES6_PS3_", 
+                "_ZSt16__throw_bad_castv", 
+                "_ZNSo5flushEv", 
+                "_ZNSolsEi", 
+                "__cxa_finalize", 
+                "_ZdaPv", 
+                "_ZdlPvj", 
+                "_ZNSi7getlineEPcic", 
+                "_Znaj", 
+                "strlen", 
+                "_ZNSi10_M_extractIdEERSiRT_", 
+                "__cxa_throw_bad_array_new_length", 
+                "_ZNSirsERi", 
+                "_Znwj"
+            ], 
+            "rpm": "ann-libs-1.1.2-9.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libANN.so.1.0"
+        }, 
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " ann-libs", 
+            "License": " LGPLv2+", 
+            "URL": " http://www.cs.umd.edu/~mount/ANN", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-02.phx2.fedoraproject.org", 
+            "Description": "\nRuntime files needed to use ANN library.\n", 
+            "Build Date": " Fri 10 Feb 2017 01:02:45 AM EST", 
+            "Source RPM": " ann-1.1.2-9.fc26.src.rpm", 
+            "Version": " 1.1.2", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 13 Feb 2017 01:18:05 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 9.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Runtime files for the ANN library", 
+            "Size": " 85019"
+        }
+    }
+}

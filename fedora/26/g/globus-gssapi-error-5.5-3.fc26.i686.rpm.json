@@ -1,0 +1,66 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/libglobus_gssapi_error_so_2_3_5": {
+            "report-functions": [
+                "globus_object_copy", 
+                "globus_error_get_source", 
+                "globus_error_put", 
+                "globus_error_initialize_base", 
+                "gss_test_oid_set_member", 
+                "gss_display_status", 
+                "globus_gss_assist_display_status_str", 
+                "globus_object_construct", 
+                "globus_error_v_construct_error", 
+                "globus_object_free", 
+                "free", 
+                "__gmon_start__", 
+                "realloc", 
+                "_ITM_registerTMCloneTable", 
+                "globus_object_get_type", 
+                "__cxa_finalize", 
+                "malloc", 
+                "__stack_chk_fail", 
+                "gss_release_buffer", 
+                "gss_indicate_mechs", 
+                "globus_object_get_local_instance_data", 
+                "globus_error_get_cause", 
+                "gss_release_oid_set", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "globus-gssapi-error-5.5-3.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libglobus_gssapi_error.so.2.3.5"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " globus-gssapi-error", 
+            "License": " ASL 2.0", 
+            "URL": " http://toolkit.globus.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-30.phx2.fedoraproject.org", 
+            "Description": "\nThe Globus Toolkit is an open source software toolkit used for building Grid\nsystems and applications. It is being developed by the Globus Alliance and\nmany others all over the world. A growing number of projects and companies are\nusing the Globus Toolkit to unlock the potential of grids for their cause.\n\nThe globus-gssapi-error package contains:\nGSSAPI Error Library\n", 
+            "Build Date": " Tue 28 Mar 2017 07:19:32 AM EDT", 
+            "Source RPM": " globus-gssapi-error-5.5-3.fc26.src.rpm", 
+            "Version": " 5.5", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 28 Mar 2017 09:00:56 AM EDT, Key ID 812a6b4b64dab85d", 
+            "Release": " 3.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Globus Toolkit - GSSAPI Error Library", 
+            "Size": " 21252"
+        }
+    }
+}

@@ -1,0 +1,78 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/libcourier-unicode_so_3_0_0": {
+            "report-functions": [
+                "iconv_close", 
+                "__cxa_finalize", 
+                "getenv", 
+                "nl_langinfo_l", 
+                "iconv", 
+                "_ITM_deregisterTMCloneTable", 
+                "__strdup", 
+                "_ITM_registerTMCloneTable", 
+                "setlocale", 
+                "calloc", 
+                "_Znwj", 
+                "_ZdlPv", 
+                "nl_langinfo", 
+                "__stack_chk_fail", 
+                "__cxa_begin_catch", 
+                "_ZdlPvj", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERjj", 
+                "__cxa_rethrow", 
+                "free", 
+                "malloc", 
+                "_ZSt20__throw_length_errorPKc", 
+                "__cxa_end_catch", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_mutateEjjPKcj", 
+                "strlen", 
+                "__strncat_chk", 
+                "_ZSt17__throw_bad_allocv", 
+                "memmove", 
+                "strtoull", 
+                "_ZSt19__throw_logic_errorPKc", 
+                "iconv_open", 
+                "_ZNSt8__detail15_List_node_base7_M_hookEPS0_", 
+                "__gmon_start__", 
+                "__gxx_personality_v0", 
+                "__errno_location", 
+                "strchr", 
+                "realloc"
+            ], 
+            "rpm": "courier-unicode-1.4-4.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libcourier-unicode.so.3.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " courier-unicode", 
+            "License": " GPLv3", 
+            "URL": " http://www.courier-mta.org/unicode/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-19.phx2.fedoraproject.org", 
+            "Description": "\nThis library implements several algorithms related to the Unicode Standard:\n\n* Look up uppercase, lowercase, and titlecase equivalents of a unicode character.\n* Implementation of grapheme and work breaking rules.\n* Implementation of line breaking rules.\n\nSeveral ancillary functions, like looking up the unicode character that\ncorresponds to some HTML 4.0 entity (such as \u201c&amp;\u201d, for example), and\ndetermining the normal width or a double-width status of a unicode character.\nAlso, an adaptation of the iconv(3) API for this unicode library.\n\nThis library also implements C++ bindings for these algorithms.\nThe current release of the Courier Unicode library is based on the Unicode 8.0.0 standard.\n", 
+            "Build Date": " Thu 16 Feb 2017 02:32:44 AM EST", 
+            "Source RPM": " courier-unicode-1.4-4.fc26.src.rpm", 
+            "Version": " 1.4", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 16 Feb 2017 06:25:30 AM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 4.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A library implementing algorithms related to the Unicode Standard", 
+            "Size": " 258289"
+        }
+    }
+}

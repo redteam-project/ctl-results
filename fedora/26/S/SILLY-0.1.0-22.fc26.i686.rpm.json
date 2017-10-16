@@ -1,0 +1,88 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/libSILLY_so_1_0_0": {
+            "report-functions": [
+                "png_get_io_ptr", 
+                "png_get_image_width", 
+                "_setjmp", 
+                "png_create_read_struct", 
+                "__stack_chk_fail", 
+                "__cxa_finalize", 
+                "__gmon_start__", 
+                "jpeg_read_scanlines", 
+                "__longjmp_chk", 
+                "png_destroy_read_struct", 
+                "_ZdlPv", 
+                "jpeg_start_decompress", 
+                "__assert_fail", 
+                "png_create_info_struct", 
+                "png_get_image_height", 
+                "_Znwj", 
+                "__gxx_personality_v0", 
+                "__printf_chk", 
+                "rewind", 
+                "png_set_longjmp_fn", 
+                "_ZdaPv", 
+                "_ITM_registerTMCloneTable", 
+                "fclose", 
+                "jpeg_std_error", 
+                "png_longjmp", 
+                "png_set_error_fn", 
+                "ftell", 
+                "fopen", 
+                "jpeg_resync_to_restart", 
+                "_ITM_deregisterTMCloneTable", 
+                "_Unwind_Resume", 
+                "_ZdlPvj", 
+                "png_read_png", 
+                "png_set_read_fn", 
+                "_Znaj", 
+                "jpeg_read_header", 
+                "fseek", 
+                "png_get_bit_depth", 
+                "memmove", 
+                "__cxa_pure_virtual", 
+                "png_get_rows", 
+                "png_get_channels", 
+                "fread", 
+                "jpeg_destroy_decompress", 
+                "jpeg_finish_decompress", 
+                "jpeg_CreateDecompress"
+            ], 
+            "rpm": "SILLY-0.1.0-22.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libSILLY.so.1.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " SILLY", 
+            "License": " MIT", 
+            "URL": " http://www.cegui.org.uk", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-04.phx2.fedoraproject.org", 
+            "Description": "\nThe Simple Image Loading LibrarY is a companion library of the CEGUI project.\nIt provides a simple and easy to use library for image loading.\n\nIt currently supports the following formats:\nTGA (Targa)\nJPEG (Joint Photographic Experts Group)\nPNG (Portable Network Graphics)\n", 
+            "Build Date": " Fri 10 Feb 2017 12:42:52 AM EST", 
+            "Source RPM": " SILLY-0.1.0-22.fc26.src.rpm", 
+            "Version": " 0.1.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 13 Feb 2017 02:35:57 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 22.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Simple and easy to use library for image loading", 
+            "Size": " 32866"
+        }
+    }
+}

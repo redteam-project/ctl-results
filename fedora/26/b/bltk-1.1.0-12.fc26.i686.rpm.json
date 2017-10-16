@@ -1,0 +1,319 @@
+{
+    "results": {
+        "usr/lib/bltk/lib/libxse_so_0": {
+            "report-functions": [
+                "XSync", 
+                "__cxa_finalize", 
+                "usleep", 
+                "XFlush", 
+                "waitpid", 
+                "__stack_chk_fail", 
+                "malloc", 
+                "exit", 
+                "kill", 
+                "strcmp", 
+                "write", 
+                "strerror", 
+                "read", 
+                "system", 
+                "XSendEvent", 
+                "getenv", 
+                "sleep", 
+                "__fprintf_chk", 
+                "__sprintf_chk", 
+                "access", 
+                "_ITM_registerTMCloneTable", 
+                "strlen", 
+                "gettimeofday", 
+                "fork", 
+                "XKeysymToString", 
+                "fclose", 
+                "_ITM_deregisterTMCloneTable", 
+                "fgets", 
+                "__ctype_b_loc", 
+                "strtol", 
+                "calloc", 
+                "__gmon_start__", 
+                "XStringToKeysym", 
+                "XCloseDisplay", 
+                "fopen", 
+                "__snprintf_chk", 
+                "XOpenDisplay", 
+                "__errno_location", 
+                "__isoc99_sscanf", 
+                "strcpy", 
+                "open", 
+                "strdup", 
+                "prctl", 
+                "free"
+            ], 
+            "rpm": "bltk-1.1.0-12.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/bltk/lib/libxse.so.0"
+        }, 
+        "usr/lib/bltk/bin/bltk_get_realpath": {
+            "report-functions": [
+                "__gmon_start__", 
+                "exit", 
+                "__errno_location", 
+                "__libc_start_main", 
+                "strerror", 
+                "__fprintf_chk"
+            ], 
+            "rpm": "bltk-1.1.0-12.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/bltk/bin/bltk_get_realpath"
+        }, 
+        "usr/lib/bltk/wl_office/bin/bltk_wl_office_xse": {
+            "report-functions": [
+                "write_delay", 
+                "fini_xse", 
+                "exit", 
+                "__gmon_start__", 
+                "delay", 
+                "run_scen", 
+                "__fprintf_chk"
+            ], 
+            "rpm": "bltk-1.1.0-12.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/bltk/wl_office/bin/bltk_wl_office_xse"
+        }, 
+        "usr/lib/bltk/bin/bltk_time": {
+            "report-functions": [
+                "__gmon_start__", 
+                "__printf_chk", 
+                "usleep", 
+                "__stack_chk_fail", 
+                "__errno_location", 
+                "strerror", 
+                "exit", 
+                "__isoc99_sscanf", 
+                "gettimeofday"
+            ], 
+            "rpm": "bltk-1.1.0-12.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/bltk/bin/bltk_time"
+        }, 
+        "usr/lib/bltk/wl_developer/bin/bltk_wl_developer_xse": {
+            "report-functions": [
+                "run_scen", 
+                "__libc_start_main", 
+                "exit", 
+                "__gmon_start__", 
+                "init_xse", 
+                "fini_xse"
+            ], 
+            "rpm": "bltk-1.1.0-12.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/bltk/wl_developer/bin/bltk_wl_developer_xse"
+        }, 
+        "usr/lib/bltk/wl_game/bin/bltk_wl_game_xse": {
+            "report-functions": [
+                "fini_xse", 
+                "delay", 
+                "__fprintf_chk", 
+                "init_xse", 
+                "__gmon_start__", 
+                "run_scen", 
+                "wait_finish_cmd"
+            ], 
+            "rpm": "bltk-1.1.0-12.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/bltk/wl_game/bin/bltk_wl_game_xse"
+        }, 
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/bltk/bin/bltk_calc": {
+            "report-functions": [
+                "strlen", 
+                "exit", 
+                "strchr", 
+                "__sprintf_chk", 
+                "strtol", 
+                "__libc_start_main", 
+                "__fprintf_chk", 
+                "__printf_chk"
+            ], 
+            "rpm": "bltk-1.1.0-12.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/bltk/bin/bltk_calc"
+        }, 
+        "usr/lib/bltk/wl_reader/bin/bltk_wl_reader_xse": {
+            "report-functions": [
+                "getenv", 
+                "fini_xse", 
+                "__fprintf_chk", 
+                "exit", 
+                "run_scen", 
+                "strtol", 
+                "write_delay", 
+                "__libc_start_main"
+            ], 
+            "rpm": "bltk-1.1.0-12.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/bltk/wl_reader/bin/bltk_wl_reader_xse"
+        }, 
+        "usr/lib/bltk/bin/bltk": {
+            "report-functions": [
+                "__realpath_chk", 
+                "usleep", 
+                "free", 
+                "strcmp", 
+                "getenv", 
+                "fork", 
+                "system", 
+                "__sprintf_chk", 
+                "strsignal", 
+                "read", 
+                "dirname", 
+                "strcat", 
+                "putenv", 
+                "strlen", 
+                "__gmon_start__", 
+                "getopt_long", 
+                "malloc", 
+                "unlink", 
+                "sync", 
+                "write", 
+                "__ctype_toupper_loc", 
+                "fgets", 
+                "strncpy", 
+                "__snprintf_chk", 
+                "__memcpy_chk", 
+                "getpid", 
+                "__libc_start_main", 
+                "strrchr", 
+                "access", 
+                "__sysv_signal", 
+                "chdir", 
+                "umask", 
+                "waitpid", 
+                "__stack_chk_fail", 
+                "fopen", 
+                "__vsprintf_chk", 
+                "strerror", 
+                "open", 
+                "mkdir", 
+                "strcpy", 
+                "__fprintf_chk", 
+                "readlink", 
+                "memset", 
+                "strchr", 
+                "getcwd", 
+                "fclose", 
+                "__strcpy_chk", 
+                "symlink", 
+                "exit", 
+                "close", 
+                "__errno_location", 
+                "__strcat_chk", 
+                "gettimeofday", 
+                "_IO_getc", 
+                "strdup", 
+                "strtol", 
+                "strstr", 
+                "__ctype_b_loc"
+            ], 
+            "rpm": "bltk-1.1.0-12.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/bltk/bin/bltk"
+        }, 
+        "usr/lib/bltk/bin/bltk_type_command": {
+            "report-functions": [
+                "__libc_start_main", 
+                "__stack_chk_fail", 
+                "__sprintf_chk", 
+                "strtol", 
+                "usleep", 
+                "fflush", 
+                "__printf_chk"
+            ], 
+            "rpm": "bltk-1.1.0-12.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/bltk/bin/bltk_type_command"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Applications/System", 
+            "Name": " bltk", 
+            "License": " BSD", 
+            "URL": " http://www.lesswatts.org/projects/bltk/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-18.phx2.fedoraproject.org", 
+            "Description": "\nThis tool kit is used to measure battery life and performance under\ndifferent workloads on Linux. Test can be used with various workloads to\nsimulate different types of laptop usage.\nThe following workloads are currently implemented:\n\ta) Idle workload - collect statistics only\n\tb) Developer workload - simulates code development in Linux environment\n\tc) Reader workload - simulates text reading on laptop\n\td) DVD playback workload - simulates laptop entertaining usage\n\te) 3d game workload - simulates 3D-gaming on laptop\n\tf) Office Activity workload - simulates laptop usage for different\n\t\toffice activities (based on OpenOffice.org office suit)\n", 
+            "Build Date": " Fri 10 Feb 2017 02:09:19 AM EST", 
+            "Source RPM": " bltk-1.1.0-12.fc26.src.rpm", 
+            "Version": " 1.1.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 13 Feb 2017 01:40:04 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 12.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " The BLTK measures notebook battery life under any workload", 
+            "Size": " 5608997"
+        }
+    }
+}

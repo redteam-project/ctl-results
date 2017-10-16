@@ -1,0 +1,81 @@
+{
+    "results": {
+        "usr/lib/libgif_so_4_1_6": {
+            "report-functions": [
+                "XQueryColors", 
+                "XGetImage", 
+                "malloc", 
+                "close", 
+                "__gmon_start__", 
+                "fputs", 
+                "calloc", 
+                "memset", 
+                "__fprintf_chk", 
+                "strtok", 
+                "_ITM_deregisterTMCloneTable", 
+                "__vsprintf_chk", 
+                "free", 
+                "fread", 
+                "fdopen", 
+                "__stack_chk_fail", 
+                "XGetWindowAttributes", 
+                "_ITM_registerTMCloneTable", 
+                "strlen", 
+                "realloc", 
+                "fclose", 
+                "fwrite", 
+                "strncpy", 
+                "qsort"
+            ], 
+            "rpm": "giflib-4.1.6-16.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libgif.so.4.1.6"
+        }, 
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/libungif_so_4_1_6": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "giflib-4.1.6-16.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libungif.so.4.1.6"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " giflib", 
+            "License": " MIT", 
+            "URL": " http://www.sourceforge.net/projects/giflib/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-09.phx2.fedoraproject.org", 
+            "Description": "\nThe giflib package contains a shared library of functions for loading and\nsaving GIF format image files. It is API and ABI compatible with libungif,\nthe library which supported uncompressed GIFs while the Unisys LZW patent\nwas in effect.\n", 
+            "Build Date": " Fri 10 Feb 2017 12:31:52 PM EST", 
+            "Source RPM": " giflib-4.1.6-16.fc26.src.rpm", 
+            "Version": " 4.1.6", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 11 Feb 2017 12:27:48 AM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 16.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Library for manipulating GIF format image files", 
+            "Size": " 88160"
+        }
+    }
+}

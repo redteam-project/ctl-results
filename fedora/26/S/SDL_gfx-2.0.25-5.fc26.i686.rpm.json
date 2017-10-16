@@ -1,0 +1,72 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/libSDL_gfx_so_15_9_1": {
+            "report-functions": [
+                "SDL_CreateRGBSurface", 
+                "SDL_MapRGB", 
+                "sqrt", 
+                "realloc", 
+                "cos", 
+                "_ITM_registerTMCloneTable", 
+                "SDL_FillRect", 
+                "SDL_UpperBlit", 
+                "floor", 
+                "SDL_SetAlpha", 
+                "qsort", 
+                "atan", 
+                "sin", 
+                "malloc", 
+                "pow", 
+                "__gmon_start__", 
+                "SDL_GetTicks", 
+                "SDL_SetError", 
+                "SDL_HasMMX", 
+                "SDL_LockSurface", 
+                "__stack_chk_fail", 
+                "free", 
+                "SDL_FreeSurface", 
+                "SDL_Delay", 
+                "_ITM_deregisterTMCloneTable", 
+                "sincos", 
+                "ceil", 
+                "SDL_MapRGBA", 
+                "SDL_UnlockSurface", 
+                "SDL_GetRGB"
+            ], 
+            "rpm": "SDL_gfx-2.0.25-5.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libSDL_gfx.so.15.9.1"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " SDL_gfx", 
+            "License": " LGPLv2", 
+            "URL": " http://www.ferzkopp.net/Software/SDL_gfx-2.0/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-03.phx2.fedoraproject.org", 
+            "Description": "\nLibrary providing SDL graphics drawing primitives and other support functions\nwrapped up in an addon library for the Simple Direct Media (SDL) cross-platform\nAPI layer.\n", 
+            "Build Date": " Fri 10 Feb 2017 12:39:01 AM EST", 
+            "Source RPM": " SDL_gfx-2.0.25-5.fc26.src.rpm", 
+            "Version": " 2.0.25", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 13 Feb 2017 01:58:11 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 5.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " SDL graphics drawing primitives and other support functions", 
+            "Size": " 121449"
+        }
+    }
+}

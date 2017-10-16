@@ -1,0 +1,80 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/libcwiid_so_1_0": {
+            "report-functions": [
+                "malloc", 
+                "pthread_cond_timedwait", 
+                "bind", 
+                "pthread_join", 
+                "pthread_detach", 
+                "free", 
+                "__errno_location", 
+                "pthread_mutex_init", 
+                "__printf_chk", 
+                "hci_get_route", 
+                "pthread_cancel", 
+                "socket", 
+                "write", 
+                "pthread_mutex_destroy", 
+                "hci_open_dev", 
+                "_ITM_registerTMCloneTable", 
+                "listen", 
+                "connect", 
+                "hci_inquiry", 
+                "pthread_mutex_lock", 
+                "close", 
+                "fcntl", 
+                "__gmon_start__", 
+                "__memcpy_chk", 
+                "pthread_mutex_unlock", 
+                "accept", 
+                "__cxa_finalize", 
+                "hci_close_dev", 
+                "clock_gettime", 
+                "pthread_setcancelstate", 
+                "fputc", 
+                "realloc", 
+                "read", 
+                "pthread_create", 
+                "pipe", 
+                "sleep", 
+                "hci_read_remote_name", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "cwiid-0.6.00-29.20100505gitfadf11e.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libcwiid.so.1.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " cwiid", 
+            "License": " GPLv2+", 
+            "URL": " http://abstrakraft.org/cwiid/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-16.phx2.fedoraproject.org", 
+            "Description": "\nCwiid is a library that enables your application to communicate with\na wiimote using a bluetooth connection.\n", 
+            "Build Date": " Fri 10 Feb 2017 09:16:02 AM EST", 
+            "Source RPM": " cwiid-0.6.00-29.20100505gitfadf11e.fc26.src.rpm", 
+            "Version": " 0.6.00", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 10 Feb 2017 02:18:24 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 29.20100505gitfadf11e.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Wiimote interface library", 
+            "Size": " 72156"
+        }
+    }
+}

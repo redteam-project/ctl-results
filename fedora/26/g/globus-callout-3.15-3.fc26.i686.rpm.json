@@ -1,0 +1,89 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/libglobus_callout_so_0_3_15": {
+            "report-functions": [
+                "fgets", 
+                "globus_libc_setenv", 
+                "strchr", 
+                "__stack_chk_fail", 
+                "globus_module_getenv", 
+                "lt_dlinit", 
+                "lt_dlexit", 
+                "__cxa_finalize", 
+                "globus_hashtable_destroy_all", 
+                "_ITM_registerTMCloneTable", 
+                "strrchr", 
+                "__fprintf_chk", 
+                "lt_dlsym", 
+                "globus_hashtable_string_keyeq", 
+                "__ctype_b_loc", 
+                "getenv", 
+                "globus_libc_strdup", 
+                "strcspn", 
+                "lt_dlerror", 
+                "globus_hashtable_lookup", 
+                "__isoc99_sscanf", 
+                "globus_module_deactivate", 
+                "globus_hashtable_string_hash", 
+                "globus_error_wrap_errno_error", 
+                "globus_error_set_long_desc", 
+                "fopen64", 
+                "globus_hashtable_insert", 
+                "lt_dlopenext", 
+                "__errno_location", 
+                "globus_error_construct_error", 
+                "_ITM_deregisterTMCloneTable", 
+                "globus_libc_unsetenv", 
+                "calloc", 
+                "malloc", 
+                "strlen", 
+                "strstr", 
+                "globus_error_get", 
+                "free", 
+                "globus_common_create_string", 
+                "fclose", 
+                "__strdup", 
+                "globus_hashtable_init", 
+                "lt_dlclose", 
+                "__gmon_start__", 
+                "globus_error_put", 
+                "strtol", 
+                "__snprintf_chk"
+            ], 
+            "rpm": "globus-callout-3.15-3.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libglobus_callout.so.0.3.15"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " globus-callout", 
+            "License": " ASL 2.0", 
+            "URL": " http://toolkit.globus.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-07.phx2.fedoraproject.org", 
+            "Description": "\nThe Globus Toolkit is an open source software toolkit used for building Grid\nsystems and applications. It is being developed by the Globus Alliance and\nmany others all over the world. A growing number of projects and companies are\nusing the Globus Toolkit to unlock the potential of grids for their cause.\n\nThe globus-callout package contains:\nGlobus Callout Library - provides a platform independent way of dealing with\nruntime loadable functions.\n", 
+            "Build Date": " Tue 28 Mar 2017 07:01:34 AM EDT", 
+            "Source RPM": " globus-callout-3.15-3.fc26.src.rpm", 
+            "Version": " 3.15", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 28 Mar 2017 08:59:52 AM EDT, Key ID 812a6b4b64dab85d", 
+            "Release": " 3.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Globus Toolkit - Globus Callout Library", 
+            "Size": " 29457"
+        }
+    }
+}

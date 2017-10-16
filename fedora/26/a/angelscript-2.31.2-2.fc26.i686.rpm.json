@@ -1,0 +1,85 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/libangelscript_so_23102": {
+            "report-functions": [
+                "pthread_setspecific", 
+                "pthread_getspecific", 
+                "__stack_chk_fail", 
+                "__memcpy_chk", 
+                "__cxa_guard_acquire", 
+                "__umoddi3", 
+                "pthread_mutex_lock", 
+                "strlen", 
+                "_Unwind_Resume", 
+                "malloc", 
+                "__cxa_end_catch", 
+                "pthread_key_delete", 
+                "__cxa_atexit", 
+                "qsort", 
+                "__vsnprintf_chk", 
+                "pthread_mutex_destroy", 
+                "free", 
+                "fmodf", 
+                "_ZdlPvj", 
+                "strncmp", 
+                "pthread_rwlock_init", 
+                "strstr", 
+                "pthread_mutex_init", 
+                "pthread_rwlock_wrlock", 
+                "__cxa_finalize", 
+                "__assert_fail", 
+                "pow", 
+                "pthread_rwlock_unlock", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable", 
+                "fmod", 
+                "__cxa_begin_catch", 
+                "pthread_mutex_unlock", 
+                "pthread_key_create", 
+                "memcmp", 
+                "__udivdi3", 
+                "__cxa_guard_release", 
+                "__divdi3", 
+                "pthread_rwlock_destroy", 
+                "__moddi3", 
+                "pthread_rwlock_rdlock", 
+                "powf", 
+                "pthread_mutex_trylock"
+            ], 
+            "rpm": "angelscript-2.31.2-2.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libangelscript.so.23102"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " angelscript", 
+            "License": " zlib", 
+            "URL": " http://www.angelcode.com/angelscript/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-13.phx2.fedoraproject.org", 
+            "Description": "\nThe AngelScript library is a software library for easy integration of\nexternal scripting to applications, with built-in compiler and virtual\nmachine. The scripting language is easily extendable to incorporate\napplication specific data types and functions. It is designed with C++\nin mind, as such it shares many features with C++, for example syntax\nand data types.\n", 
+            "Build Date": " Fri 10 Feb 2017 01:03:01 AM EST", 
+            "Source RPM": " angelscript-2.31.2-2.fc26.src.rpm", 
+            "Version": " 2.31.2", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 13 Feb 2017 04:26:37 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 2.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Flexible cross-platform scripting library", 
+            "Size": " 1448908"
+        }
+    }
+}

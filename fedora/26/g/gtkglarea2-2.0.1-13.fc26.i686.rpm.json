@@ -1,0 +1,92 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/libgtkgl-2_0_so_1_0_1": {
+            "report-functions": [
+                "g_object_unref", 
+                "g_return_if_fail_warning", 
+                "glXCreateGLXPixmap", 
+                "g_type_check_instance_cast", 
+                "glXDestroyContext", 
+                "gdk_pixmap_get_type", 
+                "gtk_object_get_type", 
+                "glXGetClientString", 
+                "gdk_x11_drawable_get_xdisplay", 
+                "_ITM_registerTMCloneTable", 
+                "__gmon_start__", 
+                "XVisualIDFromVisual", 
+                "gtk_widget_set_double_buffered", 
+                "XGetGeometry", 
+                "g_assertion_message_expr", 
+                "gtk_widget_pop_colormap", 
+                "XGetVisualInfo", 
+                "gdk_drawable_get_type", 
+                "glXMakeCurrent", 
+                "gdk_x11_drawable_get_xid", 
+                "glXGetConfig", 
+                "gtk_widget_get_type", 
+                "gdk_x11_visual_get_xvisual", 
+                "gtk_widget_push_colormap", 
+                "g_type_register_static", 
+                "__stack_chk_fail", 
+                "glXGetCurrentContext", 
+                "glXSwapBuffers", 
+                "glXDestroyGLXPixmap", 
+                "glXQueryExtension", 
+                "gdk_font_id", 
+                "g_type_check_instance_is_a", 
+                "gdkx_visual_get", 
+                "_ITM_deregisterTMCloneTable", 
+                "glXWaitGL", 
+                "g_malloc_n", 
+                "__cxa_finalize", 
+                "g_object_new", 
+                "gtk_drawing_area_get_type", 
+                "g_strdup_printf", 
+                "glXChooseVisual", 
+                "g_type_check_class_cast", 
+                "glXCreateContext", 
+                "gdk_colormap_new", 
+                "g_type_class_peek_parent", 
+                "glXWaitX", 
+                "g_free", 
+                "g_object_ref", 
+                "gdk_visual_get_type", 
+                "glXUseXFont"
+            ], 
+            "rpm": "gtkglarea2-2.0.1-13.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libgtkgl-2.0.so.1.0.1"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " gtkglarea2", 
+            "License": " LGPLv2+", 
+            "URL": " http://ftp.gnome.org/pub/gnome/sources/gtkglarea/2.0/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-26.phx2.fedoraproject.org", 
+            "Description": "\nGtkGLArea is a GTK widget that makes it easy to use OpenGL or Mesa\nfrom your GTK programs.\n", 
+            "Build Date": " Fri 10 Feb 2017 03:25:24 PM EST", 
+            "Source RPM": " gtkglarea2-2.0.1-13.fc26.src.rpm", 
+            "Version": " 2.0.1", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 11 Feb 2017 04:14:55 AM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 13.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " OpenGL GTK widget", 
+            "Size": " 43937"
+        }
+    }
+}

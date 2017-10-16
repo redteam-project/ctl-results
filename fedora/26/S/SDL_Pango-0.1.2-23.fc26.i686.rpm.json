@@ -1,0 +1,84 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/libSDL_Pango_so_1_1_0": {
+            "report-functions": [
+                "pango_layout_set_auto_dir", 
+                "g_free", 
+                "SDL_FillRect", 
+                "__cxa_finalize", 
+                "pango_font_description_from_string", 
+                "pango_ft2_font_map_create_context", 
+                "SDL_CreateRGBSurface", 
+                "pango_glyph_string_extents", 
+                "SDL_SetError", 
+                "SDL_UnlockSurface", 
+                "SDL_MapRGBA", 
+                "pango_layout_get_extents", 
+                "pango_layout_set_markup", 
+                "pango_context_set_language", 
+                "SDL_FreeSurface", 
+                "pango_language_from_string", 
+                "SDL_LockSurface", 
+                "pango_layout_set_font_description", 
+                "g_type_check_instance_cast", 
+                "__gmon_start__", 
+                "g_object_unref", 
+                "pango_layout_iter_get_line_extents", 
+                "pango_ft2_render", 
+                "pango_layout_new", 
+                "pango_layout_iter_get_baseline", 
+                "pango_layout_iter_next_line", 
+                "_ITM_registerTMCloneTable", 
+                "pango_layout_iter_free", 
+                "pango_layout_get_iter", 
+                "pango_layout_set_attributes", 
+                "g_get_charset", 
+                "__stack_chk_fail", 
+                "pango_context_set_base_dir", 
+                "pango_layout_iter_get_line", 
+                "_ITM_deregisterTMCloneTable", 
+                "pango_layout_set_alignment", 
+                "g_malloc", 
+                "pango_ft2_font_map_get_type", 
+                "pango_font_description_free", 
+                "pango_ft2_font_map_set_resolution", 
+                "pango_layout_set_width", 
+                "pango_ft2_font_map_new"
+            ], 
+            "rpm": "SDL_Pango-0.1.2-23.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libSDL_Pango.so.1.1.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " SDL_Pango", 
+            "License": " LGPLv2+", 
+            "URL": " http://sdlpango.sourceforge.net/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-09.phx2.fedoraproject.org", 
+            "Description": "\nPango is the text rendering engine of GNOME 2. SDL_Pango connects that engine\nto SDL, the Simple DirectMedia Layer.\n", 
+            "Build Date": " Fri 10 Feb 2017 12:39:38 AM EST", 
+            "Source RPM": " SDL_Pango-0.1.2-23.fc26.src.rpm", 
+            "Version": " 0.1.2", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 13 Feb 2017 04:58:20 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 23.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Rendering of internationalized text for SDL (Simple DirectMedia Layer)", 
+            "Size": " 46430"
+        }
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/libopennl_so_3_2_1": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "_ITM_deregisterTMCloneTable", 
+                "realloc", 
+                "abort", 
+                "free", 
+                "times", 
+                "_ITM_registerTMCloneTable", 
+                "calloc", 
+                "qsort", 
+                "__fprintf_chk", 
+                "__cxa_finalize", 
+                "__printf_chk"
+            ], 
+            "rpm": "OpenNL-3.2.1-15.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libopennl.so.3.2.1"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " OpenNL", 
+            "License": " BSD", 
+            "URL": " http://alice.loria.fr/index.php/software/4-library/23-opennl.html", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-10.phx2.fedoraproject.org", 
+            "Description": "\nOpenNL (Open Numerical Library) is a library for solving sparse linear systems,\nespecially designed for the Computer Graphics community. The goal for OpenNL is\nto be as small as possible, while offering the subset of functionalities\nrequired by this application field. The Makefiles of OpenNL can generate a\nsingle .c + .h file, very easy to integrate in other projects. The distribution\nincludes an implementation of our Least Squares Conformal Maps parameterization\nmethod.\n\nNew version: OpenNL 3.2.1, includes support for CUDA and Fermi architecture\n(Concurrent Number Cruncher and Nathan Bell's ELL formats)\n\n\nOpenNL offers the following set of functionalities:\n\n    Efficient sparse matrix data structure (for non-symmetric and symmetric\nmatrices)\n    Iterative builder for sparse linear system\n    Iterative builder for sparse least-squares problems\n    Iterative solvers: conjugate gradient, BICGStab, GMRES\n    Preconditionners: Jacobi, SSOR\n    Iterative solver on the GPU (Concurrent Number Cruncher and Nathan Bell's\nELL)\n    Sparse direct solvers: OpenNL can be linked with SuperLU\n    Simple demo program with LSCM (Least Squares Conformal Maps)\n", 
+            "Build Date": " Fri 10 Feb 2017 12:24:15 AM EST", 
+            "Source RPM": " OpenNL-3.2.1-15.fc26.src.rpm", 
+            "Version": " 3.2.1", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 13 Feb 2017 04:03:10 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 15.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A library for solving sparse linear systems", 
+            "Size": " 73760"
+        }
+    }
+}

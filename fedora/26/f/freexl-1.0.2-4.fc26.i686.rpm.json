@@ -1,0 +1,62 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/libfreexl_so_1_1_0": {
+            "report-functions": [
+                "lround", 
+                "free", 
+                "iconv_close", 
+                "__gmon_start__", 
+                "fread", 
+                "iconv", 
+                "fopen", 
+                "memset", 
+                "rewind", 
+                "ftell", 
+                "fseek", 
+                "iconv_open", 
+                "__cxa_finalize", 
+                "malloc", 
+                "floor", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable", 
+                "__fread_chk", 
+                "fclose", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "freexl-1.0.2-4.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libfreexl.so.1.1.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " freexl", 
+            "License": " MPLv1.1 or GPLv2+ or LGPLv2+", 
+            "URL": " http://www.gaia-gis.it/FreeXL", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-08.phx2.fedoraproject.org", 
+            "Description": "\nFreeXL is a library to extract valid data\nfrom within an Excel spreadsheet (.xls)\n\nDesign goals:\n    * simple and lightweight\n    * stable, robust and efficient\n    * easily and universally portable\n    * completely ignore any GUI-related oddity\n", 
+            "Build Date": " Fri 10 Feb 2017 11:10:47 AM EST", 
+            "Source RPM": " freexl-1.0.2-4.fc26.src.rpm", 
+            "Version": " 1.0.2", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 10 Feb 2017 08:15:51 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 4.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Library to extract data from within an Excel spreadsheet", 
+            "Size": " 66534"
+        }
+    }
+}

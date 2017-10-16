@@ -1,0 +1,86 @@
+{
+    "results": {
+        "usr/arm-linux-gnu/lib/libmcheck_a": {
+            "report-functions": [], 
+            "rpm": "glibc-arm-linux-gnu-devel-2.25-1.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-linux-gnu/lib/libmcheck.a"
+        }, 
+        "usr/arm-linux-gnu/lib/libieee_a": {
+            "report-functions": [], 
+            "rpm": "glibc-arm-linux-gnu-devel-2.25-1.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/arm-linux-gnu/lib/libieee.a"
+        }, 
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/arm-linux-gnu/include/sys/elf_h": {
+            "report-functions": [], 
+            "rpm": "glibc-arm-linux-gnu-devel-2.25-1.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {}, 
+            "filename": "usr/arm-linux-gnu/include/sys/elf.h"
+        }, 
+        "usr/arm-linux-gnu/include/bits/elfclass_h": {
+            "report-functions": [], 
+            "rpm": "glibc-arm-linux-gnu-devel-2.25-1.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {}, 
+            "filename": "usr/arm-linux-gnu/include/bits/elfclass.h"
+        }, 
+        "usr/arm-linux-gnu/include/elf_h": {
+            "report-functions": [], 
+            "rpm": "glibc-arm-linux-gnu-devel-2.25-1.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {}, 
+            "filename": "usr/arm-linux-gnu/include/elf.h"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Languages", 
+            "Name": " glibc-arm-linux-gnu-devel", 
+            "License": " LGPLv2+ and BSD and MIT", 
+            "URL": " http://www.gnu.org/software/libc/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-09.phx2.fedoraproject.org", 
+            "Description": "\nDevelopment files for the arm-linux-gnu GNU C Library.\n", 
+            "Build Date": " Wed 08 Feb 2017 04:09:45 PM EST", 
+            "Source RPM": " glibc-arm-linux-gnu-2.25-1.fc26.src.rpm", 
+            "Version": " 2.25", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Wed 08 Feb 2017 04:10:16 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 1.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Development files for the arm-linux-gnu GNU C Library", 
+            "Size": " 46449300"
+        }
+    }
+}

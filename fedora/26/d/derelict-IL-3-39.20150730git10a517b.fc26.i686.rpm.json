@@ -1,0 +1,55 @@
+{
+    "results": {
+        "usr/lib/libDerelictIL_so_3_0_0": {
+            "report-functions": [
+                "_D8derelict4util6loader15SharedLibLoader8bindFuncMFPPvAyabZv", 
+                "__gmon_start__", 
+                "_D6object6Object8toStringMFZAya", 
+                "_D6object6Object8opEqualsMFC6ObjectZb", 
+                "_ITM_registerTMCloneTable", 
+                "_D6object6Object6toHashMFNbNeZk", 
+                "__cxa_finalize", 
+                "_D8derelict4util6loader15SharedLibLoader23configureMinimumVersionMFS8derelict4util6loader16SharedLibVersionZv", 
+                "_D8derelict4util6loader15SharedLibLoader7__ClassZ", 
+                "_d_dso_registry", 
+                "_d_allocclass", 
+                "_D8derelict4util6loader15SharedLibLoader6__ctorMFAyaZC8derelict4util6loader15SharedLibLoader", 
+                "_D8derelict4util6loader15SharedLibLoader10loadSymbolMFAyabZPv"
+            ], 
+            "rpm": "derelict-IL-3-39.20150730git10a517b.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libDerelictIL.so.3.0.0"
+        }, 
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " derelict-IL", 
+            "License": " Boost", 
+            "URL": " http://www.dsource.org/projects/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-30.phx2.fedoraproject.org", 
+            "Description": "\nLibraries for IL to use in D programming language.\n", 
+            "Build Date": " Wed 14 Jun 2017 02:16:08 AM EDT", 
+            "Source RPM": " derelict-3-39.20150730git10a517b.fc26.src.rpm", 
+            "Version": " 3", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Wed 14 Jun 2017 03:07:19 AM EDT, Key ID 812a6b4b64dab85d", 
+            "Release": " 39.20150730git10a517b.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Libraries to use IL", 
+            "Size": " 99768"
+        }
+    }
+}

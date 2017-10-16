@@ -1,0 +1,55 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/alsa-lib/libasound_module_rate_samplerate_so": {
+            "report-functions": [
+                "src_new", 
+                "__cxa_finalize", 
+                "__gmon_start__", 
+                "src_float_to_short_array", 
+                "_ITM_deregisterTMCloneTable", 
+                "snd_output_printf", 
+                "src_short_to_float_array", 
+                "src_reset", 
+                "malloc", 
+                "free", 
+                "src_delete", 
+                "calloc", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "alsa-plugins-samplerate-1.1.4-1.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/alsa-lib/libasound_module_rate_samplerate.so"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " alsa-plugins-samplerate", 
+            "License": " GPLv2+", 
+            "URL": " http://www.alsa-project.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-21.phx2.fedoraproject.org", 
+            "Description": "\nThis plugin is an external rate converter using libsamplerate by Erik de\nCastro Lopo.\n", 
+            "Build Date": " Tue 16 May 2017 09:15:06 AM EDT", 
+            "Source RPM": " alsa-plugins-1.1.4-1.fc26.src.rpm", 
+            "Version": " 1.1.4", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 23 May 2017 03:34:11 PM EDT, Key ID 812a6b4b64dab85d", 
+            "Release": " 1.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " External rate converter plugin for ALSA", 
+            "Size": " 56064"
+        }
+    }
+}

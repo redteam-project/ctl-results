@@ -1,0 +1,89 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/alsa-lib/libasound_module_pcm_jack_so": {
+            "report-functions": [
+                "snd_pcm_ioplug_set_param_list", 
+                "snd_pcm_avail_update", 
+                "jack_port_register", 
+                "read", 
+                "jack_set_process_callback", 
+                "__assert_fail", 
+                "__strdup", 
+                "snd_config_get_type", 
+                "fcntl", 
+                "getpid", 
+                "jack_port_name", 
+                "write", 
+                "__snprintf_chk", 
+                "snd_pcm_sw_params_sizeof", 
+                "snd_pcm_area_copy", 
+                "socketpair", 
+                "snd_pcm_ioplug_mmap_areas", 
+                "snd_config_iterator_next", 
+                "jack_activate", 
+                "__cxa_finalize", 
+                "snd_pcm_format_physical_width", 
+                "snd_config_iterator_end", 
+                "jack_port_get_buffer", 
+                "jack_connect", 
+                "__sprintf_chk", 
+                "snprintf", 
+                "snd_pcm_ioplug_delete", 
+                "__fprintf_chk", 
+                "snd_config_iterator_first", 
+                "__gmon_start__", 
+                "__stack_chk_fail", 
+                "calloc", 
+                "close", 
+                "snd_config_iterator_entry", 
+                "snd_config_get_string", 
+                "snd_pcm_sw_params_get_avail_min", 
+                "jack_get_sample_rate", 
+                "jack_client_close", 
+                "snd_pcm_sw_params_current", 
+                "free", 
+                "snd_pcm_ioplug_set_param_minmax", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable", 
+                "snd_pcm_area_silence", 
+                "snd_pcm_ioplug_create", 
+                "snd_config_get_id", 
+                "jack_deactivate"
+            ], 
+            "rpm": "alsa-plugins-jack-1.1.4-1.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/alsa-lib/libasound_module_pcm_jack.so"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " alsa-plugins-jack", 
+            "License": " LGPLv2+", 
+            "URL": " http://www.alsa-project.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-21.phx2.fedoraproject.org", 
+            "Description": "\nThis plugin converts the ALSA API over JACK (Jack Audio Connection\nKit, http://jackit.sf.net) API.  ALSA native applications can work\ntransparently together with jackd for both playback and capture.\nThis plugin provides the PCM type \"jack\"\n", 
+            "Build Date": " Tue 16 May 2017 09:15:06 AM EDT", 
+            "Source RPM": " alsa-plugins-1.1.4-1.fc26.src.rpm", 
+            "Version": " 1.1.4", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 23 May 2017 03:34:02 PM EDT, Key ID 812a6b4b64dab85d", 
+            "Release": " 1.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Jack PCM output plugin for ALSA", 
+            "Size": " 60703"
+        }
+    }
+}

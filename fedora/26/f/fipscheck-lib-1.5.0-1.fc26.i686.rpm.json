@@ -1,0 +1,68 @@
+{
+    "results": {
+        "usr/lib/libfipscheck_so_1_2_1": {
+            "report-functions": [
+                "_exit", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable", 
+                "dlopen", 
+                "access", 
+                "close", 
+                "strlen", 
+                "open", 
+                "strcpy", 
+                "stpcpy", 
+                "strncpy", 
+                "__errno_location", 
+                "malloc", 
+                "strrchr", 
+                "fork", 
+                "__stack_chk_fail", 
+                "read", 
+                "dladdr", 
+                "__gmon_start__", 
+                "dlclose", 
+                "free", 
+                "execve", 
+                "signal", 
+                "waitpid", 
+                "__cxa_finalize", 
+                "readlink"
+            ], 
+            "rpm": "fipscheck-lib-1.5.0-1.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libfipscheck.so.1.2.1"
+        }, 
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " fipscheck-lib", 
+            "License": " BSD", 
+            "URL": " https://pagure.io/fipscheck", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-22.phx2.fedoraproject.org", 
+            "Description": "\nThis package contains the FIPSCheck library.\n", 
+            "Build Date": " Thu 23 Feb 2017 10:37:02 AM EST", 
+            "Source RPM": " fipscheck-1.5.0-1.fc26.src.rpm", 
+            "Version": " 1.5.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 23 Feb 2017 10:41:58 AM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 1.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Library files for fipscheck", 
+            "Size": " 10393"
+        }
+    }
+}

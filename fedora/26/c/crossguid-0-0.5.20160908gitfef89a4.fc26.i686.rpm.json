@@ -1,0 +1,60 @@
+{
+    "results": {
+        "usr/lib/libcrossguid_so_0_0": {
+            "report-functions": [
+                "_ZNKSt5ctypeIcE13_M_widen_initEv", 
+                "uuid_generate", 
+                "_ITM_deregisterTMCloneTable", 
+                "__stack_chk_fail", 
+                "_Znwj", 
+                "__cxa_atexit", 
+                "_ITM_registerTMCloneTable", 
+                "_ZNSt8ios_base4InitD1Ev", 
+                "__cxa_finalize", 
+                "_ZSt20__throw_length_errorPKc", 
+                "_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_i", 
+                "memcmp", 
+                "__gxx_personality_v0", 
+                "_ZdlPv", 
+                "_Unwind_Resume", 
+                "_ZNSolsEi", 
+                "_ZNSt8ios_base4InitC1Ev", 
+                "memmove"
+            ], 
+            "rpm": "crossguid-0-0.5.20160908gitfef89a4.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libcrossguid.so.0.0"
+        }, 
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " crossguid", 
+            "License": " MIT", 
+            "URL": " https://github.com/graeme-hill/crossguid/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-31.phx2.fedoraproject.org", 
+            "Description": "\nCrossGuid is a minimal, cross platform, C++ GUID library. It uses the best\nnative GUID/UUID generator on the given platform and has a generic class for\nparsing, stringifying, and comparing IDs.\n", 
+            "Build Date": " Wed 26 Apr 2017 06:44:16 AM EDT", 
+            "Source RPM": " crossguid-0-0.5.20160908gitfef89a4.fc26.src.rpm", 
+            "Version": " 0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Wed 26 Apr 2017 06:52:10 AM EDT, Key ID 812a6b4b64dab85d", 
+            "Release": " 0.5.20160908gitfef89a4.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Lightweight cross platform C++ GUID/UUID library", 
+            "Size": " 18699"
+        }
+    }
+}

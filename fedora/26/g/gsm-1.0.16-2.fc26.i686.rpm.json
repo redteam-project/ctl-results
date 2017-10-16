@@ -1,0 +1,50 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/libgsm_so_1_0_16": {
+            "report-functions": [
+                "_IO_putc", 
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "__fprintf_chk", 
+                "free", 
+                "__assert_fail", 
+                "_ITM_registerTMCloneTable", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "gsm-1.0.16-2.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libgsm.so.1.0.16"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " gsm", 
+            "License": " MIT", 
+            "URL": " http://www.quut.com/gsm/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-12.phx2.fedoraproject.org", 
+            "Description": "\nContains runtime shared libraries for libgsm, an implementation of\nthe European GSM 06.10 provisional standard for full-rate speech\ntranscoding, prI-ETS 300 036, which uses RPE/LTP (residual pulse\nexcitation/long term prediction) coding at 13 kbit/s.\n\nGSM 06.10 compresses frames of 162 13-bit samples (8 kHz sampling\nrate, i.e. a frame rate of 50 Hz) into 260 bits; for compatibility\nwith typical UNIX applications, our implementation turns frames of 160\n16-bit linear samples into 33-byte frames (1650 Bytes/s).\nThe quality of the algorithm is good enough for reliable speaker\nrecognition; even music often survives transcoding in recognizable\nform (given the bandwidth limitations of 8 kHz sampling rate).\n\nThe interfaces offered are a front end modelled after compress(1), and\na library API.  Compression and decompression run faster than realtime\non most SPARCstations.  The implementation has been verified against the\nETSI standard test patterns.\n", 
+            "Build Date": " Fri 10 Feb 2017 03:07:05 PM EST", 
+            "Source RPM": " gsm-1.0.16-2.fc26.src.rpm", 
+            "Version": " 1.0.16", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 11 Feb 2017 03:40:57 AM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 2.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Shared libraries for GSM speech compressor", 
+            "Size": " 55571"
+        }
+    }
+}

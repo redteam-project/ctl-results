@@ -1,0 +1,76 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/libgme_so_0_6_1": {
+            "report-functions": [
+                "realloc", 
+                "cos", 
+                "strncpy", 
+                "fmod", 
+                "strcmp", 
+                "pow", 
+                "memset", 
+                "fseek", 
+                "__gmon_start__", 
+                "__cxa_guard_acquire", 
+                "floor", 
+                "feof", 
+                "_ITM_registerTMCloneTable", 
+                "strrchr", 
+                "_Unwind_Resume", 
+                "log10", 
+                "free", 
+                "_ITM_deregisterTMCloneTable", 
+                "fclose", 
+                "sin", 
+                "fopen", 
+                "__gxx_personality_v0", 
+                "fread", 
+                "toupper", 
+                "__assert_fail", 
+                "_ZdlPvj", 
+                "_Znwj", 
+                "ftell", 
+                "__cxa_pure_virtual", 
+                "__memcpy_chk", 
+                "__cxa_finalize", 
+                "memmove", 
+                "malloc", 
+                "memcmp"
+            ], 
+            "rpm": "game-music-emu-0.6.1-2.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libgme.so.0.6.1"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " game-music-emu", 
+            "License": " LGPLv2+", 
+            "URL": " https://bitbucket.org/mpyne/game-music-emu/wiki/Home", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-21.phx2.fedoraproject.org", 
+            "Description": "\nGame_Music_Emu is a collection of video game music file emulators that support\nthe following formats and systems:\n\n * AY       ZX Spectrum/Amstrad CPC\n * GBS      Nintendo Game Boy\n * GYM      Sega Genesis/Mega Drive\n * HES      NEC TurboGrafx-16/PC Engine\n * KSS      MSX Home Computer/other Z80 systems (doesn't support FM sound)\n * NSF/NSFE Nintendo NES/Famicom (with VRC 6, Namco 106, and FME-7 sound)\n * SAP      Atari systems using POKEY sound chip\n * SPC      Super Nintendo/Super Famicom\n * VGM/VGZ  Sega Master System/Mark III, Sega Genesis/Mega Drive,BBC Micro\n", 
+            "Build Date": " Fri 10 Feb 2017 11:22:31 AM EST", 
+            "Source RPM": " game-music-emu-0.6.1-2.fc26.src.rpm", 
+            "Version": " 0.6.1", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 10 Feb 2017 08:52:09 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 2.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Video game music file emulation/playback library", 
+            "Size": " 370966"
+        }
+    }
+}

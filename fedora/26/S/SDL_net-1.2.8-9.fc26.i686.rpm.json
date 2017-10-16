@@ -1,0 +1,75 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/libSDL_net-1_2_so_0_8_0": {
+            "report-functions": [
+                "sendto", 
+                "malloc", 
+                "ioctl", 
+                "recv", 
+                "select", 
+                "gethostbyname", 
+                "inet_addr", 
+                "listen", 
+                "accept", 
+                "inet_ntoa", 
+                "bind", 
+                "__stack_chk_fail", 
+                "setsockopt", 
+                "socket", 
+                "signal", 
+                "_ITM_deregisterTMCloneTable", 
+                "perror", 
+                "fcntl", 
+                "connect", 
+                "__cxa_finalize", 
+                "send", 
+                "getsockname", 
+                "__errno_location", 
+                "random", 
+                "free", 
+                "SDL_GetTicks", 
+                "gethostbyaddr", 
+                "SDL_SetError", 
+                "close", 
+                "recvfrom", 
+                "srandom", 
+                "__gmon_start__", 
+                "__fdelt_chk"
+            ], 
+            "rpm": "SDL_net-1.2.8-9.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libSDL_net-1.2.so.0.8.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " SDL_net", 
+            "License": " LGPLv2+", 
+            "URL": " http://www.libsdl.org/projects/SDL_net/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-23.phx2.fedoraproject.org", 
+            "Description": "\nThis is a portable network library for use with SDL.\n", 
+            "Build Date": " Fri 10 Feb 2017 12:39:09 AM EST", 
+            "Source RPM": " SDL_net-1.2.8-9.fc26.src.rpm", 
+            "Version": " 1.2.8", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 13 Feb 2017 01:55:44 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 9.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " SDL portable network library", 
+            "Size": " 24880"
+        }
+    }
+}

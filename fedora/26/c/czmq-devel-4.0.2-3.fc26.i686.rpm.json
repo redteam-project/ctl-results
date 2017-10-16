@@ -1,0 +1,56 @@
+{
+    "results": {
+        "usr/bin/zmakecert": {
+            "report-functions": [
+                "zsys_info", 
+                "zcert_new", 
+                "zcert_print", 
+                "__stack_chk_fail", 
+                "zcert_set_meta", 
+                "_ITM_registerTMCloneTable", 
+                "__cxa_finalize", 
+                "_ITM_deregisterTMCloneTable", 
+                "__printf_chk", 
+                "__gmon_start__", 
+                "zcert_destroy", 
+                "free", 
+                "zcert_save", 
+                "fgets"
+            ], 
+            "rpm": "czmq-devel-4.0.2-3.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/zmakecert"
+        }, 
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " czmq-devel", 
+            "License": " MPLv2.0", 
+            "URL": " http://czmq.zeromq.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-02.phx2.fedoraproject.org", 
+            "Description": "\nThis package contains files needed to develop applications using czmq.\n", 
+            "Build Date": " Sat 18 Feb 2017 04:47:35 PM EST", 
+            "Source RPM": " czmq-4.0.2-3.fc26.src.rpm", 
+            "Version": " 4.0.2", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 18 Feb 2017 04:55:20 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 3.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Development files for the czmq package", 
+            "Size": " 870704"
+        }
+    }
+}

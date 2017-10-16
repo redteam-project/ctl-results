@@ -1,0 +1,46 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/libglobus_gridmap_callout_error_so_0_2_5": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable", 
+                "__gmon_start__", 
+                "globus_module_deactivate"
+            ], 
+            "rpm": "globus-gridmap-callout-error-2.5-3.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libglobus_gridmap_callout_error.so.0.2.5"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " globus-gridmap-callout-error", 
+            "License": " ASL 2.0", 
+            "URL": " http://toolkit.globus.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-29.phx2.fedoraproject.org", 
+            "Description": "\nThe Globus Toolkit is an open source software toolkit used for building Grid\nsystems and applications. It is being developed by the Globus Alliance and\nmany others all over the world. A growing number of projects and companies are\nusing the Globus Toolkit to unlock the potential of grids for their cause.\n\nThe globus-gridmap-callout-error package contains:\nGlobus Gridmap Callout Errors\n", 
+            "Build Date": " Tue 28 Mar 2017 07:07:56 AM EDT", 
+            "Source RPM": " globus-gridmap-callout-error-2.5-3.fc26.src.rpm", 
+            "Version": " 2.5", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 28 Mar 2017 09:07:16 AM EDT, Key ID 812a6b4b64dab85d", 
+            "Release": " 3.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Globus Toolkit - Globus Gridmap Callout Errors", 
+            "Size": " 17292"
+        }
+    }
+}

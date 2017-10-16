@@ -1,0 +1,51 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/libexpat_so_0_5_0": {
+            "report-functions": [
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "free", 
+                "_ITM_registerTMCloneTable", 
+                "_ITM_deregisterTMCloneTable", 
+                "memcmp", 
+                "__assert_fail", 
+                "realloc", 
+                "malloc"
+            ], 
+            "rpm": "compat-expat1-1.95.8-17.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libexpat.so.0.5.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " compat-expat1", 
+            "License": " MIT", 
+            "URL": " http://www.libexpat.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-06.phx2.fedoraproject.org", 
+            "Description": "\nThis is expat, the C library for parsing XML, written by James Clark. Expat\nis a stream oriented XML parser. This means that you register handlers with\nthe parser prior to starting the parse. These handlers are called when the\nparser discovers the associated structures in the document being parsed. A\nstart tag is an example of the kind of structures for which you may\nregister handlers.\n", 
+            "Build Date": " Fri 10 Feb 2017 08:47:38 AM EST", 
+            "Source RPM": " compat-expat1-1.95.8-17.fc26.src.rpm", 
+            "Version": " 1.95.8", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 10 Feb 2017 11:18:41 AM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 17.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A library for parsing XML documents", 
+            "Size": " 194438"
+        }
+    }
+}

@@ -1,0 +1,68 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/libcodec2_so_0_6": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "fwrite", 
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "memmove", 
+                "log10", 
+                "ceilf", 
+                "free", 
+                "rand", 
+                "__memcpy_chk", 
+                "log10f", 
+                "sincosf", 
+                "atan2f", 
+                "pow", 
+                "floorf", 
+                "lroundf", 
+                "calloc", 
+                "atan2", 
+                "sqrtf", 
+                "ceil", 
+                "powf", 
+                "_ITM_registerTMCloneTable", 
+                "cosf", 
+                "malloc", 
+                "_ITM_deregisterTMCloneTable", 
+                "floor"
+            ], 
+            "rpm": "codec2-0.6-1.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libcodec2.so.0.6"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " codec2", 
+            "License": " LGPLv2", 
+            "URL": " http://rowetel.com/codec2.html", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-27.phx2.fedoraproject.org", 
+            "Description": "\nCodec 2 is an open source (LGPL licensed) speech codec for 2400 bit/s\nand below. This is the runtime library package.\n", 
+            "Build Date": " Sun 19 Feb 2017 01:52:05 PM EST", 
+            "Source RPM": " codec2-0.6-1.fc26.src.rpm", 
+            "Version": " 0.6", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sun 19 Feb 2017 01:57:17 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 1.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Next-Generation Digital Voice for Two-Way Radio", 
+            "Size": " 374213"
+        }
+    }
+}
