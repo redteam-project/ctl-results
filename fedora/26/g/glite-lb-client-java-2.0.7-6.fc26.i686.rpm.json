@@ -1,0 +1,56 @@
+{
+    "results": {
+        "usr/lib/glite-lb-client-java/libglite_lb_sendviasocket_so_0_0_0": {
+            "report-functions": [
+                "connect", 
+                "select", 
+                "__stack_chk_fail", 
+                "write", 
+                "__fdelt_chk", 
+                "sleep", 
+                "_ITM_deregisterTMCloneTable", 
+                "__errno_location", 
+                "__strcpy_chk", 
+                "_ITM_registerTMCloneTable", 
+                "socket", 
+                "__cxa_finalize", 
+                "__gmon_start__", 
+                "fcntl"
+            ], 
+            "rpm": "glite-lb-client-java-2.0.7-6.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/glite-lb-client-java/libglite_lb_sendviasocket.so.0.0.0"
+        }, 
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " glite-lb-client-java", 
+            "License": " ASL 2.0", 
+            "URL": " http://glite.cern.ch", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-09.phx2.fedoraproject.org", 
+            "Description": "\nJAVA implementation of the L&B service client. Supports producing (logging)\nevents into L&B, event and job status queries, and receiving notifications.\n", 
+            "Build Date": " Fri 10 Feb 2017 12:52:16 PM EST", 
+            "Source RPM": " glite-lb-client-java-2.0.7-6.fc26.src.rpm", 
+            "Version": " 2.0.7", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 11 Feb 2017 12:57:02 AM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 6.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " JAVA implementation of the L&B service client", 
+            "Size": " 125644"
+        }
+    }
+}

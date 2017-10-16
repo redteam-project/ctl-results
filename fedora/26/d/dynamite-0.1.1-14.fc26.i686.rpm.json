@@ -1,0 +1,76 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/libdynamite_so_0_0_0": {
+            "report-functions": [
+                "abort", 
+                "__assert_fail", 
+                "malloc", 
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "free"
+            ], 
+            "rpm": "dynamite-0.1.1-14.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libdynamite.so.0.0.0"
+        }, 
+        "usr/bin/dynamite": {
+            "report-functions": [
+                "__fprintf_chk", 
+                "fwrite", 
+                "__cxa_finalize", 
+                "fopen", 
+                "fclose", 
+                "__libc_start_main", 
+                "strtol", 
+                "_ITM_registerTMCloneTable", 
+                "__stack_chk_fail", 
+                "fseek", 
+                "dynamite_explode", 
+                "_ITM_deregisterTMCloneTable", 
+                "perror"
+            ], 
+            "rpm": "dynamite-0.1.1-14.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/dynamite"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Applications/Communications", 
+            "Name": " dynamite", 
+            "License": " MIT", 
+            "URL": " http://synce.sourceforge.net/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-04.phx2.fedoraproject.org", 
+            "Description": "\nExtract data compressed with PKWARE Data Compression Library\n", 
+            "Build Date": " Fri 10 Feb 2017 09:49:19 AM EST", 
+            "Source RPM": " dynamite-0.1.1-14.fc26.src.rpm", 
+            "Version": " 0.1.1", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 10 Feb 2017 05:06:09 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 14.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Extract data compressed with PKWARE Data Compression Library", 
+            "Size": " 18264"
+        }
+    }
+}

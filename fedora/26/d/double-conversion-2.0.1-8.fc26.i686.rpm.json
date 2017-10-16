@@ -1,0 +1,54 @@
+{
+    "results": {
+        "usr/lib/libdouble-conversion_so_1_0_0": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "__assert_fail", 
+                "memmove", 
+                "strlen", 
+                "_ITM_registerTMCloneTable", 
+                "__umoddi3", 
+                "__gmon_start__", 
+                "__udivdi3", 
+                "__udivmoddi4", 
+                "__cxa_guard_acquire", 
+                "__stack_chk_fail", 
+                "abort"
+            ], 
+            "rpm": "double-conversion-2.0.1-8.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libdouble-conversion.so.1.0.0"
+        }, 
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " double-conversion", 
+            "License": " BSD", 
+            "URL": " https://github.com/floitsch/double-conversion", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-18.phx2.fedoraproject.org", 
+            "Description": "\nProvides binary-decimal and decimal-binary routines for IEEE doubles.\nThe library consists of efficient conversion routines that have been\nextracted from the V8 JavaScript engine. The code has been re-factored\nand improved so that it can be used more easily in other projects.\n", 
+            "Build Date": " Fri 10 Feb 2017 09:37:11 AM EST", 
+            "Source RPM": " double-conversion-2.0.1-8.fc26.src.rpm", 
+            "Version": " 2.0.1", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 10 Feb 2017 04:20:58 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 8.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Library providing binary-decimal and decimal-binary routines for IEEE doubles", 
+            "Size": " 80809"
+        }
+    }
+}

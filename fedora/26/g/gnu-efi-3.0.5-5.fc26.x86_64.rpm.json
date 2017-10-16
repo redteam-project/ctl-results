@@ -1,0 +1,58 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib64/gnuefi/elf_x86_64_efi_lds": {
+            "report-functions": [], 
+            "rpm": "gnu-efi-3.0.5-5.fc26.x86_64.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {}, 
+            "filename": "usr/lib64/gnuefi/elf_x86_64_efi.lds"
+        }, 
+        "usr/lib64/gnuefi/crt0-efi-x86_64_o": {
+            "report-functions": [
+                "_relocate", 
+                "efi_main", 
+                "_DYNAMIC"
+            ], 
+            "rpm": "gnu-efi-3.0.5-5.fc26.x86_64.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/lib64/gnuefi/crt0-efi-x86_64.o"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/System", 
+            "Name": " gnu-efi", 
+            "License": " BSD", 
+            "URL": " ftp://ftp.hpl.hp.com/pub/linux-ia64", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-02.phx2.fedoraproject.org", 
+            "Source RPM": " gnu-efi-3.0.5-5.fc26.src.rpm", 
+            "Description": "\nThis package contains development headers and libraries for developing\napplications that run under EFI (Extensible Firmware Interface).\n", 
+            "Build Date": " Tue 28 Feb 2017 11:58:17 AM EST", 
+            "Epoch": " 1", 
+            "Version": " 3.0.5", 
+            "Architecture": " x86_64", 
+            "Signature": " RSA/SHA256, Tue 28 Feb 2017 12:45:51 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 5.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Development Libraries and headers for EFI", 
+            "Size": " 127101"
+        }
+    }
+}

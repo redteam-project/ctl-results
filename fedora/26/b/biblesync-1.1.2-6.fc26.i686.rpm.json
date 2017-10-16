@@ -1,0 +1,93 @@
+{
+    "results": {
+        "usr/lib/libbiblesync_so_1_1": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "strstr", 
+                "_Unwind_Resume", 
+                "sendto", 
+                "bind", 
+                "select", 
+                "__gmon_start__", 
+                "send", 
+                "memcmp", 
+                "strcpy", 
+                "strchr", 
+                "__cxa_finalize", 
+                "getpid", 
+                "_ZSt18_Rb_tree_decrementPSt18_Rb_tree_node_base", 
+                "close", 
+                "__cxa_atexit", 
+                "_ZSt19__throw_logic_errorPKc", 
+                "_ZSt28_Rb_tree_rebalance_for_erasePSt18_Rb_tree_node_baseRS_", 
+                "__gxx_personality_v0", 
+                "freeifaddrs", 
+                "_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7compareEPKc", 
+                "__stack_chk_fail", 
+                "_Znwj", 
+                "getifaddrs", 
+                "__snprintf_chk", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_appendEPKcj", 
+                "recvfrom", 
+                "_ZSt18_Rb_tree_incrementPSt18_Rb_tree_node_base", 
+                "recv", 
+                "_ZdlPv", 
+                "uuid_generate", 
+                "setsockopt", 
+                "if_indextoname", 
+                "strlen", 
+                "strcmp", 
+                "perror", 
+                "_ZSt29_Rb_tree_insert_and_rebalancebPSt18_Rb_tree_node_baseS0_RS_", 
+                "_ITM_registerTMCloneTable", 
+                "uname", 
+                "strncpy", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEaSEOS4_", 
+                "__cxa_rethrow", 
+                "__cxa_end_catch", 
+                "_ZSt20__throw_length_errorPKc", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_replaceEjjPKcj", 
+                "__fdelt_chk", 
+                "gettext", 
+                "inet_addr", 
+                "inet_ntoa", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERjj", 
+                "__cxa_begin_catch"
+            ], 
+            "rpm": "biblesync-1.1.2-6.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libbiblesync.so.1.1"
+        }, 
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " biblesync", 
+            "License": " Public Domain", 
+            "URL": " http://www.xiphos.org", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-13.phx2.fedoraproject.org", 
+            "Description": "\nBibleSync is a multicast protocol to support Bible software shared co-\nnavigation. It uses LAN multicast in either a personal/small team mutual\nnavigation motif or in a classroom environment where there are Speakers plus\nthe Audience. It provides a complete yet minimal public interface to support\nmode setting, setup for packet reception, transmit on local navigation, and\nhandling of incoming packets.\n\nThis library is not specific to any particular Bible software framework,\ncompletely agnostic as to structure of layers above BibleSync.\n", 
+            "Build Date": " Fri 10 Feb 2017 01:58:23 AM EST", 
+            "Source RPM": " biblesync-1.1.2-6.fc26.src.rpm", 
+            "Version": " 1.1.2", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 13 Feb 2017 03:03:46 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 6.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A Cross-platform library for sharing Bible navigation", 
+            "Size": " 72540"
+        }
+    }
+}

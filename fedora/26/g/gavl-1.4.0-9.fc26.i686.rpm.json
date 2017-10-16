@@ -1,0 +1,88 @@
+{
+    "results": {
+        "usr/lib/libgavl_so_1_0_0": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "strcasecmp", 
+                "fputc", 
+                "malloc", 
+                "sqrt", 
+                "__gmon_start__", 
+                "free", 
+                "_ITM_deregisterTMCloneTable", 
+                "fwrite", 
+                "fputs", 
+                "memcpy", 
+                "memmove", 
+                "strlen", 
+                "memalign", 
+                "pow", 
+                "_ITM_registerTMCloneTable", 
+                "memcmp", 
+                "ceil", 
+                "gdither_run", 
+                "fclose", 
+                "gdither_runf", 
+                "strtod", 
+                "exp", 
+                "__ctype_b_loc", 
+                "gdither_new", 
+                "sin", 
+                "strcmp", 
+                "getenv", 
+                "strncpy", 
+                "stpcpy", 
+                "fopen", 
+                "fread", 
+                "calloc", 
+                "log10", 
+                "mktime", 
+                "__cxa_finalize", 
+                "localtime_r", 
+                "__snprintf_chk", 
+                "memset", 
+                "strtol", 
+                "realloc", 
+                "__sprintf_chk", 
+                "gdither_free", 
+                "__errno_location", 
+                "clock_gettime", 
+                "__isoc99_sscanf"
+            ], 
+            "rpm": "gavl-1.4.0-9.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libgavl.so.1.0.0"
+        }, 
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " gavl", 
+            "License": " GPLv3+", 
+            "URL": " http://gmerlin.sourceforge.net/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-08.phx2.fedoraproject.org", 
+            "Description": "\nGavl is a library for handling and converting uncompressed audio and\nvideo data. It provides datatypes for audio/video formats and standardized\nstructures to store the data. It supports converting between all formats.\nSome conversion functions are available in multiple versions (MMX...),\nwhich are selected by compile time configuration, CPU autodetection and\nuser options.\n", 
+            "Build Date": " Fri 10 Feb 2017 11:32:59 AM EST", 
+            "Source RPM": " gavl-1.4.0-9.fc26.src.rpm", 
+            "Version": " 1.4.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 10 Feb 2017 09:08:09 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 9.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A library for handling uncompressed audio and video data", 
+            "Size": " 4579559"
+        }
+    }
+}

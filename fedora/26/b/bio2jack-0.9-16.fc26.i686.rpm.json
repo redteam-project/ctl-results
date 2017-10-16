@@ -1,0 +1,93 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/libbio2jack_so_0_9_0": {
+            "report-functions": [
+                "jack_set_buffer_size_callback", 
+                "jack_client_name_size", 
+                "jack_ringbuffer_write_space", 
+                "jack_set_process_callback", 
+                "pthread_mutex_unlock", 
+                "pthread_mutex_init", 
+                "jack_ringbuffer_peek", 
+                "jack_ringbuffer_read", 
+                "gettimeofday", 
+                "snprintf", 
+                "jack_port_get_buffer", 
+                "pthread_mutex_trylock", 
+                "pthread_mutex_lock", 
+                "jack_port_register", 
+                "jack_port_get_total_latency", 
+                "malloc", 
+                "jack_connect", 
+                "jack_client_new", 
+                "jack_client_close", 
+                "realloc", 
+                "getpid", 
+                "jack_ringbuffer_read_space", 
+                "jack_get_ports", 
+                "jack_activate", 
+                "jack_ringbuffer_reset", 
+                "jack_ringbuffer_read_advance", 
+                "__strdup", 
+                "jack_set_sample_rate_callback", 
+                "__fprintf_chk", 
+                "__stack_chk_fail", 
+                "__sprintf_chk", 
+                "__gmon_start__", 
+                "powf", 
+                "src_set_ratio", 
+                "free", 
+                "src_strerror", 
+                "_ITM_registerTMCloneTable", 
+                "jack_ringbuffer_free", 
+                "src_new", 
+                "jack_set_error_function", 
+                "jack_ringbuffer_write", 
+                "jack_get_buffer_size", 
+                "jack_on_shutdown", 
+                "fflush", 
+                "src_process", 
+                "__cxa_finalize", 
+                "_ITM_deregisterTMCloneTable", 
+                "jack_port_name", 
+                "__snprintf_chk", 
+                "strlen", 
+                "jack_get_sample_rate"
+            ], 
+            "rpm": "bio2jack-0.9-16.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libbio2jack.so.0.9.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " bio2jack", 
+            "License": " LGPLv2+", 
+            "URL": " http://bio2jack.sourceforge.net/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-24.phx2.fedoraproject.org", 
+            "Description": "\nBio (blocked i/o) 2 jack is a library for enabling easy porting of blocked\nio(OSS/ALSA) applications to the jack sound server. This library allows the\nperson porting the code to simply replace the calls into OSS/ALSA with calls\ninto interface functions of this library. The library buffers a small amount of\naudio data and takes care of the rest of the jack implementation including the\nlinked list of audio data buffers and the jack callback.\n", 
+            "Build Date": " Fri 10 Feb 2017 02:04:11 AM EST", 
+            "Source RPM": " bio2jack-0.9-16.fc26.src.rpm", 
+            "Version": " 0.9", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 13 Feb 2017 01:59:26 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 16.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A library for porting blocked io(OSS/ALSA) applications to jack", 
+            "Size": " 49338"
+        }
+    }
+}

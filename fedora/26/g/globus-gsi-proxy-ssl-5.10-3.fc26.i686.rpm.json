@@ -1,0 +1,77 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/libglobus_proxy_ssl_so_1_4_10": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "OPENSSL_sk_new_null", 
+                "_ITM_registerTMCloneTable", 
+                "ASN1_INTEGER_cmp", 
+                "memchr", 
+                "ASN1_OCTET_STRING_free", 
+                "OPENSSL_sk_pop_free", 
+                "OBJ_dup", 
+                "ASN1_item_free", 
+                "ASN1_INTEGER_new", 
+                "ASN1_INTEGER_get", 
+                "X509V3_EXT_val_prn", 
+                "BIO_new", 
+                "free", 
+                "ASN1_OCTET_STRING_set", 
+                "ASN1_INTEGER_set", 
+                "ASN1_item_dup", 
+                "BIO_s_file", 
+                "i2t_ASN1_OBJECT", 
+                "OBJ_nid2ln", 
+                "X509V3_add_value", 
+                "ASN1_OBJECT_free", 
+                "OBJ_obj2nid", 
+                "BIO_snprintf", 
+                "ASN1_INTEGER_free", 
+                "ASN1_item_d2i", 
+                "malloc", 
+                "X509V3_conf_free", 
+                "ASN1_OCTET_STRING_new", 
+                "__cxa_finalize", 
+                "ASN1_item_i2d", 
+                "__stack_chk_fail", 
+                "ASN1_item_new", 
+                "BIO_free", 
+                "BIO_ctrl"
+            ], 
+            "rpm": "globus-gsi-proxy-ssl-5.10-3.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libglobus_proxy_ssl.so.1.4.10"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " globus-gsi-proxy-ssl", 
+            "License": " ASL 2.0", 
+            "URL": " http://toolkit.globus.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-12.phx2.fedoraproject.org", 
+            "Description": "\nThe Globus Toolkit is an open source software toolkit used for building Grid\nsystems and applications. It is being developed by the Globus Alliance and\nmany others all over the world. A growing number of projects and companies are\nusing the Globus Toolkit to unlock the potential of grids for their cause.\n\nThe globus-gsi-proxy-ssl package contains:\nGlobus GSI Proxy SSL Library\n", 
+            "Build Date": " Tue 28 Mar 2017 07:19:12 AM EDT", 
+            "Source RPM": " globus-gsi-proxy-ssl-5.10-3.fc26.src.rpm", 
+            "Version": " 5.10", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 28 Mar 2017 09:02:15 AM EDT, Key ID 812a6b4b64dab85d", 
+            "Release": " 3.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Globus Toolkit - Globus GSI Proxy SSL Library", 
+            "Size": " 25796"
+        }
+    }
+}

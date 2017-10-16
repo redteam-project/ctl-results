@@ -1,0 +1,58 @@
+{
+    "results": {
+        "usr/lib/libgraphene-1_0_so_0_600_0": {
+            "report-functions": [
+                "strerror", 
+                "__gmon_start__", 
+                "sincosf", 
+                "free", 
+                "g_intern_static_string", 
+                "_ITM_registerTMCloneTable", 
+                "abort", 
+                "__cxa_finalize", 
+                "__stack_chk_fail", 
+                "g_once_init_enter", 
+                "_ITM_deregisterTMCloneTable", 
+                "__fprintf_chk", 
+                "calloc", 
+                "g_once_init_leave", 
+                "memalign", 
+                "__errno_location"
+            ], 
+            "rpm": "graphene-1.6.0-1.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libgraphene-1.0.so.0.600.0"
+        }, 
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " graphene", 
+            "License": " MIT", 
+            "URL": " https://github.com/ebassi/graphene", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-22.phx2.fedoraproject.org", 
+            "Description": "\nGraphene provides a small set of mathematical types needed to implement graphic\nlibraries that deal with 2D and 3D transformations and projections.\n", 
+            "Build Date": " Fri 03 Mar 2017 03:35:43 AM EST", 
+            "Source RPM": " graphene-1.6.0-1.fc26.src.rpm", 
+            "Version": " 1.6.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 03 Mar 2017 03:41:22 AM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 1.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Thin layer of types for graphic libraries", 
+            "Size": " 259885"
+        }
+    }
+}

@@ -1,0 +1,174 @@
+{
+    "results": {
+        "usr/lib/golang/src/debug/elf/file_go": {
+            "report-functions": [], 
+            "rpm": "golang-src-1.8.1-2.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {}, 
+            "filename": "usr/lib/golang/src/debug/elf/file.go"
+        }, 
+        "usr/lib/golang/src/cmd/link/internal/ld/elf_go": {
+            "report-functions": [], 
+            "rpm": "golang-src-1.8.1-2.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {}, 
+            "filename": "usr/lib/golang/src/cmd/link/internal/ld/elf.go"
+        }, 
+        "usr/lib/golang/src/cmd/internal/objfile/elf_go": {
+            "report-functions": [], 
+            "rpm": "golang-src-1.8.1-2.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {}, 
+            "filename": "usr/lib/golang/src/cmd/internal/objfile/elf.go"
+        }, 
+        "usr/lib/golang/src/cmd/link/internal/ld/ldelf_go": {
+            "report-functions": [], 
+            "rpm": "golang-src-1.8.1-2.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {}, 
+            "filename": "usr/lib/golang/src/cmd/link/internal/ld/ldelf.go"
+        }, 
+        "usr/lib/golang/src/runtime/race/race_linux_amd64_syso": {
+            "report-functions": [
+                "setrlimit", 
+                "syslog", 
+                "madvise", 
+                "exit", 
+                "getrusage", 
+                "__errno_location", 
+                "pipe", 
+                "prctl", 
+                "sysconf", 
+                "execv", 
+                "usleep", 
+                "__libc_malloc", 
+                "pthread_attr_init", 
+                "pthread_attr_destroy", 
+                "dl_iterate_phdr", 
+                "sigaction", 
+                "pthread_attr_getstack", 
+                "abort", 
+                "pthread_self", 
+                "sched_yield", 
+                "getrlimit", 
+                "__libc_realloc", 
+                "__libc_free", 
+                "isatty", 
+                "sleep", 
+                "confstr", 
+                "__libc_stack_end", 
+                "pthread_getattr_np"
+            ], 
+            "rpm": "golang-src-1.8.1-2.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/lib/golang/src/runtime/race/race_linux_amd64.syso"
+        }, 
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/golang/src/debug/elf/elf_go": {
+            "report-functions": [], 
+            "rpm": "golang-src-1.8.1-2.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {}, 
+            "filename": "usr/lib/golang/src/debug/elf/elf.go"
+        }, 
+        "usr/lib/golang/src/runtime/race/race_freebsd_amd64_syso": {
+            "report-functions": [
+                "environ", 
+                "__syscall", 
+                "usleep", 
+                "pthread_attr_get_np", 
+                "malloc", 
+                "abort", 
+                "__error", 
+                "pthread_self", 
+                "sigaction", 
+                "pthread_attr_getstack", 
+                "sysctl", 
+                "exit", 
+                "getrusage", 
+                "getrlimit", 
+                "madvise", 
+                "realloc", 
+                "free", 
+                "_GLOBAL_OFFSET_TABLE_", 
+                "sleep", 
+                "setrlimit", 
+                "isatty", 
+                "execv", 
+                "pthread_attr_destroy", 
+                "sysctlbyname", 
+                "getuid", 
+                "memcpy", 
+                "pipe", 
+                "_umtx_op", 
+                "pthread_attr_init", 
+                "getpid", 
+                "sysconf"
+            ], 
+            "rpm": "golang-src-1.8.1-2.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/lib/golang/src/runtime/race/race_freebsd_amd64.syso"
+        }, 
+        "usr/lib/golang/src/debug/elf/reader_go": {
+            "report-functions": [], 
+            "rpm": "golang-src-1.8.1-2.fc26.noarch.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {}, 
+            "filename": "usr/lib/golang/src/debug/elf/reader.go"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " golang-src", 
+            "License": " BSD and Public Domain", 
+            "URL": " http://golang.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-12.phx2.fedoraproject.org", 
+            "Description": "\nGolang compiler source tree\n", 
+            "Build Date": " Fri 21 Apr 2017 09:39:51 AM EDT", 
+            "Source RPM": " golang-1.8.1-2.fc26.src.rpm", 
+            "Version": " 1.8.1", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Wed 26 Apr 2017 04:42:23 AM EDT, Key ID 812a6b4b64dab85d", 
+            "Release": " 2.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Golang compiler source tree", 
+            "Size": " 27189857"
+        }
+    }
+}

@@ -1,0 +1,237 @@
+{
+    "results": {
+        "usr/bin/garmin_get_info": {
+            "report-functions": [
+                "__libc_start_main", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize", 
+                "puts", 
+                "__stack_chk_fail", 
+                "getopt", 
+                "__gmon_start__", 
+                "garmin_print_info", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "garmintools-0.10-10.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/garmin_get_info"
+        }, 
+        "usr/lib/libgarmintools_so_4_2_0": {
+            "report-functions": [
+                "chown", 
+                "__xstat", 
+                "open", 
+                "_ITM_registerTMCloneTable", 
+                "puts", 
+                "fwrite", 
+                "__realpath_chk", 
+                "usb_interrupt_read", 
+                "usb_init", 
+                "usb_claim_interface", 
+                "usb_strerror", 
+                "__snprintf_chk", 
+                "__fprintf_chk", 
+                "__ctype_b_loc", 
+                "getenv", 
+                "free", 
+                "realloc", 
+                "usb_set_configuration", 
+                "strncpy", 
+                "usb_busses", 
+                "fputc", 
+                "usb_open", 
+                "memmove", 
+                "malloc", 
+                "__stack_chk_fail", 
+                "close", 
+                "usb_release_interface", 
+                "usb_find_devices", 
+                "strerror", 
+                "usb_find_busses", 
+                "localtime_r", 
+                "mkdir", 
+                "usb_bulk_read", 
+                "write", 
+                "strcpy", 
+                "__cxa_finalize", 
+                "strftime", 
+                "__errno_location", 
+                "localtime", 
+                "creat", 
+                "strlen", 
+                "__gmon_start__", 
+                "fchown", 
+                "calloc", 
+                "usb_bulk_write", 
+                "__printf_chk", 
+                "exit", 
+                "__sprintf_chk", 
+                "usb_close", 
+                "read", 
+                "__fxstat"
+            ], 
+            "rpm": "garmintools-0.10-10.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libgarmintools.so.4.2.0"
+        }, 
+        "usr/bin/garmin_gchart": {
+            "report-functions": [
+                "__sprintf_chk", 
+                "garmin_load", 
+                "garmin_free_data", 
+                "strtod", 
+                "strtol", 
+                "__cxa_finalize", 
+                "__fprintf_chk", 
+                "ceilf", 
+                "_ITM_registerTMCloneTable", 
+                "__gmon_start__", 
+                "__libc_start_main", 
+                "_ITM_deregisterTMCloneTable", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "garmintools-0.10-10.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/garmin_gchart"
+        }, 
+        "usr/bin/garmin_gpx": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "time", 
+                "garmin_load", 
+                "__cxa_finalize", 
+                "fputc", 
+                "strftime", 
+                "__libc_start_main", 
+                "fwrite", 
+                "puts", 
+                "_ITM_deregisterTMCloneTable", 
+                "free", 
+                "_ITM_registerTMCloneTable", 
+                "garmin_list_data", 
+                "__fprintf_chk", 
+                "calloc", 
+                "gmtime", 
+                "malloc"
+            ], 
+            "rpm": "garmintools-0.10-10.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/garmin_gpx"
+        }, 
+        "usr/bin/garmin_dump": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "garmin_free_data", 
+                "__cxa_finalize", 
+                "garmin_load", 
+                "__libc_start_main", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "garmintools-0.10-10.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/garmin_dump"
+        }, 
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/bin/garmin_save_runs": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "__stack_chk_fail", 
+                "garmin_init", 
+                "__libc_start_main", 
+                "getopt", 
+                "garmin_save_runs"
+            ], 
+            "rpm": "garmintools-0.10-10.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/garmin_save_runs"
+        }, 
+        "usr/bin/garmin_gmap": {
+            "report-functions": [
+                "garmin_free_data", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "puts", 
+                "__stack_chk_fail", 
+                "__fprintf_chk", 
+                "__cxa_finalize", 
+                "fputc", 
+                "garmin_load", 
+                "__libc_start_main", 
+                "free", 
+                "floor", 
+                "garmin_list_data"
+            ], 
+            "rpm": "garmintools-0.10-10.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/garmin_gmap"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " garmintools", 
+            "License": " GPLv2+", 
+            "URL": " https://garmintools.googlecode.com", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-12.phx2.fedoraproject.org", 
+            "Description": "\nThis software provides Linux users with the ability to communicate\nwith the Garmin Forerunner 305 via the USB interface.  It\nimplements all of the documented Garmin protocols as of Rev C\n(May 19, 2006) over the USB physical link.\n\nThis means that if you have a Garmin with a USB connection to a PC,\nyou ought to be able to use this software to communicate with it.\n", 
+            "Build Date": " Fri 10 Feb 2017 11:28:53 AM EST", 
+            "Source RPM": " garmintools-0.10-10.fc26.src.rpm", 
+            "Version": " 0.10", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 10 Feb 2017 09:04:05 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 10.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Tools for Garmin GPS-devices", 
+            "Size": " 250205"
+        }
+    }
+}

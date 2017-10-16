@@ -1,0 +1,141 @@
+{
+    "results": {
+        "usr/lib/libbrotlidec_so_0_6_0": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "BrotliGetDictionary", 
+                "__stack_chk_fail", 
+                "malloc", 
+                "__gmon_start__", 
+                "free"
+            ], 
+            "rpm": "brotli-0.6.0-4.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libbrotlidec.so.0.6.0"
+        }, 
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/bin/bro": {
+            "report-functions": [
+                "ftell", 
+                "fwrite", 
+                "__libc_start_main", 
+                "strlen", 
+                "fseek", 
+                "utime", 
+                "BrotliDecoderSetCustomDictionary", 
+                "fopen", 
+                "unlink", 
+                "free", 
+                "malloc", 
+                "__printf_chk", 
+                "__fprintf_chk", 
+                "BrotliEncoderIsFinished", 
+                "_ITM_registerTMCloneTable", 
+                "clock", 
+                "fdopen", 
+                "BrotliEncoderSetCustomDictionary", 
+                "feof", 
+                "chmod", 
+                "__xstat", 
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "perror", 
+                "exit", 
+                "BrotliEncoderCompressStream", 
+                "__fread_chk", 
+                "BrotliEncoderDestroyInstance", 
+                "BrotliDecoderDecompressStream", 
+                "BrotliEncoderSetParameter", 
+                "_ITM_deregisterTMCloneTable", 
+                "BrotliDecoderCreateInstance", 
+                "strcmp", 
+                "fread", 
+                "BrotliEncoderCreateInstance", 
+                "ferror", 
+                "fclose", 
+                "BrotliDecoderDestroyInstance", 
+                "chown"
+            ], 
+            "rpm": "brotli-0.6.0-4.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/bro"
+        }, 
+        "usr/lib/libbrotlienc_so_0_6_0": {
+            "report-functions": [
+                "BrotliGetDictionary", 
+                "__stack_chk_fail", 
+                "__memset_chk", 
+                "__assert_fail", 
+                "log2", 
+                "memmove", 
+                "__cxa_finalize", 
+                "free", 
+                "exit", 
+                "memcmp", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "memset"
+            ], 
+            "rpm": "brotli-0.6.0-4.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libbrotlienc.so.0.6.0"
+        }, 
+        "usr/lib/libbrotlicommon_so_0_6_0": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "brotli-0.6.0-4.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libbrotlicommon.so.0.6.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " brotli", 
+            "License": " MIT", 
+            "URL": " https://github.com/google/brotli", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-02.phx2.fedoraproject.org", 
+            "Description": "\nBrotli is a generic-purpose lossless compression algorithm that compresses\ndata using a combination of a modern variant of the LZ77 algorithm, Huffman\ncoding and 2nd order context modeling, with a compression ratio comparable\nto the best currently available general-purpose compression methods.\nIt is similar in speed with deflate but offers more dense compression.\n", 
+            "Build Date": " Tue 23 May 2017 04:16:56 PM EDT", 
+            "Source RPM": " brotli-0.6.0-4.fc26.src.rpm", 
+            "Version": " 0.6.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 23 May 2017 05:06:56 PM EDT, Key ID 812a6b4b64dab85d", 
+            "Release": " 4.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Lossless compression algorithm", 
+            "Size": " 798560"
+        }
+    }
+}

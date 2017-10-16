@@ -1,0 +1,88 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/mpich/lib/libmpiblacs_so": {
+            "report-functions": [
+                "MPI_Comm_dup", 
+                "MPI_Type_commit", 
+                "MPI_Type_free", 
+                "__cxa_finalize", 
+                "MPI_Comm_size", 
+                "MPI_Comm_split", 
+                "MPI_Comm_rank", 
+                "MPI_Allreduce", 
+                "__stack_chk_fail", 
+                "MPI_Rsend", 
+                "__gmon_start__", 
+                "MPI_Initialized", 
+                "MPI_Irecv", 
+                "MPI_Op_create", 
+                "_ITM_deregisterTMCloneTable", 
+                "MPI_Barrier", 
+                "MPI_Type_struct", 
+                "MPI_Op_free", 
+                "MPI_Testall", 
+                "MPI_Group_free", 
+                "MPI_Abort", 
+                "MPI_Wtime", 
+                "__vsprintf_chk", 
+                "free", 
+                "fflush", 
+                "MPI_Send", 
+                "MPI_Reduce", 
+                "MPI_Comm_group", 
+                "MPI_Waitall", 
+                "MPI_Error_class", 
+                "MPI_Sendrecv", 
+                "MPI_Bcast", 
+                "MPI_Attr_get", 
+                "MPI_Isend", 
+                "MPI_Comm_free", 
+                "MPI_Type_indexed", 
+                "MPI_Init", 
+                "MPI_Pack_size", 
+                "MPI_Group_incl", 
+                "_ITM_registerTMCloneTable", 
+                "MPI_Unpack", 
+                "MPI_Pack", 
+                "MPI_Finalize", 
+                "__fprintf_chk", 
+                "malloc", 
+                "MPI_Comm_create"
+            ], 
+            "rpm": "blacs-mpich-devel-2.0.2-21.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/mpich/lib/libmpiblacs.so"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " blacs-mpich-devel", 
+            "License": " Public Domain", 
+            "URL": " http://www.netlib.org/scalapack/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-11.phx2.fedoraproject.org", 
+            "Description": "\nThis package contains development libraries for blacs, compiled against mpich.\n", 
+            "Build Date": " Mon 13 Feb 2017 06:48:00 PM EST", 
+            "Source RPM": " scalapack-2.0.2-21.fc26.src.rpm", 
+            "Version": " 2.0.2", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 13 Feb 2017 07:58:18 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 21.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Development libraries for blacs (mpich)", 
+            "Size": " 205668"
+        }
+    }
+}

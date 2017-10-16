@@ -1,0 +1,77 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/libgmp_so_10_3_2": {
+            "report-functions": [
+                "__vsnprintf_chk", 
+                "strlen", 
+                "putchar", 
+                "raise", 
+                "strchr", 
+                "_IO_getc", 
+                "abort", 
+                "__fprintf_chk", 
+                "obstack_vprintf", 
+                "__vsprintf_chk", 
+                "nl_langinfo", 
+                "fputc", 
+                "__printf_chk", 
+                "__isoc99_fscanf", 
+                "free", 
+                "malloc", 
+                "__ctype_b_loc", 
+                "_ITM_registerTMCloneTable", 
+                "realloc", 
+                "__cxa_finalize", 
+                "__memset_chk", 
+                "_obstack_newchunk", 
+                "puts", 
+                "_IO_putc", 
+                "fgetc", 
+                "_ITM_deregisterTMCloneTable", 
+                "ungetc", 
+                "__isoc99_sscanf", 
+                "strtol", 
+                "__stack_chk_fail", 
+                "vfprintf", 
+                "ferror", 
+                "fwrite", 
+                "__snprintf_chk"
+            ], 
+            "rpm": "gmp-6.1.2-4.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libgmp.so.10.3.2"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " gmp", 
+            "License": " LGPLv3+ or GPLv2+", 
+            "URL": " http://gmplib.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-07.phx2.fedoraproject.org", 
+            "Source RPM": " gmp-6.1.2-4.fc26.src.rpm", 
+            "Description": "\nThe gmp package contains GNU MP, a library for arbitrary precision\narithmetic, signed integers operations, rational numbers and floating\npoint numbers. GNU MP is designed for speed, for both small and very\nlarge operands. GNU MP is fast because it uses fullwords as the basic\narithmetic type, it uses fast algorithms, it carefully optimizes\nassembly code for many CPUs' most common inner loops, and it generally\nemphasizes speed over simplicity/elegance in its operations.\n\nInstall the gmp package if you need a fast arbitrary precision\nlibrary.\n", 
+            "Build Date": " Mon 13 Mar 2017 11:09:39 AM EDT", 
+            "Epoch": " 1", 
+            "Version": " 6.1.2", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 13 Mar 2017 11:56:33 AM EDT, Key ID 812a6b4b64dab85d", 
+            "Release": " 4.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A GNU arbitrary precision library", 
+            "Size": " 611495"
+        }
+    }
+}

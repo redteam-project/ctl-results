@@ -1,0 +1,89 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/libgpm_so_2_1_0": {
+            "report-functions": [
+                "malloc", 
+                "select", 
+                "__gmon_start__", 
+                "strlen", 
+                "sigaddset", 
+                "strerror", 
+                "__xstat", 
+                "ttyname", 
+                "popen", 
+                "close", 
+                "ioctl", 
+                "__errno_location", 
+                "fgetc", 
+                "sscanf", 
+                "exit", 
+                "connect", 
+                "__vsyslog_chk", 
+                "__fdelt_chk", 
+                "sigaction", 
+                "sigprocmask", 
+                "__printf_chk", 
+                "getenv", 
+                "fileno", 
+                "__fxstat", 
+                "_ITM_deregisterTMCloneTable", 
+                "write", 
+                "getpid", 
+                "isatty", 
+                "fflush", 
+                "__cxa_finalize", 
+                "wgetch", 
+                "setvbuf", 
+                "socket", 
+                "__stack_chk_fail", 
+                "_IO_getc", 
+                "pclose", 
+                "__sprintf_chk", 
+                "fwrite", 
+                "_ITM_registerTMCloneTable", 
+                "__syslog_chk", 
+                "read", 
+                "gettimeofday", 
+                "__strdup", 
+                "kill", 
+                "free", 
+                "open", 
+                "sigemptyset"
+            ], 
+            "rpm": "gpm-libs-1.20.7-10.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libgpm.so.2.1.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " gpm-libs", 
+            "License": " GPLv2 and GPLv2+ with exceptions and GPLv3+ and Verbatim and Copyright only", 
+            "URL": " http://www.nico.schottelius.org/software/gpm/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-04.phx2.fedoraproject.org", 
+            "Description": "\nThis package contains the libgpm.so dynamic library which contains\nthe gpm system calls and library functions.\n", 
+            "Build Date": " Fri 10 Feb 2017 02:52:53 PM EST", 
+            "Source RPM": " gpm-1.20.7-10.fc26.src.rpm", 
+            "Version": " 1.20.7", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 11 Feb 2017 03:22:23 AM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 10.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Dynamic library for for the gpm", 
+            "Size": " 22968"
+        }
+    }
+}

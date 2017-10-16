@@ -1,0 +1,180 @@
+{
+    "results": {
+        "usr/libexec/nx/nxpasswd": {
+            "report-functions": [
+                "__errno_location", 
+                "mkdir", 
+                "__lxstat64", 
+                "_IO_getc", 
+                "getuid", 
+                "strlen", 
+                "strncpy", 
+                "getenv", 
+                "fwrite", 
+                "__stack_chk_fail", 
+                "__fprintf_chk", 
+                "fgets", 
+                "strcpy", 
+                "__memset_chk", 
+                "__sprintf_chk", 
+                "_ITM_registerTMCloneTable", 
+                "free", 
+                "random", 
+                "__libc_start_main", 
+                "time", 
+                "getpid", 
+                "getpass", 
+                "srandom", 
+                "exit", 
+                "__cxa_finalize", 
+                "strcmp", 
+                "strchr", 
+                "strerror", 
+                "_ITM_deregisterTMCloneTable", 
+                "chmod", 
+                "fopen64", 
+                "fclose", 
+                "__gmon_start__", 
+                "malloc"
+            ], 
+            "rpm": "freenx-server-0.7.3-37.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/libexec/nx/nxpasswd"
+        }, 
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/nx/libnxredir_so_0": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "getpeername", 
+                "getenv", 
+                "perror", 
+                "strtol"
+            ], 
+            "rpm": "freenx-server-0.7.3-37.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/nx/libnxredir.so.0"
+        }, 
+        "usr/libexec/nx/nxserver-helper": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "unsetenv", 
+                "execv", 
+                "__cxa_finalize", 
+                "setenv", 
+                "__libc_start_main", 
+                "socketpair", 
+                "_ITM_registerTMCloneTable", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "freenx-server-0.7.3-37.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/libexec/nx/nxserver-helper"
+        }, 
+        "usr/libexec/nx/nx-session-launcher-suid": {
+            "report-functions": [
+                "getuid", 
+                "geteuid", 
+                "_ITM_registerTMCloneTable", 
+                "__cxa_finalize", 
+                "_ITM_deregisterTMCloneTable", 
+                "execv", 
+                "calloc", 
+                "puts", 
+                "__libc_start_main"
+            ], 
+            "rpm": "freenx-server-0.7.3-37.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/libexec/nx/nx-session-launcher-suid"
+        }, 
+        "usr/libexec/nx/nxserver-suid": {
+            "report-functions": [
+                "__syslog_chk", 
+                "__gmon_start__", 
+                "openlog", 
+                "getpwuid_r", 
+                "seteuid", 
+                "getuid", 
+                "getenv", 
+                "setsid", 
+                "_ITM_deregisterTMCloneTable", 
+                "__xpg_basename", 
+                "__strdup", 
+                "__assert_fail", 
+                "setreuid", 
+                "__libc_start_main", 
+                "execlp", 
+                "__sprintf_chk", 
+                "_ITM_registerTMCloneTable", 
+                "geteuid", 
+                "dup2", 
+                "malloc", 
+                "fork", 
+                "setuid", 
+                "socketpair", 
+                "calloc", 
+                "execve", 
+                "__snprintf_chk", 
+                "close", 
+                "__cxa_finalize", 
+                "__errno_location"
+            ], 
+            "rpm": "freenx-server-0.7.3-37.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/libexec/nx/nxserver-suid"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Applications/Internet", 
+            "Name": " freenx-server", 
+            "License": " GPLv2", 
+            "URL": " http://freenx.berlios.de/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-10.phx2.fedoraproject.org", 
+            "Description": "\nNX is an exciting new technology for remote display. It provides near\nlocal speed application responsiveness over high latency, low\nbandwidth links. The core libraries for NX are provided by NoMachine\nunder the GPL. FreeNX-server is a GPL implementation of the NX Server.\n", 
+            "Build Date": " Fri 10 Feb 2017 11:12:48 AM EST", 
+            "Source RPM": " freenx-server-0.7.3-37.fc26.src.rpm", 
+            "Version": " 0.7.3", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 10 Feb 2017 08:33:00 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 37.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Free Software (GPL) Implementation of the NX Server", 
+            "Size": " 311954"
+        }
+    }
+}

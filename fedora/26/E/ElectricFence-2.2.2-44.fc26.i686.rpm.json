@@ -1,0 +1,64 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": {
+                "afCc": null, 
+                "afC": null
+            }
+        }, 
+        "usr/lib/libefence_so_0_0": {
+            "report-functions": [
+                "sem_wait", 
+                "__errno_location", 
+                "madvise", 
+                "kill", 
+                "__cxa_finalize", 
+                "getenv", 
+                "getpid", 
+                "__stack_chk_fail", 
+                "sysconf", 
+                "sem_post", 
+                "sem_init", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "pthread_self", 
+                "_ITM_deregisterTMCloneTable", 
+                "mprotect", 
+                "write", 
+                "strlen", 
+                "mmap"
+            ], 
+            "rpm": "ElectricFence-2.2.2-44.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libefence.so.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Tools", 
+            "Name": " ElectricFence", 
+            "License": " GPLv2", 
+            "URL": " http://perens.com/FreeSoftware/ElectricFence/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-19.phx2.fedoraproject.org", 
+            "Description": "\nElectricFence is a utility for C programming and\ndebugging. ElectricFence uses the virtual memory hardware of your\nsystem to detect when software overruns malloc() buffer boundaries,\nand/or to detect any accesses of memory released by\nfree(). ElectricFence will then stop the program on the first\ninstruction that caused a bounds violation and you can use your\nfavorite debugger to display the offending statement.\n\nInstall ElectricFence if you need a debugger to find malloc()\nviolations.\n", 
+            "Build Date": " Fri 10 Feb 2017 12:08:14 AM EST", 
+            "Source RPM": " ElectricFence-2.2.2-44.fc26.src.rpm", 
+            "Version": " 2.2.2", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 13 Feb 2017 03:00:23 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 44.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A debugger which detects memory allocation violations", 
+            "Size": " 63942"
+        }
+    }
+}

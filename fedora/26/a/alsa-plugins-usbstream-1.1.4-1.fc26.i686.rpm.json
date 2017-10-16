@@ -1,0 +1,77 @@
+{
+    "results": {
+        "usr/lib/alsa-lib/libasound_module_pcm_usb_stream_so": {
+            "report-functions": [
+                "snd_pcm_ioplug_delete", 
+                "snd_config_iterator_first", 
+                "__errno_location", 
+                "snd_hwdep_open", 
+                "snd_pcm_ioplug_set_param_list", 
+                "strcmp", 
+                "poll", 
+                "__fprintf_chk", 
+                "_ITM_deregisterTMCloneTable", 
+                "snd_hwdep_poll_descriptors", 
+                "free", 
+                "mmap", 
+                "strlen", 
+                "perror", 
+                "__strcpy_chk", 
+                "pthread_mutex_unlock", 
+                "snd_config_get_string", 
+                "calloc", 
+                "snd_hwdep_close", 
+                "snd_pcm_ioplug_set_param_minmax", 
+                "snd_config_iterator_entry", 
+                "mremap", 
+                "snd_config_get_type", 
+                "snd_config_iterator_end", 
+                "__gmon_start__", 
+                "pthread_mutex_lock", 
+                "snd_config_iterator_next", 
+                "_ITM_registerTMCloneTable", 
+                "munmap", 
+                "snd_hwdep_ioctl", 
+                "__snprintf_chk", 
+                "snd_pcm_ioplug_create", 
+                "__stack_chk_fail", 
+                "snd_config_get_id", 
+                "__assert_fail"
+            ], 
+            "rpm": "alsa-plugins-usbstream-1.1.4-1.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/alsa-lib/libasound_module_pcm_usb_stream.so"
+        }, 
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " alsa-plugins-usbstream", 
+            "License": " LGPLv2+", 
+            "URL": " http://www.alsa-project.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-21.phx2.fedoraproject.org", 
+            "Description": "\nThe usbstream plugin is for snd-usb-us122l driver. It converts PCM\nstream to USB specific stream.\n", 
+            "Build Date": " Tue 16 May 2017 09:15:06 AM EDT", 
+            "Source RPM": " alsa-plugins-1.1.4-1.fc26.src.rpm", 
+            "Version": " 1.1.4", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 23 May 2017 03:34:06 PM EDT, Key ID 812a6b4b64dab85d", 
+            "Release": " 1.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " USB stream plugin for ALSA", 
+            "Size": " 59114"
+        }
+    }
+}

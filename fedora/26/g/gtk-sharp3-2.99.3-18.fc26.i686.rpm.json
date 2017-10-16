@@ -1,0 +1,56 @@
+{
+    "results": {
+        "usr/lib/libmono-profiler-gui-thread-check_so_0_0_0": {
+            "report-functions": [
+                "fflush", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize", 
+                "mono_class_get_namespace", 
+                "mono_method_get_name", 
+                "mono_profiler_install", 
+                "g_print", 
+                "mono_method_get_class", 
+                "mono_class_get_name", 
+                "mono_profiler_install_enter_leave", 
+                "_ITM_registerTMCloneTable", 
+                "mono_stack_walk_no_il", 
+                "__gmon_start__", 
+                "mono_profiler_set_events"
+            ], 
+            "rpm": "gtk-sharp3-2.99.3-18.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libmono-profiler-gui-thread-check.so.0.0.0"
+        }, 
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " gtk-sharp3", 
+            "License": " LGPLv2", 
+            "URL": " http://www.mono-project.com/docs/gui/gtksharp/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-26.phx2.fedoraproject.org", 
+            "Description": "\nThis package provides a library that allows you to build\nfully native graphical GNOME applications using Mono. Gtk#\nis a binding to version 3 of GTK+, the cross platform user interface\ntoolkit used in GNOME. It includes bindings for Gtk, Atk,\nPango, Gdk.\n", 
+            "Build Date": " Fri 10 Feb 2017 03:28:39 PM EST", 
+            "Source RPM": " gtk-sharp3-2.99.3-18.fc26.src.rpm", 
+            "Version": " 2.99.3", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 11 Feb 2017 04:21:09 AM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 18.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " GTK+ 3 and GNOME 3 bindings for Mono", 
+            "Size": " 3352498"
+        }
+    }
+}

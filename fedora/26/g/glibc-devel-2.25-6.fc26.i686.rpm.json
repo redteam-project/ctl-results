@@ -1,0 +1,174 @@
+{
+    "results": {
+        "usr/lib/Mcrt1_o": {
+            "report-functions": [], 
+            "rpm": "glibc-devel-2.25-6.fc26.i686.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/lib/Mcrt1.o"
+        }, 
+        "usr/lib/gcrt1_o": {
+            "report-functions": [
+                "__GI_memmove", 
+                "_GLOBAL_OFFSET_TABLE_", 
+                "__monstartup", 
+                "etext", 
+                "_mcleanup", 
+                "__divdi3_internal", 
+                "atexit", 
+                "__udivdi3_internal", 
+                "__libc_csu_fini", 
+                "__libc_start_main", 
+                "__moddi3_internal", 
+                "__umoddi3_internal", 
+                "__GI_memcpy", 
+                "__libc_csu_init"
+            ], 
+            "rpm": "glibc-devel-2.25-6.fc26.i686.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/lib/gcrt1.o"
+        }, 
+        "usr/lib/libmcheck_a": {
+            "report-functions": [], 
+            "rpm": "glibc-devel-2.25-6.fc26.i686.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/lib/libmcheck.a"
+        }, 
+        "usr/lib/libieee_a": {
+            "report-functions": [], 
+            "rpm": "glibc-devel-2.25-6.fc26.i686.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/lib/libieee.a"
+        }, 
+        "usr/lib/crt1_o": {
+            "report-functions": [
+                "__libc_csu_init", 
+                "__libc_start_main", 
+                "main"
+            ], 
+            "rpm": "glibc-devel-2.25-6.fc26.i686.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/lib/crt1.o"
+        }, 
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/crtn_o": {
+            "report-functions": [], 
+            "rpm": "glibc-devel-2.25-6.fc26.i686.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/lib/crtn.o"
+        }, 
+        "usr/lib/crti_o": {
+            "report-functions": [
+                "__gmon_start__"
+            ], 
+            "rpm": "glibc-devel-2.25-6.fc26.i686.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/lib/crti.o"
+        }, 
+        "usr/lib/Scrt1_o": {
+            "report-functions": [
+                "__libc_csu_init", 
+                "__libc_csu_fini", 
+                "__libc_start_main"
+            ], 
+            "rpm": "glibc-devel-2.25-6.fc26.i686.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/lib/Scrt1.o"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " glibc-devel", 
+            "License": " LGPLv2+ and LGPLv2+ with exceptions and GPLv2+", 
+            "URL": " http://www.gnu.org/software/glibc/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-12.phx2.fedoraproject.org", 
+            "Description": "\nThe glibc-devel package contains the object files necessary\nfor developing programs which use the standard C libraries (which are\nused by nearly all programs).  If you are developing programs which\nwill use the standard C libraries, your system needs to have these\nstandard object files available in order to create the\nexecutables.\n\nInstall glibc-devel if you are going to develop programs which will\nuse the standard C libraries.\n", 
+            "Build Date": " Tue 20 Jun 2017 01:15:02 AM EDT", 
+            "Source RPM": " glibc-2.25-6.fc26.src.rpm", 
+            "Version": " 2.25", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 20 Jun 2017 04:06:31 AM EDT, Key ID 812a6b4b64dab85d", 
+            "Release": " 6.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Object files for development using standard C libraries.", 
+            "Size": " 1105703"
+        }
+    }
+}

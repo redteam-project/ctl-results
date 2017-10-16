@@ -1,0 +1,70 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/libglobus_openssl_error_so_0_3_8": {
+            "report-functions": [
+                "globus_object_type_match", 
+                "_ITM_registerTMCloneTable", 
+                "fclose", 
+                "__assert_fail", 
+                "globus_object_construct", 
+                "globus_common_i18n_get_string", 
+                "globus_object_free", 
+                "globus_object_set_local_instance_data", 
+                "globus_common_create_string", 
+                "ERR_reason_error_string", 
+                "globus_error_v_construct_error", 
+                "malloc", 
+                "calloc", 
+                "strtol", 
+                "globus_object_get_type", 
+                "fopen64", 
+                "_ITM_deregisterTMCloneTable", 
+                "free", 
+                "__cxa_finalize", 
+                "ERR_func_error_string", 
+                "globus_module_getenv", 
+                "ERR_get_error_line_data", 
+                "OPENSSL_init_ssl", 
+                "__fprintf_chk", 
+                "__gmon_start__", 
+                "globus_error_initialize_base", 
+                "globus_object_get_local_instance_data", 
+                "ERR_lib_error_string"
+            ], 
+            "rpm": "globus-gsi-openssl-error-3.8-3.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libglobus_openssl_error.so.0.3.8"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " globus-gsi-openssl-error", 
+            "License": " ASL 2.0", 
+            "URL": " http://toolkit.globus.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-04.phx2.fedoraproject.org", 
+            "Description": "\nThe Globus Toolkit is an open source software toolkit used for building Grid\nsystems and applications. It is being developed by the Globus Alliance and\nmany others all over the world. A growing number of projects and companies are\nusing the Globus Toolkit to unlock the potential of grids for their cause.\n\nThe globus-gsi-openssl-error package contains:\nGlobus OpenSSL Error Handling\n", 
+            "Build Date": " Tue 28 Mar 2017 07:17:54 AM EDT", 
+            "Source RPM": " globus-gsi-openssl-error-3.8-3.fc26.src.rpm", 
+            "Version": " 3.8", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 28 Mar 2017 09:03:26 AM EDT, Key ID 812a6b4b64dab85d", 
+            "Release": " 3.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Globus Toolkit - Globus OpenSSL Error Handling", 
+            "Size": " 29620"
+        }
+    }
+}

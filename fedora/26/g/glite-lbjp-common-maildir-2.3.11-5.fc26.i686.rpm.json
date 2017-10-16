@@ -1,0 +1,70 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/libglite_lbu_maildir_so_2_3_11": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "strerror", 
+                "open", 
+                "link", 
+                "strrchr", 
+                "__stack_chk_fail", 
+                "gettimeofday", 
+                "time", 
+                "readdir", 
+                "__strdup", 
+                "realloc", 
+                "opendir", 
+                "fsync", 
+                "strlen", 
+                "usleep", 
+                "unlink", 
+                "closedir", 
+                "__cxa_finalize", 
+                "mkdir", 
+                "__snprintf_chk", 
+                "free", 
+                "__gmon_start__", 
+                "rename", 
+                "read", 
+                "__xstat", 
+                "access", 
+                "__errno_location", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "glite-lbjp-common-maildir-2.3.11-5.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libglite_lbu_maildir.so.2.3.11"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " glite-lbjp-common-maildir", 
+            "License": " ASL 2.0", 
+            "URL": " http://glite.cern.ch", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-08.phx2.fedoraproject.org", 
+            "Description": "\nSingle-purpose implementation of maildir-like queue. It is used to pass data\nfrom gLite Logging and Bookkeeping server to Job Provenance.\n", 
+            "Build Date": " Fri 10 Feb 2017 12:52:08 PM EST", 
+            "Source RPM": " glite-lbjp-common-maildir-2.3.11-5.fc26.src.rpm", 
+            "Version": " 2.3.11", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 11 Feb 2017 12:58:13 AM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 5.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Single-purpose implementation of maildir-like queue", 
+            "Size": " 28480"
+        }
+    }
+}

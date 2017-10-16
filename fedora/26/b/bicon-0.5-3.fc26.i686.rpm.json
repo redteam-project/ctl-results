@@ -1,0 +1,127 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/bicon/libbconsole_so_0_0_0": {
+            "report-functions": [
+                "free", 
+                "memmove", 
+                "_ITM_registerTMCloneTable", 
+                "bjoining_log2cuni", 
+                "join_type", 
+                "bjoining_isnonspacing", 
+                "calloc", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "bicon-0.5-3.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/bicon/libbconsole.so.0.0.0"
+        }, 
+        "usr/lib/bicon/libbjoining_so_0_0_0": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "free", 
+                "memmove", 
+                "fribidi_log2vis", 
+                "qsort", 
+                "malloc", 
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "__stack_chk_fail", 
+                "fribidi_remove_bidi_marks"
+            ], 
+            "rpm": "bicon-0.5-3.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/bicon/libbjoining.so.0.0.0"
+        }, 
+        "usr/bin/bicon_bin": {
+            "report-functions": [
+                "malloc", 
+                "forkpty", 
+                "fribidi_unicode_to_charset", 
+                "kill", 
+                "fork", 
+                "__libc_start_main", 
+                "cfmakeraw", 
+                "fribidi_parse_charset", 
+                "sigemptyset", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "fribidi_charset_to_unicode", 
+                "__snprintf_chk", 
+                "dup2", 
+                "sigaction", 
+                "__errno_location", 
+                "fwrite", 
+                "__stack_chk_fail", 
+                "close", 
+                "__memset_chk", 
+                "chdir", 
+                "bconsole_log2con", 
+                "write", 
+                "read", 
+                "tcgetattr", 
+                "ioctl", 
+                "memmove", 
+                "__fdelt_chk", 
+                "setsid", 
+                "openpty", 
+                "__fprintf_chk", 
+                "__xstat", 
+                "_ITM_registerTMCloneTable", 
+                "select", 
+                "__cxa_finalize", 
+                "readlink", 
+                "strcmp", 
+                "tcsetattr", 
+                "waitpid", 
+                "getenv"
+            ], 
+            "rpm": "bicon-0.5-3.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/bicon.bin"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " bicon", 
+            "License": " LGPLv2+ and Python", 
+            "URL": " http://www.arabeyes.org/project.php?proj=BiCon", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-02.phx2.fedoraproject.org", 
+            "Description": "\nBiCon is the bidirectional console as presented by Arabeyes.\n", 
+            "Build Date": " Fri 10 Feb 2017 02:00:16 AM EST", 
+            "Source RPM": " bicon-0.5-3.fc26.src.rpm", 
+            "Version": " 0.5", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 13 Feb 2017 04:03:37 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 3.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Bidirectional Console", 
+            "Size": " 70823"
+        }
+    }
+}

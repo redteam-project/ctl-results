@@ -1,0 +1,62 @@
+{
+    "results": {
+        "usr/lib/alsa-lib/libasound_module_pcm_upmix_so": {
+            "report-functions": [
+                "free", 
+                "snd_config_get_id", 
+                "snd_pcm_extplug_set_slave_param_list", 
+                "__gmon_start__", 
+                "snd_pcm_free_chmaps", 
+                "snd_pcm_area_copy", 
+                "_ITM_deregisterTMCloneTable", 
+                "snd_config_iterator_first", 
+                "snd_pcm_areas_copy", 
+                "snd_config_iterator_entry", 
+                "snd_pcm_extplug_set_param_list", 
+                "snd_config_get_integer", 
+                "snd_pcm_extplug_set_param_minmax", 
+                "__cxa_finalize", 
+                "malloc", 
+                "snd_config_iterator_next", 
+                "snd_config_iterator_end", 
+                "_ITM_registerTMCloneTable", 
+                "__stack_chk_fail", 
+                "snd_pcm_extplug_create"
+            ], 
+            "rpm": "alsa-plugins-upmix-1.1.4-1.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/alsa-lib/libasound_module_pcm_upmix.so"
+        }, 
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " alsa-plugins-upmix", 
+            "License": " LGPLv2+", 
+            "URL": " http://www.alsa-project.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-21.phx2.fedoraproject.org", 
+            "Description": "\nThe upmix plugin is an easy-to-use plugin for upmixing to 4 or\n6-channel stream.  The number of channels to be expanded is determined\nby the slave PCM or explicitly via channel option.\n", 
+            "Build Date": " Tue 16 May 2017 09:15:06 AM EDT", 
+            "Source RPM": " alsa-plugins-1.1.4-1.fc26.src.rpm", 
+            "Version": " 1.1.4", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 23 May 2017 03:33:55 PM EDT, Key ID 812a6b4b64dab85d", 
+            "Release": " 1.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Upmixer channel expander plugin for ALSA", 
+            "Size": " 60746"
+        }
+    }
+}

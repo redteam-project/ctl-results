@@ -1,0 +1,77 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/libantlr3c_so": {
+            "report-functions": [
+                "fputc", 
+                "__ctype_toupper_loc", 
+                "__sprintf_chk", 
+                "fopen", 
+                "send", 
+                "puts", 
+                "__strdup", 
+                "setsockopt", 
+                "strcmp", 
+                "fclose", 
+                "__gmon_start__", 
+                "__stack_chk_fail", 
+                "exit", 
+                "__cxa_finalize", 
+                "strlen", 
+                "calloc", 
+                "_ITM_deregisterTMCloneTable", 
+                "recv", 
+                "malloc", 
+                "shutdown", 
+                "memmove", 
+                "free", 
+                "close", 
+                "__fprintf_chk", 
+                "fread", 
+                "strtol", 
+                "fwrite", 
+                "accept", 
+                "bind", 
+                "socket", 
+                "realloc", 
+                "__xstat", 
+                "__ctype_b_loc", 
+                "__printf_chk"
+            ], 
+            "rpm": "antlr3-C-3.4-3.5.2.14.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libantlr3c.so"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " antlr3-C", 
+            "License": " BSD", 
+            "URL": " http://www.antlr3.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-05.phx2.fedoraproject.org", 
+            "Source RPM": " antlr3-3.5.2-14.fc26.src.rpm", 
+            "Description": "\nC run-time support for ANTLR-generated parsers\n", 
+            "Build Date": " Fri 10 Feb 2017 01:11:28 AM EST", 
+            "Epoch": " 1", 
+            "Version": " 3.4", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 13 Feb 2017 01:13:10 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 3.5.2.14.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " C run-time support for ANTLR-generated parsers", 
+            "Size": " 122499"
+        }
+    }
+}

@@ -1,0 +1,83 @@
+{
+    "results": {
+        "usr/lib/libglite_lbu_trio_so_2_3_13": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "__gmon_start__", 
+                "malloc", 
+                "strtol", 
+                "calloc", 
+                "floor", 
+                "strncmp", 
+                "fgetc", 
+                "__strdup", 
+                "realloc", 
+                "__stack_chk_fail", 
+                "strerror", 
+                "_ITM_deregisterTMCloneTable", 
+                "fputc", 
+                "strncasecmp", 
+                "__errno_location", 
+                "__cxa_finalize", 
+                "__sprintf_chk", 
+                "sscanf", 
+                "strcspn", 
+                "log10", 
+                "strcat", 
+                "fmod", 
+                "__asprintf_chk", 
+                "__snprintf_chk", 
+                "strtof", 
+                "__ctype_toupper_loc", 
+                "strlen", 
+                "free", 
+                "strncpy", 
+                "pow", 
+                "strcasecmp", 
+                "write", 
+                "strtod", 
+                "strncat", 
+                "strcmp", 
+                "strftime", 
+                "strchr", 
+                "mblen", 
+                "__ctype_b_loc", 
+                "strcoll"
+            ], 
+            "rpm": "glite-lbjp-common-trio-2.3.13-5.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libglite_lbu_trio.so.2.3.13"
+        }, 
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " glite-lbjp-common-trio", 
+            "License": " ASL 2.0 and ISC", 
+            "URL": " http://glite.cern.ch", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-20.phx2.fedoraproject.org", 
+            "Description": "\nStandalone extended implementation of printf and scanf. Provides specialized\nformatting options used by Logging and Bookkeeping and Job Provenance.\n", 
+            "Build Date": " Fri 10 Feb 2017 12:51:26 PM EST", 
+            "Source RPM": " glite-lbjp-common-trio-2.3.13-5.fc26.src.rpm", 
+            "Version": " 2.3.13", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 11 Feb 2017 12:54:11 AM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 5.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Standalone extended implementation of printf and scanf", 
+            "Size": " 67753"
+        }
+    }
+}

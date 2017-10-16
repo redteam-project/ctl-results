@@ -1,0 +1,95 @@
+{
+    "results": {
+        "usr/lib/gcc-lib/i686-redhat-linux/2_96/crtbegin_o": {
+            "report-functions": [
+                "__register_frame_info"
+            ], 
+            "rpm": "compat-libgcc-296-2.96-146.1.i686.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/lib/gcc-lib/i686-redhat-linux/2.96/crtbegin.o"
+        }, 
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/gcc-lib/i686-redhat-linux/2_96/crtend_o": {
+            "report-functions": [], 
+            "rpm": "compat-libgcc-296-2.96-146.1.i686.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/lib/gcc-lib/i686-redhat-linux/2.96/crtend.o"
+        }, 
+        "usr/lib/gcc-lib/i686-redhat-linux/2_96/crtendS_o": {
+            "report-functions": [], 
+            "rpm": "compat-libgcc-296-2.96-146.1.i686.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/lib/gcc-lib/i686-redhat-linux/2.96/crtendS.o"
+        }, 
+        "usr/lib/gcc-lib/i686-redhat-linux/2_96/crtbeginS_o": {
+            "report-functions": [
+                "__deregister_frame_info", 
+                "__cxa_finalize", 
+                "_GLOBAL_OFFSET_TABLE_"
+            ], 
+            "rpm": "compat-libgcc-296-2.96-146.1.i686.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/lib/gcc-lib/i686-redhat-linux/2.96/crtbeginS.o"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Languages", 
+            "Name": " compat-libgcc-296", 
+            "License": " GPLv2+", 
+            "URL": " http://gcc.gnu.org", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-10.phx2.fedoraproject.org", 
+            "Description": "\nThe compat-libgcc-296 package contains 2.96-RH libgcc.a library and support\nobject files.\n", 
+            "Build Date": " Fri 15 Aug 2014 11:52:44 PM EDT", 
+            "Source RPM": " compat-gcc-296-2.96-146.1.src.rpm", 
+            "Version": " 2.96", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 15 Sep 2016 02:24:45 AM EDT, Key ID 812a6b4b64dab85d", 
+            "Release": " 146.1", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Compatibility 2.96-RH libgcc library", 
+            "Size": " 165842"
+        }
+    }
+}

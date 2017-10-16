@@ -1,0 +1,82 @@
+{
+    "results": {
+        "usr/lib/libsuperlumt_d_so_3_1": {
+            "report-functions": [
+                "GOMP_critical_name_start", 
+                "fgets", 
+                "__gmon_start__", 
+                "strtol", 
+                "_ITM_registerTMCloneTable", 
+                "printf", 
+                "strtod", 
+                "idamax_", 
+                "free", 
+                "_ITM_deregisterTMCloneTable", 
+                "__printf_chk", 
+                "putchar", 
+                "__fprintf_chk", 
+                "times", 
+                "__cxa_finalize", 
+                "GOMP_critical_name_end", 
+                "gettimeofday", 
+                "__stpcpy_chk", 
+                "daxpy_", 
+                "puts", 
+                "sysconf", 
+                "fwrite", 
+                "malloc", 
+                "fopen", 
+                "exit", 
+                "fclose", 
+                "__isoc99_fscanf", 
+                "__stack_chk_fail", 
+                "getenv", 
+                "sbrk", 
+                "dcopy_", 
+                "__sprintf_chk", 
+                "dtrsv_", 
+                "omp_get_num_threads", 
+                "dasum_", 
+                "fflush", 
+                "fputs", 
+                "fgetc", 
+                "omp_get_thread_num", 
+                "sqrt"
+            ], 
+            "rpm": "SuperLUMT-double-3.1.0-9.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libsuperlumt_d.so.3.1"
+        }, 
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " SuperLUMT-double", 
+            "License": " BSD", 
+            "URL": " http://crd-legacy.lbl.gov/~xiaoye/SuperLU/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-10.phx2.fedoraproject.org", 
+            "Description": "\nThis package contains double precision real SuperLU routines library\nby SuperLUMT.\n", 
+            "Build Date": " Tue 14 Feb 2017 12:42:37 PM EST", 
+            "Source RPM": " SuperLUMT-3.1.0-9.fc26.src.rpm", 
+            "Version": " 3.1.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Wed 15 Feb 2017 10:00:49 AM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 9.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Double precision real SuperLU routines for shared memory parallel machines", 
+            "Size": " 155868"
+        }
+    }
+}

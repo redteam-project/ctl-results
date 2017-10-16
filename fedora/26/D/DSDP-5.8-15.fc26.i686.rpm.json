@@ -1,0 +1,99 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": {
+                "afCc": null, 
+                "afC": null
+            }
+        }, 
+        "usr/lib/libdsdp_so_5_8": {
+            "report-functions": [
+                "fopen", 
+                "dtpsv_", 
+                "dpotri_", 
+                "putchar", 
+                "daxpy_", 
+                "gettimeofday", 
+                "dscal_", 
+                "dpotrf_", 
+                "dsyev_", 
+                "__sprintf_chk", 
+                "strtol", 
+                "dsyevr_", 
+                "__vsprintf_chk", 
+                "sqrt", 
+                "dtrmv_", 
+                "dsyr_", 
+                "dspevx_", 
+                "fgets", 
+                "dpptri_", 
+                "puts", 
+                "dstevr_", 
+                "dsymv_", 
+                "dgemv_", 
+                "dsyevx_", 
+                "feof", 
+                "__isoc99_sscanf", 
+                "qsort", 
+                "strtod", 
+                "strncpy", 
+                "dspr_", 
+                "__cxa_finalize", 
+                "exit", 
+                "ddot_", 
+                "dpptrf_", 
+                "dspmv_", 
+                "__printf_chk", 
+                "dnrm2_", 
+                "free", 
+                "_ITM_deregisterTMCloneTable", 
+                "fputs", 
+                "calloc", 
+                "dasum_", 
+                "__strcat_chk", 
+                "__fprintf_chk", 
+                "dpptrs_", 
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "fwrite", 
+                "malloc", 
+                "dstev_", 
+                "_ITM_registerTMCloneTable", 
+                "log", 
+                "fputc", 
+                "fflush"
+            ], 
+            "rpm": "DSDP-5.8-15.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libdsdp.so.5.8"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " DSDP", 
+            "License": " DSDP", 
+            "URL": " http://www.mcs.anl.gov/software/applied-mathematics-software", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-07.phx2.fedoraproject.org", 
+            "Description": "\nDSDP is a free open source implementation of an interior-point method\nfor semidefinite programming.  It provides primal and dual solutions,\nexploits low-rank structure and sparsity in the data, and has relatively\nlow memory requirements for an interior-point method.  It allows\nfeasible and infeasible starting points and provides approximate\ncertificates of infeasibility when no feasible solution exists.  The\ndual-scaling algorithm implemented in this package has a convergence\nproof and worst-case polynomial complexity under mild assumptions on the\ndata.  The software can be used as a set of subroutines, through Matlab,\nor by reading and writing to data files.  Furthermore, the solver offers\nscalable parallel performance for large problems and a well documented\ninterface.  Some of the most popular applications of semidefinite\nprogramming and linear matrix inequalities (LMI) are model control,\ntruss topology design, and semidefinite relaxations of combinatorial and\nglobal optimization problems.\n", 
+            "Build Date": " Fri 10 Feb 2017 12:10:50 AM EST", 
+            "Source RPM": " DSDP-5.8-15.fc26.src.rpm", 
+            "Version": " 5.8", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 13 Feb 2017 04:19:03 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 15.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Software for semidefinite programming", 
+            "Size": " 1012860"
+        }
+    }
+}

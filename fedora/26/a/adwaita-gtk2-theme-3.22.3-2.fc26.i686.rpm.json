@@ -1,0 +1,76 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/gtk-2_0/2_10_0/engines/libadwaita_so": {
+            "report-functions": [
+                "gtk_menu_get_type", 
+                "g_type_check_class_cast", 
+                "cairo_set_line_width", 
+                "g_return_if_fail_warning", 
+                "g_type_class_adjust_private_offset", 
+                "cairo_set_line_join", 
+                "gdk_x11_screen_get_window_manager_name", 
+                "g_type_check_instance_cast", 
+                "_ITM_registerTMCloneTable", 
+                "cairo_destroy", 
+                "gdk_screen_get_default", 
+                "g_object_get_data", 
+                "gdk_cairo_create", 
+                "_ITM_deregisterTMCloneTable", 
+                "g_object_set_data", 
+                "gtk_widget_set_name", 
+                "g_object_new", 
+                "gtk_window_get_window_type", 
+                "cairo_stroke", 
+                "g_type_module_register_type", 
+                "g_type_class_peek_parent", 
+                "cairo_set_source_rgb", 
+                "gtk_style_get_type", 
+                "cairo_new_path", 
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "cairo_rectangle", 
+                "gtk_window_get_type", 
+                "g_str_has_prefix", 
+                "cairo_clip_preserve", 
+                "g_get_application_name", 
+                "g_strcmp0", 
+                "gtk_rc_style_get_type"
+            ], 
+            "rpm": "adwaita-gtk2-theme-3.22.3-2.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/gtk-2.0/2.10.0/engines/libadwaita.so"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " adwaita-gtk2-theme", 
+            "License": " LGPLv2+", 
+            "URL": " http://git.gnome.org/browse/gnome-themes-standard", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-06.phx2.fedoraproject.org", 
+            "Description": "\nThe adwaita-gtk2-theme package contains a gtk2 theme for presenting widgets\nwith a GNOME look and feel.\n", 
+            "Build Date": " Thu 22 Jun 2017 08:24:26 AM EDT", 
+            "Source RPM": " gnome-themes-standard-3.22.3-2.fc26.src.rpm", 
+            "Version": " 3.22.3", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 22 Jun 2017 08:48:29 AM EDT, Key ID 812a6b4b64dab85d", 
+            "Release": " 2.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Adwaita gtk2 theme", 
+            "Size": " 255386"
+        }
+    }
+}

@@ -1,0 +1,103 @@
+{
+    "results": {
+        "usr/lib/libglobus_rsl_so_2_8_11": {
+            "report-functions": [
+                "__printf_chk", 
+                "globus_symboltable_create_scope", 
+                "globus_module_deactivate", 
+                "globus_mutex_destroy", 
+                "isatty", 
+                "__fprintf_chk", 
+                "strlen", 
+                "__sprintf_chk", 
+                "globus_fifo_enqueue", 
+                "globus_list_cons", 
+                "__assert_fail", 
+                "exit", 
+                "globus_list_remove", 
+                "globus_list_empty", 
+                "globus_module_activate", 
+                "stpcpy", 
+                "__errno_location", 
+                "_ITM_deregisterTMCloneTable", 
+                "globus_symboltable_remove_scope", 
+                "globus_mutex_init", 
+                "fwrite", 
+                "__gmon_start__", 
+                "globus_list_insert", 
+                "fputc", 
+                "globus_list_replace_first", 
+                "globus_fifo_init", 
+                "globus_list_first", 
+                "globus_symboltable_insert", 
+                "strcasecmp", 
+                "__strdup", 
+                "__stack_chk_fail", 
+                "globus_fifo_empty", 
+                "malloc", 
+                "globus_fifo_destroy", 
+                "free", 
+                "globus_list_rest", 
+                "__ctype_tolower_loc", 
+                "strcpy", 
+                "_ITM_registerTMCloneTable", 
+                "globus_list_free", 
+                "globus_list_size", 
+                "puts", 
+                "__cxa_finalize", 
+                "globus_fifo_dequeue", 
+                "fileno", 
+                "globus_fifo_size"
+            ], 
+            "rpm": "globus-rsl-10.11-3.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libglobus_rsl.so.2.8.11"
+        }, 
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/libglobus_rsl_assist_so_2_8_11": {
+            "report-functions": [
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "globus-rsl-10.11-3.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libglobus_rsl_assist.so.2.8.11"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " globus-rsl", 
+            "License": " ASL 2.0", 
+            "URL": " http://toolkit.globus.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-10.phx2.fedoraproject.org", 
+            "Description": "\nThe Globus Toolkit is an open source software toolkit used for building Grid\nsystems and applications. It is being developed by the Globus Alliance and\nmany others all over the world. A growing number of projects and companies are\nusing the Globus Toolkit to unlock the potential of grids for their cause.\n\nThe globus-rsl package contains:\nResource Specification Language Library\n", 
+            "Build Date": " Tue 28 Mar 2017 07:18:13 AM EDT", 
+            "Source RPM": " globus-rsl-10.11-3.fc26.src.rpm", 
+            "Version": " 10.11", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 28 Mar 2017 08:57:44 AM EDT, Key ID 812a6b4b64dab85d", 
+            "Release": " 3.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Globus Toolkit - Resource Specification Language Library", 
+            "Size": " 68781"
+        }
+    }
+}

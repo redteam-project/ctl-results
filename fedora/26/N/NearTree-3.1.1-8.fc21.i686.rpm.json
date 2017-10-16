@@ -1,0 +1,62 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/libCNearTree_so_5_1_0": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "log", 
+                "CVectorGetElement", 
+                "CVectorSetElement", 
+                "_Jv_RegisterClasses", 
+                "CVectorFree", 
+                "CVectorRemoveElement", 
+                "CVectorSetFlags", 
+                "_ITM_registerTMCloneTable", 
+                "__cxa_finalize", 
+                "modf", 
+                "atan2", 
+                "sqrt", 
+                "CVectorAddElement", 
+                "CVectorClear", 
+                "__stack_chk_fail", 
+                "CVectorCreate", 
+                "malloc", 
+                "free", 
+                "__gmon_start__"
+            ], 
+            "rpm": "NearTree-3.1.1-8.fc21.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libCNearTree.so.5.1.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " NearTree", 
+            "License": " LGPLv2+", 
+            "URL": " http://neartree.sourceforge.net/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-04.phx2.fedoraproject.org", 
+            "Description": "\nThis is a release of an API for finding nearest neighbors among\npoints in spaces of arbitrary dimensions. This release provides a\nC++ template, TNear.h, and a C library, CNearTree.c, with\nexample/test programs.\n", 
+            "Build Date": " Sun 29 Jun 2014 04:39:36 AM EDT", 
+            "Source RPM": " NearTree-3.1.1-8.fc21.src.rpm", 
+            "Version": " 3.1.1", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 15 Sep 2016 09:23:47 AM EDT, Key ID 812a6b4b64dab85d", 
+            "Release": " 8.fc21", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " An API for finding nearest neighbors", 
+            "Size": " 219936"
+        }
+    }
+}

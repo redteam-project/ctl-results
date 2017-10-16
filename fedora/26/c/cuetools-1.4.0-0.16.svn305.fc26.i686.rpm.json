@@ -1,0 +1,162 @@
+{
+    "results": {
+        "usr/lib/libcuefile_so_0_0_0": {
+            "report-functions": [
+                "strcmp", 
+                "fread", 
+                "calloc", 
+                "fwrite", 
+                "fputs", 
+                "strtol", 
+                "fclose", 
+                "malloc", 
+                "_IO_getc", 
+                "__strdup", 
+                "fputc", 
+                "strrchr", 
+                "__stack_chk_fail", 
+                "strcasecmp", 
+                "strlen", 
+                "exit", 
+                "fopen", 
+                "__fprintf_chk", 
+                "__gmon_start__", 
+                "ferror", 
+                "realloc", 
+                "clearerr", 
+                "isatty", 
+                "__printf_chk", 
+                "_ITM_registerTMCloneTable", 
+                "_ITM_deregisterTMCloneTable", 
+                "fileno", 
+                "__cxa_finalize", 
+                "puts", 
+                "__errno_location"
+            ], 
+            "rpm": "cuetools-1.4.0-0.16.svn305.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libcuefile.so.0.0.0"
+        }, 
+        "usr/bin/cueprint": {
+            "report-functions": [
+                "__libc_start_main", 
+                "__ctype_b_loc", 
+                "getopt_long", 
+                "cf_parse", 
+                "_ITM_registerTMCloneTable", 
+                "track_get_isrc", 
+                "cd_get_ntrack", 
+                "cdtext_get", 
+                "calloc", 
+                "__cxa_finalize", 
+                "cd_get_track", 
+                "__gmon_start__", 
+                "free", 
+                "__stack_chk_fail", 
+                "strncpy", 
+                "strtol", 
+                "_ITM_deregisterTMCloneTable", 
+                "_IO_putc", 
+                "cd_get_cdtext", 
+                "exit", 
+                "track_get_cdtext", 
+                "track_get_filename", 
+                "puts", 
+                "__printf_chk"
+            ], 
+            "rpm": "cuetools-1.4.0-0.16.svn305.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/cueprint"
+        }, 
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/bin/cueconvert": {
+            "report-functions": [
+                "getopt_long", 
+                "_ITM_deregisterTMCloneTable", 
+                "cf_format_from_suffix", 
+                "__fprintf_chk", 
+                "cf_print", 
+                "__libc_start_main", 
+                "exit", 
+                "cf_parse", 
+                "_ITM_registerTMCloneTable", 
+                "__printf_chk", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "cuetools-1.4.0-0.16.svn305.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/cueconvert"
+        }, 
+        "usr/bin/cuebreakpoints": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "cd_get_track", 
+                "getopt_long", 
+                "__printf_chk", 
+                "exit", 
+                "time_frame_to_msf", 
+                "_ITM_registerTMCloneTable", 
+                "cf_parse", 
+                "__cxa_finalize", 
+                "__fprintf_chk", 
+                "cd_get_ntrack", 
+                "track_get_zero_pre", 
+                "__libc_start_main", 
+                "puts", 
+                "track_get_start"
+            ], 
+            "rpm": "cuetools-1.4.0-0.16.svn305.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/cuebreakpoints"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Applications/Multimedia", 
+            "Name": " cuetools", 
+            "License": " GPLv2", 
+            "URL": " http://developer.berlios.de/projects/cuetools/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-07.phx2.fedoraproject.org", 
+            "Description": "\nCuetools is a set of utilities for working with cue files and TOC files.\nIt includes programs for conversion between the formats, file renaming based\non cue/TOC information, and track breakpoint printing.\n", 
+            "Build Date": " Fri 10 Feb 2017 09:09:13 AM EST", 
+            "Source RPM": " cuetools-1.4.0-0.16.svn305.fc26.src.rpm", 
+            "Version": " 1.4.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 10 Feb 2017 01:44:50 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 0.16.svn305.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Utilities to work with cue and TOC files", 
+            "Size": " 152269"
+        }
+    }
+}

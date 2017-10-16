@@ -1,0 +1,54 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/libboost_context_so_1_63_0": {
+            "report-functions": [
+                "__pthread_key_create", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "__once_proxy", 
+                "_ZSt20__throw_system_errori", 
+                "sysconf", 
+                "_exit", 
+                "pthread_once", 
+                "___tls_get_addr", 
+                "__gxx_personality_v0", 
+                "getrlimit", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "boost-context-1.63.0-5.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libboost_context.so.1.63.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " boost-context", 
+            "License": " Boost and MIT and Python", 
+            "URL": " http://www.boost.org", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-25.phx2.fedoraproject.org", 
+            "Description": "\n\nRun-time support for Boost.Context, a foundational library that\nprovides a sort of cooperative multitasking on a single thread.\n", 
+            "Build Date": " Sun 12 Mar 2017 12:17:05 PM EDT", 
+            "Source RPM": " boost-1.63.0-5.fc26.src.rpm", 
+            "Version": " 1.63.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sun 12 Mar 2017 01:46:57 PM EDT, Key ID 812a6b4b64dab85d", 
+            "Release": " 5.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Run-time component of boost context switching library", 
+            "Size": " 11926"
+        }
+    }
+}

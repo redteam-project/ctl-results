@@ -1,0 +1,81 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/libSDL2_gfx-1_0_so_0_0_1": {
+            "report-functions": [
+                "realloc", 
+                "SDL_LockSurface", 
+                "SDL_SetTextureBlendMode", 
+                "_ITM_deregisterTMCloneTable", 
+                "SDL_GetColorKey", 
+                "__gmon_start__", 
+                "SDL_RenderDrawLines", 
+                "qsort", 
+                "__stack_chk_fail", 
+                "cos", 
+                "SDL_SetTextureAlphaMod", 
+                "ceil", 
+                "sin", 
+                "malloc", 
+                "SDL_SetTextureColorMod", 
+                "SDL_Delay", 
+                "SDL_GetTicks", 
+                "SDL_CreateRGBSurface", 
+                "pow", 
+                "SDL_SetRenderDrawBlendMode", 
+                "SDL_RenderFillRect", 
+                "SDL_CreateTextureFromSurface", 
+                "SDL_RenderDrawLine", 
+                "__cxa_finalize", 
+                "SDL_RenderDrawRect", 
+                "_ITM_registerTMCloneTable", 
+                "sincos", 
+                "SDL_DestroyTexture", 
+                "SDL_HasMMX", 
+                "SDL_RenderDrawPoint", 
+                "SDL_FreeSurface", 
+                "SDL_UpperBlit", 
+                "floor", 
+                "atan", 
+                "sqrt", 
+                "SDL_RenderPresent", 
+                "SDL_SetError", 
+                "free", 
+                "SDL_SetRenderDrawColor"
+            ], 
+            "rpm": "SDL2_gfx-1.0.1-5.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libSDL2_gfx-1.0.so.0.0.1"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " SDL2_gfx", 
+            "License": " zlib", 
+            "URL": " http://www.ferzkopp.net/Software/SDL2_gfx-2.0/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-02.phx2.fedoraproject.org", 
+            "Description": "\nLibrary providing graphics drawing primitives and other support functions\nwrapped up in an addon library for the Simple Direct Media version 2 (SDL2)\ncross-platform API layer.\n", 
+            "Build Date": " Fri 10 Feb 2017 12:38:59 AM EST", 
+            "Source RPM": " SDL2_gfx-1.0.1-5.fc26.src.rpm", 
+            "Version": " 1.0.1", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 13 Feb 2017 01:36:46 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 5.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " SDL2 graphics drawing primitives and other support functions", 
+            "Size": " 85764"
+        }
+    }
+}

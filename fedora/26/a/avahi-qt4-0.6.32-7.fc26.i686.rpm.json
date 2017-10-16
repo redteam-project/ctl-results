@@ -1,0 +1,71 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/libavahi-qt4_so_1_0_2": {
+            "report-functions": [
+                "strcmp", 
+                "_ZN6QTimer5startEi", 
+                "_ZN7QObject7connectEPKS_PKcS1_S3_N2Qt14ConnectionTypeE", 
+                "_Z9qt_assertPKcS0_i", 
+                "_ZN7QObject5eventEP6QEvent", 
+                "__gmon_start__", 
+                "_ZN7QObject11qt_metacallEN11QMetaObject4CallEiPPv", 
+                "_ZN15QSocketNotifierC1EiNS_4TypeEP7QObject", 
+                "_ZNK11QMetaObject4castEP7QObject", 
+                "_ZN6QTimer4stopEv", 
+                "_ZN7QObject16disconnectNotifyEPKc", 
+                "_ITM_deregisterTMCloneTable", 
+                "_Unwind_Resume", 
+                "_ZN7QObjectC2EPS_", 
+                "__divdi3", 
+                "avahi_age", 
+                "_ZN7QObjectD2Ev", 
+                "__cxa_finalize", 
+                "_ZN7QObject13connectNotifyEPKc", 
+                "_Z13qFlagLocationPKc", 
+                "__gxx_personality_v0", 
+                "_ZN7QObject10timerEventEP11QTimerEvent", 
+                "_ZN7QObject11customEventEP6QEvent", 
+                "_ZN6QTimerC1EP7QObject", 
+                "_ZdlPvj", 
+                "_ZN6QTimerD1Ev", 
+                "_ZN7QObject11qt_metacastEPKc", 
+                "_ZN7QObject11eventFilterEPS_P6QEvent", 
+                "_ZN7QObject10childEventEP11QChildEvent"
+            ], 
+            "rpm": "avahi-qt4-0.6.32-7.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libavahi-qt4.so.1.0.2"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " avahi-qt4", 
+            "License": " LGPLv2+", 
+            "URL": " http://avahi.org", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-03.phx2.fedoraproject.org", 
+            "Description": "\nLibraries for easy use of avahi from Qt4 applications.\n", 
+            "Build Date": " Fri 10 Feb 2017 01:46:52 AM EST", 
+            "Source RPM": " avahi-0.6.32-7.fc26.src.rpm", 
+            "Version": " 0.6.32", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 13 Feb 2017 04:16:18 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 7.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Qt4 libraries for avahi", 
+            "Size": " 14984"
+        }
+    }
+}

@@ -1,0 +1,132 @@
+{
+    "results": {
+        "usr/lib/cairo/cairo-sphinx_so_0_0_0": {
+            "report-functions": [
+                "dlopen", 
+                "_ITM_deregisterTMCloneTable", 
+                "__errno_location", 
+                "__cxa_finalize", 
+                "__gmon_start__", 
+                "write", 
+                "dlsym", 
+                "getenv", 
+                "__stack_chk_fail", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "cairo-tools-1.14.10-1.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/cairo/cairo-sphinx.so.0.0.0"
+        }, 
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/cairo/cairo-fdr_so_0_0_0": {
+            "report-functions": [
+                "__cxa_atexit", 
+                "__stack_chk_fail", 
+                "dlopen", 
+                "__gmon_start__", 
+                "signal", 
+                "__assert_fail", 
+                "__cxa_finalize", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "cairo-tools-1.14.10-1.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/cairo/cairo-fdr.so.0.0.0"
+        }, 
+        "usr/lib/cairo/libcairo-trace_so_0_0_0": {
+            "report-functions": [
+                "__cxa_atexit", 
+                "abort", 
+                "fopen64", 
+                "__snprintf_chk", 
+                "__assert_fail", 
+                "strncpy", 
+                "funlockfile", 
+                "strerror", 
+                "deflateInit_", 
+                "memmove", 
+                "pthread_key_create", 
+                "pthread_mutex_lock", 
+                "__stack_chk_fail", 
+                "pthread_mutex_init", 
+                "getpid", 
+                "__ctype_b_loc", 
+                "fgets", 
+                "pthread_mutex_destroy", 
+                "__errno_location", 
+                "deflate", 
+                "pthread_mutex_unlock", 
+                "__cxa_finalize", 
+                "strtol", 
+                "strrchr", 
+                "getenv", 
+                "fdopen", 
+                "malloc", 
+                "localeconv", 
+                "pthread_once", 
+                "__memmove_chk", 
+                "free", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "__fprintf_chk", 
+                "fclose", 
+                "dlopen", 
+                "fwrite", 
+                "fread", 
+                "deflateEnd", 
+                "realloc", 
+                "__memcpy_chk", 
+                "setenv", 
+                "fflush", 
+                "dlsym", 
+                "strlen", 
+                "flockfile"
+            ], 
+            "rpm": "cairo-tools-1.14.10-1.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/cairo/libcairo-trace.so.0.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " cairo-tools", 
+            "License": " LGPLv2 or MPLv1.1", 
+            "URL": " http://cairographics.org", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-08.phx2.fedoraproject.org", 
+            "Description": "\nCairo is a 2D graphics library designed to provide high-quality display\nand print output.\n\nThis package contains tools for working with the cairo graphics library.\n * cairo-trace: Record cairo library calls for later playback\n", 
+            "Build Date": " Fri 16 Jun 2017 09:21:13 AM EDT", 
+            "Source RPM": " cairo-1.14.10-1.fc26.src.rpm", 
+            "Version": " 1.14.10", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 19 Jun 2017 03:37:50 AM EDT, Key ID 812a6b4b64dab85d", 
+            "Release": " 1.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Development tools for cairo", 
+            "Size": " 158455"
+        }
+    }
+}

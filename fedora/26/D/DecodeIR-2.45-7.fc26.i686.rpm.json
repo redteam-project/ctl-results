@@ -1,0 +1,68 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: 'NoneType' object is not iterable"
+        }, 
+        "usr/lib/DecodeIR/libDecodeIR_so": {
+            "report-functions": [
+                "_ZSt18_Rb_tree_decrementPSt18_Rb_tree_node_base", 
+                "_Znwj", 
+                "strcmp", 
+                "strcat", 
+                "_ZdlPvj", 
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "__sprintf_chk", 
+                "__assert_fail", 
+                "_ZSt29_Rb_tree_insert_and_rebalancebPSt18_Rb_tree_node_baseS0_RS_", 
+                "strncasecmp", 
+                "_ZdlPv", 
+                "_Znaj", 
+                "strlen", 
+                "__strcat_chk", 
+                "__strcpy_chk", 
+                "_ITM_registerTMCloneTable", 
+                "_ZSt18_Rb_tree_incrementPKSt18_Rb_tree_node_base", 
+                "_Unwind_Resume", 
+                "__cxa_guard_acquire", 
+                "__cxa_finalize", 
+                "__gxx_personality_v0", 
+                "strcpy", 
+                "strncmp", 
+                "__cxa_throw_bad_array_new_length", 
+                "__cxa_guard_release"
+            ], 
+            "rpm": "DecodeIR-2.45-7.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/DecodeIR/libDecodeIR.so"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " DecodeIR", 
+            "License": " Public Domain and GPLv2+", 
+            "URL": " http://sourceforge.net/p/controlremote", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-13.phx2.fedoraproject.org", 
+            "Description": "\nDecodeIR is a general library which can decode signals for a large number\nof infrared remote controls. It can be used as a regular C library or\nthrough a java interface. Being a JNI library, it does not support multi-arch\ninstallations.\n", 
+            "Build Date": " Fri 10 Feb 2017 12:07:36 AM EST", 
+            "Source RPM": " DecodeIR-2.45-7.fc26.src.rpm", 
+            "Version": " 2.45", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 13 Feb 2017 05:33:05 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 7.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Infrared remote controls decoding library", 
+            "Size": " 190642"
+        }
+    }
+}

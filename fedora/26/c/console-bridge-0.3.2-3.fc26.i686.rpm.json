@@ -1,0 +1,72 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/libconsole_bridge_so_0_3": {
+            "report-functions": [
+                "_ZNSo5flushEv", 
+                "fclose", 
+                "__pthread_key_create", 
+                "pthread_mutex_lock", 
+                "__cxa_atexit", 
+                "_ZNSolsEi", 
+                "__cxa_finalize", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERjj", 
+                "_Unwind_Resume", 
+                "__gmon_start__", 
+                "fopen", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_i", 
+                "_ITM_registerTMCloneTable", 
+                "_ZNSt8ios_base4InitC1Ev", 
+                "__vsnprintf_chk", 
+                "_ZdlPv", 
+                "_ZNSt8ios_base4InitD1Ev", 
+                "_ZNSt9basic_iosIcSt11char_traitsIcEE5clearESt12_Ios_Iostate", 
+                "_ZSt20__throw_system_errori", 
+                "_ZNKSt5ctypeIcE13_M_widen_initEv", 
+                "_ZSt16__throw_bad_castv", 
+                "_ZNSo3putEc", 
+                "fflush", 
+                "__gxx_personality_v0", 
+                "strlen", 
+                "__fprintf_chk", 
+                "pthread_mutex_unlock", 
+                "__cxa_guard_release", 
+                "__cxa_guard_acquire"
+            ], 
+            "rpm": "console-bridge-0.3.2-3.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libconsole_bridge.so.0.3"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " console-bridge", 
+            "License": " BSD", 
+            "URL": " http://ros.org/wiki/console_bridge", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-05.phx2.fedoraproject.org", 
+            "Description": "\nA very lightweight set of macros that can be used for reporting information\nin libraries. The logged information can be forwarded to other systems.\n", 
+            "Build Date": " Fri 10 Feb 2017 08:55:37 AM EST", 
+            "Source RPM": " console-bridge-0.3.2-3.fc26.src.rpm", 
+            "Version": " 0.3.2", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 10 Feb 2017 12:30:15 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 3.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Lightweight set of macros used for reporting information in libraries", 
+            "Size": " 14676"
+        }
+    }
+}

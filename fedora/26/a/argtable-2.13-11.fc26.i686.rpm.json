@@ -1,0 +1,71 @@
+{
+    "results": {
+        "usr/lib/libargtable2_so_0_1_8": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable", 
+                "puts", 
+                "strptime", 
+                "strlen", 
+                "strrchr", 
+                "isspace", 
+                "regexec", 
+                "__printf_chk", 
+                "__fprintf_chk", 
+                "regfree", 
+                "regcomp", 
+                "strtol", 
+                "__ctype_b_loc", 
+                "getopt_long", 
+                "strcspn", 
+                "__cxa_finalize", 
+                "fwrite", 
+                "regerror", 
+                "fputc", 
+                "toupper", 
+                "calloc", 
+                "strftime", 
+                "strncat", 
+                "strtod", 
+                "strchr", 
+                "malloc", 
+                "free"
+            ], 
+            "rpm": "argtable-2.13-11.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libargtable2.so.0.1.8"
+        }, 
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Applications/Internet", 
+            "Name": " argtable", 
+            "License": " LGPLv2+", 
+            "URL": " http://argtable.sourceforge.net/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-09.phx2.fedoraproject.org", 
+            "Description": "\nArgtable is an ANSI C library for parsing GNU style command line\narguments. It enables a program's command line syntax to be defined in\nthe source code as an array of argtable structs. The command line is\nthen parsed according to that specification and the resulting values\nare returned in those same structs where they are accessible to the main\nprogram. Both tagged (-v, --verbose, --foo=bar) and untagged arguments\nare supported, as are multiple instances of each argument.\nSyntax error handling is automatic.\n", 
+            "Build Date": " Fri 10 Feb 2017 01:18:08 AM EST", 
+            "Source RPM": " argtable-2.13-11.fc26.src.rpm", 
+            "Version": " 2.13", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 13 Feb 2017 03:04:27 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 11.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Cross platform C library for parsing GNU style command line arguments", 
+            "Size": " 70997"
+        }
+    }
+}

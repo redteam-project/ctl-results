@@ -1,0 +1,121 @@
+{
+    "results": {
+        "usr/lib/libcdda_paranoia_so_0_10_2": {
+            "report-functions": [
+                "cdda_read_timed", 
+                "qsort", 
+                "__stack_chk_fail", 
+                "memmove", 
+                "_ITM_registerTMCloneTable", 
+                "realloc", 
+                "memcpy", 
+                "cdda_disc_firstsector", 
+                "cdda_track_audiop", 
+                "free", 
+                "calloc", 
+                "_ITM_deregisterTMCloneTable", 
+                "cdda_disc_lastsector", 
+                "cdda_track_firstsector", 
+                "malloc", 
+                "__cxa_finalize", 
+                "cdda_read", 
+                "cdda_tracks", 
+                "__gmon_start__", 
+                "cdda_sector_gettrack", 
+                "memset", 
+                "cdda_track_lastsector"
+            ], 
+            "rpm": "cdparanoia-libs-10.2-22.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libcdda_paranoia.so.0.10.2"
+        }, 
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/libcdda_interface_so_0_10_2": {
+            "report-functions": [
+                "strchr", 
+                "sprintf", 
+                "__errno_location", 
+                "close", 
+                "strlen", 
+                "read", 
+                "__gmon_start__", 
+                "strcpy", 
+                "cuserid", 
+                "strcat", 
+                "rand", 
+                "strncmp", 
+                "cos", 
+                "fwrite", 
+                "__lxstat", 
+                "free", 
+                "__cxa_finalize", 
+                "exit", 
+                "realloc", 
+                "fprintf", 
+                "calloc", 
+                "usleep", 
+                "memcpy", 
+                "sigprocmask", 
+                "ioctl", 
+                "strerror", 
+                "__xstat", 
+                "strdup", 
+                "clock_gettime", 
+                "sin", 
+                "_ITM_registerTMCloneTable", 
+                "select", 
+                "strncat", 
+                "__stack_chk_fail", 
+                "memmove", 
+                "_ITM_deregisterTMCloneTable", 
+                "dup", 
+                "getenv", 
+                "malloc", 
+                "realpath", 
+                "strrchr", 
+                "memcmp", 
+                "open", 
+                "write"
+            ], 
+            "rpm": "cdparanoia-libs-10.2-22.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libcdda_interface.so.0.10.2"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Applications/Multimedia", 
+            "Name": " cdparanoia-libs", 
+            "License": " LGPLv2", 
+            "URL": " http://www.xiph.org/paranoia/index.html", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-19.phx2.fedoraproject.org", 
+            "Description": "\nThe cdparanoia-libs package contains the dynamic libraries needed for\napplications which read CD Digital Audio disks.\n", 
+            "Build Date": " Fri 10 Feb 2017 08:17:28 AM EST", 
+            "Source RPM": " cdparanoia-10.2-22.fc26.src.rpm", 
+            "Version": " 10.2", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 10 Feb 2017 08:31:25 AM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 22.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Libraries for libcdda_paranoia (Paranoia III)", 
+            "Size": " 128340"
+        }
+    }
+}

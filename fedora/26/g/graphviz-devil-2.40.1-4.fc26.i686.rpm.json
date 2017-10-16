@@ -1,0 +1,57 @@
+{
+    "results": {
+        "usr/lib/graphviz/libgvplugin_devil_so_6_0_0": {
+            "report-functions": [
+                "ilBindImage", 
+                "__gmon_start__", 
+                "ilTexImage", 
+                "iluGetInteger", 
+                "ilInit", 
+                "__stack_chk_fail", 
+                "ilGenImages", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable", 
+                "ilGetError", 
+                "__cxa_finalize", 
+                "ilSaveF", 
+                "ilDeleteImages", 
+                "ilGetInteger", 
+                "__fprintf_chk"
+            ], 
+            "rpm": "graphviz-devil-2.40.1-4.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/graphviz/libgvplugin_devil.so.6.0.0"
+        }, 
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Applications/Multimedia", 
+            "Name": " graphviz-devil", 
+            "License": " EPL", 
+            "URL": " http://www.graphviz.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-08.phx2.fedoraproject.org", 
+            "Description": "\nGraphviz plugin for renderers based on DevIL. (Unless you absolutely have\nto use BMP, TIF, or TGA, you are recommended to use the PNG format instead\nsupported directly by the cairo+pango based renderer in the base graphviz rpm.)\n", 
+            "Build Date": " Sat 18 Feb 2017 03:09:32 AM EST", 
+            "Source RPM": " graphviz-2.40.1-4.fc26.src.rpm", 
+            "Version": " 2.40.1", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 18 Feb 2017 03:36:24 AM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 4.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Graphviz plugin for renderers based on DevIL", 
+            "Size": " 6500"
+        }
+    }
+}

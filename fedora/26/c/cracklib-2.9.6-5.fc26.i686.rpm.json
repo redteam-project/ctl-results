@@ -1,0 +1,153 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/sbin/cracklib-packer": {
+            "report-functions": [
+                "fgets", 
+                "perror", 
+                "PutPW", 
+                "_ITM_registerTMCloneTable", 
+                "PWClose", 
+                "_ITM_deregisterTMCloneTable", 
+                "__stack_chk_fail", 
+                "__printf_chk", 
+                "__cxa_finalize", 
+                "__strcpy_chk", 
+                "PWOpen", 
+                "__fprintf_chk", 
+                "Chop", 
+                "strcmp"
+            ], 
+            "rpm": "cracklib-2.9.6-5.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/sbin/cracklib-packer"
+        }, 
+        "usr/sbin/cracklib-check": {
+            "report-functions": [
+                "strchr", 
+                "__libc_start_main", 
+                "textdomain", 
+                "FascistCheck", 
+                "__stack_chk_fail", 
+                "_ITM_deregisterTMCloneTable", 
+                "__printf_chk", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "fgets"
+            ], 
+            "rpm": "cracklib-2.9.6-5.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/sbin/cracklib-check"
+        }, 
+        "usr/lib/libcrack_so_2_9_0": {
+            "report-functions": [
+                "strlen", 
+                "gzopen", 
+                "__ctype_tolower_loc", 
+                "fopen", 
+                "strcmp", 
+                "fseek", 
+                "strncat", 
+                "free", 
+                "strncmp", 
+                "ftell", 
+                "__ctype_toupper_loc", 
+                "strchr", 
+                "dcgettext", 
+                "rewind", 
+                "_IO_putc", 
+                "strcat", 
+                "__snprintf_chk", 
+                "gzread", 
+                "getpwuid_r", 
+                "fclose", 
+                "strcpy", 
+                "fread", 
+                "malloc", 
+                "calloc", 
+                "__strcat_chk", 
+                "fputs", 
+                "__cxa_finalize", 
+                "gzseek", 
+                "gzclose", 
+                "perror", 
+                "__stack_chk_fail", 
+                "getuid", 
+                "__strcpy_chk", 
+                "__fprintf_chk", 
+                "__gmon_start__", 
+                "__ctype_b_loc", 
+                "__stpcpy_chk", 
+                "fwrite", 
+                "_ITM_registerTMCloneTable", 
+                "__memcpy_chk"
+            ], 
+            "rpm": "cracklib-2.9.6-5.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libcrack.so.2.9.0"
+        }, 
+        "usr/sbin/cracklib-unpacker": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "GetPW", 
+                "__cxa_finalize", 
+                "puts", 
+                "perror", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "__libc_start_main"
+            ], 
+            "rpm": "cracklib-2.9.6-5.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/sbin/cracklib-unpacker"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " cracklib", 
+            "License": " LGPLv2+", 
+            "URL": " http://sourceforge.net/projects/cracklib/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-13.phx2.fedoraproject.org", 
+            "Description": "\nCrackLib tests passwords to determine whether they match certain\nsecurity-oriented characteristics, with the purpose of stopping users\nfrom choosing passwords that are easy to guess. CrackLib performs\nseveral tests on passwords: it tries to generate words from a username\nand gecos entry and checks those words against the password; it checks\nfor simplistic patterns in passwords; and it checks for the password\nin a dictionary.\n\nCrackLib is actually a library containing a particular C function\nwhich is used to check the password, as well as other C\nfunctions. CrackLib is not a replacement for a passwd program; it must\nbe used in conjunction with an existing passwd program.\n\nInstall the cracklib package if you need a program to check users'\npasswords to see if they are at least minimally secure. If you install\nCrackLib, you will also want to install the cracklib-dicts package.\n", 
+            "Build Date": " Fri 10 Feb 2017 08:58:30 AM EST", 
+            "Source RPM": " cracklib-2.9.6-5.fc26.src.rpm", 
+            "Version": " 2.9.6", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 10 Feb 2017 12:43:43 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 5.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A password-checking library", 
+            "Size": " 194864"
+        }
+    }
+}

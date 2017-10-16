@@ -1,0 +1,80 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/libbliss_so_0_73": {
+            "report-functions": [
+                "fputc", 
+                "fscanf", 
+                "_ZSt29_Rb_tree_insert_and_rebalancebPSt18_Rb_tree_node_baseS0_RS_", 
+                "__gxx_personality_v0", 
+                "fwrite", 
+                "getc", 
+                "fclose", 
+                "_ZSt18_Rb_tree_decrementPSt18_Rb_tree_node_base", 
+                "__assert_fail", 
+                "__stack_chk_fail", 
+                "_ZSt20__throw_length_errorPKc", 
+                "__cxa_pure_virtual", 
+                "free", 
+                "times", 
+                "__cxa_finalize", 
+                "__vfprintf_chk", 
+                "__gmpz_set_si", 
+                "__gmon_start__", 
+                "__gmpz_clear", 
+                "_Unwind_Resume", 
+                "ungetc", 
+                "__cxa_rethrow", 
+                "sysconf", 
+                "_ITM_deregisterTMCloneTable", 
+                "fflush", 
+                "_ITM_registerTMCloneTable", 
+                "malloc", 
+                "_ZdlPvj", 
+                "memmove", 
+                "fopen", 
+                "_ZdlPv", 
+                "__cxa_begin_catch", 
+                "__fprintf_chk", 
+                "__gmpz_mul_si", 
+                "__cxa_end_catch", 
+                "_Znwj", 
+                "_ZSt17__throw_bad_allocv", 
+                "_ZSt18_Rb_tree_incrementPKSt18_Rb_tree_node_base"
+            ], 
+            "rpm": "bliss-libs-0.73-3.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libbliss.so.0.73"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " bliss-libs", 
+            "License": " LGPLv3", 
+            "URL": " http://www.tcs.hut.fi/Software/bliss/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-08.phx2.fedoraproject.org", 
+            "Description": "\nA command-line bliss tool to access the functionality of the bliss\nlibrary.\n", 
+            "Build Date": " Fri 10 Feb 2017 02:05:17 AM EST", 
+            "Source RPM": " bliss-0.73-3.fc26.src.rpm", 
+            "Version": " 0.73", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 13 Feb 2017 02:25:49 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 3.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Compute automorphism groups and canonical labelings of graphs", 
+            "Size": " 176570"
+        }
+    }
+}

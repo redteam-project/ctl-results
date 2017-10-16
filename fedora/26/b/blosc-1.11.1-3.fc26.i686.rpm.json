@@ -1,0 +1,83 @@
+{
+    "results": {
+        "usr/lib/libblosc_so_1_11_1": {
+            "report-functions": [
+                "puts", 
+                "snappy_uncompress", 
+                "memmove", 
+                "memcpy", 
+                "pthread_mutex_destroy", 
+                "LZ4_decompress_fast", 
+                "fprintf", 
+                "_ITM_registerTMCloneTable", 
+                "LZ4_compress_fast", 
+                "free", 
+                "__gmon_start__", 
+                "memset", 
+                "pthread_attr_destroy", 
+                "strerror", 
+                "sprintf", 
+                "malloc", 
+                "getenv", 
+                "snappy_compress", 
+                "pthread_attr_setdetachstate", 
+                "__cxa_finalize", 
+                "_ITM_deregisterTMCloneTable", 
+                "posix_memalign", 
+                "pthread_barrier_wait", 
+                "compress2", 
+                "pthread_barrier_destroy", 
+                "strdup", 
+                "pthread_join", 
+                "pthread_barrier_init", 
+                "strtol", 
+                "pthread_create", 
+                "pthread_mutex_init", 
+                "snappy_max_compressed_length", 
+                "__assert_fail", 
+                "strcmp", 
+                "calloc", 
+                "fwrite", 
+                "LZ4_compressHC2_limitedOutput", 
+                "uncompress", 
+                "printf", 
+                "pthread_attr_init", 
+                "lldiv"
+            ], 
+            "rpm": "blosc-1.11.1-3.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libblosc.so.1.11.1"
+        }, 
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " blosc", 
+            "License": " MIT", 
+            "URL": " https://github.com/Blosc/c-blosc", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-31.phx2.fedoraproject.org", 
+            "Description": "\nBlosc is a compression library designed to transmit data to the processor\ncache faster than the traditional non-compressed memory fetch.\nCompression ratios are not very high, but the decompression is very fast.\nBlosc is meant not only to reduce the size of large datasets on-disk or\nin-memory, but also to accelerate memory-bound computations.\n", 
+            "Build Date": " Fri 10 Feb 2017 02:13:56 AM EST", 
+            "Source RPM": " blosc-1.11.1-3.fc26.src.rpm", 
+            "Version": " 1.11.1", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 13 Feb 2017 04:37:00 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 3.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A high performance compressor optimized for binary data", 
+            "Size": " 351152"
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "results": {
+        "usr/lib/libdynamicedt3d_so_1_8_1": {
+            "report-functions": [
+                "__cxa_end_catch", 
+                "_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_i", 
+                "_ITM_registerTMCloneTable", 
+                "_ZNKSt5ctypeIcE13_M_widen_initEv", 
+                "_ZdlPv", 
+                "_ZSt17__throw_bad_allocv", 
+                "_ZN8octomathlsERSoRKNS_7Vector3E", 
+                "__gxx_personality_v0", 
+                "_ZNSt8ios_base4InitD1Ev", 
+                "_ZSt18_Rb_tree_decrementPSt18_Rb_tree_node_base", 
+                "__cxa_finalize", 
+                "_Znaj", 
+                "floor", 
+                "_ZdlPvj", 
+                "_ZSt18_Rb_tree_incrementPSt18_Rb_tree_node_base", 
+                "_ZSt29_Rb_tree_insert_and_rebalancebPSt18_Rb_tree_node_baseS0_RS_", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_rethrow", 
+                "memmove", 
+                "__gmon_start__", 
+                "_ZSt28_Rb_tree_rebalance_for_erasePSt18_Rb_tree_node_baseRS_", 
+                "_Unwind_Resume", 
+                "__cxa_atexit", 
+                "sqrt", 
+                "_Znwj", 
+                "__cxa_throw_bad_array_new_length", 
+                "_ZNSo5flushEv", 
+                "_ZNSo3putEc", 
+                "_ZSt16__throw_bad_castv", 
+                "__cxa_begin_catch", 
+                "_ZNSt8ios_base4InitC1Ev"
+            ], 
+            "rpm": "dynamic-edt-3d-1.8.1-1.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libdynamicedt3d.so.1.8.1"
+        }, 
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " dynamic-edt-3d", 
+            "License": " BSD and GPLv2", 
+            "URL": " http://octomap.github.io/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-08.phx2.fedoraproject.org", 
+            "Description": "\nThe dynamicEDT3D library implements an incrementally updatable Euclidean\ndistance transform (EDT) in 3D. It comes with a wrapper to use the OctoMap\n3D representation and hooks into the change detection of the OctoMap library\nto propagate changes to the EDT.\n", 
+            "Build Date": " Sun 26 Feb 2017 12:37:33 PM EST", 
+            "Source RPM": " octomap-1.8.1-1.fc26.src.rpm", 
+            "Version": " 1.8.1", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sun 26 Feb 2017 12:51:17 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 1.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Dynamic Euclidian Distance Transform Implementation", 
+            "Size": " 74629"
+        }
+    }
+}

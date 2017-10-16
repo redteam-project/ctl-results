@@ -1,0 +1,61 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/libglobus_scheduler_event_generator_so_0_5_12": {
+            "report-functions": [
+                "malloc", 
+                "free", 
+                "globus_mutex_unlock", 
+                "globus_mutex_init", 
+                "globus_libc_strdup", 
+                "globus_libc_vprintf_length", 
+                "globus_error_construct_error", 
+                "globus_extension_deactivate", 
+                "globus_common_create_string", 
+                "__vsprintf_chk", 
+                "globus_module_activate", 
+                "__gmon_start__", 
+                "__stack_chk_fail", 
+                "globus_mutex_destroy", 
+                "globus_error_put", 
+                "globus_extension_activate", 
+                "globus_mutex_lock", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "globus-scheduler-event-generator-5.12-3.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libglobus_scheduler_event_generator.so.0.5.12"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " globus-scheduler-event-generator", 
+            "License": " ASL 2.0", 
+            "URL": " http://toolkit.globus.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-15.phx2.fedoraproject.org", 
+            "Description": "\nThe Globus Toolkit is an open source software toolkit used for building Grid\nsystems and applications. It is being developed by the Globus Alliance and\nmany others all over the world. A growing number of projects and companies are\nusing the Globus Toolkit to unlock the potential of grids for their cause.\n\nThe globus-scheduler-event-generator package contains:\nScheduler Event Generator\n", 
+            "Build Date": " Tue 28 Mar 2017 07:18:35 AM EDT", 
+            "Source RPM": " globus-scheduler-event-generator-5.12-3.fc26.src.rpm", 
+            "Version": " 5.12", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 28 Mar 2017 08:57:17 AM EDT, Key ID 812a6b4b64dab85d", 
+            "Release": " 3.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Globus Toolkit - Scheduler Event Generator", 
+            "Size": " 21381"
+        }
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "results": {
+        "usr/lib/libJudy_so_1_0_3": {
+            "report-functions": [
+                "free", 
+                "__cxa_finalize", 
+                "strcpy", 
+                "memcmp", 
+                "__stack_chk_fail", 
+                "malloc", 
+                "strlen", 
+                "strcmp", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "Judy-1.0.5-13.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libJudy.so.1.0.3"
+        }, 
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " Judy", 
+            "License": " LGPLv2+", 
+            "URL": " http://sourceforge.net/projects/judy/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-22.phx2.fedoraproject.org", 
+            "Description": "\nJudy is a C library that provides a state-of-the-art core technology\nthat implements a sparse dynamic array. Judy arrays are declared\nsimply with a null pointer. A Judy array consumes memory only when it\nis populated, yet can grow to take advantage of all available memory\nif desired. Judy's key benefits are scalability, high performance, and\nmemory efficiency. A Judy array is extensible and can scale up to a\nvery large number of elements, bounded only by machine memory. Since\nJudy is designed as an unbounded array, the size of a Judy array is\nnot pre-allocated but grows and shrinks dynamically with the array\npopulation.\n", 
+            "Build Date": " Fri 10 Feb 2017 12:13:48 AM EST", 
+            "Source RPM": " Judy-1.0.5-13.fc26.src.rpm", 
+            "Version": " 1.0.5", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 13 Feb 2017 01:25:24 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 13.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " General purpose dynamic array", 
+            "Size": " 203733"
+        }
+    }
+}

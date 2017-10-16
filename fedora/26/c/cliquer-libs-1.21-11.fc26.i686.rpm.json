@@ -1,0 +1,75 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/libcliquer_so_1_21": {
+            "report-functions": [
+                "strncat", 
+                "__cxa_finalize", 
+                "fclose", 
+                "puts", 
+                "fputc", 
+                "fgets", 
+                "times", 
+                "srand", 
+                "__isoc99_sscanf", 
+                "__fprintf_chk", 
+                "sysconf", 
+                "malloc", 
+                "gettimeofday", 
+                "strlen", 
+                "__gmon_start__", 
+                "strchr", 
+                "__ctype_b_loc", 
+                "rand", 
+                "__strncat_chk", 
+                "putchar", 
+                "fputs", 
+                "fwrite", 
+                "__sprintf_chk", 
+                "__stack_chk_fail", 
+                "free", 
+                "fread", 
+                "__printf_chk", 
+                "_ITM_registerTMCloneTable", 
+                "perror", 
+                "fopen", 
+                "realloc", 
+                "abort", 
+                "calloc"
+            ], 
+            "rpm": "cliquer-libs-1.21-11.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libcliquer.so.1.21"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " cliquer-libs", 
+            "License": " GPLv2+", 
+            "URL": " http://users.tkk.fi/pat/cliquer.html", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-19.phx2.fedoraproject.org", 
+            "Description": "\nCliquer is a set of C routines for finding cliques in an arbitrary\nweighted graph.  It uses an exact branch-and-bound algorithm developed\nby Patric \u00d6sterg\u00e5rd.  It is designed with the aim of being efficient\nwhile still being flexible and easy to use.\n", 
+            "Build Date": " Fri 10 Feb 2017 08:32:09 AM EST", 
+            "Source RPM": " cliquer-1.21-11.fc26.src.rpm", 
+            "Version": " 1.21", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 10 Feb 2017 10:32:02 AM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 11.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Library to find cliques in arbitrary weighted graphs", 
+            "Size": " 83501"
+        }
+    }
+}

@@ -1,0 +1,67 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/libglite_jobid_so_2_2_13": {
+            "report-functions": [
+                "MD5_Final", 
+                "strtol", 
+                "getpid", 
+                "random", 
+                "MD5_Init", 
+                "__strdup", 
+                "__asprintf_chk", 
+                "__cxa_finalize", 
+                "strlen", 
+                "free", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "gethostname", 
+                "strchr", 
+                "srandom", 
+                "rand", 
+                "calloc", 
+                "_ITM_registerTMCloneTable", 
+                "malloc", 
+                "__stack_chk_fail", 
+                "gettimeofday", 
+                "__sprintf_chk", 
+                "strtoul", 
+                "MD5_Update", 
+                "gethostbyname"
+            ], 
+            "rpm": "glite-jobid-api-c-2.2.13-5.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libglite_jobid.so.2.2.13"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " glite-jobid-api-c", 
+            "License": " ASL 2.0", 
+            "URL": " http://glite.cern.ch", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-09.phx2.fedoraproject.org", 
+            "Description": "\nC library handling gLite jobid.\n", 
+            "Build Date": " Fri 10 Feb 2017 12:49:23 PM EST", 
+            "Source RPM": " glite-jobid-api-c-2.2.13-5.fc26.src.rpm", 
+            "Version": " 2.2.13", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 11 Feb 2017 12:53:14 AM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 5.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " C library handling gLite jobid", 
+            "Size": " 28972"
+        }
+    }
+}

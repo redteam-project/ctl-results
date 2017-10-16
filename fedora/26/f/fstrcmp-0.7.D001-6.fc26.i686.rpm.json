@@ -1,0 +1,95 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/bin/fstrcmp": {
+            "report-functions": [
+                "read", 
+                "fstrcmp_program_name_get", 
+                "open", 
+                "fstrcmpi", 
+                "__fxstat", 
+                "close", 
+                "fstrcmp_program_name_set", 
+                "gettimeofday", 
+                "_ITM_deregisterTMCloneTable", 
+                "puts", 
+                "fstrcasecmp", 
+                "__printf_chk", 
+                "fstrcolli", 
+                "__gmon_start__", 
+                "fmemcmp", 
+                "__cxa_finalize", 
+                "fstrcoll", 
+                "fstrcmp_version_print", 
+                "__stack_chk_fail", 
+                "_ITM_registerTMCloneTable", 
+                "__libc_start_main", 
+                "fmemcmpi", 
+                "getopt_long", 
+                "fstrcmp", 
+                "perror", 
+                "fstrcasecmpi", 
+                "exit"
+            ], 
+            "rpm": "fstrcmp-0.7.D001-6.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/fstrcmp"
+        }, 
+        "usr/lib/libfstrcmp_so_0_6_0": {
+            "report-functions": [
+                "strlen", 
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "mbstowcs", 
+                "__ctype_b_loc", 
+                "wcslen", 
+                "__cxa_finalize", 
+                "malloc", 
+                "readlink", 
+                "free", 
+                "__ctype_tolower_loc", 
+                "__printf_chk"
+            ], 
+            "rpm": "fstrcmp-0.7.D001-6.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libfstrcmp.so.0.6.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " fstrcmp", 
+            "License": " GPLv3+", 
+            "URL": " http://fstrcmp.sourceforge.net/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-05.phx2.fedoraproject.org", 
+            "Description": "\nThe fstrcmp package provides a library which may be used to make fuzzy\ncomparisons of strings and byte arrays. It also provides simple commands for use\nin shell scripts.\n", 
+            "Build Date": " Fri 10 Feb 2017 11:18:10 AM EST", 
+            "Source RPM": " fstrcmp-0.7.D001-6.fc26.src.rpm", 
+            "Version": " 0.7.D001", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 10 Feb 2017 08:41:08 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 6.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Fuzzy string compare library", 
+            "Size": " 87582"
+        }
+    }
+}

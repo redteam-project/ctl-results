@@ -1,0 +1,402 @@
+{
+    "results": {
+        "usr/share/doc/LibRaw-devel/samples/bin_postprocessing_benchmark-postprocessing_benchmark_o": {
+            "report-functions": [
+                "_ZN6LibRaw11cameraCountEv", 
+                "_ZN6LibRaw22adjust_sizes_info_onlyEv", 
+                "_ZN6LibRaw10free_imageEv", 
+                "_Unwind_Resume", 
+                "_ZN6LibRaw13dcraw_processEv", 
+                "gettimeofday", 
+                "strchr", 
+                "_ZN6LibRaw7versionEv", 
+                "libraw_strerror", 
+                "_ZN6LibRaw15dcraw_clear_memEP24libraw_processed_image_t", 
+                "_ZN6LibRaw9open_fileEPKcx", 
+                "__stack_chk_fail_local", 
+                "_GLOBAL_OFFSET_TABLE_", 
+                "_ZN6LibRawC1Ej", 
+                "strtod", 
+                "__printf_chk", 
+                "strtol", 
+                "_ZN6LibRaw20dcraw_make_mem_imageEPi", 
+                "__fprintf_chk", 
+                "_ZN6LibRaw6unpackEv", 
+                "__gxx_personality_v0"
+            ], 
+            "rpm": "LibRaw-devel-0.18.2-1.fc26.i686.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/share/doc/LibRaw-devel/samples/bin_postprocessing_benchmark-postprocessing_benchmark.o"
+        }, 
+        "usr/share/doc/LibRaw-devel/samples/bin_half_mt-half_mt_o": {
+            "report-functions": [
+                "__snprintf_chk", 
+                "_GLOBAL_OFFSET_TABLE_", 
+                "__fprintf_chk", 
+                "libraw_dcraw_ppm_tiff_writer", 
+                "libraw_strerror", 
+                "__printf_chk", 
+                "libraw_init", 
+                "calloc", 
+                "pthread_mutex_init", 
+                "fwrite", 
+                "stderr", 
+                "pthread_join", 
+                "exit", 
+                "pthread_mutex_lock", 
+                "puts", 
+                "libraw_open_file", 
+                "libraw_dcraw_process", 
+                "libraw_close", 
+                "strtol", 
+                "libraw_unpack", 
+                "pthread_create"
+            ], 
+            "rpm": "LibRaw-devel-0.18.2-1.fc26.i686.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/share/doc/LibRaw-devel/samples/bin_half_mt-half_mt.o"
+        }, 
+        "usr/share/doc/LibRaw-devel/samples/bin_unprocessed_raw-unprocessed_raw_o": {
+            "report-functions": [
+                "fclose", 
+                "_GLOBAL_OFFSET_TABLE_", 
+                "_Unwind_Resume", 
+                "libraw_strerror", 
+                "stderr", 
+                "_ZN6LibRaw6unpackEv", 
+                "_ZN6LibRaw11cameraCountEv", 
+                "_ZN6LibRawD1Ev", 
+                "_ZN6LibRaw9open_fileEPKcx", 
+                "_ZN6LibRaw7versionEv", 
+                "time", 
+                "fopen", 
+                "__gxx_personality_v0", 
+                "fwrite", 
+                "strtol", 
+                "__sprintf_chk", 
+                "__stack_chk_fail_local", 
+                "localtime", 
+                "__snprintf_chk", 
+                "__fprintf_chk", 
+                "__printf_chk", 
+                "_ZN6LibRawC1Ej"
+            ], 
+            "rpm": "LibRaw-devel-0.18.2-1.fc26.i686.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/share/doc/LibRaw-devel/samples/bin_unprocessed_raw-unprocessed_raw.o"
+        }, 
+        "usr/share/doc/LibRaw-devel/samples/bin_raw_identify-raw-identify_o": {
+            "report-functions": [
+                "_ZN6LibRaw4fcolEii", 
+                "__snprintf_chk", 
+                "strcmp", 
+                "strlen", 
+                "_ZN6LibRawC1Ej", 
+                "_Unwind_Resume", 
+                "_ZN6LibRaw22adjust_sizes_info_onlyEv", 
+                "__gxx_personality_v0", 
+                "puts", 
+                "_ZN6LibRawD1Ev", 
+                "_ZN6LibRaw9open_fileEPKcx", 
+                "_ZN6LibRaw20unpack_function_nameEv", 
+                "_GLOBAL_OFFSET_TABLE_", 
+                "memmove", 
+                "libraw_strerror", 
+                "putchar", 
+                "isspace", 
+                "strncasecmp", 
+                "__printf_chk", 
+                "stdout", 
+                "_ZN6LibRaw7recycleEv", 
+                "__stack_chk_fail_local"
+            ], 
+            "rpm": "LibRaw-devel-0.18.2-1.fc26.i686.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/share/doc/LibRaw-devel/samples/bin_raw_identify-raw-identify.o"
+        }, 
+        "usr/share/doc/LibRaw-devel/samples/bin_simple_dcraw-simple_dcraw_o": {
+            "report-functions": [
+                "_ZN6LibRawC1Ej", 
+                "_GLOBAL_OFFSET_TABLE_", 
+                "libraw_strerror", 
+                "putenv", 
+                "exit", 
+                "__gxx_personality_v0", 
+                "_ZN6LibRaw21dcraw_ppm_tiff_writerEPKc", 
+                "_ZN6LibRaw18dcraw_thumb_writerEPKc", 
+                "__fprintf_chk", 
+                "_ZN6LibRaw12unpack_thumbEv", 
+                "stderr", 
+                "_ZN6LibRaw13dcraw_processEv", 
+                "_ZN6LibRawD1Ev", 
+                "_ZN6LibRaw7recycleEv", 
+                "puts", 
+                "_ZN6LibRaw6unpackEv", 
+                "__printf_chk", 
+                "_ZN6LibRaw7versionEv", 
+                "_ZN6LibRaw11cameraCountEv", 
+                "_ZN6LibRaw9open_fileEPKcx", 
+                "_Unwind_Resume", 
+                "_ZN6LibRaw10cameraListEv"
+            ], 
+            "rpm": "LibRaw-devel-0.18.2-1.fc26.i686.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/share/doc/LibRaw-devel/samples/bin_simple_dcraw-simple_dcraw.o"
+        }, 
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/share/doc/LibRaw-devel/samples/bin_mem_image-mem_image_o": {
+            "report-functions": [
+                "fopen", 
+                "_ZN6LibRaw9open_fileEPKcx", 
+                "__fprintf_chk", 
+                "_ZN6LibRaw20dcraw_make_mem_thumbEPi", 
+                "_ZN6LibRaw12unpack_thumbEv", 
+                "fclose", 
+                "_ZN6LibRaw6unpackEv", 
+                "_ZN6LibRawC1Ej", 
+                "__snprintf_chk", 
+                "putenv", 
+                "_Unwind_Resume", 
+                "__stack_chk_fail_local", 
+                "__gxx_personality_v0", 
+                "__printf_chk", 
+                "_ZN6LibRaw15dcraw_clear_memEP24libraw_processed_image_t", 
+                "_GLOBAL_OFFSET_TABLE_", 
+                "_ZN6LibRaw13dcraw_processEv", 
+                "_ZN6LibRawD1Ev", 
+                "_ZN6LibRaw7recycleEv", 
+                "fwrite", 
+                "libraw_strerror"
+            ], 
+            "rpm": "LibRaw-devel-0.18.2-1.fc26.i686.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/share/doc/LibRaw-devel/samples/bin_mem_image-mem_image.o"
+        }, 
+        "usr/share/doc/LibRaw-devel/samples/bin_dcraw_half-dcraw_half_o": {
+            "report-functions": [
+                "libraw_init", 
+                "fwrite", 
+                "__stack_chk_fail_local", 
+                "stderr", 
+                "__fprintf_chk", 
+                "__stpcpy_chk", 
+                "libraw_unpack", 
+                "exit", 
+                "libraw_open_file", 
+                "libraw_close", 
+                "libraw_dcraw_process", 
+                "libraw_dcraw_ppm_tiff_writer", 
+                "libraw_strerror"
+            ], 
+            "rpm": "LibRaw-devel-0.18.2-1.fc26.i686.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/share/doc/LibRaw-devel/samples/bin_dcraw_half-dcraw_half.o"
+        }, 
+        "usr/share/doc/LibRaw-devel/samples/bin_4channels-4channels_o": {
+            "report-functions": [
+                "_ZN6LibRaw9raw2imageEv", 
+                "__strcat_chk", 
+                "__snprintf_chk", 
+                "_GLOBAL_OFFSET_TABLE_", 
+                "__fprintf_chk", 
+                "stderr", 
+                "__gxx_personality_v0", 
+                "__printf_chk", 
+                "_ZN6LibRawD1Ev", 
+                "_Unwind_Resume", 
+                "strtol", 
+                "_ZN6LibRaw11cameraCountEv", 
+                "_ZN6LibRaw6unpackEv", 
+                "_ZN6LibRaw7versionEv", 
+                "_ZN6LibRaw21dcraw_ppm_tiff_writerEPKc", 
+                "_ZN6LibRaw14subtract_blackEv", 
+                "libraw_strerror", 
+                "_ZN6LibRawC1Ej"
+            ], 
+            "rpm": "LibRaw-devel-0.18.2-1.fc26.i686.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/share/doc/LibRaw-devel/samples/bin_4channels-4channels.o"
+        }, 
+        "usr/share/doc/LibRaw-devel/samples/bin_multirender_test-multirender_test_o": {
+            "report-functions": [
+                "_ZN6LibRawC1Ej", 
+                "__stack_chk_fail_local", 
+                "_ZN6LibRaw21dcraw_ppm_tiff_writerEPKc", 
+                "stderr", 
+                "__fprintf_chk", 
+                "_Unwind_Resume", 
+                "_ZN6LibRawD1Ev", 
+                "_ZN6LibRaw13dcraw_processEv", 
+                "_GLOBAL_OFFSET_TABLE_", 
+                "__gxx_personality_v0", 
+                "_ZN6LibRaw7recycleEv", 
+                "__snprintf_chk", 
+                "_ZN6LibRaw9open_fileEPKcx", 
+                "_ZN6LibRaw6unpackEv", 
+                "_ZN6LibRaw11cameraCountEv", 
+                "_ZN6LibRaw7versionEv"
+            ], 
+            "rpm": "LibRaw-devel-0.18.2-1.fc26.i686.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/share/doc/LibRaw-devel/samples/bin_multirender_test-multirender_test.o"
+        }, 
+        "usr/share/doc/LibRaw-devel/samples/bin_dcraw_emu-dcraw_emu_o": {
+            "report-functions": [
+                "__fxstat", 
+                "_ZN6LibRaw21dcraw_ppm_tiff_writerEPKc", 
+                "_Unwind_Resume", 
+                "__printf_chk", 
+                "__snprintf_chk", 
+                "strchr", 
+                "__gxx_personality_v0", 
+                "_GLOBAL_OFFSET_TABLE_", 
+                "puts", 
+                "mmap", 
+                "read", 
+                "_ZN6LibRaw7recycleEv", 
+                "strtod", 
+                "free", 
+                "_ZN6LibRawD1Ev", 
+                "omp_get_max_threads", 
+                "stderr", 
+                "_ZN6LibRaw9open_fileEPKcx", 
+                "strerror", 
+                "libraw_strprogress", 
+                "malloc", 
+                "strcmp", 
+                "_ZN6LibRawC1Ej", 
+                "strtol", 
+                "munmap", 
+                "exit", 
+                "_ZN6LibRaw6unpackEv", 
+                "_ZN6LibRaw13dcraw_processEv", 
+                "gettimeofday", 
+                "libraw_strerror", 
+                "close", 
+                "__fprintf_chk", 
+                "open", 
+                "getpagesize", 
+                "strncpy", 
+                "_ZN6LibRaw11open_bufferEPvj", 
+                "__stack_chk_fail_local"
+            ], 
+            "rpm": "LibRaw-devel-0.18.2-1.fc26.i686.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "filename": "usr/share/doc/LibRaw-devel/samples/bin_dcraw_emu-dcraw_emu.o"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " LibRaw-devel", 
+            "License": " GPLv3+", 
+            "URL": " http://www.libraw.org", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-07.phx2.fedoraproject.org", 
+            "Description": "\nLibRaw development libraries.\n\nThis package contains libraries that applications can use to build\nagainst LibRaw.\n", 
+            "Build Date": " Thu 09 Mar 2017 09:11:30 AM EST", 
+            "Source RPM": " LibRaw-0.18.2-1.fc26.src.rpm", 
+            "Version": " 0.18.2", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 10 Mar 2017 08:48:00 AM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 1.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " LibRaw development libraries", 
+            "Size": " 807372"
+        }
+    }
+}

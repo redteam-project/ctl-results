@@ -1,0 +1,93 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/libeegdev_so_0_0_2": {
+            "report-functions": [
+                "open", 
+                "__cxa_atexit", 
+                "ferror", 
+                "pthread_mutex_destroy", 
+                "__errno_location", 
+                "getenv", 
+                "_ITM_registerTMCloneTable", 
+                "ungetc", 
+                "setlocale", 
+                "strcpy", 
+                "fread", 
+                "pthread_once", 
+                "fopen", 
+                "pthread_mutexattr_settype", 
+                "exit", 
+                "abort", 
+                "strlen", 
+                "pthread_mutexattr_destroy", 
+                "memmove", 
+                "pthread_cond_signal", 
+                "dlsym", 
+                "_IO_getc", 
+                "mbrtowc", 
+                "strcmp", 
+                "pthread_mutex_unlock", 
+                "clearerr", 
+                "__uflow", 
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "pthread_cond_wait", 
+                "_ITM_deregisterTMCloneTable", 
+                "__stack_chk_fail", 
+                "pthread_mutex_init", 
+                "pthread_mutexattr_init", 
+                "close", 
+                "fscanf", 
+                "dlopen", 
+                "__sprintf_chk", 
+                "calloc", 
+                "__assert_fail", 
+                "nl_langinfo", 
+                "free", 
+                "realloc", 
+                "__fprintf_chk", 
+                "pthread_mutex_lock", 
+                "fdopen", 
+                "fclose", 
+                "__snprintf_chk", 
+                "pthread_cond_init", 
+                "fwrite", 
+                "malloc"
+            ], 
+            "rpm": "eegdev-0.2-3.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libeegdev.so.0.0.2"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " eegdev", 
+            "License": " LGPLv3+", 
+            "URL": " http://cnbi.epfl.ch/software/eegdev.html", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-03.phx2.fedoraproject.org", 
+            "Description": "\neegdev is a library that provides a unified interface for accessing various EEG\n(and other biosignals) acquisition systems. This interface has been designed to\nbe both flexible and efficient. The device specific part is implemented by the\nmean of plugins which makes adding new device backend fairly easy even if the\nlibrary does not support them yet officially.\n\nThe core library not only provides to users a unified and consistent interfaces\nto the acquisition device but it also provides many functionalities to the\ndevice backends (plugins) ranging from configuration to data casting and scaling\nmaking writing new device backend an easy task.\n", 
+            "Build Date": " Fri 10 Feb 2017 09:55:55 AM EST", 
+            "Source RPM": " eegdev-0.2-3.fc26.src.rpm", 
+            "Version": " 0.2", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 10 Feb 2017 05:20:39 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 3.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Library to acquire data from various EEG recording devices", 
+            "Size": " 66135"
+        }
+    }
+}

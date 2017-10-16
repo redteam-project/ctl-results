@@ -1,0 +1,74 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/libadevs_so_2_8": {
+            "report-functions": [
+                "__gxx_personality_v0", 
+                "_ZNSt8ios_base4InitD1Ev", 
+                "sqrt", 
+                "strlen", 
+                "__cxa_finalize", 
+                "floor", 
+                "__cxa_atexit", 
+                "__cxa_throw", 
+                "_Unwind_Resume", 
+                "tan", 
+                "__cxa_free_exception", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERjj", 
+                "__cxa_allocate_exception", 
+                "_Znwj", 
+                "_ZNSt9exceptionD2Ev", 
+                "_ZNSt8ios_base4InitC1Ev", 
+                "_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_i", 
+                "_ZdlPv", 
+                "_ZSt19__throw_logic_errorPKc", 
+                "log", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable", 
+                "_ZdlPvj", 
+                "_ZdaPv", 
+                "_Znaj", 
+                "pow", 
+                "_ZNSo9_M_insertImEERSoT_", 
+                "__gmon_start__", 
+                "rand_r", 
+                "cos", 
+                "__stack_chk_fail", 
+                "__cxa_throw_bad_array_new_length"
+            ], 
+            "rpm": "adevs-2.8.1-8.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libadevs.so.2.8"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " adevs", 
+            "License": " LGPLv2+", 
+            "URL": " http://www.ornl.gov/~1qn/adevs/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-03.phx2.fedoraproject.org", 
+            "Description": "\nAdevs (A Discrete EVent System simulator) is a C++ library for constructing\ndiscrete event simulations based on the Parallel DEVS and Dynamic DEVS\n(dynDEVS) formalisms. DEVS has been applied to the study of social systems,\necological systems, computer networks and computer architecture, military\nsystems at the tactical and theater levels, and in many other areas\n", 
+            "Build Date": " Mon 15 May 2017 06:04:00 PM EDT", 
+            "Source RPM": " adevs-2.8.1-8.fc26.src.rpm", 
+            "Version": " 2.8.1", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 22 May 2017 04:42:48 PM EDT, Key ID 812a6b4b64dab85d", 
+            "Release": " 8.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " C++ library for constructing discrete event simulation", 
+            "Size": " 32250"
+        }
+    }
+}

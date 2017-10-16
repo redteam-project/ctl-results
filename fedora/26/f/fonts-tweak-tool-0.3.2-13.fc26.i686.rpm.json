@@ -1,0 +1,47 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/libfontstweak-resources_so_0_0_0": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "g_static_resource_fini", 
+                "g_static_resource_init", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "fonts-tweak-tool-0.3.2-13.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libfontstweak-resources.so.0.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " fonts-tweak-tool", 
+            "License": " LGPLv3+", 
+            "URL": " https://bitbucket.org/tagoh/fonts-tweak-tool/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-11.phx2.fedoraproject.org", 
+            "Description": "\nfonts-tweak-tool is a GUI tool for customizing fonts per language on desktops\nusing fontconfig.\n", 
+            "Build Date": " Fri 10 Feb 2017 11:05:57 AM EST", 
+            "Source RPM": " fonts-tweak-tool-0.3.2-13.fc26.src.rpm", 
+            "Version": " 0.3.2", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 10 Feb 2017 08:07:58 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 13.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Tool for customizing fonts per language", 
+            "Size": " 263953"
+        }
+    }
+}

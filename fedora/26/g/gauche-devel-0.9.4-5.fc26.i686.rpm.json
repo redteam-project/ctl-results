@@ -1,0 +1,58 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/bin/gauche-config": {
+            "report-functions": [
+                "free", 
+                "puts", 
+                "fclose", 
+                "__libc_start_main", 
+                "strcmp", 
+                "malloc", 
+                "__ctype_b_loc", 
+                "__gmon_start__", 
+                "fopen", 
+                "fwrite", 
+                "__errno_location", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize", 
+                "strerror", 
+                "exit", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "gauche-devel-0.9.4-5.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/gauche-config"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Languages", 
+            "Name": " gauche-devel", 
+            "License": " BSD", 
+            "URL": " http://practical-scheme.net/gauche/index.html", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-05.phx2.fedoraproject.org", 
+            "Description": "\nDevelopment files for Gauche.\n", 
+            "Build Date": " Fri 10 Feb 2017 11:33:59 AM EST", 
+            "Source RPM": " gauche-0.9.4-5.fc26.src.rpm", 
+            "Version": " 0.9.4", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 13 Feb 2017 09:17:17 AM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 5.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Development files for Gauche", 
+            "Size": " 649391"
+        }
+    }
+}

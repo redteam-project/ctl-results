@@ -1,0 +1,86 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/bin/allegro-makedoc": {
+            "report-functions": [
+                "strlen", 
+                "strcat", 
+                "strcpy", 
+                "fwrite", 
+                "fputc", 
+                "fread", 
+                "__cxa_finalize", 
+                "malloc", 
+                "fopen", 
+                "__printf_chk", 
+                "puts", 
+                "strstr", 
+                "fclose", 
+                "qsort", 
+                "rename", 
+                "__gmon_start__", 
+                "__sprintf_chk", 
+                "_ITM_registerTMCloneTable", 
+                "__strcat_chk", 
+                "__libc_start_main", 
+                "strtok", 
+                "_ITM_deregisterTMCloneTable", 
+                "fseek", 
+                "strncpy", 
+                "remove", 
+                "fputs", 
+                "stpcpy", 
+                "__fprintf_chk", 
+                "strcmp", 
+                "__vsprintf_chk", 
+                "feof", 
+                "strpbrk", 
+                "__strcpy_chk", 
+                "memmove", 
+                "_IO_putc", 
+                "__stack_chk_fail", 
+                "realloc", 
+                "__strncpy_chk", 
+                "strchr", 
+                "free", 
+                "strncmp", 
+                "_IO_getc", 
+                "__ctype_toupper_loc", 
+                "ftell"
+            ], 
+            "rpm": "allegro-devel-4.4.2-15.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/allegro-makedoc"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " allegro-devel", 
+            "License": " Giftware", 
+            "URL": " http://alleg.sourceforge.net/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-10.phx2.fedoraproject.org", 
+            "Description": "\nAllegro is a cross-platform library intended for use in computer games\nand other types of multimedia programming. This package is needed to\nbuild programs written with Allegro.\n", 
+            "Build Date": " Fri 10 Feb 2017 12:57:54 AM EST", 
+            "Source RPM": " allegro-4.4.2-15.fc26.src.rpm", 
+            "Version": " 4.4.2", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 13 Feb 2017 02:24:45 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 15.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A game programming library", 
+            "Size": " 4191234"
+        }
+    }
+}

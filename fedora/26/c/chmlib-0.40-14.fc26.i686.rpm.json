@@ -1,0 +1,213 @@
+{
+    "results": {
+        "usr/bin/enumdir_chmLib": {
+            "report-functions": [
+                "__strcat_chk", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "puts", 
+                "__printf_chk", 
+                "exit", 
+                "__fprintf_chk", 
+                "__libc_start_main", 
+                "chm_close", 
+                "chm_enumerate_dir"
+            ], 
+            "rpm": "chmlib-0.40-14.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/enumdir_chmLib"
+        }, 
+        "usr/lib/libchm_so_0_0_0": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable", 
+                "free", 
+                "strcasecmp", 
+                "malloc", 
+                "pread64", 
+                "pthread_mutex_unlock", 
+                "open", 
+                "strlen", 
+                "pthread_mutex_init", 
+                "pthread_mutex_lock", 
+                "pthread_mutex_destroy", 
+                "__stack_chk_fail", 
+                "strncpy", 
+                "strncasecmp", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "chmlib-0.40-14.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libchm.so.0.0.0"
+        }, 
+        "usr/bin/test_chmLib": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "__cxa_finalize", 
+                "fopen", 
+                "__libc_start_main", 
+                "__printf_chk", 
+                "__gmon_start__", 
+                "fclose", 
+                "chm_resolve_object", 
+                "__fprintf_chk", 
+                "__stack_chk_fail", 
+                "puts", 
+                "chm_retrieve_object", 
+                "_ITM_deregisterTMCloneTable", 
+                "chm_open"
+            ], 
+            "rpm": "chmlib-0.40-14.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/test_chmLib"
+        }, 
+        "usr/bin/extract_chmLib": {
+            "report-functions": [
+                "chm_close", 
+                "chm_enumerate", 
+                "__snprintf_chk", 
+                "exit", 
+                "_ITM_registerTMCloneTable", 
+                "chm_open", 
+                "fopen", 
+                "mkdir", 
+                "puts", 
+                "__gmon_start__", 
+                "chm_retrieve_object", 
+                "__printf_chk", 
+                "fclose", 
+                "__libc_start_main", 
+                "fwrite", 
+                "strstr", 
+                "__stack_chk_fail", 
+                "__xstat", 
+                "strlen", 
+                "__cxa_finalize", 
+                "strrchr", 
+                "__strcpy_chk"
+            ], 
+            "rpm": "chmlib-0.40-14.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/extract_chmLib"
+        }, 
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/bin/chm_http": {
+            "report-functions": [
+                "accept", 
+                "bind", 
+                "malloc", 
+                "__fprintf_chk", 
+                "strtol", 
+                "pthread_create", 
+                "_ITM_registerTMCloneTable", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize", 
+                "fdopen", 
+                "free", 
+                "getopt_long", 
+                "fgets", 
+                "fwrite", 
+                "strncpy", 
+                "close", 
+                "chm_open", 
+                "__libc_start_main", 
+                "inet_addr", 
+                "perror", 
+                "setsockopt", 
+                "chm_resolve_object", 
+                "__stack_chk_fail", 
+                "listen", 
+                "chm_retrieve_object", 
+                "strcasecmp", 
+                "write", 
+                "strrchr", 
+                "fclose", 
+                "__gmon_start__", 
+                "chm_enumerate", 
+                "pthread_detach"
+            ], 
+            "rpm": "chmlib-0.40-14.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/chm_http"
+        }, 
+        "usr/bin/enum_chmLib": {
+            "report-functions": [
+                "chm_close", 
+                "exit", 
+                "__printf_chk", 
+                "puts", 
+                "_ITM_registerTMCloneTable", 
+                "chm_enumerate", 
+                "chm_open", 
+                "__fprintf_chk", 
+                "__strcat_chk", 
+                "__cxa_finalize", 
+                "__gmon_start__"
+            ], 
+            "rpm": "chmlib-0.40-14.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/enum_chmLib"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " chmlib", 
+            "License": " LGPLv2+", 
+            "URL": " http://www.jedrea.com/chmlib/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-09.phx2.fedoraproject.org", 
+            "Description": "\nCHMLIB is a library for dealing with ITSS/CHM format files. Right now, it is\na very simple library, but sufficient for dealing with all of the .chm files\nI've come across. Due to the fairly well-designed indexing built into this\nparticular file format, even a small library is able to gain reasonably good\nperformance indexing into ITSS archives.\n", 
+            "Build Date": " Fri 10 Feb 2017 08:24:49 AM EST", 
+            "Source RPM": " chmlib-0.40-14.fc26.src.rpm", 
+            "Version": " 0.40", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 10 Feb 2017 10:16:25 AM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 14.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Library for dealing with ITSS/CHM format files", 
+            "Size": " 169363"
+        }
+    }
+}

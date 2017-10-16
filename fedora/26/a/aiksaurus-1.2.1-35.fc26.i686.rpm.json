@@ -1,0 +1,153 @@
+{
+    "results": {
+        "usr/bin/caiksaurus": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "Aiksaurus_find", 
+                "Aiksaurus_word", 
+                "Aiksaurus_error", 
+                "exit", 
+                "strcmp", 
+                "Aiksaurus_next", 
+                "_ITM_registerTMCloneTable", 
+                "puts", 
+                "__gmon_start__", 
+                "Aiksaurus_init", 
+                "_ITM_deregisterTMCloneTable", 
+                "putchar", 
+                "malloc", 
+                "__libc_start_main", 
+                "Aiksaurus_similar", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "aiksaurus-1.2.1-35.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/caiksaurus"
+        }, 
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/bin/aiksaurus": {
+            "report-functions": [
+                "_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc", 
+                "__cxa_atexit", 
+                "_ZNK13AiksaurusImpl9Aiksaurus4wordEv", 
+                "__gmon_start__", 
+                "_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_", 
+                "_ZN13AiksaurusImpl9Aiksaurus4findEPKc", 
+                "_ZN13AiksaurusImpl9AiksaurusD1Ev", 
+                "__libc_start_main", 
+                "_ZN13AiksaurusImpl12AsciiCompareEPKcS1_", 
+                "_ZdlPv", 
+                "_ZN13AiksaurusImpl9AiksaurusC1Ev", 
+                "_ZNSt8ios_base4InitC1Ev", 
+                "_ZNSt8ios_base4InitD1Ev", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7compareEPKc", 
+                "strlen", 
+                "exit", 
+                "_ZNK13AiksaurusImpl9Aiksaurus5errorEv", 
+                "__cxa_finalize", 
+                "_ZN13AiksaurusImpl9Aiksaurus7similarEv", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERjj", 
+                "_ZSt19__throw_logic_errorPKc", 
+                "_ZN13AiksaurusImpl9Aiksaurus4nextERi", 
+                "__stack_chk_fail", 
+                "__gxx_personality_v0", 
+                "_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_i"
+            ], 
+            "rpm": "aiksaurus-1.2.1-35.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/aiksaurus"
+        }, 
+        "usr/lib/libAiksaurus-1_2_so_0_0_1": {
+            "report-functions": [
+                "fread", 
+                "tolower", 
+                "__cxa_allocate_exception", 
+                "_ZSt19__throw_logic_errorPKc", 
+                "__cxa_atexit", 
+                "fgetc", 
+                "feof", 
+                "__gmon_start__", 
+                "memmove", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_appendEPKcj", 
+                "__cxa_call_unexpected", 
+                "ferror", 
+                "__cxa_rethrow", 
+                "_ZdaPv", 
+                "__cxa_throw", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ZdlPv", 
+                "__cxa_begin_catch", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6assignEPKc", 
+                "_ZNSt8ios_base4InitC1Ev", 
+                "_Znaj", 
+                "__stack_chk_fail", 
+                "_ITM_registerTMCloneTable", 
+                "_ZnwjRKSt9nothrow_t", 
+                "fopen", 
+                "fseek", 
+                "_ZSt17__throw_bad_allocv", 
+                "__assert_fail", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_replaceEjjPKcj", 
+                "_ZdlPvj", 
+                "_ZNSt8ios_base4InitD1Ev", 
+                "_ZSt20__throw_length_errorPKc", 
+                "_Unwind_Resume", 
+                "__gxx_personality_v0", 
+                "strlen", 
+                "fclose", 
+                "_Znwj", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERjj", 
+                "__cxa_end_catch", 
+                "_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7compareEPKc", 
+                "_ZNSt9bad_allocD1Ev"
+            ], 
+            "rpm": "aiksaurus-1.2.1-35.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libAiksaurus-1.2.so.0.0.1"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " aiksaurus", 
+            "License": " GPLv2+", 
+            "URL": " http://aiksaurus.sourceforge.net/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-25.phx2.fedoraproject.org", 
+            "Source RPM": " aiksaurus-1.2.1-35.fc26.src.rpm", 
+            "Description": "\nAiksaurus is an English-language thesaurus library that can be\nembedded in word processors, email composers, and other authoring\nsoftware to provide thesaurus capabilities.  A basic command line\nthesaurus program is also included.\n", 
+            "Build Date": " Fri 10 Feb 2017 12:54:03 AM EST", 
+            "Epoch": " 1", 
+            "Version": " 1.2.1", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 13 Feb 2017 03:02:31 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 35.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " An English-language thesaurus library", 
+            "Size": " 602018"
+        }
+    }
+}

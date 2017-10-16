@@ -1,0 +1,42 @@
+{
+    "results": {
+        "sbin/busybox_petitboot": {
+            "report-functions": [], 
+            "rpm": "busybox-petitboot-1.22.1-6.fc26.x86_64.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "sbin/busybox.petitboot"
+        }, 
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Shells", 
+            "Name": " busybox-petitboot", 
+            "License": " GPLv2", 
+            "URL": " http://www.busybox.net", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-16.phx2.fedoraproject.org", 
+            "Source RPM": " busybox-1.22.1-6.fc26.src.rpm", 
+            "Description": "\nBusybox is a single binary which includes versions of a large number\nof system commands, including a shell.  The version contained in this\npackage is a minimal configuration intended for use with the Petitboot\nbootloader used on PlayStation 3. The busybox package provides a binary\nbetter suited to normal use.\n", 
+            "Build Date": " Fri 10 Feb 2017 02:25:43 AM EST", 
+            "Epoch": " 1", 
+            "Version": " 1.22.1", 
+            "Architecture": " x86_64", 
+            "Signature": " RSA/SHA256, Mon 13 Feb 2017 01:30:10 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 6.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Version of busybox configured for use with petitboot", 
+            "Size": " 522843"
+        }
+    }
+}

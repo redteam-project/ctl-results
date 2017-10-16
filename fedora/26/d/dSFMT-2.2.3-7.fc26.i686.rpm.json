@@ -1,0 +1,47 @@
+{
+    "results": {
+        "usr/lib/libdSFMT_so_2_2_3": {
+            "report-functions": [
+                "__assert_fail", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "exit"
+            ], 
+            "rpm": "dSFMT-2.2.3-7.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libdSFMT.so.2.2.3"
+        }, 
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " dSFMT", 
+            "License": " BSD", 
+            "URL": " http://www.math.sci.hiroshima-u.ac.jp/~%20m-mat/MT/SFMT/index.html", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-08.phx2.fedoraproject.org", 
+            "Description": "\nThe purpose of dSFMT is to speed up the generation by avoiding\nthe expensive conversion of integer to double (floating point).\ndSFMT directly generates double precision floating point\npseudo-random numbers which have the IEEE Standard for Binary\nFloating-Point Arithmetic (ANSI/IEEE Std 754-1985) format.\n\ndSFMT is only available on the CPUs which use IEEE 754 format\ndouble precision floating point numbers.\n\ndSFMT doesn't support integer outputs.\ndSFMT supports the output of double precision floating point\npseudo-random numbers which distribute in the range of\n[1, 2), [0, 1), (0, 1] and (0, 1).\nAnd it also supports the various periods form 2607-1 to 2132049-1.\n", 
+            "Build Date": " Fri 10 Feb 2017 09:48:22 AM EST", 
+            "Source RPM": " dSFMT-2.2.3-7.fc26.src.rpm", 
+            "Version": " 2.2.3", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 10 Feb 2017 05:01:20 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 7.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Double precision SIMD-oriented Fast Mersenne Twister", 
+            "Size": " 30527"
+        }
+    }
+}

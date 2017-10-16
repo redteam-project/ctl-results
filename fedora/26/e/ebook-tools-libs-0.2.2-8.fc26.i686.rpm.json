@@ -1,0 +1,88 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/libepub_so_0_2_1": {
+            "report-functions": [
+                "xmlTextReaderReadString", 
+                "strcmp", 
+                "xmlStrcasecmp", 
+                "zip_fclose", 
+                "zip_fopen_index", 
+                "xmlTextReaderConstName", 
+                "xmlTextReaderLookupNamespace", 
+                "zip_name_locate", 
+                "zip_fread", 
+                "strrchr", 
+                "__vsnprintf_chk", 
+                "xmlReaderForMemory", 
+                "__printf_chk", 
+                "__errno_location", 
+                "free", 
+                "strncpy", 
+                "zip_open", 
+                "xmlStrPrintf", 
+                "zip_stat", 
+                "strtol", 
+                "xmlTextReaderGetAttributeNs", 
+                "strlen", 
+                "putchar", 
+                "zip_close", 
+                "xmlCheckVersion", 
+                "__gmon_start__", 
+                "puts", 
+                "xmlTextReaderGetAttribute", 
+                "xmlStrcmp", 
+                "zip_strerror", 
+                "__strncpy_chk", 
+                "__strdup", 
+                "xmlTextReaderRead", 
+                "zip_stat_init", 
+                "__fprintf_chk", 
+                "fwrite", 
+                "xmlStrdup", 
+                "zip_error_to_str", 
+                "xmlFreeTextReader", 
+                "_ITM_registerTMCloneTable", 
+                "__cxa_finalize", 
+                "calloc", 
+                "malloc", 
+                "xmlTextReaderNodeType", 
+                "xmlTextReaderConstLocalName", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "ebook-tools-libs-0.2.2-8.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libepub.so.0.2.1"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " ebook-tools-libs", 
+            "License": " MIT", 
+            "URL": " http://sourceforge.net/projects/ebook-tools/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-04.phx2.fedoraproject.org", 
+            "Description": "\nThe ebook-tools-libs package contains libraries to be used by\nebook-tools and others.\n", 
+            "Build Date": " Tue 28 Feb 2017 09:55:33 AM EST", 
+            "Source RPM": " ebook-tools-0.2.2-8.fc26.src.rpm", 
+            "Version": " 0.2.2", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 28 Feb 2017 11:03:11 AM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 8.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Libraries for ebook-tools", 
+            "Size": " 53480"
+        }
+    }
+}

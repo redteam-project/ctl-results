@@ -1,0 +1,49 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/lib/libmpfit_so_0_0_0": {
+            "report-functions": [
+                "__gmon_start__", 
+                "malloc", 
+                "__printf_chk", 
+                "_ITM_registerTMCloneTable", 
+                "free", 
+                "__cxa_finalize", 
+                "sqrt"
+            ], 
+            "rpm": "cmpfit-1.2-8.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libmpfit.so.0.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " cmpfit", 
+            "License": " BSD", 
+            "URL": " http://cow.physics.wisc.edu/~craigm/idl/cmpfit.html", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-26.phx2.fedoraproject.org", 
+            "Description": "\nCMPFIT uses the Levenberg-Marquardt technique to solve the least-squares\nproblem. In its typical use, CMPFIT will be used to fit a user-supplied\nfunction (the \"model\") to user-supplied data points (the \"data\") by adjusting\na set of parameters. CMPFIT is based upon MINPACK-1 (LMDIF.F) by More' and\ncollaborators.\n", 
+            "Build Date": " Fri 10 Feb 2017 08:42:39 AM EST", 
+            "Source RPM": " cmpfit-1.2-8.fc26.src.rpm", 
+            "Version": " 1.2", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 10 Feb 2017 10:58:27 AM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 8.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A MINPACK-1 Least Squares Fitting Library in C", 
+            "Size": " 53241"
+        }
+    }
+}
