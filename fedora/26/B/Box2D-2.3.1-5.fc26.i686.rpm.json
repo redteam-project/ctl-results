@@ -1,0 +1,63 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": {
+                "afCc": null, 
+                "afC": null
+            }
+        }, 
+        "usr/lib/libBox2D_so_2_3_0": {
+            "report-functions": [
+                "sincosf", 
+                "_Unwind_Resume", 
+                "__gxx_personality_v0", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_atexit", 
+                "expf", 
+                "__assert_fail", 
+                "__cxa_finalize", 
+                "memmove", 
+                "gettimeofday", 
+                "free", 
+                "_ITM_registerTMCloneTable", 
+                "malloc", 
+                "_ZdlPvj", 
+                "__stack_chk_fail", 
+                "sqrtf", 
+                "__vfprintf_chk", 
+                "atan2f"
+            ], 
+            "rpm": "Box2D-2.3.1-5.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libBox2D.so.2.3.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " Box2D", 
+            "License": " zlib", 
+            "URL": " http://box2d.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-19.phx2.fedoraproject.org", 
+            "Description": "\nBox2D is an open source C++ engine for simulating rigid bodies in 2D.\nBox2D is developed by Erin Catto and has the zlib license.\nWhile the zlib license does not require acknowledgement,\nwe encourage you to give credit to Box2D in your product.\n", 
+            "Build Date": " Fri 10 Feb 2017 12:04:35 AM EST", 
+            "Source RPM": " Box2D-2.3.1-5.fc26.src.rpm", 
+            "Version": " 2.3.1", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 13 Feb 2017 04:34:35 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 5.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A 2D Physics Engine for Games", 
+            "Size": " 233096"
+        }
+    }
+}

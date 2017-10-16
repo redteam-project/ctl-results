@@ -1,0 +1,58 @@
+{
+    "results": {
+        "usr/lib/libCQRlib_so_2_1_0": {
+            "report-functions": [
+                "malloc", 
+                "sqrt", 
+                "log", 
+                "__stack_chk_fail", 
+                "sincos", 
+                "free", 
+                "__cxa_finalize", 
+                "asin", 
+                "cos", 
+                "sin", 
+                "_ITM_registerTMCloneTable", 
+                "atan2", 
+                "__gmon_start__"
+            ], 
+            "rpm": "CQRlib-1.1.2-11.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libCQRlib.so.2.1.0"
+        }, 
+        "complexity": {
+            "r2 aa": {
+                "afCc": null, 
+                "afC": null
+            }
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " CQRlib", 
+            "License": " LGPLv2+", 
+            "URL": " http://cqrlib.sourceforge.net/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-30.phx2.fedoraproject.org", 
+            "Description": "\nCQRlib is an ANSI C implementation of a utility library for quaternion\narithmetic and quaternion rotation math.\n", 
+            "Build Date": " Fri 10 Feb 2017 12:08:36 AM EST", 
+            "Source RPM": " CQRlib-1.1.2-11.fc26.src.rpm", 
+            "Version": " 1.1.2", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 13 Feb 2017 04:31:31 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 11.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " ANSI C API for quaternion arithmetic and rotation", 
+            "Size": " 106210"
+        }
+    }
+}

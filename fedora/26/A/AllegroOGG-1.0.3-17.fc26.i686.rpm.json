@@ -1,0 +1,73 @@
+{
+    "results": {
+        "complexity": {
+            "r2 aa": {
+                "afCc": null, 
+                "afC": null
+            }
+        }, 
+        "usr/lib/libAllegroOGG_so_0": {
+            "report-functions": [
+                "ov_raw_seek", 
+                "ov_time_total", 
+                "__cxa_finalize", 
+                "ov_open", 
+                "destroy_sample", 
+                "_ITM_registerTMCloneTable", 
+                "malloc", 
+                "ov_raw_tell", 
+                "ov_info", 
+                "install_param_int", 
+                "free", 
+                "free_audio_stream_buffer", 
+                "fseek", 
+                "stop_audio_stream", 
+                "get_audio_stream_buffer", 
+                "_ITM_deregisterTMCloneTable", 
+                "play_audio_stream", 
+                "ftell", 
+                "create_sample", 
+                "ov_open_callbacks", 
+                "ov_raw_total", 
+                "ov_time_seek", 
+                "ov_pcm_total", 
+                "ov_clear", 
+                "remove_param_int", 
+                "adjust_sample", 
+                "ov_time_tell", 
+                "ov_read"
+            ], 
+            "rpm": "AllegroOGG-1.0.3-17.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libAllegroOGG.so.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " AllegroOGG", 
+            "License": " BSD", 
+            "URL": " http://www.allegro.cc/resource/Libraries/Audio/alogg", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-16.phx2.fedoraproject.org", 
+            "Description": "\nAllegroOGG is an Allegro wrapper for the Ogg Vorbis decoder from the Xiph.org\nfoundation. This lib lets you play OGGs and convert OGGs to Allegro SAMPLEs\namongst a lot of other capabilites.\n", 
+            "Build Date": " Fri 10 Feb 2017 12:02:52 AM EST", 
+            "Source RPM": " AllegroOGG-1.0.3-17.fc26.src.rpm", 
+            "Version": " 1.0.3", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 13 Feb 2017 05:24:40 PM EST, Key ID 812a6b4b64dab85d", 
+            "Release": " 17.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Ogg library for use with the Allegro game library", 
+            "Size": " 39768"
+        }
+    }
+}
