@@ -1,0 +1,99 @@
+{
+    "results": {
+        "complexity": {
+            "r2aa": {
+                "afCc": null, 
+                "afC": null
+            }
+        }, 
+        "usr/lib/libdsdp_so_5_8": {
+            "report-functions": [
+                "dsymv_", 
+                "exit", 
+                "dsyevr_", 
+                "fopen", 
+                "fwrite", 
+                "dtrmv_", 
+                "__sprintf_chk", 
+                "dspevx_", 
+                "ddot_", 
+                "_ITM_registerTMCloneTable", 
+                "strtod", 
+                "__strcat_chk", 
+                "strncpy", 
+                "fputc", 
+                "dpptri_", 
+                "fclose", 
+                "gettimeofday", 
+                "__gmon_start__", 
+                "dspmv_", 
+                "log", 
+                "fputs", 
+                "dasum_", 
+                "malloc", 
+                "dpptrf_", 
+                "__vsprintf_chk", 
+                "__isoc99_sscanf", 
+                "dsyevx_", 
+                "dstev_", 
+                "__printf_chk", 
+                "dtpsv_", 
+                "dstevr_", 
+                "dsyr_", 
+                "__stack_chk_fail", 
+                "sqrt", 
+                "__fprintf_chk", 
+                "dtrsv_", 
+                "fflush", 
+                "dpotrf_", 
+                "fgets", 
+                "calloc", 
+                "putchar", 
+                "_ITM_deregisterTMCloneTable", 
+                "dscal_", 
+                "dspr_", 
+                "dgemv_", 
+                "feof", 
+                "free", 
+                "dnrm2_", 
+                "qsort", 
+                "puts", 
+                "dsyev_", 
+                "dpotri_", 
+                "daxpy_", 
+                "dpptrs_"
+            ], 
+            "rpm": "DSDP-5.8-17.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libdsdp.so.5.8"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " DSDP", 
+            "License": " DSDP", 
+            "URL": " http://www.mcs.anl.gov/software/applied-mathematics-software", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-30.phx2.fedoraproject.org", 
+            "Description": "\nDSDP is a free open source implementation of an interior-point method\nfor semidefinite programming.  It provides primal and dual solutions,\nexploits low-rank structure and sparsity in the data, and has relatively\nlow memory requirements for an interior-point method.  It allows\nfeasible and infeasible starting points and provides approximate\ncertificates of infeasibility when no feasible solution exists.  The\ndual-scaling algorithm implemented in this package has a convergence\nproof and worst-case polynomial complexity under mild assumptions on the\ndata.  The software can be used as a set of subroutines, through Matlab,\nor by reading and writing to data files.  Furthermore, the solver offers\nscalable parallel performance for large problems and a well documented\ninterface.  Some of the most popular applications of semidefinite\nprogramming and linear matrix inequalities (LMI) are model control,\ntruss topology design, and semidefinite relaxations of combinatorial and\nglobal optimization problems.\n", 
+            "Build Date": " Wed 02 Aug 2017 01:00:00 PM EDT", 
+            "Source RPM": " DSDP-5.8-17.fc27.src.rpm", 
+            "Version": " 5.8", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 05 Aug 2017 02:45:01 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 17.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Software for semidefinite programming", 
+            "Size": " 1017032"
+        }
+    }
+}

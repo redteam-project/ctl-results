@@ -3,7 +3,7 @@ Results of Cyber Test Lab analysis
 
 ## Caveat hackor
 
-I'm beginning to push some preliminary results for [Fedora 26](https://github.com/fedoraredteam/ctl-results/tree/master/fedora/26). The [CTL](https://github.com/fedoraredteam/cyber-test-lab) code is still very alpha. Translation: this data sucks.
+I'm beginning to push some preliminary results for [Fedora 27](https://github.com/fedoraredteam/ctl-results/tree/master/fedora/27). The [CTL](https://github.com/fedoraredteam/cyber-test-lab) code is still very alpha. Translation: this data sucks.
 
 We're still working on this, so check back for updates.
 

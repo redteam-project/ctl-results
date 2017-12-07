@@ -1,0 +1,57 @@
+{
+    "results": {
+        "complexity": {
+            "r2aa": {
+                "afCc": 41, 
+                "afC": 527
+            }
+        }, 
+        "usr/bin/clisp": {
+            "report-functions": [
+                "strcpy", 
+                "__libc_start_main", 
+                "__fprintf_chk", 
+                "__realpath_chk", 
+                "perror", 
+                "strlen", 
+                "__gmon_start__", 
+                "__errno_location", 
+                "access", 
+                "free", 
+                "malloc", 
+                "getenv"
+            ], 
+            "rpm": "clisp-2.49-22.20170224hg.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/clisp"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " clisp", 
+            "License": " GPLv2", 
+            "URL": " http://www.clisp.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-02.phx2.fedoraproject.org", 
+            "Description": "\nANSI Common Lisp is a high-level, general-purpose programming\nlanguage.  GNU CLISP is a Common Lisp implementation by Bruno Haible\nof Karlsruhe University and Michael Stoll of Munich University, both\nin Germany.  It mostly supports the Lisp described in the ANSI Common\nLisp standard.  It runs on most Unix workstations (GNU/Linux, FreeBSD,\nNetBSD, OpenBSD, Solaris, Tru64, HP-UX, BeOS, NeXTstep, IRIX, AIX and\nothers) and on other systems (Windows NT/2000/XP, Windows 95/98/ME)\nand needs only 4 MiB of RAM.\n\nIt is Free Software and may be distributed under the terms of GNU GPL,\nwhile it is possible to distribute commercial proprietary applications\ncompiled with GNU CLISP.\n\nThe user interface comes in English, German, French, Spanish, Dutch,\nRussian and Danish, and can be changed at run time.  GNU CLISP\nincludes an interpreter, a compiler, a debugger, CLOS, MOP, a foreign\nlanguage interface, sockets, i18n, fast bignums and more.  An X11\ninterface is available through CLX, Garnet, CLUE/CLIO.  GNU CLISP runs\nMaxima, ACL2 and many other Common Lisp packages.\n", 
+            "Build Date": " Fri 24 Feb 2017 06:12:58 PM EST", 
+            "Source RPM": " clisp-2.49-22.20170224hg.fc26.src.rpm", 
+            "Version": " 2.49", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sun 26 Feb 2017 07:38:28 PM EST, Key ID f55e7430f5282ee4", 
+            "Release": " 22.20170224hg.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " ANSI Common Lisp implementation", 
+            "Size": " 25791973"
+        }
+    }
+}

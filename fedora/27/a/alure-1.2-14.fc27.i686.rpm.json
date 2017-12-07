@@ -1,0 +1,135 @@
+{
+    "results": {
+        "usr/bin/alurecdplay": {
+            "report-functions": [
+                "alureSleep", 
+                "__libc_start_main", 
+                "alureInitDevice", 
+                "alureDestroyStream", 
+                "__cxa_finalize", 
+                "alDeleteSources", 
+                "strtol", 
+                "__fprintf_chk", 
+                "fwrite", 
+                "alurePlaySourceStream", 
+                "alureShutdownDevice", 
+                "alGenSources", 
+                "__stack_chk_fail", 
+                "malloc", 
+                "open64", 
+                "_ITM_registerTMCloneTable", 
+                "alureGetErrorString", 
+                "alureStopSource", 
+                "_ITM_deregisterTMCloneTable", 
+                "alureCreateStreamFromFile", 
+                "alureInstallDecodeCallbacks", 
+                "ioctl", 
+                "__gmon_start__", 
+                "free", 
+                "alureUpdate", 
+                "alureStreamSizeIsMicroSec"
+            ], 
+            "rpm": "alure-1.2-14.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/alurecdplay"
+        }, 
+        "usr/bin/alurestream": {
+            "report-functions": [
+                "alureCreateStreamFromFile", 
+                "alDeleteSources", 
+                "alGenSources", 
+                "_ITM_registerTMCloneTable", 
+                "alGetError", 
+                "_ITM_deregisterTMCloneTable", 
+                "alurePlaySourceStream", 
+                "__cxa_finalize", 
+                "__gmon_start__", 
+                "__stack_chk_fail", 
+                "fwrite", 
+                "alureShutdownDevice", 
+                "alureStreamSizeIsMicroSec", 
+                "__libc_start_main", 
+                "alureGetErrorString", 
+                "alureStopSource", 
+                "alureSleep", 
+                "__fprintf_chk", 
+                "alureInitDevice", 
+                "alureDestroyStream"
+            ], 
+            "rpm": "alure-1.2-14.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/alurestream"
+        }, 
+        "complexity": {
+            "r2aa": {
+                "afCc": null, 
+                "afC": null
+            }
+        }, 
+        "usr/bin/alureplay": {
+            "report-functions": [
+                "alureInitDevice", 
+                "alDeleteSources", 
+                "alGetError", 
+                "alureSleep", 
+                "alurePlaySource", 
+                "__libc_start_main", 
+                "__fprintf_chk", 
+                "alGenSources", 
+                "alDeleteBuffers", 
+                "_ITM_deregisterTMCloneTable", 
+                "alureShutdownDevice", 
+                "__cxa_finalize", 
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "fwrite", 
+                "alSourcei", 
+                "_ITM_registerTMCloneTable", 
+                "alureCreateBufferFromFile"
+            ], 
+            "rpm": "alure-1.2-14.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/alureplay"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " alure", 
+            "License": " LGPLv2+", 
+            "URL": " http://kcat.strangesoft.net/alure.html", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-02.phx2.fedoraproject.org", 
+            "Description": "\nALURE is a utility library to help manage common tasks with OpenAL\napplications. This includes device enumeration and initialization,\nfile loading, and streaming.\n", 
+            "Build Date": " Wed 02 Aug 2017 01:47:45 PM EDT", 
+            "Source RPM": " alure-1.2-14.fc27.src.rpm", 
+            "Version": " 1.2", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 07 Aug 2017 02:24:43 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 14.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Audio Library Tools REloaded", 
+            "Size": " 132523"
+        }
+    }
+}

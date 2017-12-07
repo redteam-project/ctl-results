@@ -1,0 +1,952 @@
+{
+    "results": {
+        "usr/bin/pvlook": {
+            "report-functions": [
+                "__gmon_start__", 
+                "csoundSetMessageCallback", 
+                "__cxa_finalize", 
+                "csoundRunUtility", 
+                "_ITM_deregisterTMCloneTable", 
+                "csoundCreate", 
+                "_ITM_registerTMCloneTable", 
+                "csoundDestroy", 
+                "__libc_start_main"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/pvlook"
+        }, 
+        "usr/bin/cs": {
+            "report-functions": [
+                "execvp", 
+                "__stack_chk_fail", 
+                "strcpy", 
+                "exit", 
+                "__ctype_tolower_loc", 
+                "__errno_location", 
+                "__gmon_start__", 
+                "__strcpy_chk", 
+                "__fprintf_chk", 
+                "_ITM_registerTMCloneTable", 
+                "opendir", 
+                "strerror", 
+                "__cxa_finalize", 
+                "free", 
+                "__strcat_chk", 
+                "closedir", 
+                "strncpy", 
+                "readdir", 
+                "__memcpy_chk", 
+                "malloc", 
+                "strlen", 
+                "__stpcpy_chk", 
+                "realloc", 
+                "strchr", 
+                "fwrite", 
+                "fputc", 
+                "strstr", 
+                "__ctype_toupper_loc", 
+                "__libc_start_main", 
+                "_ITM_deregisterTMCloneTable", 
+                "getenv"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/cs"
+        }, 
+        "usr/bin/cs-envext": {
+            "report-functions": [
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "csoundDestroy", 
+                "__libc_start_main", 
+                "_ITM_deregisterTMCloneTable", 
+                "csoundRunUtility", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/cs-envext"
+        }, 
+        "usr/bin/csound": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "sched_get_priority_max", 
+                "setpriority", 
+                "getuid", 
+                "csoundCreate", 
+                "fflush", 
+                "setvbuf", 
+                "csoundSleep", 
+                "clock", 
+                "__gmon_start__", 
+                "fopen", 
+                "__stack_chk_fail", 
+                "mlockall", 
+                "__errno_location", 
+                "getpid", 
+                "fileno", 
+                "strerror", 
+                "csoundDestroy", 
+                "fputc", 
+                "strcmp", 
+                "strlen", 
+                "pthread_setschedparam", 
+                "csoundCompile", 
+                "fclose", 
+                "_ITM_registerTMCloneTable", 
+                "pthread_detach", 
+                "pthread_create", 
+                "sched_setscheduler", 
+                "kill", 
+                "exit", 
+                "__fprintf_chk", 
+                "__vfprintf_chk", 
+                "__libc_start_main", 
+                "csoundSetDefaultMessageCallback", 
+                "isatty", 
+                "setuid"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/csound"
+        }, 
+        "usr/bin/csdebugger": {
+            "report-functions": [
+                "csoundSetExternalMidiOutOpenCallback", 
+                "csoundSetInstrumentBreakpoint", 
+                "csoundSetGlobalEnv", 
+                "csoundSetMIDIFileOutput", 
+                "_ZNSt9basic_iosIcSt11char_traitsIcEE5clearESt12_Ios_Iostate", 
+                "csoundSetRtrecordCallback", 
+                "csoundGetControlChannel", 
+                "_ITM_registerTMCloneTable", 
+                "csoundDeleteTree", 
+                "_ZNSt8ios_base4InitD1Ev", 
+                "csoundIsScorePending", 
+                "csoundCreateConfigurationVariable", 
+                "csoundGetSpin", 
+                "strtol", 
+                "csoundGetScoreOffsetSeconds", 
+                "_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc", 
+                "csoundSetOutputChannelCallback", 
+                "csoundSetPlayopenCallback", 
+                "csoundGetChannelPtr", 
+                "csoundParseOrc", 
+                "csoundGetScoreTime", 
+                "csoundDebuggerClean", 
+                "csoundDestroyMessageBuffer", 
+                "csoundScoreEventAbsolute", 
+                "csoundSetControlChannelHints", 
+                "csoundSetRtplayCallback", 
+                "csoundDisposeOpcodeList", 
+                "csoundSetMakeGraphCallback", 
+                "csoundSetStringChannel", 
+                "csoundPerformBuffer", 
+                "csoundDestroy", 
+                "_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_", 
+                "csoundTableGet", 
+                "_ZNSo9_M_insertIdEERSoT_", 
+                "csoundPerformKsmps", 
+                "csoundSetExternalMidiErrorStringCallback", 
+                "_ZNSolsEi", 
+                "csoundListChannels", 
+                "csoundSetRecopenCallback", 
+                "csoundSetExternalMidiWriteCallback", 
+                "csoundInitializeCscore", 
+                "csoundGetUtilityDescription", 
+                "csoundTableCopyIn", 
+                "csoundGetEnv", 
+                "csoundQueryConfigurationVariable", 
+                "csoundReadScore", 
+                "__gxx_personality_v0", 
+                "csoundDestroyGlobalVariable", 
+                "csoundRunUtility", 
+                "strlen", 
+                "csoundSetRtcloseCallback", 
+                "csoundCreateMessageBuffer", 
+                "_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_i", 
+                "csoundSetExternalMidiReadCallback", 
+                "csoundEvalCode", 
+                "csoundSetAudioChannel", 
+                "csoundSetPvsChannel", 
+                "csoundSetIsGraphable", 
+                "csoundSetExternalMidiInCloseCallback", 
+                "csoundKeyPress", 
+                "csoundTableSet", 
+                "csoundSetHostImplementedAudioIO", 
+                "csoundSetMessageLevel", 
+                "__cxa_atexit", 
+                "csoundTableLength", 
+                "csoundGetVersion", 
+                "csoundGetInputBufferSize", 
+                "csoundGetOutputBuffer", 
+                "_ITM_deregisterTMCloneTable", 
+                "csoundSetKillGraphCallback", 
+                "_ZdlPvj", 
+                "_ZNSt8ios_base4InitC1Ev", 
+                "csoundDeleteConfigurationVariable", 
+                "csoundSetMIDIFileInput", 
+                "csoundDebuggerInit", 
+                "csoundScoreEvent", 
+                "csoundTableCopyOut", 
+                "csoundListUtilities", 
+                "csoundCompileArgs", 
+                "csoundGetRtRecordUserData", 
+                "csoundQueryGlobalVariable", 
+                "csoundNewOpcodeList", 
+                "csoundSetMIDIOutput", 
+                "csoundSetMIDIInput", 
+                "csoundParseConfigurationVariable", 
+                "csoundSetCscoreCallback", 
+                "csoundGetInputBuffer", 
+                "csoundReset", 
+                "csoundCleanup", 
+                "csoundStart", 
+                "csoundScoreSort", 
+                "csoundStop", 
+                "csoundCompile", 
+                "csoundGetControlChannelHints", 
+                "__stack_chk_fail", 
+                "csoundCompileCsd", 
+                "csoundRewindScore", 
+                "csoundGetSpoutSample", 
+                "csoundCreate", 
+                "csoundSetInputChannelCallback", 
+                "csoundGetOutputName", 
+                "csoundGetSpout", 
+                "csoundGetAudioChannel", 
+                "csoundGetKsmps", 
+                "csoundQueryGlobalVariableNoCheck", 
+                "csoundSetConfigurationVariable", 
+                "csoundDeleteUtilityList", 
+                "csoundSetExternalMidiInOpenCallback", 
+                "csoundCreateGlobalVariable", 
+                "csoundSetYieldCallback", 
+                "csoundAppendOpcode", 
+                "csoundSetExternalMidiOutCloseCallback", 
+                "_Znwj", 
+                "csoundPerform", 
+                "__libc_start_main", 
+                "csoundGetFirstMessageAttr", 
+                "csoundGetMessageCnt", 
+                "csoundSetParams", 
+                "csoundSetInput", 
+                "csoundGet0dBFS", 
+                "csoundPopFirstMessage", 
+                "csoundSetBreakpointCallback", 
+                "csoundGetAPIVersion", 
+                "csoundSetOutput", 
+                "csoundSetControlChannel", 
+                "csoundCompileOrc", 
+                "csoundSetScorePending", 
+                "csoundSetDrawGraphCallback", 
+                "csoundScoreExtract", 
+                "csoundListConfigurationVariables", 
+                "csoundSetDebug", 
+                "csoundCompileTree", 
+                "csoundGetMessageLevel", 
+                "csoundSetExitGraphCallback", 
+                "csoundDeleteChannelList", 
+                "_Unwind_Resume", 
+                "csoundGetStringChannel", 
+                "csoundGetHostData", 
+                "csoundGetPvsChannel", 
+                "csoundInputMessage", 
+                "csoundSetMessageCallback", 
+                "csoundGetFirstMessage", 
+                "csoundGetRtPlayUserData", 
+                "csoundSetHostData", 
+                "csoundRegisterSenseEventCallback", 
+                "csoundSetScoreOffsetSeconds", 
+                "csoundSetHostImplementedMIDIIO", 
+                "__cxa_finalize", 
+                "csoundGetKr", 
+                "csoundAddSpinSample", 
+                "csoundGetSr", 
+                "__gmon_start__", 
+                "csoundGetDebug", 
+                "csoundGetNchnls", 
+                "csoundGetTable", 
+                "csoundGetOutputBufferSize", 
+                "csoundGetNchnlsInput", 
+                "csoundSetOption"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/csdebugger"
+        }, 
+        "usr/bin/csanalyze": {
+            "report-functions": [
+                "__printf_chk", 
+                "csoundCreate", 
+                "__gmon_start__", 
+                "__libc_start_main", 
+                "__cxa_finalize", 
+                "puts"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/csanalyze"
+        }, 
+        "usr/bin/dnoise": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "csoundRunUtility", 
+                "__libc_start_main", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize", 
+                "csoundDestroy"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/dnoise"
+        }, 
+        "usr/bin/csb64enc": {
+            "report-functions": [
+                "_IO_getc", 
+                "strtol", 
+                "_IO_putc", 
+                "_ITM_deregisterTMCloneTable", 
+                "strlen", 
+                "__gmon_start__", 
+                "__libc_start_main", 
+                "__cxa_finalize", 
+                "fflush", 
+                "_ITM_registerTMCloneTable", 
+                "realloc", 
+                "free", 
+                "__fprintf_chk", 
+                "fopen", 
+                "fclose", 
+                "exit", 
+                "fwrite"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/csb64enc"
+        }, 
+        "usr/bin/cs-mixer": {
+            "report-functions": [
+                "csoundCreate", 
+                "__gmon_start__", 
+                "__libc_start_main", 
+                "csoundDestroy", 
+                "_ITM_deregisterTMCloneTable", 
+                "csoundRunUtility"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/cs-mixer"
+        }, 
+        "usr/bin/pvanal": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "csoundCreate", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize", 
+                "__libc_start_main", 
+                "__gmon_start__", 
+                "csoundDestroy"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/pvanal"
+        }, 
+        "usr/bin/cs-extractor": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "__libc_start_main", 
+                "__gmon_start__", 
+                "csoundCreate", 
+                "_ITM_registerTMCloneTable", 
+                "csoundRunUtility"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/cs-extractor"
+        }, 
+        "usr/bin/het_export": {
+            "report-functions": [
+                "csoundDestroy", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable", 
+                "__libc_start_main", 
+                "__cxa_finalize", 
+                "__gmon_start__", 
+                "csoundRunUtility"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/het_export"
+        }, 
+        "usr/bin/lpc_export": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "fread", 
+                "puts", 
+                "_IO_putc", 
+                "fopen", 
+                "free", 
+                "__cxa_finalize", 
+                "exit", 
+                "__gmon_start__", 
+                "__fprintf_chk", 
+                "__libc_start_main", 
+                "_ITM_deregisterTMCloneTable", 
+                "malloc", 
+                "__fread_chk", 
+                "__printf_chk", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/lpc_export"
+        }, 
+        "usr/bin/lpc_import": {
+            "report-functions": [
+                "fopen", 
+                "__gmon_start__", 
+                "free", 
+                "__fread_chk", 
+                "_IO_putc", 
+                "__libc_start_main", 
+                "fwrite", 
+                "exit", 
+                "fread", 
+                "__stack_chk_fail", 
+                "fclose", 
+                "_ITM_registerTMCloneTable", 
+                "__fprintf_chk", 
+                "_ITM_deregisterTMCloneTable", 
+                "puts"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/lpc_import"
+        }, 
+        "usr/bin/pv_export": {
+            "report-functions": [
+                "csoundCreate", 
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "__libc_start_main", 
+                "_ITM_deregisterTMCloneTable", 
+                "csoundRunUtility", 
+                "csoundDestroy"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/pv_export"
+        }, 
+        "usr/bin/cs-scot": {
+            "report-functions": [
+                "__fprintf_chk", 
+                "_ITM_deregisterTMCloneTable", 
+                "sscanf", 
+                "fclose", 
+                "fwrite", 
+                "fputs", 
+                "__stack_chk_fail", 
+                "__libc_start_main", 
+                "strcmp", 
+                "strchr", 
+                "_ITM_registerTMCloneTable", 
+                "__cxa_finalize", 
+                "__ctype_b_loc", 
+                "exit", 
+                "_IO_putc", 
+                "__sprintf_chk", 
+                "__strcat_chk", 
+                "__gmon_start__", 
+                "fopen", 
+                "free", 
+                "__strcpy_chk", 
+                "malloc", 
+                "strcpy"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/cs-scot"
+        }, 
+        "usr/bin/cs-srconv": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "__cxa_finalize", 
+                "csoundRunUtility", 
+                "__gmon_start__", 
+                "csoundCreate", 
+                "csoundDestroy"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/cs-srconv"
+        }, 
+        "usr/bin/atsa": {
+            "report-functions": [
+                "csoundCreate", 
+                "__libc_start_main", 
+                "csoundDestroy", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "__cxa_finalize", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/atsa"
+        }, 
+        "usr/bin/het_import": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "strtol", 
+                "__gmon_start__", 
+                "__libc_start_main", 
+                "fclose", 
+                "fwrite", 
+                "puts", 
+                "fopen", 
+                "__stack_chk_fail", 
+                "_IO_getc", 
+                "_ITM_registerTMCloneTable", 
+                "__printf_chk"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/het_import"
+        }, 
+        "usr/bin/cs-extract": {
+            "report-functions": [
+                "csoundCreate", 
+                "fwrite", 
+                "__libc_start_main", 
+                "__gmon_start__", 
+                "csoundScoreExtract", 
+                "__fprintf_chk", 
+                "fopen", 
+                "fclose", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable", 
+                "signal"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/cs-extract"
+        }, 
+        "usr/bin/csbeats": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize", 
+                "__stack_chk_fail", 
+                "_IO_getc", 
+                "strtod", 
+                "__fprintf_chk", 
+                "fopen", 
+                "__errno_location", 
+                "fputc", 
+                "fwrite", 
+                "strtol", 
+                "localtime_r", 
+                "__gmon_start__", 
+                "calloc", 
+                "exit", 
+                "fileno", 
+                "strlen", 
+                "__libc_start_main", 
+                "malloc", 
+                "time", 
+                "isatty", 
+                "free", 
+                "_ITM_registerTMCloneTable", 
+                "clearerr", 
+                "realloc", 
+                "fread", 
+                "ferror"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/csbeats"
+        }, 
+        "usr/bin/sdif2ad": {
+            "report-functions": [
+                "__gmon_start__", 
+                "fwrite", 
+                "fflush", 
+                "malloc", 
+                "_ITM_registerTMCloneTable", 
+                "__fprintf_chk", 
+                "__assert_fail", 
+                "__printf_chk", 
+                "__cxa_finalize", 
+                "__stack_chk_fail", 
+                "feof", 
+                "fopen", 
+                "exit", 
+                "__fread_chk", 
+                "_ITM_deregisterTMCloneTable", 
+                "__libc_start_main", 
+                "fseek", 
+                "strtol", 
+                "puts", 
+                "fclose", 
+                "strtod"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/sdif2ad"
+        }, 
+        "usr/bin/makecsd": {
+            "report-functions": [
+                "exit", 
+                "free", 
+                "_IO_putc", 
+                "strerror", 
+                "time", 
+                "gmtime", 
+                "fseek", 
+                "fopen", 
+                "__stack_chk_fail", 
+                "fclose", 
+                "strlen", 
+                "fflush", 
+                "strftime", 
+                "ungetc", 
+                "_ITM_registerTMCloneTable", 
+                "fwrite", 
+                "fputc", 
+                "strtol", 
+                "__libc_start_main", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "_IO_getc", 
+                "__fprintf_chk", 
+                "__errno_location"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/makecsd"
+        }, 
+        "usr/bin/lpanal": {
+            "report-functions": [
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "__cxa_finalize", 
+                "csoundRunUtility", 
+                "_ITM_deregisterTMCloneTable", 
+                "__libc_start_main"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/lpanal"
+        }, 
+        "usr/bin/cs-scale": {
+            "report-functions": [
+                "csoundDestroy", 
+                "_ITM_deregisterTMCloneTable", 
+                "__libc_start_main", 
+                "csoundCreate", 
+                "__cxa_finalize", 
+                "__gmon_start__"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/cs-scale"
+        }, 
+        "usr/bin/pv_import": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "__libc_start_main", 
+                "csoundCreate", 
+                "_ITM_registerTMCloneTable", 
+                "__gmon_start__", 
+                "csoundRunUtility", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/pv_import"
+        }, 
+        "usr/bin/cvanal": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "csoundCreate", 
+                "__cxa_finalize", 
+                "csoundDestroy"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/cvanal"
+        }, 
+        "complexity": {
+            "r2aa": {
+                "afCc": null, 
+                "afC": null
+            }
+        }, 
+        "usr/bin/scsort": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "_ITM_deregisterTMCloneTable", 
+                "csoundDestroy", 
+                "signal", 
+                "__cxa_finalize", 
+                "__vfprintf_chk", 
+                "csoundCreate", 
+                "csoundSetMessageCallback", 
+                "csoundScoreSort"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/scsort"
+        }, 
+        "usr/bin/cs-sndinfo": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "__cxa_finalize", 
+                "_ITM_deregisterTMCloneTable", 
+                "csoundDestroy", 
+                "__gmon_start__", 
+                "csoundCreate"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/cs-sndinfo"
+        }, 
+        "usr/bin/scope": {
+            "report-functions": [
+                "csoundRunUtility", 
+                "__gmon_start__", 
+                "csoundCreate", 
+                "__libc_start_main", 
+                "_ITM_deregisterTMCloneTable", 
+                "csoundDestroy"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/scope"
+        }, 
+        "usr/bin/hetro": {
+            "report-functions": [
+                "csoundRunUtility", 
+                "__gmon_start__", 
+                "csoundCreate", 
+                "csoundDestroy", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/hetro"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " csound", 
+            "License": " LGPLv2+", 
+            "URL": " http://csound.github.io/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-09.phx2.fedoraproject.org", 
+            "Description": "\nCsound is a sound and music synthesis system, providing facilities for\ncomposition and performance over a wide range of platforms. It is not\nrestricted to any style of music, having been used for many years in\nat least classical, pop, techno, ambient...\n", 
+            "Build Date": " Fri 10 Feb 2017 09:25:37 AM EST", 
+            "Source RPM": " csound-6.03.2-13.fc26.src.rpm", 
+            "Version": " 6.03.2", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sun 26 Feb 2017 01:58:41 PM EST, Key ID f55e7430f5282ee4", 
+            "Release": " 13.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A sound synthesis language and library", 
+            "Size": " 4597042"
+        }
+    }
+}

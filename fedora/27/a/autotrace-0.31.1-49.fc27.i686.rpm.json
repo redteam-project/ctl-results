@@ -1,0 +1,97 @@
+{
+    "results": {
+        "complexity": {
+            "r2aa": {
+                "afCc": null, 
+                "afC": null
+            }
+        }, 
+        "usr/bin/autotrace": {
+            "report-functions": [
+                "at_bitmap_read", 
+                "at_splines_write", 
+                "remove_suffix", 
+                "at_version", 
+                "at_output_get_handler_by_suffix", 
+                "__stack_chk_fail", 
+                "at_bitmap_free", 
+                "at_input_opts_free", 
+                "at_fitting_opts_new", 
+                "at_input_get_handler_by_suffix", 
+                "free", 
+                "__fprintf_chk", 
+                "_ITM_registerTMCloneTable", 
+                "__libc_start_main", 
+                "at_color_copy", 
+                "at_input_list_new", 
+                "strgicmp", 
+                "exit", 
+                "fclose", 
+                "_ITM_deregisterTMCloneTable", 
+                "at_input_opts_new", 
+                "at_color_new", 
+                "at_output_list_new", 
+                "extend_filename", 
+                "fputc", 
+                "at_output_opts_free", 
+                "__cxa_finalize", 
+                "at_bitmap_get_planes", 
+                "strrchr", 
+                "xfopen", 
+                "strtol", 
+                "strgnicmp", 
+                "__assert_fail", 
+                "at_home_site", 
+                "at_bitmap_get_height", 
+                "at_input_shortlist", 
+                "__gmon_start__", 
+                "strchr", 
+                "at_input_get_handler", 
+                "__printf_chk", 
+                "at_output_shortlist", 
+                "malloc", 
+                "getenv", 
+                "at_splines_free", 
+                "at_bitmap_get_width", 
+                "at_input_list_free", 
+                "at_output_opts_new", 
+                "fwrite", 
+                "at_fitting_opts_free", 
+                "strlen", 
+                "strtod", 
+                "at_splines_new_full"
+            ], 
+            "rpm": "autotrace-0.31.1-49.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/autotrace"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Applications/Multimedia", 
+            "Name": " autotrace", 
+            "License": " GPLv2+ and LGPLv2+", 
+            "URL": " http://autotrace.sourceforge.net/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-16.phx2.fedoraproject.org", 
+            "Description": "\nAutoTrace is a program for converting bitmaps to vector graphics.\n\nSupported input formats include BMP, TGA, PNM, PPM, and any format\nsupported by ImageMagick, whereas output can be produced in\nPostscript, SVG, xfig, SWF, and others.\n", 
+            "Build Date": " Thu 24 Aug 2017 12:57:20 PM EDT", 
+            "Source RPM": " autotrace-0.31.1-49.fc27.src.rpm", 
+            "Version": " 0.31.1", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 24 Aug 2017 01:01:35 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 49.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Utility for converting bitmaps to vector graphics", 
+            "Size": " 374826"
+        }
+    }
+}

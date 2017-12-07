@@ -1,0 +1,64 @@
+{
+    "results": {
+        "complexity": {
+            "r2aa": {
+                "afCc": 43, 
+                "afC": 611
+            }
+        }, 
+        "usr/bin/cmigemo": {
+            "report-functions": [
+                "__fprintf_chk", 
+                "migemo_close", 
+                "migemo_load", 
+                "strchr", 
+                "fclose", 
+                "putchar", 
+                "clock", 
+                "exit", 
+                "migemo_query", 
+                "fgets", 
+                "feof", 
+                "migemo_set_operator", 
+                "migemo_is_enable", 
+                "migemo_open", 
+                "migemo_release", 
+                "__stack_chk_fail", 
+                "strcmp", 
+                "fflush", 
+                "__printf_chk"
+            ], 
+            "rpm": "cmigemo-1.3-0.12.date20110227.fc27.2.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/cmigemo"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " cmigemo", 
+            "License": " MIT", 
+            "URL": " http://www.kaoriya.net/software/cmigemo", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-07.phx2.fedoraproject.org", 
+            "Description": "\nC/Migemo is a C interface of Ruby/Migemo, a Japanese incremental search tool\nby Romaji.\n", 
+            "Build Date": " Wed 02 Aug 2017 03:05:21 PM EDT", 
+            "Source RPM": " cmigemo-1.3-0.12.date20110227.fc27.2.src.rpm", 
+            "Version": " 1.3", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 07 Aug 2017 12:07:18 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 0.12.date20110227.fc27.2", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " C interface of Ruby/Migemo Japanese incremental search tool", 
+            "Size": " 12209047"
+        }
+    }
+}

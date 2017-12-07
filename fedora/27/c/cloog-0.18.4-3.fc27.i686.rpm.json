@@ -1,0 +1,62 @@
+{
+    "results": {
+        "complexity": {
+            "r2aa": {
+                "afCc": null, 
+                "afC": null
+            }
+        }, 
+        "usr/bin/cloog": {
+            "report-functions": [
+                "cloog_state_free", 
+                "__libc_start_main", 
+                "_ITM_deregisterTMCloneTable", 
+                "fclose", 
+                "cloog_options_read", 
+                "_ITM_registerTMCloneTable", 
+                "cloog_program_free", 
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "cloog_options_free", 
+                "cloog_program_read", 
+                "cloog_program_generate", 
+                "cloog_program_pprint", 
+                "cloog_msg", 
+                "__cxa_finalize", 
+                "__fprintf_chk"
+            ], 
+            "rpm": "cloog-0.18.4-3.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/cloog"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " cloog", 
+            "License": " GPLv2+", 
+            "URL": " http://www.cloog.org", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-19.phx2.fedoraproject.org", 
+            "Source RPM": " cloog-0.18.4-3.fc27.src.rpm", 
+            "Description": "\nCLooG is a software which generates loops for scanning Z-polyhedra. That is,\nCLooG finds the code or pseudo-code where each integral point of one or more\nparametrized polyhedron or parametrized polyhedra union is reached. CLooG is\ndesigned to avoid control overhead and to produce a very efficient code.\n", 
+            "Build Date": " Wed 02 Aug 2017 03:06:48 PM EDT", 
+            "Epoch": " 1", 
+            "Version": " 0.18.4", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 07 Aug 2017 12:06:39 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 3.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " The Chunky Loop Generator", 
+            "Size": " 215382"
+        }
+    }
+}

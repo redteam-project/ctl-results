@@ -1,0 +1,89 @@
+{
+    "results": {
+        "complexity": {
+            "r2aa": {
+                "afCc": 1, 
+                "afC": 66
+            }
+        }, 
+        "usr/bin/running-bear": {
+            "report-functions": [
+                "_ZNSt8ios_baseD2Ev", 
+                "_ZdlPv", 
+                "__libc_start_main", 
+                "_ZN4claw11applicationC2ERiRPPc", 
+                "__cxa_begin_catch", 
+                "_ZNSt6localeC1Ev", 
+                "_ZNSt8ios_base4InitD1Ev", 
+                "_ZSt19__throw_logic_errorPKc", 
+                "_ZNSt9basic_iosIcSt11char_traitsIcEE4initEPSt15basic_streambufIcS1_E", 
+                "_ZNK4claw15arguments_table8get_boolERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE", 
+                "_ZNSt8ios_base4InitC1Ev", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERjj", 
+                "_ZN4bear6engine4gameD1Ev", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ZSt4endlRN4claw10log_systemE", 
+                "_ZN4bear6engine4game3runEv", 
+                "_ZN4claw10log_systemlsERKNS_9log_levelE", 
+                "__gxx_personality_v0", 
+                "_ZN4claw15arguments_table5parseERiRPPc", 
+                "_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_", 
+                "_ZN4claw11applicationD2Ev", 
+                "bind_textdomain_codeset", 
+                "_ZNSt9basic_iosIcSt11char_traitsIcEE5clearESt12_Ios_Iostate", 
+                "_ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEED1Ev", 
+                "_ZNSt6localeD1Ev", 
+                "_ZN4claw10log_systemlsEPFRS0_S1_E", 
+                "__cxa_end_catch", 
+                "_ZNK4claw15arguments_table4helpERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE", 
+                "bindtextdomain", 
+                "_ZNSt8ios_baseC2Ev", 
+                "textdomain", 
+                "__gmon_start__", 
+                "_Znwj", 
+                "_ZN4claw15arguments_table3addERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_S8_bS8_", 
+                "_ZN4bear6engine4gameC1ERiRPPc", 
+                "_ZN4bear6engine4game10print_helpEv", 
+                "_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_i", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_assignERKS4_", 
+                "__stack_chk_fail", 
+                "strlen", 
+                "_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc", 
+                "__cxa_atexit", 
+                "_Unwind_Resume", 
+                "dgettext"
+            ], 
+            "rpm": "bear-engine-0.7.0-0.17.20161230git781ec80.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/running-bear"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " bear-engine", 
+            "License": " GPLv3+ and CC-BY-SA", 
+            "URL": " https://github.com/j-jorge/bear", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-03.phx2.fedoraproject.org", 
+            "Description": "\nThe Bear engine is a set of C++ libraries and tools dedicated to creating\ngreat 2D games. It has been used to create Plee the Bear (plee-the-bear),\nAndy's Super Great Park (asgp) and Tunnel (tunnel).\n\nThis package contains the run-time libraries used by the games based on\nthe Bear engine.\n", 
+            "Build Date": " Wed 02 Aug 2017 02:20:59 PM EDT", 
+            "Source RPM": " bear-0.7.0-0.17.20161230git781ec80.fc27.src.rpm", 
+            "Version": " 0.7.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 05 Aug 2017 11:39:47 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 0.17.20161230git781ec80.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Run-time libraries for games based on the Bear engine", 
+            "Size": " 6677304"
+        }
+    }
+}
