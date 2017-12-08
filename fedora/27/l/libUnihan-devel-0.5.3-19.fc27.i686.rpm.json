@@ -1,0 +1,98 @@
+{
+    "results": {
+        "usr/bin/unihan_converter": {
+            "report-functions": [
+                "unihanDb_get", 
+                "g_string_free", 
+                "unihanDb_open", 
+                "fclose", 
+                "g_strchomp", 
+                "g_strrstr", 
+                "g_strsplit", 
+                "__gmon_start__", 
+                "stringList_index", 
+                "g_strfreev", 
+                "unihanTable_get_fields", 
+                "verboseMsg_get_level", 
+                "__printf_chk", 
+                "unihanField_parse", 
+                "strcmp", 
+                "__libc_start_main", 
+                "sqlite3_errmsg", 
+                "_ITM_deregisterTMCloneTable", 
+                "unihan_insert_value", 
+                "g_string_append", 
+                "unihanTable_get_primary_key_fields", 
+                "fwrite", 
+                "unihan_find_all_matched", 
+                "_ITM_registerTMCloneTable", 
+                "g_free", 
+                "unihanTable_to_string", 
+                "sql_result_free", 
+                "verboseMsg_print", 
+                "verboseMsg_set_logFile", 
+                "g_strsplit_set", 
+                "isEmptyString", 
+                "exit", 
+                "unihanDb_close", 
+                "verboseMsg_set_fileLevel", 
+                "fopen", 
+                "unihanField_to_string", 
+                "g_snprintf", 
+                "verboseMsg_set_level", 
+                "g_strlcpy", 
+                "puts", 
+                "__stack_chk_fail", 
+                "__cxa_finalize", 
+                "g_string_insert_c", 
+                "ucs4_to_utf8", 
+                "unihanChar_parse", 
+                "unihanSql_exec", 
+                "unihanField_is_indexed", 
+                "fgets", 
+                "g_string_new", 
+                "g_string_append_printf", 
+                "__fprintf_chk", 
+                "unihanField_is_singleton", 
+                "g_strchug"
+            ], 
+            "rpm": "libUnihan-devel-0.5.3-19.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/unihan_converter"
+        }, 
+        "complexity": {
+            "r2aa": {
+                "afCc": 2, 
+                "afC": 185
+            }
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " libUnihan-devel", 
+            "License": " LGPLv2+", 
+            "URL": " http://sourceforge.net/projects/libunihan", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-08.phx2.fedoraproject.org", 
+            "Description": "\nDevelopment files of libUnihan such as header files.\n", 
+            "Build Date": " Thu 03 Aug 2017 12:11:17 PM EDT", 
+            "Source RPM": " libUnihan-0.5.3-19.fc27.src.rpm", 
+            "Version": " 0.5.3", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 05:00:21 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 19.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Development files of libUnihan", 
+            "Size": " 184580"
+        }
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "results": {
+        "complexity": {
+            "r2aa": {
+                "afCc": null, 
+                "afC": null
+            }
+        }, 
+        "usr/bin/wnck-urgency-monitor": {
+            "report-functions": [
+                "wnck_set_client_type", 
+                "gtk_status_icon_set_visible", 
+                "g_option_context_set_summary", 
+                "wnck_workspace_activate", 
+                "__stack_chk_fail", 
+                "g_printerr", 
+                "g_option_context_parse", 
+                "g_error_free", 
+                "g_signal_connect_data", 
+                "g_object_unref", 
+                "gtk_get_current_event_time", 
+                "gtk_status_icon_set_from_icon_name", 
+                "wnck_window_get_workspace", 
+                "__cxa_finalize", 
+                "gtk_get_option_group", 
+                "__libc_start_main", 
+                "gtk_main", 
+                "g_object_set_data", 
+                "wnck_window_get_mini_icon", 
+                "wnck_window_get_name", 
+                "wnck_window_activate", 
+                "_ITM_registerTMCloneTable", 
+                "g_option_context_free", 
+                "g_option_context_add_group", 
+                "gtk_status_icon_set_tooltip_text", 
+                "g_object_get_data", 
+                "wnck_window_or_transient_needs_attention", 
+                "wnck_screen_get_default", 
+                "gtk_init", 
+                "g_option_context_new", 
+                "gtk_status_icon_new", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "wnck_window_get_icon_is_fallback", 
+                "g_type_check_instance_cast"
+            ], 
+            "rpm": "libwnck3-3.24.1-1.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/wnck-urgency-monitor"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " libwnck3", 
+            "License": " LGPLv2+", 
+            "URL": " http://download.gnome.org/sources/libwnck/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-24.phx2.fedoraproject.org", 
+            "Description": "\nlibwnck (pronounced \"libwink\") is used to implement pagers, tasklists,\nand other such things. It allows applications to monitor information\nabout open windows, workspaces, their names/icons, and so forth.\n", 
+            "Build Date": " Mon 31 Jul 2017 09:46:40 AM EDT", 
+            "Source RPM": " libwnck3-3.24.1-1.fc27.src.rpm", 
+            "Version": " 3.24.1", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 31 Jul 2017 09:54:23 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 1.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Window Navigator Construction Kit", 
+            "Size": " 2131993"
+        }
+    }
+}

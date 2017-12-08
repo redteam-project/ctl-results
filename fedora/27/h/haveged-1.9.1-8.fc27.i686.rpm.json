@@ -1,0 +1,86 @@
+{
+    "results": {
+        "complexity": {
+            "r2aa": {
+                "afCc": null, 
+                "afC": null
+            }
+        }, 
+        "usr/sbin/haveged": {
+            "report-functions": [
+                "fopen", 
+                "getopt_long", 
+                "__syslog_chk", 
+                "__isoc99_fscanf", 
+                "strcmp", 
+                "havege_version", 
+                "__gmon_start__", 
+                "openlog", 
+                "_ITM_registerTMCloneTable", 
+                "fputc", 
+                "unlink", 
+                "__vsnprintf_chk", 
+                "__fdelt_chk", 
+                "havege_destroy", 
+                "__printf_chk", 
+                "__errno_location", 
+                "_ITM_deregisterTMCloneTable", 
+                "__libc_start_main", 
+                "__vsyslog_chk", 
+                "havege_status_dump", 
+                "__cxa_finalize", 
+                "gettimeofday", 
+                "__vfprintf_chk", 
+                "strtod", 
+                "strerror", 
+                "exit", 
+                "havege_create", 
+                "havege_run", 
+                "signal", 
+                "fclose", 
+                "__stack_chk_fail", 
+                "__stpcpy_chk", 
+                "__fprintf_chk", 
+                "open", 
+                "fwrite", 
+                "ioctl", 
+                "daemon", 
+                "strlen", 
+                "havege_rng", 
+                "__snprintf_chk", 
+                "select"
+            ], 
+            "rpm": "haveged-1.9.1-8.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/sbin/haveged"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Daemons", 
+            "Name": " haveged", 
+            "License": " GPLv3+", 
+            "URL": " http://www.irisa.fr/caps/projects/hipsor/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-07.phx2.fedoraproject.org", 
+            "Description": "\nA Linux entropy source using the HAVEGE algorithm\n\nHaveged is a user space entropy daemon which is not dependent upon the\nstandard mechanisms for harvesting randomness for the system entropy\npool. This is important in systems with high entropy needs or limited\nuser interaction (e.g. headless servers).\n\nHaveged uses HAVEGE (HArdware Volatile Entropy Gathering and Expansion)\nto maintain a 1M pool of random bytes used to fill /dev/random\nwhenever the supply of random bits in /dev/random falls below the low\nwater mark of the device. The principle inputs to haveged are the\nsizes of the processor instruction and data caches used to setup the\nHAVEGE collector. The haveged default is a 4kb data cache and a 16kb\ninstruction cache. On machines with a cpuid instruction, haveged will\nattempt to select appropriate values from internal tables.\n", 
+            "Build Date": " Thu 03 Aug 2017 05:04:50 AM EDT", 
+            "Source RPM": " haveged-1.9.1-8.fc27.src.rpm", 
+            "Version": " 1.9.1", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 03 Aug 2017 10:25:03 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 8.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A Linux entropy source using the HAVEGE algorithm", 
+            "Size": " 187666"
+        }
+    }
+}

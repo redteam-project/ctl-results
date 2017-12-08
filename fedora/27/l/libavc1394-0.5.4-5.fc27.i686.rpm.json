@@ -1,0 +1,154 @@
+{
+    "results": {
+        "complexity": {
+            "r2aa": {
+                "afCc": null, 
+                "afC": null
+            }
+        }, 
+        "usr/bin/dvcont": {
+            "report-functions": [
+                "__errno_location", 
+                "__printf_chk", 
+                "strtol", 
+                "__cxa_finalize", 
+                "raw1394_get_generation", 
+                "raw1394_new_handle", 
+                "raw1394_set_port", 
+                "avc1394_vcr_eject", 
+                "_ITM_deregisterTMCloneTable", 
+                "avc1394_vcr_previous_index", 
+                "avc1394_vcr_next", 
+                "rom1394_get_directory", 
+                "__fprintf_chk", 
+                "avc1394_vcr_play", 
+                "avc1394_vcr_next_index", 
+                "avc1394_vcr_record", 
+                "__stack_chk_fail", 
+                "avc1394_vcr_get_timecode2", 
+                "avc1394_vcr_stop", 
+                "avc1394_vcr_previous", 
+                "avc1394_vcr_seek_timecode", 
+                "avc1394_check_subunit_type", 
+                "avc1394_vcr_trick_play", 
+                "avc1394_vcr_reverse", 
+                "avc1394_vcr_status", 
+                "avc1394_vcr_pause", 
+                "fwrite", 
+                "avc1394_vcr_forward", 
+                "rom1394_get_node_type", 
+                "raw1394_get_local_id", 
+                "avc1394_vcr_rewind", 
+                "perror", 
+                "strcmp", 
+                "puts", 
+                "__libc_start_main", 
+                "avc1394_vcr_decode_status", 
+                "exit", 
+                "__gmon_start__", 
+                "avc1394_transaction_block", 
+                "raw1394_get_nodecount", 
+                "raw1394_destroy_handle"
+            ], 
+            "rpm": "libavc1394-0.5.4-5.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/dvcont"
+        }, 
+        "usr/bin/panelctl": {
+            "report-functions": [
+                "strtol", 
+                "exit", 
+                "strlen", 
+                "perror", 
+                "_ITM_registerTMCloneTable", 
+                "argp_state_help", 
+                "__fprintf_chk", 
+                "raw1394_get_nodecount", 
+                "__libc_start_main", 
+                "__errno_location", 
+                "__printf_chk", 
+                "strcmp", 
+                "raw1394_destroy_handle", 
+                "puts", 
+                "avc1394_transaction_block", 
+                "raw1394_new_handle_on_port", 
+                "usleep", 
+                "rom1394_get_directory", 
+                "__cxa_finalize", 
+                "putchar", 
+                "__isoc99_sscanf", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "argp_parse"
+            ], 
+            "rpm": "libavc1394-0.5.4-5.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/panelctl"
+        }, 
+        "usr/bin/mkrfc2734": {
+            "report-functions": [
+                "raw1394_reset_bus", 
+                "raw1394_update_config_rom", 
+                "_ITM_deregisterTMCloneTable", 
+                "rom1394_get_size", 
+                "__gmon_start__", 
+                "raw1394_get_local_id", 
+                "__libc_start_main", 
+                "__errno_location", 
+                "raw1394_get_config_rom", 
+                "__printf_chk", 
+                "rom1394_get_directory", 
+                "raw1394_new_handle", 
+                "_ITM_registerTMCloneTable", 
+                "puts", 
+                "rom1394_free_directory", 
+                "rom1394_add_unit", 
+                "exit", 
+                "perror"
+            ], 
+            "rpm": "libavc1394-0.5.4-5.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/mkrfc2734"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " libavc1394", 
+            "License": " GPLv2+ and LGPLv2+", 
+            "URL": " http://sourceforge.net/projects/libavc1394/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-25.phx2.fedoraproject.org", 
+            "Description": "\nThe libavc1394 library allows utilities to control IEEE-1394 devices\nusing the AV/C specification.  Audio/Video Control allows applications\nto control devices like the tape on a VCR or camcorder.\n", 
+            "Build Date": " Thu 03 Aug 2017 12:49:11 PM EDT", 
+            "Source RPM": " libavc1394-0.5.4-5.fc27.src.rpm", 
+            "Version": " 0.5.4", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 03 Aug 2017 09:23:26 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 5.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Audio/Video Control library for IEEE-1394 devices", 
+            "Size": " 121311"
+        }
+    }
+}

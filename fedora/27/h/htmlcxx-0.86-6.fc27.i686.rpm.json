@@ -1,0 +1,95 @@
+{
+    "results": {
+        "usr/bin/htmlcxx": {
+            "report-functions": [
+                "__cxa_rethrow", 
+                "_ZNSo3putEc", 
+                "_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_i", 
+                "strcasecmp", 
+                "_ZSt19__throw_logic_errorPKc", 
+                "_ZN7htmlcxx4HTML9ParserSax5parseERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE", 
+                "__gmon_start__", 
+                "_ZNSt14basic_ifstreamIcSt11char_traitsIcEEC1EPKcSt13_Ios_Openmode", 
+                "_ZNSo9_M_insertImEERSoT_", 
+                "_ZN7htmlcxx3CSS6Parser5parseERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE", 
+                "__libc_start_main", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERjj", 
+                "_ZNSt8ios_base4InitD1Ev", 
+                "__cxa_atexit", 
+                "_ITM_registerTMCloneTable", 
+                "_ZNKSt12__basic_fileIcE7is_openEv", 
+                "exit", 
+                "_ZN7htmlcxx3CSS6Parser8Selector5setIdERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE", 
+                "__cxa_finalize", 
+                "_ZNSt14basic_ifstreamIcSt11char_traitsIcEE5closeEv", 
+                "_Unwind_Resume", 
+                "_ZNKSt5ctypeIcE13_M_widen_initEv", 
+                "_ZN7htmlcxx3CSS6Parser8SelectorC1Ev", 
+                "__stack_chk_fail", 
+                "memcmp", 
+                "getopt", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ZNSo5flushEv", 
+                "__cxa_end_catch", 
+                "_ZNK7htmlcxx3CSS6Parser13getAttributesB5cxx11ERKSt6vectorINS1_8SelectorESaIS3_EE", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6appendEPKcj", 
+                "_ZN7htmlcxx3CSS6Parser8Selector8setClassERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_appendEPKcj", 
+                "_ZSt16__throw_bad_castv", 
+                "_ZN7htmlcxx4HTMLlsERSoRK4treeINS0_4NodeESaI10tree_node_IS3_EEE", 
+                "_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc", 
+                "_ZNSi4readEPci", 
+                "_ZN7htmlcxx3CSS6Parser8Selector10setElementERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE", 
+                "_ZSt18_Rb_tree_incrementPKSt18_Rb_tree_node_base", 
+                "_ZNSt14basic_ifstreamIcSt11char_traitsIcEED1Ev", 
+                "_ZNSt8ios_base4InitC1Ev", 
+                "_Znwj", 
+                "_ZN7htmlcxx3CSS6Parser8Selector16setPseudoElementENS1_13PseudoElementE", 
+                "toupper", 
+                "__gxx_personality_v0", 
+                "_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_", 
+                "_ZN7htmlcxx4HTML4Node15parseAttributesEv", 
+                "_ZN7htmlcxx3CSS6Parser8Selector14setPseudoClassENS1_11PseudoClassE", 
+                "__cxa_begin_catch", 
+                "strlen"
+            ], 
+            "rpm": "htmlcxx-0.86-6.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/htmlcxx"
+        }, 
+        "complexity": {
+            "r2aa": {
+                "afCc": null, 
+                "afC": null
+            }
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " htmlcxx", 
+            "License": " LGPLv2 and GPLv2+ and ASL 2.0 and MIT", 
+            "URL": " http://htmlcxx.sourceforge.net/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-10.phx2.fedoraproject.org", 
+            "Description": "\nhtmlcxx is a simple non-validating html parser library for C++.\nIt allows to fully dump the original html document, character by character,\nfrom the parse tree. It also has an intuitive tree traversal API.\n", 
+            "Build Date": " Thu 03 Aug 2017 05:30:57 AM EDT", 
+            "Source RPM": " htmlcxx-0.86-6.fc27.src.rpm", 
+            "Version": " 0.86", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 03 Aug 2017 10:53:05 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 6.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A simple non-validating CSS1 and HTML parser for C++", 
+            "Size": " 221793"
+        }
+    }
+}

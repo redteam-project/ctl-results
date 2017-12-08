@@ -1,0 +1,76 @@
+{
+    "results": {
+        "complexity": {
+            "r2aa": {
+                "afCc": null, 
+                "afC": null
+            }
+        }, 
+        "usr/bin/canberra-gtk-play": {
+            "report-functions": [
+                "ca_proplist_create", 
+                "g_option_context_set_help_enabled", 
+                "__stack_chk_fail", 
+                "g_option_context_add_main_entries", 
+                "ca_strerror", 
+                "g_type_init", 
+                "g_option_context_add_group", 
+                "g_free", 
+                "_ITM_registerTMCloneTable", 
+                "g_strndup", 
+                "ca_proplist_destroy", 
+                "g_assertion_message_expr", 
+                "ca_context_play_full", 
+                "gtk_main", 
+                "__cxa_finalize", 
+                "g_print", 
+                "g_option_context_free", 
+                "ca_context_change_props", 
+                "ca_proplist_sets", 
+                "gtk_main_quit", 
+                "g_option_context_parse", 
+                "__libc_start_main", 
+                "g_option_context_new", 
+                "g_set_error", 
+                "strchr", 
+                "ca_gtk_context_get", 
+                "__gmon_start__", 
+                "gtk_get_option_group", 
+                "_ITM_deregisterTMCloneTable", 
+                "g_idle_add", 
+                "setlocale"
+            ], 
+            "rpm": "libcanberra-gtk3-0.30-15.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/canberra-gtk-play"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " libcanberra-gtk3", 
+            "License": " LGPLv2+", 
+            "URL": " http://git.0pointer.de/?p=libcanberra.git;a=summary", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-15.phx2.fedoraproject.org", 
+            "Description": "\nGtk+ 3.x bindings for libcanberra\n", 
+            "Build Date": " Thu 03 Aug 2017 01:36:19 PM EDT", 
+            "Source RPM": " libcanberra-0.30-15.fc27.src.rpm", 
+            "Version": " 0.30", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 06:14:07 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 15.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Gtk+ 3.x Bindings for libcanberra", 
+            "Size": " 52991"
+        }
+    }
+}

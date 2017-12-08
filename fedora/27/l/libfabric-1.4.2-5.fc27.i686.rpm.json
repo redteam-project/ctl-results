@@ -1,0 +1,143 @@
+{
+    "results": {
+        "complexity": {
+            "r2aa": {
+                "afCc": null, 
+                "afC": null
+            }
+        }, 
+        "usr/bin/fi_info": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "__fprintf_chk", 
+                "fi_freeinfo", 
+                "__printf_chk", 
+                "free", 
+                "strtok", 
+                "fi_dupinfo", 
+                "fi_freeparams", 
+                "putchar", 
+                "fi_getinfo", 
+                "__libc_start_main", 
+                "fi_tostr", 
+                "__cxa_finalize", 
+                "strcasecmp", 
+                "getopt_long", 
+                "__stack_chk_fail", 
+                "fi_getparams", 
+                "puts", 
+                "strdup", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "libfabric-1.4.2-5.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/fi_info"
+        }, 
+        "usr/bin/fi_strerror": {
+            "report-functions": [
+                "strtol", 
+                "__errno_location", 
+                "__gmon_start__", 
+                "strcmp", 
+                "putchar", 
+                "__printf_chk", 
+                "__libc_start_main", 
+                "__stack_chk_fail", 
+                "puts", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "libfabric-1.4.2-5.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/fi_strerror"
+        }, 
+        "usr/bin/fi_pingpong": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "fi_freeinfo", 
+                "__cxa_finalize", 
+                "setsockopt", 
+                "exit", 
+                "strncasecmp", 
+                "__libc_start_main", 
+                "free", 
+                "posix_memalign", 
+                "recv", 
+                "__fprintf_chk", 
+                "fi_tostr", 
+                "strdup", 
+                "__stack_chk_fail", 
+                "socket", 
+                "gai_strerror", 
+                "__snprintf_chk", 
+                "strtol", 
+                "listen", 
+                "strlen", 
+                "__printf_chk", 
+                "fi_fabric", 
+                "getaddrinfo", 
+                "fwrite", 
+                "close", 
+                "send", 
+                "strerror", 
+                "connect", 
+                "accept", 
+                "sysconf", 
+                "__errno_location", 
+                "__gmon_start__", 
+                "fi_getinfo", 
+                "fi_strerror", 
+                "malloc", 
+                "_ITM_registerTMCloneTable", 
+                "calloc", 
+                "fi_dupinfo", 
+                "getopt", 
+                "gettimeofday"
+            ], 
+            "rpm": "libfabric-1.4.2-5.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/fi_pingpong"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " libfabric", 
+            "License": " BSD or GPLv2", 
+            "URL": " http://ofiwg.github.io/libfabric/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-02.phx2.fedoraproject.org", 
+            "Description": "\nOpenFabrics Interfaces (OFI) is a framework focused on exporting fabric\ncommunication services to applications.  OFI is best described as a collection\nof libraries and applications used to export fabric services.  The key\ncomponents of OFI are: application interfaces, provider libraries, kernel\nservices, daemons, and test applications.\n\nLibfabric is a core component of OFI.  It is the library that defines and\nexports the user-space API of OFI, and is typically the only software that\napplications deal with directly.  It works in conjunction with provider\nlibraries, which are often integrated directly into libfabric.\n", 
+            "Build Date": " Wed 23 Aug 2017 03:44:36 PM EDT", 
+            "Source RPM": " libfabric-1.4.2-5.fc27.src.rpm", 
+            "Version": " 1.4.2", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Wed 23 Aug 2017 03:48:23 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 5.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Open Fabric Interfaces", 
+            "Size": " 806066"
+        }
+    }
+}

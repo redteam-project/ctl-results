@@ -1,0 +1,337 @@
+{
+    "results": {
+        "usr/bin/dgc": {
+            "report-functions": [
+                "cl_OutHelp", 
+                "gnc_DisableStrListBBB", 
+                "gnc_WriteXNF", 
+                "__gmon_start__", 
+                "cl_Do", 
+                "gnc_Close", 
+                "gnc_SynthByFile", 
+                "strcmp", 
+                "gnc_Error", 
+                "gnc_Log", 
+                "gnc_WriteEdif", 
+                "b_time_end", 
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable", 
+                "b_time_start", 
+                "gnc_ApplyBBBs", 
+                "exit", 
+                "gnc_Open", 
+                "_ITM_deregisterTMCloneTable", 
+                "gnc_WriteCellPLA", 
+                "gnc_WriteCellBEX", 
+                "__printf_chk", 
+                "gnc_ReadLibrary", 
+                "__libc_start_main"
+            ], 
+            "rpm": "dgc-0.98-16.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/dgc"
+        }, 
+        "usr/bin/simfsm": {
+            "report-functions": [
+                "cl_Do", 
+                "cl_OutHelp", 
+                "__libc_start_main", 
+                "fsmtl_Close", 
+                "fsmtl_Open", 
+                "fsm_WriteVHDL", 
+                "fsm_Import", 
+                "fsm_MinimizeStates", 
+                "strcmp", 
+                "fsmtl_AddAllEdgeSequence", 
+                "fsm_BuildBurstModeMachine", 
+                "fsm_BuildAsynchronousMachine", 
+                "fsm_Close", 
+                "_ITM_deregisterTMCloneTable", 
+                "fsm_Open", 
+                "fsm_WriteVHDLTB", 
+                "_ITM_registerTMCloneTable", 
+                "__printf_chk", 
+                "fsm_BuildClockedMachine", 
+                "exit", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "dgc-0.98-16.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/simfsm"
+        }, 
+        "usr/bin/dglc": {
+            "report-functions": [
+                "gnc_WriteBinaryLibrary", 
+                "__libc_start_main", 
+                "__printf_chk", 
+                "cl_OutHelp", 
+                "puts", 
+                "cl_Do", 
+                "gnc_Error", 
+                "gnc_Close", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "gnc_IdentifyAndMarkBBBs", 
+                "gnc_Open", 
+                "gnc_ReadLibrary", 
+                "exit", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "dgc-0.98-16.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/dglc"
+        }, 
+        "usr/bin/dgsop": {
+            "report-functions": [
+                "dclSubtract", 
+                "__gmon_start__", 
+                "dclAdd", 
+                "dclDestroyVA", 
+                "_ITM_registerTMCloneTable", 
+                "cl_Do", 
+                "dclGetLiteralCnt", 
+                "__cxa_finalize", 
+                "exit", 
+                "dclIsEquivalent", 
+                "pinfoInit", 
+                "dclReadPLAStr", 
+                "cl_OutHelp", 
+                "dclClear", 
+                "__libc_start_main", 
+                "dclMinimizeDC", 
+                "dclPrimesDC", 
+                "dclDontCareExpand", 
+                "dclImport", 
+                "puts", 
+                "dclGetOutput", 
+                "dclMinimizeDCWithBCP", 
+                "dclCopy", 
+                "pinfoInitProgress", 
+                "dclShow", 
+                "dcSetInByStr", 
+                "__stack_chk_fail", 
+                "pinfoDestroy", 
+                "dclWriteBEX", 
+                "dclWritePLA", 
+                "__printf_chk", 
+                "dclInitVA"
+            ], 
+            "rpm": "dgc-0.98-16.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/dgsop"
+        }, 
+        "usr/bin/edif2vhdl": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "gnc_WriteEdif", 
+                "__libc_start_main", 
+                "__sprintf_chk", 
+                "_ITM_deregisterTMCloneTable", 
+                "gnc_Error", 
+                "__stpcpy_chk", 
+                "b_set_WhileLoop", 
+                "gnc_Close", 
+                "gnc_WriteVHDL", 
+                "cl_Do", 
+                "gnc_Log", 
+                "__printf_chk", 
+                "__cxa_finalize", 
+                "gnc_Open", 
+                "cl_OutHelp", 
+                "gnc_ReadEdif", 
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "exit", 
+                "gnc_IsTopLevelCell"
+            ], 
+            "rpm": "dgc-0.98-16.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/edif2vhdl"
+        }, 
+        "usr/bin/bmsgen": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "puts", 
+                "__libc_start_main", 
+                "cl_OutHelp", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "__cxa_finalize", 
+                "__printf_chk", 
+                "putchar"
+            ], 
+            "rpm": "dgc-0.98-16.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/bmsgen"
+        }, 
+        "complexity": {
+            "r2aa": {
+                "afCc": null, 
+                "afC": null
+            }
+        }, 
+        "usr/bin/bmsencode": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "fsm_BuildPartitionTable", 
+                "__cxa_finalize", 
+                "puts", 
+                "fsm_Close", 
+                "dcInToStr", 
+                "__vfprintf_chk", 
+                "pinfoInit", 
+                "fms_UseOutputFeedbackRemovePartitions", 
+                "exit", 
+                "fsm_PushLogFn", 
+                "pinfoDestroy", 
+                "fsm_ReadBMS", 
+                "fsm_Open", 
+                "dclDestroy", 
+                "dclImport", 
+                "dclPrimesUSTT", 
+                "cl_OutHelp", 
+                "fsm_MinimizePartitionTable", 
+                "_ITM_deregisterTMCloneTable", 
+                "__stack_chk_fail", 
+                "dclInit", 
+                "__gmon_start__", 
+                "fsm_PopLogFn", 
+                "fsm_MinimizeStates", 
+                "dclMinimizeUSTT", 
+                "__printf_chk", 
+                "IsValidDCLFile", 
+                "fsm_SeparateStates"
+            ], 
+            "rpm": "dgc-0.98-16.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/bmsencode"
+        }, 
+        "usr/bin/bms2kiss": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "fsm_ReadBMS", 
+                "puts", 
+                "__printf_chk", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize", 
+                "fsm_Close", 
+                "fsm_Open", 
+                "__libc_start_main"
+            ], 
+            "rpm": "dgc-0.98-16.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/bms2kiss"
+        }, 
+        "usr/bin/xbm2pla": {
+            "report-functions": [
+                "xbm_ShowWalk", 
+                "_ITM_registerTMCloneTable", 
+                "xbm_WriteDOT", 
+                "__gmon_start__", 
+                "dclShow", 
+                "__printf_chk", 
+                "puts", 
+                "xbm_WritePLA", 
+                "cl_OutHelp", 
+                "xbm_SetImportFileNamePLAMachine", 
+                "xbm_Build", 
+                "_ITM_deregisterTMCloneTable", 
+                "xbm_Open", 
+                "exit", 
+                "__cxa_finalize", 
+                "xbm_ReadBMS", 
+                "xbm_WriteTestbenchVHDL", 
+                "xbm_SetPLAFileNameXBMPartitions", 
+                "xbm_SetImportFileNameStateCodes", 
+                "xbm_WriteEncoding", 
+                "xbm_SetPLAFileNameMinPartitions", 
+                "xbm_Write3DEQN", 
+                "xbm_WriteVCG", 
+                "xbm_SetVHDLComponentName", 
+                "xbm_SetPLAFileNamePrimePartitions", 
+                "xbm_WriteBEX", 
+                "__libc_start_main", 
+                "cl_Do"
+            ], 
+            "rpm": "dgc-0.98-16.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/xbm2pla"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Applications/Engineering", 
+            "Name": " dgc", 
+            "License": " GPLv2+", 
+            "URL": " http://sourceforge.net/projects/dgc/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-26.phx2.fedoraproject.org", 
+            "Description": "\nDGC is a tool for the creation of digital netlists. DGC does an optimization\nand technology mapping for an abstract description of boolean functions and\nstate machines. Output formats are EDIF, XNF and VHDL.\nInput formats are KISS, PLA and others.\n", 
+            "Build Date": " Wed 02 Aug 2017 04:15:48 PM EDT", 
+            "Source RPM": " dgc-0.98-16.fc27.src.rpm", 
+            "Version": " 0.98", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 07 Aug 2017 03:05:49 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 16.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Digital Gate Compiler", 
+            "Size": " 1348822"
+        }
+    }
+}

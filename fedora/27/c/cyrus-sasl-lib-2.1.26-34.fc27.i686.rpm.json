@@ -1,0 +1,111 @@
+{
+    "results": {
+        "usr/sbin/sasldblistusers2": {
+            "report-functions": [
+                "__fprintf_chk", 
+                "sasl_version", 
+                "__gmon_start__", 
+                "strncpy", 
+                "exit", 
+                "db_strerror", 
+                "getopt", 
+                "sasl_done", 
+                "sasl_server_new", 
+                "__stack_chk_fail", 
+                "strlen", 
+                "strrchr", 
+                "sasl_server_init", 
+                "sasl_dispose", 
+                "fwrite", 
+                "_ITM_deregisterTMCloneTable", 
+                "__libc_start_main", 
+                "__printf_chk", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "cyrus-sasl-lib-2.1.26-34.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/sbin/sasldblistusers2"
+        }, 
+        "complexity": {
+            "r2aa": {
+                "afCc": null, 
+                "afC": null
+            }
+        }, 
+        "usr/sbin/saslpasswd2": {
+            "report-functions": [
+                "_IO_putc", 
+                "fwrite", 
+                "fflush", 
+                "perror", 
+                "_ITM_deregisterTMCloneTable", 
+                "__stack_chk_fail", 
+                "read", 
+                "gethostname", 
+                "memcmp", 
+                "tcsetattr", 
+                "sasl_done", 
+                "exit", 
+                "sasl_server_init", 
+                "_ITM_registerTMCloneTable", 
+                "malloc", 
+                "sasl_version", 
+                "sasl_server_new", 
+                "tcgetattr", 
+                "sasl_auxprop_store", 
+                "__fprintf_chk", 
+                "fputs", 
+                "sasl_errstring", 
+                "strlen", 
+                "strchr", 
+                "prop_dispose", 
+                "sasl_setpass", 
+                "getopt", 
+                "prop_set", 
+                "prop_request", 
+                "strrchr", 
+                "__cxa_finalize", 
+                "isatty", 
+                "__libc_start_main", 
+                "prop_new"
+            ], 
+            "rpm": "cyrus-sasl-lib-2.1.26-34.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/sbin/saslpasswd2"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " cyrus-sasl-lib", 
+            "License": " BSD with advertising", 
+            "URL": " http://asg.web.cmu.edu/sasl/sasl-library.html", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-11.phx2.fedoraproject.org", 
+            "Description": "\nThe cyrus-sasl-lib package contains shared libraries which are needed by\napplications which use the Cyrus SASL library.\n", 
+            "Build Date": " Wed 02 Aug 2017 03:52:08 PM EDT", 
+            "Source RPM": " cyrus-sasl-2.1.26-34.fc27.src.rpm", 
+            "Version": " 2.1.26", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 07 Aug 2017 03:32:06 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 34.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Shared libraries needed by applications which use Cyrus SASL", 
+            "Size": " 396535"
+        }
+    }
+}

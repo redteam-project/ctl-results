@@ -1,0 +1,96 @@
+{
+    "results": {
+        "complexity": {
+            "r2aa": {
+                "afCc": null, 
+                "afC": null
+            }
+        }, 
+        "usr/bin/appstream-builder": {
+            "report-functions": [
+                "g_dir_open", 
+                "g_timer_elapsed", 
+                "asb_context_set_icons_dir", 
+                "g_build_filename", 
+                "asb_context_set_api_version", 
+                "_Unwind_Resume", 
+                "g_file_test", 
+                "g_ptr_array_new_with_free_func", 
+                "g_print", 
+                "g_option_context_new", 
+                "asb_context_set_temp_dir", 
+                "g_ptr_array_unref", 
+                "g_object_unref", 
+                "g_log", 
+                "g_option_context_get_help", 
+                "g_timer_reset", 
+                "asb_context_set_log_dir", 
+                "__gmon_start__", 
+                "asb_context_set_basename", 
+                "g_free", 
+                "asb_context_setup", 
+                "asb_context_set_min_icon_size", 
+                "g_strcmp0", 
+                "dcgettext", 
+                "_ITM_registerTMCloneTable", 
+                "g_dir_read_name", 
+                "asb_context_set_flags", 
+                "g_dir_close", 
+                "g_setenv", 
+                "g_option_context_parse", 
+                "_ITM_deregisterTMCloneTable", 
+                "g_timer_new", 
+                "asb_context_set_cache_dir", 
+                "g_strfreev", 
+                "asb_context_add_filename", 
+                "asb_context_process", 
+                "__stack_chk_fail", 
+                "textdomain", 
+                "g_option_context_add_main_entries", 
+                "g_ptr_array_add", 
+                "g_error_free", 
+                "asb_context_set_origin", 
+                "bind_textdomain_codeset", 
+                "bindtextdomain", 
+                "__gcc_personality_v0", 
+                "g_timer_destroy", 
+                "setlocale", 
+                "g_option_context_free", 
+                "__cxa_finalize", 
+                "asb_context_set_output_dir", 
+                "g_strdup"
+            ], 
+            "rpm": "libappstream-glib-builder-0.7.2-1.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/appstream-builder"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " libappstream-glib-builder", 
+            "License": " LGPLv2+", 
+            "URL": " http://people.freedesktop.org/~hughsient/appstream-glib/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-08.phx2.fedoraproject.org", 
+            "Description": "\nThis library and command line tool is used for building AppStream metadata\nfrom a directory of packages.\n", 
+            "Build Date": " Mon 21 Aug 2017 12:11:24 PM EDT", 
+            "Source RPM": " libappstream-glib-0.7.2-1.fc27.src.rpm", 
+            "Version": " 0.7.2", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 21 Aug 2017 12:16:02 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 1.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Library and command line tools for building AppStream metadata", 
+            "Size": " 225058"
+        }
+    }
+}

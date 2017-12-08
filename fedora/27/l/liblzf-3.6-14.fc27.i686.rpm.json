@@ -1,0 +1,72 @@
+{
+    "results": {
+        "usr/bin/lzf": {
+            "report-functions": [
+                "exit", 
+                "_ITM_deregisterTMCloneTable", 
+                "strncmp", 
+                "strtoul", 
+                "getenv", 
+                "unlink", 
+                "getopt_long", 
+                "strlen", 
+                "lzf_compress", 
+                "__lxstat64", 
+                "__stack_chk_fail", 
+                "strstr", 
+                "lzf_decompress", 
+                "fchmod", 
+                "open64", 
+                "perror", 
+                "read", 
+                "__memcpy_chk", 
+                "close", 
+                "strrchr", 
+                "__errno_location", 
+                "__fprintf_chk", 
+                "__memmove_chk", 
+                "_ITM_registerTMCloneTable", 
+                "__cxa_finalize", 
+                "isatty", 
+                "write"
+            ], 
+            "rpm": "liblzf-3.6-14.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/lzf"
+        }, 
+        "complexity": {
+            "r2aa": {
+                "afCc": null, 
+                "afC": null
+            }
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " liblzf", 
+            "License": " BSD or GPLv2+", 
+            "URL": " http://oldhome.schmorp.de/marc/liblzf.html", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-29.phx2.fedoraproject.org", 
+            "Description": "\nLibLZF is a very small data compression library. It consists\nof only two .c and two .h files and is very easy to\nincorporate into your own programs.  The compression algorithm\nis very, very fast, yet still written in portable C.\n", 
+            "Build Date": " Thu 03 Aug 2017 02:54:51 PM EDT", 
+            "Source RPM": " liblzf-3.6-14.fc27.src.rpm", 
+            "Version": " 3.6", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 10:40:37 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 14.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Small data compression library", 
+            "Size": " 44180"
+        }
+    }
+}

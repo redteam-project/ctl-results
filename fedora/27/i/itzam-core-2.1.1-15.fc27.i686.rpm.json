@@ -1,0 +1,174 @@
+{
+    "results": {
+        "usr/bin/itzam_dump_records": {
+            "report-functions": [
+                "itzam_datafile_open", 
+                "analyze_datafile", 
+                "_ITM_registerTMCloneTable", 
+                "itzam_datafile_close", 
+                "__cxa_finalize", 
+                "__libc_start_main", 
+                "puts", 
+                "__gmon_start__", 
+                "__stack_chk_fail", 
+                "_ITM_deregisterTMCloneTable", 
+                "__printf_chk"
+            ], 
+            "rpm": "itzam-core-2.1.1-15.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/itzam_dump_records"
+        }, 
+        "usr/bin/itzam_data_tests": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "itzam_datafile_remove", 
+                "_ITM_registerTMCloneTable", 
+                "itzam_datafile_write", 
+                "__cxa_finalize", 
+                "itzam_datafile_rewind", 
+                "__gmon_start__", 
+                "__printf_chk", 
+                "itzam_datafile_open", 
+                "itzam_datafile_close", 
+                "__stack_chk_fail", 
+                "itzam_datafile_create", 
+                "puts", 
+                "exit"
+            ], 
+            "rpm": "itzam-core-2.1.1-15.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/itzam_data_tests"
+        }, 
+        "complexity": {
+            "r2aa": {
+                "afCc": null, 
+                "afC": null
+            }
+        }, 
+        "usr/bin/itzam_exercise": {
+            "report-functions": [
+                "itzam_btree_create", 
+                "exit", 
+                "__libc_start_main", 
+                "close", 
+                "__cxa_finalize", 
+                "itzam_btree_insert_rec", 
+                "strtol", 
+                "__printf_chk", 
+                "itzam_btree_iterator_move_last", 
+                "itzam_btree_iterator_move_prev", 
+                "itzam_btree_find", 
+                "itzam_btree_close", 
+                "time", 
+                "itzam_btree_read_rec", 
+                "putchar", 
+                "itzam_datafile_get_refbits", 
+                "analyze_btree", 
+                "__snprintf_chk", 
+                "__stack_chk_fail", 
+                "itzam_btree_remove", 
+                "malloc", 
+                "itzam_btree_iterator_is_valid", 
+                "open", 
+                "itzam_get_state_description", 
+                "fflush", 
+                "strcmp", 
+                "itzam_btree_iterator_free", 
+                "_ITM_deregisterTMCloneTable", 
+                "itzam_btree_iterator_create", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "strtoul", 
+                "read", 
+                "itzam_btree_iterator_move_next", 
+                "dump_btree", 
+                "itzam_btree_iterator_get_rec_ref", 
+                "free"
+            ], 
+            "rpm": "itzam-core-2.1.1-15.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/itzam_exercise"
+        }, 
+        "usr/bin/itzam_bigfile": {
+            "report-functions": [
+                "__gmon_start__", 
+                "calloc", 
+                "puts", 
+                "open", 
+                "itzam_datafile_write", 
+                "__cxa_finalize", 
+                "time", 
+                "_ITM_deregisterTMCloneTable", 
+                "itzam_get_state_description", 
+                "putchar", 
+                "_ITM_registerTMCloneTable", 
+                "read", 
+                "itzam_btree_iterator_is_valid", 
+                "close", 
+                "__snprintf_chk", 
+                "itzam_datafile_read", 
+                "exit", 
+                "itzam_btree_iterator_get_rec_ref", 
+                "strtoul", 
+                "itzam_btree_iterator_create", 
+                "itzam_btree_close", 
+                "__printf_chk", 
+                "__stack_chk_fail", 
+                "itzam_btree_create", 
+                "__libc_start_main", 
+                "itzam_btree_iterator_free", 
+                "itzam_datafile_seek", 
+                "itzam_btree_insert"
+            ], 
+            "rpm": "itzam-core-2.1.1-15.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/itzam_bigfile"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " itzam-core", 
+            "License": " GPLv3+", 
+            "URL": " http://www.coyotegulch.com/products/itzam/index.html", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-31.phx2.fedoraproject.org", 
+            "Description": "\nItzam/Core is a deliberately portable and concise C library for creating and\nmanipulating keyed-access database files containing variable-length, random\naccess records. Information is referenced by a user-defined key value;\nindexes may be combined with or remain separate from data.\n", 
+            "Build Date": " Thu 03 Aug 2017 06:10:58 AM EDT", 
+            "Source RPM": " itzam-core-2.1.1-15.fc27.src.rpm", 
+            "Version": " 2.1.1", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 12:21:13 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 15.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Library for creating and manipulating keyed-access database files", 
+            "Size": " 115210"
+        }
+    }
+}

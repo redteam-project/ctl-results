@@ -1,0 +1,25 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " gap-pkg-factint", 
+            "License": " GPLv2+", 
+            "URL": " http://www.gap-system.org/DevelopersPages/StefanKohl/factint.html", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-18.phx2.fedoraproject.org", 
+            "Description": "\nFactInt provides implementations of the following methods for factoring\nintegers:\n- Pollard's p-1\n- Williams' p+1\n- Elliptic Curves Method (ECM)\n- Continued Fraction Algorithm (CFRAC)\n- Multiple Polynomial Quadratic Sieve (MPQS)\nFactInt also makes use of Richard P. Brent's tables of known factors of\nintegers of the form bk+/-1 for \"small\" b.\n\nThe ECM method is suited best for finding factors which are neither too\nsmall (i.e. have less than about 12 decimal digits) nor too close to the\nsquare root of the number to be factored.  The MPQS method is designed\nfor factoring products of two primes of comparable orders of magnitude.\nCFRAC is the historical predecessor of the MPQS method.  Pollard's p-1\nand Williams' p+1 are useful for finding factors p such that all prime\nfactors of p-1 (respectively p+1) are \"small\", e.g. smaller than 1000000.\nAll factoring methods implemented in this package are probabilistic.  In\nparticular the time needed by the ECM method depends largely on luck.\n\nFactInt provides a general-purpose factorization routine which uses an\nappropriate combination of the methods mentioned above, the Pollard Rho\nroutine which is implemented in the GAP Library and a variety of tricks\nfor special cases to obtain a good average performance for \"arbitrary\"\nintegers.  At the user's option, FactInt provides detailed information\nabout the progress of the factorization process.\n", 
+            "Build Date": " Wed 26 Jul 2017 06:51:52 AM EDT", 
+            "Source RPM": " gap-pkg-factint-1.5.4-2.fc27.src.rpm", 
+            "Version": " 1.5.4", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Tue 01 Aug 2017 04:37:03 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 2.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Advanced methods for factoring integers", 
+            "Size": " 9492197"
+        }
+    }
+}

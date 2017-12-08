@@ -1,0 +1,82 @@
+{
+    "results": {
+        "complexity": {
+            "r2aa": {
+                "afCc": null, 
+                "afC": null
+            }
+        }, 
+        "usr/bin/kdb3_sqlite3_dump": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "sqlite3_result_text", 
+                "free", 
+                "sqlite3_config", 
+                "_ZNSt8ios_base4InitC1Ev", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERjj", 
+                "__libc_start_main", 
+                "sqlite3_create_function", 
+                "sqlite3_mprintf", 
+                "_ITM_registerTMCloneTable", 
+                "sqlite3_free", 
+                "malloc", 
+                "access", 
+                "_ZSt19__throw_logic_errorPKc", 
+                "sqlite3_column_text", 
+                "__cxa_atexit", 
+                "sqlite3_prepare", 
+                "sqlite3_step", 
+                "__fprintf_chk", 
+                "sqlite3_exec", 
+                "__gmon_start__", 
+                "_ZNSt8ios_base4InitD1Ev", 
+                "strlen", 
+                "sqlite3_close", 
+                "sqlite3_errcode", 
+                "strtol", 
+                "__cxa_finalize", 
+                "sqlite3_open", 
+                "sqlite3_snprintf", 
+                "sqlite3_finalize", 
+                "sqlite3_enable_load_extension", 
+                "_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7compareEPKc", 
+                "_ZdlPv", 
+                "realloc", 
+                "sqlite3_errmsg", 
+                "exit", 
+                "_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_i"
+            ], 
+            "rpm": "kdb-3.0.2-2.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/kdb3_sqlite3_dump"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " kdb", 
+            "License": " LGPLv2+", 
+            "URL": " https://community.kde.org/KDb", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-32.phx2.fedoraproject.org", 
+            "Description": "\nA database connectivity and creation framework for various database vendors.\n", 
+            "Build Date": " Fri 11 Aug 2017 08:52:13 PM EDT", 
+            "Source RPM": " kdb-3.0.2-2.fc27.src.rpm", 
+            "Version": " 3.0.2", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 11 Aug 2017 08:59:10 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 2.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Database Connectivity and Creation Framework", 
+            "Size": " 2346800"
+        }
+    }
+}

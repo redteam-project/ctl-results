@@ -1,0 +1,101 @@
+{
+    "results": {
+        "complexity": {
+            "r2aa": {
+                "afCc": null, 
+                "afC": null
+            }
+        }, 
+        "usr/bin/laszippertest": {
+            "report-functions": [
+                "_ZN11LASunzipper5closeEv", 
+                "exit", 
+                "_ZN6LASzip15request_versionEt", 
+                "__stack_chk_fail", 
+                "_ZNSt8ios_baseD2Ev", 
+                "_ZN9LASzipper4openEP8_IO_FILEPK6LASzip", 
+                "_ZN11LASunzipperD1Ev", 
+                "_ZN11LASunzipper4seekEj", 
+                "clock", 
+                "_ZN9LASzipper4openERSoPK6LASzip", 
+                "_ZNSt9basic_iosIcSt11char_traitsIcEE5clearESt12_Ios_Iostate", 
+                "_ZNSt12__basic_fileIcED1Ev", 
+                "_Unwind_Resume", 
+                "_ZN9LASzipper5chunkEv", 
+                "__fprintf_chk", 
+                "_ZNK6LASzip9get_errorEv", 
+                "_ZNSt13basic_filebufIcSt11char_traitsIcEEC1Ev", 
+                "_ZN11LASunzipper4openEP8_IO_FILEPK6LASzip", 
+                "_ZN6LASzip6unpackEPKhi", 
+                "__gxx_personality_v0", 
+                "strtol", 
+                "_ZN6LASzip5setupEhtt", 
+                "getc", 
+                "fclose", 
+                "_ZN6LASzipC1Ev", 
+                "_Znwj", 
+                "_ZNSt9basic_iosIcSt11char_traitsIcEE4initEPSt15basic_streambufIcS1_E", 
+                "_ZNSt13basic_filebufIcSt11char_traitsIcEED1Ev", 
+                "_ZN6LASzip4packERPhRi", 
+                "__libc_start_main", 
+                "_ZNK11LASunzipper9get_errorEv", 
+                "_ZdaPv", 
+                "__vfprintf_chk", 
+                "_ZNSt13basic_filebufIcSt11char_traitsIcEE4openEPKcSt13_Ios_Openmode", 
+                "rand", 
+                "_ZN9LASzipperD1Ev", 
+                "_ZN11LASunzipper4openERSiPK6LASzip", 
+                "_ZNSt6localeD1Ev", 
+                "_ITM_registerTMCloneTable", 
+                "_ZN6LASzip14set_chunk_sizeEj", 
+                "_ZNSt8ios_baseC2Ev", 
+                "_ZN9LASzipper5writeEPKPKh", 
+                "__gmon_start__", 
+                "_ZN11LASunzipperC1Ev", 
+                "srand", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize", 
+                "fopen", 
+                "_Znaj", 
+                "_ZN9LASzipperC1Ev", 
+                "_ZNK9LASzipper9get_errorEv", 
+                "_ZN11LASunzipper4readEPKPh", 
+                "fflush", 
+                "time", 
+                "_ZN9LASzipper5closeEv", 
+                "_ZdlPv"
+            ], 
+            "rpm": "laszip-2.2.0-9.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/laszippertest"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " laszip", 
+            "License": " LGPLv2", 
+            "URL": " http://www.laszip.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-20.phx2.fedoraproject.org", 
+            "Description": "\nLASzip - a free product of rapidlasso GmbH - quickly turns bulky LAS files into\ncompact LAZ files without information loss.\n", 
+            "Build Date": " Thu 03 Aug 2017 10:35:22 AM EDT", 
+            "Source RPM": " laszip-2.2.0-9.fc27.src.rpm", 
+            "Version": " 2.2.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 04:28:52 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 9.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Quickly turns bulky LAS files into compant LAZ files", 
+            "Size": " 211978"
+        }
+    }
+}

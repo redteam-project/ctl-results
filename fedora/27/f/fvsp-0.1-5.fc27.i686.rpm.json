@@ -1,0 +1,54 @@
+{
+    "results": {
+        "usr/bin/fvsp": {
+            "report-functions": [
+                "free", 
+                "__libc_start_main", 
+                "__posix_getopt", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize", 
+                "__printf_chk", 
+                "vsp", 
+                "__gmon_start__", 
+                "exit"
+            ], 
+            "rpm": "fvsp-0.1-5.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/fvsp"
+        }, 
+        "complexity": {
+            "r2aa": {
+                "afCc": null, 
+                "afC": null
+            }
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Tools", 
+            "Name": " fvsp", 
+            "License": " LGPLv3+", 
+            "URL": " https://ppisar.fedorapeople.org/fvsp/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-30.phx2.fedoraproject.org", 
+            "Description": "\nThis is a tool and library for converting Perl version strings into RPM\nversion strings.\n", 
+            "Build Date": " Wed 02 Aug 2017 08:46:21 PM EDT", 
+            "Source RPM": " fvsp-0.1-5.fc27.src.rpm", 
+            "Version": " 0.1", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sun 06 Aug 2017 11:06:19 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 5.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Convert Perl version string into RPM-compatible version string", 
+            "Size": " 25883"
+        }
+    }
+}

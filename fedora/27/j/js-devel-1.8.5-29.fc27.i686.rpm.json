@@ -1,0 +1,48 @@
+{
+    "results": {
+        "usr/bin/jscpucfg": {
+            "report-functions": [
+                "__libc_start_main", 
+                "puts"
+            ], 
+            "rpm": "js-devel-1.8.5-29.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/jscpucfg"
+        }, 
+        "complexity": {
+            "r2aa": {
+                "afCc": 15, 
+                "afC": 155
+            }
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " js-devel", 
+            "License": " GPLv2+ or LGPLv2+ or MPLv1.1", 
+            "URL": " http://www.mozilla.org/js/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-17.phx2.fedoraproject.org", 
+            "Source RPM": " js-1.8.5-29.fc27.src.rpm", 
+            "Description": "\nThis package contains the header files, static libraries and development\ndocumentation for js. If you like to develop programs using js,\nyou will need to install js-devel.\n", 
+            "Build Date": " Thu 03 Aug 2017 06:37:13 AM EDT", 
+            "Epoch": " 1", 
+            "Version": " 1.8.5", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 12:47:43 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 29.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Header files, libraries and development documentation for js", 
+            "Size": " 1716733"
+        }
+    }
+}

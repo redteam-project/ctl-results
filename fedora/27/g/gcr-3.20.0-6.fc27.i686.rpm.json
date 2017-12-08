@@ -1,0 +1,125 @@
+{
+    "results": {
+        "usr/bin/gcr-viewer": {
+            "report-functions": [
+                "g_option_context_new", 
+                "gtk_widget_show", 
+                "_ITM_registerTMCloneTable", 
+                "dcgettext", 
+                "g_option_context_parse", 
+                "__libc_start_main", 
+                "__cxa_finalize", 
+                "bind_textdomain_codeset", 
+                "g_option_context_add_main_entries", 
+                "g_idle_add", 
+                "setlocale", 
+                "gtk_widget_hide", 
+                "textdomain", 
+                "g_log", 
+                "g_set_application_name", 
+                "g_option_context_free", 
+                "gtk_main_quit", 
+                "gcr_viewer_window_load", 
+                "g_signal_connect_data", 
+                "bindtextdomain", 
+                "gcr_viewer_window_new", 
+                "g_error_free", 
+                "gtk_get_option_group", 
+                "gtk_init", 
+                "g_type_check_instance_cast", 
+                "exit", 
+                "g_file_new_for_commandline_arg", 
+                "__gmon_start__", 
+                "gcr_viewer_window_get_type", 
+                "g_print", 
+                "g_strfreev", 
+                "__stack_chk_fail", 
+                "g_object_unref", 
+                "_ITM_deregisterTMCloneTable", 
+                "g_option_context_add_group", 
+                "gtk_main"
+            ], 
+            "rpm": "gcr-3.20.0-6.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/gcr-viewer"
+        }, 
+        "complexity": {
+            "r2aa": {
+                "afCc": null, 
+                "afC": null
+            }
+        }, 
+        "usr/libexec/gcr-prompter": {
+            "report-functions": [
+                "g_object_unref", 
+                "g_log_set_handler", 
+                "gcr_system_prompter_register", 
+                "g_log", 
+                "textdomain", 
+                "g_log_set_default_handler", 
+                "__cxa_finalize", 
+                "__gmon_start__", 
+                "g_strcmp0", 
+                "g_getenv", 
+                "setlocale", 
+                "bindtextdomain", 
+                "_ITM_registerTMCloneTable", 
+                "fputs", 
+                "g_source_remove", 
+                "gtk_init", 
+                "bind_textdomain_codeset", 
+                "g_log_default_handler", 
+                "__libc_start_main", 
+                "g_bus_own_name", 
+                "g_bus_unown_name", 
+                "gtk_main", 
+                "gcr_system_prompter_new", 
+                "g_signal_connect_data", 
+                "__syslog_chk", 
+                "openlog", 
+                "_ITM_deregisterTMCloneTable", 
+                "g_set_printerr_handler", 
+                "gcr_system_prompter_unregister", 
+                "g_timeout_add_seconds", 
+                "gcr_prompt_dialog_get_type"
+            ], 
+            "rpm": "gcr-3.20.0-6.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/libexec/gcr-prompter"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " gcr", 
+            "License": " LGPLv2+", 
+            "URL": " https://wiki.gnome.org/Projects/CryptoGlue", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-05.phx2.fedoraproject.org", 
+            "Description": "\ngcr is a library for displaying certificates, and crypto UI, accessing\nkey stores. It also provides a viewer for crypto files on the GNOME\ndesktop.\n\ngck is a library for accessing PKCS#11 modules like smart cards.\n", 
+            "Build Date": " Wed 02 Aug 2017 09:10:22 PM EDT", 
+            "Source RPM": " gcr-3.20.0-6.fc27.src.rpm", 
+            "Version": " 3.20.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 03 Aug 2017 08:08:21 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 6.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A library for bits of crypto UI and parsing", 
+            "Size": " 2450934"
+        }
+    }
+}

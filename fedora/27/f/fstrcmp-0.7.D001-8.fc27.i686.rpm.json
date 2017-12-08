@@ -1,0 +1,72 @@
+{
+    "results": {
+        "complexity": {
+            "r2aa": {
+                "afCc": null, 
+                "afC": null
+            }
+        }, 
+        "usr/bin/fstrcmp": {
+            "report-functions": [
+                "fstrcmpi", 
+                "fstrcasecmp", 
+                "_ITM_deregisterTMCloneTable", 
+                "malloc", 
+                "puts", 
+                "__fprintf_chk", 
+                "__gmon_start__", 
+                "fstrcoll", 
+                "fstrcasecmpi", 
+                "__stack_chk_fail", 
+                "perror", 
+                "fstrcmp_program_name_get", 
+                "__fxstat", 
+                "fstrcmp_program_name_set", 
+                "_ITM_registerTMCloneTable", 
+                "read", 
+                "getopt_long", 
+                "__printf_chk", 
+                "fmemcmp", 
+                "gettimeofday", 
+                "__libc_start_main", 
+                "exit", 
+                "fstrcmp", 
+                "fmemcmpi", 
+                "__cxa_finalize", 
+                "open", 
+                "fstrcmp_version_print"
+            ], 
+            "rpm": "fstrcmp-0.7.D001-8.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/fstrcmp"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " fstrcmp", 
+            "License": " GPLv3+", 
+            "URL": " http://fstrcmp.sourceforge.net/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-30.phx2.fedoraproject.org", 
+            "Description": "\nThe fstrcmp package provides a library which may be used to make fuzzy\ncomparisons of strings and byte arrays. It also provides simple commands for use\nin shell scripts.\n", 
+            "Build Date": " Wed 02 Aug 2017 08:36:04 PM EDT", 
+            "Source RPM": " fstrcmp-0.7.D001-8.fc27.src.rpm", 
+            "Version": " 0.7.D001", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 05 Aug 2017 01:14:23 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 8.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Fuzzy string compare library", 
+            "Size": " 87682"
+        }
+    }
+}

@@ -1,0 +1,284 @@
+{
+    "results": {
+        "usr/include/llvm34/llvm/Object/ELFObjectFile_h": {
+            "report-functions": [], 
+            "rpm": "llvm34-devel-3.4.2-10.fc26.i686.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {}, 
+            "filename": "usr/include/llvm34/llvm/Object/ELFObjectFile.h"
+        }, 
+        "usr/include/llvm34/llvm/MC/MCSectionELF_h": {
+            "report-functions": [], 
+            "rpm": "llvm34-devel-3.4.2-10.fc26.i686.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {}, 
+            "filename": "usr/include/llvm34/llvm/MC/MCSectionELF.h"
+        }, 
+        "usr/include/llvm34/llvm/MC/MCELFObjectWriter_h": {
+            "report-functions": [], 
+            "rpm": "llvm34-devel-3.4.2-10.fc26.i686.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {}, 
+            "filename": "usr/include/llvm34/llvm/MC/MCELFObjectWriter.h"
+        }, 
+        "usr/include/llvm34/llvm/MC/MCELFStreamer_h": {
+            "report-functions": [], 
+            "rpm": "llvm34-devel-3.4.2-10.fc26.i686.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {}, 
+            "filename": "usr/include/llvm34/llvm/MC/MCELFStreamer.h"
+        }, 
+        "usr/include/llvm34/llvm/Object/ELFTypes_h": {
+            "report-functions": [], 
+            "rpm": "llvm34-devel-3.4.2-10.fc26.i686.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {}, 
+            "filename": "usr/include/llvm34/llvm/Object/ELFTypes.h"
+        }, 
+        "usr/include/llvm34/llvm/Support/ELF_h": {
+            "report-functions": [], 
+            "rpm": "llvm34-devel-3.4.2-10.fc26.i686.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {}, 
+            "filename": "usr/include/llvm34/llvm/Support/ELF.h"
+        }, 
+        "usr/include/llvm34/llvm/Object/ELF_h": {
+            "report-functions": [], 
+            "rpm": "llvm34-devel-3.4.2-10.fc26.i686.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {}, 
+            "filename": "usr/include/llvm34/llvm/Object/ELF.h"
+        }, 
+        "usr/bin/llvm-config-32-3_4": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "ioctl", 
+                "realloc", 
+                "setupterm", 
+                "strdup", 
+                "__fxstat", 
+                "localtime_r", 
+                "__stack_chk_fail", 
+                "strftime", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEaSEOS4_", 
+                "open", 
+                "_ZdaPv", 
+                "posix_spawn_file_actions_addopen", 
+                "_ZdlPv", 
+                "pthread_mutex_init", 
+                "strsep", 
+                "malloc", 
+                "pthread_mutexattr_init", 
+                "dladdr", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_appendEPKcj", 
+                "_ITM_registerTMCloneTable", 
+                "__libc_start_main", 
+                "posix_spawn", 
+                "rename", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6assignEPKc", 
+                "ftruncate", 
+                "access", 
+                "pthread_mutex_lock", 
+                "fread", 
+                "__cxa_atexit", 
+                "abort", 
+                "sigaction", 
+                "backtrace", 
+                "memmove", 
+                "truncate", 
+                "posix_spawn_file_actions_adddup2", 
+                "strchr", 
+                "pthread_mutexattr_setpshared", 
+                "unlink", 
+                "close", 
+                "posix_spawn_file_actions_init", 
+                "readlink", 
+                "__gxx_personality_v0", 
+                "tigetnum", 
+                "fputs", 
+                "_Znaj", 
+                "gettimeofday", 
+                "_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE4findEcj", 
+                "exit", 
+                "_exit", 
+                "futimens", 
+                "link", 
+                "execv", 
+                "pthread_attr_init", 
+                "pthread_mutex_trylock", 
+                "pthread_attr_destroy", 
+                "srand", 
+                "munmap", 
+                "wait", 
+                "pthread_mutex_destroy", 
+                "dup2", 
+                "getpid", 
+                "__ctzdi2", 
+                "__udivdi3", 
+                "write", 
+                "ferror", 
+                "strerror_r", 
+                "memcmp", 
+                "__fprintf_chk", 
+                "sqrt", 
+                "readdir", 
+                "getpagesize", 
+                "__cxa_throw_bad_array_new_length", 
+                "mmap", 
+                "isatty", 
+                "rand", 
+                "pthread_mutexattr_destroy", 
+                "sigprocmask", 
+                "pthread_mutexattr_settype", 
+                "_Znwj", 
+                "pthread_create", 
+                "pthread_join", 
+                "del_curterm", 
+                "_ZSt20__throw_length_errorPKc", 
+                "__gmon_start__", 
+                "raise", 
+                "feof", 
+                "realpath", 
+                "strrchr", 
+                "__snprintf_chk", 
+                "waitpid", 
+                "fopen", 
+                "getrlimit", 
+                "posix_spawn_file_actions_destroy", 
+                "__cxa_pure_virtual", 
+                "fork", 
+                "__open_2", 
+                "__cxa_guard_acquire", 
+                "strtol", 
+                "set_curterm", 
+                "writev", 
+                "getrusage", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_assignERKS4_", 
+                "closedir", 
+                "alarm", 
+                "__errno_location", 
+                "execve", 
+                "_ZSt19__throw_logic_errorPKc", 
+                "__cxa_guard_abort", 
+                "_ZSt18_Rb_tree_decrementPSt18_Rb_tree_node_base", 
+                "symlink", 
+                "pthread_attr_setstacksize", 
+                "kill", 
+                "isprint", 
+                "sigfillset", 
+                "strlen", 
+                "__cxa_guard_release", 
+                "fputc", 
+                "getenv", 
+                "__xstat", 
+                "_ZSt29_Rb_tree_insert_and_rebalancebPSt18_Rb_tree_node_baseS0_RS_", 
+                "pthread_mutex_unlock", 
+                "sigemptyset", 
+                "__cxa_demangle", 
+                "free", 
+                "_ITM_deregisterTMCloneTable", 
+                "lseek", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERjj", 
+                "setrlimit", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7reserveEj", 
+                "__udivmoddi4", 
+                "opendir", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructEjc", 
+                "getcwd", 
+                "remove", 
+                "mkdir", 
+                "strsignal", 
+                "__umoddi3", 
+                "mallinfo", 
+                "calloc", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_replaceEjjPKcj", 
+                "fclose", 
+                "__popcountdi2"
+            ], 
+            "rpm": "llvm34-devel-3.4.2-10.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/llvm-config-32-3.4"
+        }, 
+        "complexity": {
+            "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/include/llvm34/llvm/Object/ELFYAML_h": {
+            "report-functions": [], 
+            "rpm": "llvm34-devel-3.4.2-10.fc26.i686.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {}, 
+            "filename": "usr/include/llvm34/llvm/Object/ELFYAML.h"
+        }, 
+        "usr/include/llvm34/llvm/MC/MCAsmInfoELF_h": {
+            "report-functions": [], 
+            "rpm": "llvm34-devel-3.4.2-10.fc26.i686.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {}, 
+            "filename": "usr/include/llvm34/llvm/MC/MCAsmInfoELF.h"
+        }, 
+        "usr/include/llvm34/llvm/MC/MCELFSymbolFlags_h": {
+            "report-functions": [], 
+            "rpm": "llvm34-devel-3.4.2-10.fc26.i686.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {}, 
+            "filename": "usr/include/llvm34/llvm/MC/MCELFSymbolFlags.h"
+        }, 
+        "usr/include/llvm34/llvm/MC/MCELF_h": {
+            "report-functions": [], 
+            "rpm": "llvm34-devel-3.4.2-10.fc26.i686.rpm", 
+            "find-libc-functions": [
+                ""
+            ], 
+            "hardening-check": {}, 
+            "filename": "usr/include/llvm34/llvm/MC/MCELF.h"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Languages", 
+            "Name": " llvm34-devel", 
+            "License": " NCSA", 
+            "URL": " http://llvm.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-16.phx2.fedoraproject.org", 
+            "Description": "\nThis package contains library and header files needed to develop new\nnative programs that use the LLVM infrastructure.\n", 
+            "Build Date": " Fri 10 Feb 2017 11:50:37 PM EST", 
+            "Source RPM": " llvm34-3.4.2-10.fc26.src.rpm", 
+            "Version": " 3.4.2", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 23 Feb 2017 11:24:40 AM EST, Key ID f55e7430f5282ee4", 
+            "Release": " 10.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Libraries and header files for LLVM", 
+            "Size": " 9382540"
+        }
+    }
+}

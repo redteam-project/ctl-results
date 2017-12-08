@@ -1,0 +1,54 @@
+{
+    "results": {
+        "complexity": {
+            "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/bin/lmdemo": {
+            "report-functions": [
+                "puts", 
+                "atan", 
+                "sqrt", 
+                "__printf_chk", 
+                "__gmon_start__", 
+                "exit", 
+                "__stack_chk_fail", 
+                "free", 
+                "__libc_start_main", 
+                "exp", 
+                "malloc", 
+                "fwrite"
+            ], 
+            "rpm": "levmar-devel-2.5-14.fc26.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/lmdemo"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " levmar-devel", 
+            "License": " GPLv2+", 
+            "URL": " http://www.ics.forth.gr/~lourakis/levmar/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-32.phx2.fedoraproject.org", 
+            "Description": "\nDevelopment files for the levmar library, and demo program.\n", 
+            "Build Date": " Fri 10 Feb 2017 08:27:46 PM EST", 
+            "Source RPM": " levmar-2.5-14.fc26.src.rpm", 
+            "Version": " 2.5", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 27 Feb 2017 08:53:47 AM EST, Key ID f55e7430f5282ee4", 
+            "Release": " 14.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Development files for levmar library, and demo program", 
+            "Size": " 41142"
+        }
+    }
+}

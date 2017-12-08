@@ -1,0 +1,122 @@
+{
+    "results": {
+        "usr/bin/cueprint": {
+            "report-functions": [
+                "strtol", 
+                "free", 
+                "__libc_start_main", 
+                "cd_get_cdtext", 
+                "__cxa_finalize", 
+                "track_get_cdtext", 
+                "strdup", 
+                "_ITM_deregisterTMCloneTable", 
+                "cd_get_ntrack", 
+                "__fprintf_chk", 
+                "cd_get_track", 
+                "cdtext_get", 
+                "cf_parse", 
+                "_ITM_registerTMCloneTable", 
+                "getopt_long", 
+                "puts", 
+                "__stack_chk_fail", 
+                "_IO_putc", 
+                "__ctype_b_loc", 
+                "track_get_filename", 
+                "track_get_isrc", 
+                "malloc", 
+                "strncpy", 
+                "__gmon_start__"
+            ], 
+            "rpm": "cuetools-1.4.0-0.18.svn305.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/cueprint"
+        }, 
+        "complexity": {
+            "r2aa": {
+                "afCc": null, 
+                "afC": null
+            }
+        }, 
+        "usr/bin/cueconvert": {
+            "report-functions": [
+                "__gmon_start__", 
+                "__libc_start_main", 
+                "__fprintf_chk", 
+                "cf_format_from_suffix", 
+                "exit", 
+                "cf_parse", 
+                "getopt_long", 
+                "__cxa_finalize", 
+                "puts", 
+                "_ITM_deregisterTMCloneTable", 
+                "cf_print"
+            ], 
+            "rpm": "cuetools-1.4.0-0.18.svn305.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/cueconvert"
+        }, 
+        "usr/bin/cuebreakpoints": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "__stack_chk_fail", 
+                "puts", 
+                "track_get_start", 
+                "track_get_zero_pre", 
+                "cd_get_ntrack", 
+                "__printf_chk", 
+                "__gmon_start__", 
+                "__fprintf_chk", 
+                "cf_parse", 
+                "time_frame_to_msf", 
+                "exit", 
+                "cd_get_track", 
+                "getopt_long", 
+                "track_get_index", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "cuetools-1.4.0-0.18.svn305.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/cuebreakpoints"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Applications/Multimedia", 
+            "Name": " cuetools", 
+            "License": " GPLv2", 
+            "URL": " http://developer.berlios.de/projects/cuetools/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-08.phx2.fedoraproject.org", 
+            "Description": "\nCuetools is a set of utilities for working with cue files and TOC files.\nIt includes programs for conversion between the formats, file renaming based\non cue/TOC information, and track breakpoint printing.\n", 
+            "Build Date": " Wed 02 Aug 2017 03:42:22 PM EDT", 
+            "Source RPM": " cuetools-1.4.0-0.18.svn305.fc27.src.rpm", 
+            "Version": " 1.4.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 07 Aug 2017 12:42:45 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 0.18.svn305.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Utilities to work with cue and TOC files", 
+            "Size": " 156721"
+        }
+    }
+}

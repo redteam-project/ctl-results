@@ -1,0 +1,25 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " gsm", 
+            "License": " MIT", 
+            "URL": " http://www.quut.com/gsm/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-07.phx2.fedoraproject.org", 
+            "Description": "\nContains runtime shared libraries for libgsm, an implementation of\nthe European GSM 06.10 provisional standard for full-rate speech\ntranscoding, prI-ETS 300 036, which uses RPE/LTP (residual pulse\nexcitation/long term prediction) coding at 13 kbit/s.\n\nGSM 06.10 compresses frames of 162 13-bit samples (8 kHz sampling\nrate, i.e. a frame rate of 50 Hz) into 260 bits; for compatibility\nwith typical UNIX applications, our implementation turns frames of 160\n16-bit linear samples into 33-byte frames (1650 Bytes/s).\nThe quality of the algorithm is good enough for reliable speaker\nrecognition; even music often survives transcoding in recognizable\nform (given the bandwidth limitations of 8 kHz sampling rate).\n\nThe interfaces offered are a front end modelled after compress(1), and\na library API.  Compression and decompression run faster than realtime\non most SPARCstations.  The implementation has been verified against the\nETSI standard test patterns.\n", 
+            "Build Date": " Thu 03 Aug 2017 04:26:27 AM EDT", 
+            "Source RPM": " gsm-1.0.17-3.fc27.src.rpm", 
+            "Version": " 1.0.17", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 03 Aug 2017 09:09:35 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 3.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Shared libraries for GSM speech compressor", 
+            "Size": " 55964"
+        }
+    }
+}

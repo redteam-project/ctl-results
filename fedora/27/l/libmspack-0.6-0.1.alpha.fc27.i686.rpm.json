@@ -1,0 +1,140 @@
+{
+    "results": {
+        "usr/bin/chmextract": {
+            "report-functions": [
+                "setbuf", 
+                "calloc", 
+                "malloc", 
+                "__stack_chk_fail", 
+                "__cxa_finalize", 
+                "__xstat64", 
+                "__gmon_start__", 
+                "mspack_destroy_chm_decompressor", 
+                "puts", 
+                "fwrite", 
+                "__libc_start_main", 
+                "mspack_create_chm_decompressor", 
+                "strlen", 
+                "_ITM_registerTMCloneTable", 
+                "umask", 
+                "mkdir", 
+                "__printf_chk", 
+                "free", 
+                "qsort", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "libmspack-0.6-0.1.alpha.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/chmextract"
+        }, 
+        "usr/bin/cabrip": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "__cxa_finalize", 
+                "fopen64", 
+                "mspack_create_cab_decompressor", 
+                "__libc_start_main", 
+                "perror", 
+                "mspack_destroy_cab_decompressor", 
+                "fclose", 
+                "__fread_chk", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "fwrite", 
+                "__stack_chk_fail", 
+                "__snprintf_chk", 
+                "__printf_chk", 
+                "fseeko64"
+            ], 
+            "rpm": "libmspack-0.6-0.1.alpha.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/cabrip"
+        }, 
+        "usr/bin/msexpand": {
+            "report-functions": [
+                "mspack_create_szdd_decompressor", 
+                "fwrite", 
+                "mspack_destroy_kwaj_decompressor", 
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable", 
+                "mspack_create_kwaj_decompressor", 
+                "mspack_destroy_szdd_decompressor", 
+                "__libc_start_main", 
+                "__snprintf_chk", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__"
+            ], 
+            "rpm": "libmspack-0.6-0.1.alpha.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/msexpand"
+        }, 
+        "usr/bin/oabextract": {
+            "report-functions": [
+                "__fprintf_chk", 
+                "mspack_sys_selftest_internal", 
+                "_ITM_registerTMCloneTable", 
+                "mspack_create_oab_decompressor", 
+                "mspack_destroy_oab_decompressor", 
+                "setbuf", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize", 
+                "__libc_start_main"
+            ], 
+            "rpm": "libmspack-0.6-0.1.alpha.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/oabextract"
+        }, 
+        "complexity": {
+            "r2aa": {
+                "afCc": null, 
+                "afC": null
+            }
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " libmspack", 
+            "License": " LGPLv2", 
+            "URL": " http://www.cabextract.org.uk/libmspack/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-13.phx2.fedoraproject.org", 
+            "Description": "\nThe purpose of libmspack is to provide both compression and decompression of\nsome loosely related file formats used by Microsoft.\n", 
+            "Build Date": " Tue 19 Sep 2017 08:56:13 AM EDT", 
+            "Source RPM": " libmspack-0.6-0.1.alpha.fc27.src.rpm", 
+            "Version": " 0.6", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 19 Sep 2017 09:05:50 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 0.1.alpha.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Library for CAB and related files compression and decompression", 
+            "Size": " 166454"
+        }
+    }
+}

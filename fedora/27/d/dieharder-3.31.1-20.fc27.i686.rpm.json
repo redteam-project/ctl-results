@@ -1,0 +1,86 @@
+{
+    "results": {
+        "usr/bin/dieharder": {
+            "report-functions": [
+                "gsl_rng_set", 
+                "sqrt", 
+                "create_test", 
+                "getopt", 
+                "fopen64", 
+                "fflush", 
+                "dh_header", 
+                "strtod", 
+                "_ITM_registerTMCloneTable", 
+                "fclose", 
+                "fwrite", 
+                "exit", 
+                "strncmp", 
+                "random_seed", 
+                "reset_bit_buffers", 
+                "gsl_rng_free", 
+                "std_test", 
+                "__fprintf_chk", 
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "dumpuintbits", 
+                "destroy_test", 
+                "_ITM_deregisterTMCloneTable", 
+                "mybitadd", 
+                "__printf_chk", 
+                "gsl_rng_max", 
+                "dieharder_test_types", 
+                "rgb_timing", 
+                "gsl_rng_get", 
+                "get_uint_rand", 
+                "strncpy", 
+                "dh_version", 
+                "gsl_rng_uniform", 
+                "__cxa_finalize", 
+                "malloc", 
+                "dieharder_rng_types", 
+                "gsl_rng_alloc", 
+                "file_input_get_rewind_cnt", 
+                "Xtest_eval", 
+                "gsl_rng_name", 
+                "strtol"
+            ], 
+            "rpm": "dieharder-3.31.1-20.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/dieharder"
+        }, 
+        "complexity": {
+            "r2aa": {
+                "afCc": 2, 
+                "afC": 51
+            }
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Tools", 
+            "Name": " dieharder", 
+            "License": " GPLv2+", 
+            "URL": " http://www.phy.duke.edu/~rgb/General/dieharder.php", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-04.phx2.fedoraproject.org", 
+            "Description": "\ndieharder is a fairly involved random number/uniform deviate generator\ntester.  It can either test any of its many pre-built and linked\ngenerators (basically all of those in the Gnu Scientific Library plus\nsome others) or a potentially random data-set in a file.  With file\ninput, it can manage either a variety of ASCII-formatted input or a raw\nbinary bit string.  It is thus suitable for use in testing both software\nRNG's and hardware RNG's.\n\ndieharder does all of its work with a standalone, extensible library,\nlibdieharder. Therefore its tests can be integrated into other programs.\n\ndieharder encapsulates following random number tests: George Marsaglia's\n\"Diehard\" battery of tests, STS (v1.6) from NIST FIPS, Knuth's tests,\nand more.  Check the documentation for complete list of the tests and\nreferences where possible. It is intended to be the \"Swiss army knife of\nrandom number testers\", or \"the last suite of random number testers\nyou'll ever wear\".\n", 
+            "Build Date": " Wed 02 Aug 2017 04:21:27 PM EDT", 
+            "Source RPM": " dieharder-3.31.1-20.fc27.src.rpm", 
+            "Version": " 3.31.1", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 07 Aug 2017 01:02:24 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 20.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Random number generator tester and timer", 
+            "Size": " 904533"
+        }
+    }
+}

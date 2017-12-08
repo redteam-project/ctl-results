@@ -1,0 +1,25 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " condor-classads", 
+            "License": " ASL 2.0", 
+            "URL": " http://research.cs.wisc.edu/htcondor/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-12.phx2.fedoraproject.org", 
+            "Description": "\nClassified Advertisements (classads) are the lingua franca of\nHTCondor. They are used for describing jobs, workstations, and other\nresources. They are exchanged by HTCondor processes to schedule\njobs. They are logged to files for statistical and debugging\npurposes. They are used to enquire about current state of the system.\n\nA classad is a mapping from attribute names to expressions. In the\nsimplest cases, the expressions are simple constants (integer,\nfloating point, or string). A classad is thus a form of property\nlist. Attribute expressions can also be more complicated. There is a\nprotocol for evaluating an attribute expression of a classad vis a vis\nanother ad. For example, the expression \"other.size > 3\" in one ad\nevaluates to true if the other ad has an attribute named size and the\nvalue of that attribute is (or evaluates to) an integer greater than\nthree. Two classads match if each ad has an attribute requirements\nthat evaluates to true in the context of the other ad. Classad\nmatching is used by the HTCondor central manager to determine the\ncompatibility of jobs and workstations where they may be run.\n", 
+            "Build Date": " Wed 13 Sep 2017 02:27:09 PM EDT", 
+            "Source RPM": " condor-8.6.6-1.fc27.src.rpm", 
+            "Version": " 8.6.6", 
+            "Architecture": " x86_64", 
+            "Signature": " RSA/SHA256, Wed 13 Sep 2017 03:46:27 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 1.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " HTCondor's classified advertisement language", 
+            "Size": " 623203"
+        }
+    }
+}

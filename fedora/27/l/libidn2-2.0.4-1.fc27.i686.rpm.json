@@ -1,0 +1,82 @@
+{
+    "results": {
+        "usr/bin/idn2": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "idn2_to_ascii_lz", 
+                "abort", 
+                "idn2_strerror", 
+                "u8_to_u32", 
+                "error", 
+                "fputs", 
+                "idn2_register_ul", 
+                "__errno_location", 
+                "strcmp", 
+                "textdomain", 
+                "exit", 
+                "ferror", 
+                "strrchr", 
+                "__fprintf_chk", 
+                "fwrite", 
+                "bindtextdomain", 
+                "isatty", 
+                "puts", 
+                "idn2_to_unicode_lzlz", 
+                "dcgettext", 
+                "setlocale", 
+                "fclose", 
+                "_ITM_deregisterTMCloneTable", 
+                "putchar", 
+                "u8_strconv_from_locale", 
+                "getopt_long", 
+                "__cxa_finalize", 
+                "__getdelim", 
+                "__printf_chk", 
+                "_ITM_registerTMCloneTable", 
+                "free", 
+                "__libc_start_main", 
+                "fileno", 
+                "__gmon_start__", 
+                "fopen", 
+                "strlen"
+            ], 
+            "rpm": "libidn2-2.0.4-1.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/idn2"
+        }, 
+        "complexity": {
+            "r2aa": {
+                "afCc": null, 
+                "afC": null
+            }
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " libidn2", 
+            "License": " (GPLv2+ or LGPLv3+) and GPLv3+", 
+            "URL": " https://www.gnu.org/software/libidn/#libidn2", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-20.phx2.fedoraproject.org", 
+            "Description": "\nLibidn2 is an implementation of the IDNA2008 specifications in RFC\n5890, 5891, 5892, 5893 and TR46 for internationalized domain names\n(IDN). It is a standalone library, without any dependency on libidn.\n", 
+            "Build Date": " Wed 30 Aug 2017 01:45:08 PM EDT", 
+            "Source RPM": " libidn2-2.0.4-1.fc27.src.rpm", 
+            "Version": " 2.0.4", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Wed 30 Aug 2017 01:51:09 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 1.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Library to support IDNA2008 internationalized domain names", 
+            "Size": " 230784"
+        }
+    }
+}

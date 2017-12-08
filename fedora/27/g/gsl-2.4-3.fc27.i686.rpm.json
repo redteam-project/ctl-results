@@ -1,0 +1,129 @@
+{
+    "results": {
+        "complexity": {
+            "r2aa": {
+                "afCc": null, 
+                "afC": null
+            }
+        }, 
+        "usr/bin/gsl-histogram": {
+            "report-functions": [
+                "exit", 
+                "getopt", 
+                "__isoc99_fscanf", 
+                "__stack_chk_fail", 
+                "__cxa_finalize", 
+                "gsl_histogram_increment", 
+                "gsl_histogram_alloc", 
+                "gsl_histogram_scale", 
+                "fwrite", 
+                "strtod", 
+                "gsl_histogram_sum", 
+                "strtol", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "__libc_start_main", 
+                "gsl_histogram_fprintf", 
+                "gsl_histogram_set_ranges_uniform"
+            ], 
+            "rpm": "gsl-2.4-3.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/gsl-histogram"
+        }, 
+        "usr/bin/gsl-randist": {
+            "report-functions": [
+                "strtod", 
+                "__gmon_start__", 
+                "gsl_ran_pareto", 
+                "gsl_ran_gamma", 
+                "gsl_ran_gumbel1", 
+                "gsl_ran_geometric", 
+                "gsl_ran_hypergeometric", 
+                "gsl_ran_beta", 
+                "gsl_ran_dir_nd", 
+                "gsl_ran_logarithmic", 
+                "gsl_ran_levy", 
+                "strcmp", 
+                "gsl_ran_gaussian", 
+                "gsl_ran_exponential", 
+                "gsl_ran_binomial", 
+                "__printf_chk", 
+                "exit", 
+                "gsl_rng_alloc", 
+                "gsl_ran_cauchy", 
+                "gsl_rng_env_setup", 
+                "gsl_ran_rayleigh_tail", 
+                "gsl_ran_laplace", 
+                "_ITM_registerTMCloneTable", 
+                "gsl_ran_bernoulli", 
+                "puts", 
+                "gsl_ran_dir_2d", 
+                "_IO_putc", 
+                "gsl_ran_chisq", 
+                "gsl_ran_ugaussian_tail", 
+                "gsl_ran_dir_3d", 
+                "gsl_ran_fdist", 
+                "malloc", 
+                "gsl_ran_tdist", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize", 
+                "gsl_ran_lognormal", 
+                "gsl_ran_levy_skew", 
+                "gsl_ran_landau", 
+                "gsl_ran_gaussian_tail", 
+                "gsl_ran_exppow", 
+                "free", 
+                "strtol", 
+                "gsl_ran_bivariate_gaussian", 
+                "__stack_chk_fail", 
+                "gsl_ran_erlang", 
+                "__libc_start_main", 
+                "gsl_ran_negative_binomial", 
+                "gsl_ran_gumbel2", 
+                "gsl_ran_weibull", 
+                "gsl_ran_poisson", 
+                "gsl_ran_pascal", 
+                "gsl_ran_rayleigh", 
+                "gsl_ran_flat", 
+                "__fprintf_chk"
+            ], 
+            "rpm": "gsl-2.4-3.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/gsl-randist"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " gsl", 
+            "License": " GPLv3 and GFDL and BSD", 
+            "URL": " http://www.gnu.org/software/gsl/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-07.phx2.fedoraproject.org", 
+            "Description": "\nThe GNU Scientific Library (GSL) is a collection of routines for\nnumerical analysis, written in C.\n", 
+            "Build Date": " Thu 03 Aug 2017 04:32:05 AM EDT", 
+            "Source RPM": " gsl-2.4-3.fc27.src.rpm", 
+            "Version": " 2.4", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 03 Aug 2017 09:31:32 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 3.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " The GNU Scientific Library for numerical analysis", 
+            "Size": " 3082960"
+        }
+    }
+}

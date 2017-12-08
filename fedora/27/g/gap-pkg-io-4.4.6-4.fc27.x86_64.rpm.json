@@ -1,0 +1,25 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " gap-pkg-io", 
+            "License": " GPLv3+", 
+            "URL": " http://gap-packages.github.io/io/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-17.phx2.fedoraproject.org", 
+            "Description": "\nThis GAP package provides a link to the standard UNIX I/O functionality\nthat is available through the C library.  This part basically consists\nof functions on the GAP level that allow functions in the C library to\nbe called.\n\nBuilt on top of this is a layer for buffered input/output which is\nimplemented completely in the GAP language.  It is intended to be used\nby programs for which it is not necessary to have full direct access to\nthe operating system.\n\nOn this level, quite a few convenience functions are implemented for\ninterprocess communication like starting up pipelines of processes to\nfilter data through them and to start up processes and then communicate\nwith them.  There is also support for creating network connections over\nTCP/IP and UDP.\n\nBuilding on this, the package contains an implementation of the client\nside of the HTTP protocol making it possible among other things to\naccess web pages from within GAP.\n\nAnother part of the package is a framework for object serialization.\nThat is, GAP objects can be converted into a platform-independent byte\nsequence which can be stored to a file or sent over the network.  The\ncode takes complete care of arbitrarily self-referential data structures\nlike lists containing themselves as an entry.  The resulting byte\nstrings can be read back into GAP and the original objects are rebuilt\nwith exactly the same self-references.  This works for most of the\nstandard builtin types of GAP like numbers, permutations, polynomials,\nlists, and records and can be extended to nearly arbitrary GAP objects.\n", 
+            "Build Date": " Wed 02 Aug 2017 08:59:18 PM EDT", 
+            "Source RPM": " gap-pkg-io-4.4.6-4.fc27.src.rpm", 
+            "Version": " 4.4.6", 
+            "Architecture": " x86_64", 
+            "Signature": " RSA/SHA256, Thu 03 Aug 2017 07:46:18 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 4.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Unix I/O functionality for GAP", 
+            "Size": " 1764752"
+        }
+    }
+}

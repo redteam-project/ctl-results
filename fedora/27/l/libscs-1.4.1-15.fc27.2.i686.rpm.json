@@ -1,0 +1,131 @@
+{
+    "results": {
+        "complexity": {
+            "r2aa": {
+                "afCc": null, 
+                "afC": null
+            }
+        }, 
+        "usr/bin/scs_test_timing": {
+            "report-functions": [
+                "puts", 
+                "scs_renorm", 
+                "putchar", 
+                "mpfr_set4", 
+                "scs_add_no_renorm", 
+                "scs_add", 
+                "mpfr_add", 
+                "mpfr_set_d", 
+                "srand", 
+                "mpfr_mul", 
+                "__gmpf_set_d", 
+                "scs_get_mpf", 
+                "scs_mul", 
+                "__gmon_start__", 
+                "__gmpf_get_d", 
+                "__gmpf_mul", 
+                "__gmpf_mul_ui", 
+                "__printf_chk", 
+                "scs_rand", 
+                "__gmpf_div", 
+                "scs_sub", 
+                "__gmpf_add", 
+                "__gmpf_init2", 
+                "__stack_chk_fail", 
+                "_ITM_registerTMCloneTable", 
+                "mpfr_div", 
+                "__gmpf_set", 
+                "scs_get_d", 
+                "mpfr_init2", 
+                "scs_set_d", 
+                "scs_get_mpfr", 
+                "__libc_start_main", 
+                "_ITM_deregisterTMCloneTable", 
+                "scs_div", 
+                "mpfr_get_d", 
+                "scs_square", 
+                "scs_mul_ui"
+            ], 
+            "rpm": "libscs-1.4.1-15.fc27.2.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/scs_test_timing"
+        }, 
+        "usr/bin/scs_test_accuracy": {
+            "report-functions": [
+                "__gmpfr_out_str", 
+                "puts", 
+                "rand", 
+                "__libc_start_main", 
+                "__printf_chk", 
+                "scs_square", 
+                "mpfr_set4", 
+                "putchar", 
+                "mpfr_init2", 
+                "scs_get_d", 
+                "scs_div", 
+                "scs_get_d_pinf", 
+                "mpfr_sub", 
+                "__cxa_finalize", 
+                "scs_get_d_zero", 
+                "scs_get_mpfr", 
+                "__gmon_start__", 
+                "mpfr_get_d", 
+                "_ITM_registerTMCloneTable", 
+                "fwrite", 
+                "mpfr_mul", 
+                "scs_set", 
+                "scs_rand", 
+                "strtol", 
+                "exit", 
+                "scs_set_d", 
+                "scs_get_d_minf", 
+                "_ITM_deregisterTMCloneTable", 
+                "mpfr_add", 
+                "scs_get_std", 
+                "mpfr_set_d", 
+                "mpfr_div", 
+                "mpfr_clear", 
+                "__stack_chk_fail", 
+                "scs_sub", 
+                "scs_add"
+            ], 
+            "rpm": "libscs-1.4.1-15.fc27.2.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/scs_test_accuracy"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " libscs", 
+            "License": " LGPLv2+", 
+            "URL": " http://www.ens-lyon.fr/LIP/Arenaire/Ware/SCSLib/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-22.phx2.fedoraproject.org", 
+            "Description": "\nThe Software Carry-Save (SCS) Library is a fast and lightweight\nmultiple-precision library.\n\nSCSLib has the following features:\n\n- Multiple-precision\nSCSLib is a fixed-precision library, where precision is selected at\ncompile-time. Out-of-the-box, the library ensures 210 bits of precision\n(quad-double).\n\n- Floating-point format\nThe SCS format is a floating-point format where exponents are machine integers\n(usually 32-bit numbers), which ensures a huge exponent range.\n\n- Supported operations\nSCSLib currently offers addition/subtraction, multiplication, and an\nexperimental division, plus all the useful conversion functions.\n\n- IEEE-754 compatibility\nThe range of SCS numbers includes the range of IEEE double-precision numbers,\nincluding denormals and exceptional cases. Conversions between SCS format and\nIEEE-754 doubles, as well as arithmetic operations, follow the IEEE rules\nconcerning the exceptional cases. SCS doesn't ensure correct rounding, but\nprovides conversions to doubles in the four IEEE-754 rounding modes.\n\n- Performance\nSCSLib is designed to be fast. With 210 bits, it outperforms MPF for most\noperations on most architectures.\n", 
+            "Build Date": " Thu 03 Aug 2017 04:01:02 PM EDT", 
+            "Source RPM": " libscs-1.4.1-15.fc27.2.src.rpm", 
+            "Version": " 1.4.1", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 01:12:32 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 15.fc27.2", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Software Carry-Save Multiple-Precision Library", 
+            "Size": " 82978"
+        }
+    }
+}

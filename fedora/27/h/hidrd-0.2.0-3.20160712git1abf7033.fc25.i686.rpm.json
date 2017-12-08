@@ -1,0 +1,80 @@
+{
+    "results": {
+        "complexity": {
+            "r2aa": {
+                "afCc": 48, 
+                "afC": 870
+            }
+        }, 
+        "usr/bin/hidrd-convert": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "hidrd_fmt_list_lkp", 
+                "hidrd_src_error", 
+                "hidrd_snk_delete", 
+                "hidrd_opt_type_name", 
+                "__libc_start_main", 
+                "strlen", 
+                "_ITM_registerTMCloneTable", 
+                "hidrd_src_getpos", 
+                "hidrd_snk_close", 
+                "hidrd_opt_spec_list_len", 
+                "fwrite", 
+                "_ITM_deregisterTMCloneTable", 
+                "__fprintf_chk", 
+                "open", 
+                "free", 
+                "__cxa_finalize", 
+                "__strdup", 
+                "hidrd_src_fmtpos", 
+                "hidrd_src_delete", 
+                "__gmon_start__", 
+                "hidrd_snk_new_opts", 
+                "_Jv_RegisterClasses", 
+                "hidrd_fd_write_whole", 
+                "strerror", 
+                "hidrd_opt_list_format", 
+                "close", 
+                "hidrd_snk_errmsg", 
+                "hidrd_src_get", 
+                "hidrd_src_new_opts", 
+                "hidrd_str_uc", 
+                "getopt_long", 
+                "hidrd_fd_read_whole", 
+                "__errno_location", 
+                "hidrd_opt_list_parse"
+            ], 
+            "rpm": "hidrd-0.2.0-3.20160712git1abf7033.fc25.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/hidrd-convert"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " hidrd", 
+            "License": " GPLv2+", 
+            "URL": " https://github.com/DIGImend/hidrd", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-05.phx2.fedoraproject.org", 
+            "Description": "\nHidrd is a library and a tool for reading, writing and converting HID report\ndescriptors in/between various formats.\n", 
+            "Build Date": " Wed 20 Jul 2016 11:18:08 AM EDT", 
+            "Source RPM": " hidrd-0.2.0-3.20160712git1abf7033.fc25.src.rpm", 
+            "Version": " 0.2.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 23 Feb 2017 03:33:06 PM EST, Key ID f55e7430f5282ee4", 
+            "Release": " 3.20160712git1abf7033.fc25", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " HID report descriptor I/O library and conversion tool", 
+            "Size": " 492068"
+        }
+    }
+}

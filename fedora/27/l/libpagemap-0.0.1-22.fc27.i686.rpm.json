@@ -1,0 +1,67 @@
+{
+    "results": {
+        "complexity": {
+            "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+        }, 
+        "usr/bin/pgmap": {
+            "report-functions": [
+                "strcmp", 
+                "free", 
+                "getopt", 
+                "__printf_chk", 
+                "strtol", 
+                "__gmon_start__", 
+                "get_physical_pgmap", 
+                "open_pgmap_table", 
+                "getuid", 
+                "strncpy", 
+                "get_single_pgmap", 
+                "__sprintf_chk", 
+                "__libc_start_main", 
+                "free_pgmap_table", 
+                "qsort", 
+                "exit", 
+                "malloc", 
+                "__stack_chk_fail", 
+                "init_pgmap_table", 
+                "get_all_pgmap", 
+                "strtok", 
+                "strlen", 
+                "putchar", 
+                "__fprintf_chk", 
+                "puts"
+            ], 
+            "rpm": "libpagemap-0.0.1-22.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/pgmap"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " libpagemap", 
+            "License": " GPLv3+", 
+            "URL": " https://github.com/pholasek/libpagemap", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-22.phx2.fedoraproject.org", 
+            "Description": "\nPackage contains library and headers for using kernel pagemap interface\n", 
+            "Build Date": " Thu 03 Aug 2017 03:31:55 PM EDT", 
+            "Source RPM": " libpagemap-0.0.1-22.fc27.src.rpm", 
+            "Version": " 0.0.1", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 12:32:02 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 22.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Pagemap interface library", 
+            "Size": " 99945"
+        }
+    }
+}

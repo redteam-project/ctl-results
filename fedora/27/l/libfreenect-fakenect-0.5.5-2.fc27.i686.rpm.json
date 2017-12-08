@@ -1,0 +1,88 @@
+{
+    "results": {
+        "complexity": {
+            "r2aa": {
+                "afCc": 15, 
+                "afC": 402
+            }
+        }, 
+        "usr/bin/fakenect-record": {
+            "report-functions": [
+                "__printf_chk", 
+                "__stack_chk_fail", 
+                "fopen", 
+                "popen", 
+                "gettimeofday", 
+                "freenect_init", 
+                "freenect_open_device", 
+                "freenect_start_depth", 
+                "__libc_start_main", 
+                "freenect_set_depth_mode", 
+                "freenect_process_events", 
+                "__snprintf_chk", 
+                "malloc", 
+                "__gmon_start__", 
+                "freenect_get_tilt_state", 
+                "freenect_select_subdevices", 
+                "free", 
+                "_ITM_registerTMCloneTable", 
+                "floor", 
+                "usleep", 
+                "signal", 
+                "freenect_start_video", 
+                "__sprintf_chk", 
+                "freenect_update_tilt_state", 
+                "freenect_find_depth_mode", 
+                "freenect_shutdown", 
+                "mkdir", 
+                "puts", 
+                "sleep", 
+                "freenect_set_depth_callback", 
+                "freenect_stop_video", 
+                "freenect_get_current_video_mode", 
+                "freenect_get_current_depth_mode", 
+                "freenect_close_device", 
+                "__fprintf_chk", 
+                "freenect_set_video_mode", 
+                "fwrite", 
+                "strlen", 
+                "freenect_find_video_mode", 
+                "freenect_set_video_callback", 
+                "exit", 
+                "_ITM_deregisterTMCloneTable", 
+                "freenect_stop_depth"
+            ], 
+            "rpm": "libfreenect-fakenect-0.5.5-2.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/fakenect-record"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " libfreenect-fakenect", 
+            "License": " ASL 2.0 and (GPLv2 or ASL 2.0)", 
+            "URL": " http://www.openkinect.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-08.phx2.fedoraproject.org", 
+            "Description": "\nFakenect consists of a \"record\" program to save dumps from the kinect sensor\nand a library that can be linked to, providing an interface compatible with\nfreenect.  This allows you to save data and repeat for experiments, debug\nproblems, share datasets, and experiment with the kinect without having one.\n", 
+            "Build Date": " Fri 07 Jul 2017 06:24:37 AM EDT", 
+            "Source RPM": " libfreenect-0.5.5-2.fc27.src.rpm", 
+            "Version": " 0.5.5", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 07 Jul 2017 06:45:03 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 2.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Library to play back recorded data for libfreenect", 
+            "Size": " 36590"
+        }
+    }
+}

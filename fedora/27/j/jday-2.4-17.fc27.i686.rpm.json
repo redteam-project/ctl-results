@@ -1,0 +1,114 @@
+{
+    "results": {
+        "usr/bin/dbd": {
+            "report-functions": [
+                "CalDate", 
+                "__gmon_start__", 
+                "localtime", 
+                "exit", 
+                "__cxa_finalize", 
+                "fwrite", 
+                "strtod", 
+                "time", 
+                "putenv", 
+                "strstr", 
+                "__libc_start_main", 
+                "_ITM_deregisterTMCloneTable", 
+                "JulDate", 
+                "putchar", 
+                "__printf_chk", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "jday-2.4-17.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/dbd"
+        }, 
+        "complexity": {
+            "r2aa": {
+                "afCc": null, 
+                "afC": null
+            }
+        }, 
+        "usr/bin/j2d": {
+            "report-functions": [
+                "__fprintf_chk", 
+                "__libc_start_main", 
+                "localtime", 
+                "exit", 
+                "__gmon_start__", 
+                "strstr", 
+                "__printf_chk", 
+                "fwrite", 
+                "CalDate", 
+                "_ITM_registerTMCloneTable", 
+                "time", 
+                "strtod"
+            ], 
+            "rpm": "jday-2.4-17.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/j2d"
+        }, 
+        "usr/bin/jday": {
+            "report-functions": [
+                "__fprintf_chk", 
+                "localtime", 
+                "__libc_start_main", 
+                "strtol", 
+                "time", 
+                "__printf_chk", 
+                "strcmp", 
+                "__isoc99_sscanf", 
+                "strstr", 
+                "fwrite", 
+                "putenv", 
+                "JulDate", 
+                "_ITM_registerTMCloneTable", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__"
+            ], 
+            "rpm": "jday-2.4-17.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/jday"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Applications/Engineering", 
+            "Name": " jday", 
+            "License": " BSD", 
+            "URL": " http://sourceforge.net/projects/jday/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-03.phx2.fedoraproject.org", 
+            "Description": "\nA simple command to convert calendar dates to julian dates.\nQuite useful in timing situations where you need elapsed time between dates.\nAlso useful for astronomy applications.\n", 
+            "Build Date": " Thu 03 Aug 2017 06:27:56 AM EDT", 
+            "Source RPM": " jday-2.4-17.fc27.src.rpm", 
+            "Version": " 2.4", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 12:38:50 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 17.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A simple command to convert calendar dates to julian dates", 
+            "Size": " 43087"
+        }
+    }
+}

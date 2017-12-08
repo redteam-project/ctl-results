@@ -1,0 +1,99 @@
+{
+    "results": {
+        "complexity": {
+            "r2aa": {
+                "afCc": null, 
+                "afC": null
+            }
+        }, 
+        "usr/bin/ktoblzcheck": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "_ZNK18AccountNumberCheck8findBankERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE", 
+                "exit", 
+                "_ZNSo3putEc", 
+                "_ZN18AccountNumberCheckC1Ev", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1EOS4_", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_appendEPKcj", 
+                "_ZdlPv", 
+                "_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_i", 
+                "_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7compareEPKc", 
+                "isspace", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEaSEOS4_", 
+                "_Znwj", 
+                "__cxa_atexit", 
+                "_ZNSt14basic_ifstreamIcSt11char_traitsIcEED1Ev", 
+                "feof", 
+                "_ZSt24__throw_out_of_range_fmtPKcz", 
+                "_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6substrEjj", 
+                "__gxx_personality_v0", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6appendEPKc", 
+                "_ZNSt8ios_base4InitC1Ev", 
+                "_ZSt20__throw_length_errorPKc", 
+                "_ZN18AccountNumberCheckD1Ev", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7reserveEj", 
+                "_Unwind_Resume", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERjj", 
+                "_ZN18AccountNumberCheck14resultToStringB5cxx11ENS_6ResultE", 
+                "_ZNSt14basic_ifstreamIcSt11char_traitsIcEEC1EPKcSt13_Ios_Openmode", 
+                "_ZN18AccountNumberCheck12bankdata_dirB5cxx11Ev", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1ERKS4_jj", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_assignERKS4_", 
+                "_ZN18AccountNumberCheck6RecordC1Ev", 
+                "_ZSt19__throw_logic_errorPKc", 
+                "__libc_start_main", 
+                "__stack_chk_fail", 
+                "fopen", 
+                "_ZdlPvj", 
+                "strlen", 
+                "__fprintf_chk", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "fgets", 
+                "_ZN18AccountNumberCheckC1ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE", 
+                "_ZNK18AccountNumberCheck5checkERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES7_S7_", 
+                "_ZNK18AccountNumberCheck27getFilenameClosestDateTodayB5cxx11Ev", 
+                "_ZNSolsEi", 
+                "__cxa_begin_catch", 
+                "memcmp", 
+                "_ZNKSt5ctypeIcE13_M_widen_initEv", 
+                "_ZSt16__throw_bad_castv", 
+                "__cxa_end_catch", 
+                "_ZNSo5flushEv", 
+                "_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_"
+            ], 
+            "rpm": "ktoblzcheck-1.44-9.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/ktoblzcheck"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " ktoblzcheck", 
+            "License": " LGPLv2+", 
+            "URL": " http://ktoblzcheck.sourceforge.net", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-17.phx2.fedoraproject.org", 
+            "Description": "\nKtoBLZCheck is a library to check account numbers and bank codes of\nGerman banks. Both a library for other programs as well as a short\ncommand-line tool is available. It is possible to check pairs of\naccount numbers and bank codes (BLZ) of German banks, and to map bank\ncodes (BLZ) to the clear-text name and location of the bank.\n", 
+            "Build Date": " Thu 03 Aug 2017 09:38:09 AM EDT", 
+            "Source RPM": " ktoblzcheck-1.44-9.fc27.src.rpm", 
+            "Version": " 1.44", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 03:56:09 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 9.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A library to check account numbers and bank codes of German banks", 
+            "Size": " 685073"
+        }
+    }
+}

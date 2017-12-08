@@ -1,0 +1,25 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Daemons", 
+            "Name": " github2fedmsg", 
+            "License": " AGPLv3+", 
+            "URL": " http://pypi.python.org/pypi/github2fedmsg", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-ppc64le-06.ppc.fedoraproject.org", 
+            "Description": "\nIt is a web application that monitors GitHub repositories you subscribe it to.\nWhen new actions (commits, pull-request, tickets) are made, it broadcasts a\nmessage on the fedmsg message bus.\n\nIt is written in Python on the Pyramid framework, and uses velruse to talk with\nGitHub.  It adds a webhook callback back to itself on repositories you ask it\nto monitor.  When one of those callbacks fire, github2fedmsg republishes the\nmessage it receives to the fedmsg bus.\n", 
+            "Build Date": " Wed 26 Jul 2017 10:49:09 AM EDT", 
+            "Source RPM": " github2fedmsg-0.3.6-6.fc27.src.rpm", 
+            "Version": " 0.3.6", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Tue 01 Aug 2017 04:25:04 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 6.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Pubsubhubbub app that rebroadcasts GH events over fedmsg", 
+            "Size": " 1034299"
+        }
+    }
+}

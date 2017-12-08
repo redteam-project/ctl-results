@@ -1,0 +1,66 @@
+{
+    "results": {
+        "complexity": {
+            "r2aa": {
+                "afCc": null, 
+                "afC": null
+            }
+        }, 
+        "usr/bin/kmixctrl": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "_ITM_deregisterTMCloneTable", 
+                "__libc_start_main", 
+                "kdemain"
+            ], 
+            "rpm": "kmix-17.08.1-1.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/kmixctrl"
+        }, 
+        "usr/bin/kmix": {
+            "report-functions": [
+                "kdemain", 
+                "_ITM_registerTMCloneTable", 
+                "__libc_start_main", 
+                "__gmon_start__"
+            ], 
+            "rpm": "kmix-17.08.1-1.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/kmix"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " kmix", 
+            "License": " GPLv2+ and GFDL", 
+            "URL": " https://cgit.kde.org/kmix.git", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-12.phx2.fedoraproject.org", 
+            "Description": "\nKDE volume control.\n", 
+            "Build Date": " Mon 02 Oct 2017 05:09:30 PM EDT", 
+            "Source RPM": " kmix-17.08.1-1.fc27.src.rpm", 
+            "Version": " 17.08.1", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 03 Oct 2017 09:04:15 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 1.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " KDE volume control", 
+            "Size": " 1891244"
+        }
+    }
+}

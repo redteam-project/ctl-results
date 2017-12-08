@@ -1,0 +1,95 @@
+{
+    "results": {
+        "complexity": {
+            "r2aa": {
+                "afCc": null, 
+                "afC": null
+            }
+        }, 
+        "usr/bin/gsf-office-thumbnailer": {
+            "report-functions": [
+                "g_printerr", 
+                "g_option_context_add_main_entries", 
+                "g_option_context_parse", 
+                "gsf_doc_meta_data_new", 
+                "__cxa_finalize", 
+                "g_value_get_object", 
+                "gdk_pixbuf_save", 
+                "g_object_unref", 
+                "fclose", 
+                "g_file_open_tmp", 
+                "gsf_input_remaining", 
+                "gsf_clip_data_get_format", 
+                "gdk_pixbuf_new_from_file_at_scale", 
+                "__stack_chk_fail", 
+                "dcgettext", 
+                "g_type_check_instance_cast", 
+                "gsf_doc_meta_data_read_from_msole", 
+                "unlink", 
+                "gsf_infile_msole_new", 
+                "gsf_infile_child_by_vname", 
+                "gsf_open_pkg_open_rel_by_type", 
+                "g_spawn_command_line_sync", 
+                "gsf_input_mmap_new", 
+                "gsf_clip_data_peek_real_data", 
+                "gsf_init", 
+                "exit", 
+                "_ITM_deregisterTMCloneTable", 
+                "gsf_infile_child_by_name", 
+                "gsf_input_read", 
+                "gsf_input_stdio_new", 
+                "__gmon_start__", 
+                "setlocale", 
+                "fwrite", 
+                "g_error_free", 
+                "g_strdup_printf", 
+                "bindtextdomain", 
+                "perror", 
+                "gsf_infile_zip_new", 
+                "_ITM_registerTMCloneTable", 
+                "textdomain", 
+                "__libc_start_main", 
+                "gsf_clip_data_get_type", 
+                "gsf_clip_data_get_windows_clipboard_format", 
+                "gsf_doc_meta_data_lookup", 
+                "g_shell_quote", 
+                "gsf_input_get_type", 
+                "gsf_doc_prop_get_val", 
+                "fdopen", 
+                "setrlimit64", 
+                "g_free"
+            ], 
+            "rpm": "libgsf-1.14.41-4.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/gsf-office-thumbnailer"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " libgsf", 
+            "License": " LGPLv2", 
+            "URL": " http://www.gnome.org/projects/libgsf/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-16.phx2.fedoraproject.org", 
+            "Description": "\nA library for reading and writing structured files (e.g. MS OLE and Zip)\n", 
+            "Build Date": " Thu 03 Aug 2017 02:26:29 PM EDT", 
+            "Source RPM": " libgsf-1.14.41-4.fc27.src.rpm", 
+            "Version": " 1.14.41", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 08:57:03 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 4.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " GNOME Structured File library", 
+            "Size": " 928812"
+        }
+    }
+}

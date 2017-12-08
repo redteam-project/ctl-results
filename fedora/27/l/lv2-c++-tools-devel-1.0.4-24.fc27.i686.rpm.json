@@ -1,0 +1,102 @@
+{
+    "results": {
+        "complexity": {
+            "r2aa": {
+                "afCc": 131, 
+                "afC": 3697
+            }
+        }, 
+        "usr/bin/lv2peg": {
+            "report-functions": [
+                "_ZNSt13runtime_errorD2Ev", 
+                "__gxx_personality_v0", 
+                "__cxa_end_catch", 
+                "_ZNSt14basic_ofstreamIcSt11char_traitsIcEEC1EPKcSt13_Ios_Openmode", 
+                "_ZNSt8ios_base4InitC1Ev", 
+                "_ZN3PAQ7RDFDataC1Ev", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE14_M_replace_auxEjjjc", 
+                "_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7compareEPKc", 
+                "_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_", 
+                "_ZN3PAQ5Query5whereERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_RNS_8VariableE", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_replaceEjjPKcj", 
+                "_ZNSo9_M_insertIdEERSoT_", 
+                "__cxa_rethrow", 
+                "_ZNKSt13runtime_error4whatEv", 
+                "_ZdlPv", 
+                "__cxa_atexit", 
+                "_Znwj", 
+                "_ZN3PAQ6selectERNS_8VariableES1_S1_S1_", 
+                "_ZNSt8ios_base4InitD1Ev", 
+                "_ZN3PAQ11QueryResultixERNS_8VariableE", 
+                "_ZNSolsEi", 
+                "_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_i", 
+                "strtol", 
+                "_ZN5boost6system16generic_categoryEv", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_appendEPKcj", 
+                "_ZN3PAQ9NamespaceclERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE", 
+                "_ZN3PAQeqERNS_8VariableERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE", 
+                "_ZN3PAQ9NamespaceC1ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE", 
+                "_ZSt18_Rb_tree_decrementPSt18_Rb_tree_node_base", 
+                "_ZdlPvj", 
+                "_ZSt19__throw_logic_errorPKc", 
+                "_ZSt18_Rb_tree_incrementPKSt18_Rb_tree_node_base", 
+                "_ZN3PAQ5Query5whereERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERNS_8VariableESA_", 
+                "__gmon_start__", 
+                "_ZN3PAQ5Query5whereERNS_8VariableERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES2_", 
+                "__cxa_call_unexpected", 
+                "memcmp", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERjj", 
+                "_ZN3PAQ5Query6filterEPNS_6FilterE", 
+                "_ZSt18_Rb_tree_incrementPSt18_Rb_tree_node_base", 
+                "_ZN3PAQ12TurtleParser14parse_ttl_fileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERNS_7RDFDataE", 
+                "_ZN3PAQ7RDFDataD1Ev", 
+                "_ZN3PAQ5Query5whereERNS_8VariableERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESA_", 
+                "_ZSt29_Rb_tree_insert_and_rebalancebPSt18_Rb_tree_node_baseS0_RS_", 
+                "_ZN5boost6system15system_categoryEv", 
+                "strtod", 
+                "_ZN3PAQ12TurtleParserC1Ev", 
+                "_ZN3PAQ5Query3runERNS_7RDFDataE", 
+                "__stack_chk_fail", 
+                "_ZNSt14basic_ofstreamIcSt11char_traitsIcEED1Ev", 
+                "_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc", 
+                "strlen", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_assignERKS4_", 
+                "__cxa_begin_catch", 
+                "__libc_start_main", 
+                "_ZN3PAQ9or_filterEPNS_6FilterES1_", 
+                "_Unwind_Resume"
+            ], 
+            "rpm": "lv2-c++-tools-devel-1.0.4-24.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/lv2peg"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " lv2-c++-tools-devel", 
+            "License": " GPLv3+", 
+            "URL": " http://ll-plugins.nongnu.org/hacking.html", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-16.phx2.fedoraproject.org", 
+            "Description": "\nThis package contains libraries and header files for developing LV2 plugins\nthat use lv2-c++-tools.\n", 
+            "Build Date": " Thu 03 Aug 2017 07:27:16 PM EDT", 
+            "Source RPM": " lv2-c++-tools-1.0.4-24.fc27.src.rpm", 
+            "Version": " 1.0.4", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 03:36:23 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 24.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Development files for lv2-c++-tools", 
+            "Size": " 981546"
+        }
+    }
+}

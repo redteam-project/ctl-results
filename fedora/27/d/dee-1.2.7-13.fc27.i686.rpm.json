@@ -1,0 +1,84 @@
+{
+    "results": {
+        "usr/bin/dee-tool": {
+            "report-functions": [
+                "__gmon_start__", 
+                "g_timeout_add_seconds", 
+                "g_free", 
+                "dee_client_new", 
+                "dee_serializable_serialize", 
+                "dee_shared_model_get_type", 
+                "g_error_free", 
+                "dee_shared_model_new", 
+                "dee_shared_model_new_for_peer", 
+                "dee_resource_manager_load", 
+                "g_variant_unref", 
+                "g_option_context_new", 
+                "dee_shared_model_is_synchronized", 
+                "dee_peer_get_swarm_leader", 
+                "dee_peer_new", 
+                "_ITM_deregisterTMCloneTable", 
+                "g_main_context_iteration", 
+                "__libc_start_main", 
+                "g_printerr", 
+                "g_get_current_time", 
+                "g_printf", 
+                "dee_resource_manager_get_default", 
+                "_ITM_registerTMCloneTable", 
+                "g_signal_connect_data", 
+                "__cxa_finalize", 
+                "dee_server_new", 
+                "g_time_val_to_iso8601", 
+                "g_option_context_add_main_entries", 
+                "g_print", 
+                "dee_model_set_schema", 
+                "__stack_chk_fail", 
+                "exit", 
+                "g_main_context_default", 
+                "g_option_context_parse", 
+                "g_object_unref", 
+                "g_variant_print", 
+                "dee_peer_get_type", 
+                "dee_model_get_type", 
+                "dee_serializable_get_type"
+            ], 
+            "rpm": "dee-1.2.7-13.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/dee-tool"
+        }, 
+        "complexity": {
+            "r2aa": {
+                "afCc": null, 
+                "afC": null
+            }
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " dee", 
+            "License": " LGPLv3", 
+            "URL": " https://launchpad.net/dee", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-29.phx2.fedoraproject.org", 
+            "Description": "\nLibdee is a library that uses DBus to provide objects allowing you to\ncreate Model-View-Controller type programs across DBus. It also\nconsists of utility objects which extend DBus allowing for peer-to-peer\ndiscoverability of known objects without needing a central registrar.\n", 
+            "Build Date": " Wed 02 Aug 2017 04:10:56 PM EDT", 
+            "Source RPM": " dee-1.2.7-13.fc27.src.rpm", 
+            "Version": " 1.2.7", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 07 Aug 2017 02:58:11 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 13.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Model to synchronize multiple instances over DBus", 
+            "Size": " 330034"
+        }
+    }
+}

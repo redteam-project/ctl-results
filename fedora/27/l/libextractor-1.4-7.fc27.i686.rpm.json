@@ -1,0 +1,85 @@
+{
+    "results": {
+        "usr/bin/libextractor-extract": {
+            "report-functions": [
+                "setlocale", 
+                "calloc", 
+                "strcpy", 
+                "fputs", 
+                "free", 
+                "sigemptyset", 
+                "dcgettext", 
+                "open64", 
+                "__fxstat64", 
+                "EXTRACTOR_plugin_remove_all", 
+                "fputc", 
+                "read", 
+                "EXTRACTOR_extract", 
+                "__fprintf_chk", 
+                "strcmp", 
+                "iconv_close", 
+                "EXTRACTOR_plugin_add_defaults", 
+                "sigaction", 
+                "__ctype_tolower_loc", 
+                "__ctype_b_loc", 
+                "nl_langinfo", 
+                "puts", 
+                "close", 
+                "fwrite", 
+                "EXTRACTOR_metatype_to_string", 
+                "getopt_long", 
+                "strdup", 
+                "EXTRACTOR_plugin_add_config", 
+                "__snprintf_chk", 
+                "strlen", 
+                "__memcpy_chk", 
+                "iconv_open", 
+                "strerror", 
+                "__libc_start_main", 
+                "EXTRACTOR_metatype_get_max", 
+                "__gmon_start__", 
+                "__printf_chk", 
+                "malloc", 
+                "iconv", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "libextractor-1.4-7.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/libextractor-extract"
+        }, 
+        "complexity": {
+            "r2aa": {
+                "afCc": 43, 
+                "afC": 787
+            }
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " libextractor", 
+            "License": " GPLv3+", 
+            "URL": " http://www.gnu.org/software/libextractor", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-03.phx2.fedoraproject.org", 
+            "Description": "\nlibextractor is a simple library for keyword extraction.  libextractor\ndoes not support all formats but supports a simple plugging mechanism\nsuch that you can quickly add extractors for additional formats, even\nwithout recompiling libextractor.  libextractor typically ships with a\ndozen helper-libraries that can be used to obtain keywords from common\nfile-types.\n\nlibextractor is a part of the GNU project (http://www.gnu.org/).\n", 
+            "Build Date": " Fri 11 Aug 2017 04:11:06 AM EDT", 
+            "Source RPM": " libextractor-1.4-7.fc27.src.rpm", 
+            "Version": " 1.4", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 11 Aug 2017 04:18:54 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 7.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Simple library for keyword extraction", 
+            "Size": " 471801"
+        }
+    }
+}
