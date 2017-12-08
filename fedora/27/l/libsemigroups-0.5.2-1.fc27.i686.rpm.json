@@ -1,0 +1,25 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " libsemigroups", 
+            "License": " GPLv3+", 
+            "URL": " https://github.com/james-d-mitchell/libsemigroups", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-04.phx2.fedoraproject.org", 
+            "Description": "\nLibsemigroups is a C++ library for semigroups and monoids; it is partly\nbased on \"Algorithms for computing finite semigroups\", \"Expository\nSlides\", and Semigroupe 2.01 by Jean-Eric Pin.\n\nThe libsemigroups library is used in the Semigroups package for GAP.\n\nSome of the features of Semigroupe 2.01 are not yet implemented in\nlibsemigroups; this is a work in progress.  Missing features include\nthose for:\n\n- Green's relations, or classes\n- finding a zero\n- minimal ideal, principal left/right ideals, or indeed any ideals\n- inverses\n- local submonoids\n- the kernel\n- variety tests.\nThese will be included in a future version.\n\nLibsemigroups performs roughly the same as Semigroupe 2.01 when there is\na known upper bound on the size of the semigroup being enumerated, and\nthis is used to initialize the data structures for the semigroup; see\nlibsemigroups::Semigroup::reserve for more details.  Note that in\nSemigroupe 2.01 it is always necessary to provide such an upper bound,\nbut in libsemigroups it is not.\n\nLibsemigroups also has some advantages over Semigroupe 2.01:\n- there is a (hopefully) convenient C++ API, which makes it relatively\n  easy to create and manipulate semigroups and monoids\n- there are some multithreaded methods for semigroups and their\n  congruences\n- you do not have to know/guess the size of a semigroup or monoid before\n  you begin\n- libsemigroups supports more types of elements than Semigroupe 2.01\n- it is relatively straightforward to add support for further types of\n  elements and semigroups\n- it is possible to enumerate a certain number of elements of a\n  semigroup or monoid (say if you are looking for an element with a\n  particular property), to stop, and then to start the enumeration again\n  at a later point\n- you can instantiate as many semigroups and monoids as you can fit in\n  memory\n- it is possible to add more generators after a semigroup or monoid has\n  been constructed, without losing or having to recompute any\n  information that was previously known\n- libsemigroups contains rudimentary implementations of the Todd-Coxeter\n  and Knuth-Bendix algorithms for finitely presented semigroups, which\n  can also be used to compute congruences of a (not necessarily finitely\n  presented) semigroup or monoid.\n", 
+            "Build Date": " Sun 08 Oct 2017 11:55:53 PM EDT", 
+            "Source RPM": " libsemigroups-0.5.2-1.fc27.src.rpm", 
+            "Version": " 0.5.2", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 09 Oct 2017 12:19:00 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 1.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " C++ library for semigroups and monoids", 
+            "Size": " 319183"
+        }
+    }
+}
