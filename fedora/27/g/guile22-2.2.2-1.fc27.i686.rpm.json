@@ -1,0 +1,77 @@
+{
+    "results": {
+        "usr/bin/guile2_2": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "fwrite", 
+                "_ITM_registerTMCloneTable", 
+                "setlocale", 
+                "strtol", 
+                "__fprintf_chk", 
+                "scm_boot_guile", 
+                "scm_shell", 
+                "_ITM_deregisterTMCloneTable", 
+                "__libc_start_main", 
+                "getenv"
+            ], 
+            "rpm": "guile22-2.2.2-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/guile2.2"
+        }, 
+        "usr/share/guile/2_2/system/vm/elf_scm": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/share/guile/2.2/system/vm/elf.scm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "guile22-2.2.2-1.fc27.i686.rpm"
+        }, 
+        "usr/share/guile/2_2/language/cps/self-references_scm": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/share/guile/2.2/language/cps/self-references.scm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "guile22-2.2.2-1.fc27.i686.rpm"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " guile22", 
+            "License": " LGPLv3+", 
+            "URL": " http://www.gnu.org/software/guile/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-04.phx2.fedoraproject.org", 
+            "Description": "\nGUILE (GNU's Ubiquitous Intelligent Language for Extension) is a library\nimplementation of the Scheme programming language, written in C.  GUILE\nprovides a machine-independent execution platform that can be linked in\nas a library during the building of extensible programs.\n\nInstall the guile package if you'd like to add extensibility to programs\nthat you are developing.\n", 
+            "Build Date": " Thu 10 Aug 2017 10:40:53 AM EDT", 
+            "Source RPM": " guile22-2.2.2-1.fc27.src.rpm", 
+            "Version": " 2.2.2", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 10 Aug 2017 12:05:32 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 1.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A GNU implementation of Scheme for application extensibility", 
+            "Size": " 42174106"
+        }
+    }
+}

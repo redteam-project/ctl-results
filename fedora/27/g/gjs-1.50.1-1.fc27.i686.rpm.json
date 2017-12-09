@@ -1,0 +1,81 @@
+{
+    "results": {
+        "usr/bin/gjs-console": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "g_option_context_set_help_enabled", 
+                "gjs_context_get_type", 
+                "g_strdupv", 
+                "__cxa_guard_release", 
+                "g_object_unref", 
+                "g_strsplit", 
+                "g_assertion_message_expr", 
+                "g_log", 
+                "g_clear_error", 
+                "g_error_matches", 
+                "g_option_context_new", 
+                "gjs_coverage_new", 
+                "setlocale", 
+                "__cxa_guard_acquire", 
+                "g_free", 
+                "g_strfreev", 
+                "__gmon_start__", 
+                "gjs_error_quark", 
+                "g_file_get_contents", 
+                "strcmp", 
+                "g_printerr", 
+                "g_file_new_for_commandline_arg", 
+                "g_strv_length", 
+                "g_strdup", 
+                "exit", 
+                "gjs_context_eval", 
+                "gjs_coverage_write_statistics", 
+                "g_print", 
+                "g_option_context_set_ignore_unknown_options", 
+                "g_option_context_free", 
+                "__cxa_finalize", 
+                "g_option_context_add_main_entries", 
+                "__libc_start_main", 
+                "g_error_free", 
+                "g_option_context_parse_strv", 
+                "_ITM_registerTMCloneTable", 
+                "g_malloc_n", 
+                "gjs_context_define_string_array"
+            ], 
+            "rpm": "gjs-1.50.1-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/gjs-console"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " gjs", 
+            "License": " MIT and (MPLv1.1 or GPLv2+ or LGPLv2+)", 
+            "URL": " https://wiki.gnome.org/Projects/Gjs", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-21.phx2.fedoraproject.org", 
+            "Description": "\nGjs allows using GNOME libraries from Javascript. It's based on the\nSpidermonkey Javascript engine from Mozilla and the GObject introspection\nframework.\n", 
+            "Build Date": " Mon 09 Oct 2017 06:41:12 AM EDT", 
+            "Source RPM": " gjs-1.50.1-1.fc27.src.rpm", 
+            "Version": " 1.50.1", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 09 Oct 2017 06:52:15 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 1.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Javascript Bindings for GNOME", 
+            "Size": " 1177723"
+        }
+    }
+}

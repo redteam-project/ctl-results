@@ -1,0 +1,118 @@
+{
+    "results": {
+        "usr/bin/gupnp-dlna-ls-profiles-2_0": {
+            "report-functions": [
+                "__gmon_start__", 
+                "gupnp_dlna_profile_guesser_cleanup", 
+                "g_option_context_new", 
+                "__cxa_finalize", 
+                "g_error_free", 
+                "g_option_context_add_main_entries", 
+                "setlocale", 
+                "gupnp_dlna_profile_get_name", 
+                "gupnp_dlna_profile_get_extended", 
+                "exit", 
+                "_ITM_registerTMCloneTable", 
+                "g_option_context_free", 
+                "g_object_unref", 
+                "__libc_start_main", 
+                "_ITM_deregisterTMCloneTable", 
+                "gupnp_dlna_profile_guesser_list_profiles", 
+                "gupnp_dlna_profile_get_mime", 
+                "g_option_context_parse", 
+                "gupnp_dlna_profile_guesser_new", 
+                "g_print"
+            ], 
+            "rpm": "gupnp-dlna-0.10.5-5.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/gupnp-dlna-ls-profiles-2.0"
+        }, 
+        "usr/bin/gupnp-dlna-info-2_0": {
+            "report-functions": [
+                "g_main_loop_new", 
+                "g_main_loop_run", 
+                "g_slice_alloc0", 
+                "g_get_current_dir", 
+                "exit", 
+                "g_error_free", 
+                "_ITM_deregisterTMCloneTable", 
+                "g_dir_open", 
+                "__cxa_finalize", 
+                "g_file_test", 
+                "gupnp_dlna_profile_guesser_guess_profile_sync", 
+                "g_main_loop_unref", 
+                "__stack_chk_fail", 
+                "gupnp_dlna_profile_guesser_new", 
+                "g_strdup", 
+                "g_slice_free1", 
+                "gupnp_dlna_information_get_uri", 
+                "g_object_unref", 
+                "__libc_start_main", 
+                "__gmon_start__", 
+                "g_free", 
+                "g_print", 
+                "g_signal_connect_data", 
+                "g_option_context_free", 
+                "gupnp_dlna_profile_guesser_cleanup", 
+                "g_log", 
+                "g_build_filename", 
+                "g_option_context_new", 
+                "gupnp_dlna_profile_guesser_guess_profile_async", 
+                "gupnp_dlna_profile_get_mime", 
+                "gupnp_dlna_profile_get_name", 
+                "g_uri_parse_scheme", 
+                "setlocale", 
+                "g_path_is_absolute", 
+                "g_filename_to_uri", 
+                "g_main_loop_quit", 
+                "g_idle_add", 
+                "g_dir_read_name", 
+                "_ITM_registerTMCloneTable", 
+                "g_option_context_add_main_entries"
+            ], 
+            "rpm": "gupnp-dlna-0.10.5-5.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/gupnp-dlna-info-2.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " gupnp-dlna", 
+            "License": " LGPLv2+", 
+            "URL": " http://www.gupnp.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-09.phx2.fedoraproject.org", 
+            "Description": "\nGUPnP is an object-oriented open source framework for creating UPnP\ndevices and control points, written in C using GObject and libsoup.\nThe GUPnP API is intended to be easy to use, efficient and flexible.\n\nGUPnP-dlna is a collection of helpers for building DLNA (Digital\nLiving Network Alliance) compliant applications using GUPnP.\n", 
+            "Build Date": " Thu 03 Aug 2017 04:55:34 AM EDT", 
+            "Source RPM": " gupnp-dlna-0.10.5-5.fc27.src.rpm", 
+            "Version": " 0.10.5", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 03 Aug 2017 10:08:12 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 5.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A collection of helpers for building UPnP AV applications", 
+            "Size": " 342921"
+        }
+    }
+}

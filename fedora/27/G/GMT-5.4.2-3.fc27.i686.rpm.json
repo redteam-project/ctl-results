@@ -1,0 +1,63 @@
+{
+    "results": {
+        "usr/bin/gmt": {
+            "report-functions": [
+                "gmt_remove_file", 
+                "strdup", 
+                "sigemptyset", 
+                "GMT_Create_Session", 
+                "GMT_Destroy_Session", 
+                "gmt_chop_ext", 
+                "_ITM_registerTMCloneTable", 
+                "__libc_start_main", 
+                "strncmp", 
+                "__gmon_start__", 
+                "gmt_remove_dir", 
+                "sig_handler", 
+                "_ITM_deregisterTMCloneTable", 
+                "free", 
+                "__stack_chk_fail", 
+                "GMT_Call_Module", 
+                "gmt_get_V", 
+                "strcmp", 
+                "__xpg_basename", 
+                "__fprintf_chk", 
+                "sigaction"
+            ], 
+            "rpm": "GMT-5.4.2-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/gmt"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " GMT", 
+            "License": " LGPLv3+", 
+            "URL": " http://gmt.soest.hawaii.edu/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-22.phx2.fedoraproject.org", 
+            "Description": "\nGMT is an open source collection of ~60 tools for manipulating geographic and\nCartesian data sets (including filtering, trend fitting, gridding, projecting,\netc.) and producing Encapsulated PostScript File (EPS) illustrations ranging\nfrom simple x-y plots via contour maps to artificially illuminated surfaces\nand 3-D perspective views.  GMT supports ~30 map projections and transforma-\ntions and comes with support data such as coastlines, rivers, and political\nboundaries.\n\nGMT is developed and maintained by Paul Wessel and Walter H. F.  Smith with\nhelp from a global set of volunteers, and is supported by the National\nScience Foundation.\n\nNOTE: Specific executables that conflict with other Fedora packages have been\nremoved.  These functions can still be accessed via the GMT wrapper script\nwith: GMT <function> [args]\n", 
+            "Build Date": " Wed 02 Aug 2017 01:06:15 PM EDT", 
+            "Source RPM": " GMT-5.4.2-3.fc27.src.rpm", 
+            "Version": " 5.4.2", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 05 Aug 2017 10:53:39 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 3.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Generic Mapping Tools", 
+            "Size": " 5706188"
+        }
+    }
+}

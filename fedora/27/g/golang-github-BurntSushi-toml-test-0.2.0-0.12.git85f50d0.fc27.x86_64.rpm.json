@@ -1,0 +1,41 @@
+{
+    "results": {
+        "usr/bin/toml-test": {
+            "report-functions": [], 
+            "rpm": "golang-github-BurntSushi-toml-test-0.2.0-0.12.git85f50d0.fc27.x86_64.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/toml-test"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " golang-github-BurntSushi-toml-test", 
+            "License": " WTFPL", 
+            "URL": " https://github.com/BurntSushi/toml-test", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-14.phx2.fedoraproject.org", 
+            "Description": "\ntoml-test is a higher-order program that tests other TOML decoders or\nencoders. Tests are divided into two groups: invalid TOML data and valid TOML\ndata. Decoders that reject invalid TOML data pass invalid TOML tests. Decoders\nthat accept valid TOML data and output precisely what is expected pass valid\ntests.\n", 
+            "Build Date": " Thu 03 Aug 2017 03:04:56 AM EDT", 
+            "Source RPM": " golang-github-BurntSushi-toml-test-0.2.0-0.12.git85f50d0.fc27.src.rpm", 
+            "Version": " 0.2.0", 
+            "Architecture": " x86_64", 
+            "Signature": " RSA/SHA256, Thu 03 Aug 2017 07:09:37 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 0.12.git85f50d0.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Language agnostic test suite for TOML", 
+            "Size": " 2717643"
+        }
+    }
+}
