@@ -1,0 +1,105 @@
+{
+    "results": {
+        "usr/lib/sasl2/libcrammd5_so_3_0_0": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable", 
+                "__memcpy_chk", 
+                "getaddrinfo", 
+                "strcpy", 
+                "_ITM_deregisterTMCloneTable", 
+                "strncmp", 
+                "strcat", 
+                "time", 
+                "strncpy", 
+                "__stack_chk_fail", 
+                "freeaddrinfo", 
+                "strchr", 
+                "__sprintf_chk", 
+                "uname", 
+                "__ctype_b_loc", 
+                "__snprintf_chk", 
+                "__gmon_start__"
+            ], 
+            "rpm": "cyrus-sasl-md5-2.1.26-34.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/sasl2/libcrammd5.so.3.0.0"
+        }, 
+        "usr/lib/sasl2/libdigestmd5_so_3_0_0": {
+            "report-functions": [
+                "getaddrinfo", 
+                "__memcpy_chk", 
+                "_ITM_deregisterTMCloneTable", 
+                "strcat", 
+                "__ctype_b_loc", 
+                "strtol", 
+                "strlen", 
+                "strchr", 
+                "strcmp", 
+                "free", 
+                "__sprintf_chk", 
+                "strncpy", 
+                "uname", 
+                "strcpy", 
+                "__strcat_chk", 
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "__snprintf_chk", 
+                "strncasecmp", 
+                "malloc", 
+                "DES_ede3_cbc_encrypt", 
+                "_ITM_registerTMCloneTable", 
+                "strerror", 
+                "DES_cbc_encrypt", 
+                "DES_key_sched", 
+                "strcasecmp", 
+                "strpbrk", 
+                "__stack_chk_fail", 
+                "time"
+            ], 
+            "rpm": "cyrus-sasl-md5-2.1.26-34.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/sasl2/libdigestmd5.so.3.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " cyrus-sasl-md5", 
+            "License": " BSD with advertising", 
+            "URL": " http://asg.web.cmu.edu/sasl/sasl-library.html", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-11.phx2.fedoraproject.org", 
+            "Description": "\nThe cyrus-sasl-md5 package contains the Cyrus SASL plugins which support\nCRAM-MD5 and DIGEST-MD5 authentication schemes.\n", 
+            "Build Date": " Wed 02 Aug 2017 03:52:08 PM EDT", 
+            "Source RPM": " cyrus-sasl-2.1.26-34.fc27.src.rpm", 
+            "Version": " 2.1.26", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 07 Aug 2017 04:23:13 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 34.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " CRAM-MD5 and DIGEST-MD5 authentication support for Cyrus SASL", 
+            "Size": " 84224"
+        }
+    }
+}

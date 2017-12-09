@@ -1,0 +1,25 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Daemons", 
+            "Name": " exim-clamav", 
+            "License": " GPLv2+", 
+            "URL": " http://www.exim.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-08.phx2.fedoraproject.org", 
+            "Description": "\nThis package contains configuration files which invoke a copy of the\nclamav d\u00e6mon for use with Exim. It can be activated by adding (or\nuncommenting)\n\n   av_scanner = clamd:/var/run/clamd.exim/clamd.sock\n\nin your exim.conf, and using the 'malware' condition in the DATA ACL,\nas follows:\n\n   deny message = This message contains malware ($malware_name)\n      malware = *\n\nFor further details of Exim content scanning, see chapter 41 of the Exim\nspecification:\nhttp://www.exim.org/exim-html-4.89/doc/html/spec_html/ch41.html\n", 
+            "Build Date": " Fri 18 Aug 2017 10:58:39 AM EDT", 
+            "Source RPM": " exim-4.89-5.fc27.src.rpm", 
+            "Version": " 4.89", 
+            "Architecture": " x86_64", 
+            "Signature": " RSA/SHA256, Fri 18 Aug 2017 01:57:21 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 5.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Clam Antivirus scanner d\u00e6mon configuration for use with Exim", 
+            "Size": " 22725"
+        }
+    }
+}

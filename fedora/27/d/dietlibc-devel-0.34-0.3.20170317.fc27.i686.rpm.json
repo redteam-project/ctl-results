@@ -1,0 +1,107 @@
+{
+    "results": {
+        "usr/lib/dietlibc/include/linux/elf-em_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib/dietlibc/include/linux/elf-em.h", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "dietlibc-devel-0.34-0.3.20170317.fc27.i686.rpm"
+        }, 
+        "usr/lib/dietlibc/lib-i386/start_o": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib/dietlibc/lib-i386/start.o", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "report-functions": [
+                "environ", 
+                "exit"
+            ], 
+            "rpm": "dietlibc-devel-0.34-0.3.20170317.fc27.i686.rpm"
+        }, 
+        "usr/lib/dietlibc/lib-i386/dyn_stop_o": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib/dietlibc/lib-i386/dyn_stop.o", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "report-functions": [], 
+            "rpm": "dietlibc-devel-0.34-0.3.20170317.fc27.i686.rpm"
+        }, 
+        "usr/lib/dietlibc/lib-i386/dyn_start_o": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib/dietlibc/lib-i386/dyn_start.o", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "report-functions": [], 
+            "rpm": "dietlibc-devel-0.34-0.3.20170317.fc27.i686.rpm"
+        }, 
+        "usr/lib/dietlibc/include/elf_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib/dietlibc/include/elf.h", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "dietlibc-devel-0.34-0.3.20170317.fc27.i686.rpm"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " dietlibc-devel", 
+            "License": " GPLv2", 
+            "URL": " http://www.fefe.de/dietlibc/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-10.phx2.fedoraproject.org", 
+            "Description": "\nThe diet libc is a libc that is optimized for small size. It can be\nused to create small statically linked binaries for Linux on alpha,\narm, hppa, ia64, i386, mips, s390, sparc, sparc64, ppc and x86_64.\n\nThis package contains the object files for dietlibc.\n", 
+            "Build Date": " Wed 02 Aug 2017 04:18:32 PM EDT", 
+            "Source RPM": " dietlibc-0.34-0.3.20170317.fc27.src.rpm", 
+            "Version": " 0.34", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 07 Aug 2017 03:22:17 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 0.3.20170317.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " dietlibc development files", 
+            "Size": " 2215707"
+        }
+    }
+}

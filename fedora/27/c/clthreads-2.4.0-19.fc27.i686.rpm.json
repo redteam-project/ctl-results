@@ -1,0 +1,79 @@
+{
+    "results": {
+        "usr/lib/libclthreads_so_2_4_0": {
+            "report-functions": [
+                "clock_gettime", 
+                "pthread_cond_init", 
+                "__assert_fail", 
+                "strtol", 
+                "pthread_attr_setinheritsched", 
+                "pthread_attr_setschedparam", 
+                "_ZdlPvj", 
+                "pthread_cond_signal", 
+                "pthread_attr_setscope", 
+                "pthread_attr_init", 
+                "pthread_mutex_unlock", 
+                "strncpy", 
+                "__vsnprintf_chk", 
+                "pthread_mutex_trylock", 
+                "pthread_cond_destroy", 
+                "__gxx_personality_v0", 
+                "pthread_mutex_lock", 
+                "pthread_attr_setdetachstate", 
+                "pthread_attr_setstacksize", 
+                "abort", 
+                "pthread_attr_destroy", 
+                "pthread_cond_wait", 
+                "_ITM_registerTMCloneTable", 
+                "sched_get_priority_max", 
+                "__stack_chk_fail", 
+                "pthread_create", 
+                "sched_get_priority_min", 
+                "__ctype_b_loc", 
+                "pthread_mutex_init", 
+                "pthread_cond_timedwait", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "_Znaj", 
+                "_Znwj", 
+                "_Unwind_Resume", 
+                "__cxa_finalize", 
+                "pthread_mutex_destroy"
+            ], 
+            "rpm": "clthreads-2.4.0-19.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libclthreads.so.2.4.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " clthreads", 
+            "License": " LGPLv2+", 
+            "URL": " http://kokkinizita.linuxaudio.org/linuxaudio/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-30.phx2.fedoraproject.org", 
+            "Description": "\nClthreads is a C++ wrapper library around the POSIX threads API.\n", 
+            "Build Date": " Wed 02 Aug 2017 03:03:59 PM EDT", 
+            "Source RPM": " clthreads-2.4.0-19.fc27.src.rpm", 
+            "Version": " 2.4.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 07 Aug 2017 04:42:18 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 19.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " POSIX threads C++ access library", 
+            "Size": " 49693"
+        }
+    }
+}

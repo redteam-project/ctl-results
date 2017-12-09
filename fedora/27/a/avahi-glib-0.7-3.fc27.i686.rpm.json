@@ -1,0 +1,66 @@
+{
+    "results": {
+        "usr/lib/libavahi-glib_so_1_0_2": {
+            "report-functions": [
+                "g_realloc", 
+                "g_source_attach", 
+                "g_source_get_current_time", 
+                "g_malloc", 
+                "g_source_set_can_recurse", 
+                "g_main_context_default", 
+                "g_source_new", 
+                "g_malloc0", 
+                "__assert_fail", 
+                "g_assertion_message_expr", 
+                "__gmon_start__", 
+                "g_source_destroy", 
+                "g_source_add_poll", 
+                "avahi_malloc", 
+                "g_main_context_unref", 
+                "_ITM_registerTMCloneTable", 
+                "avahi_timeval_diff", 
+                "__cxa_finalize", 
+                "g_source_unref", 
+                "avahi_timeval_compare", 
+                "avahi_free", 
+                "g_free", 
+                "g_main_context_ref", 
+                "g_source_remove_poll"
+            ], 
+            "rpm": "avahi-glib-0.7-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libavahi-glib.so.1.0.2"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " avahi-glib", 
+            "License": " LGPLv2+", 
+            "URL": " http://avahi.org", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-09.phx2.fedoraproject.org", 
+            "Description": "\nLibraries for easy use of avahi from glib applications.\n", 
+            "Build Date": " Wed 02 Aug 2017 02:15:17 PM EDT", 
+            "Source RPM": " avahi-0.7-3.fc27.src.rpm", 
+            "Version": " 0.7", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 07 Aug 2017 03:30:23 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 3.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Glib libraries for avahi", 
+            "Size": " 14732"
+        }
+    }
+}

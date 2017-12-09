@@ -1,0 +1,318 @@
+{
+    "results": {
+        "usr/lib/libchck-pool_so_0_0_1": {
+            "report-functions": [
+                "free", 
+                "__cxa_finalize", 
+                "__gmon_start__", 
+                "realloc", 
+                "memmove", 
+                "_ITM_registerTMCloneTable", 
+                "__assert_fail", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "chck-0-2.20161208git0036426.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libchck-pool.so.0.0.1"
+        }, 
+        "usr/lib/libchck-atlas_so_0_0_1": {
+            "report-functions": [
+                "free", 
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "realloc", 
+                "__assert_fail", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "chck-0-2.20161208git0036426.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libchck-atlas.so.0.0.1"
+        }, 
+        "usr/lib/libchck-buffer_so_0_0_1": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "fread", 
+                "__vsnprintf_chk", 
+                "__assert_fail", 
+                "free", 
+                "calloc", 
+                "read", 
+                "__cxa_finalize", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "realloc", 
+                "__memcpy_chk"
+            ], 
+            "rpm": "chck-0-2.20161208git0036426.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libchck-buffer.so.0.0.1"
+        }, 
+        "usr/lib/libchck-sjis_so_0_0_1": {
+            "report-functions": [
+                "__gmon_start__", 
+                "strlen", 
+                "malloc", 
+                "memcmp", 
+                "realloc", 
+                "free", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "chck-0-2.20161208git0036426.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libchck-sjis.so.0.0.1"
+        }, 
+        "usr/lib/libchck-string_so_0_0_1": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "__gmon_start__", 
+                "strspn", 
+                "__rawmemchr", 
+                "strcspn", 
+                "malloc", 
+                "strchr", 
+                "_ITM_deregisterTMCloneTable", 
+                "free", 
+                "calloc", 
+                "strlen", 
+                "__stack_chk_fail", 
+                "__assert_fail"
+            ], 
+            "rpm": "chck-0-2.20161208git0036426.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libchck-string.so.0.0.1"
+        }, 
+        "usr/lib/libchck-xdg_so_0_0_1": {
+            "report-functions": [
+                "__snprintf_chk", 
+                "__cxa_finalize", 
+                "__assert_fail", 
+                "calloc", 
+                "__gmon_start__", 
+                "free", 
+                "strlen", 
+                "_ITM_deregisterTMCloneTable", 
+                "getpwuid", 
+                "getuid", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "chck-0-2.20161208git0036426.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libchck-xdg.so.0.0.1"
+        }, 
+        "usr/lib/libchck-unicode_so_0_0_1": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "__assert_fail"
+            ], 
+            "rpm": "chck-0-2.20161208git0036426.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libchck-unicode.so.0.0.1"
+        }, 
+        "usr/lib/libchck-lut_so_0_0_1": {
+            "report-functions": [
+                "free", 
+                "malloc", 
+                "_ITM_registerTMCloneTable", 
+                "__cxa_finalize", 
+                "__gmon_start__", 
+                "__stack_chk_fail", 
+                "_ITM_deregisterTMCloneTable", 
+                "__assert_fail", 
+                "strcmp", 
+                "calloc"
+            ], 
+            "rpm": "chck-0-2.20161208git0036426.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libchck-lut.so.0.0.1"
+        }, 
+        "usr/lib/libchck-fs_so_0_0_1": {
+            "report-functions": [
+                "__gmon_start__", 
+                "malloc", 
+                "realloc", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable", 
+                "__assert_fail"
+            ], 
+            "rpm": "chck-0-2.20161208git0036426.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libchck-fs.so.0.0.1"
+        }, 
+        "usr/lib/libchck-dl_so_0_0_1": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "_ITM_deregisterTMCloneTable", 
+                "free", 
+                "dlerror", 
+                "__gmon_start__", 
+                "calloc", 
+                "dlopen", 
+                "__assert_fail", 
+                "strlen", 
+                "dlsym"
+            ], 
+            "rpm": "chck-0-2.20161208git0036426.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libchck-dl.so.0.0.1"
+        }, 
+        "usr/lib/libchck-tqueue_so_0_0_1": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "close", 
+                "abort", 
+                "pthread_cond_broadcast", 
+                "pthread_cond_destroy", 
+                "pthread_mutex_lock", 
+                "__cxa_finalize", 
+                "pthread_mutex_init", 
+                "__gmon_start__", 
+                "pthread_mutex_unlock", 
+                "_ITM_deregisterTMCloneTable", 
+                "calloc", 
+                "pthread_cond_wait", 
+                "_ITM_registerTMCloneTable", 
+                "free", 
+                "dup", 
+                "read", 
+                "pthread_create", 
+                "write", 
+                "pthread_cond_init", 
+                "pthread_join", 
+                "pthread_self", 
+                "__fprintf_chk", 
+                "usleep", 
+                "pthread_cond_signal"
+            ], 
+            "rpm": "chck-0-2.20161208git0036426.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libchck-tqueue.so.0.0.1"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " chck", 
+            "License": " zlib", 
+            "URL": " https://github.com/Cloudef/chck", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-05.phx2.fedoraproject.org", 
+            "Description": "\nCollection of C utilities taken and cleaned up from my other projects\n", 
+            "Build Date": " Sat 25 Feb 2017 06:44:05 PM EST", 
+            "Source RPM": " chck-0-2.20161208git0036426.fc26.src.rpm", 
+            "Version": " 0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sun 26 Feb 2017 12:03:51 PM EST, Key ID f55e7430f5282ee4", 
+            "Release": " 2.20161208git0036426.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Collection of C utilities", 
+            "Size": " 361473"
+        }
+    }
+}

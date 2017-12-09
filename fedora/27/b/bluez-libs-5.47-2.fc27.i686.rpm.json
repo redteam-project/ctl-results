@@ -1,0 +1,84 @@
+{
+    "results": {
+        "usr/lib/libbluetooth_so_3_18_16": {
+            "report-functions": [
+                "calloc", 
+                "getsockopt", 
+                "memcmp", 
+                "memmove", 
+                "__errno_location", 
+                "realloc", 
+                "ioctl", 
+                "strlen", 
+                "__snprintf_chk", 
+                "writev", 
+                "select", 
+                "__fdelt_chk", 
+                "socket", 
+                "strsep", 
+                "__stack_chk_fail", 
+                "free", 
+                "__printf_chk", 
+                "setsockopt", 
+                "_ITM_registerTMCloneTable", 
+                "connect", 
+                "recv", 
+                "snprintf", 
+                "strncpy", 
+                "__vfprintf_chk", 
+                "__cxa_finalize", 
+                "strtol", 
+                "strcasecmp", 
+                "strdup", 
+                "__memcpy_chk", 
+                "__gmon_start__", 
+                "poll", 
+                "_ITM_deregisterTMCloneTable", 
+                "strcat", 
+                "read", 
+                "close", 
+                "__ctype_b_loc", 
+                "__syslog_chk", 
+                "bind", 
+                "malloc", 
+                "send", 
+                "__sprintf_chk", 
+                "sprintf"
+            ], 
+            "rpm": "bluez-libs-5.47-2.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libbluetooth.so.3.18.16"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " bluez-libs", 
+            "License": " GPLv2+", 
+            "URL": " http://www.bluez.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-03.phx2.fedoraproject.org", 
+            "Description": "\nLibraries for use in Bluetooth applications.\n", 
+            "Build Date": " Wed 20 Sep 2017 09:02:54 AM EDT", 
+            "Source RPM": " bluez-5.47-2.fc27.src.rpm", 
+            "Version": " 5.47", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Wed 20 Sep 2017 09:14:21 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 2.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Libraries for use in Bluetooth applications", 
+            "Size": " 161018"
+        }
+    }
+}

@@ -1,0 +1,212 @@
+{
+    "results": {
+        "usr/lib64/ocaml/ocamlbuild/ocamlbuild_o": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/ocaml/ocamlbuild/ocamlbuild.o", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "report-functions": [
+                "camlOcamlbuild_pack__Ocamlbuild_unix_plugin__setup_4254"
+            ], 
+            "rpm": "ocaml-ocamlbuild-devel-0.11.0-9.fc27.x86_64.rpm"
+        }, 
+        "usr/lib64/ocaml/ocamlbuild/ocamlbuild_executor_o": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/ocaml/ocamlbuild/ocamlbuild_executor.o", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "report-functions": [
+                "camlMap__add_1291", 
+                "caml_tuplify2", 
+                "camlBuffer__add_substring_1247", 
+                "camlPrintf", 
+                "caml_curry2", 
+                "caml_young_limit", 
+                "camlPrintexc__to_string_1304", 
+                "unix_set_nonblock", 
+                "caml_curry6", 
+                "camlList__map_1248", 
+                "caml_modify", 
+                "camlUnix__read_1355", 
+                "caml_curry3", 
+                "caml_curry4", 
+                "camlList__iter_1272", 
+                "camlUnix__open_process_full_2076", 
+                "caml_apply2", 
+                "camlPervasives", 
+                "caml_create_bytes", 
+                "_GLOBAL_OFFSET_TABLE_", 
+                "caml_young_ptr", 
+                "camlSet__fold_1466", 
+                "caml_raise_exn", 
+                "caml_c_call", 
+                "caml_channel_descriptor", 
+                "unix_clear_nonblock", 
+                "caml_ml_output_char", 
+                "unix_error_message", 
+                "unix_select", 
+                "caml_string_equal", 
+                "camlMap__remove_1424", 
+                "camlPrintf__fprintf_1294", 
+                "camlMap__fun_2919", 
+                "camlUnix", 
+                "camlSet__remove_1375", 
+                "camlSet__add_1282", 
+                "camlQueue__take_1229", 
+                "camlQueue__add_1219", 
+                "caml_call_gc", 
+                "camlBuffer__create_1209", 
+                "camlBytes__sub_1234", 
+                "camlSet__iter_1460", 
+                "camlPervasives__output_substring_1221", 
+                "caml_alloc1", 
+                "camlUnix__close_process_full_2106", 
+                "camlPervasives__output_string_1213", 
+                "caml_exn_Not_found", 
+                "camlSet__fun_2940", 
+                "camlString__index_from_1343", 
+                "unix_environment"
+            ], 
+            "rpm": "ocaml-ocamlbuild-devel-0.11.0-9.fc27.x86_64.rpm"
+        }, 
+        "usr/lib64/ocaml/ocamlbuild/ocamlbuild_unix_plugin_o": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/ocaml/ocamlbuild/ocamlbuild_unix_plugin.o", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "report-functions": [
+                "caml_apply2", 
+                "caml_young_limit", 
+                "caml_string_notequal", 
+                "_GLOBAL_OFFSET_TABLE_", 
+                "caml_raise_exn", 
+                "unix_readlink", 
+                "unix_error_message", 
+                "camlOcamlbuild_pack__Ocamlbuild_executor__execute_1657", 
+                "camlOcamlbuild_pack", 
+                "unix_lstat", 
+                "caml_curry4", 
+                "camlFilename__concat_1337", 
+                "caml_young_ptr", 
+                "caml_curry2", 
+                "caml_exn_Sys_error", 
+                "caml_apply3", 
+                "camlUnix__close_process_in_2095", 
+                "camlOcamlbuild_pack__My_unix", 
+                "camlFormat__sprintf_1911", 
+                "caml_c_call", 
+                "camlFormat__fprintf_1894", 
+                "camlOcamlbuild_pack__My_std__sbprintf_1401", 
+                "caml_exn_Not_found", 
+                "camlPervasives__at_exit_1391", 
+                "caml_allocN", 
+                "caml_modify", 
+                "camlPrintf__sprintf_1315", 
+                "unix_isatty", 
+                "caml_call_gc", 
+                "camlSys", 
+                "caml_backtrace_pos", 
+                "caml_ml_array_bound_error", 
+                "caml_sys_getenv", 
+                "camlUnix__open_process_in_2054", 
+                "camlPervasives__failwith_1005", 
+                "camlOcamlbuild_pack__Ocamlbuild_executor", 
+                "camlFilename"
+            ], 
+            "rpm": "ocaml-ocamlbuild-devel-0.11.0-9.fc27.x86_64.rpm"
+        }, 
+        "usr/lib64/ocaml/ocamlbuild/ocamlbuild_plugin_o": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/ocaml/ocamlbuild/ocamlbuild_plugin.o", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "report-functions": [
+                "camlOcamlbuild_pack__Options", 
+                "caml_curry2", 
+                "camlOcamlbuild_pack", 
+                "caml_curry3", 
+                "caml_young_limit", 
+                "camlOcamlbuild_pack__Flags__flag_inner_1548", 
+                "camlOcamlbuild_pack__My_std", 
+                "camlOcamlbuild_pack__Flags__pflag_1312", 
+                "caml_allocN", 
+                "caml_call_gc"
+            ], 
+            "rpm": "ocaml-ocamlbuild-devel-0.11.0-9.fc27.x86_64.rpm"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " ocaml-ocamlbuild-devel", 
+            "License": " LGPLv2+ with exceptions", 
+            "URL": " https://github.com/ocaml/ocamlbuild", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-09.phx2.fedoraproject.org", 
+            "Description": "\nThis package contains development files for ocaml-ocamlbuild.\n", 
+            "Build Date": " Mon 07 Aug 2017 07:57:13 AM EDT", 
+            "Source RPM": " ocaml-ocamlbuild-0.11.0-9.fc27.src.rpm", 
+            "Version": " 0.11.0", 
+            "Architecture": " x86_64", 
+            "Signature": " RSA/SHA256, Wed 09 Aug 2017 10:03:41 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 9.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Development files for ocaml-ocamlbuild", 
+            "Size": " 2188750"
+        }
+    }
+}

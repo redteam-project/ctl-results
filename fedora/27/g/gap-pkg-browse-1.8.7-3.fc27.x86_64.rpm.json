@@ -1,0 +1,25 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " gap-pkg-browse", 
+            "License": " GPLv3+", 
+            "URL": " http://www.math.rwth-aachen.de/~Browse/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-09.phx2.fedoraproject.org", 
+            "Description": "\nThe motivation for this package was to develop functions for an\ninteractive display of two-dimensional arrays of data, for example\ncharacter tables.  They should be displayed with labeled rows and\ncolumns, the display should allow some markup for fonts or colors, it\nshould be possible to search for entries, to sort rows or columns, to\nhide and unhide information, to bind commands to keys, and so on.\n\nTo achieve this our package now provides three levels of functionality,\nwhere in particular the first level may also be used for completely\nother types of applications:\n- A low level interface to ncurses: This may be interesting for all\n  kinds of applications which want to display text with some markup and\n  colors, maybe in several windows, using the available capabilities of\n  a terminal.\n- A medium level interface to a generic function NCurses.BrowseGeneric:\n  We introduce a new operation Browse which is meant as an interactive\n  version of Display for GAP objects.  Then we provide a generic\n  function for browsing two-dimensional arrays of data, handles labels\n  for rows and columns, searching, sorting, binding keys to actions,\n  etc.  This is for users who want to implement new methods for browsing\n  two-dimensional data.\n- Applications of these interfaces: We provide some applications of the\n  ncurses interface and of the function NCurses.BrowseGeneric.  These\n  may be interesting for end users, and also as examples for programmers\n  of further applications.  This includes a method for browsing\n  character tables, several games, and an interface for demos.\n", 
+            "Build Date": " Wed 02 Aug 2017 08:55:59 PM EDT", 
+            "Source RPM": " gap-pkg-browse-1.8.7-3.fc27.src.rpm", 
+            "Version": " 1.8.7", 
+            "Architecture": " x86_64", 
+            "Signature": " RSA/SHA256, Thu 03 Aug 2017 07:45:58 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 3.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " GAP browser for 2-dimensional arrays of data", 
+            "Size": " 5298038"
+        }
+    }
+}

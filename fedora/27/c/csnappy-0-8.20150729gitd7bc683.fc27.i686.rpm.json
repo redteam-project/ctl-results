@@ -1,0 +1,46 @@
+{
+    "results": {
+        "usr/lib/libcsnappy_so": {
+            "report-functions": [
+                "__gmon_start__", 
+                "__stack_chk_fail", 
+                "__memmove_chk", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "csnappy-0-8.20150729gitd7bc683.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libcsnappy.so"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " csnappy", 
+            "License": " BSD", 
+            "URL": " https://github.com/zeevt/csnappy", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-11.phx2.fedoraproject.org", 
+            "Description": "\nThis is an ANSI C port of Google's Snappy library. Snappy is a compression\nlibrary designed for speed rather than compression ratios.\n", 
+            "Build Date": " Wed 02 Aug 2017 03:40:09 PM EDT", 
+            "Source RPM": " csnappy-0-8.20150729gitd7bc683.fc27.src.rpm", 
+            "Version": " 0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sun 06 Aug 2017 11:58:23 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 8.20150729gitd7bc683.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Snappy compression library ported to C", 
+            "Size": " 19068"
+        }
+    }
+}

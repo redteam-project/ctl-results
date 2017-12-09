@@ -1,0 +1,77 @@
+{
+    "results": {
+        "usr/lib/alsa-lib/libasound_module_pcm_usb_stream_so": {
+            "report-functions": [
+                "snd_config_iterator_next", 
+                "pthread_mutex_unlock", 
+                "__snprintf_chk", 
+                "snd_pcm_ioplug_create", 
+                "snd_pcm_ioplug_set_param_list", 
+                "snd_config_get_string", 
+                "snd_hwdep_close", 
+                "strcmp", 
+                "__gmon_start__", 
+                "snd_hwdep_poll_descriptors", 
+                "snd_config_iterator_end", 
+                "free", 
+                "snd_config_iterator_entry", 
+                "__stack_chk_fail", 
+                "_ITM_registerTMCloneTable", 
+                "munmap", 
+                "snd_config_iterator_first", 
+                "snd_hwdep_open", 
+                "snd_hwdep_ioctl", 
+                "mmap", 
+                "poll", 
+                "snd_config_get_id", 
+                "__strcpy_chk", 
+                "__cxa_finalize", 
+                "__fprintf_chk", 
+                "strlen", 
+                "pthread_mutex_lock", 
+                "__assert_fail", 
+                "mremap", 
+                "snd_pcm_ioplug_delete", 
+                "calloc", 
+                "perror", 
+                "__errno_location", 
+                "snd_pcm_ioplug_set_param_minmax", 
+                "snd_config_get_type"
+            ], 
+            "rpm": "alsa-plugins-usbstream-1.1.4-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: 'NoneType' object is not iterable"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/alsa-lib/libasound_module_pcm_usb_stream.so"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " alsa-plugins-usbstream", 
+            "License": " LGPLv2+", 
+            "URL": " http://www.alsa-project.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-11.phx2.fedoraproject.org", 
+            "Description": "\nThe usbstream plugin is for snd-usb-us122l driver. It converts PCM\nstream to USB specific stream.\n", 
+            "Build Date": " Wed 02 Aug 2017 01:49:58 PM EDT", 
+            "Source RPM": " alsa-plugins-1.1.4-3.fc27.src.rpm", 
+            "Version": " 1.1.4", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 07 Aug 2017 02:07:24 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 3.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " USB stream plugin for ALSA", 
+            "Size": " 59182"
+        }
+    }
+}

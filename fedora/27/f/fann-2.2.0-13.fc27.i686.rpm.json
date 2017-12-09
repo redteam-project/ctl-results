@@ -1,0 +1,205 @@
+{
+    "results": {
+        "usr/lib/libdoublefann_so_2_2_0": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "__stack_chk_fail", 
+                "fputc", 
+                "__isoc99_fscanf", 
+                "__printf_chk", 
+                "cos", 
+                "_ITM_deregisterTMCloneTable", 
+                "fclose", 
+                "pow", 
+                "puts", 
+                "gettimeofday", 
+                "fwrite", 
+                "realloc", 
+                "__strcpy_chk", 
+                "rand", 
+                "memmove", 
+                "__vsnprintf_chk", 
+                "_ITM_registerTMCloneTable", 
+                "sin", 
+                "putchar", 
+                "free", 
+                "__fprintf_chk", 
+                "log", 
+                "sqrtf", 
+                "calloc", 
+                "srand", 
+                "floor", 
+                "fopen", 
+                "__gmon_start__", 
+                "exp"
+            ], 
+            "rpm": "fann-2.2.0-13.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libdoublefann.so.2.2.0"
+        }, 
+        "usr/lib/libfloatfann_so_2_2_0": {
+            "report-functions": [
+                "fputc", 
+                "floor", 
+                "cos", 
+                "fwrite", 
+                "_ITM_deregisterTMCloneTable", 
+                "gettimeofday", 
+                "fread", 
+                "__fprintf_chk", 
+                "memmove", 
+                "__stack_chk_fail", 
+                "malloc", 
+                "__cxa_finalize", 
+                "rand", 
+                "sin", 
+                "exp", 
+                "fopen", 
+                "fclose", 
+                "__strcpy_chk", 
+                "__vsnprintf_chk", 
+                "free", 
+                "_ITM_registerTMCloneTable", 
+                "__gmon_start__", 
+                "sqrtf", 
+                "log", 
+                "putchar", 
+                "realloc", 
+                "calloc", 
+                "puts", 
+                "__isoc99_fscanf", 
+                "__printf_chk"
+            ], 
+            "rpm": "fann-2.2.0-13.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libfloatfann.so.2.2.0"
+        }, 
+        "usr/lib/libfann_so_2_2_0": {
+            "report-functions": [
+                "__printf_chk", 
+                "sqrtf", 
+                "log", 
+                "fopen", 
+                "memmove", 
+                "rand", 
+                "fclose", 
+                "fwrite", 
+                "fputc", 
+                "srand", 
+                "fread", 
+                "malloc", 
+                "free", 
+                "__fprintf_chk", 
+                "sin", 
+                "_ITM_registerTMCloneTable", 
+                "realloc", 
+                "cos", 
+                "_ITM_deregisterTMCloneTable", 
+                "pow", 
+                "puts", 
+                "calloc", 
+                "__strcpy_chk", 
+                "__gmon_start__", 
+                "putchar", 
+                "gettimeofday", 
+                "exp", 
+                "__stack_chk_fail", 
+                "floor", 
+                "__isoc99_fscanf", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "fann-2.2.0-13.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libfann.so.2.2.0"
+        }, 
+        "usr/lib/libfixedfann_so_2_2_0": {
+            "report-functions": [
+                "__vsnprintf_chk", 
+                "realloc", 
+                "memmove", 
+                "__isoc99_fscanf", 
+                "malloc", 
+                "srand", 
+                "rand", 
+                "gettimeofday", 
+                "log", 
+                "calloc", 
+                "fputc", 
+                "free", 
+                "pow", 
+                "__strcpy_chk", 
+                "__fprintf_chk", 
+                "fclose", 
+                "_ITM_deregisterTMCloneTable", 
+                "__printf_chk", 
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "fwrite", 
+                "__cxa_finalize", 
+                "fopen"
+            ], 
+            "rpm": "fann-2.2.0-13.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libfixedfann.so.2.2.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " fann", 
+            "License": " LGPLv2+", 
+            "URL": " http://leenissen.dk/fann/wp/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-07.phx2.fedoraproject.org", 
+            "Description": "\nFast Artificial Neural Network (FANN) Library is written in ANSI C.\nThe library implements multilayer feedforward ANNs, up to 150 times faster\nthan other libraries. FANN supports execution in fixed point, for fast\nexecution on systems like the iPAQ.\n", 
+            "Build Date": " Fri 25 Aug 2017 05:41:33 AM EDT", 
+            "Source RPM": " fann-2.2.0-13.fc27.src.rpm", 
+            "Version": " 2.2.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 25 Aug 2017 05:44:27 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 13.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A fast artificial neural network library", 
+            "Size": " 368166"
+        }
+    }
+}

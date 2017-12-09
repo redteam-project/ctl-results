@@ -1,0 +1,168 @@
+{
+    "results": {
+        "usr/lib/ocaml/yojson/yojson_o": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib/ocaml/yojson/yojson.o", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "report-functions": [
+                "camlBi_outbuf__add_char_1283", 
+                "camlLexing", 
+                "camlList__1", 
+                "camlPervasives__30", 
+                "camlLexing__2", 
+                "camlPrintf__fprintf_1294", 
+                "caml_c_call", 
+                "caml_raise_exn", 
+                "camlList__assoc_1381", 
+                "caml_lex_engine", 
+                "camlPervasives__open_out_gen_1190", 
+                "camlPervasives", 
+                "camlLexing__from_string_1266", 
+                "camlPervasives__close_in_noerr_1297", 
+                "camlEasy_format__1", 
+                "camlBuffer__create_1209", 
+                "camlBytes__blit_string_1267", 
+                "caml_apply2", 
+                "caml_exn_Assert_failure", 
+                "caml_modify", 
+                "caml_create_string", 
+                "caml_alloc2", 
+                "camlBi_outbuf__extend_1268", 
+                "camlPervasives__23", 
+                "camlList__iter_1272", 
+                "caml_classify_float_unboxed", 
+                "camlPervasives__char_of_int_1125", 
+                "camlEasy_format__to_channel_inner_2107", 
+                "caml_make_vect", 
+                "camlPervasives__max_1030", 
+                "caml_young_limit", 
+                "caml_tuplify2", 
+                "caml_ml_close_channel", 
+                "camlBi_outbuf__create_channel_writer_inner_1468", 
+                "cos", 
+                "camlBi_outbuf", 
+                "camlEasy_format__2", 
+                "caml_curry5", 
+                "camlPervasives__$5e_1117", 
+                "camlBi_outbuf__create_inner_1461", 
+                "camlEasy_format__to_string_1718", 
+                "camlPervasives__failwith_1005", 
+                "caml_allocN", 
+                "sqrt", 
+                "caml_young_ptr", 
+                "caml_string_compare", 
+                "camlPervasives__input_line_1274", 
+                "camlEasy_format__3", 
+                "caml_exn_Not_found", 
+                "caml_fresh_oo_id", 
+                "caml_backtrace_pos", 
+                "camlBi_outbuf__create_output_writer_inner_1478", 
+                "caml_call_gc", 
+                "camlBytes__sub_1234", 
+                "caml_curry2", 
+                "caml_curry3", 
+                "camlLexing__from_channel_1262", 
+                "caml_float_of_string", 
+                "caml_int64_of_string", 
+                "caml_apply3", 
+                "caml_curry4", 
+                "caml_exception_pointer", 
+                "camlList__2", 
+                "camlChar__chr_1206", 
+                "camlList__nth_1219", 
+                "camlPervasives__string_of_int_1150", 
+                "camlList__map_1248", 
+                "camlList__length_aux_1204", 
+                "camlPervasives__$40_1166", 
+                "camlBi_outbuf__add_string_1280", 
+                "camlPervasives__open_in_gen_1242", 
+                "caml_exn_End_of_file", 
+                "caml_ml_array_bound_error", 
+                "camlPervasives__close_out_1236", 
+                "camlStream__from_4286", 
+                "camlList__rev_append_1236", 
+                "camlStream__iter_4280", 
+                "camlBi_outbuf__clear_1305", 
+                "camlList__stable_sort_1482", 
+                "camlList__rev_map_1264", 
+                "caml_int32_of_string", 
+                "caml_apply4", 
+                "caml_int_of_string"
+            ], 
+            "rpm": "ocaml-yojson-devel-1.1.8-24.fc27.i686.rpm"
+        }, 
+        "usr/lib/ocaml/yojson/yojson_biniou_o": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib/ocaml/yojson/yojson_biniou.o", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "report-functions": [
+                "caml_exception_pointer", 
+                "camlBi_io__hash_name_1265", 
+                "caml_tuplify3", 
+                "caml_young_limit", 
+                "caml_curry2", 
+                "caml_tuplify2", 
+                "camlArray__to_list_1285", 
+                "caml_young_ptr", 
+                "camlArray__map_1261", 
+                "caml_backtrace_pos", 
+                "caml_call_gc", 
+                "camlPervasives", 
+                "camlBi_io__tag_of_tree_1716", 
+                "camlArray__of_list_1294", 
+                "caml_raise_exn"
+            ], 
+            "rpm": "ocaml-yojson-devel-1.1.8-24.fc27.i686.rpm"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " ocaml-yojson-devel", 
+            "License": " BSD", 
+            "URL": " http://mjambon.com/yojson.html", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-06.phx2.fedoraproject.org", 
+            "Description": "\nThe ocaml-yojson-devel package contains libraries and signature files for\ndeveloping applications that use ocaml-yojson.\n", 
+            "Build Date": " Wed 09 Aug 2017 06:17:25 AM EDT", 
+            "Source RPM": " ocaml-yojson-1.1.8-24.fc27.src.rpm", 
+            "Version": " 1.1.8", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Wed 09 Aug 2017 10:11:53 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 24.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Development files for ocaml-yojson", 
+            "Size": " 643537"
+        }
+    }
+}

@@ -1,0 +1,1198 @@
+{
+    "results": {
+        "usr/bin/unihelper": {
+            "report-functions": [], 
+            "rpm": "fpc-3.0.2-1.fc27.x86_64.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/unihelper"
+        }, 
+        "usr/bin/fd2pascal": {
+            "report-functions": [], 
+            "rpm": "fpc-3.0.2-1.fc27.x86_64.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/fd2pascal"
+        }, 
+        "usr/bin/ppdep": {
+            "report-functions": [], 
+            "rpm": "fpc-3.0.2-1.fc27.x86_64.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/ppdep"
+        }, 
+        "usr/bin/fprcp": {
+            "report-functions": [], 
+            "rpm": "fpc-3.0.2-1.fc27.x86_64.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/fprcp"
+        }, 
+        "usr/bin/fpcmake": {
+            "report-functions": [], 
+            "rpm": "fpc-3.0.2-1.fc27.x86_64.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/fpcmake"
+        }, 
+        "usr/bin/fppkg": {
+            "find-libc-functions": [
+                "GI___obstack_vprintf", 
+                "GI___vasprintf", 
+                "GI___vdprintf", 
+                "GI___vfprintf", 
+                "GI___vfwprintf", 
+                "GI___vsnprintf", 
+                "GI___vsprintf", 
+                "GI___vswprintf", 
+                "GI___vsyslog", 
+                "__longjmp", 
+                "_fprintf", 
+                "_printf", 
+                "_snprintf", 
+                "_sprintf", 
+                "_vfprintf", 
+                "_vprintf", 
+                "_vsnprintf", 
+                "_vsprintf", 
+                "asprintf", 
+                "confstr", 
+                "dprintf", 
+                "explicit_bzero", 
+                "fdelt", 
+                "fgets", 
+                "fgets_unlocked", 
+                "fgetws", 
+                "fgetws_unlocked", 
+                "fprintf", 
+                "fread", 
+                "fread_unlocked", 
+                "fwprintf", 
+                "getcwd", 
+                "getdomainname", 
+                "getgroups", 
+                "gethostname", 
+                "getlogin_r", 
+                "gets", 
+                "getwd", 
+                "longjmp", 
+                "mbsnrtowcs", 
+                "mbsrtowcs", 
+                "mbstowcs", 
+                "memcpy", 
+                "memmove", 
+                "mempcpy", 
+                "memset", 
+                "obstack_printf", 
+                "obstack_vprintf", 
+                "poll", 
+                "ppoll", 
+                "pread64", 
+                "pread", 
+                "printf", 
+                "ptsname_r", 
+                "read", 
+                "readlink", 
+                "readlinkat", 
+                "realpath", 
+                "recv", 
+                "recvfrom", 
+                "snprintf", 
+                "sprintf", 
+                "stpcpy", 
+                "stpncpy", 
+                "strcat", 
+                "strcpy", 
+                "strncat", 
+                "strncpy", 
+                "swprintf", 
+                "syslog", 
+                "ttyname_r", 
+                "vasprintf", 
+                "vdprintf", 
+                "vfprintf", 
+                "vfwprintf", 
+                "vprintf", 
+                "vsnprintf", 
+                "vsprintf", 
+                "vswprintf", 
+                "vsyslog", 
+                "vwprintf", 
+                "wcpcpy", 
+                "wcpncpy", 
+                "wcrtomb", 
+                "wcscat", 
+                "wcscpy", 
+                "wcsncat", 
+                "wcsncpy", 
+                "wcsnrtombs", 
+                "wcsrtombs", 
+                "wcstombs", 
+                "wctomb", 
+                "wmemcpy", 
+                "wmemmove", 
+                "wmempcpy", 
+                "wmemset", 
+                "wprintf"
+            ], 
+            "filename": "usr/bin/fppkg", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "dladdr", 
+                "dlsym", 
+                "__gmon_start__", 
+                "__errno_location", 
+                "dlopen", 
+                "dlclose"
+            ], 
+            "rpm": "fpc-3.0.2-1.fc27.x86_64.rpm"
+        }, 
+        "usr/bin/fpclasschart": {
+            "report-functions": [], 
+            "rpm": "fpc-3.0.2-1.fc27.x86_64.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/fpclasschart"
+        }, 
+        "usr/bin/ptop": {
+            "report-functions": [], 
+            "rpm": "fpc-3.0.2-1.fc27.x86_64.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/ptop"
+        }, 
+        "usr/bin/chmls": {
+            "report-functions": [], 
+            "rpm": "fpc-3.0.2-1.fc27.x86_64.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/chmls"
+        }, 
+        "usr/bin/unitdiff": {
+            "report-functions": [], 
+            "rpm": "fpc-3.0.2-1.fc27.x86_64.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/unitdiff"
+        }, 
+        "usr/bin/fpcjres": {
+            "report-functions": [], 
+            "rpm": "fpc-3.0.2-1.fc27.x86_64.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/fpcjres"
+        }, 
+        "usr/bin/plex": {
+            "report-functions": [], 
+            "rpm": "fpc-3.0.2-1.fc27.x86_64.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/plex"
+        }, 
+        "usr/bin/pyacc": {
+            "report-functions": [], 
+            "rpm": "fpc-3.0.2-1.fc27.x86_64.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/pyacc"
+        }, 
+        "usr/bin/cldrparser": {
+            "report-functions": [], 
+            "rpm": "fpc-3.0.2-1.fc27.x86_64.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/cldrparser"
+        }, 
+        "usr/bin/fpdoc": {
+            "find-libc-functions": [
+                "GI___obstack_vprintf", 
+                "GI___vasprintf", 
+                "GI___vdprintf", 
+                "GI___vfprintf", 
+                "GI___vfwprintf", 
+                "GI___vsnprintf", 
+                "GI___vsprintf", 
+                "GI___vswprintf", 
+                "GI___vsyslog", 
+                "__longjmp", 
+                "_fprintf", 
+                "_printf", 
+                "_snprintf", 
+                "_sprintf", 
+                "_vfprintf", 
+                "_vprintf", 
+                "_vsnprintf", 
+                "_vsprintf", 
+                "asprintf", 
+                "confstr", 
+                "dprintf", 
+                "explicit_bzero", 
+                "fdelt", 
+                "fgets", 
+                "fgets_unlocked", 
+                "fgetws", 
+                "fgetws_unlocked", 
+                "fprintf", 
+                "fread", 
+                "fread_unlocked", 
+                "fwprintf", 
+                "getcwd", 
+                "getdomainname", 
+                "getgroups", 
+                "gethostname", 
+                "getlogin_r", 
+                "gets", 
+                "getwd", 
+                "longjmp", 
+                "mbsnrtowcs", 
+                "mbsrtowcs", 
+                "mbstowcs", 
+                "memcpy", 
+                "memmove", 
+                "mempcpy", 
+                "memset", 
+                "obstack_printf", 
+                "obstack_vprintf", 
+                "poll", 
+                "ppoll", 
+                "pread64", 
+                "pread", 
+                "printf", 
+                "ptsname_r", 
+                "read", 
+                "readlink", 
+                "readlinkat", 
+                "realpath", 
+                "recv", 
+                "recvfrom", 
+                "snprintf", 
+                "sprintf", 
+                "stpcpy", 
+                "stpncpy", 
+                "strcat", 
+                "strcpy", 
+                "strncat", 
+                "strncpy", 
+                "swprintf", 
+                "syslog", 
+                "ttyname_r", 
+                "vasprintf", 
+                "vdprintf", 
+                "vfprintf", 
+                "vfwprintf", 
+                "vprintf", 
+                "vsnprintf", 
+                "vsprintf", 
+                "vswprintf", 
+                "vsyslog", 
+                "vwprintf", 
+                "wcpcpy", 
+                "wcpncpy", 
+                "wcrtomb", 
+                "wcscat", 
+                "wcscpy", 
+                "wcsncat", 
+                "wcsncpy", 
+                "wcsnrtombs", 
+                "wcsrtombs", 
+                "wcstombs", 
+                "wctomb", 
+                "wmemcpy", 
+                "wmemmove", 
+                "wmempcpy", 
+                "wmemset", 
+                "wprintf"
+            ], 
+            "filename": "usr/bin/fpdoc", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "nl_langinfo", 
+                "strcoll", 
+                "wcscoll", 
+                "iconv_open", 
+                "mbrtowc", 
+                "__errno_location", 
+                "wcrtomb", 
+                "dlclose", 
+                "dlerror", 
+                "towupper", 
+                "mbrlen", 
+                "__gmon_start__", 
+                "towlower", 
+                "dlsym", 
+                "sched_yield", 
+                "dlopen", 
+                "iconv", 
+                "setlocale", 
+                "dladdr"
+            ], 
+            "rpm": "fpc-3.0.2-1.fc27.x86_64.rpm"
+        }, 
+        "usr/bin/mkarmins": {
+            "report-functions": [], 
+            "rpm": "fpc-3.0.2-1.fc27.x86_64.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/mkarmins"
+        }, 
+        "usr/bin/makeskel": {
+            "report-functions": [], 
+            "rpm": "fpc-3.0.2-1.fc27.x86_64.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/makeskel"
+        }, 
+        "usr/bin/fpc": {
+            "report-functions": [], 
+            "rpm": "fpc-3.0.2-1.fc27.x86_64.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/fpc"
+        }, 
+        "usr/bin/mkx86ins": {
+            "report-functions": [], 
+            "rpm": "fpc-3.0.2-1.fc27.x86_64.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/mkx86ins"
+        }, 
+        "usr/bin/fpcmkcfg": {
+            "find-libc-functions": [
+                "GI___obstack_vprintf", 
+                "GI___vasprintf", 
+                "GI___vdprintf", 
+                "GI___vfprintf", 
+                "GI___vfwprintf", 
+                "GI___vsnprintf", 
+                "GI___vsprintf", 
+                "GI___vswprintf", 
+                "GI___vsyslog", 
+                "__longjmp", 
+                "_fprintf", 
+                "_printf", 
+                "_snprintf", 
+                "_sprintf", 
+                "_vfprintf", 
+                "_vprintf", 
+                "_vsnprintf", 
+                "_vsprintf", 
+                "asprintf", 
+                "confstr", 
+                "dprintf", 
+                "explicit_bzero", 
+                "fdelt", 
+                "fgets", 
+                "fgets_unlocked", 
+                "fgetws", 
+                "fgetws_unlocked", 
+                "fprintf", 
+                "fread", 
+                "fread_unlocked", 
+                "fwprintf", 
+                "getcwd", 
+                "getdomainname", 
+                "getgroups", 
+                "gethostname", 
+                "getlogin_r", 
+                "gets", 
+                "getwd", 
+                "longjmp", 
+                "mbsnrtowcs", 
+                "mbsrtowcs", 
+                "mbstowcs", 
+                "memcpy", 
+                "memmove", 
+                "mempcpy", 
+                "memset", 
+                "obstack_printf", 
+                "obstack_vprintf", 
+                "poll", 
+                "ppoll", 
+                "pread64", 
+                "pread", 
+                "printf", 
+                "ptsname_r", 
+                "read", 
+                "readlink", 
+                "readlinkat", 
+                "realpath", 
+                "recv", 
+                "recvfrom", 
+                "snprintf", 
+                "sprintf", 
+                "stpcpy", 
+                "stpncpy", 
+                "strcat", 
+                "strcpy", 
+                "strncat", 
+                "strncpy", 
+                "swprintf", 
+                "syslog", 
+                "ttyname_r", 
+                "vasprintf", 
+                "vdprintf", 
+                "vfprintf", 
+                "vfwprintf", 
+                "vprintf", 
+                "vsnprintf", 
+                "vsprintf", 
+                "vswprintf", 
+                "vsyslog", 
+                "vwprintf", 
+                "wcpcpy", 
+                "wcpncpy", 
+                "wcrtomb", 
+                "wcscat", 
+                "wcscpy", 
+                "wcsncat", 
+                "wcsncpy", 
+                "wcsnrtombs", 
+                "wcsrtombs", 
+                "wcstombs", 
+                "wctomb", 
+                "wmemcpy", 
+                "wmemmove", 
+                "wmempcpy", 
+                "wmemset", 
+                "wprintf"
+            ], 
+            "filename": "usr/bin/fpcmkcfg", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "dladdr", 
+                "sched_yield", 
+                "__errno_location", 
+                "__libc_start_main", 
+                "dlsym", 
+                "dlopen", 
+                "dlclose"
+            ], 
+            "rpm": "fpc-3.0.2-1.fc27.x86_64.rpm"
+        }, 
+        "usr/bin/fpcsubst": {
+            "report-functions": [], 
+            "rpm": "fpc-3.0.2-1.fc27.x86_64.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/fpcsubst"
+        }, 
+        "usr/bin/pas2jni": {
+            "report-functions": [], 
+            "rpm": "fpc-3.0.2-1.fc27.x86_64.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/pas2jni"
+        }, 
+        "usr/bin/fp": {
+            "report-functions": [], 
+            "rpm": "fpc-3.0.2-1.fc27.x86_64.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/fp"
+        }, 
+        "usr/bin/postw32": {
+            "report-functions": [], 
+            "rpm": "fpc-3.0.2-1.fc27.x86_64.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/postw32"
+        }, 
+        "usr/bin/ppudump": {
+            "report-functions": [], 
+            "rpm": "fpc-3.0.2-1.fc27.x86_64.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/ppudump"
+        }, 
+        "usr/bin/data2inc": {
+            "report-functions": [], 
+            "rpm": "fpc-3.0.2-1.fc27.x86_64.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/data2inc"
+        }, 
+        "usr/bin/pas2ut": {
+            "report-functions": [], 
+            "rpm": "fpc-3.0.2-1.fc27.x86_64.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/pas2ut"
+        }, 
+        "usr/bin/bin2obj": {
+            "report-functions": [], 
+            "rpm": "fpc-3.0.2-1.fc27.x86_64.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/bin2obj"
+        }, 
+        "usr/bin/ppumove": {
+            "report-functions": [], 
+            "rpm": "fpc-3.0.2-1.fc27.x86_64.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/ppumove"
+        }, 
+        "usr/bin/grab_vcsa": {
+            "report-functions": [], 
+            "rpm": "fpc-3.0.2-1.fc27.x86_64.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/grab_vcsa"
+        }, 
+        "usr/bin/chmcmd": {
+            "find-libc-functions": [
+                "GI___obstack_vprintf", 
+                "GI___vasprintf", 
+                "GI___vdprintf", 
+                "GI___vfprintf", 
+                "GI___vfwprintf", 
+                "GI___vsnprintf", 
+                "GI___vsprintf", 
+                "GI___vswprintf", 
+                "GI___vsyslog", 
+                "__longjmp", 
+                "_fprintf", 
+                "_printf", 
+                "_snprintf", 
+                "_sprintf", 
+                "_vfprintf", 
+                "_vprintf", 
+                "_vsnprintf", 
+                "_vsprintf", 
+                "asprintf", 
+                "confstr", 
+                "dprintf", 
+                "explicit_bzero", 
+                "fdelt", 
+                "fgets", 
+                "fgets_unlocked", 
+                "fgetws", 
+                "fgetws_unlocked", 
+                "fprintf", 
+                "fread", 
+                "fread_unlocked", 
+                "fwprintf", 
+                "getcwd", 
+                "getdomainname", 
+                "getgroups", 
+                "gethostname", 
+                "getlogin_r", 
+                "gets", 
+                "getwd", 
+                "longjmp", 
+                "mbsnrtowcs", 
+                "mbsrtowcs", 
+                "mbstowcs", 
+                "memcpy", 
+                "memmove", 
+                "mempcpy", 
+                "memset", 
+                "obstack_printf", 
+                "obstack_vprintf", 
+                "poll", 
+                "ppoll", 
+                "pread64", 
+                "pread", 
+                "printf", 
+                "ptsname_r", 
+                "read", 
+                "readlink", 
+                "readlinkat", 
+                "realpath", 
+                "recv", 
+                "recvfrom", 
+                "snprintf", 
+                "sprintf", 
+                "stpcpy", 
+                "stpncpy", 
+                "strcat", 
+                "strcpy", 
+                "strncat", 
+                "strncpy", 
+                "swprintf", 
+                "syslog", 
+                "ttyname_r", 
+                "vasprintf", 
+                "vdprintf", 
+                "vfprintf", 
+                "vfwprintf", 
+                "vprintf", 
+                "vsnprintf", 
+                "vsprintf", 
+                "vswprintf", 
+                "vsyslog", 
+                "vwprintf", 
+                "wcpcpy", 
+                "wcpncpy", 
+                "wcrtomb", 
+                "wcscat", 
+                "wcscpy", 
+                "wcsncat", 
+                "wcsncpy", 
+                "wcsnrtombs", 
+                "wcsrtombs", 
+                "wcstombs", 
+                "wctomb", 
+                "wmemcpy", 
+                "wmemmove", 
+                "wmempcpy", 
+                "wmemset", 
+                "wprintf"
+            ], 
+            "filename": "usr/bin/chmcmd", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "sched_yield", 
+                "__errno_location", 
+                "__libc_start_main", 
+                "dlsym", 
+                "__gmon_start__", 
+                "dlopen", 
+                "dladdr"
+            ], 
+            "rpm": "fpc-3.0.2-1.fc27.x86_64.rpm"
+        }, 
+        "usr/bin/delp": {
+            "report-functions": [], 
+            "rpm": "fpc-3.0.2-1.fc27.x86_64.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/delp"
+        }, 
+        "usr/bin/rstconv": {
+            "find-libc-functions": [
+                "GI___obstack_vprintf", 
+                "GI___vasprintf", 
+                "GI___vdprintf", 
+                "GI___vfprintf", 
+                "GI___vfwprintf", 
+                "GI___vsnprintf", 
+                "GI___vsprintf", 
+                "GI___vswprintf", 
+                "GI___vsyslog", 
+                "__longjmp", 
+                "_fprintf", 
+                "_printf", 
+                "_snprintf", 
+                "_sprintf", 
+                "_vfprintf", 
+                "_vprintf", 
+                "_vsnprintf", 
+                "_vsprintf", 
+                "asprintf", 
+                "confstr", 
+                "dprintf", 
+                "explicit_bzero", 
+                "fdelt", 
+                "fgets", 
+                "fgets_unlocked", 
+                "fgetws", 
+                "fgetws_unlocked", 
+                "fprintf", 
+                "fread", 
+                "fread_unlocked", 
+                "fwprintf", 
+                "getcwd", 
+                "getdomainname", 
+                "getgroups", 
+                "gethostname", 
+                "getlogin_r", 
+                "gets", 
+                "getwd", 
+                "longjmp", 
+                "mbsnrtowcs", 
+                "mbsrtowcs", 
+                "mbstowcs", 
+                "memcpy", 
+                "memmove", 
+                "mempcpy", 
+                "memset", 
+                "obstack_printf", 
+                "obstack_vprintf", 
+                "poll", 
+                "ppoll", 
+                "pread64", 
+                "pread", 
+                "printf", 
+                "ptsname_r", 
+                "read", 
+                "readlink", 
+                "readlinkat", 
+                "realpath", 
+                "recv", 
+                "recvfrom", 
+                "snprintf", 
+                "sprintf", 
+                "stpcpy", 
+                "stpncpy", 
+                "strcat", 
+                "strcpy", 
+                "strncat", 
+                "strncpy", 
+                "swprintf", 
+                "syslog", 
+                "ttyname_r", 
+                "vasprintf", 
+                "vdprintf", 
+                "vfprintf", 
+                "vfwprintf", 
+                "vprintf", 
+                "vsnprintf", 
+                "vsprintf", 
+                "vswprintf", 
+                "vsyslog", 
+                "vwprintf", 
+                "wcpcpy", 
+                "wcpncpy", 
+                "wcrtomb", 
+                "wcscat", 
+                "wcscpy", 
+                "wcsncat", 
+                "wcsncpy", 
+                "wcsnrtombs", 
+                "wcsrtombs", 
+                "wcstombs", 
+                "wctomb", 
+                "wmemcpy", 
+                "wmemmove", 
+                "wmempcpy", 
+                "wmemset", 
+                "wprintf"
+            ], 
+            "filename": "usr/bin/rstconv", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "towlower", 
+                "iconv", 
+                "dladdr", 
+                "setlocale", 
+                "__libc_start_main", 
+                "dlsym", 
+                "nl_langinfo", 
+                "dlopen", 
+                "wcrtomb", 
+                "__gmon_start__", 
+                "dlclose", 
+                "mbrlen", 
+                "strcoll", 
+                "towupper", 
+                "mbrtowc", 
+                "iconv_close", 
+                "dlerror", 
+                "__errno_location"
+            ], 
+            "rpm": "fpc-3.0.2-1.fc27.x86_64.rpm"
+        }, 
+        "usr/bin/pas2fpm": {
+            "report-functions": [], 
+            "rpm": "fpc-3.0.2-1.fc27.x86_64.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/pas2fpm"
+        }, 
+        "usr/bin/ppufiles": {
+            "report-functions": [], 
+            "rpm": "fpc-3.0.2-1.fc27.x86_64.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/ppufiles"
+        }, 
+        "usr/bin/h2pas": {
+            "report-functions": [], 
+            "rpm": "fpc-3.0.2-1.fc27.x86_64.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/h2pas"
+        }, 
+        "usr/bin/rmcvsdir": {
+            "report-functions": [], 
+            "rpm": "fpc-3.0.2-1.fc27.x86_64.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/rmcvsdir"
+        }, 
+        "usr/bin/instantfpc": {
+            "report-functions": [], 
+            "rpm": "fpc-3.0.2-1.fc27.x86_64.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/instantfpc"
+        }, 
+        "usr/bin/h2paspp": {
+            "report-functions": [], 
+            "rpm": "fpc-3.0.2-1.fc27.x86_64.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/h2paspp"
+        }, 
+        "usr/bin/mkinsadd": {
+            "report-functions": [], 
+            "rpm": "fpc-3.0.2-1.fc27.x86_64.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/mkinsadd"
+        }, 
+        "usr/bin/fpcres": {
+            "report-functions": [], 
+            "rpm": "fpc-3.0.2-1.fc27.x86_64.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/fpcres"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Languages", 
+            "Name": " fpc", 
+            "License": " GPLv2+ and LGPLv2+ with exceptions", 
+            "URL": " http://www.freepascal.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-07.phx2.fedoraproject.org", 
+            "Description": "\n\nFree Pascal is a free 32/64bit Pascal Compiler. It comes with a run-time\nlibrary and is fully compatible with Turbo Pascal 7.0 and nearly Delphi\ncompatible. Some extensions are added to the language, like function\noverloading and generics. Shared libraries can be linked. This package\ncontains the command-line compiler and utilities. Provided units are the\nruntime library (RTL), free component library (FCL) and packages.\n", 
+            "Build Date": " Wed 22 Mar 2017 05:42:58 AM EDT", 
+            "Source RPM": " fpc-3.0.2-1.fc27.src.rpm", 
+            "Version": " 3.0.2", 
+            "Architecture": " x86_64", 
+            "Signature": " RSA/SHA256, Wed 22 Mar 2017 06:24:49 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 1.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Free Pascal Compiler", 
+            "Size": " 206878776"
+        }
+    }
+}

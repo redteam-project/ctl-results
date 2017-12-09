@@ -1,0 +1,928 @@
+{
+    "results": {
+        "usr/lib/multipath/libpriosysfs_so": {
+            "report-functions": [
+                "strlen", 
+                "_ITM_registerTMCloneTable", 
+                "__gmon_start__", 
+                "sysfs_get_asymmetric_access_state", 
+                "__cxa_finalize", 
+                "strstr", 
+                "_ITM_deregisterTMCloneTable", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "device-mapper-multipath-libs-0.7.1-6.git847cc43.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/multipath/libpriosysfs.so"
+        }, 
+        "usr/lib/multipath/libcheckcciss_tur_so": {
+            "report-functions": [
+                "__fprintf_chk", 
+                "__errno_location", 
+                "__fxstat", 
+                "ioctl", 
+                "__cxa_finalize", 
+                "__stack_chk_fail", 
+                "perror", 
+                "__gmon_start__", 
+                "strerror"
+            ], 
+            "rpm": "device-mapper-multipath-libs-0.7.1-6.git847cc43.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/multipath/libcheckcciss_tur.so"
+        }, 
+        "usr/lib/multipath/libprioontap_so": {
+            "report-functions": [
+                "logsink", 
+                "dlog", 
+                "get_prio_timeout", 
+                "ioctl", 
+                "__errno_location", 
+                "__gmon_start__", 
+                "__snprintf_chk", 
+                "__cxa_finalize", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "device-mapper-multipath-libs-0.7.1-6.git847cc43.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/multipath/libprioontap.so"
+        }, 
+        "usr/lib/multipath/libpriorandom_so": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize", 
+                "__gmon_start__", 
+                "rand", 
+                "srand"
+            ], 
+            "rpm": "device-mapper-multipath-libs-0.7.1-6.git847cc43.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/multipath/libpriorandom.so"
+        }, 
+        "usr/lib/multipath/libprioiet_so": {
+            "report-functions": [
+                "regcomp", 
+                "strncpy", 
+                "closedir", 
+                "strlen", 
+                "_ITM_registerTMCloneTable", 
+                "strncmp", 
+                "opendir", 
+                "__stack_chk_fail", 
+                "free", 
+                "_ITM_deregisterTMCloneTable", 
+                "__isoc99_sscanf", 
+                "regexec", 
+                "puts", 
+                "logsink", 
+                "__strcpy_chk", 
+                "dlog", 
+                "readdir", 
+                "readlink", 
+                "malloc", 
+                "__gmon_start__"
+            ], 
+            "rpm": "device-mapper-multipath-libs-0.7.1-6.git847cc43.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/multipath/libprioiet.so"
+        }, 
+        "usr/lib/multipath/libprioemc_so": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "get_prio_timeout", 
+                "dlog", 
+                "_ITM_registerTMCloneTable", 
+                "ioctl", 
+                "logsink", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "device-mapper-multipath-libs-0.7.1-6.git847cc43.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/multipath/libprioemc.so"
+        }, 
+        "usr/lib/multipath/libpriohds_so": {
+            "report-functions": [
+                "__snprintf_chk", 
+                "get_prio_timeout", 
+                "ioctl", 
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable", 
+                "dlog", 
+                "logsink", 
+                "__gmon_start__"
+            ], 
+            "rpm": "device-mapper-multipath-libs-0.7.1-6.git847cc43.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/multipath/libpriohds.so"
+        }, 
+        "usr/lib/multipath/libpriodatacore_so": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "__cxa_finalize", 
+                "logsink", 
+                "_ITM_deregisterTMCloneTable", 
+                "strstr", 
+                "strlen", 
+                "__gmon_start__", 
+                "__snprintf_chk", 
+                "_ITM_registerTMCloneTable", 
+                "ioctl"
+            ], 
+            "rpm": "device-mapper-multipath-libs-0.7.1-6.git847cc43.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/multipath/libpriodatacore.so"
+        }, 
+        "usr/lib/multipath/libchecktur_so": {
+            "report-functions": [
+                "dlog", 
+                "ioctl", 
+                "pthread_mutex_init", 
+                "pthread_mutex_destroy", 
+                "normalize_timespec", 
+                "pthread_create", 
+                "__gmon_start__", 
+                "__errno_location", 
+                "pthread_attr_destroy", 
+                "pthread_testcancel", 
+                "_Unwind_Resume", 
+                "setup_thread_attr", 
+                "pthread_spin_unlock", 
+                "pthread_cancel", 
+                "__fxstat", 
+                "pthread_spin_init", 
+                "pthread_mutex_lock", 
+                "pthread_cond_timedwait", 
+                "clock_gettime", 
+                "pthread_mutexattr_destroy", 
+                "free", 
+                "logsink", 
+                "pthread_cond_destroy", 
+                "pthread_cond_signal", 
+                "__gcc_personality_v0", 
+                "__cxa_finalize", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable", 
+                "strlcpy", 
+                "pthread_spin_destroy", 
+                "pthread_mutex_unlock", 
+                "checker_state_name", 
+                "pthread_mutexattr_settype", 
+                "pthread_spin_lock", 
+                "__stack_chk_fail", 
+                "calloc", 
+                "__snprintf_chk"
+            ], 
+            "rpm": "device-mapper-multipath-libs-0.7.1-6.git847cc43.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/multipath/libchecktur.so"
+        }, 
+        "usr/lib/multipath/libpriordac_so": {
+            "report-functions": [
+                "logsink", 
+                "ioctl", 
+                "dlog", 
+                "__stack_chk_fail", 
+                "get_prio_timeout", 
+                "__gmon_start__", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "device-mapper-multipath-libs-0.7.1-6.git847cc43.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/multipath/libpriordac.so"
+        }, 
+        "usr/lib/multipath/libcheckrdac_so": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "ioctl", 
+                "dlog", 
+                "__stack_chk_fail", 
+                "__errno_location", 
+                "__gmon_start__", 
+                "__fxstat", 
+                "_ITM_deregisterTMCloneTable", 
+                "logsink"
+            ], 
+            "rpm": "device-mapper-multipath-libs-0.7.1-6.git847cc43.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/multipath/libcheckrdac.so"
+        }, 
+        "usr/lib/multipath/libcheckdirectio_so": {
+            "report-functions": [
+                "io_getevents", 
+                "__errno_location", 
+                "fcntl", 
+                "__fxstat", 
+                "calloc", 
+                "getpagesize", 
+                "io_cancel", 
+                "_ITM_deregisterTMCloneTable", 
+                "malloc", 
+                "__cxa_finalize", 
+                "logsink", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "dlog", 
+                "strerror", 
+                "free", 
+                "ioctl", 
+                "io_setup", 
+                "io_destroy"
+            ], 
+            "rpm": "device-mapper-multipath-libs-0.7.1-6.git847cc43.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/multipath/libcheckdirectio.so"
+        }, 
+        "usr/lib/libmpathpersist_so_0": {
+            "report-functions": [
+                "path_discovery", 
+                "puts", 
+                "vector_del_slot", 
+                "disassemble_map", 
+                "pathinfo", 
+                "usleep", 
+                "__printf_chk", 
+                "dlog", 
+                "ioctl", 
+                "__errno_location", 
+                "dm_get_maps", 
+                "pthread_join", 
+                "_ITM_deregisterTMCloneTable", 
+                "select_reservation_key", 
+                "strerror", 
+                "load_config", 
+                "dm_get_status", 
+                "vector_free", 
+                "__sprintf_chk", 
+                "cleanup_prio", 
+                "pthread_create", 
+                "dm_lib_release", 
+                "__snprintf_chk", 
+                "strtol", 
+                "close", 
+                "recv_packet", 
+                "memset", 
+                "free_config", 
+                "free_multipathvec", 
+                "dm_is_mpath", 
+                "mpath_connect", 
+                "select_path_group", 
+                "_ITM_registerTMCloneTable", 
+                "put_multipath_config", 
+                "dm_map_present", 
+                "strncmp", 
+                "calloc", 
+                "find_mp_by_alias", 
+                "free", 
+                "pthread_attr_init", 
+                "vector_alloc", 
+                "free_multipath", 
+                "devt2devname", 
+                "__fxstat", 
+                "dm_get_map", 
+                "__stack_chk_fail", 
+                "strncpy", 
+                "__gmon_start__", 
+                "open", 
+                "mpath_disconnect", 
+                "setrlimit", 
+                "cleanup_checkers", 
+                "dm_mapname", 
+                "free_pathvec", 
+                "disassemble_status", 
+                "dm_lib_exit", 
+                "get_multipath_config", 
+                "pthread_attr_setdetachstate", 
+                "pthread_exit", 
+                "send_packet", 
+                "pthread_attr_destroy", 
+                "pathcount", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "device-mapper-multipath-libs-0.7.1-6.git847cc43.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libmpathpersist.so.0"
+        }, 
+        "usr/lib/multipath/libprioweightedpath_so": {
+            "report-functions": [
+                "__strcpy_chk", 
+                "__sprintf_chk", 
+                "dlog", 
+                "regexec", 
+                "snprint_tgt_wwnn", 
+                "snprint_host_wwpn", 
+                "__cxa_finalize", 
+                "logsink", 
+                "strsep", 
+                "snprint_tgt_wwpn", 
+                "_ITM_registerTMCloneTable", 
+                "strtol", 
+                "free", 
+                "snprintf", 
+                "snprint_path_serial", 
+                "__stack_chk_fail", 
+                "_ITM_deregisterTMCloneTable", 
+                "strdup", 
+                "regcomp", 
+                "regfree"
+            ], 
+            "rpm": "device-mapper-multipath-libs-0.7.1-6.git847cc43.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/multipath/libprioweightedpath.so"
+        }, 
+        "usr/lib/multipath/libprioconst_so": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "__gmon_start__"
+            ], 
+            "rpm": "device-mapper-multipath-libs-0.7.1-6.git847cc43.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/multipath/libprioconst.so"
+        }, 
+        "usr/lib/multipath/libcheckemc_clariion_so": {
+            "report-functions": [
+                "dlog", 
+                "_ITM_deregisterTMCloneTable", 
+                "logsink", 
+                "ioctl", 
+                "calloc", 
+                "__gmon_start__", 
+                "__snprintf_chk", 
+                "free", 
+                "_ITM_registerTMCloneTable", 
+                "malloc", 
+                "__fxstat", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "device-mapper-multipath-libs-0.7.1-6.git847cc43.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/multipath/libcheckemc_clariion.so"
+        }, 
+        "usr/lib/multipath/libprioalua_so": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "dlog", 
+                "udev_device_get_subsystem", 
+                "_ITM_deregisterTMCloneTable", 
+                "__stack_chk_fail", 
+                "logsink", 
+                "calloc", 
+                "__cxa_finalize", 
+                "__gmon_start__", 
+                "strstr", 
+                "udev_device_get_parent", 
+                "get_prio_timeout", 
+                "free"
+            ], 
+            "rpm": "device-mapper-multipath-libs-0.7.1-6.git847cc43.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/multipath/libprioalua.so"
+        }, 
+        "usr/lib/multipath/libpriohp_sw_so": {
+            "report-functions": [
+                "dlog", 
+                "__cxa_finalize", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "logsink", 
+                "ioctl", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "device-mapper-multipath-libs-0.7.1-6.git847cc43.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/multipath/libpriohp_sw.so"
+        }, 
+        "usr/lib/libmpathcmd_so_0": {
+            "report-functions": [
+                "__gmon_start__", 
+                "strncpy", 
+                "__cxa_finalize", 
+                "free", 
+                "_ITM_registerTMCloneTable", 
+                "connect", 
+                "__stack_chk_fail", 
+                "recv", 
+                "close", 
+                "malloc", 
+                "strlen", 
+                "send", 
+                "poll", 
+                "__errno_location"
+            ], 
+            "rpm": "device-mapper-multipath-libs-0.7.1-6.git847cc43.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libmpathcmd.so.0"
+        }, 
+        "usr/lib/multipath/libcheckhp_sw_so": {
+            "report-functions": [
+                "ioctl", 
+                "_ITM_registerTMCloneTable", 
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "device-mapper-multipath-libs-0.7.1-6.git847cc43.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/multipath/libcheckhp_sw.so"
+        }, 
+        "usr/lib/libmultipath_so_0": {
+            "report-functions": [
+                "dm_udev_wait", 
+                "listen", 
+                "fcntl", 
+                "udev_device_new_from_subsystem_sysname", 
+                "logsink", 
+                "lseek", 
+                "udev_device_get_devnode", 
+                "pthread_cond_init", 
+                "__vfprintf_chk", 
+                "ftruncate", 
+                "pthread_sigmask", 
+                "__fxstat", 
+                "strrchr", 
+                "strstr", 
+                "dlerror", 
+                "dm_task_get_names", 
+                "udev_monitor_receive_device", 
+                "dlsym", 
+                "__fprintf_chk", 
+                "udev_device_get_sysattr_value", 
+                "strtok_r", 
+                "strtol", 
+                "fputs", 
+                "__lxstat", 
+                "pthread_cond_wait", 
+                "dm_task_run", 
+                "dm_task_set_newname", 
+                "openlog", 
+                "dlclose", 
+                "mpath_recv_reply_data", 
+                "recvmsg", 
+                "rewind", 
+                "put_multipath_config", 
+                "write", 
+                "gettimeofday", 
+                "fsync", 
+                "sigaddset", 
+                "udev_device_get_syspath", 
+                "alarm", 
+                "__gcc_personality_v0", 
+                "dm_task_set_sector", 
+                "udev_monitor_new_from_netlink", 
+                "fscanf", 
+                "strtoul", 
+                "snprintf", 
+                "dm_log_init", 
+                "_ITM_registerTMCloneTable", 
+                "dm_task_create", 
+                "dm_task_skip_lockfs", 
+                "strcpy", 
+                "dm_get_library_version", 
+                "udev_device_get_parent", 
+                "mpath_connect", 
+                "strsep", 
+                "__asprintf_chk", 
+                "getenv", 
+                "tzset", 
+                "strncmp", 
+                "__cxa_finalize", 
+                "realloc", 
+                "dm_task_set_ro", 
+                "fwrite", 
+                "rcu_register_thread_memb", 
+                "udev_monitor_filter_add_match_subsystem_devtype", 
+                "__stack_chk_fail", 
+                "udev_monitor_enable_receiving", 
+                "udev_ref", 
+                "__printf_chk", 
+                "__gmon_start__", 
+                "udev_device_get_sysname", 
+                "udev_unref", 
+                "pthread_mutex_unlock", 
+                "readdir", 
+                "fopen", 
+                "__memcpy_chk", 
+                "regfree", 
+                "mpath_disconnect", 
+                "strftime", 
+                "udev", 
+                "getsockopt", 
+                "udev_enumerate_add_match_subsystem", 
+                "__sprintf_chk", 
+                "strncpy", 
+                "pthread_mutex_lock", 
+                "socket", 
+                "pipe", 
+                "udev_device_new_from_devnum", 
+                "free", 
+                "dm_task_get_versions", 
+                "pthread_once", 
+                "strcat", 
+                "sleep", 
+                "usleep", 
+                "alphasort", 
+                "getpid", 
+                "udev_device_ref", 
+                "dm_task_destroy", 
+                "fgetc", 
+                "udev_enumerate_get_list_entry", 
+                "malloc", 
+                "udev_list_entry_get_name", 
+                "sscanf", 
+                "pthread_kill", 
+                "dm_task_set_uid", 
+                "close", 
+                "pthread_condattr_destroy", 
+                "__ctype_tolower_loc", 
+                "dm_task_set_major", 
+                "dm_task_set_message", 
+                "udev_device_get_subsystem", 
+                "strtoull", 
+                "udev_device_new_from_syspath", 
+                "udev_enumerate_add_match_is_initialized", 
+                "dm_task_no_flush", 
+                "fdopen", 
+                "dm_task_set_minor", 
+                "pthread_attr_init", 
+                "fflush", 
+                "__vsyslog_chk", 
+                "time", 
+                "pthread_attr_setdetachstate", 
+                "scandir", 
+                "pthread_cond_destroy", 
+                "dup", 
+                "setsockopt", 
+                "fgets", 
+                "dm_task_get_uuid", 
+                "wait", 
+                "closelog", 
+                "__syslog_chk", 
+                "strerror", 
+                "closedir", 
+                "pthread_cancel", 
+                "__strcpy_chk", 
+                "__ctype_b_loc", 
+                "fputc", 
+                "strncat", 
+                "dm_task_set_mode", 
+                "udev_list_entry_get_value", 
+                "sigemptyset", 
+                "readlink", 
+                "dm_task_set_name", 
+                "rcu_unregister_thread_memb", 
+                "dm_task_get_deps", 
+                "strlen", 
+                "strtok", 
+                "dm_task_add_target", 
+                "udev_device_get_devnum", 
+                "flock", 
+                "udev_device_get_driver", 
+                "pthread_mutex_destroy", 
+                "strpbrk", 
+                "__vsnprintf_chk", 
+                "__xstat", 
+                "udev_enumerate_new", 
+                "dm_task_set_uuid", 
+                "_ITM_deregisterTMCloneTable", 
+                "pthread_mutex_init", 
+                "strspn", 
+                "__assert_fail", 
+                "calloc", 
+                "strcmp", 
+                "regexec", 
+                "localtime", 
+                "__errno_location", 
+                "udev_monitor_set_receive_buffer_size", 
+                "udev_list_entry_get_next", 
+                "pthread_condattr_init", 
+                "opendir", 
+                "udev_device_get_property_value", 
+                "dm_task_get_info", 
+                "fork", 
+                "dm_task_set_geometry", 
+                "ferror", 
+                "dm_get_next_target", 
+                "fclose", 
+                "dm_task_set_cookie", 
+                "bind", 
+                "memmove", 
+                "strdup", 
+                "sigaction", 
+                "mpath_send_cmd", 
+                "mkdir", 
+                "udev_device_get_properties_list_entry", 
+                "__strncat_chk", 
+                "feof", 
+                "dm_task_no_open_count", 
+                "mlockall", 
+                "dm_udev_set_sync_support", 
+                "getpwnam_r", 
+                "dm_task_deferred_remove", 
+                "dlopen", 
+                "sd_listen_fds", 
+                "dm_task_set_event_nr", 
+                "udev_device_get_parent_with_subsystem_devtype", 
+                "execv", 
+                "get_multipath_config", 
+                "ioctl", 
+                "pthread_join", 
+                "pthread_create", 
+                "__strncpy_chk", 
+                "udev_enumerate_scan_devices", 
+                "read", 
+                "_Unwind_Resume", 
+                "open", 
+                "isatty", 
+                "poll", 
+                "exit", 
+                "memchr", 
+                "udev_monitor_unref", 
+                "udev_monitor_get_fd", 
+                "pthread_condattr_setclock", 
+                "dm_task_get_name", 
+                "regcomp", 
+                "udev_device_unref", 
+                "strchr", 
+                "mpath_recv_reply_len", 
+                "pthread_cond_signal", 
+                "pthread_attr_setstacksize", 
+                "dm_log_init_verbose", 
+                "pthread_testcancel", 
+                "udev_device_get_devtype", 
+                "__snprintf_chk", 
+                "udev_device_new_from_environment"
+            ], 
+            "rpm": "device-mapper-multipath-libs-0.7.1-6.git847cc43.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libmultipath.so.0"
+        }, 
+        "usr/lib/multipath/libpriopath_latency_so": {
+            "report-functions": [
+                "ioctl", 
+                "dlog", 
+                "_ITM_registerTMCloneTable", 
+                "__ctype_b_loc", 
+                "logsink", 
+                "sqrt", 
+                "__fxstat", 
+                "strtol", 
+                "__gmon_start__", 
+                "__errno_location", 
+                "clock_gettime", 
+                "pow", 
+                "__stack_chk_fail", 
+                "log", 
+                "strtoul", 
+                "strlen", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "device-mapper-multipath-libs-0.7.1-6.git847cc43.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/multipath/libpriopath_latency.so"
+        }, 
+        "usr/lib/multipath/libcheckreadsector0_so": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "ioctl", 
+                "_ITM_registerTMCloneTable", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "__errno_location"
+            ], 
+            "rpm": "device-mapper-multipath-libs-0.7.1-6.git847cc43.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/multipath/libcheckreadsector0.so"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " device-mapper-multipath-libs", 
+            "License": " GPL+", 
+            "URL": " http://christophe.varoqui.free.fr/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-08.phx2.fedoraproject.org", 
+            "Description": "\nThe device-mapper-multipath-libs provides the path checker\nand prioritizer modules. It also contains the libmpathpersist and\nlibmpathcmd shared libraries, as well as multipath's internal library,\nlibmultipath.\n", 
+            "Build Date": " Mon 31 Jul 2017 06:13:51 PM EDT", 
+            "Source RPM": " device-mapper-multipath-0.7.1-6.git847cc43.fc27.src.rpm", 
+            "Version": " 0.7.1", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 31 Jul 2017 06:18:12 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 6.git847cc43.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " The device-mapper-multipath modules and shared library", 
+            "Size": " 582254"
+        }
+    }
+}

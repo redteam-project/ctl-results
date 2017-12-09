@@ -1,0 +1,128 @@
+{
+    "results": {
+        "usr/lib/liberuby_so_1_0_5": {
+            "report-functions": [
+                "strncmp", 
+                "__cxa_finalize", 
+                "rb_funcall", 
+                "__ctype_b_loc", 
+                "ruby_show_version", 
+                "rb_gc_mark", 
+                "rb_check_type", 
+                "rb_define_singleton_method", 
+                "rb_raise", 
+                "rb_define_const", 
+                "rb_str_new_cstr", 
+                "free", 
+                "rb_data_object_zalloc", 
+                "rb_str_freeze", 
+                "strlen", 
+                "rb_define_method", 
+                "rb_intern2", 
+                "rb_provide", 
+                "rb_ruby_debug_ptr", 
+                "rb_file_open", 
+                "rb_global_variable", 
+                "rb_str_cat", 
+                "rb_io_gets", 
+                "rb_define_module", 
+                "__gmon_start__", 
+                "rb_str_new", 
+                "rb_str_new_static", 
+                "_ITM_registerTMCloneTable", 
+                "_ITM_deregisterTMCloneTable", 
+                "__stack_chk_fail", 
+                "rb_ruby_verbose_ptr", 
+                "rb_enc_mbclen", 
+                "rb_errinfo", 
+                "rb_string_value_ptr", 
+                "__fprintf_chk"
+            ], 
+            "rpm": "eruby-libs-1.0.5-38.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/liberuby.so.1.0.5"
+        }, 
+        "usr/lib/ruby/vendor_ruby/eruby_so": {
+            "report-functions": [
+                "rb_io_gets", 
+                "rb_define_virtual_variable", 
+                "strlen", 
+                "rb_gc_mark", 
+                "ruby_show_version", 
+                "rb_str_new_cstr", 
+                "rb_define_module", 
+                "rb_enc_mbclen", 
+                "rb_funcall", 
+                "rb_str_freeze", 
+                "free", 
+                "_ITM_registerTMCloneTable", 
+                "rb_errinfo", 
+                "rb_str_new_static", 
+                "rb_define_singleton_method", 
+                "rb_global_variable", 
+                "__gmon_start__", 
+                "rb_intern2", 
+                "rb_define_method", 
+                "rb_ruby_verbose_ptr", 
+                "rb_string_value_ptr", 
+                "rb_file_open", 
+                "rb_raise", 
+                "rb_define_class_under", 
+                "__fprintf_chk", 
+                "strncmp", 
+                "rb_str_cat", 
+                "rb_provide", 
+                "__cxa_finalize", 
+                "__stack_chk_fail", 
+                "rb_ruby_debug_ptr", 
+                "__ctype_b_loc", 
+                "rb_check_type", 
+                "_ITM_deregisterTMCloneTable", 
+                "rb_define_const"
+            ], 
+            "rpm": "eruby-libs-1.0.5-38.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/ruby/vendor_ruby/eruby.so"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Languages", 
+            "Name": " eruby-libs", 
+            "License": " GPLv2+ and LGPLv2+", 
+            "URL": " http://www.modruby.net/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-26.phx2.fedoraproject.org", 
+            "Description": "\nThis package contains a library for eRuby.\n", 
+            "Build Date": " Wed 02 Aug 2017 06:52:40 PM EDT", 
+            "Source RPM": " eruby-1.0.5-38.fc27.src.rpm", 
+            "Version": " 1.0.5", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 07 Aug 2017 03:22:02 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 38.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Library for eRuby", 
+            "Size": " 67602"
+        }
+    }
+}

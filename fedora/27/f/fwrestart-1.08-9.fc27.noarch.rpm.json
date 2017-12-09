@@ -1,0 +1,25 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Group": " Applications/System", 
+            "Name": " fwrestart", 
+            "License": " GPLv2", 
+            "URL": " http://www.tummy.com/Community/software/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-04.phx2.fedoraproject.org", 
+            "Description": "\nThis program can automatically detect when changes to the firewall block\nthe administrative shell session, and to take corrective action\n\nfwrestart uses terminal auto-response codes to safely re-start firewall\nrules over a remote shell session.  It sends a request to your terminal\n(xterm, for example), which responds back automatically.  When that\nresponse is received, ensuring that fwrestart can communicate with the\nterminal, fwrestart then issues a command to restart the firewall.\nIt then tries another request to the terminal, and if that is not\nreceived within 5 seconds, a command is run to clear the firewall and\nan appropriate error is generated.\n", 
+            "Build Date": " Wed 26 Jul 2017 06:32:58 AM EDT", 
+            "Source RPM": " fwrestart-1.08-9.fc27.src.rpm", 
+            "Version": " 1.08", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Tue 01 Aug 2017 03:47:21 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 9.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A way to more safely re-load firewall rules remotely", 
+            "Size": " 22009"
+        }
+    }
+}

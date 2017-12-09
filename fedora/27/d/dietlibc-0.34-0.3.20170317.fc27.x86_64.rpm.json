@@ -1,0 +1,56 @@
+{
+    "results": {
+        "usr/bin/elftrunc": {
+            "report-functions": [], 
+            "rpm": "dietlibc-0.34-0.3.20170317.fc27.x86_64.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/elftrunc"
+        }, 
+        "usr/bin/diet": {
+            "report-functions": [], 
+            "rpm": "dietlibc-0.34-0.3.20170317.fc27.x86_64.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/diet"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " dietlibc", 
+            "License": " GPLv2", 
+            "URL": " http://www.fefe.de/dietlibc/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-02.phx2.fedoraproject.org", 
+            "Description": "\nThe diet libc is a libc that is optimized for small size. It can be\nused to create small statically linked binaries for Linux on alpha,\narm, hppa, ia64, i386, mips, s390, sparc, sparc64, ppc and x86_64.\n", 
+            "Build Date": " Wed 02 Aug 2017 04:17:52 PM EDT", 
+            "Source RPM": " dietlibc-0.34-0.3.20170317.fc27.src.rpm", 
+            "Version": " 0.34", 
+            "Architecture": " x86_64", 
+            "Signature": " RSA/SHA256, Sat 05 Aug 2017 05:03:26 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 0.3.20170317.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Small libc implementation", 
+            "Size": " 125292"
+        }
+    }
+}

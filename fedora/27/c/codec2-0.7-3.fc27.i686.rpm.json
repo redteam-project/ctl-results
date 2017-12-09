@@ -1,0 +1,68 @@
+{
+    "results": {
+        "usr/lib/libcodec2_so_0_7": {
+            "report-functions": [
+                "cosf", 
+                "atan2", 
+                "atan2f", 
+                "ceil", 
+                "_ITM_registerTMCloneTable", 
+                "floor", 
+                "powf", 
+                "sqrtf", 
+                "__stack_chk_fail", 
+                "pow", 
+                "ceilf", 
+                "floorf", 
+                "__fprintf_chk", 
+                "__memcpy_chk", 
+                "malloc", 
+                "lroundf", 
+                "sincosf", 
+                "__cxa_finalize", 
+                "calloc", 
+                "acosf", 
+                "rand", 
+                "memmove", 
+                "log10", 
+                "free", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "codec2-0.7-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libcodec2.so.0.7"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " codec2", 
+            "License": " LGPLv2", 
+            "URL": " http://rowetel.com/codec2.html", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-29.phx2.fedoraproject.org", 
+            "Description": "\nCodec 2 is an open source (LGPL licensed) speech codec for 2400 bit/s\nand below. This is the runtime library package.\n", 
+            "Build Date": " Wed 02 Aug 2017 03:08:03 PM EDT", 
+            "Source RPM": " codec2-0.7-3.fc27.src.rpm", 
+            "Version": " 0.7", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 07 Aug 2017 02:24:51 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 3.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Next-Generation Digital Voice for Two-Way Radio", 
+            "Size": " 382737"
+        }
+    }
+}

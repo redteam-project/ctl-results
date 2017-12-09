@@ -1,0 +1,87 @@
+{
+    "results": {
+        "usr/lib/libalfont_so_2_0_9": {
+            "report-functions": [
+                "FT_New_Face", 
+                "calloc", 
+                "malloc", 
+                "solid_mode", 
+                "FT_New_Memory_Face", 
+                "uvszprintf", 
+                "__sprintf_chk", 
+                "__ctype_get_mb_cur_max", 
+                "getb", 
+                "getr", 
+                "FT_Set_Pixel_Sizes", 
+                "set_trans_blender", 
+                "FT_Get_Glyph", 
+                "strcpy", 
+                "get_uformat", 
+                "wcslen", 
+                "masked_blit", 
+                "__stack_chk_fail", 
+                "getg", 
+                "wcstombs", 
+                "FT_Done_Glyph", 
+                "need_uconvert", 
+                "strlen", 
+                "destroy_bitmap", 
+                "FT_Init_FreeType", 
+                "FT_Glyph_Copy", 
+                "setlocale", 
+                "_ITM_deregisterTMCloneTable", 
+                "FT_Done_FreeType", 
+                "FT_Done_Face", 
+                "__cxa_finalize", 
+                "stpcpy", 
+                "set_uformat", 
+                "ustrlen", 
+                "create_bitmap_ex", 
+                "free", 
+                "mbstowcs", 
+                "_ITM_registerTMCloneTable", 
+                "FT_Load_Glyph", 
+                "FT_Get_Char_Index", 
+                "makecol", 
+                "__gmon_start__"
+            ], 
+            "rpm": "alfont-2.0.9-12.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libalfont.so.2.0.9"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " alfont", 
+            "License": " FTL", 
+            "URL": " http://chernsha.sitesled.com/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-21.phx2.fedoraproject.org", 
+            "Description": "\nalfont also known as AllegroFont or AlFont is a wrapper around the freetype2\nlibrary for use with the Allegro game library. Thus allowing the display of\ntext using freetype fonts on Allegro bitmaps.\n", 
+            "Build Date": " Wed 02 Aug 2017 01:48:04 PM EDT", 
+            "Source RPM": " alfont-2.0.9-12.fc27.src.rpm", 
+            "Version": " 2.0.9", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sun 06 Aug 2017 10:59:48 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 12.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Font rendering library for the Allegro game library", 
+            "Size": " 69989"
+        }
+    }
+}

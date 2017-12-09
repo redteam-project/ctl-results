@@ -1,0 +1,715 @@
+{
+    "results": {
+        "usr/lib/babl-0_1/sse4-int8_so": {
+            "report-functions": [
+                "babl_model", 
+                "babl_format_new", 
+                "_ITM_registerTMCloneTable", 
+                "_ITM_deregisterTMCloneTable", 
+                "babl_cpu_accel_get_support", 
+                "babl_conversion_new", 
+                "babl_type", 
+                "babl_component"
+            ], 
+            "rpm": "babl-0.1.30-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/babl-0.1/sse4-int8.so"
+        }, 
+        "usr/lib/babl-0_1/grey_so": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "babl_format", 
+                "babl_conversion_new"
+            ], 
+            "rpm": "babl-0.1.30-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/babl-0.1/grey.so"
+        }, 
+        "usr/lib/babl-0_1/gggl-table_so": {
+            "report-functions": [
+                "babl_conversion_new", 
+                "__gmon_start__", 
+                "babl_format_new", 
+                "__cxa_finalize", 
+                "_ITM_deregisterTMCloneTable", 
+                "babl_model", 
+                "babl_component", 
+                "babl_type", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "babl-0.1.30-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/babl-0.1/gggl-table.so"
+        }, 
+        "usr/lib/babl-0_1/HSL_so": {
+            "report-functions": [
+                "babl_format_new", 
+                "__gmon_start__", 
+                "babl_component", 
+                "babl_type", 
+                "pow", 
+                "__cxa_finalize", 
+                "babl_model", 
+                "babl_model_new", 
+                "_ITM_registerTMCloneTable", 
+                "babl_conversion_new"
+            ], 
+            "rpm": "babl-0.1.30-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/babl-0.1/HSL.so"
+        }, 
+        "usr/lib/babl-0_1/float-half_so": {
+            "report-functions": [
+                "babl_component", 
+                "_ITM_registerTMCloneTable", 
+                "babl_conversion_new", 
+                "babl_model", 
+                "babl_format_new", 
+                "babl_type", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "babl-0.1.30-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/babl-0.1/float-half.so"
+        }, 
+        "usr/lib/libbabl-0_1_so_0_129_1": {
+            "report-functions": [
+                "signal", 
+                "closedir", 
+                "strchr", 
+                "_ITM_deregisterTMCloneTable", 
+                "fputs", 
+                "strtol", 
+                "strtok_r", 
+                "free", 
+                "fread", 
+                "dlopen", 
+                "qsort", 
+                "mkdir", 
+                "__assert_fail", 
+                "__xstat", 
+                "getpid", 
+                "pthread_mutex_init", 
+                "___tls_get_addr", 
+                "readdir", 
+                "__snprintf_chk", 
+                "rewind", 
+                "dlclose", 
+                "opendir", 
+                "__gmon_start__", 
+                "pthread_mutexattr_init", 
+                "fseek", 
+                "__vfprintf_chk", 
+                "snprintf", 
+                "fwrite", 
+                "pthread_mutexattr_settype", 
+                "__memcpy_chk", 
+                "rename", 
+                "strcmp", 
+                "calloc", 
+                "__cxa_finalize", 
+                "fclose", 
+                "pthread_mutex_lock", 
+                "time", 
+                "pow", 
+                "pthread_mutex_destroy", 
+                "malloc", 
+                "__longjmp_chk", 
+                "pthread_mutex_unlock", 
+                "getenv", 
+                "__fprintf_chk", 
+                "strncpy", 
+                "dlsym", 
+                "_setjmp", 
+                "fopen", 
+                "strrchr", 
+                "fflush", 
+                "_ITM_registerTMCloneTable", 
+                "strlen", 
+                "gettimeofday", 
+                "__strcpy_chk", 
+                "ftell", 
+                "__sprintf_chk", 
+                "dlerror", 
+                "exit", 
+                "__stack_chk_fail", 
+                "fputc"
+            ], 
+            "rpm": "babl-0.1.30-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libbabl-0.1.so.0.129.1"
+        }, 
+        "usr/lib/babl-0_1/16bit_so": {
+            "report-functions": [
+                "babl_format", 
+                "babl_conversion_new", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "babl-0.1.30-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/babl-0.1/16bit.so"
+        }, 
+        "usr/lib/babl-0_1/cairo_so": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "_ITM_deregisterTMCloneTable", 
+                "babl_format_new", 
+                "__cxa_finalize", 
+                "sqrtf", 
+                "babl_model", 
+                "babl_conversion_new", 
+                "__gmon_start__", 
+                "__stack_chk_fail", 
+                "babl_type"
+            ], 
+            "rpm": "babl-0.1.30-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/babl-0.1/cairo.so"
+        }, 
+        "usr/lib/babl-0_1/sse2-float_so": {
+            "report-functions": [
+                "babl_conversion_new", 
+                "babl_format_new", 
+                "babl_component", 
+                "_ITM_deregisterTMCloneTable", 
+                "babl_cpu_accel_get_support", 
+                "__gmon_start__", 
+                "babl_model", 
+                "sqrt", 
+                "__stack_chk_fail", 
+                "babl_type", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "babl-0.1.30-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/babl-0.1/sse2-float.so"
+        }, 
+        "usr/lib/babl-0_1/gggl_so": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "_ITM_registerTMCloneTable", 
+                "__gmon_start__", 
+                "babl_type", 
+                "__cxa_finalize", 
+                "babl_component", 
+                "babl_conversion_new", 
+                "babl_format_new"
+            ], 
+            "rpm": "babl-0.1.30-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/babl-0.1/gggl.so"
+        }, 
+        "usr/lib/babl-0_1/two-table_so": {
+            "report-functions": [
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "_ITM_deregisterTMCloneTable", 
+                "babl_format_new", 
+                "babl_model", 
+                "babl_conversion_new", 
+                "__cxa_finalize", 
+                "babl_component"
+            ], 
+            "rpm": "babl-0.1.30-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/babl-0.1/two-table.so"
+        }, 
+        "usr/lib/babl-0_1/ycbcr_so": {
+            "report-functions": [
+                "babl_component_new", 
+                "babl_model", 
+                "_ITM_registerTMCloneTable", 
+                "babl_conversion_new", 
+                "babl_component", 
+                "babl_model_new", 
+                "_ITM_deregisterTMCloneTable", 
+                "babl_type", 
+                "pow", 
+                "babl_format_new"
+            ], 
+            "rpm": "babl-0.1.30-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/babl-0.1/ycbcr.so"
+        }, 
+        "usr/lib/babl-0_1/float_so": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "__stack_chk_fail", 
+                "babl_model", 
+                "sqrtf", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "babl_conversion_new", 
+                "babl_type", 
+                "babl_component"
+            ], 
+            "rpm": "babl-0.1.30-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/babl-0.1/float.so"
+        }, 
+        "usr/lib/babl-0_1/gegl-fixups_so": {
+            "report-functions": [
+                "babl_model", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize", 
+                "babl_type", 
+                "babl_component", 
+                "babl_format_new", 
+                "babl_conversion_new", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "babl-0.1.30-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/babl-0.1/gegl-fixups.so"
+        }, 
+        "usr/lib/babl-0_1/sse2-int8_so": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "babl_type", 
+                "_ITM_deregisterTMCloneTable", 
+                "babl_format_new", 
+                "babl_conversion_new", 
+                "babl_model", 
+                "babl_component", 
+                "__gmon_start__"
+            ], 
+            "rpm": "babl-0.1.30-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/babl-0.1/sse2-int8.so"
+        }, 
+        "usr/lib/babl-0_1/sse2-int16_so": {
+            "report-functions": [
+                "babl_format_new", 
+                "babl_cpu_accel_get_support", 
+                "babl_conversion_new", 
+                "babl_component", 
+                "__cxa_finalize", 
+                "babl_model", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "babl-0.1.30-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/babl-0.1/sse2-int16.so"
+        }, 
+        "usr/lib/babl-0_1/CIE_so": {
+            "report-functions": [
+                "babl_format_new", 
+                "babl_component_new", 
+                "pow", 
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "babl_model", 
+                "babl_type_new", 
+                "sqrtf", 
+                "_ITM_deregisterTMCloneTable", 
+                "sincosf", 
+                "babl_format", 
+                "babl_model_new", 
+                "babl_conversion_new", 
+                "sincos", 
+                "__stack_chk_fail", 
+                "atan2", 
+                "_ITM_registerTMCloneTable", 
+                "babl_type", 
+                "sqrt"
+            ], 
+            "rpm": "babl-0.1.30-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/babl-0.1/CIE.so"
+        }, 
+        "usr/lib/babl-0_1/HCY_so": {
+            "report-functions": [
+                "babl_component", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "__stack_chk_fail", 
+                "__cxa_finalize", 
+                "babl_component_new", 
+                "babl_model", 
+                "pow", 
+                "babl_type", 
+                "babl_format_new", 
+                "_ITM_deregisterTMCloneTable", 
+                "babl_model_new"
+            ], 
+            "rpm": "babl-0.1.30-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/babl-0.1/HCY.so"
+        }, 
+        "usr/lib/babl-0_1/gimp-8bit_so": {
+            "report-functions": [
+                "pow", 
+                "babl_model", 
+                "babl_component", 
+                "babl_format_new", 
+                "__cxa_finalize", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "babl-0.1.30-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/babl-0.1/gimp-8bit.so"
+        }, 
+        "usr/lib/babl-0_1/HSV_so": {
+            "report-functions": [
+                "pow", 
+                "fmod", 
+                "babl_model", 
+                "__gmon_start__", 
+                "babl_component", 
+                "_ITM_registerTMCloneTable", 
+                "__cxa_finalize", 
+                "_ITM_deregisterTMCloneTable", 
+                "babl_model_new", 
+                "babl_conversion_new", 
+                "babl_format_new"
+            ], 
+            "rpm": "babl-0.1.30-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/babl-0.1/HSV.so"
+        }, 
+        "usr/lib/babl-0_1/simple_so": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "babl_conversion_new", 
+                "babl_format"
+            ], 
+            "rpm": "babl-0.1.30-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/babl-0.1/simple.so"
+        }, 
+        "usr/lib/babl-0_1/fast-float_so": {
+            "report-functions": [
+                "babl_component", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "babl_type", 
+                "babl_format_new", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "babl-0.1.30-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/babl-0.1/fast-float.so"
+        }, 
+        "usr/lib/babl-0_1/sse-half_so": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "__gmon_start__"
+            ], 
+            "rpm": "babl-0.1.30-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/babl-0.1/sse-half.so"
+        }, 
+        "usr/lib/babl-0_1/gggl-table-lies_so": {
+            "report-functions": [
+                "babl_model", 
+                "babl_type", 
+                "__stack_chk_fail", 
+                "_ITM_registerTMCloneTable", 
+                "babl_conversion_new", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize", 
+                "babl_component"
+            ], 
+            "rpm": "babl-0.1.30-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/babl-0.1/gggl-table-lies.so"
+        }, 
+        "usr/lib/babl-0_1/gggl-lies_so": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "babl_conversion_new", 
+                "babl_model", 
+                "babl_type", 
+                "__stack_chk_fail", 
+                "__cxa_finalize", 
+                "babl_format_new", 
+                "babl_component", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "babl-0.1.30-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/babl-0.1/gggl-lies.so"
+        }, 
+        "usr/lib/babl-0_1/naive-CMYK_so": {
+            "report-functions": [
+                "babl_component_new", 
+                "babl_model_new", 
+                "__gmon_start__", 
+                "pow", 
+                "babl_conversion_new", 
+                "__cxa_finalize", 
+                "babl_format_new", 
+                "babl_type", 
+                "babl_model", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "babl-0.1.30-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/babl-0.1/naive-CMYK.so"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " babl", 
+            "License": " LGPLv3+ and GPLv3+", 
+            "URL": " http://www.gegl.org/babl/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-02.phx2.fedoraproject.org", 
+            "Description": "\nBabl is a dynamic, any to any, pixel format conversion library. It\nprovides conversions between the myriad of buffer types images can be\nstored in. Babl doesn't only help with existing pixel formats, but also\nfacilitates creation of new and uncommon ones.\n", 
+            "Build Date": " Fri 25 Aug 2017 04:05:13 AM EDT", 
+            "Source RPM": " babl-0.1.30-1.fc27.src.rpm", 
+            "Version": " 0.1.30", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 25 Aug 2017 04:07:51 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 1.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A dynamic, any to any, pixel format conversion library", 
+            "Size": " 685814"
+        }
+    }
+}

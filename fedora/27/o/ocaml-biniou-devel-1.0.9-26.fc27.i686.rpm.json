@@ -1,0 +1,549 @@
+{
+    "results": {
+        "usr/lib/ocaml/biniou/bi_io_o": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib/ocaml/biniou/bi_io.o", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "report-functions": [
+                "camlBi_vint__write_uvint_1257", 
+                "caml_young_ptr", 
+                "camlBi_outbuf__extend_1268", 
+                "caml_int32_float_of_bits_unboxed", 
+                "camlBi_outbuf", 
+                "camlCamlinternalLazy__force_lazy_block_1264", 
+                "camlEasy_format__to_channel_inner_2107", 
+                "caml_make_vect", 
+                "camlHashtbl__create_inner_2188", 
+                "caml_young_limit", 
+                "caml_int32_ops", 
+                "caml_exception_pointer", 
+                "caml_string_notequal", 
+                "camlEasy_format__to_string_1718", 
+                "camlArray__to_list_1285", 
+                "camlBi_outbuf__create_inner_1461", 
+                "camlArray__init_1217", 
+                "camlPervasives__string_of_int_1150", 
+                "camlBi_outbuf__add_char_1283", 
+                "caml_backtrace_pos", 
+                "caml_update_dummy", 
+                "caml_curry2", 
+                "camlBi_outbuf__add_string_1280", 
+                "caml_exn_Not_found", 
+                "camlPervasives__failwith_1005", 
+                "camlPervasives__print_newline_1312", 
+                "camlEasy_format__1", 
+                "camlPervasives", 
+                "caml_apply3", 
+                "camlHashtbl", 
+                "camlBi_inbuf__read_1216", 
+                "caml_c_call", 
+                "camlPervasives__$5e_1117", 
+                "camlBytes__sub_1234", 
+                "camlBi_share__get_1409", 
+                "camlPervasives__string_of_float_1161", 
+                "camlList__length_aux_1204", 
+                "camlBi_util__error_1205", 
+                "caml_allocN", 
+                "camlArray__iter_1252", 
+                "camlBytes__blit_string_1267", 
+                "camlHashtbl__6", 
+                "caml_int32_bits_of_float_unboxed", 
+                "caml_int64_float_of_bits_unboxed", 
+                "caml_call_gc", 
+                "camlBi_share__put_1285", 
+                "caml_apply2", 
+                "camlBi_inbuf__try_preread_1213", 
+                "camlHashtbl__add_1391", 
+                "camlChar__chr_1206", 
+                "camlBi_inbuf__from_string_inner_1345", 
+                "camlEasy_format__2", 
+                "caml_int64_bits_of_float_unboxed", 
+                "camlEasy_format__3", 
+                "caml_modify", 
+                "caml_int64_ops", 
+                "caml_curry3", 
+                "caml_ml_array_bound_error", 
+                "camlBi_vint__unsigned_of_signed_1253", 
+                "camlPrintf__sprintf_1315", 
+                "camlPervasives__invalid_arg_1007", 
+                "caml_raise_exn", 
+                "caml_tuplify3", 
+                "caml_obj_block", 
+                "camlPervasives__output_string_1213", 
+                "caml_exn_Assert_failure", 
+                "caml_alloc_dummy", 
+                "camlBi_vint__signed_of_unsigned_1255", 
+                "camlArray__map_1261", 
+                "caml_create_string", 
+                "camlList__iter_1272", 
+                "camlBi_vint__read_uvint_1273", 
+                "camlEasy_format__to_stdout_1733", 
+                "camlHashtbl__find_1416", 
+                "camlBi_inbuf__read_char_1221"
+            ], 
+            "rpm": "ocaml-biniou-devel-1.0.9-26.fc27.i686.rpm"
+        }, 
+        "usr/lib/ocaml/biniou/bi_util_o": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib/ocaml/biniou/bi_util.o", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "report-functions": [
+                "caml_young_limit", 
+                "caml_young_ptr", 
+                "caml_raise_exn", 
+                "camlPervasives__invalid_arg_1007", 
+                "caml_c_call", 
+                "caml_call_gc", 
+                "caml_fresh_oo_id", 
+                "caml_backtrace_pos", 
+                "caml_create_string", 
+                "caml_ml_array_bound_error", 
+                "camlChar__chr_1206"
+            ], 
+            "rpm": "ocaml-biniou-devel-1.0.9-26.fc27.i686.rpm"
+        }, 
+        "usr/lib/ocaml/biniou/bi_outbuf_o": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib/ocaml/biniou/bi_outbuf.o", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "report-functions": [
+                "camlHashtbl__clear_1343", 
+                "caml_c_call", 
+                "camlHashtbl", 
+                "camlPervasives__output_1216", 
+                "caml_ml_array_bound_error", 
+                "camlBytes__sub_1234", 
+                "caml_apply2", 
+                "caml_curry5", 
+                "camlPervasives__max_1030", 
+                "caml_send0", 
+                "camlHashtbl__create_inner_2188", 
+                "camlPervasives__invalid_arg_1007", 
+                "caml_apply3", 
+                "camlHashtbl__6", 
+                "caml_young_ptr", 
+                "caml_create_string", 
+                "caml_young_limit", 
+                "camlPervasives", 
+                "caml_curry4", 
+                "caml_make_vect", 
+                "caml_modify", 
+                "caml_curry2", 
+                "caml_curry3"
+            ], 
+            "rpm": "ocaml-biniou-devel-1.0.9-26.fc27.i686.rpm"
+        }, 
+        "usr/bin/ocaml-bdump": {
+            "report-functions": [
+                "malloc", 
+                "calloc", 
+                "fcntl", 
+                "getenv", 
+                "__errno_location", 
+                "close", 
+                "abort", 
+                "dlerror", 
+                "getppid", 
+                "dlsym", 
+                "strtod", 
+                "read", 
+                "opendir", 
+                "modf", 
+                "getrlimit64", 
+                "log1p", 
+                "floor", 
+                "dlopen", 
+                "strerror", 
+                "__snprintf_chk", 
+                "write", 
+                "__libc_start_main", 
+                "__gmon_start__", 
+                "sigaddset", 
+                "pow", 
+                "getpid", 
+                "fmod", 
+                "getcwd", 
+                "mmap64", 
+                "dlclose", 
+                "exp", 
+                "frexp", 
+                "ceil", 
+                "system", 
+                "log10", 
+                "__fprintf_chk", 
+                "memmove", 
+                "exit", 
+                "sigaction", 
+                "sigaltstack", 
+                "ldexp", 
+                "fflush", 
+                "cos", 
+                "__memcpy_chk", 
+                "hypot", 
+                "acos", 
+                "readlink", 
+                "sigdelset", 
+                "gettimeofday", 
+                "strlen", 
+                "__stack_chk_fail", 
+                "asin", 
+                "atan", 
+                "chdir", 
+                "fwrite", 
+                "fmin", 
+                "strtol", 
+                "sqrt", 
+                "expm1", 
+                "__sigsetjmp", 
+                "free", 
+                "lseek64", 
+                "__xstat64", 
+                "fputs", 
+                "closedir", 
+                "fputc", 
+                "munmap", 
+                "__isoc99_sscanf", 
+                "log", 
+                "realloc", 
+                "secure_getenv", 
+                "tanh", 
+                "memcmp", 
+                "tan", 
+                "cosh", 
+                "sigemptyset", 
+                "sin", 
+                "readdir64", 
+                "isatty", 
+                "__vsnprintf_chk", 
+                "sinh", 
+                "strcmp", 
+                "unlink", 
+                "rename", 
+                "getrusage", 
+                "open64"
+            ], 
+            "rpm": "ocaml-biniou-devel-1.0.9-26.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 1, 
+                    "afC": 26
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/ocaml-bdump"
+        }, 
+        "usr/lib/ocaml/biniou/bi_share_o": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib/ocaml/biniou/bi_share.o", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "report-functions": [
+                "camlHashtbl__Make_1702", 
+                "caml_allocN", 
+                "caml_exception_pointer", 
+                "camlHashtbl__add_1596", 
+                "caml_exn_Not_found", 
+                "camlHashtbl__add_1391", 
+                "caml_curry2", 
+                "camlHashtbl__find_1416", 
+                "camlHashtbl", 
+                "camlHashtbl__find_1621", 
+                "caml_curry3", 
+                "camlHashtbl__clear_1343", 
+                "camlHashtbl__create_inner_2188", 
+                "camlBi_util__error_1205"
+            ], 
+            "rpm": "ocaml-biniou-devel-1.0.9-26.fc27.i686.rpm"
+        }, 
+        "usr/lib/ocaml/biniou/bi_stream_o": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib/ocaml/biniou/bi_stream.o", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "report-functions": [
+                "camlList__rev_append_1236", 
+                "caml_call_gc", 
+                "camlList__length_aux_1204", 
+                "camlPervasives__23", 
+                "camlPervasives__char_of_int_1125", 
+                "camlPervasives__open_out_gen_1190", 
+                "caml_young_limit", 
+                "camlPervasives__really_input_1264", 
+                "caml_create_string", 
+                "camlList__iter_1272", 
+                "caml_ml_close_channel", 
+                "camlStream__from_4286", 
+                "camlStream__junk_data_3250", 
+                "camlStream__peek_data_2241", 
+                "camlStream__of_list_4288", 
+                "camlBytes__make_1216", 
+                "caml_raise_exn", 
+                "camlPervasives__30", 
+                "camlList__map_1248", 
+                "caml_curry4", 
+                "caml_make_vect", 
+                "camlPervasives__close_out_1236", 
+                "caml_ml_array_bound_error", 
+                "caml_ml_output_char", 
+                "caml_young_ptr", 
+                "camlPervasives__output_string_1213", 
+                "camlPrintf__sprintf_1315", 
+                "caml_ml_input_char", 
+                "camlArray__init_1217", 
+                "camlPervasives__failwith_1005", 
+                "camlPervasives__$5e_1117", 
+                "caml_exn_Assert_failure", 
+                "caml_modify", 
+                "camlPervasives__open_in_gen_1242", 
+                "camlPervasives", 
+                "caml_backtrace_pos", 
+                "caml_int_of_string", 
+                "caml_c_call", 
+                "camlString__concat_1300", 
+                "camlStream__iter_4280", 
+                "caml_equal"
+            ], 
+            "rpm": "ocaml-biniou-devel-1.0.9-26.fc27.i686.rpm"
+        }, 
+        "usr/lib/ocaml/biniou/bi_vint_o": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib/ocaml/biniou/bi_vint.o", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "report-functions": [
+                "caml_young_limit", 
+                "caml_backtrace_pos", 
+                "caml_apply3", 
+                "camlBytes__sub_1234", 
+                "camlBi_util__string8_of_int_1207", 
+                "camlPervasives", 
+                "caml_equal", 
+                "camlBi_inbuf__try_preread_1213", 
+                "camlBi_util__error_1205", 
+                "camlPervasives__print_endline_1310", 
+                "camlBi_outbuf__create_inner_1461", 
+                "camlList__iter_1272", 
+                "caml_exception_pointer", 
+                "caml_ml_array_bound_error", 
+                "camlPrintf__fprintf_1294", 
+                "camlBi_outbuf__clear_1305", 
+                "camlBi_util__print_bits_inner_1295", 
+                "camlChar__chr_1206", 
+                "camlBi_inbuf__from_string_inner_1345", 
+                "caml_young_ptr", 
+                "caml_c_call", 
+                "caml_raise_exn", 
+                "caml_curry2", 
+                "camlBi_outbuf"
+            ], 
+            "rpm": "ocaml-biniou-devel-1.0.9-26.fc27.i686.rpm"
+        }, 
+        "usr/lib/ocaml/biniou/bi_inbuf_o": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib/ocaml/biniou/bi_inbuf.o", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "report-functions": [
+                "caml_backtrace_pos", 
+                "caml_create_string", 
+                "caml_curry3", 
+                "caml_raise_exn", 
+                "caml_alloc2", 
+                "camlBytes__blit_string_1267", 
+                "caml_call_gc", 
+                "camlPervasives__input_1253", 
+                "camlPervasives__min_1027", 
+                "camlHashtbl__create_inner_2188", 
+                "caml_young_ptr", 
+                "caml_apply2", 
+                "caml_curry5", 
+                "caml_young_limit", 
+                "caml_curry2", 
+                "caml_c_call", 
+                "caml_fresh_oo_id"
+            ], 
+            "rpm": "ocaml-biniou-devel-1.0.9-26.fc27.i686.rpm"
+        }, 
+        "usr/lib/ocaml/biniou/bi_dump_o": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib/ocaml/biniou/bi_dump.o", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "report-functions": [
+                "camlBuffer__create_1209", 
+                "caml_sys_file_exists", 
+                "caml_c_call", 
+                "caml_ml_close_channel", 
+                "camlPrintf__sprintf_1315", 
+                "caml_young_limit", 
+                "camlArray__of_list_1294", 
+                "caml_curry2", 
+                "camlBuffer__resize_1237", 
+                "caml_sys_getenv", 
+                "caml_raise_exn", 
+                "camlPervasives__30", 
+                "caml_young_ptr", 
+                "camlArray__sort_1341", 
+                "caml_string_notequal", 
+                "camlPrintexc__to_string_1304", 
+                "camlFilename__concat_1337", 
+                "camlSys", 
+                "camlList__rev_append_1236", 
+                "camlPervasives__input_line_1274", 
+                "caml_call_gc", 
+                "caml_exn_Assert_failure", 
+                "camlPervasives__close_out_noerr_1238", 
+                "caml_apply2", 
+                "camlString", 
+                "caml_exception_pointer", 
+                "camlPervasives__open_out_gen_1190", 
+                "camlFilename", 
+                "camlArray__fold_left_1304", 
+                "caml_ml_input_char", 
+                "caml_backtrace_pos", 
+                "camlBytes__sub_1234", 
+                "caml_exn_End_of_file", 
+                "caml_exn_Not_found", 
+                "caml_ml_array_bound_error", 
+                "camlPrintf__fprintf_1294", 
+                "camlPervasives__failwith_1005"
+            ], 
+            "rpm": "ocaml-biniou-devel-1.0.9-26.fc27.i686.rpm"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " ocaml-biniou-devel", 
+            "License": " BSD", 
+            "URL": " http://mjambon.com/biniou.html", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-09.phx2.fedoraproject.org", 
+            "Description": "\nThe ocaml-biniou-devel package contains libraries and signature files for\ndeveloping applications that use ocaml-biniou.\n", 
+            "Build Date": " Tue 08 Aug 2017 09:29:59 AM EDT", 
+            "Source RPM": " ocaml-biniou-1.0.9-26.fc27.src.rpm", 
+            "Version": " 1.0.9", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Wed 09 Aug 2017 09:50:34 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 26.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Development files for ocaml-biniou", 
+            "Size": " 983477"
+        }
+    }
+}

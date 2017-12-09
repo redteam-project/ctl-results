@@ -1,0 +1,82 @@
+{
+    "results": {
+        "usr/lib/libbeecrypt_so_7_0_0": {
+            "report-functions": [
+                "read", 
+                "pthread_mutex_destroy", 
+                "gettimeofday", 
+                "fputc", 
+                "getenv", 
+                "calloc", 
+                "tcsetattr", 
+                "_ITM_registerTMCloneTable", 
+                "perror", 
+                "strcmp", 
+                "__gcc_personality_v0", 
+                "malloc", 
+                "_ITM_deregisterTMCloneTable", 
+                "pthread_mutex_init", 
+                "free", 
+                "tcgetattr", 
+                "GOMP_sections_end_nowait", 
+                "__cxa_finalize", 
+                "strspn", 
+                "strtol", 
+                "__fprintf_chk", 
+                "realloc", 
+                "__ctype_b_loc", 
+                "pthread_mutex_lock", 
+                "sleep", 
+                "__errno_location", 
+                "__xstat", 
+                "GOMP_parallel_sections", 
+                "__gmon_start__", 
+                "close", 
+                "putchar", 
+                "__stack_chk_fail", 
+                "open", 
+                "memmove", 
+                "strlen", 
+                "pthread_mutex_unlock", 
+                "strerror", 
+                "puts", 
+                "fflush", 
+                "GOMP_sections_next"
+            ], 
+            "rpm": "beecrypt-4.2.1-16.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libbeecrypt.so.7.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " beecrypt", 
+            "License": " LGPLv2+", 
+            "URL": " http://beecrypt.sourceforge.net/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-18.phx2.fedoraproject.org", 
+            "Description": "\nBeeCrypt is an ongoing project to provide a strong and fast cryptography\ntoolkit. Includes entropy sources, random generators, block ciphers, hash\nfunctions, message authentication codes, multiprecision integer routines\nand public key primitives.\n", 
+            "Build Date": " Wed 02 Aug 2017 02:25:01 PM EDT", 
+            "Source RPM": " beecrypt-4.2.1-16.fc27.src.rpm", 
+            "Version": " 4.2.1", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 07 Aug 2017 03:53:10 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 16.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " An open source cryptography library", 
+            "Size": " 331075"
+        }
+    }
+}

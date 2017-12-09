@@ -1,0 +1,2204 @@
+{
+    "results": {
+        "usr/lib/csound/plugins-6_0/libstdutil_so": {
+            "report-functions": [
+                "strlen", 
+                "strncmp", 
+                "feof", 
+                "__vsnprintf_chk", 
+                "fclose", 
+                "puts", 
+                "__pow_finite", 
+                "strncpy", 
+                "sf_command", 
+                "sscanf", 
+                "_IO_putc", 
+                "strrchr", 
+                "malloc", 
+                "__gmon_start__", 
+                "__memcpy_chk", 
+                "sf_readf_double", 
+                "__ctype_b_loc", 
+                "__fprintf_chk", 
+                "sf_readf_float", 
+                "fputc", 
+                "fflush", 
+                "sf_seek", 
+                "sf_writef_double", 
+                "__stack_chk_fail", 
+                "__assert_fail", 
+                "_IO_getc", 
+                "sf_set_string", 
+                "_ITM_deregisterTMCloneTable", 
+                "fread", 
+                "strtol", 
+                "__cxa_finalize", 
+                "__snprintf_chk", 
+                "write", 
+                "strcpy", 
+                "sf_write_double", 
+                "sf_open", 
+                "sf_close", 
+                "_ITM_registerTMCloneTable", 
+                "sf_writef_float", 
+                "__strcpy_chk", 
+                "fwrite", 
+                "strncat", 
+                "strtod", 
+                "sf_open_fd", 
+                "qsort", 
+                "ungetc", 
+                "fopen", 
+                "exit", 
+                "fscanf"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/csound/plugins-6.0/libstdutil.so"
+        }, 
+        "usr/bin/pvlook": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "__libc_start_main", 
+                "csoundCreate", 
+                "csoundSetMessageCallback", 
+                "__gmon_start__", 
+                "__vfprintf_chk", 
+                "csoundRunUtility", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/pvlook"
+        }, 
+        "usr/lib/csound/plugins-6_0/libcs_date_so": {
+            "report-functions": [
+                "feof", 
+                "strncpy", 
+                "_ITM_deregisterTMCloneTable", 
+                "__stack_chk_fail", 
+                "ctime", 
+                "__gmon_start__", 
+                "fclose", 
+                "__cxa_finalize", 
+                "getcwd", 
+                "_ITM_registerTMCloneTable", 
+                "fgets", 
+                "time"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/csound/plugins-6.0/libcs_date.so"
+        }, 
+        "usr/lib/csound/plugins-6_0/liburandom_so": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "close", 
+                "__cxa_finalize", 
+                "read", 
+                "_ITM_registerTMCloneTable", 
+                "open"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/csound/plugins-6.0/liburandom.so"
+        }, 
+        "usr/lib/csound/plugins-6_0/libchua_so": {
+            "report-functions": [
+                "_ZNSt16invalid_argumentC2EPKc", 
+                "_ZNKSt11logic_error4whatEv", 
+                "__gxx_personality_v0", 
+                "_ZNSt12out_of_rangeC2EPKc", 
+                "_ZNSt8ios_base4InitD1Ev", 
+                "__stack_chk_fail", 
+                "_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_", 
+                "__cxa_throw", 
+                "__cxa_allocate_exception", 
+                "_ZNSt11logic_errorC2ERKS_", 
+                "_ITM_registerTMCloneTable", 
+                "_Unwind_Resume", 
+                "__vfprintf_chk", 
+                "_ZNSt8ios_base4InitC1Ev", 
+                "_ZNSolsEi", 
+                "_ZdlPv", 
+                "_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_i", 
+                "_ZSt17__throw_bad_allocv", 
+                "__cxa_atexit", 
+                "_ZNSt16invalid_argumentD2Ev", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ZNSt12out_of_rangeD2Ev", 
+                "_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc", 
+                "__gmon_start__", 
+                "_ZdlPvj"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/csound/plugins-6.0/libchua.so"
+        }, 
+        "usr/lib/csound/plugins-6_0/libfareygen_so": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "__snprintf_chk", 
+                "calloc", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/csound/plugins-6.0/libfareygen.so"
+        }, 
+        "usr/lib/csound/plugins-6_0/libcellular_so": {
+            "report-functions": [
+                "__gmon_start__", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/csound/plugins-6.0/libcellular.so"
+        }, 
+        "usr/lib/csound/plugins-6_0/libserial_so": {
+            "report-functions": [
+                "close", 
+                "tcgetattr", 
+                "perror", 
+                "open", 
+                "read", 
+                "__cxa_finalize", 
+                "cfsetispeed", 
+                "_ITM_deregisterTMCloneTable", 
+                "tcsetattr", 
+                "__gmon_start__", 
+                "tcflush", 
+                "write", 
+                "_ITM_registerTMCloneTable", 
+                "cfsetospeed"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/csound/plugins-6.0/libserial.so"
+        }, 
+        "usr/bin/cs": {
+            "report-functions": [
+                "__fprintf_chk", 
+                "_ITM_deregisterTMCloneTable", 
+                "__memcpy_chk", 
+                "opendir", 
+                "strstr", 
+                "__ctype_tolower_loc", 
+                "strlen", 
+                "__ctype_b_loc", 
+                "__ctype_toupper_loc", 
+                "__stack_chk_fail", 
+                "__cxa_finalize", 
+                "__libc_start_main", 
+                "__errno_location", 
+                "fputc", 
+                "strncpy", 
+                "getenv", 
+                "realloc", 
+                "malloc", 
+                "strcpy", 
+                "strerror", 
+                "readdir", 
+                "free", 
+                "__sprintf_chk", 
+                "__strcat_chk", 
+                "__gmon_start__", 
+                "strchr", 
+                "exit", 
+                "execvp", 
+                "closedir", 
+                "fwrite", 
+                "__strcpy_chk"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/cs"
+        }, 
+        "usr/bin/cs-envext": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "__libc_start_main", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "csoundCreate", 
+                "csoundRunUtility"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/cs-envext"
+        }, 
+        "usr/lib/csound/plugins-6_0/libipmidi_so": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "_ITM_deregisterTMCloneTable", 
+                "__errno_location", 
+                "inet_addr", 
+                "socket", 
+                "select", 
+                "__fdelt_chk", 
+                "close", 
+                "perror", 
+                "__cxa_finalize", 
+                "setsockopt", 
+                "read", 
+                "strerror_r", 
+                "bind", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/csound/plugins-6.0/libipmidi.so"
+        }, 
+        "usr/lib/csound/plugins-6_0/csladspa_so": {
+            "report-functions": [
+                "csoundScoreEventAbsolute", 
+                "_ZdlPvj", 
+                "csoundPerform", 
+                "_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE4findEcj", 
+                "csoundDestroyMessageBuffer", 
+                "csoundSetOption", 
+                "csoundSetHostImplementedAudioIO", 
+                "csoundRewindScore", 
+                "csoundSetMessageLevel", 
+                "csoundGetUtilityDescription", 
+                "csoundGetFirstMessage", 
+                "csoundInitializeCscore", 
+                "csoundGetKsmps", 
+                "_ZNSt8ios_base4InitD1Ev", 
+                "csoundListConfigurationVariables", 
+                "csoundSetControlChannel", 
+                "csoundCompile", 
+                "csoundNewOpcodeList", 
+                "csoundScoreSort", 
+                "csoundSetRtplayCallback", 
+                "csoundSetYieldCallback", 
+                "_ZSt24__throw_out_of_range_fmtPKcz", 
+                "csoundSetMIDIOutput", 
+                "csoundGetFirstMessageAttr", 
+                "csoundSetInputChannelCallback", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_assignERKS4_", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERjj", 
+                "_ZSt16__throw_bad_castv", 
+                "csoundReset", 
+                "_ZNSt9basic_iosIcSt11char_traitsIcEE5clearESt12_Ios_Iostate", 
+                "csoundDestroy", 
+                "strtol", 
+                "csoundSetAudioChannel", 
+                "csoundParseConfigurationVariable", 
+                "strcpy", 
+                "csoundQueryGlobalVariableNoCheck", 
+                "_Znwj", 
+                "_ZNSt8ios_baseC2Ev", 
+                "__cxa_finalize", 
+                "csoundTableCopyIn", 
+                "__cxa_atexit", 
+                "csoundGetMessageLevel", 
+                "csoundSetPvsChannel", 
+                "csoundSetPlayopenCallback", 
+                "_ZSt20__throw_length_errorPKc", 
+                "csoundDeleteUtilityList", 
+                "csoundCompileArgs", 
+                "csoundGetControlChannelHints", 
+                "csoundGetHostData", 
+                "csoundCompileCsd", 
+                "_Znaj", 
+                "csoundGetInputBufferSize", 
+                "csoundGetSpout", 
+                "_ZNSt8ios_baseD2Ev", 
+                "_ZNSt13basic_filebufIcSt11char_traitsIcEE5closeEv", 
+                "_ZNSt13basic_fstreamIcSt11char_traitsIcEED1Ev", 
+                "csoundKeyPress", 
+                "csoundSetExternalMidiInCloseCallback", 
+                "csoundSetHostData", 
+                "csoundPopFirstMessage", 
+                "csoundDeleteTree", 
+                "_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE16find_last_not_ofEPKcjj", 
+                "__gxx_personality_v0", 
+                "_ZNSi7getlineEPcic", 
+                "csoundSetRtrecordCallback", 
+                "_ZNSi5seekgESt4fposI11__mbstate_tE", 
+                "csoundRegisterSenseEventCallback", 
+                "csoundGetOutputBufferSize", 
+                "csoundStop", 
+                "csoundSetHostImplementedMIDIIO", 
+                "_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_i", 
+                "csoundCompileOrc", 
+                "csoundSetScorePending", 
+                "csoundSetDrawGraphCallback", 
+                "csoundSetInput", 
+                "csoundGetSpoutSample", 
+                "_Unwind_Resume", 
+                "csoundSetControlChannelHints", 
+                "csoundRunUtility", 
+                "__gmon_start__", 
+                "csoundGetTable", 
+                "csoundSetExternalMidiErrorStringCallback", 
+                "csoundGetVersion", 
+                "_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7compareEPKc", 
+                "csoundMessageV", 
+                "csoundGetPvsChannel", 
+                "_ZNSt9basic_iosIcSt11char_traitsIcEE4initEPSt15basic_streambufIcS1_E", 
+                "csoundSetExternalMidiOutOpenCallback", 
+                "csoundSetScoreOffsetSeconds", 
+                "csoundIsScorePending", 
+                "csoundGetScoreOffsetSeconds", 
+                "csoundReadScore", 
+                "csoundSetParams", 
+                "_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE17find_first_not_ofEPKcjj", 
+                "csoundTableSet", 
+                "csoundPerformKsmps", 
+                "csoundSetMessageCallback", 
+                "csoundGetOutputBuffer", 
+                "csoundSetCscoreCallback", 
+                "csoundSetConfigurationVariable", 
+                "getenv", 
+                "csoundDeleteConfigurationVariable", 
+                "csoundCompileTree", 
+                "csoundCreateGlobalVariable", 
+                "csoundAddSpinSample", 
+                "_ZNSt13basic_filebufIcSt11char_traitsIcEED1Ev", 
+                "_ZNSt13basic_filebufIcSt11char_traitsIcEE4openEPKcSt13_Ios_Openmode", 
+                "csoundListUtilities", 
+                "csoundGetDebug", 
+                "csoundDisposeOpcodeList", 
+                "_ZNKSt5ctypeIcE13_M_widen_initEv", 
+                "csoundCreateMessageBuffer", 
+                "csoundSetGlobalEnv", 
+                "csoundGetRtRecordUserData", 
+                "csoundSetMIDIFileOutput", 
+                "csoundGetOutputName", 
+                "_ZNSo9_M_insertImEERSoT_", 
+                "csoundGetParams", 
+                "csoundGetAPIVersion", 
+                "__stack_chk_fail", 
+                "csoundSetExternalMidiReadCallback", 
+                "csoundSetExternalMidiWriteCallback", 
+                "csoundSetDebug", 
+                "csoundGetStringChannel", 
+                "_ZNSt6localeD1Ev", 
+                "csoundTableLength", 
+                "csoundGet0dBFS", 
+                "readdir", 
+                "csoundParseOrc", 
+                "csoundInputMessage", 
+                "csoundGetScoreTime", 
+                "csoundCleanup", 
+                "_ZSt19__throw_logic_errorPKc", 
+                "closedir", 
+                "csoundGetRtPlayUserData", 
+                "csoundEvalCode", 
+                "csoundSetMIDIInput", 
+                "csoundSetOutputChannelCallback", 
+                "csoundDeleteChannelList", 
+                "csoundGetKr", 
+                "csoundSetOutput", 
+                "csoundGetMessageCnt", 
+                "__sprintf_chk", 
+                "csoundListChannels", 
+                "_ZdaPv", 
+                "strtod", 
+                "_ZNSt12__basic_fileIcED1Ev", 
+                "csoundScoreEvent", 
+                "csoundStart", 
+                "csoundGetSr", 
+                "csoundPerformBuffer", 
+                "csoundGetSpin", 
+                "_ZdaPvj", 
+                "csoundGetChannelPtr", 
+                "_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE4findEPKcjj", 
+                "csoundCreateConfigurationVariable", 
+                "_ZNKSt12__basic_fileIcE7is_openEv", 
+                "_ITM_registerTMCloneTable", 
+                "__cxa_throw_bad_array_new_length", 
+                "csoundGetEnv", 
+                "csoundSetMIDIFileInput", 
+                "csoundSetIsGraphable", 
+                "csoundSetStringChannel", 
+                "csoundSetExternalMidiInOpenCallback", 
+                "csoundDestroyGlobalVariable", 
+                "strncpy", 
+                "csoundGetControlChannel", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE8_M_eraseEjj", 
+                "csoundSetRtcloseCallback", 
+                "csoundSetKillGraphCallback", 
+                "csoundGetNchnlsInput", 
+                "_ZNSt8ios_base4InitC1Ev", 
+                "csoundCreate", 
+                "csoundSetMakeGraphCallback", 
+                "opendir", 
+                "_ZNSt13basic_filebufIcSt11char_traitsIcEEC1Ev", 
+                "csoundAppendOpcode", 
+                "csoundTableCopyOut", 
+                "csoundGetAudioChannel", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_appendEPKcj", 
+                "_ITM_deregisterTMCloneTable", 
+                "csoundSetExternalMidiOutCloseCallback", 
+                "csoundGetInputBuffer", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_replaceEjjPKcj", 
+                "csoundSetRecopenCallback", 
+                "csoundSetExitGraphCallback", 
+                "csoundTableGet", 
+                "_ZdlPv", 
+                "strlen", 
+                "csoundQueryGlobalVariable", 
+                "csoundQueryConfigurationVariable"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/csound/plugins-6.0/csladspa.so"
+        }, 
+        "usr/lib/csound/plugins-6_0/libimage_so": {
+            "report-functions": [
+                "free", 
+                "png_create_write_struct", 
+                "png_destroy_write_struct", 
+                "png_get_IHDR", 
+                "__stack_chk_fail", 
+                "__cxa_finalize", 
+                "png_set_gray_to_rgb", 
+                "png_set_palette_to_rgb", 
+                "png_create_info_struct", 
+                "strncpy", 
+                "png_destroy_read_struct", 
+                "png_sig_cmp", 
+                "png_read_image", 
+                "png_write_end", 
+                "__gmon_start__", 
+                "malloc", 
+                "png_set_IHDR", 
+                "png_write_info", 
+                "png_init_io", 
+                "png_write_image", 
+                "png_get_rowbytes", 
+                "png_set_strip_alpha", 
+                "png_read_update_info", 
+                "png_set_packing", 
+                "fread", 
+                "png_create_read_struct", 
+                "png_set_sig_bytes", 
+                "png_set_strip_16", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/csound/plugins-6.0/libimage.so"
+        }, 
+        "usr/bin/csound": {
+            "report-functions": [
+                "csoundSetDefaultMessageCallback", 
+                "__vfprintf_chk", 
+                "kill", 
+                "sched_get_priority_max", 
+                "sched_setscheduler", 
+                "__libc_start_main", 
+                "csoundPerform", 
+                "mlockall", 
+                "csoundDestroy", 
+                "pthread_create", 
+                "csoundCompile", 
+                "fileno", 
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "clock", 
+                "strlen", 
+                "pthread_setschedparam", 
+                "__errno_location", 
+                "_ITM_deregisterTMCloneTable", 
+                "fopen", 
+                "pthread_detach", 
+                "setvbuf", 
+                "exit", 
+                "isatty", 
+                "__cxa_finalize", 
+                "fflush", 
+                "__fprintf_chk", 
+                "fclose", 
+                "getuid", 
+                "fputc", 
+                "csoundCreate", 
+                "setuid", 
+                "_ITM_registerTMCloneTable", 
+                "getpid", 
+                "csoundSleep", 
+                "setpriority"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/csound"
+        }, 
+        "usr/bin/csdebugger": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "csoundGetFirstMessageAttr", 
+                "_ITM_deregisterTMCloneTable", 
+                "csoundPerformBuffer", 
+                "csoundSetAudioChannel", 
+                "csoundSetCscoreCallback", 
+                "csoundCreateConfigurationVariable", 
+                "csoundInputMessage", 
+                "csoundSetOutputChannelCallback", 
+                "csoundGetNchnlsInput", 
+                "csoundCompile", 
+                "csoundGetHostData", 
+                "csoundIsScorePending", 
+                "csoundSetExternalMidiOutCloseCallback", 
+                "csoundSetRtrecordCallback", 
+                "csoundSetExternalMidiReadCallback", 
+                "csoundSetOutput", 
+                "__gmon_start__", 
+                "csoundMessageV", 
+                "csoundSetMessageCallback", 
+                "csoundPopFirstMessage", 
+                "csoundSetExternalMidiInOpenCallback", 
+                "__cxa_finalize", 
+                "csoundSetExternalMidiWriteCallback", 
+                "csoundDisposeOpcodeList", 
+                "csoundDeleteConfigurationVariable", 
+                "csoundSetDrawGraphCallback", 
+                "csoundRegisterSenseEventCallback", 
+                "csoundDestroy", 
+                "csoundGetInputBufferSize", 
+                "csoundGetOutputBufferSize", 
+                "csoundSetStringChannel", 
+                "_Znwj", 
+                "csoundListConfigurationVariables", 
+                "csoundGetKsmps", 
+                "_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc", 
+                "csoundSetMessageLevel", 
+                "csoundDebuggerInit", 
+                "csoundGet0dBFS", 
+                "csoundSetExitGraphCallback", 
+                "_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_", 
+                "csoundSetHostImplementedAudioIO", 
+                "csoundCompileOrc", 
+                "csoundGetMessageCnt", 
+                "csoundSetRtplayCallback", 
+                "csoundGetRtRecordUserData", 
+                "csoundDeleteUtilityList", 
+                "csoundParseOrc", 
+                "_ZdlPvj", 
+                "csoundSetInputChannelCallback", 
+                "csoundGetParams", 
+                "csoundSetPvsChannel", 
+                "csoundGetScoreTime", 
+                "__cxa_atexit", 
+                "csoundListUtilities", 
+                "csoundSetKillGraphCallback", 
+                "csoundTableCopyIn", 
+                "csoundGetMessageLevel", 
+                "csoundGetKr", 
+                "csoundCreateGlobalVariable", 
+                "csoundGetEnv", 
+                "csoundGetOutputBuffer", 
+                "csoundGetSpoutSample", 
+                "csoundSetExternalMidiErrorStringCallback", 
+                "csoundSetControlChannelHints", 
+                "csoundCreate", 
+                "csoundGetRtPlayUserData", 
+                "csoundInitializeCscore", 
+                "_ZNSt8ios_base4InitD1Ev", 
+                "csoundPerform", 
+                "csoundScoreSort", 
+                "csoundRewindScore", 
+                "csoundGetDebug", 
+                "csoundTableGet", 
+                "csoundListChannels", 
+                "csoundSetGlobalEnv", 
+                "csoundSetMIDIOutput", 
+                "csoundGetUtilityDescription", 
+                "csoundSetRecopenCallback", 
+                "csoundAppendOpcode", 
+                "csoundSetOption", 
+                "csoundSetInstrumentBreakpoint", 
+                "csoundTableSet", 
+                "csoundSetRtcloseCallback", 
+                "csoundSetHostData", 
+                "_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_i", 
+                "csoundCompileArgs", 
+                "csoundCompileTree", 
+                "csoundGetSr", 
+                "csoundSetMIDIFileOutput", 
+                "csoundSetMIDIFileInput", 
+                "csoundEvalCode", 
+                "csoundRunUtility", 
+                "csoundGetTable", 
+                "csoundGetVersion", 
+                "csoundTableCopyOut", 
+                "csoundNewOpcodeList", 
+                "csoundQueryGlobalVariable", 
+                "csoundGetSpout", 
+                "csoundKeyPress", 
+                "csoundSetScorePending", 
+                "csoundDestroyMessageBuffer", 
+                "csoundDeleteChannelList", 
+                "_Unwind_Resume", 
+                "csoundGetOutputName", 
+                "csoundGetScoreOffsetSeconds", 
+                "csoundSetPlayopenCallback", 
+                "csoundSetYieldCallback", 
+                "csoundDebuggerClean", 
+                "__libc_start_main", 
+                "csoundSetHostImplementedMIDIIO", 
+                "csoundScoreEventAbsolute", 
+                "csoundQueryGlobalVariableNoCheck", 
+                "csoundSetConfigurationVariable", 
+                "csoundSetControlChannel", 
+                "csoundSetParams", 
+                "csoundScoreExtract", 
+                "csoundDeleteTree", 
+                "csoundPerformKsmps", 
+                "_ZNSolsEi", 
+                "csoundReset", 
+                "csoundGetChannelPtr", 
+                "csoundGetNchnls", 
+                "csoundSetMakeGraphCallback", 
+                "csoundReadScore", 
+                "csoundGetAPIVersion", 
+                "csoundSetExternalMidiInCloseCallback", 
+                "csoundGetFirstMessage", 
+                "csoundAddSpinSample", 
+                "csoundGetControlChannelHints", 
+                "__gxx_personality_v0", 
+                "csoundCreateMessageBuffer", 
+                "csoundSetDebug", 
+                "csoundGetControlChannel", 
+                "csoundGetInputBuffer", 
+                "csoundSetInput", 
+                "csoundScoreEvent", 
+                "csoundParseConfigurationVariable", 
+                "csoundQueryConfigurationVariable", 
+                "csoundSetScoreOffsetSeconds", 
+                "csoundDestroyGlobalVariable", 
+                "strtol", 
+                "csoundGetAudioChannel", 
+                "csoundGetSpin", 
+                "csoundCompileCsd", 
+                "csoundSetBreakpointCallback", 
+                "csoundStop", 
+                "_ZNSt9basic_iosIcSt11char_traitsIcEE5clearESt12_Ios_Iostate", 
+                "csoundGetPvsChannel", 
+                "_ZNSo9_M_insertIdEERSoT_", 
+                "csoundSetIsGraphable", 
+                "csoundStart", 
+                "csoundGetStringChannel", 
+                "csoundTableLength", 
+                "__stack_chk_fail", 
+                "strlen", 
+                "csoundSetMIDIInput", 
+                "csoundSetExternalMidiOutOpenCallback"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/csdebugger"
+        }, 
+        "usr/bin/csanalyze": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "__cxa_finalize", 
+                "__printf_chk", 
+                "__libc_start_main", 
+                "csoundCreate", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/csanalyze"
+        }, 
+        "usr/lib/csound/plugins-6_0/libsignalflowgraph_so": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "__sprintf_chk", 
+                "_ZNSt8ios_base4InitC1Ev", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_atexit", 
+                "_ZSt29_Rb_tree_insert_and_rebalancebPSt18_Rb_tree_node_baseS0_RS_", 
+                "_ZdlPv", 
+                "_ZNSt8ios_base4InitD1Ev", 
+                "_ZSt24__throw_out_of_range_fmtPKcz", 
+                "strlen", 
+                "memmove", 
+                "_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_i", 
+                "_ZdlPvj", 
+                "__vfprintf_chk", 
+                "_ZSt20__throw_length_errorPKc", 
+                "__cxa_rethrow", 
+                "memcmp", 
+                "_ZNSo9_M_insertIdEERSoT_", 
+                "_ZSt19__throw_logic_errorPKc", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_appendEPKcj", 
+                "memset", 
+                "__cxa_end_catch", 
+                "__cxa_begin_catch", 
+                "_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7compareERKS4_", 
+                "__gxx_personality_v0", 
+                "_Unwind_Resume", 
+                "_ZSt18_Rb_tree_incrementPSt18_Rb_tree_node_base", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERjj", 
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/csound/plugins-6.0/libsignalflowgraph.so"
+        }, 
+        "usr/bin/dnoise": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable", 
+                "csoundRunUtility", 
+                "__gmon_start__", 
+                "csoundDestroy"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/dnoise"
+        }, 
+        "usr/bin/csb64enc": {
+            "report-functions": [
+                "__libc_start_main", 
+                "fflush", 
+                "exit", 
+                "__errno_location", 
+                "_IO_getc", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize", 
+                "fwrite", 
+                "realloc", 
+                "fclose", 
+                "strerror", 
+                "free", 
+                "__fprintf_chk", 
+                "_IO_putc", 
+                "_ITM_registerTMCloneTable", 
+                "__gmon_start__", 
+                "strlen"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/csb64enc"
+        }, 
+        "usr/bin/cs-mixer": {
+            "report-functions": [
+                "__libc_start_main", 
+                "csoundDestroy", 
+                "_ITM_registerTMCloneTable", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize", 
+                "__gmon_start__", 
+                "csoundCreate"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/cs-mixer"
+        }, 
+        "usr/lib/csound/plugins-6_0/libcontrol_so": {
+            "report-functions": [
+                "fgets", 
+                "fdopen", 
+                "signal", 
+                "select", 
+                "fork", 
+                "exit", 
+                "fwrite", 
+                "free", 
+                "_ITM_deregisterTMCloneTable", 
+                "setvbuf", 
+                "__printf_chk", 
+                "kill", 
+                "calloc", 
+                "__stack_chk_fail", 
+                "close", 
+                "dup2", 
+                "__fdelt_chk", 
+                "fclose", 
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable", 
+                "execvp", 
+                "pipe", 
+                "realloc", 
+                "fscanf"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/csound/plugins-6.0/libcontrol.so"
+        }, 
+        "usr/lib/csound/plugins-6_0/libsystem_call_so": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "system", 
+                "__cxa_finalize", 
+                "fork", 
+                "exit"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/csound/plugins-6.0/libsystem_call.so"
+        }, 
+        "usr/bin/pvanal": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "csoundCreate", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "__libc_start_main", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/pvanal"
+        }, 
+        "usr/bin/cs-extractor": {
+            "report-functions": [
+                "__libc_start_main", 
+                "csoundCreate", 
+                "csoundRunUtility", 
+                "__gmon_start__", 
+                "csoundDestroy", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/cs-extractor"
+        }, 
+        "usr/bin/het_export": {
+            "report-functions": [
+                "csoundCreate", 
+                "__cxa_finalize", 
+                "__gmon_start__", 
+                "csoundRunUtility", 
+                "csoundDestroy", 
+                "__libc_start_main", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/het_export"
+        }, 
+        "usr/bin/cs-sndinfo": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "csoundCreate", 
+                "__libc_start_main", 
+                "__cxa_finalize", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/cs-sndinfo"
+        }, 
+        "usr/bin/lpc_import": {
+            "report-functions": [
+                "_IO_putc", 
+                "exit", 
+                "fwrite", 
+                "__fread_chk", 
+                "fclose", 
+                "fread", 
+                "__libc_start_main", 
+                "free", 
+                "_ITM_deregisterTMCloneTable", 
+                "puts", 
+                "_ITM_registerTMCloneTable", 
+                "__cxa_finalize", 
+                "fopen", 
+                "__stack_chk_fail", 
+                "__gmon_start__"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/lpc_import"
+        }, 
+        "usr/bin/pv_export": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "__libc_start_main", 
+                "csoundCreate", 
+                "_ITM_deregisterTMCloneTable", 
+                "csoundDestroy", 
+                "csoundRunUtility"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/pv_export"
+        }, 
+        "usr/lib/csound/plugins-6_0/librtalsa_so": {
+            "report-functions": [
+                "snd_seq_query_next_client", 
+                "snd_pcm_sw_params_set_avail_min", 
+                "snd_midi_event_new", 
+                "snd_pcm_hw_params_set_format", 
+                "exit", 
+                "snd_rawmidi_close", 
+                "snd_seq_port_info_get_port", 
+                "snd_seq_event_output", 
+                "__gmon_start__", 
+                "snd_midi_event_encode", 
+                "__errno_location", 
+                "_ITM_deregisterTMCloneTable", 
+                "snd_ctl_open", 
+                "snd_pcm_hw_params_set_period_size_near", 
+                "snd_rawmidi_info_get_subdevices_count", 
+                "snd_rawmidi_write", 
+                "close", 
+                "write", 
+                "snd_pcm_hw_params_any", 
+                "calloc", 
+                "__strcpy_chk", 
+                "fcntl", 
+                "snd_pcm_hw_params_sizeof", 
+                "snd_pcm_close", 
+                "snd_pcm_hw_params_set_channels", 
+                "snd_rawmidi_info_set_device", 
+                "__snprintf_chk", 
+                "snd_rawmidi_info_set_subdevice", 
+                "snd_strerror", 
+                "snd_pcm_resume", 
+                "snd_rawmidi_info_get_subdevice_name", 
+                "__fdelt_chk", 
+                "strncpy", 
+                "snd_seq_connect_to", 
+                "strtok_r", 
+                "snd_seq_create_simple_port", 
+                "snd_midi_event_decode", 
+                "snd_pcm_hw_params_set_access", 
+                "strchr", 
+                "snd_pcm_writei", 
+                "snd_seq_client_id", 
+                "__stack_chk_fail", 
+                "snd_midi_event_reset_encode", 
+                "fopen", 
+                "__cxa_finalize", 
+                "snd_seq_client_info_get_name", 
+                "cfmakeraw", 
+                "snd_rawmidi_info_set_stream", 
+                "fgets", 
+                "sched_setscheduler", 
+                "snd_seq_close", 
+                "snd_seq_set_client_name", 
+                "snd_ctl_rawmidi_next_device", 
+                "_ITM_registerTMCloneTable", 
+                "snd_pcm_hw_params_set_buffer_size_near", 
+                "snd_rawmidi_drain", 
+                "snd_midi_event_free", 
+                "sched_get_priority_max", 
+                "snd_pcm_sw_params_sizeof", 
+                "malloc", 
+                "read", 
+                "snd_seq_client_info_get_client", 
+                "snd_card_next", 
+                "snd_pcm_sw_params_current", 
+                "snd_rawmidi_read", 
+                "snd_seq_client_info_sizeof", 
+                "snd_seq_connect_from", 
+                "select", 
+                "snd_ctl_rawmidi_info", 
+                "snd_ctl_close", 
+                "snd_pcm_open", 
+                "snd_seq_client_info_set_client", 
+                "snd_pcm_sw_params_set_start_threshold", 
+                "sleep", 
+                "free", 
+                "tcgetattr", 
+                "open", 
+                "snd_pcm_hw_params", 
+                "cfsetispeed", 
+                "strtol", 
+                "snd_seq_port_info_get_name", 
+                "isatty", 
+                "setpriority", 
+                "snd_seq_port_info_sizeof", 
+                "snd_rawmidi_open", 
+                "snd_pcm_prepare", 
+                "snd_seq_drain_output", 
+                "fwrite", 
+                "snd_seq_query_next_port", 
+                "snd_rawmidi_info_get_name", 
+                "snd_seq_event_input", 
+                "tcsetattr", 
+                "snd_seq_port_info_set_port", 
+                "snd_rawmidi_info_sizeof", 
+                "snd_seq_port_info_set_client", 
+                "snd_pcm_sw_params", 
+                "strcmp", 
+                "snd_seq_open", 
+                "snd_pcm_hw_params_set_rate_near", 
+                "snd_midi_event_init", 
+                "snd_pcm_readi", 
+                "snd_seq_port_info_get_capability"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/csound/plugins-6.0/librtalsa.so"
+        }, 
+        "usr/lib/csound/plugins-6_0/libscansyn_so": {
+            "report-functions": [
+                "strncpy", 
+                "__stack_chk_fail", 
+                "_ITM_deregisterTMCloneTable", 
+                "sscanf", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/csound/plugins-6.0/libscansyn.so"
+        }, 
+        "usr/bin/cs-scot": {
+            "report-functions": [
+                "fgets", 
+                "__sprintf_chk", 
+                "__strcpy_chk", 
+                "strcpy", 
+                "fclose", 
+                "__fprintf_chk", 
+                "sscanf", 
+                "__gmon_start__", 
+                "__stack_chk_fail", 
+                "_ITM_registerTMCloneTable", 
+                "_IO_putc", 
+                "strchr", 
+                "_ITM_deregisterTMCloneTable", 
+                "__ctype_b_loc", 
+                "fwrite", 
+                "strcmp", 
+                "fopen", 
+                "fputs", 
+                "__strcat_chk", 
+                "__cxa_finalize", 
+                "malloc", 
+                "free", 
+                "strtol"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/cs-scot"
+        }, 
+        "usr/lib/csound/plugins-6_0/liblinear_algebra_so": {
+            "report-functions": [
+                "__cxa_allocate_exception", 
+                "_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_", 
+                "_ZNSt11logic_errorC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE", 
+                "_ZSt20__throw_length_errorPKc", 
+                "_ZNSo9_M_insertImEERSoT_", 
+                "_ZSt4endsIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_", 
+                "_Unwind_Resume", 
+                "memmove", 
+                "_ZSt17__throw_bad_allocv", 
+                "__cxa_atexit", 
+                "_ZNSo5flushEv", 
+                "_ZNSo9_M_insertIdEERSoT_", 
+                "_ZNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEC1ESt13_Ios_Openmode", 
+                "__gmon_start__", 
+                "rand", 
+                "__cxa_free_exception", 
+                "_ZNSt8ios_base4InitD1Ev", 
+                "_ZNKSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEE3strEv", 
+                "_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_i", 
+                "_ZNSt8ios_base4InitC1Ev", 
+                "_ITM_registerTMCloneTable", 
+                "_ZdlPv", 
+                "_ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEC1ESt13_Ios_Openmode", 
+                "_Znwj", 
+                "_ZNSt11logic_errorD2Ev", 
+                "_ZStlsIdcSt11char_traitsIcEERSt13basic_ostreamIT0_T1_ES6_RKSt7complexIT_E", 
+                "_ZNKSt5ctypeIcE13_M_widen_initEv", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ZdlPvj", 
+                "__gxx_personality_v0", 
+                "_ZNSt6localeD1Ev", 
+                "_ZNSt8ios_baseD2Ev", 
+                "_ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEED1Ev", 
+                "_ZNSo3putEc", 
+                "__cxa_finalize", 
+                "__cxa_throw", 
+                "_ZNKSt11logic_error4whatEv", 
+                "_ZSt16__throw_bad_castv", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/csound/plugins-6.0/liblinear_algebra.so"
+        }, 
+        "usr/lib/csound/plugins-6_0/libplaterev_so": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable", 
+                "__pow_finite", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/csound/plugins-6.0/libplaterev.so"
+        }, 
+        "usr/bin/atsa": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable", 
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "csoundRunUtility", 
+                "csoundDestroy"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/atsa"
+        }, 
+        "usr/lib/csound/plugins-6_0/librtpulse_so": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "_ITM_deregisterTMCloneTable", 
+                "pa_simple_write", 
+                "pa_simple_new", 
+                "_ITM_registerTMCloneTable", 
+                "pa_simple_read", 
+                "__gmon_start__", 
+                "malloc", 
+                "__cxa_finalize", 
+                "free", 
+                "pa_strerror", 
+                "pa_simple_drain"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/csound/plugins-6.0/librtpulse.so"
+        }, 
+        "usr/bin/het_import": {
+            "report-functions": [
+                "fwrite", 
+                "_ITM_registerTMCloneTable", 
+                "exit", 
+                "__gmon_start__", 
+                "__printf_chk", 
+                "__cxa_finalize", 
+                "_ITM_deregisterTMCloneTable", 
+                "_IO_getc", 
+                "fopen", 
+                "puts", 
+                "strtol", 
+                "fclose"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/het_import"
+        }, 
+        "usr/bin/cs-extract": {
+            "report-functions": [
+                "signal", 
+                "__gmon_start__", 
+                "fopen", 
+                "fclose", 
+                "csoundDestroy", 
+                "fwrite", 
+                "_ITM_registerTMCloneTable", 
+                "csoundScoreExtract", 
+                "__libc_start_main", 
+                "__fprintf_chk", 
+                "csoundCreate"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/cs-extract"
+        }, 
+        "usr/lib/libcsound64_so_6_0": {
+            "report-functions": [
+                "__printf_chk", 
+                "feof", 
+                "cbrt", 
+                "setbuf", 
+                "strtod_l", 
+                "sf_read_double", 
+                "closedir", 
+                "mkstemp", 
+                "dlerror", 
+                "strlen", 
+                "_IO_putc", 
+                "__strdup", 
+                "_ITM_registerTMCloneTable", 
+                "sf_close", 
+                "fclose", 
+                "sendto", 
+                "close", 
+                "write", 
+                "pthread_mutex_init", 
+                "fread", 
+                "strtoll", 
+                "pthread_spin_unlock", 
+                "listen", 
+                "system", 
+                "getcwd", 
+                "inet_aton", 
+                "pthread_barrier_destroy", 
+                "select", 
+                "pthread_mutex_timedlock", 
+                "__xstat", 
+                "sscanf", 
+                "readdir", 
+                "waitpid", 
+                "newlocale", 
+                "__longjmp_chk", 
+                "psignal", 
+                "sf_seek", 
+                "fcntl", 
+                "ftell", 
+                "rewind", 
+                "clock", 
+                "stpcpy", 
+                "pthread_spin_lock", 
+                "fileno", 
+                "__fprintf_chk", 
+                "pthread_mutex_unlock", 
+                "__sprintf_chk", 
+                "ungetc", 
+                "sf_set_string", 
+                "_IO_getc", 
+                "dlclose", 
+                "curl_easy_cleanup", 
+                "execvp", 
+                "pthread_join", 
+                "snprintf", 
+                "sf_write_double", 
+                "strrchr", 
+                "sf_command", 
+                "pthread_attr_init", 
+                "fflush", 
+                "strncmp", 
+                "open", 
+                "popen", 
+                "setlocale", 
+                "pthread_mutexattr_settype", 
+                "signal", 
+                "__assert_fail", 
+                "dlsym", 
+                "strtol", 
+                "gettimeofday", 
+                "pthread_mutex_destroy", 
+                "sf_strerror", 
+                "getenv", 
+                "pthread_spin_init", 
+                "lseek", 
+                "vsscanf", 
+                "fopen", 
+                "tcsetattr", 
+                "__stack_chk_fail", 
+                "__cxa_atexit", 
+                "clearerr", 
+                "usleep", 
+                "qsort", 
+                "strncpy", 
+                "modf", 
+                "__gmon_start__", 
+                "__errno_location", 
+                "opendir", 
+                "fscanf", 
+                "strchr", 
+                "fork", 
+                "strcmp", 
+                "strstr", 
+                "fputs", 
+                "__strcpy_chk", 
+                "curl_easy_init", 
+                "read", 
+                "realloc", 
+                "__vfprintf_chk", 
+                "pthread_mutex_trylock", 
+                "umask", 
+                "strerror", 
+                "fgetc", 
+                "calloc", 
+                "fputc", 
+                "curl_easy_perform", 
+                "rand", 
+                "fseek", 
+                "asctime_r", 
+                "pthread_self", 
+                "pthread_mutexattr_init", 
+                "pclose", 
+                "accept", 
+                "sf_open_fd", 
+                "pthread_mutex_lock", 
+                "curl_global_cleanup", 
+                "strcpy", 
+                "memmove", 
+                "memset", 
+                "fwrite", 
+                "recvfrom", 
+                "__pow_finite", 
+                "__snprintf_chk", 
+                "dlopen", 
+                "_ITM_deregisterTMCloneTable", 
+                "malloc", 
+                "__vsprintf_chk", 
+                "__vsnprintf_chk", 
+                "strcat", 
+                "time", 
+                "curl_easy_setopt", 
+                "sf_readf_float", 
+                "sf_open", 
+                "strtod", 
+                "remove", 
+                "connect", 
+                "socket", 
+                "__ctype_toupper_loc", 
+                "nanosleep", 
+                "strtok_r", 
+                "__cxa_finalize", 
+                "setvbuf", 
+                "fgets", 
+                "curl_easy_strerror", 
+                "__strcat_chk", 
+                "pthread_mutexattr_destroy", 
+                "tcgetattr", 
+                "__ctype_b_loc", 
+                "bind", 
+                "_setjmp", 
+                "pthread_barrier_wait", 
+                "perror", 
+                "pthread_barrier_init", 
+                "puts", 
+                "__memcpy_chk", 
+                "localtime_r", 
+                "srand", 
+                "ferror", 
+                "__memset_chk", 
+                "dcgettext", 
+                "exit", 
+                "__ctype_tolower_loc", 
+                "free", 
+                "__fread_chk"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libcsound64.so.6.0"
+        }, 
+        "usr/bin/csbeats": {
+            "report-functions": [
+                "strtol", 
+                "_ITM_registerTMCloneTable", 
+                "__fprintf_chk", 
+                "__gmon_start__", 
+                "malloc", 
+                "_IO_getc", 
+                "strlen", 
+                "calloc", 
+                "strtod", 
+                "fread", 
+                "exit", 
+                "fileno", 
+                "__errno_location", 
+                "__stack_chk_fail", 
+                "localtime_r", 
+                "time", 
+                "isatty", 
+                "free", 
+                "fwrite", 
+                "clearerr", 
+                "ferror", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize", 
+                "__libc_start_main", 
+                "realloc", 
+                "fopen"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/csbeats"
+        }, 
+        "usr/lib/csound/plugins-6_0/libmixer_so": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "_ZSt18_Rb_tree_incrementPSt18_Rb_tree_node_base", 
+                "_ITM_registerTMCloneTable", 
+                "__cxa_finalize", 
+                "_ZSt18_Rb_tree_decrementPSt18_Rb_tree_node_base", 
+                "__stack_chk_fail", 
+                "__cxa_atexit", 
+                "_ZSt29_Rb_tree_insert_and_rebalancebPSt18_Rb_tree_node_baseS0_RS_", 
+                "_ZSt20__throw_length_errorPKc", 
+                "__gmon_start__", 
+                "_Znwj"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/csound/plugins-6.0/libmixer.so"
+        }, 
+        "usr/bin/sdif2ad": {
+            "report-functions": [
+                "fopen", 
+                "free", 
+                "__fprintf_chk", 
+                "__assert_fail", 
+                "exit", 
+                "puts", 
+                "__cxa_finalize", 
+                "strtol", 
+                "feof", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "fwrite", 
+                "__printf_chk", 
+                "fclose", 
+                "__libc_start_main", 
+                "malloc", 
+                "_ITM_registerTMCloneTable", 
+                "__fread_chk", 
+                "fread", 
+                "__stack_chk_fail", 
+                "fflush"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/sdif2ad"
+        }, 
+        "usr/lib/csound/plugins-6_0/libdoppler_so": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "__vfprintf_chk", 
+                "__gmon_start__", 
+                "_ZdlPvj", 
+                "__cxa_finalize", 
+                "_ZdlPv", 
+                "_Znwj", 
+                "__cxa_atexit", 
+                "_ZNSt8__detail15_List_node_base9_M_unhookEv", 
+                "_ZNSt8ios_base4InitD1Ev", 
+                "_ITM_registerTMCloneTable", 
+                "_ZNSt8__detail15_List_node_base7_M_hookEPS0_", 
+                "memmove"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/csound/plugins-6.0/libdoppler.so"
+        }, 
+        "usr/bin/makecsd": {
+            "report-functions": [
+                "_IO_putc", 
+                "_IO_getc", 
+                "strftime", 
+                "fclose", 
+                "ungetc", 
+                "time", 
+                "fwrite", 
+                "realloc", 
+                "__cxa_finalize", 
+                "strlen", 
+                "__errno_location", 
+                "fseek", 
+                "strtol", 
+                "__libc_start_main", 
+                "exit", 
+                "_ITM_deregisterTMCloneTable", 
+                "fputc", 
+                "gmtime", 
+                "free", 
+                "fopen", 
+                "fflush", 
+                "__gmon_start__", 
+                "strerror", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/makecsd"
+        }, 
+        "usr/bin/lpanal": {
+            "report-functions": [
+                "__gmon_start__", 
+                "csoundCreate", 
+                "__libc_start_main", 
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable", 
+                "csoundDestroy"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/lpanal"
+        }, 
+        "usr/bin/cs-scale": {
+            "report-functions": [
+                "__libc_start_main", 
+                "_ITM_registerTMCloneTable", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "csoundRunUtility", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/cs-scale"
+        }, 
+        "usr/lib/csound/plugins-6_0/libampmidid_so": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize", 
+                "__gmon_start__"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/csound/plugins-6.0/libampmidid.so"
+        }, 
+        "usr/bin/pv_import": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "__libc_start_main", 
+                "csoundDestroy", 
+                "__cxa_finalize", 
+                "csoundCreate", 
+                "csoundRunUtility"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/pv_import"
+        }, 
+        "usr/lib/csound/plugins-6_0/libfractalnoise_so": {
+            "report-functions": [
+                "_ZdlPvj", 
+                "_Znwj", 
+                "__cxa_finalize", 
+                "__pow_finite", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/csound/plugins-6.0/libfractalnoise.so"
+        }, 
+        "usr/bin/cvanal": {
+            "report-functions": [
+                "__libc_start_main", 
+                "_ITM_registerTMCloneTable", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "csoundRunUtility"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/cvanal"
+        }, 
+        "usr/lib/csound/plugins-6_0/libjoystick_so": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "__errno_location", 
+                "read", 
+                "close", 
+                "open", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "__snprintf_chk", 
+                "_ITM_registerTMCloneTable", 
+                "__cxa_finalize", 
+                "fcntl"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/csound/plugins-6.0/libjoystick.so"
+        }, 
+        "usr/bin/cs-srconv": {
+            "report-functions": [
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize", 
+                "csoundCreate", 
+                "csoundDestroy"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/cs-srconv"
+        }, 
+        "usr/bin/scsort": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "csoundCreate", 
+                "csoundDestroy", 
+                "csoundSetMessageCallback", 
+                "csoundScoreSort", 
+                "__libc_start_main", 
+                "__vfprintf_chk", 
+                "signal", 
+                "__gmon_start__"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/scsort"
+        }, 
+        "usr/bin/lpc_export": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "_IO_putc", 
+                "__fprintf_chk", 
+                "free", 
+                "_ITM_deregisterTMCloneTable", 
+                "__libc_start_main", 
+                "exit", 
+                "malloc", 
+                "_ITM_registerTMCloneTable", 
+                "fopen", 
+                "__printf_chk", 
+                "fclose", 
+                "__fread_chk", 
+                "__cxa_finalize", 
+                "fwrite", 
+                "fread"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/lpc_export"
+        }, 
+        "usr/bin/scope": {
+            "report-functions": [
+                "__libc_start_main", 
+                "_ITM_deregisterTMCloneTable", 
+                "csoundRunUtility", 
+                "csoundCreate", 
+                "__cxa_finalize", 
+                "csoundDestroy"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/scope"
+        }, 
+        "usr/bin/hetro": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "csoundRunUtility", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "csoundCreate"
+            ], 
+            "rpm": "csound-6.03.2-13.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/hetro"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " csound", 
+            "License": " LGPLv2+", 
+            "URL": " http://csound.github.io/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-09.phx2.fedoraproject.org", 
+            "Description": "\nCsound is a sound and music synthesis system, providing facilities for\ncomposition and performance over a wide range of platforms. It is not\nrestricted to any style of music, having been used for many years in\nat least classical, pop, techno, ambient...\n", 
+            "Build Date": " Fri 10 Feb 2017 09:25:37 AM EST", 
+            "Source RPM": " csound-6.03.2-13.fc26.src.rpm", 
+            "Version": " 6.03.2", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sun 26 Feb 2017 01:58:41 PM EST, Key ID f55e7430f5282ee4", 
+            "Release": " 13.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A sound synthesis language and library", 
+            "Size": " 4597042"
+        }
+    }
+}

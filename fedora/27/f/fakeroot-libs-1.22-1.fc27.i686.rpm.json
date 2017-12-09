@@ -1,0 +1,112 @@
+{
+    "results": {
+        "usr/lib/libfakeroot/libfakeroot-sysv_so": {
+            "report-functions": [
+                "getenv", 
+                "strlen", 
+                "umask", 
+                "open", 
+                "getpid", 
+                "__snprintf_chk", 
+                "_ITM_registerTMCloneTable", 
+                "dlsym", 
+                "__stack_chk_fail", 
+                "close", 
+                "setenv", 
+                "_ITM_deregisterTMCloneTable", 
+                "__errno_location", 
+                "msgget", 
+                "openat", 
+                "msgrcv", 
+                "unsetenv", 
+                "strtol", 
+                "__memcpy_chk", 
+                "semget", 
+                "perror", 
+                "exit", 
+                "__fprintf_chk", 
+                "__gmon_start__", 
+                "semop", 
+                "strerror", 
+                "msgsnd"
+            ], 
+            "rpm": "fakeroot-libs-1.22-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libfakeroot/libfakeroot-sysv.so"
+        }, 
+        "usr/lib/libfakeroot/libfakeroot-tcp_so": {
+            "report-functions": [
+                "umask", 
+                "unsetenv", 
+                "__errno_location", 
+                "socket", 
+                "__stack_chk_fail", 
+                "read", 
+                "dlerror", 
+                "_ITM_registerTMCloneTable", 
+                "pthread_mutex_lock", 
+                "__fprintf_chk", 
+                "fcntl", 
+                "__cxa_finalize", 
+                "connect", 
+                "dup", 
+                "write", 
+                "strtol", 
+                "openat", 
+                "setenv", 
+                "strerror", 
+                "strlen", 
+                "dlsym", 
+                "exit", 
+                "open", 
+                "__memcpy_chk", 
+                "_ITM_deregisterTMCloneTable", 
+                "__snprintf_chk", 
+                "getenv"
+            ], 
+            "rpm": "fakeroot-libs-1.22-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libfakeroot/libfakeroot-tcp.so"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Tools", 
+            "Name": " fakeroot-libs", 
+            "License": " GPLv3+ and LGPLv2+ and (GPL+ or Artistic)", 
+            "URL": " http://fakeroot.alioth.debian.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-12.phx2.fedoraproject.org", 
+            "Description": "\nThis package contains the libraries required by fakeroot.\n", 
+            "Build Date": " Fri 08 Sep 2017 07:36:48 AM EDT", 
+            "Source RPM": " fakeroot-1.22-1.fc27.src.rpm", 
+            "Version": " 1.22", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 08 Sep 2017 09:43:30 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 1.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Gives a fake root environment (libraries)", 
+            "Size": " 107196"
+        }
+    }
+}

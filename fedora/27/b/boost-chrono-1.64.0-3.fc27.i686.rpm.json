@@ -1,0 +1,67 @@
+{
+    "results": {
+        "usr/lib/libboost_chrono_so_1_64_0": {
+            "report-functions": [
+                "sysconf", 
+                "_ZdlPv", 
+                "__cxa_end_catch", 
+                "_ZN5boost6system15system_categoryEv", 
+                "__errno_location", 
+                "__gmon_start__", 
+                "_ZNSt8ios_base4InitD1Ev", 
+                "_ZNSt13runtime_errorD2Ev", 
+                "__divdi3", 
+                "__gxx_personality_v0", 
+                "times", 
+                "__cxa_finalize", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_replaceEjjPKcj", 
+                "_ZNKSt13runtime_error4whatEv", 
+                "__cxa_atexit", 
+                "_ZNSt8ios_base4InitC1Ev", 
+                "__cxa_begin_catch", 
+                "__stack_chk_fail", 
+                "strlen", 
+                "clock_gettime", 
+                "_ZdlPvj", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_appendEPKcj", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ZSt20__throw_length_errorPKc", 
+                "__cxa_call_unexpected"
+            ], 
+            "rpm": "boost-chrono-1.64.0-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libboost_chrono.so.1.64.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " boost-chrono", 
+            "License": " Boost and MIT and Python", 
+            "URL": " http://www.boost.org", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-04.phx2.fedoraproject.org", 
+            "Description": "\n\nRun-time support for Boost.Chrono, a set of useful time utilities.\n", 
+            "Build Date": " Mon 25 Sep 2017 11:30:34 AM EDT", 
+            "Source RPM": " boost-1.64.0-3.fc27.src.rpm", 
+            "Version": " 1.64.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 25 Sep 2017 01:06:51 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 3.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Run-time component of boost chrono library", 
+            "Size": " 16122"
+        }
+    }
+}

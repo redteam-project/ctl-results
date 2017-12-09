@@ -1,0 +1,104 @@
+{
+    "results": {
+        "usr/lib/gcc-lib/i686-redhat-linux/2_96/crtbegin_o": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib/gcc-lib/i686-redhat-linux/2.96/crtbegin.o", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "report-functions": [
+                "__deregister_frame_info"
+            ], 
+            "rpm": "compat-libgcc-296-2.96-146.1.i686.rpm"
+        }, 
+        "usr/lib/gcc-lib/i686-redhat-linux/2_96/crtend_o": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib/gcc-lib/i686-redhat-linux/2.96/crtend.o", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "report-functions": [], 
+            "rpm": "compat-libgcc-296-2.96-146.1.i686.rpm"
+        }, 
+        "usr/lib/gcc-lib/i686-redhat-linux/2_96/crtendS_o": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib/gcc-lib/i686-redhat-linux/2.96/crtendS.o", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "report-functions": [], 
+            "rpm": "compat-libgcc-296-2.96-146.1.i686.rpm"
+        }, 
+        "usr/lib/gcc-lib/i686-redhat-linux/2_96/crtbeginS_o": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib/gcc-lib/i686-redhat-linux/2.96/crtbeginS.o", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "report-functions": [
+                "__register_frame_info", 
+                "__deregister_frame_info", 
+                "_GLOBAL_OFFSET_TABLE_"
+            ], 
+            "rpm": "compat-libgcc-296-2.96-146.1.i686.rpm"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Languages", 
+            "Name": " compat-libgcc-296", 
+            "License": " GPLv2+", 
+            "URL": " http://gcc.gnu.org", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-10.phx2.fedoraproject.org", 
+            "Description": "\nThe compat-libgcc-296 package contains 2.96-RH libgcc.a library and support\nobject files.\n", 
+            "Build Date": " Fri 15 Aug 2014 11:52:44 PM EDT", 
+            "Source RPM": " compat-gcc-296-2.96-146.1.src.rpm", 
+            "Version": " 2.96", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sun 26 Feb 2017 06:58:10 PM EST, Key ID f55e7430f5282ee4", 
+            "Release": " 146.1", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Compatibility 2.96-RH libgcc library", 
+            "Size": " 165842"
+        }
+    }
+}

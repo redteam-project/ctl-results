@@ -1,0 +1,129 @@
+{
+    "results": {
+        "usr/bin/datalog": {
+            "report-functions": [
+                "readline", 
+                "dl_getconstlen", 
+                "freopen", 
+                "__libc_start_main", 
+                "dl_close", 
+                "__stack_chk_fail", 
+                "dl_putlconst", 
+                "perror", 
+                "fclose", 
+                "fopen", 
+                "_ITM_deregisterTMCloneTable", 
+                "add_history", 
+                "lua_tolstring", 
+                "fread", 
+                "free", 
+                "dl_getpred", 
+                "strcmp", 
+                "dl_getpredlen", 
+                "ferror", 
+                "lua_pcallk", 
+                "__fprintf_chk", 
+                "putchar", 
+                "__printf_chk", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "getopt", 
+                "dl_ask", 
+                "dl_load", 
+                "exit", 
+                "puts", 
+                "dl_open", 
+                "dl_getconst", 
+                "fwrite", 
+                "dl_getpredarity", 
+                "__cxa_finalize", 
+                "dl_free"
+            ], 
+            "rpm": "datalog-2.6-6.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/datalog"
+        }, 
+        "usr/lib/libdatalog_so_0_0_0": {
+            "report-functions": [
+                "lua_type", 
+                "lua_rawgeti", 
+                "__gmon_start__", 
+                "_setjmp", 
+                "lua_pcallk", 
+                "_IO_putc", 
+                "fwrite", 
+                "lua_getglobal", 
+                "__ctype_b_loc", 
+                "__stack_chk_fail", 
+                "lua_tointegerx", 
+                "lua_checkstack", 
+                "lua_rotate", 
+                "_ITM_registerTMCloneTable", 
+                "luaopen_table", 
+                "luaopen_string", 
+                "lua_settop", 
+                "lua_isstring", 
+                "free", 
+                "lua_isnumber", 
+                "luaL_requiref", 
+                "_ITM_deregisterTMCloneTable", 
+                "lua_concat", 
+                "lua_gettop", 
+                "luaL_loadbufferx", 
+                "lua_tolstring", 
+                "strlen", 
+                "__fprintf_chk", 
+                "lua_pushlstring", 
+                "__longjmp_chk", 
+                "lua_rawget", 
+                "__cxa_finalize", 
+                "luaL_newstate", 
+                "lua_pushstring", 
+                "luaopen_base"
+            ], 
+            "rpm": "datalog-2.6-6.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libdatalog.so.0.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " datalog", 
+            "License": " LGPLv2+", 
+            "URL": " http://sourceforge.net/projects/datalog", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-08.phx2.fedoraproject.org", 
+            "Description": "\nThis package contains a lightweight deductive database system.\nQueries and database updates are expressed using Datalog--a\ndeclarative logic language in which each formula is a function-free\nHorn clause, and every variable in the head of a clause must appear in\nthe body of the clause.  The use of Datalog syntax and an\nimplementation based on tabling intermediate results, ensures that all\nqueries terminate.\n\nThe components in this package are designed to be small, and usable on\nmemory constrained devices.  The package includes an interactive\ninterpreter for Datalog, and the development package has a library\nthat can be used to embed the interpreter into C programs.\n", 
+            "Build Date": " Wed 02 Aug 2017 03:57:16 PM EDT", 
+            "Source RPM": " datalog-2.6-6.fc27.src.rpm", 
+            "Version": " 2.6", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sun 06 Aug 2017 10:44:47 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 6.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A Lightweight Deductive Database using Datalog", 
+            "Size": " 204405"
+        }
+    }
+}

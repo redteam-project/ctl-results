@@ -1,0 +1,85 @@
+{
+    "results": {
+        "usr/lib64/ocaml/curl/curl_lwt_o": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/ocaml/curl/curl_lwt.o", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "report-functions": [
+                "caml_c_call", 
+                "caml_young_ptr", 
+                "camlLwt__wakeup_result_1467", 
+                "camlHashtbl__add_1391", 
+                "camlHashtbl", 
+                "camlHashtbl__find_1416", 
+                "caml_curl_multi_remove_handle", 
+                "camlLwt_engine__on_timer_2012", 
+                "camlLwt_engine", 
+                "caml_curl_multi_timerfunction", 
+                "camlCurl__action_2903", 
+                "caml_curl_multi_socketfunction", 
+                "camlHashtbl__create_inner_2188", 
+                "camlPervasives__prerr_endline_1325", 
+                "_GLOBAL_OFFSET_TABLE_", 
+                "caml_call_gc", 
+                "caml_curry2", 
+                "camlLwt_engine__on_readable_2006", 
+                "caml_curlm_remove_finished", 
+                "caml_curl_multi_add_handle", 
+                "camlPrintf__ksprintf_1307", 
+                "caml_raise_exn", 
+                "caml_alloc3", 
+                "caml_modify", 
+                "camlHashtbl__remove_1406", 
+                "caml_apply2", 
+                "camlList__iter_1272", 
+                "camlLwt_engine__stop_event_1236", 
+                "camlPervasives", 
+                "camlCamlinternalLazy__force_lazy_block_1264", 
+                "caml_curl_multi_init", 
+                "camlLwt__on_cancel_1692", 
+                "camlLwt__wait_1608", 
+                "camlLwt_engine__on_writable_2009", 
+                "camlLwt__protected_1822", 
+                "camlCurl__action_timeout_2901", 
+                "caml_exn_Not_found"
+            ], 
+            "rpm": "ocaml-curl-devel-0.7.9-8.fc27.x86_64.rpm"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " ocaml-curl-devel", 
+            "License": " MIT", 
+            "URL": " http://ocurl.forge.ocamlcore.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-19.phx2.fedoraproject.org", 
+            "Description": "\nThe ocaml-curl-devel package contains libraries and signature files for\ndeveloping applications that use ocaml-curl.\n", 
+            "Build Date": " Wed 09 Aug 2017 06:37:48 AM EDT", 
+            "Source RPM": " ocaml-curl-0.7.9-8.fc27.src.rpm", 
+            "Version": " 0.7.9", 
+            "Architecture": " x86_64", 
+            "Signature": " RSA/SHA256, Wed 09 Aug 2017 09:55:34 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 8.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Development files for ocaml-curl", 
+            "Size": " 488558"
+        }
+    }
+}

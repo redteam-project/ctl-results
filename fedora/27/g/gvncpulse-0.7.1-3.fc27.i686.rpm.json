@@ -1,0 +1,68 @@
+{
+    "results": {
+        "usr/lib/libgvncpulse-1_0_so_0_0_1": {
+            "report-functions": [
+                "vnc_base_audio_get_type", 
+                "pa_simple_free", 
+                "g_object_new", 
+                "_ITM_deregisterTMCloneTable", 
+                "g_signal_connect_data", 
+                "g_type_register_static_simple", 
+                "__gmon_start__", 
+                "g_once_init_enter", 
+                "__stack_chk_fail", 
+                "g_type_class_adjust_private_offset", 
+                "g_type_class_peek_parent", 
+                "g_intern_static_string", 
+                "__cxa_finalize", 
+                "g_type_check_class_cast", 
+                "g_log", 
+                "g_once_init_leave", 
+                "pa_usec_to_bytes", 
+                "vnc_util_get_debug", 
+                "g_type_class_add_private", 
+                "g_type_check_instance_cast", 
+                "g_type_instance_get_private", 
+                "pa_simple_new", 
+                "pa_simple_write"
+            ], 
+            "rpm": "gvncpulse-0.7.1-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libgvncpulse-1.0.so.0.0.1"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " gvncpulse", 
+            "License": " LGPLv2+", 
+            "URL": " https://wiki.gnome.org/Projects/gtk-vnc", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-10.phx2.fedoraproject.org", 
+            "Description": "\ngvncpulse is a bridge to the Pulse Audio system for VNC.\nIt allows VNC clients to play back audio on the local\nsystem\n", 
+            "Build Date": " Thu 03 Aug 2017 04:41:13 AM EDT", 
+            "Source RPM": " gtk-vnc-0.7.1-3.fc27.src.rpm", 
+            "Version": " 0.7.1", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 03 Aug 2017 09:52:56 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 3.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A Pulse Audio bridge for VNC connections", 
+            "Size": " 73438"
+        }
+    }
+}

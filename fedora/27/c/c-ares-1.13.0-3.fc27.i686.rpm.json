@@ -1,0 +1,90 @@
+{
+    "results": {
+        "usr/lib/libcares_so_2_2_0": {
+            "report-functions": [
+                "free", 
+                "fgets", 
+                "rand", 
+                "fopen64", 
+                "bind", 
+                "strcpy", 
+                "__stack_chk_fail", 
+                "if_indextoname", 
+                "memcmp", 
+                "__cxa_finalize", 
+                "__gmon_start__", 
+                "clock_gettime", 
+                "strncasecmp", 
+                "strncpy", 
+                "strcasecmp", 
+                "getservbyport_r", 
+                "fcntl", 
+                "__memcpy_chk", 
+                "strlen", 
+                "strtol", 
+                "__assert_fail", 
+                "getenv", 
+                "gethostname", 
+                "inet_addr", 
+                "malloc", 
+                "recv", 
+                "setsockopt", 
+                "__errno_location", 
+                "gettimeofday", 
+                "_ITM_deregisterTMCloneTable", 
+                "inet_pton", 
+                "strncmp", 
+                "recvfrom", 
+                "ferror", 
+                "send", 
+                "__sprintf_chk", 
+                "strdup", 
+                "realloc", 
+                "fclose", 
+                "_ITM_registerTMCloneTable", 
+                "strchr", 
+                "fread", 
+                "connect", 
+                "writev", 
+                "__fdelt_chk", 
+                "close", 
+                "__ctype_tolower_loc", 
+                "socket"
+            ], 
+            "rpm": "c-ares-1.13.0-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libcares.so.2.2.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " c-ares", 
+            "License": " MIT", 
+            "URL": " http://c-ares.haxx.se/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-32.phx2.fedoraproject.org", 
+            "Description": "\nc-ares is a C library that performs DNS requests and name resolves\nasynchronously. c-ares is a fork of the library named 'ares', written\nby Greg Hudson at MIT.\n", 
+            "Build Date": " Wed 02 Aug 2017 02:38:27 PM EDT", 
+            "Source RPM": " c-ares-1.13.0-3.fc27.src.rpm", 
+            "Version": " 1.13.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 05 Aug 2017 12:18:55 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 3.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A library that performs asynchronous DNS operations", 
+            "Size": " 209700"
+        }
+    }
+}

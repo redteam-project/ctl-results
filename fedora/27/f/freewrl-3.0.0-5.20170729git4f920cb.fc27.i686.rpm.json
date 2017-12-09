@@ -1,0 +1,165 @@
+{
+    "results": {
+        "usr/bin/freewrl_snd": {
+            "report-functions": [
+                "getppid", 
+                "msgrcv", 
+                "__stpcpy_chk", 
+                "ioctl", 
+                "strncmp", 
+                "__strcpy_chk", 
+                "close", 
+                "__sprintf_chk", 
+                "open", 
+                "exit", 
+                "strchr", 
+                "execl", 
+                "sscanf", 
+                "__gmon_start__", 
+                "__libc_start_main", 
+                "malloc", 
+                "strlen", 
+                "fseek", 
+                "__stack_chk_fail", 
+                "fork", 
+                "msgsnd", 
+                "fread", 
+                "strcmp", 
+                "msgget", 
+                "free", 
+                "puts", 
+                "write", 
+                "__printf_chk", 
+                "waitpid", 
+                "fopen"
+            ], 
+            "rpm": "freewrl-3.0.0-5.20170729git4f920cb.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/freewrl_snd"
+        }, 
+        "usr/bin/freewrl": {
+            "report-functions": [
+                "__gmon_start__", 
+                "fwl_init_UpDown", 
+                "fwl_set_texture_size", 
+                "__libc_start_main", 
+                "fwl_set_sbh_want_option", 
+                "fwg_setConsoleParam_maxLineLength", 
+                "__sprintf_chk", 
+                "getopt_long", 
+                "fwl_init_EaiVerbose", 
+                "puts", 
+                "fwl_init_SnapGif", 
+                "fwl_setShadingStyle", 
+                "fwl_init_Shutter", 
+                "fwl_set_AnaglyphParameter", 
+                "fwg_setConsoleParam_maxLines", 
+                "fwl_set_KeyString", 
+                "calloc", 
+                "fwl_set_EyeDist", 
+                "fwl_set_StereoParameter", 
+                "libFreeWRL_get_version", 
+                "fwl_set_sbh_pin_option", 
+                "__printf_chk", 
+                "fwl_set_SnapFile", 
+                "fwl_set_plugin_print", 
+                "signal", 
+                "strcmp", 
+                "fwl_set_strictParsing", 
+                "fwl_set_target_fps", 
+                "fwl_startFreeWRL", 
+                "sscanf", 
+                "fwl_set_ui_colorscheme", 
+                "fwl_initFreeWRL", 
+                "fwl_set_ui_colors", 
+                "fwl_set_print_opengl_errors", 
+                "fwl_set_occlusion_disable", 
+                "fwl_parse_geometry_string", 
+                "fwl_set_logfile", 
+                "fwg_register_consolemessage_callback", 
+                "fwl_init_SideBySide", 
+                "fwl_set_LineWidth", 
+                "fwl_set_ScreenDist", 
+                "fw_exit", 
+                "__fprintf_chk", 
+                "getenv", 
+                "__stack_chk_fail", 
+                "fwl_set_SnapTmp", 
+                "fwl_init_instance", 
+                "ConsoleMessage", 
+                "fwl_set_trace_threads", 
+                "fwg_setConsoleParam_replaceTabs", 
+                "strdup", 
+                "fwrite"
+            ], 
+            "rpm": "freewrl-3.0.0-5.20170729git4f920cb.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/freewrl"
+        }, 
+        "usr/bin/freewrl_msg": {
+            "report-functions": [
+                "XtAppMainLoop", 
+                "__gmon_start__", 
+                "XtRealizeWidget", 
+                "__strncpy_chk", 
+                "strlen", 
+                "exit", 
+                "XtVaCreateManagedWidget", 
+                "__libc_start_main", 
+                "XtDestroyApplicationContext"
+            ], 
+            "rpm": "freewrl-3.0.0-5.20170729git4f920cb.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/freewrl_msg"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Applications/Internet", 
+            "Name": " freewrl", 
+            "License": " LGPLv3+", 
+            "URL": " http://freewrl.sourceforge.net", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-20.phx2.fedoraproject.org", 
+            "Description": "\nFreeWRL is an X3D / VRML visualization program. This package contains the\nstandalone commandline tool.\n", 
+            "Build Date": " Mon 31 Jul 2017 11:30:35 AM EDT", 
+            "Source RPM": " freewrl-3.0.0-5.20170729git4f920cb.fc27.src.rpm", 
+            "Version": " 3.0.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 31 Jul 2017 11:47:41 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 5.20170729git4f920cb.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " X3D / VRML visualization program", 
+            "Size": " 2442129"
+        }
+    }
+}

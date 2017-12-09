@@ -1,0 +1,74 @@
+{
+    "results": {
+        "usr/lib/libdaxctl_so_1_2_0": {
+            "report-functions": [
+                "uuid_copy", 
+                "__vfprintf_chk", 
+                "strlen", 
+                "__sprintf_chk", 
+                "__cxa_finalize", 
+                "__assert_fail", 
+                "__fprintf_chk", 
+                "__asprintf_chk", 
+                "readdir64", 
+                "__errno_location", 
+                "__snprintf_chk", 
+                "_ITM_registerTMCloneTable", 
+                "secure_getenv", 
+                "opendir", 
+                "close", 
+                "strtoull", 
+                "strcmp", 
+                "__xstat64", 
+                "closedir", 
+                "__ctype_b_loc", 
+                "sscanf", 
+                "strtol", 
+                "strtoul", 
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "free", 
+                "strerror", 
+                "canonicalize_file_name", 
+                "strdup", 
+                "strrchr", 
+                "_ITM_deregisterTMCloneTable", 
+                "read"
+            ], 
+            "rpm": "daxctl-libs-58.2-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libdaxctl.so.1.2.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " daxctl-libs", 
+            "License": " LGPLv2", 
+            "URL": " https://github.com/pmem/ndctl", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-23.phx2.fedoraproject.org", 
+            "Description": "\nDevice DAX is a facility for establishing DAX mappings of performance /\nfeature-differentiated memory. daxctl-libs provides an enumeration /\ncontrol API for these devices.\n", 
+            "Build Date": " Thu 21 Sep 2017 12:28:59 PM EDT", 
+            "Source RPM": " ndctl-58.2-1.fc27.src.rpm", 
+            "Version": " 58.2", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 21 Sep 2017 07:41:16 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 1.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Management library for \"Device DAX\" devices", 
+            "Size": " 55977"
+        }
+    }
+}

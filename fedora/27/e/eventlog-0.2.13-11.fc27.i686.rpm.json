@@ -1,0 +1,70 @@
+{
+    "results": {
+        "usr/lib/libevtlog_so_0_0_0": {
+            "report-functions": [
+                "__assert_fail", 
+                "syslog", 
+                "_ITM_registerTMCloneTable", 
+                "__gmon_start__", 
+                "localtime", 
+                "__cxa_finalize", 
+                "calloc", 
+                "strdup", 
+                "strcmp", 
+                "time", 
+                "getpid", 
+                "__stack_chk_fail", 
+                "feof", 
+                "fopen", 
+                "closelog", 
+                "realloc", 
+                "_ITM_deregisterTMCloneTable", 
+                "__sprintf_chk", 
+                "free", 
+                "strftime", 
+                "strtoul", 
+                "strtok", 
+                "strerror", 
+                "strncpy", 
+                "malloc", 
+                "strlen", 
+                "fgets", 
+                "__vsnprintf_chk"
+            ], 
+            "rpm": "eventlog-0.2.13-11.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libevtlog.so.0.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " eventlog", 
+            "License": " BSD", 
+            "URL": " http://www.balabit.com/network-security/syslog-ng/opensource-logging-system", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-23.phx2.fedoraproject.org", 
+            "Description": "\nThe EventLog library aims to be a replacement of the simple syslog() API\nprovided on UNIX systems. The major difference between EventLog and syslog\nis that EventLog tries to add structure to messages.\n\nEventLog provides an interface to build, format and output an event record.\nThe exact format and output method can be customized by the administrator\nvia a configuration file.\n\nThis package is the runtime part of the library.\n", 
+            "Build Date": " Wed 02 Aug 2017 07:00:08 PM EDT", 
+            "Source RPM": " eventlog-0.2.13-11.fc27.src.rpm", 
+            "Version": " 0.2.13", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 07 Aug 2017 12:46:17 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 11.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Syslog-ng v2/v3 support library", 
+            "Size": " 28320"
+        }
+    }
+}

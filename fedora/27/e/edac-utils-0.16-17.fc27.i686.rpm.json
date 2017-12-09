@@ -1,0 +1,109 @@
+{
+    "results": {
+        "usr/bin/edac-util": {
+            "report-functions": [
+                "edac_handle_reset", 
+                "edac_error_totals", 
+                "edac_mc_count", 
+                "exit", 
+                "strncmp", 
+                "__errno_location", 
+                "_ITM_deregisterTMCloneTable", 
+                "edac_mc_reset", 
+                "__fprintf_chk", 
+                "edac_next_mc_info", 
+                "strdup", 
+                "__stack_chk_fail", 
+                "getopt_long", 
+                "strchr", 
+                "__cxa_finalize", 
+                "__snprintf_chk", 
+                "edac_handle_create", 
+                "strcmp", 
+                "edac_strerror", 
+                "edac_handle_destroy", 
+                "fputs", 
+                "__vsnprintf_chk", 
+                "malloc", 
+                "free", 
+                "_ITM_registerTMCloneTable", 
+                "fwrite", 
+                "strrchr", 
+                "edac_handle_init", 
+                "__gmon_start__"
+            ], 
+            "rpm": "edac-utils-0.16-17.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/edac-util"
+        }, 
+        "usr/lib/libedac_so_0_1_0": {
+            "report-functions": [
+                "dlist_destroy", 
+                "_dlist_mark_move", 
+                "sysfs_get_device_attr", 
+                "strncpy", 
+                "_ITM_deregisterTMCloneTable", 
+                "__stack_chk_fail", 
+                "strtoul", 
+                "dlist_new_with_delete", 
+                "sysfs_open_device_tree", 
+                "free", 
+                "sysfs_close_device_tree", 
+                "dlist_push", 
+                "__vsnprintf_chk", 
+                "sysfs_close_device", 
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "__errno_location", 
+                "_ITM_registerTMCloneTable", 
+                "sysfs_open_device_path", 
+                "strrchr", 
+                "malloc", 
+                "calloc"
+            ], 
+            "rpm": "edac-utils-0.16-17.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libedac.so.0.1.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Base", 
+            "Name": " edac-utils", 
+            "License": " GPLv2+", 
+            "URL": " http://sourceforge.net/projects/edac-utils/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-07.phx2.fedoraproject.org", 
+            "Description": "\nEDAC is the current set of drivers in the Linux kernel that handle\ndetection of ECC errors from memory controllers for most chipsets\non i386 and x86_64 architectures. This userspace component consists\nof an init script which makes sure EDAC drivers and DIMM labels\nare loaded at system startup, as well as a library and utility\nfor reporting current error counts from the EDAC sysfs files.\n", 
+            "Build Date": " Wed 02 Aug 2017 05:43:17 PM EDT", 
+            "Source RPM": " edac-utils-0.16-17.fc27.src.rpm", 
+            "Version": " 0.16", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sun 06 Aug 2017 10:57:19 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 17.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Userspace helper for kernel EDAC drivers", 
+            "Size": " 87638"
+        }
+    }
+}

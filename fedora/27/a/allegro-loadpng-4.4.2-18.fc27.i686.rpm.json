@@ -1,0 +1,103 @@
+{
+    "results": {
+        "usr/lib/libloadpng_so_4_4_2": {
+            "report-functions": [
+                "png_set_interlace_handling", 
+                "pack_fclose", 
+                "png_create_write_struct", 
+                "malloc", 
+                "__longjmp_chk", 
+                "_setjmp", 
+                "png_get_gAMA", 
+                "free", 
+                "png_read_end", 
+                "png_set_error_fn", 
+                "png_read_info", 
+                "png_set_write_fn", 
+                "png_set_IHDR", 
+                "png_write_info", 
+                "png_set_packing", 
+                "png_get_valid", 
+                "makecol_depth", 
+                "png_get_io_ptr", 
+                "png_write_end", 
+                "pack_fopen", 
+                "destroy_bitmap", 
+                "pack_fwrite", 
+                "create_bitmap_ex", 
+                "__stack_chk_fail", 
+                "_fixup_loaded_bitmap", 
+                "png_write_row", 
+                "png_set_tRNS_to_alpha", 
+                "png_set_PLTE", 
+                "png_read_row", 
+                "pack_fread", 
+                "register_datafile_object", 
+                "png_get_PLTE", 
+                "png_destroy_read_struct", 
+                "getenv", 
+                "strtod", 
+                "png_set_gray_to_rgb", 
+                "__cxa_finalize", 
+                "png_get_IHDR", 
+                "png_destroy_write_struct", 
+                "png_create_read_struct", 
+                "png_create_info_struct", 
+                "_ITM_deregisterTMCloneTable", 
+                "png_set_compression_level", 
+                "png_set_bgr", 
+                "generate_332_palette", 
+                "png_set_expand", 
+                "png_error", 
+                "_ITM_registerTMCloneTable", 
+                "png_set_sig_bytes", 
+                "png_set_read_fn", 
+                "register_bitmap_file_type", 
+                "png_sig_cmp", 
+                "png_read_update_info", 
+                "png_get_error_ptr", 
+                "_color_load_depth", 
+                "png_set_strip_16", 
+                "png_set_gamma", 
+                "__gmon_start__"
+            ], 
+            "rpm": "allegro-loadpng-4.4.2-18.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libloadpng.so.4.4.2"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " allegro-loadpng", 
+            "License": " Public Domain", 
+            "URL": " http://wiki.allegro.cc/index.php?title=LoadPNG", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-07.phx2.fedoraproject.org", 
+            "Description": "\nloadpng is some glue that makes it easy to use libpng to load and\nsave bitmaps from Allegro programs.\n", 
+            "Build Date": " Wed 02 Aug 2017 01:50:21 PM EDT", 
+            "Source RPM": " allegro-4.4.2-18.fc27.src.rpm", 
+            "Version": " 4.4.2", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 07 Aug 2017 02:49:38 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 18.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " OGG/Vorbis library for the Allegro game library", 
+            "Size": " 25455"
+        }
+    }
+}

@@ -1,0 +1,118 @@
+{
+    "results": {
+        "usr/lib/libdaq_so_2_0_4": {
+            "report-functions": [
+                "__gmon_start__", 
+                "calloc", 
+                "dlopen", 
+                "__printf_chk", 
+                "snprintf", 
+                "__stack_chk_fail", 
+                "strcmp", 
+                "opendir", 
+                "free", 
+                "dlerror", 
+                "readdir", 
+                "strlen", 
+                "strrchr", 
+                "_ITM_deregisterTMCloneTable", 
+                "__snprintf_chk", 
+                "dlclose", 
+                "strdup", 
+                "_ITM_registerTMCloneTable", 
+                "__xstat", 
+                "__cxa_finalize", 
+                "__fprintf_chk"
+            ], 
+            "rpm": "daq-2.0.6-4.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libdaq.so.2.0.4"
+        }, 
+        "usr/lib/libsfbpf_so_0_0_1": {
+            "report-functions": [
+                "fread", 
+                "fopen", 
+                "__longjmp_chk", 
+                "getservbyname", 
+                "_IO_getc", 
+                "__memset_chk", 
+                "getaddrinfo", 
+                "free", 
+                "fwrite", 
+                "isatty", 
+                "abort", 
+                "__vsnprintf_chk", 
+                "getnetbyname", 
+                "fileno", 
+                "malloc", 
+                "freeaddrinfo", 
+                "ferror", 
+                "_setjmp", 
+                "gethostbyname", 
+                "_ITM_registerTMCloneTable", 
+                "strdup", 
+                "exit", 
+                "__printf_chk", 
+                "strlen", 
+                "realloc", 
+                "calloc", 
+                "strcmp", 
+                "rewind", 
+                "__cxa_finalize", 
+                "ffs", 
+                "__errno_location", 
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "clearerr", 
+                "__ctype_b_loc", 
+                "getprotobyname", 
+                "__fprintf_chk", 
+                "strncpy", 
+                "sscanf"
+            ], 
+            "rpm": "daq-2.0.6-4.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libsfbpf.so.0.0.1"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " daq", 
+            "License": " GPLv2 and BSD", 
+            "URL": " https://www.snort.org", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-10.phx2.fedoraproject.org", 
+            "Description": "\nSnort 2.9 introduces the DAQ, or Data Acquisition library, for packet I/O.  The\nDAQ replaces direct calls to libpcap functions with an abstraction layer that\nfacilitates operation on a variety of hardware and software interfaces without\nrequiring changes to Snort.\n", 
+            "Build Date": " Wed 02 Aug 2017 03:55:42 PM EDT", 
+            "Source RPM": " daq-2.0.6-4.fc27.src.rpm", 
+            "Version": " 2.0.6", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 07 Aug 2017 02:55:23 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 4.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Data Acquisition Library", 
+            "Size": " 205874"
+        }
+    }
+}

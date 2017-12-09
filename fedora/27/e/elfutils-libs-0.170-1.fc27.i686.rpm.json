@@ -1,0 +1,742 @@
+{
+    "results": {
+        "usr/lib/elfutils/libebl_tilegx-0_170_so": {
+            "report-functions": [
+                "dwarf_tag", 
+                "dwarf_peel_type", 
+                "dwarf_aggregate_size", 
+                "dwarf_formref_die", 
+                "memcmp", 
+                "__gmon_start__", 
+                "gelf_getehdr", 
+                "dwarf_hasattr_integrate", 
+                "dwarf_attr_integrate", 
+                "_ITM_registerTMCloneTable", 
+                "_ITM_deregisterTMCloneTable", 
+                "__assert_fail", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "elfutils-libs-0.170-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/elfutils/libebl_tilegx-0.170.so"
+        }, 
+        "usr/lib/elfutils/libebl_m68k-0_170_so": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "dwarf_peel_type", 
+                "__gmon_start__", 
+                "dwarf_tag", 
+                "__assert_fail", 
+                "dwarf_formudata", 
+                "_ITM_registerTMCloneTable", 
+                "dwarf_formref_die", 
+                "__stack_chk_fail", 
+                "dwarf_hasattr_integrate", 
+                "dwarf_attr_integrate", 
+                "memcmp"
+            ], 
+            "rpm": "elfutils-libs-0.170-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/elfutils/libebl_m68k-0.170.so"
+        }, 
+        "usr/lib/elfutils/libebl_arm-0_170_so": {
+            "report-functions": [
+                "dwarf_attr_integrate", 
+                "gelf_getehdr", 
+                "__cxa_finalize", 
+                "memcmp", 
+                "__assert_fail", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "dwarf_formudata", 
+                "dwarf_hasattr_integrate", 
+                "dwarf_aggregate_size", 
+                "dwarf_tag", 
+                "dwarf_formref_die", 
+                "dwarf_peel_type"
+            ], 
+            "rpm": "elfutils-libs-0.170-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/elfutils/libebl_arm-0.170.so"
+        }, 
+        "usr/share/licenses/elfutils-libs/COPYING-GPLV2": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/share/licenses/elfutils-libs/COPYING-GPLV2", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "elfutils-libs-0.170-1.fc27.i686.rpm"
+        }, 
+        "usr/lib/elfutils/libebl_sparc-0_170_so": {
+            "report-functions": [
+                "gelf_getehdr", 
+                "gelf_getdyn", 
+                "gelf_getshdr", 
+                "dwarf_tag", 
+                "dwarf_diecu", 
+                "_ITM_registerTMCloneTable", 
+                "dwarf_attr_integrate", 
+                "dwarf_aggregate_size", 
+                "__strcat_chk", 
+                "__cxa_finalize", 
+                "memcmp", 
+                "dwarf_formref_die", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "stpncpy", 
+                "dwarf_peel_type", 
+                "__assert_fail", 
+                "dwarf_hasattr_integrate", 
+                "dwarf_formudata", 
+                "__stack_chk_fail", 
+                "elf_getdata"
+            ], 
+            "rpm": "elfutils-libs-0.170-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/elfutils/libebl_sparc-0.170.so"
+        }, 
+        "usr/lib/elfutils/libebl_alpha-0_170_so": {
+            "report-functions": [
+                "dwarf_hasattr_integrate", 
+                "dwarf_peel_type", 
+                "gelf_getshdr", 
+                "__stack_chk_fail", 
+                "elf_getdata", 
+                "gelf_getehdr", 
+                "_ITM_registerTMCloneTable", 
+                "__cxa_finalize", 
+                "__gmon_start__", 
+                "__assert_fail", 
+                "_ITM_deregisterTMCloneTable", 
+                "memcmp", 
+                "dwarf_attr_integrate", 
+                "dwarf_tag", 
+                "dwarf_formref_die", 
+                "elf_nextscn"
+            ], 
+            "rpm": "elfutils-libs-0.170-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/elfutils/libebl_alpha-0.170.so"
+        }, 
+        "usr/share/licenses/elfutils-libs/COPYING-LGPLV3": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/share/licenses/elfutils-libs/COPYING-LGPLV3", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "elfutils-libs-0.170-1.fc27.i686.rpm"
+        }, 
+        "usr/lib/elfutils/libebl_aarch64-0_170_so": {
+            "report-functions": [
+                "gelf_getehdr", 
+                "dwarf_bytesize", 
+                "gelf_getshdr", 
+                "dwarf_formref_die", 
+                "dwarf_formudata", 
+                "_ITM_registerTMCloneTable", 
+                "dwarf_aggregate_size", 
+                "dwarf_attr_integrate", 
+                "dwarf_siblingof", 
+                "__assert_fail", 
+                "elf_strptr", 
+                "dwarf_child", 
+                "__cxa_finalize", 
+                "__gmon_start__", 
+                "__stack_chk_fail", 
+                "dwarf_formflag", 
+                "elf_nextscn", 
+                "dwarf_tag", 
+                "__vsnprintf_chk", 
+                "memcmp", 
+                "_ITM_deregisterTMCloneTable", 
+                "dwarf_bitsize"
+            ], 
+            "rpm": "elfutils-libs-0.170-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/elfutils/libebl_aarch64-0.170.so"
+        }, 
+        "usr/lib/libdw-0_170_so": {
+            "report-functions": [
+                "memmove", 
+                "gelf_getrel", 
+                "elf_getshdrnum", 
+                "elf_getarhdr", 
+                "strerror_r", 
+                "gzclose", 
+                "_ITM_deregisterTMCloneTable", 
+                "canonicalize_file_name", 
+                "gelf_getnote", 
+                "elf_rawdata", 
+                "sysconf", 
+                "mmap64", 
+                "realloc", 
+                "elf32_xlatetom", 
+                "strndup", 
+                "__fxstat64", 
+                "elf_begin", 
+                "fscanf", 
+                "gelf_getehdr", 
+                "basename", 
+                "elf_getdata_rawchunk", 
+                "elf_getident", 
+                "__overflow", 
+                "memchr", 
+                "strlen", 
+                "__mempcpy_chk", 
+                "fgets", 
+                "dlclose", 
+                "gelf_getclass", 
+                "gelf_getphdr", 
+                "read", 
+                "fts64_close", 
+                "__fsetlocking", 
+                "tfind", 
+                "elf_strptr", 
+                "closedir", 
+                "malloc", 
+                "fts64_set", 
+                "gelf_update_rel", 
+                "elf_compress", 
+                "gelf_xlatetom", 
+                "argp_error", 
+                "fts64_open", 
+                "waitpid", 
+                "pread64", 
+                "elf_nextscn", 
+                "dlopen", 
+                "strncmp", 
+                "argp_failure", 
+                "BZ2_bzDecompressInit", 
+                "elf_getdata", 
+                "elf_ndxscn", 
+                "fclose", 
+                "gelf_update_rela", 
+                "__errno_location", 
+                "gelf_fsize", 
+                "elf64_xlatetom", 
+                "close", 
+                "memcmp", 
+                "gzdopen", 
+                "gzdirect", 
+                "elf_next", 
+                "elf_getshdrstrndx", 
+                "strtol", 
+                "gelf_getdyn", 
+                "strrchr", 
+                "gzread", 
+                "__stpcpy_chk", 
+                "__asprintf_chk", 
+                "rewinddir", 
+                "elf_errmsg", 
+                "___tls_get_addr", 
+                "__cxa_finalize", 
+                "elf64_xlatetof", 
+                "syscall", 
+                "strdup", 
+                "strcmp", 
+                "kill", 
+                "lzma_auto_decoder", 
+                "__snprintf_chk", 
+                "__xstat64", 
+                "_ITM_registerTMCloneTable", 
+                "__getdelim", 
+                "free", 
+                "elf_rawfile", 
+                "strcpy", 
+                "fts64_read", 
+                "__gmon_start__", 
+                "abort", 
+                "stpcpy", 
+                "elf32_xlatetof", 
+                "mempcpy", 
+                "elf_end", 
+                "ptrace", 
+                "__memcpy_chk", 
+                "puts", 
+                "gelf_getshdr", 
+                "tdestroy", 
+                "error", 
+                "strspn", 
+                "calloc", 
+                "lzma_end", 
+                "strtoull", 
+                "elf_getphdrnum", 
+                "lseek64", 
+                "gzerror", 
+                "readdir64", 
+                "sscanf", 
+                "lzma_code", 
+                "strstr", 
+                "dcgettext", 
+                "elf_memory", 
+                "elf_compress_gnu", 
+                "uname", 
+                "__assert_fail", 
+                "__printf_chk", 
+                "munmap", 
+                "BZ2_bzDecompressEnd", 
+                "opendir", 
+                "gelf_getrela", 
+                "elf_getscn", 
+                "elf_errno", 
+                "gelf_update_shdr", 
+                "elf_clone", 
+                "strtoll", 
+                "strsep", 
+                "dup", 
+                "open64", 
+                "elf_cntl", 
+                "BZ2_bzDecompress", 
+                "fopen64", 
+                "gelf_xlatetof", 
+                "elf_version", 
+                "strchr", 
+                "tsearch", 
+                "elf_kind", 
+                "__stack_chk_fail", 
+                "qsort", 
+                "gelf_getsymshndx"
+            ], 
+            "rpm": "elfutils-libs-0.170-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libdw-0.170.so"
+        }, 
+        "usr/lib/elfutils/libebl_ia64-0_170_so": {
+            "report-functions": [
+                "gelf_getehdr", 
+                "_ITM_registerTMCloneTable", 
+                "stpcpy", 
+                "__gmon_start__", 
+                "dwarf_peel_type", 
+                "dwarf_siblingof", 
+                "__cxa_finalize", 
+                "dwarf_tag", 
+                "dwarf_child", 
+                "__stack_chk_fail", 
+                "dwarf_aggregate_size", 
+                "_ITM_deregisterTMCloneTable", 
+                "dwarf_hasattr_integrate", 
+                "dwarf_attr_integrate", 
+                "dwarf_formudata"
+            ], 
+            "rpm": "elfutils-libs-0.170-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/elfutils/libebl_ia64-0.170.so"
+        }, 
+        "usr/lib/elfutils/libebl_bpf-0_170_so": {
+            "report-functions": [
+                "__snprintf_chk", 
+                "_ITM_registerTMCloneTable", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize", 
+                "__stack_chk_fail", 
+                "__gmon_start__"
+            ], 
+            "rpm": "elfutils-libs-0.170-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/elfutils/libebl_bpf-0.170.so"
+        }, 
+        "usr/lib/elfutils/libebl_ppc64-0_170_so": {
+            "report-functions": [
+                "dwarf_formref_die", 
+                "__cxa_finalize", 
+                "dwarf_tag", 
+                "elf_getdata", 
+                "__gmon_start__", 
+                "dwarf_formflag", 
+                "dwarf_hasattr_integrate", 
+                "dwarf_aggregate_size", 
+                "__stack_chk_fail", 
+                "_ITM_deregisterTMCloneTable", 
+                "elf_strptr", 
+                "memcmp", 
+                "_ITM_registerTMCloneTable", 
+                "dwarf_attr_integrate", 
+                "gelf_getehdr", 
+                "dwarf_formudata", 
+                "__assert_fail", 
+                "elf64_xlatetom", 
+                "dwarf_peel_type"
+            ], 
+            "rpm": "elfutils-libs-0.170-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/elfutils/libebl_ppc64-0.170.so"
+        }, 
+        "usr/lib/elfutils/libebl_ppc-0_170_so": {
+            "report-functions": [
+                "gelf_getdyn", 
+                "dwarf_peel_type", 
+                "gelf_offscn", 
+                "elf_getphdrnum", 
+                "dwarf_aggregate_size", 
+                "dwarf_formref_die", 
+                "gelf_getphdr", 
+                "dwarf_attr_integrate", 
+                "_ITM_registerTMCloneTable", 
+                "__cxa_finalize", 
+                "gelf_getshdr", 
+                "dwarf_hasattr_integrate", 
+                "elf_getdata", 
+                "dwarf_formflag", 
+                "dwarf_tag", 
+                "__stack_chk_fail", 
+                "memcmp", 
+                "gelf_getehdr", 
+                "__gmon_start__", 
+                "elf_strptr", 
+                "__assert_fail"
+            ], 
+            "rpm": "elfutils-libs-0.170-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/elfutils/libebl_ppc-0.170.so"
+        }, 
+        "usr/lib/libasm-0_170_so": {
+            "report-functions": [
+                "__snprintf_chk", 
+                "close", 
+                "__fsetlocking", 
+                "dwelf_strtab_add_len", 
+                "__cxa_finalize", 
+                "fwrite", 
+                "dwelf_strtab_finalize", 
+                "elf_scnshndx", 
+                "gelf_newehdr", 
+                "elf_newdata", 
+                "fchmod", 
+                "elf_ndxscn", 
+                "elf_begin", 
+                "unlink", 
+                "_ITM_registerTMCloneTable", 
+                "elf_end", 
+                "__stack_chk_fail", 
+                "__assert_fail", 
+                "abort", 
+                "elf_getident", 
+                "elf_getscn", 
+                "dwelf_strtab_init", 
+                "__overflow", 
+                "mkstemp64", 
+                "gelf_getehdr", 
+                "dwelf_strent_str", 
+                "mempcpy", 
+                "gelf_fsize", 
+                "dwelf_strtab_add", 
+                "elf_newscn", 
+                "fputc", 
+                "gelf_getshdr", 
+                "rename", 
+                "dwelf_strtab_free", 
+                "elf_getdata", 
+                "malloc", 
+                "__fprintf_chk", 
+                "gelf_getsymshndx", 
+                "elf32_fsize", 
+                "___tls_get_addr", 
+                "gelf_update_sym", 
+                "free", 
+                "fclose", 
+                "strlen", 
+                "__gmon_start__", 
+                "fdopen", 
+                "strcmp", 
+                "_ITM_deregisterTMCloneTable", 
+                "gelf_update_ehdr", 
+                "elf_hash", 
+                "elf_update", 
+                "__errno_location", 
+                "dwelf_strent_off", 
+                "fwrite_unlocked", 
+                "calloc", 
+                "gelf_update_shdr", 
+                "elf_errmsg"
+            ], 
+            "rpm": "elfutils-libs-0.170-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libasm-0.170.so"
+        }, 
+        "usr/lib/elfutils/libebl_sh-0_170_so": {
+            "report-functions": [
+                "dwarf_attr_integrate", 
+                "memcmp", 
+                "dwarf_tag", 
+                "_ITM_deregisterTMCloneTable", 
+                "dwarf_peel_type", 
+                "gelf_getehdr", 
+                "__gmon_start__", 
+                "dwarf_hasattr_integrate", 
+                "_ITM_registerTMCloneTable", 
+                "__cxa_finalize", 
+                "__assert_fail", 
+                "dwarf_formref_die"
+            ], 
+            "rpm": "elfutils-libs-0.170-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/elfutils/libebl_sh-0.170.so"
+        }, 
+        "usr/lib/elfutils/libebl_s390-0_170_so": {
+            "report-functions": [
+                "dwarf_peel_type", 
+                "__assert_fail", 
+                "dwarf_attr", 
+                "__gmon_start__", 
+                "dwarf_tag", 
+                "__stack_chk_fail", 
+                "_ITM_registerTMCloneTable", 
+                "_ITM_deregisterTMCloneTable", 
+                "dwarf_attr_integrate", 
+                "memcmp", 
+                "dwarf_formref_die", 
+                "gelf_getehdr", 
+                "__cxa_finalize", 
+                "dwarf_diecu"
+            ], 
+            "rpm": "elfutils-libs-0.170-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/elfutils/libebl_s390-0.170.so"
+        }, 
+        "elfutils-libs-0_170-1_fc27_i686_rpm": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "elfutils-libs-0.170-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "elfutils-libs-0.170-1.fc27.i686.rpm"
+        }, 
+        "usr/lib/elfutils/libebl_x86_64-0_170_so": {
+            "report-functions": [
+                "dwarf_attr_integrate", 
+                "malloc", 
+                "__gmon_start__", 
+                "stpcpy", 
+                "gelf_getehdr", 
+                "_ITM_registerTMCloneTable", 
+                "__assert_fail", 
+                "dwarf_peel_type", 
+                "__stack_chk_fail", 
+                "__stpcpy_chk", 
+                "__snprintf_chk", 
+                "__ctype_b_loc", 
+                "dwarf_aggregate_size", 
+                "dwarf_formudata", 
+                "memcmp", 
+                "realloc", 
+                "free", 
+                "dwarf_formref_die", 
+                "abort", 
+                "__cxa_finalize", 
+                "_ITM_deregisterTMCloneTable", 
+                "dwarf_tag"
+            ], 
+            "rpm": "elfutils-libs-0.170-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/elfutils/libebl_x86_64-0.170.so"
+        }, 
+        "usr/lib/elfutils/libebl_i386-0_170_so": {
+            "report-functions": [
+                "realloc", 
+                "__stpcpy_chk", 
+                "ptrace", 
+                "dwarf_attr_integrate", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "malloc", 
+                "_ITM_registerTMCloneTable", 
+                "gelf_getehdr", 
+                "dwarf_formref_die", 
+                "puts", 
+                "dwarf_formudata", 
+                "dwarf_tag", 
+                "memcmp", 
+                "free", 
+                "dwarf_peel_type", 
+                "__cxa_finalize", 
+                "__stack_chk_fail", 
+                "stpcpy", 
+                "__ctype_b_loc", 
+                "abort", 
+                "__assert_fail"
+            ], 
+            "rpm": "elfutils-libs-0.170-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/elfutils/libebl_i386-0.170.so"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Tools", 
+            "Name": " elfutils-libs", 
+            "License": " GPLv2+ or LGPLv3+", 
+            "URL": " http://elfutils.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-15.phx2.fedoraproject.org", 
+            "Description": "\nThe elfutils-libs package contains libraries which implement DWARF, ELF,\nand machine-specific ELF handling.  These libraries are used by the programs\nin the elfutils package.  The elfutils-devel package enables building\nother programs using these libraries.\n", 
+            "Build Date": " Thu 03 Aug 2017 06:27:22 AM EDT", 
+            "Source RPM": " elfutils-0.170-1.fc27.src.rpm", 
+            "Version": " 0.170", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 03 Aug 2017 06:45:56 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 1.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Libraries to handle compiled objects", 
+            "Size": " 732639"
+        }
+    }
+}

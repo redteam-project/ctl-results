@@ -1,0 +1,25 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " gilmsg", 
+            "License": " LGPLv2+", 
+            "URL": " http://pypi.python.org/pypi/gilmsg", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-03.phx2.fedoraproject.org", 
+            "Description": "\ngilmsg layers a reliability check in-band on top of the existing PUB-SUB fedmsg\nframework.\n\nHere's how it works, broadly:\n\n- When ``gilmsg.publish(...)`` is invoked, you must declare a list of required\n  recipients.\n- A background thread is started that listens for ACK messages on\n  the whole bus.\n- If an ACK is not received from all ``recipients`` within a given timeout,\n  then a ``Timeout`` exception is raised.\n", 
+            "Build Date": " Wed 26 Jul 2017 10:25:41 AM EDT", 
+            "Source RPM": " gilmsg-0.1.2-5.fc27.src.rpm", 
+            "Version": " 0.1.2", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Tue 01 Aug 2017 04:08:58 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 5.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A reliability layer on top of fedmsg", 
+            "Size": " 66256"
+        }
+    }
+}

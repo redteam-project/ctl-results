@@ -1,0 +1,90 @@
+{
+    "results": {
+        "usr/lib/libboost_date_time_so_1_64_0": {
+            "report-functions": [
+                "_ZNSt8ios_base4InitD1Ev", 
+                "_ZNSt11logic_errorC2ERKS_", 
+                "_ZNSt6locale5_Impl16_M_install_facetEPKNS_2idEPKNS_5facetE", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_assignERKS4_", 
+                "_ITM_registerTMCloneTable", 
+                "wcslen", 
+                "_ZSt19__throw_logic_errorPKc", 
+                "_ZNSt8ios_base4InitC1Ev", 
+                "_ZSt29_Rb_tree_insert_and_rebalancebPSt18_Rb_tree_node_baseS0_RS_", 
+                "__cxa_throw", 
+                "wmemcpy", 
+                "__cxa_guard_acquire", 
+                "_ZNSt6locale5facetD2Ev", 
+                "__cxa_begin_catch", 
+                "__cxa_guard_abort", 
+                "_ZNSt6locale7classicEv", 
+                "strlen", 
+                "__cxa_atexit", 
+                "__cxa_rethrow", 
+                "__cxa_pure_virtual", 
+                "_Unwind_Resume", 
+                "_ZdaPv", 
+                "__cxa_free_exception", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_allocate_exception", 
+                "_Znwj", 
+                "__cxa_finalize", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_replaceEjjPKcj", 
+                "__cxa_guard_release", 
+                "_ZNSt6localeC1ERKS_", 
+                "_ZNSt12out_of_rangeD2Ev", 
+                "__cxa_end_catch", 
+                "memcmp", 
+                "_ZNSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE9_M_createERjj", 
+                "__gxx_personality_v0", 
+                "_ZNSt12out_of_rangeC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE", 
+                "_ZNSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE10_M_replaceEjjPKwj", 
+                "_ZdlPv", 
+                "_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7compareEPKc", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERjj", 
+                "_ZNSt6localeD1Ev", 
+                "_ZSt18_Rb_tree_decrementPSt18_Rb_tree_node_base", 
+                "_ZdlPvj", 
+                "_ZSt9use_facetISt5ctypeIcEERKT_RKSt6locale", 
+                "_ZNSt6locale5_ImplD1Ev", 
+                "__pthread_key_create", 
+                "__stack_chk_fail", 
+                "_ZNSt6locale5_ImplC1ERKS0_j"
+            ], 
+            "rpm": "boost-date-time-1.64.0-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libboost_date_time.so.1.64.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " boost-date-time", 
+            "License": " Boost and MIT and Python", 
+            "URL": " http://www.boost.org", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-04.phx2.fedoraproject.org", 
+            "Description": "\n\nRun-time support for Boost Date Time, a set of date-time libraries based\non generic programming concepts.\n", 
+            "Build Date": " Mon 25 Sep 2017 11:30:34 AM EDT", 
+            "Source RPM": " boost-1.64.0-3.fc27.src.rpm", 
+            "Version": " 1.64.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 25 Sep 2017 01:05:23 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 3.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Run-time component of boost date-time library", 
+            "Size": " 61458"
+        }
+    }
+}

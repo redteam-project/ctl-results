@@ -1,0 +1,99 @@
+{
+    "results": {
+        "usr/lib/libgdbm_compat_so_3_0_0": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "gdbm_close", 
+                "__xstat", 
+                "unlink", 
+                "_ITM_registerTMCloneTable", 
+                "gdbm_open", 
+                "gdbm_firstkey", 
+                "link", 
+                "strcasecmp", 
+                "gdbm_fetch", 
+                "gdbm_nextkey", 
+                "_ITM_deregisterTMCloneTable", 
+                "strtol", 
+                "strlen", 
+                "__gmon_start__", 
+                "malloc", 
+                "free", 
+                "getenv", 
+                "gdbm_delete"
+            ], 
+            "rpm": "compat-gdbm-1.8.3-23.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libgdbm_compat.so.3.0.0"
+        }, 
+        "usr/lib/libgdbm_so_3_0_0": {
+            "report-functions": [
+                "__fxstat", 
+                "calloc", 
+                "free", 
+                "_ITM_registerTMCloneTable", 
+                "malloc", 
+                "fsync", 
+                "exit", 
+                "__gmon_start__", 
+                "open", 
+                "read", 
+                "__errno_location", 
+                "ftruncate", 
+                "write", 
+                "__stack_chk_fail", 
+                "rename", 
+                "strlen", 
+                "memmove", 
+                "__cxa_finalize", 
+                "unlink", 
+                "fcntl", 
+                "bcmp", 
+                "lseek"
+            ], 
+            "rpm": "compat-gdbm-1.8.3-23.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libgdbm.so.3.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " compat-gdbm", 
+            "License": " GPLv2+", 
+            "URL": " http://www.gnu.org/software/gdbm/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-17.phx2.fedoraproject.org", 
+            "Description": "\nGdbm is a GNU database indexing library, including routines which use\nextensible hashing.  Gdbm works in a similar way to standard UNIX dbm\nroutines.  Gdbm is useful for developers who write C applications and\nneed access to a simple and efficient database or who are building C\napplications which will use such a database.\n\nThis package contains older version of gdbm which was included in\nprevious release of Fedora.\n", 
+            "Build Date": " Fri 10 Feb 2017 08:50:02 AM EST", 
+            "Source RPM": " compat-gdbm-1.8.3-23.fc26.src.rpm", 
+            "Version": " 1.8.3", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sun 26 Feb 2017 10:11:10 PM EST, Key ID f55e7430f5282ee4", 
+            "Release": " 23.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A GNU set of database routines compatibility library", 
+            "Size": " 56849"
+        }
+    }
+}

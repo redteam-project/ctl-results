@@ -1,0 +1,88 @@
+{
+    "results": {
+        "usr/bin/allegro-makedoc": {
+            "report-functions": [
+                "__printf_chk", 
+                "rename", 
+                "strcmp", 
+                "__strcat_chk", 
+                "strncpy", 
+                "fputc", 
+                "strlen", 
+                "_IO_putc", 
+                "fwrite", 
+                "__cxa_finalize", 
+                "__vsprintf_chk", 
+                "__fprintf_chk", 
+                "strpbrk", 
+                "fread", 
+                "__strncpy_chk", 
+                "realloc", 
+                "ftell", 
+                "_ITM_deregisterTMCloneTable", 
+                "abort", 
+                "fopen", 
+                "__ctype_toupper_loc", 
+                "__libc_start_main", 
+                "fclose", 
+                "free", 
+                "malloc", 
+                "stpcpy", 
+                "strcpy", 
+                "__gmon_start__", 
+                "memmove", 
+                "__stack_chk_fail", 
+                "strncmp", 
+                "feof", 
+                "puts", 
+                "strcat", 
+                "strtok", 
+                "qsort", 
+                "strchr", 
+                "_IO_getc", 
+                "__strcpy_chk", 
+                "fseek", 
+                "fputs", 
+                "remove", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "allegro-devel-4.4.2-18.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 208, 
+                    "afC": 2886
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/allegro-makedoc"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " allegro-devel", 
+            "License": " Giftware", 
+            "URL": " http://alleg.sourceforge.net/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-07.phx2.fedoraproject.org", 
+            "Description": "\nAllegro is a cross-platform library intended for use in computer games\nand other types of multimedia programming. This package is needed to\nbuild programs written with Allegro.\n", 
+            "Build Date": " Wed 02 Aug 2017 01:50:21 PM EDT", 
+            "Source RPM": " allegro-4.4.2-18.fc27.src.rpm", 
+            "Version": " 4.4.2", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 07 Aug 2017 02:57:10 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 18.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A game programming library", 
+            "Size": " 4191314"
+        }
+    }
+}

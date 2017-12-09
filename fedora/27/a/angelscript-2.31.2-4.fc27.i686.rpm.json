@@ -1,0 +1,88 @@
+{
+    "results": {
+        "usr/lib/libangelscript_so_23102": {
+            "report-functions": [
+                "__cxa_end_catch", 
+                "pthread_key_delete", 
+                "__cxa_atexit", 
+                "memcmp", 
+                "pthread_key_create", 
+                "_ZdlPvj", 
+                "__umoddi3", 
+                "pthread_mutex_unlock", 
+                "__cxa_guard_release", 
+                "__udivdi3", 
+                "__gxx_personality_v0", 
+                "free", 
+                "strlen", 
+                "fmod", 
+                "_ITM_deregisterTMCloneTable", 
+                "powf", 
+                "strstr", 
+                "pthread_mutex_trylock", 
+                "__vsnprintf_chk", 
+                "strncmp", 
+                "__memcpy_chk", 
+                "__cxa_guard_acquire", 
+                "__cxa_begin_catch", 
+                "pthread_rwlock_rdlock", 
+                "pthread_rwlock_destroy", 
+                "__moddi3", 
+                "__divdi3", 
+                "pthread_rwlock_unlock", 
+                "__assert_fail", 
+                "pthread_mutex_destroy", 
+                "_Unwind_Resume", 
+                "pthread_mutex_init", 
+                "pthread_getspecific", 
+                "pthread_mutex_lock", 
+                "pthread_rwlock_wrlock", 
+                "__stack_chk_fail", 
+                "malloc", 
+                "pthread_setspecific", 
+                "__gmon_start__", 
+                "pow", 
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable", 
+                "fmodf"
+            ], 
+            "rpm": "angelscript-2.31.2-4.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libangelscript.so.23102"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " angelscript", 
+            "License": " zlib", 
+            "URL": " http://www.angelcode.com/angelscript/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-22.phx2.fedoraproject.org", 
+            "Description": "\nThe AngelScript library is a software library for easy integration of\nexternal scripting to applications, with built-in compiler and virtual\nmachine. The scripting language is easily extendable to incorporate\napplication specific data types and functions. It is designed with C++\nin mind, as such it shares many features with C++, for example syntax\nand data types.\n", 
+            "Build Date": " Wed 02 Aug 2017 01:45:44 PM EDT", 
+            "Source RPM": " angelscript-2.31.2-4.fc27.src.rpm", 
+            "Version": " 2.31.2", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 07 Aug 2017 04:50:53 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 4.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Flexible cross-platform scripting library", 
+            "Size": " 1448948"
+        }
+    }
+}

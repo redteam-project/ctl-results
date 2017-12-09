@@ -1,0 +1,133 @@
+{
+    "results": {
+        "usr/lib/bicon/libbconsole_so_0_0_0": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "__cxa_finalize", 
+                "calloc", 
+                "memmove", 
+                "join_type", 
+                "_ITM_deregisterTMCloneTable", 
+                "bjoining_log2cuni", 
+                "bjoining_isnonspacing", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "bicon-0.5-5.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/bicon/libbconsole.so.0.0.0"
+        }, 
+        "usr/lib/bicon/libbjoining_so_0_0_0": {
+            "report-functions": [
+                "malloc", 
+                "free", 
+                "_ITM_deregisterTMCloneTable", 
+                "fribidi_log2vis", 
+                "qsort", 
+                "__gmon_start__", 
+                "calloc", 
+                "__stack_chk_fail", 
+                "_ITM_registerTMCloneTable", 
+                "fribidi_remove_bidi_marks"
+            ], 
+            "rpm": "bicon-0.5-5.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/bicon/libbjoining.so.0.0.0"
+        }, 
+        "usr/bin/bicon_bin": {
+            "report-functions": [
+                "fribidi_charset_to_unicode", 
+                "fwrite", 
+                "setsid", 
+                "dup2", 
+                "openpty", 
+                "__cxa_finalize", 
+                "ioctl", 
+                "cfmakeraw", 
+                "readlink", 
+                "__memset_chk", 
+                "fork", 
+                "__snprintf_chk", 
+                "tcsetattr", 
+                "kill", 
+                "__gmon_start__", 
+                "select", 
+                "malloc", 
+                "memmove", 
+                "_ITM_deregisterTMCloneTable", 
+                "waitpid", 
+                "fribidi_unicode_to_charset", 
+                "_ITM_registerTMCloneTable", 
+                "__stack_chk_fail", 
+                "strcmp", 
+                "getenv", 
+                "sigaction", 
+                "__libc_start_main", 
+                "forkpty", 
+                "__fdelt_chk", 
+                "tcgetattr", 
+                "write", 
+                "read", 
+                "__xstat", 
+                "bconsole_log2con", 
+                "__errno_location", 
+                "chdir", 
+                "execvp", 
+                "sigemptyset", 
+                "__fprintf_chk", 
+                "close"
+            ], 
+            "rpm": "bicon-0.5-5.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/bicon.bin"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " bicon", 
+            "License": " LGPLv2+ and Python", 
+            "URL": " https://www.arabeyes.org/Bicon", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-08.phx2.fedoraproject.org", 
+            "Description": "\nBiCon is the bidirectional console as presented by Arabeyes.\n", 
+            "Build Date": " Wed 02 Aug 2017 02:17:11 PM EDT", 
+            "Source RPM": " bicon-0.5-5.fc27.src.rpm", 
+            "Version": " 0.5", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 05 Aug 2017 02:44:59 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 5.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Bidirectional Console", 
+            "Size": " 71031"
+        }
+    }
+}

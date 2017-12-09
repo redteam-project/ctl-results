@@ -1,0 +1,80 @@
+{
+    "results": {
+        "usr/lib/libboost_numpy3_so_1_64_0": {
+            "report-functions": [
+                "PyLong_FromUnsignedLong", 
+                "PyObject_CallFunction", 
+                "_ZN5boost6python12pytype_checkEP11_typeobjectP7_object", 
+                "_ITM_registerTMCloneTable", 
+                "__cxa_atexit", 
+                "__cxa_throw_bad_array_new_length", 
+                "_Znwj", 
+                "_ZN5boost6python9converter8registry9push_backEPFPvP7_objectEPFvS5_PNS1_30rvalue_from_python_stage1_dataEENS0_9type_infoEPFPK11_typeobjectvE", 
+                "PyObject_GetAttrString", 
+                "_Unwind_Resume", 
+                "PyObject_CallMethod", 
+                "PyObject_IsTrue", 
+                "_ZdaPv", 
+                "_ZN5boost6python23throw_error_already_setEv", 
+                "_ZN5boost6python9converter25rvalue_from_python_stage2EP7_objectRNS1_30rvalue_from_python_stage1_dataERKNS1_12registrationE", 
+                "__gmon_start__", 
+                "PyErr_Occurred", 
+                "__cxa_finalize", 
+                "PyEval_CallFunction", 
+                "PyBool_FromLong", 
+                "_ZN5boost6python3api7getitemERKNS1_6objectES4_", 
+                "PyErr_Format", 
+                "_Znaj", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ZN5boost6python9converter25rvalue_from_python_stage1EP7_objectRKNS1_12registrationE", 
+                "PyErr_SetString", 
+                "PyCapsule_GetPointer", 
+                "_ZN5boost6python6detail8str_baseC2EPKc", 
+                "PyImport_ImportModule", 
+                "_ZN5boost6python6importENS0_3strE", 
+                "_ZN5boost6python3apineERKNS1_6objectES4_", 
+                "PyLong_FromLong", 
+                "_ZSt17__throw_bad_allocv", 
+                "PyErr_Print", 
+                "_ZdlPv", 
+                "__gxx_personality_v0", 
+                "_ZN5boost6python9converter8registry6lookupENS0_9type_infoE", 
+                "_ZN5boost6python3api7getattrERKNS1_6objectEPKc"
+            ], 
+            "rpm": "boost-numpy3-1.64.0-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libboost_numpy3.so.1.64.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " boost-numpy3", 
+            "License": " Boost and MIT and Python", 
+            "URL": " http://www.boost.org", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-04.phx2.fedoraproject.org", 
+            "Description": "\n\nThe Boost Python Library is a framework for interfacing Python and\nC++. It allows you to quickly and seamlessly expose C++ classes,\nfunctions and objects to Python, and vice versa, using no special\ntools -- just your C++ compiler.  This package contains run-time\nsupport for the NumPy extension of the Boost Python Library for Python 3.\n", 
+            "Build Date": " Mon 25 Sep 2017 11:30:34 AM EDT", 
+            "Source RPM": " boost-1.64.0-3.fc27.src.rpm", 
+            "Version": " 1.64.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 25 Sep 2017 01:02:57 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 3.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Run-time component of boost numpy library for Python 3", 
+            "Size": " 45438"
+        }
+    }
+}

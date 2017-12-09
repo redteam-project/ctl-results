@@ -1,0 +1,84 @@
+{
+    "results": {
+        "usr/lib/libblosc_so_1_11_3": {
+            "report-functions": [
+                "snappy_max_compressed_length", 
+                "__printf_chk", 
+                "pthread_mutex_init", 
+                "__fprintf_chk", 
+                "pthread_mutex_destroy", 
+                "compress2", 
+                "pthread_attr_setdetachstate", 
+                "calloc", 
+                "puts", 
+                "free", 
+                "LZ4_compress_fast", 
+                "__gmon_start__", 
+                "ZSTD_maxCLevel", 
+                "lldiv", 
+                "__cxa_finalize", 
+                "snappy_uncompress", 
+                "getenv", 
+                "pthread_mutex_unlock", 
+                "pthread_attr_destroy", 
+                "pthread_barrier_destroy", 
+                "__assert_fail", 
+                "__sprintf_chk", 
+                "_ITM_registerTMCloneTable", 
+                "ZSTD_decompress", 
+                "_ITM_deregisterTMCloneTable", 
+                "fwrite", 
+                "pthread_mutex_lock", 
+                "ZSTD_isError", 
+                "ZSTD_compress", 
+                "pthread_barrier_init", 
+                "strerror", 
+                "LZ4_compress_HC", 
+                "strtol", 
+                "snappy_compress", 
+                "strdup", 
+                "pthread_join", 
+                "LZ4_decompress_fast", 
+                "pthread_barrier_wait", 
+                "posix_memalign", 
+                "ZSTD_getErrorName", 
+                "__stack_chk_fail", 
+                "pthread_create"
+            ], 
+            "rpm": "blosc-1.11.3-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libblosc.so.1.11.3"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " blosc", 
+            "License": " MIT", 
+            "URL": " https://github.com/Blosc/c-blosc", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-09.phx2.fedoraproject.org", 
+            "Description": "\nBlosc is a compression library designed to transmit data to the processor\ncache faster than the traditional non-compressed memory fetch.\nCompression ratios are not very high, but the decompression is very fast.\nBlosc is meant not only to reduce the size of large datasets on-disk or\nin-memory, but also to accelerate memory-bound computations.\n", 
+            "Build Date": " Wed 02 Aug 2017 02:25:46 PM EDT", 
+            "Source RPM": " blosc-1.11.3-3.fc27.src.rpm", 
+            "Version": " 1.11.3", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 05 Aug 2017 01:04:15 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 3.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A high performance compressor optimized for binary data", 
+            "Size": " 109266"
+        }
+    }
+}

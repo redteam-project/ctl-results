@@ -1,0 +1,110 @@
+{
+    "results": {
+        "usr/lib/ocaml/lablgtk2/gtkThread_o": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib/ocaml/lablgtk2/gtkThread.o", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "report-functions": [
+                "caml_sys_getenv", 
+                "caml_condition_wait", 
+                "caml_modify", 
+                "camlGlib__fun_1968", 
+                "caml_exn_Assert_failure", 
+                "ml_g_main_pending", 
+                "caml_condition_new", 
+                "caml_backtrace_pos", 
+                "caml_mutex_lock", 
+                "camlList__2", 
+                "camlPervasives__max_1030", 
+                "caml_mutex_new", 
+                "caml_string_equal", 
+                "caml_call_gc", 
+                "caml_young_limit", 
+                "caml_raise_exn", 
+                "camlSys", 
+                "camlGtkMain", 
+                "caml_alloc1", 
+                "camlGtkSignal__safe_call_inner_1884", 
+                "caml_exception_pointer", 
+                "caml_mutex_unlock", 
+                "caml_string_notequal", 
+                "camlQueue__add_1219", 
+                "ml_g_main_is_running", 
+                "caml_equal", 
+                "ml_g_main_new", 
+                "ml_g_main_iteration", 
+                "camlGtkSignal__1", 
+                "caml_thread_self", 
+                "ml_g_wrap_poll_func", 
+                "caml_curry2", 
+                "caml_young_ptr", 
+                "camlQueue", 
+                "caml_alloc3", 
+                "camlThread__delay_1290", 
+                "camlPervasives__failwith_1005", 
+                "caml_thread_id", 
+                "caml_c_call", 
+                "caml_allocN", 
+                "camlThread__create_1214"
+            ], 
+            "rpm": "ocaml-lablgtk-devel-2.18.5-9.fc27.i686.rpm"
+        }, 
+        "usr/lib/ocaml/lablgtk2/gtkInit_o": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib/ocaml/lablgtk2/gtkInit.o", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "report-functions": [], 
+            "rpm": "ocaml-lablgtk-devel-2.18.5-9.fc27.i686.rpm"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " ocaml-lablgtk-devel", 
+            "License": " LGPLv2 with exceptions", 
+            "URL": " http://lablgtk.forge.ocamlcore.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-07.phx2.fedoraproject.org", 
+            "Description": "\nThe ocaml-lablgtk-devel package contains libraries and signature files for\ndeveloping applications that use ocaml-lablgtk.\n", 
+            "Build Date": " Mon 07 Aug 2017 01:19:56 PM EDT", 
+            "Source RPM": " ocaml-lablgtk-2.18.5-9.fc27.src.rpm", 
+            "Version": " 2.18.5", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Wed 09 Aug 2017 10:00:07 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 9.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Development files for ocaml-lablgtk", 
+            "Size": " 9415939"
+        }
+    }
+}

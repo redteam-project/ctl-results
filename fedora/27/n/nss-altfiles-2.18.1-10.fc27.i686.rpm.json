@@ -1,0 +1,59 @@
+{
+    "results": {
+        "usr/lib/libnss_altfiles_so_2": {
+            "report-functions": [
+                "_nss_files_parse_grent", 
+                "fileno", 
+                "_nss_files_parse_pwent", 
+                "pthread_mutex_lock", 
+                "fgets_unlocked", 
+                "fopen", 
+                "rewind", 
+                "__ctype_b_loc", 
+                "fsetpos", 
+                "fclose", 
+                "__errno_location", 
+                "fgetpos", 
+                "strcmp", 
+                "pthread_mutex_unlock"
+            ], 
+            "rpm": "nss-altfiles-2.18.1-10.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libnss_altfiles.so.2"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " nss-altfiles", 
+            "License": " LGPLv2+", 
+            "URL": " https://github.com/aperezdc/nss-altfiles", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-07.phx2.fedoraproject.org", 
+            "Description": "\nWhen installed, this package allows looking up users\nin %{prefix}/lib/passwd, similarly, groups in %{prefix}/lib/group.\n", 
+            "Build Date": " Fri 04 Aug 2017 12:45:21 AM EDT", 
+            "Source RPM": " nss-altfiles-2.18.1-10.fc27.src.rpm", 
+            "Version": " 2.18.1", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 08:37:29 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 10.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " NSS module to look up users in /usr/lib/passwd too", 
+            "Size": " 12006"
+        }
+    }
+}

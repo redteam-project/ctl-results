@@ -1,0 +1,161 @@
+{
+    "results": {
+        "usr/lib/libcld2_full_so_0_0_198": {
+            "report-functions": [
+                "_ZdaPv", 
+                "_ITM_registerTMCloneTable", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERjj", 
+                "fclose", 
+                "__cxa_finalize", 
+                "__fprintf_chk", 
+                "__gmon_start__", 
+                "memmove", 
+                "_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE4findEcj", 
+                "_ZSt19__throw_logic_errorPKc", 
+                "_ZdlPv", 
+                "strlen", 
+                "_Znwj", 
+                "_ITM_deregisterTMCloneTable", 
+                "fopen", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_appendEPKcj", 
+                "_ZSt20__throw_length_errorPKc", 
+                "_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE4findEPKcjj", 
+                "_Unwind_Resume", 
+                "_ZSt17__throw_bad_allocv", 
+                "__sprintf_chk", 
+                "strncpy", 
+                "__stack_chk_fail", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_assignERKS4_", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE14_M_replace_auxEjjjc", 
+                "strchr", 
+                "__memcpy_chk", 
+                "strcmp", 
+                "memcmp", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_mutateEjjPKcj", 
+                "memset", 
+                "__gxx_personality_v0", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6resizeEjc", 
+                "_Znaj"
+            ], 
+            "rpm": "cld2-0-0.9.20150821gitb56fa78.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libcld2_full.so.0.0.198"
+        }, 
+        "usr/lib/libcld2_dynamic_so_0_0_198": {
+            "report-functions": [
+                "malloc", 
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable", 
+                "__fprintf_chk", 
+                "close", 
+                "mmap", 
+                "fseek", 
+                "open", 
+                "fopen", 
+                "_ZdlPv", 
+                "_Znaj", 
+                "fclose", 
+                "_ITM_deregisterTMCloneTable", 
+                "ftell", 
+                "__stack_chk_fail", 
+                "munmap", 
+                "fread", 
+                "free", 
+                "__gmon_start__", 
+                "_Znwj"
+            ], 
+            "rpm": "cld2-0-0.9.20150821gitb56fa78.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libcld2_dynamic.so.0.0.198"
+        }, 
+        "usr/lib/libcld2_so_0_0_198": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "memcmp", 
+                "_Unwind_Resume", 
+                "__memcpy_chk", 
+                "strlen", 
+                "__fprintf_chk", 
+                "_ZdaPv", 
+                "_ZdlPv", 
+                "strncpy", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE4findEPKcjj", 
+                "_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE4findEcj", 
+                "__gxx_personality_v0", 
+                "fclose", 
+                "_ZSt24__throw_out_of_range_fmtPKcz", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERjj", 
+                "_ZSt19__throw_logic_errorPKc", 
+                "__sprintf_chk", 
+                "fopen", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6resizeEjc", 
+                "memset", 
+                "memmove", 
+                "_Znaj", 
+                "strcmp", 
+                "__gmon_start__", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_mutateEjjPKcj", 
+                "__stack_chk_fail", 
+                "__cxa_finalize", 
+                "_ZSt17__throw_bad_allocv", 
+                "_Znwj", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_appendEPKcj", 
+                "_ZSt20__throw_length_errorPKc", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_assignERKS4_"
+            ], 
+            "rpm": "cld2-0-0.9.20150821gitb56fa78.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libcld2.so.0.0.198"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " cld2", 
+            "License": " ASL 2.0", 
+            "URL": " https://github.com/CLD2Owners/cld2/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-07.phx2.fedoraproject.org", 
+            "Description": "\nA library that detects over 80 languages in UTF-8 text, based largely\non groups of four letters. Also tables for 160+ language versions.\n", 
+            "Build Date": " Sat 12 Aug 2017 12:57:39 AM EDT", 
+            "Source RPM": " cld2-0-0.9.20150821gitb56fa78.fc27.src.rpm", 
+            "Version": " 0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 12 Aug 2017 06:24:18 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 0.9.20150821gitb56fa78.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A library to detect the natural language of text", 
+            "Size": " 8252131"
+        }
+    }
+}

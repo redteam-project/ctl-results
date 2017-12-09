@@ -1,0 +1,189 @@
+{
+    "results": {
+        "usr/bin/garmin_get_info": {
+            "report-functions": [
+                "__libc_start_main", 
+                "__gmon_start__", 
+                "garmin_init", 
+                "_ITM_registerTMCloneTable", 
+                "__cxa_finalize", 
+                "__stack_chk_fail", 
+                "puts", 
+                "getopt"
+            ], 
+            "rpm": "garmintools-0.10-12.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/garmin_get_info"
+        }, 
+        "usr/bin/garmin_gchart": {
+            "report-functions": [
+                "__sprintf_chk", 
+                "garmin_free_data", 
+                "strtod", 
+                "sprintf", 
+                "strtol", 
+                "__stack_chk_fail", 
+                "garmin_list_data", 
+                "ceilf", 
+                "__fprintf_chk", 
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable", 
+                "__gmon_start__", 
+                "__libc_start_main", 
+                "garmin_load"
+            ], 
+            "rpm": "garmintools-0.10-12.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/garmin_gchart"
+        }, 
+        "usr/bin/garmin_gpx": {
+            "report-functions": [
+                "fwrite", 
+                "puts", 
+                "garmin_list_data", 
+                "__fprintf_chk", 
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "gmtime", 
+                "_ITM_deregisterTMCloneTable", 
+                "garmin_free_data", 
+                "fputc", 
+                "calloc", 
+                "time", 
+                "free", 
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable", 
+                "garmin_load", 
+                "malloc", 
+                "__libc_start_main"
+            ], 
+            "rpm": "garmintools-0.10-12.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/garmin_gpx"
+        }, 
+        "usr/bin/garmin_dump": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "__libc_start_main", 
+                "garmin_load", 
+                "garmin_free_data", 
+                "garmin_print_data", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "garmintools-0.10-12.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/garmin_dump"
+        }, 
+        "usr/bin/garmin_save_runs": {
+            "report-functions": [
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize", 
+                "garmin_init", 
+                "_ITM_registerTMCloneTable", 
+                "getopt", 
+                "puts", 
+                "garmin_save_runs"
+            ], 
+            "rpm": "garmintools-0.10-12.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/garmin_save_runs"
+        }, 
+        "usr/bin/garmin_gmap": {
+            "report-functions": [
+                "free", 
+                "garmin_list_data", 
+                "__cxa_finalize", 
+                "__gmon_start__", 
+                "malloc", 
+                "__fprintf_chk", 
+                "floor", 
+                "_ITM_deregisterTMCloneTable", 
+                "fputc", 
+                "__stack_chk_fail", 
+                "garmin_free_data", 
+                "__libc_start_main", 
+                "garmin_load"
+            ], 
+            "rpm": "garmintools-0.10-12.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/garmin_gmap"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " garmintools", 
+            "License": " GPLv2+", 
+            "URL": " https://garmintools.googlecode.com", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-07.phx2.fedoraproject.org", 
+            "Description": "\nThis software provides Linux users with the ability to communicate\nwith the Garmin Forerunner 305 via the USB interface.  It\nimplements all of the documented Garmin protocols as of Rev C\n(May 19, 2006) over the USB physical link.\n\nThis means that if you have a Garmin with a USB connection to a PC,\nyou ought to be able to use this software to communicate with it.\n", 
+            "Build Date": " Wed 02 Aug 2017 09:02:47 PM EDT", 
+            "Source RPM": " garmintools-0.10-12.fc27.src.rpm", 
+            "Version": " 0.10", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 03 Aug 2017 07:52:49 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 12.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Tools for Garmin GPS-devices", 
+            "Size": " 250741"
+        }
+    }
+}

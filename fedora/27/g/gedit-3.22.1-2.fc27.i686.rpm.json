@@ -1,0 +1,62 @@
+{
+    "results": {
+        "usr/bin/gedit": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "g_type_check_instance_cast", 
+                "setlocale", 
+                "g_object_add_weak_pointer", 
+                "__stack_chk_fail", 
+                "gedit_app_x11_get_type", 
+                "textdomain", 
+                "_ITM_registerTMCloneTable", 
+                "gedit_dirs_get_gedit_locale_dir", 
+                "g_application_get_type", 
+                "g_application_run", 
+                "_ITM_deregisterTMCloneTable", 
+                "bindtextdomain", 
+                "g_object_unref", 
+                "g_object_run_dispose", 
+                "gedit_debug_message", 
+                "__libc_start_main", 
+                "__gmon_start__", 
+                "gedit_dirs_init"
+            ], 
+            "rpm": "gedit-3.22.1-2.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/gedit"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " gedit", 
+            "License": " GPLv2+ and GFDL", 
+            "URL": " https://wiki.gnome.org/Apps/Gedit", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-15.phx2.fedoraproject.org", 
+            "Source RPM": " gedit-3.22.1-2.fc27.src.rpm", 
+            "Description": "\ngedit is a small, but powerful text editor designed specifically for\nthe GNOME desktop. It has most standard text editor functions and fully\nsupports international text in Unicode. Advanced features include syntax\nhighlighting and automatic indentation of source code, printing and editing\nof multiple documents in one window.\n\ngedit is extensible through a plugin system, which currently includes\nsupport for spell checking, comparing files, viewing CVS ChangeLogs, and\nadjusting indentation levels. Further plugins can be found in the\ngedit-plugins package.\n", 
+            "Build Date": " Wed 02 Aug 2017 09:26:20 PM EDT", 
+            "Epoch": " 2", 
+            "Version": " 3.22.1", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 03 Aug 2017 09:32:40 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 2.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Text editor for the GNOME desktop", 
+            "Size": " 14436334"
+        }
+    }
+}

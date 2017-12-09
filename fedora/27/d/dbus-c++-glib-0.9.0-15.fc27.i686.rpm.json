@@ -1,0 +1,79 @@
+{
+    "results": {
+        "usr/lib/libdbus-c++-glib-1_so_0_0_0": {
+            "report-functions": [
+                "g_source_new", 
+                "g_source_attach", 
+                "_ZN4DBus10Dispatcher25has_something_to_dispatchEv", 
+                "g_source_destroy", 
+                "__cxa_pure_virtual", 
+                "_ZNSt8ios_base4InitC1Ev", 
+                "_ZdlPv", 
+                "_ZNK4DBus5Watch10descriptorEv", 
+                "_ZN4DBus7Timeout6handleEv", 
+                "__gxx_personality_v0", 
+                "_Znwj", 
+                "__gmon_start__", 
+                "_ZN4DBus9debug_logE", 
+                "g_main_context_ref", 
+                "_ZNK4DBus7Timeout7enabledEv", 
+                "_ZNSt8ios_base4InitD1Ev", 
+                "g_timeout_source_new", 
+                "g_source_set_priority", 
+                "_ZN4DBus5Watch6handleEi", 
+                "_ZN4DBus12DefaultMutexC1Ev", 
+                "g_main_context_default", 
+                "_ZNK4DBus5Watch5flagsEv", 
+                "g_source_unref", 
+                "g_assertion_message_expr", 
+                "_Unwind_Resume", 
+                "_ZN4DBus7TimeoutC2EPNS0_8InternalE", 
+                "_ITM_registerTMCloneTable", 
+                "_ZN4DBus12DefaultMutexD1Ev", 
+                "_ZNK4DBus7Timeout8intervalEv", 
+                "__cxa_atexit", 
+                "_ZN4DBus5WatchC2EPNS0_8InternalE", 
+                "g_source_set_callback", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize", 
+                "g_source_remove_poll", 
+                "_ZN4DBus10Dispatcher16dispatch_pendingEv", 
+                "g_main_context_unref"
+            ], 
+            "rpm": "dbus-c++-glib-0.9.0-15.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libdbus-c++-glib-1.so.0.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " dbus-c++-glib", 
+            "License": " LGPLv2+", 
+            "URL": " http://sourceforge.net/projects/dbus-cplusplus/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-16.phx2.fedoraproject.org", 
+            "Description": "\nThis package contains the GLib mainloop library for dbus-c++\n", 
+            "Build Date": " Wed 02 Aug 2017 04:04:39 PM EDT", 
+            "Source RPM": " dbus-c++-0.9.0-15.fc27.src.rpm", 
+            "Version": " 0.9.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 07 Aug 2017 02:29:26 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 15.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " GLib library for dbus-c++", 
+            "Size": " 18832"
+        }
+    }
+}

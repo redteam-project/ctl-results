@@ -1,0 +1,25 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " genbackupdata", 
+            "License": " GPLv2+", 
+            "URL": " http://liw.fi/genbackupdata/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-21.phx2.fedoraproject.org", 
+            "Description": "\ngenbackupdata creates or modifies directory trees in ways that\nsimulate real filesystems sufficiently well for performance testing of\nbackup software. For example, it can create files that are a mix of\nsmall text files and big binary files, with the binary files\ncontaining random binary junk which compresses badly. This can then be\nbacked up, and later the directory tree can be changed by creating new\nfiles, modifying files, or deleting or renaming files. The backup can\nthen be run again.\n\nThe output is deterministic, such that for a given set of parameters\nthe same output always happens. Thus it is more efficient to\ndistribute genbackupdata and a set of parameters between people who\nwish to benchmark backup software than distributing very large test\nsets.\n", 
+            "Build Date": " Wed 26 Jul 2017 07:33:56 AM EDT", 
+            "Source RPM": " genbackupdata-1.9-5.fc27.src.rpm", 
+            "Version": " 1.9", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Tue 01 Aug 2017 03:44:16 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 5.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A program to generate test data for testing backup software", 
+            "Size": " 30284"
+        }
+    }
+}

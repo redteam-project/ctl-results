@@ -1,0 +1,81 @@
+{
+    "results": {
+        "usr/lib/libauthselect_so_0_0_0": {
+            "report-functions": [
+                "fclose", 
+                "_ITM_deregisterTMCloneTable", 
+                "__lxstat", 
+                "symlink", 
+                "closedir", 
+                "getline", 
+                "readlink", 
+                "__ctype_b_loc", 
+                "__errno_location", 
+                "umask", 
+                "__vsnprintf_chk", 
+                "access", 
+                "calloc", 
+                "fopen", 
+                "__gmon_start__", 
+                "strerror", 
+                "close", 
+                "strncmp", 
+                "unlink", 
+                "__fxstatat", 
+                "strlen", 
+                "_ITM_registerTMCloneTable", 
+                "getdelim", 
+                "strncat", 
+                "fdopen", 
+                "fwrite", 
+                "strcmp", 
+                "dirfd", 
+                "strndup", 
+                "readdir", 
+                "strdup", 
+                "chmod", 
+                "realloc", 
+                "__cxa_finalize", 
+                "openat", 
+                "opendir", 
+                "strchr", 
+                "free", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "authselect-libs-0.1.alpha-2.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libauthselect.so.0.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Applications/System", 
+            "Name": " authselect-libs", 
+            "License": " GPLv3+", 
+            "URL": " https://github.com/pbrezina/authselect", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-10.phx2.fedoraproject.org", 
+            "Description": "\nCommon library files for authselect. This package is used by the authselect\ncommand line tool and any other potential front-ends.\n", 
+            "Build Date": " Thu 17 Aug 2017 05:41:37 AM EDT", 
+            "Source RPM": " authselect-0.1.alpha-2.fc27.src.rpm", 
+            "Version": " 0.1.alpha", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 17 Aug 2017 05:46:23 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 2.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Utility library used by the authselect tool", 
+            "Size": " 110690"
+        }
+    }
+}

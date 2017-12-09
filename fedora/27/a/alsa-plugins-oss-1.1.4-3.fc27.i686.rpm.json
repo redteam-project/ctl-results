@@ -1,0 +1,112 @@
+{
+    "results": {
+        "usr/lib/alsa-lib/libasound_module_ctl_oss_so": {
+            "report-functions": [
+                "free", 
+                "snd_config_get_id", 
+                "snd_config_iterator_first", 
+                "snd_config_iterator_end", 
+                "calloc", 
+                "snd_config_iterator_entry", 
+                "snd_config_get_string", 
+                "snd_ctl_elem_id_get_numid", 
+                "snd_ctl_ext_create", 
+                "perror", 
+                "strcmp", 
+                "__stack_chk_fail", 
+                "open", 
+                "snd_config_iterator_next", 
+                "strdup", 
+                "snd_ctl_elem_id_get_name", 
+                "_ITM_deregisterTMCloneTable", 
+                "snd_ctl_elem_id_set_interface", 
+                "__cxa_finalize", 
+                "strncpy", 
+                "close", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "ioctl"
+            ], 
+            "rpm": "alsa-plugins-oss-1.1.4-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: 'NoneType' object is not iterable"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/alsa-lib/libasound_module_ctl_oss.so"
+        }, 
+        "usr/lib/alsa-lib/libasound_module_pcm_oss_so": {
+            "report-functions": [
+                "free", 
+                "__stack_chk_fail", 
+                "fcntl", 
+                "snd_config_get_id", 
+                "perror", 
+                "__cxa_finalize", 
+                "fwrite", 
+                "snd_pcm_bytes_to_frames", 
+                "snd_pcm_ioplug_set_param_minmax", 
+                "strdup", 
+                "calloc", 
+                "snd_pcm_ioplug_delete", 
+                "__open_2", 
+                "snd_config_iterator_entry", 
+                "__gmon_start__", 
+                "snd_pcm_ioplug_reinit_status", 
+                "snd_config_get_string", 
+                "_ITM_registerTMCloneTable", 
+                "snd_pcm_format_name", 
+                "__errno_location", 
+                "ioctl", 
+                "snd_pcm_format_physical_width", 
+                "_ITM_deregisterTMCloneTable", 
+                "snd_config_iterator_end", 
+                "snd_config_iterator_next", 
+                "read", 
+                "__fprintf_chk", 
+                "snd_pcm_ioplug_set_param_list", 
+                "snd_config_iterator_first", 
+                "close"
+            ], 
+            "rpm": "alsa-plugins-oss-1.1.4-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: 'NoneType' object is not iterable"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/alsa-lib/libasound_module_pcm_oss.so"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " alsa-plugins-oss", 
+            "License": " LGPLv2+", 
+            "URL": " http://www.alsa-project.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-11.phx2.fedoraproject.org", 
+            "Description": "\nThis plugin converts the ALSA API over OSS API.  With this plugin,\nALSA native apps can run on OSS drivers.\n\nThis plugin provides the PCM type \"oss\".\n", 
+            "Build Date": " Wed 02 Aug 2017 01:49:58 PM EDT", 
+            "Source RPM": " alsa-plugins-1.1.4-3.fc27.src.rpm", 
+            "Version": " 1.1.4", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 07 Aug 2017 12:38:14 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 3.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Oss PCM output plugin for ALSA", 
+            "Size": " 74858"
+        }
+    }
+}

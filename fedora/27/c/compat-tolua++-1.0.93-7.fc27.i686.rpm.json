@@ -1,0 +1,93 @@
+{
+    "results": {
+        "usr/lib/libtolua++-5_1_so": {
+            "report-functions": [
+                "lua_gc", 
+                "lua_rawget", 
+                "lua_touserdata", 
+                "lua_concat", 
+                "lua_rawset", 
+                "__cxa_finalize", 
+                "strcmp", 
+                "_ITM_deregisterTMCloneTable", 
+                "lua_setfenv", 
+                "lua_settable", 
+                "lua_typename", 
+                "lua_setmetatable", 
+                "lua_insert", 
+                "lua_tonumber", 
+                "malloc", 
+                "lua_type", 
+                "luaL_newmetatable", 
+                "lua_remove", 
+                "lua_createtable", 
+                "lua_toboolean", 
+                "lua_isstring", 
+                "luaL_error", 
+                "__gmon_start__", 
+                "lua_pushlstring", 
+                "lua_pushvalue", 
+                "lua_getfenv", 
+                "lua_pushstring", 
+                "lua_gettop", 
+                "lua_replace", 
+                "lua_getfield", 
+                "lua_tocfunction", 
+                "lua_pushnumber", 
+                "_ITM_registerTMCloneTable", 
+                "lua_tolstring", 
+                "__strncat_chk", 
+                "lua_pushnil", 
+                "lua_isuserdata", 
+                "__stack_chk_fail", 
+                "lua_call", 
+                "lua_pushboolean", 
+                "lua_newuserdata", 
+                "lua_error", 
+                "lua_pcall", 
+                "lua_pushlightuserdata", 
+                "lua_rawequal", 
+                "lua_gettable", 
+                "lua_isnumber", 
+                "free", 
+                "lua_next", 
+                "luaL_loadbuffer", 
+                "lua_iscfunction", 
+                "lua_pushcclosure"
+            ], 
+            "rpm": "compat-tolua++-1.0.93-7.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libtolua++-5.1.so"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Tools", 
+            "Name": " compat-tolua++", 
+            "License": " MIT", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-25.phx2.fedoraproject.org", 
+            "Description": "\nThis is a lua-5.1 compatible version of tolua++.\n\ntolua++ is an extended version of tolua, a tool to integrate C/C++ code with\nLua. tolua++ includes new features oriented to C++.\n", 
+            "Build Date": " Wed 02 Aug 2017 03:16:44 PM EDT", 
+            "Source RPM": " compat-tolua++-1.0.93-7.fc27.src.rpm", 
+            "Version": " 1.0.93", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sun 06 Aug 2017 11:31:16 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 7.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " lua-5.1 compatible version of tolua++ (C++ Lua integration)", 
+            "Size": " 127387"
+        }
+    }
+}

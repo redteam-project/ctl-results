@@ -1,0 +1,81 @@
+{
+    "results": {
+        "usr/lib/sasl2/libntlm_so_3_0_0": {
+            "report-functions": [
+                "writev", 
+                "strlen", 
+                "DES_set_odd_parity", 
+                "freeaddrinfo", 
+                "__errno_location", 
+                "__snprintf_chk", 
+                "recv", 
+                "strchr", 
+                "HMAC_CTX_new", 
+                "uname", 
+                "__memcpy_chk", 
+                "_ITM_registerTMCloneTable", 
+                "strcat", 
+                "gai_strerror", 
+                "EVP_md5", 
+                "HMAC_Init_ex", 
+                "strncpy", 
+                "stpcpy", 
+                "getnameinfo", 
+                "__ctype_b_loc", 
+                "memcmp", 
+                "getaddrinfo", 
+                "__gmon_start__", 
+                "__stack_chk_fail", 
+                "DES_ecb_encrypt", 
+                "strcspn", 
+                "HMAC_CTX_free", 
+                "socket", 
+                "close", 
+                "strerror", 
+                "HMAC_Update", 
+                "_ITM_deregisterTMCloneTable", 
+                "getpid", 
+                "HMAC", 
+                "strcpy", 
+                "MD4", 
+                "__cxa_finalize", 
+                "HMAC_Final", 
+                "connect"
+            ], 
+            "rpm": "cyrus-sasl-ntlm-2.1.26-34.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/sasl2/libntlm.so.3.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " cyrus-sasl-ntlm", 
+            "License": " BSD with advertising", 
+            "URL": " http://asg.web.cmu.edu/sasl/sasl-library.html", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-11.phx2.fedoraproject.org", 
+            "Description": "\nThe cyrus-sasl-ntlm package contains the Cyrus SASL plugin which supports\nthe NTLM authentication scheme.\n", 
+            "Build Date": " Wed 02 Aug 2017 03:52:08 PM EDT", 
+            "Source RPM": " cyrus-sasl-2.1.26-34.fc27.src.rpm", 
+            "Version": " 2.1.26", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 05 Aug 2017 03:37:00 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 34.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " NTLM authentication support for Cyrus SASL", 
+            "Size": " 35884"
+        }
+    }
+}

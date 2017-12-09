@@ -1,0 +1,67 @@
+{
+    "results": {
+        "usr/lib/libcairo-gobject_so_2_11508_0": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "cairo_surface_destroy", 
+                "cairo_pattern_destroy", 
+                "cairo_region_destroy", 
+                "cairo_scaled_font_destroy", 
+                "g_memdup", 
+                "cairo_destroy", 
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable", 
+                "cairo_font_options_copy", 
+                "cairo_font_face_reference", 
+                "g_free", 
+                "g_once_init_enter", 
+                "cairo_reference", 
+                "cairo_region_reference", 
+                "cairo_scaled_font_reference", 
+                "g_enum_register_static", 
+                "__gmon_start__", 
+                "cairo_font_face_destroy", 
+                "cairo_device_reference", 
+                "g_intern_static_string", 
+                "cairo_surface_reference", 
+                "cairo_pattern_reference", 
+                "cairo_font_options_destroy", 
+                "g_boxed_type_register_static"
+            ], 
+            "rpm": "cairo-gobject-1.15.8-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libcairo-gobject.so.2.11508.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " cairo-gobject", 
+            "License": " LGPLv2 or MPLv1.1", 
+            "URL": " http://cairographics.org", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-14.phx2.fedoraproject.org", 
+            "Description": "\nCairo is a 2D graphics library designed to provide high-quality display\nand print output.\n\nThis package contains functionality to make cairo graphics library\nintegrate well with the GObject object system used by GNOME.\n", 
+            "Build Date": " Thu 31 Aug 2017 06:52:02 AM EDT", 
+            "Source RPM": " cairo-1.15.8-1.fc27.src.rpm", 
+            "Version": " 1.15.8", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 31 Aug 2017 07:14:33 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 1.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " GObject bindings for cairo", 
+            "Size": " 26720"
+        }
+    }
+}

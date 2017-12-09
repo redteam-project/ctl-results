@@ -1,0 +1,91 @@
+{
+    "results": {
+        "usr/bin/gegl": {
+            "report-functions": [
+                "gegl_node_get_producer", 
+                "SpiroCPsToBezier", 
+                "g_file_get_contents", 
+                "g_log_set_always_fatal", 
+                "gegl_node_new_child", 
+                "gegl_path_list_append", 
+                "gegl_exit", 
+                "g_main_loop_run", 
+                "g_malloc0_n", 
+                "gegl_node_new_from_xml", 
+                "__gmon_start__", 
+                "realpath", 
+                "g_malloc", 
+                "gegl_path_add_type", 
+                "strrchr", 
+                "__libc_start_main", 
+                "exit", 
+                "g_object_unref", 
+                "gegl_path_add_flattener", 
+                "strcmp", 
+                "g_strdup", 
+                "__cxa_finalize", 
+                "gegl_node_get_output_proxy", 
+                "g_string_new", 
+                "g_print", 
+                "g_string_free", 
+                "g_list_find", 
+                "g_list_append", 
+                "fgets", 
+                "g_clear_error", 
+                "g_free", 
+                "stpcpy", 
+                "gegl_node_connect_from", 
+                "_ITM_deregisterTMCloneTable", 
+                "__fprintf_chk", 
+                "g_printf", 
+                "gegl_node_to_xml", 
+                "gegl_node_link_many", 
+                "gegl_init", 
+                "_ITM_registerTMCloneTable", 
+                "g_main_loop_new", 
+                "g_log", 
+                "g_get_current_dir", 
+                "g_malloc0", 
+                "g_string_append", 
+                "g_list_free_full", 
+                "g_path_get_dirname", 
+                "gegl_node_process", 
+                "g_thread_init"
+            ], 
+            "rpm": "gegl-0.2.0-34.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/gegl"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " gegl", 
+            "License": " LGPLv3+ and GPLv3+", 
+            "URL": " http://www.gegl.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-03.phx2.fedoraproject.org", 
+            "Description": "\nGEGL (Generic Graphics Library) is a graph based image processing framework.\nGEGLs original design was made to scratch GIMPs itches for a new\ncompositing and processing core. This core is being designed to have\nminimal dependencies. and a simple well defined API.\n", 
+            "Build Date": " Wed 02 Aug 2017 09:30:19 PM EDT", 
+            "Source RPM": " gegl-0.2.0-34.fc27.src.rpm", 
+            "Version": " 0.2.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 03 Aug 2017 09:21:12 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 34.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A graph based image processing framework", 
+            "Size": " 2873121"
+        }
+    }
+}

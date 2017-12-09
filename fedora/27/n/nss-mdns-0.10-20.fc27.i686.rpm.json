@@ -1,0 +1,281 @@
+{
+    "results": {
+        "lib/libnss_mdns_minimal_so_2": {
+            "report-functions": [
+                "__fprintf_chk", 
+                "connect", 
+                "strcpy", 
+                "__stack_chk_fail", 
+                "close", 
+                "strlen", 
+                "strdup", 
+                "_ITM_deregisterTMCloneTable", 
+                "fgets", 
+                "_ITM_registerTMCloneTable", 
+                "__cxa_finalize", 
+                "fdopen", 
+                "inet_ntop", 
+                "strspn", 
+                "__gmon_start__", 
+                "strncpy", 
+                "strcspn", 
+                "fclose", 
+                "inet_pton", 
+                "fflush", 
+                "socket", 
+                "fcntl"
+            ], 
+            "rpm": "nss-mdns-0.10-20.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "lib/libnss_mdns_minimal.so.2"
+        }, 
+        "lib/libnss_mdns4_so_2": {
+            "report-functions": [
+                "strcasecmp", 
+                "strspn", 
+                "fdopen", 
+                "fgets", 
+                "__cxa_finalize", 
+                "inet_pton", 
+                "inet_ntop", 
+                "connect", 
+                "fopen", 
+                "_ITM_deregisterTMCloneTable", 
+                "close", 
+                "strlen", 
+                "fflush", 
+                "socket", 
+                "__snprintf_chk", 
+                "__stack_chk_fail", 
+                "strcpy", 
+                "fclose", 
+                "__fprintf_chk", 
+                "__gmon_start__", 
+                "__assert_fail", 
+                "strncpy", 
+                "fcntl", 
+                "_ITM_registerTMCloneTable", 
+                "strdup"
+            ], 
+            "rpm": "nss-mdns-0.10-20.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "lib/libnss_mdns4.so.2"
+        }, 
+        "lib/libnss_mdns6_so_2": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "fflush", 
+                "strcpy", 
+                "__gmon_start__", 
+                "fdopen", 
+                "__snprintf_chk", 
+                "close", 
+                "socket", 
+                "connect", 
+                "strcspn", 
+                "inet_pton", 
+                "strdup", 
+                "_ITM_registerTMCloneTable", 
+                "__fprintf_chk", 
+                "strlen", 
+                "strncpy", 
+                "__cxa_finalize", 
+                "__assert_fail", 
+                "strcasecmp", 
+                "fcntl", 
+                "fopen", 
+                "strspn", 
+                "fgets", 
+                "inet_ntop", 
+                "feof"
+            ], 
+            "rpm": "nss-mdns-0.10-20.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "lib/libnss_mdns6.so.2"
+        }, 
+        "lib/libnss_mdns_so_2": {
+            "report-functions": [
+                "strcasecmp", 
+                "fclose", 
+                "__gmon_start__", 
+                "inet_pton", 
+                "strdup", 
+                "fcntl", 
+                "fgets", 
+                "strcspn", 
+                "inet_ntop", 
+                "__assert_fail", 
+                "_ITM_registerTMCloneTable", 
+                "fdopen", 
+                "__cxa_finalize", 
+                "connect", 
+                "fflush", 
+                "socket", 
+                "strcpy", 
+                "_ITM_deregisterTMCloneTable", 
+                "feof", 
+                "strncpy", 
+                "strspn", 
+                "__stack_chk_fail", 
+                "__snprintf_chk", 
+                "close", 
+                "__fprintf_chk"
+            ], 
+            "rpm": "nss-mdns-0.10-20.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "lib/libnss_mdns.so.2"
+        }, 
+        "lib/libnss_mdns6_minimal_so_2": {
+            "report-functions": [
+                "strcspn", 
+                "__cxa_finalize", 
+                "_ITM_deregisterTMCloneTable", 
+                "close", 
+                "_ITM_registerTMCloneTable", 
+                "fclose", 
+                "strncpy", 
+                "strlen", 
+                "__gmon_start__", 
+                "socket", 
+                "inet_ntop", 
+                "strcasecmp", 
+                "strcpy", 
+                "fcntl", 
+                "strspn", 
+                "__fprintf_chk", 
+                "connect", 
+                "__assert_fail", 
+                "inet_pton", 
+                "fflush", 
+                "strdup", 
+                "fgets"
+            ], 
+            "rpm": "nss-mdns-0.10-20.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "lib/libnss_mdns6_minimal.so.2"
+        }, 
+        "lib/libnss_mdns4_minimal_so_2": {
+            "report-functions": [
+                "socket", 
+                "__stack_chk_fail", 
+                "strlen", 
+                "strcpy", 
+                "strcasecmp", 
+                "fgets", 
+                "fflush", 
+                "strncpy", 
+                "inet_ntop", 
+                "fcntl", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize", 
+                "fdopen", 
+                "strdup", 
+                "__assert_fail", 
+                "__fprintf_chk", 
+                "inet_pton", 
+                "fclose", 
+                "connect", 
+                "strcspn", 
+                "__gmon_start__", 
+                "strspn"
+            ], 
+            "rpm": "nss-mdns-0.10-20.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "lib/libnss_mdns4_minimal.so.2"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " nss-mdns", 
+            "License": " LGPLv2+", 
+            "URL": " http://0pointer.de/lennart/projects/nss-mdns/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-15.phx2.fedoraproject.org", 
+            "Description": "\nnss-mdns is a plugin for the GNU Name Service Switch (NSS) functionality of\nthe GNU C Library (glibc) providing host name resolution via Multicast DNS\n(aka Zeroconf, aka Apple Rendezvous, aka Apple Bonjour), effectively allowing\nname resolution by common Unix/Linux programs in the ad-hoc mDNS domain .local.\n\nnss-mdns provides client functionality only, which means that you have to\nrun a mDNS responder daemon separately from nss-mdns if you want to register\nthe local host name via mDNS (e.g. Avahi).\n", 
+            "Build Date": " Fri 04 Aug 2017 12:49:05 AM EDT", 
+            "Source RPM": " nss-mdns-0.10-20.fc27.src.rpm", 
+            "Version": " 0.10", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 08:39:32 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 20.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " glibc plugin for .local name resolution", 
+            "Size": " 75670"
+        }
+    }
+}
