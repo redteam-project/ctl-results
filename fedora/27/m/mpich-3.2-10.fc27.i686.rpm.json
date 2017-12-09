@@ -1,0 +1,25 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " mpich", 
+            "License": " MIT", 
+            "URL": " http://www.mpich.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-14.phx2.fedoraproject.org", 
+            "Description": "\nMPICH is a high-performance and widely portable implementation of the Message\nPassing Interface (MPI) standard (MPI-1, MPI-2 and MPI-3). The goals of MPICH\nare: (1) to provide an MPI implementation that efficiently supports different\ncomputation and communication platforms including commodity clusters (desktop\nsystems, shared-memory systems, multicore architectures), high-speed networks\n(10 Gigabit Ethernet, InfiniBand, Myrinet, Quadrics) and proprietary high-end\ncomputing systems (Blue Gene, Cray) and (2) to enable cutting-edge research in\nMPI through an easy-to-extend modular framework for other derived\nimplementations.\n\nThe mpich binaries in this RPM packages were configured to use the default\nprocess manager (Hydra) using the default device (ch3). The ch3 device\nwas configured with support for the nemesis channel that allows for\nshared-memory and TCP/IP sockets based communication.\n\nThis build also include support for using the 'module environment' to select\nwhich MPI implementation to use when multiple implementations are installed.\nIf you want MPICH support to be automatically loaded, you need to install the\nmpich-autoload package.\n", 
+            "Build Date": " Thu 03 Aug 2017 11:09:02 PM EDT", 
+            "Source RPM": " mpich-3.2-10.fc27.src.rpm", 
+            "Version": " 3.2", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 06:52:18 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 10.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A high-performance implementation of MPI", 
+            "Size": " 3967984"
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " nodejs-keypress", 
+            "License": " MIT", 
+            "URL": " https://github.com/TooTallNate/keypress", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-11.phx2.fedoraproject.org", 
+            "Description": "\nPrevious to Node v0.8.x, there was an undocumented \"keypress\" event that\nprocess.stdin would emit when it was a TTY. Some people discovered this\nhidden gem, and started using it in their own code.\n\nIn Node v0.8.x, this \"keypress\" event does not get emitted by default,\nbut rather only when it is being used in conjunction with the readline\n(or by extension, the repl) module.\n\nThis module is the exact logic from the node v0.8.x releases ripped out\ninto its own module.\n", 
+            "Build Date": " Thu 27 Jul 2017 02:26:28 PM EDT", 
+            "Source RPM": " nodejs-keypress-0.2.1-6.fc27.src.rpm", 
+            "Version": " 0.2.1", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Thu 27 Jul 2017 03:16:39 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 6.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Make any Node ReadableStream emit \"keypress\" events", 
+            "Size": " 15202"
+        }
+    }
+}

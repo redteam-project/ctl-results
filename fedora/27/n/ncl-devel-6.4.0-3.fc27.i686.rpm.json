@@ -1,0 +1,68 @@
+{
+    "results": {
+        "complexity": {
+            "r2aa": {
+                "afCc": 27, 
+                "afC": 422
+            }
+        }, 
+        "usr/bin/wrapit77": {
+            "report-functions": [
+                "strlen", 
+                "__sprintf_chk", 
+                "clearerr", 
+                "strncpy", 
+                "free", 
+                "__isoc99_sscanf", 
+                "fileno", 
+                "isatty", 
+                "realloc", 
+                "fwrite", 
+                "__libc_start_main", 
+                "isalpha", 
+                "strcmp", 
+                "__gmon_start__", 
+                "malloc", 
+                "__errno_location", 
+                "__strcat_chk", 
+                "ferror", 
+                "exit", 
+                "_IO_getc", 
+                "isupper", 
+                "__fprintf_chk", 
+                "fread"
+            ], 
+            "rpm": "ncl-devel-6.4.0-3.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/wrapit77"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " ncl-devel", 
+            "License": " BSD", 
+            "URL": " http://www.ncl.ucar.edu", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-26.phx2.fedoraproject.org", 
+            "Description": "\nDevelopment files for NCL and NCAR Graphics.\n", 
+            "Build Date": " Mon 07 Aug 2017 02:53:37 PM EDT", 
+            "Source RPM": " ncl-6.4.0-3.fc27.src.rpm", 
+            "Version": " 6.4.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 08 Aug 2017 10:40:23 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 3.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Development files for NCL and NCAR Graphics", 
+            "Size": " 31346529"
+        }
+    }
+}

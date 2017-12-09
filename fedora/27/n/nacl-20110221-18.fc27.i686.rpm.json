@@ -1,0 +1,273 @@
+{
+    "results": {
+        "usr/bin/curvecpmakekey": {
+            "report-functions": [
+                "poll", 
+                "fsync", 
+                "popen", 
+                "_exit", 
+                "sleep", 
+                "__errno_location", 
+                "__isoc99_fscanf", 
+                "pclose", 
+                "umask", 
+                "write", 
+                "__stack_chk_fail", 
+                "mkdir", 
+                "fopen", 
+                "chdir", 
+                "open", 
+                "read", 
+                "close", 
+                "fclose", 
+                "__libc_start_main"
+            ], 
+            "rpm": "nacl-20110221-18.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/curvecpmakekey"
+        }, 
+        "usr/bin/nacl-sha256": {
+            "report-functions": [
+                "posix_memalign", 
+                "_IO_getc", 
+                "fopen", 
+                "__libc_start_main", 
+                "pclose", 
+                "putchar", 
+                "__printf_chk", 
+                "popen", 
+                "__stack_chk_fail", 
+                "sleep", 
+                "fclose", 
+                "free", 
+                "__fxstat", 
+                "mmap", 
+                "read", 
+                "__isoc99_fscanf"
+            ], 
+            "rpm": "nacl-20110221-18.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nacl-sha256"
+        }, 
+        "usr/bin/curvecpserver": {
+            "report-functions": [
+                "fchdir", 
+                "popen", 
+                "write", 
+                "fopen", 
+                "malloc", 
+                "poll", 
+                "chdir", 
+                "signal", 
+                "pipe", 
+                "execvp", 
+                "sleep", 
+                "recvfrom", 
+                "dup", 
+                "lockf", 
+                "clock_gettime", 
+                "pclose", 
+                "sendto", 
+                "__stack_chk_fail", 
+                "fork", 
+                "open", 
+                "__errno_location", 
+                "setsockopt", 
+                "socket", 
+                "fclose", 
+                "fsync", 
+                "_exit", 
+                "read", 
+                "fcntl", 
+                "close", 
+                "__libc_start_main", 
+                "__isoc99_fscanf"
+            ], 
+            "rpm": "nacl-20110221-18.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/curvecpserver"
+        }, 
+        "usr/bin/curvecpmessage": {
+            "report-functions": [
+                "waitpid", 
+                "__poll_chk", 
+                "close", 
+                "fclose", 
+                "sleep", 
+                "pipe", 
+                "__libc_start_main", 
+                "popen", 
+                "dup", 
+                "signal", 
+                "pclose", 
+                "poll", 
+                "_exit", 
+                "fcntl", 
+                "__isoc99_fscanf", 
+                "read", 
+                "__gmon_start__", 
+                "clock_gettime", 
+                "write", 
+                "fork", 
+                "fopen", 
+                "__stack_chk_fail", 
+                "execvp"
+            ], 
+            "rpm": "nacl-20110221-18.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/curvecpmessage"
+        }, 
+        "usr/bin/curvecpclient": {
+            "report-functions": [
+                "write", 
+                "_exit", 
+                "lockf", 
+                "__gmon_start__", 
+                "chdir", 
+                "fopen", 
+                "fclose", 
+                "setsockopt", 
+                "open", 
+                "dup", 
+                "recvfrom", 
+                "__isoc99_fscanf", 
+                "popen", 
+                "sendto", 
+                "__stack_chk_fail", 
+                "fsync", 
+                "fchdir", 
+                "sleep", 
+                "fcntl", 
+                "read", 
+                "fork", 
+                "execvp", 
+                "poll", 
+                "socket", 
+                "waitpid", 
+                "close", 
+                "clock_gettime", 
+                "__errno_location", 
+                "pclose", 
+                "__libc_start_main"
+            ], 
+            "rpm": "nacl-20110221-18.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/curvecpclient"
+        }, 
+        "complexity": {
+            "r2aa": {
+                "afCc": 11, 
+                "afC": 235
+            }
+        }, 
+        "usr/bin/nacl-sha512": {
+            "report-functions": [
+                "free", 
+                "fclose", 
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "read", 
+                "mmap", 
+                "sleep", 
+                "__fxstat", 
+                "pclose", 
+                "fopen", 
+                "_IO_getc", 
+                "popen", 
+                "open", 
+                "__printf_chk", 
+                "__isoc99_fscanf", 
+                "posix_memalign"
+            ], 
+            "rpm": "nacl-20110221-18.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nacl-sha512"
+        }, 
+        "usr/bin/curvecpprintkey": {
+            "report-functions": [
+                "read", 
+                "_exit", 
+                "fopen", 
+                "close", 
+                "fclose", 
+                "sleep", 
+                "__libc_start_main", 
+                "__errno_location", 
+                "open", 
+                "__stack_chk_fail", 
+                "chdir", 
+                "popen", 
+                "__isoc99_fscanf", 
+                "write", 
+                "pclose"
+            ], 
+            "rpm": "nacl-20110221-18.fc27.i686.rpm", 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/curvecpprintkey"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " nacl", 
+            "License": " Public Domain", 
+            "URL": " http://nacl.cace-project.eu/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-03.phx2.fedoraproject.org", 
+            "Description": "\nNaCl (pronounced \"salt\") is a new easy-to-use high-speed software library for\nnetwork communication, encryption, decryption, signatures, etc. NaCl's goal\nis to provide all of the core operations needed to build higher-level\ncryptographic tools.\n", 
+            "Build Date": " Thu 03 Aug 2017 11:26:23 PM EDT", 
+            "Source RPM": " nacl-20110221-18.fc27.src.rpm", 
+            "Version": " 20110221", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 07:34:11 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 18.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Networking and Cryptography library", 
+            "Size": " 547170"
+        }
+    }
+}
