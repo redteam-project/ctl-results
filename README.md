@@ -346,6 +346,5 @@ When the tool works right, here's a sample result, taken from [coreutils](fedora
             "rpm": "coreutils-8.27-16.fc27.x86_64.rpm"
         }, 
 	{ "_comment": "truncated to end of file" },
-    },
 }
 ```
