@@ -15,7 +15,7 @@ This will be an iterative process. We're still immature, but this project is bei
 
 Here's a sample of the data collected by this project.
 
-(https://github.com/fedoraredteam/ctl-results/raw/master/afCc.png)
+![afcc](https://github.com/fedoraredteam/ctl-results/raw/master/afCc.png)
 
 This graph shows the cyclomatic complexity values for all Fedora 27 binaries (for which the CTL code cooperated, we have a [bug](https://github.com/fedoraredteam/cyber-test-lab/issues/1) there). The histogram represents a probability density function indiciating the liklihood that a complexity value will fall in that range. We see that most Fedora 27 binaries are not 
 
