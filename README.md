@@ -6,8 +6,8 @@ Results of Cyber Test Lab analysis
 We've now posted a complete analysis run of the [Fedora 27 packages](https://github.com/fedoraredteam/ctl-results/tree/master/fedora/27). The [CTL](https://github.com/fedoraredteam/cyber-test-lab) code is still alpha.
 
 We have the two following convictions about our results:
-1. They're almost certainly wrong in one way or another
-2. They absolutly will get better
+1. They're wrong
+2. They will get better
 
 This will be an iterative process. We're still immature, but this project is being actively improved.
 
@@ -17,7 +17,11 @@ Here's a sample of the data collected by this project.
 
 ![afcc](https://github.com/fedoraredteam/ctl-results/raw/master/afCc.png)
 
-This graph shows the cyclomatic complexity values for all Fedora 27 binaries (for which the CTL code cooperated, we have a [bug](https://github.com/fedoraredteam/cyber-test-lab/issues/1) there). The histogram represents a probability density function indiciating the liklihood that a complexity value will fall in that range. We see that most Fedora 27 binaries are not 
+This graph shows the [cyclomatic complexity](https://blog.jasoncallaway.com/2017/09/19/measuring-cyclomatic-complexity-with-radare2/) values for all Fedora 27 binaries (for which the CTL code cooperated, we have a [bug](https://github.com/fedoraredteam/cyber-test-lab/issues/1) there). The histogram represents a probability density function indiciating the liklihood that a complexity value will fall in that range. We see that most Fedora 27 binaries have a cyclomatic complexity of less than 100, with a mean of about 35. Some binaries are much more complex, the highest in this dataset being 780. Note that we currently [time out](https://github.com/fedoraredteam/cyber-test-lab/blob/master/cybertestlab/CyberTestLab.py#L188) `r2` after 10 minutes of trying to analyze the binary (`aa` command). As a result, there are many cyclomatic complexity values higher than 780 in the Fedora 27 repositories. We're tracking a [bug](https://github.com/fedoraredteam/cyber-test-lab/issues/6) for that too.
+
+So what does this mean? We won't know for sure until we graduate from this static analysis to dynamic analysis in the form of fuzzing. (For an introduction to fuzzing, the [Sully manual](http://www.fuzzing.org/wp-content/SulleyManual.pdf) is excellent.) The theory is that more complex binaries will be more likely to crash while being fuzzed. Crashes can then be analyzed to find new [0-day vulnerabilities](https://en.wikipedia.org/wiki/Zero-day_(computing)). So a smaller cyclomatic complexity value is better, and hopefully more "secure."
+
+Check back for udates and more analysis.
 
 ## Sample results data
 
