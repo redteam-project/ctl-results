@@ -11,7 +11,18 @@ We have the two following convictions about our results:
 
 This will be an iterative process. We're still immature, but this project is being actively improved.
 
-## Fedora 27 complexity analysis
+## Data points collected
+
+The Cyber Test Lab collects the following data for each ELF binary:
+* ASLR enabled or disabled (position-independant code / executable)
+* Read-only relocations (RELRO) enabled or disabled
+* Stack protected or not
+* Presence or absence of source fortified functions
+* Immediate binding
+* Cyclomatic complexity
+* Cycle cost
+
+## Fedora 27 cyclomatic complexity analysis
 
 Here's a sample of the data collected by this project.
 
