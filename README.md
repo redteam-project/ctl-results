@@ -18,7 +18,7 @@ The Cyber Test Lab collects the following data for each ELF binary:
 * Read-only relocations (RELRO) enabled or disabled
 * Stack protected or not
 * Presence or absence of source fortified functions
-* Immediate binding
+* Immediate binding or lazy resolution
 * Cyclomatic complexity
 * Cycle cost
 
