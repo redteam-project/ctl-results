@@ -1,0 +1,85 @@
+{
+    "results": {
+        "usr/bin/kbuildsycoca5": {
+            "report-functions": [
+                "__fprintf_chk", 
+                "__libc_start_main", 
+                "unlink", 
+                "_ZN9QListData7disposeEPNS_4DataE", 
+                "_ZN18QCommandLineParser7processERK16QCoreApplication", 
+                "_ZN16KLocalizedStringD1Ev", 
+                "_ZN16KLocalizedString20setApplicationDomainEPKc", 
+                "_ZN14QStandardPaths14enableTestModeEb", 
+                "_ZN12KBuildSycocaD1Ev", 
+                "_ZN10KAboutData18setApplicationDataERKS_", 
+                "_ZN18QCommandLineParserC1Ev", 
+                "_ZN7QStringaSERKS_", 
+                "__cxa_finalize", 
+                "__stack_chk_fail", 
+                "_ZN10KAboutDataC1ERK7QStringS2_S2_S2_N13KAboutLicense10LicenseKeyES2_S2_S2_S2_", 
+                "_ZN16QCoreApplicationD1Ev", 
+                "_Z7ki18ndcPKcS0_S0_", 
+                "__gmon_start__", 
+                "_ZN10KAboutDataD1Ev", 
+                "_ZN18QCommandLineParserD1Ev", 
+                "_ZN18QCommandLineParser9addOptionERK18QCommandLineOption", 
+                "_ZN18QCommandLineOptionD1Ev", 
+                "_ZN10KAboutData9addAuthorERK7QStringS2_S2_S2_S2_", 
+                "_ZN12KBuildSycoca10sycocaPathEv", 
+                "_ZN18QCommandLineParser13addHelpOptionEv", 
+                "_ZN6KCrash24setEmergencySaveFunctionEPFviE", 
+                "_ZN12KBuildSycoca8recreateEb", 
+                "_Z7qputenvPKcRK10QByteArray", 
+                "_ZNK18QCommandLineParser5valueERK7QString", 
+                "_ZN12KBuildSycocaC1Eb", 
+                "_ZNK18QCommandLineParser5isSetERK7QString", 
+                "_ZN16QCoreApplicationC1ERiPPci", 
+                "_ITM_registerTMCloneTable", 
+                "_ZN18QCommandLineParser16addVersionOptionEv", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ZN14QStandardPaths17standardLocationsENS_16StandardLocationE", 
+                "_ZN10KAboutData18processCommandLineEP18QCommandLineParser", 
+                "_ZN18QCommandLineOptionC1ERK7QStringS2_S2_S2_", 
+                "_ZNK16KLocalizedString8toStringEv", 
+                "_ZN10KAboutData16setupCommandLineEP18QCommandLineParser"
+            ], 
+            "rpm": "kf5-kservice-5.40.0-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/kbuildsycoca5"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " kf5-kservice", 
+            "License": " LGPLv2", 
+            "URL": " https://cgit.kde.org/kservice.git", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-23.phx2.fedoraproject.org", 
+            "Description": "\nKDE Frameworks 5 Tier 3 solution for advanced plugin and service\nintrospection.\n", 
+            "Build Date": " Mon 13 Nov 2017 06:41:40 PM EST", 
+            "Source RPM": " kf5-kservice-5.40.0-1.fc27.src.rpm", 
+            "Version": " 5.40.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 14 Nov 2017 04:59:29 PM EST, Key ID f55e7430f5282ee4", 
+            "Release": " 1.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " KDE Frameworks 5 Tier 3 solution for advanced plugin and service introspection", 
+            "Size": " 1116545"
+        }
+    }
+}

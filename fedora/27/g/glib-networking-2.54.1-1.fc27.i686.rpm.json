@@ -1,0 +1,103 @@
+{
+    "results": {
+        "usr/libexec/glib-pacrunner": {
+            "report-functions": [
+                "g_task_propagate_pointer", 
+                "g_task_is_valid", 
+                "__stack_chk_fail", 
+                "g_task_return_error_if_cancelled", 
+                "g_strfreev", 
+                "g_setenv", 
+                "g_task_return_pointer", 
+                "g_dbus_node_info_new_for_xml", 
+                "g_type_check_instance_cast", 
+                "g_main_loop_quit", 
+                "_ITM_registerTMCloneTable", 
+                "g_type_check_class_cast", 
+                "_ITM_deregisterTMCloneTable", 
+                "g_set_error_literal", 
+                "g_strdup_printf", 
+                "g_malloc_n", 
+                "g_type_class_peek_parent", 
+                "g_io_error_quark", 
+                "g_log", 
+                "g_task_run_in_thread_sync", 
+                "g_type_class_adjust_private_offset", 
+                "g_strdup", 
+                "g_task_get_type", 
+                "__libc_start_main", 
+                "g_dbus_method_invocation_take_error", 
+                "g_object_unref", 
+                "g_bus_own_name", 
+                "__gmon_start__", 
+                "px_proxy_factory_new", 
+                "g_task_return_error", 
+                "g_bus_unown_name", 
+                "px_proxy_factory_free", 
+                "g_type_register_static_simple", 
+                "g_task_run_in_thread", 
+                "g_proxy_resolver_lookup_finish", 
+                "g_task_set_return_on_cancel", 
+                "g_once_init_enter", 
+                "g_unsetenv", 
+                "g_main_loop_new", 
+                "g_task_set_task_data", 
+                "g_task_new", 
+                "g_proxy_resolver_get_type", 
+                "g_dbus_method_invocation_return_value", 
+                "g_task_set_source_tag", 
+                "g_variant_get", 
+                "g_dbus_connection_register_object", 
+                "g_type_add_interface_static", 
+                "g_once_init_leave", 
+                "g_main_loop_run", 
+                "px_proxy_factory_get_proxies", 
+                "g_free", 
+                "__cxa_finalize", 
+                "g_dgettext", 
+                "g_variant_new", 
+                "g_return_if_fail_warning", 
+                "g_proxy_resolver_lookup_async", 
+                "free", 
+                "g_object_new"
+            ], 
+            "rpm": "glib-networking-2.54.1-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/libexec/glib-pacrunner"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " glib-networking", 
+            "License": " LGPLv2+", 
+            "URL": " http://www.gnome.org", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-04.phx2.fedoraproject.org", 
+            "Description": "\nThis package contains modules that extend the networking support in\nGIO. In particular, it contains libproxy- and GSettings-based\nGProxyResolver implementations and a gnutls-based GTlsConnection\nimplementation.\n", 
+            "Build Date": " Wed 01 Nov 2017 05:08:42 PM EDT", 
+            "Source RPM": " glib-networking-2.54.1-1.fc27.src.rpm", 
+            "Version": " 2.54.1", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Wed 01 Nov 2017 05:13:49 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 1.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Networking support for GLib", 
+            "Size": " 447816"
+        }
+    }
+}

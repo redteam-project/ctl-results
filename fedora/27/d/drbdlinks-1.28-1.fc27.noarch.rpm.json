@@ -1,0 +1,25 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Group": " Applications/System", 
+            "Name": " drbdlinks", 
+            "License": " GPLv2", 
+            "URL": " https://www.tummy.com/software/drbdlinks/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-armv7-05.arm.fedoraproject.org", 
+            "Description": "\nThe drbdlinks program manages links into a DRBD partition which is shared\namong several machines. A simple configuration file, \"/etc/drbdlinks.conf\",\nspecifies the links. This can be used to manage e.g. links for /etc/httpd,\n/var/lib/pgsql and other system directories that need to appear as if they\nare local to the system when running applications after the drbd shared\npartition has been mounted.\n\nWhen running drbdlinks with \"start\" as the mode, drbdlinks will rename the\nexisting files/directories and then make symbolic links into the DRBD\npartition, \"stop\" does the reverse. By default, rename appends \".drbdlinks\"\nto the name, but this can be overridden.\n\nAn init script is included which runs \"stop\" before heartbeat starts, and\nafter heartbeat stops. This is done to try to ensure that when the shared\npartition isn't mounted, the links are in their normal state.\n", 
+            "Build Date": " Sun 29 Oct 2017 06:28:16 PM EDT", 
+            "Source RPM": " drbdlinks-1.28-1.fc27.src.rpm", 
+            "Version": " 1.28", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Sun 29 Oct 2017 06:33:25 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 1.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Program for managing links into a DRBD shared partition", 
+            "Size": " 58618"
+        }
+    }
+}

@@ -1,0 +1,191 @@
+{
+    "results": {
+        "usr/bin/gnome-builder": {
+            "report-functions": [
+                "getpid", 
+                "g_log", 
+                "g_setenv", 
+                "fork", 
+                "g_zlib_decompressor_get_type", 
+                "__gmon_start__", 
+                "ide_is_flatpak", 
+                "g_file_test", 
+                "g_strdup_printf", 
+                "ide_log_init", 
+                "ide_log_increase_verbosity", 
+                "gtk_get_minor_version", 
+                "ide_application_new", 
+                "execv", 
+                "g_option_context_free", 
+                "g_option_context_new", 
+                "_ITM_registerTMCloneTable", 
+                "gtk_get_micro_version", 
+                "g_getenv", 
+                "g_option_context_parse", 
+                "gtk_get_major_version", 
+                "_ITM_deregisterTMCloneTable", 
+                "ide_log_shutdown", 
+                "_exit", 
+                "g_option_context_add_main_entries", 
+                "g_find_program_in_path", 
+                "g_type_ensure", 
+                "g_option_context_set_ignore_unknown_options", 
+                "g_option_context_set_help_enabled", 
+                "g_object_unref", 
+                "__libc_start_main", 
+                "waitpid", 
+                "g_ptr_array_free", 
+                "g_application_run", 
+                "g_ptr_array_sized_new", 
+                "signal"
+            ], 
+            "rpm": "gnome-builder-3.26.2-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 6, 
+                    "afC": 181
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/gnome-builder"
+        }, 
+        "usr/libexec/gnome-builder-worker": {
+            "report-functions": [
+                "waitpid", 
+                "g_option_context_free", 
+                "g_zlib_decompressor_get_type", 
+                "g_find_program_in_path", 
+                "ide_application_new", 
+                "g_application_run", 
+                "g_option_context_add_main_entries", 
+                "ide_log_increase_verbosity", 
+                "__cxa_finalize", 
+                "__gmon_start__", 
+                "ide_log_init", 
+                "g_getenv", 
+                "g_log", 
+                "g_ptr_array_sized_new", 
+                "gtk_get_minor_version", 
+                "g_ptr_array_add", 
+                "gtk_get_micro_version", 
+                "g_strdup_printf", 
+                "g_file_test", 
+                "g_ptr_array_free", 
+                "_exit", 
+                "g_option_context_set_help_enabled", 
+                "g_object_unref", 
+                "_ITM_registerTMCloneTable", 
+                "__libc_start_main", 
+                "g_option_context_new", 
+                "g_option_context_parse", 
+                "ide_log_shutdown", 
+                "g_type_ensure", 
+                "_ITM_deregisterTMCloneTable", 
+                "ide_is_flatpak", 
+                "g_setenv", 
+                "getpid", 
+                "gtk_get_major_version", 
+                "fork", 
+                "execv"
+            ], 
+            "rpm": "gnome-builder-3.26.2-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 6, 
+                    "afC": 181
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/libexec/gnome-builder-worker"
+        }, 
+        "usr/bin/gnome-builder-cli": {
+            "report-functions": [
+                "ide_log_increase_verbosity", 
+                "g_option_context_free", 
+                "__gmon_start__", 
+                "g_ptr_array_free", 
+                "g_option_context_set_help_enabled", 
+                "g_option_context_new", 
+                "g_option_context_set_ignore_unknown_options", 
+                "g_object_unref", 
+                "g_getenv", 
+                "gtk_get_minor_version", 
+                "_ITM_deregisterTMCloneTable", 
+                "g_find_program_in_path", 
+                "g_setenv", 
+                "_ITM_registerTMCloneTable", 
+                "g_application_run", 
+                "g_file_test", 
+                "__cxa_finalize", 
+                "_exit", 
+                "execv", 
+                "getpid", 
+                "g_strdup_printf", 
+                "g_log", 
+                "gtk_get_micro_version", 
+                "g_ptr_array_sized_new", 
+                "fork", 
+                "ide_application_new", 
+                "ide_log_init", 
+                "g_type_ensure", 
+                "g_zlib_decompressor_get_type", 
+                "ide_is_flatpak", 
+                "ide_log_shutdown", 
+                "g_option_context_parse", 
+                "g_ptr_array_add", 
+                "__libc_start_main", 
+                "gtk_get_major_version", 
+                "g_option_context_add_main_entries"
+            ], 
+            "rpm": "gnome-builder-3.26.2-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 6, 
+                    "afC": 181
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/gnome-builder-cli"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " gnome-builder", 
+            "License": " GPLv3+ and GPLv2+ and LGPLv3+ and LGPLv2+ and MIT and CC-BY-SA and CC0", 
+            "URL": " https://wiki.gnome.org/Apps/Builder", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-19.phx2.fedoraproject.org", 
+            "Description": "\nBuilder attempts to be an IDE for writing software for GNOME. It does not try\nto be a generic IDE, but one specialized for writing GNOME software.\n", 
+            "Build Date": " Wed 01 Nov 2017 05:57:33 PM EDT", 
+            "Source RPM": " gnome-builder-3.26.2-1.fc27.src.rpm", 
+            "Version": " 3.26.2", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Wed 01 Nov 2017 06:10:02 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 1.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " IDE for writing GNOME-based software", 
+            "Size": " 17239258"
+        }
+    }
+}

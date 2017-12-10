@@ -1,0 +1,65 @@
+{
+    "results": {
+        "usr/bin/aec": {
+            "report-functions": [
+                "aec_decode", 
+                "fread", 
+                "__gmon_start__", 
+                "__fprintf_chk", 
+                "_ITM_registerTMCloneTable", 
+                "__cxa_finalize", 
+                "malloc", 
+                "fwrite", 
+                "__stack_chk_fail", 
+                "exit", 
+                "free", 
+                "strlen", 
+                "fclose", 
+                "aec_encode_end", 
+                "__libc_start_main", 
+                "fopen", 
+                "_ITM_deregisterTMCloneTable", 
+                "aec_decode_init", 
+                "aec_encode_init", 
+                "aec_encode"
+            ], 
+            "rpm": "libaec-1.0.2-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": -2, 
+                    "afC": 56
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/aec"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " libaec", 
+            "License": " BSD", 
+            "URL": " https://gitlab.dkrz.de/k202009/libaec", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-09.phx2.fedoraproject.org", 
+            "Description": "\nLibaec provides fast loss-less compression of 1 up to 32 bit wide\nsigned or unsigned integers (samples). The library achieves best\nresults for low entropy data as often encountered in space imaging\ninstrument data or numerical model output from weather or climate\nsimulations. While floating point representations are not directly\nsupported, they can also be efficiently coded by grouping exponents\nand mantissa.\n\nLibaec implements Golomb Rice coding as defined in the Space Data\nSystem Standard documents 121.0-B-2 and 120.0-G-2.\n\nLibaec includes a free drop-in replacement for the SZIP\nlibrary (http://www.hdfgroup.org/doc_resource/SZIP).\n", 
+            "Build Date": " Tue 24 Oct 2017 06:13:44 PM EDT", 
+            "Source RPM": " libaec-1.0.2-1.fc27.src.rpm", 
+            "Version": " 1.0.2", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 24 Oct 2017 09:16:27 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 1.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Adaptive Entropy Coding library", 
+            "Size": " 70560"
+        }
+    }
+}

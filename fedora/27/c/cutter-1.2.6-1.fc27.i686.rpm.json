@@ -1,0 +1,103 @@
+{
+    "results": {
+        "usr/bin/cutter": {
+            "report-functions": [
+                "cut_init", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable", 
+                "cut_run"
+            ], 
+            "rpm": "cutter-1.2.6-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 1, 
+                    "afC": 37
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/cutter"
+        }, 
+        "usr/bin/cut-diff": {
+            "report-functions": [
+                "g_option_group_add_entries", 
+                "g_option_context_set_help_enabled", 
+                "exit", 
+                "cut_unified_differ_set_from_label", 
+                "g_print", 
+                "__cxa_finalize", 
+                "g_option_group_set_translation_domain", 
+                "g_error_free", 
+                "cut_console_guess_color_usability", 
+                "g_option_context_set_ignore_unknown_options", 
+                "cut_console_parse_color_arg", 
+                "cut_differ_set_context_size", 
+                "g_file_get_contents", 
+                "__gmon_start__", 
+                "cut_readable_differ_new", 
+                "g_free", 
+                "__stack_chk_fail", 
+                "g_option_context_free", 
+                "cut_differ_diff", 
+                "cut_unified_differ_set_to_label", 
+                "_ITM_registerTMCloneTable", 
+                "g_option_group_set_parse_hooks", 
+                "cut_quit_environment", 
+                "g_option_context_new", 
+                "cut_unified_differ_new", 
+                "g_option_context_set_main_group", 
+                "g_option_context_parse", 
+                "_ITM_deregisterTMCloneTable", 
+                "__libc_start_main", 
+                "g_option_group_new", 
+                "cut_colorize_differ_new", 
+                "cut_console_diff_writer_new", 
+                "cut_diff_writer_mark_line"
+            ], 
+            "rpm": "cutter-1.2.6-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 8, 
+                    "afC": 342
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/cut-diff"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " cutter", 
+            "License": " LGPLv3+", 
+            "URL": " http://cutter.sourceforge.net/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-03.phx2.fedoraproject.org", 
+            "Description": "\nCutter is a xUnit family Unit Testing Framework for C/C++.\nCutter provides easy to write test and easy to debug code environment.\n", 
+            "Build Date": " Wed 04 Oct 2017 01:13:50 PM EDT", 
+            "Source RPM": " cutter-1.2.6-1.fc27.src.rpm", 
+            "Version": " 1.2.6", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Wed 04 Oct 2017 01:28:14 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 1.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Unit Testing Framework for C/C++", 
+            "Size": " 1023814"
+        }
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "results": {
+        "usr/bin/getdp": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "_Z10MainKerneliPPc", 
+                "__cxa_finalize", 
+                "__gmon_start__"
+            ], 
+            "rpm": "getdp-2.11.3-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 1, 
+                    "afC": 26
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/getdp"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " getdp", 
+            "License": " GPLv2+", 
+            "URL": " http://www.geuz.org/getdp/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-04.phx2.fedoraproject.org", 
+            "Description": "\nGetDP is an open source finite element solver using mixed elements to\ndiscretize de Rham-type complexes in one, two and three dimensions. The main\nfeature of GetDP is the closeness between the input data defining discrete\nproblems (written by the user in ASCII data files) and the symbolic mathematical\nexpressions of these problems.\n", 
+            "Build Date": " Mon 06 Nov 2017 01:23:21 AM EST", 
+            "Source RPM": " getdp-2.11.3-1.fc27.src.rpm", 
+            "Version": " 2.11.3", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 06 Nov 2017 01:31:23 AM EST, Key ID f55e7430f5282ee4", 
+            "Release": " 1.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " General Environment for the Treatment of Discrete Problems", 
+            "Size": " 1967041"
+        }
+    }
+}

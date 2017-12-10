@@ -1,0 +1,78 @@
+{
+    "results": {
+        "usr/libexec/gnome-rr-debug": {
+            "report-functions": [
+                "gnome_rr_mode_get_is_interlaced", 
+                "_ITM_registerTMCloneTable", 
+                "gnome_rr_screen_list_outputs", 
+                "__stack_chk_fail", 
+                "__libc_start_main", 
+                "g_free", 
+                "gtk_main", 
+                "gtk_init", 
+                "gnome_rr_output_get_id", 
+                "gnome_rr_output_is_builtin_display", 
+                "g_error_free", 
+                "gnome_rr_mode_get_id", 
+                "gnome_rr_output_get_backlight", 
+                "g_signal_connect_data", 
+                "gnome_rr_screen_get_dpms_mode", 
+                "g_object_unref", 
+                "gnome_rr_output_get_min_backlight_step", 
+                "gnome_rr_output_get_edid_data", 
+                "gdk_screen_get_default", 
+                "gnome_rr_output_get_physical_size", 
+                "gnome_rr_mode_get_width", 
+                "gnome_rr_mode_get_freq", 
+                "gnome_rr_screen_new", 
+                "gnome_rr_mode_get_height", 
+                "g_assertion_message_expr", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "g_log", 
+                "gnome_rr_output_get_is_primary", 
+                "gnome_rr_output_get_name", 
+                "gnome_rr_mode_get_is_tiled", 
+                "gnome_rr_output_list_modes"
+            ], 
+            "rpm": "gnome-desktop3-3.26.2-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/libexec/gnome-rr-debug"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " gnome-desktop3", 
+            "License": " GPLv2+ and LGPLv2+", 
+            "URL": " http://www.gnome.org", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-06.phx2.fedoraproject.org", 
+            "Description": "\n\nThe gnome-desktop3 package contains an internal library\n(libgnomedesktop) used to implement some portions of the GNOME\ndesktop, and also some data files and other shared components of the\nGNOME user environment.\n", 
+            "Build Date": " Wed 01 Nov 2017 05:18:24 PM EDT", 
+            "Source RPM": " gnome-desktop3-3.26.2-1.fc27.src.rpm", 
+            "Version": " 3.26.2", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Wed 01 Nov 2017 05:24:59 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 1.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Shared code among gnome-panel, gnome-session, nautilus, etc", 
+            "Size": " 2640350"
+        }
+    }
+}

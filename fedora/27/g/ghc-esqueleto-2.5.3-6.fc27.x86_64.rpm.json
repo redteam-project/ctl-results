@@ -1,0 +1,25 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " ghc-esqueleto", 
+            "License": " BSD", 
+            "URL": " https://hackage.haskell.org/package/esqueleto", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-14.phx2.fedoraproject.org", 
+            "Description": "\n'esqueleto' is a bare bones, type-safe EDSL for SQL queries that works with\nunmodified 'persistent' SQL backends. Its language closely resembles SQL, so\nyou don't have to learn new concepts, just new syntax, and it's fairly easy to\npredict the generated SQL and optimize it for your backend. Most kinds of\nerrors committed when writing SQL are caught as compile-time errors---although\nit is possible to write type-checked 'esqueleto' queries that fail at runtime.\n\n'persistent' is a library for type-safe data serialization. It has many kinds\nof backends, such as SQL backends ('persistent-mysql', 'persistent-postgresql',\n'persistent-sqlite') and NoSQL backends ('persistent-mongoDB'). While\n'persistent' is a nice library for storing and retrieving records, including\nwith filters, it does not try to support some of the features that are specific\nto SQL backends. In particular, 'esqueleto' is the recommended library for\ntype-safe 'JOIN's on 'persistent' SQL backends. (The alternative is using raw\nSQL, but that's error prone and does not offer any composability.)\n\nCurrently, 'SELECT's, 'UPDATE's, 'INSERT's and 'DELETE's are supported.\nNot all SQL features are available, but most of them can be easily added\n(especially functions), so please open an issue or send a pull request if you\nneed anything that is not covered by 'esqueleto' on\n<https://github.com/prowdsponsor/esqueleto/>.\n\nThe name of this library means \"skeleton\" in Portuguese and contains all three\nSQL letters in the correct order =). It was inspired by Scala's Squeryl but\ncreated from scratch.\n", 
+            "Build Date": " Tue 07 Nov 2017 03:13:19 AM EST", 
+            "Source RPM": " ghc-esqueleto-2.5.3-6.fc27.src.rpm", 
+            "Version": " 2.5.3", 
+            "Architecture": " x86_64", 
+            "Signature": " RSA/SHA256, Tue 07 Nov 2017 03:44:50 AM EST, Key ID f55e7430f5282ee4", 
+            "Release": " 6.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Type-safe EDSL for SQL queries on persistent backends", 
+            "Size": " 1046602"
+        }
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "results": {
+        "usr/bin/gs": {
+            "report-functions": [
+                "gsapi_set_stdio", 
+                "fileno", 
+                "gsapi_init_with_args", 
+                "read", 
+                "gsapi_new_instance", 
+                "gsapi_exit", 
+                "fflush", 
+                "__libc_start_main", 
+                "gsapi_delete_instance", 
+                "fwrite", 
+                "__gmon_start__", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "ghostscript-core-9.22-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 7, 
+                    "afC": 128
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/gs"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Applications/Publishing", 
+            "Name": " ghostscript-core", 
+            "License": " AGPLv3+ and Redistributable, no modification permitted", 
+            "URL": " http://www.ghostscript.com/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-10.phx2.fedoraproject.org", 
+            "Description": "\nThe parts of Ghostscript which do not require X11.\n", 
+            "Build Date": " Thu 09 Nov 2017 08:49:41 AM EST", 
+            "Source RPM": " ghostscript-9.22-1.fc27.src.rpm", 
+            "Version": " 9.22", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 09 Nov 2017 09:33:01 AM EST, Key ID f55e7430f5282ee4", 
+            "Release": " 1.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Parts of Ghostscript which do not require X11", 
+            "Size": " 21799871"
+        }
+    }
+}
