@@ -1,0 +1,121 @@
+{
+    "results": {
+        "usr/bin/playmus2": {
+            "report-functions": [
+                "scanf", 
+                "SDL_Log", 
+                "SDL_RWFromFile", 
+                "Mix_OpenAudio", 
+                "strtol", 
+                "fflush", 
+                "SDL_Delay", 
+                "Mix_LoadMUS_RW", 
+                "signal", 
+                "__libc_start_main", 
+                "_ITM_deregisterTMCloneTable", 
+                "SDL_Init", 
+                "Mix_CloseAudio", 
+                "strcmp", 
+                "Mix_FadeOutMusic", 
+                "__gmon_start__", 
+                "Mix_PauseMusic", 
+                "__stack_chk_fail", 
+                "SDL_getenv", 
+                "Mix_PausedMusic", 
+                "Mix_LoadMUS", 
+                "Mix_ResumeMusic", 
+                "SDL_Quit", 
+                "Mix_QuerySpec", 
+                "_ITM_registerTMCloneTable", 
+                "Mix_VolumeMusic", 
+                "exit", 
+                "Mix_FreeMusic", 
+                "Mix_SetMusicCMD", 
+                "__cxa_finalize", 
+                "Mix_FadeInMusic", 
+                "SDL_GetError", 
+                "Mix_HaltMusic"
+            ], 
+            "rpm": "SDL2_mixer-2.0.2-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/playmus2"
+        }, 
+        "usr/bin/playwave2": {
+            "report-functions": [
+                "Mix_CloseAudio", 
+                "SDL_Quit", 
+                "signal", 
+                "Mix_FreeChunk", 
+                "__stack_chk_fail", 
+                "SDL_Init", 
+                "_ITM_deregisterTMCloneTable", 
+                "strcmp", 
+                "Mix_LoadWAV_RW", 
+                "Mix_Playing", 
+                "SDL_Log", 
+                "Mix_SetReverseStereo", 
+                "_IO_putc", 
+                "strtol", 
+                "Mix_PlayChannelTimed", 
+                "exit", 
+                "SDL_GetError", 
+                "Mix_OpenAudio", 
+                "__gmon_start__", 
+                "SDL_RWFromFile", 
+                "_ITM_registerTMCloneTable", 
+                "__libc_start_main", 
+                "Mix_QuerySpec", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "SDL2_mixer-2.0.2-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/playwave2"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " SDL2_mixer", 
+            "License": " zlib", 
+            "URL": " https://www.libsdl.org/projects/SDL_mixer/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-04.phx2.fedoraproject.org", 
+            "Description": "\nSDL_mixer is a sample multi-channel audio mixer library.\nIt supports any number of simultaneously playing channels of 16 bit stereo\naudio, plus a single channel of music, mixed by the popular FLAC,\nMikMod MOD, Timidity MIDI, Ogg Vorbis, and SMPEG MP3 libraries.\n", 
+            "Build Date": " Fri 10 Nov 2017 09:35:56 AM EST", 
+            "Source RPM": " SDL2_mixer-2.0.2-1.fc27.src.rpm", 
+            "Version": " 2.0.2", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 10 Nov 2017 09:42:06 AM EST, Key ID f55e7430f5282ee4", 
+            "Release": " 1.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Simple DirectMedia Layer - Sample Mixer Library", 
+            "Size": " 163019"
+        }
+    }
+}

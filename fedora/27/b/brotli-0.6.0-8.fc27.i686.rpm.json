@@ -1,0 +1,84 @@
+{
+    "results": {
+        "usr/bin/brotli": {
+            "report-functions": [
+                "BrotliDecoderDecompressStream", 
+                "free", 
+                "open", 
+                "feof", 
+                "__cxa_finalize", 
+                "BrotliDecoderSetCustomDictionary", 
+                "fdopen", 
+                "fclose", 
+                "utime", 
+                "BrotliEncoderIsFinished", 
+                "exit", 
+                "fwrite", 
+                "fopen", 
+                "fseek", 
+                "unlink", 
+                "__gmon_start__", 
+                "ferror", 
+                "__libc_start_main", 
+                "chmod", 
+                "__fread_chk", 
+                "__xstat", 
+                "BrotliDecoderCreateInstance", 
+                "BrotliEncoderSetParameter", 
+                "ftell", 
+                "strcmp", 
+                "_ITM_deregisterTMCloneTable", 
+                "perror", 
+                "fread", 
+                "BrotliEncoderCreateInstance", 
+                "strlen", 
+                "__stack_chk_fail", 
+                "__fprintf_chk", 
+                "__printf_chk", 
+                "BrotliEncoderSetCustomDictionary", 
+                "BrotliEncoderCompressStream", 
+                "BrotliDecoderDestroyInstance", 
+                "chown", 
+                "BrotliEncoderDestroyInstance", 
+                "malloc"
+            ], 
+            "rpm": "brotli-0.6.0-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 91, 
+                    "afC": 1377
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/brotli"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " brotli", 
+            "License": " MIT", 
+            "URL": " https://github.com/google/brotli", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-17.phx2.fedoraproject.org", 
+            "Description": "\nBrotli is a generic-purpose lossless compression algorithm that compresses\ndata using a combination of a modern variant of the LZ77 algorithm, Huffman\ncoding and 2nd order context modeling, with a compression ratio comparable\nto the best currently available general-purpose compression methods.\nIt is similar in speed with deflate but offers more dense compression.\n", 
+            "Build Date": " Sun 29 Oct 2017 10:57:21 AM EDT", 
+            "Source RPM": " brotli-0.6.0-8.fc27.src.rpm", 
+            "Version": " 0.6.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sun 29 Oct 2017 11:15:59 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 8.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Lossless compression algorithm", 
+            "Size": " 798812"
+        }
+    }
+}
