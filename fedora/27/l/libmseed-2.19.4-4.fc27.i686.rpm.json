@@ -1,0 +1,157 @@
+{
+    "results": {
+        "usr/bin/msrepack": {
+            "report-functions": [
+                "msr_print", 
+                "msr_free", 
+                "mst_pack", 
+                "ms_readmsr", 
+                "strtoul", 
+                "strncpy", 
+                "__libc_start_main", 
+                "fopen", 
+                "msr_pack", 
+                "msr_duplicate", 
+                "__fprintf_chk", 
+                "msr_pack_header", 
+                "mst_addmsrtogroup", 
+                "strtol", 
+                "fclose", 
+                "mst_initgroup", 
+                "free", 
+                "strspn", 
+                "realloc", 
+                "ms_log", 
+                "ms_errorstr", 
+                "sigaction", 
+                "malloc", 
+                "sigemptyset", 
+                "fwrite", 
+                "strcmp", 
+                "__errno_location", 
+                "__gmon_start__", 
+                "mst_freegroup"
+            ], 
+            "rpm": "libmseed-2.19.4-4.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/msrepack"
+        }, 
+        "usr/lib/libmseed_so_2_19_4": {
+            "report-functions": [
+                "__errno_location", 
+                "feof", 
+                "__fxstat", 
+                "fwrite", 
+                "strlen", 
+                "__cxa_finalize", 
+                "fputs", 
+                "__stack_chk_fail", 
+                "strcmp", 
+                "_ITM_deregisterTMCloneTable", 
+                "__sprintf_chk", 
+                "fread", 
+                "localtime", 
+                "strtol", 
+                "strchr", 
+                "_ITM_registerTMCloneTable", 
+                "realloc", 
+                "strncpy", 
+                "strncmp", 
+                "free", 
+                "calloc", 
+                "__vsnprintf_chk", 
+                "fgets", 
+                "fseeko", 
+                "getenv", 
+                "strerror", 
+                "memmove", 
+                "ftello", 
+                "__ctype_b_loc", 
+                "ferror", 
+                "strdup", 
+                "__memcpy_chk", 
+                "__snprintf_chk", 
+                "fopen", 
+                "__gmon_start__", 
+                "strcpy", 
+                "fileno", 
+                "fclose", 
+                "malloc", 
+                "__isoc99_sscanf"
+            ], 
+            "rpm": "libmseed-2.19.4-4.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libmseed.so.2.19.4"
+        }, 
+        "usr/bin/msview": {
+            "report-functions": [
+                "sigemptyset", 
+                "__libc_start_main", 
+                "strcmp", 
+                "__fprintf_chk", 
+                "strspn", 
+                "msr_print", 
+                "strtol", 
+                "ms_samplesize", 
+                "fwrite", 
+                "__stack_chk_fail", 
+                "exit", 
+                "ms_readmsr", 
+                "ms_errorstr", 
+                "__gmon_start__"
+            ], 
+            "rpm": "libmseed-2.19.4-4.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/msview"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " libmseed", 
+            "License": " LGPLv3+", 
+            "URL": " https://www.iris.edu/ds/nodes/dmc/software/downloads/libmseed", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-28.phx2.fedoraproject.org", 
+            "Description": "\nThe Mini-SEED library provides a framework for manipulation of SEED data\nrecords including the unpacking and packing of data records. Functionality is\nalso included for managing waveform data as continuous traces. All structures\nof SEED 2.4 data records are supported with the following exceptions:\nBlockette 2000 opaque data which has an unknown data structure by definition\nand Blockette 405 which depends on full SEED (SEED including full ASCII\nheaders) for a full data description.\n", 
+            "Build Date": " Tue 29 Aug 2017 06:15:12 AM EDT", 
+            "Source RPM": " libmseed-2.19.4-4.fc27.src.rpm", 
+            "Version": " 2.19.4", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 29 Aug 2017 06:23:43 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 4.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A C library framework for manipulating and managing SEED data records", 
+            "Size": " 282329"
+        }
+    }
+}

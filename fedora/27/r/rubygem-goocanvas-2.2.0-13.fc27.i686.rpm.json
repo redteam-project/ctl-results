@@ -1,0 +1,51 @@
+{
+    "results": {
+        "usr/lib/gems/ruby/goocanvas-2_2_0/goocanvas_so": {
+            "report-functions": [
+                "goo_canvas_item_get_child", 
+                "goo_canvas_item_get_n_children", 
+                "goo_canvas_get_type", 
+                "goo_canvas_item_get_type", 
+                "rbgobj_gc_mark_instance", 
+                "_ITM_deregisterTMCloneTable", 
+                "goo_canvas_get_root_item", 
+                "__gmon_start__", 
+                "rbgobj_register_mark_func"
+            ], 
+            "rpm": "rubygem-goocanvas-2.2.0-13.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: 'NoneType' object is not iterable"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/gems/ruby/goocanvas-2.2.0/goocanvas.so"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Languages", 
+            "Name": " rubygem-goocanvas", 
+            "License": " LGPLv2", 
+            "URL": " http://ruby-gnome2.sourceforge.jp/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-25.phx2.fedoraproject.org", 
+            "Description": "\nRuby/GooCanvas is a Ruby binding of GooCanvas.\n", 
+            "Build Date": " Fri 04 Aug 2017 01:43:31 PM EDT", 
+            "Source RPM": " rubygem-goocanvas-2.2.0-13.fc27.src.rpm", 
+            "Version": " 2.2.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 05 Aug 2017 01:11:28 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 13.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Ruby binding of GooCanvas", 
+            "Size": " 100407"
+        }
+    }
+}

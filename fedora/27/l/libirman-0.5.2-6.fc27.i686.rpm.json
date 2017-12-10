@@ -1,0 +1,220 @@
+{
+    "results": {
+        "usr/bin/workmanir": {
+            "report-functions": [
+                "system", 
+                "__errno_location", 
+                "puts", 
+                "__stack_chk_fail", 
+                "exit", 
+                "ir_strerror", 
+                "strcpy", 
+                "__gmon_start__", 
+                "ir_register_command", 
+                "ir_default_portname", 
+                "ir_init_commands", 
+                "_ITM_registerTMCloneTable", 
+                "ir_init", 
+                "__fprintf_chk", 
+                "ir_get_command", 
+                "fwrite", 
+                "__libc_start_main", 
+                "ir_finish", 
+                "ir_free_commands", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "libirman-0.5.2-6.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/workmanir"
+        }, 
+        "usr/bin/test_io": {
+            "report-functions": [
+                "__gmon_start__", 
+                "__fprintf_chk", 
+                "_ITM_registerTMCloneTable", 
+                "fwrite", 
+                "__cxa_finalize", 
+                "fflush", 
+                "__libc_start_main", 
+                "_IO_putc", 
+                "__errno_location", 
+                "ir_usleep", 
+                "tcdrain", 
+                "ir_open_port", 
+                "__printf_chk", 
+                "exit", 
+                "ir_strerror", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "libirman-0.5.2-6.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/test_io"
+        }, 
+        "usr/bin/test_name": {
+            "report-functions": [
+                "__errno_location", 
+                "ir_strerror", 
+                "ir_init", 
+                "ir_get_code", 
+                "ir_code_to_text", 
+                "ir_init_commands", 
+                "fwrite", 
+                "__gmon_start__", 
+                "__fprintf_chk", 
+                "ir_default_portname", 
+                "ir_text_to_name", 
+                "exit", 
+                "_ITM_deregisterTMCloneTable", 
+                "ir_finish", 
+                "__libc_start_main", 
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable", 
+                "puts"
+            ], 
+            "rpm": "libirman-0.5.2-6.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/test_name"
+        }, 
+        "usr/bin/test_func": {
+            "report-functions": [
+                "ir_get_code", 
+                "__errno_location", 
+                "_ITM_deregisterTMCloneTable", 
+                "exit", 
+                "__gmon_start__", 
+                "__printf_chk", 
+                "__libc_start_main", 
+                "__cxa_finalize", 
+                "__fprintf_chk", 
+                "ir_code_to_text", 
+                "ir_finish", 
+                "_ITM_registerTMCloneTable", 
+                "fwrite", 
+                "ir_init"
+            ], 
+            "rpm": "libirman-0.5.2-6.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/test_func"
+        }, 
+        "usr/lib/libirman_so_0_0_0": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "__fdelt_chk", 
+                "strchr", 
+                "write", 
+                "cfsetospeed", 
+                "fclose", 
+                "strcmp", 
+                "__cxa_finalize", 
+                "free", 
+                "tcgetattr", 
+                "fgets", 
+                "__cxa_atexit", 
+                "open", 
+                "strerror", 
+                "close", 
+                "fcntl", 
+                "fwrite", 
+                "strcspn", 
+                "read", 
+                "__errno_location", 
+                "gettimeofday", 
+                "__ctype_tolower_loc", 
+                "__printf_chk", 
+                "strcpy", 
+                "puts", 
+                "isatty", 
+                "exit", 
+                "fopen", 
+                "cfsetispeed", 
+                "_ITM_deregisterTMCloneTable", 
+                "getenv", 
+                "select", 
+                "perror", 
+                "strncpy", 
+                "__ctype_b_loc", 
+                "tcflush", 
+                "tcdrain", 
+                "flock", 
+                "tcsetattr", 
+                "strspn", 
+                "malloc", 
+                "calloc", 
+                "_ITM_registerTMCloneTable", 
+                "strlen"
+            ], 
+            "rpm": "libirman-0.5.2-6.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libirman.so.0.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " libirman", 
+            "License": " GPLv2+ and LGPLv2+", 
+            "URL": " http://sourceforge.net/projects/libirman/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-02.phx2.fedoraproject.org", 
+            "Source RPM": " libirman-0.5.2-6.fc27.src.rpm", 
+            "Description": "\nRuntime libraries for accessing the IrMan hardware.\n\nThe IrMan hardware((http://www.intolect.com/irmandetail.htm) is  nowadays\ndiscontinued. However, some modern hardware (notably the irtoy) is able to\nemulate the irman protocol.\n", 
+            "Build Date": " Thu 03 Aug 2017 02:39:01 PM EDT", 
+            "Epoch": " 1", 
+            "Version": " 0.5.2", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 09:48:40 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 6.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Library for IRMAN hardware", 
+            "Size": " 111240"
+        }
+    }
+}

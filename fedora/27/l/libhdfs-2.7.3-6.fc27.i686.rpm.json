@@ -1,0 +1,73 @@
+{
+    "results": {
+        "usr/lib/libhdfs_so_0_0_0": {
+            "report-functions": [
+                "pthread_getspecific", 
+                "vfprintf", 
+                "strcmp", 
+                "snprintf", 
+                "pthread_setspecific", 
+                "strrchr", 
+                "strlen", 
+                "vsnprintf", 
+                "dlerror", 
+                "__gmon_start__", 
+                "fprintf", 
+                "calloc", 
+                "strcpy", 
+                "dlopen", 
+                "fwrite", 
+                "pthread_mutex_lock", 
+                "_ITM_registerTMCloneTable", 
+                "dlclose", 
+                "strstr", 
+                "strspn", 
+                "__cxa_finalize", 
+                "_ITM_deregisterTMCloneTable", 
+                "dlsym", 
+                "fputs", 
+                "___tls_get_addr", 
+                "strtok_r", 
+                "getenv", 
+                "strdup", 
+                "pthread_key_create", 
+                "free", 
+                "malloc"
+            ], 
+            "rpm": "libhdfs-2.7.3-6.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libhdfs.so.0.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " libhdfs", 
+            "License": " ASL 2.0 and BSD", 
+            "URL": " https://hadoop.apache.org", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-07.phx2.fedoraproject.org", 
+            "Description": "\nApache Hadoop is a framework that allows for the distributed processing of\nlarge data sets across clusters of computers using simple programming models.\nIt is designed to scale up from single servers to thousands of machines, each\noffering local computation and storage.\n\nThis package provides the Apache Hadoop Filesystem Library.\n", 
+            "Build Date": " Fri 04 Aug 2017 11:46:41 AM EDT", 
+            "Source RPM": " hadoop-2.7.3-6.fc27.src.rpm", 
+            "Version": " 2.7.3", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 05:58:15 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 6.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " The Apache Hadoop Filesystem Library", 
+            "Size": " 73212"
+        }
+    }
+}

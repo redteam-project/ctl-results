@@ -1,0 +1,71 @@
+{
+    "results": {
+        "usr/lib/libpaps_so_0_0_0": {
+            "report-functions": [
+                "pango_layout_get_line_count", 
+                "g_str_hash", 
+                "FT_Get_Glyph", 
+                "g_str_equal", 
+                "__sprintf_chk", 
+                "g_string_truncate", 
+                "pango_ft2_get_context", 
+                "g_hash_table_lookup", 
+                "g_string_append_printf", 
+                "g_string_free", 
+                "g_malloc0", 
+                "g_hash_table_insert", 
+                "FT_Load_Glyph", 
+                "pango_ft2_font_get_face", 
+                "g_hash_table_new_full", 
+                "g_strdup", 
+                "FT_Outline_Decompose", 
+                "g_string_append_len", 
+                "setlocale", 
+                "pango_layout_line_get_extents", 
+                "g_string_append", 
+                "g_string_new", 
+                "g_vasprintf", 
+                "_ITM_registerTMCloneTable", 
+                "__stack_chk_fail", 
+                "_ITM_deregisterTMCloneTable", 
+                "FT_Done_Glyph", 
+                "__cxa_finalize", 
+                "pango_layout_get_line"
+            ], 
+            "rpm": "paps-libs-0.6.8-39.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libpaps.so.0.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " paps-libs", 
+            "License": " LGPLv2+", 
+            "URL": " http://paps.sourceforge.net/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-32.phx2.fedoraproject.org", 
+            "Description": "\npaps is a PostScript converter from plain text file using Pango.\n\nThis package contains the library for paps.\n", 
+            "Build Date": " Fri 04 Aug 2017 03:42:15 AM EDT", 
+            "Source RPM": " paps-0.6.8-39.fc27.src.rpm", 
+            "Version": " 0.6.8", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 11:45:42 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 39.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Libraries for paps", 
+            "Size": " 40015"
+        }
+    }
+}

@@ -1,0 +1,280 @@
+{
+    "results": {
+        "usr/libexec/mecab/mecab-cost-train": {
+            "report-functions": [
+                "__gmon_start__", 
+                "mecab_cost_train", 
+                "_ITM_deregisterTMCloneTable", 
+                "__libc_start_main"
+            ], 
+            "rpm": "mecab-0.996-1.fc27.8.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/libexec/mecab/mecab-cost-train"
+        }, 
+        "usr/libexec/mecab/mecab-dict-index": {
+            "report-functions": [
+                "__libc_start_main", 
+                "__gmon_start__", 
+                "mecab_dict_index", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "mecab-0.996-1.fc27.8.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/libexec/mecab/mecab-dict-index"
+        }, 
+        "usr/lib/libmecab_so_2_0_0": {
+            "report-functions": [
+                "__cxa_rethrow", 
+                "_ZdaPv", 
+                "__cxa_finalize", 
+                "memcmp", 
+                "closedir", 
+                "__cxa_pure_virtual", 
+                "_ZNSt13basic_filebufIcSt11char_traitsIcEE5closeEv", 
+                "__cxa_end_catch", 
+                "_ZNSi10_M_extractIjEERSiRT_", 
+                "_ZSt7getlineIcSt11char_traitsIcESaIcEERSt13basic_istreamIT_T0_ES7_RNSt7__cxx1112basic_stringIS4_S5_T1_EES4_", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_appendEPKcj", 
+                "_ZSt18_Rb_tree_decrementPSt18_Rb_tree_node_base", 
+                "_ZSt20__throw_length_errorPKc", 
+                "_ZSt24__throw_out_of_range_fmtPKcz", 
+                "_ZSt28_Rb_tree_rebalance_for_erasePSt18_Rb_tree_node_baseRS_", 
+                "__printf_chk", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_replaceEjjPKcj", 
+                "__gmon_start__", 
+                "opendir", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7reserveEj", 
+                "_ZSt16__throw_bad_castv", 
+                "isspace", 
+                "sqrt", 
+                "_ITM_deregisterTMCloneTable", 
+                "munmap", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEaSEOS4_", 
+                "_ZNSt8ios_baseD2Ev", 
+                "_ZNSt12__basic_fileIcED1Ev", 
+                "_ZNSt6localeD1Ev", 
+                "strlen", 
+                "_ZSt19__throw_logic_errorPKc", 
+                "pthread_join", 
+                "_ZNSolsEs", 
+                "_ZNSt13basic_filebufIcSt11char_traitsIcEE4openEPKcSt13_Ios_Openmode", 
+                "_ZNSt13basic_filebufIcSt11char_traitsIcEED1Ev", 
+                "_Znwj", 
+                "__cxa_throw_bad_array_new_length", 
+                "readdir", 
+                "_ZNSo5flushEv", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_assignERKS4_", 
+                "putchar", 
+                "_ZNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEED1Ev", 
+                "__stack_chk_fail", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE4swapERS4_", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_mutateEjjPKcj", 
+                "__sprintf_chk", 
+                "_ZnwjRKSt9nothrow_t", 
+                "_Znaj", 
+                "_ZNSi10_M_extractIdEERSiRT_", 
+                "_ZdlPv", 
+                "_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7compareEPKc", 
+                "_ZNSo5tellpEv", 
+                "exp", 
+                "memmove", 
+                "___tls_get_addr", 
+                "_ZNSt8ios_base4InitC1Ev", 
+                "mmap", 
+                "strtod", 
+                "_ZSt17__throw_bad_allocv", 
+                "fflush", 
+                "_ZNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEC1ESt13_Ios_Openmode", 
+                "_ZSt18_Rb_tree_incrementPKSt18_Rb_tree_node_base", 
+                "_ZNSirsERi", 
+                "_ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEED1Ev", 
+                "__cxa_begin_catch", 
+                "_ZNSo3putEc", 
+                "_ZdlPvj", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE14_M_replace_auxEjjjc", 
+                "_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE4findEcj", 
+                "iconv_close", 
+                "_ZNKSt5ctypeIcE13_M_widen_initEv", 
+                "strcmp", 
+                "_ZNSo9_M_insertIdEERSoT_", 
+                "_ZSt2wsIcSt11char_traitsIcEERSt13basic_istreamIT_T0_ES6_", 
+                "getenv", 
+                "__gxx_personality_v0", 
+                "_ZNSo9_M_insertImEERSoT_", 
+                "__open_2", 
+                "exit", 
+                "_ZNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEE7_M_syncEPcjj", 
+                "__fxstat", 
+                "strncpy", 
+                "_ZNSt14basic_ofstreamIcSt11char_traitsIcEED1Ev", 
+                "_Unwind_Resume", 
+                "_ZNSi7getlineEPcic", 
+                "_ZNSolsEi", 
+                "_ZNSo5seekpESt4fposI11__mbstate_tE", 
+                "_ZNSt14basic_ifstreamIcSt11char_traitsIcEED1Ev", 
+                "strncmp", 
+                "_ZNSt8ios_baseC2Ev", 
+                "log", 
+                "iconv", 
+                "_ZdlPvRKSt9nothrow_t", 
+                "_ZNSo5writeEPKci", 
+                "strtol", 
+                "_ZStrsIcSt11char_traitsIcESaIcEERSt13basic_istreamIT_T0_ES7_RNSt7__cxx1112basic_stringIS4_S5_T1_EE", 
+                "_ZNSi10_M_extractIbEERSiRT_", 
+                "_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_i", 
+                "sched_yield", 
+                "close", 
+                "__cxa_atexit", 
+                "_ZNSt9basic_iosIcSt11char_traitsIcEE4initEPSt15basic_streambufIcS1_E", 
+                "_ZSt18_Rb_tree_incrementPSt18_Rb_tree_node_base", 
+                "iconv_open", 
+                "_ZNSt7__cxx1119basic_istringstreamIcSt11char_traitsIcESaIcEED1Ev", 
+                "_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_", 
+                "open", 
+                "strcpy", 
+                "_ZSt29_Rb_tree_insert_and_rebalancebPSt18_Rb_tree_node_baseS0_RS_", 
+                "_ZNSt14basic_ofstreamIcSt11char_traitsIcEEC1EPKcSt13_Ios_Openmode", 
+                "_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc", 
+                "_ZNSt9basic_iosIcSt11char_traitsIcEE5clearESt12_Ios_Iostate", 
+                "_ZNSt13basic_filebufIcSt11char_traitsIcEEC1Ev", 
+                "_ZNSt6localeC1Ev", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERjj", 
+                "_ZNSt8ios_base4InitD1Ev", 
+                "pthread_create"
+            ], 
+            "rpm": "mecab-0.996-1.fc27.8.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libmecab.so.2.0.0"
+        }, 
+        "usr/libexec/mecab/mecab-system-eval": {
+            "report-functions": [
+                "__gmon_start__", 
+                "__libc_start_main", 
+                "mecab_system_eval", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "mecab-0.996-1.fc27.8.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/libexec/mecab/mecab-system-eval"
+        }, 
+        "usr/libexec/mecab/mecab-dict-gen": {
+            "report-functions": [
+                "mecab_dict_gen", 
+                "__gmon_start__", 
+                "__libc_start_main", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "mecab-0.996-1.fc27.8.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/libexec/mecab/mecab-dict-gen"
+        }, 
+        "usr/bin/mecab": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "mecab_do", 
+                "__libc_start_main", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "mecab-0.996-1.fc27.8.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/mecab"
+        }, 
+        "usr/libexec/mecab/mecab-test-gen": {
+            "report-functions": [
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "__libc_start_main", 
+                "mecab_test_gen"
+            ], 
+            "rpm": "mecab-0.996-1.fc27.8.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/libexec/mecab/mecab-test-gen"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Applications/Text", 
+            "Name": " mecab", 
+            "License": " BSD or LGPLv2+ or GPL+", 
+            "URL": " http://mecab.sourceforge.net/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-02.phx2.fedoraproject.org", 
+            "Description": "\nMeCab is a open source morphological analyzer which uses\nCRF (Conditional Random Fields) as the estimation of parameters.\n\nNOTE:\nYou have to install MeCab dictionary rpm to make use\nof MeCab.\n", 
+            "Build Date": " Thu 03 Aug 2017 09:09:39 PM EDT", 
+            "Source RPM": " mecab-0.996-1.fc27.8.src.rpm", 
+            "Version": " 0.996", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 04:53:48 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 1.fc27.8", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Yet Another Part-of-Speech and Morphological Analyzer", 
+            "Size": " 2191743"
+        }
+    }
+}

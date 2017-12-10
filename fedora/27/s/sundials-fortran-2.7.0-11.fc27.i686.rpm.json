@@ -1,0 +1,46 @@
+{
+    "results": {
+        "usr/lib/libsundials_fnvecserial_so_2_7_0": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "N_VNewEmpty_Serial", 
+                "N_VCloneVectorArrayEmpty_Serial", 
+                "__gmon_start__"
+            ], 
+            "rpm": "sundials-fortran-2.7.0-11.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libsundials_fnvecserial.so.2.7.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " sundials-fortran", 
+            "License": " BSD", 
+            "URL": " http://www.llnl.gov/casc/sundials/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-17.phx2.fedoraproject.org", 
+            "Description": "\nSUNDIALS is a SUite of Non-linear DIfferential/ALgebraic equation Solvers\nfor use in writing mathematical software.\nThis package contains the Sundials Fortran libraries.\n", 
+            "Build Date": " Mon 31 Jul 2017 01:03:08 PM EDT", 
+            "Source RPM": " sundials-2.7.0-11.fc27.src.rpm", 
+            "Version": " 2.7.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 31 Jul 2017 01:14:35 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 11.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Suite of nonlinear solvers (static libraries)", 
+            "Size": " 13134"
+        }
+    }
+}

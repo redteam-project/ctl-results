@@ -1,0 +1,112 @@
+{
+    "results": {
+        "usr/lib/libtet_so_1_5_0": {
+            "report-functions": [
+                "_Znwj", 
+                "strlen", 
+                "clock", 
+                "strncpy", 
+                "__fprintf_chk", 
+                "sqrt", 
+                "__strcpy_chk", 
+                "_Znaj", 
+                "__assert_fail", 
+                "cos", 
+                "fputc", 
+                "fgets", 
+                "__gxx_personality_v0", 
+                "__stack_chk_fail", 
+                "__printf_chk", 
+                "puts", 
+                "fclose", 
+                "putchar", 
+                "__strcat_chk", 
+                "__cxa_finalize", 
+                "srand", 
+                "_Unwind_Resume", 
+                "free", 
+                "_ITM_registerTMCloneTable", 
+                "strtol", 
+                "strstr", 
+                "_ZdlPvj", 
+                "rand", 
+                "acos", 
+                "__stpcpy_chk", 
+                "_ITM_deregisterTMCloneTable", 
+                "fopen", 
+                "fwrite", 
+                "fread", 
+                "malloc", 
+                "__sprintf_chk", 
+                "sscanf", 
+                "__gmon_start__", 
+                "_ZdaPv", 
+                "__cxa_throw_bad_array_new_length"
+            ], 
+            "rpm": "tetgen-1.5.0-10.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libtet.so.1.5.0"
+        }, 
+        "usr/bin/tetgen": {
+            "report-functions": [
+                "_ZN8tetgenio9load_nodeEPc", 
+                "__cxa_finalize", 
+                "_Unwind_Resume", 
+                "exit", 
+                "_ITM_deregisterTMCloneTable", 
+                "_Z14tetrahedralizeP14tetgenbehaviorP8tetgenioS2_S2_S2_", 
+                "_ZN14tetgenbehavior17parse_commandlineEiPPc", 
+                "_ZN8tetgenio12load_tetmeshEPci", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "_ZdaPv", 
+                "__libc_start_main", 
+                "__stack_chk_fail", 
+                "__gxx_personality_v0"
+            ], 
+            "rpm": "tetgen-1.5.0-10.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tetgen"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " tetgen", 
+            "License": " AGPLv3+", 
+            "URL": " http://wias-berlin.de/software/tetgen/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-24.phx2.fedoraproject.org", 
+            "Description": "\nTetGen is a program to generate tetrahedral meshes of any 3D polyhedral\ndomains.\nTetGen generates exact constrained Delaunay tetrahedralizations, boundary\nconforming Delaunay meshes, and Voronoi partitions.\n", 
+            "Build Date": " Fri 04 Aug 2017 08:21:02 PM EDT", 
+            "Source RPM": " tetgen-1.5.0-10.fc27.src.rpm", 
+            "Version": " 1.5.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 05 Aug 2017 06:48:11 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 10.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A Quality Tetrahedral Mesh Generator", 
+            "Size": " 626852"
+        }
+    }
+}

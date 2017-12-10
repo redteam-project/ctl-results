@@ -1,0 +1,72 @@
+{
+    "results": {
+        "usr/lib/libtidyp-1_02_so_0_0_0": {
+            "report-functions": [
+                "fopen", 
+                "feof", 
+                "strstr", 
+                "realloc", 
+                "__cxa_finalize", 
+                "munmap", 
+                "fputc", 
+                "_ITM_deregisterTMCloneTable", 
+                "__isoc99_sscanf", 
+                "getenv", 
+                "strtol", 
+                "mmap", 
+                "free", 
+                "__stack_chk_fail", 
+                "__fxstat", 
+                "__ctype_b_loc", 
+                "__sprintf_chk", 
+                "memcmp", 
+                "__gmon_start__", 
+                "fileno", 
+                "__vsnprintf_chk", 
+                "utime", 
+                "malloc", 
+                "__assert_fail", 
+                "fflush", 
+                "__fprintf_chk", 
+                "access", 
+                "exit", 
+                "fclose", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "libtidyp-1.02-19.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libtidyp-1.02.so.0.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " libtidyp", 
+            "License": " W3C", 
+            "URL": " http://www.tidyp.com/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-10.phx2.fedoraproject.org", 
+            "Description": "\nShared libraries for tidyp.\n", 
+            "Build Date": " Fri 04 Aug 2017 08:30:09 PM EDT", 
+            "Source RPM": " tidyp-1.02-19.fc27.src.rpm", 
+            "Version": " 1.02", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 05 Aug 2017 07:02:54 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 19.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Shared libraries for tidyp", 
+            "Size": " 365284"
+        }
+    }
+}

@@ -1,0 +1,81 @@
+{
+    "results": {
+        "usr/lib/libzita-convolver_so_3_1_0": {
+            "report-functions": [
+                "fftwf_destroy_plan", 
+                "free", 
+                "__cxa_allocate_exception", 
+                "pthread_attr_destroy", 
+                "pthread_create", 
+                "pthread_attr_setschedparam", 
+                "pthread_attr_setschedpolicy", 
+                "_ITM_registerTMCloneTable", 
+                "pthread_attr_init", 
+                "__cxa_throw", 
+                "pthread_attr_setscope", 
+                "_Znwj", 
+                "_ZdlPvj", 
+                "_ZdaPv", 
+                "pthread_attr_setstacksize", 
+                "sem_wait", 
+                "fftwf_plan_dft_c2r_1d", 
+                "_Unwind_Resume", 
+                "__cxa_throw_bad_array_new_length", 
+                "sched_get_priority_max", 
+                "__fprintf_chk", 
+                "fftwf_execute_dft_r2c", 
+                "_Znaj", 
+                "usleep", 
+                "sched_get_priority_min", 
+                "posix_memalign", 
+                "fftwf_execute_dft_c2r", 
+                "__stack_chk_fail", 
+                "__cxa_begin_catch", 
+                "__cxa_finalize", 
+                "__cxa_end_catch", 
+                "__gmon_start__", 
+                "fftwf_plan_dft_r2c_1d", 
+                "sem_trywait", 
+                "__gxx_personality_v0", 
+                "_ITM_deregisterTMCloneTable", 
+                "sem_post", 
+                "pthread_attr_setinheritsched", 
+                "pthread_attr_setdetachstate"
+            ], 
+            "rpm": "zita-convolver-3.1.0-13.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libzita-convolver.so.3.1.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " zita-convolver", 
+            "License": " GPLv3+", 
+            "URL": " http://kokkinizita.linuxaudio.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-15.phx2.fedoraproject.org", 
+            "Description": "\nzita-convolver is a fast, partitioned convolution engine library.\n", 
+            "Build Date": " Sat 05 Aug 2017 03:22:06 AM EDT", 
+            "Source RPM": " zita-convolver-3.1.0-13.fc27.src.rpm", 
+            "Version": " 3.1.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sun 06 Aug 2017 02:14:37 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 13.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Convolution engine library", 
+            "Size": " 62446"
+        }
+    }
+}

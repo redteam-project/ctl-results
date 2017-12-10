@@ -1,0 +1,122 @@
+{
+    "results": {
+        "usr/lib/libWN_so_3_0_0": {
+            "report-functions": [
+                "strncmp", 
+                "__isoc99_sscanf", 
+                "strcat", 
+                "_ITM_deregisterTMCloneTable", 
+                "__snprintf_chk", 
+                "calloc", 
+                "malloc", 
+                "__stpcpy_chk", 
+                "strtol", 
+                "getenv", 
+                "strstr", 
+                "__strcat_chk", 
+                "__memcpy_chk", 
+                "fgets", 
+                "rewind", 
+                "__gmon_start__", 
+                "strlen", 
+                "strrchr", 
+                "__strncpy_chk", 
+                "strchr", 
+                "fopen", 
+                "strdup", 
+                "exit", 
+                "getc", 
+                "stpcpy", 
+                "__cxa_finalize", 
+                "fflush", 
+                "snprintf", 
+                "__strncat_chk", 
+                "__stack_chk_fail", 
+                "strtok", 
+                "_IO_putc", 
+                "__sprintf_chk", 
+                "__assert_fail", 
+                "strncpy", 
+                "strcmp", 
+                "strcpy", 
+                "ftell", 
+                "__strcpy_chk", 
+                "tmpfile", 
+                "fclose", 
+                "free", 
+                "fseek", 
+                "fputs"
+            ], 
+            "rpm": "wordnet-3.0-30.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libWN.so.3.0.0"
+        }, 
+        "usr/bin/wn": {
+            "report-functions": [
+                "fputs", 
+                "__gmon_start__", 
+                "exit", 
+                "__fprintf_chk", 
+                "strcmp", 
+                "_ITM_registerTMCloneTable", 
+                "wninit", 
+                "findtheinfo", 
+                "strtolower", 
+                "putchar", 
+                "puts", 
+                "strtol", 
+                "__printf_chk", 
+                "_ITM_deregisterTMCloneTable", 
+                "morphstr", 
+                "fwrite", 
+                "strncmp", 
+                "strsubst", 
+                "__cxa_finalize", 
+                "__libc_start_main"
+            ], 
+            "rpm": "wordnet-3.0-30.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/wn"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Applications/Text", 
+            "Name": " wordnet", 
+            "License": " MIT and GPLv2+", 
+            "URL": " http://wordnet.princeton.edu/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-25.phx2.fedoraproject.org", 
+            "Description": "\nWordNet is a large lexical database of English, developed under the direction\nof George A. Miller. Nouns, verbs, adjectives and adverbs are grouped into sets\nof cognitive synonyms (synsets), each expressing a distinct concept. Synsets\nare interlinked by means of conceptual-semantic and lexical relations. The\nresulting network of meaningfully related words and concepts can be navigated\nwith the browser. WordNet is also freely and publicly available for download.\nWordNet's structure makes it a useful tool for computational linguistics and\nnatural language processing.\n", 
+            "Build Date": " Sat 05 Aug 2017 12:01:39 AM EDT", 
+            "Source RPM": " wordnet-3.0-30.fc27.src.rpm", 
+            "Version": " 3.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 05 Aug 2017 11:32:11 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 30.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A lexical database for the English language", 
+            "Size": " 37474221"
+        }
+    }
+}

@@ -1,0 +1,82 @@
+{
+    "results": {
+        "usr/lib/libtrash_so_3_3": {
+            "report-functions": [
+                "__snprintf_chk", 
+                "dlerror", 
+                "strstr", 
+                "fputc", 
+                "fclose", 
+                "realloc", 
+                "access", 
+                "__fprintf_chk", 
+                "strchr", 
+                "ferror", 
+                "fwrite", 
+                "free", 
+                "__xstat", 
+                "strlen", 
+                "geteuid", 
+                "regfree", 
+                "__errno_location", 
+                "fgetc", 
+                "stpcpy", 
+                "strncpy", 
+                "strcat", 
+                "get_current_dir_name", 
+                "mkdir", 
+                "malloc", 
+                "getuid", 
+                "__ctype_b_loc", 
+                "feof", 
+                "canonicalize_file_name", 
+                "rmdir", 
+                "setreuid", 
+                "strncmp", 
+                "dlvsym", 
+                "__lxstat", 
+                "regcomp", 
+                "__sprintf_chk", 
+                "chmod", 
+                "__stack_chk_fail", 
+                "strcpy", 
+                "getpwuid", 
+                "regexec"
+            ], 
+            "rpm": "libtrash-3.3-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libtrash.so.3.3"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " libtrash", 
+            "License": " GPLv2+", 
+            "URL": " http://pages.stern.nyu.edu/~marriaga/software/libtrash", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-28.phx2.fedoraproject.org", 
+            "Description": "\nLibtrash is the shared library which, when preloaded, implements a trash\ncan under GNU/Linux. Through the interception of function calls which\nmight lead to accidental data loss libtrash effectively ensures that your\ndata remains protected from your own mistakes.\n", 
+            "Build Date": " Thu 03 Aug 2017 04:28:44 PM EDT", 
+            "Source RPM": " libtrash-3.3-8.fc27.src.rpm", 
+            "Version": " 3.3", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 01:58:14 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 8.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Libraries to move files to a trash-folder on delete", 
+            "Size": " 104465"
+        }
+    }
+}

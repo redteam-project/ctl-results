@@ -1,0 +1,113 @@
+{
+    "results": {
+        "usr/lib/libcueoparser_so_0_5_7": {
+            "report-functions": [
+                "realloc", 
+                "fread", 
+                "strtoll", 
+                "ferror", 
+                "__gmon_start__", 
+                "__errno_location", 
+                "strcasestr", 
+                "isatty", 
+                "_IO_getc", 
+                "unlink", 
+                "fcntl", 
+                "clearerr", 
+                "write", 
+                "exit", 
+                "_ITM_deregisterTMCloneTable", 
+                "debug_print", 
+                "fileno", 
+                "__stack_chk_fail", 
+                "lseek", 
+                "fwrite", 
+                "strlen", 
+                "free", 
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable", 
+                "__fprintf_chk", 
+                "strdup", 
+                "close", 
+                "cu_parse_ei_xml", 
+                "mkstemp"
+            ], 
+            "rpm": "libcmpiutil-0.5.7-10.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libcueoparser.so.0.5.7"
+        }, 
+        "usr/lib/libcmpiutil_so_0_5_7": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "setlinebuf", 
+                "gettimeofday", 
+                "strlen", 
+                "xmlReadMemory", 
+                "realloc", 
+                "__cxa_finalize", 
+                "localtime", 
+                "__vasprintf_chk", 
+                "strstr", 
+                "free", 
+                "cu_parse_embedded_instance", 
+                "strcasecmp", 
+                "sscanf", 
+                "xmlDocGetRootElement", 
+                "getenv", 
+                "__fprintf_chk", 
+                "time", 
+                "xmlGetProp", 
+                "_ITM_registerTMCloneTable", 
+                "strcmp", 
+                "pthread_self", 
+                "xmlFreeDoc", 
+                "xmlNodeGetContent", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__"
+            ], 
+            "rpm": "libcmpiutil-0.5.7-10.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libcmpiutil.so.0.5.7"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " libcmpiutil", 
+            "License": " LGPLv2+", 
+            "URL": " http://libvirt.org/CIM/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-13.phx2.fedoraproject.org", 
+            "Description": "\nLibcmpiutil is a library of utility functions for CMPI providers.\nThe goal is to reduce the amount of repetitive work done in\nmost CMPI providers by encapsulating common procedures with more\n\"normal\" APIs.  This extends from operations like getting typed\ninstance properties to standardizing method dispatch and argument checking.\n", 
+            "Build Date": " Thu 03 Aug 2017 01:48:55 PM EDT", 
+            "Source RPM": " libcmpiutil-0.5.7-10.fc27.src.rpm", 
+            "Version": " 0.5.7", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 06:26:08 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 10.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " CMPI Utility Library", 
+            "Size": " 145739"
+        }
+    }
+}

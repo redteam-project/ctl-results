@@ -1,0 +1,867 @@
+{
+    "results": {
+        "usr/lib/libodbcdrvcfg1S_so_2_0_0": {
+            "report-functions": [
+                "calloc", 
+                "strncpy", 
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable", 
+                "__gmon_start__"
+            ], 
+            "rpm": "unixODBC-2.3.4-7.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libodbcdrvcfg1S.so.2.0.0"
+        }, 
+        "usr/lib/libesoobS_so_2_0_0": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "strlen", 
+                "__cxa_finalize", 
+                "strncpy", 
+                "_ITM_deregisterTMCloneTable", 
+                "strcpy", 
+                "__gmon_start__", 
+                "malloc"
+            ], 
+            "rpm": "unixODBC-2.3.4-7.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libesoobS.so.2.0.0"
+        }, 
+        "usr/lib/liboplodbcS_so_2_0_0": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "malloc", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "strncpy", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "unixODBC-2.3.4-7.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/liboplodbcS.so.2.0.0"
+        }, 
+        "usr/lib/liboraodbcS_so_2_0_0": {
+            "report-functions": [
+                "strncpy", 
+                "calloc", 
+                "malloc", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "unixODBC-2.3.4-7.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/liboraodbcS.so.2.0.0"
+        }, 
+        "usr/lib/libodbc_so_2_0_0": {
+            "report-functions": [
+                "__strcpy_chk", 
+                "_ITM_deregisterTMCloneTable", 
+                "chmod", 
+                "strcmp", 
+                "lt_dlclose", 
+                "memcmp", 
+                "__stpcpy_chk", 
+                "_ITM_registerTMCloneTable", 
+                "malloc", 
+                "strstr", 
+                "strncpy", 
+                "__stack_chk_fail", 
+                "fclose", 
+                "lt_dlerror", 
+                "strlen", 
+                "gettimeofday", 
+                "lt_dlopen", 
+                "iconv_open", 
+                "strdup", 
+                "getenv", 
+                "getpid", 
+                "fputc", 
+                "lt_dlinit", 
+                "strcpy", 
+                "pthread_mutex_destroy", 
+                "fgets", 
+                "pthread_mutex_unlock", 
+                "getpwuid", 
+                "lt_dlsym", 
+                "strtok", 
+                "pthread_mutex_lock", 
+                "strtol", 
+                "__errno_location", 
+                "strncmp", 
+                "__ctype_toupper_loc", 
+                "iconv_close", 
+                "stpcpy", 
+                "putenv", 
+                "time", 
+                "__fprintf_chk", 
+                "nl_langinfo", 
+                "putchar", 
+                "calloc", 
+                "puts", 
+                "strcat", 
+                "strchr", 
+                "__vsnprintf_chk", 
+                "getuid", 
+                "strcasecmp", 
+                "iconv", 
+                "free", 
+                "fopen", 
+                "__ctype_b_loc", 
+                "__cxa_finalize", 
+                "__sprintf_chk", 
+                "pthread_mutex_init", 
+                "__printf_chk"
+            ], 
+            "rpm": "unixODBC-2.3.4-7.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libodbc.so.2.0.0"
+        }, 
+        "usr/lib/libodbctxtS_so_2_0_0": {
+            "report-functions": [
+                "strncpy", 
+                "_ITM_registerTMCloneTable", 
+                "malloc", 
+                "calloc", 
+                "strdup", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__"
+            ], 
+            "rpm": "unixODBC-2.3.4-7.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libodbctxtS.so.2.0.0"
+        }, 
+        "usr/bin/iusql": {
+            "report-functions": [
+                "calloc", 
+                "__printf_chk", 
+                "SQLRowCount", 
+                "SQLFreeStmt", 
+                "SQLFetch", 
+                "fgets", 
+                "SQLFreeEnv", 
+                "__sprintf_chk", 
+                "_ITM_deregisterTMCloneTable", 
+                "strtol", 
+                "__libc_start_main", 
+                "exit", 
+                "__cxa_finalize", 
+                "__memcpy_chk", 
+                "__gmon_start__", 
+                "_IO_putc", 
+                "strchr", 
+                "strcpy", 
+                "__fprintf_chk", 
+                "SQLAllocEnv", 
+                "strdup", 
+                "_ITM_registerTMCloneTable", 
+                "SQLColAttributeW", 
+                "strncpy", 
+                "SQLFreeConnect", 
+                "SQLExecute", 
+                "SQLAllocStmt", 
+                "SQLErrorW", 
+                "fputs", 
+                "putchar", 
+                "SQLDisconnect", 
+                "strlen", 
+                "SQLPrepareW", 
+                "fwrite", 
+                "readline", 
+                "SQLGetData", 
+                "free", 
+                "SQLAllocConnect", 
+                "SQLColumnsW", 
+                "__stack_chk_fail", 
+                "setlocale", 
+                "puts", 
+                "__strcat_chk", 
+                "__memset_chk", 
+                "SQLTablesW", 
+                "SQLMoreResults", 
+                "SQLDriverConnectW", 
+                "strncmp"
+            ], 
+            "rpm": "unixODBC-2.3.4-7.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/iusql"
+        }, 
+        "usr/lib/libodbcinst_so_2_0_0": {
+            "report-functions": [
+                "strcasecmp", 
+                "pthread_mutex_lock", 
+                "pthread_mutex_unlock", 
+                "calloc", 
+                "__gmon_start__", 
+                "__ctype_b_loc", 
+                "strncpy", 
+                "__sprintf_chk", 
+                "strtok", 
+                "puts", 
+                "putchar", 
+                "free", 
+                "__stack_chk_fail", 
+                "fgets", 
+                "getpwuid", 
+                "strcmp", 
+                "lt_dlsym", 
+                "__printf_chk", 
+                "strdup", 
+                "getenv", 
+                "getuid", 
+                "malloc", 
+                "fopen", 
+                "strchr", 
+                "fputc", 
+                "__errno_location", 
+                "strncmp", 
+                "__stpcpy_chk", 
+                "__strcpy_chk", 
+                "time", 
+                "fclose", 
+                "lt_dlinit", 
+                "lt_dlclose", 
+                "lt_dlerror", 
+                "strlen", 
+                "strcpy", 
+                "__fprintf_chk", 
+                "_ITM_deregisterTMCloneTable", 
+                "strtol", 
+                "__ctype_toupper_loc", 
+                "strstr", 
+                "__vsnprintf_chk", 
+                "lt_dlopen"
+            ], 
+            "rpm": "unixODBC-2.3.4-7.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libodbcinst.so.2.0.0"
+        }, 
+        "usr/lib/libtdsS_so_2_0_0": {
+            "report-functions": [
+                "calloc", 
+                "strncpy", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "strdup"
+            ], 
+            "rpm": "unixODBC-2.3.4-7.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libtdsS.so.2.0.0"
+        }, 
+        "usr/bin/isql": {
+            "report-functions": [
+                "SQLDisconnect", 
+                "SQLExecDirect", 
+                "exit", 
+                "_ITM_registerTMCloneTable", 
+                "strcat", 
+                "SQLAllocStmt", 
+                "SQLDescribeCol", 
+                "SQLError", 
+                "__gmon_start__", 
+                "strlen", 
+                "SQLDriverConnect", 
+                "malloc", 
+                "SQLAllocHandle", 
+                "SQLSetConnectAttr", 
+                "calloc", 
+                "SQLGetData", 
+                "setlocale", 
+                "strtok", 
+                "SQLTransact", 
+                "SQLFreeStmt", 
+                "SQLGetFunctions", 
+                "SQLRowCount", 
+                "SQLEndTran", 
+                "__stack_chk_fail", 
+                "readline", 
+                "fputs", 
+                "SQLGetDiagRec", 
+                "fwrite", 
+                "__libc_start_main", 
+                "SQLColumns", 
+                "SQLFreeConnect", 
+                "add_history", 
+                "puts", 
+                "realloc", 
+                "SQLColAttribute", 
+                "SQLConnect", 
+                "SQLExecute", 
+                "SQLSetConnectOption", 
+                "free", 
+                "SQLNumResultCols", 
+                "putchar", 
+                "SQLSetEnvAttr", 
+                "memcmp", 
+                "SQLPrepare", 
+                "strdup", 
+                "__printf_chk", 
+                "SQLTables", 
+                "strtol", 
+                "strcmp", 
+                "SQLAllocConnect", 
+                "SQLMoreResults", 
+                "__fprintf_chk", 
+                "_IO_putc", 
+                "SQLFetch", 
+                "SQLAllocEnv", 
+                "fgets", 
+                "__cxa_finalize", 
+                "SQLFreeEnv", 
+                "SQLFreeHandle", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "unixODBC-2.3.4-7.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/isql"
+        }, 
+        "usr/lib/libodbcmyS_so_2_0_0": {
+            "report-functions": [
+                "calloc", 
+                "strdup", 
+                "strncpy", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable", 
+                "__gmon_start__"
+            ], 
+            "rpm": "unixODBC-2.3.4-7.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libodbcmyS.so.2.0.0"
+        }, 
+        "usr/bin/dltest": {
+            "report-functions": [
+                "puts", 
+                "__gmon_start__", 
+                "exit", 
+                "__libc_start_main", 
+                "__cxa_finalize", 
+                "__printf_chk", 
+                "_ITM_registerTMCloneTable", 
+                "_ITM_deregisterTMCloneTable", 
+                "lt_dlopen", 
+                "lt_dlsym", 
+                "lt_dlinit"
+            ], 
+            "rpm": "unixODBC-2.3.4-7.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/dltest"
+        }, 
+        "usr/lib/libodbcdrvcfg2S_so_2_0_0": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "calloc", 
+                "__cxa_finalize", 
+                "__gmon_start__"
+            ], 
+            "rpm": "unixODBC-2.3.4-7.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libodbcdrvcfg2S.so.2.0.0"
+        }, 
+        "usr/lib/libodbccr_so_2_0_0": {
+            "report-functions": [
+                "strlen", 
+                "fread", 
+                "fwrite", 
+                "strstr", 
+                "__stack_chk_fail", 
+                "_ITM_registerTMCloneTable", 
+                "fclose", 
+                "free", 
+                "__sprintf_chk", 
+                "__stpcpy_chk", 
+                "__strcat_chk", 
+                "__cxa_finalize", 
+                "fseek", 
+                "malloc", 
+                "__memcpy_chk", 
+                "calloc", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "strdup"
+            ], 
+            "rpm": "unixODBC-2.3.4-7.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libodbccr.so.2.0.0"
+        }, 
+        "usr/lib/libnn_so_2_0_0": {
+            "report-functions": [
+                "getpwuid", 
+                "fflush", 
+                "strncpy", 
+                "socket", 
+                "strcpy", 
+                "fclose", 
+                "connect", 
+                "sleep", 
+                "fputs", 
+                "malloc", 
+                "strncat", 
+                "fopen", 
+                "__isoc99_sscanf", 
+                "__sprintf_chk", 
+                "__memcpy_chk", 
+                "calloc", 
+                "__fprintf_chk", 
+                "__gmon_start__", 
+                "strcmp", 
+                "__stack_chk_fail", 
+                "isalpha", 
+                "__cxa_finalize", 
+                "fdopen", 
+                "getuid", 
+                "strerror", 
+                "gethostbyname", 
+                "fgets", 
+                "abort", 
+                "strtol", 
+                "strlen", 
+                "__errno_location", 
+                "_ITM_registerTMCloneTable", 
+                "__strcpy_chk", 
+                "close", 
+                "realloc", 
+                "fwrite", 
+                "_ITM_deregisterTMCloneTable", 
+                "inet_addr"
+            ], 
+            "rpm": "unixODBC-2.3.4-7.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libnn.so.2.0.0"
+        }, 
+        "usr/bin/odbcinst": {
+            "report-functions": [
+                "odbcinst_system_file_path", 
+                "__cxa_finalize", 
+                "strncpy", 
+                "__libc_start_main", 
+                "SQLCreateDataSource", 
+                "putchar", 
+                "SQLSetConfigMode", 
+                "SQLGetPrivateProfileString", 
+                "SQLInstallDriverEx", 
+                "_ITM_registerTMCloneTable", 
+                "__gmon_start__", 
+                "memset", 
+                "__errno_location", 
+                "__ctype_b_loc", 
+                "__sprintf_chk", 
+                "SQLRemoveDriver", 
+                "_odbcinst_SystemINI", 
+                "fgets", 
+                "puts", 
+                "strlen", 
+                "malloc", 
+                "SQLInstallerError", 
+                "exit", 
+                "__stack_chk_fail", 
+                "SQLGetConfigMode", 
+                "SQLRemoveDSNFromIni", 
+                "SQLManageDataSources", 
+                "__printf_chk", 
+                "_odbcinst_FileINI", 
+                "_ITM_deregisterTMCloneTable", 
+                "_odbcinst_UserINI", 
+                "free", 
+                "odbcinst_system_file_name", 
+                "__strcpy_chk", 
+                "SQLWritePrivateProfileString", 
+                "fclose"
+            ], 
+            "rpm": "unixODBC-2.3.4-7.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/odbcinst"
+        }, 
+        "usr/lib/libtemplate_so_2_0_0": {
+            "report-functions": [
+                "strlen", 
+                "strncmp", 
+                "lt_dlerror", 
+                "__stack_chk_fail", 
+                "time", 
+                "lt_dlopen", 
+                "__isoc99_sscanf", 
+                "lt_dlsym", 
+                "__stpcpy_chk", 
+                "fgets", 
+                "pthread_mutex_unlock", 
+                "strchr", 
+                "strtol", 
+                "__errno_location", 
+                "pthread_mutex_lock", 
+                "putchar", 
+                "strcmp", 
+                "__sprintf_chk", 
+                "strstr", 
+                "__fprintf_chk", 
+                "__gmon_start__", 
+                "__strcpy_chk", 
+                "strtok", 
+                "getenv", 
+                "lt_dlinit", 
+                "__ctype_b_loc", 
+                "_ITM_registerTMCloneTable", 
+                "puts", 
+                "__printf_chk", 
+                "strcpy", 
+                "getuid", 
+                "fopen", 
+                "calloc", 
+                "fclose", 
+                "__cxa_finalize", 
+                "_ITM_deregisterTMCloneTable", 
+                "strcasecmp", 
+                "strdup", 
+                "__ctype_toupper_loc", 
+                "getpwuid", 
+                "__vsnprintf_chk", 
+                "malloc", 
+                "lt_dlclose", 
+                "fputc"
+            ], 
+            "rpm": "unixODBC-2.3.4-7.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libtemplate.so.2.0.0"
+        }, 
+        "usr/lib/libodbcnnS_so_2_0_0": {
+            "report-functions": [
+                "malloc", 
+                "_ITM_registerTMCloneTable", 
+                "strncpy", 
+                "__gmon_start__", 
+                "calloc"
+            ], 
+            "rpm": "unixODBC-2.3.4-7.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libodbcnnS.so.2.0.0"
+        }, 
+        "usr/bin/odbc_config": {
+            "report-functions": [
+                "putchar", 
+                "__gmon_start__", 
+                "__printf_chk", 
+                "_ITM_deregisterTMCloneTable", 
+                "puts", 
+                "_ITM_registerTMCloneTable", 
+                "__cxa_finalize", 
+                "exit", 
+                "strcmp"
+            ], 
+            "rpm": "unixODBC-2.3.4-7.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/odbc_config"
+        }, 
+        "usr/bin/slencheck": {
+            "report-functions": [
+                "__printf_chk", 
+                "exit", 
+                "SQLSetEnvAttr", 
+                "SQLTables", 
+                "SQLCloseCursor", 
+                "SQLDisconnect", 
+                "__fprintf_chk", 
+                "SQLRowCount", 
+                "fwrite", 
+                "puts", 
+                "SQLGetDiagRec", 
+                "SQLAllocHandle", 
+                "__libc_start_main", 
+                "SQLConnect", 
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "unixODBC-2.3.4-7.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/slencheck"
+        }, 
+        "usr/lib/libmimerS_so_2_0_0": {
+            "report-functions": [
+                "calloc", 
+                "__cxa_finalize", 
+                "strdup", 
+                "malloc", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "unixODBC-2.3.4-7.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libmimerS.so.2.0.0"
+        }, 
+        "usr/lib/libodbcpsqlS_so_2_0_0": {
+            "report-functions": [
+                "strncpy", 
+                "malloc", 
+                "__cxa_finalize", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable", 
+                "__gmon_start__"
+            ], 
+            "rpm": "unixODBC-2.3.4-7.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libodbcpsqlS.so.2.0.0"
+        }, 
+        "usr/lib/libodbcminiS_so_2_0_0": {
+            "report-functions": [
+                "calloc", 
+                "__cxa_finalize", 
+                "strdup", 
+                "malloc", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "unixODBC-2.3.4-7.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libodbcminiS.so.2.0.0"
+        }, 
+        "usr/lib/libsapdbS_so_2_0_0": {
+            "report-functions": [
+                "__gmon_start__", 
+                "malloc", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "unixODBC-2.3.4-7.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libsapdbS.so.2.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " unixODBC", 
+            "License": " GPLv2+ and LGPLv2+", 
+            "URL": " http://www.unixODBC.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-12.phx2.fedoraproject.org", 
+            "Description": "\nInstall unixODBC if you want to access databases through ODBC.\nYou will also need the mysql-connector-odbc package if you want to access\na MySQL database, and/or the postgresql-odbc package for PostgreSQL.\n", 
+            "Build Date": " Fri 04 Aug 2017 09:47:23 PM EDT", 
+            "Source RPM": " unixODBC-2.3.4-7.fc27.src.rpm", 
+            "Version": " 2.3.4", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 05 Aug 2017 08:10:34 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 7.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A complete ODBC driver manager for Linux", 
+            "Size": " 1313841"
+        }
+    }
+}

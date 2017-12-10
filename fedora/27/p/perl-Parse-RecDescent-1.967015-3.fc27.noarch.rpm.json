@@ -1,0 +1,38 @@
+{
+    "results": {
+        "usr/share/doc/perl-Parse-RecDescent/demo/demo_selfmod_pl": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/share/doc/perl-Parse-RecDescent/demo/demo_selfmod.pl", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "perl-Parse-RecDescent-1.967015-3.fc27.noarch.rpm"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " perl-Parse-RecDescent", 
+            "License": " (GPL+ or Artistic) and (GPLv2+ or Artistic)", 
+            "URL": " http://search.cpan.org/dist/Parse-RecDescent/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-13.phx2.fedoraproject.org", 
+            "Description": "\nParse::RecDescent incrementally generates top-down recursive-descent\ntext parsers from simple yacc-like grammar specifications. It\nprovides:\n\n * Regular expressions or literal strings as terminals (tokens)\n * Multiple (non-contiguous) productions for any rule\n * Repeated and optional subrules within productions\n * Full access to Perl within actions specified as part of the grammar\n * Simple automated error reporting during parser generation and parsing\n * The ability to commit to, uncommit to, or reject particular\n   productions during a parse\n * The ability to pass data up and down the parse tree (\"down\" via\n   subrule argument lists, \"up\" via subrule return values)\n * Incremental extension of the parsing grammar (even during a parse)\n * Precompilation of parser objects\n * User-definable reduce-reduce conflict resolution via \"scoring\" of\n   matching productions\n", 
+            "Build Date": " Fri 28 Jul 2017 05:39:22 AM EDT", 
+            "Source RPM": " perl-Parse-RecDescent-1.967015-3.fc27.src.rpm", 
+            "Version": " 1.967015", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Fri 28 Jul 2017 03:03:10 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 3.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Generate Recursive-Descent Parsers", 
+            "Size": " 534954"
+        }
+    }
+}

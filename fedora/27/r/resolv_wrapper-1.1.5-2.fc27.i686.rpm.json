@@ -1,0 +1,73 @@
+{
+    "results": {
+        "usr/lib/libresolv_wrapper_so_0_0_5": {
+            "report-functions": [
+                "dlerror", 
+                "ferror", 
+                "__ctype_b_loc", 
+                "strcasecmp", 
+                "strlen", 
+                "__gmon_start__", 
+                "strerror", 
+                "fopen64", 
+                "__errno_location", 
+                "fclose", 
+                "malloc", 
+                "dlopen", 
+                "__vsnprintf_chk", 
+                "exit", 
+                "free", 
+                "strtol", 
+                "__snprintf_chk", 
+                "inet_ntop", 
+                "__res_randomid", 
+                "__cxa_finalize", 
+                "getpid", 
+                "strpbrk", 
+                "inet_pton", 
+                "__fprintf_chk", 
+                "strndup", 
+                "_ITM_deregisterTMCloneTable", 
+                "__stack_chk_fail", 
+                "getenv", 
+                "ns_name_compress", 
+                "dlsym", 
+                "fgets"
+            ], 
+            "rpm": "resolv_wrapper-1.1.5-2.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libresolv_wrapper.so.0.0.5"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " resolv_wrapper", 
+            "License": " BSD", 
+            "URL": " http://cwrap.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-06.phx2.fedoraproject.org", 
+            "Description": "\nIt is likely that if you have a server/client architecture, you need to do DNS\nqueries or a third party library, like Kerberos needs to be able to do queries.\nIn the case of Kerberos the client needs to look the address of the KDC up via a\nSRV record. resolv_wrapper is able to either redirect all DNS queries to your\nDNS server implementation, or fake DNS replies!\n\nTo use it set the following environment variables:\n\nLD_PRELOAD=libresolv_wrapper.so\nRESOLV_WRAPPER_CONF=./my_resolv.conf\n\nThis package doesn't have a devel package because this project is for\ndevelopment/testing.\n", 
+            "Build Date": " Wed 02 Aug 2017 08:01:29 AM EDT", 
+            "Source RPM": " resolv_wrapper-1.1.5-2.fc27.src.rpm", 
+            "Version": " 1.1.5", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Wed 02 Aug 2017 08:04:33 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 2.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A wrapper for dns name resolving or dns faking", 
+            "Size": " 32057"
+        }
+    }
+}

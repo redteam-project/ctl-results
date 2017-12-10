@@ -1,0 +1,84 @@
+{
+    "results": {
+        "usr/lib/libmpdclient_so_2_13": {
+            "report-functions": [
+                "memchr", 
+                "freeaddrinfo", 
+                "strtod", 
+                "strncmp", 
+                "__strcat_chk", 
+                "__errno_location", 
+                "mktime", 
+                "send", 
+                "__snprintf_chk", 
+                "close", 
+                "__assert_fail", 
+                "__gmon_start__", 
+                "strlen", 
+                "realloc", 
+                "gmtime_r", 
+                "getaddrinfo", 
+                "_ITM_deregisterTMCloneTable", 
+                "strftime", 
+                "memmove", 
+                "select", 
+                "getenv", 
+                "__stack_chk_fail", 
+                "_ITM_registerTMCloneTable", 
+                "strdup", 
+                "__cxa_finalize", 
+                "free", 
+                "__memcpy_chk", 
+                "__strcpy_chk", 
+                "socket", 
+                "fcntl", 
+                "__fdelt_chk", 
+                "strchr", 
+                "getsockopt", 
+                "__vsnprintf_chk", 
+                "setsockopt", 
+                "connect", 
+                "strerror", 
+                "recv", 
+                "__sprintf_chk", 
+                "malloc", 
+                "strtol", 
+                "strtoul"
+            ], 
+            "rpm": "libmpdclient-2.13-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libmpdclient.so.2.13"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " libmpdclient", 
+            "License": " BSD", 
+            "URL": " http://www.musicpd.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-21.phx2.fedoraproject.org", 
+            "Description": "\nA stable, documented, asynchronous API library for interfacing MPD\nin the C, C++ & Objective C languages.\n", 
+            "Build Date": " Mon 07 Aug 2017 07:33:48 AM EDT", 
+            "Source RPM": " libmpdclient-2.13-1.fc27.src.rpm", 
+            "Version": " 2.13", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 07 Aug 2017 07:36:32 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 1.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Library for interfacing Music Player Daemon", 
+            "Size": " 117828"
+        }
+    }
+}

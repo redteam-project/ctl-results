@@ -1,0 +1,73 @@
+{
+    "results": {
+        "usr/lib/libpng_so_2_1_0_69": {
+            "report-functions": [
+                "inflate", 
+                "__memcpy_chk", 
+                "strlen", 
+                "__longjmp_chk", 
+                "inflateEnd", 
+                "gmtime", 
+                "memset", 
+                "inflateReset", 
+                "fread", 
+                "deflate", 
+                "_setjmp", 
+                "fputc", 
+                "_ITM_registerTMCloneTable", 
+                "abort", 
+                "__gmon_start__", 
+                "__snprintf_chk", 
+                "_ITM_deregisterTMCloneTable", 
+                "fwrite", 
+                "__cxa_finalize", 
+                "calloc", 
+                "strtod", 
+                "malloc", 
+                "__fprintf_chk", 
+                "crc32", 
+                "free", 
+                "inflateInit_", 
+                "deflateReset", 
+                "fflush", 
+                "deflateInit2_", 
+                "pow", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "libpng10-1.0.69-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libpng.so.2.1.0.69"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " libpng10", 
+            "License": " zlib", 
+            "URL": " http://www.libpng.org/pub/png/libpng.html", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-29.phx2.fedoraproject.org", 
+            "Description": "\nThe libpng10 package contains an old version of libpng, a library of functions\nfor creating and manipulating PNG (Portable Network Graphics) image format\nfiles.\n\nThis package is needed if you want to run binaries that were linked dynamically\nwith libpng 1.0.x.\n", 
+            "Build Date": " Fri 29 Sep 2017 05:16:28 AM EDT", 
+            "Source RPM": " libpng10-1.0.69-1.fc27.src.rpm", 
+            "Version": " 1.0.69", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 29 Sep 2017 05:27:06 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 1.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Old version of libpng, needed to run old binaries", 
+            "Size": " 334927"
+        }
+    }
+}

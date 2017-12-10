@@ -1,0 +1,63 @@
+{
+    "results": {
+        "usr/lib/libturbojpeg_so_0_1_0": {
+            "report-functions": [
+                "fflush", 
+                "_ITM_registerTMCloneTable", 
+                "__fprintf_chk", 
+                "free", 
+                "fread", 
+                "_ITM_deregisterTMCloneTable", 
+                "__snprintf_chk", 
+                "calloc", 
+                "__stack_chk_fail", 
+                "_setjmp", 
+                "malloc", 
+                "__longjmp_chk", 
+                "exit", 
+                "getenv", 
+                "__gmon_start__", 
+                "__isoc99_sscanf", 
+                "ferror", 
+                "putenv", 
+                "__cxa_finalize", 
+                "__ctype_toupper_loc", 
+                "__ctype_b_loc"
+            ], 
+            "rpm": "turbojpeg-1.5.1-4.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libturbojpeg.so.0.1.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " turbojpeg", 
+            "License": " IJG", 
+            "URL": " http://sourceforge.net/projects/libjpeg-turbo", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-11.phx2.fedoraproject.org", 
+            "Description": "\nThe turbojpeg package contains the TurboJPEG shared library.\n", 
+            "Build Date": " Thu 03 Aug 2017 02:40:24 PM EDT", 
+            "Source RPM": " libjpeg-turbo-1.5.1-4.fc27.src.rpm", 
+            "Version": " 1.5.1", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 10:05:51 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 4.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " TurboJPEG library", 
+            "Size": " 494824"
+        }
+    }
+}

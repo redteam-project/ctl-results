@@ -1,0 +1,87 @@
+{
+    "results": {
+        "lib/libdeltacloud_so_6_0_0": {
+            "report-functions": [
+                "__asprintf_chk", 
+                "realloc", 
+                "curl_free", 
+                "fputc", 
+                "xmlXPathEval", 
+                "strdup", 
+                "curl_easy_init", 
+                "strcmp", 
+                "__stack_chk_fail", 
+                "curl_escape", 
+                "xmlReadDoc", 
+                "fclose", 
+                "xmlFreeDoc", 
+                "xmlXPathFreeObject", 
+                "curl_easy_cleanup", 
+                "ftell", 
+                "memmove", 
+                "_ITM_deregisterTMCloneTable", 
+                "malloc", 
+                "pthread_key_create", 
+                "xmlXPathNewContext", 
+                "calloc", 
+                "pthread_getspecific", 
+                "xmlXPathFreeContext", 
+                "xmlDocGetRootElement", 
+                "curl_formfree", 
+                "__gmon_start__", 
+                "open_memstream", 
+                "strlen", 
+                "curl_slist_free_all", 
+                "free", 
+                "curl_easy_strerror", 
+                "__fprintf_chk", 
+                "xmlGetProp", 
+                "strncasecmp", 
+                "curl_formadd", 
+                "__vfprintf_chk", 
+                "getenv", 
+                "pthread_setspecific", 
+                "xmlGetLastError", 
+                "curl_easy_perform", 
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable", 
+                "strrchr", 
+                "curl_slist_append"
+            ], 
+            "rpm": "libdeltacloud-0.9-17.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "lib/libdeltacloud.so.6.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " libdeltacloud", 
+            "License": " LGPLv2+", 
+            "URL": " https://git.fedorahosted.org/git/deltacloud/libdeltacloud.git", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-15.phx2.fedoraproject.org", 
+            "Description": "\nLibdeltacloud is a library for accessing deltacloud via a\nconvenient C API.\n", 
+            "Build Date": " Thu 03 Aug 2017 01:59:58 PM EDT", 
+            "Source RPM": " libdeltacloud-0.9-17.fc27.src.rpm", 
+            "Version": " 0.9", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 06:55:28 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 17.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A library for accessing deltacloud", 
+            "Size": " 95119"
+        }
+    }
+}

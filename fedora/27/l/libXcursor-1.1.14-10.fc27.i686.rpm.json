@@ -1,0 +1,93 @@
+{
+    "results": {
+        "usr/lib/libXcursor_so_1_0_2": {
+            "report-functions": [
+                "getenv", 
+                "strchr", 
+                "XESetCloseDisplay", 
+                "XFreeCursor", 
+                "malloc", 
+                "strcmp", 
+                "__sprintf_chk", 
+                "putchar", 
+                "XPutImage", 
+                "fgets", 
+                "free", 
+                "fflush", 
+                "XFreePixmap", 
+                "__ctype_tolower_loc", 
+                "fopen", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize", 
+                "__stack_chk_fail", 
+                "strtol", 
+                "fwrite", 
+                "XRenderFreePicture", 
+                "XLoadFont", 
+                "XInitImage", 
+                "fseek", 
+                "_XGetRequest", 
+                "XRenderFindStandardFormat", 
+                "XRenderQueryVersion", 
+                "XRenderCreateAnimCursor", 
+                "fread", 
+                "_IO_putc", 
+                "XRenderCreatePicture", 
+                "strlen", 
+                "XCreateImage", 
+                "strncpy", 
+                "XRenderCreateCursor", 
+                "fclose", 
+                "XCreatePixmapCursor", 
+                "XCreatePixmap", 
+                "__printf_chk", 
+                "__ctype_b_loc", 
+                "XFixesSetCursorName", 
+                "XCreateGC", 
+                "XQueryFont", 
+                "XRenderQueryExtension", 
+                "_ITM_registerTMCloneTable", 
+                "XGetDefault", 
+                "XInternAtom", 
+                "XFreeGC", 
+                "XAddExtension", 
+                "XFreeFontInfo", 
+                "strcpy"
+            ], 
+            "rpm": "libXcursor-1.1.14-10.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libXcursor.so.1.0.2"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " libXcursor", 
+            "License": " MIT", 
+            "URL": " http://www.x.org", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-25.phx2.fedoraproject.org", 
+            "Description": "\nThis is  a simple library designed to help locate and load cursors.\nCursors can be loaded from files or memory. A library of common cursors\nexists which map to the standard X cursor names.Cursors can exist in\nseveral sizes and the library automatically picks the best size.\n", 
+            "Build Date": " Thu 03 Aug 2017 12:16:08 PM EDT", 
+            "Source RPM": " libXcursor-1.1.14-10.fc27.src.rpm", 
+            "Version": " 1.1.14", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 05:06:14 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 10.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Cursor management library", 
+            "Size": " 45579"
+        }
+    }
+}

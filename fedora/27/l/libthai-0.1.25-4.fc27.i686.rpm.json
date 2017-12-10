@@ -1,0 +1,65 @@
+{
+    "results": {
+        "usr/lib/libthai_so_0_3_0": {
+            "report-functions": [
+                "trie_free", 
+                "trie_root", 
+                "__snprintf_chk", 
+                "trie_state_is_single", 
+                "trie_state_walk", 
+                "malloc", 
+                "trie_state_copy", 
+                "wcslen", 
+                "wcscpy", 
+                "strcpy", 
+                "strlen", 
+                "getenv", 
+                "__strcpy_chk", 
+                "_ITM_deregisterTMCloneTable", 
+                "realloc", 
+                "trie_state_is_walkable", 
+                "trie_state_rewind", 
+                "_ITM_registerTMCloneTable", 
+                "free", 
+                "trie_state_free", 
+                "__stack_chk_fail", 
+                "trie_state_clone", 
+                "__gmon_start__"
+            ], 
+            "rpm": "libthai-0.1.25-4.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libthai.so.0.3.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " libthai", 
+            "License": " LGPLv2+", 
+            "URL": " http://linux.thai.net", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-31.phx2.fedoraproject.org", 
+            "Description": "\nLibThai is a set of Thai language support routines aimed to ease\ndevelopers' tasks to incorporate Thai language support in their applications.\nIt includes important Thai-specific functions e.g. word breaking, input and\noutput methods as well as basic character and string supports.\n", 
+            "Build Date": " Thu 03 Aug 2017 04:20:55 PM EDT", 
+            "Source RPM": " libthai-0.1.25-4.fc27.src.rpm", 
+            "Version": " 0.1.25", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 01:49:40 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 4.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Thai language support routines", 
+            "Size": " 757077"
+        }
+    }
+}

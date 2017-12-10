@@ -1,0 +1,82 @@
+{
+    "results": {
+        "usr/lib/liblevmar_so_2_2": {
+            "report-functions": [
+                "dgetrs_", 
+                "dgetrf_", 
+                "sgeqp3_", 
+                "strtri_", 
+                "sqrt", 
+                "sgeqrf_", 
+                "__fprintf_chk", 
+                "dgeqp3_", 
+                "strtrs_", 
+                "spotrf_", 
+                "dsytrf_", 
+                "dpotf2_", 
+                "ssytrs_", 
+                "exit", 
+                "sgesvd_", 
+                "spotrs_", 
+                "dgemm_", 
+                "dorgqr_", 
+                "sorgqr_", 
+                "sgetrs_", 
+                "ssytrf_", 
+                "free", 
+                "sgemm_", 
+                "dtrtri_", 
+                "sgetrf_", 
+                "spotf2_", 
+                "dpotrs_", 
+                "dtrtrs_", 
+                "pow", 
+                "log10", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "dgeqrf_", 
+                "dgesvd_", 
+                "__stack_chk_fail", 
+                "dsytrs_", 
+                "dpotrf_", 
+                "malloc", 
+                "_ITM_deregisterTMCloneTable", 
+                "sqrtf"
+            ], 
+            "rpm": "levmar-2.5-14.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/liblevmar.so.2.2"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " levmar", 
+            "License": " GPLv2+", 
+            "URL": " http://www.ics.forth.gr/~lourakis/levmar/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-32.phx2.fedoraproject.org", 
+            "Description": "\nlevmar is a native ANSI C implementation of the Levenberg-Marquardt\noptimization algorithm.  Both unconstrained and constrained (under linear\nequations, inequality and box constraints) Levenberg-Marquardt variants are\nincluded.  The LM algorithm is an iterative technique that finds a local\nminimum of a function that is expressed as the sum of squares of nonlinear\nfunctions.  It has become a standard technique for nonlinear least-squares\nproblems and can be thought of as a combination of steepest descent and the\nGauss-Newton method.  When the current solution is far from the correct on,\nthe algorithm behaves like a steepest descent method: slow, but guaranteed\nto converge.  When the current solution is close to the correct solution, it\nbecomes a Gauss-Newton method.\n", 
+            "Build Date": " Fri 10 Feb 2017 08:27:46 PM EST", 
+            "Source RPM": " levmar-2.5-14.fc26.src.rpm", 
+            "Version": " 2.5", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 23 Feb 2017 05:13:20 PM EST, Key ID f55e7430f5282ee4", 
+            "Release": " 14.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Levenberg-Marquardt nonlinear least squares algorithm", 
+            "Size": " 222033"
+        }
+    }
+}

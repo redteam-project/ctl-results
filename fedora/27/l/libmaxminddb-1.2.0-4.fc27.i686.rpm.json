@@ -1,0 +1,65 @@
+{
+    "results": {
+        "usr/lib/libmaxminddb_so_0_0_7": {
+            "report-functions": [
+                "strtol", 
+                "calloc", 
+                "open", 
+                "fputs", 
+                "__fprintf_chk", 
+                "free", 
+                "__stack_chk_fail", 
+                "freeaddrinfo", 
+                "__memset_chk", 
+                "malloc", 
+                "__assert_fail", 
+                "mmap", 
+                "munmap", 
+                "strlen", 
+                "close", 
+                "__cxa_finalize", 
+                "memcmp", 
+                "__sprintf_chk", 
+                "__errno_location", 
+                "__fxstat", 
+                "_ITM_registerTMCloneTable", 
+                "_ITM_deregisterTMCloneTable", 
+                "getaddrinfo"
+            ], 
+            "rpm": "libmaxminddb-1.2.0-4.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libmaxminddb.so.0.0.7"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " libmaxminddb", 
+            "License": " ASL 2.0 and BSD", 
+            "URL": " https://maxmind.github.io/libmaxminddb", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-19.phx2.fedoraproject.org", 
+            "Description": "\nThe package contains libmaxminddb library.\n", 
+            "Build Date": " Thu 03 Aug 2017 02:55:34 PM EDT", 
+            "Source RPM": " libmaxminddb-1.2.0-4.fc27.src.rpm", 
+            "Version": " 1.2.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 10:46:09 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 4.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " C library for the MaxMind DB file format", 
+            "Size": " 34378"
+        }
+    }
+}

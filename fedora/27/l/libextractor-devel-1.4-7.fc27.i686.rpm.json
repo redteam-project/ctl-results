@@ -1,0 +1,767 @@
+{
+    "results": {
+        "usr/lib/libextractor/libextractor_zip_so": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "EXTRACTOR_common_unzip_open", 
+                "EXTRACTOR_common_unzip_get_current_file_info", 
+                "EXTRACTOR_common_unzip_go_to_first_file", 
+                "EXTRACTOR_common_unzip_get_global_comment", 
+                "__stack_chk_fail", 
+                "EXTRACTOR_common_unzip_go_to_next_file", 
+                "EXTRACTOR_common_unzip_go_find_local_file", 
+                "_ITM_registerTMCloneTable", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "libextractor-devel-1.4-7.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libextractor/libextractor_zip.so"
+        }, 
+        "usr/lib/libextractor/libextractor_rpm_so": {
+            "report-functions": [
+                "headerNext", 
+                "rpmtdFree", 
+                "pthread_join", 
+                "ctime_r", 
+                "pthread_mutex_unlock", 
+                "strlen", 
+                "__gmon_start__", 
+                "rpmtsFree", 
+                "pthread_create", 
+                "__cxa_finalize", 
+                "close", 
+                "pthread_kill", 
+                "pthread_mutex_destroy", 
+                "write", 
+                "__stack_chk_fail", 
+                "headerFree", 
+                "__snprintf_chk", 
+                "rpmtdNextString", 
+                "pthread_mutex_lock", 
+                "_ITM_registerTMCloneTable", 
+                "headerInitIterator", 
+                "pthread_mutex_init", 
+                "headerFreeIterator", 
+                "rpmtsCreate", 
+                "rpmtdNextUint32", 
+                "pipe", 
+                "rpmtdNew", 
+                "sigaction", 
+                "rpmReadPackageFile", 
+                "rpmlogSetCallback", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "libextractor-devel-1.4-7.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libextractor/libextractor_rpm.so"
+        }, 
+        "usr/lib/libextractor/libextractor_s3m_so": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "libextractor-devel-1.4-7.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libextractor/libextractor_s3m.so"
+        }, 
+        "usr/lib/libextractor/libextractor_mime_so": {
+            "report-functions": [
+                "magic_open", 
+                "__cxa_finalize", 
+                "free", 
+                "__stack_chk_fail", 
+                "_ITM_deregisterTMCloneTable", 
+                "magic_close", 
+                "strcmp", 
+                "__gmon_start__", 
+                "strlen", 
+                "magic_load", 
+                "strdup"
+            ], 
+            "rpm": "libextractor-devel-1.4-7.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libextractor/libextractor_mime.so"
+        }, 
+        "usr/lib/libextractor/libextractor_nsfe_so": {
+            "report-functions": [
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "malloc", 
+                "__snprintf_chk", 
+                "free", 
+                "_ITM_registerTMCloneTable", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "libextractor-devel-1.4-7.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libextractor/libextractor_nsfe.so"
+        }, 
+        "usr/lib/libextractor/libextractor_exiv2_so": {
+            "report-functions": [
+                "_ZNSt9basic_iosIcSt11char_traitsIcEE4initEPSt15basic_streambufIcS1_E", 
+                "__cxa_end_catch", 
+                "_ZN5Exiv27DataBuf7releaseEv", 
+                "__stack_chk_fail", 
+                "_ZN5Exiv210BasicErrorIcE6setMsgEv", 
+                "__cxa_begin_catch", 
+                "__cxa_finalize", 
+                "_ZNK5Exiv27XmpData3endEv", 
+                "__cxa_throw", 
+                "_ZN5Exiv27BasicIoD2Ev", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_assignERKS4_", 
+                "_ZN5Exiv27DataBufC1EPKhl", 
+                "_ZNSt8ios_base4InitD1Ev", 
+                "_ITM_registerTMCloneTable", 
+                "__cxa_atexit", 
+                "_ZN5Exiv27ExifKeyD1Ev", 
+                "_ZNSt6localeD1Ev", 
+                "_ZdlPv", 
+                "_ZSt19__throw_logic_errorPKc", 
+                "_ZNK5Exiv27XmpData5emptyEv", 
+                "_ZNK5Exiv28IptcData7findKeyERKNS_7IptcKeyE", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERjj", 
+                "__cxa_free_exception", 
+                "_Znwj", 
+                "_ZNSt8ios_base4InitC1Ev", 
+                "_ZNK5Exiv27XmpData7findKeyERKNS_6XmpKeyE", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ZN5Exiv28AnyErrorD2Ev", 
+                "__ctype_b_loc", 
+                "_ZN5Exiv26XmpKeyC1ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE", 
+                "_ZNSt8ios_baseD2Ev", 
+                "_ZN5Exiv27IptcKeyD1Ev", 
+                "__gxx_personality_v0", 
+                "_Unwind_Resume", 
+                "_ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEED1Ev", 
+                "strcmp", 
+                "_ZN5Exiv27ExifKeyC1ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE", 
+                "abort", 
+                "_ZdlPvj", 
+                "_ZNSt8ios_baseC2Ev", 
+                "strlen", 
+                "_ZN5Exiv26XmpKeyD1Ev", 
+                "fwrite", 
+                "__cxa_allocate_exception", 
+                "_ZN5Exiv212ImageFactory4openESt8auto_ptrINS_7BasicIoEE", 
+                "_ZdaPv", 
+                "_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_i", 
+                "_ZN5Exiv27IptcKeyC1ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE"
+            ], 
+            "rpm": "libextractor-devel-1.4-7.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libextractor/libextractor_exiv2.so"
+        }, 
+        "usr/lib/libextractor/libextractor_deb_so": {
+            "report-functions": [
+                "inflateInit2_", 
+                "inflateEnd", 
+                "__cxa_finalize", 
+                "free", 
+                "strcmp", 
+                "__stack_chk_fail", 
+                "sscanf", 
+                "_ITM_deregisterTMCloneTable", 
+                "inflate", 
+                "malloc", 
+                "__ctype_b_loc"
+            ], 
+            "rpm": "libextractor-devel-1.4-7.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libextractor/libextractor_deb.so"
+        }, 
+        "usr/lib/libextractor/libextractor_pdf_so": {
+            "report-functions": [
+                "strchr", 
+                "feof", 
+                "dup2", 
+                "_ITM_registerTMCloneTable", 
+                "strncasecmp", 
+                "fclose", 
+                "__cxa_finalize", 
+                "fdopen", 
+                "exit", 
+                "fgets", 
+                "__stack_chk_fail", 
+                "strlen", 
+                "__ctype_b_loc", 
+                "execvp", 
+                "pipe", 
+                "fork", 
+                "waitpid", 
+                "__gmon_start__", 
+                "kill", 
+                "close"
+            ], 
+            "rpm": "libextractor-devel-1.4-7.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libextractor/libextractor_pdf.so"
+        }, 
+        "usr/lib/libextractor/libextractor_sid_so": {
+            "report-functions": [
+                "strlen", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "__snprintf_chk", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "libextractor-devel-1.4-7.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libextractor/libextractor_sid.so"
+        }, 
+        "usr/lib/libextractor/libextractor_tiff_so": {
+            "report-functions": [
+                "__snprintf_chk", 
+                "TIFFSetErrorHandler", 
+                "TIFFClientOpen", 
+                "TIFFGetField", 
+                "TIFFSetWarningHandler", 
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "_ITM_deregisterTMCloneTable", 
+                "strlen", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "libextractor-devel-1.4-7.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libextractor/libextractor_tiff.so"
+        }, 
+        "usr/lib/libextractor/libextractor_png_so": {
+            "report-functions": [
+                "malloc", 
+                "strcmp", 
+                "EXTRACTOR_common_convert_to_utf8", 
+                "_ITM_registerTMCloneTable", 
+                "__gmon_start__", 
+                "free", 
+                "_ITM_deregisterTMCloneTable", 
+                "__stack_chk_fail", 
+                "strlen", 
+                "uncompress"
+            ], 
+            "rpm": "libextractor-devel-1.4-7.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libextractor/libextractor_png.so"
+        }, 
+        "usr/lib/libextractor/libextractor_odf_so": {
+            "report-functions": [
+                "free", 
+                "EXTRACTOR_common_unzip_get_current_file_info", 
+                "EXTRACTOR_common_unzip_close", 
+                "__stpcpy_chk", 
+                "EXTRACTOR_common_unzip_open_current_file", 
+                "EXTRACTOR_common_unzip_open", 
+                "_ITM_deregisterTMCloneTable", 
+                "EXTRACTOR_common_unzip_close_current_file", 
+                "__stack_chk_fail", 
+                "EXTRACTOR_common_unzip_read_current_file", 
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "__ctype_b_loc", 
+                "malloc", 
+                "EXTRACTOR_common_unzip_go_find_local_file"
+            ], 
+            "rpm": "libextractor-devel-1.4-7.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libextractor/libextractor_odf.so"
+        }, 
+        "usr/lib/libextractor/libextractor_xm_so": {
+            "report-functions": [
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable", 
+                "__stack_chk_fail", 
+                "_ITM_deregisterTMCloneTable", 
+                "strlen", 
+                "__ctype_b_loc"
+            ], 
+            "rpm": "libextractor-devel-1.4-7.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libextractor/libextractor_xm.so"
+        }, 
+        "usr/lib/libextractor/libextractor_ogg_so": {
+            "report-functions": [
+                "__gmon_start__", 
+                "ov_comment", 
+                "__stack_chk_fail", 
+                "_ITM_registerTMCloneTable", 
+                "ov_clear", 
+                "vorbis_comment_query", 
+                "_ITM_deregisterTMCloneTable", 
+                "strlen", 
+                "__errno_location"
+            ], 
+            "rpm": "libextractor-devel-1.4-7.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libextractor/libextractor_ogg.so"
+        }, 
+        "usr/lib/libextractor/libextractor_man_so": {
+            "report-functions": [
+                "__ctype_b_loc", 
+                "dcgettext", 
+                "strlen", 
+                "_ITM_registerTMCloneTable", 
+                "__gmon_start__", 
+                "malloc", 
+                "strdup", 
+                "_ITM_deregisterTMCloneTable", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "libextractor-devel-1.4-7.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libextractor/libextractor_man.so"
+        }, 
+        "usr/lib/libextractor/libextractor_flac_so": {
+            "report-functions": [
+                "FLAC__stream_decoder_get_state", 
+                "__gmon_start__", 
+                "FLAC__stream_decoder_set_metadata_respond_all", 
+                "FLAC__stream_decoder_init_stream", 
+                "dcgettext", 
+                "strncasecmp", 
+                "malloc", 
+                "__cxa_finalize", 
+                "FLAC__stream_decoder_set_metadata_ignore_all", 
+                "FLAC__stream_decoder_set_md5_checking", 
+                "FLAC__stream_decoder_process_until_end_of_metadata", 
+                "strlen", 
+                "_ITM_deregisterTMCloneTable", 
+                "__errno_location", 
+                "FLAC__stream_decoder_finish", 
+                "FLAC__stream_decoder_delete", 
+                "_ITM_registerTMCloneTable", 
+                "free", 
+                "__snprintf_chk"
+            ], 
+            "rpm": "libextractor-devel-1.4-7.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libextractor/libextractor_flac.so"
+        }, 
+        "usr/lib/libextractor/libextractor_riff_so": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "dcgettext", 
+                "_ITM_registerTMCloneTable", 
+                "__snprintf_chk"
+            ], 
+            "rpm": "libextractor-devel-1.4-7.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libextractor/libextractor_riff.so"
+        }, 
+        "usr/lib/libextractor/libextractor_it_so": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "__stack_chk_fail", 
+                "_ITM_registerTMCloneTable", 
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "__snprintf_chk"
+            ], 
+            "rpm": "libextractor-devel-1.4-7.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libextractor/libextractor_it.so"
+        }, 
+        "usr/lib/libextractor/libextractor_gif_so": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "__snprintf_chk", 
+                "_ITM_registerTMCloneTable", 
+                "DGifGetExtensionNext", 
+                "DGifGetRecordType", 
+                "_ITM_deregisterTMCloneTable", 
+                "DGifGetExtension", 
+                "DGifCloseFile", 
+                "__gmon_start__", 
+                "DGifOpen"
+            ], 
+            "rpm": "libextractor-devel-1.4-7.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libextractor/libextractor_gif.so"
+        }, 
+        "usr/lib/libextractor/libextractor_thumbnailgtk_so": {
+            "report-functions": [
+                "gdk_pixbuf_loader_get_pixbuf", 
+                "g_object_unref", 
+                "_ITM_registerTMCloneTable", 
+                "__gmon_start__", 
+                "malloc", 
+                "magic_load", 
+                "magic_close", 
+                "_ITM_deregisterTMCloneTable", 
+                "__stack_chk_fail", 
+                "gdk_pixbuf_scale_simple", 
+                "gdk_pixbuf_loader_write", 
+                "gdk_pixbuf_get_width", 
+                "magic_open", 
+                "magic_buffer", 
+                "gdk_pixbuf_save_to_buffer", 
+                "__snprintf_chk", 
+                "gdk_pixbuf_loader_close", 
+                "free", 
+                "gdk_pixbuf_get_height", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "libextractor-devel-1.4-7.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libextractor/libextractor_thumbnailgtk.so"
+        }, 
+        "usr/lib/libextractor/libextractor_nsf_so": {
+            "report-functions": [
+                "__snprintf_chk", 
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "strlen", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "libextractor-devel-1.4-7.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libextractor/libextractor_nsf.so"
+        }, 
+        "usr/lib/libextractor/libextractor_dvi_so": {
+            "report-functions": [
+                "__gmon_start__", 
+                "free", 
+                "_ITM_registerTMCloneTable", 
+                "__snprintf_chk", 
+                "malloc", 
+                "strncmp", 
+                "__stack_chk_fail", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "libextractor-devel-1.4-7.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libextractor/libextractor_dvi.so"
+        }, 
+        "usr/lib/libextractor/libextractor_ole2_so": {
+            "report-functions": [
+                "gsf_infile_msole_new", 
+                "malloc", 
+                "g_value_get_string", 
+                "fwrite", 
+                "g_type_instance_get_private", 
+                "__ctype_b_loc", 
+                "__cxa_finalize", 
+                "free", 
+                "gsf_input_remaining", 
+                "gsf_infile_child_by_index", 
+                "gsf_doc_meta_data_new", 
+                "gsf_shutdown", 
+                "g_object_new", 
+                "gsf_input_seek", 
+                "gsf_input_read", 
+                "gsf_input_size", 
+                "gsf_input_set_size", 
+                "g_type_class_add_private", 
+                "__stack_chk_fail", 
+                "gsf_infile_name_by_index", 
+                "gsf_doc_prop_get_val", 
+                "g_error_free", 
+                "strncmp", 
+                "g_strdup_value_contents", 
+                "gsf_infile_num_children", 
+                "strdup", 
+                "g_type_check_instance_cast", 
+                "gsf_input_get_type", 
+                "_ITM_deregisterTMCloneTable", 
+                "EXTRACTOR_common_convert_to_utf8", 
+                "strcmp", 
+                "gsf_doc_meta_data_read_from_msole", 
+                "g_error_new", 
+                "gsf_init", 
+                "gsf_doc_meta_data_foreach", 
+                "g_log_set_handler", 
+                "__snprintf_chk", 
+                "gsf_input_seek_emulate", 
+                "strlen", 
+                "gsf_input_error_id", 
+                "g_type_register_static", 
+                "g_object_unref", 
+                "dcgettext"
+            ], 
+            "rpm": "libextractor-devel-1.4-7.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libextractor/libextractor_ole2.so"
+        }, 
+        "usr/lib/libextractor/libextractor_wav_so": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "_ITM_deregisterTMCloneTable", 
+                "__snprintf_chk", 
+                "dcgettext", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "libextractor-devel-1.4-7.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libextractor/libextractor_wav.so"
+        }, 
+        "usr/lib/libextractor/libextractor_ps_so": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "strncmp", 
+                "malloc", 
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "_ITM_deregisterTMCloneTable", 
+                "strlen", 
+                "memchr", 
+                "free", 
+                "strcpy", 
+                "stpcpy"
+            ], 
+            "rpm": "libextractor-devel-1.4-7.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libextractor/libextractor_ps.so"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " libextractor-devel", 
+            "License": " GPLv3+", 
+            "URL": " http://www.gnu.org/software/libextractor", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-03.phx2.fedoraproject.org", 
+            "Description": "\nThe libextractor-devel package contains libraries and header files for\ndeveloping applications that use libextractor.\n", 
+            "Build Date": " Fri 11 Aug 2017 04:11:06 AM EDT", 
+            "Source RPM": " libextractor-1.4-7.fc27.src.rpm", 
+            "Version": " 1.4", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 11 Aug 2017 04:19:05 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 7.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Development files for libextractor", 
+            "Size": " 260626"
+        }
+    }
+}

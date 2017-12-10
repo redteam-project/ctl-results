@@ -1,0 +1,86 @@
+{
+    "results": {
+        "usr/lib/libsaslwrapper_so_1_0_0": {
+            "report-functions": [
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_replaceEjjPKcj", 
+                "sasl_errdetail", 
+                "sasl_client_start", 
+                "_ZNSt8ios_baseD2Ev", 
+                "sasl_dispose", 
+                "_ZNSt8ios_baseC2Ev", 
+                "_ZNSt9basic_iosIcSt11char_traitsIcEE5clearESt12_Ios_Iostate", 
+                "__gmon_start__", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_appendEPKcj", 
+                "_ZNSt8ios_base4InitC1Ev", 
+                "sasl_client_step", 
+                "__cxa_atexit", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_assignERKS4_", 
+                "_ZStrsIcSt11char_traitsIcESaIcEERSt13basic_istreamIT_T0_ES7_RNSt7__cxx1112basic_stringIS4_S5_T1_EE", 
+                "_ZNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEED1Ev", 
+                "sasl_client_new", 
+                "__gxx_personality_v0", 
+                "sasl_setprop", 
+                "sasl_client_init", 
+                "_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7compareEPKc", 
+                "_ZNSt6localeD1Ev", 
+                "strlen", 
+                "sasl_getprop", 
+                "getpass", 
+                "_ZNSt6localeC1Ev", 
+                "sasl_errstring", 
+                "_ZdlPvj", 
+                "free", 
+                "_Unwind_Resume", 
+                "_ZSt20__throw_length_errorPKc", 
+                "__cxa_finalize", 
+                "_ZNSt8ios_base4InitD1Ev", 
+                "sasl_decode", 
+                "_ZdlPv", 
+                "_Znwj", 
+                "__stack_chk_fail", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ZNSt9basic_iosIcSt11char_traitsIcEE4initEPSt15basic_streambufIcS1_E", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERjj", 
+                "sasl_encode", 
+                "memcmp", 
+                "_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_i", 
+                "malloc", 
+                "_ZSt19__throw_logic_errorPKc"
+            ], 
+            "rpm": "saslwrapper-0.16-18.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libsaslwrapper.so.1.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " saslwrapper", 
+            "License": " ASL 2.0", 
+            "URL": " http://qpid.apache.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-29.phx2.fedoraproject.org", 
+            "Description": "\nA simple wrapper for Cyrus SASL that permits easy binding into\nscripting languages.\n", 
+            "Build Date": " Fri 04 Aug 2017 02:21:50 PM EDT", 
+            "Source RPM": " saslwrapper-0.16-18.fc27.src.rpm", 
+            "Version": " 0.16", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 05 Aug 2017 02:03:12 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 18.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Ruby and Python wrappers for the Cyrus SASL library", 
+            "Size": " 40155"
+        }
+    }
+}

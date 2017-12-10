@@ -1,0 +1,78 @@
+{
+    "results": {
+        "usr/lib/libnxml_so_0_18_3": {
+            "report-functions": [
+                "close", 
+                "curl_easy_strerror", 
+                "free", 
+                "fopen", 
+                "__gmon_start__", 
+                "strlen", 
+                "curl_easy_cleanup", 
+                "realloc", 
+                "strdup", 
+                "malloc", 
+                "__errno_location", 
+                "curl_easy_setopt", 
+                "fclose", 
+                "strncpy", 
+                "__xstat", 
+                "curl_global_init", 
+                "__stack_chk_fail", 
+                "strcasecmp", 
+                "read", 
+                "strcpy", 
+                "strncasecmp", 
+                "__isoc99_sscanf", 
+                "curl_easy_init", 
+                "strcmp", 
+                "__memcpy_chk", 
+                "strncmp", 
+                "strcat", 
+                "curl_easy_perform", 
+                "__vfprintf_chk", 
+                "open", 
+                "strtol", 
+                "__strncpy_chk", 
+                "_ITM_deregisterTMCloneTable", 
+                "__vsnprintf_chk", 
+                "__cxa_finalize", 
+                "calloc"
+            ], 
+            "rpm": "libnxml-0.18.3-16.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libnxml.so.0.18.3"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " libnxml", 
+            "License": " LGPLv2+", 
+            "URL": " http://www.autistici.org/bakunin/libnxml/doc/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-18.phx2.fedoraproject.org", 
+            "Description": "\nnXML is a C library for parsing, writing and creating XML 1.0 and 1.1 files\nor streams. It supports utf-8, utf-16be and utf-16le, ucs-4 (1234, 4321, 2143,\n2312).\n", 
+            "Build Date": " Thu 03 Aug 2017 03:17:23 PM EDT", 
+            "Source RPM": " libnxml-0.18.3-16.fc27.src.rpm", 
+            "Version": " 0.18.3", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 12:08:48 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 16.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " C library for parsing, writing and creating XML", 
+            "Size": " 78451"
+        }
+    }
+}

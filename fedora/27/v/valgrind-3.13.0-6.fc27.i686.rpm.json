@@ -1,0 +1,623 @@
+{
+    "results": {
+        "usr/lib/valgrind/drd-x86-linux": {
+            "report-functions": [], 
+            "rpm": "valgrind-3.13.0-6.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/valgrind/drd-x86-linux"
+        }, 
+        "usr/lib/valgrind/getoff-x86-linux": {
+            "report-functions": [
+                "dlinfo", 
+                "__assert_fail", 
+                "exit", 
+                "__libc_start_main", 
+                "fclose", 
+                "strcmp", 
+                "__gmon_start__", 
+                "strlen", 
+                "fopen", 
+                "perror", 
+                "strncmp", 
+                "dlerror"
+            ], 
+            "rpm": "valgrind-3.13.0-6.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/valgrind/getoff-x86-linux"
+        }, 
+        "usr/lib/valgrind/exp-sgcheck-x86-linux": {
+            "report-functions": [], 
+            "rpm": "valgrind-3.13.0-6.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/valgrind/exp-sgcheck-x86-linux"
+        }, 
+        "usr/lib/valgrind/cachegrind-x86-linux": {
+            "report-functions": [], 
+            "rpm": "valgrind-3.13.0-6.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/valgrind/cachegrind-x86-linux"
+        }, 
+        "usr/lib/valgrind/lackey-x86-linux": {
+            "report-functions": [], 
+            "rpm": "valgrind-3.13.0-6.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/valgrind/lackey-x86-linux"
+        }, 
+        "usr/lib/valgrind/vgpreload_core-x86-linux_so": {
+            "report-functions": [
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable", 
+                "_ZN9__gnu_cxx9__freeresEv"
+            ], 
+            "rpm": "valgrind-3.13.0-6.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/valgrind/vgpreload_core-x86-linux.so"
+        }, 
+        "usr/lib/valgrind/callgrind-x86-linux": {
+            "report-functions": [], 
+            "rpm": "valgrind-3.13.0-6.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/valgrind/callgrind-x86-linux"
+        }, 
+        "usr/lib/valgrind/vgpreload_exp-sgcheck-x86-linux_so": {
+            "report-functions": [
+                "getpagesize", 
+                "_ITM_registerTMCloneTable", 
+                "__cxa_finalize", 
+                "__gmon_start__"
+            ], 
+            "rpm": "valgrind-3.13.0-6.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/valgrind/vgpreload_exp-sgcheck-x86-linux.so"
+        }, 
+        "usr/lib/valgrind/vgpreload_massif-x86-linux_so": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "getpagesize", 
+                "__gmon_start__", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "valgrind-3.13.0-6.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/valgrind/vgpreload_massif-x86-linux.so"
+        }, 
+        "usr/lib/valgrind/none-x86-linux": {
+            "report-functions": [], 
+            "rpm": "valgrind-3.13.0-6.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/valgrind/none-x86-linux"
+        }, 
+        "usr/lib/valgrind/vgpreload_drd-x86-linux_so": {
+            "report-functions": [
+                "__assert_fail", 
+                "pthread_cond_init", 
+                "stderr", 
+                "getpagesize", 
+                "pthread_mutex_unlock", 
+                "_exit", 
+                "tolower_l", 
+                "pthread_mutex_lock", 
+                "confstr", 
+                "_ITM_registerTMCloneTable", 
+                "pthread_attr_getdetachstate", 
+                "pthread_mutexattr_gettype", 
+                "_ITM_deregisterTMCloneTable", 
+                "pthread_cond_signal", 
+                "tolower", 
+                "__cxa_finalize", 
+                "getenv", 
+                "pthread_self", 
+                "pthread_cond_wait", 
+                "pthread_mutex_destroy", 
+                "abort", 
+                "pthread_cond_destroy", 
+                "__gmon_start__"
+            ], 
+            "rpm": "valgrind-3.13.0-6.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/valgrind/vgpreload_drd-x86-linux.so"
+        }, 
+        "usr/lib/valgrind/helgrind-x86-linux": {
+            "report-functions": [], 
+            "rpm": "valgrind-3.13.0-6.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/valgrind/helgrind-x86-linux"
+        }, 
+        "usr/bin/valgrind": {
+            "report-functions": [
+                "vfprintf", 
+                "strerror", 
+                "__errno_location", 
+                "fprintf", 
+                "__libc_start_main", 
+                "strncpy", 
+                "__assert_fail", 
+                "realloc", 
+                "strcat", 
+                "strncmp", 
+                "memcmp", 
+                "exit", 
+                "strchr", 
+                "free", 
+                "close", 
+                "open", 
+                "strlen", 
+                "read", 
+                "getenv", 
+                "execve", 
+                "sprintf", 
+                "malloc", 
+                "access", 
+                "readlink", 
+                "strcpy"
+            ], 
+            "rpm": "valgrind-3.13.0-6.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/valgrind"
+        }, 
+        "usr/lib/valgrind/massif-x86-linux": {
+            "report-functions": [], 
+            "rpm": "valgrind-3.13.0-6.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/valgrind/massif-x86-linux"
+        }, 
+        "usr/lib/valgrind/vgpreload_exp-dhat-x86-linux_so": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "getpagesize", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "valgrind-3.13.0-6.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/valgrind/vgpreload_exp-dhat-x86-linux.so"
+        }, 
+        "usr/lib/valgrind/exp-bbv-x86-linux": {
+            "report-functions": [], 
+            "rpm": "valgrind-3.13.0-6.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/valgrind/exp-bbv-x86-linux"
+        }, 
+        "usr/lib/valgrind/vgpreload_memcheck-x86-linux_so": {
+            "report-functions": [
+                "tolower_l", 
+                "_exit", 
+                "tolower", 
+                "_ITM_deregisterTMCloneTable", 
+                "getpagesize", 
+                "__gmon_start__"
+            ], 
+            "rpm": "valgrind-3.13.0-6.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/valgrind/vgpreload_memcheck-x86-linux.so"
+        }, 
+        "usr/lib/valgrind/exp-dhat-x86-linux": {
+            "report-functions": [], 
+            "rpm": "valgrind-3.13.0-6.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/valgrind/exp-dhat-x86-linux"
+        }, 
+        "usr/lib/valgrind/vgpreload_helgrind-x86-linux_so": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "pthread_mutexattr_gettype", 
+                "__cxa_finalize", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "sched_yield", 
+                "_exit", 
+                "__errno_location", 
+                "getpagesize", 
+                "pthread_self", 
+                "tolower_l"
+            ], 
+            "rpm": "valgrind-3.13.0-6.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/valgrind/vgpreload_helgrind-x86-linux.so"
+        }, 
+        "usr/bin/valgrind-listener": {
+            "report-functions": [
+                "fflush", 
+                "perror", 
+                "poll", 
+                "signal", 
+                "__libc_start_main", 
+                "strncmp", 
+                "malloc", 
+                "fwrite", 
+                "nanosleep", 
+                "exit", 
+                "listen", 
+                "strcmp", 
+                "printf", 
+                "__gmon_start__", 
+                "strchr", 
+                "ctime", 
+                "close", 
+                "fcntl", 
+                "setsockopt", 
+                "fprintf", 
+                "accept", 
+                "socket", 
+                "read"
+            ], 
+            "rpm": "valgrind-3.13.0-6.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/valgrind-listener"
+        }, 
+        "usr/bin/cg_merge": {
+            "report-functions": [
+                "strncmp", 
+                "fprintf", 
+                "fopen", 
+                "memset", 
+                "fclose", 
+                "malloc", 
+                "_IO_getc", 
+                "realloc", 
+                "__gmon_start__", 
+                "strdup", 
+                "strcmp", 
+                "fflush", 
+                "exit", 
+                "free", 
+                "perror", 
+                "ferror", 
+                "__libc_start_main"
+            ], 
+            "rpm": "valgrind-3.13.0-6.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/cg_merge"
+        }, 
+        "usr/bin/valgrind-di-server": {
+            "report-functions": [
+                "setsockopt", 
+                "strlen", 
+                "write", 
+                "fflush", 
+                "strncmp", 
+                "ctime", 
+                "strchr", 
+                "time", 
+                "__gmon_start__", 
+                "close", 
+                "socket", 
+                "poll", 
+                "printf", 
+                "listen", 
+                "accept", 
+                "perror", 
+                "__libc_start_main", 
+                "fprintf", 
+                "read", 
+                "open", 
+                "pread", 
+                "memset", 
+                "exit", 
+                "calloc", 
+                "memcpy", 
+                "malloc", 
+                "fcntl", 
+                "free", 
+                "__sysv_signal", 
+                "memcmp", 
+                "__fxstat"
+            ], 
+            "rpm": "valgrind-3.13.0-6.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/valgrind-di-server"
+        }, 
+        "usr/bin/vgdb": {
+            "report-functions": [
+                "__pthread_unwind_next", 
+                "sprintf", 
+                "sleep", 
+                "sigaction", 
+                "sigemptyset", 
+                "strcat", 
+                "waitpid", 
+                "malloc", 
+                "isatty", 
+                "fcntl", 
+                "bind", 
+                "socket", 
+                "__errno_location", 
+                "__gmon_start__", 
+                "readdir", 
+                "opendir", 
+                "strtoll", 
+                "poll", 
+                "usleep", 
+                "closedir", 
+                "accept", 
+                "__pthread_unregister_cancel", 
+                "mmap", 
+                "pthread_join", 
+                "__xstat", 
+                "memcpy", 
+                "pthread_cancel", 
+                "__assert_fail", 
+                "fflush", 
+                "close", 
+                "alarm", 
+                "__libc_start_main", 
+                "strncmp", 
+                "free", 
+                "strcpy", 
+                "ptrace", 
+                "memset", 
+                "gettimeofday", 
+                "listen", 
+                "strchr", 
+                "__pthread_register_cancel", 
+                "fprintf", 
+                "snprintf", 
+                "sigprocmask", 
+                "kill", 
+                "read", 
+                "perror", 
+                "__fxstat", 
+                "open", 
+                "getenv", 
+                "pthread_create", 
+                "strtol", 
+                "strcmp", 
+                "write", 
+                "realloc", 
+                "printf", 
+                "__sigsetjmp", 
+                "strerror", 
+                "getpid"
+            ], 
+            "rpm": "valgrind-3.13.0-6.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/vgdb"
+        }, 
+        "usr/lib/valgrind/memcheck-x86-linux": {
+            "report-functions": [], 
+            "rpm": "valgrind-3.13.0-6.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/valgrind/memcheck-x86-linux"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Debuggers", 
+            "Name": " valgrind", 
+            "License": " GPLv2+", 
+            "URL": " http://www.valgrind.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-17.phx2.fedoraproject.org", 
+            "Source RPM": " valgrind-3.13.0-6.fc27.src.rpm", 
+            "Description": "\nValgrind is an instrumentation framework for building dynamic analysis\ntools. There are Valgrind tools that can automatically detect many\nmemory management and threading bugs, and profile your programs in\ndetail. You can also use Valgrind to build new tools. The Valgrind\ndistribution currently includes six production-quality tools: a memory\nerror detector (memcheck, the default tool), two thread error\ndetectors (helgrind and drd), a cache and branch-prediction profiler\n(cachegrind), a call-graph generating cache and branch-prediction\nprofiler (callgrind), and a heap profiler (massif).\n", 
+            "Build Date": " Fri 04 Aug 2017 10:25:34 PM EDT", 
+            "Epoch": " 1", 
+            "Version": " 3.13.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 05 Aug 2017 10:51:58 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 6.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Tool for finding memory management bugs in programs", 
+            "Size": " 26521173"
+        }
+    }
+}

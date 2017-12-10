@@ -1,0 +1,74 @@
+{
+    "results": {
+        "usr/lib/libtcpcrypt_so_0_0_0": {
+            "report-functions": [
+                "setsockopt", 
+                "inet_ntoa", 
+                "sendto", 
+                "__gmon_start__", 
+                "socket", 
+                "_ITM_deregisterTMCloneTable", 
+                "close", 
+                "strtoul", 
+                "strlen", 
+                "getpeername", 
+                "recv", 
+                "_ITM_registerTMCloneTable", 
+                "__memcpy_chk", 
+                "getsockname", 
+                "getsockopt", 
+                "__assert_fail", 
+                "errx", 
+                "bind", 
+                "memcmp", 
+                "err", 
+                "__cxa_finalize", 
+                "__strdup", 
+                "strncpy", 
+                "inet_addr", 
+                "__errno_location", 
+                "__snprintf_chk", 
+                "inet_aton", 
+                "__printf_chk", 
+                "__sprintf_chk", 
+                "__memset_chk", 
+                "__stack_chk_fail", 
+                "puts"
+            ], 
+            "rpm": "tcpcrypt-libs-0.4-1.fc25.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libtcpcrypt.so.0.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Applications/System", 
+            "Name": " tcpcrypt-libs", 
+            "License": " BSD", 
+            "URL": " http://tcpcrypt.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-27-nfs.phx2.fedoraproject.org", 
+            "Description": "\nContains libraries used by tcpcryptd server and tcpcrypt-aware applications\n", 
+            "Build Date": " Mon 07 Mar 2016 06:29:02 AM EST", 
+            "Source RPM": " tcpcrypt-0.4-1.fc25.src.rpm", 
+            "Version": " 0.4", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sun 26 Feb 2017 03:22:54 PM EST, Key ID f55e7430f5282ee4", 
+            "Release": " 1.fc25", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Libraries used by tcpcryptd server and tcpcrypt-aware applications", 
+            "Size": " 18921"
+        }
+    }
+}

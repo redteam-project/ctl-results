@@ -1,0 +1,56 @@
+{
+    "results": {
+        "usr/bin/mongoc-stat": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "pread", 
+                "munmap", 
+                "strtol", 
+                "__gmon_start__", 
+                "close", 
+                "perror", 
+                "__libc_start_main", 
+                "__stack_chk_fail", 
+                "abort", 
+                "__fprintf_chk", 
+                "__cxa_finalize", 
+                "shm_open", 
+                "mmap"
+            ], 
+            "rpm": "mongo-c-driver-1.8.0-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/mongoc-stat"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " mongo-c-driver", 
+            "License": " ASL 2.0", 
+            "URL": " https://github.com/mongodb/mongo-c-driver", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-02.phx2.fedoraproject.org", 
+            "Description": "\nmongo-c-driver is a client library written in C for MongoDB.\n", 
+            "Build Date": " Fri 15 Sep 2017 06:30:25 AM EDT", 
+            "Source RPM": " mongo-c-driver-1.8.0-1.fc27.src.rpm", 
+            "Version": " 1.8.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 15 Sep 2017 06:55:08 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 1.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Client library written in C for MongoDB", 
+            "Size": " 10604"
+        }
+    }
+}

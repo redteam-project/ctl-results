@@ -1,0 +1,72 @@
+{
+    "results": {
+        "lib/security/pam_url_so": {
+            "report-functions": [
+                "curl_free", 
+                "snprintf", 
+                "config_lookup_string", 
+                "pam_syslog", 
+                "strcmp", 
+                "config_init", 
+                "curl_easy_init", 
+                "__cxa_finalize", 
+                "calloc", 
+                "strdup", 
+                "pam_prompt", 
+                "__gmon_start__", 
+                "strlen", 
+                "curl_easy_setopt", 
+                "curl_easy_cleanup", 
+                "curl_easy_perform", 
+                "strncmp", 
+                "__snprintf_chk", 
+                "config_lookup_bool", 
+                "pam_get_item", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable", 
+                "realloc", 
+                "curl_global_init", 
+                "free", 
+                "__stack_chk_fail", 
+                "__asprintf_chk", 
+                "curl_easy_escape", 
+                "config_destroy"
+            ], 
+            "rpm": "pam_url-0.3.3-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "lib/security/pam_url.so"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Base", 
+            "Name": " pam_url", 
+            "License": " GPLv2", 
+            "URL": " https://fedorahosted.org/pam_url", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-31.phx2.fedoraproject.org", 
+            "Source RPM": " pam_url-0.3.3-8.fc27.src.rpm", 
+            "Description": "\nThe pam_url module enables you to authenticate users against a Web application,\nsuch as totpcgi.\n", 
+            "Build Date": " Fri 04 Aug 2017 03:33:16 AM EDT", 
+            "Epoch": " 1", 
+            "Version": " 0.3.3", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 11:29:15 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 8.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " PAM module to authenticate with HTTP servers", 
+            "Size": " 41710"
+        }
+    }
+}

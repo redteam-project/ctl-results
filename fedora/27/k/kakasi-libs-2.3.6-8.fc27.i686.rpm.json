@@ -1,0 +1,73 @@
+{
+    "results": {
+        "usr/lib/libkakasi_so_2_1_0": {
+            "report-functions": [
+                "strcmp", 
+                "fopen", 
+                "__sprintf_chk", 
+                "fwrite", 
+                "iconv_close", 
+                "exit", 
+                "getenv", 
+                "fread", 
+                "strcpy", 
+                "iconv_open", 
+                "free", 
+                "fseek", 
+                "malloc", 
+                "__fread_chk", 
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "__strcpy_chk", 
+                "memmove", 
+                "strdup", 
+                "fgets", 
+                "_ITM_deregisterTMCloneTable", 
+                "__stpcpy_chk", 
+                "perror", 
+                "iconv", 
+                "strlen", 
+                "realloc", 
+                "__ctype_b_loc", 
+                "fclose", 
+                "fflush", 
+                "_ITM_registerTMCloneTable", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "kakasi-libs-2.3.6-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libkakasi.so.2.1.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " kakasi-libs", 
+            "License": " GPLv2+", 
+            "URL": " http://kakasi.namazu.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-08.phx2.fedoraproject.org", 
+            "Description": "\nThe kakasi-libs package contains the library file for KAKASI\n", 
+            "Build Date": " Thu 03 Aug 2017 06:51:19 AM EDT", 
+            "Source RPM": " kakasi-2.3.6-8.fc27.src.rpm", 
+            "Version": " 2.3.6", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 01:08:51 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 8.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Libraries for KAKASI", 
+            "Size": " 123136"
+        }
+    }
+}

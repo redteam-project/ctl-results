@@ -1,0 +1,25 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " simple-jndi", 
+            "License": " BSD", 
+            "URL": " https://github.com/hen/osjava", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-aarch64-12.arm.fedoraproject.org", 
+            "Description": "\nSimple-JNDI is intended to solve two problems. The first is\nthat of finding a container independent way of opening a\ndatabase connection, the second is to find a good way of\nspecifying application configurations.\n1. Unit tests or prototype code often need to emulate the\n  environment within which the code is expected to run.\n  A very common one is to get an object of type\n  javax.sql.DataSource from JNDI so a java.sql.Connection\n  to your database of choice may be opened.\n2. Applications need configuration; a JNDI implementation\n  makes a handy location for configuration values. Either\n  as a globally available system, or via IoC through the\n  use of some kind of JNDI configuration facade (see gj-config).\nA solution: simple implementation of JNDI. It is entirely\nlibrary based, so no server instances are started, and it\nsits upon Java .properties files, XML files or Windows-style\n.ini files, so it is easy to use and simple to understand.\nThe files may be either on the file system or in the classpath.\n", 
+            "Build Date": " Thu 27 Jul 2017 04:49:14 PM EDT", 
+            "Source RPM": " simple-jndi-0.11.4.1-12.fc27.src.rpm", 
+            "Version": " 0.11.4.1", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Thu 27 Jul 2017 06:12:14 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 12.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A JNDI implementation", 
+            "Size": " 51103"
+        }
+    }
+}

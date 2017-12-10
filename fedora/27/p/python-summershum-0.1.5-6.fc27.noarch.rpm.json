@@ -1,0 +1,25 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " python-summershum", 
+            "License": " GPLv2+", 
+            "URL": " http://pypi.python.org/pypi/summershum", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-17.phx2.fedoraproject.org", 
+            "Description": "\nA fedmsg consumer that extracts and stores hashes of source files.\n\nsummershum is composed of two components:\n\n- A fedmsg consumer plugin that listens for\n  ``org.fedoraproject.prod.git.lookaside.new`` messages.  Whenever a\n  contributor uploads a new source tarball to the lookaside cache,\n  summershum will download that tarball, unpack it, and calculate the\n  sha1 sum of every file in the tarball.  Those hashes are then stored in\n  a database to be queried later.\n- A cli tool ``summershum-cli`` that queries datagrepper for the fedmsg\n  history.  It then crawls through old lookaside messages to fill in data where\n  it was missed.\n\nWith the summershum database, we can then make some interesting queries\nin short time:\n\n- how many files have this hash sum in all of fedora?  and for which\n  packages ?\n- we can easily find what is bundling what and generate a programatic list\n- we could check the db in taskotron tests\n- we could check to see how many packages include the full GPL license\n- how many packages have that license but with the old FSF address\n", 
+            "Build Date": " Fri 28 Jul 2017 02:25:55 PM EDT", 
+            "Source RPM": " python-summershum-0.1.5-6.fc27.src.rpm", 
+            "Version": " 0.1.5", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Sat 29 Jul 2017 04:19:49 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 6.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A fedmsg consumer that extracts and stores hashes of source files", 
+            "Size": " 49889"
+        }
+    }
+}

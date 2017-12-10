@@ -1,0 +1,50 @@
+{
+    "results": {
+        "usr/share/php/Monolog/Handler/GelfHandler_php": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/share/php/Monolog/Handler/GelfHandler.php", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "php-Monolog-1.23.0-2.fc27.noarch.rpm"
+        }, 
+        "usr/share/php/Monolog/Formatter/GelfMessageFormatter_php": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/share/php/Monolog/Formatter/GelfMessageFormatter.php", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "php-Monolog-1.23.0-2.fc27.noarch.rpm"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " php-Monolog", 
+            "License": " MIT", 
+            "URL": " https://github.com/Seldaek/monolog", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-aarch64-21.arm.fedoraproject.org", 
+            "Description": "\nMonolog sends your logs to files, sockets, inboxes, databases and various web\nservices. Special handlers allow you to build advanced logging strategies.\n\nThis library implements the PSR-3 [1] interface that you can type-hint against\nin your own libraries to keep a maximum of interoperability. You can also use it\nin your applications to make sure you can always use another compatible logger\nat a later time.\n\n[1] http://www.php-fig.org/psr/psr-3/\n", 
+            "Build Date": " Fri 28 Jul 2017 07:54:50 AM EDT", 
+            "Source RPM": " php-Monolog-1.23.0-2.fc27.src.rpm", 
+            "Version": " 1.23.0", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Fri 28 Jul 2017 07:21:29 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 2.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Sends your logs to files, sockets, inboxes, databases and various web services", 
+            "Size": " 364069"
+        }
+    }
+}

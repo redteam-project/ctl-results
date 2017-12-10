@@ -1,0 +1,126 @@
+{
+    "results": {
+        "usr/bin/fakenect-record": {
+            "report-functions": [
+                "signal", 
+                "__printf_chk", 
+                "fwrite", 
+                "freenect_close_device", 
+                "freenect_start_depth", 
+                "freenect_open_device", 
+                "freenect_process_events", 
+                "__cxa_finalize", 
+                "freenect_set_depth_callback", 
+                "__libc_start_main", 
+                "popen", 
+                "gettimeofday", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "fclose", 
+                "malloc", 
+                "_ITM_registerTMCloneTable", 
+                "__stack_chk_fail", 
+                "strlen", 
+                "__sprintf_chk", 
+                "puts", 
+                "freenect_shutdown", 
+                "exit", 
+                "free", 
+                "freenect_update_tilt_state", 
+                "freenect_get_current_video_mode", 
+                "floor", 
+                "freenect_set_depth_mode", 
+                "freenect_set_video_callback", 
+                "freenect_find_depth_mode", 
+                "freenect_stop_video", 
+                "fopen", 
+                "sleep", 
+                "usleep", 
+                "freenect_stop_depth", 
+                "freenect_start_video", 
+                "__snprintf_chk", 
+                "freenect_get_current_depth_mode", 
+                "freenect_select_subdevices", 
+                "freenect_set_video_mode", 
+                "freenect_find_video_mode", 
+                "__fprintf_chk", 
+                "mkdir"
+            ], 
+            "rpm": "libfreenect-fakenect-0.5.5-2.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/fakenect-record"
+        }, 
+        "usr/lib/fakenect/libfreenect_so_0_5_5": {
+            "report-functions": [
+                "ftell", 
+                "malloc", 
+                "__printf_chk", 
+                "fclose", 
+                "_ITM_registerTMCloneTable", 
+                "strlen", 
+                "fseek", 
+                "_ITM_deregisterTMCloneTable", 
+                "realloc", 
+                "getenv", 
+                "fopen", 
+                "__cxa_finalize", 
+                "__isoc99_sscanf", 
+                "floor", 
+                "exit", 
+                "strchr", 
+                "free", 
+                "puts", 
+                "fgetc", 
+                "usleep", 
+                "__snprintf_chk", 
+                "__stack_chk_fail", 
+                "sleep", 
+                "__gmon_start__", 
+                "gettimeofday"
+            ], 
+            "rpm": "libfreenect-fakenect-0.5.5-2.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/fakenect/libfreenect.so.0.5.5"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " libfreenect-fakenect", 
+            "License": " ASL 2.0 and (GPLv2 or ASL 2.0)", 
+            "URL": " http://www.openkinect.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-08.phx2.fedoraproject.org", 
+            "Description": "\nFakenect consists of a \"record\" program to save dumps from the kinect sensor\nand a library that can be linked to, providing an interface compatible with\nfreenect.  This allows you to save data and repeat for experiments, debug\nproblems, share datasets, and experiment with the kinect without having one.\n", 
+            "Build Date": " Fri 07 Jul 2017 06:24:37 AM EDT", 
+            "Source RPM": " libfreenect-0.5.5-2.fc27.src.rpm", 
+            "Version": " 0.5.5", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 07 Jul 2017 06:45:03 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 2.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Library to play back recorded data for libfreenect", 
+            "Size": " 36590"
+        }
+    }
+}

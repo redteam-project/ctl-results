@@ -1,0 +1,76 @@
+{
+    "results": {
+        "usr/lib/libyahoo2_so_11_0_1": {
+            "report-functions": [
+                "strcspn", 
+                "g_strsplit", 
+                "g_malloc0", 
+                "g_free", 
+                "strcmp", 
+                "realloc", 
+                "__errno_location", 
+                "strtol", 
+                "strerror", 
+                "strstr", 
+                "_ITM_deregisterTMCloneTable", 
+                "__ctype_b_loc", 
+                "g_malloc", 
+                "malloc", 
+                "strcpy", 
+                "rand", 
+                "_ITM_registerTMCloneTable", 
+                "sscanf", 
+                "g_vsnprintf", 
+                "strcat", 
+                "__gmon_start__", 
+                "free", 
+                "strncmp", 
+                "__strdup", 
+                "g_realloc", 
+                "g_strncasecmp", 
+                "strchr", 
+                "__sprintf_chk", 
+                "__stack_chk_fail", 
+                "__cxa_finalize", 
+                "strlen", 
+                "g_strfreev", 
+                "g_snprintf", 
+                "calloc"
+            ], 
+            "rpm": "libyahoo2-1.0.1-11.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libyahoo2.so.11.0.1"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " libyahoo2", 
+            "License": " GPLv2", 
+            "URL": " http://libyahoo2.sourceforge.net/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-19.phx2.fedoraproject.org", 
+            "Description": "\nlibyahoo2 is a C library interface to the new Yahoo! Messenger protocol. It\nsupports almost all current features of the protocol.\n", 
+            "Build Date": " Fri 10 Feb 2017 11:18:20 PM EST", 
+            "Source RPM": " libyahoo2-1.0.1-11.fc26.src.rpm", 
+            "Version": " 1.0.1", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Wed 22 Feb 2017 07:57:02 PM EST, Key ID f55e7430f5282ee4", 
+            "Release": " 11.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Library for the Yahoo! Messenger Protocol", 
+            "Size": " 166627"
+        }
+    }
+}

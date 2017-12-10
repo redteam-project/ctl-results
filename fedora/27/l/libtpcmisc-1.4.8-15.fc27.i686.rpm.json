@@ -1,0 +1,115 @@
+{
+    "results": {
+        "usr/lib/libtpcmisc_so_0_0_0": {
+            "report-functions": [
+                "feof", 
+                "strstr", 
+                "__ctype_toupper_loc", 
+                "access", 
+                "rewind", 
+                "strlen", 
+                "_ITM_registerTMCloneTable", 
+                "strtol", 
+                "__memcpy_chk", 
+                "strncpy", 
+                "__fprintf_chk", 
+                "__strcpy_chk", 
+                "rename", 
+                "free", 
+                "realloc", 
+                "__strcat_chk", 
+                "malloc", 
+                "__gmon_start__", 
+                "strtod", 
+                "strcspn", 
+                "strchr", 
+                "strftime", 
+                "strncmp", 
+                "fflush", 
+                "__isoc99_sscanf", 
+                "strcpy", 
+                "__strncpy_chk", 
+                "remove", 
+                "_ITM_deregisterTMCloneTable", 
+                "strrchr", 
+                "strcmp", 
+                "__ctype_tolower_loc", 
+                "exp", 
+                "fclose", 
+                "fopen", 
+                "__sprintf_chk", 
+                "strtok", 
+                "strncasecmp", 
+                "fputc", 
+                "fgetc", 
+                "__printf_chk", 
+                "__stack_chk_fail", 
+                "strspn", 
+                "ferror", 
+                "__ctype_b_loc"
+            ], 
+            "rpm": "libtpcmisc-1.4.8-15.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libtpcmisc.so.0.0.0"
+        }, 
+        "usr/bin/libtpcmisc": {
+            "report-functions": [
+                "exit", 
+                "__libc_start_main", 
+                "__gmon_start__", 
+                "libtpcmisc_print_dreadme", 
+                "libtpcmisc_print_readme", 
+                "libtpcmisc_print_history", 
+                "__fprintf_chk", 
+                "fflush", 
+                "strtol", 
+                "libtpcmisc_print_dhistory", 
+                "libtpcmisc_print_build", 
+                "__posix_getopt"
+            ], 
+            "rpm": "libtpcmisc-1.4.8-15.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/libtpcmisc"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " libtpcmisc", 
+            "License": " LGPLv2+", 
+            "URL": " http://www.turkupetcentre.net/software/libdoc/libtpcmisc/index.html", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-03.phx2.fedoraproject.org", 
+            "Description": "\nFormer libpet, the common PET C library, has been divided up in\nsmaller sub-libraries that each handle a specific task.\nThis library includes miscellaneous functions utilized in PET\ndata processing.\n", 
+            "Build Date": " Thu 03 Aug 2017 04:27:32 PM EDT", 
+            "Source RPM": " libtpcmisc-1.4.8-15.fc27.src.rpm", 
+            "Version": " 1.4.8", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 01:58:52 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 15.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Miscellaneous PET functions", 
+            "Size": " 68334"
+        }
+    }
+}

@@ -1,0 +1,79 @@
+{
+    "results": {
+        "usr/lib/libdbi_so_1_1_0": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "__xstat", 
+                "strchr", 
+                "strcasecmp", 
+                "opendir", 
+                "strrchr", 
+                "malloc", 
+                "dlerror", 
+                "strtol", 
+                "dlsym", 
+                "__snprintf_chk", 
+                "__vfprintf_chk", 
+                "__cxa_finalize", 
+                "__fprintf_chk", 
+                "free", 
+                "closedir", 
+                "strcmp", 
+                "memmove", 
+                "strtoll", 
+                "fwrite", 
+                "dlopen", 
+                "calloc", 
+                "fputc", 
+                "realloc", 
+                "strncpy", 
+                "dlclose", 
+                "strlen", 
+                "gmtime_r", 
+                "__asprintf_chk", 
+                "_ITM_registerTMCloneTable", 
+                "timegm", 
+                "strtok_r", 
+                "dirfd", 
+                "__vasprintf_chk", 
+                "readdir_r", 
+                "strdup"
+            ], 
+            "rpm": "libdbi-0.9.0-9.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libdbi.so.1.1.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " libdbi", 
+            "License": " LGPLv2+", 
+            "URL": " http://libdbi.sourceforge.net/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-06.phx2.fedoraproject.org", 
+            "Description": "\nlibdbi implements a database-independent abstraction layer in C, similar to the\nDBI/DBD layer in Perl. Writing one generic set of code, programmers can\nleverage the power of multiple databases and multiple simultaneous database\nconnections by using this framework.\n\nThe libdbi package contains just the libdbi framework.  To make use of\nlibdbi you will also need one or more plugins from libdbi-drivers, which\ncontains the plugins needed to interface to specific database servers.\n", 
+            "Build Date": " Thu 03 Aug 2017 01:58:17 PM EDT", 
+            "Source RPM": " libdbi-0.9.0-9.fc27.src.rpm", 
+            "Version": " 0.9.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 06:49:56 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 9.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Database Independent Abstraction Layer for C", 
+            "Size": " 113196"
+        }
+    }
+}

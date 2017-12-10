@@ -1,0 +1,67 @@
+{
+    "results": {
+        "usr/bin/ellcc": {
+            "report-functions": [
+                "__fprintf_chk", 
+                "strrchr", 
+                "exit", 
+                "realloc", 
+                "__gmon_start__", 
+                "__printf_chk", 
+                "fwrite", 
+                "fclose", 
+                "strdup", 
+                "__ctype_b_loc", 
+                "strlen", 
+                "putchar", 
+                "puts", 
+                "execvp", 
+                "malloc", 
+                "__vfprintf_chk", 
+                "fopen", 
+                "__libc_start_main", 
+                "fflush", 
+                "free", 
+                "strncpy", 
+                "strcmp", 
+                "strcat", 
+                "getenv", 
+                "__sprintf_chk"
+            ], 
+            "rpm": "xemacs-devel-21.5.34-25.20170628hg97140cfdeca7.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/ellcc"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " xemacs-devel", 
+            "License": " GPLv3+", 
+            "URL": " http://www.xemacs.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-07.phx2.fedoraproject.org", 
+            "Description": "\nXEmacs is a highly customizable open source text editor and\napplication development system.  It is protected under the GNU General\nPublic License and related to other versions of Emacs, in particular\nGNU Emacs.  Its emphasis is on modern graphical user interface support\nand an open software development model, similar to Linux.\n\nThis package contains XEmacs development support files.\n", 
+            "Build Date": " Sat 05 Aug 2017 03:41:06 PM EDT", 
+            "Source RPM": " xemacs-21.5.34-25.20170628hg97140cfdeca7.fc27.src.rpm", 
+            "Version": " 21.5.34", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 05 Aug 2017 11:53:27 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 25.20170628hg97140cfdeca7.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Development files for XEmacs", 
+            "Size": " 1921850"
+        }
+    }
+}

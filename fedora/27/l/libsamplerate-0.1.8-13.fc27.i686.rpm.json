@@ -1,0 +1,90 @@
+{
+    "results": {
+        "usr/lib/libsamplerate_so_0_1_8": {
+            "report-functions": [
+                "memmove", 
+                "_ITM_deregisterTMCloneTable", 
+                "free", 
+                "__cxa_finalize", 
+                "calloc", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "libsamplerate-0.1.8-13.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libsamplerate.so.0.1.8"
+        }, 
+        "usr/bin/sndfile-resample": {
+            "report-functions": [
+                "sf_writef_float", 
+                "src_get_name", 
+                "src_get_version", 
+                "strcmp", 
+                "src_is_valid_ratio", 
+                "sf_seek", 
+                "strtol", 
+                "sf_open", 
+                "puts", 
+                "_ITM_registerTMCloneTable", 
+                "sf_command", 
+                "floor", 
+                "remove", 
+                "__printf_chk", 
+                "src_new", 
+                "src_process", 
+                "src_delete", 
+                "__gmon_start__", 
+                "strrchr", 
+                "sf_close", 
+                "sf_readf_float", 
+                "__stack_chk_fail", 
+                "__cxa_finalize", 
+                "strtod", 
+                "src_strerror", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "libsamplerate-0.1.8-13.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/sndfile-resample"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " libsamplerate", 
+            "License": " GPLv2+", 
+            "URL": " http://www.mega-nerd.com/SRC/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-05.phx2.fedoraproject.org", 
+            "Description": "\nSecret Rabbit Code is a sample rate converter for audio. It is capable\nof arbitrary and time varying conversions. It can downsample by a\nfactor of 12 and upsample by the same factor. The ratio of input and\noutput sample rates can be a real number. The conversion ratio can\nalso vary with time for speeding up and slowing down effects.\n", 
+            "Build Date": " Thu 03 Aug 2017 04:01:01 PM EDT", 
+            "Source RPM": " libsamplerate-0.1.8-13.fc27.src.rpm", 
+            "Version": " 0.1.8", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 01:11:28 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 13.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Sample rate conversion library for audio data", 
+            "Size": " 1647389"
+        }
+    }
+}

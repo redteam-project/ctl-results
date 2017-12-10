@@ -1,0 +1,63 @@
+{
+    "results": {
+        "lib/security/pam_pbssimpleauth_so": {
+            "report-functions": [
+                "strstr", 
+                "_Jv_RegisterClasses", 
+                "closedir", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "open", 
+                "opendir", 
+                "readdir", 
+                "openlog", 
+                "strerror", 
+                "strncpy", 
+                "__snprintf_chk", 
+                "close", 
+                "read", 
+                "__stack_chk_fail", 
+                "_ITM_registerTMCloneTable", 
+                "getpwnam", 
+                "__errno_location", 
+                "__syslog_chk", 
+                "pam_get_user", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "torque-pam-4.2.10-10.fc25.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "lib/security/pam_pbssimpleauth.so"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Base", 
+            "Name": " torque-pam", 
+            "License": " OpenPBS and TORQUEv1.1", 
+            "URL": " http://www.adaptivecomputing.com/products/open-source/torque/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-24.phx2.fedoraproject.org", 
+            "Description": "\nTORQUE (Tera-scale Open-source Resource and QUEue manager) is a resource\nmanager providing control over batch jobs and distributed compute nodes.\nTORQUE is based on OpenPBS version 2.3.12 and incorporates scalability,\nfault tolerance, and feature extension patches provided by USC, NCSA, OSC,\nthe U.S. Dept of Energy, Sandia, PNNL, U of Buffalo, TeraGrid, and many\nother leading edge HPC organizations.\n\nA simple PAM module to authorize users on PBS MOM nodes with a running job.\n", 
+            "Build Date": " Sat 09 Apr 2016 09:08:11 AM EDT", 
+            "Source RPM": " torque-4.2.10-10.fc25.src.rpm", 
+            "Version": " 4.2.10", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sun 26 Feb 2017 05:03:41 PM EST, Key ID f55e7430f5282ee4", 
+            "Release": " 10.fc25", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " PAM module for TORQUE MOM nodes", 
+            "Size": " 10927"
+        }
+    }
+}

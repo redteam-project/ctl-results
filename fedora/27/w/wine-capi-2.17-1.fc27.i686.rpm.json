@@ -1,0 +1,49 @@
+{
+    "results": {
+        "usr/lib/wine/capi2032_dll_so": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "wine_dbg_log", 
+                "wine_dlopen", 
+                "__gmon_start__", 
+                "wine_dlsym", 
+                "__stack_chk_fail", 
+                "__wine_dll_register"
+            ], 
+            "rpm": "wine-capi-2.17-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/wine/capi2032.dll.so"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " wine-capi", 
+            "License": " LGPLv2+", 
+            "URL": " http://www.winehq.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-21.phx2.fedoraproject.org", 
+            "Description": "\nISDN support for wine\n", 
+            "Build Date": " Thu 21 Sep 2017 12:47:50 PM EDT", 
+            "Source RPM": " wine-2.17-1.fc27.src.rpm", 
+            "Version": " 2.17", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 21 Sep 2017 01:36:47 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 1.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " ISDN support for wine", 
+            "Size": " 85476"
+        }
+    }
+}

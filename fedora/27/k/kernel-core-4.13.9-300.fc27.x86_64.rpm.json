@@ -1,0 +1,56 @@
+{
+    "results": {
+        "lib/modules/4_13_9-300_fc27_x86_64/vdso/vdso64_so": {
+            "report-functions": [], 
+            "rpm": "kernel-core-4.13.9-300.fc27.x86_64.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "lib/modules/4.13.9-300.fc27.x86_64/vdso/vdso64.so"
+        }, 
+        "lib/modules/4_13_9-300_fc27_x86_64/vdso/vdso32_so": {
+            "report-functions": [], 
+            "rpm": "kernel-core-4.13.9-300.fc27.x86_64.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "lib/modules/4.13.9-300.fc27.x86_64/vdso/vdso32.so"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Kernel", 
+            "Name": " kernel-core", 
+            "License": " GPLv2 and Redistributable, no modification permitted", 
+            "URL": " http://www.kernel.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " bkernel01.phx2.fedoraproject.org", 
+            "Description": "\nThe kernel package contains the Linux kernel (vmlinuz), the core of any\nLinux operating system.  The kernel handles the basic functions\nof the operating system: memory allocation, process allocation, device\ninput and output, etc.\n", 
+            "Build Date": " Mon 23 Oct 2017 10:28:37 AM EDT", 
+            "Source RPM": " kernel-4.13.9-300.fc27.src.rpm", 
+            "Version": " 4.13.9", 
+            "Architecture": " x86_64", 
+            "Signature": " RSA/SHA256, Tue 24 Oct 2017 03:22:25 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 300.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " The Linux kernel", 
+            "Size": " 57543650"
+        }
+    }
+}

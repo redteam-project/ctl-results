@@ -1,0 +1,136 @@
+{
+    "results": {
+        "usr/bin/ykgenerate": {
+            "report-functions": [
+                "yubikey_hex_decode", 
+                "__cxa_finalize", 
+                "__libc_start_main", 
+                "srand", 
+                "strlen", 
+                "_ITM_registerTMCloneTable", 
+                "rand", 
+                "_ITM_deregisterTMCloneTable", 
+                "time", 
+                "__gmon_start__", 
+                "yubikey_generate", 
+                "__printf_chk", 
+                "puts", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "libyubikey-1.13-5.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/ykgenerate"
+        }, 
+        "usr/lib/libyubikey_so_0_1_7": {
+            "report-functions": [
+                "strchr", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize", 
+                "strlen"
+            ], 
+            "rpm": "libyubikey-1.13-5.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libyubikey.so.0.1.7"
+        }, 
+        "usr/bin/modhex": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize", 
+                "__printf_chk", 
+                "putchar", 
+                "fwrite", 
+                "puts", 
+                "__gmon_start__", 
+                "perror", 
+                "malloc", 
+                "yubikey_modhex_decode", 
+                "__libc_start_main", 
+                "yubikey_modhex_encode"
+            ], 
+            "rpm": "libyubikey-1.13-5.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/modhex"
+        }, 
+        "usr/bin/ykparse": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "yubikey_modhex_decode", 
+                "puts", 
+                "yubikey_parse", 
+                "__cxa_finalize", 
+                "yubikey_modhex_encode", 
+                "strlen", 
+                "putchar", 
+                "__printf_chk", 
+                "yubikey_crc16", 
+                "yubikey_hex_decode", 
+                "_ITM_deregisterTMCloneTable", 
+                "__libc_start_main", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "libyubikey-1.13-5.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/ykparse"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " libyubikey", 
+            "License": " BSD", 
+            "URL": " http://opensource.yubico.com/yubico-c", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-13.phx2.fedoraproject.org", 
+            "Description": "\nThis package holds a low-level C software development kit for the Yubico\nauthentication device, the Yubikey.\n", 
+            "Build Date": " Thu 03 Aug 2017 05:21:43 PM EDT", 
+            "Source RPM": " libyubikey-1.13-5.fc27.src.rpm", 
+            "Version": " 1.13", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 02:32:41 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 5.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " C library for decrypting and parsing Yubikey One-time passwords", 
+            "Size": " 72272"
+        }
+    }
+}

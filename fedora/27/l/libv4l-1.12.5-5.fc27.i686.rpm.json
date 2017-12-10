@@ -1,0 +1,359 @@
+{
+    "results": {
+        "usr/lib/libv4l/v4l1compat_so": {
+            "report-functions": [
+                "v4l1_munmap", 
+                "_ITM_deregisterTMCloneTable", 
+                "v4l1_open", 
+                "v4l1_close", 
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "v4l1_dup", 
+                "v4l1_read", 
+                "_ITM_registerTMCloneTable", 
+                "v4l1_mmap"
+            ], 
+            "rpm": "libv4l-1.12.5-5.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libv4l/v4l1compat.so"
+        }, 
+        "usr/lib/libv4l/ov511-decomp": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "__stack_chk_fail", 
+                "__fprintf_chk", 
+                "write", 
+                "read", 
+                "_ITM_deregisterTMCloneTable", 
+                "exit", 
+                "strerror", 
+                "__libc_start_main", 
+                "__errno_location"
+            ], 
+            "rpm": "libv4l-1.12.5-5.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libv4l/ov511-decomp"
+        }, 
+        "usr/lib/libv4l2rds_so_0_0_0": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "calloc", 
+                "__stack_chk_fail", 
+                "_ITM_registerTMCloneTable", 
+                "__gmon_start__", 
+                "mktime", 
+                "free"
+            ], 
+            "rpm": "libv4l-1.12.5-5.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libv4l2rds.so.0.0.0"
+        }, 
+        "usr/lib/libv4l/ov518-decomp": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "__fprintf_chk", 
+                "write", 
+                "strerror", 
+                "_ITM_registerTMCloneTable", 
+                "_ITM_deregisterTMCloneTable", 
+                "__libc_start_main", 
+                "__errno_location", 
+                "read"
+            ], 
+            "rpm": "libv4l-1.12.5-5.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libv4l/ov518-decomp"
+        }, 
+        "usr/lib/libv4l2_so_0_0_0": {
+            "report-functions": [
+                "dlerror", 
+                "fflush", 
+                "sysconf", 
+                "v4lconvert_enum_frameintervals", 
+                "dlopen", 
+                "v4lconvert_needs_conversion", 
+                "__errno_location", 
+                "v4lconvert_supported_dst_format", 
+                "v4lconvert_vidioc_s_ctrl", 
+                "strerror", 
+                "fopen", 
+                "pthread_mutex_init", 
+                "v4lconvert_vidioc_queryctrl", 
+                "getenv", 
+                "v4lconvert_set_fps", 
+                "realloc", 
+                "v4lconvert_get_default_dev_ops", 
+                "_ITM_deregisterTMCloneTable", 
+                "dlclose", 
+                "__gmon_start__", 
+                "v4lconvert_enum_framesizes", 
+                "fwrite", 
+                "v4lconvert_convert", 
+                "__stack_chk_fail", 
+                "v4lconvert_try_format", 
+                "v4lconvert_create_with_dev_ops", 
+                "__snprintf_chk", 
+                "v4lconvert_enum_fmt", 
+                "v4lconvert_get_error_message", 
+                "__fprintf_chk", 
+                "glob", 
+                "dlsym", 
+                "globfree", 
+                "pthread_mutex_unlock", 
+                "v4lconvert_vidioc_s_ext_ctrls", 
+                "_ITM_registerTMCloneTable", 
+                "v4lconvert_vidioc_g_ctrl", 
+                "v4lconvert_vidioc_g_ext_ctrls", 
+                "v4lconvert_fixup_fmt", 
+                "v4lconvert_supported_dst_fmt_only", 
+                "syscall", 
+                "free", 
+                "__cxa_finalize", 
+                "pthread_mutex_lock"
+            ], 
+            "rpm": "libv4l-1.12.5-5.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libv4l2.so.0.0.0"
+        }, 
+        "usr/lib/libv4lconvert_so_0_0_0": {
+            "report-functions": [
+                "jpeg_read_header", 
+                "jpeg_read_raw_data", 
+                "jpeg_finish_decompress", 
+                "fopen", 
+                "jpeg_start_compress", 
+                "calloc", 
+                "jpeg_std_error", 
+                "strerror", 
+                "close", 
+                "free", 
+                "sscanf", 
+                "__memcpy_chk", 
+                "pipe", 
+                "jpeg_write_tables", 
+                "jpeg_mem_src", 
+                "jpeg_abort_decompress", 
+                "strtol", 
+                "munmap", 
+                "_setjmp", 
+                "memcmp", 
+                "ftruncate", 
+                "mmap", 
+                "fork", 
+                "dup2", 
+                "execl", 
+                "jpeg_set_defaults", 
+                "jpeg_mem_dest", 
+                "__longjmp_chk", 
+                "syscall", 
+                "__xstat", 
+                "__gmon_start__", 
+                "__fprintf_chk", 
+                "strlen", 
+                "jpeg_set_linear_quality", 
+                "strcmp", 
+                "shm_open", 
+                "__fxstat", 
+                "jpeg_start_decompress", 
+                "__stack_chk_fail", 
+                "getpwuid_r", 
+                "jpeg_CreateCompress", 
+                "getenv", 
+                "read", 
+                "__ctype_b_loc", 
+                "__errno_location", 
+                "strndup", 
+                "perror", 
+                "_ITM_registerTMCloneTable", 
+                "fgets", 
+                "__snprintf_chk", 
+                "_ITM_deregisterTMCloneTable", 
+                "fnmatch", 
+                "jpeg_finish_compress", 
+                "fclose", 
+                "waitpid", 
+                "geteuid", 
+                "exit", 
+                "__cxa_finalize", 
+                "powf", 
+                "jpeg_read_scanlines", 
+                "jpeg_CreateDecompress", 
+                "fwrite", 
+                "jpeg_destroy_decompress", 
+                "jpeg_destroy_compress", 
+                "write"
+            ], 
+            "rpm": "libv4l-1.12.5-5.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libv4lconvert.so.0.0.0"
+        }, 
+        "usr/lib/libv4l1_so_0_0_0": {
+            "report-functions": [
+                "v4l2_close", 
+                "v4l2_get_control", 
+                "_ITM_registerTMCloneTable", 
+                "v4l2_read", 
+                "syscall", 
+                "strerror", 
+                "fwrite", 
+                "__cxa_finalize", 
+                "__gmon_start__", 
+                "pthread_mutex_unlock", 
+                "fflush", 
+                "v4l2_munmap", 
+                "v4l2_dup", 
+                "__stack_chk_fail", 
+                "v4l2_fd_open", 
+                "_ITM_deregisterTMCloneTable", 
+                "__errno_location", 
+                "snprintf", 
+                "getenv", 
+                "__fprintf_chk", 
+                "__snprintf_chk", 
+                "v4l2_ioctl", 
+                "fopen", 
+                "v4l2_set_control"
+            ], 
+            "rpm": "libv4l-1.12.5-5.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libv4l1.so.0.0.0"
+        }, 
+        "usr/lib/libv4l/v4l2convert_so": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "_ITM_deregisterTMCloneTable", 
+                "v4l2_fd_open", 
+                "__gmon_start__", 
+                "v4l2_dup", 
+                "v4l2_mmap", 
+                "syscall", 
+                "v4l2_close", 
+                "_ITM_registerTMCloneTable", 
+                "v4l2_ioctl"
+            ], 
+            "rpm": "libv4l-1.12.5-5.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libv4l/v4l2convert.so"
+        }, 
+        "usr/lib/libv4l/plugins/libv4l-mplane_so": {
+            "report-functions": [
+                "__errno_location", 
+                "__stack_chk_fail", 
+                "free", 
+                "__printf_chk", 
+                "__cxa_finalize", 
+                "calloc", 
+                "syscall", 
+                "perror", 
+                "__gmon_start__"
+            ], 
+            "rpm": "libv4l-1.12.5-5.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libv4l/plugins/libv4l-mplane.so"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " libv4l", 
+            "License": " LGPLv2+ and GPLv2", 
+            "URL": " http://hansdegoede.livejournal.com/3636.html", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-24.phx2.fedoraproject.org", 
+            "Description": "\nlibv4l is a collection of libraries which adds a thin abstraction layer on\ntop of video4linux2 devices. The purpose of this (thin) layer is to make it\neasy for application writers to support a wide variety of devices without\nhaving to write separate code for different devices in the same class. libv4l\nconsists of 3 different libraries: libv4lconvert, libv4l1 and libv4l2.\n\nlibv4lconvert offers functions to convert from any (known) pixel-format\nto V4l2_PIX_FMT_BGR24 or V4l2_PIX_FMT_YUV420.\n\nlibv4l1 offers the (deprecated) v4l1 API on top of v4l2 devices, independent\nof the drivers for those devices supporting v4l1 compatibility (which many\nv4l2 drivers do not).\n\nlibv4l2 offers the v4l2 API on top of v4l2 devices, while adding for the\napplication transparent libv4lconvert conversion where necessary.\n", 
+            "Build Date": " Fri 03 Nov 2017 06:08:30 AM EDT", 
+            "Source RPM": " v4l-utils-1.12.5-5.fc27.src.rpm", 
+            "Version": " 1.12.5", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 03 Nov 2017 06:54:20 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 5.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Collection of video4linux support libraries", 
+            "Size": " 515564"
+        }
+    }
+}

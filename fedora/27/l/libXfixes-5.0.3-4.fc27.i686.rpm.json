@@ -1,0 +1,63 @@
+{
+    "results": {
+        "usr/lib/libXfixes_so_3_1_0": {
+            "report-functions": [
+                "XFree", 
+                "_XEatData", 
+                "strlen", 
+                "__gmon_start__", 
+                "_XReply", 
+                "XInitExtension", 
+                "_XSetLastRequestRead", 
+                "_ITM_deregisterTMCloneTable", 
+                "malloc", 
+                "_XRead", 
+                "memmove", 
+                "_ITM_registerTMCloneTable", 
+                "_XEatDataWords", 
+                "XESetEventToWire", 
+                "XESetCloseDisplay", 
+                "__cxa_finalize", 
+                "XESetWireToEvent", 
+                "_XReadPad", 
+                "_XSend", 
+                "_XGetRequest", 
+                "free"
+            ], 
+            "rpm": "libXfixes-5.0.3-4.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libXfixes.so.3.1.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " libXfixes", 
+            "License": " MIT", 
+            "URL": " http://www.x.org", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-15.phx2.fedoraproject.org", 
+            "Description": "\nX Fixes library.\n", 
+            "Build Date": " Thu 03 Aug 2017 12:17:42 PM EDT", 
+            "Source RPM": " libXfixes-5.0.3-4.fc27.src.rpm", 
+            "Version": " 5.0.3", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 05:08:50 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 4.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " X Fixes library", 
+            "Size": " 26007"
+        }
+    }
+}

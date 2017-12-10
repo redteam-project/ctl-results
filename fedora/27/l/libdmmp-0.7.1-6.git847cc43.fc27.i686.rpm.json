@@ -1,0 +1,72 @@
+{
+    "results": {
+        "usr/lib/libdmmp_so_0_1_0": {
+            "report-functions": [
+                "__vfprintf_chk", 
+                "__cxa_finalize", 
+                "__xpg_strerror_r", 
+                "strcmp", 
+                "json_tokener_new", 
+                "__stack_chk_fail", 
+                "__assert_fail", 
+                "mpath_process_cmd", 
+                "mpath_connect", 
+                "json_object_get_string", 
+                "array_list_get_idx", 
+                "__errno_location", 
+                "json_object_get_type", 
+                "_ITM_deregisterTMCloneTable", 
+                "mpath_disconnect", 
+                "_ITM_registerTMCloneTable", 
+                "json_object_put", 
+                "json_tokener_free", 
+                "json_object_get_int", 
+                "free", 
+                "json_object_object_get_ex", 
+                "__fprintf_chk", 
+                "malloc", 
+                "json_tokener_error_desc", 
+                "array_list_length", 
+                "strdup", 
+                "json_tokener_parse_ex", 
+                "json_tokener_get_error", 
+                "json_object_get_array", 
+                "json_type_to_name"
+            ], 
+            "rpm": "libdmmp-0.7.1-6.git847cc43.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libdmmp.so.0.1.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " libdmmp", 
+            "License": " GPL+", 
+            "URL": " http://christophe.varoqui.free.fr/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-08.phx2.fedoraproject.org", 
+            "Description": "\nThis package contains the shared library for the device-mapper-multipath\nC API library.\n", 
+            "Build Date": " Mon 31 Jul 2017 06:13:51 PM EDT", 
+            "Source RPM": " device-mapper-multipath-0.7.1-6.git847cc43.fc27.src.rpm", 
+            "Version": " 0.7.1", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 31 Jul 2017 06:17:55 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 6.git847cc43.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " device-mapper-multipath C API library", 
+            "Size": " 53806"
+        }
+    }
+}

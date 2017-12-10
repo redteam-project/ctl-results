@@ -1,0 +1,69 @@
+{
+    "results": {
+        "usr/lib/libmp3lame_so_0_0_0": {
+            "report-functions": [
+                "fflush", 
+                "qsort", 
+                "__stack_chk_fail", 
+                "free", 
+                "__pow_finite", 
+                "_ITM_registerTMCloneTable", 
+                "fwrite", 
+                "memmove", 
+                "malloc", 
+                "memset", 
+                "__vfprintf_chk", 
+                "_ITM_deregisterTMCloneTable", 
+                "calloc", 
+                "strncpy", 
+                "strchr", 
+                "__gmon_start__", 
+                "strcat", 
+                "cbrt", 
+                "__ctype_tolower_loc", 
+                "exit", 
+                "__ctype_toupper_loc", 
+                "__sprintf_chk", 
+                "fseek", 
+                "strlen", 
+                "strtol", 
+                "ftell", 
+                "fread"
+            ], 
+            "rpm": "lame-libs-3.99.5-10.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libmp3lame.so.0.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " lame-libs", 
+            "License": " GPLv2+", 
+            "URL": " http://lame.sourceforge.net/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-20.phx2.fedoraproject.org", 
+            "Description": "\nLAME MP3 encoding library.\n", 
+            "Build Date": " Thu 03 Aug 2017 10:18:53 AM EDT", 
+            "Source RPM": " lame-3.99.5-10.fc27.src.rpm", 
+            "Version": " 3.99.5", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 04:26:44 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 10.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " LAME MP3 encoding library", 
+            "Size": " 1217828"
+        }
+    }
+}

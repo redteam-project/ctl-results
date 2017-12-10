@@ -1,0 +1,25 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Languages", 
+            "Name": " python-unicodenazi", 
+            "License": " BSD", 
+            "URL": " http://pypi.python.org/pypi/unicode-nazi", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-aarch64-19.arm.fedoraproject.org", 
+            "Description": "\nA common source of unicode issues in python2 is that code mixes str and unicode\nand is valid for the cases the author tests for (because they only test with\nASCII) but then throws an error when the code is used with non-ASCII strings.\n\nIf enabled unicodenazi will complain when this mixing of unicode and byte str\noccurs.  It's annoying as hell, has a huge runtime impact on performance, and\nwill also complain about most of the stuff in the Python standard library.  But\nit will point out some areas of your code that may traceback in python2 when\ngiven different data and make it easier to migrate to python3 where unicode and\nbytes no longer interoperate.\n", 
+            "Build Date": " Fri 28 Jul 2017 02:39:38 PM EDT", 
+            "Source RPM": " python-unicodenazi-1.1-11.fc27.src.rpm", 
+            "Version": " 1.1", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Sat 29 Jul 2017 04:57:56 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 11.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Module that finds unicode/bytestring comparisons and other problems", 
+            "Size": " 12067"
+        }
+    }
+}

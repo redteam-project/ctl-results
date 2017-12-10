@@ -1,0 +1,93 @@
+{
+    "results": {
+        "usr/lib/libpthsem_so_20_0_27": {
+            "report-functions": [
+                "__gmon_start__", 
+                "connect", 
+                "execl", 
+                "sigprocmask", 
+                "read", 
+                "pipe", 
+                "__errno_location", 
+                "getcontext", 
+                "kill", 
+                "makecontext", 
+                "sigsuspend", 
+                "exit", 
+                "writev", 
+                "sigaddset", 
+                "readv", 
+                "accept", 
+                "gettimeofday", 
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable", 
+                "sigaction", 
+                "sigismember", 
+                "select", 
+                "calloc", 
+                "abort", 
+                "close", 
+                "swapcontext", 
+                "write", 
+                "__ctype_b_loc", 
+                "__xstat", 
+                "_ITM_deregisterTMCloneTable", 
+                "__fprintf_chk", 
+                "setcontext", 
+                "sigemptyset", 
+                "lseek", 
+                "sendto", 
+                "waitpid", 
+                "__fdelt_chk", 
+                "recvfrom", 
+                "fwrite", 
+                "malloc", 
+                "sigdelset", 
+                "fcntl", 
+                "fork", 
+                "usleep", 
+                "sigpending", 
+                "__stack_chk_fail", 
+                "recv", 
+                "strcmp", 
+                "getsockopt", 
+                "free", 
+                "getpid"
+            ], 
+            "rpm": "pthsem-2.0.7-15.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libpthsem.so.20.0.27"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " pthsem", 
+            "License": " LGPLv2+", 
+            "URL": " http://www.auto.tuwien.ac.at/~mkoegler/index.php/pth", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-27.phx2.fedoraproject.org", 
+            "Description": "\nPth is a very portable POSIX/ANSI-C based library for Unix platforms\nwhich provides non-preemptive priority-based scheduling for multiple\nthreads of execution (\"multithreading\") inside server applications.\nAll threads run in the same address space of the server application,\nbut each thread has it's own individual program-counter, run-time\nstack, signal mask and errno variable.\n\npthsem is an extend version, with support for semaphores added. It can\nbe installed parallel to a normal pth. The header file is called pthsem.h,\nthe configuration program pthsem-config and the autoconf macro\nAC_CHECK_PTHSEM.\n", 
+            "Build Date": " Fri 04 Aug 2017 08:04:52 AM EDT", 
+            "Source RPM": " pthsem-2.0.7-15.fc27.src.rpm", 
+            "Version": " 2.0.7", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 05 Aug 2017 05:00:53 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 15.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " The GNU Portable Threads library extended with semaphore support", 
+            "Size": " 266253"
+        }
+    }
+}

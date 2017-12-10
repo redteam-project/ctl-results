@@ -1,0 +1,143 @@
+{
+    "results": {
+        "usr/lib/libnetresolve-backend-nss_so_0_0_0": {
+            "report-functions": [
+                "netresolve_backend_finished", 
+                "dlerror", 
+                "_dl_mcount_wrapper_check", 
+                "netresolve_backend_get_servname", 
+                "netresolve_backend_set_canonical_name", 
+                "_ITM_deregisterTMCloneTable", 
+                "__stack_chk_fail", 
+                "netresolve_backend_apply_hostent", 
+                "_ITM_registerTMCloneTable", 
+                "netresolve_backend_failed", 
+                "strcmp", 
+                "netresolve_backend_apply_addrinfo", 
+                "strdup", 
+                "netresolve_backend_get_nodename", 
+                "dlsym", 
+                "netresolve_backend_get_addrinfo_hints", 
+                "strlen", 
+                "netresolve_backend_apply_addrtuple", 
+                "dlclose", 
+                "__snprintf_chk", 
+                "freeaddrinfo", 
+                "memset", 
+                "dlopen", 
+                "strrchr", 
+                "netresolve_log", 
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "netresolve_backend_get_family", 
+                "memmove", 
+                "strchr"
+            ], 
+            "rpm": "netresolve-backends-compat-0.0.1-0.19.20160317git.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libnetresolve-backend-nss.so.0.0.0"
+        }, 
+        "usr/lib/libnetresolve-backend-asyncns_so_0_0_0": {
+            "report-functions": [
+                "asyncns_new", 
+                "asyncns_fd", 
+                "asyncns_wait", 
+                "asyncns_getnext", 
+                "asyncns_getaddrinfo", 
+                "netresolve_backend_failed", 
+                "netresolve_backend_get_addrinfo_hints", 
+                "__stack_chk_fail", 
+                "asyncns_getaddrinfo_done", 
+                "netresolve_backend_new_priv", 
+                "netresolve_backend_get_servname", 
+                "netresolve_backend_apply_addrinfo", 
+                "__cxa_finalize", 
+                "_ITM_deregisterTMCloneTable", 
+                "asyncns_free", 
+                "asyncns_freeaddrinfo", 
+                "netresolve_watch_add", 
+                "_ITM_registerTMCloneTable", 
+                "netresolve_backend_get_nodename"
+            ], 
+            "rpm": "netresolve-backends-compat-0.0.1-0.19.20160317git.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libnetresolve-backend-asyncns.so.0.0.0"
+        }, 
+        "usr/lib/libnetresolve-backend-libc_so_0_0_0": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "netresolve_backend_get_dns_search", 
+                "_ITM_registerTMCloneTable", 
+                "netresolve_backend_set_dns_answer", 
+                "__stack_chk_fail", 
+                "netresolve_backend_get_address", 
+                "netresolve_backend_apply_addrinfo", 
+                "netresolve_backend_get_dns_query", 
+                "__gmon_start__", 
+                "netresolve_backend_add_name_info", 
+                "_ITM_deregisterTMCloneTable", 
+                "netresolve_backend_finished", 
+                "getaddrinfo", 
+                "netresolve_backend_get_family", 
+                "netresolve_backend_get_port", 
+                "netresolve_backend_get_addrinfo_hints", 
+                "__res_search", 
+                "getnameinfo", 
+                "netresolve_backend_get_nodename", 
+                "netresolve_backend_failed"
+            ], 
+            "rpm": "netresolve-backends-compat-0.0.1-0.19.20160317git.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libnetresolve-backend-libc.so.0.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " netresolve-backends-compat", 
+            "License": " BSD", 
+            "URL": " https://sourceware.org/netresolve/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-14.phx2.fedoraproject.org", 
+            "Description": "\nThis package provides backends for querying libc, glibc nsswitch backends,\nasyncns and other existing name resolution libraries.\n", 
+            "Build Date": " Fri 04 Aug 2017 12:00:08 AM EDT", 
+            "Source RPM": " netresolve-0.0.1-0.19.20160317git.fc27.src.rpm", 
+            "Version": " 0.0.1", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 08:11:48 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 0.19.20160317git.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Backends for netresolve using existing tools", 
+            "Size": " 26928"
+        }
+    }
+}

@@ -1,0 +1,125 @@
+{
+    "results": {
+        "usr/sbin/lockdev": {
+            "report-functions": [
+                "strlen", 
+                "getpid", 
+                "creat", 
+                "dup2", 
+                "kill", 
+                "fopen", 
+                "sleep", 
+                "_ITM_registerTMCloneTable", 
+                "exit", 
+                "__isoc99_fscanf", 
+                "__strcpy_chk", 
+                "getppid", 
+                "flock", 
+                "access", 
+                "__gmon_start__", 
+                "unlink", 
+                "__cxa_finalize", 
+                "__xstat", 
+                "rename", 
+                "open", 
+                "close", 
+                "__stack_chk_fail", 
+                "umask", 
+                "__libc_start_main", 
+                "__sprintf_chk", 
+                "link", 
+                "_ITM_deregisterTMCloneTable", 
+                "__errno_location", 
+                "fclose", 
+                "__fprintf_chk"
+            ], 
+            "rpm": "lockdev-1.0.4-0.25.20111007git.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/sbin/lockdev"
+        }, 
+        "usr/lib/liblockdev_so_1_0_0": {
+            "report-functions": [
+                "getgid", 
+                "link", 
+                "__gmon_start__", 
+                "flock", 
+                "creat", 
+                "euidaccess", 
+                "setregid", 
+                "dup2", 
+                "geteuid", 
+                "__sprintf_chk", 
+                "unlink", 
+                "getuid", 
+                "_ITM_registerTMCloneTable", 
+                "umask", 
+                "strlen", 
+                "__xstat", 
+                "ttyname", 
+                "waitpid", 
+                "setreuid", 
+                "__strcpy_chk", 
+                "__errno_location", 
+                "fopen", 
+                "close", 
+                "kill", 
+                "rename", 
+                "malloc", 
+                "getegid", 
+                "__stack_chk_fail", 
+                "sleep", 
+                "execv", 
+                "exit", 
+                "__cxa_finalize", 
+                "open", 
+                "fork", 
+                "fscanf", 
+                "getpid", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "lockdev-1.0.4-0.25.20111007git.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/liblockdev.so.1.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " lockdev", 
+            "License": " LGPLv2", 
+            "URL": " https://alioth.debian.org/projects/lockdev/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-11.phx2.fedoraproject.org", 
+            "Description": "\nLockdev provides a reliable way to put an exclusive lock to devices\nusing both FSSTND and SVr4 methods.\n", 
+            "Build Date": " Thu 03 Aug 2017 06:23:25 PM EDT", 
+            "Source RPM": " lockdev-1.0.4-0.25.20111007git.fc27.src.rpm", 
+            "Version": " 1.0.4", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 03:07:07 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 0.25.20111007git.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A library for locking devices", 
+            "Size": " 57533"
+        }
+    }
+}

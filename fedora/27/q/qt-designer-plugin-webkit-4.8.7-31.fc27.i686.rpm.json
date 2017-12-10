@@ -1,0 +1,74 @@
+{
+    "results": {
+        "usr/lib/qt4/plugins/designer/libqwebview_so": {
+            "report-functions": [
+                "_ZNK11QMetaObject2trEPKcS1_", 
+                "_ZN7QObject5eventEP6QEvent", 
+                "_ZN8QWebViewC1EP7QWidget", 
+                "_Znwj", 
+                "_Z23qUnregisterResourceDataiPKhS0_S0_", 
+                "__cxa_finalize", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_atexit", 
+                "_Unwind_Resume", 
+                "_ZN7QObject11eventFilterEPS_P6QEvent", 
+                "_ZN7QObject11customEventEP6QEvent", 
+                "_ZN5QIconC1ERK7QString", 
+                "__gxx_personality_v0", 
+                "_ZN7QObject10childEventEP11QChildEvent", 
+                "_ZN7QObjectD2Ev", 
+                "_ZdlPv", 
+                "_ZN11QMetaObject11removeGuardEPP7QObject", 
+                "_ZN11QMetaObject11changeGuardEPP7QObjectS1_", 
+                "_ZN7QObject13connectNotifyEPKc", 
+                "_ZN7QObject11qt_metacallEN11QMetaObject4CallEiPPv", 
+                "_ZN7QObject16disconnectNotifyEPKc", 
+                "_Z21qRegisterResourceDataiPKhS0_S0_", 
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "_ZN7QObject11qt_metacastEPKc", 
+                "__cxa_guard_acquire", 
+                "_ZN7QString4freeEPNS_4DataE", 
+                "_ZN7QObject10timerEventEP11QTimerEvent", 
+                "__cxa_guard_release", 
+                "_ZN7QString17fromLatin1_helperEPKci"
+            ], 
+            "rpm": "qt-designer-plugin-webkit-4.8.7-31.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/qt4/plugins/designer/libqwebview.so"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " qt-designer-plugin-webkit", 
+            "License": " (LGPLv2 with exceptions or GPLv3 with exceptions) and ASL 2.0 and BSD and FTL and MIT", 
+            "URL": " http://qt-project.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-06.phx2.fedoraproject.org", 
+            "Source RPM": " qt-4.8.7-31.fc27.src.rpm", 
+            "Description": "\nQt designer plugin for WebKit.\n", 
+            "Build Date": " Fri 04 Aug 2017 12:35:28 PM EDT", 
+            "Epoch": " 1", 
+            "Version": " 4.8.7", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 05 Aug 2017 06:37:25 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 31.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Qt designer plugin for WebKit", 
+            "Size": " 18856"
+        }
+    }
+}

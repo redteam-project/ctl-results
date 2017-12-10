@@ -1,0 +1,134 @@
+{
+    "results": {
+        "usr/lib/libtheoradec_so_1_1_4": {
+            "report-functions": [
+                "malloc", 
+                "__ctype_toupper_loc", 
+                "calloc", 
+                "__gmon_start__", 
+                "realloc", 
+                "strlen", 
+                "__cxa_finalize", 
+                "__stack_chk_fail", 
+                "_ITM_registerTMCloneTable", 
+                "free", 
+                "_ITM_deregisterTMCloneTable", 
+                "memset"
+            ], 
+            "rpm": "libtheora-1.1.1-18.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libtheoradec.so.1.1.4"
+        }, 
+        "usr/lib/libtheoraenc_so_1_1_2": {
+            "report-functions": [
+                "oggpackB_reset", 
+                "memmove", 
+                "oggpackB_bytes", 
+                "oggpackB_write", 
+                "th_comment_add", 
+                "qsort", 
+                "__cxa_finalize", 
+                "__gmon_start__", 
+                "oggpackB_writeclear", 
+                "free", 
+                "realloc", 
+                "__stack_chk_fail", 
+                "oggpackB_writeinit", 
+                "th_comment_query_count", 
+                "oggpack_writeclear", 
+                "_ITM_deregisterTMCloneTable", 
+                "memcmp", 
+                "oggpackB_get_buffer", 
+                "memset", 
+                "calloc", 
+                "malloc", 
+                "th_comment_clear", 
+                "_ITM_registerTMCloneTable", 
+                "strlen", 
+                "oggpack_write", 
+                "th_comment_add_tag"
+            ], 
+            "rpm": "libtheora-1.1.1-18.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libtheoraenc.so.1.1.2"
+        }, 
+        "usr/lib/libtheora_so_0_3_10": {
+            "report-functions": [
+                "oggpack_write", 
+                "oggpackB_reset", 
+                "realloc", 
+                "free", 
+                "__cxa_finalize", 
+                "calloc", 
+                "memset", 
+                "oggpackB_bytes", 
+                "oggpackB_get_buffer", 
+                "oggpack_writeclear", 
+                "_ITM_deregisterTMCloneTable", 
+                "__ctype_toupper_loc", 
+                "qsort", 
+                "oggpackB_write", 
+                "memcmp", 
+                "malloc", 
+                "__gmon_start__", 
+                "strlen", 
+                "_ITM_registerTMCloneTable", 
+                "oggpackB_writeclear", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "libtheora-1.1.1-18.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libtheora.so.0.3.10"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " libtheora", 
+            "License": " BSD", 
+            "URL": " http://www.theora.org", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-05.phx2.fedoraproject.org", 
+            "Source RPM": " libtheora-1.1.1-18.fc27.src.rpm", 
+            "Description": "\nTheora is Xiph.Org's first publicly released video codec, intended\nfor use within the Ogg's project's Ogg multimedia streaming system.\nTheora is derived directly from On2's VP3 codec; Currently the two are\nnearly identical, varying only in encapsulating decoder tables in the\nbitstream headers, but Theora will make use of this extra freedom\nin the future to improve over what is possible with VP3.\n", 
+            "Build Date": " Mon 07 Aug 2017 11:14:47 AM EDT", 
+            "Epoch": " 1", 
+            "Version": " 1.1.1", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 08 Aug 2017 10:32:14 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 18.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Theora Video Compression Codec", 
+            "Size": " 719882"
+        }
+    }
+}

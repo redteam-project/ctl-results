@@ -1,0 +1,25 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " python-backports-ssl_match_hostname", 
+            "License": " Python", 
+            "URL": " https://bitbucket.org/brandon/backports.ssl_match_hostname", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-19.phx2.fedoraproject.org", 
+            "Description": "\nThe Secure Sockets layer is only actually secure if you check the hostname in\nthe certificate returned by the server to which you are connecting, and verify\nthat it matches to hostname that you are trying to reach.\n\nBut the matching logic, defined in RFC2818, can be a bit tricky to implement on\nyour own. So the ssl package in the Standard Library of Python 3.2 now includes\na match_hostname() function for performing this check instead of requiring\nevery application to implement the check separately.\n\nThis backport brings match_hostname() to users of earlier versions of Python.\nThe actual code is only slightly modified from Python 3.5.\n", 
+            "Build Date": " Fri 28 Jul 2017 12:01:53 PM EDT", 
+            "Source RPM": " python-backports-ssl_match_hostname-3.5.0.1-5.fc27.src.rpm", 
+            "Version": " 3.5.0.1", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Fri 28 Jul 2017 11:58:08 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 5.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " The ssl.match_hostname() function from Python 3", 
+            "Size": " 18824"
+        }
+    }
+}

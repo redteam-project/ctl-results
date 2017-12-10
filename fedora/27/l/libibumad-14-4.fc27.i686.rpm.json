@@ -1,0 +1,71 @@
+{
+    "results": {
+        "usr/lib/libibumad_so_3_0_14": {
+            "report-functions": [
+                "opendir", 
+                "write", 
+                "__errno_location", 
+                "strtoull", 
+                "__fprintf_chk", 
+                "free", 
+                "strrchr", 
+                "strtol", 
+                "strtoul", 
+                "__stack_chk_fail", 
+                "getpid", 
+                "strncpy", 
+                "strerror", 
+                "ioctl", 
+                "poll", 
+                "snprintf", 
+                "close", 
+                "strsep", 
+                "closedir", 
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable", 
+                "scandir", 
+                "__ctype_b_loc", 
+                "strncmp", 
+                "calloc", 
+                "__gmon_start__", 
+                "open", 
+                "read", 
+                "alphasort"
+            ], 
+            "rpm": "libibumad-14-4.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libibumad.so.3.0.14"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " libibumad", 
+            "License": " GPLv2 or BSD", 
+            "URL": " https://github.com/linux-rdma/rdma-core", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-02.phx2.fedoraproject.org", 
+            "Description": "\nlibibumad provides the userspace management datagram (umad) library\nfunctions, which sit on top of the umad modules in the kernel. These\nare used by the IB diagnostic and management tools, including OpenSM.\n", 
+            "Build Date": " Wed 09 Aug 2017 04:24:03 PM EDT", 
+            "Source RPM": " rdma-core-14-4.fc27.src.rpm", 
+            "Version": " 14", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Wed 09 Aug 2017 04:28:45 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 4.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " OpenFabrics Alliance InfiniBand umad (userspace management datagram) library", 
+            "Size": " 35536"
+        }
+    }
+}

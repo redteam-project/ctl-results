@@ -1,0 +1,169 @@
+{
+    "results": {
+        "usr/bin/scs_test_timing": {
+            "report-functions": [
+                "mpfr_div", 
+                "__gmpf_mul_ui", 
+                "puts", 
+                "scs_get_d", 
+                "__gmpf_mul", 
+                "__gmpf_set", 
+                "_ITM_registerTMCloneTable", 
+                "mpfr_set_d", 
+                "__printf_chk", 
+                "scs_set_d", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmpf_get_d", 
+                "scs_renorm", 
+                "mpfr_init2", 
+                "scs_rand", 
+                "scs_square", 
+                "mpfr_mul_ui", 
+                "mpfr_set4", 
+                "mpfr_get_d", 
+                "mpfr_mul", 
+                "scs_get_mpf", 
+                "srand", 
+                "scs_sub", 
+                "__libc_start_main", 
+                "scs_mul_ui", 
+                "scs_add", 
+                "scs_add_no_renorm", 
+                "__gmon_start__", 
+                "__stack_chk_fail", 
+                "mpfr_add", 
+                "__gmpf_add", 
+                "__gmpf_init2", 
+                "scs_mul", 
+                "__gmpf_div", 
+                "putchar", 
+                "__gmpf_set_d", 
+                "scs_div"
+            ], 
+            "rpm": "libscs-1.4.1-15.fc27.2.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/scs_test_timing"
+        }, 
+        "usr/bin/scs_test_accuracy": {
+            "report-functions": [
+                "mpfr_set4", 
+                "mpfr_add", 
+                "scs_add", 
+                "scs_get_d_zero", 
+                "putchar", 
+                "scs_get_d_pinf", 
+                "__libc_start_main", 
+                "scs_mul", 
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "strtol", 
+                "scs_get_std", 
+                "_ITM_registerTMCloneTable", 
+                "__cxa_finalize", 
+                "exit", 
+                "scs_sub", 
+                "log", 
+                "scs_rand", 
+                "scs_set", 
+                "mpfr_clear", 
+                "mpfr_get_d", 
+                "mpfr_init2", 
+                "scs_div", 
+                "scs_square", 
+                "mpfr_div", 
+                "scs_get_d_minf", 
+                "__gmpfr_out_str", 
+                "mpfr_mul", 
+                "puts", 
+                "fwrite", 
+                "rand", 
+                "__printf_chk", 
+                "_ITM_deregisterTMCloneTable", 
+                "scs_set_d", 
+                "scs_get_mpfr", 
+                "mpfr_set_d"
+            ], 
+            "rpm": "libscs-1.4.1-15.fc27.2.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/scs_test_accuracy"
+        }, 
+        "usr/lib/libscs_so_0_0_0": {
+            "report-functions": [
+                "__gmpf_div_2exp", 
+                "__cxa_finalize", 
+                "__gmon_start__", 
+                "mpfr_set_d", 
+                "fwrite", 
+                "mpfr_add_ui", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmpf_mul", 
+                "mpfr_mul", 
+                "__gmpf_neg", 
+                "__gmpf_mul_2exp", 
+                "mpfr_mul_2ui", 
+                "__gmpf_init_set_d", 
+                "__stack_chk_fail", 
+                "mpfr_neg", 
+                "mpfr_init", 
+                "_ITM_registerTMCloneTable", 
+                "__gmpf_add_ui", 
+                "mpfr_clear", 
+                "__gmpf_set_ui", 
+                "__gmpf_clear", 
+                "__printf_chk"
+            ], 
+            "rpm": "libscs-1.4.1-15.fc27.2.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libscs.so.0.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " libscs", 
+            "License": " LGPLv2+", 
+            "URL": " http://www.ens-lyon.fr/LIP/Arenaire/Ware/SCSLib/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-22.phx2.fedoraproject.org", 
+            "Description": "\nThe Software Carry-Save (SCS) Library is a fast and lightweight\nmultiple-precision library.\n\nSCSLib has the following features:\n\n- Multiple-precision\nSCSLib is a fixed-precision library, where precision is selected at\ncompile-time. Out-of-the-box, the library ensures 210 bits of precision\n(quad-double).\n\n- Floating-point format\nThe SCS format is a floating-point format where exponents are machine integers\n(usually 32-bit numbers), which ensures a huge exponent range.\n\n- Supported operations\nSCSLib currently offers addition/subtraction, multiplication, and an\nexperimental division, plus all the useful conversion functions.\n\n- IEEE-754 compatibility\nThe range of SCS numbers includes the range of IEEE double-precision numbers,\nincluding denormals and exceptional cases. Conversions between SCS format and\nIEEE-754 doubles, as well as arithmetic operations, follow the IEEE rules\nconcerning the exceptional cases. SCS doesn't ensure correct rounding, but\nprovides conversions to doubles in the four IEEE-754 rounding modes.\n\n- Performance\nSCSLib is designed to be fast. With 210 bits, it outperforms MPF for most\noperations on most architectures.\n", 
+            "Build Date": " Thu 03 Aug 2017 04:01:02 PM EDT", 
+            "Source RPM": " libscs-1.4.1-15.fc27.2.src.rpm", 
+            "Version": " 1.4.1", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 01:12:32 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 15.fc27.2", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Software Carry-Save Multiple-Precision Library", 
+            "Size": " 82978"
+        }
+    }
+}

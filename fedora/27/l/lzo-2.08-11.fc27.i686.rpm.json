@@ -1,0 +1,48 @@
+{
+    "results": {
+        "usr/lib/liblzo2_so_2_0_0": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "memset", 
+                "memcmp", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "lzo-2.08-11.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/liblzo2.so.2.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " lzo", 
+            "License": " GPLv2+", 
+            "URL": " http://www.oberhumer.com/opensource/lzo/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-26.phx2.fedoraproject.org", 
+            "Description": "\nLZO is a portable lossless data compression library written in ANSI C.\nIt offers pretty fast compression and very fast decompression.\nDecompression requires no memory. In addition there are slower\ncompression levels achieving a quite competitive compression ratio\nwhile still decompressing at this very high speed.\n", 
+            "Build Date": " Thu 03 Aug 2017 08:25:45 PM EDT", 
+            "Source RPM": " lzo-2.08-11.fc27.src.rpm", 
+            "Version": " 2.08", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 04:06:50 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 11.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Data compression library with very fast (de)compression", 
+            "Size": " 173609"
+        }
+    }
+}

@@ -1,0 +1,96 @@
+{
+    "results": {
+        "usr/lib/libnova-0_15_so_0_0_0": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "cbrt", 
+                "tan", 
+                "strtol", 
+                "log10", 
+                "__sprintf_chk", 
+                "time", 
+                "sincos", 
+                "asin", 
+                "gmtime", 
+                "acos", 
+                "strtok", 
+                "strtok_r", 
+                "strchr", 
+                "sin", 
+                "strtod", 
+                "pow", 
+                "strpbrk", 
+                "atan", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize", 
+                "__ctype_b_loc", 
+                "cos", 
+                "strlen", 
+                "modf", 
+                "exp", 
+                "gmtime_r", 
+                "sqrt", 
+                "localtime", 
+                "_ITM_registerTMCloneTable", 
+                "atan2"
+            ], 
+            "rpm": "libnova-0.15.0-9.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libnova-0.15.so.0.0.0"
+        }, 
+        "usr/bin/libnovaconfig": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "ln_get_version", 
+                "_ITM_registerTMCloneTable", 
+                "exit", 
+                "__libc_start_main", 
+                "__printf_chk", 
+                "__gmon_start__"
+            ], 
+            "rpm": "libnova-0.15.0-9.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/libnovaconfig"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " libnova", 
+            "License": " LGPLv2+", 
+            "URL": " http://sourceforge.net/projects/libnova/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-31.phx2.fedoraproject.org", 
+            "Description": "\nLibnova is a general purpose, double precision, celestial mechanics,\nastrometry and astrodynamics library\n", 
+            "Build Date": " Thu 03 Aug 2017 03:18:20 PM EDT", 
+            "Source RPM": " libnova-0.15.0-9.fc27.src.rpm", 
+            "Version": " 0.15.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 12:10:29 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 9.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Libnova is a general purpose astronomy & astrodynamics library", 
+            "Size": " 3559353"
+        }
+    }
+}

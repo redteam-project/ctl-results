@@ -1,0 +1,56 @@
+{
+    "results": {
+        "usr/lib/libtlsh_so_3_4_5": {
+            "report-functions": [
+                "_Znaj", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gxx_personality_v0", 
+                "logf", 
+                "_ZdlPvj", 
+                "floor", 
+                "__snprintf_chk", 
+                "memcmp", 
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable", 
+                "strncpy", 
+                "__gmon_start__", 
+                "_Znwj", 
+                "_Unwind_Resume"
+            ], 
+            "rpm": "tlsh-3.4.5-6.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libtlsh.so.3.4.5"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " tlsh", 
+            "License": " ASL 2.0", 
+            "URL": " https://github.com/trendmicro/tlsh", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-08.phx2.fedoraproject.org", 
+            "Description": "\nTLSH is a fuzzy matching library. Given a byte stream with a minimum\nlength of 256 bytes (and a minimum amount of randomness), TLSH\ngenerates a hash value which can be used for similarity comparisons.\nSimilar objects will have similar hash values which allows for the\ndetection of similar objects by comparing their hash values.\n", 
+            "Build Date": " Fri 04 Aug 2017 08:43:57 PM EDT", 
+            "Source RPM": " tlsh-3.4.5-6.fc27.src.rpm", 
+            "Version": " 3.4.5", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 05 Aug 2017 07:10:44 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 6.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Fuzzy text matching library", 
+            "Size": " 1562267"
+        }
+    }
+}

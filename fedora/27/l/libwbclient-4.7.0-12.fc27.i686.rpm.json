@@ -1,0 +1,109 @@
+{
+    "results": {
+        "usr/lib/samba/libwinbind-client-samba4_so": {
+            "report-functions": [
+                "close", 
+                "getenv", 
+                "__gmon_start__", 
+                "fcntl", 
+                "__stack_chk_fail", 
+                "write", 
+                "__lxstat64", 
+                "__cxa_finalize", 
+                "malloc", 
+                "socket", 
+                "rand", 
+                "_ITM_deregisterTMCloneTable", 
+                "sleep", 
+                "calloc", 
+                "__errno_location", 
+                "connect", 
+                "__snprintf_chk", 
+                "getsockopt", 
+                "getpid", 
+                "read", 
+                "_ITM_registerTMCloneTable", 
+                "poll", 
+                "nss_wrapper_enabled"
+            ], 
+            "rpm": "libwbclient-4.7.0-12.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/samba/libwinbind-client-samba4.so"
+        }, 
+        "usr/lib/samba/wbclient/libwbclient_so_0_14": {
+            "report-functions": [
+                "strtoul", 
+                "malloc", 
+                "strcasecmp", 
+                "winbindd_priv_request_response", 
+                "strchr", 
+                "getuid", 
+                "free", 
+                "memcmp", 
+                "winbindd_request_response", 
+                "realloc", 
+                "winbindd_ctx_create", 
+                "strdup", 
+                "winbindd_ctx_free", 
+                "_ITM_registerTMCloneTable", 
+                "winbindd_free_response", 
+                "__snprintf_chk", 
+                "calloc", 
+                "strtoull", 
+                "__cxa_finalize", 
+                "__stack_chk_fail", 
+                "strndup", 
+                "__memcpy_chk", 
+                "strncpy", 
+                "sscanf", 
+                "rep_strlcpy", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "libwbclient-4.7.0-12.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/samba/wbclient/libwbclient.so.0.14"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " libwbclient", 
+            "License": " GPLv3+ and LGPLv3+", 
+            "URL": " http://www.samba.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-08.phx2.fedoraproject.org", 
+            "Source RPM": " samba-4.7.0-12.fc27.src.rpm", 
+            "Description": "\nThe libwbclient package contains the winbind client library from the Samba\nsuite.\n", 
+            "Build Date": " Thu 21 Sep 2017 01:09:44 PM EDT", 
+            "Epoch": " 2", 
+            "Version": " 4.7.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 21 Sep 2017 02:53:43 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 12.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " The winbind client library", 
+            "Size": " 75644"
+        }
+    }
+}

@@ -1,0 +1,110 @@
+{
+    "results": {
+        "usr/bin/asonq": {
+            "report-functions": [
+                "ason_ns_destroy", 
+                "read_history", 
+                "_ITM_deregisterTMCloneTable", 
+                "ason_ns_create", 
+                "ason_asprint_unicode", 
+                "ason_ns_read", 
+                "add_history", 
+                "puts", 
+                "__stack_chk_fail", 
+                "errx", 
+                "_ITM_registerTMCloneTable", 
+                "ason_ns_attach", 
+                "ason_ns_connect", 
+                "write_history", 
+                "readline", 
+                "__ctype_b_loc", 
+                "wordexp", 
+                "strndup", 
+                "__cxa_finalize", 
+                "putchar", 
+                "free", 
+                "__libc_start_main", 
+                "__printf_chk", 
+                "exit", 
+                "__gmon_start__"
+            ], 
+            "rpm": "libason-0.1.2-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/asonq"
+        }, 
+        "usr/lib/libason_so_0_0_0": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "__sprintf_chk", 
+                "iconv_open", 
+                "__assert_fail", 
+                "__ctype_b_loc", 
+                "iconv_close", 
+                "__cxa_atexit", 
+                "__gmon_start__", 
+                "__memcpy_chk", 
+                "_ITM_deregisterTMCloneTable", 
+                "strlen", 
+                "__cxa_finalize", 
+                "free", 
+                "realloc", 
+                "memmove", 
+                "__fprintf_chk", 
+                "iconv", 
+                "sscanf", 
+                "err", 
+                "strdup", 
+                "calloc", 
+                "_ITM_registerTMCloneTable", 
+                "__vasprintf_chk", 
+                "strndup", 
+                "malloc", 
+                "strncmp", 
+                "errx"
+            ], 
+            "rpm": "libason-0.1.2-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libason.so.0.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " libason", 
+            "License": " GPLv3+", 
+            "URL": " https://github.com/sadmac7000/libason", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-06.phx2.fedoraproject.org", 
+            "Description": "\nASON is an extension of JSON which specifies a semantic, and allows for pattern\nexpressions that can specify or match groups of JSON values. libason is a\nsimple library for manipulating ASON programmatically in C.\n", 
+            "Build Date": " Thu 03 Aug 2017 12:42:22 PM EDT", 
+            "Source RPM": " libason-0.1.2-8.fc27.src.rpm", 
+            "Version": " 0.1.2", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 05:48:30 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 8.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A library for manipulating ASON values", 
+            "Size": " 94604"
+        }
+    }
+}

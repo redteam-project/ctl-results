@@ -1,0 +1,79 @@
+{
+    "results": {
+        "usr/lib/liblrdf_so_2_0_0": {
+            "report-functions": [
+                "__fprintf_chk", 
+                "raptor_new_world_internal", 
+                "raptor_new_uri", 
+                "strcmp", 
+                "raptor_free_world", 
+                "raptor_uri_as_string", 
+                "_ITM_registerTMCloneTable", 
+                "strstr", 
+                "raptor_parser_parse_file", 
+                "MD5", 
+                "fwrite", 
+                "__snprintf_chk", 
+                "raptor_world_set_generate_bnodeid_parameters", 
+                "raptor_free_uri", 
+                "realloc", 
+                "calloc", 
+                "raptor_world_set_log_handler", 
+                "fopen", 
+                "strtod", 
+                "_ITM_deregisterTMCloneTable", 
+                "fclose", 
+                "malloc", 
+                "getpid", 
+                "perror", 
+                "__cxa_finalize", 
+                "strdup", 
+                "strtol", 
+                "strlen", 
+                "strrchr", 
+                "__stack_chk_fail", 
+                "strncasecmp", 
+                "raptor_free_parser", 
+                "gettimeofday", 
+                "__gmon_start__", 
+                "raptor_new_parser", 
+                "raptor_parser_parse_abort", 
+                "free"
+            ], 
+            "rpm": "liblrdf-0.5.0-13.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/liblrdf.so.2.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " liblrdf", 
+            "License": " GPLv2+", 
+            "URL": " https://github.com/swh/LRDF", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-19.phx2.fedoraproject.org", 
+            "Description": "\nliblrdf is a library to make it easy to manipulate RDF files describing\nLADSPA plugins.\n", 
+            "Build Date": " Thu 03 Aug 2017 02:59:29 PM EDT", 
+            "Source RPM": " liblrdf-0.5.0-13.fc27.src.rpm", 
+            "Version": " 0.5.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 11:05:27 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 13.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Library for manipulating RDF files describing LADSPA plugins", 
+            "Size": " 53254"
+        }
+    }
+}

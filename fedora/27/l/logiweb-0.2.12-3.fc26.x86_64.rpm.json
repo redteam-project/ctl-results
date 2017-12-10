@@ -1,0 +1,79 @@
+{
+    "results": {
+        "usr/bin/lgwam": {
+            "report-functions": [
+                "sysinfo", 
+                "__libc_start_main", 
+                "wait", 
+                "exit", 
+                "execl", 
+                "dlsym", 
+                "strcmp", 
+                "__stack_chk_fail", 
+                "__printf_chk", 
+                "dlerror", 
+                "signal", 
+                "fputc", 
+                "strlen", 
+                "abort", 
+                "memchr", 
+                "munmap", 
+                "puts", 
+                "__errno_location", 
+                "dlopen", 
+                "putchar", 
+                "open", 
+                "_IO_getc", 
+                "__fprintf_chk", 
+                "getenv", 
+                "close", 
+                "malloc", 
+                "perror", 
+                "__gmon_start__", 
+                "mkdir", 
+                "fork", 
+                "fwrite", 
+                "strchr", 
+                "creat", 
+                "mmap", 
+                "__fxstat", 
+                "write", 
+                "memcpy"
+            ], 
+            "rpm": "logiweb-0.2.12-3.fc26.x86_64.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/lgwam"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Languages", 
+            "Name": " logiweb", 
+            "License": " GPLv2+", 
+            "URL": " http://logiweb.eu/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-24.phx2.fedoraproject.org", 
+            "Description": "\nLogiweb allows to web publish 'Logiweb pages', i.e.\njournal quality articles which contain machine readable objects\nlike  programs, testsuites, definitions, axioms, lemmas, and\nproofs. Among other, Logiweb is suited for literate programming,\nfor publication of machine verified proofs, and for writing\nproof checkers. Logiweb allows Logiweb pages to reference\npreviously published Logiweb pages such that programs on a page\nmay call programs on referenced pages, proofs on a page may\nreference lemmas on referenced pages, and so on.\n", 
+            "Build Date": " Fri 10 Feb 2017 11:42:47 PM EST", 
+            "Source RPM": " logiweb-0.2.12-3.fc26.src.rpm", 
+            "Version": " 0.2.12", 
+            "Architecture": " x86_64", 
+            "Signature": " RSA/SHA256, Sun 26 Feb 2017 06:16:15 PM EST, Key ID f55e7430f5282ee4", 
+            "Release": " 3.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A system for electronic distribution of mathematics", 
+            "Size": " 4959803"
+        }
+    }
+}

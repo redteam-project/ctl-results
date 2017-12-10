@@ -1,0 +1,119 @@
+{
+    "results": {
+        "usr/sbin/obex-check-device": {
+            "report-functions": [
+                "OBEX_Cleanup", 
+                "OBEX_EnumerateInterfaces", 
+                "__cxa_finalize", 
+                "OBEX_Init", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable", 
+                "__libc_start_main"
+            ], 
+            "rpm": "openobex-1.7.2-4.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/sbin/obex-check-device"
+        }, 
+        "usr/lib/libopenobex_so_1_7_2": {
+            "report-functions": [
+                "libusb_clear_halt", 
+                "accept4", 
+                "libusb_get_bus_number", 
+                "libusb_get_device_address", 
+                "perror", 
+                "realloc", 
+                "__gmon_start__", 
+                "getsockopt", 
+                "accept", 
+                "libusb_set_pollfd_notifiers", 
+                "fcntl", 
+                "malloc", 
+                "libusb_bulk_transfer", 
+                "connect", 
+                "select", 
+                "listen", 
+                "libusb_get_string_descriptor_ascii", 
+                "libusb_free_config_descriptor", 
+                "strncpy", 
+                "calloc", 
+                "getenv", 
+                "libusb_get_active_config_descriptor", 
+                "__stack_chk_fail", 
+                "close", 
+                "libusb_set_interface_alt_setting", 
+                "free", 
+                "libusb_ref_device", 
+                "libusb_unref_device", 
+                "libusb_get_device_descriptor", 
+                "libusb_exit", 
+                "libusb_claim_interface", 
+                "getsockname", 
+                "memmove", 
+                "recv", 
+                "libusb_release_interface", 
+                "libusb_init", 
+                "strtol", 
+                "libusb_close", 
+                "libusb_free_device_list", 
+                "sysconf", 
+                "write", 
+                "_ITM_registerTMCloneTable", 
+                "read", 
+                "socket", 
+                "__errno_location", 
+                "libusb_get_device_list", 
+                "libusb_open", 
+                "send", 
+                "bind", 
+                "__cxa_finalize", 
+                "__fprintf_chk", 
+                "_ITM_deregisterTMCloneTable", 
+                "fputc"
+            ], 
+            "rpm": "openobex-1.7.2-4.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libopenobex.so.1.7.2"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " openobex", 
+            "License": " GPLv2+ and LGPLv2+", 
+            "URL": " http://openobex.sourceforge.net", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-08.phx2.fedoraproject.org", 
+            "Description": "\nOBEX (OBject EXchange) is a protocol usually used by various mobile\ndevices to exchange all kind of objects like files, pictures, calendar\nentries (vCal) and business cards (vCard).  This package contains the\nOpen OBEX shared C library.\n", 
+            "Build Date": " Fri 04 Aug 2017 02:29:59 AM EDT", 
+            "Source RPM": " openobex-1.7.2-4.fc27.src.rpm", 
+            "Version": " 1.7.2", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 03:50:56 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 4.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Library for using OBEX", 
+            "Size": " 146857"
+        }
+    }
+}

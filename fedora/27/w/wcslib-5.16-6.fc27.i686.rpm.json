@@ -1,0 +1,93 @@
+{
+    "results": {
+        "usr/lib/libwcs_so_5_16": {
+            "report-functions": [
+                "__longjmp_chk", 
+                "__ctype_toupper_loc", 
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "sqrt", 
+                "acos", 
+                "asin", 
+                "strchr", 
+                "__strcpy_chk", 
+                "strlen", 
+                "__vsnprintf_chk", 
+                "atan", 
+                "_setjmp", 
+                "sincos", 
+                "log10", 
+                "_ITM_registerTMCloneTable", 
+                "malloc", 
+                "fileno", 
+                "__fprintf_chk", 
+                "strcpy", 
+                "log", 
+                "__vsprintf_chk", 
+                "__errno_location", 
+                "read", 
+                "atan2", 
+                "tan", 
+                "strncpy", 
+                "free", 
+                "__strcat_chk", 
+                "sin", 
+                "__stpcpy_chk", 
+                "calloc", 
+                "__isoc99_sscanf", 
+                "localeconv", 
+                "pow", 
+                "strncmp", 
+                "strcat", 
+                "__strncpy_chk", 
+                "stpcpy", 
+                "realloc", 
+                "strstr", 
+                "exp", 
+                "cos", 
+                "strcmp", 
+                "__memcpy_chk", 
+                "floor", 
+                "_ITM_deregisterTMCloneTable", 
+                "strpbrk", 
+                "fmod", 
+                "__vfprintf_chk", 
+                "fwrite"
+            ], 
+            "rpm": "wcslib-5.16-6.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libwcs.so.5.16"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " wcslib", 
+            "License": " LGPLv3+", 
+            "URL": " http://www.atnf.csiro.au/people/mcalabre/WCS/wcslib/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-23.phx2.fedoraproject.org", 
+            "Description": "\nWCSLIB is a library that implements the \"World Coordinate System\" (WCS)\nconvention in FITS (Flexible Image Transport System)\n", 
+            "Build Date": " Fri 04 Aug 2017 11:22:08 PM EDT", 
+            "Source RPM": " wcslib-5.16-6.fc27.src.rpm", 
+            "Version": " 5.16", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 05 Aug 2017 10:37:31 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 6.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " An implementation of the FITS World Coordinate System standard", 
+            "Size": " 1363972"
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Languages", 
+            "Name": " python-virtualenvcontext", 
+            "License": " GPLv2+", 
+            "URL": " http://pypi.python.org/pypi/virtualenvcontext", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-06.phx2.fedoraproject.org", 
+            "Description": "\nSwitch virtualenvs with a python context manager:\n\n>>> from virtualenvcontext import VirtualenvContext\n\n>>> try:\n>>>     import kitchen\n>>> except ImportError as e:\n>>>     print \"kitchen is definitely not installed in system-python\"\n\n>>> with VirtaulenvContext(\"my-venv\"):\n>>>     import kitchen\n>>>     print \"But it *is* installed in my virtualenv\"\n\n>>> try:\n>>>     import kitchen\n>>> except ImportError as e:\n>>>     print \"But once I exit that block, I lose my powers again...\"\n", 
+            "Build Date": " Fri 28 Jul 2017 02:39:35 PM EDT", 
+            "Source RPM": " python-virtualenvcontext-0.1.6-9.fc27.src.rpm", 
+            "Version": " 0.1.6", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Sat 29 Jul 2017 04:57:48 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 9.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Switch virtualenvs with a python context manager", 
+            "Size": " 29284"
+        }
+    }
+}

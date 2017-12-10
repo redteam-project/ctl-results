@@ -1,0 +1,81 @@
+{
+    "results": {
+        "usr/sbin/mach-helper": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "exit", 
+                "strncmp", 
+                "geteuid", 
+                "__xstat", 
+                "getenv", 
+                "strdup", 
+                "puts", 
+                "__cxa_finalize", 
+                "execve", 
+                "__errno_location", 
+                "__stack_chk_fail", 
+                "_ITM_registerTMCloneTable", 
+                "fputc", 
+                "__libc_start_main", 
+                "strlen", 
+                "__lxstat", 
+                "setreuid", 
+                "__gmon_start__", 
+                "fwrite", 
+                "__vfprintf_chk"
+            ], 
+            "rpm": "mach-1.0.4-5.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/sbin/mach-helper"
+        }, 
+        "usr/lib/libselinux-mach_so_0_0_0": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "__gmon_start__"
+            ], 
+            "rpm": "mach-1.0.4-5.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libselinux-mach.so.0.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Applications/System", 
+            "Name": " mach", 
+            "License": " GPLv2+", 
+            "URL": " http://thomas.apestaart.org/projects/mach/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-08.phx2.fedoraproject.org", 
+            "Description": "\nmach makes a chroot.\nUsing yum or apt-get and a suid binary, it manages to install clean chroot\nenvironments based on the original packages for that distribution.\n\nThe clean root can be used to run jail roots, to create image files, or\nto build clean packages.\n\nAuthors:\n--------\nThomas Vander Stichele (thomas (at) apestaart (dot) org)\n", 
+            "Build Date": " Thu 03 Aug 2017 08:29:24 PM EDT", 
+            "Source RPM": " mach-1.0.4-5.fc27.src.rpm", 
+            "Version": " 1.0.4", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 04:08:19 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 5.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Make a chroot", 
+            "Size": " 701428"
+        }
+    }
+}

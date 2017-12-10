@@ -1,0 +1,91 @@
+{
+    "results": {
+        "usr/lib/libxdffileio_so_0_0_3": {
+            "report-functions": [
+                "dup", 
+                "__cxa_finalize", 
+                "strftime", 
+                "pthread_mutex_init", 
+                "__assert_fail", 
+                "pthread_cond_wait", 
+                "memset", 
+                "pthread_mutex_lock", 
+                "fflush", 
+                "pthread_cond_signal", 
+                "pthread_mutex_unlock", 
+                "strlen", 
+                "__snprintf_chk", 
+                "fsync", 
+                "realloc", 
+                "sigaddset", 
+                "strcmp", 
+                "pthread_cond_destroy", 
+                "localtime_r", 
+                "write", 
+                "close", 
+                "pthread_join", 
+                "free", 
+                "strncpy", 
+                "mktime", 
+                "open", 
+                "pthread_create", 
+                "fclose", 
+                "fread", 
+                "__stack_chk_fail", 
+                "fcntl", 
+                "read", 
+                "__fprintf_chk", 
+                "_ITM_registerTMCloneTable", 
+                "fseek", 
+                "pthread_mutex_destroy", 
+                "fwrite", 
+                "calloc", 
+                "__gmon_start__", 
+                "time", 
+                "sscanf", 
+                "sigemptyset", 
+                "pthread_cond_init", 
+                "fdopen", 
+                "fscanf", 
+                "_ITM_deregisterTMCloneTable", 
+                "__errno_location", 
+                "malloc", 
+                "lseek"
+            ], 
+            "rpm": "xdffileio-0.3-6.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libxdffileio.so.0.0.3"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " xdffileio", 
+            "License": " LGPLv3+", 
+            "URL": " http://cnbi.epfl.ch/software/xdffileio.html", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-23.phx2.fedoraproject.org", 
+            "Description": "\nxdffileio provides a unified interface to read/write EEG file format in\nrealtime. It has been designed to provide a consistent and common interface\nto all supported file formats while minimizing the CPU cost on the main loop.\nIt thus performs all the expensive operation (scaling, data convertion and\nfile operation) in a separated thread.\n", 
+            "Build Date": " Sat 05 Aug 2017 12:37:29 AM EDT", 
+            "Source RPM": " xdffileio-0.3-6.fc27.src.rpm", 
+            "Version": " 0.3", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sun 06 Aug 2017 12:11:57 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 6.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Unified interface to read/write EEG file format in realtime", 
+            "Size": " 74330"
+        }
+    }
+}

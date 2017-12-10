@@ -1,0 +1,72 @@
+{
+    "results": {
+        "usr/lib/libvirt-glib-1_0_so_0_1000_0": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "g_io_channel_unref", 
+                "g_mutex_lock", 
+                "g_log_set_handler", 
+                "virInitialize", 
+                "g_idle_add", 
+                "virGetLastError", 
+                "g_log", 
+                "g_malloc0", 
+                "g_warn_message", 
+                "g_ptr_array_add", 
+                "g_once_impl", 
+                "virEventRegisterImpl", 
+                "g_ptr_array_new_with_free_func", 
+                "getenv", 
+                "g_free", 
+                "g_strdup_vprintf", 
+                "g_error_new", 
+                "g_return_if_fail_warning", 
+                "_ITM_registerTMCloneTable", 
+                "g_timeout_add", 
+                "g_io_add_watch", 
+                "virSetErrorFunc", 
+                "g_ptr_array_remove_fast", 
+                "__cxa_finalize", 
+                "__fprintf_chk", 
+                "_ITM_deregisterTMCloneTable", 
+                "g_source_remove", 
+                "bindtextdomain", 
+                "__gmon_start__"
+            ], 
+            "rpm": "libvirt-glib-1.0.0-2.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libvirt-glib-1.0.so.0.1000.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " libvirt-glib", 
+            "License": " LGPLv2+", 
+            "URL": " http://libvirt.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-16.phx2.fedoraproject.org", 
+            "Description": "\nThis package provides integration between libvirt and the glib\nevent loop.\n", 
+            "Build Date": " Fri 10 Feb 2017 11:11:14 PM EST", 
+            "Source RPM": " libvirt-glib-1.0.0-2.fc26.src.rpm", 
+            "Version": " 1.0.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sun 26 Feb 2017 07:23:24 PM EST, Key ID f55e7430f5282ee4", 
+            "Release": " 2.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " libvirt glib integration for events", 
+            "Size": " 262385"
+        }
+    }
+}

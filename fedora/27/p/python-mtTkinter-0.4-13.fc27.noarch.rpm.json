@@ -1,0 +1,25 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Languages", 
+            "Name": " python-mtTkinter", 
+            "License": " LGPLv3+", 
+            "URL": " http://tkinter.unpythonic.net/wiki/mtTkinter", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-08.phx2.fedoraproject.org", 
+            "Description": "\nAlthough Tkinter is technically thread-safe\n(assuming Tk is built with --enable-threads),\npractically speaking there are still problems when used in multithreaded\nPython applications.  The problems stem from the fact that the _tkinter\nmodule attempts to gain control of the main thread via a polling technique\nwhen processing calls from other threads.  If it succeeds, all is well.\nIf it fails (i.e., after a timeout), the application receives an exception\nwith the message: \"RuntimeError: main thread is not in main loop\".\nThere is no way to tell when this might happen, so calling Tk routines\nfrom multiple threads seems to be problematic at best.\n\nThe mtTkinter module solves this problem by modifying some Tkinter\nmodule definitions (in memory). The modified code intercepts\nout-of-thread Tkinter calls and marshals them through a queue which\nis read by an 'after' event running periodically in the main loop.\nThis is similar to the technique used in many other platforms\n(e.g., .NET's InvokeRequired/Invoke mechanism).\nThe technique used in mtTkinter is exception-safe as well,\nmarshaling exceptions through a response queue back to the caller's thread.\n", 
+            "Build Date": " Fri 28 Jul 2017 01:27:27 PM EDT", 
+            "Source RPM": " python-mtTkinter-0.4-13.fc27.src.rpm", 
+            "Version": " 0.4", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Sat 29 Jul 2017 02:01:47 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 13.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A thread-safe version of Tkinter", 
+            "Size": " 64900"
+        }
+    }
+}

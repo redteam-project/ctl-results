@@ -1,0 +1,94 @@
+{
+    "results": {
+        "usr/bin/sha": {
+            "report-functions": [
+                "memset", 
+                "__cxa_atexit", 
+                "__printf_chk", 
+                "_ITM_registerTMCloneTable", 
+                "fclose", 
+                "fopen", 
+                "__libc_start_main", 
+                "putchar", 
+                "__stack_chk_fail", 
+                "SHA1Update", 
+                "__fprintf_chk", 
+                "getopt", 
+                "perror", 
+                "SHA384Update", 
+                "SHA512Update", 
+                "fread", 
+                "SHA1Final", 
+                "ferror", 
+                "getenv", 
+                "__cxa_finalize", 
+                "exit", 
+                "SHA384Final", 
+                "__errno_location", 
+                "SHA256Final", 
+                "strerror", 
+                "__gmon_start__", 
+                "SHA512Init", 
+                "_ITM_deregisterTMCloneTable", 
+                "SHA256Init", 
+                "SHA384Init", 
+                "SHA1Init", 
+                "SHA256Update", 
+                "SHA512Final"
+            ], 
+            "rpm": "sha-1.0.4b-11.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/sha"
+        }, 
+        "usr/lib/libsha_so_0_0_0": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "__cxa_finalize", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "sha-1.0.4b-11.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libsha.so.0.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " sha", 
+            "License": " BSD", 
+            "URL": " http://hg.saddi.com/sha-asaddi", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-07.phx2.fedoraproject.org", 
+            "Description": "\nfile hashing utility that uses the\nSHA-1, SHA-256, SHA-384, & SHA-512 hash algorithms.\nIt can be used for file integrity checking,\nremote file comparisons, etc.\nThe portable algorithm implementations\ncan be useful in other projects too\n", 
+            "Build Date": " Fri 04 Aug 2017 03:57:29 PM EDT", 
+            "Source RPM": " sha-1.0.4b-11.fc27.src.rpm", 
+            "Version": " 1.0.4b", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 05 Aug 2017 11:27:28 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 11.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " File hashing utility", 
+            "Size": " 44680"
+        }
+    }
+}

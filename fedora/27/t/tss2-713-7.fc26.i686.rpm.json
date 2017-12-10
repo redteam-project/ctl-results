@@ -1,0 +1,3467 @@
+{
+    "results": {
+        "usr/bin/tssverifysignature": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "puts", 
+                "__gmon_start__", 
+                "_Jv_RegisterClasses", 
+                "__libc_start_main", 
+                "exit", 
+                "free", 
+                "TSS_Create", 
+                "TSS_File_WriteStructure", 
+                "__isoc99_sscanf", 
+                "TSS_Execute", 
+                "_ITM_registerTMCloneTable", 
+                "strcmp", 
+                "TSS_SetProperty", 
+                "TSS_PrintAll", 
+                "_ITM_deregisterTMCloneTable", 
+                "TSS_File_ReadBinaryFile", 
+                "ECDSA_SIG_free", 
+                "TPMT_SIGNATURE_Unmarshal", 
+                "TSS_TPMT_TK_VERIFIED_Marshal", 
+                "BN_bn2bin", 
+                "TSS_Hash_Generate", 
+                "BN_num_bits", 
+                "TSS_GetDigestSize", 
+                "TSS_Delete", 
+                "putchar", 
+                "TSS_ResponseCode_toString", 
+                "memcpy", 
+                "printf"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tssverifysignature"
+        }, 
+        "usr/bin/tsswriteapp": {
+            "report-functions": [
+                "TSS_Create", 
+                "TSS_Delete", 
+                "printf", 
+                "__cxa_finalize", 
+                "__libc_start_main", 
+                "TSS_ResponseCode_toString", 
+                "__stack_chk_fail", 
+                "puts", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tsswriteapp"
+        }, 
+        "usr/bin/tssreadclock": {
+            "report-functions": [
+                "TSS_SetProperty", 
+                "TSS_Execute", 
+                "TSS_TPMS_TIME_INFO_Print", 
+                "exit", 
+                "__gmon_start__", 
+                "puts", 
+                "printf", 
+                "__stack_chk_fail", 
+                "_ITM_deregisterTMCloneTable", 
+                "strcmp", 
+                "TSS_Delete", 
+                "__libc_start_main", 
+                "_Jv_RegisterClasses", 
+                "_ITM_registerTMCloneTable", 
+                "putchar", 
+                "TSS_ResponseCode_toString"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tssreadclock"
+        }, 
+        "usr/bin/tsspcrallocate": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "__isoc99_sscanf", 
+                "putchar", 
+                "__libc_start_main", 
+                "__cxa_finalize", 
+                "printf", 
+                "TSS_ResponseCode_toString", 
+                "TSS_Execute", 
+                "__gmon_start__", 
+                "strcmp", 
+                "_ITM_registerTMCloneTable", 
+                "exit", 
+                "_ITM_deregisterTMCloneTable", 
+                "TSS_SetProperty", 
+                "TSS_Delete", 
+                "TSS_Create"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tsspcrallocate"
+        }, 
+        "usr/bin/tssdictionaryattacklockreset": {
+            "report-functions": [
+                "TSS_Create", 
+                "exit", 
+                "strcmp", 
+                "__stack_chk_fail", 
+                "__cxa_finalize", 
+                "_Jv_RegisterClasses", 
+                "putchar", 
+                "_ITM_registerTMCloneTable", 
+                "TSS_Delete", 
+                "_ITM_deregisterTMCloneTable", 
+                "TSS_SetProperty", 
+                "__libc_start_main", 
+                "__isoc99_sscanf", 
+                "puts", 
+                "TSS_Execute", 
+                "TSS_ResponseCode_toString"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tssdictionaryattacklockreset"
+        }, 
+        "usr/bin/tsshashsequencestart": {
+            "report-functions": [
+                "putchar", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize", 
+                "TSS_ResponseCode_toString", 
+                "__libc_start_main", 
+                "strcmp", 
+                "TSS_Execute", 
+                "TSS_SetProperty", 
+                "__gmon_start__", 
+                "__isoc99_sscanf", 
+                "exit", 
+                "TSS_TPM2B_StringCopy", 
+                "_ITM_registerTMCloneTable", 
+                "TSS_Create", 
+                "_Jv_RegisterClasses", 
+                "puts", 
+                "printf"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tsshashsequencestart"
+        }, 
+        "usr/bin/tssimport": {
+            "report-functions": [
+                "__gmon_start__", 
+                "TSS_Create", 
+                "_Jv_RegisterClasses", 
+                "TSS_File_Read2B", 
+                "_ITM_deregisterTMCloneTable", 
+                "strcmp", 
+                "TSS_Delete", 
+                "__isoc99_sscanf", 
+                "putchar", 
+                "TSS_TPM2B_PRIVATE_Marshal", 
+                "TSS_File_ReadStructure", 
+                "printf", 
+                "TSS_ResponseCode_toString", 
+                "TPM2B_PUBLIC_Unmarshal", 
+                "__libc_start_main", 
+                "_ITM_registerTMCloneTable", 
+                "TSS_SetProperty", 
+                "puts", 
+                "__stack_chk_fail", 
+                "TSS_Execute", 
+                "exit"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tssimport"
+        }, 
+        "usr/bin/tsseventsequencecomplete": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "__libc_start_main", 
+                "TSS_Create", 
+                "strcmp", 
+                "exit", 
+                "__cxa_finalize", 
+                "__stack_chk_fail", 
+                "TSS_Delete", 
+                "__isoc99_sscanf", 
+                "puts", 
+                "_Jv_RegisterClasses", 
+                "TSS_File_WriteBinaryFile", 
+                "TSS_File_Read2B", 
+                "TSS_ResponseCode_toString", 
+                "TSS_PrintAll", 
+                "TSS_Execute", 
+                "putchar", 
+                "TSS_SetProperty", 
+                "printf"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tsseventsequencecomplete"
+        }, 
+        "usr/bin/tssgetcommandauditdigest": {
+            "report-functions": [
+                "strcmp", 
+                "TSS_File_WriteStructure", 
+                "TSS_File_Read2B", 
+                "exit", 
+                "putchar", 
+                "TSS_TPM2B_Compare", 
+                "TSS_Create", 
+                "TSS_PrintAll", 
+                "TSS_File_WriteBinaryFile", 
+                "__stack_chk_fail", 
+                "printf", 
+                "TSS_TPMS_ATTEST_Print", 
+                "__gmon_start__", 
+                "__isoc99_sscanf", 
+                "__libc_start_main", 
+                "_ITM_deregisterTMCloneTable", 
+                "_Jv_RegisterClasses", 
+                "TSS_Execute", 
+                "TSS_Delete", 
+                "TSS_SetProperty", 
+                "__cxa_finalize", 
+                "TPMS_ATTEST_Unmarshal", 
+                "puts", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tssgetcommandauditdigest"
+        }, 
+        "usr/bin/tssnvcertify": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "TSS_Delete", 
+                "__gmon_start__", 
+                "putchar", 
+                "strcmp", 
+                "TSS_SetProperty", 
+                "_Jv_RegisterClasses", 
+                "printf", 
+                "_ITM_deregisterTMCloneTable", 
+                "TSS_File_WriteBinaryFile", 
+                "exit", 
+                "TSS_Create", 
+                "puts", 
+                "TSS_TPMT_SIGNATURE_Marshal", 
+                "__isoc99_sscanf", 
+                "atoi", 
+                "TSS_File_WriteStructure", 
+                "TSS_PrintAll", 
+                "__libc_start_main", 
+                "TSS_ResponseCode_toString", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tssnvcertify"
+        }, 
+        "usr/bin/tsscontextload": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "__stack_chk_fail", 
+                "TSS_Create", 
+                "TPMS_CONTEXT_Unmarshal", 
+                "TSS_Delete", 
+                "_ITM_deregisterTMCloneTable", 
+                "exit", 
+                "TSS_SetProperty", 
+                "_ITM_registerTMCloneTable", 
+                "__libc_start_main", 
+                "TSS_Execute", 
+                "__gmon_start__", 
+                "printf", 
+                "_Jv_RegisterClasses", 
+                "putchar", 
+                "strcmp", 
+                "TSS_ResponseCode_toString"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tsscontextload"
+        }, 
+        "usr/bin/tssnvsetbits": {
+            "report-functions": [
+                "TSS_SetProperty", 
+                "_ITM_deregisterTMCloneTable", 
+                "__isoc99_sscanf", 
+                "strcmp", 
+                "TSS_ResponseCode_toString", 
+                "_Jv_RegisterClasses", 
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable", 
+                "TSS_Delete", 
+                "puts", 
+                "putchar", 
+                "__gmon_start__", 
+                "TSS_Execute", 
+                "exit", 
+                "atoi", 
+                "__stack_chk_fail", 
+                "__libc_start_main"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tssnvsetbits"
+        }, 
+        "usr/bin/tssnvextend": {
+            "report-functions": [
+                "__gmon_start__", 
+                "__stack_chk_fail", 
+                "_ITM_deregisterTMCloneTable", 
+                "TSS_Delete", 
+                "exit", 
+                "__libc_start_main", 
+                "TSS_SetProperty", 
+                "TSS_ResponseCode_toString", 
+                "puts", 
+                "printf", 
+                "_ITM_registerTMCloneTable", 
+                "_Jv_RegisterClasses", 
+                "putchar", 
+                "__isoc99_sscanf", 
+                "__cxa_finalize", 
+                "TSS_Create", 
+                "TSS_Execute", 
+                "TSS_File_Read2B"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tssnvextend"
+        }, 
+        "usr/bin/tsscreateprimary": {
+            "report-functions": [
+                "TSS_File_Read2B", 
+                "__cxa_finalize", 
+                "__libc_start_main", 
+                "_ITM_registerTMCloneTable", 
+                "TSS_Delete", 
+                "_Jv_RegisterClasses", 
+                "TSS_ResponseCode_toString", 
+                "free", 
+                "TSS_SetProperty", 
+                "strcmp", 
+                "__gmon_start__", 
+                "putchar", 
+                "__isoc99_sscanf", 
+                "TSS_TPM2B_StringCopy", 
+                "TSS_Execute", 
+                "_ITM_deregisterTMCloneTable", 
+                "TSS_Create", 
+                "printf", 
+                "exit", 
+                "puts", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tsscreateprimary"
+        }, 
+        "usr/bin/tsshierarchycontrol": {
+            "report-functions": [
+                "atoi", 
+                "putchar", 
+                "__isoc99_sscanf", 
+                "TSS_ResponseCode_toString", 
+                "__stack_chk_fail", 
+                "TSS_SetProperty", 
+                "exit", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "TSS_Execute", 
+                "_ITM_deregisterTMCloneTable", 
+                "TSS_Delete", 
+                "TSS_Create", 
+                "_Jv_RegisterClasses", 
+                "strcmp", 
+                "puts", 
+                "__libc_start_main", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tsshierarchycontrol"
+        }, 
+        "usr/bin/tssobjectchangeauth": {
+            "report-functions": [
+                "exit", 
+                "__libc_start_main", 
+                "TSS_TPM2B_PRIVATE_Marshal", 
+                "TSS_Execute", 
+                "_ITM_registerTMCloneTable", 
+                "puts", 
+                "putchar", 
+                "TSS_Create", 
+                "strcmp", 
+                "TSS_ResponseCode_toString", 
+                "TSS_File_WriteStructure", 
+                "_Jv_RegisterClasses", 
+                "__isoc99_sscanf", 
+                "TSS_TPM2B_StringCopy", 
+                "printf", 
+                "TSS_SetProperty", 
+                "TSS_Delete", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tssobjectchangeauth"
+        }, 
+        "usr/bin/tsssignapp": {
+            "report-functions": [
+                "_Jv_RegisterClasses", 
+                "putchar", 
+                "__cxa_finalize", 
+                "__stack_chk_fail", 
+                "_ITM_deregisterTMCloneTable", 
+                "TSS_Hash_Generate", 
+                "__gmon_start__", 
+                "TSS_SetProperty", 
+                "_ITM_registerTMCloneTable", 
+                "TSS_ResponseCode_toString", 
+                "free", 
+                "TSS_GetDigestSize", 
+                "__libc_start_main", 
+                "TSS_Delete", 
+                "puts", 
+                "TSS_Create", 
+                "TSS_TPM2B_StringCopy", 
+                "printf", 
+                "strcmp", 
+                "memcpy", 
+                "TSS_Execute"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tsssignapp"
+        }, 
+        "usr/bin/tssnvundefinespace": {
+            "report-functions": [
+                "strcmp", 
+                "TSS_Create", 
+                "_ITM_deregisterTMCloneTable", 
+                "__isoc99_sscanf", 
+                "TSS_ResponseCode_toString", 
+                "printf", 
+                "exit", 
+                "puts", 
+                "__libc_start_main", 
+                "_Jv_RegisterClasses", 
+                "_ITM_registerTMCloneTable", 
+                "TSS_Execute", 
+                "TSS_Delete", 
+                "__gmon_start__", 
+                "__stack_chk_fail", 
+                "__cxa_finalize", 
+                "TSS_SetProperty"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tssnvundefinespace"
+        }, 
+        "usr/bin/tsspolicysigned": {
+            "report-functions": [
+                "TSS_ResponseCode_toString", 
+                "ERR_load_crypto_strings", 
+                "atoi", 
+                "strcmp", 
+                "__libc_start_main", 
+                "__isoc99_sscanf", 
+                "fopen", 
+                "ERR_print_errors_fp", 
+                "PEM_read_RSAPrivateKey", 
+                "TSS_SetProperty", 
+                "TSS_TPMT_TK_AUTH_Marshal", 
+                "TSS_GetDigestSize", 
+                "_Jv_RegisterClasses", 
+                "RSA_sign", 
+                "exit", 
+                "__gmon_start__", 
+                "TSS_File_WriteStructure", 
+                "putchar", 
+                "puts", 
+                "OPENSSL_add_all_algorithms_noconf", 
+                "printf", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable", 
+                "TSS_Delete", 
+                "TSS_Create", 
+                "TSS_File_WriteBinaryFile", 
+                "TSS_Execute", 
+                "RSA_free", 
+                "fclose", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tsspolicysigned"
+        }, 
+        "usr/bin/tsspcrreset": {
+            "report-functions": [
+                "TSS_Execute", 
+                "putchar", 
+                "strcmp", 
+                "TSS_ResponseCode_toString", 
+                "__isoc99_sscanf", 
+                "_ITM_deregisterTMCloneTable", 
+                "_Jv_RegisterClasses", 
+                "TSS_Create", 
+                "__cxa_finalize", 
+                "TSS_SetProperty", 
+                "TSS_Delete", 
+                "puts", 
+                "_ITM_registerTMCloneTable", 
+                "exit", 
+                "__stack_chk_fail", 
+                "__gmon_start__"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tsspcrreset"
+        }, 
+        "usr/bin/tssgetrandom": {
+            "report-functions": [
+                "TSS_SetProperty", 
+                "free", 
+                "exit", 
+                "__gmon_start__", 
+                "putchar", 
+                "__libc_start_main", 
+                "__cxa_finalize", 
+                "__isoc99_sscanf", 
+                "TSS_Delete", 
+                "_Jv_RegisterClasses", 
+                "TSS_PrintAll", 
+                "puts", 
+                "TSS_Malloc", 
+                "strcmp", 
+                "__stack_chk_fail", 
+                "_ITM_registerTMCloneTable", 
+                "TSS_Execute", 
+                "TSS_ResponseCode_toString", 
+                "_ITM_deregisterTMCloneTable", 
+                "TSS_File_WriteBinaryFile"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tssgetrandom"
+        }, 
+        "usr/bin/tsssetprimarypolicy": {
+            "report-functions": [
+                "puts", 
+                "_ITM_registerTMCloneTable", 
+                "TSS_Create", 
+                "__libc_start_main", 
+                "__gmon_start__", 
+                "printf", 
+                "strcmp", 
+                "TSS_SetProperty", 
+                "TSS_ResponseCode_toString", 
+                "TSS_File_Read2B", 
+                "TSS_Delete", 
+                "_ITM_deregisterTMCloneTable", 
+                "__stack_chk_fail", 
+                "__cxa_finalize", 
+                "__isoc99_sscanf", 
+                "_Jv_RegisterClasses", 
+                "exit"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tsssetprimarypolicy"
+        }, 
+        "usr/lib/libtss_so_0_1": {
+            "report-functions": [
+                "RAND_bytes", 
+                "__cxa_finalize", 
+                "EVP_MD_CTX_create", 
+                "fclose", 
+                "OPENSSL_add_all_algorithms_noconf", 
+                "fcntl", 
+                "_Jv_RegisterClasses", 
+                "_ITM_registerTMCloneTable", 
+                "strerror", 
+                "EVP_MD_CTX_md", 
+                "strlen", 
+                "EVP_MD_CTX_destroy", 
+                "AES_decrypt", 
+                "HMAC_Update", 
+                "open", 
+                "realloc", 
+                "EVP_MD_CTX_copy_ex", 
+                "RSA_free", 
+                "free", 
+                "EVP_sha256", 
+                "EVP_sha1", 
+                "__stack_chk_fail", 
+                "_Unwind_Resume", 
+                "EVP_MD_CTX_cleanup", 
+                "AES_cbc_encrypt", 
+                "EVP_sha384", 
+                "__gmon_start__", 
+                "RSA_new", 
+                "fopen", 
+                "connect", 
+                "getenv", 
+                "RSA_public_encrypt", 
+                "sprintf", 
+                "_ITM_deregisterTMCloneTable", 
+                "HMAC_Final", 
+                "ftell", 
+                "remove", 
+                "AES_set_decrypt_key", 
+                "fseek", 
+                "AES_set_encrypt_key", 
+                "EVP_DigestInit_ex", 
+                "printf", 
+                "ntohs", 
+                "AES_encrypt", 
+                "strcmp", 
+                "memset", 
+                "htonl", 
+                "__isoc99_sscanf", 
+                "HMAC_CTX_cleanup", 
+                "fwrite", 
+                "EVP_MD_CTX_init", 
+                "EVP_get_digestbyname", 
+                "ntohl", 
+                "read", 
+                "memcmp", 
+                "EVP_DigestFinal_ex", 
+                "write", 
+                "putchar", 
+                "htons", 
+                "memmove", 
+                "HMAC_Init_ex", 
+                "puts", 
+                "malloc", 
+                "memcpy", 
+                "close", 
+                "ERR_load_crypto_strings", 
+                "__gcc_personality_v0", 
+                "inet_addr", 
+                "EVP_DigestUpdate", 
+                "socket", 
+                "HMAC_CTX_init", 
+                "BN_bin2bn", 
+                "gethostbyname", 
+                "fread"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libtss.so.0.1"
+        }, 
+        "usr/bin/tssactivatecredential": {
+            "report-functions": [
+                "TSS_Execute", 
+                "_ITM_deregisterTMCloneTable", 
+                "TSS_Create", 
+                "strcmp", 
+                "_Jv_RegisterClasses", 
+                "TSS_File_ReadStructure", 
+                "putchar", 
+                "TPM2B_ID_OBJECT_Unmarshal", 
+                "exit", 
+                "TSS_ResponseCode_toString", 
+                "TSS_Delete", 
+                "TSS_SetProperty", 
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "TSS_File_WriteBinaryFile", 
+                "__libc_start_main", 
+                "printf", 
+                "TPM2B_ENCRYPTED_SECRET_Unmarshal", 
+                "__isoc99_sscanf"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tssactivatecredential"
+        }, 
+        "usr/bin/tsspolicycountertimer": {
+            "report-functions": [
+                "TSS_SetProperty", 
+                "_ITM_registerTMCloneTable", 
+                "__stack_chk_fail", 
+                "__libc_start_main", 
+                "__gmon_start__", 
+                "TSS_ResponseCode_toString", 
+                "TSS_Execute", 
+                "__isoc99_sscanf", 
+                "putchar", 
+                "_Jv_RegisterClasses", 
+                "__cxa_finalize", 
+                "exit", 
+                "puts", 
+                "_ITM_deregisterTMCloneTable", 
+                "atoi", 
+                "TSS_TPM2B_StringCopy", 
+                "TSS_Create", 
+                "strcmp", 
+                "TSS_File_Read2B"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tsspolicycountertimer"
+        }, 
+        "usr/bin/tssmakecredential": {
+            "report-functions": [
+                "__libc_start_main", 
+                "putchar", 
+                "_ITM_registerTMCloneTable", 
+                "exit", 
+                "strcmp", 
+                "printf", 
+                "TSS_TPM2B_ENCRYPTED_SECRET_Marshal", 
+                "puts", 
+                "_ITM_deregisterTMCloneTable", 
+                "TSS_Execute", 
+                "__gmon_start__", 
+                "TSS_Delete", 
+                "TSS_File_Read2B", 
+                "__isoc99_sscanf", 
+                "__cxa_finalize", 
+                "TSS_ResponseCode_toString", 
+                "_Jv_RegisterClasses", 
+                "TSS_SetProperty", 
+                "TSS_File_WriteStructure", 
+                "TSS_Create"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tssmakecredential"
+        }, 
+        "usr/bin/tsscontextsave": {
+            "report-functions": [
+                "exit", 
+                "__stack_chk_fail", 
+                "TSS_Create", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "TSS_File_WriteStructure", 
+                "__libc_start_main", 
+                "__isoc99_sscanf", 
+                "putchar", 
+                "TSS_Execute", 
+                "_Jv_RegisterClasses", 
+                "_ITM_registerTMCloneTable", 
+                "strcmp", 
+                "TSS_TPMS_CONTEXT_Marshal", 
+                "TSS_SetProperty", 
+                "__cxa_finalize", 
+                "TSS_Delete", 
+                "puts"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tsscontextsave"
+        }, 
+        "usr/bin/tsspolicyauthvalue": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "putchar", 
+                "__cxa_finalize", 
+                "__libc_start_main", 
+                "exit", 
+                "printf", 
+                "TSS_Create", 
+                "__gmon_start__", 
+                "__stack_chk_fail", 
+                "__isoc99_sscanf", 
+                "_ITM_registerTMCloneTable", 
+                "puts", 
+                "TSS_ResponseCode_toString", 
+                "TSS_Execute", 
+                "_Jv_RegisterClasses", 
+                "strcmp"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tsspolicyauthvalue"
+        }, 
+        "usr/bin/tssflushcontext": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "printf", 
+                "TSS_Create", 
+                "strcmp", 
+                "_ITM_deregisterTMCloneTable", 
+                "TSS_ResponseCode_toString", 
+                "_Jv_RegisterClasses", 
+                "exit", 
+                "TSS_SetProperty", 
+                "__isoc99_sscanf", 
+                "__gmon_start__", 
+                "TSS_Delete", 
+                "__libc_start_main", 
+                "putchar", 
+                "_ITM_registerTMCloneTable", 
+                "TSS_Execute"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tssflushcontext"
+        }, 
+        "usr/bin/tssload": {
+            "report-functions": [
+                "TPM2B_PRIVATE_Unmarshal", 
+                "strcmp", 
+                "puts", 
+                "TSS_Execute", 
+                "TPM2B_PUBLIC_Unmarshal", 
+                "TSS_ResponseCode_toString", 
+                "printf", 
+                "TSS_Create", 
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "exit", 
+                "__libc_start_main", 
+                "_Jv_RegisterClasses", 
+                "_ITM_registerTMCloneTable", 
+                "__isoc99_sscanf", 
+                "__stack_chk_fail", 
+                "TSS_File_ReadStructure", 
+                "TSS_SetProperty", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tssload"
+        }, 
+        "usr/bin/tssclockset": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "printf", 
+                "_Jv_RegisterClasses", 
+                "__isoc99_sscanf", 
+                "puts", 
+                "__cxa_finalize", 
+                "__stack_chk_fail", 
+                "TSS_Delete", 
+                "putchar", 
+                "TSS_SetProperty", 
+                "_ITM_registerTMCloneTable", 
+                "exit", 
+                "TSS_Create", 
+                "TSS_ResponseCode_toString", 
+                "strcmp", 
+                "__gmon_start__"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tssclockset"
+        }, 
+        "usr/bin/tssloadexternal": {
+            "report-functions": [
+                "BN_num_bits", 
+                "fclose", 
+                "TSS_Delete", 
+                "EVP_PKEY_get1_EC_KEY", 
+                "TSS_PrintAll", 
+                "TSS_SetProperty", 
+                "_ITM_registerTMCloneTable", 
+                "TSS_ResponseCode_toString", 
+                "TSS_File_ReadBinaryFile", 
+                "TSS_File_ReadStructure", 
+                "free", 
+                "puts", 
+                "TPM2B_PUBLIC_Unmarshal", 
+                "EC_POINT_point2oct", 
+                "TSS_Create", 
+                "exit", 
+                "__isoc99_sscanf", 
+                "RSA_free", 
+                "PEM_read_PUBKEY", 
+                "__libc_start_main", 
+                "EC_KEY_get0_group", 
+                "EC_KEY_get0_public_key", 
+                "_Jv_RegisterClasses", 
+                "EVP_PKEY_get1_RSA", 
+                "BN_bn2bin", 
+                "__stack_chk_fail", 
+                "d2i_RSAPrivateKey", 
+                "TSS_File_Open", 
+                "_ITM_deregisterTMCloneTable", 
+                "putchar", 
+                "__cxa_finalize", 
+                "memcpy", 
+                "printf", 
+                "malloc", 
+                "__gmon_start__"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tssloadexternal"
+        }, 
+        "usr/bin/tssclockrateadjust": {
+            "report-functions": [
+                "exit", 
+                "__cxa_finalize", 
+                "TSS_Delete", 
+                "__libc_start_main", 
+                "_Jv_RegisterClasses", 
+                "__isoc99_sscanf", 
+                "puts", 
+                "printf", 
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "putchar", 
+                "_ITM_registerTMCloneTable", 
+                "TSS_SetProperty", 
+                "TSS_ResponseCode_toString", 
+                "strcmp", 
+                "TSS_Execute"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tssclockrateadjust"
+        }, 
+        "usr/bin/tsspolicyor": {
+            "report-functions": [
+                "puts", 
+                "printf", 
+                "TSS_Execute", 
+                "TSS_Delete", 
+                "__cxa_finalize", 
+                "TSS_SetProperty", 
+                "_Jv_RegisterClasses", 
+                "__libc_start_main", 
+                "_ITM_deregisterTMCloneTable", 
+                "putchar", 
+                "_ITM_registerTMCloneTable", 
+                "__isoc99_sscanf", 
+                "TSS_Create", 
+                "__stack_chk_fail", 
+                "exit", 
+                "TSS_ResponseCode_toString", 
+                "strcmp", 
+                "TSS_File_Read2B"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tsspolicyor"
+        }, 
+        "usr/bin/tssgetsessionauditdigest": {
+            "report-functions": [
+                "puts", 
+                "TSS_Delete", 
+                "TSS_File_WriteStructure", 
+                "TSS_Create", 
+                "_Jv_RegisterClasses", 
+                "TSS_PrintAll", 
+                "TSS_File_WriteBinaryFile", 
+                "_ITM_deregisterTMCloneTable", 
+                "strcmp", 
+                "TSS_TPMS_ATTEST_Print", 
+                "__gmon_start__", 
+                "TSS_TPM2B_Compare", 
+                "__stack_chk_fail", 
+                "_ITM_registerTMCloneTable", 
+                "TSS_Execute", 
+                "__isoc99_sscanf", 
+                "__cxa_finalize", 
+                "printf", 
+                "exit", 
+                "__libc_start_main", 
+                "TSS_TPMT_SIGNATURE_Marshal", 
+                "putchar", 
+                "TSS_SetProperty", 
+                "TSS_ResponseCode_toString"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tssgetsessionauditdigest"
+        }, 
+        "usr/bin/tssrewrap": {
+            "report-functions": [
+                "TSS_Create", 
+                "TSS_File_WriteBinaryFile", 
+                "putchar", 
+                "_Jv_RegisterClasses", 
+                "__gmon_start__", 
+                "puts", 
+                "__libc_start_main", 
+                "__isoc99_sscanf", 
+                "TSS_ResponseCode_toString", 
+                "TSS_File_Read2B", 
+                "printf", 
+                "TSS_SetProperty", 
+                "TSS_Execute", 
+                "__stack_chk_fail", 
+                "_ITM_registerTMCloneTable", 
+                "exit", 
+                "__cxa_finalize", 
+                "TSS_Delete"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tssrewrap"
+        }, 
+        "usr/bin/tsspolicyticket": {
+            "report-functions": [
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "printf", 
+                "TSS_Create", 
+                "exit", 
+                "TPMT_TK_AUTH_Unmarshal", 
+                "TSS_SetProperty", 
+                "TSS_File_ReadStructure", 
+                "__cxa_finalize", 
+                "TSS_Execute", 
+                "_Jv_RegisterClasses", 
+                "_ITM_registerTMCloneTable", 
+                "TSS_ResponseCode_toString", 
+                "TSS_File_Read2B", 
+                "TSS_Delete", 
+                "__isoc99_sscanf", 
+                "__stack_chk_fail", 
+                "__libc_start_main", 
+                "puts", 
+                "putchar", 
+                "strcmp"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tsspolicyticket"
+        }, 
+        "usr/bin/tssnvdefinespace": {
+            "report-functions": [
+                "atoi", 
+                "TSS_Execute", 
+                "TSS_ResponseCode_toString", 
+                "_ITM_deregisterTMCloneTable", 
+                "strcmp", 
+                "TSS_Delete", 
+                "TSS_SetProperty", 
+                "TSS_TPM2B_StringCopy", 
+                "__gmon_start__", 
+                "__isoc99_sscanf", 
+                "putchar", 
+                "puts", 
+                "TSS_Create", 
+                "__cxa_finalize", 
+                "exit", 
+                "_Jv_RegisterClasses", 
+                "printf", 
+                "TSS_File_Read2B", 
+                "__libc_start_main", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tssnvdefinespace"
+        }, 
+        "usr/bin/tsshmacstart": {
+            "report-functions": [
+                "__libc_start_main", 
+                "TSS_Create", 
+                "_Jv_RegisterClasses", 
+                "putchar", 
+                "__stack_chk_fail", 
+                "_ITM_registerTMCloneTable", 
+                "TSS_TPM2B_StringCopy", 
+                "exit", 
+                "_ITM_deregisterTMCloneTable", 
+                "printf", 
+                "TSS_SetProperty", 
+                "strcmp", 
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "__isoc99_sscanf", 
+                "TSS_Delete", 
+                "TSS_ResponseCode_toString"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tsshmacstart"
+        }, 
+        "usr/bin/tsshash": {
+            "report-functions": [
+                "__gmon_start__", 
+                "memcpy", 
+                "_ITM_deregisterTMCloneTable", 
+                "TSS_File_WriteBinaryFile", 
+                "TSS_PrintAll", 
+                "TSS_File_WriteStructure", 
+                "TSS_Create", 
+                "__stack_chk_fail", 
+                "TSS_Delete", 
+                "TSS_Execute", 
+                "putchar", 
+                "__cxa_finalize", 
+                "free", 
+                "puts", 
+                "TSS_TPMT_TK_HASHCHECK_Marshal", 
+                "__libc_start_main", 
+                "strcmp", 
+                "TSS_ResponseCode_toString", 
+                "_ITM_registerTMCloneTable", 
+                "TSS_File_ReadBinaryFile", 
+                "exit", 
+                "TSS_SetProperty"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tsshash"
+        }, 
+        "usr/bin/tssnvchangeauth": {
+            "report-functions": [
+                "TSS_Create", 
+                "__gmon_start__", 
+                "puts", 
+                "strcmp", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize", 
+                "_Jv_RegisterClasses", 
+                "TSS_Execute", 
+                "putchar", 
+                "_ITM_registerTMCloneTable", 
+                "TSS_ResponseCode_toString", 
+                "printf", 
+                "exit", 
+                "TSS_SetProperty", 
+                "TSS_Delete", 
+                "__isoc99_sscanf", 
+                "__stack_chk_fail", 
+                "TSS_TPM2B_StringCopy"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tssnvchangeauth"
+        }, 
+        "usr/bin/tsspolicypassword": {
+            "report-functions": [
+                "TSS_Delete", 
+                "__isoc99_sscanf", 
+                "_ITM_deregisterTMCloneTable", 
+                "strcmp", 
+                "printf", 
+                "__stack_chk_fail", 
+                "TSS_ResponseCode_toString", 
+                "TSS_SetProperty", 
+                "putchar", 
+                "__libc_start_main", 
+                "exit", 
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "TSS_Create", 
+                "TSS_Execute", 
+                "puts"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tsspolicypassword"
+        }, 
+        "usr/bin/tssclearcontrol": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "printf", 
+                "TSS_SetProperty", 
+                "_Jv_RegisterClasses", 
+                "puts", 
+                "__libc_start_main", 
+                "TSS_ResponseCode_toString", 
+                "_ITM_deregisterTMCloneTable", 
+                "strcmp", 
+                "TSS_Execute", 
+                "putchar", 
+                "__gmon_start__", 
+                "exit", 
+                "atoi", 
+                "__isoc99_sscanf", 
+                "_ITM_registerTMCloneTable", 
+                "TSS_Delete"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tssclearcontrol"
+        }, 
+        "usr/bin/tssdictionaryattackparameters": {
+            "report-functions": [
+                "_Jv_RegisterClasses", 
+                "atoi", 
+                "TSS_ResponseCode_toString", 
+                "__stack_chk_fail", 
+                "TSS_Create", 
+                "exit", 
+                "TSS_Execute", 
+                "__isoc99_sscanf", 
+                "puts", 
+                "__libc_start_main", 
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable", 
+                "TSS_Delete", 
+                "TSS_SetProperty", 
+                "strcmp", 
+                "printf", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tssdictionaryattackparameters"
+        }, 
+        "usr/bin/tssreturncode": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "strtoul", 
+                "__libc_start_main", 
+                "__gmon_start__", 
+                "printf", 
+                "__stack_chk_fail", 
+                "_ITM_registerTMCloneTable", 
+                "TSS_ResponseCode_toString", 
+                "puts"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tssreturncode"
+        }, 
+        "usr/bin/tsspolicygetdigest": {
+            "report-functions": [
+                "putchar", 
+                "strcmp", 
+                "__cxa_finalize", 
+                "TSS_SetProperty", 
+                "TSS_File_WriteBinaryFile", 
+                "_ITM_deregisterTMCloneTable", 
+                "TSS_Create", 
+                "TSS_Delete", 
+                "puts", 
+                "TSS_ResponseCode_toString", 
+                "__gmon_start__", 
+                "TSS_Execute", 
+                "__libc_start_main", 
+                "__isoc99_sscanf", 
+                "printf", 
+                "_Jv_RegisterClasses", 
+                "exit", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tsspolicygetdigest"
+        }, 
+        "usr/bin/tssshutdown": {
+            "report-functions": [
+                "TSS_Create", 
+                "TSS_Delete", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "printf", 
+                "TSS_SetProperty", 
+                "TSS_Execute", 
+                "puts", 
+                "strcmp", 
+                "__libc_start_main", 
+                "exit", 
+                "_Jv_RegisterClasses", 
+                "TSS_ResponseCode_toString", 
+                "__cxa_finalize", 
+                "putchar"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tssshutdown"
+        }, 
+        "usr/bin/tsspowerup": {
+            "report-functions": [
+                "_Jv_RegisterClasses", 
+                "TSS_TransmitPlatform", 
+                "puts", 
+                "TSS_Create", 
+                "TSS_ResponseCode_toString", 
+                "TSS_Delete", 
+                "__cxa_finalize", 
+                "strcmp", 
+                "TSS_SetProperty", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "printf", 
+                "__libc_start_main", 
+                "__stack_chk_fail", 
+                "putchar"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tsspowerup"
+        }, 
+        "usr/bin/tsschangeeps": {
+            "report-functions": [
+                "TSS_Delete", 
+                "TSS_Create", 
+                "TSS_ResponseCode_toString", 
+                "printf", 
+                "puts", 
+                "TSS_SetProperty", 
+                "_ITM_registerTMCloneTable", 
+                "__libc_start_main", 
+                "strcmp", 
+                "__stack_chk_fail", 
+                "exit", 
+                "__gmon_start__", 
+                "__isoc99_sscanf", 
+                "TSS_Execute", 
+                "_ITM_deregisterTMCloneTable", 
+                "putchar"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tsschangeeps"
+        }, 
+        "usr/bin/tsseccparameters": {
+            "report-functions": [
+                "exit", 
+                "TSS_Create", 
+                "TSS_Delete", 
+                "TSS_SetProperty", 
+                "TSS_File_WriteStructure", 
+                "TSS_TPMS_ALGORITHM_DETAIL_ECC_Marshal", 
+                "strcmp", 
+                "_Jv_RegisterClasses", 
+                "TSS_Execute", 
+                "putchar", 
+                "__libc_start_main", 
+                "__gmon_start__", 
+                "TSS_ResponseCode_toString", 
+                "_ITM_registerTMCloneTable", 
+                "__cxa_finalize", 
+                "_ITM_deregisterTMCloneTable", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tsseccparameters"
+        }, 
+        "usr/bin/tssnvwrite": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "TSS_Execute", 
+                "TSS_Delete", 
+                "exit", 
+                "htonl", 
+                "TSS_Create", 
+                "TSS_File_ReadBinaryFile", 
+                "TSS_SetProperty", 
+                "TSS_TPM2B_StringCopy", 
+                "__stack_chk_fail", 
+                "TSS_ResponseCode_toString", 
+                "_Jv_RegisterClasses", 
+                "__gmon_start__", 
+                "strcmp", 
+                "putchar", 
+                "TSS_TPM2B_Create", 
+                "__libc_start_main", 
+                "_ITM_registerTMCloneTable", 
+                "free", 
+                "__isoc99_sscanf", 
+                "atoi", 
+                "printf"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tssnvwrite"
+        }, 
+        "usr/bin/tsssequenceupdate": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "TSS_Create", 
+                "TSS_Delete", 
+                "TSS_SetProperty", 
+                "__gmon_start__", 
+                "printf", 
+                "_Jv_RegisterClasses", 
+                "exit", 
+                "TSS_File_ReadBinaryFile", 
+                "_ITM_registerTMCloneTable", 
+                "puts", 
+                "free", 
+                "__libc_start_main", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize", 
+                "strcmp", 
+                "__isoc99_sscanf", 
+                "memcpy", 
+                "TSS_Execute"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tsssequenceupdate"
+        }, 
+        "usr/bin/tssnvundefinespacespecial": {
+            "report-functions": [
+                "puts", 
+                "__cxa_finalize", 
+                "TSS_ResponseCode_toString", 
+                "_Jv_RegisterClasses", 
+                "__gmon_start__", 
+                "TSS_Create", 
+                "_ITM_registerTMCloneTable", 
+                "_ITM_deregisterTMCloneTable", 
+                "exit", 
+                "strcmp", 
+                "TSS_Delete", 
+                "TSS_Execute", 
+                "putchar", 
+                "printf", 
+                "__isoc99_sscanf", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tssnvundefinespacespecial"
+        }, 
+        "usr/bin/tssquote": {
+            "report-functions": [
+                "TPMS_ATTEST_Unmarshal", 
+                "__stack_chk_fail", 
+                "TSS_File_WriteStructure", 
+                "TSS_TPMS_ATTEST_Print", 
+                "TSS_File_WriteBinaryFile", 
+                "TSS_ResponseCode_toString", 
+                "printf", 
+                "_ITM_registerTMCloneTable", 
+                "_Jv_RegisterClasses", 
+                "__libc_start_main", 
+                "TSS_File_Read2B", 
+                "TSS_Create", 
+                "exit", 
+                "TSS_PrintAll", 
+                "__cxa_finalize", 
+                "TSS_TPM2B_Compare", 
+                "putchar", 
+                "_ITM_deregisterTMCloneTable", 
+                "TSS_SetProperty", 
+                "TSS_Delete", 
+                "TSS_TPMT_SIGNATURE_Marshal", 
+                "__isoc99_sscanf", 
+                "TSS_Execute", 
+                "__gmon_start__"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tssquote"
+        }, 
+        "usr/bin/tssevictcontrol": {
+            "report-functions": [
+                "_Jv_RegisterClasses", 
+                "TSS_SetProperty", 
+                "__gmon_start__", 
+                "__stack_chk_fail", 
+                "printf", 
+                "TSS_Create", 
+                "TSS_Delete", 
+                "__cxa_finalize", 
+                "_ITM_deregisterTMCloneTable", 
+                "putchar", 
+                "__isoc99_sscanf", 
+                "TSS_Execute", 
+                "puts", 
+                "TSS_ResponseCode_toString", 
+                "exit", 
+                "strcmp"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tssevictcontrol"
+        }, 
+        "usr/bin/tssgettime": {
+            "report-functions": [
+                "TSS_TPMS_ATTEST_Print", 
+                "TSS_File_Read2B", 
+                "TPMS_ATTEST_Unmarshal", 
+                "TSS_SetProperty", 
+                "putchar", 
+                "exit", 
+                "__libc_start_main", 
+                "_ITM_deregisterTMCloneTable", 
+                "TSS_Delete", 
+                "puts", 
+                "__gmon_start__", 
+                "TSS_Create", 
+                "__isoc99_sscanf", 
+                "TSS_TPMT_SIGNATURE_Marshal", 
+                "__cxa_finalize", 
+                "TSS_ResponseCode_toString", 
+                "_ITM_registerTMCloneTable", 
+                "_Jv_RegisterClasses", 
+                "TSS_TPM2B_ATTEST_Print", 
+                "TSS_TPM2B_Compare", 
+                "TSS_File_WriteBinaryFile", 
+                "strcmp", 
+                "printf", 
+                "TSS_Execute", 
+                "TSS_File_WriteStructure"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tssgettime"
+        }, 
+        "usr/bin/tsssign": {
+            "report-functions": [
+                "fclose", 
+                "EVP_PKEY_free", 
+                "_ITM_registerTMCloneTable", 
+                "__libc_start_main", 
+                "PEM_write_PUBKEY", 
+                "EVP_PKEY_assign", 
+                "EVP_PKEY_get1_RSA", 
+                "TSS_Hash_Generate", 
+                "memcpy", 
+                "fopen", 
+                "TPMT_TK_HASHCHECK_Unmarshal", 
+                "__stack_chk_fail", 
+                "__isoc99_sscanf", 
+                "free", 
+                "TSS_TPMT_SIGNATURE_Marshal", 
+                "putchar", 
+                "TSS_Delete", 
+                "EVP_PKEY_new", 
+                "TSS_ResponseCode_toString", 
+                "__cxa_finalize", 
+                "TSS_File_ReadStructure", 
+                "TSS_File_ReadBinaryFile", 
+                "TPM2B_PUBLIC_Unmarshal", 
+                "TSS_GetDigestSize", 
+                "BN_bin2bn", 
+                "TSS_Create", 
+                "RSA_verify", 
+                "__gmon_start__", 
+                "PEM_read_PUBKEY", 
+                "strcmp", 
+                "TSS_Execute", 
+                "exit", 
+                "TSS_File_WriteStructure", 
+                "_ITM_deregisterTMCloneTable", 
+                "puts", 
+                "printf", 
+                "TSS_SetProperty", 
+                "_Jv_RegisterClasses"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tsssign"
+        }, 
+        "usr/bin/tssnvread": {
+            "report-functions": [
+                "TSS_File_WriteBinaryFile", 
+                "puts", 
+                "TSS_ResponseCode_toString", 
+                "_ITM_registerTMCloneTable", 
+                "strcmp", 
+                "atoi", 
+                "__cxa_finalize", 
+                "_Jv_RegisterClasses", 
+                "TSS_Execute", 
+                "malloc", 
+                "TSS_Delete", 
+                "TSS_PrintAll", 
+                "__isoc99_sscanf", 
+                "free", 
+                "__stack_chk_fail", 
+                "printf", 
+                "memcpy", 
+                "TSS_SetProperty", 
+                "putchar", 
+                "__gmon_start__", 
+                "TSS_Create", 
+                "exit", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tssnvread"
+        }, 
+        "usr/bin/tsspcrread": {
+            "report-functions": [
+                "__gmon_start__", 
+                "puts", 
+                "__stack_chk_fail", 
+                "__cxa_finalize", 
+                "TSS_PrintAll", 
+                "TSS_ResponseCode_toString", 
+                "_Jv_RegisterClasses", 
+                "TSS_File_WriteBinaryFile", 
+                "TSS_Create", 
+                "_ITM_deregisterTMCloneTable", 
+                "printf", 
+                "TSS_SetProperty", 
+                "TSS_Delete", 
+                "strcmp", 
+                "TSS_Execute", 
+                "_ITM_registerTMCloneTable", 
+                "putchar", 
+                "exit"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tsspcrread"
+        }, 
+        "usr/bin/tsspolicysecret": {
+            "report-functions": [
+                "TSS_TPMT_TK_AUTH_Marshal", 
+                "_ITM_deregisterTMCloneTable", 
+                "__isoc99_sscanf", 
+                "_ITM_registerTMCloneTable", 
+                "TSS_File_Read2B", 
+                "TSS_Execute", 
+                "TSS_SetProperty", 
+                "__stack_chk_fail", 
+                "__cxa_finalize", 
+                "atoi", 
+                "printf", 
+                "TSS_ResponseCode_toString", 
+                "puts", 
+                "TSS_Create", 
+                "TSS_File_WriteBinaryFile", 
+                "__gmon_start__", 
+                "_Jv_RegisterClasses", 
+                "TSS_File_WriteStructure", 
+                "putchar", 
+                "__libc_start_main", 
+                "exit"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tsspolicysecret"
+        }, 
+        "usr/bin/tsshmac": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "TSS_Delete", 
+                "__stack_chk_fail", 
+                "TSS_PrintAll", 
+                "_ITM_deregisterTMCloneTable", 
+                "free", 
+                "TSS_Create", 
+                "printf", 
+                "TSS_ResponseCode_toString", 
+                "TSS_File_ReadBinaryFile", 
+                "exit", 
+                "TSS_SetProperty", 
+                "__isoc99_sscanf", 
+                "puts", 
+                "TSS_Execute", 
+                "memcpy", 
+                "_ITM_registerTMCloneTable", 
+                "strcmp", 
+                "putchar", 
+                "__gmon_start__", 
+                "__libc_start_main"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tsshmac"
+        }, 
+        "usr/bin/tsspolicynvwritten": {
+            "report-functions": [
+                "printf", 
+                "puts", 
+                "TSS_ResponseCode_toString", 
+                "TSS_Delete", 
+                "TSS_SetProperty", 
+                "TSS_Create", 
+                "strcmp", 
+                "__isoc99_sscanf", 
+                "__stack_chk_fail", 
+                "_Jv_RegisterClasses", 
+                "putchar", 
+                "__cxa_finalize", 
+                "TSS_Execute", 
+                "_ITM_deregisterTMCloneTable", 
+                "__libc_start_main", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tsspolicynvwritten"
+        }, 
+        "usr/bin/tssnvreadpublic": {
+            "report-functions": [
+                "__libc_start_main", 
+                "TSS_ResponseCode_toString", 
+                "TSS_Create", 
+                "ntohs", 
+                "exit", 
+                "putchar", 
+                "_ITM_registerTMCloneTable", 
+                "printf", 
+                "__cxa_finalize", 
+                "__stack_chk_fail", 
+                "TSS_PrintAll", 
+                "strcmp", 
+                "_ITM_deregisterTMCloneTable", 
+                "TSS_Delete", 
+                "__isoc99_sscanf", 
+                "TSS_SetProperty", 
+                "puts", 
+                "TSS_Execute"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tssnvreadpublic"
+        }, 
+        "usr/bin/tssnvglobalwritelock": {
+            "report-functions": [
+                "TSS_ResponseCode_toString", 
+                "TSS_Delete", 
+                "TSS_Create", 
+                "strcmp", 
+                "__stack_chk_fail", 
+                "TSS_SetProperty", 
+                "putchar", 
+                "_ITM_registerTMCloneTable", 
+                "__libc_start_main", 
+                "printf", 
+                "__cxa_finalize", 
+                "puts", 
+                "_Jv_RegisterClasses", 
+                "__gmon_start__", 
+                "exit", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tssnvglobalwritelock"
+        }, 
+        "usr/bin/tsscreateek": {
+            "report-functions": [
+                "fclose", 
+                "X509_STORE_free", 
+                "_ITM_deregisterTMCloneTable", 
+                "putchar", 
+                "malloc", 
+                "TSS_Execute", 
+                "EVP_PKEY_get1_RSA", 
+                "X509_STORE_CTX_free", 
+                "EC_POINT_point2oct", 
+                "TSS_TPMT_PUBLIC_Print", 
+                "X509_STORE_CTX_new", 
+                "X509_print_fp", 
+                "__cxa_finalize", 
+                "X509_verify_cert", 
+                "TSS_PrintAll", 
+                "TSS_Create", 
+                "__gmon_start__", 
+                "strcmp", 
+                "BN_bn2bin", 
+                "d2i_X509", 
+                "EVP_PKEY_get1_EC_KEY", 
+                "_Jv_RegisterClasses", 
+                "_ITM_registerTMCloneTable", 
+                "X509_STORE_CTX_init", 
+                "TSS_Delete", 
+                "fopen", 
+                "EVP_PKEY_free", 
+                "X509_STORE_new", 
+                "__libc_start_main", 
+                "memcpy", 
+                "free", 
+                "TSS_Malloc", 
+                "printf", 
+                "RSA_free", 
+                "exit", 
+                "memset", 
+                "EC_KEY_free", 
+                "strlen", 
+                "TSS_SetProperty", 
+                "memcmp", 
+                "X509_STORE_add_cert", 
+                "EC_KEY_get0_public_key", 
+                "PEM_read_X509", 
+                "__stack_chk_fail", 
+                "puts", 
+                "TPMT_PUBLIC_Unmarshal", 
+                "BN_num_bits", 
+                "EC_KEY_get0_group", 
+                "X509_get_pubkey", 
+                "X509_free"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tsscreateek"
+        }, 
+        "usr/bin/tssstartauthsession": {
+            "report-functions": [
+                "__gmon_start__", 
+                "__isoc99_sscanf", 
+                "TSS_File_WriteBinaryFile", 
+                "TSS_Create", 
+                "__cxa_finalize", 
+                "exit", 
+                "_Jv_RegisterClasses", 
+                "printf", 
+                "_ITM_deregisterTMCloneTable", 
+                "__libc_start_main", 
+                "putchar", 
+                "TSS_ResponseCode_toString", 
+                "TSS_SetProperty", 
+                "_ITM_registerTMCloneTable", 
+                "TSS_Delete", 
+                "TSS_Execute", 
+                "puts"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tssstartauthsession"
+        }, 
+        "usr/bin/tsspolicypcr": {
+            "report-functions": [
+                "puts", 
+                "strcmp", 
+                "TSS_Create", 
+                "TSS_Delete", 
+                "TSS_ResponseCode_toString", 
+                "_Jv_RegisterClasses", 
+                "_ITM_registerTMCloneTable", 
+                "__gmon_start__", 
+                "__isoc99_sscanf", 
+                "printf", 
+                "__libc_start_main", 
+                "TSS_SetProperty", 
+                "putchar", 
+                "__cxa_finalize", 
+                "_ITM_deregisterTMCloneTable", 
+                "__stack_chk_fail", 
+                "TSS_Execute"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tsspolicypcr"
+        }, 
+        "usr/bin/tssgetcapability": {
+            "report-functions": [
+                "strcmp", 
+                "printf", 
+                "TSS_ResponseCode_toString", 
+                "puts", 
+                "TSS_TPM_TPMA_ALGORITHM_Print", 
+                "TSS_TPM_ALG_ID_Print", 
+                "putchar", 
+                "TSS_Delete", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "__isoc99_sscanf", 
+                "_ITM_registerTMCloneTable", 
+                "TSS_SetProperty", 
+                "TSS_TPMS_PCR_SELECTION_Print", 
+                "__libc_start_main", 
+                "TSS_Execute", 
+                "TSS_Create", 
+                "exit", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tssgetcapability"
+        }, 
+        "usr/bin/tsspolicynv": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "_Jv_RegisterClasses", 
+                "__isoc99_sscanf", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "TSS_SetProperty", 
+                "TSS_ResponseCode_toString", 
+                "putchar", 
+                "TSS_Delete", 
+                "exit", 
+                "TSS_Execute", 
+                "puts", 
+                "TSS_TPM2B_StringCopy", 
+                "__libc_start_main", 
+                "printf", 
+                "_ITM_registerTMCloneTable", 
+                "TSS_Create", 
+                "TSS_File_Read2B", 
+                "atoi"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tsspolicynv"
+        }, 
+        "usr/bin/tssnvwritelock": {
+            "report-functions": [
+                "TSS_Delete", 
+                "__cxa_finalize", 
+                "exit", 
+                "TSS_SetProperty", 
+                "_Jv_RegisterClasses", 
+                "putchar", 
+                "TSS_Execute", 
+                "__isoc99_sscanf", 
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "printf", 
+                "TSS_ResponseCode_toString", 
+                "TSS_Create", 
+                "_ITM_deregisterTMCloneTable", 
+                "strcmp", 
+                "__libc_start_main", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tssnvwritelock"
+        }, 
+        "usr/bin/tsspolicyrestart": {
+            "report-functions": [
+                "__isoc99_sscanf", 
+                "_Jv_RegisterClasses", 
+                "TSS_Execute", 
+                "TSS_Create", 
+                "_ITM_registerTMCloneTable", 
+                "TSS_ResponseCode_toString", 
+                "strcmp", 
+                "putchar", 
+                "TSS_SetProperty", 
+                "_ITM_deregisterTMCloneTable", 
+                "puts", 
+                "__cxa_finalize", 
+                "__libc_start_main", 
+                "__gmon_start__", 
+                "exit", 
+                "printf"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tsspolicyrestart"
+        }, 
+        "usr/bin/tssstartup": {
+            "report-functions": [
+                "TSS_ResponseCode_toString", 
+                "__stack_chk_fail", 
+                "_ITM_deregisterTMCloneTable", 
+                "TSS_Create", 
+                "__cxa_finalize", 
+                "__gmon_start__", 
+                "exit", 
+                "TSS_Execute", 
+                "_Jv_RegisterClasses", 
+                "printf", 
+                "_ITM_registerTMCloneTable", 
+                "putchar", 
+                "TSS_Delete", 
+                "__libc_start_main", 
+                "strcmp"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tssstartup"
+        }, 
+        "usr/bin/tssrsadecrypt": {
+            "report-functions": [
+                "puts", 
+                "TSS_SetProperty", 
+                "TSS_Execute", 
+                "TSS_File_WriteBinaryFile", 
+                "printf", 
+                "TSS_ResponseCode_toString", 
+                "__stack_chk_fail", 
+                "realloc", 
+                "_ITM_registerTMCloneTable", 
+                "_Jv_RegisterClasses", 
+                "memcpy", 
+                "strcmp", 
+                "__gmon_start__", 
+                "putchar", 
+                "TSS_Delete", 
+                "__isoc99_sscanf", 
+                "_ITM_deregisterTMCloneTable", 
+                "__libc_start_main", 
+                "TSS_Create", 
+                "__cxa_finalize", 
+                "free", 
+                "TSS_File_ReadBinaryFile", 
+                "exit"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tssrsadecrypt"
+        }, 
+        "usr/bin/tsschangepps": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "_Jv_RegisterClasses", 
+                "puts", 
+                "_ITM_registerTMCloneTable", 
+                "strcmp", 
+                "__libc_start_main", 
+                "TSS_SetProperty", 
+                "__gmon_start__", 
+                "printf", 
+                "TSS_Create", 
+                "__stack_chk_fail", 
+                "putchar", 
+                "_ITM_deregisterTMCloneTable", 
+                "exit", 
+                "TSS_ResponseCode_toString", 
+                "TSS_Delete", 
+                "__isoc99_sscanf"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tsschangepps"
+        }, 
+        "usr/bin/tsspolicyauthorize": {
+            "report-functions": [
+                "exit", 
+                "TSS_File_Read2B", 
+                "__gmon_start__", 
+                "TSS_File_ReadStructure", 
+                "TSS_Create", 
+                "TPMT_TK_VERIFIED_Unmarshal", 
+                "_ITM_registerTMCloneTable", 
+                "__stack_chk_fail", 
+                "TSS_Execute", 
+                "puts", 
+                "_ITM_deregisterTMCloneTable", 
+                "strcmp", 
+                "putchar", 
+                "TSS_Delete", 
+                "__libc_start_main", 
+                "_Jv_RegisterClasses", 
+                "printf", 
+                "__cxa_finalize", 
+                "__isoc99_sscanf"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tsspolicyauthorize"
+        }, 
+        "usr/bin/tsscreate": {
+            "report-functions": [
+                "__libc_start_main", 
+                "_ITM_registerTMCloneTable", 
+                "__cxa_finalize", 
+                "putchar", 
+                "_ITM_deregisterTMCloneTable", 
+                "TSS_File_WriteStructure", 
+                "TSS_Execute", 
+                "TSS_ResponseCode_toString", 
+                "TSS_TPM2B_PRIVATE_Marshal", 
+                "strcmp", 
+                "puts", 
+                "TSS_Create", 
+                "__stack_chk_fail", 
+                "printf", 
+                "TSS_Delete", 
+                "TSS_TPM2B_PUBLIC_Marshal", 
+                "TSS_File_Read2B", 
+                "TSS_SetProperty", 
+                "__isoc99_sscanf", 
+                "exit", 
+                "TSS_TPM2B_StringCopy"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tsscreate"
+        }, 
+        "usr/bin/tsseventextend": {
+            "report-functions": [
+                "TSS_GetDigestSize", 
+                "feof", 
+                "UINT8_Unmarshal", 
+                "printf", 
+                "fclose", 
+                "TPML_DIGEST_VALUES_Unmarshal", 
+                "TSS_Delete", 
+                "__gmon_start__", 
+                "TSS_Execute", 
+                "TSS_PrintAll", 
+                "fread", 
+                "strcmp", 
+                "UINT32_Unmarshal", 
+                "__stack_chk_fail", 
+                "__cxa_finalize", 
+                "TSS_SetProperty", 
+                "_ITM_deregisterTMCloneTable", 
+                "TSS_TPML_DIGEST_VALUES_Marshal", 
+                "Array_Unmarshal", 
+                "TSS_UINT32_Marshal", 
+                "TSS_ResponseCode_toString", 
+                "exit", 
+                "TSS_Create", 
+                "memset", 
+                "_ITM_registerTMCloneTable", 
+                "putchar", 
+                "TSS_Hash_Generate", 
+                "puts", 
+                "_Jv_RegisterClasses", 
+                "fopen"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tsseventextend"
+        }, 
+        "usr/bin/tssencryptdecrypt": {
+            "report-functions": [
+                "memset", 
+                "TSS_Delete", 
+                "TSS_Execute", 
+                "puts", 
+                "TSS_TPM2B_MAX_BUFFER_Marshal", 
+                "__stack_chk_fail", 
+                "memcpy", 
+                "TSS_SetProperty", 
+                "__isoc99_sscanf", 
+                "exit", 
+                "TSS_ResponseCode_toString", 
+                "strcmp", 
+                "__libc_start_main", 
+                "TSS_PrintAll", 
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable", 
+                "_Jv_RegisterClasses", 
+                "printf", 
+                "TSS_Create", 
+                "TSS_File_ReadBinaryFile", 
+                "putchar", 
+                "_ITM_deregisterTMCloneTable", 
+                "realloc", 
+                "TSS_File_WriteBinaryFile"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tssencryptdecrypt"
+        }, 
+        "usr/bin/tsspolicycommandcode": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "_Jv_RegisterClasses", 
+                "__isoc99_sscanf", 
+                "TSS_ResponseCode_toString", 
+                "TSS_Create", 
+                "puts", 
+                "__gmon_start__", 
+                "exit", 
+                "TSS_Delete", 
+                "TSS_Execute", 
+                "printf", 
+                "__stack_chk_fail", 
+                "strcmp", 
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable", 
+                "TSS_SetProperty"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tsspolicycommandcode"
+        }, 
+        "usr/bin/tssduplicate": {
+            "report-functions": [
+                "__gmon_start__", 
+                "puts", 
+                "__isoc99_sscanf", 
+                "TSS_ResponseCode_toString", 
+                "_Jv_RegisterClasses", 
+                "__stack_chk_fail", 
+                "printf", 
+                "exit", 
+                "strcmp", 
+                "__libc_start_main", 
+                "_ITM_deregisterTMCloneTable", 
+                "TSS_Delete", 
+                "__cxa_finalize", 
+                "TSS_SetProperty", 
+                "TSS_Execute", 
+                "TSS_File_Read2B", 
+                "_ITM_registerTMCloneTable", 
+                "TSS_File_WriteBinaryFile"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tssduplicate"
+        }, 
+        "usr/bin/tsspcrevent": {
+            "report-functions": [
+                "putchar", 
+                "TSS_Delete", 
+                "strlen", 
+                "TSS_ResponseCode_toString", 
+                "TSS_Create", 
+                "__cxa_finalize", 
+                "TSS_Execute", 
+                "TSS_TPM2B_StringCopy", 
+                "TSS_PrintAll", 
+                "_Jv_RegisterClasses", 
+                "_ITM_registerTMCloneTable", 
+                "TSS_File_Read2B", 
+                "puts", 
+                "__stack_chk_fail", 
+                "TSS_SetProperty", 
+                "TSS_File_WriteBinaryFile", 
+                "__libc_start_main", 
+                "printf", 
+                "strcmp", 
+                "__isoc99_sscanf", 
+                "exit"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tsspcrevent"
+        }, 
+        "usr/bin/tsspcrextend": {
+            "report-functions": [
+                "puts", 
+                "exit", 
+                "memset", 
+                "__isoc99_sscanf", 
+                "printf", 
+                "__libc_start_main", 
+                "TSS_File_ReadBinaryFile", 
+                "_ITM_deregisterTMCloneTable", 
+                "putchar", 
+                "strlen", 
+                "_ITM_registerTMCloneTable", 
+                "__gmon_start__", 
+                "TSS_Create", 
+                "__stack_chk_fail", 
+                "TSS_ResponseCode_toString", 
+                "TSS_SetProperty", 
+                "free", 
+                "TSS_Delete", 
+                "memcpy", 
+                "__cxa_finalize", 
+                "_Jv_RegisterClasses"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tsspcrextend"
+        }, 
+        "usr/bin/tssnvreadlock": {
+            "report-functions": [
+                "TSS_Create", 
+                "_ITM_registerTMCloneTable", 
+                "TSS_SetProperty", 
+                "__isoc99_sscanf", 
+                "_ITM_deregisterTMCloneTable", 
+                "_Jv_RegisterClasses", 
+                "putchar", 
+                "__gmon_start__", 
+                "exit", 
+                "TSS_Delete", 
+                "strcmp", 
+                "__stack_chk_fail", 
+                "__cxa_finalize", 
+                "TSS_ResponseCode_toString", 
+                "TSS_Execute", 
+                "printf"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tssnvreadlock"
+        }, 
+        "usr/bin/tssrsaencrypt": {
+            "report-functions": [
+                "printf", 
+                "TSS_ResponseCode_toString", 
+                "__cxa_finalize", 
+                "exit", 
+                "TSS_SetProperty", 
+                "TSS_TPM2B_PUBLIC_KEY_RSA_Marshal", 
+                "putchar", 
+                "strcmp", 
+                "TSS_File_WriteBinaryFile", 
+                "memcpy", 
+                "puts", 
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "__libc_start_main", 
+                "TSS_File_ReadBinaryFile", 
+                "_ITM_deregisterTMCloneTable", 
+                "_Jv_RegisterClasses", 
+                "TSS_Create", 
+                "TSS_Delete", 
+                "realloc", 
+                "__isoc99_sscanf", 
+                "TSS_Execute", 
+                "free"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tssrsaencrypt"
+        }, 
+        "usr/bin/tssreadpublic": {
+            "report-functions": [
+                "__libc_start_main", 
+                "TSS_TPM2B_PUBLIC_Marshal", 
+                "TSS_Execute", 
+                "__stack_chk_fail", 
+                "TSS_PrintAll", 
+                "_Jv_RegisterClasses", 
+                "TSS_Create", 
+                "TSS_SetProperty", 
+                "TSS_Delete", 
+                "putchar", 
+                "exit", 
+                "__isoc99_sscanf", 
+                "strcmp", 
+                "TSS_ResponseCode_toString", 
+                "_ITM_registerTMCloneTable", 
+                "printf", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "puts"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tssreadpublic"
+        }, 
+        "usr/bin/tssclear": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "__cxa_finalize", 
+                "puts", 
+                "__gmon_start__", 
+                "TSS_ResponseCode_toString", 
+                "printf", 
+                "__isoc99_sscanf", 
+                "_ITM_registerTMCloneTable", 
+                "TSS_Delete", 
+                "_Jv_RegisterClasses", 
+                "TSS_SetProperty", 
+                "__libc_start_main", 
+                "strcmp", 
+                "TSS_Execute", 
+                "exit", 
+                "putchar"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tssclear"
+        }, 
+        "usr/bin/tssstirrandom": {
+            "report-functions": [
+                "TSS_SetProperty", 
+                "_Jv_RegisterClasses", 
+                "memcpy", 
+                "_ITM_registerTMCloneTable", 
+                "__libc_start_main", 
+                "free", 
+                "__cxa_finalize", 
+                "exit", 
+                "__stack_chk_fail", 
+                "TSS_Execute", 
+                "TSS_Delete", 
+                "TSS_File_ReadBinaryFile", 
+                "puts", 
+                "__gmon_start__", 
+                "strcmp", 
+                "putchar", 
+                "TSS_ResponseCode_toString", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tssstirrandom"
+        }, 
+        "usr/bin/tsssequencecomplete": {
+            "report-functions": [
+                "putchar", 
+                "__gmon_start__", 
+                "memcpy", 
+                "TSS_File_ReadBinaryFile", 
+                "_Jv_RegisterClasses", 
+                "TSS_ResponseCode_toString", 
+                "TSS_TPMT_TK_HASHCHECK_Marshal", 
+                "_ITM_registerTMCloneTable", 
+                "TSS_File_WriteStructure", 
+                "__cxa_finalize", 
+                "TSS_SetProperty", 
+                "TSS_File_WriteBinaryFile", 
+                "_ITM_deregisterTMCloneTable", 
+                "__libc_start_main", 
+                "free", 
+                "TSS_PrintAll", 
+                "TSS_Delete", 
+                "TSS_Execute", 
+                "__stack_chk_fail", 
+                "TSS_Create", 
+                "puts", 
+                "exit", 
+                "strcmp"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tsssequencecomplete"
+        }, 
+        "usr/bin/tsscertify": {
+            "report-functions": [
+                "TSS_PrintAll", 
+                "printf", 
+                "TSS_File_Read2B", 
+                "TSS_SetProperty", 
+                "exit", 
+                "_ITM_registerTMCloneTable", 
+                "TSS_Execute", 
+                "strcmp", 
+                "TPMS_ATTEST_Unmarshal", 
+                "TSS_ResponseCode_toString", 
+                "TSS_Create", 
+                "TSS_File_WriteStructure", 
+                "__isoc99_sscanf", 
+                "_ITM_deregisterTMCloneTable", 
+                "_Jv_RegisterClasses", 
+                "__stack_chk_fail", 
+                "TSS_TPMS_ATTEST_Print", 
+                "TSS_TPM2B_Compare", 
+                "__gmon_start__", 
+                "putchar", 
+                "TSS_File_WriteBinaryFile", 
+                "TSS_Delete", 
+                "puts", 
+                "TSS_TPMT_SIGNATURE_Marshal"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tsscertify"
+        }, 
+        "usr/bin/tssnvincrement": {
+            "report-functions": [
+                "__libc_start_main", 
+                "TSS_Execute", 
+                "TSS_Delete", 
+                "exit", 
+                "TSS_SetProperty", 
+                "TSS_Create", 
+                "printf", 
+                "_Jv_RegisterClasses", 
+                "__gmon_start__", 
+                "TSS_ResponseCode_toString", 
+                "__isoc99_sscanf", 
+                "strcmp", 
+                "_ITM_deregisterTMCloneTable", 
+                "putchar", 
+                "puts", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tssnvincrement"
+        }, 
+        "usr/bin/tsspolicycphash": {
+            "report-functions": [
+                "TSS_Create", 
+                "TSS_ResponseCode_toString", 
+                "TSS_File_Read2B", 
+                "printf", 
+                "exit", 
+                "__stack_chk_fail", 
+                "_Jv_RegisterClasses", 
+                "putchar", 
+                "puts", 
+                "__cxa_finalize", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "TSS_Execute", 
+                "strcmp", 
+                "__isoc99_sscanf", 
+                "__libc_start_main", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tsspolicycphash"
+        }, 
+        "usr/bin/tsshierarchychangeauth": {
+            "report-functions": [
+                "strcmp", 
+                "TSS_ResponseCode_toString", 
+                "TSS_TPM2B_StringCopy", 
+                "free", 
+                "__cxa_finalize", 
+                "exit", 
+                "putchar", 
+                "_Jv_RegisterClasses", 
+                "TSS_SetProperty", 
+                "TSS_Delete", 
+                "memcpy", 
+                "puts", 
+                "__gmon_start__", 
+                "TSS_Execute", 
+                "TSS_File_ReadBinaryFile", 
+                "__stack_chk_fail", 
+                "_ITM_deregisterTMCloneTable", 
+                "__libc_start_main", 
+                "printf", 
+                "__isoc99_sscanf"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tsshierarchychangeauth"
+        }, 
+        "usr/bin/tsspolicymakerpcr": {
+            "report-functions": [
+                "__isoc99_sscanf", 
+                "__stack_chk_fail", 
+                "_Jv_RegisterClasses", 
+                "__errno_location", 
+                "strlen", 
+                "TSS_GetDigestSize", 
+                "fgets", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize", 
+                "fputc", 
+                "TSS_Array_Marshal", 
+                "TSS_SetProperty", 
+                "OPENSSL_add_all_algorithms_noconf", 
+                "fprintf", 
+                "fclose", 
+                "strerror", 
+                "puts", 
+                "__libc_start_main", 
+                "strcmp", 
+                "fopen", 
+                "__gmon_start__", 
+                "TSS_PrintAll", 
+                "exit", 
+                "printf", 
+                "putchar", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tsspolicymakerpcr"
+        }, 
+        "usr/bin/tsspolicymaker": {
+            "report-functions": [
+                "ERR_load_crypto_strings", 
+                "printf", 
+                "__cxa_finalize", 
+                "fwrite", 
+                "TSS_PrintAll", 
+                "_Jv_RegisterClasses", 
+                "__errno_location", 
+                "putchar", 
+                "TSS_Hash_Generate", 
+                "strlen", 
+                "TSS_SetProperty", 
+                "__gmon_start__", 
+                "fopen", 
+                "strcmp", 
+                "TSS_GetDigestSize", 
+                "memset", 
+                "__stack_chk_fail", 
+                "strerror", 
+                "fclose", 
+                "fgets", 
+                "exit", 
+                "__libc_start_main", 
+                "puts", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tsspolicymaker"
+        }, 
+        "usr/bin/tssunseal": {
+            "report-functions": [
+                "TSS_PrintAll", 
+                "TSS_Delete", 
+                "printf", 
+                "putchar", 
+                "TSS_SetProperty", 
+                "puts", 
+                "strcmp", 
+                "__isoc99_sscanf", 
+                "_Jv_RegisterClasses", 
+                "TSS_File_WriteBinaryFile", 
+                "__stack_chk_fail", 
+                "__cxa_finalize", 
+                "__gmon_start__", 
+                "__libc_start_main", 
+                "exit", 
+                "TSS_ResponseCode_toString", 
+                "_ITM_deregisterTMCloneTable", 
+                "TSS_Create"
+            ], 
+            "rpm": "tss2-713-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/tssunseal"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Applications/System", 
+            "Name": " tss2", 
+            "License": " BSD", 
+            "URL": " http://sourceforge.net/projects/ibmtpm20tss/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-07.phx2.fedoraproject.org", 
+            "Description": "\nTSS2 is a user space Trusted Computing Group's Software Stack (TSS) for\nTPM 2.0.  It implements the functionality equivalent to the TCG TSS\nworking group's ESAPI, SAPI, and TCTI layers (and perhaps more) but with\na hopefully far simpler interface.\n\nIt comes with about 80 \"TPM tools\" that can be used for rapid prototyping,\neducation and debugging.\n", 
+            "Build Date": " Thu 06 Oct 2016 12:22:25 PM EDT", 
+            "Source RPM": " tss2-713-7.fc26.src.rpm", 
+            "Version": " 713", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 25 Feb 2017 05:24:20 PM EST, Key ID f55e7430f5282ee4", 
+            "Release": " 7.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " IBM's TCG Software Stack (TSS) for TPM 2.0 and related utilities", 
+            "Size": " 1403946"
+        }
+    }
+}

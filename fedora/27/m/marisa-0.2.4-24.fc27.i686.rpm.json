@@ -1,0 +1,82 @@
+{
+    "results": {
+        "usr/lib/libmarisa_so_0_0_0": {
+            "report-functions": [
+                "_ZdlPvRKSt9nothrow_t", 
+                "_ZNSt8ios_base4InitD1Ev", 
+                "fread", 
+                "_ZnajRKSt9nothrow_t", 
+                "memmove", 
+                "__gxx_personality_v0", 
+                "__cxa_finalize", 
+                "fclose", 
+                "_Unwind_Resume", 
+                "_ZnwjRKSt9nothrow_t", 
+                "_ZNSt9exceptionD2Ev", 
+                "_ZdlPvj", 
+                "_ZdaPv", 
+                "_Znwj", 
+                "_ZNSo5writeEPKci", 
+                "read", 
+                "__cxa_rethrow", 
+                "__cxa_throw", 
+                "close", 
+                "open", 
+                "__xstat", 
+                "_ZdaPvj", 
+                "write", 
+                "_ZSt17__throw_bad_allocv", 
+                "fflush", 
+                "__stack_chk_fail", 
+                "_ZdlPv", 
+                "__udivdi3", 
+                "_ITM_registerTMCloneTable", 
+                "fopen", 
+                "mmap", 
+                "__cxa_begin_catch", 
+                "__gmon_start__", 
+                "_ZNSi4readEPci", 
+                "munmap", 
+                "_ZNSt8ios_base4InitC1Ev", 
+                "__cxa_end_catch", 
+                "__umoddi3", 
+                "__cxa_allocate_exception", 
+                "fwrite"
+            ], 
+            "rpm": "marisa-0.2.4-24.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libmarisa.so.0.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " marisa", 
+            "License": " BSD or LGPL", 
+            "URL": " https://code.google.com/p/marisa-trie/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-10.phx2.fedoraproject.org", 
+            "Description": "\nMatching Algorithm with Recursively Implemented StorAge (MARISA) is a\nstatic and space-efficient trie data structure. And libmarisa is a C++\nlibrary to provide an implementation of MARISA. Also, the package of\nlibmarisa contains a set of command line tools for building and\noperating a MARISA-based dictionary.\n\nA MARISA-based dictionary supports not only lookup but also reverse\nlookup, common prefix search and predictive search.\n", 
+            "Build Date": " Thu 03 Aug 2017 08:45:35 PM EDT", 
+            "Source RPM": " marisa-0.2.4-24.fc27.src.rpm", 
+            "Version": " 0.2.4", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 05 Aug 2017 11:29:30 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 24.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Static and spece-efficient trie data structure library", 
+            "Size": " 247946"
+        }
+    }
+}

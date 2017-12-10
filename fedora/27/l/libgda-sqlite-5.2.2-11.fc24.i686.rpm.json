@@ -1,0 +1,54 @@
+{
+    "results": {
+        "usr/lib/libgda-5_0/providers/libgda-sqlite_so": {
+            "report-functions": [
+                "gda_sqlite_provider_get_type", 
+                "g_free", 
+                "g_object_set_data", 
+                "g_object_new", 
+                "__cxa_finalize", 
+                "g_strdup", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "gda_gbr_get_file_path", 
+                "_ITM_registerTMCloneTable", 
+                "_Jv_RegisterClasses"
+            ], 
+            "rpm": "libgda-sqlite-5.2.2-11.fc24.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libgda-5.0/providers/libgda-sqlite.so"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " libgda-sqlite", 
+            "License": " LGPLv2+", 
+            "URL": " http://www.gnome-db.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-08-nfs.phx2.fedoraproject.org", 
+            "Source RPM": " libgda-5.2.2-11.fc24.src.rpm", 
+            "Description": "\nThis libgda-sqlite includes the libgda SQLite provider.\n", 
+            "Build Date": " Thu 04 Feb 2016 01:51:12 AM EST", 
+            "Epoch": " 1", 
+            "Version": " 5.2.2", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 27 Feb 2017 07:39:31 AM EST, Key ID f55e7430f5282ee4", 
+            "Release": " 11.fc24", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " SQLite provider for libgda", 
+            "Size": " 526358"
+        }
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "results": {
+        "usr/lib64/cpucycles_o": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/cpucycles.o", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "report-functions": [
+                "__stack_chk_fail", 
+                "popen", 
+                "fopen", 
+                "__isoc99_fscanf", 
+                "_GLOBAL_OFFSET_TABLE_"
+            ], 
+            "rpm": "nacl-static-20110221-18.fc27.x86_64.rpm"
+        }, 
+        "usr/lib64/randombytes_o": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/randombytes.o", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "report-functions": [
+                "_GLOBAL_OFFSET_TABLE_", 
+                "read", 
+                "open"
+            ], 
+            "rpm": "nacl-static-20110221-18.fc27.x86_64.rpm"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " nacl-static", 
+            "License": " Public Domain", 
+            "URL": " http://nacl.cace-project.eu/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-19.phx2.fedoraproject.org", 
+            "Description": "\nStatically linkable version of the NaCl library.\n", 
+            "Build Date": " Thu 03 Aug 2017 11:23:54 PM EDT", 
+            "Source RPM": " nacl-20110221-18.fc27.src.rpm", 
+            "Version": " 20110221", 
+            "Architecture": " x86_64", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 07:34:09 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 18.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Static version of the NaCl library", 
+            "Size": " 552844"
+        }
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "results": {
+        "usr/lib/libsocket_wrapper_so_0_1_7": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "exit", 
+                "__memcpy_chk", 
+                "__vsnprintf_chk", 
+                "malloc", 
+                "__cxa_finalize", 
+                "getpid", 
+                "__snprintf_chk", 
+                "dlerror", 
+                "__memset_chk", 
+                "dlclose", 
+                "dlopen", 
+                "calloc", 
+                "__stack_chk_fail", 
+                "strrchr", 
+                "sscanf", 
+                "dlsym", 
+                "strtol", 
+                "gettimeofday", 
+                "getenv", 
+                "realloc", 
+                "unlink", 
+                "__gmon_start__", 
+                "fileno", 
+                "__fprintf_chk", 
+                "__errno_location", 
+                "abort", 
+                "inet_pton", 
+                "__xstat64"
+            ], 
+            "rpm": "socket_wrapper-1.1.7-4.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libsocket_wrapper.so.0.1.7"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " socket_wrapper", 
+            "License": " BSD", 
+            "URL": " http://cwrap.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-06.phx2.fedoraproject.org", 
+            "Description": "\nsocket_wrapper aims to help client/server software development teams willing to\ngain full functional test coverage. It makes it possible to run several\ninstances of the full software stack on the same machine and perform locally\nfunctional testing of complex network configurations.\n\nTo use it set the following environment variables:\n\nLD_PRELOAD=libsocket_wrapper.so\nSOCKET_WRAPPER_DIR=/path/to/swrap_dir\n\nThis package doesn't have a devel package because this project is for\ndevelopment/testing.\n", 
+            "Build Date": " Wed 02 Aug 2017 07:49:48 AM EDT", 
+            "Source RPM": " socket_wrapper-1.1.7-4.fc27.src.rpm", 
+            "Version": " 1.1.7", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Wed 02 Aug 2017 07:53:29 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 4.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A library passing all socket communications through Unix sockets", 
+            "Size": " 54778"
+        }
+    }
+}

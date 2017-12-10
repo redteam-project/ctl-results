@@ -1,0 +1,25 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " perl-Perl6-Caller", 
+            "License": " GPL+ or Artistic", 
+            "URL": " https://metacpan.org/release/Perl6-Caller", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-08.phx2.fedoraproject.org", 
+            "Description": "\nBy default, this module exports the caller function. This automatically\nreturns a new caller object. An optional argument specifies how many stack\nframes back to skip, just like the CORE::caller function. This lets you do\nthings like this:\n\n    print \"In \",           caller->subroutine,\n          \" called from \", caller->filename,\n          \" line \",        caller->line;\n\nIf you do not wish the caller function imported, specify an empty import list\nand instantiate a new Perl6::Caller object.\n\n    use Perl6::Caller ();\n    my $caller = Perl6::Caller->new;\n    print $caller->line;\n\nNote: if the results from the module seem strange, please read\nperldoc -s caller carefully. It has stranger behavior than you might be aware.\n", 
+            "Build Date": " Fri 28 Jul 2017 05:42:30 AM EDT", 
+            "Source RPM": " perl-Perl6-Caller-0.100-11.fc27.src.rpm", 
+            "Version": " 0.100", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Fri 28 Jul 2017 03:05:48 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 11.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " OO caller() interface", 
+            "Size": " 10305"
+        }
+    }
+}

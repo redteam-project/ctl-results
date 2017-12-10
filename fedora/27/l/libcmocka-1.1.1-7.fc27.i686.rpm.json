@@ -1,0 +1,76 @@
+{
+    "results": {
+        "usr/lib/libcmocka_so_0_4_1": {
+            "report-functions": [
+                "strsignal", 
+                "getenv", 
+                "fflush", 
+                "_ITM_registerTMCloneTable", 
+                "fputs", 
+                "strchr", 
+                "snprintf", 
+                "__stack_chk_fail", 
+                "strstr", 
+                "strcmp", 
+                "exit", 
+                "___tls_get_addr", 
+                "_ITM_deregisterTMCloneTable", 
+                "__printf_chk", 
+                "realloc", 
+                "strlen", 
+                "memmove", 
+                "strdup", 
+                "fopen64", 
+                "signal", 
+                "abort", 
+                "malloc", 
+                "__gmon_start__", 
+                "__vsnprintf_chk", 
+                "__longjmp_chk", 
+                "strcasecmp", 
+                "__sigsetjmp", 
+                "__cxa_finalize", 
+                "__fprintf_chk", 
+                "fwrite", 
+                "strncpy", 
+                "clock_gettime", 
+                "free", 
+                "strerror"
+            ], 
+            "rpm": "libcmocka-1.1.1-7.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libcmocka.so.0.4.1"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " libcmocka", 
+            "License": " ASL 2.0", 
+            "URL": " http://cmocka.org", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-03.phx2.fedoraproject.org", 
+            "Description": "\nThere are a variety of C unit testing frameworks available however many of them\nare fairly complex and require the latest compiler technology. Some development\nrequires the use of old compilers which makes it difficult to use some unit\ntesting frameworks. In addition many unit testing frameworks assume the code\nbeing tested is an application or module that is targeted to the same platform\nthat will ultimately execute the test. Because of this assumption many\nframeworks require the inclusion of standard C library headers in the code\nmodule being tested which may collide with the custom or incomplete\nimplementation of the C library utilized by the code under test.\n\nCMocka only requires a test application is linked with the standard C library\nwhich minimizes conflicts with standard C library headers. Also, CMocka tries\nto avoid the use of some of the newer features of C compilers.\n\nThis results in CMocka being a relatively small library that can be used to\ntest a variety of exotic code. If a developer wishes to simply test an\napplication with the latest compiler then other unit testing frameworks may be\npreferable.\n\nThis is the successor of Google's Cmockery.\n", 
+            "Build Date": " Wed 02 Aug 2017 03:06:11 PM EDT", 
+            "Source RPM": " cmocka-1.1.1-7.fc27.src.rpm", 
+            "Version": " 1.1.1", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 05 Aug 2017 05:48:47 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 7.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Lightweight library to simplify and generalize unit tests for C", 
+            "Size": " 59793"
+        }
+    }
+}

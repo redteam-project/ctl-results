@@ -1,0 +1,124 @@
+{
+    "results": {
+        "usr/bin/pwqcheck": {
+            "report-functions": [
+                "__fprintf_chk", 
+                "feof", 
+                "ferror", 
+                "passwdqc_params_parse", 
+                "fgets", 
+                "__stack_chk_fail", 
+                "fflush", 
+                "malloc", 
+                "puts", 
+                "getpwnam", 
+                "fwrite", 
+                "passwdqc_params_reset", 
+                "free", 
+                "__gmon_start__", 
+                "__libc_start_main", 
+                "strchr", 
+                "strpbrk", 
+                "endpwent"
+            ], 
+            "rpm": "passwdqc-1.3.0-9.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/pwqcheck"
+        }, 
+        "lib/security/pam_passwdqc_so": {
+            "report-functions": [
+                "strlen", 
+                "passwdqc_random", 
+                "endpwent", 
+                "getuid", 
+                "getpwnam", 
+                "pam_set_item", 
+                "strdup", 
+                "strcmp", 
+                "passwdqc_params_reset", 
+                "__vsnprintf_chk", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable", 
+                "pam_get_item", 
+                "crypt", 
+                "passwdqc_check", 
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "endspent", 
+                "strstr", 
+                "getspnam", 
+                "free"
+            ], 
+            "rpm": "passwdqc-1.3.0-9.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "lib/security/pam_passwdqc.so"
+        }, 
+        "usr/bin/pwqgen": {
+            "report-functions": [
+                "strcmp", 
+                "fflush", 
+                "passwdqc_params_reset", 
+                "__libc_start_main", 
+                "fwrite", 
+                "__fprintf_chk", 
+                "passwdqc_random", 
+                "free", 
+                "__printf_chk", 
+                "__stack_chk_fail", 
+                "puts"
+            ], 
+            "rpm": "passwdqc-1.3.0-9.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/pwqgen"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Base", 
+            "Name": " passwdqc", 
+            "License": " BSD and Public Domain and Copyright only", 
+            "URL": " http://www.openwall.com/passwdqc/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-32.phx2.fedoraproject.org", 
+            "Description": "\npasswdqc is a password/passphrase strength checking and policy\nenforcement toolset, including a PAM module (pam_passwdqc), command-line\nprograms (pwqcheck and pwqgen), and a library (libpasswdqc).\n\npam_passwdqc is normally invoked on password changes by programs such as\npasswd(1).  It is capable of checking password or passphrase strength,\nenforcing a policy, and offering randomly-generated passphrases, with\nall of these features being optional and easily (re-)configurable.\n\npwqcheck and pwqgen are standalone password/passphrase strength checking\nand random passphrase generator programs, respectively, which are usable\nfrom scripts.\n\nlibpasswdqc is the underlying library, which may also be used from\nthird-party programs.\n", 
+            "Build Date": " Fri 04 Aug 2017 03:47:40 AM EDT", 
+            "Source RPM": " passwdqc-1.3.0-9.fc27.src.rpm", 
+            "Version": " 1.3.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 11:49:32 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 9.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A password/passphrase strength checking and policy enforcement toolset", 
+            "Size": " 48414"
+        }
+    }
+}

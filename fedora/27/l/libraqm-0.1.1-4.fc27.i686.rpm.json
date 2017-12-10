@@ -1,0 +1,72 @@
+{
+    "results": {
+        "usr/lib/libraqm_so_0_0_0": {
+            "report-functions": [
+                "realloc", 
+                "hb_buffer_get_glyph_infos", 
+                "hb_font_destroy", 
+                "_ITM_registerTMCloneTable", 
+                "hb_buffer_get_length", 
+                "fribidi_get_par_embedding_levels", 
+                "free", 
+                "fribidi_unicode_to_charset", 
+                "hb_unicode_funcs_get_default", 
+                "hb_buffer_get_glyph_positions", 
+                "__gmon_start__", 
+                "malloc", 
+                "hb_buffer_set_script", 
+                "hb_buffer_create", 
+                "hb_buffer_set_language", 
+                "hb_buffer_destroy", 
+                "calloc", 
+                "fribidi_get_bidi_types", 
+                "hb_buffer_set_direction", 
+                "hb_feature_from_string", 
+                "__cxa_finalize", 
+                "hb_language_get_default", 
+                "__assert_fail", 
+                "hb_unicode_script", 
+                "hb_shape_full", 
+                "hb_ft_font_create", 
+                "FT_Done_Face", 
+                "FT_Reference_Face", 
+                "hb_buffer_add_utf32", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "libraqm-0.1.1-4.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libraqm.so.0.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " libraqm", 
+            "License": " MIT", 
+            "URL": " https://github.com/HOST-Oman/libraqm", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-30.phx2.fedoraproject.org", 
+            "Description": "\nLibrary that encapsulates the logic for complex\ntext layout and provides a convenient API.\n", 
+            "Build Date": " Thu 03 Aug 2017 03:46:55 PM EDT", 
+            "Source RPM": " libraqm-0.1.1-4.fc27.src.rpm", 
+            "Version": " 0.1.1", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 12:55:09 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 4.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Complex Textlayout Library", 
+            "Size": " 15646"
+        }
+    }
+}

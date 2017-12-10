@@ -1,0 +1,162 @@
+{
+    "results": {
+        "usr/lib/esmtp-plugins/sasl-plain_so": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "strlen", 
+                "_ITM_deregisterTMCloneTable", 
+                "calloc", 
+                "strcpy", 
+                "free", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "libesmtp-1.0.6-13.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/esmtp-plugins/sasl-plain.so"
+        }, 
+        "usr/lib/esmtp-plugins/sasl-login_so": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "__stack_chk_fail", 
+                "_ITM_registerTMCloneTable", 
+                "free", 
+                "__cxa_finalize", 
+                "calloc", 
+                "__gmon_start__"
+            ], 
+            "rpm": "libesmtp-1.0.6-13.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/esmtp-plugins/sasl-login.so"
+        }, 
+        "usr/lib/libesmtp_so_6_1_6": {
+            "report-functions": [
+                "strdup", 
+                "getaddrinfo", 
+                "connect", 
+                "__poll_chk", 
+                "memchr", 
+                "dlsym", 
+                "dlopen", 
+                "getpid", 
+                "realloc", 
+                "close", 
+                "pthread_mutex_lock", 
+                "pthread_mutex_unlock", 
+                "__assert_fail", 
+                "socket", 
+                "freeaddrinfo", 
+                "__ctype_b_loc", 
+                "strtol", 
+                "uname", 
+                "__snprintf_chk", 
+                "__gmon_start__", 
+                "malloc", 
+                "gettimeofday", 
+                "localtime_r", 
+                "fcntl", 
+                "strchr", 
+                "strcasecmp", 
+                "free", 
+                "poll", 
+                "_ITM_registerTMCloneTable", 
+                "gai_strerror", 
+                "rewind", 
+                "__errno_location", 
+                "memmove", 
+                "__stack_chk_fail", 
+                "strncasecmp", 
+                "strlen", 
+                "pthread_getspecific", 
+                "read", 
+                "time", 
+                "_ITM_deregisterTMCloneTable", 
+                "pthread_key_create", 
+                "__ctype_tolower_loc", 
+                "__vsnprintf_chk", 
+                "fread", 
+                "calloc", 
+                "pthread_once", 
+                "strerror_r", 
+                "__cxa_finalize", 
+                "write"
+            ], 
+            "rpm": "libesmtp-1.0.6-13.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libesmtp.so.6.1.6"
+        }, 
+        "usr/lib/esmtp-plugins/sasl-cram-md5_so": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "_ITM_deregisterTMCloneTable", 
+                "free", 
+                "__memcpy_chk", 
+                "__gmon_start__", 
+                "calloc", 
+                "__cxa_finalize", 
+                "__stack_chk_fail", 
+                "strlen"
+            ], 
+            "rpm": "libesmtp-1.0.6-13.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/esmtp-plugins/sasl-cram-md5.so"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " libesmtp", 
+            "License": " LGPLv2+", 
+            "URL": " http://www.stafford.uklinux.net/libesmtp/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-11.phx2.fedoraproject.org", 
+            "Description": "\nLibESMTP is a library to manage posting (or submission of) electronic\nmail using SMTP to a preconfigured Mail Transport Agent (MTA) such as\nExim. It may be used as part of a Mail User Agent (MUA) or another\nprogram that must be able to post electronic mail but where mail\nfunctionality is not the program's primary purpose.\n", 
+            "Build Date": " Thu 03 Aug 2017 02:10:38 PM EDT", 
+            "Source RPM": " libesmtp-1.0.6-13.fc27.src.rpm", 
+            "Version": " 1.0.6", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 07:46:16 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 13.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " SMTP client library", 
+            "Size": " 142519"
+        }
+    }
+}

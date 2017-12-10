@@ -1,0 +1,56 @@
+{
+    "results": {
+        "usr/lib/libXRes_so_1_0_0": {
+            "report-functions": [
+                "XextCreateExtension", 
+                "XextRemoveDisplay", 
+                "_XRead", 
+                "__stack_chk_fail", 
+                "_ITM_registerTMCloneTable", 
+                "_ITM_deregisterTMCloneTable", 
+                "_XReply", 
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "_XGetRequest", 
+                "XMissingExtension", 
+                "malloc", 
+                "XextFindDisplay", 
+                "_XEatDataWords"
+            ], 
+            "rpm": "libXres-1.0.7-9.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libXRes.so.1.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " libXres", 
+            "License": " MIT", 
+            "URL": " http://www.x.org", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-12.phx2.fedoraproject.org", 
+            "Description": "\nX-Resource is an extension that allows a client to query\nthe X server about its usage of various resources.\n", 
+            "Build Date": " Thu 03 Aug 2017 12:26:09 PM EDT", 
+            "Source RPM": " libXres-1.0.7-9.fc27.src.rpm", 
+            "Version": " 1.0.7", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 05:29:39 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 9.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " X-Resource extension client library", 
+            "Size": " 11796"
+        }
+    }
+}

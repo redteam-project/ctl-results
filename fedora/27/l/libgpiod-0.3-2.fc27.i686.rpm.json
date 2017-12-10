@@ -1,0 +1,65 @@
+{
+    "results": {
+        "usr/lib/libgpiod_so_0_3_0": {
+            "report-functions": [
+                "__ppoll_chk", 
+                "__cxa_finalize", 
+                "opendir", 
+                "strncmp", 
+                "read", 
+                "readdir", 
+                "calloc", 
+                "free", 
+                "_ITM_deregisterTMCloneTable", 
+                "close", 
+                "__gmon_start__", 
+                "strcmp", 
+                "closedir", 
+                "__asprintf_chk", 
+                "___tls_get_addr", 
+                "strncpy", 
+                "__stack_chk_fail", 
+                "_ITM_registerTMCloneTable", 
+                "ioctl", 
+                "__ctype_b_loc", 
+                "strdup", 
+                "strtoul", 
+                "__errno_location"
+            ], 
+            "rpm": "libgpiod-0.3-2.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libgpiod.so.0.3.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " libgpiod", 
+            "License": " LGPLv2+", 
+            "URL": " https://github.com/brgl/libgpiod", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-04.phx2.fedoraproject.org", 
+            "Description": "\nlibgpiod is a C library and tools for interacting with the linux GPIO character\ndevice (gpiod stands for GPIO device) The new character device interface\nguarantees all allocated resources are freed after closing the device file\ndescriptor and adds several new features that are not present in the obsolete\nsysfs interface (like event polling, setting/reading multiple values at once or\nopen-source and open-drain GPIOs).\n", 
+            "Build Date": " Thu 24 Aug 2017 10:33:04 AM EDT", 
+            "Source RPM": " libgpiod-0.3-2.fc27.src.rpm", 
+            "Version": " 0.3", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 24 Aug 2017 10:36:49 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 2.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " C library and tools for interacting with linux GPIO char device", 
+            "Size": " 58349"
+        }
+    }
+}

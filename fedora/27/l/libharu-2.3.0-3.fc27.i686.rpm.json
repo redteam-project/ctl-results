@@ -1,0 +1,91 @@
+{
+    "results": {
+        "usr/lib/libhpdf_so_2_3_0": {
+            "report-functions": [
+                "ferror", 
+                "png_get_rowbytes", 
+                "malloc", 
+                "png_get_interlace_type", 
+                "strcmp", 
+                "png_read_info", 
+                "sqrtf", 
+                "memmove", 
+                "deflateEnd", 
+                "__errno_location", 
+                "png_read_update_info", 
+                "fclose", 
+                "png_get_image_width", 
+                "png_read_image", 
+                "sincos", 
+                "png_set_strip_16", 
+                "_ITM_registerTMCloneTable", 
+                "png_get_tRNS", 
+                "png_create_info_struct", 
+                "free", 
+                "png_read_rows", 
+                "fwrite", 
+                "time", 
+                "fread", 
+                "strlen", 
+                "__assert_fail", 
+                "_ITM_deregisterTMCloneTable", 
+                "png_destroy_read_struct", 
+                "deflateInit_", 
+                "ftell", 
+                "memcmp", 
+                "png_get_color_type", 
+                "__gmon_start__", 
+                "png_get_io_ptr", 
+                "png_get_IHDR", 
+                "fopen", 
+                "png_get_PLTE", 
+                "png_set_read_fn", 
+                "calloc", 
+                "__cxa_finalize", 
+                "png_create_read_struct", 
+                "fseek", 
+                "png_get_error_ptr", 
+                "ctime", 
+                "png_sig_cmp", 
+                "png_get_valid", 
+                "png_set_sig_bytes", 
+                "__stack_chk_fail", 
+                "feof"
+            ], 
+            "rpm": "libharu-2.3.0-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libhpdf.so.2.3.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " libharu", 
+            "License": " zlib with acknowledgement", 
+            "URL": " http://libharu.org", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-19.phx2.fedoraproject.org", 
+            "Description": "\nlibHaru is a library for generating PDF files.\nIt is free, open source, written in ANSI C and cross platform.\n", 
+            "Build Date": " Thu 03 Aug 2017 02:26:57 PM EDT", 
+            "Source RPM": " libharu-2.3.0-3.fc27.src.rpm", 
+            "Version": " 2.3.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 08:53:31 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 3.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " C library for generating PDF files", 
+            "Size": " 1646155"
+        }
+    }
+}

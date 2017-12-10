@@ -1,0 +1,70 @@
+{
+    "results": {
+        "usr/lib/libyuv_so_0_0_0": {
+            "report-functions": [
+                "fopen", 
+                "jpeg_read_header", 
+                "jpeg_CreateDecompress", 
+                "fgets", 
+                "_ITM_registerTMCloneTable", 
+                "__longjmp_chk", 
+                "strtol", 
+                "getenv", 
+                "jpeg_std_error", 
+                "_setjmp", 
+                "_Znwj", 
+                "__stack_chk_fail", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gxx_personality_v0", 
+                "jpeg_abort_decompress", 
+                "__assert_fail", 
+                "log10", 
+                "__cxa_throw_bad_array_new_length", 
+                "_Znaj", 
+                "jpeg_resync_to_restart", 
+                "fclose", 
+                "__gmon_start__", 
+                "_ZdaPv", 
+                "_ZdlPvj", 
+                "strstr", 
+                "jpeg_read_raw_data", 
+                "jpeg_destroy_decompress", 
+                "jpeg_start_decompress"
+            ], 
+            "rpm": "libyuv-0-0.28.20121221svn522.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libyuv.so.0.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " libyuv", 
+            "License": " BSD", 
+            "URL": " http://code.google.com/p/libyuv/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-05.phx2.fedoraproject.org", 
+            "Description": "\nThis is an open source project that includes YUV conversion and scaling\nfunctionality. Converts all webcam formats to YUV (I420). Convert YUV to\nformats for rendering/effects. Rotate by 90 degrees to adjust for mobile\ndevices in portrait mode. Scale YUV to prepare content for compression,\nwith point, bilinear or box filter.\n", 
+            "Build Date": " Thu 03 Aug 2017 05:49:55 PM EDT", 
+            "Source RPM": " libyuv-0-0.28.20121221svn522.fc27.src.rpm", 
+            "Version": " 0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 02:42:19 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 0.28.20121221svn522.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " YUV conversion and scaling functionality library", 
+            "Size": " 235223"
+        }
+    }
+}

@@ -1,0 +1,125 @@
+{
+    "results": {
+        "usr/lib/libudns_so_0": {
+            "report-functions": [
+                "strlen", 
+                "strchr", 
+                "poll", 
+                "__stack_chk_fail", 
+                "__assert_fail", 
+                "getenv", 
+                "calloc", 
+                "read", 
+                "close", 
+                "strncmp", 
+                "fcntl", 
+                "gettimeofday", 
+                "recvfrom", 
+                "_ITM_registerTMCloneTable", 
+                "time", 
+                "gethostname", 
+                "inet_ntop", 
+                "_ITM_deregisterTMCloneTable", 
+                "strtok", 
+                "sendto", 
+                "__gmon_start__", 
+                "strncpy", 
+                "__cxa_finalize", 
+                "inet_pton", 
+                "malloc", 
+                "socket", 
+                "open"
+            ], 
+            "rpm": "udns-0.4-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libudns.so.0"
+        }, 
+        "usr/bin/dnsget": {
+            "report-functions": [
+                "gettimeofday", 
+                "exit", 
+                "inet_pton", 
+                "strtok", 
+                "__gmon_start__", 
+                "__errno_location", 
+                "read", 
+                "inet_ntop", 
+                "strcmp", 
+                "strrchr", 
+                "fflush", 
+                "strlen", 
+                "sendto", 
+                "time", 
+                "strchr", 
+                "poll", 
+                "fcntl", 
+                "__printf_chk", 
+                "__stack_chk_fail", 
+                "__fprintf_chk", 
+                "calloc", 
+                "close", 
+                "getopt", 
+                "__libc_start_main", 
+                "strncpy", 
+                "puts", 
+                "socket", 
+                "recvfrom", 
+                "getenv", 
+                "fwrite", 
+                "gmtime", 
+                "open", 
+                "__assert_fail", 
+                "strncmp", 
+                "malloc", 
+                "__fdelt_chk", 
+                "_IO_putc", 
+                "gethostname", 
+                "select", 
+                "__vfprintf_chk"
+            ], 
+            "rpm": "udns-0.4-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/dnsget"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " udns", 
+            "License": " LGPLv2+", 
+            "URL": " http://www.corpit.ru/mjt/udns.html", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-31.phx2.fedoraproject.org", 
+            "Description": "\nudns is a resolver library for C (and C++) programs, and a collection\nof useful DNS resolver utilities.\n", 
+            "Build Date": " Fri 04 Aug 2017 09:27:58 PM EDT", 
+            "Source RPM": " udns-0.4-8.fc27.src.rpm", 
+            "Version": " 0.4", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 05 Aug 2017 07:48:19 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 8.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " DNS resolver library for both synchronous and asynchronous DNS queries", 
+            "Size": " 152802"
+        }
+    }
+}

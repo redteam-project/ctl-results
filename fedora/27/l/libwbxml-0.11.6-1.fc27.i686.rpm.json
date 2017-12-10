@@ -1,0 +1,159 @@
+{
+    "results": {
+        "usr/bin/xml2wbxml": {
+            "report-functions": [
+                "free", 
+                "getopt", 
+                "__fprintf_chk", 
+                "wbxml_conv_xml2wbxml_enable_preserve_whitespaces", 
+                "__libc_start_main", 
+                "__stack_chk_fail", 
+                "_ITM_deregisterTMCloneTable", 
+                "fopen", 
+                "wbxml_conv_xml2wbxml_create", 
+                "ferror", 
+                "fwrite", 
+                "fclose", 
+                "__printf_chk", 
+                "__gmon_start__", 
+                "fread", 
+                "wbxml_conv_xml2wbxml_set_version", 
+                "wbxml_conv_xml2wbxml_disable_string_table", 
+                "__cxa_finalize", 
+                "strcmp", 
+                "wbxml_conv_xml2wbxml_destroy", 
+                "wbxml_conv_xml2wbxml_run", 
+                "feof", 
+                "_ITM_registerTMCloneTable", 
+                "realloc"
+            ], 
+            "rpm": "libwbxml-0.11.6-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/xml2wbxml"
+        }, 
+        "usr/lib/libwbxml2_so_1_0_6": {
+            "report-functions": [
+                "XML_SetCdataSectionHandler", 
+                "__stack_chk_fail", 
+                "XML_SetProcessingInstructionHandler", 
+                "free", 
+                "memcmp", 
+                "XML_Parse", 
+                "strncmp", 
+                "XML_SetStartDoctypeDeclHandler", 
+                "strlen", 
+                "memmove", 
+                "XML_ParserCreateNS", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "__sprintf_chk", 
+                "__fprintf_chk", 
+                "strchr", 
+                "XML_GetCurrentByteIndex", 
+                "XML_ParserFree", 
+                "XML_GetFeatureList", 
+                "__ctype_b_loc", 
+                "strcmp", 
+                "__cxa_finalize", 
+                "memchr", 
+                "strncasecmp", 
+                "malloc", 
+                "__assert_fail", 
+                "strrchr", 
+                "_ITM_deregisterTMCloneTable", 
+                "strtol", 
+                "strdup", 
+                "XML_SetCharacterDataHandler", 
+                "XML_SetUserData", 
+                "XML_SetElementHandler", 
+                "XML_SetXmlDeclHandler", 
+                "strstr", 
+                "strtoul"
+            ], 
+            "rpm": "libwbxml-0.11.6-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libwbxml2.so.1.0.6"
+        }, 
+        "usr/bin/wbxml2xml": {
+            "report-functions": [
+                "realloc", 
+                "fwrite", 
+                "wbxml_conv_wbxml2xml_enable_preserve_whitespaces", 
+                "fopen", 
+                "wbxml_conv_wbxml2xml_set_indent", 
+                "_ITM_deregisterTMCloneTable", 
+                "__libc_start_main", 
+                "_ITM_registerTMCloneTable", 
+                "wbxml_errors_string", 
+                "__fprintf_chk", 
+                "wbxml_conv_wbxml2xml_set_gen_type", 
+                "feof", 
+                "wbxml_conv_wbxml2xml_set_charset", 
+                "fread", 
+                "ferror", 
+                "strtol", 
+                "__cxa_finalize", 
+                "free", 
+                "wbxml_conv_wbxml2xml_create", 
+                "getopt", 
+                "strcmp", 
+                "wbxml_conv_wbxml2xml_destroy", 
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "fclose"
+            ], 
+            "rpm": "libwbxml-0.11.6-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/wbxml2xml"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " libwbxml", 
+            "License": " LGPLv2+", 
+            "URL": " https://github.com/libwbxml/libwbxml", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-11.phx2.fedoraproject.org", 
+            "Description": "\nThe WBXML Library (libwbxml) contains a library and its associated tools to\nparse, encode and handle WBXML documents. The WBXML format is a binary\nrepresentation of XML, defined by the Wap Forum, and used to reduce\nbandwidth in mobile communications.\n", 
+            "Build Date": " Wed 16 Aug 2017 06:52:43 AM EDT", 
+            "Source RPM": " libwbxml-0.11.6-1.fc27.src.rpm", 
+            "Version": " 0.11.6", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Wed 16 Aug 2017 06:56:45 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 1.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Library and tools to parse, encode and handle WBXML documents", 
+            "Size": " 272918"
+        }
+    }
+}

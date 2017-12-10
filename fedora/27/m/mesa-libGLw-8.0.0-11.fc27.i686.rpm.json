@@ -1,0 +1,68 @@
+{
+    "results": {
+        "usr/lib/libGLw_so_1_0_0": {
+            "report-functions": [
+                "__assert_fail", 
+                "__cxa_finalize", 
+                "XtCreateWindow", 
+                "__stack_chk_fail", 
+                "XGetWMColormapWindows", 
+                "_ITM_deregisterTMCloneTable", 
+                "XSetWMColormapWindows", 
+                "XtAppWarning", 
+                "__sprintf_chk", 
+                "XtScreenOfObject", 
+                "glXSwapBuffers", 
+                "__gmon_start__", 
+                "XtCreateWidget", 
+                "_XtInherit", 
+                "XtWidgetToApplicationContext", 
+                "XtGetApplicationResources", 
+                "_ITM_registerTMCloneTable", 
+                "XScreenNumberOfScreen", 
+                "XtRealloc", 
+                "XtCallCallbackList", 
+                "XtDisplayOfObject", 
+                "XtWindowOfObject", 
+                "XtFree", 
+                "glXMakeCurrent", 
+                "XtMalloc", 
+                "XCreateColormap"
+            ], 
+            "rpm": "mesa-libGLw-8.0.0-11.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libGLw.so.1.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " mesa-libGLw", 
+            "License": " MIT", 
+            "URL": " http://www.mesa3d.org", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-10.phx2.fedoraproject.org", 
+            "Description": "\nMesa libGLw runtime library.\n", 
+            "Build Date": " Thu 03 Aug 2017 09:19:30 PM EDT", 
+            "Source RPM": " mesa-libGLw-8.0.0-11.fc27.src.rpm", 
+            "Version": " 8.0.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 05:02:28 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 11.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Xt / Motif OpenGL widgets", 
+            "Size": " 23880"
+        }
+    }
+}

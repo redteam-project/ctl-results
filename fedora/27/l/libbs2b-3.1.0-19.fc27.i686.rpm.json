@@ -1,0 +1,146 @@
+{
+    "results": {
+        "usr/bin/bs2bconvert": {
+            "report-functions": [
+                "__libc_start_main", 
+                "sf_close", 
+                "__printf_chk", 
+                "_ITM_registerTMCloneTable", 
+                "bs2b_get_level_feed", 
+                "bs2b_set_level", 
+                "sf_write_double", 
+                "_ITM_deregisterTMCloneTable", 
+                "puts", 
+                "bs2b_get_srate", 
+                "bs2b_get_level_fcut", 
+                "bs2b_cross_feed_d", 
+                "__gmon_start__", 
+                "strrchr", 
+                "__cxa_finalize", 
+                "sf_strerror", 
+                "strcmp", 
+                "bs2b_open", 
+                "strtol", 
+                "sf_open", 
+                "sf_set_string", 
+                "__stack_chk_fail", 
+                "bs2b_close", 
+                "bs2b_get_level_delay", 
+                "bs2b_set_srate"
+            ], 
+            "rpm": "libbs2b-3.1.0-19.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/bs2bconvert"
+        }, 
+        "usr/lib/libbs2b_so_0_0_0": {
+            "report-functions": [
+                "exp", 
+                "_ITM_deregisterTMCloneTable", 
+                "__stack_chk_fail", 
+                "__gxx_personality_v0", 
+                "__cxa_finalize", 
+                "calloc", 
+                "pow", 
+                "log10", 
+                "__gmon_start__"
+            ], 
+            "rpm": "libbs2b-3.1.0-19.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libbs2b.so.0.0.0"
+        }, 
+        "usr/bin/bs2bstream": {
+            "report-functions": [
+                "bs2b_get_srate", 
+                "bs2b_cross_feed_u32", 
+                "__gmon_start__", 
+                "fwrite", 
+                "strtol", 
+                "_ITM_registerTMCloneTable", 
+                "__fprintf_chk", 
+                "bs2b_cross_feed_u32le", 
+                "bs2b_cross_feed_u16le", 
+                "bs2b_set_level", 
+                "bs2b_cross_feed_s16be", 
+                "bs2b_close", 
+                "bs2b_cross_feed_u24le", 
+                "__cxa_finalize", 
+                "bs2b_cross_feed_u24be", 
+                "bs2b_cross_feed_s24be", 
+                "bs2b_get_level_fcut", 
+                "fread", 
+                "bs2b_cross_feed_u8", 
+                "bs2b_cross_feed_u24", 
+                "bs2b_cross_feed_s24", 
+                "strrchr", 
+                "bs2b_cross_feed_s8", 
+                "__libc_start_main", 
+                "bs2b_cross_feed_s32be", 
+                "bs2b_set_srate", 
+                "bs2b_get_level_delay", 
+                "bs2b_cross_feed_s16le", 
+                "bs2b_cross_feed_u16be", 
+                "_ITM_deregisterTMCloneTable", 
+                "bs2b_open", 
+                "bs2b_cross_feed_u16", 
+                "bs2b_cross_feed_u32be", 
+                "__stack_chk_fail", 
+                "strtod", 
+                "bs2b_get_level_feed", 
+                "bs2b_cross_feed_s32le", 
+                "bs2b_cross_feed_s24le"
+            ], 
+            "rpm": "libbs2b-3.1.0-19.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/bs2bstream"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Applications/Multimedia", 
+            "Name": " libbs2b", 
+            "License": " Copyright only", 
+            "URL": " http://bs2b.sourceforge.net/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-29.phx2.fedoraproject.org", 
+            "Description": "\nThe Bauer stereophonic-to-binaural DSP (bs2b) library and plugins is designed\nto improve headphone listening of stereo audio records. Recommended for\nheadphone prolonged listening to disable superstereo fatigue without essential\ndistortions.\n", 
+            "Build Date": " Thu 03 Aug 2017 01:03:55 PM EDT", 
+            "Source RPM": " libbs2b-3.1.0-19.fc27.src.rpm", 
+            "Version": " 3.1.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 05:59:44 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 19.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Bauer stereophonic-to-binaural DSP library", 
+            "Size": " 49702"
+        }
+    }
+}

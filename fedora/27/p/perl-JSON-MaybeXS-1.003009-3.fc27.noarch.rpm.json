@@ -1,0 +1,25 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " perl-JSON-MaybeXS", 
+            "License": " GPL+ or Artistic", 
+            "URL": " http://search.cpan.org/dist/JSON-MaybeXS/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-05.phx2.fedoraproject.org", 
+            "Description": "\nThis module first checks to see if either Cpanel::JSON::XS or JSON::XS\nis already loaded, in which case it uses that module. Otherwise it tries\nto load Cpanel::JSON::XS, then JSON::XS, then JSON::PP in order, and\neither uses the first module it finds or throws an error.\n\nIt then exports the \"encode_json\" and \"decode_json\" functions from the\nloaded module, along with a \"JSON\" constant that returns the class name\nfor calling \"new\" on.\n\nIf you're writing fresh code rather than replacing JSON.pm usage, you\nmight want to pass options as constructor args rather than calling\nmutators, so we provide our own \"new\" method that supports that.\n", 
+            "Build Date": " Fri 28 Jul 2017 04:02:44 AM EDT", 
+            "Source RPM": " perl-JSON-MaybeXS-1.003009-3.fc27.src.rpm", 
+            "Version": " 1.003009", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Fri 28 Jul 2017 12:36:57 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 3.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Use Cpanel::JSON::XS with a fallback to JSON::XS and JSON::PP", 
+            "Size": " 22828"
+        }
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "results": {
+        "usr/lib/libdmtx_so_0_0_0": {
+            "report-functions": [
+                "sqrt", 
+                "calloc", 
+                "_ITM_deregisterTMCloneTable", 
+                "gettimeofday", 
+                "cos", 
+                "_ITM_registerTMCloneTable", 
+                "snprintf", 
+                "perror", 
+                "acos", 
+                "__fprintf_chk", 
+                "__assert_fail", 
+                "__cxa_finalize", 
+                "__stack_chk_fail", 
+                "atan2", 
+                "exit", 
+                "__gmon_start__", 
+                "sincos", 
+                "free"
+            ], 
+            "rpm": "libdmtx-0.7.4-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libdmtx.so.0.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " libdmtx", 
+            "License": " BSD", 
+            "URL": " http://www.libdmtx.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-23.phx2.fedoraproject.org", 
+            "Description": "\nlibdmtx is open source software for reading and writing Data Matrix 2D\nbar-codes on Linux, Unix, OS X, Windows, and mobile devices. At its core\nlibdmtx is a shared library, allowing C/C++ programs to use its capabilities\nwithout restrictions or overhead.\n\nThe included utility programs, dmtxread and dmtxwrite, provide the official\ninterface to libdmtx from the command line, and also serve as a good reference\nfor programmers who wish to write their own programs that interact with\nlibdmtx. All of the software in the libdmtx package is distributed under\nthe LGPLv2 and can be used freely under these terms.\n", 
+            "Build Date": " Thu 03 Aug 2017 02:04:28 PM EDT", 
+            "Source RPM": " libdmtx-0.7.4-3.fc27.src.rpm", 
+            "Version": " 0.7.4", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 07:37:41 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 3.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Library for working with Data Matrix 2D bar-codes", 
+            "Size": " 119934"
+        }
+    }
+}

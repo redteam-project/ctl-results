@@ -1,0 +1,684 @@
+{
+    "results": {
+        "usr/share/doc/netcdf-cxx-devel/examples/sfc_pres_temp_wr_o": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/share/doc/netcdf-cxx-devel/examples/sfc_pres_temp_wr.o", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "report-functions": [
+                "_ZN5NcVar3putEPKflllll", 
+                "_ZN6NcFile7add_varEPKc6NcTypePK5NcDimS5_S5_S5_S5_", 
+                "__gxx_personality_v0", 
+                "_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_", 
+                "_ZN7NcErrorD1Ev", 
+                "_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_i", 
+                "_ZN6NcFileC1EPKcNS_8FileModeEPjjNS_10FileFormatE", 
+                "_ZNSt8ios_base4InitD1Ev", 
+                "__cxa_atexit", 
+                "_Unwind_Resume", 
+                "_ZN7NcErrorC1ENS_8BehaviorE", 
+                "_ZNK6NcFile8is_validEv", 
+                "_GLOBAL_OFFSET_TABLE_", 
+                "_ZN5NcVar7add_attEPKcS1_", 
+                "__stack_chk_fail_local", 
+                "__dso_handle", 
+                "_ZSt4cout", 
+                "_ZNSt8ios_base4InitC1Ev"
+            ], 
+            "rpm": "netcdf-cxx-devel-4.2-18.fc27.i686.rpm"
+        }, 
+        "usr/share/doc/netcdf-cxx-devel/examples/_libs/sfc_pres_temp_rd": {
+            "report-functions": [
+                "__cxa_atexit", 
+                "_ZN6NcFileD1Ev", 
+                "_ZNK6NcFile8num_dimsEv", 
+                "__stack_chk_fail", 
+                "_ZN6NcFileC1EPKcNS_8FileModeEPjjNS_10FileFormatE", 
+                "_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_", 
+                "_Unwind_Resume", 
+                "_ZNSt8ios_base4InitD1Ev", 
+                "_ZdlPvj", 
+                "__cxa_finalize", 
+                "strncmp", 
+                "__gxx_personality_v0", 
+                "__gmon_start__", 
+                "_ZNK5NcVar3getEPflllll", 
+                "_ZN7NcErrorC1ENS_8BehaviorE", 
+                "_ZN7NcErrorD1Ev", 
+                "_ZNK6NcFile8is_validEv", 
+                "_ITM_registerTMCloneTable", 
+                "_ZNSt8ios_base4InitC1Ev", 
+                "_ZNK6NcFile7rec_dimEv", 
+                "_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_i", 
+                "_ZNK5NcVar7get_attEPKc", 
+                "_ZNK6NcFile8num_attsEv", 
+                "_ZNK6NcFile7get_varEPKc", 
+                "_ZNK6NcFile8num_varsEv"
+            ], 
+            "rpm": "netcdf-cxx-devel-4.2-18.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/share/doc/netcdf-cxx-devel/examples/.libs/sfc_pres_temp_rd"
+        }, 
+        "usr/share/doc/netcdf-cxx-devel/examples/_libs/lt-simple_xy_wr": {
+            "report-functions": [
+                "_ZN6NcFile7add_dimEPKcl", 
+                "_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc", 
+                "_ITM_registerTMCloneTable", 
+                "_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_i", 
+                "_ZN6NcFile7add_varEPKc6NcTypePK5NcDimS5_S5_S5_S5_", 
+                "__libc_start_main", 
+                "__cxa_finalize", 
+                "_ZN6NcFileC1EPKcNS_8FileModeEPjjNS_10FileFormatE", 
+                "__cxa_atexit", 
+                "_ZNK6NcFile8is_validEv", 
+                "_ZNSt8ios_base4InitC1Ev", 
+                "__stack_chk_fail", 
+                "_ZN5NcVar3putEPKilllll", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "_Unwind_Resume", 
+                "_ZN6NcFileD1Ev", 
+                "__gxx_personality_v0"
+            ], 
+            "rpm": "netcdf-cxx-devel-4.2-18.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/share/doc/netcdf-cxx-devel/examples/.libs/lt-simple_xy_wr"
+        }, 
+        "usr/share/doc/netcdf-cxx-devel/examples/simple_xy_wr_o": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/share/doc/netcdf-cxx-devel/examples/simple_xy_wr.o", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "report-functions": [
+                "_GLOBAL_OFFSET_TABLE_", 
+                "_ZSt4cout", 
+                "_ZNSt8ios_base4InitC1Ev", 
+                "_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc", 
+                "_ZN6NcFile7add_dimEPKcl", 
+                "_ZN5NcVar3putEPKilllll", 
+                "_ZN6NcFile7add_varEPKc6NcTypePK5NcDimS5_S5_S5_S5_", 
+                "__stack_chk_fail_local", 
+                "__dso_handle", 
+                "_ZN6NcFileD1Ev", 
+                "_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_i", 
+                "__cxa_atexit", 
+                "_Unwind_Resume", 
+                "_ZNSt8ios_base4InitD1Ev", 
+                "__gxx_personality_v0", 
+                "_ZNK6NcFile8is_validEv"
+            ], 
+            "rpm": "netcdf-cxx-devel-4.2-18.fc27.i686.rpm"
+        }, 
+        "usr/share/doc/netcdf-cxx-devel/examples/_libs/simple_xy_wr": {
+            "report-functions": [
+                "_ZNSt8ios_base4InitD1Ev", 
+                "__cxa_finalize", 
+                "_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_i", 
+                "__stack_chk_fail", 
+                "_ZN5NcVar3putEPKilllll", 
+                "_Unwind_Resume", 
+                "_ZN6NcFile7add_dimEPKcl", 
+                "_ZN6NcFileD1Ev", 
+                "__gxx_personality_v0", 
+                "_ITM_registerTMCloneTable", 
+                "__gmon_start__", 
+                "_ZNK6NcFile8is_validEv", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ZN6NcFileC1EPKcNS_8FileModeEPjjNS_10FileFormatE", 
+                "_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_", 
+                "_ZN6NcFile7add_varEPKc6NcTypePK5NcDimS5_S5_S5_S5_", 
+                "_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc", 
+                "__cxa_atexit"
+            ], 
+            "rpm": "netcdf-cxx-devel-4.2-18.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/share/doc/netcdf-cxx-devel/examples/.libs/simple_xy_wr"
+        }, 
+        "usr/share/doc/netcdf-cxx-devel/examples/pres_temp_4D_wr_o": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/share/doc/netcdf-cxx-devel/examples/pres_temp_4D_wr.o", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "report-functions": [
+                "_ZN7NcErrorC1ENS_8BehaviorE", 
+                "_ZSt4cout", 
+                "_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_i", 
+                "_ZNSt8ios_base4InitD1Ev", 
+                "_ZN6NcFileD1Ev", 
+                "_GLOBAL_OFFSET_TABLE_", 
+                "_ZN5NcVar7add_attEPKcS1_", 
+                "_ZN6NcFile7add_varEPKc6NcTypePK5NcDimS5_S5_S5_S5_", 
+                "__dso_handle", 
+                "__stack_chk_fail_local", 
+                "__gxx_personality_v0", 
+                "_ZN6NcFile7add_dimEPKc", 
+                "_ZNSt8ios_base4InitC1Ev", 
+                "_ZNK6NcFile8is_validEv", 
+                "_ZN5NcVar3putEPKflllll", 
+                "_ZN6NcFile7add_dimEPKcl", 
+                "_ZN6NcFileC1EPKcNS_8FileModeEPjjNS_10FileFormatE", 
+                "_Unwind_Resume", 
+                "_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_", 
+                "__cxa_atexit"
+            ], 
+            "rpm": "netcdf-cxx-devel-4.2-18.fc27.i686.rpm"
+        }, 
+        "usr/share/doc/netcdf-cxx-devel/examples/_libs/lt-simple_xy_rd": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "__gxx_personality_v0", 
+                "__gmon_start__", 
+                "_Unwind_Resume", 
+                "_ZNK6NcFile7get_varEPKc", 
+                "_ZNK5NcVar3getEPilllll", 
+                "_ITM_registerTMCloneTable", 
+                "__stack_chk_fail", 
+                "_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc", 
+                "_ZNK6NcFile8is_validEv", 
+                "_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_i", 
+                "_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_", 
+                "_ZNSt8ios_base4InitD1Ev", 
+                "_ZNSt8ios_base4InitC1Ev", 
+                "__cxa_atexit", 
+                "__cxa_finalize", 
+                "__libc_start_main"
+            ], 
+            "rpm": "netcdf-cxx-devel-4.2-18.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/share/doc/netcdf-cxx-devel/examples/.libs/lt-simple_xy_rd"
+        }, 
+        "usr/share/doc/netcdf-cxx-devel/examples/_libs/sfc_pres_temp_wr": {
+            "report-functions": [
+                "_ZN7NcErrorC1ENS_8BehaviorE", 
+                "_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_", 
+                "_ZNSt8ios_base4InitC1Ev", 
+                "_ZN6NcFile7add_dimEPKcl", 
+                "__gxx_personality_v0", 
+                "_ZN7NcErrorD1Ev", 
+                "__cxa_atexit", 
+                "_ZN6NcFileC1EPKcNS_8FileModeEPjjNS_10FileFormatE", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "_ZN5NcVar7add_attEPKcS1_", 
+                "_ZNK6NcFile8is_validEv", 
+                "__cxa_finalize", 
+                "_ZNSt8ios_base4InitD1Ev", 
+                "_ZN6NcFileD1Ev", 
+                "__stack_chk_fail", 
+                "_ZN6NcFile7add_varEPKc6NcTypePK5NcDimS5_S5_S5_S5_", 
+                "__libc_start_main", 
+                "_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_i", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "netcdf-cxx-devel-4.2-18.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/share/doc/netcdf-cxx-devel/examples/.libs/sfc_pres_temp_wr"
+        }, 
+        "usr/share/doc/netcdf-cxx-devel/examples/_libs/lt-sfc_pres_temp_rd": {
+            "report-functions": [
+                "_ZNK6NcFile7rec_dimEv", 
+                "_ZNSt8ios_base4InitD1Ev", 
+                "__libc_start_main", 
+                "_ZNK5NcVar7get_attEPKc", 
+                "__gmon_start__", 
+                "_ZN7NcErrorD1Ev", 
+                "_ZNK6NcFile8num_varsEv", 
+                "__cxa_atexit", 
+                "_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_i", 
+                "_ZNK6NcFile8num_dimsEv", 
+                "_Unwind_Resume", 
+                "__gxx_personality_v0", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ZNK6NcFile8num_attsEv", 
+                "_ZN6NcFileD1Ev", 
+                "_ZNK5NcVar3getEPflllll", 
+                "_ZNSt8ios_base4InitC1Ev", 
+                "strncmp", 
+                "_ZNK6NcFile7get_varEPKc", 
+                "_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_", 
+                "_ZN6NcFileC1EPKcNS_8FileModeEPjjNS_10FileFormatE", 
+                "_ZNK6NcFile8is_validEv", 
+                "__stack_chk_fail", 
+                "_ZdlPvj", 
+                "_ZN7NcErrorC1ENS_8BehaviorE"
+            ], 
+            "rpm": "netcdf-cxx-devel-4.2-18.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/share/doc/netcdf-cxx-devel/examples/.libs/lt-sfc_pres_temp_rd"
+        }, 
+        "usr/share/doc/netcdf-cxx-devel/examples/_libs/simple_xy_rd": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "_ZNK6NcFile7get_varEPKc", 
+                "_ZNSt8ios_base4InitD1Ev", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable", 
+                "_ZN6NcFileC1EPKcNS_8FileModeEPjjNS_10FileFormatE", 
+                "_Unwind_Resume", 
+                "_ZN6NcFileD1Ev", 
+                "_ZNK6NcFile8is_validEv", 
+                "_ZNSt8ios_base4InitC1Ev", 
+                "_ZNK5NcVar3getEPilllll", 
+                "_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_", 
+                "__gmon_start__", 
+                "__libc_start_main", 
+                "__gxx_personality_v0", 
+                "__stack_chk_fail", 
+                "_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc", 
+                "_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_i"
+            ], 
+            "rpm": "netcdf-cxx-devel-4.2-18.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/share/doc/netcdf-cxx-devel/examples/.libs/simple_xy_rd"
+        }, 
+        "usr/share/doc/netcdf-cxx-devel/examples/_libs/lt-sfc_pres_temp_wr": {
+            "report-functions": [
+                "_ZN6NcFile7add_varEPKc6NcTypePK5NcDimS5_S5_S5_S5_", 
+                "_ZNK6NcFile8is_validEv", 
+                "_ZNSt8ios_base4InitC1Ev", 
+                "_ZN6NcFileD1Ev", 
+                "__stack_chk_fail", 
+                "__libc_start_main", 
+                "_ITM_registerTMCloneTable", 
+                "_ZN7NcErrorC1ENS_8BehaviorE", 
+                "__gxx_personality_v0", 
+                "_ZN5NcVar3putEPKflllll", 
+                "_ZNSt8ios_base4InitD1Ev", 
+                "_ZN7NcErrorD1Ev", 
+                "_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_i", 
+                "_ZN5NcVar7add_attEPKcS1_", 
+                "_Unwind_Resume", 
+                "__gmon_start__", 
+                "_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_", 
+                "__cxa_atexit", 
+                "_ZN6NcFileC1EPKcNS_8FileModeEPjjNS_10FileFormatE", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "netcdf-cxx-devel-4.2-18.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/share/doc/netcdf-cxx-devel/examples/.libs/lt-sfc_pres_temp_wr"
+        }, 
+        "usr/share/doc/netcdf-cxx-devel/examples/_libs/pres_temp_4D_rd": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "_ZN6NcFileD1Ev", 
+                "_ZNK6NcFile8is_validEv", 
+                "__stack_chk_fail", 
+                "_Unwind_Resume", 
+                "_ZNK6NcFile7get_varEPKc", 
+                "__gxx_personality_v0", 
+                "_ZN6NcFileC1EPKcNS_8FileModeEPjjNS_10FileFormatE", 
+                "_ZN7NcErrorC1ENS_8BehaviorE", 
+                "_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_", 
+                "_ZNK5NcVar3getEPflllll", 
+                "_ZN7NcErrorD1Ev", 
+                "_ZNSt8ios_base4InitC1Ev", 
+                "__cxa_atexit", 
+                "_ZNSt8ios_base4InitD1Ev", 
+                "_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_i", 
+                "_ITM_registerTMCloneTable", 
+                "__cxa_finalize", 
+                "__gmon_start__"
+            ], 
+            "rpm": "netcdf-cxx-devel-4.2-18.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/share/doc/netcdf-cxx-devel/examples/.libs/pres_temp_4D_rd"
+        }, 
+        "usr/share/doc/netcdf-cxx-devel/examples/simple_xy_rd_o": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/share/doc/netcdf-cxx-devel/examples/simple_xy_rd.o", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "report-functions": [
+                "_ZNK6NcFile7get_varEPKc", 
+                "__dso_handle", 
+                "_ZNSt8ios_base4InitC1Ev", 
+                "_Unwind_Resume", 
+                "__gxx_personality_v0", 
+                "_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc", 
+                "__stack_chk_fail_local", 
+                "_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_i", 
+                "_ZNSt8ios_base4InitD1Ev", 
+                "_ZN6NcFileD1Ev", 
+                "_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_", 
+                "_ZNK6NcFile8is_validEv", 
+                "_GLOBAL_OFFSET_TABLE_", 
+                "__cxa_atexit", 
+                "_ZN6NcFileC1EPKcNS_8FileModeEPjjNS_10FileFormatE"
+            ], 
+            "rpm": "netcdf-cxx-devel-4.2-18.fc27.i686.rpm"
+        }, 
+        "usr/share/doc/netcdf-cxx-devel/examples/_libs/lt-pres_temp_4D_rd": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "__stack_chk_fail", 
+                "_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_i", 
+                "_ZN6NcFileC1EPKcNS_8FileModeEPjjNS_10FileFormatE", 
+                "__libc_start_main", 
+                "_ZNK5NcVar3getEPflllll", 
+                "__cxa_finalize", 
+                "__gxx_personality_v0", 
+                "_ZNSt8ios_base4InitD1Ev", 
+                "_ZNSt8ios_base4InitC1Ev", 
+                "__cxa_atexit", 
+                "__gmon_start__", 
+                "_ZN7NcErrorC1ENS_8BehaviorE", 
+                "_ZN5NcVar7set_curElllll", 
+                "_ZN7NcErrorD1Ev", 
+                "_ZN6NcFileD1Ev", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ZNK6NcFile7get_varEPKc", 
+                "_Unwind_Resume"
+            ], 
+            "rpm": "netcdf-cxx-devel-4.2-18.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/share/doc/netcdf-cxx-devel/examples/.libs/lt-pres_temp_4D_rd"
+        }, 
+        "usr/share/doc/netcdf-cxx-devel/examples/_libs/pres_temp_4D_wr": {
+            "report-functions": [
+                "_ZN5NcVar3putEPKflllll", 
+                "_ZN6NcFileC1EPKcNS_8FileModeEPjjNS_10FileFormatE", 
+                "__stack_chk_fail", 
+                "_ZN6NcFile7add_dimEPKcl", 
+                "_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_", 
+                "__gxx_personality_v0", 
+                "__libc_start_main", 
+                "_ITM_registerTMCloneTable", 
+                "_ZN6NcFile7add_dimEPKc", 
+                "_ZNSt8ios_base4InitC1Ev", 
+                "_ZN7NcErrorD1Ev", 
+                "_ZN6NcFileD1Ev", 
+                "_ZN5NcVar7add_attEPKcS1_", 
+                "_ZN7NcErrorC1ENS_8BehaviorE", 
+                "_Unwind_Resume", 
+                "_ZN5NcVar7put_recEPKfl", 
+                "_ZNK6NcFile8is_validEv", 
+                "_ZNSt8ios_base4InitD1Ev", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize", 
+                "__gmon_start__", 
+                "_ZN6NcFile7add_varEPKc6NcTypePK5NcDimS5_S5_S5_S5_"
+            ], 
+            "rpm": "netcdf-cxx-devel-4.2-18.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/share/doc/netcdf-cxx-devel/examples/.libs/pres_temp_4D_wr"
+        }, 
+        "usr/share/doc/netcdf-cxx-devel/examples/sfc_pres_temp_rd_o": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/share/doc/netcdf-cxx-devel/examples/sfc_pres_temp_rd.o", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "report-functions": [
+                "_ZNK6NcFile8num_attsEv", 
+                "_ZNK6NcFile8num_varsEv", 
+                "_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_", 
+                "__cxa_atexit", 
+                "__gxx_personality_v0", 
+                "_ZN7NcErrorD1Ev", 
+                "_ZNK6NcFile7get_varEPKc", 
+                "_ZNK5NcVar3getEPflllll", 
+                "__dso_handle", 
+                "_ZN7NcErrorC1ENS_8BehaviorE", 
+                "_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_i", 
+                "strncmp", 
+                "_Unwind_Resume", 
+                "_GLOBAL_OFFSET_TABLE_", 
+                "_ZNK5NcVar7get_attEPKc", 
+                "_ZNK6NcFile8num_dimsEv", 
+                "_ZNK6NcFile7rec_dimEv", 
+                "_ZNSt8ios_base4InitD1Ev", 
+                "_ZN6NcFileC1EPKcNS_8FileModeEPjjNS_10FileFormatE", 
+                "_ZNSt8ios_base4InitC1Ev", 
+                "__stack_chk_fail_local", 
+                "_ZN6NcFileD1Ev", 
+                "_ZdlPvj"
+            ], 
+            "rpm": "netcdf-cxx-devel-4.2-18.fc27.i686.rpm"
+        }, 
+        "usr/share/doc/netcdf-cxx-devel/examples/_libs/lt-pres_temp_4D_wr": {
+            "report-functions": [
+                "__gmon_start__", 
+                "_ZNSt8ios_base4InitC1Ev", 
+                "__gxx_personality_v0", 
+                "_ZN6NcFileD1Ev", 
+                "__cxa_atexit", 
+                "_Unwind_Resume", 
+                "_ZN5NcVar7put_recEPKfl", 
+                "_ZN6NcFile7add_varEPKc6NcTypePK5NcDimS5_S5_S5_S5_", 
+                "_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_i", 
+                "_ZN5NcVar3putEPKflllll", 
+                "__stack_chk_fail", 
+                "_ITM_registerTMCloneTable", 
+                "_ZN5NcVar7add_attEPKcS1_", 
+                "_ZN6NcFileC1EPKcNS_8FileModeEPjjNS_10FileFormatE", 
+                "__cxa_finalize", 
+                "__libc_start_main", 
+                "_ZNK6NcFile8is_validEv", 
+                "_ZN6NcFile7add_dimEPKcl", 
+                "_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_", 
+                "_ZN7NcErrorC1ENS_8BehaviorE", 
+                "_ZNSt8ios_base4InitD1Ev", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "netcdf-cxx-devel-4.2-18.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/share/doc/netcdf-cxx-devel/examples/.libs/lt-pres_temp_4D_wr"
+        }, 
+        "usr/share/doc/netcdf-cxx-devel/examples/pres_temp_4D_rd_o": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/share/doc/netcdf-cxx-devel/examples/pres_temp_4D_rd.o", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "report-functions": [
+                "_GLOBAL_OFFSET_TABLE_", 
+                "_ZNK6NcFile8is_validEv", 
+                "_ZSt4cout", 
+                "_ZNK6NcFile7get_varEPKc", 
+                "__cxa_atexit", 
+                "_ZN7NcErrorD1Ev", 
+                "_Unwind_Resume", 
+                "_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_i", 
+                "_ZNSt8ios_base4InitC1Ev", 
+                "_ZNK5NcVar3getEPflllll", 
+                "_ZN5NcVar7set_curElllll", 
+                "_ZN7NcErrorC1ENS_8BehaviorE", 
+                "__gxx_personality_v0", 
+                "__stack_chk_fail_local", 
+                "_ZNSt8ios_base4InitD1Ev", 
+                "_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_", 
+                "_ZN6NcFileC1EPKcNS_8FileModeEPjjNS_10FileFormatE"
+            ], 
+            "rpm": "netcdf-cxx-devel-4.2-18.fc27.i686.rpm"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " netcdf-cxx-devel", 
+            "License": " NetCDF", 
+            "URL": " http://www.unidata.ucar.edu/software/netcdf/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-21.phx2.fedoraproject.org", 
+            "Description": "\nThis package contains the legacy netCDF C++ library header files and shared\ndevel library.\n", 
+            "Build Date": " Thu 03 Aug 2017 11:49:59 PM EDT", 
+            "Source RPM": " netcdf-cxx-4.2-18.fc27.src.rpm", 
+            "Version": " 4.2", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 07:49:52 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 18.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Development files legacy netCDF C++ library", 
+            "Size": " 1006774"
+        }
+    }
+}

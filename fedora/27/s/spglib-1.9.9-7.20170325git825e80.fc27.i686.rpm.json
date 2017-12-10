@@ -1,0 +1,55 @@
+{
+    "results": {
+        "usr/lib/libsymspg_so_0_0_0": {
+            "report-functions": [
+                "sincos", 
+                "__strcpy_chk", 
+                "malloc", 
+                "strcpy", 
+                "_ITM_deregisterTMCloneTable", 
+                "sin", 
+                "free", 
+                "__stack_chk_fail", 
+                "_ITM_registerTMCloneTable", 
+                "__gmon_start__", 
+                "acos", 
+                "__fprintf_chk", 
+                "sqrt"
+            ], 
+            "rpm": "spglib-1.9.9-7.20170325git825e80.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libsymspg.so.0.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " spglib", 
+            "License": " BSD", 
+            "URL": " https://atztogo.github.io/spglib/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-02.phx2.fedoraproject.org", 
+            "Description": "\nC library for finding and handling crystal symmetries.\n", 
+            "Build Date": " Fri 04 Aug 2017 05:38:59 PM EDT", 
+            "Source RPM": " spglib-1.9.9-7.20170325git825e80.fc27.src.rpm", 
+            "Version": " 1.9.9", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 05 Aug 2017 04:48:44 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 7.20170325git825e80.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " C library for finding and handling crystal symmetries", 
+            "Size": " 271454"
+        }
+    }
+}

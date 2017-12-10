@@ -1,0 +1,65 @@
+{
+    "results": {
+        "usr/bin/uil": {
+            "report-functions": [
+                "key_initialize", 
+                "src_initialize_source", 
+                "Uil_lex_cleanup_analyzer", 
+                "setlocale", 
+                "exit", 
+                "cmd_decode_command_line", 
+                "yyparse", 
+                "sem_output_uid_file", 
+                "XtToolkitInitialize", 
+                "diag_issue_diagnostic", 
+                "sym_initialize_storage", 
+                "__gmon_start__", 
+                "UrmIdbCloseFile", 
+                "lex_initialize_analyzer", 
+                "db_incorporate", 
+                "lst_output_listing", 
+                "Uil_src_cleanup_source", 
+                "diag_initialize_diagnostics", 
+                "Uil_lst_cleanup_listing", 
+                "__libc_start_main", 
+                "diag_issue_summary", 
+                "sem_validation", 
+                "sem_resolve_forward_refs"
+            ], 
+            "rpm": "motif-devel-2.3.4-15.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/uil"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " motif-devel", 
+            "License": " LGPLv2+", 
+            "URL": " http://www.motifzone.net/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-28.phx2.fedoraproject.org", 
+            "Description": "\nThis is the Motif 2.3.4 development environment. It includes the\nheader files and also static libraries necessary to build Motif applications.\n", 
+            "Build Date": " Thu 03 Aug 2017 10:52:39 PM EDT", 
+            "Source RPM": " motif-2.3.4-15.fc27.src.rpm", 
+            "Version": " 2.3.4", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 06:36:21 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 15.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Development libraries and header files", 
+            "Size": " 2378069"
+        }
+    }
+}

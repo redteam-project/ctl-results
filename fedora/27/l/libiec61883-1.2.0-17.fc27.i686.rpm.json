@@ -1,0 +1,75 @@
+{
+    "results": {
+        "usr/lib/libiec61883_so_0_1_1": {
+            "report-functions": [
+                "fflush", 
+                "nanosleep", 
+                "free", 
+                "calloc", 
+                "fwrite", 
+                "raw1394_arm_unregister", 
+                "_ITM_registerTMCloneTable", 
+                "raw1394_bandwidth_modify", 
+                "realloc", 
+                "raw1394_write", 
+                "raw1394_iso_xmit_start", 
+                "__assert_fail", 
+                "malloc", 
+                "__fprintf_chk", 
+                "__errno_location", 
+                "__gmon_start__", 
+                "raw1394_iso_xmit_init", 
+                "raw1394_start_async_send", 
+                "raw1394_iso_recv_start", 
+                "memmove", 
+                "_ITM_deregisterTMCloneTable", 
+                "memset", 
+                "raw1394_iso_recv_init", 
+                "raw1394_channel_modify", 
+                "raw1394_iso_recv_flush", 
+                "raw1394_arm_register", 
+                "raw1394_set_userdata", 
+                "raw1394_get_userdata", 
+                "raw1394_iso_xmit_sync", 
+                "__cxa_finalize", 
+                "raw1394_lock", 
+                "raw1394_iso_shutdown", 
+                "raw1394_read"
+            ], 
+            "rpm": "libiec61883-1.2.0-17.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libiec61883.so.0.1.1"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " libiec61883", 
+            "License": " LGPLv2+", 
+            "URL": " http://ieee1394.wiki.kernel.org/index.php/Libraries#libiec61883", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-31.phx2.fedoraproject.org", 
+            "Description": "\nThe libiec61883 library provides an higher level API for streaming DV,\nMPEG-2 and audio over IEEE1394.  Based on the libraw1394 isochronous\nfunctionality, this library acts as a filter that accepts DV-frames,\nMPEG-2 frames or audio samples from the application and breaks these\ndown to isochronous packets, which are transmitted using libraw1394.\n", 
+            "Build Date": " Thu 03 Aug 2017 02:37:10 PM EDT", 
+            "Source RPM": " libiec61883-1.2.0-17.fc27.src.rpm", 
+            "Version": " 1.2.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 03 Aug 2017 10:21:58 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 17.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Streaming library for IEEE1394", 
+            "Size": " 86469"
+        }
+    }
+}

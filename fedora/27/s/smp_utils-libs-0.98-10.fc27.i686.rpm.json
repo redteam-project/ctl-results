@@ -1,0 +1,81 @@
+{
+    "results": {
+        "usr/lib/libsmputils1_so_1_0_0": {
+            "report-functions": [
+                "unlink", 
+                "__snprintf_chk", 
+                "strchr", 
+                "__printf_chk", 
+                "fopen64", 
+                "__gmon_start__", 
+                "fgets", 
+                "strncpy", 
+                "open64", 
+                "fclose", 
+                "free", 
+                "sscanf", 
+                "strncmp", 
+                "__stack_chk_fail", 
+                "strspn", 
+                "__memcpy_chk", 
+                "strerror", 
+                "perror", 
+                "strlen", 
+                "snprintf", 
+                "gettimeofday", 
+                "__fprintf_chk", 
+                "__isoc99_sscanf", 
+                "__xstat64", 
+                "__errno_location", 
+                "ioctl", 
+                "__sprintf_chk", 
+                "_ITM_deregisterTMCloneTable", 
+                "fwrite", 
+                "__cxa_finalize", 
+                "calloc", 
+                "_ITM_registerTMCloneTable", 
+                "strstr", 
+                "__ctype_toupper_loc", 
+                "strrchr", 
+                "close", 
+                "__xmknod", 
+                "strcspn", 
+                "fputc"
+            ], 
+            "rpm": "smp_utils-libs-0.98-10.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libsmputils1.so.1.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " smp_utils-libs", 
+            "License": " BSD", 
+            "URL": " http://sg.danny.cz/sg/smp_utils.html", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-09.phx2.fedoraproject.org", 
+            "Description": "\nThis package contains the shared library for smp_utils.\n", 
+            "Build Date": " Fri 04 Aug 2017 05:01:05 PM EDT", 
+            "Source RPM": " smp_utils-0.98-10.fc27.src.rpm", 
+            "Version": " 0.98", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 05 Aug 2017 03:59:32 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 10.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Shared library for smp_utils", 
+            "Size": " 37383"
+        }
+    }
+}

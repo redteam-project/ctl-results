@@ -1,0 +1,61 @@
+{
+    "results": {
+        "usr/lib/libepoxy_so_0_0_0": {
+            "report-functions": [
+                "strcmp", 
+                "pthread_mutex_unlock", 
+                "dlsym", 
+                "__cxa_finalize", 
+                "__fprintf_chk", 
+                "dlopen", 
+                "strstr", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "exit", 
+                "pthread_mutex_lock", 
+                "fwrite", 
+                "__ctype_b_loc", 
+                "errx", 
+                "__stack_chk_fail", 
+                "__isoc99_sscanf", 
+                "strlen", 
+                "abort", 
+                "dlerror"
+            ], 
+            "rpm": "libepoxy-1.4.3-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libepoxy.so.0.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " libepoxy", 
+            "License": " MIT", 
+            "URL": " https://github.com/anholt/libepoxy", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-02.phx2.fedoraproject.org", 
+            "Description": "\nA library for handling OpenGL function pointer management.\n", 
+            "Build Date": " Thu 03 Aug 2017 02:08:46 PM EDT", 
+            "Source RPM": " libepoxy-1.4.3-3.fc27.src.rpm", 
+            "Version": " 1.4.3", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 07:41:23 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 3.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " epoxy runtime library", 
+            "Size": " 977812"
+        }
+    }
+}

@@ -1,0 +1,77 @@
+{
+    "results": {
+        "usr/lib/libclastfm_so_0_0_0": {
+            "report-functions": [
+                "__sprintf_chk", 
+                "perror", 
+                "free", 
+                "curl_easy_perform", 
+                "curl_easy_escape", 
+                "strlen", 
+                "strdup", 
+                "__snprintf_chk", 
+                "curl_easy_setopt", 
+                "__asprintf_chk", 
+                "strcmp", 
+                "_ITM_deregisterTMCloneTable", 
+                "strndup", 
+                "__cxa_finalize", 
+                "curl_global_init", 
+                "curl_easy_cleanup", 
+                "__stack_chk_fail", 
+                "__fprintf_chk", 
+                "curl_easy_init", 
+                "__printf_chk", 
+                "__gmon_start__", 
+                "__ctype_b_loc", 
+                "strtod", 
+                "curl_free", 
+                "malloc", 
+                "curl_global_cleanup", 
+                "fopen", 
+                "__memcpy_chk", 
+                "_ITM_registerTMCloneTable", 
+                "__strcpy_chk", 
+                "fwrite", 
+                "strstr", 
+                "realloc", 
+                "strtol", 
+                "fclose"
+            ], 
+            "rpm": "libclastfm-0.5-0.11.20120314git968af0ab.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libclastfm.so.0.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " libclastfm", 
+            "License": " GPLv3+", 
+            "URL": " http://liblastfm.sourceforge.net/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-29.phx2.fedoraproject.org", 
+            "Description": "\nlibclastfm is an unofficial C-API for the Last.fm web service written with\nlibcurl. It was written because the official CBS Interactive Last.fm library\nrequires Nokia QT, which is usually not desired when using GTK+ based distros.\n\nThis library supports much more than basic scrobble submission. You can send\nshouts, fetch Album covers and much more.\n\nDue to the naming conflict with the official last.fm library, this library will\ninstall as \"libclastfm\".\n", 
+            "Build Date": " Thu 03 Aug 2017 01:54:21 PM EDT", 
+            "Source RPM": " libclastfm-0.5-0.11.20120314git968af0ab.fc27.src.rpm", 
+            "Version": " 0.5", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 06:36:19 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 0.11.20120314git968af0ab.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Unofficial C-API for the Last.fm web service", 
+            "Size": " 93805"
+        }
+    }
+}

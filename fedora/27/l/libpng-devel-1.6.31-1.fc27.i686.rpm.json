@@ -1,0 +1,118 @@
+{
+    "results": {
+        "usr/bin/png-fix-itxt": {
+            "report-functions": [
+                "_IO_putc", 
+                "_IO_getc", 
+                "_ITM_registerTMCloneTable", 
+                "__gmon_start__", 
+                "__stack_chk_fail", 
+                "crc32", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "libpng-devel-1.6.31-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/png-fix-itxt"
+        }, 
+        "usr/bin/pngfix": {
+            "report-functions": [
+                "png_start_read_image", 
+                "png_read_end", 
+                "fclose", 
+                "__printf_chk", 
+                "strerror", 
+                "png_read_info", 
+                "feof", 
+                "png_set_interlace_handling", 
+                "ferror", 
+                "png_destroy_read_struct", 
+                "_IO_getc", 
+                "png_set_user_limits", 
+                "png_create_read_struct", 
+                "exit", 
+                "free", 
+                "_setjmp", 
+                "fopen", 
+                "__assert_fail", 
+                "malloc", 
+                "__ctype_b_loc", 
+                "png_set_read_fn", 
+                "_ITM_registerTMCloneTable", 
+                "__longjmp_chk", 
+                "perror", 
+                "inflateReset2", 
+                "__errno_location", 
+                "__libc_start_main", 
+                "fsetpos", 
+                "png_get_image_height", 
+                "inflate", 
+                "png_get_error_ptr", 
+                "fputs", 
+                "fgetpos", 
+                "fseek", 
+                "fwrite", 
+                "__fprintf_chk", 
+                "png_set_chunk_cache_max", 
+                "png_read_row", 
+                "inflateInit2_", 
+                "png_error", 
+                "fflush", 
+                "strncmp", 
+                "__stack_chk_fail", 
+                "strcmp", 
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "inflateEnd", 
+                "__memcpy_chk", 
+                "png_set_chunk_malloc_max", 
+                "_ITM_deregisterTMCloneTable", 
+                "png_create_info_struct", 
+                "strtol"
+            ], 
+            "rpm": "libpng-devel-1.6.31-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/pngfix"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " libpng-devel", 
+            "License": " zlib", 
+            "URL": " http://www.libpng.org/pub/png/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-04.phx2.fedoraproject.org", 
+            "Source RPM": " libpng-1.6.31-1.fc27.src.rpm", 
+            "Description": "\nThe libpng-devel package contains header files and documentation necessary\nfor developing programs using the PNG (Portable Network Graphics) library.\n\nIf you want to develop programs which will manipulate PNG image format\nfiles, you should install libpng-devel.  You'll also need to install\nthe libpng package.\n", 
+            "Build Date": " Tue 01 Aug 2017 12:05:42 PM EDT", 
+            "Epoch": " 2", 
+            "Version": " 1.6.31", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 01 Aug 2017 12:10:29 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 1.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Development tools for programs to manipulate PNG image format files", 
+            "Size": " 878166"
+        }
+    }
+}

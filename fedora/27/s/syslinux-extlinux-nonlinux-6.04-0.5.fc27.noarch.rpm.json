@@ -1,0 +1,2243 @@
+{
+    "results": {
+        "boot/extlinux/pcitest_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "boot/extlinux/pcitest.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "fgets", 
+                "get_class_name_from_pci_ids", 
+                "strncat", 
+                "puts", 
+                "pci_scan", 
+                "get_name_from_pci_ids", 
+                "printf"
+            ], 
+            "rpm": "syslinux-extlinux-nonlinux-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "boot/extlinux/kbdmap_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "boot/extlinux/kbdmap.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "fputs"
+            ], 
+            "rpm": "syslinux-extlinux-nonlinux-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "boot/extlinux/pci_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "boot/extlinux/pci.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "strlcpy", 
+                "lua_settable", 
+                "lua_createtable", 
+                "fgets", 
+                "lua_gettop", 
+                "fclose", 
+                "luaL_setfuncs", 
+                "strstr", 
+                "lua_pushnumber", 
+                "strchr", 
+                "fopen", 
+                "skipspace", 
+                "lua_pushstring"
+            ], 
+            "rpm": "syslinux-extlinux-nonlinux-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "boot/extlinux/whichsys_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "boot/extlinux/whichsys.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "syslinux_run_command", 
+                "__syslinux_derivative_info", 
+                "strcmp"
+            ], 
+            "rpm": "syslinux-extlinux-nonlinux-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "boot/extlinux/reboot_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "boot/extlinux/reboot.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "syslinux_reboot"
+            ], 
+            "rpm": "syslinux-extlinux-nonlinux-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "boot/extlinux/vesa_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "boot/extlinux/vesa.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "lua_pushstring", 
+                "lua_createtable", 
+                "dev_rawcon_r", 
+                "openconsole", 
+                "vesacon_load_background", 
+                "lmalloc", 
+                "lfree", 
+                "__intcall", 
+                "luaL_checklstring", 
+                "luaL_setfuncs"
+            ], 
+            "rpm": "syslinux-extlinux-nonlinux-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "boot/extlinux/debug_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "boot/extlinux/debug.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "syslinux_debug", 
+                "fprintf"
+            ], 
+            "rpm": "syslinux-extlinux-nonlinux-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "boot/extlinux/ldlinux_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "boot/extlinux/ldlinux.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "fgetc", 
+                "SysAppends", 
+                "kbd_shiftflags", 
+                "open_config", 
+                "zero_regs", 
+                "realpath", 
+                "create_args_and_load", 
+                "get_derivative_info", 
+                "VGAFileMBuf", 
+                "ConfigName", 
+                "fopen", 
+                "realloc", 
+                "unload_modules_since", 
+                "puts", 
+                "memcmp", 
+                "writechr", 
+                "_fread", 
+                "vfprintf", 
+                "firmware", 
+                "local_boot", 
+                "unload_pxe", 
+                "__syslinux_adv_size", 
+                "__syslinux_shuffler_size", 
+                "open_file", 
+                "StackBuf", 
+                "__intcall", 
+                "strlcpy", 
+                "mangle_name", 
+                "__ctypes", 
+                "malloc", 
+                "fclose", 
+                "ftell", 
+                "snprintf", 
+                "vgadisplayfile", 
+                "vsnprintf", 
+                "syslinux_scan_memory", 
+                "copyright_str", 
+                "SendCookies", 
+                "longjmp", 
+                "strchr", 
+                "findpath", 
+                "http_bake_cookies", 
+                "VGAFileBuf", 
+                "call16", 
+                "fputs", 
+                "strdup", 
+                "core_getcwd", 
+                "strncpy", 
+                "cleanup_hardware", 
+                "FlowOutput", 
+                "__file_close", 
+                "loadkeys", 
+                "lmalloc", 
+                "sprintf", 
+                "strntoumax", 
+                "write_serial", 
+                "KernelName", 
+                "strncmp", 
+                "sysappend_strings", 
+                "syslinux_idle", 
+                "free", 
+                "path_add", 
+                "zalloc", 
+                "__file_info", 
+                "DisplayMask", 
+                "do_sysappend", 
+                "write_serial_str", 
+                "do_raw_shuffle_and_boot", 
+                "VGAFilePtr", 
+                "BIOSName", 
+                "config_cwd", 
+                "start_ldlinux", 
+                "close", 
+                "UsingVGA", 
+                "errno", 
+                "__ms_timer", 
+                "_close_file", 
+                "_kaboom", 
+                "this_fs", 
+                "strtoul", 
+                "sirq_cleanup_nowipe", 
+                "chdir", 
+                "printf", 
+                "NoHalt", 
+                "_fwrite", 
+                "syslinux_banner", 
+                "PXERetry", 
+                "__file_get_block", 
+                "fstat", 
+                "sirq_install", 
+                "DisplayCon", 
+                "strcpy", 
+                "FlowInput", 
+                "loadfont", 
+                "syslinux_force_text_mode", 
+                "SerialPort", 
+                "setjmp", 
+                "strcmp", 
+                "pollchar", 
+                "open", 
+                "BaudDivisor", 
+                "getchar", 
+                "lfree", 
+                "files", 
+                "__syslinux_adv_ptr"
+            ], 
+            "rpm": "syslinux-extlinux-nonlinux-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "boot/extlinux/vesamenu_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "boot/extlinux/vesamenu.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "fputs", 
+                "SHA1Init", 
+                "syslinux_getadv", 
+                "printf", 
+                "unbase64", 
+                "realloc", 
+                "vesacon_cursor_enable", 
+                "SHA1Update", 
+                "sha512_crypt", 
+                "fgets", 
+                "read", 
+                "malloc", 
+                "calloc", 
+                "memmove", 
+                "strncmp", 
+                "fopen", 
+                "dev_rawcon_r", 
+                "SHA1Final", 
+                "longjmp", 
+                "get_key", 
+                "fgetc", 
+                "openconsole", 
+                "strnlen", 
+                "sprintf", 
+                "fclose", 
+                "syslinux_setadv", 
+                "sha256_crypt", 
+                "__syslinux_ipappend_strings", 
+                "key_name_to_code", 
+                "strchr", 
+                "vsnprintf", 
+                "execute", 
+                "vesacon_set_resolution", 
+                "atoll", 
+                "__divdi3", 
+                "__ms_timer", 
+                "atoi", 
+                "memcmp", 
+                "syslinux_adv_write", 
+                "strcmp", 
+                "vesacon_set_background", 
+                "strtoul", 
+                "parse_image_type", 
+                "vesacon_load_background", 
+                "skipspace", 
+                "setjmp", 
+                "free", 
+                "ConfigName", 
+                "vesacon_default_background", 
+                "fputc", 
+                "crypt_md5", 
+                "strlcpy", 
+                "console_color_table", 
+                "getscreensize"
+            ], 
+            "rpm": "syslinux-extlinux-nonlinux-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "boot/extlinux/host_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "boot/extlinux/host.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "fprintf", 
+                "printf", 
+                "dev_stdcon_w", 
+                "pxe_dns"
+            ], 
+            "rpm": "syslinux-extlinux-nonlinux-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "boot/extlinux/sysdump_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "boot/extlinux/sysdump.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "dev_stdcon_w", 
+                "_start", 
+                "realloc", 
+                "pxe_dns", 
+                "printf", 
+                "strtoul", 
+                "free", 
+                "deflate", 
+                "exit", 
+                "__syslinux_serial_console_info", 
+                "__intcall", 
+                "memcmp", 
+                "deflateInit2_", 
+                "__syslinux_derivative_info", 
+                "puts", 
+                "malloc", 
+                "tftp_put", 
+                "openconsole", 
+                "pci_readb", 
+                "fputs", 
+                "pci_readl", 
+                "lmalloc", 
+                "pci_set_config_type", 
+                "lfree", 
+                "fputc", 
+                "snprintf", 
+                "strcmp", 
+                "dev_null_w", 
+                "dev_null_r"
+            ], 
+            "rpm": "syslinux-extlinux-nonlinux-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "boot/extlinux/libutil_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "boot/extlinux/libutil.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "lrand48", 
+                "dev_rawcon_r", 
+                "realloc", 
+                "strncmp", 
+                "strcspn", 
+                "snprintf", 
+                "dev_ansiserial_w", 
+                "errno", 
+                "stpncpy", 
+                "dev_stdcon_r", 
+                "openconsole"
+            ], 
+            "rpm": "syslinux-extlinux-nonlinux-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "boot/extlinux/poweroff_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "boot/extlinux/poweroff.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "puts"
+            ], 
+            "rpm": "syslinux-extlinux-nonlinux-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "boot/extlinux/chain_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "boot/extlinux/chain.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "syslinux_memory_map", 
+                "strtoul", 
+                "__udivmoddi4", 
+                "lmalloc", 
+                "crc32", 
+                "free", 
+                "str_to_guid", 
+                "printf", 
+                "disk_read_sectors", 
+                "__syslinux_derivative_info", 
+                "strlcpy", 
+                "strncmp", 
+                "disk_write_sectors", 
+                "strcpy", 
+                "strchr", 
+                "lfree", 
+                "sprintf", 
+                "read", 
+                "syslinux_add_movelist", 
+                "strcmp", 
+                "close_file", 
+                "open_file", 
+                "__udivdi3", 
+                "puts", 
+                "syslinux_force_text_mode", 
+                "syslinux_add_memmap", 
+                "memcmp", 
+                "errno", 
+                "syslinux_shuffle_boot_rm", 
+                "malloc", 
+                "loadfile", 
+                "fprintf", 
+                "console_ansi_raw"
+            ], 
+            "rpm": "syslinux-extlinux-nonlinux-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "boot/extlinux/ls_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "boot/extlinux/ls.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "get_key", 
+                "qsort", 
+                "opendir", 
+                "puts", 
+                "closedir", 
+                "readdir", 
+                "malloc", 
+                "strcmp", 
+                "printf", 
+                "getscreensize", 
+                "putchar"
+            ], 
+            "rpm": "syslinux-extlinux-nonlinux-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "boot/extlinux/disk_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "boot/extlinux/disk.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "get_error", 
+                "get_drive_parameters"
+            ], 
+            "rpm": "syslinux-extlinux-nonlinux-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "boot/extlinux/dir_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "boot/extlinux/dir.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "qsort", 
+                "malloc", 
+                "getscreensize", 
+                "free", 
+                "realloc", 
+                "closedir", 
+                "putchar", 
+                "printf", 
+                "readdir", 
+                "strcmp", 
+                "puts", 
+                "opendir"
+            ], 
+            "rpm": "syslinux-extlinux-nonlinux-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "boot/extlinux/syslinux_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "boot/extlinux/syslinux.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "syslinux_run_default", 
+                "luaL_error", 
+                "luaL_optlstring", 
+                "free", 
+                "msleep", 
+                "syslinux_local_boot", 
+                "luaL_newmetatable", 
+                "puts", 
+                "lua_setfield", 
+                "printf", 
+                "syslinux_final_cleanup", 
+                "lua_settable", 
+                "luaL_checkudata", 
+                "lua_settop", 
+                "lua_pushinteger", 
+                "luaL_setmetatable", 
+                "syslinux_run_command", 
+                "loadfile", 
+                "luaL_optinteger", 
+                "luaL_checklstring", 
+                "initramfs_add_file", 
+                "lua_createtable", 
+                "memcmp", 
+                "sleep", 
+                "lua_pushstring", 
+                "get_key", 
+                "luaL_checkinteger", 
+                "lua_newuserdata", 
+                "initramfs_init", 
+                "ConfigName", 
+                "strcpy", 
+                "initramfs_load_archive", 
+                "luaL_setfuncs", 
+                "__syslinux_ipappend_strings", 
+                "malloc", 
+                "__parse_argv", 
+                "syslinux_run_kernel_image", 
+                "lua_pushvalue", 
+                "strchr", 
+                "luaL_testudata"
+            ], 
+            "rpm": "syslinux-extlinux-nonlinux-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "boot/extlinux/kontron_wdt_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "boot/extlinux/kontron_wdt.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "printf", 
+                "dev_rawcon_r", 
+                "syslinux_run_command", 
+                "strlcpy", 
+                "openconsole", 
+                "atoi", 
+                "strncmp", 
+                "malloc", 
+                "dev_stdcon_w"
+            ], 
+            "rpm": "syslinux-extlinux-nonlinux-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "boot/extlinux/vesainfo_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "boot/extlinux/vesainfo.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "lfree", 
+                "printf", 
+                "__intcall", 
+                "_fread"
+            ], 
+            "rpm": "syslinux-extlinux-nonlinux-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "boot/extlinux/lua_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "boot/extlinux/lua.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "luaL_newstate", 
+                "lua_type", 
+                "lua_pushlstring", 
+                "lua_tolstring", 
+                "luaL_loadfilex", 
+                "lua_gc", 
+                "lua_close", 
+                "strcmp", 
+                "lua_concat", 
+                "lua_pushinteger", 
+                "_fwrite", 
+                "luaL_checkstack", 
+                "lua_setfield", 
+                "lua_pcallk", 
+                "lua_settop", 
+                "lua_touserdata", 
+                "lua_pushcclosure", 
+                "lua_pushstring", 
+                "lua_pushboolean", 
+                "lua_toboolean", 
+                "dev_stdcon_r", 
+                "openconsole", 
+                "luaL_callmeta", 
+                "lua_setglobal", 
+                "lua_createtable", 
+                "lua_pushlightuserdata", 
+                "lua_tointegerx", 
+                "lua_rawseti", 
+                "fprintf", 
+                "luaL_traceback", 
+                "lua_remove", 
+                "lua_pushfstring", 
+                "fgets", 
+                "lua_insert", 
+                "dev_stdcon_w", 
+                "luaL_loadbufferx", 
+                "luaL_checkversion_", 
+                "lua_gettop", 
+                "lua_getglobal"
+            ], 
+            "rpm": "syslinux-extlinux-nonlinux-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "boot/extlinux/hdt_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "boot/extlinux/hdt.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "move_cursor_left", 
+                "add_menu", 
+                "vesacon_default_background", 
+                "vesacon_load_background", 
+                "parse_dmitable", 
+                "detect_memory_e801", 
+                "strncmp", 
+                "get_mbr_id", 
+                "zzjson_print", 
+                "issyslinux", 
+                "flags_to_string", 
+                "lfree", 
+                "strcat", 
+                "zzjson_array_append", 
+                "putchar", 
+                "set_menu_pos", 
+                "is_gpxe", 
+                "set_item_options", 
+                "clear_line", 
+                "strrchr", 
+                "malloc", 
+                "atoi", 
+                "get_error", 
+                "tftp_put", 
+                "free", 
+                "init_menusystem", 
+                "strchr", 
+                "zzjson_create_array", 
+                "fgetc", 
+                "get_drive_parameters", 
+                "fputc", 
+                "get_module_name_from_pcimap", 
+                "zzjson_create_false", 
+                "set_g1_special_char", 
+                "move_cursor_to_next_line", 
+                "get_bootloader_string", 
+                "strncat", 
+                "chrreplace", 
+                "pxe_get_cached_info", 
+                "fprintf", 
+                "add_item", 
+                "get_class_name_from_pci_ids", 
+                "move_cursor_to_column", 
+                "pci_scan", 
+                "set_cursor_blink", 
+                "zzjson_free", 
+                "puts", 
+                "console_ansi_raw", 
+                "swsusp_check", 
+                "strdup", 
+                "msleep", 
+                "calloc", 
+                "snprintf", 
+                "display_cursor", 
+                "detect_memory_e820", 
+                "csprint", 
+                "strlcpy", 
+                "add_named_menu", 
+                "detect_cpu", 
+                "cprint", 
+                "showmenus", 
+                "memcmp", 
+                "realloc", 
+                "syslinux_reboot", 
+                "parse_partition_table", 
+                "get_type", 
+                "disable_utf8", 
+                "strcmp", 
+                "getscreensize", 
+                "runhelpsystem", 
+                "vbufprintf", 
+                "strcpy", 
+                "strreplace", 
+                "dev_rawcon_r", 
+                "add_sep", 
+                "get_module_name_from_alias", 
+                "zzjson_create_string", 
+                "set_window_size", 
+                "parse_acpi", 
+                "clear_end_of_line", 
+                "pxe_get_nic_type", 
+                "__intcall", 
+                "strstr", 
+                "dmi_iterate", 
+                "memsize_e820", 
+                "get_label", 
+                "deflate", 
+                "strncpy", 
+                "set_normal_attr", 
+                "sanitize_e820_map", 
+                "strtok", 
+                "printf", 
+                "runsyslinuxcmd", 
+                "get_mbr_string", 
+                "lmalloc", 
+                "pxe_dns", 
+                "inet_ntoa", 
+                "zzjson_create_true", 
+                "detect_memsize", 
+                "vpd_decode", 
+                "parse_url", 
+                "sprintf", 
+                "clear_entire_screen", 
+                "zzjson_create_object", 
+                "gather_additional_pci_config", 
+                "openconsole", 
+                "move_cursor_right", 
+                "deflateInit2_", 
+                "__syslinux_derivative_info", 
+                "zzjson_create_number_i", 
+                "get_cpu_flag_value_from_name", 
+                "reg_handler", 
+                "set_us_g0_charset", 
+                "detect_memory_88", 
+                "zzjson_object_append", 
+                "getuserinput", 
+                "reg_ontimeout", 
+                "get_name_from_pci_ids", 
+                "strtol"
+            ], 
+            "rpm": "syslinux-extlinux-nonlinux-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "boot/extlinux/pmload_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "boot/extlinux/pmload.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "fputs", 
+                "loadfile", 
+                "syslinux_memmap_largest", 
+                "syslinux_free_memmap", 
+                "syslinux_memory_map", 
+                "syslinux_shuffle_boot_pm", 
+                "syslinux_dup_memmap", 
+                "syslinux_add_movelist", 
+                "syslinux_free_movelist", 
+                "syslinux_add_memmap", 
+                "printf", 
+                "free", 
+                "calloc"
+            ], 
+            "rpm": "syslinux-extlinux-nonlinux-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "boot/extlinux/vpdtest_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "boot/extlinux/vpdtest.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "puts", 
+                "printf"
+            ], 
+            "rpm": "syslinux-extlinux-nonlinux-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "boot/extlinux/elf_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "boot/extlinux/elf.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "syslinux_free_movelist", 
+                "syslinux_add_memmap", 
+                "printf", 
+                "calloc", 
+                "fputs", 
+                "zloadfile", 
+                "syslinux_free_memmap", 
+                "syslinux_memmap_largest", 
+                "syslinux_shuffle_boot_pm", 
+                "memcmp", 
+                "syslinux_add_movelist", 
+                "syslinux_memory_map", 
+                "syslinux_memmap_type"
+            ], 
+            "rpm": "syslinux-extlinux-nonlinux-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "boot/extlinux/cmd_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "boot/extlinux/cmd.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "syslinux_run_command"
+            ], 
+            "rpm": "syslinux-extlinux-nonlinux-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "boot/extlinux/ifcpu_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "boot/extlinux/ifcpu.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "syslinux_run_default", 
+                "console_ansi_raw", 
+                "strcmp", 
+                "fputs", 
+                "sleep", 
+                "printf", 
+                "syslinux_run_command"
+            ], 
+            "rpm": "syslinux-extlinux-nonlinux-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "boot/extlinux/cptime_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "boot/extlinux/cptime.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "atoi", 
+                "console_ansi_std", 
+                "errno", 
+                "fprintf", 
+                "fclose", 
+                "fopen", 
+                "printf", 
+                "_fread", 
+                "puts"
+            ], 
+            "rpm": "syslinux-extlinux-nonlinux-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "boot/extlinux/linux_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "boot/extlinux/linux.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "fprintf", 
+                "strchr", 
+                "setup_data_init", 
+                "strncmp", 
+                "printf", 
+                "syslinux_boot_linux", 
+                "pxe_get_cached_info", 
+                "malloc", 
+                "setup_data_load", 
+                "puts", 
+                "strcmp", 
+                "initramfs_init", 
+                "initramfs_load_archive", 
+                "fputs", 
+                "strtoul", 
+                "initramfs_load_file", 
+                "loadfile", 
+                "strcpy"
+            ], 
+            "rpm": "syslinux-extlinux-nonlinux-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "boot/extlinux/cpu_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "boot/extlinux/cpu.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "lua_pushnumber", 
+                "luaL_setfuncs", 
+                "snprintf", 
+                "detect_cpu", 
+                "lua_createtable"
+            ], 
+            "rpm": "syslinux-extlinux-nonlinux-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "boot/extlinux/sanboot_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "boot/extlinux/sanboot.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "is_gpxe", 
+                "puts", 
+                "stpcpy", 
+                "pxe_call"
+            ], 
+            "rpm": "syslinux-extlinux-nonlinux-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "boot/extlinux/cpuidtest_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "boot/extlinux/cpuidtest.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "detect_cpu", 
+                "printf", 
+                "puts"
+            ], 
+            "rpm": "syslinux-extlinux-nonlinux-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "boot/extlinux/hexdump_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "boot/extlinux/hexdump.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "fclose", 
+                "printf", 
+                "_fread", 
+                "loadfile", 
+                "fgetc", 
+                "putchar", 
+                "__ctypes", 
+                "malloc", 
+                "free", 
+                "errno", 
+                "fputs", 
+                "fprintf"
+            ], 
+            "rpm": "syslinux-extlinux-nonlinux-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "boot/extlinux/ifplop_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "boot/extlinux/ifplop.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "__intcall", 
+                "fputs", 
+                "syslinux_run_default"
+            ], 
+            "rpm": "syslinux-extlinux-nonlinux-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "boot/extlinux/dhcp_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "boot/extlinux/dhcp.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "lua_pushstring", 
+                "lua_createtable", 
+                "sprintf", 
+                "luaL_setfuncs", 
+                "lua_settable", 
+                "lua_pushlstring", 
+                "lua_pushinteger"
+            ], 
+            "rpm": "syslinux-extlinux-nonlinux-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "boot/extlinux/ifmemdsk_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "boot/extlinux/ifmemdsk.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "dev_null_r", 
+                "memcmp", 
+                "openconsole", 
+                "strcmp", 
+                "printf", 
+                "__intcall", 
+                "syslinux_run_default", 
+                "syslinux_run_command", 
+                "dev_stdcon_w"
+            ], 
+            "rpm": "syslinux-extlinux-nonlinux-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "boot/extlinux/dmitest_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "boot/extlinux/dmitest.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "parse_dmitable", 
+                "strncmp", 
+                "printf", 
+                "fgets", 
+                "puts"
+            ], 
+            "rpm": "syslinux-extlinux-nonlinux-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "boot/extlinux/pwd_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "boot/extlinux/pwd.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "getcwd"
+            ], 
+            "rpm": "syslinux-extlinux-nonlinux-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "boot/extlinux/prdhcp_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "boot/extlinux/prdhcp.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "pxe_get_cached_info", 
+                "get_key", 
+                "printf", 
+                "console_ansi_raw"
+            ], 
+            "rpm": "syslinux-extlinux-nonlinux-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "boot/extlinux/meminfo_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "boot/extlinux/meminfo.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "printf", 
+                "fputc", 
+                "lmalloc", 
+                "__intcall"
+            ], 
+            "rpm": "syslinux-extlinux-nonlinux-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "boot/extlinux/liblua_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "boot/extlinux/liblua.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "PATH", 
+                "module_alloc", 
+                "fgets", 
+                "__ms_timer", 
+                "fgetc", 
+                "realloc", 
+                "module_find_symbol", 
+                "strcpy", 
+                "free", 
+                "strspn", 
+                "fopen", 
+                "exit", 
+                "module_load", 
+                "__ctypes", 
+                "memcmp", 
+                "errno", 
+                "strstr", 
+                "fputs", 
+                "_fread", 
+                "strpbrk", 
+                "fclose", 
+                "strchr", 
+                "longjmp", 
+                "printf", 
+                "strerror", 
+                "strcmp", 
+                "_fwrite", 
+                "sprintf", 
+                "setjmp", 
+                "memchr", 
+                "strtol", 
+                "abort"
+            ], 
+            "rpm": "syslinux-extlinux-nonlinux-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "boot/extlinux/ethersel_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "boot/extlinux/ethersel.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "strchr", 
+                "syslinux_run_command", 
+                "skipspace", 
+                "strdup", 
+                "fopen", 
+                "malloc", 
+                "find_pci_device", 
+                "fgets", 
+                "fputs", 
+                "strtoul"
+            ], 
+            "rpm": "syslinux-extlinux-nonlinux-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "boot/extlinux/cpuid_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "boot/extlinux/cpuid.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "puts", 
+                "fputc", 
+                "printf"
+            ], 
+            "rpm": "syslinux-extlinux-nonlinux-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "boot/extlinux/zzjson_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "boot/extlinux/zzjson.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "malloc", 
+                "zzjson_create_array", 
+                "zzjson_object_append", 
+                "zzjson_create_object", 
+                "fgetc", 
+                "zzjson_create_true", 
+                "zzjson_create_number_i", 
+                "fprintf", 
+                "dev_rawcon_r", 
+                "realloc", 
+                "zzjson_array_append", 
+                "zzjson_free", 
+                "zzjson_create_null", 
+                "zzjson_object_prepend", 
+                "fputs", 
+                "calloc", 
+                "zzjson_create_string", 
+                "zzjson_print", 
+                "vfprintf", 
+                "dev_ansiserial_w", 
+                "zzjson_array_prepend", 
+                "fputc", 
+                "zzjson_create_false", 
+                "openconsole"
+            ], 
+            "rpm": "syslinux-extlinux-nonlinux-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "boot/extlinux/cat_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "boot/extlinux/cat.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "_fwrite", 
+                "fopen", 
+                "fprintf"
+            ], 
+            "rpm": "syslinux-extlinux-nonlinux-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "boot/extlinux/libgpl_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "boot/extlinux/libgpl.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "strcat", 
+                "strlcpy", 
+                "strcmp", 
+                "strstr", 
+                "strncasecmp", 
+                "lfree", 
+                "malloc", 
+                "__ctypes", 
+                "__intcall", 
+                "free", 
+                "pow", 
+                "strnlen", 
+                "strncmp", 
+                "snprintf", 
+                "puts", 
+                "fprintf", 
+                "memcmp", 
+                "strcpy", 
+                "lmalloc", 
+                "sprintf", 
+                "strtoul"
+            ], 
+            "rpm": "syslinux-extlinux-nonlinux-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "boot/extlinux/menu_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "boot/extlinux/menu.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "sha256_crypt", 
+                "ConfigName", 
+                "unbase64", 
+                "free", 
+                "fclose", 
+                "atoi", 
+                "syslinux_getadv", 
+                "__divdi3", 
+                "console_color_table_size", 
+                "realloc", 
+                "execute", 
+                "strcmp", 
+                "setjmp", 
+                "memcmp", 
+                "fputs", 
+                "SHA1Final", 
+                "syslinux_adv_write", 
+                "SHA1Update", 
+                "fgetc", 
+                "fgets", 
+                "read", 
+                "SHA1Init", 
+                "strtoul", 
+                "longjmp", 
+                "get_key", 
+                "kbd_shiftflags", 
+                "syslinux_setadv", 
+                "vsnprintf", 
+                "fopen", 
+                "sprintf", 
+                "strnlen", 
+                "printf", 
+                "calloc", 
+                "console_ansi_raw", 
+                "key_name_to_code", 
+                "getscreensize", 
+                "memmove", 
+                "__syslinux_ipappend_strings", 
+                "strlcpy", 
+                "fputc", 
+                "strchr", 
+                "parse_image_type", 
+                "skipspace", 
+                "atoll", 
+                "sha512_crypt", 
+                "malloc", 
+                "console_color_table", 
+                "crypt_md5", 
+                "strncmp"
+            ], 
+            "rpm": "syslinux-extlinux-nonlinux-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "boot/extlinux/libmenu_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "boot/extlinux/libmenu.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "syslinux_force_text_mode", 
+                "fclose", 
+                "__idle", 
+                "strstr", 
+                "lmalloc", 
+                "get_key", 
+                "csprint", 
+                "fgets", 
+                "malloc", 
+                "printf", 
+                "strcat", 
+                "strchr", 
+                "cls", 
+                "strcmp", 
+                "getscreensize", 
+                "cprint", 
+                "clear_end_of_line", 
+                "fputs", 
+                "fputc", 
+                "console_ansi_raw", 
+                "__intcall", 
+                "load_kernel", 
+                "free", 
+                "fopen", 
+                "loadfile", 
+                "clearwindow", 
+                "sprintf"
+            ], 
+            "rpm": "syslinux-extlinux-nonlinux-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "boot/extlinux/ifcpu64_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "boot/extlinux/ifcpu64.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "strcmp"
+            ], 
+            "rpm": "syslinux-extlinux-nonlinux-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "boot/extlinux/sdi_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "boot/extlinux/sdi.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "fputc", 
+                "syslinux_free_memmap", 
+                "syslinux_add_movelist", 
+                "memcmp", 
+                "syslinux_dup_memmap", 
+                "zloadfile", 
+                "syslinux_memory_map", 
+                "syslinux_memmap_type", 
+                "syslinux_free_movelist", 
+                "syslinux_add_memmap"
+            ], 
+            "rpm": "syslinux-extlinux-nonlinux-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "boot/extlinux/rosh_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "boot/extlinux/rosh.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "opendir", 
+                "close", 
+                "readdir", 
+                "getscreensize", 
+                "chdir", 
+                "syslinux_run_command", 
+                "errno", 
+                "strncasecmp", 
+                "optopt", 
+                "fstat", 
+                "fgets", 
+                "syslinux_reboot", 
+                "optind", 
+                "_fwrite", 
+                "__ctypes", 
+                "fclose", 
+                "getcwd", 
+                "putchar", 
+                "getopt", 
+                "strcpy", 
+                "strchr", 
+                "puts", 
+                "strcat", 
+                "_fread", 
+                "open", 
+                "get_key", 
+                "ConfigName", 
+                "malloc", 
+                "printf", 
+                "strncpy", 
+                "console_ansi_raw", 
+                "console_ansi_std", 
+                "free"
+            ], 
+            "rpm": "syslinux-extlinux-nonlinux-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "boot/extlinux/libcom32_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "boot/extlinux/libcom32.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "__ansicon_beep", 
+                "fgets", 
+                "errno", 
+                "__file_close", 
+                "__ctypes", 
+                "syslinux_scan_memory", 
+                "_exit", 
+                "calloc", 
+                "skipspace", 
+                "__ansi_init", 
+                "dns_resolv", 
+                "free", 
+                "sprintf", 
+                "syslinux_force_text_mode", 
+                "fputc", 
+                "__syslinux_serial_console_info", 
+                "__syslinux_derivative_info", 
+                "console_color_table", 
+                "__file_info", 
+                "_fread", 
+                "using_vga", 
+                "__xserial_write", 
+                "open", 
+                "default_cmd", 
+                "zalloc", 
+                "cleanup_hardware", 
+                "sscanf", 
+                "copyright_str", 
+                "realloc", 
+                "KbdMap", 
+                "strtod", 
+                "malloc", 
+                "__file_get_block", 
+                "memmem", 
+                "printf", 
+                "firmware", 
+                "strlcpy", 
+                "lmalloc", 
+                "VGAFontSize", 
+                "unload_pxe", 
+                "__ansi_putchar", 
+                "pxe_call", 
+                "UserFont", 
+                "close", 
+                "fstat", 
+                "dev_ansiserial_w", 
+                "dev_ansicon_w", 
+                "local_boot", 
+                "memcmp", 
+                "strtoul", 
+                "__farcall", 
+                "fclose", 
+                "lstrdup", 
+                "syslinux_banner", 
+                "do_raw_shuffle_and_boot", 
+                "setjmp", 
+                "longjmp", 
+                "strstr", 
+                "lfree", 
+                "strtok", 
+                "execute", 
+                "strcpy", 
+                "fontbuf", 
+                "__syslinux_shuffler_size", 
+                "fputs", 
+                "load_kernel", 
+                "snprintf", 
+                "x86_init_fpu", 
+                "SysAppends", 
+                "pow", 
+                "suffix_number", 
+                "lzalloc", 
+                "__com32_zero_regs", 
+                "chrreplace", 
+                "__intcall", 
+                "strchr"
+            ], 
+            "rpm": "syslinux-extlinux-nonlinux-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "boot/extlinux/dmi_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "boot/extlinux/dmi.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "parse_dmitable", 
+                "lua_pushstring", 
+                "dmi_iterate", 
+                "lua_insert", 
+                "lua_pushinteger", 
+                "lua_settable", 
+                "lua_pushnumber", 
+                "lua_createtable", 
+                "lua_pushboolean"
+            ], 
+            "rpm": "syslinux-extlinux-nonlinux-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "boot/extlinux/gfxboot_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "boot/extlinux/gfxboot.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "fstat", 
+                "skipspace", 
+                "initramfs_add_data", 
+                "calloc", 
+                "malloc", 
+                "strcmp", 
+                "openconsole", 
+                "dev_stdcon_w", 
+                "__syslinux_derivative_info", 
+                "__syslinux_ipappend_strings", 
+                "asprintf", 
+                "putchar", 
+                "free", 
+                "close", 
+                "atoi", 
+                "chdir", 
+                "ConfigName", 
+                "loadfile", 
+                "getcwd", 
+                "fopen", 
+                "__farcall", 
+                "strsep", 
+                "dev_stdcon_r", 
+                "strdup", 
+                "strncmp", 
+                "open", 
+                "strtol", 
+                "fclose", 
+                "read", 
+                "fgets", 
+                "syslinux_local_boot", 
+                "puts", 
+                "printf", 
+                "strcpy", 
+                "syslinux_run_command", 
+                "strcasecmp", 
+                "sprintf", 
+                "initramfs_init", 
+                "realloc", 
+                "lmalloc"
+            ], 
+            "rpm": "syslinux-extlinux-nonlinux-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "boot/extlinux/mboot_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "boot/extlinux/mboot.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "printf", 
+                "memcmp", 
+                "stpcpy", 
+                "__intcall", 
+                "fputs", 
+                "lmalloc", 
+                "dev_stdcon_w", 
+                "openconsole", 
+                "lfree", 
+                "zloadfile", 
+                "puts", 
+                "syslinux_add_memmap", 
+                "malloc", 
+                "realloc", 
+                "syslinux_memmap_find_type", 
+                "syslinux_memory_map", 
+                "syslinux_memmap_type", 
+                "strdup", 
+                "__syslinux_derivative_info", 
+                "pxe_get_cached_info", 
+                "__com32_zero_regs", 
+                "syslinux_dup_memmap", 
+                "syslinux_shuffle_boot_pm", 
+                "strcmp", 
+                "syslinux_memmap_largest", 
+                "dev_null_r"
+            ], 
+            "rpm": "syslinux-extlinux-nonlinux-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "boot/extlinux/cmenu_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "boot/extlinux/cmenu.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "luaL_optlstring", 
+                "luaL_setfuncs", 
+                "add_item", 
+                "add_named_menu", 
+                "showmenus", 
+                "lua_createtable", 
+                "lua_setfield", 
+                "find_menu_num", 
+                "add_menu", 
+                "init_menusystem", 
+                "set_window_size", 
+                "lua_pushstring", 
+                "luaL_checkinteger", 
+                "lua_pushinteger", 
+                "luaL_checklstring"
+            ], 
+            "rpm": "syslinux-extlinux-nonlinux-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "boot/extlinux/lfs_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "boot/extlinux/lfs.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "lua_pushfstring", 
+                "readdir", 
+                "strcmp", 
+                "lua_setfield", 
+                "lua_tolstring", 
+                "errno", 
+                "lua_touserdata", 
+                "close", 
+                "luaL_argerror", 
+                "lua_createtable", 
+                "luaL_setfuncs", 
+                "getcwd", 
+                "lua_isstring", 
+                "luaL_checklstring", 
+                "lua_pushstring", 
+                "lua_rawset", 
+                "lua_pushnumber", 
+                "lua_pushboolean", 
+                "lua_getfield", 
+                "luaL_error", 
+                "lua_pushcclosure", 
+                "opendir", 
+                "strerror", 
+                "chdir", 
+                "lua_pushnil", 
+                "fstat", 
+                "open", 
+                "lua_setmetatable", 
+                "lua_newuserdata", 
+                "lua_type", 
+                "luaL_checkudata"
+            ], 
+            "rpm": "syslinux-extlinux-nonlinux-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "boot/extlinux/pxechn_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "boot/extlinux/pxechn.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "syslinux_force_text_mode", 
+                "lfree", 
+                "errno", 
+                "optarg", 
+                "get_key", 
+                "syslinux_add_memmap", 
+                "syslinux_add_movelist", 
+                "strcmp", 
+                "realloc", 
+                "pxe_call", 
+                "loadfile", 
+                "pxe_dns", 
+                "getopt", 
+                "lzalloc", 
+                "strncmp", 
+                "malloc", 
+                "strchr", 
+                "free", 
+                "dhcp_unpack_packet", 
+                "strerror", 
+                "putchar", 
+                "syslinux_shuffle_boot_rm", 
+                "strnlen", 
+                "strtoul", 
+                "fputs", 
+                "syslinux_memory_map", 
+                "console_ansi_raw", 
+                "strcpy", 
+                "strcasecmp", 
+                "printf", 
+                "dhcp_pack_packet", 
+                "__syslinux_derivative_info", 
+                "puts"
+            ], 
+            "rpm": "syslinux-extlinux-nonlinux-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "boot/extlinux/config_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "boot/extlinux/config.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "syslinux_run_kernel_image"
+            ], 
+            "rpm": "syslinux-extlinux-nonlinux-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "boot/extlinux/gpxecmd_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "boot/extlinux/gpxecmd.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "lmalloc", 
+                "pxe_call", 
+                "stpcpy"
+            ], 
+            "rpm": "syslinux-extlinux-nonlinux-6.04-0.5.fc27.noarch.rpm"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System/Boot", 
+            "Name": " syslinux-extlinux-nonlinux", 
+            "License": " GPLv2+", 
+            "URL": " http://syslinux.zytor.com/wiki/index.php/The_Syslinux_Project", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-16.phx2.fedoraproject.org", 
+            "Description": "\nAll the EXTLINUX binaries that run from the firmware rather than\nfrom a linux host.\n", 
+            "Build Date": " Fri 04 Aug 2017 07:55:04 PM EDT", 
+            "Source RPM": " syslinux-6.04-0.5.fc27.src.rpm", 
+            "Version": " 6.04", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 09:47:33 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 0.5.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " The parts of the EXTLINUX bootloader which aren't run from linux.", 
+            "Size": " 994688"
+        }
+    }
+}

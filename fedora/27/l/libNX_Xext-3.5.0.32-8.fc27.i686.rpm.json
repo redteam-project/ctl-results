@@ -1,0 +1,84 @@
+{
+    "results": {
+        "usr/lib/nx/libNX_Xext_so_6_4": {
+            "report-functions": [
+                "__sprintf_chk", 
+                "_XFlush", 
+                "_XReply", 
+                "malloc", 
+                "XESetCopyGC", 
+                "XESetFlushGC", 
+                "XESetEventToWire", 
+                "_XRead", 
+                "XFlush", 
+                "XESetCreateGC", 
+                "XFree", 
+                "XInitExtension", 
+                "XESetCreateFont", 
+                "__fprintf_chk", 
+                "_ITM_registerTMCloneTable", 
+                "free", 
+                "memmove", 
+                "XIfEvent", 
+                "XESetErrorString", 
+                "calloc", 
+                "_XInitImageFuncPtrs", 
+                "XGetErrorDatabaseText", 
+                "_XEatData", 
+                "__stack_chk_fail", 
+                "_XVIDtoVisual", 
+                "__printf_chk", 
+                "_XFlushGCCache", 
+                "_XSetLastRequestRead", 
+                "XGetVisualInfo", 
+                "XESetFreeFont", 
+                "XESetError", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "exit", 
+                "_XGetScanlinePad", 
+                "_XSend", 
+                "XESetWireToEvent", 
+                "XAddExtension", 
+                "_XGetBitsPerPixel", 
+                "XESetCloseDisplay", 
+                "_XReadPad", 
+                "_XAllocScratch"
+            ], 
+            "rpm": "libNX_Xext-3.5.0.32-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/nx/libNX_Xext.so.6.4"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " libNX_Xext", 
+            "License": " GPLv2+", 
+            "URL": " http://x2go.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-03.phx2.fedoraproject.org", 
+            "Description": "\nThe Xext library contains a handful of X11 extensions:\n- Double Buffer extension (DBE/Xdbe)\n- Display Power Management Signaling (DPMS) extension\n- X11 Nonrectangular Window Shape extension (Xshape)\n- The MIT Shared Memory extension (MIT-SHM/Xshm)\n- TOG-CUP (colormap) protocol extension (Xcup)\n- X Extended Visual Information extension (XEvi)\n- X11 Double-Buffering, Multi-Buffering, and Stereo extension (Xmbuf)\n", 
+            "Build Date": " Fri 04 Aug 2017 01:07:53 AM EDT", 
+            "Source RPM": " nx-libs-3.5.0.32-8.fc27.src.rpm", 
+            "Version": " 3.5.0.32", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 09:11:24 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 8.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Common extensions to the NX protocol", 
+            "Size": " 74060"
+        }
+    }
+}

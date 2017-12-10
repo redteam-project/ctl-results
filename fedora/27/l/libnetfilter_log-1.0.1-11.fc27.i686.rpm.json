@@ -1,0 +1,95 @@
+{
+    "results": {
+        "usr/lib/libnetfilter_log_so_1_1_0": {
+            "report-functions": [
+                "nfnl_close", 
+                "nfnl_unset_sequence_tracking", 
+                "snprintf", 
+                "nfnl_query", 
+                "free", 
+                "nfnl_fd", 
+                "nfnl_handle_packet", 
+                "__stack_chk_fail", 
+                "time", 
+                "nfnl_subsys_open", 
+                "nfnl_addattr32", 
+                "localtime_r", 
+                "nfnl_fill_hdr", 
+                "calloc", 
+                "nfnl_addattr_l", 
+                "nfnl_addattr16", 
+                "__snprintf_chk", 
+                "nfnl_rcvbufsiz", 
+                "nfnl_open"
+            ], 
+            "rpm": "libnetfilter_log-1.0.1-11.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libnetfilter_log.so.1.1.0"
+        }, 
+        "usr/lib/libnetfilter_log_libipulog_so_1_0_0": {
+            "report-functions": [
+                "nflog_bind_group", 
+                "strerror", 
+                "puts", 
+                "nfnl_recv", 
+                "nflog_nfnlh", 
+                "nfnl_get_msg_next", 
+                "__errno_location", 
+                "nflog_unbind_group", 
+                "nfnl_parse_attr", 
+                "nflog_bind_pf", 
+                "__stack_chk_fail", 
+                "nflog_close", 
+                "free", 
+                "malloc", 
+                "fwrite", 
+                "fputs", 
+                "__fprintf_chk", 
+                "fputc"
+            ], 
+            "rpm": "libnetfilter_log-1.0.1-11.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libnetfilter_log_libipulog.so.1.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " libnetfilter_log", 
+            "License": " GPLv2", 
+            "URL": " http://netfilter.org", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-29.phx2.fedoraproject.org", 
+            "Description": "\nlibnetfilter_log is a userspace library providing interface to packets that\nhave been logged by the kernel packet filter. It is is part of a system that\ndeprecates the old syslog/dmesg based packet logging.\n\nlibnetfilter_log has been previously known as libnfnetlink_log.\n\nlibnetfilter_log is used by ulogd2.\n", 
+            "Build Date": " Thu 03 Aug 2017 03:11:39 PM EDT", 
+            "Source RPM": " libnetfilter_log-1.0.1-11.fc27.src.rpm", 
+            "Version": " 1.0.1", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 11:44:27 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 11.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Netfilter logging userspace library", 
+            "Size": " 42382"
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " pdc-client", 
+            "License": " MIT", 
+            "URL": " https://github.com/product-definition-center/pdc-client", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-aarch64-18.arm.fedoraproject.org", 
+            "Description": "\nThis client package contains two separate Product Definition Center clients and\nAPI module. Both clients contain extensive built-in help. Just run the\nexecutable with -h or --help argument.\n\n1. pdc_client\n\nThis is a very simple client. Essentially this is just a little more convenient\nthan using curl manually. Each invocation of this client obtains a token and\nthen performs a single request.\n\nThis client is not meant for direct usage, but just as a helper for integrating\nwith PDC from languages where it might be easier than performing the network\nrequests manually.\n\n2. pdc\n\nThis is much more user friendly user interface. A single invocation can perform\nmultiple requests depending on what subcommand you used.\n\nThe pdc client supports Bash completion if argcomplete Python package is\ninstalled.\n\n3. Python API (pdc_client)\n\nWhen writing a client code interfacing with PDC server, you might find\npdc_client module handy. It provides access to the configuration defined above\nand automates obtaining authorization token.\n", 
+            "Build Date": " Fri 28 Jul 2017 01:04:39 AM EDT", 
+            "Source RPM": " pdc-client-1.2.0-4.fc27.src.rpm", 
+            "Version": " 1.2.0", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Fri 28 Jul 2017 06:38:54 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 4.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Console client for interacting with Product Definition Center", 
+            "Size": " 179649"
+        }
+    }
+}

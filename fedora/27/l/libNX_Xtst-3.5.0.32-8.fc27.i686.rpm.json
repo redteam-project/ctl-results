@@ -1,0 +1,68 @@
+{
+    "results": {
+        "usr/lib/nx/libNX_Xtst_so_6_1": {
+            "report-functions": [
+                "_XEatData", 
+                "_XFlush", 
+                "__sprintf_chk", 
+                "_XGetAsyncData", 
+                "__gmon_start__", 
+                "XFree", 
+                "XMissingExtension", 
+                "XextAddDisplay", 
+                "_XReply", 
+                "__assert_fail", 
+                "malloc", 
+                "_XDeqAsyncHandler", 
+                "XGetErrorDatabaseText", 
+                "_XRead", 
+                "XextRemoveDisplay", 
+                "XextCreateExtension", 
+                "XQueryExtension", 
+                "calloc", 
+                "realloc", 
+                "_ITM_deregisterTMCloneTable", 
+                "XextFindDisplay", 
+                "__fprintf_chk", 
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable", 
+                "XPending", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "libNX_Xtst-3.5.0.32-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/nx/libNX_Xtst.so.6.1"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " libNX_Xtst", 
+            "License": " GPLv2+", 
+            "URL": " http://x2go.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-03.phx2.fedoraproject.org", 
+            "Description": "\nThe XTEST extension is a minimal set of client and server extensions\nrequired to completely test the X11 server with no user intervention.\nThis extension is not intended to support general journaling and\nplayback of user actions.\n\nThe RECORD extension supports the recording and reporting of all core\nX protocol and arbitrary X extension protocol.\n", 
+            "Build Date": " Fri 04 Aug 2017 01:07:53 AM EDT", 
+            "Source RPM": " nx-libs-3.5.0.32-8.fc27.src.rpm", 
+            "Version": " 3.5.0.32", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 09:10:49 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 8.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Xlib-based client API for the XTEST and RECORD extensions on NX", 
+            "Size": " 23108"
+        }
+    }
+}

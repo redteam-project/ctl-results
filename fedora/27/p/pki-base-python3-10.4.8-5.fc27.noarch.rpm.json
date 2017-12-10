@@ -1,0 +1,25 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Base", 
+            "Name": " pki-base-python3", 
+            "License": " GPLv2", 
+            "URL": " http://pki.fedoraproject.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-28.phx2.fedoraproject.org", 
+            "Description": "\nThis package contains PKI client library for Python 3.\n\nThis package is a part of the PKI Core used by the Certificate System.\n\n\n==================================\n||  ABOUT \"CERTIFICATE SYSTEM\"  ||\n==================================\n\nCertificate System (CS) is an enterprise software system designed\nto manage enterprise Public Key Infrastructure (PKI) deployments.\n\nPKI Core contains ALL top-level java-based Tomcat PKI components:\n\n  * pki-symkey\n  * pki-base\n  * pki-base-python2 (alias for pki-base)\n  * pki-base-python3\n  * pki-base-java\n  * pki-tools\n  * pki-server\n  * pki-ca\n  * pki-kra\n  * pki-ocsp\n  * pki-tks\n  * pki-tps\n  * pki-javadoc\n\nwhich comprise the following corresponding PKI subsystems:\n\n  * Certificate Authority (CA)\n  * Key Recovery Authority (KRA)\n  * Online Certificate Status Protocol (OCSP) Manager\n  * Token Key Service (TKS)\n  * Token Processing Service (TPS)\n\nPython clients need only install the pki-base package.  This\npackage contains the python REST client packages and the client\nupgrade framework.\n\nJava clients should install the pki-base-java package.  This package\ncontains the legacy and REST Java client packages.  These clients\nshould also consider installing the pki-tools package, which contain\nnative and Java-based PKI tools and utilities.\n\nCertificate Server instances require the fundamental classes and\nmodules in pki-base and pki-base-java, as well as the utilities in\npki-tools.  The main server classes are in pki-server, with subsystem\nspecific Java classes and resources in pki-ca, pki-kra, pki-ocsp etc.\n\nFinally, if Certificate System is being deployed as an individual or\nset of standalone rather than embedded server(s)/service(s), it is\nstrongly recommended (though not explicitly required) to include at\nleast one PKI Theme package:\n\n  * dogtag-pki-theme (Dogtag Certificate System deployments)\n    * dogtag-pki-server-theme\n  * redhat-pki-server-theme (Red Hat Certificate System deployments)\n    * redhat-pki-server-theme\n  * customized pki theme (Customized Certificate System deployments)\n    * <customized>-pki-server-theme\n\n  NOTE:  As a convenience for standalone deployments, top-level meta\n         packages may be provided which bind a particular theme to\n         these certificate server packages.\n", 
+            "Build Date": " Tue 22 Aug 2017 12:05:12 AM EDT", 
+            "Source RPM": " pki-core-10.4.8-5.fc27.src.rpm", 
+            "Version": " 10.4.8", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Tue 22 Aug 2017 01:40:16 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 5.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Certificate System - PKI Framework", 
+            "Size": " 597184"
+        }
+    }
+}

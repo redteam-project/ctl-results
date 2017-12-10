@@ -1,0 +1,92 @@
+{
+    "results": {
+        "usr/lib/libpugixml_so_1_8": {
+            "report-functions": [
+                "_ZNSt13basic_istreamIwSt11char_traitsIwEE4readEPwi", 
+                "_ITM_registerTMCloneTable", 
+                "_ZNSt9basic_iosIcSt11char_traitsIcEE5clearESt12_Ios_Iostate", 
+                "__cxa_free_exception", 
+                "malloc", 
+                "_ZdlPv", 
+                "_ZNSi5tellgEv", 
+                "__cxa_atexit", 
+                "fclose", 
+                "fopen", 
+                "memmove", 
+                "__sprintf_chk", 
+                "__cxa_finalize", 
+                "__umoddi3", 
+                "_Unwind_Resume", 
+                "__gxx_personality_v0", 
+                "_ZNSt13basic_ostreamIwSt11char_traitsIwEE5writeEPKwi", 
+                "_ZNSt9exceptionD2Ev", 
+                "strchr", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6resizeEjc", 
+                "_ZNSi5seekgExSt12_Ios_Seekdir", 
+                "fwrite", 
+                "_ZNSo5writeEPKci", 
+                "_ZNSt9bad_allocD1Ev", 
+                "ftell", 
+                "fseek", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERjj", 
+                "_ZSt19__throw_logic_errorPKc", 
+                "_ZNSt13basic_istreamIwSt11char_traitsIwEE5tellgEv", 
+                "_ZNSt13basic_istreamIwSt11char_traitsIwEE5seekgESt4fposI11__mbstate_tE", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "__udivdi3", 
+                "_ZNSt9basic_iosIwSt11char_traitsIwEE5clearESt12_Ios_Iostate", 
+                "free", 
+                "strtol", 
+                "strstr", 
+                "fmod", 
+                "_ZNSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE6resizeEjw", 
+                "_ZNSi5seekgESt4fposI11__mbstate_tE", 
+                "__cxa_throw", 
+                "strtod", 
+                "__cxa_pure_virtual", 
+                "_ZNSi4readEPci", 
+                "strlen", 
+                "_ZNSt13basic_istreamIwSt11char_traitsIwEE5seekgExSt12_Ios_Seekdir", 
+                "__assert_fail", 
+                "ferror", 
+                "__cxa_allocate_exception", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "pugixml-1.8-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libpugixml.so.1.8"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " pugixml", 
+            "License": " MIT", 
+            "URL": " http://pugixml.org", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-23.phx2.fedoraproject.org", 
+            "Description": "\npugixml is a light-weight C++ XML processing library.\nIt features:\n- DOM-like interface with rich traversal/modification capabilities\n- Extremely fast non-validating XML parser which constructs the DOM tree from\n  an XML file/buffer\n- XPath 1.0 implementation for complex data-driven tree queries\n- Full Unicode support with Unicode interface variants and automatic encoding\n  conversions\n", 
+            "Build Date": " Mon 31 Jul 2017 11:37:05 AM EDT", 
+            "Source RPM": " pugixml-1.8-3.fc27.src.rpm", 
+            "Version": " 1.8", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 31 Jul 2017 11:40:52 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 3.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A light-weight C++ XML processing library", 
+            "Size": " 248998"
+        }
+    }
+}

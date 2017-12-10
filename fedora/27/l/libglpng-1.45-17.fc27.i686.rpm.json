@@ -1,0 +1,81 @@
+{
+    "results": {
+        "usr/lib/libglpng_so_1_45": {
+            "report-functions": [
+                "fclose", 
+                "fread", 
+                "png_set_strip_alpha", 
+                "glTexParameteri", 
+                "png_get_PLTE", 
+                "getenv", 
+                "__cxa_finalize", 
+                "glColorTableEXT", 
+                "png_set_sig_bytes", 
+                "png_get_gAMA", 
+                "_ITM_deregisterTMCloneTable", 
+                "png_set_gray_to_rgb", 
+                "sqrt", 
+                "png_create_read_struct", 
+                "glBindTexture", 
+                "glGenTextures", 
+                "_ITM_registerTMCloneTable", 
+                "glPixelStorei", 
+                "__gmon_start__", 
+                "fopen", 
+                "png_get_IHDR", 
+                "png_get_rowbytes", 
+                "__stack_chk_fail", 
+                "glGetIntegerv", 
+                "png_read_image", 
+                "malloc", 
+                "_setjmp", 
+                "png_read_end", 
+                "png_set_expand", 
+                "png_set_gamma", 
+                "__longjmp_chk", 
+                "png_destroy_read_struct", 
+                "free", 
+                "png_sig_cmp", 
+                "glTexImage2D", 
+                "png_create_info_struct", 
+                "png_set_longjmp_fn", 
+                "__isoc99_sscanf", 
+                "png_init_io"
+            ], 
+            "rpm": "libglpng-1.45-17.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libglpng.so.1.45"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " libglpng", 
+            "License": " MIT", 
+            "URL": " https://admin.fedoraproject.org/pkgdb/packages/name/libglpng", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-07.phx2.fedoraproject.org", 
+            "Description": "\nglpng is a small toolkit to make loading PNG image files as an OpenGL\ntexture as easy as possible.\n", 
+            "Build Date": " Thu 03 Aug 2017 02:22:17 PM EDT", 
+            "Source RPM": " libglpng-1.45-17.fc27.src.rpm", 
+            "Version": " 1.45", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 08:32:11 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 17.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Toolkit for loading PNG images as OpenGL textures", 
+            "Size": " 32433"
+        }
+    }
+}

@@ -1,0 +1,106 @@
+{
+    "results": {
+        "usr/bin/paperconf": {
+            "report-functions": [
+                "systempapername", 
+                "papername", 
+                "paperinit", 
+                "strrchr", 
+                "defaultpapername", 
+                "fputs", 
+                "__fprintf_chk", 
+                "paperinfo", 
+                "exit", 
+                "paperfirst", 
+                "__libc_start_main", 
+                "papernext", 
+                "__printf_chk", 
+                "__errno_location", 
+                "__ctype_b_loc", 
+                "_ITM_registerTMCloneTable", 
+                "puts", 
+                "paperdone", 
+                "__sprintf_chk", 
+                "_ITM_deregisterTMCloneTable", 
+                "getopt", 
+                "systempapersizefile", 
+                "paperpswidth", 
+                "_IO_putc", 
+                "setlocale", 
+                "perror", 
+                "__gmon_start__", 
+                "__ctype_toupper_loc", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "libpaper-1.1.24-16.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/paperconf"
+        }, 
+        "usr/lib/libpaper_so_1_1_2": {
+            "report-functions": [
+                "strcasecmp", 
+                "__cxa_finalize", 
+                "fclose", 
+                "__xstat", 
+                "__ctype_b_loc", 
+                "strcpy", 
+                "free", 
+                "_IO_getc", 
+                "nl_langinfo", 
+                "strchr", 
+                "_ITM_deregisterTMCloneTable", 
+                "strtod", 
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "fopen", 
+                "malloc", 
+                "_ITM_registerTMCloneTable", 
+                "getenv", 
+                "strlen"
+            ], 
+            "rpm": "libpaper-1.1.24-16.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libpaper.so.1.1.2"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " libpaper", 
+            "License": " GPLv2", 
+            "URL": " http://packages.qa.debian.org/libp/libpaper.html", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-11.phx2.fedoraproject.org", 
+            "Description": "\nThe paper library and accompanying files are intended to provide a\nsimple way for applications to take actions based on a system- or\nuser-specified paper size. This release is quite minimal, its purpose\nbeing to provide really basic functions (obtaining the system paper name\nand getting the height and width of a given kind of paper) that\napplications can immediately integrate.\n", 
+            "Build Date": " Thu 03 Aug 2017 03:34:18 PM EDT", 
+            "Source RPM": " libpaper-1.1.24-16.fc27.src.rpm", 
+            "Version": " 1.1.24", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 12:34:26 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 16.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Library and tools for handling papersize", 
+            "Size": " 81879"
+        }
+    }
+}

@@ -1,0 +1,85 @@
+{
+    "results": {
+        "usr/lib/libbson-1_0_so_0_0_0": {
+            "report-functions": [
+                "__vsnprintf_chk", 
+                "gettimeofday", 
+                "gmtime_r", 
+                "gethostname", 
+                "strnlen", 
+                "clock_gettime", 
+                "pthread_once", 
+                "strncmp", 
+                "__xpg_strerror_r", 
+                "__gmon_start__", 
+                "memset", 
+                "close", 
+                "calloc", 
+                "malloc", 
+                "__isoc99_sscanf", 
+                "abort", 
+                "__cxa_finalize", 
+                "memmove", 
+                "__fprintf_chk", 
+                "strspn", 
+                "strtod", 
+                "realloc", 
+                "_ITM_deregisterTMCloneTable", 
+                "strncpy", 
+                "fwrite", 
+                "_ITM_registerTMCloneTable", 
+                "strcmp", 
+                "__errno_location", 
+                "__ctype_b_loc", 
+                "getpid", 
+                "strchr", 
+                "__stack_chk_fail", 
+                "free", 
+                "strtoul", 
+                "strncasecmp", 
+                "time", 
+                "open", 
+                "memcmp", 
+                "__ctype_tolower_loc", 
+                "syscall", 
+                "rand_r", 
+                "strlen", 
+                "read"
+            ], 
+            "rpm": "libbson-1.8.0-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libbson-1.0.so.0.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " libbson", 
+            "License": " ASL 2.0 and ISC and MIT and zlib", 
+            "URL": " https://github.com/mongodb/libbson", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-06.phx2.fedoraproject.org", 
+            "Description": "\nThis is a library providing useful routines related to building, parsing,\nand iterating BSON documents <http://bsonspec.org/>.\n", 
+            "Build Date": " Fri 15 Sep 2017 05:02:51 AM EDT", 
+            "Source RPM": " libbson-1.8.0-1.fc27.src.rpm", 
+            "Version": " 1.8.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 15 Sep 2017 05:14:34 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 1.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Building, parsing, and iterating BSON documents", 
+            "Size": " 1069560"
+        }
+    }
+}

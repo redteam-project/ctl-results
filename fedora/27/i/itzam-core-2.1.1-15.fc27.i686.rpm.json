@@ -1,0 +1,212 @@
+{
+    "results": {
+        "usr/bin/itzam_dump_records": {
+            "report-functions": [
+                "__libc_start_main", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "analyze_datafile", 
+                "puts", 
+                "_ITM_registerTMCloneTable", 
+                "itzam_datafile_open", 
+                "itzam_get_state_description", 
+                "itzam_datafile_close", 
+                "__printf_chk", 
+                "exit"
+            ], 
+            "rpm": "itzam-core-2.1.1-15.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/itzam_dump_records"
+        }, 
+        "usr/bin/itzam_data_tests": {
+            "report-functions": [
+                "itzam_datafile_create", 
+                "puts", 
+                "itzam_datafile_rewind", 
+                "itzam_datafile_remove", 
+                "itzam_datafile_write", 
+                "itzam_datafile_close", 
+                "__libc_start_main", 
+                "__gmon_start__", 
+                "__stack_chk_fail", 
+                "_ITM_registerTMCloneTable", 
+                "_ITM_deregisterTMCloneTable", 
+                "itzam_datafile_open", 
+                "__printf_chk", 
+                "itzam_get_state_description"
+            ], 
+            "rpm": "itzam-core-2.1.1-15.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/itzam_data_tests"
+        }, 
+        "usr/bin/itzam_exercise": {
+            "report-functions": [
+                "itzam_btree_iterator_create", 
+                "itzam_datafile_get_version", 
+                "itzam_btree_iterator_free", 
+                "__cxa_finalize", 
+                "puts", 
+                "analyze_btree", 
+                "itzam_btree_iterator_get_rec_ref", 
+                "time", 
+                "read", 
+                "itzam_btree_iterator_move_next", 
+                "__printf_chk", 
+                "close", 
+                "itzam_datafile_get_refbits", 
+                "_ITM_registerTMCloneTable", 
+                "dump_btree", 
+                "itzam_btree_iterator_is_valid", 
+                "strtol", 
+                "itzam_btree_remove", 
+                "__gmon_start__", 
+                "strtoul", 
+                "open", 
+                "exit", 
+                "itzam_btree_iterator_move_last", 
+                "itzam_btree_read_rec", 
+                "itzam_btree_insert_rec", 
+                "free", 
+                "putchar", 
+                "__snprintf_chk", 
+                "malloc", 
+                "__libc_start_main", 
+                "strcmp", 
+                "__stack_chk_fail", 
+                "_ITM_deregisterTMCloneTable", 
+                "itzam_get_state_description", 
+                "itzam_btree_iterator_move_prev", 
+                "fflush", 
+                "itzam_btree_create"
+            ], 
+            "rpm": "itzam-core-2.1.1-15.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/itzam_exercise"
+        }, 
+        "usr/bin/itzam_bigfile": {
+            "report-functions": [
+                "itzam_btree_iterator_free", 
+                "calloc", 
+                "read", 
+                "__libc_start_main", 
+                "_ITM_registerTMCloneTable", 
+                "strtoul", 
+                "itzam_datafile_seek", 
+                "itzam_btree_iterator_get_rec_ref", 
+                "itzam_btree_insert", 
+                "__snprintf_chk", 
+                "__cxa_finalize", 
+                "itzam_btree_iterator_is_valid", 
+                "itzam_datafile_write", 
+                "itzam_btree_close", 
+                "exit", 
+                "itzam_btree_iterator_move_next", 
+                "time", 
+                "itzam_get_state_description", 
+                "__printf_chk", 
+                "puts", 
+                "__stack_chk_fail", 
+                "_ITM_deregisterTMCloneTable", 
+                "close", 
+                "open", 
+                "itzam_btree_create", 
+                "putchar", 
+                "fflush", 
+                "itzam_btree_iterator_create"
+            ], 
+            "rpm": "itzam-core-2.1.1-15.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/itzam_bigfile"
+        }, 
+        "usr/lib/libitzam-2_1_so_2_0_1": {
+            "report-functions": [
+                "__fprintf_chk", 
+                "fflush", 
+                "fputc", 
+                "exit", 
+                "ftell", 
+                "free", 
+                "__stack_chk_fail", 
+                "fwrite", 
+                "_ITM_deregisterTMCloneTable", 
+                "fread", 
+                "__gmon_start__", 
+                "malloc", 
+                "fclose", 
+                "__cxa_finalize", 
+                "fopen", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "itzam-core-2.1.1-15.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libitzam-2.1.so.2.0.1"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " itzam-core", 
+            "License": " GPLv3+", 
+            "URL": " http://www.coyotegulch.com/products/itzam/index.html", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-31.phx2.fedoraproject.org", 
+            "Description": "\nItzam/Core is a deliberately portable and concise C library for creating and\nmanipulating keyed-access database files containing variable-length, random\naccess records. Information is referenced by a user-defined key value;\nindexes may be combined with or remain separate from data.\n", 
+            "Build Date": " Thu 03 Aug 2017 06:10:58 AM EDT", 
+            "Source RPM": " itzam-core-2.1.1-15.fc27.src.rpm", 
+            "Version": " 2.1.1", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 12:21:13 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 15.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Library for creating and manipulating keyed-access database files", 
+            "Size": " 115210"
+        }
+    }
+}

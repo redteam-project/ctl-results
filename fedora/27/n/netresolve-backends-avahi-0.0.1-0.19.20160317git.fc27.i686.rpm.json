@@ -1,0 +1,85 @@
+{
+    "results": {
+        "usr/lib/libnetresolve-backend-avahi_so_0_0_0": {
+            "report-functions": [
+                "avahi_client_errno", 
+                "ldns_rr_free", 
+                "netresolve_backend_get_servname", 
+                "ldns_rr_descript", 
+                "netresolve_watch_remove", 
+                "ldns_rr_rdf", 
+                "strdup", 
+                "netresolve_backend_get_address", 
+                "avahi_client_new", 
+                "__stack_chk_fail", 
+                "netresolve_timeout_remove", 
+                "ldns_rr_ttl", 
+                "netresolve_backend_failed", 
+                "avahi_address_resolver_new", 
+                "netresolve_backend_set_secure", 
+                "avahi_client_free", 
+                "netresolve_backend_get_nodename", 
+                "avahi_strerror", 
+                "netresolve_backend_finished", 
+                "netresolve_log", 
+                "netresolve_backend_get_dns_srv_lookup", 
+                "ldns_rr_get_type", 
+                "_ITM_registerTMCloneTable", 
+                "netresolve_backend_add_name_info", 
+                "ldns_rdf2native_int16", 
+                "__gmon_start__", 
+                "netresolve_backend_get_family", 
+                "netresolve_backend_get_dns_query", 
+                "ldns_rr_set_rdf", 
+                "free", 
+                "netresolve_watch_add", 
+                "netresolve_backend_add_path", 
+                "ldns_rr_new_frm_type", 
+                "__cxa_finalize", 
+                "netresolve_backend_new_priv", 
+                "netresolve_timeout_add", 
+                "__assert_fail", 
+                "_ITM_deregisterTMCloneTable", 
+                "ldns_rdf_data", 
+                "netresolve_backend_get_protocol", 
+                "ldns_rdf_new_frm_data", 
+                "ldns_rdf2str", 
+                "__asprintf_chk"
+            ], 
+            "rpm": "netresolve-backends-avahi-0.0.1-0.19.20160317git.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libnetresolve-backend-avahi.so.0.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " netresolve-backends-avahi", 
+            "License": " BSD", 
+            "URL": " https://sourceware.org/netresolve/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-14.phx2.fedoraproject.org", 
+            "Description": "\nThis package provides Multicast DNS capabilities using Avahi daemon and\nlibraries.\n", 
+            "Build Date": " Fri 04 Aug 2017 12:00:08 AM EDT", 
+            "Source RPM": " netresolve-0.0.1-0.19.20160317git.fc27.src.rpm", 
+            "Version": " 0.0.1", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 08:12:06 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 0.19.20160317git.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Multicast DNS backend for netresolve based on libavahi", 
+            "Size": " 14712"
+        }
+    }
+}

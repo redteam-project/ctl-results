@@ -1,0 +1,75 @@
+{
+    "results": {
+        "usr/lib/libquadmath_so_0_0_0": {
+            "report-functions": [
+                "__ctype_tolower_loc", 
+                "wcrtomb", 
+                "feholdexcept", 
+                "__errno_location", 
+                "nl_langinfo", 
+                "fesetenv", 
+                "qsort", 
+                "_IO_putc", 
+                "fesetround", 
+                "feclearexcept", 
+                "putwc", 
+                "strtoull", 
+                "fegetround", 
+                "fwrite", 
+                "memcpy", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable", 
+                "register_printf_type", 
+                "__stack_chk_fail", 
+                "sqrtl", 
+                "__cxa_finalize", 
+                "malloc", 
+                "wctrans", 
+                "register_printf_modifier", 
+                "free", 
+                "towctrans", 
+                "feupdateenv", 
+                "memmove", 
+                "scalbn", 
+                "__gmon_start__", 
+                "fetestexcept", 
+                "__ctype_b_loc", 
+                "register_printf_specifier"
+            ], 
+            "rpm": "libquadmath-7.2.1-2.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libquadmath.so.0.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " libquadmath", 
+            "License": " GPLv3+ and GPLv3+ with exceptions and GPLv2+ with exceptions and LGPLv2+ and BSD", 
+            "URL": " http://gcc.gnu.org", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-05.phx2.fedoraproject.org", 
+            "Description": "\nThis package contains GCC shared support library which is needed\nfor __float128 math support and for Fortran REAL*16 support.\n", 
+            "Build Date": " Fri 15 Sep 2017 08:13:45 AM EDT", 
+            "Source RPM": " gcc-7.2.1-2.fc27.src.rpm", 
+            "Version": " 7.2.1", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 16 Sep 2017 10:09:17 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 2.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " GCC __float128 shared support library", 
+            "Size": " 646327"
+        }
+    }
+}

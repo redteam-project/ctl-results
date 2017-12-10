@@ -1,0 +1,90 @@
+{
+    "results": {
+        "usr/lib/libdvdread_so_4_2_0": {
+            "report-functions": [
+                "__snprintf_chk", 
+                "fclose", 
+                "dlsym", 
+                "dlopen", 
+                "strdup", 
+                "puts", 
+                "closedir", 
+                "readdir64", 
+                "__stack_chk_fail", 
+                "__fprintf_chk", 
+                "realloc", 
+                "abort", 
+                "fopen64", 
+                "strchr", 
+                "strcasecmp", 
+                "__strncat_chk", 
+                "memcmp", 
+                "putchar", 
+                "__sprintf_chk", 
+                "calloc", 
+                "strlen", 
+                "read", 
+                "__ctype_b_loc", 
+                "__assert_fail", 
+                "fputc", 
+                "getmntent", 
+                "fchdir", 
+                "strtok", 
+                "free", 
+                "__gmon_start__", 
+                "__xstat64", 
+                "strcmp", 
+                "lseek64", 
+                "getcwd", 
+                "opendir", 
+                "fwrite", 
+                "__cxa_finalize", 
+                "perror", 
+                "_ITM_registerTMCloneTable", 
+                "_ITM_deregisterTMCloneTable", 
+                "dlclose", 
+                "malloc", 
+                "__errno_location", 
+                "strncasecmp", 
+                "close", 
+                "open64", 
+                "__printf_chk", 
+                "getenv"
+            ], 
+            "rpm": "libdvdread-5.0.3-7.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libdvdread.so.4.2.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " libdvdread", 
+            "License": " GPLv2+", 
+            "URL": " http://dvdnav.mplayerhq.hu/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-11.phx2.fedoraproject.org", 
+            "Description": "\nlibdvdread provides a simple foundation for reading DVD video disks.\nIt provides the functionality that is required to access many DVDs.\n", 
+            "Build Date": " Sat 12 Aug 2017 11:28:10 PM EDT", 
+            "Source RPM": " libdvdread-5.0.3-7.fc27.src.rpm", 
+            "Version": " 5.0.3", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 12 Aug 2017 11:31:06 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 7.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A library for reading DVD video discs based on Ogle code", 
+            "Size": " 159113"
+        }
+    }
+}

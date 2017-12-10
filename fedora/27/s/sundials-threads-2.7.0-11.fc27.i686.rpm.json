@@ -1,0 +1,82 @@
+{
+    "results": {
+        "usr/lib/libsundials_nvecpthreads_so_2_7_0": {
+            "report-functions": [
+                "pthread_mutex_init", 
+                "sqrt", 
+                "pthread_exit", 
+                "__cxa_finalize", 
+                "pthread_mutex_lock", 
+                "pow", 
+                "putchar", 
+                "malloc", 
+                "pthread_mutex_destroy", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "pthread_mutex_unlock", 
+                "__stack_chk_fail", 
+                "pthread_attr_setdetachstate", 
+                "exp", 
+                "pthread_attr_destroy", 
+                "pthread_join", 
+                "free", 
+                "_ITM_registerTMCloneTable", 
+                "__printf_chk"
+            ], 
+            "rpm": "sundials-threads-2.7.0-11.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libsundials_nvecpthreads.so.2.7.0"
+        }, 
+        "usr/lib/libsundials_fnvecpthreads_so_2_7_0": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "N_VCloneVectorArrayEmpty_Pthreads", 
+                "_ITM_deregisterTMCloneTable", 
+                "N_VNewEmpty_Pthreads"
+            ], 
+            "rpm": "sundials-threads-2.7.0-11.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libsundials_fnvecpthreads.so.2.7.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " sundials-threads", 
+            "License": " BSD", 
+            "URL": " http://www.llnl.gov/casc/sundials/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-17.phx2.fedoraproject.org", 
+            "Description": "\nSUNDIALS is a SUite of Non-linear DIfferential/ALgebraic equation Solvers\nfor use in writing mathematical software.\nThis package contains the Sundials libraries (included the Fortran ones)\ncompiled with threading support.\n", 
+            "Build Date": " Mon 31 Jul 2017 01:03:08 PM EDT", 
+            "Source RPM": " sundials-2.7.0-11.fc27.src.rpm", 
+            "Version": " 2.7.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 31 Jul 2017 01:14:46 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 11.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Suite of nonlinear solvers", 
+            "Size": " 50056"
+        }
+    }
+}

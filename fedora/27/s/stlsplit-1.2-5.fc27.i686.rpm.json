@@ -1,0 +1,108 @@
+{
+    "results": {
+        "usr/lib/libstlsplit_so_1": {
+            "report-functions": [
+                "stl_repair", 
+                "__cxa_rethrow", 
+                "__gxx_personality_v0", 
+                "__cxa_end_catch", 
+                "_Znwj", 
+                "_ZSt17__throw_bad_allocv", 
+                "__cxa_finalize", 
+                "_ZSt29_Rb_tree_insert_and_rebalancebPSt18_Rb_tree_node_baseS0_RS_", 
+                "__cxa_begin_catch", 
+                "stl_allocate", 
+                "_ITM_registerTMCloneTable", 
+                "memmove", 
+                "_ITM_deregisterTMCloneTable", 
+                "_Unwind_Resume", 
+                "_ZdlPv", 
+                "__stack_chk_fail", 
+                "stl_initialize", 
+                "_ZSt18_Rb_tree_decrementPSt18_Rb_tree_node_base"
+            ], 
+            "rpm": "stlsplit-1.2-5.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libstlsplit.so.1"
+        }, 
+        "usr/bin/stlsplit": {
+            "report-functions": [
+                "_ZNSt8ios_base4InitC1Ev", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERjj", 
+                "__gxx_personality_v0", 
+                "_ZNSo9_M_insertImEERSoT_", 
+                "_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_i", 
+                "__cxa_finalize", 
+                "stl_open", 
+                "_ZdlPv", 
+                "_Z9stl_splitP8stl_file", 
+                "_ZNSt6localeD1Ev", 
+                "_ZNSt8ios_baseD2Ev", 
+                "stl_exit_on_error", 
+                "_ZNSt8ios_baseC2Ev", 
+                "__libc_start_main", 
+                "_ZNSt9basic_iosIcSt11char_traitsIcEE5clearESt12_Ios_Iostate", 
+                "_ZNSt8ios_base4InitD1Ev", 
+                "_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_", 
+                "_ITM_registerTMCloneTable", 
+                "_Unwind_Resume", 
+                "_ZdlPvj", 
+                "_ZNSt6localeC1Ev", 
+                "_ZNSt9basic_iosIcSt11char_traitsIcEE4initEPSt15basic_streambufIcS1_E", 
+                "__gmon_start__", 
+                "_ZNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEED1Ev", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_assignERKS4_", 
+                "__cxa_atexit", 
+                "strlen", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc", 
+                "stl_close", 
+                "__stack_chk_fail", 
+                "_ZSt19__throw_logic_errorPKc"
+            ], 
+            "rpm": "stlsplit-1.2-5.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/stlsplit"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Applications/Engineering", 
+            "Name": " stlsplit", 
+            "License": " AGPLv3+", 
+            "URL": " http://github.com/admesh/stlsplit/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-14.phx2.fedoraproject.org", 
+            "Description": "\nstlsplit receives one STL file and splits it to several files -\none shell a file.\n", 
+            "Build Date": " Fri 04 Aug 2017 07:11:28 PM EDT", 
+            "Source RPM": " stlsplit-1.2-5.fc27.src.rpm", 
+            "Version": " 1.2", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 05 Aug 2017 05:06:37 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 5.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Split STL file to more files - one shell each", 
+            "Size": " 56808"
+        }
+    }
+}

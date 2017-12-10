@@ -1,0 +1,92 @@
+{
+    "results": {
+        "usr/bin/udcli": {
+            "report-functions": [
+                "ud_set_pc", 
+                "__stack_chk_fail", 
+                "ud_input_skip", 
+                "__isoc99_sscanf", 
+                "ud_set_mode", 
+                "fopen", 
+                "exit", 
+                "ud_disassemble", 
+                "putchar", 
+                "__gmon_start__", 
+                "__fprintf_chk", 
+                "_ITM_deregisterTMCloneTable", 
+                "ud_set_input_hook", 
+                "ud_insn_off", 
+                "__printf_chk", 
+                "ud_insn_asm", 
+                "_ITM_registerTMCloneTable", 
+                "ud_translate_att", 
+                "ud_translate_intel", 
+                "ud_set_syntax", 
+                "strcmp", 
+                "fwrite", 
+                "ud_init", 
+                "strlen", 
+                "ud_set_vendor", 
+                "fgetc", 
+                "ud_insn_hex", 
+                "__isoc99_fscanf"
+            ], 
+            "rpm": "udis86-1.7.2-9.56ff6c8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/udcli"
+        }, 
+        "usr/lib/libudis86_so_0_0_0": {
+            "report-functions": [
+                "fgetc", 
+                "__cxa_finalize", 
+                "__sprintf_chk", 
+                "__vsnprintf_chk", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "udis86-1.7.2-9.56ff6c8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libudis86.so.0.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " udis86", 
+            "License": " BSD", 
+            "URL": " https://github.com/vmt/udis86", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-22.phx2.fedoraproject.org", 
+            "Description": "\nudis86 is a disassembler library (libudis86) for x86 and x86-64.\nThe primary intent is to aid binary code analysis.\n", 
+            "Build Date": " Fri 04 Aug 2017 09:24:51 PM EDT", 
+            "Source RPM": " udis86-1.7.2-9.56ff6c8.fc27.src.rpm", 
+            "Version": " 1.7.2", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 05 Aug 2017 07:48:50 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 9.56ff6c8.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A disassembler library for x86 and x86-64", 
+            "Size": " 123680"
+        }
+    }
+}

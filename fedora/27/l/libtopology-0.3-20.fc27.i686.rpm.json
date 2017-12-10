@@ -1,0 +1,78 @@
+{
+    "results": {
+        "usr/lib/libtopology_so_0_3": {
+            "report-functions": [
+                "sscanf", 
+                "openat", 
+                "hcreate_r", 
+                "readdir64", 
+                "__sprintf_chk", 
+                "__snprintf_chk", 
+                "__assert_fail", 
+                "__getdelim", 
+                "_ITM_registerTMCloneTable", 
+                "__gmon_start__", 
+                "__asprintf_chk", 
+                "realloc", 
+                "sched_getaffinity", 
+                "hdestroy_r", 
+                "__cxa_finalize", 
+                "strcmp", 
+                "sysconf", 
+                "close", 
+                "read", 
+                "fdopen", 
+                "closedir", 
+                "strchr", 
+                "fclose", 
+                "getpid", 
+                "hsearch_r", 
+                "calloc", 
+                "getenv", 
+                "__errno_location", 
+                "strlen", 
+                "opendir", 
+                "dirfd", 
+                "open", 
+                "__ctype_b_loc", 
+                "fcntl", 
+                "_ITM_deregisterTMCloneTable", 
+                "strdup"
+            ], 
+            "rpm": "libtopology-0.3-20.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libtopology.so.0.3"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " libtopology", 
+            "License": " LGPLv2", 
+            "URL": " http://libtopology.ozlabs.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-28.phx2.fedoraproject.org", 
+            "Description": "\nLibtopology is a library for discovering the hardware topology on Linux\nsystems.\n", 
+            "Build Date": " Thu 03 Aug 2017 04:27:00 PM EDT", 
+            "Source RPM": " libtopology-0.3-20.fc27.src.rpm", 
+            "Version": " 0.3", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 01:57:47 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 20.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " CPU Topology library", 
+            "Size": " 37003"
+        }
+    }
+}

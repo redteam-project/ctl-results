@@ -1,0 +1,92 @@
+{
+    "results": {
+        "usr/lib/libtag-extras_so_1_0_1": {
+            "report-functions": [
+                "_ZN6TagLib10ByteVectorD1Ev", 
+                "_Unwind_Resume", 
+                "_ZN6TagLib6StringC1Ev", 
+                "_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_i", 
+                "close", 
+                "__gxx_personality_v0", 
+                "_ITM_registerTMCloneTable", 
+                "wcsrchr", 
+                "wcscasecmp", 
+                "fseek", 
+                "fread", 
+                "lseek", 
+                "open", 
+                "free", 
+                "_ZdaPv", 
+                "_ZN6TagLib6StringC1EPKcNS0_4TypeE", 
+                "strdup", 
+                "_ZNSt8ios_base4InitC1Ev", 
+                "_ZNK6TagLib3Tag7isEmptyEv", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ZN6TagLib3Tag9duplicateEPKS0_PS0_b", 
+                "_ZN6TagLib3TagC2Ev", 
+                "_ZNK6TagLib4File6isOpenEv", 
+                "_ZN6TagLib3TagD2Ev", 
+                "read", 
+                "_ZN6TagLib4FileD2Ev", 
+                "_ZN6TagLib6StringD1Ev", 
+                "_ZN6TagLib6StringC1ERKS0_", 
+                "_ZNK6TagLib6StringeqERKS0_", 
+                "__cxa_atexit", 
+                "_ZNK6TagLib6String6isNullEv", 
+                "__gmon_start__", 
+                "_ZN6TagLib6StringaSERKS0_", 
+                "__cxa_finalize", 
+                "_ZN6TagLib4FileC2EPKc", 
+                "_ZN6TagLib4File6lengthEv", 
+                "__stack_chk_fail", 
+                "_ZdlPv", 
+                "fclose", 
+                "_ZNSt8ios_base4InitD1Ev", 
+                "strcasecmp", 
+                "__fprintf_chk", 
+                "_ZNK6TagLib5ID3v13Tag6renderEv", 
+                "strtol", 
+                "_Znwj", 
+                "fopen", 
+                "_ZN6TagLib5ID3v13TagC1EPNS_4FileEl", 
+                "_Znaj", 
+                "_ZN6TagLib15AudioPropertiesC2ENS0_9ReadStyleE", 
+                "strrchr"
+            ], 
+            "rpm": "taglib-extras-1.0.1-16.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libtag-extras.so.1.0.1"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " taglib-extras", 
+            "License": " LGPLv2", 
+            "URL": " http://websvn.kde.org/trunk/kdesupport/taglib-extras/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-21.phx2.fedoraproject.org", 
+            "Description": "\nTaglib-extras delivers support for reading and editing the meta-data of\naudio formats not supported by taglib, including: asf, mp4v2, rmff, wav.\n", 
+            "Build Date": " Fri 04 Aug 2017 07:59:36 PM EDT", 
+            "Source RPM": " taglib-extras-1.0.1-16.fc27.src.rpm", 
+            "Version": " 1.0.1", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 05 Aug 2017 06:09:32 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 16.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Taglib support for other formats", 
+            "Size": " 85076"
+        }
+    }
+}

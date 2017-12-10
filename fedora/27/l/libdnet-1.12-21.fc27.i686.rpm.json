@@ -1,0 +1,84 @@
+{
+    "results": {
+        "usr/lib/libdnet_so_1_0_1": {
+            "report-functions": [
+                "close", 
+                "getsockname", 
+                "fgets", 
+                "ioctl", 
+                "free", 
+                "__ctype_b_loc", 
+                "sendto", 
+                "__snprintf_chk", 
+                "strtol", 
+                "__sprintf_chk", 
+                "memmove", 
+                "__gmon_start__", 
+                "connect", 
+                "_ITM_deregisterTMCloneTable", 
+                "__printf_chk", 
+                "gettimeofday", 
+                "bind", 
+                "open", 
+                "__errno_location", 
+                "__strcpy_chk", 
+                "writev", 
+                "realloc", 
+                "memcmp", 
+                "setsockopt", 
+                "__isoc99_sscanf", 
+                "readv", 
+                "calloc", 
+                "malloc", 
+                "recvmsg", 
+                "ferror", 
+                "sendmsg", 
+                "gethostbyname", 
+                "strcmp", 
+                "fclose", 
+                "socket", 
+                "fopen", 
+                "_ITM_registerTMCloneTable", 
+                "read", 
+                "getsockopt", 
+                "putchar", 
+                "strlen", 
+                "strchr"
+            ], 
+            "rpm": "libdnet-1.12-21.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libdnet.so.1.0.1"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " libdnet", 
+            "License": " BSD", 
+            "URL": " http://code.google.com/p/libdnet/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-30.phx2.fedoraproject.org", 
+            "Description": "\nlibdnet provides a simplified, portable interface to several\nlow-level networking routines, including network address\nmanipulation, kernel arp(4) cache and route(4) table lookup and\nmanipulation, network firewalling (IP filter, ipfw, ipchains,\npf, ...), network interface lookup and manipulation, raw IP\npacket and Ethernet frame, and data transmission.\n", 
+            "Build Date": " Thu 03 Aug 2017 02:01:43 PM EDT", 
+            "Source RPM": " libdnet-1.12-21.fc27.src.rpm", 
+            "Version": " 1.12", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 07:00:34 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 21.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Simple portable interface to lowlevel networking routines", 
+            "Size": " 60440"
+        }
+    }
+}

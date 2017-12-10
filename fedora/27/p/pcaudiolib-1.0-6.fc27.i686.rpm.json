@@ -1,0 +1,77 @@
+{
+    "results": {
+        "usr/lib/libpcaudio_so_0_0_0": {
+            "report-functions": [
+                "snd_pcm_hw_params_set_format", 
+                "strerror", 
+                "__gmon_start__", 
+                "strdup", 
+                "snd_pcm_drain", 
+                "snd_pcm_close", 
+                "snd_pcm_hw_params_set_access", 
+                "pa_strerror", 
+                "pa_simple_new", 
+                "close", 
+                "_ITM_deregisterTMCloneTable", 
+                "snd_pcm_writei", 
+                "free", 
+                "ioctl", 
+                "__errno_location", 
+                "snd_pcm_state", 
+                "snd_pcm_open", 
+                "snd_pcm_hw_params_malloc", 
+                "pa_simple_write", 
+                "open", 
+                "snd_pcm_drop", 
+                "snd_pcm_prepare", 
+                "snd_pcm_hw_params", 
+                "malloc", 
+                "snd_pcm_hw_params_free", 
+                "snd_strerror", 
+                "snd_pcm_hw_params_set_channels", 
+                "snd_pcm_hw_params_set_rate_near", 
+                "__cxa_finalize", 
+                "pa_simple_free", 
+                "snd_pcm_hw_params_any", 
+                "_ITM_registerTMCloneTable", 
+                "write", 
+                "pa_simple_flush", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "pcaudiolib-1.0-6.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libpcaudio.so.0.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " pcaudiolib", 
+            "License": " GPLv3+", 
+            "URL": " https://github.com/rhdunn/pcaudiolib", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-32.phx2.fedoraproject.org", 
+            "Description": "\nThe Portable C Audio Library (pcaudiolib) provides a C API to different\naudio devices.\n", 
+            "Build Date": " Fri 04 Aug 2017 03:52:38 AM EDT", 
+            "Source RPM": " pcaudiolib-1.0-6.fc27.src.rpm", 
+            "Version": " 1.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 11:52:32 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 6.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Portable C Audio Library", 
+            "Size": " 52333"
+        }
+    }
+}

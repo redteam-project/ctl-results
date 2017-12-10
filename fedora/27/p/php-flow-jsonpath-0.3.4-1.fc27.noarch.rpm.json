@@ -1,0 +1,25 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " php-flow-jsonpath", 
+            "License": " MIT", 
+            "URL": " https://github.com/FlowCommunications/JSONPath", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-04.phx2.fedoraproject.org", 
+            "Description": "\nThis is a JSONPath [1] implementation for PHP based on Stefan Goessner's\nJSONPath script.\n\nJSONPath is an XPath-like expression language for filtering, flattening and\nextracting data.\n\nI believe that is improves on the original script (which was last updated in\n2007) by doing a few things:\n* Object-oriented code (should be easier to manage or extend in future)\n* Expressions are parsed into tokens using some code cribbed from Doctrine\n  Lexer and cached\n* There is no eval() in use\n* Performance is pretty much the same\n* Any combination of objects/arrays/ArrayAccess-objects can be used as the data\n  input which is great if you're de-serializing JSON in to objects or if you\n  want to process your own data structures.\n\nAutoloader: /usr/share/php/Flow/JSONPath/autoload.php\n\n[1] http://goessner.net/articles/JsonPath/\n", 
+            "Build Date": " Wed 30 Aug 2017 08:24:27 AM EDT", 
+            "Source RPM": " php-flow-jsonpath-0.3.4-1.fc27.src.rpm", 
+            "Version": " 0.3.4", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Wed 30 Aug 2017 09:12:01 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 1.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " JSONPath implementation for parsing, searching and flattening arrays", 
+            "Size": " 30282"
+        }
+    }
+}

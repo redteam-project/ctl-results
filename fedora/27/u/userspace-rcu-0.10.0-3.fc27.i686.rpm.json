@@ -1,0 +1,324 @@
+{
+    "results": {
+        "usr/lib/liburcu-common_so_6_0_0": {
+            "report-functions": [
+                "pthread_mutex_destroy", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize", 
+                "pthread_mutex_lock", 
+                "pthread_cond_wait", 
+                "poll", 
+                "pthread_cond_broadcast", 
+                "__errno_location", 
+                "_ITM_registerTMCloneTable", 
+                "__assert_fail", 
+                "pthread_mutex_unlock"
+            ], 
+            "rpm": "userspace-rcu-0.10.0-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/liburcu-common.so.6.0.0"
+        }, 
+        "usr/lib/liburcu-bp_so_6_0_0": {
+            "report-functions": [
+                "pthread_mutex_init", 
+                "___tls_get_addr", 
+                "__assert_fail", 
+                "sysconf", 
+                "pthread_cond_wait", 
+                "free", 
+                "fwrite", 
+                "pthread_mutex_lock", 
+                "_ITM_deregisterTMCloneTable", 
+                "pthread_key_delete", 
+                "mremap", 
+                "_ITM_registerTMCloneTable", 
+                "abort", 
+                "pthread_sigmask", 
+                "munmap", 
+                "sched_getcpu", 
+                "__errno_location", 
+                "sigfillset", 
+                "pthread_mutex_unlock", 
+                "pthread_cond_broadcast", 
+                "pthread_join", 
+                "pthread_setspecific", 
+                "syscall", 
+                "pthread_create", 
+                "__cxa_finalize", 
+                "mmap", 
+                "pthread_key_create", 
+                "pthread_exit", 
+                "calloc", 
+                "poll", 
+                "__fprintf_chk", 
+                "malloc", 
+                "strerror", 
+                "sched_setaffinity", 
+                "pthread_self"
+            ], 
+            "rpm": "userspace-rcu-0.10.0-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/liburcu-bp.so.6.0.0"
+        }, 
+        "usr/lib/liburcu-mb_so_6_0_0": {
+            "report-functions": [
+                "pthread_create", 
+                "abort", 
+                "pthread_cond_broadcast", 
+                "__assert_fail", 
+                "poll", 
+                "pthread_exit", 
+                "syscall", 
+                "__errno_location", 
+                "calloc", 
+                "pthread_join", 
+                "__gmon_start__", 
+                "___tls_get_addr", 
+                "free", 
+                "sched_setaffinity", 
+                "__fprintf_chk", 
+                "__stack_chk_fail", 
+                "pthread_mutex_lock", 
+                "pthread_mutex_unlock", 
+                "_ITM_registerTMCloneTable", 
+                "pthread_mutex_init", 
+                "fwrite", 
+                "__cxa_finalize", 
+                "sched_getcpu", 
+                "malloc", 
+                "pthread_cond_wait", 
+                "sysconf", 
+                "strerror"
+            ], 
+            "rpm": "userspace-rcu-0.10.0-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/liburcu-mb.so.6.0.0"
+        }, 
+        "usr/lib/liburcu-cds_so_6_0_0": {
+            "report-functions": [
+                "abort", 
+                "__cxa_finalize", 
+                "pthread_create", 
+                "poll", 
+                "sigfillset", 
+                "sched_getcpu", 
+                "__assert_fail", 
+                "strerror", 
+                "munmap", 
+                "pthread_mutex_destroy", 
+                "pthread_mutex_lock", 
+                "__errno_location", 
+                "free", 
+                "malloc", 
+                "__fprintf_chk", 
+                "syscall", 
+                "_ITM_registerTMCloneTable", 
+                "__stack_chk_fail", 
+                "pthread_cond_broadcast", 
+                "pthread_cond_wait", 
+                "__gmon_start__", 
+                "mmap", 
+                "calloc", 
+                "pthread_mutex_init", 
+                "pthread_mutex_unlock", 
+                "_ITM_deregisterTMCloneTable", 
+                "pthread_sigmask", 
+                "getpagesize", 
+                "sysconf"
+            ], 
+            "rpm": "userspace-rcu-0.10.0-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/liburcu-cds.so.6.0.0"
+        }, 
+        "usr/lib/liburcu-qsbr_so_6_0_0": {
+            "report-functions": [
+                "syscall", 
+                "pthread_join", 
+                "fwrite", 
+                "pthread_cond_wait", 
+                "pthread_exit", 
+                "sysconf", 
+                "_ITM_deregisterTMCloneTable", 
+                "free", 
+                "__stack_chk_fail", 
+                "__fprintf_chk", 
+                "pthread_cond_broadcast", 
+                "pthread_mutex_lock", 
+                "pthread_mutex_unlock", 
+                "pthread_mutex_init", 
+                "poll", 
+                "strerror", 
+                "pthread_self", 
+                "__cxa_finalize", 
+                "__gmon_start__", 
+                "__errno_location", 
+                "abort", 
+                "sched_getcpu", 
+                "sched_setaffinity", 
+                "__assert_fail", 
+                "pthread_create", 
+                "_ITM_registerTMCloneTable", 
+                "___tls_get_addr"
+            ], 
+            "rpm": "userspace-rcu-0.10.0-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/liburcu-qsbr.so.6.0.0"
+        }, 
+        "usr/lib/liburcu_so_6_0_0": {
+            "report-functions": [
+                "pthread_exit", 
+                "_ITM_registerTMCloneTable", 
+                "pthread_join", 
+                "pthread_mutex_lock", 
+                "__assert_fail", 
+                "syscall", 
+                "abort", 
+                "sched_setaffinity", 
+                "sysconf", 
+                "_ITM_deregisterTMCloneTable", 
+                "sched_getcpu", 
+                "strerror", 
+                "___tls_get_addr", 
+                "pthread_cond_broadcast", 
+                "malloc", 
+                "poll", 
+                "__fprintf_chk", 
+                "__cxa_finalize", 
+                "__stack_chk_fail", 
+                "free", 
+                "calloc", 
+                "pthread_cond_wait", 
+                "pthread_mutex_init", 
+                "fwrite", 
+                "pthread_mutex_unlock", 
+                "__errno_location", 
+                "pthread_self"
+            ], 
+            "rpm": "userspace-rcu-0.10.0-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/liburcu.so.6.0.0"
+        }, 
+        "usr/lib/liburcu-signal_so_6_0_0": {
+            "report-functions": [
+                "pthread_mutex_lock", 
+                "sysconf", 
+                "__stack_chk_fail", 
+                "pthread_cond_wait", 
+                "syscall", 
+                "strerror", 
+                "pthread_kill", 
+                "malloc", 
+                "sched_setaffinity", 
+                "fwrite", 
+                "__cxa_finalize", 
+                "sigaction", 
+                "_ITM_deregisterTMCloneTable", 
+                "calloc", 
+                "sched_getcpu", 
+                "pthread_mutex_unlock", 
+                "pthread_create", 
+                "__fprintf_chk", 
+                "sigemptyset", 
+                "pthread_cond_broadcast", 
+                "_ITM_registerTMCloneTable", 
+                "free", 
+                "pthread_self", 
+                "pthread_mutex_init", 
+                "__assert_fail", 
+                "poll", 
+                "pthread_exit", 
+                "pthread_join", 
+                "__errno_location", 
+                "abort"
+            ], 
+            "rpm": "userspace-rcu-0.10.0-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/liburcu-signal.so.6.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " userspace-rcu", 
+            "License": " LGPLv2+", 
+            "URL": " http://liburcu.org", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-25.phx2.fedoraproject.org", 
+            "Description": "\nThis data synchronization library provides read-side access which scales\nlinearly with the number of cores. It does so by allowing multiples copies\nof a given data structure to live at the same time, and by monitoring\nthe data structure accesses to detect grace periods after which memory\nreclamation is possible.\n", 
+            "Build Date": " Fri 04 Aug 2017 10:08:42 PM EDT", 
+            "Source RPM": " userspace-rcu-0.10.0-3.fc27.src.rpm", 
+            "Version": " 0.10.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 05 Aug 2017 09:38:15 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 3.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " RCU (read-copy-update) implementation in user-space", 
+            "Size": " 303379"
+        }
+    }
+}

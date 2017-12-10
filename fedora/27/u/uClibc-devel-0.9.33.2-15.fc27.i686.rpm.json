@@ -1,0 +1,168 @@
+{
+    "results": {
+        "usr/include/uClibc/sys/elf_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/uClibc/sys/elf.h", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "uClibc-devel-0.9.33.2-15.fc27.i686.rpm"
+        }, 
+        "usr/include/uClibc/linux/elf_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/uClibc/linux/elf.h", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "uClibc-devel-0.9.33.2-15.fc27.i686.rpm"
+        }, 
+        "usr/lib/uClibc/crt1_o": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib/uClibc/crt1.o", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "report-functions": [
+                "__uClibc_main", 
+                "main", 
+                "_init"
+            ], 
+            "rpm": "uClibc-devel-0.9.33.2-15.fc27.i686.rpm"
+        }, 
+        "usr/include/uClibc/linux/elf-em_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/uClibc/linux/elf-em.h", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "uClibc-devel-0.9.33.2-15.fc27.i686.rpm"
+        }, 
+        "usr/lib/uClibc/crti_o": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib/uClibc/crti.o", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "report-functions": [], 
+            "rpm": "uClibc-devel-0.9.33.2-15.fc27.i686.rpm"
+        }, 
+        "usr/include/uClibc/elf_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/uClibc/elf.h", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "uClibc-devel-0.9.33.2-15.fc27.i686.rpm"
+        }, 
+        "usr/include/uClibc/bits/elfclass_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/uClibc/bits/elfclass.h", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "uClibc-devel-0.9.33.2-15.fc27.i686.rpm"
+        }, 
+        "usr/include/uClibc/linux/elfcore_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/uClibc/linux/elfcore.h", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "uClibc-devel-0.9.33.2-15.fc27.i686.rpm"
+        }, 
+        "usr/include/uClibc/linux/elf-fdpic_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/uClibc/linux/elf-fdpic.h", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "uClibc-devel-0.9.33.2-15.fc27.i686.rpm"
+        }, 
+        "usr/lib/uClibc/crtn_o": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib/uClibc/crtn.o", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "report-functions": [], 
+            "rpm": "uClibc-devel-0.9.33.2-15.fc27.i686.rpm"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " uClibc-devel", 
+            "License": " LGPLv2", 
+            "URL": " http://www.uclibc.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-20.phx2.fedoraproject.org", 
+            "Description": "\nuClibc is a C library for developing embedded Linux systems.\nIt is much smaller than the GNU C Library, but nearly all applications\nsupported by glibc also work perfectly with uClibc.\nThis package contains the header files and libraries\nneeded for uClibc package.\n", 
+            "Build Date": " Fri 04 Aug 2017 09:17:09 PM EDT", 
+            "Source RPM": " uClibc-0.9.33.2-15.fc27.src.rpm", 
+            "Version": " 0.9.33.2", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 11:35:29 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 15.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Header files and libraries for uClibc library", 
+            "Size": " 7020534"
+        }
+    }
+}

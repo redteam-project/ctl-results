@@ -1,0 +1,65 @@
+{
+    "results": {
+        "usr/lib/libmm_so_14_0_22": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "__errno_location", 
+                "strlen", 
+                "sysconf", 
+                "__fprintf_chk", 
+                "open", 
+                "fcntl", 
+                "unlink", 
+                "chown", 
+                "shmat", 
+                "__gmon_start__", 
+                "shmdt", 
+                "getpid", 
+                "getuid", 
+                "strerror", 
+                "__stack_chk_fail", 
+                "shmctl", 
+                "__sprintf_chk", 
+                "fwrite", 
+                "shmget", 
+                "close", 
+                "chmod", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "mm-1.4.2-19.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libmm.so.14.0.22"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " mm", 
+            "License": " BSD with advertising", 
+            "URL": " http://www.ossp.org/pkg/lib/mm/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-28.phx2.fedoraproject.org", 
+            "Description": "\nOSSP mm is a 2-layer abstraction library which simplifies the usage of\nshared memory between forked (and this way strongly related) processes\nunder Unix platforms. On the first layer it hides all platform dependent\nimplementation details (allocation and locking) when dealing with shared\nmemory segments and on the second layer it provides a high-level\nmalloc(3)-style API for a convenient and well known way to work with\ndata structures inside those shared memory segments.\n", 
+            "Build Date": " Thu 03 Aug 2017 10:10:05 PM EDT", 
+            "Source RPM": " mm-1.4.2-19.fc27.src.rpm", 
+            "Version": " 1.4.2", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 05:41:38 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 19.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Shared memory allocation library", 
+            "Size": " 25996"
+        }
+    }
+}

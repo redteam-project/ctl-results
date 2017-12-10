@@ -1,0 +1,25 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " perl-Net-SSH-Expect", 
+            "License": " GPL+ or Artistic", 
+            "URL": " http://search.cpan.org/dist/Net-SSH-Expect/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-aarch64-20.arm.fedoraproject.org", 
+            "Description": "\nThis module is a wrapper to the *ssh* executable that is available in\nyour system's *$PATH*. Use this module to execute commands on the\nremote SSH server. It authenticates with the user and password you\npassed in the constructor's attributes \"user\" and \"password\".\n\nOnce an ssh connection was started using the \"connect()\" method it will\nremain open until you call the \"close()\" method. This allows you execute\nas many commands as you want with the \"exec()\" method using only one\nconnection. This is a better approach over other ssh wrapper\nimplementations, i.e: Net::SCP, Net::SSH and Net::SCP::Expect, that\nstart a new ssh connection each time a remote command is issued or a\nfile is transfered.\n\nIt uses *Expect.pm* module to interact with the SSH server. A\n\"get_expect()\" method is provided so you can obtain the internal\n\"Expect\" object connected to the SSH server. Use this only if you have\nsome special need that you can't do with the \"exec()\" method.\n\nThis module was inspired by Net::SCP::Expect\n<http://search.cpan.org/~djberg/Net-SCP-Expect-0.12/Expect.pm>\nand by Net::Telnet and some of its methods work the same as these two\nmodules.\n", 
+            "Build Date": " Fri 28 Jul 2017 05:17:40 AM EDT", 
+            "Source RPM": " perl-Net-SSH-Expect-1.09-25.fc27.src.rpm", 
+            "Version": " 1.09", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Fri 28 Jul 2017 02:31:09 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 25.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Net-SSH-Expect - SSH wrapper to execute remote commands", 
+            "Size": " 54434"
+        }
+    }
+}

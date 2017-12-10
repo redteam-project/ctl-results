@@ -1,0 +1,70 @@
+{
+    "results": {
+        "usr/lib/libperditiondb_mysql_so_0_0_0": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "strcpy", 
+                "__gmon_start__", 
+                "mysql_query", 
+                "__cxa_finalize", 
+                "mysql_init", 
+                "__stack_chk_fail", 
+                "mysql_store_result", 
+                "_ITM_deregisterTMCloneTable", 
+                "__errno_location", 
+                "mysql_error", 
+                "mysql_real_connect", 
+                "mysql_close", 
+                "_vanessa_logger_log_prefix", 
+                "__snprintf_chk", 
+                "vanessa_dynamic_array_get_count", 
+                "free", 
+                "vanessa_dynamic_array_destroy", 
+                "vanessa_dynamic_array_split_str", 
+                "__strdup", 
+                "malloc", 
+                "mysql_free_result", 
+                "strlen", 
+                "strerror", 
+                "_Jv_RegisterClasses", 
+                "mysql_num_rows", 
+                "strtol", 
+                "vanessa_dynamic_array_get_element"
+            ], 
+            "rpm": "perdition-mysql-2.1-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libperditiondb_mysql.so.0.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Applications/Internet", 
+            "Name": " perdition-mysql", 
+            "License": " GPLv2+", 
+            "URL": " http://horms.net/projects/perdition/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-19.phx2.fedoraproject.org", 
+            "Description": "\nPerdition allows for arbitrary user database access through shared\nlibraries much in the manner of NSS in glibc. This package allows a user\ndatabase stored in a MySQL database.\n", 
+            "Build Date": " Tue 16 Aug 2016 05:20:41 PM EDT", 
+            "Source RPM": " perdition-2.1-7.fc26.src.rpm", 
+            "Version": " 2.1", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 27 Feb 2017 12:54:58 AM EST, Key ID f55e7430f5282ee4", 
+            "Release": " 7.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Library to allow perdition to access MySQL based pop maps", 
+            "Size": " 18135"
+        }
+    }
+}

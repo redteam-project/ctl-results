@@ -1,0 +1,25 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " python2-larch", 
+            "License": " GPLv3+", 
+            "URL": " http://liw.fi/larch/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " unused", 
+            "Description": "\nThis is an implementation of particular kind of B-tree, based on\nresearch by Ohad Rodeh. See \"B-trees, Shadowing, and Clones\" (copied\nhere with permission of author) for details on the data\nstructure. This is the same data structure that btrfs uses. Note that\nmy implementation is independent from the btrfs one, and might differ\nfrom what the paper describes.\n\nThe distinctive feature of this B-tree is that a node is never\nmodified (sort-of). Instead, all updates are done by\ncopy-on-write. Among other things, this makes it easy to clone a tree,\nand modify only the clone, while other processes access the original\ntree. This is utterly wonderful for my backup application, and that's\nthe reason I wrote larch in the first place.\n\nI have tried to keep the implementation generic and flexible, so that\nyou may use it in a variety of situations. For example, the tree\nitself does not decide where its nodes are stored: you provide a class\nthat does that for it. I have two implementations of the NodeStore\nclass, one for in-memory and one for on-disk storage.\n\nThe tree attempts to guarantee this: all modifications you make will\nbe safely stored in the node store when the larch.Forest.commit method\nis called. After that, unless you actually modify the committed tree\nyourself, it will be safe from further modifications. (You need to\ntake care to create a new tree for further modifications, though.)\n", 
+            "Build Date": " Thu 10 Aug 2017 08:38:35 PM EDT", 
+            "Source RPM": " python-larch-1.20151025-5.fc27.src.rpm", 
+            "Version": " 1.20151025", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Thu 10 Aug 2017 08:39:05 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 5.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Python B-tree library", 
+            "Size": " 560729"
+        }
+    }
+}

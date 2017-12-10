@@ -1,0 +1,25 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Languages", 
+            "Name": " python-anfft", 
+            "License": " GPLv3+", 
+            "URL": " http://anfft.googlecode.com/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-29.phx2.fedoraproject.org", 
+            "Description": "\nANFFT is intended to be used in situations where large numbers\nof expensive FFTs must be performed, and for which the speed\nof the built-in NumPy or SciPy functions has been found insufficient.\n\nBy default, ANFFT provides immediate results by using FFTW's\n\"estimate\" mode, which does not require tuning and is still very fast.\nHowever, each high-level function provides a keyword named \"measure\"\nwhich will invoke the full FFTW planning machinery.\nFFTW will investigate which implementations are fastest on your\nhardware for the given problem size, and ANFFT will transparently\ncache this information to speed up later transforms on arrays of\nthe same size and type. Accumulated FFTW \"wisdom\" about which\nmethods work best is stored across Python sessions in a configuration\nfile in ~/.anfft\n", 
+            "Build Date": " Fri 28 Jul 2017 11:53:04 AM EDT", 
+            "Source RPM": " python-anfft-0.2-10.fc27.src.rpm", 
+            "Version": " 0.2", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Fri 28 Jul 2017 11:45:07 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 10.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " ANFFT is an FFT package for Python, based on FFTW", 
+            "Size": " 103863"
+        }
+    }
+}

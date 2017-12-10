@@ -1,0 +1,25 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " perl-lexical-underscore", 
+            "License": " (GPL+ or Artistic) and Public Domain", 
+            "URL": " http://search.cpan.org/dist/lexical-underscore/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-ppc64le-12.ppc.fedoraproject.org", 
+            "Description": "\nStarting with Perl 5.10, it is possible to create a lexical version of the\nPerl default variable $_.\n\nIt is occasionally useful for a subroutine to be able to access its caller's\n$_ variable regardless of whether it was lexical or not. The \"(_)\" sub\nprototype is the official way to do so, however there are sometimes\ndisadvantages to this.\n\nThe \"lexical::underscore\" function returns a scalar reference to either\na lexical $_ variable somewhere up the call stack (using PadWalker magic), or\nto the global $_ if there was no lexical version.\n", 
+            "Build Date": " Fri 28 Jul 2017 07:37:33 AM EDT", 
+            "Source RPM": " perl-lexical-underscore-0.004-3.fc27.src.rpm", 
+            "Version": " 0.004", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Fri 28 Jul 2017 06:52:13 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 3.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Access your caller's lexical underscore", 
+            "Size": " 29304"
+        }
+    }
+}

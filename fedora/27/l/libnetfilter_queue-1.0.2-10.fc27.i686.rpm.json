@@ -1,0 +1,73 @@
+{
+    "results": {
+        "usr/lib/libnetfilter_queue_so_1_3_0": {
+            "report-functions": [
+                "nfnl_handle_packet", 
+                "mnl_attr_type_valid", 
+                "nfnl_fd", 
+                "__snprintf_chk", 
+                "time", 
+                "calloc", 
+                "mnl_attr_put_u32", 
+                "malloc", 
+                "mnl_attr_get_type", 
+                "nfnl_build_nfa_iovec", 
+                "mnl_attr_validate2", 
+                "mnl_attr_put", 
+                "nfnl_addattr_l", 
+                "localtime_r", 
+                "mnl_attr_parse", 
+                "nlif_index2name", 
+                "nfnl_callback_register", 
+                "nfnl_subsys_close", 
+                "free", 
+                "mnl_attr_validate", 
+                "inet_ntoa", 
+                "inet_ntop", 
+                "nfnl_unset_sequence_tracking", 
+                "nfnl_fill_hdr", 
+                "memmove", 
+                "snprintf", 
+                "nfnl_query", 
+                "nfnl_addattr32", 
+                "__stack_chk_fail", 
+                "nfnl_subsys_open", 
+                "nfnl_close"
+            ], 
+            "rpm": "libnetfilter_queue-1.0.2-10.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libnetfilter_queue.so.1.3.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " libnetfilter_queue", 
+            "License": " GPLv2", 
+            "URL": " http://netfilter.org", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-13.phx2.fedoraproject.org", 
+            "Description": "\nlibnetfilter_queue is a userspace library providing an API to packets that have\nbeen queued by the kernel packet filter. It is is part of a system that\ndeprecates the old ip_queue / libipq mechanism.\n\nlibnetfilter_queue has been previously known as libnfnetlink_queue.\n", 
+            "Build Date": " Thu 03 Aug 2017 03:17:31 PM EDT", 
+            "Source RPM": " libnetfilter_queue-1.0.2-10.fc27.src.rpm", 
+            "Version": " 1.0.2", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 12:05:07 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 10.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Netfilter queue userspace library", 
+            "Size": " 44990"
+        }
+    }
+}

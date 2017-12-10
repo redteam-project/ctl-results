@@ -1,0 +1,89 @@
+{
+    "results": {
+        "usr/lib/libpst_so_4_1_14": {
+            "report-functions": [
+                "iconv", 
+                "strftime", 
+                "__stack_chk_fail", 
+                "memmove", 
+                "feof", 
+                "__gmon_start__", 
+                "ferror", 
+                "get_current_dir_name", 
+                "iconv_close", 
+                "exit", 
+                "__errno_location", 
+                "uncompress", 
+                "_ITM_deregisterTMCloneTable", 
+                "time", 
+                "iconv_open", 
+                "__memcpy_chk", 
+                "ctime_r", 
+                "strstr", 
+                "__fprintf_chk", 
+                "__snprintf_chk", 
+                "__ctype_b_loc", 
+                "freopen64", 
+                "fputc", 
+                "fread", 
+                "fwrite", 
+                "strdup", 
+                "fclose", 
+                "sem_wait", 
+                "perror", 
+                "fseeko64", 
+                "gmtime_r", 
+                "fopen64", 
+                "__ctype_toupper_loc", 
+                "realloc", 
+                "strerror", 
+                "free", 
+                "puts", 
+                "strlen", 
+                "getpid", 
+                "_ITM_registerTMCloneTable", 
+                "malloc", 
+                "fflush", 
+                "sem_post", 
+                "__vfprintf_chk", 
+                "strcasecmp", 
+                "strchr", 
+                "__printf_chk"
+            ], 
+            "rpm": "libpst-libs-0.6.71-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libpst.so.4.1.14"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " libpst-libs", 
+            "License": " GPLv2+", 
+            "URL": " http://www.five-ten-sg.com/libpst/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-15.phx2.fedoraproject.org", 
+            "Description": "\nThe libpst-libs package contains the shared library used by the pst\nutilities.\n", 
+            "Build Date": " Thu 03 Aug 2017 03:45:18 PM EDT", 
+            "Source RPM": " libpst-0.6.71-3.fc27.src.rpm", 
+            "Version": " 0.6.71", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 12:53:40 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 3.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Shared library used by the pst utilities", 
+            "Size": " 252016"
+        }
+    }
+}

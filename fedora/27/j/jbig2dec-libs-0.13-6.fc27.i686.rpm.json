@@ -1,0 +1,64 @@
+{
+    "results": {
+        "usr/lib/libjbig2dec_so_0_0_0": {
+            "report-functions": [
+                "fread", 
+                "_ITM_registerTMCloneTable", 
+                "_ITM_deregisterTMCloneTable", 
+                "fopen", 
+                "free", 
+                "fwrite", 
+                "strncpy", 
+                "calloc", 
+                "fputc", 
+                "__isoc99_sscanf", 
+                "fflush", 
+                "fclose", 
+                "__stack_chk_fail", 
+                "memmove", 
+                "realloc", 
+                "feof", 
+                "malloc", 
+                "fgetc", 
+                "memchr", 
+                "__cxa_finalize", 
+                "__fprintf_chk", 
+                "__vsnprintf_chk"
+            ], 
+            "rpm": "jbig2dec-libs-0.13-6.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libjbig2dec.so.0.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " jbig2dec-libs", 
+            "License": " GPLv2", 
+            "URL": " http://jbig2dec.sourceforge.net/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-31.phx2.fedoraproject.org", 
+            "Description": "\njbig2dec is a decoder implementation of the JBIG2 image compression format.\nJBIG2 is designed for lossy or lossless encoding of 'bilevel' (1-bit\nmonochrome) images at moderately high resolution, and in particular scanned\npaper documents. In this domain it is very efficient, offering compression\nratios on the order of 100:1.\n\nThis package provides the shared jbig2dec library.\n", 
+            "Build Date": " Thu 03 Aug 2017 06:27:09 AM EDT", 
+            "Source RPM": " jbig2dec-0.13-6.fc27.src.rpm", 
+            "Version": " 0.13", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 12:38:11 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 6.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A decoder implementation of the JBIG2 image compression format", 
+            "Size": " 148999"
+        }
+    }
+}

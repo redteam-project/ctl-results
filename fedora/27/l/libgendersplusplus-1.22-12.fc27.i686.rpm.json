@@ -1,0 +1,92 @@
+{
+    "results": {
+        "usr/lib/libgendersplusplus_so_2_0_0": {
+            "report-functions": [
+                "genders_vallist_destroy", 
+                "genders_getattr", 
+                "__cxa_finalize", 
+                "genders_testattrval", 
+                "_ZSt19__throw_logic_errorPKc", 
+                "genders_handle_create", 
+                "genders_copy", 
+                "_ITM_registerTMCloneTable", 
+                "genders_nodelist_destroy", 
+                "__gmon_start__", 
+                "genders_strerror", 
+                "_ZNSt9basic_iosIcSt11char_traitsIcEE5clearESt12_Ios_Iostate", 
+                "genders_getattr_all", 
+                "genders_vallist_create", 
+                "genders_testattr", 
+                "_ZNSt9bad_allocD1Ev", 
+                "__gxx_personality_v0", 
+                "malloc", 
+                "genders_testquery", 
+                "__cxa_atexit", 
+                "_ZdlPv", 
+                "strlen", 
+                "_Znwj", 
+                "genders_isnode", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_replaceEjjPKcj", 
+                "_ZNSt8ios_base4InitC1Ev", 
+                "genders_getnodes", 
+                "genders_isattr", 
+                "__cxa_free_exception", 
+                "__cxa_allocate_exception", 
+                "genders_getmaxnodelen", 
+                "genders_attrlist_destroy", 
+                "genders_getnumnodes", 
+                "genders_query", 
+                "genders_errnum", 
+                "genders_getnodename", 
+                "_ZNSt8ios_base4InitD1Ev", 
+                "_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_i", 
+                "__stack_chk_fail", 
+                "free", 
+                "genders_getmaxvallen", 
+                "genders_nodelist_create", 
+                "genders_isattrval", 
+                "genders_attrlist_create", 
+                "__cxa_throw", 
+                "_Unwind_Resume", 
+                "_ITM_deregisterTMCloneTable", 
+                "genders_handle_destroy", 
+                "genders_load_data", 
+                "genders_getmaxattrs"
+            ], 
+            "rpm": "libgendersplusplus-1.22-12.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libgendersplusplus.so.2.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " libgendersplusplus", 
+            "License": " GPLv2", 
+            "URL": " http://genders.sf.net", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-08.phx2.fedoraproject.org", 
+            "Description": "\nGenders API for C++.\n", 
+            "Build Date": " Wed 02 Aug 2017 09:33:30 PM EDT", 
+            "Source RPM": " genders-1.22-12.fc27.src.rpm", 
+            "Version": " 1.22", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 03 Aug 2017 09:23:02 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 12.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Genders libraries for C++", 
+            "Size": " 48659"
+        }
+    }
+}

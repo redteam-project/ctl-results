@@ -1,0 +1,129 @@
+{
+    "results": {
+        "usr/lib/libmpirxx_so_8_4_3": {
+            "report-functions": [
+                "_ZSt20__throw_length_errorPKc", 
+                "strlen", 
+                "_ZSt9use_facetISt5ctypeIcEERKT_RKSt6locale", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_appendEPKcj", 
+                "__gmpz_set_str", 
+                "__gmpf_set_str", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_mutateEjjPKcj", 
+                "_ZNSi3getERc", 
+                "__cxa_atexit", 
+                "_ZNSt6localeC1ERKS_", 
+                "isxdigit", 
+                "__gmp_asprintf_final", 
+                "__gmp_doprnt_integer", 
+                "_ZSt16__throw_bad_castv", 
+                "__gmp_asprintf_reps", 
+                "_ZNKSt5ctypeIcE13_M_widen_initEv", 
+                "_ZNSt9basic_iosIcSt11char_traitsIcEE5clearESt12_Ios_Iostate", 
+                "__gmpq_get_str", 
+                "localeconv", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "__stack_chk_fail", 
+                "__gxx_personality_v0", 
+                "_ZNSi7putbackEc", 
+                "__gmp_asprintf_memory", 
+                "__cxa_finalize", 
+                "_ZNSt8ios_base4InitC1Ev", 
+                "_ZNSt8ios_base4InitD1Ev", 
+                "_ZNSt6localeD1Ev", 
+                "__gmpz_get_str", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_replaceEjjPKcj", 
+                "_ZNSo5writeEPKci", 
+                "__gmpz_set_ui", 
+                "__gmp_doprnt_mpf2", 
+                "_ZSt9use_facetINSt7__cxx118numpunctIcEEERKT_RKSt6locale", 
+                "_ZdlPv"
+            ], 
+            "rpm": "mpir-3.0.0-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libmpirxx.so.8.4.3"
+        }, 
+        "usr/lib/libmpir_so_23_0_3": {
+            "report-functions": [
+                "realloc", 
+                "__ctype_b_loc", 
+                "fgetc", 
+                "fputc", 
+                "raise", 
+                "_ITM_deregisterTMCloneTable", 
+                "__snprintf_chk", 
+                "__cxa_finalize", 
+                "__vsnprintf_chk", 
+                "ungetc", 
+                "nl_langinfo", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "ferror", 
+                "_obstack_newchunk", 
+                "vfprintf", 
+                "_IO_getc", 
+                "fwrite", 
+                "putchar", 
+                "__isoc99_sscanf", 
+                "__fprintf_chk", 
+                "strchr", 
+                "fread", 
+                "_IO_putc", 
+                "__isoc99_fscanf", 
+                "__memset_chk", 
+                "malloc", 
+                "puts", 
+                "strlen", 
+                "__printf_chk", 
+                "obstack_vprintf", 
+                "strtol", 
+                "strcpy", 
+                "__vsprintf_chk", 
+                "free"
+            ], 
+            "rpm": "mpir-3.0.0-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libmpir.so.23.0.3"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " mpir", 
+            "License": " LGPLv3+", 
+            "URL": " http://mpir.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-13.phx2.fedoraproject.org", 
+            "Description": "\nMPIR is an open source multiprecision integer library derived from\nversion 4.2.1 of the GMP (GNU Multi Precision) project.\n", 
+            "Build Date": " Mon 07 Aug 2017 12:34:33 AM EDT", 
+            "Source RPM": " mpir-3.0.0-3.fc27.src.rpm", 
+            "Version": " 3.0.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 07 Aug 2017 12:53:31 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 3.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A library for arbitrary precision arithmetic", 
+            "Size": " 576847"
+        }
+    }
+}

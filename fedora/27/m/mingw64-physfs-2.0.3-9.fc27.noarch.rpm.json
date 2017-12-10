@@ -1,0 +1,25 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " mingw64-physfs", 
+            "License": " zlib", 
+            "URL": " http://www.icculus.org/physfs/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-ppc64-13.ppc.fedoraproject.org", 
+            "Description": "\nMinGW compiled PhysicsFS, a library to provide abstract access\nto various archives. It is intended for use in video games, and the\ndesign was somewhat inspired by Quake 3's file subsystem.\nThe programmer defines a \"write directory\" on the physical filesystem.\nNo file writing done through the PhysicsFS API can leave that\nwrite directory, for security.\nFor example, an embedded scripting language cannot write outside of\nthis path if it uses PhysFS for all of its I/O, which means that\nuntrusted scripts can run more safely. Symbolic links can be disabled\nas well, for added safety. For file reading, the programmer lists\ndirectories and archives that form a \"search path\".\nOnce the search path is defined, it becomes a single,\ntransparent hierarchical filesystem.\nThis makes for easy access to ZIP files in the same way as you access\na file directly on the disk, and it makes it easy to ship a new archive\nthat will override a previous archive on a per-file basis.\nFinally, PhysicsFS gives you platform-abstracted means to determine\nif CD-ROMs are available, the user's home directory, where in the\nreal filesystem your program is running, etc.\nCompiled for the Win64 target.\n", 
+            "Build Date": " Thu 27 Jul 2017 08:44:01 AM EDT", 
+            "Source RPM": " mingw-physfs-2.0.3-9.fc27.src.rpm", 
+            "Version": " 2.0.3", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Thu 27 Jul 2017 09:59:38 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 9.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " MinGW compiled physfs library for the Win64 target", 
+            "Size": " 308731"
+        }
+    }
+}

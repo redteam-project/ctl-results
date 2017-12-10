@@ -1,0 +1,111 @@
+{
+    "results": {
+        "usr/lib/libsoxr-lsr_so_0_1_9": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "soxr_runtime_spec", 
+                "soxr_output", 
+                "soxr_clear", 
+                "__gmon_start__", 
+                "strtol", 
+                "soxr_set_error", 
+                "__cxa_finalize", 
+                "soxr_process", 
+                "soxr_set_io_ratio", 
+                "soxr_quality_spec", 
+                "soxr_create", 
+                "soxr_set_input_fn", 
+                "soxr_version", 
+                "soxr_delete", 
+                "soxr_oneshot", 
+                "getenv", 
+                "soxr_error"
+            ], 
+            "rpm": "soxr-0.1.2-4.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libsoxr-lsr.so.0.1.9"
+        }, 
+        "usr/lib/libsoxr_so_0_1_1": {
+            "report-functions": [
+                "__memset_chk", 
+                "ceil", 
+                "log10", 
+                "__cxa_finalize", 
+                "fetestexcept", 
+                "sin", 
+                "omp_init_lock", 
+                "time", 
+                "sincos", 
+                "realloc", 
+                "pow", 
+                "omp_get_thread_num", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_atexit", 
+                "__gmon_start__", 
+                "omp_unset_lock", 
+                "atan2", 
+                "free", 
+                "exp", 
+                "__gcc_personality_v0", 
+                "cos", 
+                "memmove", 
+                "log", 
+                "div", 
+                "_ITM_registerTMCloneTable", 
+                "omp_destroy_lock", 
+                "__stack_chk_fail", 
+                "omp_set_lock", 
+                "calloc", 
+                "floor", 
+                "omp_get_num_threads", 
+                "malloc", 
+                "GOMP_parallel", 
+                "sincosf", 
+                "sqrt"
+            ], 
+            "rpm": "soxr-0.1.2-4.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libsoxr.so.0.1.1"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " soxr", 
+            "License": " LGPLv2+", 
+            "URL": " https://sourceforge.net/p/soxr/wiki/Home/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-08.phx2.fedoraproject.org", 
+            "Description": "\nThe SoX Resampler library `libsoxr' performs one-dimensional sample-rate\nconversion -- it may be used, for example, to resample PCM-encoded audio.\n", 
+            "Build Date": " Mon 31 Jul 2017 11:40:01 AM EDT", 
+            "Source RPM": " soxr-0.1.2-4.fc27.src.rpm", 
+            "Version": " 0.1.2", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 31 Jul 2017 11:46:31 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 4.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " The SoX Resampler library", 
+            "Size": " 193727"
+        }
+    }
+}

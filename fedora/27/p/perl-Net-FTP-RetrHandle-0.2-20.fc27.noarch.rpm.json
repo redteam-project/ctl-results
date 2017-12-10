@@ -1,0 +1,25 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " perl-Net-FTP-RetrHandle", 
+            "License": " GPL+ or Artistic", 
+            "URL": " http://search.cpan.org/~giff/Net-FTP-RetrHandle-0.2/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-armv7-08.arm.fedoraproject.org", 
+            "Description": "\nSupport for skipping the beginning of the file is implemented with the FTP REST\ncommand, which starts a retrieval at any point in the file. Support for\nskipping the end of the file is implemented with the FTP ABOR command, which\nstops the transfer. With these two commands and some careful tracking of the\ncurrent file position, we're able to reliably emulate a seek/read pair, and get\nonly the parts of the file that are actually read.\n\nThis was originally designed for use with Archive::Zip; it's reliable enough\nthat the table of contents and individual files can be extracted from a remote\nZIP archive without downloading the whole thing.\n\nAn interface compatible with IO::Handle is provided, along with a tie-based\n", 
+            "Build Date": " Fri 28 Jul 2017 05:10:54 AM EDT", 
+            "Source RPM": " perl-Net-FTP-RetrHandle-0.2-20.fc27.src.rpm", 
+            "Version": " 0.2", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Fri 28 Jul 2017 02:20:56 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 20.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Provides a file reading interface for reading files on a remote FTP server", 
+            "Size": " 18154"
+        }
+    }
+}

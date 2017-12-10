@@ -1,0 +1,90 @@
+{
+    "results": {
+        "usr/lib/libspectre_so_1_1_8": {
+            "report-functions": [
+                "ftell", 
+                "calloc", 
+                "__vfprintf_chk", 
+                "fflush", 
+                "gsapi_set_display_callback", 
+                "fwrite", 
+                "_ITM_registerTMCloneTable", 
+                "gsapi_run_string_begin", 
+                "getenv", 
+                "memmove", 
+                "free", 
+                "__xstat", 
+                "gsapi_run_string_end", 
+                "fclose", 
+                "fopen", 
+                "gsapi_init_with_args", 
+                "__errno_location", 
+                "gsapi_run_string_continue", 
+                "strtod", 
+                "strcpy", 
+                "fseek", 
+                "strtol", 
+                "fputs", 
+                "__isoc99_sscanf", 
+                "abort", 
+                "gsapi_new_instance", 
+                "__vasprintf_chk", 
+                "_ITM_deregisterTMCloneTable", 
+                "strlen", 
+                "__stack_chk_fail", 
+                "strcmp", 
+                "realloc", 
+                "strncmp", 
+                "gsapi_revision", 
+                "__fread_chk", 
+                "__cxa_finalize", 
+                "getpid", 
+                "gsapi_exit", 
+                "rewind", 
+                "gsapi_delete_instance", 
+                "__fprintf_chk", 
+                "fread", 
+                "malloc", 
+                "gsapi_set_stdio", 
+                "strncpy", 
+                "gsapi_run_string_with_length", 
+                "exit", 
+                "__gmon_start__"
+            ], 
+            "rpm": "libspectre-0.2.8-4.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libspectre.so.1.1.8"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " libspectre", 
+            "License": " GPLv2+", 
+            "URL": " http://libspectre.freedesktop.org", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-26.phx2.fedoraproject.org", 
+            "Description": "\nlibspectre is a small library for rendering PostScript(TM) documents.\nIt provides a convenient easy to use API for handling and rendering\nPostScript documents.\n", 
+            "Build Date": " Thu 03 Aug 2017 04:10:48 PM EDT", 
+            "Source RPM": " libspectre-0.2.8-4.fc27.src.rpm", 
+            "Version": " 0.2.8", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 01:28:08 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 4.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A library for rendering PostScript(TM) documents", 
+            "Size": " 89371"
+        }
+    }
+}

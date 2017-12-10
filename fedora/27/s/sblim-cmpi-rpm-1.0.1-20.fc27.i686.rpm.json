@@ -1,0 +1,161 @@
+{
+    "results": {
+        "usr/lib/libcimrpm_so_0_0_0": {
+            "report-functions": [
+                "dlsym", 
+                "__fprintf_chk"
+            ], 
+            "rpm": "sblim-cmpi-rpm-1.0.1-20.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libcimrpm.so.0.0.0"
+        }, 
+        "usr/lib/cmpi/libcmpiOSBase_RpmFileCheckProvider_so_0_0_0": {
+            "report-functions": [
+                "CRPM_TermPkgEnum", 
+                "_ITM_registerTMCloneTable", 
+                "_osbase_trace", 
+                "__stack_chk_fail", 
+                "CRPM_Term", 
+                "__cxa_finalize", 
+                "CRPM_SinglePkgFiles", 
+                "CRPM_SinglePkgEnum", 
+                "free", 
+                "calloc", 
+                "strdup", 
+                "strcasecmp", 
+                "_format_trace", 
+                "CRPM_Init"
+            ], 
+            "rpm": "sblim-cmpi-rpm-1.0.1-20.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/cmpi/libcmpiOSBase_RpmFileCheckProvider.so.0.0.0"
+        }, 
+        "usr/lib/cmpi/libcmpiOSBase_RpmAssociatedFileProvider_so_0_0_0": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "_assoc_check_parameter_const", 
+                "_ITM_registerTMCloneTable", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize", 
+                "CRPM_Init", 
+                "__gmon_start__", 
+                "CRPM_TermPkgEnum", 
+                "_format_trace", 
+                "free", 
+                "_osbase_trace", 
+                "CRPM_SinglePkgEnum", 
+                "CRPM_SinglePkgFiles", 
+                "CRPM_Term"
+            ], 
+            "rpm": "sblim-cmpi-rpm-1.0.1-20.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/cmpi/libcmpiOSBase_RpmAssociatedFileProvider.so.0.0.0"
+        }, 
+        "usr/lib/libcimrpmv4_so_0_0_0": {
+            "report-functions": [
+                "freeresultbuf", 
+                "strncasecmp", 
+                "malloc", 
+                "free", 
+                "strdup", 
+                "runcommand", 
+                "fwrite", 
+                "strtok_r", 
+                "strlen", 
+                "sbrk"
+            ], 
+            "rpm": "sblim-cmpi-rpm-1.0.1-20.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libcimrpmv4.so.0.0.0"
+        }, 
+        "usr/lib/cmpi/libcmpiOSBase_RpmPackageProvider_so_0_0_0": {
+            "report-functions": [
+                "free", 
+                "__gmon_start__", 
+                "CRPM_SinglePkgEnum", 
+                "__stack_chk_fail", 
+                "_ITM_registerTMCloneTable", 
+                "_osbase_trace", 
+                "strcasecmp", 
+                "_format_trace", 
+                "CRPM_InitPkgEnum", 
+                "CRPM_Term", 
+                "CRPM_NextPkgEnum", 
+                "strdup", 
+                "calloc", 
+                "CRPM_Init", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "sblim-cmpi-rpm-1.0.1-20.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/cmpi/libcmpiOSBase_RpmPackageProvider.so.0.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Applications/System", 
+            "Name": " sblim-cmpi-rpm", 
+            "License": " CPL", 
+            "URL": " http://sblim.wiki.sourceforge.net/ProviderCmpiRpm", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-21.phx2.fedoraproject.org", 
+            "Description": "\nThese providers list the software packages installed in a GNU/Linux system\nand provide some more details about them.\n", 
+            "Build Date": " Fri 04 Aug 2017 02:45:50 PM EDT", 
+            "Source RPM": " sblim-cmpi-rpm-1.0.1-20.fc27.src.rpm", 
+            "Version": " 1.0.1", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 05 Aug 2017 02:09:34 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 20.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " CIM access to installed software packages (currently RPMs)", 
+            "Size": " 103766"
+        }
+    }
+}

@@ -1,0 +1,78 @@
+{
+    "results": {
+        "usr/lib/prelude-manager/reports/db_so": {
+            "report-functions": [
+                "strdup", 
+                "prelude_option_add", 
+                "preludedb_sql_settings_set_port", 
+                "prelude_error_make", 
+                "prelude_string_sprintf", 
+                "_ITM_registerTMCloneTable", 
+                "prelude_plugin_instance_get_plugin_data", 
+                "preludedb_strerror", 
+                "preludedb_deinit", 
+                "preludedb_sql_settings_destroy", 
+                "preludedb_init", 
+                "prelude_string_cat", 
+                "__gmon_start__", 
+                "preludedb_sql_settings_set_pass", 
+                "preludedb_sql_settings_set_host", 
+                "preludedb_sql_new", 
+                "calloc", 
+                "_ITM_deregisterTMCloneTable", 
+                "prelude_error_get_code", 
+                "_prelude_log", 
+                "prelude_plugin_entry_set_plugin", 
+                "preludedb_sql_enable_query_logging", 
+                "preludedb_destroy", 
+                "__errno_location", 
+                "prelude_error_code_from_errno", 
+                "preludedb_sql_settings_set_file", 
+                "free", 
+                "preludedb_insert_message", 
+                "preludedb_sql_settings_set_name", 
+                "prelude_plugin_instance_set_plugin_data", 
+                "__stack_chk_fail", 
+                "preludedb_new", 
+                "prelude_plugin_set_activation_option", 
+                "preludedb_sql_destroy", 
+                "__cxa_finalize", 
+                "preludedb_sql_settings_set_user"
+            ], 
+            "rpm": "prelude-manager-db-plugin-4.0.0-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/prelude-manager/reports/db.so"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " prelude-manager-db-plugin", 
+            "License": " GPLv2+", 
+            "URL": " http://www.prelude-siem.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-24.phx2.fedoraproject.org", 
+            "Description": "\nThis plugin allows prelude-manager to write to database.\n", 
+            "Build Date": " Fri 06 Oct 2017 07:42:08 PM EDT", 
+            "Source RPM": " prelude-manager-4.0.0-1.fc27.src.rpm", 
+            "Version": " 4.0.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 06 Oct 2017 08:01:41 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 1.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Database report plugin for Prelude Manager", 
+            "Size": " 14612"
+        }
+    }
+}

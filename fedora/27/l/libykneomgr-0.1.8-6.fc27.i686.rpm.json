@@ -1,0 +1,126 @@
+{
+    "results": {
+        "usr/lib/libykneomgr_so_0_1_8": {
+            "report-functions": [
+                "strncmp", 
+                "SCardEstablishContext", 
+                "strcmp", 
+                "__memcpy_chk", 
+                "SCardReleaseContext", 
+                "_ITM_registerTMCloneTable", 
+                "__sprintf_chk", 
+                "SCardListReaders", 
+                "zip_stat", 
+                "__stack_chk_fail", 
+                "free", 
+                "zip_open", 
+                "__printf_chk", 
+                "strcspn", 
+                "_ITM_deregisterTMCloneTable", 
+                "zip_fclose", 
+                "zip_fopen", 
+                "putchar", 
+                "puts", 
+                "zip_fread", 
+                "memcmp", 
+                "SCardConnect", 
+                "__cxa_finalize", 
+                "strspn", 
+                "SCardTransmit", 
+                "zip_close", 
+                "malloc", 
+                "__gmon_start__", 
+                "strlen"
+            ], 
+            "rpm": "libykneomgr-0.1.8-6.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libykneomgr.so.0.1.8"
+        }, 
+        "usr/bin/ykneomgr": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "fopen", 
+                "ykneomgr_get_version_build", 
+                "ykneomgr_strerror", 
+                "malloc", 
+                "_ITM_registerTMCloneTable", 
+                "ykneomgr_send_apdu", 
+                "ykneomgr_global_init", 
+                "ykneomgr_authenticate", 
+                "__fprintf_chk", 
+                "__gmon_start__", 
+                "free", 
+                "__stack_chk_fail", 
+                "exit", 
+                "ykneomgr_get_serialno", 
+                "ykneomgr_get_version_minor", 
+                "__cxa_finalize", 
+                "ykneomgr_applet_delete", 
+                "abort", 
+                "realloc", 
+                "strlen", 
+                "ykneomgr_applet_list", 
+                "perror", 
+                "ykneomgr_global_done", 
+                "ykneomgr_done", 
+                "ykneomgr_init", 
+                "__printf_chk", 
+                "ykneomgr_applet_install", 
+                "ykneomgr_discover_match", 
+                "__isoc99_sscanf", 
+                "__libc_start_main", 
+                "puts", 
+                "ykneomgr_get_mode", 
+                "fclose", 
+                "ykneomgr_modeswitch", 
+                "strtol", 
+                "ykneomgr_list_devices", 
+                "strchr", 
+                "putchar"
+            ], 
+            "rpm": "libykneomgr-0.1.8-6.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/ykneomgr"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " libykneomgr", 
+            "License": " GPLv3+", 
+            "URL": " http://opensource.yubico.com/libykneomgr/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-30.phx2.fedoraproject.org", 
+            "Description": "\nC Library and tool to manage CCID-aspects of YubiKey NEO\n", 
+            "Build Date": " Thu 03 Aug 2017 05:21:32 PM EDT", 
+            "Source RPM": " libykneomgr-0.1.8-6.fc27.src.rpm", 
+            "Version": " 0.1.8", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 02:31:54 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 6.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " YubiKey NEO CCID Manager C Library", 
+            "Size": " 157079"
+        }
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "results": {
+        "usr/lib/libSDL_mng_so_0_2_7": {
+            "report-functions": [
+                "SDL_SetError", 
+                "png_set_longjmp_fn", 
+                "png_destroy_read_struct", 
+                "malloc", 
+                "__gmon_start__", 
+                "SDL_CreateRGBSurface", 
+                "png_read_update_info", 
+                "png_read_end", 
+                "_ITM_deregisterTMCloneTable", 
+                "png_create_info_struct", 
+                "SDL_FreeSurface", 
+                "png_get_valid", 
+                "__stack_chk_fail", 
+                "png_create_read_struct", 
+                "png_set_strip_16", 
+                "png_set_packing", 
+                "png_set_palette_to_rgb", 
+                "SDL_RWFromFile", 
+                "png_get_IHDR", 
+                "png_get_io_ptr", 
+                "__longjmp_chk", 
+                "png_read_info", 
+                "png_set_read_fn", 
+                "free", 
+                "png_read_image", 
+                "png_set_tRNS_to_alpha", 
+                "_setjmp", 
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "SDL_mng-0.2.7-5.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libSDL_mng.so.0.2.7"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " SDL_mng", 
+            "License": " LGPLv2+", 
+            "URL": " https://github.com/dulsi/SDL_mng", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-24.phx2.fedoraproject.org", 
+            "Description": "\nThis is a simple library to load mng animations as SDL surfaces.\n", 
+            "Build Date": " Wed 02 Aug 2017 01:32:21 PM EDT", 
+            "Source RPM": " SDL_mng-0.2.7-5.fc27.src.rpm", 
+            "Version": " 0.2.7", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 07 Aug 2017 01:45:47 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 5.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Simple DirectMedia Layer - MNG Loading Library", 
+            "Size": " 41720"
+        }
+    }
+}

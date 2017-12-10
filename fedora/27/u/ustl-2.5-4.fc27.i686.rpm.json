@@ -1,0 +1,88 @@
+{
+    "results": {
+        "usr/lib/libustl_so_2_5": {
+            "report-functions": [
+                "__assert_fail", 
+                "ioctl", 
+                "backtrace_symbols", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_demangle", 
+                "__cxa_begin_catch", 
+                "strtoll", 
+                "_ZNSt9bad_allocD2Ev", 
+                "backtrace", 
+                "strtod", 
+                "_ITM_registerTMCloneTable", 
+                "__cxa_finalize", 
+                "__stack_chk_fail", 
+                "__gxx_personality_v0", 
+                "strdup", 
+                "strncpy", 
+                "free", 
+                "malloc", 
+                "_ZdlPvj", 
+                "strlen", 
+                "mmap", 
+                "__gmon_start__", 
+                "msync", 
+                "__vsnprintf_chk", 
+                "memchr", 
+                "fcntl", 
+                "read", 
+                "realloc", 
+                "strerror", 
+                "__cxa_end_catch", 
+                "_Unwind_Resume", 
+                "_ZNSt9exceptionD2Ev", 
+                "fsync", 
+                "strchr", 
+                "__errno_location", 
+                "__cxa_throw", 
+                "open", 
+                "memcmp", 
+                "munmap", 
+                "__memcpy_chk", 
+                "__cxa_atexit", 
+                "__fxstat", 
+                "close", 
+                "__cxa_allocate_exception", 
+                "lseek", 
+                "write"
+            ], 
+            "rpm": "ustl-2.5-4.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libustl.so.2.5"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " ustl", 
+            "License": " MIT", 
+            "URL": " http://msharov.github.io/ustl/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-10.phx2.fedoraproject.org", 
+            "Description": "\nThe C++ standard template library (STL) is a collection of common containers\nand algorithms in template form. Unfortunately its standard incarnation\nshipped with gcc is implemented without much concern for code size. Not only\nis the library itself large, the current version being over a megabyte in\nsize, but with all the code you instantiate by using a vector for each of\nyour containers, it is easy to become fearful and opt for using static\narrays instead or, worse yet, abandon C++ altogether for C. This is\nespecially painful to former DOS assembly programmers like myself, who fret\nendlessly when the size of the executable crosses the magic 64k boundary,\nforgetting that nobody cares about memory anymore.\n\nOf course, these days everyone has gigabytes of RAM and has no compunction\nabout loading up OpenOffice, whose source tree is over a gigabyte in size.\nWhy then bother with saving a kilobyte of code here and there? I can't really\nsay. Maybe it's that warm fuzzy knowledge that you are making maximum possible\nuse of your computer's resources. Maybe it's that thrill you get after\nexpressing your program's functionality in the fewest possible instructions\nand the minimum imaginable overhead. Or maybe it really is of no importance\nand any code bloat will be easily overcome by faster processors in some near\nfuture. I just know what I like, and it's the sight of clean, concise, and\nfast code. Therefore this library.\n", 
+            "Build Date": " Fri 04 Aug 2017 10:03:33 PM EDT", 
+            "Source RPM": " ustl-2.5-4.fc27.src.rpm", 
+            "Version": " 2.5", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 05 Aug 2017 08:20:42 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 4.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A size-optimized STL implementation", 
+            "Size": " 103282"
+        }
+    }
+}

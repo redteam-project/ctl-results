@@ -1,0 +1,90 @@
+{
+    "results": {
+        "usr/lib/libresample_so_1_0": {
+            "report-functions": [
+                "sqrt", 
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "malloc", 
+                "fwrite", 
+                "sin", 
+                "_ITM_deregisterTMCloneTable", 
+                "free", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "libresample-0.1.3-25.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libresample.so.1.0"
+        }, 
+        "usr/bin/resample-sndfile": {
+            "report-functions": [
+                "sf_close", 
+                "sf_strerror", 
+                "sf_open", 
+                "_ITM_registerTMCloneTable", 
+                "gettimeofday", 
+                "fputc", 
+                "sf_command", 
+                "__cxa_finalize", 
+                "resample_process", 
+                "sf_readf_float", 
+                "exit", 
+                "strtod", 
+                "strchr", 
+                "fputs", 
+                "malloc", 
+                "free", 
+                "fwrite", 
+                "resample_open", 
+                "__gmon_start__", 
+                "__libc_start_main", 
+                "__fprintf_chk", 
+                "_ITM_deregisterTMCloneTable", 
+                "strcmp"
+            ], 
+            "rpm": "libresample-0.1.3-25.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/resample-sndfile"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " libresample", 
+            "License": " LGPLv2+", 
+            "URL": " http://ccrma-www.stanford.edu/~jos/resample/Free_Resampling_Software.html", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-02.phx2.fedoraproject.org", 
+            "Description": "\nA real-time library for audio sampling rate conversion providing\nseveral useful features relative to resample-1.7 on which it is based:\n\n    * It should build \"out of the box\" on more platforms, including\n      Linux, Solaris, and Mac OS X (using the included configure\n      script). There is also a Visual C++ project file for building\n      under Windows.\n\n    * Input and output signals are in memory (as opposed to sound\n      files).\n\n    * Computations are in floating-point (instead of fixed-point).\n\n    * Filter table increased by a factor of 32, yielding more accurate\n      results, even without linear interpolation (which also makes it\n      faster).\n\n    * Data can be processed in small chunks, enabling time-varying\n      resampling ratios (ideal for time-warping applications and\n      supporting an ``external clock input'' in software).\n\n    * Easily applied to any number of simultaneous data channels\n", 
+            "Build Date": " Thu 03 Aug 2017 04:05:56 PM EDT", 
+            "Source RPM": " libresample-0.1.3-25.fc27.src.rpm", 
+            "Version": " 0.1.3", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 01:25:45 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 25.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A real-time library for audio sampling rate conversion", 
+            "Size": " 52976"
+        }
+    }
+}

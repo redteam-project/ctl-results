@@ -1,0 +1,64 @@
+{
+    "results": {
+        "usr/lib/libattr_so_1_1_0": {
+            "report-functions": [
+                "free", 
+                "_ITM_registerTMCloneTable", 
+                "feof", 
+                "strndup", 
+                "fclose", 
+                "fnmatch", 
+                "__cxa_finalize", 
+                "malloc", 
+                "dcgettext", 
+                "strcpy", 
+                "ferror", 
+                "__stack_chk_fail", 
+                "strspn", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "strcspn", 
+                "syscall", 
+                "fread", 
+                "realloc", 
+                "__errno_location", 
+                "strncpy", 
+                "fopen64"
+            ], 
+            "rpm": "libattr-2.4.47-21.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libattr.so.1.1.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " libattr", 
+            "License": " LGPLv2+", 
+            "URL": " https://savannah.nongnu.org/projects/attr", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-02.phx2.fedoraproject.org", 
+            "Description": "\nThis package contains the libattr.so dynamic library which contains\nthe extended attribute system calls and library functions.\n", 
+            "Build Date": " Wed 02 Aug 2017 02:06:38 PM EDT", 
+            "Source RPM": " attr-2.4.47-21.fc27.src.rpm", 
+            "Version": " 2.4.47", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 05 Aug 2017 01:25:17 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 21.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Dynamic library for extended attribute support", 
+            "Size": " 19445"
+        }
+    }
+}

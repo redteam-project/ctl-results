@@ -1,0 +1,73 @@
+{
+    "results": {
+        "usr/lib/libOpenGL_so_0_0_0": {
+            "report-functions": [
+                "ftruncate", 
+                "__glDispatchInit", 
+                "strlen", 
+                "_ITM_deregisterTMCloneTable", 
+                "__vsnprintf_chk", 
+                "getuid", 
+                "mmap", 
+                "__glDispatchFini", 
+                "realloc", 
+                "open", 
+                "memmove", 
+                "mprotect", 
+                "malloc", 
+                "strdup", 
+                "__glDispatchUnregisterStubCallbacks", 
+                "strchr", 
+                "__fxstat", 
+                "geteuid", 
+                "strncmp", 
+                "_ITM_registerTMCloneTable", 
+                "__cxa_finalize", 
+                "sysconf", 
+                "__gmon_start__", 
+                "__glDispatchRegisterStubCallbacks", 
+                "strcmp", 
+                "unlink", 
+                "mkstemp", 
+                "getenv", 
+                "close", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "libglvnd-opengl-0.2.999-24.20170818git8d4d03f.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libOpenGL.so.0.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " libglvnd-opengl", 
+            "License": " MIT", 
+            "URL": " https://github.com/NVIDIA/libglvnd", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-03.phx2.fedoraproject.org", 
+            "Source RPM": " libglvnd-0.2.999-24.20170818git8d4d03f.fc27.src.rpm", 
+            "Description": "\nlibOpenGL is the common dispatch interface for the workstation OpenGL API.\n", 
+            "Build Date": " Wed 23 Aug 2017 04:54:38 AM EDT", 
+            "Epoch": " 1", 
+            "Version": " 0.2.999", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Wed 23 Aug 2017 04:59:01 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 24.20170818git8d4d03f.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " OpenGL support for libglvnd", 
+            "Size": " 135148"
+        }
+    }
+}

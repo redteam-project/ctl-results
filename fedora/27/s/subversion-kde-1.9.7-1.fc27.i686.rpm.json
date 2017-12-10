@@ -1,0 +1,88 @@
+{
+    "results": {
+        "usr/lib/libsvn_auth_kwallet-1_so_0_0_0": {
+            "report-functions": [
+                "apr_psprintf", 
+                "apr_hash_set", 
+                "_Z5ki18nPKc", 
+                "_ZN10QByteArrayC1EPKc", 
+                "_ZN7KWallet6Wallet6isOpenERK7QString", 
+                "_Znwj", 
+                "_ZN7QString16fromAscii_helperEPKci", 
+                "_ZdlPv", 
+                "__gmon_start__", 
+                "_ZN7KWallet6Wallet10openWalletERK7QStringmNS0_8OpenTypeE", 
+                "_ZN12KCmdLineArgs9aboutDataEv", 
+                "svn_auth__simple_creds_cache_get", 
+                "_ZN7QString4freeEPNS_4DataE", 
+                "_ZN12KCmdLineArgs4initEiPPcRK10QByteArrayS4_RK16KLocalizedStringS4_S7_6QFlagsINS_13StdCmdLineArgEE", 
+                "__stack_chk_fail", 
+                "_ZN7QString8fromUtf8EPKci", 
+                "svn_error_clear", 
+                "svn_auth__ssl_client_cert_pw_cache_set", 
+                "_ZN7KWallet6Wallet15keyDoesNotExistERK7QStringS3_S3_", 
+                "svn_cstring_atoi64", 
+                "_Z5qFreePv", 
+                "apr_palloc", 
+                "_ZN7QString6appendERKS_", 
+                "svn_auth__ssl_client_cert_pw_cache_get", 
+                "apr_hash_get", 
+                "apr_pool_cleanup_register", 
+                "_ZN14KComponentDataC1EPK10KAboutDataNS_25MainComponentRegistrationE", 
+                "__cxa_finalize", 
+                "svn_auth__simple_creds_cache_set", 
+                "svn_config_get_bool", 
+                "_ZN7QString9fromAsciiEPKci", 
+                "_ZNK7QString6toUtf8Ev", 
+                "__gxx_personality_v0", 
+                "_ZN16QCoreApplicationC1ERiPPci", 
+                "getpid", 
+                "apr_hash_pool_get", 
+                "getenv", 
+                "_ZN7KWallet6Wallet13NetworkWalletEv", 
+                "_Unwind_Resume", 
+                "svn_config_get", 
+                "_ZN14KComponentDataD1Ev", 
+                "_ITM_registerTMCloneTable", 
+                "apr_pool_cleanup_null", 
+                "_ZN10QByteArray7reallocEi", 
+                "_ZN16KLocalizedStringD1Ev", 
+                "dbus_bus_get"
+            ], 
+            "rpm": "subversion-kde-1.9.7-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libsvn_auth_kwallet-1.so.0.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Tools", 
+            "Name": " subversion-kde", 
+            "License": " ASL 2.0", 
+            "URL": " https://subversion.apache.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-05.phx2.fedoraproject.org", 
+            "Description": "\nThe subversion-kde package adds support for storing Subversion\npasswords in the KDE Wallet.\n", 
+            "Build Date": " Fri 11 Aug 2017 04:10:19 AM EDT", 
+            "Source RPM": " subversion-1.9.7-1.fc27.src.rpm", 
+            "Version": " 1.9.7", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 11 Aug 2017 05:42:44 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 1.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " KDE Wallet support for Subversion", 
+            "Size": " 18936"
+        }
+    }
+}

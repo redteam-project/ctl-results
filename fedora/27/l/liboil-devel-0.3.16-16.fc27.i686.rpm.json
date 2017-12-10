@@ -1,0 +1,54 @@
+{
+    "results": {
+        "usr/bin/oil-bugreport": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "__vfprintf_chk", 
+                "_ITM_registerTMCloneTable", 
+                "__gmon_start__", 
+                "__printf_chk", 
+                "oil_debug_set_print_function", 
+                "_ITM_deregisterTMCloneTable", 
+                "__libc_start_main", 
+                "oil_class_get_by_index", 
+                "oil_class_get_n_classes", 
+                "oil_init", 
+                "__fprintf_chk"
+            ], 
+            "rpm": "liboil-devel-0.3.16-16.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/oil-bugreport"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " liboil-devel", 
+            "License": " BSD", 
+            "URL": " http://liboil.freedesktop.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-03.phx2.fedoraproject.org", 
+            "Description": "\nLiboil is a library of simple functions that are optimized for various CPUs.\nThese functions are generally loops implementing simple algorithms, such as\nconverting an array of N integers to floating-poing numbers or multiplying\nand summing an array of N numbers. Clearly such functions are candidates for\nsignificant optimization using various techniques, especially by using\nextended instructions provided by modern CPUs (Altivec, MMX, SSE, etc.).\n", 
+            "Build Date": " Thu 03 Aug 2017 03:25:26 PM EDT", 
+            "Source RPM": " liboil-0.3.16-16.fc27.src.rpm", 
+            "Version": " 0.3.16", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 12:20:14 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 16.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Development files and static library for liboil", 
+            "Size": " 1031358"
+        }
+    }
+}

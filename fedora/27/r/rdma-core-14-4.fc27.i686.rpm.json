@@ -1,0 +1,80 @@
+{
+    "results": {
+        "usr/sbin/rdma-ndd": {
+            "report-functions": [
+                "lseek", 
+                "udev_new", 
+                "fclose", 
+                "fopen", 
+                "open", 
+                "__poll_chk", 
+                "__libc_start_main", 
+                "strdup", 
+                "opendir", 
+                "udev_monitor_filter_add_match_subsystem_devtype", 
+                "strncmp", 
+                "getopt_long", 
+                "__vsyslog_chk", 
+                "openlog", 
+                "read", 
+                "daemon", 
+                "udev_monitor_new_from_netlink", 
+                "udev_monitor_get_fd", 
+                "puts", 
+                "udev_device_unref", 
+                "__syslog_chk", 
+                "__cxa_finalize", 
+                "exit", 
+                "udev_monitor_enable_receiving", 
+                "closedir", 
+                "__stack_chk_fail", 
+                "fputs", 
+                "getenv", 
+                "__snprintf_chk", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "udev_device_get_sysname", 
+                "_ITM_deregisterTMCloneTable", 
+                "readdir", 
+                "udev_device_get_subsystem", 
+                "index", 
+                "udev_device_get_action", 
+                "fgets"
+            ], 
+            "rpm": "rdma-core-14-4.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/sbin/rdma-ndd"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " rdma-core", 
+            "License": " GPLv2 or BSD", 
+            "URL": " https://github.com/linux-rdma/rdma-core", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-02.phx2.fedoraproject.org", 
+            "Description": "\nRDMA core userspace infrastructure and documentation, including initscripts,\nkernel driver-specific modprobe override configs, IPoIB network scripts,\ndracut rules, and the rdma-ndd utility.\n", 
+            "Build Date": " Wed 09 Aug 2017 04:24:03 PM EDT", 
+            "Source RPM": " rdma-core-14-4.fc27.src.rpm", 
+            "Version": " 14", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Wed 09 Aug 2017 04:28:19 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 4.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " RDMA core userspace libraries and daemons", 
+            "Size": " 97067"
+        }
+    }
+}

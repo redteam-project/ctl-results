@@ -1,0 +1,153 @@
+{
+    "results": {
+        "usr/sbin/skdump": {
+            "report-functions": [
+                "fwrite", 
+                "_ITM_deregisterTMCloneTable", 
+                "sk_disk_open", 
+                "sk_disk_smart_is_available", 
+                "sk_disk_smart_read_data", 
+                "sk_disk_smart_get_overall", 
+                "sk_disk_get_blob", 
+                "strrchr", 
+                "fclose", 
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "strerror", 
+                "sk_disk_smart_get_temperature", 
+                "__libc_start_main", 
+                "sk_disk_smart_get_power_cycle", 
+                "sk_smart_overall_to_string", 
+                "sk_disk_smart_get_bad", 
+                "sk_disk_smart_get_power_on", 
+                "__errno_location", 
+                "__cxa_finalize", 
+                "puts", 
+                "getopt_long", 
+                "sk_disk_smart_status", 
+                "strcmp", 
+                "sk_disk_dump", 
+                "__fprintf_chk", 
+                "__printf_chk", 
+                "sk_disk_free", 
+                "fread", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "libatasmart-0.19-13.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/sbin/skdump"
+        }, 
+        "usr/lib/libatasmart_so_4_0_5": {
+            "report-functions": [
+                "udev_device_get_property_value", 
+                "strcmp", 
+                "udev_device_new_from_devnum", 
+                "__cxa_finalize", 
+                "__printf_chk", 
+                "ioctl", 
+                "udev_device_get_sysattr_value", 
+                "__errno_location", 
+                "sscanf", 
+                "strdup", 
+                "strerror", 
+                "free", 
+                "udev_unref", 
+                "__assert_fail", 
+                "udev_new", 
+                "open64", 
+                "isatty", 
+                "udev_device_get_parent_with_subsystem_devtype", 
+                "strncmp", 
+                "regexec", 
+                "regcomp", 
+                "__asprintf_chk", 
+                "regfree", 
+                "puts", 
+                "calloc", 
+                "fwrite", 
+                "_ITM_deregisterTMCloneTable", 
+                "__snprintf_chk", 
+                "strncpy", 
+                "strlen", 
+                "_ITM_registerTMCloneTable", 
+                "udev_device_unref", 
+                "__fxstat64", 
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "strspn", 
+                "putchar"
+            ], 
+            "rpm": "libatasmart-0.19-13.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libatasmart.so.4.0.5"
+        }, 
+        "usr/sbin/sktest": {
+            "report-functions": [
+                "strcasecmp", 
+                "__libc_start_main", 
+                "sk_disk_smart_self_test", 
+                "__errno_location", 
+                "__fprintf_chk", 
+                "sk_smart_self_test_to_string", 
+                "_ITM_deregisterTMCloneTable", 
+                "__stack_chk_fail", 
+                "sk_disk_open", 
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable", 
+                "strerror"
+            ], 
+            "rpm": "libatasmart-0.19-13.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/sbin/sktest"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " libatasmart", 
+            "License": " LGPLv2+", 
+            "URL": " http://git.0pointer.de/?p=libatasmart.git;a=summary", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-26.phx2.fedoraproject.org", 
+            "Description": "\nA small and lightweight parser library for ATA S.M.A.R.T. hard disk\nhealth monitoring.\n", 
+            "Build Date": " Wed 13 Sep 2017 02:00:12 PM EDT", 
+            "Source RPM": " libatasmart-0.19-13.fc27.src.rpm", 
+            "Version": " 0.19", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Wed 13 Sep 2017 02:09:28 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 13.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " ATA S.M.A.R.T. Disk Health Monitoring Library", 
+            "Size": " 97327"
+        }
+    }
+}

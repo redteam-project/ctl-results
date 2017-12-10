@@ -1,0 +1,1000 @@
+{
+    "results": {
+        "usr/lib/ts/mk712_so": {
+            "report-functions": [
+                "read", 
+                "malloc", 
+                "gettimeofday", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "tslib-1.11-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/ts/mk712.so"
+        }, 
+        "usr/bin/ts_finddev": {
+            "report-functions": [
+                "exit", 
+                "strtol", 
+                "__printf_chk", 
+                "ts_close", 
+                "alarm", 
+                "ts_read_raw", 
+                "ts_libversion", 
+                "_ITM_registerTMCloneTable", 
+                "ts_setup", 
+                "_ITM_deregisterTMCloneTable", 
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "__libc_start_main", 
+                "putchar", 
+                "puts"
+            ], 
+            "rpm": "tslib-1.11-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/ts_finddev"
+        }, 
+        "usr/bin/ts_test_mt": {
+            "report-functions": [
+                "read", 
+                "putchar", 
+                "puts", 
+                "__stack_chk_fail", 
+                "ts_fd", 
+                "__libc_start_main", 
+                "perror", 
+                "qsort", 
+                "__gmon_start__", 
+                "strtol", 
+                "ts_libversion", 
+                "_ITM_deregisterTMCloneTable", 
+                "munmap", 
+                "close", 
+                "malloc", 
+                "free", 
+                "getenv", 
+                "fflush", 
+                "_ITM_registerTMCloneTable", 
+                "calloc", 
+                "mmap", 
+                "ts_setup", 
+                "__cxa_finalize", 
+                "strlen", 
+                "__sprintf_chk", 
+                "getopt_long", 
+                "__printf_chk", 
+                "exit", 
+                "__errno_location", 
+                "ts_read_raw", 
+                "signal", 
+                "ts_read_mt", 
+                "fwrite", 
+                "open"
+            ], 
+            "rpm": "tslib-1.11-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/ts_test_mt"
+        }, 
+        "usr/lib/ts/pthres_so": {
+            "report-functions": [
+                "calloc", 
+                "tslib_parse_vars", 
+                "__gmon_start__", 
+                "memmove", 
+                "__errno_location", 
+                "_ITM_deregisterTMCloneTable", 
+                "free", 
+                "malloc", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "tslib-1.11-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/ts/pthres.so"
+        }, 
+        "usr/lib/ts/variance_so": {
+            "report-functions": [
+                "__errno_location", 
+                "__cxa_finalize", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable", 
+                "tslib_parse_vars", 
+                "strtoul", 
+                "__stack_chk_fail", 
+                "free", 
+                "calloc", 
+                "__gmon_start__"
+            ], 
+            "rpm": "tslib-1.11-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/ts/variance.so"
+        }, 
+        "usr/lib/ts/linear_h2200_so": {
+            "report-functions": [
+                "free", 
+                "_ITM_registerTMCloneTable", 
+                "malloc", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "tslib-1.11-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/ts/linear_h2200.so"
+        }, 
+        "usr/lib/ts/tatung_so": {
+            "report-functions": [
+                "gettimeofday", 
+                "malloc", 
+                "_ITM_deregisterTMCloneTable", 
+                "read", 
+                "__gmon_start__", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "tslib-1.11-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/ts/tatung.so"
+        }, 
+        "usr/bin/ts_harvest": {
+            "report-functions": [
+                "exit", 
+                "ts_setup", 
+                "__cxa_finalize", 
+                "__libc_start_main", 
+                "fopen", 
+                "open", 
+                "__stack_chk_fail", 
+                "getenv", 
+                "malloc", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "munmap", 
+                "read", 
+                "__sprintf_chk", 
+                "fclose", 
+                "fflush", 
+                "_ITM_deregisterTMCloneTable", 
+                "fwrite", 
+                "qsort", 
+                "perror", 
+                "ts_read_raw", 
+                "close", 
+                "free", 
+                "ts_close", 
+                "mmap", 
+                "strlen", 
+                "signal", 
+                "__fprintf_chk", 
+                "ioctl", 
+                "usleep"
+            ], 
+            "rpm": "tslib-1.11-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/ts_harvest"
+        }, 
+        "usr/bin/ts_test": {
+            "report-functions": [
+                "ts_fd", 
+                "ts_read_raw", 
+                "ioctl", 
+                "__sprintf_chk", 
+                "qsort", 
+                "open", 
+                "strlen", 
+                "getopt_long", 
+                "ts_setup", 
+                "munmap", 
+                "putchar", 
+                "read", 
+                "__stack_chk_fail", 
+                "getenv", 
+                "signal", 
+                "__libc_start_main", 
+                "ts_read", 
+                "close", 
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "strtol", 
+                "_ITM_deregisterTMCloneTable", 
+                "exit", 
+                "perror", 
+                "mmap", 
+                "ts_libversion", 
+                "malloc", 
+                "free", 
+                "_ITM_registerTMCloneTable", 
+                "puts", 
+                "fwrite", 
+                "__errno_location", 
+                "fflush"
+            ], 
+            "rpm": "tslib-1.11-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/ts_test"
+        }, 
+        "usr/lib/libts_so_0_7_1": {
+            "report-functions": [
+                "strncpy", 
+                "strdup", 
+                "getenv", 
+                "fgets", 
+                "_ITM_registerTMCloneTable", 
+                "__cxa_finalize", 
+                "close", 
+                "__gmon_start__", 
+                "strcasecmp", 
+                "dlclose", 
+                "__snprintf_chk", 
+                "dlopen", 
+                "free", 
+                "dlsym", 
+                "fclose", 
+                "strpbrk", 
+                "strlen", 
+                "__errno_location", 
+                "_ITM_deregisterTMCloneTable", 
+                "calloc", 
+                "strsep", 
+                "strchr", 
+                "__vfprintf_chk", 
+                "fopen", 
+                "__open_2"
+            ], 
+            "rpm": "tslib-1.11-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libts.so.0.7.1"
+        }, 
+        "usr/bin/ts_uinput": {
+            "report-functions": [
+                "getenv", 
+                "scandir", 
+                "calloc", 
+                "ioctl", 
+                "__libc_start_main", 
+                "getopt_long", 
+                "__gmon_start__", 
+                "ts_libversion", 
+                "fflush", 
+                "open", 
+                "__fprintf_chk", 
+                "free", 
+                "__cxa_finalize", 
+                "putchar", 
+                "__asprintf_chk", 
+                "__printf_chk", 
+                "ts_read_mt", 
+                "ts_config", 
+                "perror", 
+                "puts", 
+                "daemon", 
+                "snprintf", 
+                "fwrite", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable", 
+                "close", 
+                "write", 
+                "__errno_location", 
+                "alphasort", 
+                "ts_close", 
+                "__stack_chk_fail", 
+                "ts_open"
+            ], 
+            "rpm": "tslib-1.11-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/ts_uinput"
+        }, 
+        "usr/lib/ts/collie_so": {
+            "report-functions": [
+                "malloc", 
+                "_ITM_deregisterTMCloneTable", 
+                "read", 
+                "_ITM_registerTMCloneTable", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "tslib-1.11-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/ts/collie.so"
+        }, 
+        "usr/lib/ts/skip_so": {
+            "report-functions": [
+                "__errno_location", 
+                "malloc", 
+                "tslib_parse_vars", 
+                "_ITM_deregisterTMCloneTable", 
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "calloc", 
+                "__cxa_finalize", 
+                "strtoul"
+            ], 
+            "rpm": "tslib-1.11-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/ts/skip.so"
+        }, 
+        "usr/lib/ts/dejitter_so": {
+            "report-functions": [
+                "__errno_location", 
+                "_ITM_registerTMCloneTable", 
+                "__cxa_finalize", 
+                "malloc", 
+                "__gmon_start__", 
+                "calloc", 
+                "tslib_parse_vars", 
+                "strtoul"
+            ], 
+            "rpm": "tslib-1.11-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/ts/dejitter.so"
+        }, 
+        "usr/bin/ts_print_mt": {
+            "report-functions": [
+                "strtol", 
+                "ts_setup", 
+                "putchar", 
+                "calloc", 
+                "__libc_start_main", 
+                "__errno_location", 
+                "free", 
+                "ts_read_mt", 
+                "exit", 
+                "ts_libversion", 
+                "__printf_chk", 
+                "ts_close", 
+                "__gmon_start__", 
+                "ts_fd", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable", 
+                "__cxa_finalize", 
+                "ioctl", 
+                "__vfprintf_chk", 
+                "malloc", 
+                "ts_read_raw_mt", 
+                "getopt_long"
+            ], 
+            "rpm": "tslib-1.11-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/ts_print_mt"
+        }, 
+        "usr/lib/ts/linear_so": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "__stack_chk_fail", 
+                "getenv", 
+                "_ITM_registerTMCloneTable", 
+                "malloc", 
+                "__isoc99_fscanf", 
+                "fclose", 
+                "fopen", 
+                "__gmon_start__", 
+                "perror", 
+                "strtoul", 
+                "fwrite", 
+                "tslib_parse_vars", 
+                "__errno_location", 
+                "__xstat"
+            ], 
+            "rpm": "tslib-1.11-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/ts/linear.so"
+        }, 
+        "usr/bin/ts_print_raw": {
+            "report-functions": [
+                "ts_read_raw", 
+                "_ITM_registerTMCloneTable", 
+                "ts_setup", 
+                "__gmon_start__", 
+                "exit", 
+                "perror", 
+                "__printf_chk", 
+                "ts_close", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "tslib-1.11-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/ts_print_raw"
+        }, 
+        "usr/lib/ts/corgi_so": {
+            "report-functions": [
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable", 
+                "read"
+            ], 
+            "rpm": "tslib-1.11-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/ts/corgi.so"
+        }, 
+        "usr/lib/ts/input_so": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "ioctl", 
+                "read", 
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "free", 
+                "tslib_parse_vars", 
+                "__fprintf_chk", 
+                "malloc", 
+                "strtoul", 
+                "_ITM_registerTMCloneTable", 
+                "fwrite"
+            ], 
+            "rpm": "tslib-1.11-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/ts/input.so"
+        }, 
+        "usr/lib/ts/debounce_so": {
+            "report-functions": [
+                "strtoul", 
+                "memmove", 
+                "malloc", 
+                "_ITM_deregisterTMCloneTable", 
+                "calloc", 
+                "_ITM_registerTMCloneTable", 
+                "tslib_parse_vars", 
+                "free", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "tslib-1.11-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/ts/debounce.so"
+        }, 
+        "usr/lib/ts/median_so": {
+            "report-functions": [
+                "memmove", 
+                "_ITM_registerTMCloneTable", 
+                "qsort", 
+                "__cxa_finalize", 
+                "__errno_location", 
+                "tslib_parse_vars", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "malloc", 
+                "__fprintf_chk", 
+                "free", 
+                "puts"
+            ], 
+            "rpm": "tslib-1.11-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/ts/median.so"
+        }, 
+        "usr/lib/ts/ucb1x00_so": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "malloc", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "tslib-1.11-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/ts/ucb1x00.so"
+        }, 
+        "usr/lib/ts/touchkit_so": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "tcgetattr", 
+                "__gmon_start__", 
+                "tcsetattr", 
+                "_ITM_registerTMCloneTable", 
+                "__stack_chk_fail", 
+                "_ITM_deregisterTMCloneTable", 
+                "__memcpy_chk", 
+                "read"
+            ], 
+            "rpm": "tslib-1.11-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/ts/touchkit.so"
+        }, 
+        "usr/lib/ts/galax_so": {
+            "report-functions": [
+                "malloc", 
+                "strtoul", 
+                "_ITM_registerTMCloneTable", 
+                "__fprintf_chk", 
+                "fwrite", 
+                "_ITM_deregisterTMCloneTable", 
+                "free", 
+                "read", 
+                "__cxa_finalize", 
+                "__gmon_start__", 
+                "__stack_chk_fail", 
+                "ioctl"
+            ], 
+            "rpm": "tslib-1.11-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/ts/galax.so"
+        }, 
+        "usr/lib/ts/dmc_so": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable", 
+                "__stack_chk_fail", 
+                "tcsetattr", 
+                "write", 
+                "sleep", 
+                "gettimeofday", 
+                "__gmon_start__", 
+                "tcgetattr", 
+                "read", 
+                "cfsetispeed", 
+                "fwrite", 
+                "calloc", 
+                "perror"
+            ], 
+            "rpm": "tslib-1.11-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/ts/dmc.so"
+        }, 
+        "usr/bin/ts_print": {
+            "report-functions": [
+                "exit", 
+                "_ITM_registerTMCloneTable", 
+                "_ITM_deregisterTMCloneTable", 
+                "__libc_start_main", 
+                "ts_setup", 
+                "__printf_chk", 
+                "__cxa_finalize", 
+                "ts_close", 
+                "perror"
+            ], 
+            "rpm": "tslib-1.11-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/ts_print"
+        }, 
+        "usr/lib/ts/iir_so": {
+            "report-functions": [
+                "__gmon_start__", 
+                "calloc", 
+                "tslib_parse_vars", 
+                "_ITM_deregisterTMCloneTable", 
+                "puts", 
+                "__cxa_finalize", 
+                "free", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "tslib-1.11-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/ts/iir.so"
+        }, 
+        "usr/lib/ts/arctic2_so": {
+            "report-functions": [
+                "__gmon_start__", 
+                "gettimeofday", 
+                "_ITM_deregisterTMCloneTable", 
+                "__stack_chk_fail", 
+                "__cxa_finalize", 
+                "read"
+            ], 
+            "rpm": "tslib-1.11-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/ts/arctic2.so"
+        }, 
+        "usr/bin/ts_verify": {
+            "report-functions": [
+                "puts", 
+                "setenv", 
+                "_ITM_registerTMCloneTable", 
+                "__printf_chk", 
+                "ts_read_raw_mt", 
+                "fopen", 
+                "ts_fd", 
+                "free", 
+                "ts_read_mt", 
+                "getopt_long", 
+                "putchar", 
+                "ts_read", 
+                "ts_reconfig", 
+                "ts_setup", 
+                "ts_load_module", 
+                "__errno_location", 
+                "_ITM_deregisterTMCloneTable", 
+                "ts_read_raw", 
+                "fwrite", 
+                "calloc", 
+                "__cxa_finalize", 
+                "__libc_start_main", 
+                "perror", 
+                "fclose", 
+                "malloc", 
+                "__stack_chk_fail", 
+                "unlink", 
+                "ts_libversion", 
+                "__gmon_start__"
+            ], 
+            "rpm": "tslib-1.11-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/ts_verify"
+        }, 
+        "usr/lib/ts/h3600_so": {
+            "report-functions": [
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "__stack_chk_fail", 
+                "gettimeofday", 
+                "_ITM_deregisterTMCloneTable", 
+                "read"
+            ], 
+            "rpm": "tslib-1.11-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/ts/h3600.so"
+        }, 
+        "usr/lib/ts/waveshare_so": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "_ITM_registerTMCloneTable", 
+                "tslib_parse_vars", 
+                "_ITM_deregisterTMCloneTable", 
+                "malloc", 
+                "free", 
+                "__errno_location", 
+                "strlen", 
+                "close", 
+                "__cxa_finalize", 
+                "ioctl", 
+                "strtol", 
+                "__gmon_start__", 
+                "ts_close", 
+                "__snprintf_chk", 
+                "gettimeofday", 
+                "__xstat"
+            ], 
+            "rpm": "tslib-1.11-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/ts/waveshare.so"
+        }, 
+        "usr/bin/ts_calibrate": {
+            "report-functions": [
+                "signal", 
+                "_ITM_registerTMCloneTable", 
+                "__cxa_finalize", 
+                "__libc_start_main", 
+                "select", 
+                "read", 
+                "_ITM_deregisterTMCloneTable", 
+                "write", 
+                "mmap", 
+                "ts_libversion", 
+                "__fdelt_chk", 
+                "ts_setup", 
+                "__printf_chk", 
+                "ioctl", 
+                "ts_read_raw", 
+                "close", 
+                "ts_close", 
+                "__stack_chk_fail", 
+                "perror", 
+                "malloc", 
+                "getenv", 
+                "qsort", 
+                "puts", 
+                "putchar", 
+                "exit", 
+                "strlen", 
+                "strtol", 
+                "munmap", 
+                "__sprintf_chk", 
+                "usleep", 
+                "fflush", 
+                "ts_fd", 
+                "__errno_location", 
+                "fwrite", 
+                "getopt_long", 
+                "__gmon_start__"
+            ], 
+            "rpm": "tslib-1.11-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/ts_calibrate"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " tslib", 
+            "License": " LGPLv2", 
+            "URL": " https://github.com/kergoth/tslib", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-18.phx2.fedoraproject.org", 
+            "Description": "\nThe idea of tslib is to have a core library that provides standardised\nservices, and a set of plugins to manage the conversion and filtering as\nneeded.\n\nThe plugins for a particular touchscreen are loaded automatically by the\nlibrary under the control of a static configuration file, ts.conf.\nts.conf gives the library basic configuration information.  Each line\nspecifies one module, and the parameters for that module.  The modules\nare loaded in order, with the first one processing the touchscreen data\nfirst.\n", 
+            "Build Date": " Fri 04 Aug 2017 09:06:50 PM EDT", 
+            "Source RPM": " tslib-1.11-3.fc27.src.rpm", 
+            "Version": " 1.11", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 05 Aug 2017 07:28:46 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 3.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Touchscreen Access Library", 
+            "Size": " 395872"
+        }
+    }
+}

@@ -1,0 +1,76 @@
+{
+    "results": {
+        "usr/lib/libbd_mpath_so_2_0_0": {
+            "report-functions": [
+                "bd_utils_check_util_version", 
+                "g_free", 
+                "dm_task_get_info", 
+                "dm_task_get_deps", 
+                "g_set_error", 
+                "strrchr", 
+                "g_malloc0_n", 
+                "g_file_read_link", 
+                "dm_task_set_name", 
+                "bd_utils_exec_and_report_error", 
+                "__stack_chk_fail", 
+                "g_strfreev", 
+                "g_realloc_n", 
+                "g_strdup_printf", 
+                "dm_task_get_names", 
+                "g_quark_from_static_string", 
+                "g_str_has_prefix", 
+                "dm_task_run", 
+                "bd_utils_report_started", 
+                "bd_utils_resolve_device", 
+                "dm_task_destroy", 
+                "g_log", 
+                "g_malloc0", 
+                "g_clear_error", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "bd_utils_report_finished", 
+                "bd_utils_exec_and_capture_output", 
+                "dm_task_create", 
+                "__cxa_finalize", 
+                "g_strdup", 
+                "g_prefix_error", 
+                "_ITM_registerTMCloneTable", 
+                "dm_get_next_target"
+            ], 
+            "rpm": "libblockdev-mpath-2.12-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libbd_mpath.so.2.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " libblockdev-mpath", 
+            "License": " LGPLv2+", 
+            "URL": " https://github.com/storaged-project/libblockdev", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-02.phx2.fedoraproject.org", 
+            "Description": "\nThe libblockdev library plugin (and in the same time a standalone library)\nproviding the functionality related to multipath devices.\n", 
+            "Build Date": " Wed 30 Aug 2017 03:57:24 AM EDT", 
+            "Source RPM": " libblockdev-2.12-1.fc27.src.rpm", 
+            "Version": " 2.12", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Wed 30 Aug 2017 04:07:21 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 1.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " The multipath plugin for the libblockdev library", 
+            "Size": " 14568"
+        }
+    }
+}

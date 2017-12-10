@@ -1,0 +1,38 @@
+{
+    "results": {
+        "usr/share/php/phpDocumentor/Reflection/Types/Self__php": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/share/php/phpDocumentor/Reflection/Types/Self_.php", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "php-phpdocumentor-type-resolver-0.4.0-2.fc27.noarch.rpm"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " php-phpdocumentor-type-resolver", 
+            "License": " MIT", 
+            "URL": " https://github.com/phpDocumentor/TypeResolver", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-20.phx2.fedoraproject.org", 
+            "Description": "\nThe specification on types in DocBlocks (PSR-5) describes various keywords\nand special constructs but also how to statically resolve the partial name\nof a Class into a Fully Qualified Class Name (FQCN).\n\nPSR-5 also introduces an additional way to describe deeper elements than\nClasses, Interfaces and Traits called the Fully Qualified Structural Element\nName (FQSEN). Using this it is possible to refer to methods, properties and\nclass constants but also functions and global constants.\n\nThis package provides two Resolvers that are capable of:\n1. Returning a series of Value Object for given expression while resolving any\n  partial class names, and\n2. Returning an FQSEN object after resolving any partial Structural Element\n  Names into Fully Qualified Structural Element names.\n\nAutoloader: /usr/share/php/phpDocumentor/Reflection/autoload-type-resolver.php\n", 
+            "Build Date": " Fri 28 Jul 2017 08:51:23 AM EDT", 
+            "Source RPM": " php-phpdocumentor-type-resolver-0.4.0-2.fc27.src.rpm", 
+            "Version": " 0.4.0", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Fri 28 Jul 2017 08:51:44 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 2.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A PSR-5 based resolver of Class names, Types and Structural Element Names", 
+            "Size": " 58152"
+        }
+    }
+}

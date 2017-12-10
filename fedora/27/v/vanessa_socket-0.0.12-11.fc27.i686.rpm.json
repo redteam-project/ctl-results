@@ -1,0 +1,89 @@
+{
+    "results": {
+        "usr/lib/libvanessa_socket_so_2_1_0": {
+            "report-functions": [
+                "fork", 
+                "getgid", 
+                "strlen", 
+                "vanessa_logger_log", 
+                "exit", 
+                "socket", 
+                "getsockname", 
+                "chdir", 
+                "getuid", 
+                "sysconf", 
+                "_ITM_deregisterTMCloneTable", 
+                "setgid", 
+                "freeaddrinfo", 
+                "__cxa_finalize", 
+                "listen", 
+                "connect", 
+                "getegid", 
+                "accept", 
+                "setuid", 
+                "abort", 
+                "setsid", 
+                "poll", 
+                "close", 
+                "wait3", 
+                "__ctype_b_loc", 
+                "getpwnam", 
+                "fflush", 
+                "malloc", 
+                "strtol", 
+                "fcntl", 
+                "signal", 
+                "_ITM_registerTMCloneTable", 
+                "free", 
+                "_vanessa_logger_log_prefix", 
+                "setsockopt", 
+                "open", 
+                "getgrnam", 
+                "__errno_location", 
+                "write", 
+                "__gmon_start__", 
+                "__fdelt_chk", 
+                "getaddrinfo", 
+                "strerror", 
+                "geteuid", 
+                "select", 
+                "bind", 
+                "read"
+            ], 
+            "rpm": "vanessa_socket-0.0.12-11.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libvanessa_socket.so.2.1.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " vanessa_socket", 
+            "License": " LGPLv2+", 
+            "URL": " http://www.vergenet.net/linux/vanessa/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-29.phx2.fedoraproject.org", 
+            "Description": "\nLibrary to simplify TCP/IP socket operations. Includes code to\nopen a socket to a server as a client, to listen on socket for\nclients as a server and to pipe information between sockets.\n", 
+            "Build Date": " Fri 04 Aug 2017 10:17:48 PM EDT", 
+            "Source RPM": " vanessa_socket-0.0.12-11.fc27.src.rpm", 
+            "Version": " 0.0.12", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 05 Aug 2017 08:33:02 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 11.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Simplify TCP/IP socket operations", 
+            "Size": " 55168"
+        }
+    }
+}

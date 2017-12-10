@@ -1,0 +1,84 @@
+{
+    "results": {
+        "usr/lib/libQtSolutions_LockedFile-2_4_so_1_0_0": {
+            "report-functions": [
+                "_ZN5QFile4seekEx", 
+                "_ZN7QObject13connectNotifyEPKc", 
+                "_ZNK5QFile4sizeEv", 
+                "_ZdlPvj", 
+                "_ZN5QFile12readLineDataEPcx", 
+                "_ZNK5QFile10metaObjectEv", 
+                "_ZN7QObject10childEventEP11QChildEvent", 
+                "_ZN9QIODevice16waitForReadyReadEi", 
+                "_ZNK5QFile5atEndEv", 
+                "_ZNK5QFile3posEv", 
+                "_ZN7QObject16disconnectNotifyEPKc", 
+                "_ZN5QFileD2Ev", 
+                "_ZN5QFile11qt_metacastEPKc", 
+                "_ZN5QFileC2Ev", 
+                "__gmon_start__", 
+                "__stack_chk_fail", 
+                "_ZN5QFile4openE6QFlagsIN9QIODevice12OpenModeFlagEE", 
+                "_ZN5QFile5closeEv", 
+                "_ZNK5QFile12isSequentialEv", 
+                "fcntl", 
+                "_ZN7QObject10timerEventEP11QTimerEvent", 
+                "_ZN7QObject5eventEP6QEvent", 
+                "_ZNK9QIODevice14bytesAvailableEv", 
+                "_ZN5QFile9writeDataEPKcx", 
+                "_ZN7QObject11eventFilterEPS_P6QEvent", 
+                "_ZNK5QFile10fileEngineEv", 
+                "_ZN5QFile11qt_metacallEN11QMetaObject4CallEiPPv", 
+                "__cxa_finalize", 
+                "__errno_location", 
+                "strerror", 
+                "_ZN9QIODevice19waitForBytesWrittenEi", 
+                "_ZN9QIODevice5resetEv", 
+                "_ZN7QObject11customEventEP6QEvent", 
+                "_Z8qWarningPKcz", 
+                "_ZN5QFileC2ERK7QString", 
+                "_ZNK9QIODevice12bytesToWriteEv", 
+                "__gxx_personality_v0", 
+                "_ZNK9QIODevice11canReadLineEv", 
+                "_ZN5QFile8readDataEPcx", 
+                "_ITM_registerTMCloneTable", 
+                "_ZNK9QIODevice6isOpenEv", 
+                "_ZNK5QFile6handleEv"
+            ], 
+            "rpm": "qtlockedfile-2.4-22.20150629git5a07df5.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libQtSolutions_LockedFile-2.4.so.1.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " qtlockedfile", 
+            "License": " GPLv3 or LGPLv2 with exceptions", 
+            "URL": " http://doc.qt.digia.com/solutions/4/qtlockedfile/qtlockedfile.html", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-06.phx2.fedoraproject.org", 
+            "Description": "\nThis class extends the QFile class with inter-process file locking capabilities.\nIf an application requires that several processes should access the same file,\nQtLockedFile can be used to easily ensure that only one process at a time is\nwriting to the file, and that no process is writing to it while others are\nreading it.\n", 
+            "Build Date": " Sat 11 Feb 2017 04:22:42 PM EST", 
+            "Source RPM": " qtlockedfile-2.4-22.20150629git5a07df5.fc26.src.rpm", 
+            "Version": " 2.4", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sun 26 Feb 2017 05:10:17 PM EST, Key ID f55e7430f5282ee4", 
+            "Release": " 22.20150629git5a07df5.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " QFile extension with advisory locking functions", 
+            "Size": " 73538"
+        }
+    }
+}

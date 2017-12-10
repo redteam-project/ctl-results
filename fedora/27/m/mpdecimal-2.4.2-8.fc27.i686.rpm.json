@@ -1,0 +1,67 @@
+{
+    "results": {
+        "usr/lib/libmpdec_so_2_4_2": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "_ITM_deregisterTMCloneTable", 
+                "localeconv", 
+                "__memcpy_chk", 
+                "__gmon_start__", 
+                "free", 
+                "log10", 
+                "__stack_chk_fail", 
+                "__errno_location", 
+                "fwrite", 
+                "abort", 
+                "__fprintf_chk", 
+                "strlen", 
+                "calloc", 
+                "__snprintf_chk", 
+                "strtol", 
+                "__assert_fail", 
+                "raise", 
+                "__printf_chk", 
+                "ceil", 
+                "fputc", 
+                "realloc", 
+                "__ctype_b_loc", 
+                "malloc", 
+                "memmove"
+            ], 
+            "rpm": "mpdecimal-2.4.2-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libmpdec.so.2.4.2"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " mpdecimal", 
+            "License": " BSD", 
+            "URL": " http://www.bytereef.org/mpdecimal/index.html", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-09.phx2.fedoraproject.org", 
+            "Description": "\nThe package contains a library limpdec implementing General Decimal Arithmetic\nSpecification. The specification, written by Mike Cowlishaw from IBM, defines\na general purpose arbitrary precision data type together with rigorously\nspecified functions and rounding behavior.\n", 
+            "Build Date": " Thu 03 Aug 2017 10:58:37 PM EDT", 
+            "Source RPM": " mpdecimal-2.4.2-8.fc27.src.rpm", 
+            "Version": " 2.4.2", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 06:37:38 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 8.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Library for general decimal arithmetic", 
+            "Size": " 212763"
+        }
+    }
+}

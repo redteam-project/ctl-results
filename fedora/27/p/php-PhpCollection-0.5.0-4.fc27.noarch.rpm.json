@@ -1,0 +1,25 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " php-PhpCollection", 
+            "License": " ASL 2.0", 
+            "URL": " http://jmsyst.com/libs/php-collection", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-aarch64-12.arm.fedoraproject.org", 
+            "Description": "\nThis library adds basic collections for PHP.\n\nCollections can be seen as more specialized arrays for which certain contracts\nare guaranteed.\n\nSupported Collections:\n* Sequences\n** Keys: numerical, consequentially increasing, no gaps\n** Values: anything, duplicates allowed\n** Classes: Sequence, SortedSequence\n* Maps\n** Keys: strings or objects, duplicate keys not allowed\n** Values: anything, duplicates allowed\n** Classes: Map, ObjectMap (not yet implemented)\n* Sets (not yet implemented)\n** Keys: not meaningful\n** Values: anything, each value must be unique (===)\n** Classes: Set\n\nGeneral Characteristics:\n* Collections are mutable (new elements may be added, existing elements may be\n  modified or removed). Specialized immutable versions may be added in the\n  future though.\n* Equality comparison between elements are always performed using the shallow\n  comparison operator (===).\n* Sorting algorithms are unstable, that means the order for equal elements is\n  undefined (the default, and only PHP behavior).\n\nAutoloader: /usr/share/php/PhpCollection/autoload.php\n", 
+            "Build Date": " Fri 08 Sep 2017 09:42:34 AM EDT", 
+            "Source RPM": " php-PhpCollection-0.5.0-4.fc27.src.rpm", 
+            "Version": " 0.5.0", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Fri 08 Sep 2017 10:02:06 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 4.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " General purpose collection library for PHP", 
+            "Size": " 70674"
+        }
+    }
+}

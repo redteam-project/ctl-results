@@ -1,0 +1,66 @@
+{
+    "results": {
+        "usr/lib/libee_so_0_0_0": {
+            "report-functions": [
+                "__ctype_tolower_loc", 
+                "strcpy", 
+                "strchr", 
+                "__ctype_b_loc", 
+                "es_newStrFromSubStr", 
+                "es_str2cstr", 
+                "__stack_chk_fail", 
+                "pow", 
+                "__isoc99_sscanf", 
+                "_ITM_registerTMCloneTable", 
+                "calloc", 
+                "__snprintf_chk", 
+                "free", 
+                "_ITM_deregisterTMCloneTable", 
+                "es_strbufcmp", 
+                "strlen", 
+                "__sprintf_chk", 
+                "__vsnprintf_chk", 
+                "es_deleteStr", 
+                "es_newStrFromCStr", 
+                "__cxa_finalize", 
+                "malloc", 
+                "es_addChar", 
+                "__gmon_start__"
+            ], 
+            "rpm": "libee-0.4.1-12.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libee.so.0.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " libee", 
+            "License": " LGPLv2+ and MIT and GPL+", 
+            "URL": " http://www.libee.org", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-02.phx2.fedoraproject.org", 
+            "Description": "\nThe core idea of libee is to provide a small but hopefully convenient API layer\nabove the CEE standard. CEE is under heavy development and even some of its\ncore data structures have not been fully specified.\n\nCEE is an upcoming standard used to describe network events in a number of\nnormalized formats. It's goal is to unify many different\nrepresentations that exist in the industry.\n", 
+            "Build Date": " Thu 03 Aug 2017 02:06:58 PM EDT", 
+            "Source RPM": " libee-0.4.1-12.fc27.src.rpm", 
+            "Version": " 0.4.1", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 07:35:14 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 12.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Event expression library inspired by CEE", 
+            "Size": " 77025"
+        }
+    }
+}

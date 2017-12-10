@@ -1,0 +1,89 @@
+{
+    "results": {
+        "usr/bin/lzf": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "strlen", 
+                "strstr", 
+                "lzf_compress", 
+                "isatty", 
+                "__memmove_chk", 
+                "__libc_start_main", 
+                "fchmod", 
+                "write", 
+                "exit", 
+                "strncmp", 
+                "read", 
+                "_ITM_deregisterTMCloneTable", 
+                "getenv", 
+                "__lxstat64", 
+                "perror", 
+                "__errno_location", 
+                "open64", 
+                "__gmon_start__", 
+                "close", 
+                "lzf_decompress", 
+                "__cxa_finalize", 
+                "__memcpy_chk", 
+                "strtoul", 
+                "__fprintf_chk", 
+                "_ITM_registerTMCloneTable", 
+                "getopt_long"
+            ], 
+            "rpm": "liblzf-3.6-14.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/lzf"
+        }, 
+        "usr/lib/liblzf_so_1_0_0": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "__stack_chk_fail", 
+                "__errno_location", 
+                "__gmon_start__"
+            ], 
+            "rpm": "liblzf-3.6-14.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/liblzf.so.1.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " liblzf", 
+            "License": " BSD or GPLv2+", 
+            "URL": " http://oldhome.schmorp.de/marc/liblzf.html", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-29.phx2.fedoraproject.org", 
+            "Description": "\nLibLZF is a very small data compression library. It consists\nof only two .c and two .h files and is very easy to\nincorporate into your own programs.  The compression algorithm\nis very, very fast, yet still written in portable C.\n", 
+            "Build Date": " Thu 03 Aug 2017 02:54:51 PM EDT", 
+            "Source RPM": " liblzf-3.6-14.fc27.src.rpm", 
+            "Version": " 3.6", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 10:40:37 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 14.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Small data compression library", 
+            "Size": " 44180"
+        }
+    }
+}

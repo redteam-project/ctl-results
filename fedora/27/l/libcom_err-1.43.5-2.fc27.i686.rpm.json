@@ -1,0 +1,75 @@
+{
+    "results": {
+        "usr/lib/libcom_err_so_2_1": {
+            "report-functions": [
+                "strerror", 
+                "getgid", 
+                "__fprintf_chk", 
+                "__stpcpy_chk", 
+                "fputs", 
+                "sem_destroy", 
+                "strtoul", 
+                "free", 
+                "geteuid", 
+                "fflush", 
+                "fopen", 
+                "__gmon_start__", 
+                "getegid", 
+                "secure_getenv", 
+                "fputc", 
+                "_ITM_registerTMCloneTable", 
+                "__cxa_finalize", 
+                "strncpy", 
+                "isatty", 
+                "getuid", 
+                "___tls_get_addr", 
+                "__vfprintf_chk", 
+                "sem_wait", 
+                "sem_post", 
+                "tcgetattr", 
+                "fwrite", 
+                "fileno", 
+                "fcntl", 
+                "prctl", 
+                "getenv", 
+                "sem_init", 
+                "malloc", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "libcom_err-1.43.5-2.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libcom_err.so.2.1"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " libcom_err", 
+            "License": " MIT", 
+            "URL": " http://e2fsprogs.sourceforge.net/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-31.phx2.fedoraproject.org", 
+            "Description": "\nThis is the common error description library, part of e2fsprogs.\n\nlibcom_err is an attempt to present a common error-handling mechanism.\n", 
+            "Build Date": " Fri 11 Aug 2017 08:09:05 AM EDT", 
+            "Source RPM": " e2fsprogs-1.43.5-2.fc27.src.rpm", 
+            "Version": " 1.43.5", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 11 Aug 2017 08:18:02 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 2.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Common error description library", 
+            "Size": " 59369"
+        }
+    }
+}

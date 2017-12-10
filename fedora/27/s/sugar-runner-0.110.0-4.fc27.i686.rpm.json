@@ -1,0 +1,66 @@
+{
+    "results": {
+        "usr/lib/libsugarrunner_so_0_0_0": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "XSynchronize", 
+                "XSync", 
+                "__stack_chk_fail", 
+                "XCreateSimpleWindow", 
+                "XRRFreeScreenResources", 
+                "g_strdup_printf", 
+                "_ITM_registerTMCloneTable", 
+                "XSetWMProtocols", 
+                "g_free", 
+                "XMapWindow", 
+                "XCloseDisplay", 
+                "g_strdup", 
+                "XChangeProperty", 
+                "XOpenDisplay", 
+                "XRRGetOutputInfo", 
+                "XRRGetScreenResources", 
+                "_ITM_deregisterTMCloneTable", 
+                "g_malloc0_n", 
+                "XNextEvent", 
+                "g_slist_append", 
+                "__gmon_start__", 
+                "XSelectInput", 
+                "g_slist_length"
+            ], 
+            "rpm": "sugar-runner-0.110.0-4.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libsugarrunner.so.0.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " User Interface/Desktops", 
+            "Name": " sugar-runner", 
+            "License": " GPLv2+", 
+            "URL": " http://sugarlabs.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-03.phx2.fedoraproject.org", 
+            "Description": "\nsugar-runner allows to run sugar without using a display manager as usually\nrequired by X desktops. You can run it either from a text console\nor from inside another X session. By default it runs fullscreen but when inside\nX you can specify the window size using the --resolution option.\n", 
+            "Build Date": " Fri 04 Aug 2017 07:28:46 PM EDT", 
+            "Source RPM": " sugar-runner-0.110.0-4.fc27.src.rpm", 
+            "Version": " 0.110.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 05 Aug 2017 05:21:20 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 4.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Sugar runner emulator for development", 
+            "Size": " 41145"
+        }
+    }
+}

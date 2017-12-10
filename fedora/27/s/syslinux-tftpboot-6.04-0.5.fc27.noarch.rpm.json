@@ -1,0 +1,2249 @@
+{
+    "results": {
+        "tftpboot/dmi_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "tftpboot/dmi.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "lua_pushnumber", 
+                "parse_dmitable", 
+                "lua_settable", 
+                "lua_createtable", 
+                "lua_pushinteger", 
+                "lua_pushboolean", 
+                "dmi_iterate", 
+                "lua_pushstring", 
+                "puts"
+            ], 
+            "rpm": "syslinux-tftpboot-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "tftpboot/kbdmap_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "tftpboot/kbdmap.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "loadfile"
+            ], 
+            "rpm": "syslinux-tftpboot-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "tftpboot/disk_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "tftpboot/disk.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "get_error"
+            ], 
+            "rpm": "syslinux-tftpboot-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "tftpboot/config_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "tftpboot/config.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "fputs", 
+                "syslinux_run_kernel_image"
+            ], 
+            "rpm": "syslinux-tftpboot-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "tftpboot/ifmemdsk_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "tftpboot/ifmemdsk.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "syslinux_run_command", 
+                "dev_null_r", 
+                "printf", 
+                "__intcall", 
+                "puts", 
+                "strcmp", 
+                "dev_stdcon_w", 
+                "memcmp", 
+                "syslinux_run_default", 
+                "openconsole"
+            ], 
+            "rpm": "syslinux-tftpboot-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "tftpboot/dhcp_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "tftpboot/dhcp.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "lua_createtable", 
+                "sprintf", 
+                "lua_pushlstring", 
+                "lua_pushinteger", 
+                "snprintf", 
+                "luaL_setfuncs", 
+                "lua_pushstring", 
+                "pxe_get_cached_info"
+            ], 
+            "rpm": "syslinux-tftpboot-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "tftpboot/linux_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "tftpboot/linux.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "pxe_get_cached_info", 
+                "strcpy", 
+                "strchr", 
+                "initramfs_load_file", 
+                "strtoul", 
+                "setup_data_load", 
+                "loadfile", 
+                "malloc", 
+                "printf", 
+                "syslinux_boot_linux", 
+                "puts", 
+                "initramfs_add_file", 
+                "fputs", 
+                "initramfs_init", 
+                "initramfs_load_archive", 
+                "fprintf", 
+                "setup_data_init", 
+                "strcmp"
+            ], 
+            "rpm": "syslinux-tftpboot-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "tftpboot/dmitest_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "tftpboot/dmitest.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "puts", 
+                "strncmp", 
+                "dmi_iterate", 
+                "fgets"
+            ], 
+            "rpm": "syslinux-tftpboot-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "tftpboot/debug_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "tftpboot/debug.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "strncmp", 
+                "syslinux_debug"
+            ], 
+            "rpm": "syslinux-tftpboot-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "tftpboot/cmenu_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "tftpboot/cmenu.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "luaL_optlstring", 
+                "showmenus", 
+                "add_item", 
+                "init_menusystem", 
+                "lua_setfield", 
+                "luaL_checkinteger", 
+                "lua_createtable", 
+                "luaL_optinteger", 
+                "lua_pushstring", 
+                "luaL_checklstring", 
+                "lua_pushinteger", 
+                "set_window_size", 
+                "add_sep", 
+                "luaL_setfuncs", 
+                "add_named_menu"
+            ], 
+            "rpm": "syslinux-tftpboot-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "tftpboot/poweroff_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "tftpboot/poweroff.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "__intcall"
+            ], 
+            "rpm": "syslinux-tftpboot-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "tftpboot/lua_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "tftpboot/lua.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "lua_settop", 
+                "fgets", 
+                "lua_pushlightuserdata", 
+                "openconsole", 
+                "lua_touserdata", 
+                "lua_rawseti", 
+                "lua_pushstring", 
+                "luaL_loadbufferx", 
+                "lua_pushfstring", 
+                "luaL_checkstack", 
+                "lua_tolstring", 
+                "lua_setglobal", 
+                "lua_pushcclosure", 
+                "luaL_callmeta", 
+                "lua_tointegerx", 
+                "lua_gettop", 
+                "fprintf", 
+                "fputs", 
+                "luaL_newstate", 
+                "_fwrite", 
+                "dev_stdcon_w", 
+                "lua_pushinteger", 
+                "lua_pcallk", 
+                "luaL_openlibs", 
+                "lua_close", 
+                "lua_toboolean", 
+                "lua_pushlstring", 
+                "lua_remove", 
+                "luaL_loadfilex", 
+                "strcmp", 
+                "lua_insert", 
+                "lua_concat", 
+                "lua_gc", 
+                "lua_getglobal", 
+                "lua_pushboolean", 
+                "lua_setfield", 
+                "luaL_checkversion_", 
+                "luaL_traceback", 
+                "dev_stdcon_r", 
+                "lua_type"
+            ], 
+            "rpm": "syslinux-tftpboot-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "tftpboot/mboot_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "tftpboot/mboot.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "fputs", 
+                "__com32_zero_regs", 
+                "syslinux_memmap_type", 
+                "pxe_get_cached_info", 
+                "printf", 
+                "strcmp", 
+                "__intcall", 
+                "syslinux_shuffle_boot_pm", 
+                "stpcpy", 
+                "__syslinux_derivative_info", 
+                "lfree", 
+                "syslinux_add_memmap", 
+                "dev_stdcon_w", 
+                "syslinux_memmap_largest", 
+                "openconsole", 
+                "zloadfile", 
+                "dev_null_r", 
+                "syslinux_dup_memmap", 
+                "syslinux_memory_map", 
+                "syslinux_memmap_find_type", 
+                "lmalloc", 
+                "strdup", 
+                "malloc", 
+                "puts", 
+                "using_vga", 
+                "syslinux_add_movelist"
+            ], 
+            "rpm": "syslinux-tftpboot-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "tftpboot/hdt_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "tftpboot/hdt.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "strstr", 
+                "deflate", 
+                "atoi", 
+                "console_ansi_raw", 
+                "issyslinux", 
+                "reg_handler", 
+                "strcpy", 
+                "parse_url", 
+                "sprintf", 
+                "inet_ntoa", 
+                "zzjson_free", 
+                "dmi_iterate", 
+                "openconsole", 
+                "fprintf", 
+                "set_menu_pos", 
+                "move_cursor_to_next_line", 
+                "getuserinput", 
+                "strtok", 
+                "display_cursor", 
+                "fgetc", 
+                "disable_utf8", 
+                "showmenus", 
+                "fputc", 
+                "reg_ontimeout", 
+                "runhelpsystem", 
+                "get_cpu_flag_value_from_name", 
+                "get_type", 
+                "get_key", 
+                "malloc", 
+                "printf", 
+                "add_menu", 
+                "zzjson_create_object", 
+                "realloc", 
+                "zzjson_array_append", 
+                "__syslinux_derivative_info", 
+                "runsyslinuxcmd", 
+                "get_name_from_pci_ids", 
+                "set_window_size", 
+                "sanitize_e820_map", 
+                "vesacon_default_background", 
+                "strcat", 
+                "parse_dmitable", 
+                "get_class_name_from_pci_ids", 
+                "get_mbr_id", 
+                "__intcall", 
+                "strtol", 
+                "pxe_get_cached_info", 
+                "zzjson_create_true", 
+                "zzjson_create_array", 
+                "vesacon_load_background", 
+                "zzjson_create_string", 
+                "zzjson_object_append", 
+                "pxe_dns", 
+                "clear_line", 
+                "detect_memory_88", 
+                "move_cursor_right", 
+                "putchar", 
+                "strlcpy", 
+                "strncpy", 
+                "calloc", 
+                "move_cursor_to_column", 
+                "set_us_g0_charset", 
+                "set_g1_special_char", 
+                "get_bootloader_string", 
+                "strreplace", 
+                "lmalloc", 
+                "init_menusystem", 
+                "lfree", 
+                "csprint", 
+                "parse_acpi", 
+                "get_label", 
+                "clear_entire_screen", 
+                "strncmp", 
+                "parse_partition_table", 
+                "memsize_e820", 
+                "strncat", 
+                "chrreplace", 
+                "zzjson_create_false", 
+                "vbufprintf", 
+                "strchr", 
+                "zzjson_print", 
+                "puts", 
+                "is_gpxe", 
+                "memcmp", 
+                "syslinux_reboot", 
+                "get_error", 
+                "swsusp_check", 
+                "add_sep", 
+                "errno", 
+                "set_cursor_blink", 
+                "dev_rawcon_r", 
+                "strrchr", 
+                "get_module_name_from_alias", 
+                "detect_memory_e801", 
+                "detect_memory_e820", 
+                "set_item_options", 
+                "move_cursor_left", 
+                "vpd_decode", 
+                "strcmp", 
+                "tftp_put", 
+                "cprint", 
+                "getscreensize", 
+                "gather_additional_pci_config", 
+                "get_mbr_string", 
+                "get_drive_parameters", 
+                "flags_to_string", 
+                "snprintf", 
+                "add_item", 
+                "get_module_name_from_pcimap", 
+                "set_normal_attr", 
+                "add_named_menu", 
+                "detect_memsize", 
+                "deflateInit2_", 
+                "strdup", 
+                "free", 
+                "clear_end_of_line", 
+                "detect_cpu", 
+                "zzjson_create_number_i", 
+                "msleep"
+            ], 
+            "rpm": "syslinux-tftpboot-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "tftpboot/elf_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "tftpboot/elf.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "syslinux_shuffle_boot_pm", 
+                "fputs", 
+                "syslinux_add_memmap", 
+                "printf", 
+                "syslinux_memmap_type", 
+                "zloadfile", 
+                "syslinux_memory_map", 
+                "syslinux_memmap_largest", 
+                "free", 
+                "syslinux_free_movelist", 
+                "calloc", 
+                "memcmp", 
+                "syslinux_add_movelist"
+            ], 
+            "rpm": "syslinux-tftpboot-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "tftpboot/syslinux_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "tftpboot/syslinux.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "luaL_setmetatable", 
+                "syslinux_run_kernel_image", 
+                "lua_pushvalue", 
+                "strchr", 
+                "lua_setfield", 
+                "sleep", 
+                "luaL_checkinteger", 
+                "luaL_optlstring", 
+                "initramfs_load_archive", 
+                "luaL_checkudata", 
+                "ConfigName", 
+                "syslinux_local_boot", 
+                "puts", 
+                "luaL_setfuncs", 
+                "lua_pushinteger", 
+                "lua_createtable", 
+                "get_key", 
+                "initramfs_add_file", 
+                "luaL_testudata", 
+                "luaL_checklstring", 
+                "syslinux_final_cleanup", 
+                "lua_pushstring", 
+                "luaL_newmetatable", 
+                "msleep", 
+                "lua_newuserdata", 
+                "luaL_optinteger", 
+                "syslinux_reboot", 
+                "free", 
+                "syslinux_boot_linux", 
+                "lua_settop", 
+                "loadfile", 
+                "lua_settable", 
+                "__syslinux_ipappend_strings", 
+                "malloc", 
+                "syslinux_run_command", 
+                "printf", 
+                "syslinux_run_default", 
+                "memcmp", 
+                "__parse_argv", 
+                "strcpy"
+            ], 
+            "rpm": "syslinux-tftpboot-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "tftpboot/rosh_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "tftpboot/rosh.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "readdir", 
+                "puts", 
+                "errno", 
+                "console_ansi_std", 
+                "getscreensize", 
+                "closedir", 
+                "putchar", 
+                "fstat", 
+                "strcat", 
+                "ConfigName", 
+                "chdir", 
+                "syslinux_reboot", 
+                "strncasecmp", 
+                "close", 
+                "strncpy", 
+                "opendir", 
+                "get_key", 
+                "getopt", 
+                "fopen", 
+                "syslinux_run_command", 
+                "free", 
+                "_fread", 
+                "getcwd", 
+                "__ctypes", 
+                "optind", 
+                "fclose", 
+                "strcpy", 
+                "printf", 
+                "strchr", 
+                "optopt", 
+                "open", 
+                "_fwrite", 
+                "fgets"
+            ], 
+            "rpm": "syslinux-tftpboot-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "tftpboot/libmenu_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "tftpboot/libmenu.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "fputc", 
+                "strstr", 
+                "cprint", 
+                "console_ansi_raw", 
+                "display_cursor", 
+                "fopen", 
+                "free", 
+                "cls", 
+                "strcmp", 
+                "csprint", 
+                "strcpy", 
+                "getscreensize", 
+                "load_kernel", 
+                "printf", 
+                "fputs", 
+                "sprintf", 
+                "clearwindow", 
+                "__idle", 
+                "fgets", 
+                "loadfile", 
+                "strcat", 
+                "fclose", 
+                "clear_end_of_line", 
+                "strchr", 
+                "syslinux_force_text_mode", 
+                "get_key", 
+                "lmalloc"
+            ], 
+            "rpm": "syslinux-tftpboot-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "tftpboot/hexdump_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "tftpboot/hexdump.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "fputs", 
+                "putchar", 
+                "free", 
+                "loadfile", 
+                "fclose", 
+                "printf", 
+                "fprintf", 
+                "strncmp", 
+                "fgetc", 
+                "fopen", 
+                "__ctypes", 
+                "errno"
+            ], 
+            "rpm": "syslinux-tftpboot-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "tftpboot/gfxboot_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "tftpboot/gfxboot.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "sprintf", 
+                "initramfs_add_data", 
+                "ConfigName", 
+                "fgets", 
+                "loadfile", 
+                "close", 
+                "open", 
+                "puts", 
+                "chdir", 
+                "fgetc", 
+                "openconsole", 
+                "syslinux_local_boot", 
+                "__syslinux_ipappend_strings", 
+                "__farcall", 
+                "calloc", 
+                "strdup", 
+                "strcmp", 
+                "dev_stdcon_r", 
+                "strncmp", 
+                "fopen", 
+                "fstat", 
+                "fclose", 
+                "free", 
+                "getcwd", 
+                "asprintf", 
+                "lmalloc", 
+                "read", 
+                "strsep", 
+                "skipspace", 
+                "strtol", 
+                "syslinux_run_command", 
+                "putchar", 
+                "syslinux_boot_linux", 
+                "strcasecmp", 
+                "malloc", 
+                "__syslinux_derivative_info", 
+                "dev_stdcon_w", 
+                "realloc", 
+                "printf", 
+                "initramfs_init"
+            ], 
+            "rpm": "syslinux-tftpboot-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "tftpboot/pmload_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "tftpboot/pmload.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "free", 
+                "syslinux_add_memmap", 
+                "syslinux_free_memmap", 
+                "calloc", 
+                "syslinux_shuffle_boot_pm", 
+                "fputs", 
+                "printf", 
+                "loadfile", 
+                "strtoul", 
+                "syslinux_memmap_type", 
+                "syslinux_free_movelist", 
+                "syslinux_memmap_largest", 
+                "syslinux_add_movelist"
+            ], 
+            "rpm": "syslinux-tftpboot-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "tftpboot/ifplop_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "tftpboot/ifplop.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "__intcall", 
+                "strcmp", 
+                "syslinux_run_default", 
+                "syslinux_run_command"
+            ], 
+            "rpm": "syslinux-tftpboot-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "tftpboot/ldlinux_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "tftpboot/ldlinux.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "opendev", 
+                "vsnprintf", 
+                "sirq_install", 
+                "strcmp", 
+                "VGAFilePtr", 
+                "__file_info", 
+                "files", 
+                "create_args_and_load", 
+                "StackBuf", 
+                "syslinux_idle", 
+                "zero_regs", 
+                "_kaboom", 
+                "DisplayMask", 
+                "__syslinux_shuffler_size", 
+                "FlowOutput", 
+                "getchar", 
+                "__syslinux_adv_ptr", 
+                "ConfigName", 
+                "cleanup_hardware", 
+                "strntoumax", 
+                "kbd_shiftflags", 
+                "path_add", 
+                "VGAFileBuf", 
+                "vgadisplayfile", 
+                "free", 
+                "__ctypes", 
+                "malloc", 
+                "strncmp", 
+                "_fread", 
+                "copyright_str", 
+                "__ms_timer", 
+                "mangle_name", 
+                "unload_pxe", 
+                "open", 
+                "open_file", 
+                "sirq_cleanup_nowipe", 
+                "write_serial_str", 
+                "longjmp", 
+                "__syslinux_adv_size", 
+                "sprintf", 
+                "SysAppends", 
+                "write_serial", 
+                "lfree", 
+                "_fwrite", 
+                "chdir", 
+                "__intcall", 
+                "loadkeys", 
+                "fgetc", 
+                "firmware", 
+                "BIOSName", 
+                "syslinux_force_text_mode", 
+                "fstat", 
+                "strcpy", 
+                "unload_modules_since", 
+                "open_config", 
+                "NoHalt", 
+                "this_fs", 
+                "fclose", 
+                "__file_close", 
+                "memcmp", 
+                "strtoul", 
+                "lmalloc", 
+                "vfprintf", 
+                "loadfont", 
+                "config_cwd", 
+                "writechr", 
+                "start_ldlinux", 
+                "ftell", 
+                "FlowIgnore", 
+                "close", 
+                "local_boot", 
+                "SendCookies", 
+                "DisplayCon", 
+                "zalloc", 
+                "core_getcwd", 
+                "__file_get_block", 
+                "call16", 
+                "do_raw_shuffle_and_boot", 
+                "BaudDivisor", 
+                "SerialPort", 
+                "setjmp", 
+                "KernelName", 
+                "snprintf", 
+                "syslinux_scan_memory", 
+                "strchr", 
+                "_close_file", 
+                "PXERetry", 
+                "do_sysappend", 
+                "errno", 
+                "strncpy", 
+                "strlcpy", 
+                "strdup", 
+                "findpath", 
+                "http_bake_cookies", 
+                "printf", 
+                "sysappend_strings", 
+                "FlowInput", 
+                "pollchar", 
+                "UsingVGA", 
+                "fopen", 
+                "VGAFileMBuf", 
+                "get_derivative_info", 
+                "puts", 
+                "realpath", 
+                "fputs"
+            ], 
+            "rpm": "syslinux-tftpboot-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "tftpboot/cpuid_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "tftpboot/cpuid.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "fputc", 
+                "strtoul", 
+                "printf", 
+                "puts"
+            ], 
+            "rpm": "syslinux-tftpboot-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "tftpboot/pci_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "tftpboot/pci.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "lua_pushnumber", 
+                "strstr", 
+                "lua_pushstring", 
+                "strlcpy", 
+                "fgets", 
+                "strchr", 
+                "fclose", 
+                "fopen", 
+                "pci_scan", 
+                "luaL_checklstring", 
+                "lua_settable", 
+                "luaL_setfuncs", 
+                "skipspace"
+            ], 
+            "rpm": "syslinux-tftpboot-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "tftpboot/libutil_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "tftpboot/libutil.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "errno", 
+                "strncmp", 
+                "strtoul", 
+                "dev_stdcon_r", 
+                "dev_rawcon_r", 
+                "openconsole", 
+                "dev_ansiserial_w", 
+                "stpncpy", 
+                "snprintf", 
+                "lrand48", 
+                "realloc"
+            ], 
+            "rpm": "syslinux-tftpboot-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "tftpboot/cptime_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "tftpboot/cptime.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "fclose", 
+                "fopen", 
+                "console_ansi_std", 
+                "atoi", 
+                "_fread", 
+                "__ms_timer", 
+                "errno", 
+                "strcmp", 
+                "puts"
+            ], 
+            "rpm": "syslinux-tftpboot-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "tftpboot/vesainfo_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "tftpboot/vesainfo.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "__intcall", 
+                "puts", 
+                "_fread", 
+                "lfree"
+            ], 
+            "rpm": "syslinux-tftpboot-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "tftpboot/chain_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "tftpboot/chain.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "open_file", 
+                "str_to_guid", 
+                "read", 
+                "crc32", 
+                "strcpy", 
+                "disk_get_params", 
+                "strlcpy", 
+                "lmalloc", 
+                "syslinux_add_memmap", 
+                "strchr", 
+                "errno", 
+                "disk_read_sectors", 
+                "syslinux_shuffle_boot_rm", 
+                "strncmp", 
+                "memcmp", 
+                "__udivmoddi4", 
+                "malloc", 
+                "syslinux_force_text_mode", 
+                "free", 
+                "strcmp", 
+                "syslinux_add_movelist", 
+                "disk_write_sectors", 
+                "lfree", 
+                "strtoul", 
+                "__udivdi3", 
+                "__syslinux_derivative_info", 
+                "printf", 
+                "puts", 
+                "strtol", 
+                "loadfile", 
+                "fprintf", 
+                "console_ansi_raw", 
+                "syslinux_memory_map"
+            ], 
+            "rpm": "syslinux-tftpboot-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "tftpboot/pxechn_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "tftpboot/pxechn.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "dhcp_unpack_packet", 
+                "strcasecmp", 
+                "lfree", 
+                "pxe_get_cached_info", 
+                "syslinux_memory_map", 
+                "optarg", 
+                "free", 
+                "fputs", 
+                "syslinux_add_movelist", 
+                "strerror", 
+                "syslinux_force_text_mode", 
+                "strnlen", 
+                "pxe_dns", 
+                "loadfile", 
+                "strncmp", 
+                "pxe_call", 
+                "strchr", 
+                "putchar", 
+                "printf", 
+                "dhcp_pack_packet", 
+                "realloc", 
+                "__syslinux_derivative_info", 
+                "strtoul", 
+                "syslinux_shuffle_boot_rm", 
+                "malloc", 
+                "console_ansi_raw", 
+                "strtoull", 
+                "get_key", 
+                "lzalloc", 
+                "syslinux_add_memmap", 
+                "getopt", 
+                "errno", 
+                "strcpy"
+            ], 
+            "rpm": "syslinux-tftpboot-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "tftpboot/reboot_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "tftpboot/reboot.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "strcmp"
+            ], 
+            "rpm": "syslinux-tftpboot-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "tftpboot/zzjson_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "tftpboot/zzjson.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "calloc", 
+                "zzjson_array_prepend", 
+                "fgetc", 
+                "fputc", 
+                "zzjson_create_string", 
+                "zzjson_object_append", 
+                "zzjson_create_false", 
+                "fputs", 
+                "fprintf", 
+                "zzjson_create_number_d", 
+                "zzjson_object_prepend", 
+                "zzjson_array_append", 
+                "zzjson_create_number_i", 
+                "vfprintf", 
+                "free", 
+                "zzjson_create_object", 
+                "zzjson_create_array", 
+                "zzjson_free", 
+                "openconsole", 
+                "dev_rawcon_r", 
+                "dev_ansiserial_w", 
+                "realloc", 
+                "zzjson_create_null", 
+                "malloc"
+            ], 
+            "rpm": "syslinux-tftpboot-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "tftpboot/libgpl_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "tftpboot/libgpl.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "pow", 
+                "lfree", 
+                "strncasecmp", 
+                "strstr", 
+                "strncmp", 
+                "sprintf", 
+                "vfprintf", 
+                "strlcpy", 
+                "lmalloc", 
+                "free", 
+                "__intcall", 
+                "puts", 
+                "strnlen", 
+                "strcpy", 
+                "__ctypes", 
+                "malloc", 
+                "strcat", 
+                "printf", 
+                "snprintf", 
+                "fprintf", 
+                "strcmp"
+            ], 
+            "rpm": "syslinux-tftpboot-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "tftpboot/cpu_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "tftpboot/cpu.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "lua_pushnumber", 
+                "snprintf", 
+                "lua_settable", 
+                "lua_createtable", 
+                "luaL_setfuncs", 
+                "lua_pushstring"
+            ], 
+            "rpm": "syslinux-tftpboot-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "tftpboot/ifcpu_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "tftpboot/ifcpu.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "fputs", 
+                "sleep", 
+                "strcmp", 
+                "console_ansi_raw", 
+                "puts", 
+                "syslinux_run_default", 
+                "detect_cpu"
+            ], 
+            "rpm": "syslinux-tftpboot-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "tftpboot/ifcpu64_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "tftpboot/ifcpu64.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "syslinux_run_command", 
+                "syslinux_run_default"
+            ], 
+            "rpm": "syslinux-tftpboot-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "tftpboot/kontron_wdt_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "tftpboot/kontron_wdt.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "openconsole", 
+                "strncmp", 
+                "strlcpy", 
+                "dev_rawcon_r", 
+                "malloc", 
+                "syslinux_run_command", 
+                "puts", 
+                "atoi"
+            ], 
+            "rpm": "syslinux-tftpboot-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "tftpboot/vesa_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "tftpboot/vesa.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "lua_pushnumber", 
+                "lua_settable", 
+                "lua_createtable", 
+                "lua_pushstring", 
+                "openconsole", 
+                "luaL_setfuncs", 
+                "luaL_checklstring", 
+                "vesacon_load_background", 
+                "dev_rawcon_r", 
+                "lfree", 
+                "lmalloc"
+            ], 
+            "rpm": "syslinux-tftpboot-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "tftpboot/sysdump_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "tftpboot/sysdump.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "pxe_dns", 
+                "puts", 
+                "snprintf", 
+                "exit", 
+                "openconsole", 
+                "pci_set_config_type", 
+                "printf", 
+                "free", 
+                "__syslinux_derivative_info", 
+                "__syslinux_serial_console_info", 
+                "fputs", 
+                "pci_readb", 
+                "lfree", 
+                "strtoul", 
+                "dev_null_w", 
+                "sprintf", 
+                "parse_url", 
+                "malloc", 
+                "pci_readl", 
+                "strcmp", 
+                "dev_null_r", 
+                "dev_stdcon_w", 
+                "memcmp", 
+                "deflate", 
+                "fputc", 
+                "deflateInit2_", 
+                "realloc", 
+                "_start", 
+                "__intcall"
+            ], 
+            "rpm": "syslinux-tftpboot-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "tftpboot/prdhcp_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "tftpboot/prdhcp.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "console_ansi_raw", 
+                "printf", 
+                "get_key", 
+                "pxe_get_cached_info"
+            ], 
+            "rpm": "syslinux-tftpboot-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "tftpboot/meminfo_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "tftpboot/meminfo.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "lfree", 
+                "lmalloc", 
+                "printf", 
+                "fputc"
+            ], 
+            "rpm": "syslinux-tftpboot-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "tftpboot/cmd_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "tftpboot/cmd.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "com32_cmdline"
+            ], 
+            "rpm": "syslinux-tftpboot-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "tftpboot/libcom32_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "tftpboot/libcom32.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "__file_info", 
+                "__syslinux_serial_console_info", 
+                "memcmp", 
+                "sprintf", 
+                "default_cmd", 
+                "suffix_number", 
+                "memmem", 
+                "lmalloc", 
+                "strcpy", 
+                "zalloc", 
+                "load_kernel", 
+                "ftell", 
+                "__ansicon_beep", 
+                "__syslinux_shuffler_size", 
+                "syslinux_scan_memory", 
+                "VGAFontSize", 
+                "KbdMap", 
+                "fontbuf", 
+                "__xserial_write", 
+                "dev_ansicon_w", 
+                "longjmp", 
+                "pow", 
+                "close", 
+                "strtok", 
+                "skipspace", 
+                "strtod", 
+                "lzalloc", 
+                "strchr", 
+                "dev_ansiserial_w", 
+                "_fread", 
+                "strstr", 
+                "UserFont", 
+                "fstat", 
+                "__ansi_putchar", 
+                "console_color_table", 
+                "setjmp", 
+                "sscanf", 
+                "SysAppends", 
+                "dns_resolv", 
+                "snprintf", 
+                "syslinux_banner", 
+                "__file_get_block", 
+                "calloc", 
+                "errno", 
+                "execute", 
+                "lfree", 
+                "lstrdup", 
+                "free", 
+                "syslinux_force_text_mode", 
+                "fputc", 
+                "__file_close", 
+                "cleanup_hardware", 
+                "__ctypes", 
+                "local_boot", 
+                "__intcall", 
+                "fputs", 
+                "strlcpy", 
+                "unload_pxe", 
+                "fopen", 
+                "_exit", 
+                "__ansi_init", 
+                "fgets", 
+                "copyright_str", 
+                "__syslinux_derivative_info", 
+                "chrreplace", 
+                "do_raw_shuffle_and_boot", 
+                "pxe_call", 
+                "realloc", 
+                "printf", 
+                "__com32_zero_regs", 
+                "__farcall", 
+                "strtoul", 
+                "using_vga", 
+                "malloc", 
+                "firmware", 
+                "fclose"
+            ], 
+            "rpm": "syslinux-tftpboot-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "tftpboot/cpuidtest_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "tftpboot/cpuidtest.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "puts", 
+                "printf"
+            ], 
+            "rpm": "syslinux-tftpboot-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "tftpboot/cat_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "tftpboot/cat.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "fclose", 
+                "_fread", 
+                "fprintf"
+            ], 
+            "rpm": "syslinux-tftpboot-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "tftpboot/ethersel_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "tftpboot/ethersel.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "strdup", 
+                "fgets", 
+                "find_pci_device", 
+                "ConfigName", 
+                "syslinux_run_command", 
+                "fopen", 
+                "fputs", 
+                "malloc", 
+                "pci_scan", 
+                "skipspace"
+            ], 
+            "rpm": "syslinux-tftpboot-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "tftpboot/vesamenu_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "tftpboot/vesamenu.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "vesacon_default_background", 
+                "strnlen", 
+                "sprintf", 
+                "calloc", 
+                "memcmp", 
+                "realloc", 
+                "sha256_crypt", 
+                "fputs", 
+                "skipspace", 
+                "SHA1Update", 
+                "strncmp", 
+                "sha512_crypt", 
+                "memmove", 
+                "atoll", 
+                "execute", 
+                "dev_rawcon_r", 
+                "malloc", 
+                "syslinux_getadv", 
+                "console_color_table_size", 
+                "atoi", 
+                "read", 
+                "__syslinux_ipappend_strings", 
+                "vesacon_cursor_enable", 
+                "SHA1Final", 
+                "getscreensize", 
+                "__divdi3", 
+                "free", 
+                "vesacon_set_background", 
+                "strcmp", 
+                "crypt_md5", 
+                "vesacon_load_background", 
+                "strlcpy", 
+                "fgets", 
+                "parse_image_type", 
+                "ConfigName", 
+                "syslinux_adv_write", 
+                "strtoul", 
+                "openconsole", 
+                "SHA1Init", 
+                "fputc", 
+                "__ms_timer", 
+                "syslinux_setadv", 
+                "console_color_table", 
+                "kbd_shiftflags", 
+                "printf", 
+                "vsnprintf", 
+                "longjmp", 
+                "vesacon_set_resolution", 
+                "fgetc", 
+                "fopen", 
+                "key_name_to_code", 
+                "get_key", 
+                "setjmp", 
+                "fclose"
+            ], 
+            "rpm": "syslinux-tftpboot-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "tftpboot/pwd_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "tftpboot/pwd.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "errno"
+            ], 
+            "rpm": "syslinux-tftpboot-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "tftpboot/liblua_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "tftpboot/liblua.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "memchr", 
+                "strstr", 
+                "exit", 
+                "_fwrite", 
+                "free", 
+                "strtol", 
+                "__ctypes", 
+                "PATH", 
+                "strcpy", 
+                "sprintf", 
+                "module_alloc", 
+                "memcmp", 
+                "realloc", 
+                "fputs", 
+                "module_load", 
+                "strcmp", 
+                "module_find_symbol", 
+                "strspn", 
+                "longjmp", 
+                "fgetc", 
+                "fclose", 
+                "strerror", 
+                "module_unload", 
+                "__ms_timer", 
+                "fgets", 
+                "abort", 
+                "setjmp", 
+                "printf", 
+                "fprintf", 
+                "_fread", 
+                "strpbrk", 
+                "strchr"
+            ], 
+            "rpm": "syslinux-tftpboot-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "tftpboot/vpdtest_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "tftpboot/vpdtest.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "printf", 
+                "puts"
+            ], 
+            "rpm": "syslinux-tftpboot-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "tftpboot/menu_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "tftpboot/menu.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "sha512_crypt", 
+                "strnlen", 
+                "memcmp", 
+                "fopen", 
+                "vsnprintf", 
+                "SHA1Update", 
+                "fputs", 
+                "__ms_timer", 
+                "ConfigName", 
+                "parse_image_type", 
+                "getscreensize", 
+                "calloc", 
+                "console_color_table", 
+                "strtoul", 
+                "console_ansi_raw", 
+                "free", 
+                "sha256_crypt", 
+                "setjmp", 
+                "printf", 
+                "sprintf", 
+                "memmove", 
+                "strncmp", 
+                "longjmp", 
+                "crypt_md5", 
+                "syslinux_adv_write", 
+                "read", 
+                "fgetc", 
+                "__divdi3", 
+                "SHA1Final", 
+                "skipspace", 
+                "atoi", 
+                "syslinux_setadv", 
+                "malloc", 
+                "unbase64", 
+                "realloc", 
+                "SHA1Init", 
+                "fputc", 
+                "syslinux_getadv", 
+                "__syslinux_ipappend_strings", 
+                "fgets", 
+                "kbd_shiftflags", 
+                "execute", 
+                "get_key", 
+                "console_color_table_size", 
+                "key_name_to_code", 
+                "atoll", 
+                "strcmp", 
+                "fclose"
+            ], 
+            "rpm": "syslinux-tftpboot-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "tftpboot/sdi_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "tftpboot/sdi.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "syslinux_add_movelist", 
+                "syslinux_add_memmap", 
+                "fputc", 
+                "fputs", 
+                "syslinux_shuffle_boot_rm", 
+                "memcmp", 
+                "zloadfile", 
+                "syslinux_memory_map", 
+                "syslinux_free_movelist", 
+                "syslinux_free_memmap", 
+                "syslinux_memmap_type"
+            ], 
+            "rpm": "syslinux-tftpboot-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "tftpboot/lfs_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "tftpboot/lfs.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "lua_pushfstring", 
+                "fstat", 
+                "lua_pushboolean", 
+                "lua_newuserdata", 
+                "lua_tolstring", 
+                "strcmp", 
+                "luaL_newmetatable", 
+                "lua_touserdata", 
+                "errno", 
+                "open", 
+                "luaL_checklstring", 
+                "lua_isstring", 
+                "lua_createtable", 
+                "luaL_checkudata", 
+                "chdir", 
+                "lua_rawset", 
+                "lua_setmetatable", 
+                "opendir", 
+                "lua_pushstring", 
+                "luaL_argerror", 
+                "luaL_error", 
+                "readdir", 
+                "closedir", 
+                "strerror", 
+                "lua_type", 
+                "lua_pushnil", 
+                "lua_pushcclosure", 
+                "getcwd", 
+                "lua_pushnumber", 
+                "close", 
+                "lua_setfield"
+            ], 
+            "rpm": "syslinux-tftpboot-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "tftpboot/gpxecmd_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "tftpboot/gpxecmd.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "stpcpy", 
+                "is_gpxe", 
+                "lmalloc", 
+                "pxe_call"
+            ], 
+            "rpm": "syslinux-tftpboot-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "tftpboot/host_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "tftpboot/host.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "dev_stdcon_w", 
+                "dev_null_r", 
+                "printf", 
+                "fprintf", 
+                "pxe_dns"
+            ], 
+            "rpm": "syslinux-tftpboot-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "tftpboot/ls_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "tftpboot/ls.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "malloc", 
+                "get_key", 
+                "puts", 
+                "strcmp", 
+                "readdir", 
+                "getscreensize", 
+                "realloc", 
+                "printf", 
+                "qsort", 
+                "opendir", 
+                "putchar"
+            ], 
+            "rpm": "syslinux-tftpboot-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "tftpboot/whichsys_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "tftpboot/whichsys.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "__syslinux_derivative_info", 
+                "syslinux_run_command", 
+                "syslinux_run_default", 
+                "strcmp"
+            ], 
+            "rpm": "syslinux-tftpboot-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "tftpboot/pcitest_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "tftpboot/pcitest.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "printf", 
+                "pci_scan", 
+                "strcat", 
+                "get_class_name_from_pci_ids", 
+                "strncat", 
+                "get_name_from_pci_ids", 
+                "puts"
+            ], 
+            "rpm": "syslinux-tftpboot-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "tftpboot/sanboot_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "tftpboot/sanboot.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "pxe_call", 
+                "puts", 
+                "stpcpy"
+            ], 
+            "rpm": "syslinux-tftpboot-6.04-0.5.fc27.noarch.rpm"
+        }, 
+        "tftpboot/dir_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "tftpboot/dir.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "qsort", 
+                "strcmp", 
+                "puts", 
+                "closedir", 
+                "get_key", 
+                "opendir", 
+                "free", 
+                "readdir", 
+                "printf", 
+                "malloc", 
+                "putchar"
+            ], 
+            "rpm": "syslinux-tftpboot-6.04-0.5.fc27.noarch.rpm"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Applications/Internet", 
+            "Name": " syslinux-tftpboot", 
+            "License": " GPLv2+", 
+            "URL": " http://syslinux.zytor.com/wiki/index.php/The_Syslinux_Project", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-16.phx2.fedoraproject.org", 
+            "Description": "\nAll the SYSLINUX/PXELINUX modules directly available for network\nbooting in the /tftpboot directory.\n", 
+            "Build Date": " Fri 04 Aug 2017 07:55:04 PM EDT", 
+            "Source RPM": " syslinux-6.04-0.5.fc27.src.rpm", 
+            "Version": " 6.04", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 09:47:30 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 0.5.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " SYSLINUX modules in /tftpboot, available for network booting", 
+            "Size": " 1112743"
+        }
+    }
+}

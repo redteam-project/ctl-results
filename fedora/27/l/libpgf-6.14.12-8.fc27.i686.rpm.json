@@ -1,0 +1,68 @@
+{
+    "results": {
+        "usr/lib/libpgf_so_6_0_11": {
+            "report-functions": [
+                "pow", 
+                "_Znaj", 
+                "__cxa_allocate_exception", 
+                "__cxa_call_unexpected", 
+                "_Unwind_Resume", 
+                "_Znwj", 
+                "lseek64", 
+                "__cxa_finalize", 
+                "__cxa_throw", 
+                "__gmon_start__", 
+                "__cxa_end_catch", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ZdaPv", 
+                "__errno_location", 
+                "__gxx_personality_v0", 
+                "__stack_chk_fail", 
+                "__cxa_rethrow", 
+                "realloc", 
+                "read", 
+                "_ZdlPvj", 
+                "_ZdaPvj", 
+                "_ZnwjRKSt9nothrow_t", 
+                "_ITM_registerTMCloneTable", 
+                "__cxa_begin_catch", 
+                "div", 
+                "_ZnajRKSt9nothrow_t"
+            ], 
+            "rpm": "libpgf-6.14.12-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libpgf.so.6.0.11"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " libpgf", 
+            "License": " LGPLv2+", 
+            "URL": " http://www.libpgf.org", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-08.phx2.fedoraproject.org", 
+            "Description": "\nlibPGF contains an implementation of the Progressive Graphics File (PGF)\nwhich is a new image file format, that is based on a discrete, fast\nwavelet transform with progressive coding features. PGF can be used\nfor lossless and lossy compression.\n", 
+            "Build Date": " Thu 03 Aug 2017 03:40:05 PM EDT", 
+            "Source RPM": " libpgf-6.14.12-8.fc27.src.rpm", 
+            "Version": " 6.14.12", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 12:44:24 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 8.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " PGF (Progressive Graphics File) library", 
+            "Size": " 110485"
+        }
+    }
+}

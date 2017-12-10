@@ -1,0 +1,50 @@
+{
+    "results": {
+        "usr/lib/libsigc-1_2_so_5_0_7": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "__gxx_personality_v0", 
+                "_Znwj", 
+                "__cxa_finalize", 
+                "_ZdlPvj", 
+                "_Unwind_Resume", 
+                "__stack_chk_fail", 
+                "__gmon_start__"
+            ], 
+            "rpm": "libsigc++-1.2.7-22.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libsigc-1.2.so.5.0.7"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " libsigc++", 
+            "License": " LGPLv2+", 
+            "URL": " http://libsigc.sourceforge.net/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-02.phx2.fedoraproject.org", 
+            "Description": "\nThis library implements a full callback system for use in widget libraries,\nabstract interfaces, and general programming. Originally part of the Gtk--\nwidget set, libsigc++ is now a separate library to provide for more general\nuse. It is the most complete library of its kind with the ablity to connect\nan abstract callback to a class method, function, or function object. It\ncontains adaptor classes for connection of dissimilar callbacks and has an\nease of use unmatched by other C++ callback libraries.\n\nPackage gtkmm (previously gtk--), which is a C++ binding to the GTK+\nlibrary, starting with version 1.1.2, uses libsigc++.\n", 
+            "Build Date": " Thu 03 Aug 2017 04:04:48 PM EDT", 
+            "Source RPM": " libsigc++-1.2.7-22.fc27.src.rpm", 
+            "Version": " 1.2.7", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 01:20:41 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 22.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Typesafe signal framework for C++", 
+            "Size": " 79752"
+        }
+    }
+}

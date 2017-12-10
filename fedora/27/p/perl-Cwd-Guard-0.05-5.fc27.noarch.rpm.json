@@ -1,0 +1,25 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " perl-Cwd-Guard", 
+            "License": " GPL+ or Artistic", 
+            "URL": " http://search.cpan.org/dist/Cwd-Guard/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-ppc64-03.ppc.fedoraproject.org", 
+            "Description": "\nCwd::Guard can change the current directory (chdir) using a limited scope.\n\n  use Cwd::Guard qw/cwd_guard/;\n  use Cwd;\n\n  my $dir = getcwd;\n  MYBLOCK: {\n    my $guard = cwd_guard('/tmp/xxxxx') or die\n      \"failed chdir: $Cwd::Guard::Error\";\n    ... # chdir to /tmp/xxxxx\n  }\n  ... # back to $dir\n", 
+            "Build Date": " Fri 28 Jul 2017 02:20:32 AM EDT", 
+            "Source RPM": " perl-Cwd-Guard-0.05-5.fc27.src.rpm", 
+            "Version": " 0.05", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Fri 28 Jul 2017 09:59:00 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 5.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Temporarily change the current directory", 
+            "Size": " 23847"
+        }
+    }
+}

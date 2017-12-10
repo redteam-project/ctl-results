@@ -1,0 +1,341 @@
+{
+    "results": {
+        "usr/include/llvm35/llvm/Object/ELFTypes_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/llvm35/llvm/Object/ELFTypes.h", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "llvm35-devel-3.5.2-4.fc26.x86_64.rpm"
+        }, 
+        "usr/include/llvm35/llvm/MC/MCAsmInfoELF_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/llvm35/llvm/MC/MCAsmInfoELF.h", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "llvm35-devel-3.5.2-4.fc26.x86_64.rpm"
+        }, 
+        "usr/include/llvm35/llvm/MC/MCELF_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/llvm35/llvm/MC/MCELF.h", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "llvm35-devel-3.5.2-4.fc26.x86_64.rpm"
+        }, 
+        "usr/include/llvm35/llvm/MC/MCELFStreamer_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/llvm35/llvm/MC/MCELFStreamer.h", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "llvm35-devel-3.5.2-4.fc26.x86_64.rpm"
+        }, 
+        "usr/include/llvm35/llvm/MC/MCELFSymbolFlags_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/llvm35/llvm/MC/MCELFSymbolFlags.h", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "llvm35-devel-3.5.2-4.fc26.x86_64.rpm"
+        }, 
+        "usr/bin/llvm-config-64-3_5": {
+            "find-libc-functions": [
+                "GI___obstack_vprintf", 
+                "GI___vasprintf", 
+                "GI___vdprintf", 
+                "GI___vfprintf", 
+                "GI___vfwprintf", 
+                "GI___vsnprintf", 
+                "GI___vsprintf", 
+                "GI___vswprintf", 
+                "GI___vsyslog", 
+                "__longjmp", 
+                "_fprintf", 
+                "_printf", 
+                "_snprintf", 
+                "_sprintf", 
+                "_vfprintf", 
+                "_vprintf", 
+                "_vsnprintf", 
+                "_vsprintf", 
+                "asprintf", 
+                "confstr", 
+                "dprintf", 
+                "explicit_bzero", 
+                "fdelt", 
+                "fgets", 
+                "fgets_unlocked", 
+                "fgetws", 
+                "fgetws_unlocked", 
+                "fprintf", 
+                "fread", 
+                "fread_unlocked", 
+                "fwprintf", 
+                "getcwd", 
+                "getdomainname", 
+                "getgroups", 
+                "gethostname", 
+                "getlogin_r", 
+                "gets", 
+                "getwd", 
+                "longjmp", 
+                "mbsnrtowcs", 
+                "mbsrtowcs", 
+                "mbstowcs", 
+                "memcpy", 
+                "memmove", 
+                "mempcpy", 
+                "memset", 
+                "obstack_printf", 
+                "obstack_vprintf", 
+                "poll", 
+                "ppoll", 
+                "pread64", 
+                "pread", 
+                "printf", 
+                "ptsname_r", 
+                "read", 
+                "readlink", 
+                "readlinkat", 
+                "realpath", 
+                "recv", 
+                "recvfrom", 
+                "snprintf", 
+                "sprintf", 
+                "stpcpy", 
+                "stpncpy", 
+                "strcat", 
+                "strcpy", 
+                "strncat", 
+                "strncpy", 
+                "swprintf", 
+                "syslog", 
+                "ttyname_r", 
+                "vasprintf", 
+                "vdprintf", 
+                "vfprintf", 
+                "vfwprintf", 
+                "vprintf", 
+                "vsnprintf", 
+                "vsprintf", 
+                "vswprintf", 
+                "vsyslog", 
+                "vwprintf", 
+                "wcpcpy", 
+                "wcpncpy", 
+                "wcrtomb", 
+                "wcscat", 
+                "wcscpy", 
+                "wcsncat", 
+                "wcsncpy", 
+                "wcsnrtombs", 
+                "wcsrtombs", 
+                "wcstombs", 
+                "wctomb", 
+                "wmemcpy", 
+                "wmemmove", 
+                "wmempcpy", 
+                "wmemset", 
+                "wprintf"
+            ], 
+            "filename": "usr/bin/llvm-config-64-3.5", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "report-functions": [
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_assignERKS4_", 
+                "pthread_mutex_init", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEaSEOS4_", 
+                "memcmp", 
+                "__gxx_personality_v0", 
+                "lseek", 
+                "_ITM_deregisterTMCloneTable", 
+                "strchr", 
+                "realpath", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6assignEPKc", 
+                "pthread_mutexattr_settype", 
+                "__fxstat", 
+                "unlink", 
+                "set_curterm", 
+                "_ZSt20__throw_length_errorPKc", 
+                "__cxa_pure_virtual", 
+                "__cxa_guard_release", 
+                "__stack_chk_fail", 
+                "getenv", 
+                "memmove", 
+                "__cxa_guard_abort", 
+                "strsep", 
+                "exit", 
+                "__cxa_finalize", 
+                "close", 
+                "calloc", 
+                "_Znam", 
+                "pthread_mutexattr_destroy", 
+                "_ITM_registerTMCloneTable", 
+                "memcpy", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_appendEPKcm", 
+                "__snprintf_chk", 
+                "write", 
+                "_ZSt19__throw_logic_errorPKc", 
+                "_ZNSt3_V216generic_categoryEv", 
+                "pthread_mutex_lock", 
+                "isatty", 
+                "access", 
+                "__errno_location", 
+                "__xstat", 
+                "gettimeofday", 
+                "pthread_mutexattr_init", 
+                "setupterm", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERmm", 
+                "realloc", 
+                "malloc", 
+                "_ZSt18_Rb_tree_decrementPSt18_Rb_tree_node_base", 
+                "strdup", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructEmc", 
+                "_Znwm", 
+                "pthread_mutex_unlock", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7reserveEm", 
+                "_ZdlPv", 
+                "_ZNSt3_V215system_categoryEv", 
+                "free", 
+                "__gmon_start__", 
+                "__cxa_guard_acquire", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_mutateEmmPKcm", 
+                "readlink", 
+                "del_curterm", 
+                "strlen", 
+                "_ZSt29_Rb_tree_insert_and_rebalancebPSt18_Rb_tree_node_baseS0_RS_", 
+                "__cxa_atexit", 
+                "_Unwind_Resume", 
+                "_ZdaPv", 
+                "getcwd", 
+                "__libc_start_main", 
+                "writev"
+            ], 
+            "rpm": "llvm35-devel-3.5.2-4.fc26.x86_64.rpm"
+        }, 
+        "usr/include/llvm35/llvm/MC/MCSectionELF_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/llvm35/llvm/MC/MCSectionELF.h", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "llvm35-devel-3.5.2-4.fc26.x86_64.rpm"
+        }, 
+        "usr/include/llvm35/llvm/MC/MCELFObjectWriter_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/llvm35/llvm/MC/MCELFObjectWriter.h", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "llvm35-devel-3.5.2-4.fc26.x86_64.rpm"
+        }, 
+        "usr/include/llvm35/llvm/Object/ELF_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/llvm35/llvm/Object/ELF.h", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "llvm35-devel-3.5.2-4.fc26.x86_64.rpm"
+        }, 
+        "usr/include/llvm35/llvm/Object/ELFYAML_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/llvm35/llvm/Object/ELFYAML.h", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "llvm35-devel-3.5.2-4.fc26.x86_64.rpm"
+        }, 
+        "usr/include/llvm35/llvm/Object/ELFObjectFile_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/llvm35/llvm/Object/ELFObjectFile.h", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "llvm35-devel-3.5.2-4.fc26.x86_64.rpm"
+        }, 
+        "usr/include/llvm35/llvm/Support/ELF_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/llvm35/llvm/Support/ELF.h", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "llvm35-devel-3.5.2-4.fc26.x86_64.rpm"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Languages", 
+            "Name": " llvm35-devel", 
+            "License": " NCSA", 
+            "URL": " http://llvm.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-26.phx2.fedoraproject.org", 
+            "Description": "\nThis package contains library and header files needed to develop new\nnative programs that use the LLVM infrastructure.\n", 
+            "Build Date": " Fri 10 Feb 2017 11:52:08 PM EST", 
+            "Source RPM": " llvm35-3.5.2-4.fc26.src.rpm", 
+            "Version": " 3.5.2", 
+            "Architecture": " x86_64", 
+            "Signature": " RSA/SHA256, Thu 23 Feb 2017 03:36:31 AM EST, Key ID f55e7430f5282ee4", 
+            "Release": " 4.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Libraries and header files for LLVM", 
+            "Size": " 10680006"
+        }
+    }
+}

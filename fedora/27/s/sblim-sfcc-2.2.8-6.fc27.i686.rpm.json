@@ -1,0 +1,171 @@
+{
+    "results": {
+        "usr/lib/libcmpisfcc_so_1_0_0": {
+            "report-functions": [
+                "__snprintf_chk", 
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "getenv", 
+                "pthread_mutex_unlock", 
+                "_ITM_registerTMCloneTable", 
+                "__fprintf_chk", 
+                "pthread_mutex_lock", 
+                "fwrite", 
+                "_ITM_deregisterTMCloneTable", 
+                "free", 
+                "NewCIMCEnv", 
+                "ReleaseCIMCEnv", 
+                "strncasecmp"
+            ], 
+            "rpm": "sblim-sfcc-2.2.8-6.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libcmpisfcc.so.1.0.0"
+        }, 
+        "usr/lib/libcimcclient_so_0_0_0": {
+            "report-functions": [
+                "__xstat", 
+                "free", 
+                "_ITM_registerTMCloneTable", 
+                "__cxa_finalize", 
+                "__stack_chk_fail", 
+                "__snprintf_chk", 
+                "__gmon_start__", 
+                "dlopen", 
+                "dlsym", 
+                "_ITM_deregisterTMCloneTable", 
+                "dlerror"
+            ], 
+            "rpm": "sblim-sfcc-2.2.8-6.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libcimcclient.so.0.0.0"
+        }, 
+        "usr/lib/libcimcClientXML_so_0_0_0": {
+            "report-functions": [
+                "curl_global_init", 
+                "pthread_create", 
+                "strstr", 
+                "pthread_mutex_lock", 
+                "strtoull", 
+                "tzset", 
+                "read", 
+                "stpcpy", 
+                "strspn", 
+                "__fdelt_chk", 
+                "free", 
+                "strcat", 
+                "__printf_chk", 
+                "__strcpy_chk", 
+                "curl_slist_free_all", 
+                "fdopen", 
+                "strftime", 
+                "__assert_fail", 
+                "strncpy", 
+                "strtol", 
+                "curl_slist_append", 
+                "__errno_location", 
+                "strcpy", 
+                "time", 
+                "curl_easy_strerror", 
+                "fclose", 
+                "curl_easy_cleanup", 
+                "curl_easy_perform", 
+                "__stack_chk_fail", 
+                "pthread_mutex_unlock", 
+                "__fprintf_chk", 
+                "curl_easy_getinfo", 
+                "select", 
+                "listen", 
+                "accept", 
+                "puts", 
+                "curl_easy_setopt", 
+                "__ctype_b_loc", 
+                "setbuffer", 
+                "curl_easy_init", 
+                "fwrite", 
+                "socket", 
+                "__ctype_toupper_loc", 
+                "malloc", 
+                "mktime", 
+                "__snprintf_chk", 
+                "strcmp", 
+                "close", 
+                "exit", 
+                "__gmon_start__", 
+                "strdup", 
+                "write", 
+                "_ITM_registerTMCloneTable", 
+                "localtime_r", 
+                "strncasecmp", 
+                "strncmp", 
+                "curl_global_cleanup", 
+                "strcasecmp", 
+                "_ITM_deregisterTMCloneTable", 
+                "strlen", 
+                "memmove", 
+                "gettimeofday", 
+                "bind", 
+                "fflush", 
+                "__strcat_chk", 
+                "__sprintf_chk", 
+                "__cxa_finalize", 
+                "__isoc99_sscanf", 
+                "realloc", 
+                "strchr", 
+                "abort", 
+                "setsockopt"
+            ], 
+            "rpm": "sblim-sfcc-2.2.8-6.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libcimcClientXML.so.0.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Applications/System", 
+            "Name": " sblim-sfcc", 
+            "License": " EPL", 
+            "URL": " http://www.sblim.org", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-23.phx2.fedoraproject.org", 
+            "Description": "\nSmall Footprint CIM Client Library Runtime Libraries\n", 
+            "Build Date": " Fri 04 Aug 2017 02:50:19 PM EDT", 
+            "Source RPM": " sblim-sfcc-2.2.8-6.fc27.src.rpm", 
+            "Version": " 2.2.8", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 05 Aug 2017 02:13:42 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 6.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Small Footprint CIM Client Library", 
+            "Size": " 205018"
+        }
+    }
+}

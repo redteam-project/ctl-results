@@ -1,0 +1,91 @@
+{
+    "results": {
+        "usr/lib/libperditiondb_ldap_so_0_0_0": {
+            "report-functions": [
+                "__gmon_start__", 
+                "user_server_port_destroy", 
+                "ldap_err2string", 
+                "_ITM_deregisterTMCloneTable", 
+                "strncasecmp", 
+                "user_server_port_str_assign", 
+                "ldap_next_attribute", 
+                "realloc", 
+                "user_server_port_get_port", 
+                "strncat", 
+                "ldap_initialize", 
+                "__ctype_b_loc", 
+                "strchr", 
+                "ldap_value_free", 
+                "ber_free", 
+                "user_server_port_get_server", 
+                "strcpy", 
+                "ldap_get_values", 
+                "ldap_msgfree", 
+                "stpcpy", 
+                "vanessa_logger_log", 
+                "ldap_is_ldap_url", 
+                "strtol", 
+                "ldap_first_entry", 
+                "strlen", 
+                "ldap_memfree", 
+                "ldap_free_urldesc", 
+                "user_server_port_get_user", 
+                "malloc", 
+                "memmove", 
+                "__errno_location", 
+                "ldap_bind_s", 
+                "calloc", 
+                "ldap_set_option", 
+                "__stack_chk_fail", 
+                "user_server_port_unassign", 
+                "_vanessa_logger_log_prefix", 
+                "strerror", 
+                "ldap_count_entries", 
+                "strcasecmp", 
+                "__cxa_finalize", 
+                "_Jv_RegisterClasses", 
+                "ldap_first_attribute", 
+                "ldap_url_parse", 
+                "ldap_search_s", 
+                "_ITM_registerTMCloneTable", 
+                "__strdup", 
+                "free", 
+                "memset"
+            ], 
+            "rpm": "perdition-ldap-2.1-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libperditiondb_ldap.so.0.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Applications/Internet", 
+            "Name": " perdition-ldap", 
+            "License": " GPLv2+", 
+            "URL": " http://horms.net/projects/perdition/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-19.phx2.fedoraproject.org", 
+            "Description": "\nPerdition allows for arbitrary user database access through shared\nlibraries much in the manner of NSS in glibc. This package allows a user\ndatabase to be sourced from LDAP.\n", 
+            "Build Date": " Tue 16 Aug 2016 05:20:41 PM EDT", 
+            "Source RPM": " perdition-2.1-7.fc26.src.rpm", 
+            "Version": " 2.1", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 23 Feb 2017 05:24:27 PM EST, Key ID f55e7430f5282ee4", 
+            "Release": " 7.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Library to allow perdition to access LDAP based pop maps", 
+            "Size": " 19085"
+        }
+    }
+}

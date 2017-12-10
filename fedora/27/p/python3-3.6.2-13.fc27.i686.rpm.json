@@ -1,0 +1,84 @@
+{
+    "results": {
+        "usr/bin/python3_6": {
+            "report-functions": [
+                "PyMem_RawMalloc", 
+                "_ITM_registerTMCloneTable", 
+                "setlocale", 
+                "Py_DecodeLocale", 
+                "_Py_CoerceLegacyLocale", 
+                "__gmon_start__", 
+                "Py_Main", 
+                "__cxa_finalize", 
+                "PyMem_RawFree", 
+                "_PyMem_RawStrdup", 
+                "__libc_start_main", 
+                "_ITM_deregisterTMCloneTable", 
+                "_Py_LegacyLocaleDetected"
+            ], 
+            "rpm": "python3-3.6.2-13.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/python3.6"
+        }, 
+        "usr/bin/python3_6m": {
+            "report-functions": [
+                "_PyMem_RawStrdup", 
+                "_ITM_registerTMCloneTable", 
+                "Py_Main", 
+                "_ITM_deregisterTMCloneTable", 
+                "PyMem_RawMalloc", 
+                "_Py_CoerceLegacyLocale", 
+                "_Py_LegacyLocaleDetected", 
+                "setlocale", 
+                "__gmon_start__", 
+                "__libc_start_main", 
+                "PyMem_RawFree", 
+                "__cxa_finalize", 
+                "__fprintf_chk"
+            ], 
+            "rpm": "python3-3.6.2-13.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/python3.6m"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " python3", 
+            "License": " Python", 
+            "URL": " https://www.python.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-19.phx2.fedoraproject.org", 
+            "Description": "\nPython is an accessible, high-level, dynamically typed, interpreted programming\nlanguage, designed with an emphasis on code readibility.\nIt includes an extensive standard library, and has a vast ecosystem of\nthird-party libraries.\n\nThis package provides the \"python3\" executable: the reference interpreter for\nthe Python language, version 3.\nThe majority of its standard library is provided in the python3-libs package,\nwhich should be installed automatically along with python3.\nThe remaining parts of the Python standard library are broken out into the\npython3-tkinter and python3-test packages, which may need to be installed\nseparately.\n\nDocumentation for Python is provided in the python3-docs package.\n\nPackages containing additional libraries for Python are generally named with\nthe \"python3-\" prefix.\n", 
+            "Build Date": " Fri 01 Sep 2017 08:56:31 AM EDT", 
+            "Source RPM": " python3-3.6.2-13.fc27.src.rpm", 
+            "Version": " 3.6.2", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 01 Sep 2017 12:13:30 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 13.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Interpreter of the Python programming language", 
+            "Size": " 38268"
+        }
+    }
+}

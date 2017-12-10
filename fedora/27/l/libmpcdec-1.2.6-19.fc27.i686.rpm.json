@@ -1,0 +1,51 @@
+{
+    "results": {
+        "usr/lib/libmpcdec_so_5_0_2": {
+            "report-functions": [
+                "memmove", 
+                "_ITM_deregisterTMCloneTable", 
+                "ftell", 
+                "fread", 
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "__sprintf_chk", 
+                "__stack_chk_fail", 
+                "fseek"
+            ], 
+            "rpm": "libmpcdec-1.2.6-19.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libmpcdec.so.5.0.2"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " libmpcdec", 
+            "License": " BSD", 
+            "URL": " http://www.musepack.net/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-02.phx2.fedoraproject.org", 
+            "Description": "\nMusepack is an audio compression format with a strong emphasis on high quality.\nIt's not lossless, but it is designed for transparency, so that you won't be\nable to hear differences between the original wave file and the much smaller\nMPC file.\nIt is based on the MPEG-1 Layer-2 / MP2 algorithms, but has rapidly developed\nand vastly improved and is now at an advanced stage in which it contains\nheavily optimized and patentless code.\n", 
+            "Build Date": " Thu 03 Aug 2017 03:01:06 PM EDT", 
+            "Source RPM": " libmpcdec-1.2.6-19.fc27.src.rpm", 
+            "Version": " 1.2.6", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 11:08:33 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 19.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Musepack audio decoding library", 
+            "Size": " 59518"
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Group": " Applications/Publishing", 
+            "Name": " texlive-boolexpr", 
+            "License": " LPPL", 
+            "URL": " http://tug.org/texlive/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-12.phx2.fedoraproject.org", 
+            "Source RPM": " texlive-2016-36.20160520.fc27.5.src.rpm", 
+            "Description": "\nThe \\boolexpr macro evaluates boolean expressions in a purely\nexpandable way. \\boolexpr{ A \\OR B \\AND C } expands to 0 if the\nlogical expression is TRUE. A, B, C may be: numeric expressions\nsuch as: x=y, x<>y, x>y or x<y; - boolean switches: \\iftrue\n0\\else 1\\fi; - conditionals: \\ifcsname whatsit\\endcsname 0\\else\n1\\fi; - another \\boolexpr: \\boolexpr{ D \\OR E \\AND F }:\n\\boolexpr may be used with \\ifcase: \\ifcase\\boolexpr{ A \\OR B\n\\AND C } What to do if true \\else What to do if false \\fi The\n\\switch command (which is also expandable) has the form:\n\\switch \\case{<boolean expression>} ... \\case{<boolean\nexpression>} ... ... \\otherwise ... \\endswitch\n", 
+            "Build Date": " Sat 05 Aug 2017 03:45:59 PM EDT", 
+            "Epoch": " 6", 
+            "Version": " svn17830.3.14", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Sun 06 Aug 2017 08:20:27 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 36.fc27.5", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A boolean expression evaluator and a switch command", 
+            "Size": " 6949"
+        }
+    }
+}

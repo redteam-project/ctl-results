@@ -1,0 +1,131 @@
+{
+    "results": {
+        "usr/lib/libserd-0_so_0_28_0": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "__memcpy_chk", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable", 
+                "calloc", 
+                "__errno_location", 
+                "ferror", 
+                "strerror", 
+                "fclose", 
+                "strncmp", 
+                "__cxa_finalize", 
+                "__isoc99_sscanf", 
+                "__ctype_b_loc", 
+                "fileno", 
+                "__fprintf_chk", 
+                "strlen", 
+                "_IO_getc", 
+                "__ctype_toupper_loc", 
+                "__snprintf_chk", 
+                "free", 
+                "__gmon_start__", 
+                "fread", 
+                "memcmp", 
+                "log10", 
+                "memchr", 
+                "posix_memalign", 
+                "__vfprintf_chk", 
+                "malloc", 
+                "fwrite", 
+                "strchr", 
+                "fopen", 
+                "posix_fadvise"
+            ], 
+            "rpm": "serd-0.28.0-2.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libserd-0.so.0.28.0"
+        }, 
+        "usr/bin/serdi": {
+            "report-functions": [
+                "serd_node_free", 
+                "serd_file_sink", 
+                "serd_writer_set_root_uri", 
+                "strerror", 
+                "fopen", 
+                "serd_reader_set_strict", 
+                "serd_uri_to_path", 
+                "__errno_location", 
+                "serd_writer_set_base_uri", 
+                "serd_node_from_string", 
+                "serd_env_free", 
+                "perror", 
+                "serd_reader_free", 
+                "_ITM_deregisterTMCloneTable", 
+                "serd_node_new_file_uri", 
+                "__fprintf_chk", 
+                "serd_reader_read_string", 
+                "__stack_chk_fail", 
+                "serd_reader_add_blank_prefix", 
+                "serd_reader_start_stream", 
+                "serd_reader_read_chunk", 
+                "serd_reader_end_stream", 
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "posix_fadvise", 
+                "serd_writer_chop_blank_prefix", 
+                "_ITM_registerTMCloneTable", 
+                "serd_reader_new", 
+                "serd_node_new_uri_from_string", 
+                "serd_reader_set_error_sink", 
+                "serd_writer_finish", 
+                "serd_writer_set_error_sink", 
+                "serd_writer_set_prefix", 
+                "__printf_chk", 
+                "serd_env_new", 
+                "fclose", 
+                "serd_reader_read_file_handle", 
+                "serd_writer_end_anon", 
+                "__libc_start_main", 
+                "fileno", 
+                "serd_writer_write_statement"
+            ], 
+            "rpm": "serd-0.28.0-2.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/serdi"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " serd", 
+            "License": " ISC", 
+            "URL": " http://drobilla.net/software/serd/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-20.phx2.fedoraproject.org", 
+            "Description": "\nserd is a lightweight C library for RDF syntax which supports reading and\nwriting Turtle and NTriples.\n\nSerd is not intended to be a swiss-army knife of RDF syntax, but rather is\nsuited to resource limited or performance critical applications (e.g.\nconverting many gigabytes of NTriples to Turtle), or situations where a\nsimple reader/writer with minimal dependencies is ideal (e.g. in LV2\nimplementations or embedded applications).is a library to make the use of\nLV2 plugins as simple as possible for applications.\n", 
+            "Build Date": " Fri 11 Aug 2017 08:00:18 AM EDT", 
+            "Source RPM": " serd-0.28.0-2.fc27.src.rpm", 
+            "Version": " 0.28.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 11 Aug 2017 08:02:02 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 2.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A lightweight C library for RDF syntax", 
+            "Size": " 116917"
+        }
+    }
+}

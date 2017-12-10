@@ -1,0 +1,63 @@
+{
+    "results": {
+        "usr/lib/libforensic1394_so_0_2_0": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "free", 
+                "glob", 
+                "__assert_fail", 
+                "poll", 
+                "__gmon_start__", 
+                "close", 
+                "malloc", 
+                "read", 
+                "strtoll", 
+                "ioctl", 
+                "strtol", 
+                "__stack_chk_fail", 
+                "_ITM_registerTMCloneTable", 
+                "__memcpy_chk", 
+                "calloc", 
+                "realloc", 
+                "_ITM_deregisterTMCloneTable", 
+                "globfree", 
+                "open", 
+                "__snprintf_chk"
+            ], 
+            "rpm": "libforensic1394-0.2-19.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libforensic1394.so.0.2.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " libforensic1394", 
+            "License": " LGPLv3+", 
+            "URL": " https://freddie.witherden.org/tools/libforensic1394/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-18.phx2.fedoraproject.org", 
+            "Description": "\nAn library for performing live memory forensics over the IEEE 1394 (FireWire)\ninterface. libforensic1394 improves upon existing libraries by providing a\nsimple and clean interface to the the direct memory access functionality\navailable over FireWire.\n", 
+            "Build Date": " Thu 03 Aug 2017 02:19:11 PM EDT", 
+            "Source RPM": " libforensic1394-0.2-19.fc27.src.rpm", 
+            "Version": " 0.2", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 03 Aug 2017 09:59:24 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 19.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A library for performing live memory forensics over firewire", 
+            "Size": " 68785"
+        }
+    }
+}

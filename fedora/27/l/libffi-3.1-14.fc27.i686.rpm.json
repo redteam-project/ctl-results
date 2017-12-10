@@ -1,0 +1,71 @@
+{
+    "results": {
+        "usr/lib/libffi_so_6_0_2": {
+            "report-functions": [
+                "statfs", 
+                "fopen", 
+                "free", 
+                "unlink", 
+                "fclose", 
+                "sysconf", 
+                "munmap", 
+                "ftruncate", 
+                "__cxa_finalize", 
+                "pthread_mutex_init", 
+                "close", 
+                "strchr", 
+                "strlen", 
+                "mmap", 
+                "getenv", 
+                "__gmon_start__", 
+                "getmntent_r", 
+                "mkstemp", 
+                "__errno_location", 
+                "endmntent", 
+                "__getdelim", 
+                "pthread_mutex_unlock", 
+                "memmove", 
+                "hasmntopt", 
+                "setmntent", 
+                "access", 
+                "__stack_chk_fail", 
+                "_ITM_registerTMCloneTable", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "libffi-3.1-14.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libffi.so.6.0.2"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " libffi", 
+            "License": " BSD", 
+            "URL": " http://sourceware.org/libffi", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-23.phx2.fedoraproject.org", 
+            "Description": "\nCompilers for high level languages generate code that follow certain\nconventions.  These conventions are necessary, in part, for separate\ncompilation to work.  One such convention is the \"calling convention\".\nThe calling convention is a set of assumptions made by the compiler\nabout where function arguments will be found on entry to a function.  A\ncalling convention also specifies where the return value for a function\nis found.\n\nSome programs may not know at the time of compilation what arguments\nare to be passed to a function.  For instance, an interpreter may be\ntold at run-time about the number and types of arguments used to call a\ngiven function.  `Libffi' can be used in such programs to provide a\nbridge from the interpreter program to compiled code.\n\nThe `libffi' library provides a portable, high level programming\ninterface to various calling conventions.  This allows a programmer to\ncall any function specified by a call interface description at run time.\n\nFFI stands for Foreign Function Interface.  A foreign function\ninterface is the popular name for the interface that allows code\nwritten in one language to call code written in another language.  The\n`libffi' library really only provides the lowest, machine dependent\nlayer of a fully featured foreign function interface.  A layer must\nexist above `libffi' that handles type conversions for values passed\nbetween the two languages.\n", 
+            "Build Date": " Thu 03 Aug 2017 02:14:57 PM EDT", 
+            "Source RPM": " libffi-3.1-14.fc27.src.rpm", 
+            "Version": " 3.1", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 08:03:06 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 14.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A portable foreign function interface library", 
+            "Size": " 47848"
+        }
+    }
+}

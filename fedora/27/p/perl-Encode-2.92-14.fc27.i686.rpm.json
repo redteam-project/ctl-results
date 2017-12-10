@@ -1,0 +1,370 @@
+{
+    "results": {
+        "usr/lib/perl5/vendor_perl/auto/Encode/EBCDIC/EBCDIC_so": {
+            "report-functions": [
+                "Perl_sv_2mortal", 
+                "Perl_stack_grow", 
+                "strlen", 
+                "Perl_gv_stashpv", 
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable", 
+                "Perl_sv_free2", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "Perl_call_pv", 
+                "Perl_xs_boot_epilog", 
+                "Perl_xs_handshake", 
+                "Perl_markstack_grow", 
+                "Perl_newSViv", 
+                "Perl_newSVpvn"
+            ], 
+            "rpm": "perl-Encode-2.92-14.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/perl5/vendor_perl/auto/Encode/EBCDIC/EBCDIC.so"
+        }, 
+        "usr/lib/perl5/vendor_perl/auto/Encode/JP/JP_so": {
+            "report-functions": [
+                "__gmon_start__", 
+                "Perl_stack_grow", 
+                "_ITM_registerTMCloneTable", 
+                "Perl_markstack_grow", 
+                "Perl_newSViv", 
+                "strlen", 
+                "_ITM_deregisterTMCloneTable", 
+                "Perl_call_pv", 
+                "Perl_xs_boot_epilog", 
+                "Perl_sv_bless", 
+                "Perl_newRV_noinc", 
+                "Perl_xs_handshake", 
+                "Perl_sv_free2", 
+                "Perl_sv_2mortal", 
+                "Perl_newSVpvn"
+            ], 
+            "rpm": "perl-Encode-2.92-14.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/perl5/vendor_perl/auto/Encode/JP/JP.so"
+        }, 
+        "usr/lib/perl5/vendor_perl/auto/Encode/Encode_so": {
+            "report-functions": [
+                "Perl_call_sv", 
+                "_ITM_registerTMCloneTable", 
+                "Perl_safesysmalloc", 
+                "Perl_newRV_noinc", 
+                "Perl_croak", 
+                "Perl_gv_stashpv", 
+                "Perl_sv_2bool_flags", 
+                "Perl_sv_force_normal_flags", 
+                "Perl_mg_get", 
+                "Perl_sv_usepvn_flags", 
+                "Perl_sv_bless", 
+                "Perl_savetmps", 
+                "Perl_newCONSTSUB", 
+                "Perl_stack_grow", 
+                "Perl_markstack_grow", 
+                "__sprintf_chk", 
+                "Perl_sv_catsv_flags", 
+                "Perl_free_tmps", 
+                "Perl_push_scope", 
+                "Perl_pop_scope", 
+                "Perl_sv_2iv_flags", 
+                "Perl_safesysfree", 
+                "Perl_utf8_to_bytes", 
+                "Perl_hv_common_key_len", 
+                "Perl_sv_utf8_upgrade_flags_grow", 
+                "Perl_sv_setpvn", 
+                "Perl_croak_nocontext", 
+                "memcmp", 
+                "Perl_xs_handshake", 
+                "Perl_newXS_deffile", 
+                "Perl_sv_pvn_force_flags", 
+                "Perl_newSV", 
+                "Perl_call_method", 
+                "Perl_newXS_flags", 
+                "strlen", 
+                "__stack_chk_fail", 
+                "Perl_newSViv", 
+                "Perl_gv_stashpvn", 
+                "Perl_mg_set", 
+                "Perl_newSVuv", 
+                "Perl__is_utf8_char_helper", 
+                "__gmon_start__", 
+                "Perl_sv_tainted", 
+                "Perl_utf8n_to_uvuni", 
+                "Perl_sv_grow", 
+                "Perl_sv_2pv_flags", 
+                "Perl_newSVpvn", 
+                "Perl_sv_free2", 
+                "Perl_xs_boot_epilog", 
+                "Perl_sv_newmortal", 
+                "Perl_sv_2mortal", 
+                "Perl_sv_2pvutf8", 
+                "Perl_sv_catpvn_flags", 
+                "Perl_newSVpvf_nocontext", 
+                "Perl_newSVsv", 
+                "Perl_eval_pv", 
+                "Perl_sv_magic", 
+                "Perl_call_pv", 
+                "Perl_sv_setiv_mg", 
+                "Perl_warner", 
+                "__cxa_finalize", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "perl-Encode-2.92-14.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/perl5/vendor_perl/auto/Encode/Encode.so"
+        }, 
+        "usr/lib/perl5/vendor_perl/auto/Encode/Byte/Byte_so": {
+            "report-functions": [
+                "Perl_markstack_grow", 
+                "_ITM_registerTMCloneTable", 
+                "Perl_newRV_noinc", 
+                "Perl_gv_stashpv", 
+                "Perl_stack_grow", 
+                "strlen", 
+                "_ITM_deregisterTMCloneTable", 
+                "Perl_sv_free2", 
+                "Perl_sv_bless", 
+                "Perl_newSVpvn", 
+                "__gmon_start__", 
+                "Perl_xs_boot_epilog", 
+                "__cxa_finalize", 
+                "Perl_sv_2mortal", 
+                "Perl_newSViv"
+            ], 
+            "rpm": "perl-Encode-2.92-14.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/perl5/vendor_perl/auto/Encode/Byte/Byte.so"
+        }, 
+        "usr/lib/perl5/vendor_perl/auto/Encode/CN/CN_so": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "Perl_markstack_grow", 
+                "Perl_sv_2mortal", 
+                "Perl_gv_stashpv", 
+                "Perl_sv_free2", 
+                "Perl_newSVpvn", 
+                "Perl_xs_handshake", 
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable", 
+                "Perl_xs_boot_epilog", 
+                "strlen", 
+                "Perl_call_pv", 
+                "Perl_sv_bless", 
+                "Perl_newRV_noinc"
+            ], 
+            "rpm": "perl-Encode-2.92-14.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/perl5/vendor_perl/auto/Encode/CN/CN.so"
+        }, 
+        "usr/lib/perl5/vendor_perl/auto/Encode/TW/TW_so": {
+            "report-functions": [
+                "strlen", 
+                "Perl_newRV_noinc", 
+                "_ITM_deregisterTMCloneTable", 
+                "Perl_stack_grow", 
+                "Perl_newSViv", 
+                "Perl_sv_bless", 
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "Perl_gv_stashpv", 
+                "_ITM_registerTMCloneTable", 
+                "Perl_sv_free2", 
+                "Perl_xs_handshake", 
+                "Perl_call_pv", 
+                "Perl_newSVpvn", 
+                "Perl_markstack_grow"
+            ], 
+            "rpm": "perl-Encode-2.92-14.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/perl5/vendor_perl/auto/Encode/TW/TW.so"
+        }, 
+        "usr/lib/perl5/vendor_perl/auto/Encode/Unicode/Unicode_so": {
+            "report-functions": [
+                "Perl_croak_xs_usage", 
+                "Perl_sv_grow", 
+                "Perl_safesysmalloc", 
+                "Perl_sv_2bool_flags", 
+                "Perl_utf8_to_bytes", 
+                "__gmon_start__", 
+                "Perl_uvuni_to_utf8_flags", 
+                "__cxa_finalize", 
+                "Perl_xs_boot_epilog", 
+                "Perl_sv_magic", 
+                "_ITM_deregisterTMCloneTable", 
+                "Perl_sv_2pv_flags", 
+                "Perl_xs_handshake", 
+                "Perl_sv_2iv_flags", 
+                "memmove", 
+                "Perl_newXS_deffile", 
+                "Perl_warner", 
+                "Perl_sv_pvn_force_flags", 
+                "Perl_hv_common_key_len", 
+                "_ITM_registerTMCloneTable", 
+                "Perl_croak_nocontext", 
+                "Perl_utf8n_to_uvuni", 
+                "Perl_mg_get", 
+                "Perl_mg_set", 
+                "__stack_chk_fail", 
+                "Perl_croak", 
+                "Perl_sv_tainted", 
+                "Perl_newSVpv", 
+                "Perl_sv_utf8_upgrade_flags_grow", 
+                "Perl_newSVpvn"
+            ], 
+            "rpm": "perl-Encode-2.92-14.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/perl5/vendor_perl/auto/Encode/Unicode/Unicode.so"
+        }, 
+        "usr/lib/perl5/vendor_perl/auto/Encode/Symbol/Symbol_so": {
+            "report-functions": [
+                "Perl_xs_boot_epilog", 
+                "Perl_sv_free2", 
+                "strlen", 
+                "Perl_newSViv", 
+                "Perl_stack_grow", 
+                "Perl_call_pv", 
+                "Perl_newSVpvn", 
+                "Perl_markstack_grow", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "Perl_gv_stashpv", 
+                "_ITM_registerTMCloneTable", 
+                "Perl_sv_bless", 
+                "Perl_xs_handshake", 
+                "Perl_sv_2mortal", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "perl-Encode-2.92-14.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/perl5/vendor_perl/auto/Encode/Symbol/Symbol.so"
+        }, 
+        "usr/lib/perl5/vendor_perl/auto/Encode/KR/KR_so": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "strlen", 
+                "Perl_xs_handshake", 
+                "Perl_call_pv", 
+                "__cxa_finalize", 
+                "Perl_sv_bless", 
+                "Perl_markstack_grow", 
+                "Perl_newRV_noinc", 
+                "Perl_newSViv", 
+                "Perl_stack_grow", 
+                "Perl_sv_free2", 
+                "Perl_xs_boot_epilog", 
+                "__gmon_start__", 
+                "Perl_gv_stashpv", 
+                "_ITM_registerTMCloneTable", 
+                "Perl_newSVpvn"
+            ], 
+            "rpm": "perl-Encode-2.92-14.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/perl5/vendor_perl/auto/Encode/KR/KR.so"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " perl-Encode", 
+            "License": " (GPL+ or Artistic) and Artistic 2.0 and UCD", 
+            "URL": " http://search.cpan.org/dist/Encode/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-11.phx2.fedoraproject.org", 
+            "Source RPM": " perl-Encode-2.92-14.fc27.src.rpm", 
+            "Description": "\nThe Encode module provides the interface between Perl strings and the rest\nof the system. Perl strings are sequences of characters.\n", 
+            "Build Date": " Fri 04 Aug 2017 05:06:52 AM EDT", 
+            "Epoch": " 4", 
+            "Version": " 2.92", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 05 Aug 2017 01:31:20 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 14.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Character encodings in Perl", 
+            "Size": " 5086324"
+        }
+    }
+}

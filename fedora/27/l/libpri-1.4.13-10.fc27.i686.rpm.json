@@ -1,0 +1,69 @@
+{
+    "results": {
+        "usr/lib/libpri_so_1_4": {
+            "report-functions": [
+                "fputs", 
+                "__cxa_finalize", 
+                "snprintf", 
+                "select", 
+                "__gmon_start__", 
+                "strerror", 
+                "time", 
+                "write", 
+                "read", 
+                "strcpy", 
+                "random", 
+                "localtime_r", 
+                "calloc", 
+                "memcmp", 
+                "__errno_location", 
+                "vsnprintf", 
+                "memmove", 
+                "strlen", 
+                "malloc", 
+                "strcmp", 
+                "strncat", 
+                "free", 
+                "strcasecmp", 
+                "sprintf", 
+                "gettimeofday", 
+                "memcpy", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "libpri-1.4.13-10.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libpri.so.1.4"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " libpri", 
+            "License": " GPLv2+", 
+            "URL": " http://www.asterisk.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-02.phx2.fedoraproject.org", 
+            "Description": "\nlibpri is a C implementation of the Primary Rate ISDN specification.\nIt was based on the Bellcore specification SR-NWT-002343 for National\nISDN.  As of May 12, 2001, it has been tested work with NI-2, Nortel\nDMS-100, and Lucent 5E Custom protocols on switches from Nortel and\nLucent.\n", 
+            "Build Date": " Thu 03 Aug 2017 03:41:40 PM EDT", 
+            "Source RPM": " libpri-1.4.13-10.fc27.src.rpm", 
+            "Version": " 1.4.13", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 12:43:46 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 10.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " An implementation of Primary Rate ISDN", 
+            "Size": " 578542"
+        }
+    }
+}

@@ -1,0 +1,69 @@
+{
+    "results": {
+        "usr/lib/librx_so_0_0_0": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "isgraph", 
+                "strcpy", 
+                "isupper", 
+                "memcmp", 
+                "ispunct", 
+                "__gmon_start__", 
+                "tolower", 
+                "malloc", 
+                "strlen", 
+                "free", 
+                "puts", 
+                "_ITM_deregisterTMCloneTable", 
+                "__printf_chk", 
+                "_IO_putc", 
+                "iscntrl", 
+                "strncmp", 
+                "sscanf", 
+                "islower", 
+                "isxdigit", 
+                "strncasecmp", 
+                "isspace", 
+                "isalpha", 
+                "_ITM_registerTMCloneTable", 
+                "realloc", 
+                "__cxa_finalize", 
+                "strncpy"
+            ], 
+            "rpm": "librx-1.5-30.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/librx.so.0.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Applications/Text", 
+            "Name": " librx", 
+            "License": " GPLv2+", 
+            "URL": " http://www.gnu.org/software/rx/rx.html", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-29.phx2.fedoraproject.org", 
+            "Description": "\nRx is, among other things, an implementation of the interface\nspecified by POSIX for programming with regular expressions.  Some\nother implementations are GNU regex.c and Henry Spencer's regex\nlibrary.\n", 
+            "Build Date": " Thu 03 Aug 2017 04:00:55 PM EDT", 
+            "Source RPM": " librx-1.5-30.fc27.src.rpm", 
+            "Version": " 1.5", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 01:08:46 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 30.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " POSIX regexp functions", 
+            "Size": " 62016"
+        }
+    }
+}

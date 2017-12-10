@@ -1,0 +1,93 @@
+{
+    "results": {
+        "usr/lib/libplasma-geolocation-interface_so_5_10_5": {
+            "report-functions": [
+                "_ZN6QTimerD1Ev", 
+                "_ZltRK7QStringS1_", 
+                "_ZN7QObject11qt_metacastEPKc", 
+                "_ZN6QTimerC1EP7QObject", 
+                "_ZNK11QObjectData17dynamicMetaObjectEv", 
+                "_ZN7QObject10timerEventEP11QTimerEvent", 
+                "__gmon_start__", 
+                "_ZN12QMapDataBase8freeTreeEP12QMapNodeBasei", 
+                "_ZN7QObject16disconnectNotifyERK11QMetaMethod", 
+                "_ZN7QObjectD2Ev", 
+                "_ZN12QMapDataBase10createNodeEiiP12QMapNodeBaseb", 
+                "_ZeqRK7QStringS1_", 
+                "strcmp", 
+                "_ZN6QTimer5startEv", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ZN9QMetaType25registerNormalizedTypedefERK10QByteArrayi", 
+                "_ZN10QByteArray11reallocDataEj6QFlagsIN10QArrayData16AllocationOptionEE", 
+                "_ZN10QByteArray6appendEPKc", 
+                "_Znwj", 
+                "_ZNK11QMetaObject9classNameEv", 
+                "_ZN8QVariantC1ERKS_", 
+                "__stack_chk_fail", 
+                "_ZN12QMapDataBase8freeDataEPS_", 
+                "_ZN7QObject10childEventEP11QChildEvent", 
+                "_ZN9QHashData11free_helperEPFvPNS_4NodeEE", 
+                "_ZdlPv", 
+                "_ZN8QVariantaSERKS_", 
+                "_ZN7QObject13connectNotifyERK11QMetaMethod", 
+                "_Z5qHashRK7QStringj", 
+                "_ZN7QObject11customEventEP6QEvent", 
+                "_ZN6QTimer11setIntervalEi", 
+                "_ZN7QObjectC2EPS_", 
+                "_ZN12QMapDataBase18recalcMostLeftNodeEv", 
+                "_ZN7QObject11qt_metacallEN11QMetaObject4CallEiPPv", 
+                "_ZN7QObject5eventEP6QEvent", 
+                "_ITM_registerTMCloneTable", 
+                "_ZN9QHashData6rehashEi", 
+                "_ZN7QObject11connectImplEPKS_PPvS1_S3_PN9QtPrivate15QSlotObjectBaseEN2Qt14ConnectionTypeEPKiPK11QMetaObject", 
+                "strlen", 
+                "_ZN11QMetaObject10ConnectionD1Ev", 
+                "_ZN8QVariantD1Ev", 
+                "_ZN6QTimer7timeoutENS_14QPrivateSignalE", 
+                "_ZN10QArrayData10deallocateEPS_jj", 
+                "_ZN10QByteArray6appendEc", 
+                "_ZN9QMetaType22registerNormalizedTypeERK10QByteArrayPFvPvEPFS3_S3_PKvEi6QFlagsINS_8TypeFlagEEPK11QMetaObject", 
+                "_ZN11QMetaObject8activateEP7QObjectPKS_iPPv", 
+                "_ZN9QHashData13detach_helperEPFvPNS_4NodeEPvEPFvS1_Eii", 
+                "_ZN9QHashData12allocateNodeEi", 
+                "_ZNK12QMapNodeBase8nextNodeEv", 
+                "_ZN11QMetaObject14normalizedTypeEPKc", 
+                "_ZN7QObject11eventFilterEPS_P6QEvent"
+            ], 
+            "rpm": "plasma-workspace-geolocation-libs-5.10.5-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libplasma-geolocation-interface.so.5.10.5"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " plasma-workspace-geolocation-libs", 
+            "License": " GPLv2+", 
+            "URL": " https://cgit.kde.org/plasma-workspace.git", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-06.phx2.fedoraproject.org", 
+            "Description": "\nPlasma5 geolocation runtime libraries.\n", 
+            "Build Date": " Tue 29 Aug 2017 04:31:39 PM EDT", 
+            "Source RPM": " plasma-workspace-5.10.5-3.fc27.src.rpm", 
+            "Version": " 5.10.5", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sun 03 Sep 2017 09:57:00 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 3.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Plasma5 geolocation runtime libraries", 
+            "Size": " 31432"
+        }
+    }
+}

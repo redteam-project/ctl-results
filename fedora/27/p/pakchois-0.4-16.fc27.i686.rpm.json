@@ -1,0 +1,61 @@
+{
+    "results": {
+        "usr/lib/libpakchois_so_0_1_0": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "dlsym", 
+                "strchr", 
+                "strdup", 
+                "dcgettext", 
+                "pthread_mutex_init", 
+                "dlopen", 
+                "malloc", 
+                "free", 
+                "dlclose", 
+                "strcmp", 
+                "pthread_mutex_lock", 
+                "calloc", 
+                "pthread_mutex_destroy", 
+                "__stack_chk_fail", 
+                "__cxa_finalize", 
+                "__assert_fail", 
+                "__gmon_start__", 
+                "pthread_mutex_unlock"
+            ], 
+            "rpm": "pakchois-0.4-16.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libpakchois.so.0.1.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " pakchois", 
+            "License": " LGPLv2+", 
+            "URL": " http://www.manyfish.co.uk/pakchois/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-31.phx2.fedoraproject.org", 
+            "Description": "\npakchois is just another PKCS#11 wrapper library. pakchois aims to\nprovide a thin wrapper over the PKCS#11 interface; offering a\nmodern object-oriented C interface which does not hide any of the\nunderlying interface, and avoids dependencies on any cryptography\ntoolkit.\n", 
+            "Build Date": " Fri 04 Aug 2017 03:28:13 AM EDT", 
+            "Source RPM": " pakchois-0.4-16.fc27.src.rpm", 
+            "Version": " 0.4", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 11:20:49 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 16.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A wrapper library for PKCS#11", 
+            "Size": " 24525"
+        }
+    }
+}

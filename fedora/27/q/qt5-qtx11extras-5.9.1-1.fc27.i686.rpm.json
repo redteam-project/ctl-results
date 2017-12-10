@@ -1,0 +1,63 @@
+{
+    "results": {
+        "usr/lib/libQt5X11Extras_so_5_9_1": {
+            "report-functions": [
+                "_ZN11QTextStreamlsERK7QString", 
+                "__gmon_start__", 
+                "_ZN6QDebugD1Ev", 
+                "_ZNK14QMessageLogger7warningEPKcz", 
+                "_ZNK7QScreen19logicalDotsPerInchYEv", 
+                "_ZN15QGuiApplication13primaryScreenEv", 
+                "_ZN10QByteArrayC1EPKci", 
+                "_ZNK7QScreen19logicalDotsPerInchXEv", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable", 
+                "_ZN7QString15fromUtf8_helperEPKci", 
+                "_ZN11QTextStreamlsEi", 
+                "_ZN15QGuiApplication12platformNameEv", 
+                "_ZNK7QStringeqE13QLatin1String", 
+                "_ZN9QListData7disposeEPNS_4DataE", 
+                "__cxa_finalize", 
+                "_ZN11QTextStreamlsEc", 
+                "_ZN15QGuiApplication7screensEv", 
+                "_ZN15QGuiApplication23platformNativeInterfaceEv", 
+                "_ZNK14QMessageLogger7warningEv", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "qt5-qtx11extras-5.9.1-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libQt5X11Extras.so.5.9.1"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " qt5-qtx11extras", 
+            "License": " LGPLv2 with exceptions or GPLv3 with exceptions", 
+            "URL": " http://www.qt.io", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-21.phx2.fedoraproject.org", 
+            "Description": "\nThe X11 Extras module provides features specific to platforms using X11, e.g.\nLinux and UNIX-like systems including embedded Linux systems that use the X\nWindow System.\n", 
+            "Build Date": " Wed 19 Jul 2017 12:30:54 PM EDT", 
+            "Source RPM": " qt5-qtx11extras-5.9.1-1.fc27.src.rpm", 
+            "Version": " 5.9.1", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Wed 19 Jul 2017 12:34:52 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 1.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Qt5 - X11 support library", 
+            "Size": " 58405"
+        }
+    }
+}

@@ -1,0 +1,250 @@
+{
+    "results": {
+        "usr/lib/liblcmaps_return_poolindex_so_0_0_0": {
+            "report-functions": [
+                "globus_module_activate", 
+                "lcmaps_term", 
+                "strncpy", 
+                "__gmon_start__", 
+                "gss_release_name", 
+                "lcmaps_log_a_string", 
+                "gss_display_name", 
+                "strlen", 
+                "lcmaps_init_and_logfile", 
+                "gss_inquire_context", 
+                "_ITM_registerTMCloneTable", 
+                "getenv", 
+                "lcmaps_ctx_to_cred", 
+                "free", 
+                "_ITM_deregisterTMCloneTable", 
+                "lcmaps_log", 
+                "lcmaps_tokenize", 
+                "__stack_chk_fail", 
+                "lcmaps_run_and_return_poolindex", 
+                "globus_module_deactivate"
+            ], 
+            "rpm": "lcmaps-1.6.5-7.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/liblcmaps_return_poolindex.so.0.0.0"
+        }, 
+        "usr/lib/liblcmaps_so_0_0_0": {
+            "report-functions": [
+                "malloc", 
+                "gss_display_name", 
+                "OPENSSL_sk_new_null", 
+                "strchr", 
+                "fwrite", 
+                "strspn", 
+                "getgrouplist", 
+                "__stack_chk_fail", 
+                "VOMS_Retrieve", 
+                "__errno_location", 
+                "gss_release_buffer", 
+                "calloc", 
+                "VOMS_Init", 
+                "fileno", 
+                "__xstat64", 
+                "time", 
+                "X509_NAME_oneline", 
+                "__vsnprintf_chk", 
+                "dlopen", 
+                "strerror", 
+                "OPENSSL_sk_value", 
+                "gss_release_name", 
+                "getpid", 
+                "__fprintf_chk", 
+                "X509_get_issuer_name", 
+                "X509_free", 
+                "OPENSSL_sk_insert", 
+                "gss_inquire_cred", 
+                "dlsym", 
+                "X509_PURPOSE_get_by_sname", 
+                "dlerror", 
+                "globus_module_activate", 
+                "strcmp", 
+                "__ctype_b_loc", 
+                "OPENSSL_sk_pop", 
+                "fopen64", 
+                "strlen", 
+                "signal", 
+                "VOMS_GetAttribute", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "strcat", 
+                "fread", 
+                "getgrgid", 
+                "VOMS_GetAttributeSourceHandle", 
+                "realloc", 
+                "globus_gsi_cred_get_cert_chain", 
+                "X509_INFO_free", 
+                "PEM_X509_INFO_read_bio", 
+                "strpbrk", 
+                "getpwnam", 
+                "ferror", 
+                "getpwuid", 
+                "_ITM_registerTMCloneTable", 
+                "__sprintf_chk", 
+                "clearerr", 
+                "VOMS_SetVerificationType", 
+                "VOMS_Destroy", 
+                "X509_get_subject_name", 
+                "BIO_free", 
+                "X509_dup", 
+                "OPENSSL_sk_push", 
+                "__cxa_finalize", 
+                "X509_print_fp", 
+                "gmtime", 
+                "OPENSSL_sk_dup", 
+                "VOMS_GetAttributesNumber", 
+                "fflush", 
+                "qsort", 
+                "isatty", 
+                "strcspn", 
+                "strncmp", 
+                "__snprintf_chk", 
+                "dlclose", 
+                "BIO_new_mem_buf", 
+                "_IO_getc", 
+                "globus_gsi_cred_get_cert", 
+                "OPENSSL_sk_num", 
+                "strdup", 
+                "OPENSSL_sk_free", 
+                "strcpy", 
+                "__syslog_chk", 
+                "OPENSSL_sk_pop_free", 
+                "OPENSSL_sk_shift", 
+                "fclose", 
+                "VOMS_ErrorMessage", 
+                "memmove", 
+                "VOMS_GetAttributeSourcesNumber", 
+                "getenv", 
+                "globus_module_deactivate", 
+                "strtol", 
+                "fgets", 
+                "X509_check_purpose", 
+                "stpcpy", 
+                "sscanf"
+            ], 
+            "rpm": "lcmaps-1.6.5-7.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/liblcmaps.so.0.0.0"
+        }, 
+        "usr/lib/liblcmaps_return_account_from_pem_so_0_0_0": {
+            "report-functions": [
+                "getenv", 
+                "__stack_chk_fail", 
+                "lcmaps_account_info_fill", 
+                "setenv", 
+                "lcmaps_run_with_pem_and_return_account", 
+                "free", 
+                "__cxa_finalize", 
+                "lcmaps_log", 
+                "__gmon_start__", 
+                "lcmaps_term", 
+                "lcmaps_tokenize", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "lcmaps-1.6.5-7.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/liblcmaps_return_account_from_pem.so.0.0.0"
+        }, 
+        "usr/lib/liblcmaps_verify_account_from_pem_so_0_0_0": {
+            "report-functions": [
+                "lcmaps_init_and_logfile", 
+                "lcmaps_tokenize", 
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable", 
+                "getenv", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "free", 
+                "lcmaps_run_and_verify_account_from_pem", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "lcmaps-1.6.5-7.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/liblcmaps_verify_account_from_pem.so.0.0.0"
+        }, 
+        "usr/lib/liblcmaps_gss_assist_gridmap_so_0_0_0": {
+            "report-functions": [
+                "lcmaps_run_without_credentials_and_return_username", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "lcmaps_term", 
+                "lcmaps_init"
+            ], 
+            "rpm": "lcmaps-1.6.5-7.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/liblcmaps_gss_assist_gridmap.so.0.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " lcmaps", 
+            "License": " ASL 2.0", 
+            "URL": " http://wiki.nikhef.nl/grid/LCMAPS", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-31.phx2.fedoraproject.org", 
+            "Description": "\nThe Local Centre MAPping Service (LCMAPS) is a security middleware\ncomponent that processes the users Grid credentials (typically X.509\nproxy certificates and VOMS attributes) and maps the user to a local\naccount based on the site local policy.\n\nIt is a highly configurable pluggable interface, and many plugins are\navailable to tailor almost every need. Since this is middleware, it\ndoes not interact with the user directly; to use it in a program please\nsee the lcmaps-interface package.\n", 
+            "Build Date": " Thu 03 Aug 2017 10:46:49 AM EDT", 
+            "Source RPM": " lcmaps-1.6.5-7.fc27.src.rpm", 
+            "Version": " 1.6.5", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 04:35:52 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 7.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Grid (X.509) and VOMS credentials to local account mapping service", 
+            "Size": " 199657"
+        }
+    }
+}

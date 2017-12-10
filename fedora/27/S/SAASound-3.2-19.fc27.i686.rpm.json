@@ -1,0 +1,52 @@
+{
+    "results": {
+        "usr/lib/libSAASound-3_2_so_0_0_0": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "_Unwind_Resume", 
+                "__gxx_personality_v0", 
+                "_Znwj", 
+                "_ITM_registerTMCloneTable", 
+                "_ZdlPvj"
+            ], 
+            "rpm": "SAASound-3.2-19.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libSAASound-3.2.so.0.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " SAASound", 
+            "License": " BSD", 
+            "URL": " http://simonowen.com/sam/saasound", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-25.phx2.fedoraproject.org", 
+            "Description": "\nPhillips SAA 1099 sound chip emulator library\n", 
+            "Build Date": " Wed 02 Aug 2017 01:31:05 PM EDT", 
+            "Source RPM": " SAASound-3.2-19.fc27.src.rpm", 
+            "Version": " 3.2", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 07 Aug 2017 02:22:23 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 19.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Phillips SAA 1099 sound chip emulator library", 
+            "Size": " 41291"
+        }
+    }
+}

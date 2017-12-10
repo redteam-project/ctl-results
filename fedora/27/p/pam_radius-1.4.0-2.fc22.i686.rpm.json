@@ -1,0 +1,92 @@
+{
+    "results": {
+        "lib/security/pam_radius_auth_so": {
+            "report-functions": [
+                "memcmp", 
+                "bind", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize", 
+                "close", 
+                "strchr", 
+                "strlen", 
+                "strncmp", 
+                "ferror", 
+                "strerror", 
+                "__snprintf_chk", 
+                "getpid", 
+                "recvfrom", 
+                "__memcpy_chk", 
+                "__vsprintf_chk", 
+                "strtol", 
+                "__fdelt_chk", 
+                "feof", 
+                "getppid", 
+                "fopen", 
+                "pam_get_item", 
+                "_Jv_RegisterClasses", 
+                "_ITM_registerTMCloneTable", 
+                "__errno_location", 
+                "select", 
+                "__memset_chk", 
+                "pam_get_data", 
+                "pam_set_data", 
+                "read", 
+                "pam_set_item", 
+                "fclose", 
+                "open", 
+                "malloc", 
+                "sendto", 
+                "__stack_chk_fail", 
+                "pam_get_user", 
+                "__strdup", 
+                "socket", 
+                "getservbyname", 
+                "memset", 
+                "__gmon_start__", 
+                "__sprintf_chk", 
+                "gethostname", 
+                "free", 
+                "__isoc99_sscanf", 
+                "gethostbyname", 
+                "gettimeofday", 
+                "__syslog_chk", 
+                "__ctype_b_loc", 
+                "time"
+            ], 
+            "rpm": "pam_radius-1.4.0-2.fc22.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "lib/security/pam_radius_auth.so"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " pam_radius", 
+            "License": " GPLv2+", 
+            "URL": " http://www.freeradius.org/pam_radius_auth/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-21.phx2.fedoraproject.org", 
+            "Description": "\npam_radius is a PAM module which allows user authentication using\na radius server.\n", 
+            "Build Date": " Wed 21 Jan 2015 07:50:51 AM EST", 
+            "Source RPM": " pam_radius-1.4.0-2.fc22.src.rpm", 
+            "Version": " 1.4.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sun 26 Feb 2017 09:53:03 PM EST, Key ID f55e7430f5282ee4", 
+            "Release": " 2.fc22", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " PAM Module for RADIUS Authentication", 
+            "Size": " 56156"
+        }
+    }
+}

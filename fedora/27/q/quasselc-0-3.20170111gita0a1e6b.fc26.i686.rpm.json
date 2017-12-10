@@ -1,0 +1,71 @@
+{
+    "results": {
+        "usr/lib/libquasselc_so_0": {
+            "report-functions": [
+                "abort", 
+                "__printf_chk", 
+                "index", 
+                "__cxa_finalize", 
+                "g_io_channel_write_chars", 
+                "g_return_if_fail_warning", 
+                "g_io_channel_read_chars", 
+                "_ITM_registerTMCloneTable", 
+                "__asprintf_chk", 
+                "deflateInit_", 
+                "strcmp", 
+                "malloc", 
+                "strlen", 
+                "free", 
+                "__strdup", 
+                "inflateInit_", 
+                "iconv", 
+                "fwrite", 
+                "calloc", 
+                "__gmon_start__", 
+                "__fprintf_chk", 
+                "iconv_open", 
+                "exit", 
+                "deflate", 
+                "inflate", 
+                "g_log", 
+                "__stack_chk_fail", 
+                "_ITM_deregisterTMCloneTable", 
+                "realloc"
+            ], 
+            "rpm": "quasselc-0-3.20170111gita0a1e6b.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libquasselc.so.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " quasselc", 
+            "License": " LPGLv3", 
+            "URL": " https://github.com/phhusson/QuasselC/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-24.phx2.fedoraproject.org", 
+            "Description": "\nAn implementation of the Quassel protocol in pure C.\n", 
+            "Build Date": " Sat 11 Feb 2017 04:34:22 PM EST", 
+            "Source RPM": " quasselc-0-3.20170111gita0a1e6b.fc26.src.rpm", 
+            "Version": " 0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Wed 22 Feb 2017 03:45:34 PM EST, Key ID f55e7430f5282ee4", 
+            "Release": " 3.20170111gita0a1e6b.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " API to access a Quassel Core in pure C", 
+            "Size": " 39234"
+        }
+    }
+}

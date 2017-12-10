@@ -1,0 +1,117 @@
+{
+    "results": {
+        "usr/share/doc/waffle-examples/examples/CMakeFiles/simple-x11-egl_dir/simple-x11-egl_c_o": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/share/doc/waffle-examples/examples/CMakeFiles/simple-x11-egl.dir/simple-x11-egl.c.o", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "report-functions": [
+                "waffle_config_choose", 
+                "waffle_dl_sym", 
+                "waffle_window_create", 
+                "waffle_display_connect", 
+                "waffle_display_supports_context_api", 
+                "waffle_dl_can_open", 
+                "waffle_init", 
+                "waffle_make_current", 
+                "_GLOBAL_OFFSET_TABLE_", 
+                "waffle_context_destroy", 
+                "waffle_config_destroy", 
+                "__stack_chk_fail", 
+                "exit", 
+                "waffle_display_disconnect", 
+                "waffle_window_swap_buffers", 
+                "waffle_window_show", 
+                "waffle_window_destroy"
+            ], 
+            "rpm": "waffle-examples-1.5.2-6.fc27.x86_64.rpm"
+        }, 
+        "usr/share/doc/waffle-examples/examples/CMakeFiles/gl_basic_dir/gl_basic_c_o": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/share/doc/waffle-examples/examples/CMakeFiles/gl_basic.dir/gl_basic.c.o", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "report-functions": [
+                "optarg", 
+                "__fprintf_chk", 
+                "waffle_display_disconnect", 
+                "waffle_error_get_info", 
+                "waffle_window_show", 
+                "calloc", 
+                "waffle_dl_sym", 
+                "waffle_context_create", 
+                "waffle_window_destroy", 
+                "free", 
+                "waffle_context_destroy", 
+                "abort", 
+                "optind", 
+                "waffle_enum_to_string", 
+                "waffle_error_to_string", 
+                "stderr", 
+                "getopt_long", 
+                "__printf_chk", 
+                "stdout", 
+                "__isoc99_sscanf", 
+                "waffle_display_supports_context_api", 
+                "waffle_init", 
+                "strncmp", 
+                "waffle_config_destroy", 
+                "fflush", 
+                "waffle_display_connect", 
+                "waffle_window_resize", 
+                "__vfprintf_chk", 
+                "_GLOBAL_OFFSET_TABLE_", 
+                "waffle_window_create", 
+                "waffle_make_current", 
+                "strcmp", 
+                "strlen", 
+                "nanosleep", 
+                "__stack_chk_fail", 
+                "exit"
+            ], 
+            "rpm": "waffle-examples-1.5.2-6.fc27.x86_64.rpm"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Tools", 
+            "Name": " waffle-examples", 
+            "License": " MIT", 
+            "URL": " http://www.waffle-gl.org/releases.html", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-08.phx2.fedoraproject.org", 
+            "Description": "\nExample programs using waffle.\n", 
+            "Build Date": " Fri 04 Aug 2017 11:15:48 PM EDT", 
+            "Source RPM": " waffle-1.5.2-6.fc27.src.rpm", 
+            "Version": " 1.5.2", 
+            "Architecture": " x86_64", 
+            "Signature": " RSA/SHA256, Sat 05 Aug 2017 10:31:44 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 6.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Example programs using waffle", 
+            "Size": " 134798"
+        }
+    }
+}

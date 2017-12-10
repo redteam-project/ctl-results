@@ -1,0 +1,110 @@
+{
+    "results": {
+        "usr/lib/libcdb_so_1": {
+            "report-functions": [
+                "memcmp", 
+                "_ITM_deregisterTMCloneTable", 
+                "__fxstat64", 
+                "free", 
+                "memmove", 
+                "__errno_location", 
+                "__stack_chk_fail", 
+                "malloc", 
+                "lseek64", 
+                "munmap", 
+                "mmap64", 
+                "write", 
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "read"
+            ], 
+            "rpm": "tinycdb-0.78-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libcdb.so.1"
+        }, 
+        "usr/bin/cdb": {
+            "report-functions": [
+                "cdb_init", 
+                "__libc_start_main", 
+                "__vfprintf_chk", 
+                "close", 
+                "fgets", 
+                "fread", 
+                "fwrite", 
+                "realloc", 
+                "strtol", 
+                "umask", 
+                "getopt", 
+                "_IO_putc", 
+                "unlink", 
+                "__stack_chk_fail", 
+                "rename", 
+                "_IO_getc", 
+                "__gmon_start__", 
+                "open64", 
+                "__fprintf_chk", 
+                "cdb_findinit", 
+                "fputs", 
+                "strlen", 
+                "cdb_read", 
+                "strerror", 
+                "fclose", 
+                "strcmp", 
+                "fflush", 
+                "cdb_findnext", 
+                "puts", 
+                "exit", 
+                "cdb_make_start", 
+                "malloc", 
+                "cdb_unpack", 
+                "__errno_location", 
+                "ferror", 
+                "fopen64", 
+                "__printf_chk"
+            ], 
+            "rpm": "tinycdb-0.78-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/cdb"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " tinycdb", 
+            "License": " Public Domain", 
+            "URL": " http://www.corpit.ru/mjt/tinycdb.html", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-08.phx2.fedoraproject.org", 
+            "Description": "\ntinycdb is a small, fast and reliable utility and subroutine library for\ncreating and reading constant databases. The database structure is tuned\nfor fast reading.\n\nThis package contains tinycdb utility and shared library.\n", 
+            "Build Date": " Fri 04 Aug 2017 08:37:10 PM EDT", 
+            "Source RPM": " tinycdb-0.78-8.fc27.src.rpm", 
+            "Version": " 0.78", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 05 Aug 2017 07:01:58 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 8.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Utility and library for manipulating constant databases", 
+            "Size": " 46602"
+        }
+    }
+}

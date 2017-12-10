@@ -1,0 +1,172 @@
+{
+    "results": {
+        "usr/lib/libtsocks_so_1_8": {
+            "report-functions": [
+                "geteuid", 
+                "calloc", 
+                "strncpy", 
+                "__strcpy_chk", 
+                "fclose", 
+                "getsockopt", 
+                "inet_aton", 
+                "getpwuid", 
+                "getuid", 
+                "__fdelt_chk", 
+                "__stack_chk_fail", 
+                "fputs", 
+                "strdup", 
+                "fwrite", 
+                "inet_addr", 
+                "strlen", 
+                "exit", 
+                "localtime", 
+                "strftime", 
+                "__errno_location", 
+                "dlsym", 
+                "strerror", 
+                "free", 
+                "strtol", 
+                "getpeername", 
+                "fflush", 
+                "fopen", 
+                "strcspn", 
+                "strspn", 
+                "gethostbyname", 
+                "time", 
+                "__fprintf_chk", 
+                "malloc", 
+                "__vfprintf_chk", 
+                "inet_ntoa", 
+                "send", 
+                "__printf_chk", 
+                "getpid", 
+                "fgets"
+            ], 
+            "rpm": "tsocks-1.8-0.19.beta5.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libtsocks.so.1.8"
+        }, 
+        "usr/bin/inspectsocks": {
+            "report-functions": [
+                "getpid", 
+                "close", 
+                "fwrite", 
+                "strerror", 
+                "strncpy", 
+                "gethostbyname", 
+                "fputs", 
+                "__libc_start_main", 
+                "__errno_location", 
+                "recv", 
+                "__stack_chk_fail", 
+                "localtime", 
+                "__vfprintf_chk", 
+                "strtol", 
+                "__fprintf_chk", 
+                "__printf_chk", 
+                "strftime", 
+                "inet_addr", 
+                "send", 
+                "connect", 
+                "__gmon_start__", 
+                "inet_ntoa", 
+                "socket", 
+                "exit", 
+                "time", 
+                "fflush"
+            ], 
+            "rpm": "tsocks-1.8-0.19.beta5.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/inspectsocks"
+        }, 
+        "usr/bin/validateconf": {
+            "report-functions": [
+                "strtol", 
+                "strspn", 
+                "__strcpy_chk", 
+                "exit", 
+                "strftime", 
+                "putchar", 
+                "strdup", 
+                "strcspn", 
+                "fflush", 
+                "fopen", 
+                "strerror", 
+                "__errno_location", 
+                "__gmon_start__", 
+                "__libc_start_main", 
+                "localtime", 
+                "fputs", 
+                "strlen", 
+                "strcmp", 
+                "__stack_chk_fail", 
+                "fclose", 
+                "puts", 
+                "strncpy", 
+                "fwrite", 
+                "time", 
+                "inet_ntoa", 
+                "__vfprintf_chk", 
+                "__fprintf_chk", 
+                "getpid", 
+                "free", 
+                "__printf_chk", 
+                "inet_addr", 
+                "fgets", 
+                "malloc"
+            ], 
+            "rpm": "tsocks-1.8-0.19.beta5.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/validateconf"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " tsocks", 
+            "License": " GPLv2+", 
+            "URL": " http://tsocks.sourceforge.net/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-16.phx2.fedoraproject.org", 
+            "Description": "\ntsocks is designed for use in machines which are firewalled from the\nInternet. It avoids the need to recompile applications like lynx or\ntelnet so they can use SOCKS to reach the Internet. It behaves much\nlike the SOCKSified TCP/IP stacks seen on other platforms.\n\ntsocks is a library to allow transparent SOCKS proxying. It wraps the\nnormal connect() function. When a connection is attempted, it consults\nthe configuration file (which is defined at configure time but defaults\nto /etc/tsocks.conf) and determines if the IP address specified is local.\nIf it is not, the library redirects the connection to a SOCKS server\nspecified in the configuration file. It then negotiates that connection\nwith the SOCKS server and passes the connection back to the calling\nprogram.\n", 
+            "Build Date": " Fri 04 Aug 2017 09:07:44 PM EDT", 
+            "Source RPM": " tsocks-1.8-0.19.beta5.fc27.src.rpm", 
+            "Version": " 1.8", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 05 Aug 2017 07:31:20 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 0.19.beta5.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Library for catching network connections, redirecting them on a SOCKS server", 
+            "Size": " 100098"
+        }
+    }
+}

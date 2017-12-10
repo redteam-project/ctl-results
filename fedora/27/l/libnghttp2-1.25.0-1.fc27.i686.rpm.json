@@ -1,0 +1,56 @@
+{
+    "results": {
+        "usr/lib/libnghttp2_so_14_14_0": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "strlen", 
+                "malloc", 
+                "memcmp", 
+                "__assert_fail", 
+                "qsort", 
+                "free", 
+                "__cxa_finalize", 
+                "calloc", 
+                "realloc", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "__vsnprintf_chk", 
+                "memmove"
+            ], 
+            "rpm": "libnghttp2-1.25.0-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libnghttp2.so.14.14.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " libnghttp2", 
+            "License": " MIT", 
+            "URL": " https://nghttp2.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-30.phx2.fedoraproject.org", 
+            "Description": "\nlibnghttp2 is a library implementing the Hypertext Transfer Protocol\nversion 2 (HTTP/2) protocol in C.\n", 
+            "Build Date": " Fri 18 Aug 2017 12:24:56 PM EDT", 
+            "Source RPM": " nghttp2-1.25.0-1.fc27.src.rpm", 
+            "Version": " 1.25.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 18 Aug 2017 02:58:04 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 1.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A library implementing the HTTP/2 protocol", 
+            "Size": " 158556"
+        }
+    }
+}

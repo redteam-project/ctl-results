@@ -1,0 +1,75 @@
+{
+    "results": {
+        "usr/bin/packmol": {
+            "report-functions": [
+                "_gfortran_st_write", 
+                "_gfortran_st_read_done", 
+                "__stack_chk_fail", 
+                "pow", 
+                "_gfortran_st_read", 
+                "_gfortran_transfer_real_write", 
+                "_gfortran_concat_string", 
+                "_gfortran_transfer_character_write", 
+                "_gfortran_st_open", 
+                "_gfortran_transfer_integer_write", 
+                "_ITM_registerTMCloneTable", 
+                "_gfortran_compare_string", 
+                "_gfortran_string_trim", 
+                "__gmon_start__", 
+                "_gfortran_stop_string", 
+                "_gfortran_st_rewind", 
+                "_gfortran_set_args", 
+                "_gfortran_transfer_integer", 
+                "_gfortran_transfer_logical_write", 
+                "_gfortran_set_options", 
+                "log10", 
+                "sincos", 
+                "_gfortran_st_write_done", 
+                "__cxa_finalize", 
+                "_gfortran_transfer_real", 
+                "free", 
+                "memmove", 
+                "_gfortran_transfer_character", 
+                "malloc", 
+                "_gfortran_string_len_trim", 
+                "memcmp", 
+                "_gfortran_st_close", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "packmol-15.217-5.fc27.x86_64.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/packmol"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Applications/Engineering", 
+            "Name": " packmol", 
+            "License": " GPLv2+", 
+            "URL": " http://www.ime.unicamp.br/~martinez/packmol/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-03.phx2.fedoraproject.org", 
+            "Description": "\nPackmol creates an initial point for molecular dynamics simulations by\npacking molecules in defined regions of space. The packing guarantees\nthat short range repulsive interactions do not disrupt the\nsimulations.\n\nThe great variety of types of spatial constraints that can be\nattributed to the molecules, or atoms within the molecules, makes it\neasy to create ordered systems, such as lamellar, spherical or tubular\nlipid layers.\n\nThe user must provide only the coordinates of one molecule of each\ntype, the number of molecules of each type and the spatial constraints\nthat each type of molecule must satisfy.\n\nThe package is compatible with input files of PDB, TINKER, XYZ and\nMOLDY formats.\n", 
+            "Build Date": " Fri 04 Aug 2017 03:22:31 AM EDT", 
+            "Source RPM": " packmol-15.217-5.fc27.src.rpm", 
+            "Version": " 15.217", 
+            "Architecture": " x86_64", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 11:19:23 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 5.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Packing optimization for molecular dynamics simulations", 
+            "Size": " 375958"
+        }
+    }
+}

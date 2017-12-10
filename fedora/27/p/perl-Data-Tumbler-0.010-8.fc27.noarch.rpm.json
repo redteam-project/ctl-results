@@ -1,0 +1,25 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " perl-Data-Tumbler", 
+            "License": " GPL+ or Artistic", 
+            "URL": " http://search.cpan.org/dist/Data-Tumbler/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-ppc64le-04.ppc.fedoraproject.org", 
+            "Description": "\nThe tumble() method calls a sequence of 'provider' code references, each of\nwhich returns a hash. The first provider is called and then, for each hash item\nit returns, the tumble() method recurses to call the next provider. The\nrecursion continues until there are no more providers to call, at which point\nthe consumer code reference is called. Effectively the providers create a tree\nof combinations and the consumer is called at the leaves of the tree. If a\nprovider returns no items then that part of the tree is pruned. Further\nproviders, if any, are not called and the consumer is not called.\n\nDuring a call to tumble() three values are passed down through the tree and\ninto the consumer: path, context, and payload. The path and context are derived\nfrom the names and values of the hashes returned by the providers. Typically\nthe path defines the current \"path\" through the tree of combinations. The\nproviders are passed the current path, context, and payload. The payload is\ncloned at each level of recursion so that any changes made to it by providers\nare only visible within the scope of the generated sub-tree.\n", 
+            "Build Date": " Fri 28 Jul 2017 02:36:32 AM EDT", 
+            "Source RPM": " perl-Data-Tumbler-0.010-8.fc27.src.rpm", 
+            "Version": " 0.010", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Fri 28 Jul 2017 10:30:39 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 8.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Dynamic generation of nested combinations", 
+            "Size": " 34114"
+        }
+    }
+}

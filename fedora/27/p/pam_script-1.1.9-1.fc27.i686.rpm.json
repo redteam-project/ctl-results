@@ -1,0 +1,65 @@
+{
+    "results": {
+        "lib/security/pam_script_so": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "strcmp", 
+                "pam_get_user", 
+                "free", 
+                "snprintf", 
+                "calloc", 
+                "__xstat", 
+                "setenv", 
+                "closelog", 
+                "__stack_chk_fail", 
+                "pam_get_item", 
+                "strlen", 
+                "_exit", 
+                "_ITM_registerTMCloneTable", 
+                "pam_set_item", 
+                "pam_strerror", 
+                "__gmon_start__", 
+                "openlog", 
+                "__vsyslog_chk", 
+                "execve", 
+                "strncpy", 
+                "__strncat_chk", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "pam_script-1.1.9-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "lib/security/pam_script.so"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Applications/System", 
+            "Name": " pam_script", 
+            "License": " GPLv2+", 
+            "URL": " https://github.com/jeroennijhof/pam_script", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-08.phx2.fedoraproject.org", 
+            "Description": "\npam_script allows you to execute scripts during authorization, password\nchanges and session openings or closings.\n", 
+            "Build Date": " Thu 24 Aug 2017 08:05:59 AM EDT", 
+            "Source RPM": " pam_script-1.1.9-1.fc27.src.rpm", 
+            "Version": " 1.1.9", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 24 Aug 2017 08:09:22 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 1.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " PAM module for executing scripts", 
+            "Size": " 63243"
+        }
+    }
+}

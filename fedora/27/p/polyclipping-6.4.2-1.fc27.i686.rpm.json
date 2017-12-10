@@ -1,0 +1,76 @@
+{
+    "results": {
+        "usr/lib/libpolyclipping_so_22_0_0": {
+            "report-functions": [
+                "_ZNSt9exceptionD2Ev", 
+                "_ZNSt8__detail15_List_node_base4swapERS0_S1_", 
+                "__cxa_end_catch", 
+                "_ZNSo9_M_insertIxEERSoT_", 
+                "_Znwj", 
+                "__cxa_throw", 
+                "_Znaj", 
+                "sqrt", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gxx_personality_v0", 
+                "_ZdlPvj", 
+                "_Unwind_Resume", 
+                "atan2", 
+                "__cxa_begin_catch", 
+                "acos", 
+                "__cxa_throw_bad_array_new_length", 
+                "_ZNSt8__detail15_List_node_base11_M_transferEPS0_S1_", 
+                "_ZdlPv", 
+                "_ZSt20__throw_length_errorPKc", 
+                "_ZNSt8__detail15_List_node_base7_M_hookEPS0_", 
+                "memmove", 
+                "__cxa_allocate_exception", 
+                "_ZSt17__throw_bad_allocv", 
+                "tan", 
+                "_ITM_registerTMCloneTable", 
+                "__cxa_finalize", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERjj", 
+                "strlen", 
+                "__gmon_start__", 
+                "sincos", 
+                "_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_i", 
+                "__cxa_free_exception", 
+                "__stack_chk_fail", 
+                "_ZSt19__throw_logic_errorPKc"
+            ], 
+            "rpm": "polyclipping-6.4.2-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libpolyclipping.so.22.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " polyclipping", 
+            "License": " Boost", 
+            "URL": " http://sourceforge.net/projects/polyclipping", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-07.phx2.fedoraproject.org", 
+            "Description": "\nThis library primarily performs the boolean clipping operations -\nintersection, union, difference & xor - on 2D polygons. It also performs\npolygon offsetting. The library handles complex (self-intersecting) polygons,\npolygons with holes and polygons with overlapping co-linear edges.\nInput polygons for clipping can use EvenOdd, NonZero, Positive and Negative\nfilling modes. The clipping code is based on the Vatti clipping algorithm,\nand outperforms other clipping libraries.\n", 
+            "Build Date": " Thu 28 Sep 2017 02:18:03 PM EDT", 
+            "Source RPM": " polyclipping-6.4.2-1.fc27.src.rpm", 
+            "Version": " 6.4.2", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 28 Sep 2017 02:30:28 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 1.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Polygon clipping library", 
+            "Size": " 1877898"
+        }
+    }
+}

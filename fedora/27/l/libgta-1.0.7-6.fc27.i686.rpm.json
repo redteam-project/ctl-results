@@ -1,0 +1,68 @@
+{
+    "results": {
+        "usr/lib/libgta_so_0_0_4": {
+            "report-functions": [
+                "lzma_stream_buffer_bound", 
+                "fwrite", 
+                "read", 
+                "__cxa_finalize", 
+                "ftello64", 
+                "_ITM_deregisterTMCloneTable", 
+                "ferror", 
+                "free", 
+                "fread", 
+                "strcmp", 
+                "lzma_end", 
+                "BZ2_bzBuffToBuffCompress", 
+                "_ITM_registerTMCloneTable", 
+                "strlen", 
+                "malloc", 
+                "compress2", 
+                "fseeko64", 
+                "lzma_code", 
+                "uncompress", 
+                "__errno_location", 
+                "lseek64", 
+                "__gmon_start__", 
+                "lzma_easy_encoder", 
+                "realloc", 
+                "lzma_stream_decoder", 
+                "write"
+            ], 
+            "rpm": "libgta-1.0.7-6.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libgta.so.0.0.4"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " libgta", 
+            "License": " LGPLv2+", 
+            "URL": " http://gta.nongnu.org", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-25.phx2.fedoraproject.org", 
+            "Description": "\nLibgta is a portable library that implements the GTA (Generic Tagged Arrays)\nfile format. It provides interfaces for C and C++.\n", 
+            "Build Date": " Thu 03 Aug 2017 02:27:38 PM EDT", 
+            "Source RPM": " libgta-1.0.7-6.fc27.src.rpm", 
+            "Version": " 1.0.7", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 08:54:25 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 6.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Library that implements the Generic Tagged Arrays file format", 
+            "Size": " 79072"
+        }
+    }
+}

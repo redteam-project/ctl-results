@@ -1,0 +1,60 @@
+{
+    "results": {
+        "usr/lib/libcint_so_2_8": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "pow", 
+                "__cxa_finalize", 
+                "exit", 
+                "__fprintf_chk", 
+                "sqrtl", 
+                "dgemm_", 
+                "sqrt", 
+                "__stack_chk_fail", 
+                "exp", 
+                "expl", 
+                "fwrite", 
+                "_ITM_deregisterTMCloneTable", 
+                "free", 
+                "erfl", 
+                "__gmon_start__", 
+                "log", 
+                "erf"
+            ], 
+            "rpm": "libcint-2.8.7-4.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libcint.so.2.8"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " libcint", 
+            "License": " BSD", 
+            "URL": " https://github.com/sunqm/libcint", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-06.phx2.fedoraproject.org", 
+            "Description": "\nlibcint is an open source library for analytical Gaussian integrals.\nIt provides C/Fortran API to evaluate one-electron / two-electron\nintegrals for Cartesian / real-spherical / spinor Gaussian type functions.\n", 
+            "Build Date": " Fri 10 Feb 2017 08:51:01 PM EST", 
+            "Source RPM": " libcint-2.8.7-4.fc26.src.rpm", 
+            "Version": " 2.8.7", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sun 26 Feb 2017 07:12:29 PM EST, Key ID f55e7430f5282ee4", 
+            "Release": " 4.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " General Gaussian-type orbitals integrals for quantum chemistry", 
+            "Size": " 1012606"
+        }
+    }
+}

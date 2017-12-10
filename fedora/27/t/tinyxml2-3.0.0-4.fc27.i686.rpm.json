@@ -1,0 +1,72 @@
+{
+    "results": {
+        "usr/lib/libtinyxml2_so_3_0_0": {
+            "report-functions": [
+                "fseek", 
+                "fopen", 
+                "fgetc", 
+                "_Unwind_Resume", 
+                "strchr", 
+                "sscanf", 
+                "strlen", 
+                "__vfprintf_chk", 
+                "strncmp", 
+                "ferror", 
+                "__stack_chk_fail", 
+                "_ZdlPvj", 
+                "fclose", 
+                "_Znaj", 
+                "__vsnprintf_chk", 
+                "snprintf", 
+                "isspace", 
+                "__cxa_finalize", 
+                "__cxa_throw_bad_array_new_length", 
+                "__printf_chk", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "ftell", 
+                "__snprintf_chk", 
+                "isalpha", 
+                "__gxx_personality_v0", 
+                "_ZdaPv", 
+                "__cxa_pure_virtual", 
+                "_ITM_deregisterTMCloneTable", 
+                "fread"
+            ], 
+            "rpm": "tinyxml2-3.0.0-4.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libtinyxml2.so.3.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " tinyxml2", 
+            "License": " zlib", 
+            "URL": " https://github.com/leethomason/tinyxml2", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-22.phx2.fedoraproject.org", 
+            "Description": "\nTinyXML-2 is a simple, small, efficient, C++ XML parser that can be\neasily integrated into other programs. It uses a Document Object Model\n(DOM), meaning the XML data is parsed into a C++ objects that can be\nbrowsed and manipulated, and then written to disk or another output stream.\n\nTinyXML-2 doesn't parse or use DTDs (Document Type Definitions) nor XSLs\n(eXtensible Stylesheet Language).\n\nTinyXML-2 uses a similar API to TinyXML-1, But the implementation of the\nparser was completely re-written to make it more appropriate for use in a\ngame. It uses less memory, is faster, and uses far fewer memory allocations.\n", 
+            "Build Date": " Fri 04 Aug 2017 08:39:49 PM EDT", 
+            "Source RPM": " tinyxml2-3.0.0-4.fc27.src.rpm", 
+            "Version": " 3.0.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 05 Aug 2017 07:05:20 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 4.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Simple, small and efficient C++ XML parser", 
+            "Size": " 91240"
+        }
+    }
+}

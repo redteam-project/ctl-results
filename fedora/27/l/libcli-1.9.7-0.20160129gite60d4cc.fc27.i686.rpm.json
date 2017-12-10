@@ -1,0 +1,85 @@
+{
+    "results": {
+        "usr/lib/libcli_so_1_9_7": {
+            "report-functions": [
+                "fclose", 
+                "vsnprintf", 
+                "strstr", 
+                "strcpy", 
+                "strchr", 
+                "strncasecmp", 
+                "memmove", 
+                "free", 
+                "strlen", 
+                "strspn", 
+                "__ctype_b_loc", 
+                "regcomp", 
+                "select", 
+                "write", 
+                "malloc", 
+                "fwrite", 
+                "strcasecmp", 
+                "read", 
+                "time", 
+                "regexec", 
+                "strcmp", 
+                "strdup", 
+                "strncmp", 
+                "fgets", 
+                "setbuf", 
+                "realloc", 
+                "strerror", 
+                "regfree", 
+                "__errno_location", 
+                "memset", 
+                "perror", 
+                "fprintf", 
+                "fdopen", 
+                "__cxa_finalize", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "strncpy", 
+                "asprintf", 
+                "strpbrk", 
+                "snprintf", 
+                "strcat", 
+                "memcpy", 
+                "crypt"
+            ], 
+            "rpm": "libcli-1.9.7-0.20160129gite60d4cc.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libcli.so.1.9.7"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " libcli", 
+            "License": " LGPLv2+", 
+            "URL": " http://sites.dparrish.com/libcli", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-11.phx2.fedoraproject.org", 
+            "Description": "\nLibcli provides a shared library for including a Cisco-like command-line\ninterface into other software. It's a telnet interface which supports\ncommand-line editing, history, authentication and callbacks for a\nuser-definable function tree.\n", 
+            "Build Date": " Thu 03 Aug 2017 01:43:33 PM EDT", 
+            "Source RPM": " libcli-1.9.7-0.20160129gite60d4cc.fc27.src.rpm", 
+            "Version": " 1.9.7", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 06:21:09 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 0.20160129gite60d4cc.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A shared library for a Cisco-like cli", 
+            "Size": " 66368"
+        }
+    }
+}

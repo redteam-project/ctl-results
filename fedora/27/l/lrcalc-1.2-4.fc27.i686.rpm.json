@@ -1,0 +1,137 @@
+{
+    "results": {
+        "usr/lib/lrcalc/lrcalc": {
+            "report-functions": [
+                "_setjmp", 
+                "_ITM_deregisterTMCloneTable", 
+                "st_next", 
+                "lrcoef", 
+                "v_lesseq", 
+                "fusion_reduce", 
+                "get_vect_arg", 
+                "__printf_chk", 
+                "free_vp_lincomb", 
+                "__cxa_finalize", 
+                "skew", 
+                "_hash_first", 
+                "exit", 
+                "putchar", 
+                "st_new", 
+                "free", 
+                "getopt", 
+                "maple_print_lincomb", 
+                "v_sum", 
+                "__stack_chk_fail", 
+                "__sprintf_chk", 
+                "v_new_copy", 
+                "quantum_reduce", 
+                "st_print", 
+                "strcmp", 
+                "strtol", 
+                "__libc_start_main", 
+                "free_vec_lincomb", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "v_new_zero", 
+                "fwrite", 
+                "mult", 
+                "print_vec_lincomb", 
+                "l_free", 
+                "print_vp_lincomb", 
+                "st_free"
+            ], 
+            "rpm": "lrcalc-1.2-4.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/lrcalc/lrcalc"
+        }, 
+        "usr/lib/lrcalc/schubmult": {
+            "report-functions": [
+                "exit", 
+                "__cxa_finalize", 
+                "get_vect_arg", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "__libc_start_main", 
+                "getopt", 
+                "print_vec_lincomb", 
+                "maple_print_lincomb", 
+                "free_vec_lincomb", 
+                "_setjmp", 
+                "mult_schubert", 
+                "free", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "lrcalc-1.2-4.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/lrcalc/schubmult"
+        }, 
+        "usr/lib/liblrcalc_so_1_0_1": {
+            "report-functions": [
+                "free", 
+                "puts", 
+                "_IO_putc", 
+                "malloc", 
+                "_ITM_deregisterTMCloneTable", 
+                "calloc", 
+                "__stack_chk_fail", 
+                "strtol", 
+                "_ITM_registerTMCloneTable", 
+                "__printf_chk", 
+                "__gmon_start__", 
+                "__longjmp_chk"
+            ], 
+            "rpm": "lrcalc-1.2-4.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/liblrcalc.so.1.0.1"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " lrcalc", 
+            "License": " GPLv2+", 
+            "URL": " http://math.rutgers.edu/~asbuch/lrcalc", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-27.phx2.fedoraproject.org", 
+            "Description": "\nThe \"Littlewood-Richardson Calculator\" is a package of C and Maple programs\nfor computing Littlewood-Richardson coefficients. The C programs form the\nengine of the package, providing fast calculation of single LR coefficients,\nproducts of Schur functions, and skew Schur functions. The Maple code mainly\ngives an interface which makes it possible to use the C programs from Maple.\nThis interface uses the same notation as the SF package of John Stembridge,\nto make it easier to use both packages at the same time.\n", 
+            "Build Date": " Thu 03 Aug 2017 06:41:11 PM EDT", 
+            "Source RPM": " lrcalc-1.2-4.fc27.src.rpm", 
+            "Version": " 1.2", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 03:14:02 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 4.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Littlewood-Richardson Calculator", 
+            "Size": " 92453"
+        }
+    }
+}

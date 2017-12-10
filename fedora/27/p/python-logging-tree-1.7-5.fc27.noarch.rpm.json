@@ -1,0 +1,25 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " python-logging-tree", 
+            "License": " BSD", 
+            "URL": " http://pypi.python.org/pypi/logging_tree", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-armv7-07.arm.fedoraproject.org", 
+            "Description": "\nIntrospection for the ``logging`` logger tree in the Standard Library.\n\nWhile you can write programs that call this package's ``tree()``\nfunction and examine the hierarchy of logger objects that it finds\ninside of the Standard Library ``logging`` module, the simplest use of\nthis package for debugging is to call ``printout()`` to print the\nloggers, filters, and handlers that your application has configured::\n\n    >>> logging.getLogger('a')\n    >>> logging.getLogger('a.b').setLevel(logging.DEBUG)\n    >>> logging.getLogger('x.c')\n    >>> from logging_tree import printout\n    >>> printout()\n       \"\"\n       Level WARNING\n       |\n       o<--\"a\"\n       |   |\n       |   o<--\"a.b\"\n       |       Level DEBUG\n       |\n       o<--[x]\n           |\n           o<--\"x.c\"\n", 
+            "Build Date": " Fri 28 Jul 2017 01:20:06 PM EDT", 
+            "Source RPM": " python-logging-tree-1.7-5.fc27.src.rpm", 
+            "Version": " 1.7", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Sat 29 Jul 2017 01:52:35 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 5.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Introspect and display the logger tree inside \"logging\"", 
+            "Size": " 52240"
+        }
+    }
+}

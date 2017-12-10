@@ -1,0 +1,56 @@
+{
+    "results": {
+        "usr/lib/libjudyfk_so_1_0_3": {
+            "report-functions": [
+                "JudyLNext", 
+                "__stack_chk_fail", 
+                "JudyFree", 
+                "__gmon_start__", 
+                "JudyLPrev", 
+                "_ITM_deregisterTMCloneTable", 
+                "memcmp", 
+                "JudyLDel", 
+                "JudyLFirst", 
+                "JudyMalloc", 
+                "_ITM_registerTMCloneTable", 
+                "JudyLFreeArray", 
+                "JudyLIns", 
+                "JudyLGet"
+            ], 
+            "rpm": "judy-fk-1.0.6-9.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libjudyfk.so.1.0.3"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " judy-fk", 
+            "License": " LGPLv2+", 
+            "URL": " https://github.com/qiq/judy-fk/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-28.phx2.fedoraproject.org", 
+            "Description": "\nJudy is a C library that provides a state-of-the-art core technology that\nimplements a sparse dynamic array. Judy arrays are declared simply with a null\npointer. A Judy array consumes memory only when it is populated, yet can grow\nto take advantage of all available memory if desired. Judy's key benefits are\nscalability, high performance, and memory efficiency. A Judy array is\nextensible and can scale up to a very large number of elements, bounded only by\nmachine memory. Since Judy is designed as an unbounded array, the size of a\nJudy array is not pre-allocated but grows and shrinks dynamically with the\narray population. This package adds a modified SL library that accepts fixed\nlength byte arrays.\n", 
+            "Build Date": " Thu 03 Aug 2017 06:40:45 AM EDT", 
+            "Source RPM": " judy-fk-1.0.6-9.fc27.src.rpm", 
+            "Version": " 1.0.6", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 12:50:41 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 9.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " General purpose dynamic array with fixed-length keys", 
+            "Size": " 37259"
+        }
+    }
+}

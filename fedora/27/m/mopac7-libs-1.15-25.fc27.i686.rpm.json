@@ -1,0 +1,93 @@
+{
+    "results": {
+        "usr/lib/libmopac7_so_1_0_13": {
+            "report-functions": [
+                "malloc", 
+                "__stack_chk_fail", 
+                "_gfortran_transfer_array", 
+                "_gfortran_transfer_character", 
+                "sincos", 
+                "sin", 
+                "free", 
+                "_ITM_deregisterTMCloneTable", 
+                "_gfortran_st_write", 
+                "_gfortran_transfer_integer_write", 
+                "_ITM_registerTMCloneTable", 
+                "__powidf2", 
+                "_gfortran_string_len_trim", 
+                "_gfortran_stop_string", 
+                "exp", 
+                "_gfortran_st_close", 
+                "pow", 
+                "log10", 
+                "getrusage", 
+                "_gfortran_st_open", 
+                "_gfortran_st_write_done", 
+                "_gfortran_transfer_array_write", 
+                "_gfortran_transfer_integer", 
+                "memcmp", 
+                "_gfortran_st_read", 
+                "__gmon_start__", 
+                "_gfortran_st_rewind", 
+                "acos", 
+                "log", 
+                "_gfortran_transfer_logical", 
+                "_gfortran_second", 
+                "ctime", 
+                "_gfortran_concat_string", 
+                "_gfortran_transfer_character_write", 
+                "_gfortran_st_read_done", 
+                "asin", 
+                "_gfortran_transfer_logical_write", 
+                "cabsf", 
+                "memmove", 
+                "time", 
+                "_gfortran_etime", 
+                "cexp", 
+                "_gfortran_pow_i4_i4", 
+                "lround", 
+                "_gfortran_transfer_real", 
+                "_gfortran_flush_i4", 
+                "_gfortran_getenv", 
+                "_gfortran_compare_string", 
+                "_gfortran_string_index", 
+                "cos", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "mopac7-libs-1.15-25.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libmopac7.so.1.0.13"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " mopac7-libs", 
+            "License": " Public Domain", 
+            "URL": " http://sourceforge.net/projects/mopac7/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-28.phx2.fedoraproject.org", 
+            "Description": "\nDynamic libraries from mopac7.\n", 
+            "Build Date": " Thu 03 Aug 2017 10:48:24 PM EDT", 
+            "Source RPM": " mopac7-1.15-25.fc27.src.rpm", 
+            "Version": " 1.15", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 06:26:53 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 25.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Dynamic libraries from mopac7", 
+            "Size": " 2969704"
+        }
+    }
+}

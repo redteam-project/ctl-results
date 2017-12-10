@@ -1,0 +1,46 @@
+{
+    "results": {
+        "usr/lib/libspooky-c_so_1_0_0": {
+            "report-functions": [
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "__memcpy_chk", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "spooky-c-1.0.0-11.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libspooky-c.so.1.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " spooky-c", 
+            "License": " BSD", 
+            "URL": " https://github.com/andikleen/spooky-c", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-05.phx2.fedoraproject.org", 
+            "Description": "\nThis is a C version of Bob Jenkins' spooky hash. The only advantage over\nBob's original version is that it is in C, not C++ and comes with some\ntest and benchmark code.\n\nThis is a very competitive hash function, but is somewhat non-portable.\nIt should work on both big and little endian architectures, but will\ngenerate different hashes on them. It's also optimized for 64-bit\narchitectures. It will work on 32-bit architectures as well, but is much\nslower there.\n", 
+            "Build Date": " Fri 04 Aug 2017 05:43:20 PM EDT", 
+            "Source RPM": " spooky-c-1.0.0-11.fc27.src.rpm", 
+            "Version": " 1.0.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 05 Aug 2017 04:44:43 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 11.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " C port of Bob Jenkins' spooky hash", 
+            "Size": " 24858"
+        }
+    }
+}

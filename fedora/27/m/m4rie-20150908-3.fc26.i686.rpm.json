@@ -1,0 +1,89 @@
+{
+    "results": {
+        "usr/lib/libm4rie-0_0_20150908_so": {
+            "report-functions": [
+                "_mzd_compress_l", 
+                "mzd_apply_p_right", 
+                "mzd_submatrix", 
+                "mzd_mul", 
+                "mzd_process_rows2", 
+                "mzd_process_rows3", 
+                "mzd_add", 
+                "mzp_init", 
+                "__sprintf_chk", 
+                "putchar", 
+                "mzd_transpose", 
+                "mzd_is_zero", 
+                "malloc", 
+                "m4ri_die", 
+                "random", 
+                "mzd_init_window", 
+                "mzd_addmul", 
+                "_ITM_registerTMCloneTable", 
+                "log2", 
+                "mzd_init", 
+                "calloc", 
+                "mzp_free", 
+                "mzd_process_rows", 
+                "mzd_ple", 
+                "sqrt", 
+                "mzd_set_ui", 
+                "mzd_concat", 
+                "mzd_process_rows4", 
+                "mzd_copy", 
+                "mzd_process_rows6", 
+                "mzd_apply_p_left", 
+                "__printf_chk", 
+                "__gmon_start__", 
+                "mzp_free_window", 
+                "puts", 
+                "__stack_chk_fail", 
+                "_ITM_deregisterTMCloneTable", 
+                "mzp_init_window", 
+                "mzd_process_rows5", 
+                "free", 
+                "mzd_inv_m4ri", 
+                "ceil", 
+                "mzd_free", 
+                "mzd_equal", 
+                "__cxa_finalize", 
+                "djb_compile", 
+                "mzd_apply_p_right_trans_tri"
+            ], 
+            "rpm": "m4rie-20150908-3.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libm4rie-0.0.20150908.so"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " m4rie", 
+            "License": " GPLv2+", 
+            "URL": " https://bitbucket.org/malb/m4rie", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-21.phx2.fedoraproject.org", 
+            "Description": "\nM4RIE is a library for fast arithmetic with dense matrices over F_2^e.\nIt is an add-on to the M4RI library, which implements fast arithmetic\nwith dense matrices over F_2.  M4RIE is used by the Sage mathematics\nsoftware.\n", 
+            "Build Date": " Sat 11 Feb 2017 12:22:24 AM EST", 
+            "Source RPM": " m4rie-20150908-3.fc26.src.rpm", 
+            "Version": " 20150908", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 27 Feb 2017 12:58:26 AM EST, Key ID f55e7430f5282ee4", 
+            "Release": " 3.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Linear Algebra over F_2^e", 
+            "Size": " 1102248"
+        }
+    }
+}

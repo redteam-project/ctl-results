@@ -1,0 +1,118 @@
+{
+    "results": {
+        "usr/lib/librsync_so_2_0_0": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "fopen64", 
+                "__cxa_finalize", 
+                "feof", 
+                "fileno", 
+                "ferror", 
+                "fread", 
+                "__vsnprintf_chk", 
+                "fseeko64", 
+                "qsort", 
+                "calloc", 
+                "__snprintf_chk", 
+                "memcmp", 
+                "realloc", 
+                "fwrite", 
+                "__assert_fail", 
+                "strlen", 
+                "free", 
+                "write", 
+                "strchr", 
+                "exit", 
+                "_ITM_deregisterTMCloneTable", 
+                "strerror", 
+                "__gmon_start__", 
+                "__memcpy_chk", 
+                "abort", 
+                "__errno_location", 
+                "malloc", 
+                "memmove"
+            ], 
+            "rpm": "librsync-1.0.0-6.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/librsync.so.2.0.0"
+        }, 
+        "usr/bin/rdiff": {
+            "report-functions": [
+                "rs_sig_file", 
+                "poptGetContext", 
+                "poptFreeContext", 
+                "rs_file_close", 
+                "__libc_start_main", 
+                "poptGetArg", 
+                "__printf_chk", 
+                "__gmon_start__", 
+                "__fprintf_chk", 
+                "rs_delta_file", 
+                "exit", 
+                "rs_file_open", 
+                "rs_log0", 
+                "__stack_chk_fail", 
+                "_ITM_registerTMCloneTable", 
+                "rs_strerror", 
+                "rs_free_sumset", 
+                "rs_log_stats", 
+                "rs_supports_trace", 
+                "poptGetOptArg", 
+                "poptStrerror", 
+                "__snprintf_chk", 
+                "rs_patch_file", 
+                "_ITM_deregisterTMCloneTable", 
+                "rs_trace_set_level", 
+                "poptGetNextOpt", 
+                "rs_build_hash_table", 
+                "strtol", 
+                "strcmp", 
+                "puts", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "librsync-1.0.0-6.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/rdiff"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " librsync", 
+            "License": " LGPLv2+", 
+            "URL": " http://librsync.sourcefrog.net/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-10.phx2.fedoraproject.org", 
+            "Description": "\nlibrsync implements the \"rsync\" algorithm, which allows remote\ndifferencing of binary files. librsync computes a delta relative to a\nfile's checksum, so the two files need not both be present to generate\na delta.\n\nThis library was previously known as libhsync up to version 0.9.0.\n\nThe current version of this package does not implement the rsync\nnetwork protocol and uses a delta format slightly more efficient than\nand incompatible with rsync 2.4.6.\n", 
+            "Build Date": " Thu 03 Aug 2017 04:00:50 PM EDT", 
+            "Source RPM": " librsync-1.0.0-6.fc27.src.rpm", 
+            "Version": " 1.0.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 01:09:43 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 6.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Rsync libraries", 
+            "Size": " 136462"
+        }
+    }
+}

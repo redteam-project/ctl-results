@@ -1,0 +1,91 @@
+{
+    "results": {
+        "usr/lib/libpytalloc-util_cpython-36m-i386-linux-gnu_so_2_1_10": {
+            "report-functions": [
+                "_talloc_reference_loc", 
+                "_talloc_steal_loc", 
+                "PyType_IsSubtype", 
+                "talloc_get_name", 
+                "talloc_set_name_const", 
+                "__cxa_finalize", 
+                "_ITM_deregisterTMCloneTable", 
+                "PyErr_NoMemory", 
+                "__gmon_start__", 
+                "PyErr_SetString", 
+                "PyErr_Format", 
+                "talloc_check_name", 
+                "PyType_Ready", 
+                "talloc_named_const", 
+                "PyObject_GetAttrString"
+            ], 
+            "rpm": "python3-talloc-2.1.10-4.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libpytalloc-util.cpython-36m-i386-linux-gnu.so.2.1.10"
+        }, 
+        "usr/lib/python3_6/site-packages/talloc_cpython-36m-i386-linux-gnu_so": {
+            "report-functions": [
+                "_pytalloc_get_ptr", 
+                "PyType_Ready", 
+                "PyLong_FromLong", 
+                "_PyArg_ParseTuple_SizeT", 
+                "PyModule_Create2", 
+                "__cxa_finalize", 
+                "talloc_report_full", 
+                "_ITM_deregisterTMCloneTable", 
+                "PyType_IsSubtype", 
+                "_pytalloc_get_mem_ctx", 
+                "PyModule_AddObject", 
+                "__gmon_start__", 
+                "talloc_unlink", 
+                "PyBool_FromLong", 
+                "PyUnicode_FromFormat", 
+                "__assert_fail", 
+                "_ITM_registerTMCloneTable", 
+                "PyObject_Type"
+            ], 
+            "rpm": "python3-talloc-2.1.10-4.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/python3.6/site-packages/talloc.cpython-36m-i386-linux-gnu.so"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " python3-talloc", 
+            "License": " LGPLv3+", 
+            "URL": " https://talloc.samba.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-08.phx2.fedoraproject.org", 
+            "Description": "\nPython 3 libraries for creating bindings using talloc\n", 
+            "Build Date": " Thu 03 Aug 2017 04:18:50 PM EDT", 
+            "Source RPM": " libtalloc-2.1.10-4.fc27.src.rpm", 
+            "Version": " 2.1.10", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 01:53:48 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 4.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Python bindings for the Talloc library", 
+            "Size": " 21796"
+        }
+    }
+}

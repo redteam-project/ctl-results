@@ -1,0 +1,97 @@
+{
+    "results": {
+        "usr/lib/liblv2dynparamhost1_so_1_0_0": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "malloc", 
+                "__cxa_finalize", 
+                "_ITM_deregisterTMCloneTable", 
+                "dynparam_ui_group_disappeared", 
+                "free", 
+                "strcmp", 
+                "pthread_mutex_init", 
+                "dynparam_ui_parameter_appeared", 
+                "__isoc99_sscanf", 
+                "pthread_mutex_lock", 
+                "pthread_mutex_unlock", 
+                "dynparam_ui_parameter_value_changed", 
+                "dynparam_ui_parameter_disappeared", 
+                "__gmon_start__", 
+                "strdup", 
+                "__assert_fail", 
+                "pthread_mutex_destroy", 
+                "dynparam_ui_group_appeared", 
+                "__stack_chk_fail", 
+                "__vfprintf_chk", 
+                "strlen", 
+                "setlocale", 
+                "pthread_mutex_trylock", 
+                "strcpy"
+            ], 
+            "rpm": "lv2dynparam-2-14.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/liblv2dynparamhost1.so.1.0.0"
+        }, 
+        "usr/lib/liblv2dynparamplugin1_so_0_0_0": {
+            "report-functions": [
+                "__vfprintf_chk", 
+                "_ITM_registerTMCloneTable", 
+                "__stack_chk_fail", 
+                "strcmp", 
+                "strlen", 
+                "pthread_mutex_init", 
+                "malloc", 
+                "pthread_mutex_destroy", 
+                "pthread_mutex_lock", 
+                "free", 
+                "pthread_mutex_unlock", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "pthread_mutex_trylock"
+            ], 
+            "rpm": "lv2dynparam-2-14.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/liblv2dynparamplugin1.so.0.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " lv2dynparam", 
+            "License": " GPLv2", 
+            "URL": " http://home.gna.org/lv2dynparam/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-08.phx2.fedoraproject.org", 
+            "Description": "\nlv2dynparam is a LV2 plugin interface extension that enables plugin parameters\nto appear and disappear (i.e. number of voices). It also allows nested grouping\nof parameters. Groups can be used for things like ADSR abstraction, i.e. group\nof 4 float parameters.\n\nThe extension should be suitable for all plugins that expose many and/or\ncomplex data types, like samplers, non-trivial synths, etc.\n", 
+            "Build Date": " Thu 03 Aug 2017 08:05:43 PM EDT", 
+            "Source RPM": " lv2dynparam-2-14.fc27.src.rpm", 
+            "Version": " 2", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 03:41:55 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 14.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " LV2 dynamic parameters extension", 
+            "Size": " 77402"
+        }
+    }
+}

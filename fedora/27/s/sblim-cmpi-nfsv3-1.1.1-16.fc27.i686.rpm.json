@@ -1,0 +1,156 @@
+{
+    "results": {
+        "usr/lib/cmpi/libLinux_NFSv3SystemConfigurationUtil_so": {
+            "report-functions": [
+                "fileno", 
+                "_osbase_trace", 
+                "realloc", 
+                "_ITM_registerTMCloneTable", 
+                "strcat", 
+                "strtoul", 
+                "index", 
+                "strtol", 
+                "free", 
+                "__stack_chk_fail", 
+                "tmpnam", 
+                "_IO_getc", 
+                "__gmon_start__", 
+                "__strcpy_chk", 
+                "_ITM_deregisterTMCloneTable", 
+                "fputc", 
+                "system", 
+                "malloc", 
+                "_format_trace", 
+                "fopen", 
+                "__fprintf_chk", 
+                "strdup", 
+                "ferror", 
+                "__xstat", 
+                "strlen", 
+                "exit", 
+                "fclose", 
+                "__cxa_finalize", 
+                "clearerr", 
+                "strcmp", 
+                "fputs", 
+                "fread", 
+                "remove", 
+                "fwrite", 
+                "__sprintf_chk", 
+                "strtod"
+            ], 
+            "rpm": "sblim-cmpi-nfsv3-1.1.1-16.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/cmpi/libLinux_NFSv3SystemConfigurationUtil.so"
+        }, 
+        "usr/lib/cmpi/libLinux_NFSv3SettingContext_so": {
+            "report-functions": [
+                "Linux_NFSv3_readNextInstance", 
+                "Linux_NFSv3_makeConfigInstance", 
+                "__gmon_start__", 
+                "_assoc_get_inst", 
+                "__cxa_finalize", 
+                "_assoc_create_inst_1toN", 
+                "Linux_NFSv3_endReadingInstances", 
+                "_ITM_registerTMCloneTable", 
+                "__stack_chk_fail", 
+                "Linux_NFSv3_startReadingInstances", 
+                "_format_trace"
+            ], 
+            "rpm": "sblim-cmpi-nfsv3-1.1.1-16.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/cmpi/libLinux_NFSv3SettingContext.so"
+        }, 
+        "usr/lib/cmpi/libLinux_NFSv3SystemConfiguration_so": {
+            "report-functions": [
+                "__gmon_start__", 
+                "Linux_NFSv3_sameObject", 
+                "_format_trace", 
+                "_ITM_registerTMCloneTable", 
+                "Linux_NFSv3_makeConfigInstance", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "sblim-cmpi-nfsv3-1.1.1-16.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/cmpi/libLinux_NFSv3SystemConfiguration.so"
+        }, 
+        "usr/lib/cmpi/libLinux_NFSv3SystemSetting_so": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "Linux_NFSv3_writeNextInstance", 
+                "Linux_NFSv3_endReadingInstances", 
+                "__cxa_finalize", 
+                "Linux_NFSv3_endWritingInstances", 
+                "__gmon_start__", 
+                "Linux_NFSv3_sameObject", 
+                "Linux_NFSv3_startWritingInstances", 
+                "Linux_NFSv3_startReadingInstances", 
+                "_format_trace", 
+                "_ITM_deregisterTMCloneTable", 
+                "Linux_NFSv3_readNextInstance"
+            ], 
+            "rpm": "sblim-cmpi-nfsv3-1.1.1-16.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/cmpi/libLinux_NFSv3SystemSetting.so"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Applications/System", 
+            "Name": " sblim-cmpi-nfsv3", 
+            "License": " EPL", 
+            "URL": " http://sourceforge.net/projects/sblim/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-29.phx2.fedoraproject.org", 
+            "Description": "\nStandards Based Linux Instrumentation Nfsv3 Providers\n", 
+            "Build Date": " Fri 04 Aug 2017 02:44:36 PM EDT", 
+            "Source RPM": " sblim-cmpi-nfsv3-1.1.1-16.fc27.src.rpm", 
+            "Version": " 1.1.1", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 05 Aug 2017 11:13:51 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 16.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " SBLIM nfsv3 instrumentation", 
+            "Size": " 153574"
+        }
+    }
+}

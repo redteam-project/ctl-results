@@ -1,0 +1,89 @@
+{
+    "results": {
+        "usr/lib/libftdi1_so_2_3_0": {
+            "report-functions": [
+                "__fprintf_chk", 
+                "malloc", 
+                "libusb_get_configuration", 
+                "libusb_cancel_transfer", 
+                "libusb_set_configuration", 
+                "strncmp", 
+                "libusb_get_bus_number", 
+                "memcmp", 
+                "libusb_handle_events_timeout_completed", 
+                "strlen", 
+                "__isoc99_sscanf", 
+                "libusb_free_config_descriptor", 
+                "libusb_get_device_list", 
+                "libusb_get_device_address", 
+                "libusb_close", 
+                "libusb_bulk_transfer", 
+                "libusb_get_device_descriptor", 
+                "gettimeofday", 
+                "libusb_ref_device", 
+                "fputc", 
+                "libusb_alloc_transfer", 
+                "libusb_open", 
+                "_ITM_deregisterTMCloneTable", 
+                "realloc", 
+                "strcpy", 
+                "_ITM_registerTMCloneTable", 
+                "libusb_init", 
+                "libusb_claim_interface", 
+                "libusb_free_device_list", 
+                "libusb_get_string_descriptor_ascii", 
+                "__errno_location", 
+                "__cxa_finalize", 
+                "libusb_release_interface", 
+                "fwrite", 
+                "libusb_detach_kernel_driver", 
+                "strtoul", 
+                "libusb_free_transfer", 
+                "libusb_exit", 
+                "__stack_chk_fail", 
+                "libusb_unref_device", 
+                "libusb_get_config_descriptor", 
+                "free", 
+                "__gmon_start__", 
+                "strrchr", 
+                "libusb_handle_events_timeout", 
+                "libusb_control_transfer", 
+                "libusb_submit_transfer"
+            ], 
+            "rpm": "libftdi-1.3-7.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libftdi1.so.2.3.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " libftdi", 
+            "License": " LGPLv2", 
+            "URL": " http://www.intra2net.com/de/produkte/opensource/ftdi/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-03.phx2.fedoraproject.org", 
+            "Description": "\nA library (using libusb) to talk to FTDI's FT2232C,\nFT232BM and FT245BM type chips including the popular bitbang mode.\n", 
+            "Build Date": " Mon 31 Jul 2017 11:43:09 AM EDT", 
+            "Source RPM": " libftdi-1.3-7.fc27.src.rpm", 
+            "Version": " 1.3", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 31 Jul 2017 11:49:13 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 7.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Library to program and control the FTDI USB controller", 
+            "Size": " 102316"
+        }
+    }
+}

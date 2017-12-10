@@ -1,0 +1,77 @@
+{
+    "results": {
+        "usr/lib/libjaylink_so_0_0_0": {
+            "report-functions": [
+                "strtoull", 
+                "libusb_get_device_descriptor", 
+                "libusb_open", 
+                "libusb_free_device_list", 
+                "_ITM_registerTMCloneTable", 
+                "libusb_get_string_descriptor_ascii", 
+                "libusb_error_name", 
+                "libusb_get_device_list", 
+                "fputc", 
+                "free", 
+                "libusb_ref_device", 
+                "libusb_release_interface", 
+                "__cxa_finalize", 
+                "libusb_get_active_config_descriptor", 
+                "libusb_bulk_transfer", 
+                "libusb_free_config_descriptor", 
+                "libusb_unref_device", 
+                "realloc", 
+                "_ITM_deregisterTMCloneTable", 
+                "fputs", 
+                "libusb_claim_interface", 
+                "malloc", 
+                "__memcpy_chk", 
+                "libusb_get_bus_number", 
+                "libusb_get_device_address", 
+                "__vfprintf_chk", 
+                "libusb_exit", 
+                "inet_pton", 
+                "__errno_location", 
+                "libusb_init", 
+                "snprintf", 
+                "__gmon_start__", 
+                "__stack_chk_fail", 
+                "inet_ntoa", 
+                "strlen"
+            ], 
+            "rpm": "libjaylink-0.1.0-5.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libjaylink.so.0.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " libjaylink", 
+            "License": " GPLv2+", 
+            "URL": " http://repo.or.cz/libjaylink.git", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-18.phx2.fedoraproject.org", 
+            "Description": "\nlibjaylink is a shared library written in C to access SEGGER J-Link\nand compatible devices.\n", 
+            "Build Date": " Thu 03 Aug 2017 02:34:45 PM EDT", 
+            "Source RPM": " libjaylink-0.1.0-5.fc27.src.rpm", 
+            "Version": " 0.1.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 09:25:00 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 5.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Library for SEGGER J-Link and compatible devices", 
+            "Size": " 69196"
+        }
+    }
+}

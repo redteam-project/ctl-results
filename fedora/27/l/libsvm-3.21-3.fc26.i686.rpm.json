@@ -1,0 +1,209 @@
+{
+    "results": {
+        "usr/lib/libsvm_so_2": {
+            "report-functions": [
+                "calloc", 
+                "rand", 
+                "fwrite", 
+                "strrchr", 
+                "strtod", 
+                "fputs", 
+                "_Znwj", 
+                "_ITM_deregisterTMCloneTable", 
+                "realloc", 
+                "ftell", 
+                "free", 
+                "fopen", 
+                "__cxa_finalize", 
+                "_ZdlPvj", 
+                "sqrt", 
+                "fgets", 
+                "fseek", 
+                "_ITM_registerTMCloneTable", 
+                "__cxa_throw_bad_array_new_length", 
+                "_IO_getc", 
+                "__vsprintf_chk", 
+                "strtok", 
+                "strtol", 
+                "__gmon_start__", 
+                "__cxa_pure_virtual", 
+                "__fprintf_chk", 
+                "__gxx_personality_v0", 
+                "_Unwind_Resume", 
+                "ferror", 
+                "fclose", 
+                "setlocale", 
+                "fscanf", 
+                "_ZdaPv", 
+                "tanh", 
+                "__stack_chk_fail", 
+                "fputc", 
+                "exp", 
+                "strdup", 
+                "log", 
+                "strcmp", 
+                "malloc"
+            ], 
+            "rpm": "libsvm-3.21-3.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libsvm.so.2"
+        }, 
+        "usr/bin/svm-scale": {
+            "report-functions": [
+                "puts", 
+                "strtod", 
+                "fputs", 
+                "__libc_start_main", 
+                "sscanf", 
+                "exit", 
+                "strrchr", 
+                "fopen", 
+                "malloc", 
+                "__printf_chk", 
+                "isspace", 
+                "fgetc", 
+                "fwrite", 
+                "__gmon_start__", 
+                "__stack_chk_fail", 
+                "realloc", 
+                "free", 
+                "ungetc", 
+                "fscanf", 
+                "fgets", 
+                "fclose", 
+                "putchar"
+            ], 
+            "rpm": "libsvm-3.21-3.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/svm-scale"
+        }, 
+        "usr/bin/svm-predict": {
+            "report-functions": [
+                "__errno_location", 
+                "fgets", 
+                "printf", 
+                "__fprintf_chk", 
+                "svm_predict", 
+                "svm_get_svr_probability", 
+                "puts", 
+                "fputc", 
+                "svm_get_nr_class", 
+                "__stack_chk_fail", 
+                "__libc_start_main", 
+                "strrchr", 
+                "svm_predict_probability", 
+                "svm_free_and_destroy_model", 
+                "fopen", 
+                "svm_check_probability_model", 
+                "svm_get_svm_type", 
+                "free", 
+                "exit", 
+                "fclose", 
+                "strtol", 
+                "__gmon_start__", 
+                "strtod", 
+                "svm_get_labels", 
+                "strtok", 
+                "svm_load_model", 
+                "fwrite", 
+                "realloc"
+            ], 
+            "rpm": "libsvm-3.21-3.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/svm-predict"
+        }, 
+        "usr/bin/svm-train": {
+            "report-functions": [
+                "__libc_start_main", 
+                "__gmon_start__", 
+                "strrchr", 
+                "strtol", 
+                "__errno_location", 
+                "realloc", 
+                "free", 
+                "svm_check_parameter", 
+                "isspace", 
+                "__fprintf_chk", 
+                "__stack_chk_fail", 
+                "svm_train", 
+                "svm_free_and_destroy_model", 
+                "svm_set_print_string_function", 
+                "fwrite", 
+                "fopen", 
+                "svm_cross_validation", 
+                "fgets", 
+                "rewind", 
+                "puts", 
+                "malloc", 
+                "__printf_chk", 
+                "__sprintf_chk", 
+                "strcpy", 
+                "svm_destroy_param", 
+                "strtok", 
+                "strtod", 
+                "svm_save_model"
+            ], 
+            "rpm": "libsvm-3.21-3.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/svm-train"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " libsvm", 
+            "License": " BSD", 
+            "URL": " http://www.csie.ntu.edu.tw/~cjlin/libsvm/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-07.phx2.fedoraproject.org", 
+            "Description": "\nLIBSVM is an integrated software for support vector classification,\n(C-SVC, nu-SVC ), regression (epsilon-SVR, nu-SVR) and distribution\nestimation (one-class SVM ). It supports multi-class classification.\n", 
+            "Build Date": " Fri 10 Feb 2017 11:01:40 PM EST", 
+            "Source RPM": " libsvm-3.21-3.fc26.src.rpm", 
+            "Version": " 3.21", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 25 Feb 2017 11:40:55 AM EST, Key ID f55e7430f5282ee4", 
+            "Release": " 3.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A Library for Support Vector Machines", 
+            "Size": " 480427"
+        }
+    }
+}

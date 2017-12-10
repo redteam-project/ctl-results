@@ -1,0 +1,80 @@
+{
+    "results": {
+        "usr/lib/libxcb-render-util_so_0_0_0": {
+            "report-functions": [
+                "xcb_create_pixmap_checked", 
+                "xcb_flush", 
+                "xcb_no_operation", 
+                "xcb_render_query_pict_formats_reply", 
+                "xcb_render_query_pict_formats_formats_iterator", 
+                "xcb_render_composite_glyphs_32", 
+                "pthread_mutex_lock", 
+                "xcb_screen_allowed_depths_iterator", 
+                "xcb_request_check", 
+                "xcb_render_composite_glyphs_8_checked", 
+                "xcb_render_query_version", 
+                "xcb_render_composite_glyphs_32_checked", 
+                "xcb_render_composite_glyphs_16", 
+                "xcb_setup_roots_iterator", 
+                "_ITM_deregisterTMCloneTable", 
+                "xcb_render_query_pict_formats_screens_iterator", 
+                "realloc", 
+                "xcb_render_pictscreen_next", 
+                "xcb_get_setup", 
+                "pthread_mutex_unlock", 
+                "xcb_render_query_pict_formats", 
+                "__cxa_finalize", 
+                "xcb_render_query_version_reply", 
+                "xcb_depth_next", 
+                "xcb_render_pictscreen_depths_iterator", 
+                "_ITM_registerTMCloneTable", 
+                "xcb_render_pictdepth_visuals_iterator", 
+                "__gmon_start__", 
+                "xcb_render_composite_glyphs_8", 
+                "xcb_render_pictvisual_next", 
+                "xcb_render_composite_glyphs_16_checked", 
+                "xcb_free_pixmap_checked", 
+                "xcb_generate_id", 
+                "malloc", 
+                "xcb_no_operation_checked", 
+                "xcb_screen_next", 
+                "xcb_render_pictforminfo_next", 
+                "xcb_render_pictdepth_next"
+            ], 
+            "rpm": "xcb-util-renderutil-0.3.9-9.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libxcb-render-util.so.0.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " xcb-util-renderutil", 
+            "License": " MIT", 
+            "URL": " http://xcb.freedesktop.org", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-17.phx2.fedoraproject.org", 
+            "Description": "\nXCB util-renderutil module provides the following library:\n\n  - renderutil: Convenience functions for the Render extension.\n", 
+            "Build Date": " Sat 05 Aug 2017 12:29:16 AM EDT", 
+            "Source RPM": " xcb-util-renderutil-0.3.9-9.fc27.src.rpm", 
+            "Version": " 0.3.9", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sun 06 Aug 2017 12:05:49 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 9.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Convenience functions for the Render extension", 
+            "Size": " 19618"
+        }
+    }
+}

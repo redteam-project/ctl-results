@@ -1,0 +1,75 @@
+{
+    "results": {
+        "usr/lib/libshp_so_2_0_2": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "floor", 
+                "__fprintf_chk", 
+                "strncpy", 
+                "_ITM_deregisterTMCloneTable", 
+                "__errno_location", 
+                "strtol", 
+                "fopen", 
+                "__cxa_finalize", 
+                "ftell", 
+                "__ctype_toupper_loc", 
+                "__snprintf_chk", 
+                "strerror", 
+                "calloc", 
+                "remove", 
+                "strchr", 
+                "memmove", 
+                "__gmon_start__", 
+                "free", 
+                "fread", 
+                "realloc", 
+                "strlen", 
+                "fwrite", 
+                "fflush", 
+                "malloc", 
+                "ceil", 
+                "fclose", 
+                "fseek", 
+                "qsort", 
+                "strcspn", 
+                "strcmp", 
+                "atof", 
+                "__assert_fail"
+            ], 
+            "rpm": "shapelib-1.4.1-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libshp.so.2.0.2"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " shapelib", 
+            "License": " (LGPLv2+ or MIT) and GPLv2+ and Public Domain", 
+            "URL": " http://shapelib.maptools.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-02.phx2.fedoraproject.org", 
+            "Description": "\nThe Shapefile C Library provides the ability to write\nsimple C programs for reading, writing and updating (to a\nlimited extent) ESRI Shapefiles, and the associated\nattribute file (.dbf).\n", 
+            "Build Date": " Thu 14 Sep 2017 03:59:04 PM EDT", 
+            "Source RPM": " shapelib-1.4.1-1.fc27.src.rpm", 
+            "Version": " 1.4.1", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 14 Sep 2017 04:13:18 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 1.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " C library for handling ESRI Shapefiles", 
+            "Size": " 194999"
+        }
+    }
+}

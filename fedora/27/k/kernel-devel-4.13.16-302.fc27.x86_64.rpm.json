@@ -1,0 +1,3932 @@
+{
+    "results": {
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/include/linux/elf_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/include/linux/elf.h", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/include/config/arch/has/elf/randomize_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/include/config/arch/has/elf/randomize.h", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/scripts/recordmcount": {
+            "find-libc-functions": [
+                "GI___obstack_vprintf", 
+                "GI___vasprintf", 
+                "GI___vdprintf", 
+                "GI___vfprintf", 
+                "GI___vfwprintf", 
+                "GI___vsnprintf", 
+                "GI___vsprintf", 
+                "GI___vswprintf", 
+                "GI___vsyslog", 
+                "__longjmp", 
+                "_fprintf", 
+                "_printf", 
+                "_snprintf", 
+                "_sprintf", 
+                "_vfprintf", 
+                "_vprintf", 
+                "_vsnprintf", 
+                "_vsprintf", 
+                "asprintf", 
+                "confstr", 
+                "dprintf", 
+                "explicit_bzero", 
+                "fdelt", 
+                "fgets", 
+                "fgets_unlocked", 
+                "fgetws", 
+                "fgetws_unlocked", 
+                "fprintf", 
+                "fread", 
+                "fread_unlocked", 
+                "fwprintf", 
+                "getcwd", 
+                "getdomainname", 
+                "getgroups", 
+                "gethostname", 
+                "getlogin_r", 
+                "gets", 
+                "getwd", 
+                "longjmp", 
+                "mbsnrtowcs", 
+                "mbsrtowcs", 
+                "mbstowcs", 
+                "memcpy", 
+                "memmove", 
+                "mempcpy", 
+                "memset", 
+                "obstack_printf", 
+                "obstack_vprintf", 
+                "poll", 
+                "ppoll", 
+                "pread64", 
+                "pread", 
+                "printf", 
+                "ptsname_r", 
+                "read", 
+                "readlink", 
+                "readlinkat", 
+                "realpath", 
+                "recv", 
+                "recvfrom", 
+                "snprintf", 
+                "sprintf", 
+                "stpcpy", 
+                "stpncpy", 
+                "strcat", 
+                "strcpy", 
+                "strncat", 
+                "strncpy", 
+                "swprintf", 
+                "syslog", 
+                "ttyname_r", 
+                "vasprintf", 
+                "vdprintf", 
+                "vfprintf", 
+                "vfwprintf", 
+                "vprintf", 
+                "vsnprintf", 
+                "vsprintf", 
+                "vswprintf", 
+                "vsyslog", 
+                "vwprintf", 
+                "wcpcpy", 
+                "wcpncpy", 
+                "wcrtomb", 
+                "wcscat", 
+                "wcscpy", 
+                "wcsncat", 
+                "wcsncpy", 
+                "wcsnrtombs", 
+                "wcsrtombs", 
+                "wcstombs", 
+                "wctomb", 
+                "wmemcpy", 
+                "wmemmove", 
+                "wmempcpy", 
+                "wmemset", 
+                "wprintf"
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/scripts/recordmcount", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 122, 
+                    "afC": 2126
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "getopt", 
+                "fwrite", 
+                "__libc_start_main", 
+                "rename", 
+                "mmap", 
+                "write", 
+                "read", 
+                "__fxstat", 
+                "strcmp", 
+                "close", 
+                "malloc", 
+                "exit", 
+                "fprintf", 
+                "sprintf", 
+                "__gmon_start__", 
+                "perror", 
+                "printf", 
+                "memcpy", 
+                "munmap", 
+                "free", 
+                "realloc", 
+                "open"
+            ], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/tools/testing/selftests/networking/timestamping/Makefile": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/tools/testing/selftests/networking/timestamping/Makefile", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/tools/testing/selftests/futex/functional/Makefile": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/tools/testing/selftests/futex/functional/Makefile", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/tools/testing/selftests/rcutorture/formal/srcu-cbmc/tests/store_buffering/Makefile": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/tools/testing/selftests/rcutorture/formal/srcu-cbmc/tests/store_buffering/Makefile", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/tools/testing/selftests/kcmp/Makefile": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/tools/testing/selftests/kcmp/Makefile", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/drivers/gpu/drm/selftests/Makefile": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/drivers/gpu/drm/selftests/Makefile", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/tools/testing/selftests/powerpc/dscr/Makefile": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/tools/testing/selftests/powerpc/dscr/Makefile", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/tools/testing/selftests/x86/Makefile": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/tools/testing/selftests/x86/Makefile", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/tools/testing/selftests/powerpc/pmu/ebb/Makefile": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/tools/testing/selftests/powerpc/pmu/ebb/Makefile", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/scripts/extract-cert": {
+            "find-libc-functions": [
+                "GI___obstack_vprintf", 
+                "GI___vasprintf", 
+                "GI___vdprintf", 
+                "GI___vfprintf", 
+                "GI___vfwprintf", 
+                "GI___vsnprintf", 
+                "GI___vsprintf", 
+                "GI___vswprintf", 
+                "GI___vsyslog", 
+                "__longjmp", 
+                "_fprintf", 
+                "_printf", 
+                "_snprintf", 
+                "_sprintf", 
+                "_vfprintf", 
+                "_vprintf", 
+                "_vsnprintf", 
+                "_vsprintf", 
+                "asprintf", 
+                "confstr", 
+                "dprintf", 
+                "explicit_bzero", 
+                "fdelt", 
+                "fgets", 
+                "fgets_unlocked", 
+                "fgetws", 
+                "fgetws_unlocked", 
+                "fprintf", 
+                "fread", 
+                "fread_unlocked", 
+                "fwprintf", 
+                "getcwd", 
+                "getdomainname", 
+                "getgroups", 
+                "gethostname", 
+                "getlogin_r", 
+                "gets", 
+                "getwd", 
+                "longjmp", 
+                "mbsnrtowcs", 
+                "mbsrtowcs", 
+                "mbstowcs", 
+                "memcpy", 
+                "memmove", 
+                "mempcpy", 
+                "memset", 
+                "obstack_printf", 
+                "obstack_vprintf", 
+                "poll", 
+                "ppoll", 
+                "pread64", 
+                "pread", 
+                "printf", 
+                "ptsname_r", 
+                "read", 
+                "readlink", 
+                "readlinkat", 
+                "realpath", 
+                "recv", 
+                "recvfrom", 
+                "snprintf", 
+                "sprintf", 
+                "stpcpy", 
+                "stpncpy", 
+                "strcat", 
+                "strcpy", 
+                "strncat", 
+                "strncpy", 
+                "swprintf", 
+                "syslog", 
+                "ttyname_r", 
+                "vasprintf", 
+                "vdprintf", 
+                "vfprintf", 
+                "vfwprintf", 
+                "vprintf", 
+                "vsnprintf", 
+                "vsprintf", 
+                "vswprintf", 
+                "vsyslog", 
+                "vwprintf", 
+                "wcpcpy", 
+                "wcpncpy", 
+                "wcrtomb", 
+                "wcscat", 
+                "wcscpy", 
+                "wcsncat", 
+                "wcsncpy", 
+                "wcsnrtombs", 
+                "wcsrtombs", 
+                "wcstombs", 
+                "wctomb", 
+                "wmemcpy", 
+                "wmemmove", 
+                "wmempcpy", 
+                "wmemset", 
+                "wprintf"
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/scripts/extract-cert", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 24, 
+                    "afC": 370
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "fwrite", 
+                "__libc_start_main", 
+                "getenv", 
+                "__gmon_start__", 
+                "ERR_error_string", 
+                "ENGINE_init", 
+                "fprintf", 
+                "OPENSSL_init_crypto", 
+                "BIO_free", 
+                "i2d_X509_bio", 
+                "PEM_read_bio_X509", 
+                "ERR_peek_last_error", 
+                "ERR_peek_error", 
+                "fopen", 
+                "ENGINE_by_id", 
+                "ENGINE_ctrl_cmd", 
+                "ERR_get_error_line", 
+                "fclose", 
+                "err", 
+                "X509_get_subject_name", 
+                "ENGINE_load_builtin_engines", 
+                "strtol", 
+                "ENGINE_ctrl_cmd_string", 
+                "ERR_clear_error", 
+                "BIO_new_file"
+            ], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/scripts/pnmtologo": {
+            "find-libc-functions": [
+                "GI___obstack_vprintf", 
+                "GI___vasprintf", 
+                "GI___vdprintf", 
+                "GI___vfprintf", 
+                "GI___vfwprintf", 
+                "GI___vsnprintf", 
+                "GI___vsprintf", 
+                "GI___vswprintf", 
+                "GI___vsyslog", 
+                "__longjmp", 
+                "_fprintf", 
+                "_printf", 
+                "_snprintf", 
+                "_sprintf", 
+                "_vfprintf", 
+                "_vprintf", 
+                "_vsnprintf", 
+                "_vsprintf", 
+                "asprintf", 
+                "confstr", 
+                "dprintf", 
+                "explicit_bzero", 
+                "fdelt", 
+                "fgets", 
+                "fgets_unlocked", 
+                "fgetws", 
+                "fgetws_unlocked", 
+                "fprintf", 
+                "fread", 
+                "fread_unlocked", 
+                "fwprintf", 
+                "getcwd", 
+                "getdomainname", 
+                "getgroups", 
+                "gethostname", 
+                "getlogin_r", 
+                "gets", 
+                "getwd", 
+                "longjmp", 
+                "mbsnrtowcs", 
+                "mbsrtowcs", 
+                "mbstowcs", 
+                "memcpy", 
+                "memmove", 
+                "mempcpy", 
+                "memset", 
+                "obstack_printf", 
+                "obstack_vprintf", 
+                "poll", 
+                "ppoll", 
+                "pread64", 
+                "pread", 
+                "printf", 
+                "ptsname_r", 
+                "read", 
+                "readlink", 
+                "readlinkat", 
+                "realpath", 
+                "recv", 
+                "recvfrom", 
+                "snprintf", 
+                "sprintf", 
+                "stpcpy", 
+                "stpncpy", 
+                "strcat", 
+                "strcpy", 
+                "strncat", 
+                "strncpy", 
+                "swprintf", 
+                "syslog", 
+                "ttyname_r", 
+                "vasprintf", 
+                "vdprintf", 
+                "vfprintf", 
+                "vfwprintf", 
+                "vprintf", 
+                "vsnprintf", 
+                "vsprintf", 
+                "vswprintf", 
+                "vsyslog", 
+                "vwprintf", 
+                "wcpcpy", 
+                "wcpncpy", 
+                "wcrtomb", 
+                "wcscat", 
+                "wcscpy", 
+                "wcsncat", 
+                "wcsncpy", 
+                "wcsnrtombs", 
+                "wcsrtombs", 
+                "wcstombs", 
+                "wctomb", 
+                "wmemcpy", 
+                "wmemmove", 
+                "wmempcpy", 
+                "wmemset", 
+                "wprintf"
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/scripts/pnmtologo", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 81, 
+                    "afC": 835
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "strcmp", 
+                "fprintf", 
+                "__errno_location", 
+                "fgetc", 
+                "fclose", 
+                "fwrite", 
+                "fopen", 
+                "strerror", 
+                "exit", 
+                "__gmon_start__", 
+                "__libc_start_main", 
+                "malloc", 
+                "getopt"
+            ], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/tools/testing/selftests/efivarfs/Makefile": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/tools/testing/selftests/efivarfs/Makefile", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/include/uapi/linux/elf_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/include/uapi/linux/elf.h", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/include/config/core/dump/default/elf/headers_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/include/config/core/dump/default/elf/headers.h", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/tools/testing/selftests/intel_pstate/Makefile": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/tools/testing/selftests/intel_pstate/Makefile", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/tools/testing/selftests/lib/Makefile": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/tools/testing/selftests/lib/Makefile", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/tools/testing/selftests/powerpc/ptrace/Makefile": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/tools/testing/selftests/powerpc/ptrace/Makefile", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/tools/testing/selftests/powerpc/tm/Makefile": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/tools/testing/selftests/powerpc/tm/Makefile", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/include/uapi/linux/elfcore_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/include/uapi/linux/elfcore.h", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/scripts/basic/fixdep": {
+            "find-libc-functions": [
+                "GI___obstack_vprintf", 
+                "GI___vasprintf", 
+                "GI___vdprintf", 
+                "GI___vfprintf", 
+                "GI___vfwprintf", 
+                "GI___vsnprintf", 
+                "GI___vsprintf", 
+                "GI___vswprintf", 
+                "GI___vsyslog", 
+                "__longjmp", 
+                "_fprintf", 
+                "_printf", 
+                "_snprintf", 
+                "_sprintf", 
+                "_vfprintf", 
+                "_vprintf", 
+                "_vsnprintf", 
+                "_vsprintf", 
+                "asprintf", 
+                "confstr", 
+                "dprintf", 
+                "explicit_bzero", 
+                "fdelt", 
+                "fgets", 
+                "fgets_unlocked", 
+                "fgetws", 
+                "fgetws_unlocked", 
+                "fprintf", 
+                "fread", 
+                "fread_unlocked", 
+                "fwprintf", 
+                "getcwd", 
+                "getdomainname", 
+                "getgroups", 
+                "gethostname", 
+                "getlogin_r", 
+                "gets", 
+                "getwd", 
+                "longjmp", 
+                "mbsnrtowcs", 
+                "mbsrtowcs", 
+                "mbstowcs", 
+                "memcpy", 
+                "memmove", 
+                "mempcpy", 
+                "memset", 
+                "obstack_printf", 
+                "obstack_vprintf", 
+                "poll", 
+                "ppoll", 
+                "pread64", 
+                "pread", 
+                "printf", 
+                "ptsname_r", 
+                "read", 
+                "readlink", 
+                "readlinkat", 
+                "realpath", 
+                "recv", 
+                "recvfrom", 
+                "snprintf", 
+                "sprintf", 
+                "stpcpy", 
+                "stpncpy", 
+                "strcat", 
+                "strcpy", 
+                "strncat", 
+                "strncpy", 
+                "swprintf", 
+                "syslog", 
+                "ttyname_r", 
+                "vasprintf", 
+                "vdprintf", 
+                "vfprintf", 
+                "vfwprintf", 
+                "vprintf", 
+                "vsnprintf", 
+                "vsprintf", 
+                "vswprintf", 
+                "vsyslog", 
+                "vwprintf", 
+                "wcpcpy", 
+                "wcpncpy", 
+                "wcrtomb", 
+                "wcscat", 
+                "wcscpy", 
+                "wcsncat", 
+                "wcsncpy", 
+                "wcsnrtombs", 
+                "wcsrtombs", 
+                "wcstombs", 
+                "wctomb", 
+                "wmemcpy", 
+                "wmemmove", 
+                "wmempcpy", 
+                "wmemset", 
+                "wprintf"
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/scripts/basic/fixdep", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 6, 
+                    "afC": 153
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "read", 
+                "strlen", 
+                "memcmp", 
+                "mmap", 
+                "__gmon_start__", 
+                "puts", 
+                "_IO_putc", 
+                "memcpy", 
+                "__ctype_tolower_loc", 
+                "__libc_start_main", 
+                "fwrite", 
+                "open", 
+                "fprintf", 
+                "printf", 
+                "perror", 
+                "strcmp", 
+                "strstr", 
+                "exit", 
+                "__fxstat", 
+                "fgets", 
+                "__ctype_b_loc", 
+                "close", 
+                "free"
+            ], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/tools/testing/selftests/nsfs/Makefile": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/tools/testing/selftests/nsfs/Makefile", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/drivers/staging/lustre/lnet/selftest/Makefile": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/drivers/staging/lustre/lnet/selftest/Makefile", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/tools/testing/selftests/firmware/Makefile": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/tools/testing/selftests/firmware/Makefile", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/tools/testing/selftests/powerpc/stringloops/Makefile": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/tools/testing/selftests/powerpc/stringloops/Makefile", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/include/linux/elf-fdpic_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/include/linux/elf-fdpic.h", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/tools/testing/selftests/seccomp/Makefile": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/tools/testing/selftests/seccomp/Makefile", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/tools/testing/selftests/user/Makefile": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/tools/testing/selftests/user/Makefile", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/tools/testing/selftests/media_tests/Makefile": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/tools/testing/selftests/media_tests/Makefile", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/scripts/mod/mk_elfconfig_c": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/scripts/mod/mk_elfconfig.c", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/include/config/compat/binfmt/elf_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/include/config/compat/binfmt/elf.h", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/arch/x86/include/asm/elf_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/arch/x86/include/asm/elf.h", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/scripts/mod/mk_elfconfig": {
+            "find-libc-functions": [
+                "GI___obstack_vprintf", 
+                "GI___vasprintf", 
+                "GI___vdprintf", 
+                "GI___vfprintf", 
+                "GI___vfwprintf", 
+                "GI___vsnprintf", 
+                "GI___vsprintf", 
+                "GI___vswprintf", 
+                "GI___vsyslog", 
+                "__longjmp", 
+                "_fprintf", 
+                "_printf", 
+                "_snprintf", 
+                "_sprintf", 
+                "_vfprintf", 
+                "_vprintf", 
+                "_vsnprintf", 
+                "_vsprintf", 
+                "asprintf", 
+                "confstr", 
+                "dprintf", 
+                "explicit_bzero", 
+                "fdelt", 
+                "fgets", 
+                "fgets_unlocked", 
+                "fgetws", 
+                "fgetws_unlocked", 
+                "fprintf", 
+                "fread", 
+                "fread_unlocked", 
+                "fwprintf", 
+                "getcwd", 
+                "getdomainname", 
+                "getgroups", 
+                "gethostname", 
+                "getlogin_r", 
+                "gets", 
+                "getwd", 
+                "longjmp", 
+                "mbsnrtowcs", 
+                "mbsrtowcs", 
+                "mbstowcs", 
+                "memcpy", 
+                "memmove", 
+                "mempcpy", 
+                "memset", 
+                "obstack_printf", 
+                "obstack_vprintf", 
+                "poll", 
+                "ppoll", 
+                "pread64", 
+                "pread", 
+                "printf", 
+                "ptsname_r", 
+                "read", 
+                "readlink", 
+                "readlinkat", 
+                "realpath", 
+                "recv", 
+                "recvfrom", 
+                "snprintf", 
+                "sprintf", 
+                "stpcpy", 
+                "stpncpy", 
+                "strcat", 
+                "strcpy", 
+                "strncat", 
+                "strncpy", 
+                "swprintf", 
+                "syslog", 
+                "ttyname_r", 
+                "vasprintf", 
+                "vdprintf", 
+                "vfprintf", 
+                "vfwprintf", 
+                "vprintf", 
+                "vsnprintf", 
+                "vsprintf", 
+                "vswprintf", 
+                "vsyslog", 
+                "vwprintf", 
+                "wcpcpy", 
+                "wcpncpy", 
+                "wcrtomb", 
+                "wcscat", 
+                "wcscpy", 
+                "wcsncat", 
+                "wcsncpy", 
+                "wcsnrtombs", 
+                "wcsrtombs", 
+                "wcstombs", 
+                "wctomb", 
+                "wmemcpy", 
+                "wmemmove", 
+                "wmempcpy", 
+                "wmemset", 
+                "wprintf"
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/scripts/mod/mk_elfconfig", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 6, 
+                    "afC": 86
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "exit", 
+                "fwrite", 
+                "fread", 
+                "__libc_start_main"
+            ], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/tools/testing/selftests/powerpc/mm/Makefile": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/tools/testing/selftests/powerpc/mm/Makefile", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/scripts/kallsyms": {
+            "find-libc-functions": [
+                "GI___obstack_vprintf", 
+                "GI___vasprintf", 
+                "GI___vdprintf", 
+                "GI___vfprintf", 
+                "GI___vfwprintf", 
+                "GI___vsnprintf", 
+                "GI___vsprintf", 
+                "GI___vswprintf", 
+                "GI___vsyslog", 
+                "__longjmp", 
+                "_fprintf", 
+                "_printf", 
+                "_snprintf", 
+                "_sprintf", 
+                "_vfprintf", 
+                "_vprintf", 
+                "_vsnprintf", 
+                "_vsprintf", 
+                "asprintf", 
+                "confstr", 
+                "dprintf", 
+                "explicit_bzero", 
+                "fdelt", 
+                "fgets", 
+                "fgets_unlocked", 
+                "fgetws", 
+                "fgetws_unlocked", 
+                "fprintf", 
+                "fread", 
+                "fread_unlocked", 
+                "fwprintf", 
+                "getcwd", 
+                "getdomainname", 
+                "getgroups", 
+                "gethostname", 
+                "getlogin_r", 
+                "gets", 
+                "getwd", 
+                "longjmp", 
+                "mbsnrtowcs", 
+                "mbsrtowcs", 
+                "mbstowcs", 
+                "memcpy", 
+                "memmove", 
+                "mempcpy", 
+                "memset", 
+                "obstack_printf", 
+                "obstack_vprintf", 
+                "poll", 
+                "ppoll", 
+                "pread64", 
+                "pread", 
+                "printf", 
+                "ptsname_r", 
+                "read", 
+                "readlink", 
+                "readlinkat", 
+                "realpath", 
+                "recv", 
+                "recvfrom", 
+                "snprintf", 
+                "sprintf", 
+                "stpcpy", 
+                "stpncpy", 
+                "strcat", 
+                "strcpy", 
+                "strncat", 
+                "strncpy", 
+                "swprintf", 
+                "syslog", 
+                "ttyname_r", 
+                "vasprintf", 
+                "vdprintf", 
+                "vfprintf", 
+                "vfwprintf", 
+                "vprintf", 
+                "vsnprintf", 
+                "vsprintf", 
+                "vswprintf", 
+                "vsyslog", 
+                "vwprintf", 
+                "wcpcpy", 
+                "wcpncpy", 
+                "wcrtomb", 
+                "wcscat", 
+                "wcscpy", 
+                "wcsncat", 
+                "wcsncpy", 
+                "wcsnrtombs", 
+                "wcsrtombs", 
+                "wcstombs", 
+                "wctomb", 
+                "wmemcpy", 
+                "wmemmove", 
+                "wmempcpy", 
+                "wmemset", 
+                "wprintf"
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/scripts/kallsyms", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 72, 
+                    "afC": 610
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "putchar", 
+                "feof", 
+                "__isoc99_fscanf", 
+                "malloc", 
+                "strlen", 
+                "strchr", 
+                "fgets", 
+                "strcmp", 
+                "qsort", 
+                "__gmon_start__", 
+                "printf", 
+                "free", 
+                "puts", 
+                "exit", 
+                "__libc_start_main", 
+                "memmove", 
+                "realloc", 
+                "memcpy", 
+                "fwrite"
+            ], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/tools/testing/selftests/splice/Makefile": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/tools/testing/selftests/splice/Makefile", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/tools/testing/selftests/watchdog/Makefile": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/tools/testing/selftests/watchdog/Makefile", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/tools/testing/selftests/net/Makefile": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/tools/testing/selftests/net/Makefile", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/tools/testing/selftests/size/Makefile": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/tools/testing/selftests/size/Makefile", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/tools/testing/selftests/membarrier/Makefile": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/tools/testing/selftests/membarrier/Makefile", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/include/config/xen/selfballooning_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/include/config/xen/selfballooning.h", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/include/config/binfmt/elf_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/include/config/binfmt/elf.h", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/scripts/sign-file": {
+            "find-libc-functions": [
+                "GI___obstack_vprintf", 
+                "GI___vasprintf", 
+                "GI___vdprintf", 
+                "GI___vfprintf", 
+                "GI___vfwprintf", 
+                "GI___vsnprintf", 
+                "GI___vsprintf", 
+                "GI___vswprintf", 
+                "GI___vsyslog", 
+                "__longjmp", 
+                "_fprintf", 
+                "_printf", 
+                "_snprintf", 
+                "_sprintf", 
+                "_vfprintf", 
+                "_vprintf", 
+                "_vsnprintf", 
+                "_vsprintf", 
+                "asprintf", 
+                "confstr", 
+                "dprintf", 
+                "explicit_bzero", 
+                "fdelt", 
+                "fgets", 
+                "fgets_unlocked", 
+                "fgetws", 
+                "fgetws_unlocked", 
+                "fprintf", 
+                "fread", 
+                "fread_unlocked", 
+                "fwprintf", 
+                "getcwd", 
+                "getdomainname", 
+                "getgroups", 
+                "gethostname", 
+                "getlogin_r", 
+                "gets", 
+                "getwd", 
+                "longjmp", 
+                "mbsnrtowcs", 
+                "mbsrtowcs", 
+                "mbstowcs", 
+                "memcpy", 
+                "memmove", 
+                "mempcpy", 
+                "memset", 
+                "obstack_printf", 
+                "obstack_vprintf", 
+                "poll", 
+                "ppoll", 
+                "pread64", 
+                "pread", 
+                "printf", 
+                "ptsname_r", 
+                "read", 
+                "readlink", 
+                "readlinkat", 
+                "realpath", 
+                "recv", 
+                "recvfrom", 
+                "snprintf", 
+                "sprintf", 
+                "stpcpy", 
+                "stpncpy", 
+                "strcat", 
+                "strcpy", 
+                "strncat", 
+                "strncpy", 
+                "swprintf", 
+                "syslog", 
+                "ttyname_r", 
+                "vasprintf", 
+                "vdprintf", 
+                "vfprintf", 
+                "vfwprintf", 
+                "vprintf", 
+                "vsnprintf", 
+                "vsprintf", 
+                "vswprintf", 
+                "vsyslog", 
+                "vwprintf", 
+                "wcpcpy", 
+                "wcpncpy", 
+                "wcrtomb", 
+                "wcscat", 
+                "wcscpy", 
+                "wcsncat", 
+                "wcsncpy", 
+                "wcsnrtombs", 
+                "wcsrtombs", 
+                "wcstombs", 
+                "wctomb", 
+                "wmemcpy", 
+                "wmemmove", 
+                "wmempcpy", 
+                "wmemset", 
+                "wprintf"
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/scripts/sign-file", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 85, 
+                    "afC": 1068
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "CMS_sign", 
+                "EVP_get_digestbyname", 
+                "memcpy", 
+                "ENGINE_init", 
+                "ENGINE_load_builtin_engines", 
+                "strlen", 
+                "BIO_new_file", 
+                "rename", 
+                "BIO_read", 
+                "getenv", 
+                "strcmp", 
+                "d2i_X509_bio", 
+                "i2d_CMS_bio_stream", 
+                "CMS_final", 
+                "strncmp", 
+                "ENGINE_by_id", 
+                "exit", 
+                "BIO_test_flags", 
+                "ENGINE_ctrl_cmd_string", 
+                "err", 
+                "BIO_write", 
+                "__gmon_start__", 
+                "CMS_add1_signer", 
+                "ENGINE_load_private_key", 
+                "BIO_free", 
+                "ERR_clear_error", 
+                "BIO_ctrl", 
+                "OPENSSL_init_crypto", 
+                "PEM_read_bio_PrivateKey", 
+                "asprintf", 
+                "PEM_read_bio_X509", 
+                "fwrite", 
+                "ERR_get_error_line", 
+                "getopt", 
+                "BIO_number_written", 
+                "fprintf", 
+                "ERR_peek_error"
+            ], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/tools/testing/selftests/memory-hotplug/Makefile": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/tools/testing/selftests/memory-hotplug/Makefile", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/tools/testing/selftests/capabilities/Makefile": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/tools/testing/selftests/capabilities/Makefile", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/drivers/video/fbdev/intelfb/Makefile": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/drivers/video/fbdev/intelfb/Makefile", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/tools/testing/selftests/ipc/Makefile": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/tools/testing/selftests/ipc/Makefile", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/tools/testing/selftests/sigaltstack/Makefile": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/tools/testing/selftests/sigaltstack/Makefile", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/scripts/unifdef": {
+            "find-libc-functions": [
+                "GI___obstack_vprintf", 
+                "GI___vasprintf", 
+                "GI___vdprintf", 
+                "GI___vfprintf", 
+                "GI___vfwprintf", 
+                "GI___vsnprintf", 
+                "GI___vsprintf", 
+                "GI___vswprintf", 
+                "GI___vsyslog", 
+                "__longjmp", 
+                "_fprintf", 
+                "_printf", 
+                "_snprintf", 
+                "_sprintf", 
+                "_vfprintf", 
+                "_vprintf", 
+                "_vsnprintf", 
+                "_vsprintf", 
+                "asprintf", 
+                "confstr", 
+                "dprintf", 
+                "explicit_bzero", 
+                "fdelt", 
+                "fgets", 
+                "fgets_unlocked", 
+                "fgetws", 
+                "fgetws_unlocked", 
+                "fprintf", 
+                "fread", 
+                "fread_unlocked", 
+                "fwprintf", 
+                "getcwd", 
+                "getdomainname", 
+                "getgroups", 
+                "gethostname", 
+                "getlogin_r", 
+                "gets", 
+                "getwd", 
+                "longjmp", 
+                "mbsnrtowcs", 
+                "mbsrtowcs", 
+                "mbstowcs", 
+                "memcpy", 
+                "memmove", 
+                "mempcpy", 
+                "memset", 
+                "obstack_printf", 
+                "obstack_vprintf", 
+                "poll", 
+                "ppoll", 
+                "pread64", 
+                "pread", 
+                "printf", 
+                "ptsname_r", 
+                "read", 
+                "readlink", 
+                "readlinkat", 
+                "realpath", 
+                "recv", 
+                "recvfrom", 
+                "snprintf", 
+                "sprintf", 
+                "stpcpy", 
+                "stpncpy", 
+                "strcat", 
+                "strcpy", 
+                "strncat", 
+                "strncpy", 
+                "swprintf", 
+                "syslog", 
+                "ttyname_r", 
+                "vasprintf", 
+                "vdprintf", 
+                "vfprintf", 
+                "vfwprintf", 
+                "vprintf", 
+                "vsnprintf", 
+                "vsprintf", 
+                "vswprintf", 
+                "vsyslog", 
+                "vwprintf", 
+                "wcpcpy", 
+                "wcpncpy", 
+                "wcrtomb", 
+                "wcscat", 
+                "wcscpy", 
+                "wcsncat", 
+                "wcsncpy", 
+                "wcsnrtombs", 
+                "wcsrtombs", 
+                "wcstombs", 
+                "wctomb", 
+                "wmemcpy", 
+                "wmemmove", 
+                "wmempcpy", 
+                "wmemset", 
+                "wprintf"
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/scripts/unifdef", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": -1, 
+                    "afC": 27
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "mkstemp", 
+                "strcmp", 
+                "__libc_start_main", 
+                "putchar", 
+                "fclose", 
+                "warn", 
+                "strlen", 
+                "__ctype_b_loc", 
+                "fchmod", 
+                "printf", 
+                "__fxstat", 
+                "strrchr", 
+                "fileno", 
+                "fputs", 
+                "snprintf", 
+                "__gmon_start__", 
+                "warnx", 
+                "abort", 
+                "strcpy", 
+                "fdopen", 
+                "rename", 
+                "errx", 
+                "strspn", 
+                "strtol", 
+                "fwrite", 
+                "__xstat", 
+                "fgets", 
+                "exit", 
+                "strchr", 
+                "strncmp", 
+                "fopen", 
+                "fflush", 
+                "vwarnx", 
+                "unlink", 
+                "_IO_putc"
+            ], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/include/uapi/linux/elf-fdpic_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/include/uapi/linux/elf-fdpic.h", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/tools/testing/selftests/powerpc/syscalls/Makefile": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/tools/testing/selftests/powerpc/syscalls/Makefile", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/scripts/basic/bin2c": {
+            "find-libc-functions": [
+                "GI___obstack_vprintf", 
+                "GI___vasprintf", 
+                "GI___vdprintf", 
+                "GI___vfprintf", 
+                "GI___vfwprintf", 
+                "GI___vsnprintf", 
+                "GI___vsprintf", 
+                "GI___vswprintf", 
+                "GI___vsyslog", 
+                "__longjmp", 
+                "_fprintf", 
+                "_printf", 
+                "_snprintf", 
+                "_sprintf", 
+                "_vfprintf", 
+                "_vprintf", 
+                "_vsnprintf", 
+                "_vsprintf", 
+                "asprintf", 
+                "confstr", 
+                "dprintf", 
+                "explicit_bzero", 
+                "fdelt", 
+                "fgets", 
+                "fgets_unlocked", 
+                "fgetws", 
+                "fgetws_unlocked", 
+                "fprintf", 
+                "fread", 
+                "fread_unlocked", 
+                "fwprintf", 
+                "getcwd", 
+                "getdomainname", 
+                "getgroups", 
+                "gethostname", 
+                "getlogin_r", 
+                "gets", 
+                "getwd", 
+                "longjmp", 
+                "mbsnrtowcs", 
+                "mbsrtowcs", 
+                "mbstowcs", 
+                "memcpy", 
+                "memmove", 
+                "mempcpy", 
+                "memset", 
+                "obstack_printf", 
+                "obstack_vprintf", 
+                "poll", 
+                "ppoll", 
+                "pread64", 
+                "pread", 
+                "printf", 
+                "ptsname_r", 
+                "read", 
+                "readlink", 
+                "readlinkat", 
+                "realpath", 
+                "recv", 
+                "recvfrom", 
+                "snprintf", 
+                "sprintf", 
+                "stpcpy", 
+                "stpncpy", 
+                "strcat", 
+                "strcpy", 
+                "strncat", 
+                "strncpy", 
+                "swprintf", 
+                "syslog", 
+                "ttyname_r", 
+                "vasprintf", 
+                "vdprintf", 
+                "vfprintf", 
+                "vfwprintf", 
+                "vprintf", 
+                "vsnprintf", 
+                "vsprintf", 
+                "vswprintf", 
+                "vsyslog", 
+                "vwprintf", 
+                "wcpcpy", 
+                "wcpncpy", 
+                "wcrtomb", 
+                "wcscat", 
+                "wcscpy", 
+                "wcsncat", 
+                "wcsncpy", 
+                "wcsnrtombs", 
+                "wcsrtombs", 
+                "wcstombs", 
+                "wctomb", 
+                "wmemcpy", 
+                "wmemmove", 
+                "wmempcpy", 
+                "wmemset", 
+                "wprintf"
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/scripts/basic/bin2c", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 6, 
+                    "afC": 74
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "printf", 
+                "puts", 
+                "__gmon_start__"
+            ], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/include/config/x86/decoder/selftest_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/include/config/x86/decoder/selftest.h", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/scripts/kconfig/conf": {
+            "find-libc-functions": [
+                "GI___obstack_vprintf", 
+                "GI___vasprintf", 
+                "GI___vdprintf", 
+                "GI___vfprintf", 
+                "GI___vfwprintf", 
+                "GI___vsnprintf", 
+                "GI___vsprintf", 
+                "GI___vswprintf", 
+                "GI___vsyslog", 
+                "__longjmp", 
+                "_fprintf", 
+                "_printf", 
+                "_snprintf", 
+                "_sprintf", 
+                "_vfprintf", 
+                "_vprintf", 
+                "_vsnprintf", 
+                "_vsprintf", 
+                "asprintf", 
+                "confstr", 
+                "dprintf", 
+                "explicit_bzero", 
+                "fdelt", 
+                "fgets", 
+                "fgets_unlocked", 
+                "fgetws", 
+                "fgetws_unlocked", 
+                "fprintf", 
+                "fread", 
+                "fread_unlocked", 
+                "fwprintf", 
+                "getcwd", 
+                "getdomainname", 
+                "getgroups", 
+                "gethostname", 
+                "getlogin_r", 
+                "gets", 
+                "getwd", 
+                "longjmp", 
+                "mbsnrtowcs", 
+                "mbsrtowcs", 
+                "mbstowcs", 
+                "memcpy", 
+                "memmove", 
+                "mempcpy", 
+                "memset", 
+                "obstack_printf", 
+                "obstack_vprintf", 
+                "poll", 
+                "ppoll", 
+                "pread64", 
+                "pread", 
+                "printf", 
+                "ptsname_r", 
+                "read", 
+                "readlink", 
+                "readlinkat", 
+                "realpath", 
+                "recv", 
+                "recvfrom", 
+                "snprintf", 
+                "sprintf", 
+                "stpcpy", 
+                "stpncpy", 
+                "strcat", 
+                "strcpy", 
+                "strncat", 
+                "strncpy", 
+                "swprintf", 
+                "syslog", 
+                "ttyname_r", 
+                "vasprintf", 
+                "vdprintf", 
+                "vfprintf", 
+                "vfwprintf", 
+                "vprintf", 
+                "vsnprintf", 
+                "vsprintf", 
+                "vswprintf", 
+                "vsyslog", 
+                "vwprintf", 
+                "wcpcpy", 
+                "wcpncpy", 
+                "wcrtomb", 
+                "wcscat", 
+                "wcscpy", 
+                "wcsncat", 
+                "wcsncpy", 
+                "wcsnrtombs", 
+                "wcsrtombs", 
+                "wcstombs", 
+                "wctomb", 
+                "wmemcpy", 
+                "wmemmove", 
+                "wmempcpy", 
+                "wmemset", 
+                "wprintf"
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/scripts/kconfig/conf", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 36, 
+                    "afC": 460
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "srand", 
+                "qsort", 
+                "vfprintf", 
+                "memmove", 
+                "rand", 
+                "strtoll", 
+                "_IO_getc", 
+                "strtoull", 
+                "getpid", 
+                "__errno_location", 
+                "memcpy", 
+                "calloc", 
+                "regfree", 
+                "putchar", 
+                "strdup", 
+                "fclose", 
+                "__assert_fail", 
+                "mkdir", 
+                "puts", 
+                "free", 
+                "realloc", 
+                "close", 
+                "strncmp", 
+                "textdomain", 
+                "fputs", 
+                "dcgettext", 
+                "uname", 
+                "strrchr", 
+                "stpcpy", 
+                "regcomp", 
+                "memcmp", 
+                "setlocale", 
+                "clearerr", 
+                "__gmon_start__", 
+                "_IO_putc", 
+                "strpbrk", 
+                "__xstat", 
+                "snprintf", 
+                "fgets", 
+                "getopt_long", 
+                "read", 
+                "malloc", 
+                "fwrite", 
+                "strcmp", 
+                "sprintf", 
+                "perror", 
+                "fopen", 
+                "strncat", 
+                "__ctype_b_loc", 
+                "fprintf", 
+                "strchr", 
+                "bindtextdomain", 
+                "strcpy", 
+                "fputc", 
+                "strtol", 
+                "__ctype_tolower_loc", 
+                "fflush", 
+                "printf", 
+                "exit", 
+                "__ctype_toupper_loc", 
+                "strlen", 
+                "rename", 
+                "open", 
+                "gettimeofday", 
+                "getenv", 
+                "strcat", 
+                "__libc_start_main", 
+                "fileno", 
+                "vsnprintf", 
+                "regexec", 
+                "chdir"
+            ], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/include/linux/elfcore_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/include/linux/elfcore.h", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/tools/testing/selftests/Makefile": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/tools/testing/selftests/Makefile", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/tools/testing/selftests/kmod/Makefile": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/tools/testing/selftests/kmod/Makefile", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/include/linux/elf-randomize_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/include/linux/elf-randomize.h", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/tools/testing/selftests/powerpc/benchmarks/Makefile": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/tools/testing/selftests/powerpc/benchmarks/Makefile", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/tools/testing/selftests/gpio/Makefile": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/tools/testing/selftests/gpio/Makefile", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/tools/testing/selftests/powerpc/context_switch/Makefile": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/tools/testing/selftests/powerpc/context_switch/Makefile", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/scripts/selinux/mdp/mdp": {
+            "find-libc-functions": [
+                "GI___obstack_vprintf", 
+                "GI___vasprintf", 
+                "GI___vdprintf", 
+                "GI___vfprintf", 
+                "GI___vfwprintf", 
+                "GI___vsnprintf", 
+                "GI___vsprintf", 
+                "GI___vswprintf", 
+                "GI___vsyslog", 
+                "__longjmp", 
+                "_fprintf", 
+                "_printf", 
+                "_snprintf", 
+                "_sprintf", 
+                "_vfprintf", 
+                "_vprintf", 
+                "_vsnprintf", 
+                "_vsprintf", 
+                "asprintf", 
+                "confstr", 
+                "dprintf", 
+                "explicit_bzero", 
+                "fdelt", 
+                "fgets", 
+                "fgets_unlocked", 
+                "fgetws", 
+                "fgetws_unlocked", 
+                "fprintf", 
+                "fread", 
+                "fread_unlocked", 
+                "fwprintf", 
+                "getcwd", 
+                "getdomainname", 
+                "getgroups", 
+                "gethostname", 
+                "getlogin_r", 
+                "gets", 
+                "getwd", 
+                "longjmp", 
+                "mbsnrtowcs", 
+                "mbsrtowcs", 
+                "mbstowcs", 
+                "memcpy", 
+                "memmove", 
+                "mempcpy", 
+                "memset", 
+                "obstack_printf", 
+                "obstack_vprintf", 
+                "poll", 
+                "ppoll", 
+                "pread64", 
+                "pread", 
+                "printf", 
+                "ptsname_r", 
+                "read", 
+                "readlink", 
+                "readlinkat", 
+                "realpath", 
+                "recv", 
+                "recvfrom", 
+                "snprintf", 
+                "sprintf", 
+                "stpcpy", 
+                "stpncpy", 
+                "strcat", 
+                "strcpy", 
+                "strncat", 
+                "strncpy", 
+                "swprintf", 
+                "syslog", 
+                "ttyname_r", 
+                "vasprintf", 
+                "vdprintf", 
+                "vfprintf", 
+                "vfwprintf", 
+                "vprintf", 
+                "vsnprintf", 
+                "vsprintf", 
+                "vswprintf", 
+                "vsyslog", 
+                "vwprintf", 
+                "wcpcpy", 
+                "wcpncpy", 
+                "wcrtomb", 
+                "wcscat", 
+                "wcscpy", 
+                "wcsncat", 
+                "wcsncpy", 
+                "wcsnrtombs", 
+                "wcsrtombs", 
+                "wcstombs", 
+                "wctomb", 
+                "wmemcpy", 
+                "wmemmove", 
+                "wmempcpy", 
+                "wmemset", 
+                "wprintf"
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/scripts/selinux/mdp/mdp", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 16, 
+                    "afC": 409
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "puts", 
+                "fopen", 
+                "printf", 
+                "fwrite", 
+                "__libc_start_main", 
+                "exit", 
+                "__gmon_start__", 
+                "fprintf", 
+                "fputc"
+            ], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/scripts/mod/modpost": {
+            "find-libc-functions": [
+                "GI___obstack_vprintf", 
+                "GI___vasprintf", 
+                "GI___vdprintf", 
+                "GI___vfprintf", 
+                "GI___vfwprintf", 
+                "GI___vsnprintf", 
+                "GI___vsprintf", 
+                "GI___vswprintf", 
+                "GI___vsyslog", 
+                "__longjmp", 
+                "_fprintf", 
+                "_printf", 
+                "_snprintf", 
+                "_sprintf", 
+                "_vfprintf", 
+                "_vprintf", 
+                "_vsnprintf", 
+                "_vsprintf", 
+                "asprintf", 
+                "confstr", 
+                "dprintf", 
+                "explicit_bzero", 
+                "fdelt", 
+                "fgets", 
+                "fgets_unlocked", 
+                "fgetws", 
+                "fgetws_unlocked", 
+                "fprintf", 
+                "fread", 
+                "fread_unlocked", 
+                "fwprintf", 
+                "getcwd", 
+                "getdomainname", 
+                "getgroups", 
+                "gethostname", 
+                "getlogin_r", 
+                "gets", 
+                "getwd", 
+                "longjmp", 
+                "mbsnrtowcs", 
+                "mbsrtowcs", 
+                "mbstowcs", 
+                "memcpy", 
+                "memmove", 
+                "mempcpy", 
+                "memset", 
+                "obstack_printf", 
+                "obstack_vprintf", 
+                "poll", 
+                "ppoll", 
+                "pread64", 
+                "pread", 
+                "printf", 
+                "ptsname_r", 
+                "read", 
+                "readlink", 
+                "readlinkat", 
+                "realpath", 
+                "recv", 
+                "recvfrom", 
+                "snprintf", 
+                "sprintf", 
+                "stpcpy", 
+                "stpncpy", 
+                "strcat", 
+                "strcpy", 
+                "strncat", 
+                "strncpy", 
+                "swprintf", 
+                "syslog", 
+                "ttyname_r", 
+                "vasprintf", 
+                "vdprintf", 
+                "vfprintf", 
+                "vfwprintf", 
+                "vprintf", 
+                "vsnprintf", 
+                "vsprintf", 
+                "vswprintf", 
+                "vsyslog", 
+                "vwprintf", 
+                "wcpcpy", 
+                "wcpncpy", 
+                "wcrtomb", 
+                "wcscat", 
+                "wcscpy", 
+                "wcsncat", 
+                "wcsncpy", 
+                "wcsnrtombs", 
+                "wcsrtombs", 
+                "wcstombs", 
+                "wctomb", 
+                "wmemcpy", 
+                "wmemmove", 
+                "wmempcpy", 
+                "wmemset", 
+                "wprintf"
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/scripts/mod/modpost", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": -1, 
+                    "afC": 39
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "strncmp", 
+                "strtoul", 
+                "fileno", 
+                "strchr", 
+                "free", 
+                "write", 
+                "__libc_start_main", 
+                "snprintf", 
+                "getopt", 
+                "realloc", 
+                "fclose", 
+                "fopen", 
+                "strdup", 
+                "memcpy", 
+                "close", 
+                "open", 
+                "__gmon_start__", 
+                "strndup", 
+                "malloc", 
+                "strcspn", 
+                "getenv", 
+                "fread", 
+                "memmove", 
+                "perror", 
+                "__ctype_toupper_loc", 
+                "strspn", 
+                "strsep", 
+                "strcmp", 
+                "lseek", 
+                "vfprintf", 
+                "sprintf", 
+                "strstr", 
+                "mmap", 
+                "strncpy", 
+                "fprintf", 
+                "calloc", 
+                "fwrite", 
+                "exit", 
+                "vsnprintf", 
+                "fputc", 
+                "fgets", 
+                "strcpy", 
+                "strrchr", 
+                "memcmp", 
+                "__fxstat", 
+                "strlen", 
+                "__ctype_b_loc", 
+                "__errno_location", 
+                "strerror"
+            ], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/tools/testing/selftests/pstore/Makefile": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/tools/testing/selftests/pstore/Makefile", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/tools/testing/selftests/exec/Makefile": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/tools/testing/selftests/exec/Makefile", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/tools/testing/selftests/rcutorture/formal/srcu-cbmc/Makefile": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/tools/testing/selftests/rcutorture/formal/srcu-cbmc/Makefile", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/scripts/selinux/genheaders/genheaders": {
+            "find-libc-functions": [
+                "GI___obstack_vprintf", 
+                "GI___vasprintf", 
+                "GI___vdprintf", 
+                "GI___vfprintf", 
+                "GI___vfwprintf", 
+                "GI___vsnprintf", 
+                "GI___vsprintf", 
+                "GI___vswprintf", 
+                "GI___vsyslog", 
+                "__longjmp", 
+                "_fprintf", 
+                "_printf", 
+                "_snprintf", 
+                "_sprintf", 
+                "_vfprintf", 
+                "_vprintf", 
+                "_vsnprintf", 
+                "_vsprintf", 
+                "asprintf", 
+                "confstr", 
+                "dprintf", 
+                "explicit_bzero", 
+                "fdelt", 
+                "fgets", 
+                "fgets_unlocked", 
+                "fgetws", 
+                "fgetws_unlocked", 
+                "fprintf", 
+                "fread", 
+                "fread_unlocked", 
+                "fwprintf", 
+                "getcwd", 
+                "getdomainname", 
+                "getgroups", 
+                "gethostname", 
+                "getlogin_r", 
+                "gets", 
+                "getwd", 
+                "longjmp", 
+                "mbsnrtowcs", 
+                "mbsrtowcs", 
+                "mbstowcs", 
+                "memcpy", 
+                "memmove", 
+                "mempcpy", 
+                "memset", 
+                "obstack_printf", 
+                "obstack_vprintf", 
+                "poll", 
+                "ppoll", 
+                "pread64", 
+                "pread", 
+                "printf", 
+                "ptsname_r", 
+                "read", 
+                "readlink", 
+                "readlinkat", 
+                "realpath", 
+                "recv", 
+                "recvfrom", 
+                "snprintf", 
+                "sprintf", 
+                "stpcpy", 
+                "stpncpy", 
+                "strcat", 
+                "strcpy", 
+                "strncat", 
+                "strncpy", 
+                "swprintf", 
+                "syslog", 
+                "ttyname_r", 
+                "vasprintf", 
+                "vdprintf", 
+                "vfprintf", 
+                "vfwprintf", 
+                "vprintf", 
+                "vsnprintf", 
+                "vsprintf", 
+                "vswprintf", 
+                "vsyslog", 
+                "vwprintf", 
+                "wcpcpy", 
+                "wcpncpy", 
+                "wcrtomb", 
+                "wcscat", 
+                "wcscpy", 
+                "wcsncat", 
+                "wcsncpy", 
+                "wcsnrtombs", 
+                "wcsrtombs", 
+                "wcstombs", 
+                "wctomb", 
+                "wmemcpy", 
+                "wmemmove", 
+                "wmempcpy", 
+                "wmemset", 
+                "wprintf"
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/scripts/selinux/genheaders/genheaders", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 9, 
+                    "afC": 239
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "exit", 
+                "strdup", 
+                "__errno_location", 
+                "fputc", 
+                "strerror", 
+                "fprintf", 
+                "__gmon_start__", 
+                "__ctype_toupper_loc", 
+                "fwrite", 
+                "fopen", 
+                "fclose", 
+                "printf", 
+                "__libc_start_main"
+            ], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/tools/testing/selftests/powerpc/alignment/Makefile": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/tools/testing/selftests/powerpc/alignment/Makefile", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/include/config/modules/use/elf/rela_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/include/config/modules/use/elf/rela.h", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/include/uapi/linux/elf-em_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/include/uapi/linux/elf-em.h", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/tools/testing/selftests/powerpc/Makefile": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/tools/testing/selftests/powerpc/Makefile", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/scripts/mod/elfconfig_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/scripts/mod/elfconfig.h", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/scripts/asn1_compiler": {
+            "find-libc-functions": [
+                "GI___obstack_vprintf", 
+                "GI___vasprintf", 
+                "GI___vdprintf", 
+                "GI___vfprintf", 
+                "GI___vfwprintf", 
+                "GI___vsnprintf", 
+                "GI___vsprintf", 
+                "GI___vswprintf", 
+                "GI___vsyslog", 
+                "__longjmp", 
+                "_fprintf", 
+                "_printf", 
+                "_snprintf", 
+                "_sprintf", 
+                "_vfprintf", 
+                "_vprintf", 
+                "_vsnprintf", 
+                "_vsprintf", 
+                "asprintf", 
+                "confstr", 
+                "dprintf", 
+                "explicit_bzero", 
+                "fdelt", 
+                "fgets", 
+                "fgets_unlocked", 
+                "fgetws", 
+                "fgetws_unlocked", 
+                "fprintf", 
+                "fread", 
+                "fread_unlocked", 
+                "fwprintf", 
+                "getcwd", 
+                "getdomainname", 
+                "getgroups", 
+                "gethostname", 
+                "getlogin_r", 
+                "gets", 
+                "getwd", 
+                "longjmp", 
+                "mbsnrtowcs", 
+                "mbsrtowcs", 
+                "mbstowcs", 
+                "memcpy", 
+                "memmove", 
+                "mempcpy", 
+                "memset", 
+                "obstack_printf", 
+                "obstack_vprintf", 
+                "poll", 
+                "ppoll", 
+                "pread64", 
+                "pread", 
+                "printf", 
+                "ptsname_r", 
+                "read", 
+                "readlink", 
+                "readlinkat", 
+                "realpath", 
+                "recv", 
+                "recvfrom", 
+                "snprintf", 
+                "sprintf", 
+                "stpcpy", 
+                "stpncpy", 
+                "strcat", 
+                "strcpy", 
+                "strncat", 
+                "strncpy", 
+                "swprintf", 
+                "syslog", 
+                "ttyname_r", 
+                "vasprintf", 
+                "vdprintf", 
+                "vfprintf", 
+                "vfwprintf", 
+                "vprintf", 
+                "vsnprintf", 
+                "vsprintf", 
+                "vswprintf", 
+                "vsyslog", 
+                "vwprintf", 
+                "wcpcpy", 
+                "wcpncpy", 
+                "wcrtomb", 
+                "wcscat", 
+                "wcscpy", 
+                "wcsncat", 
+                "wcsncpy", 
+                "wcsnrtombs", 
+                "wcsrtombs", 
+                "wcstombs", 
+                "wctomb", 
+                "wmemcpy", 
+                "wmemmove", 
+                "wmempcpy", 
+                "wmemset", 
+                "wprintf"
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/scripts/asn1_compiler", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 100, 
+                    "afC": 1264
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "strtol", 
+                "fprintf", 
+                "abort", 
+                "strcmp", 
+                "ferror", 
+                "strchr", 
+                "__fxstat", 
+                "fclose", 
+                "strrchr", 
+                "strlen", 
+                "memcmp", 
+                "close", 
+                "vfprintf", 
+                "calloc", 
+                "__libc_start_main", 
+                "fopen", 
+                "getenv", 
+                "open", 
+                "qsort", 
+                "strtoul", 
+                "sprintf", 
+                "perror", 
+                "__ctype_b_loc", 
+                "read", 
+                "puts", 
+                "printf", 
+                "free", 
+                "exit", 
+                "fwrite", 
+                "memmove", 
+                "fputc", 
+                "strdup", 
+                "__gmon_start__"
+            ], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/tools/testing/selftests/ptp/Makefile": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/tools/testing/selftests/ptp/Makefile", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/tools/testing/selftests/prctl/Makefile": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/tools/testing/selftests/prctl/Makefile", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/tools/testing/selftests/vm/Makefile": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/tools/testing/selftests/vm/Makefile", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/tools/testing/selftests/powerpc/math/Makefile": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/tools/testing/selftests/powerpc/math/Makefile", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/tools/testing/selftests/cpufreq/Makefile": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/tools/testing/selftests/cpufreq/Makefile", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/tools/testing/selftests/powerpc/switch_endian/Makefile": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/tools/testing/selftests/powerpc/switch_endian/Makefile", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/tools/testing/selftests/ia64/Makefile": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/tools/testing/selftests/ia64/Makefile", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/include/xen/interface/elfnote_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/include/xen/interface/elfnote.h", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/include/config/elfcore_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/include/config/elfcore.h", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/tools/testing/selftests/powerpc/signal/Makefile": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/tools/testing/selftests/powerpc/signal/Makefile", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/tools/testing/selftests/ptrace/Makefile": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/tools/testing/selftests/ptrace/Makefile", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/tools/testing/selftests/breakpoints/Makefile": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/tools/testing/selftests/breakpoints/Makefile", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/tools/testing/selftests/cpu-hotplug/Makefile": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/tools/testing/selftests/cpu-hotplug/Makefile", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/include/config/elf/core_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/include/config/elf/core.h", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/tools/testing/selftests/mount/Makefile": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/tools/testing/selftests/mount/Makefile", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/tools/testing/selftests/powerpc/vphn/Makefile": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/tools/testing/selftests/powerpc/vphn/Makefile", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/tools/testing/selftests/zram/Makefile": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/tools/testing/selftests/zram/Makefile", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/tools/testing/selftests/static_keys/Makefile": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/tools/testing/selftests/static_keys/Makefile", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/tools/testing/selftests/sysctl/Makefile": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/tools/testing/selftests/sysctl/Makefile", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/tools/testing/selftests/futex/Makefile": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/tools/testing/selftests/futex/Makefile", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/tools/testing/selftests/ftrace/Makefile": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/tools/testing/selftests/ftrace/Makefile", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/tools/testing/selftests/mqueue/Makefile": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/tools/testing/selftests/mqueue/Makefile", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/include/config/atomic64/selftest_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/include/config/atomic64/selftest.h", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/include/linux/elfnote_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/include/linux/elfnote.h", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/tools/testing/selftests/sync/Makefile": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/tools/testing/selftests/sync/Makefile", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/scripts/sortextable": {
+            "find-libc-functions": [
+                "GI___obstack_vprintf", 
+                "GI___vasprintf", 
+                "GI___vdprintf", 
+                "GI___vfprintf", 
+                "GI___vfwprintf", 
+                "GI___vsnprintf", 
+                "GI___vsprintf", 
+                "GI___vswprintf", 
+                "GI___vsyslog", 
+                "__longjmp", 
+                "_fprintf", 
+                "_printf", 
+                "_snprintf", 
+                "_sprintf", 
+                "_vfprintf", 
+                "_vprintf", 
+                "_vsnprintf", 
+                "_vsprintf", 
+                "asprintf", 
+                "confstr", 
+                "dprintf", 
+                "explicit_bzero", 
+                "fdelt", 
+                "fgets", 
+                "fgets_unlocked", 
+                "fgetws", 
+                "fgetws_unlocked", 
+                "fprintf", 
+                "fread", 
+                "fread_unlocked", 
+                "fwprintf", 
+                "getcwd", 
+                "getdomainname", 
+                "getgroups", 
+                "gethostname", 
+                "getlogin_r", 
+                "gets", 
+                "getwd", 
+                "longjmp", 
+                "mbsnrtowcs", 
+                "mbsrtowcs", 
+                "mbstowcs", 
+                "memcpy", 
+                "memmove", 
+                "mempcpy", 
+                "memset", 
+                "obstack_printf", 
+                "obstack_vprintf", 
+                "poll", 
+                "ppoll", 
+                "pread64", 
+                "pread", 
+                "printf", 
+                "ptsname_r", 
+                "read", 
+                "readlink", 
+                "readlinkat", 
+                "realpath", 
+                "recv", 
+                "recvfrom", 
+                "snprintf", 
+                "sprintf", 
+                "stpcpy", 
+                "stpncpy", 
+                "strcat", 
+                "strcpy", 
+                "strncat", 
+                "strncpy", 
+                "swprintf", 
+                "syslog", 
+                "ttyname_r", 
+                "vasprintf", 
+                "vdprintf", 
+                "vfprintf", 
+                "vfwprintf", 
+                "vprintf", 
+                "vsnprintf", 
+                "vsprintf", 
+                "vswprintf", 
+                "vsyslog", 
+                "vwprintf", 
+                "wcpcpy", 
+                "wcpncpy", 
+                "wcrtomb", 
+                "wcscat", 
+                "wcscpy", 
+                "wcsncat", 
+                "wcsncpy", 
+                "wcsnrtombs", 
+                "wcsrtombs", 
+                "wcstombs", 
+                "wctomb", 
+                "wmemcpy", 
+                "wmemmove", 
+                "wmempcpy", 
+                "wmemset", 
+                "wprintf"
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/scripts/sortextable", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 64, 
+                    "afC": 1006
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "__libc_start_main", 
+                "open", 
+                "fprintf", 
+                "close", 
+                "munmap", 
+                "exit", 
+                "fwrite", 
+                "qsort", 
+                "_setjmp", 
+                "mmap", 
+                "__fxstat", 
+                "__gmon_start__", 
+                "strcmp", 
+                "memset"
+            ], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/tools/testing/selftests/timers/Makefile": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/tools/testing/selftests/timers/Makefile", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/tools/testing/selftests/powerpc/cache_shape/Makefile": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/tools/testing/selftests/powerpc/cache_shape/Makefile", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/tools/testing/selftests/memfd/Makefile": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/tools/testing/selftests/memfd/Makefile", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/tools/testing/selftests/vDSO/Makefile": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/tools/testing/selftests/vDSO/Makefile", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/tools/testing/selftests/powerpc/copyloops/Makefile": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/tools/testing/selftests/powerpc/copyloops/Makefile", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/tools/testing/selftests/powerpc/primitives/Makefile": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/tools/testing/selftests/powerpc/primitives/Makefile", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/tools/objtool/objtool": {
+            "find-libc-functions": [
+                "GI___obstack_vprintf", 
+                "GI___vasprintf", 
+                "GI___vdprintf", 
+                "GI___vfprintf", 
+                "GI___vfwprintf", 
+                "GI___vsnprintf", 
+                "GI___vsprintf", 
+                "GI___vswprintf", 
+                "GI___vsyslog", 
+                "__longjmp", 
+                "_fprintf", 
+                "_printf", 
+                "_snprintf", 
+                "_sprintf", 
+                "_vfprintf", 
+                "_vprintf", 
+                "_vsnprintf", 
+                "_vsprintf", 
+                "asprintf", 
+                "confstr", 
+                "dprintf", 
+                "explicit_bzero", 
+                "fdelt", 
+                "fgets", 
+                "fgets_unlocked", 
+                "fgetws", 
+                "fgetws_unlocked", 
+                "fprintf", 
+                "fread", 
+                "fread_unlocked", 
+                "fwprintf", 
+                "getcwd", 
+                "getdomainname", 
+                "getgroups", 
+                "gethostname", 
+                "getlogin_r", 
+                "gets", 
+                "getwd", 
+                "longjmp", 
+                "mbsnrtowcs", 
+                "mbsrtowcs", 
+                "mbstowcs", 
+                "memcpy", 
+                "memmove", 
+                "mempcpy", 
+                "memset", 
+                "obstack_printf", 
+                "obstack_vprintf", 
+                "poll", 
+                "ppoll", 
+                "pread64", 
+                "pread", 
+                "printf", 
+                "ptsname_r", 
+                "read", 
+                "readlink", 
+                "readlinkat", 
+                "realpath", 
+                "recv", 
+                "recvfrom", 
+                "snprintf", 
+                "sprintf", 
+                "stpcpy", 
+                "stpncpy", 
+                "strcat", 
+                "strcpy", 
+                "strncat", 
+                "strncpy", 
+                "swprintf", 
+                "syslog", 
+                "ttyname_r", 
+                "vasprintf", 
+                "vdprintf", 
+                "vfprintf", 
+                "vfwprintf", 
+                "vprintf", 
+                "vsnprintf", 
+                "vsprintf", 
+                "vswprintf", 
+                "vsyslog", 
+                "vwprintf", 
+                "wcpcpy", 
+                "wcpncpy", 
+                "wcrtomb", 
+                "wcscat", 
+                "wcscpy", 
+                "wcsncat", 
+                "wcsncpy", 
+                "wcsnrtombs", 
+                "wcsrtombs", 
+                "wcstombs", 
+                "wctomb", 
+                "wmemcpy", 
+                "wmemmove", 
+                "wmempcpy", 
+                "wmemset", 
+                "wprintf"
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/tools/objtool/objtool", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 7, 
+                    "afC": 89
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "strcmp", 
+                "setenv", 
+                "elf_getshdrstrndx", 
+                "access", 
+                "fflush", 
+                "printf", 
+                "execvp", 
+                "pipe", 
+                "isatty", 
+                "qsort", 
+                "fork", 
+                "strtol", 
+                "puts", 
+                "__errno_location", 
+                "elf_getscn", 
+                "sprintf", 
+                "__ctype_tolower_loc", 
+                "open", 
+                "ioctl", 
+                "__xpg_strerror_r", 
+                "_IO_putc", 
+                "free", 
+                "malloc", 
+                "close", 
+                "__fprintf_chk", 
+                "perror", 
+                "waitpid", 
+                "gelf_getshdr", 
+                "calloc", 
+                "__vasprintf_chk", 
+                "elf_getdata", 
+                "select", 
+                "__gmon_start__", 
+                "gelf_getrela", 
+                "elf_getshdrnum", 
+                "__printf_chk", 
+                "dup2", 
+                "memcpy", 
+                "signal", 
+                "chdir", 
+                "raise", 
+                "realloc", 
+                "open64", 
+                "fprintf", 
+                "strlen", 
+                "unsetenv", 
+                "fputc", 
+                "strchr", 
+                "snprintf", 
+                "readdir64", 
+                "__cxa_atexit", 
+                "strtoull", 
+                "elf_begin", 
+                "elf_version", 
+                "getcwd", 
+                "putchar", 
+                "exit", 
+                "elf_end", 
+                "elf_strptr", 
+                "gelf_getehdr", 
+                "opendir", 
+                "memcmp", 
+                "__xstat64", 
+                "strncpy", 
+                "memmove", 
+                "strndup", 
+                "strcasestr", 
+                "elf_ndxscn", 
+                "closedir", 
+                "elf_nextscn", 
+                "strdup", 
+                "putenv", 
+                "__snprintf_chk", 
+                "__asprintf_chk", 
+                "__vsnprintf_chk", 
+                "getenv", 
+                "strncmp", 
+                "__libc_start_main"
+            ], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/arch/xtensa/boot/boot-elf/Makefile": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/arch/xtensa/boot/boot-elf/Makefile", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/tools/testing/selftests/bpf/Makefile": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/tools/testing/selftests/bpf/Makefile", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/tools/testing/selftests/powerpc/pmu/Makefile": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/tools/testing/selftests/powerpc/pmu/Makefile", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/tools/testing/selftests/filesystems/Makefile": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/tools/testing/selftests/filesystems/Makefile", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/include/linux/elfcore-compat_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/include/linux/elfcore-compat.h", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }, 
+        "usr/src/kernels/4_13_16-302_fc27_x86_64/scripts/conmakehash": {
+            "find-libc-functions": [
+                "GI___obstack_vprintf", 
+                "GI___vasprintf", 
+                "GI___vdprintf", 
+                "GI___vfprintf", 
+                "GI___vfwprintf", 
+                "GI___vsnprintf", 
+                "GI___vsprintf", 
+                "GI___vswprintf", 
+                "GI___vsyslog", 
+                "__longjmp", 
+                "_fprintf", 
+                "_printf", 
+                "_snprintf", 
+                "_sprintf", 
+                "_vfprintf", 
+                "_vprintf", 
+                "_vsnprintf", 
+                "_vsprintf", 
+                "asprintf", 
+                "confstr", 
+                "dprintf", 
+                "explicit_bzero", 
+                "fdelt", 
+                "fgets", 
+                "fgets_unlocked", 
+                "fgetws", 
+                "fgetws_unlocked", 
+                "fprintf", 
+                "fread", 
+                "fread_unlocked", 
+                "fwprintf", 
+                "getcwd", 
+                "getdomainname", 
+                "getgroups", 
+                "gethostname", 
+                "getlogin_r", 
+                "gets", 
+                "getwd", 
+                "longjmp", 
+                "mbsnrtowcs", 
+                "mbsrtowcs", 
+                "mbstowcs", 
+                "memcpy", 
+                "memmove", 
+                "mempcpy", 
+                "memset", 
+                "obstack_printf", 
+                "obstack_vprintf", 
+                "poll", 
+                "ppoll", 
+                "pread64", 
+                "pread", 
+                "printf", 
+                "ptsname_r", 
+                "read", 
+                "readlink", 
+                "readlinkat", 
+                "realpath", 
+                "recv", 
+                "recvfrom", 
+                "snprintf", 
+                "sprintf", 
+                "stpcpy", 
+                "stpncpy", 
+                "strcat", 
+                "strcpy", 
+                "strncat", 
+                "strncpy", 
+                "swprintf", 
+                "syslog", 
+                "ttyname_r", 
+                "vasprintf", 
+                "vdprintf", 
+                "vfprintf", 
+                "vfwprintf", 
+                "vprintf", 
+                "vsnprintf", 
+                "vsprintf", 
+                "vswprintf", 
+                "vsyslog", 
+                "vwprintf", 
+                "wcpcpy", 
+                "wcpncpy", 
+                "wcrtomb", 
+                "wcscat", 
+                "wcscpy", 
+                "wcsncat", 
+                "wcsncpy", 
+                "wcsnrtombs", 
+                "wcsrtombs", 
+                "wcstombs", 
+                "wctomb", 
+                "wmemcpy", 
+                "wmemmove", 
+                "wmempcpy", 
+                "wmemset", 
+                "wprintf"
+            ], 
+            "filename": "usr/src/kernels/4.13.16-302.fc27.x86_64/scripts/conmakehash", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 50, 
+                    "afC": 542
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "fprintf", 
+                "fwrite", 
+                "fgets", 
+                "strchr", 
+                "perror", 
+                "fopen", 
+                "__gmon_start__", 
+                "puts", 
+                "printf", 
+                "__ctype_b_loc", 
+                "exit", 
+                "fclose"
+            ], 
+            "rpm": "kernel-devel-4.13.16-302.fc27.x86_64.rpm"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Kernel", 
+            "Name": " kernel-devel", 
+            "License": " GPLv2 and Redistributable, no modification permitted", 
+            "URL": " http://www.kernel.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " bkernel01.phx2.fedoraproject.org", 
+            "Description": "\nThis package provides kernel headers and makefiles sufficient to build modules\nagainst the kernel package.\n", 
+            "Build Date": " Thu 30 Nov 2017 11:22:56 AM EST", 
+            "Source RPM": " kernel-4.13.16-302.fc27.src.rpm", 
+            "Version": " 4.13.16", 
+            "Architecture": " x86_64", 
+            "Signature": " RSA/SHA256, Fri 01 Dec 2017 09:08:53 AM EST, Key ID f55e7430f5282ee4", 
+            "Release": " 302.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Development package for building kernel modules to match the kernel", 
+            "Size": " 45406168"
+        }
+    }
+}

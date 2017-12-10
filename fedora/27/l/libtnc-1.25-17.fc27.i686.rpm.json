@@ -1,0 +1,232 @@
+{
+    "results": {
+        "usr/lib/libosc_imv_so_0_0_0": {
+            "report-functions": [
+                "libtnc_hash_getS", 
+                "getenv", 
+                "libtnc_array_index", 
+                "strstr", 
+                "libtnc_hash_free", 
+                "libtnc_hash_addS", 
+                "strdup", 
+                "_IO_getc", 
+                "_ITM_registerTMCloneTable", 
+                "__snprintf_chk", 
+                "realloc", 
+                "__errno_location", 
+                "strchr", 
+                "_ITM_deregisterTMCloneTable", 
+                "fclose", 
+                "strcmp", 
+                "fputc", 
+                "malloc", 
+                "libtnc_array_init", 
+                "ferror", 
+                "__gmon_start__", 
+                "fopen", 
+                "libtnc_array_push", 
+                "libtnc_hash_delete", 
+                "strtol", 
+                "libtnc_hash_add", 
+                "__vfprintf_chk", 
+                "__vsnprintf_chk", 
+                "exit", 
+                "fwrite", 
+                "libtnc_array_size", 
+                "fread", 
+                "__cxa_finalize", 
+                "libtnc_array_free", 
+                "libtnc_hash_get", 
+                "__stack_chk_fail", 
+                "fileno", 
+                "__fprintf_chk", 
+                "libtnc_hash_init", 
+                "free", 
+                "calloc", 
+                "isatty"
+            ], 
+            "rpm": "libtnc-1.25-17.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libosc_imv.so.0.0.0"
+        }, 
+        "usr/lib/libosc_imc_so_0_0_0": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "fputc", 
+                "strerror", 
+                "__stack_chk_fail", 
+                "__xstat", 
+                "pipe", 
+                "read", 
+                "__gmon_start__", 
+                "__vsnprintf_chk", 
+                "close", 
+                "__errno_location", 
+                "fileno", 
+                "_ITM_deregisterTMCloneTable", 
+                "uname", 
+                "exit", 
+                "getuid", 
+                "strlen", 
+                "__cxa_finalize", 
+                "__memcpy_chk", 
+                "execvp", 
+                "__vfprintf_chk", 
+                "fwrite", 
+                "waitpid", 
+                "__snprintf_chk", 
+                "dup2", 
+                "fork"
+            ], 
+            "rpm": "libtnc-1.25-17.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libosc_imc.so.0.0.0"
+        }, 
+        "usr/lib/libtnc_so_0_0_0": {
+            "report-functions": [
+                "dlopen", 
+                "dlsym", 
+                "xmlIsBlankNode", 
+                "__cxa_finalize", 
+                "strdup", 
+                "xmlDocGetRootElement", 
+                "xmlBufferContent", 
+                "__snprintf_chk", 
+                "strtoul", 
+                "xmlNodeDump", 
+                "isspace", 
+                "xmlGetProp", 
+                "malloc", 
+                "fgets", 
+                "dlclose", 
+                "pthread_mutex_lock", 
+                "xmlStrcmp", 
+                "_ITM_deregisterTMCloneTable", 
+                "xmlSearchNsByHref", 
+                "xmlBufferFree", 
+                "xmlNodeGetContent", 
+                "xmlAddChild", 
+                "xmlNewProp", 
+                "xmlStrcasecmp", 
+                "free", 
+                "xmlBufferCreate", 
+                "xmlNodeSetContent", 
+                "TNC_TNCS_SendBatch", 
+                "xmlFreeDoc", 
+                "__errno_location", 
+                "xmlNewNode", 
+                "pthread_mutex_unlock", 
+                "strerror", 
+                "xmlNewDoc", 
+                "xmlDocDumpFormatMemory", 
+                "strtol", 
+                "xmlDocSetRootElement", 
+                "TNC_TNCC_SendBatch", 
+                "__vfprintf_chk", 
+                "strlen", 
+                "__gmon_start__", 
+                "memcmp", 
+                "realloc", 
+                "dlerror", 
+                "xmlParseMemory", 
+                "fclose", 
+                "calloc", 
+                "fopen", 
+                "__printf_chk"
+            ], 
+            "rpm": "libtnc-1.25-17.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libtnc.so.0.0.0"
+        }, 
+        "usr/lib/libsample_imc_so_0_0_0": {
+            "report-functions": [
+                "puts", 
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "libtnc-1.25-17.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libsample_imc.so.0.0.0"
+        }, 
+        "usr/lib/libsample_imv_so_0_0_0": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "libtnc-1.25-17.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libsample_imv.so.0.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " libtnc", 
+            "License": " GPLv2", 
+            "URL": " http://libtnc.sourceforge.net/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-05.phx2.fedoraproject.org", 
+            "Description": "\nThis library provides functions for loading and interfacing with loadable IMC\nIntegrity Measurement Collector (IMC) and Integrity Measurement Verifier (IMV)\nmodules as required by the Trusted Network Computing (TNC) IF-IMC and IF-IMV\ninterfaces as described in: https://www.trustedcomputinggroup.org/specs/TNC\n", 
+            "Build Date": " Thu 03 Aug 2017 04:23:44 PM EDT", 
+            "Source RPM": " libtnc-1.25-17.fc27.src.rpm", 
+            "Version": " 1.25", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 01:56:32 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 17.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Library implementation of the Trusted Network Connect (TNC) specification", 
+            "Size": " 111697"
+        }
+    }
+}

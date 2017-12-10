@@ -1,0 +1,115 @@
+{
+    "results": {
+        "usr/lib/gtk-3_0/modules/libpk-gtk-module_so": {
+            "report-functions": [
+                "g_type_query", 
+                "g_strfreev", 
+                "g_strconcat", 
+                "g_ptr_array_free", 
+                "_Unwind_Resume", 
+                "pango_cairo_font_map_get_type", 
+                "g_error_free", 
+                "g_variant_builder_init", 
+                "g_hash_table_lookup", 
+                "g_application_get_default", 
+                "FcPatternDestroy", 
+                "g_variant_type_checked_", 
+                "__gmon_start__", 
+                "pango_cairo_font_map_get_default", 
+                "g_variant_new", 
+                "g_intern_static_string", 
+                "FcLangSetHasLang", 
+                "g_dbus_proxy_get_type", 
+                "g_module_make_resident", 
+                "free", 
+                "FcLangGetCharSet", 
+                "g_object_get", 
+                "g_dbus_proxy_call", 
+                "_ITM_registerTMCloneTable", 
+                "FcPatternGetLangSet", 
+                "g_return_if_fail_warning", 
+                "g_hash_table_insert", 
+                "__gcc_personality_v0", 
+                "g_object_new", 
+                "g_free", 
+                "g_variant_builder_end", 
+                "g_dbus_proxy_new_for_bus_sync", 
+                "g_object_unref", 
+                "g_log", 
+                "FcNameUnparse", 
+                "pango_cairo_font_map_set_default", 
+                "FcPatternCreate", 
+                "pango_fc_font_get_type", 
+                "__cxa_finalize", 
+                "FcPatternAddString", 
+                "g_type_register_static_simple", 
+                "g_type_check_instance_cast", 
+                "g_ptr_array_add", 
+                "__stack_chk_fail", 
+                "pango_fc_font_map_get_type", 
+                "pango_language_matches", 
+                "g_source_set_name_by_id", 
+                "g_ptr_array_new", 
+                "g_application_get_application_id", 
+                "g_strdup", 
+                "g_idle_add", 
+                "pango_fontset_foreach", 
+                "g_type_check_instance_is_a", 
+                "g_variant_unref", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "PackageKit-gtk3-module-1.1.7-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/gtk-3.0/modules/libpk-gtk-module.so"
+        }, 
+        "usr/lib/gtk-2_0/modules/libpk-gtk-module_so": {
+            "report-functions": [
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "PackageKit-gtk3-module-1.1.7-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/gtk-2.0/modules/libpk-gtk-module.so"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " PackageKit-gtk3-module", 
+            "License": " GPLv2+ and LGPLv2+", 
+            "URL": " http://www.freedesktop.org/software/PackageKit/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-30.phx2.fedoraproject.org", 
+            "Description": "\nThe PackageKit GTK3+ module allows any Pango application to install\nfonts from configured repositories using PackageKit.\n", 
+            "Build Date": " Mon 11 Sep 2017 09:05:49 AM EDT", 
+            "Source RPM": " PackageKit-1.1.7-1.fc27.src.rpm", 
+            "Version": " 1.1.7", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 11 Sep 2017 09:16:18 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 1.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Install fonts automatically using PackageKit", 
+            "Size": " 20863"
+        }
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "results": {
+        "usr/lib/libverto-libev_so_1_0_0": {
+            "report-functions": [
+                "free", 
+                "ev_timer_stop", 
+                "verto_get_type", 
+                "ev_io_stop", 
+                "ev_child_stop", 
+                "verto_fire", 
+                "__gmon_start__", 
+                "ev_signal_stop", 
+                "verto_set_fd_state", 
+                "ev_signal_start", 
+                "ev_loop_new", 
+                "_ITM_registerTMCloneTable", 
+                "verto_convert_module", 
+                "malloc", 
+                "ev_default_loop", 
+                "verto_set_proc_status", 
+                "verto_get_signal", 
+                "ev_loop_fork", 
+                "verto_get_flags", 
+                "verto_get_proc", 
+                "ev_loop_destroy", 
+                "ev_io_start", 
+                "ev_run", 
+                "verto_get_fd", 
+                "ev_timer_start", 
+                "ev_idle_stop", 
+                "verto_get_interval", 
+                "__cxa_finalize", 
+                "ev_child_start", 
+                "ev_idle_start"
+            ], 
+            "rpm": "libverto-libev-0.2.6-11.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libverto-libev.so.1.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " libverto-libev", 
+            "License": " MIT", 
+            "URL": " https://github.com/latchset/libverto", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-04.phx2.fedoraproject.org", 
+            "Description": "\nModule for libverto which provides integration with libev.\n\nThis package provides libverto-module-base since it supports io, timeout\nand signal.\n", 
+            "Build Date": " Mon 07 Aug 2017 11:18:43 AM EDT", 
+            "Source RPM": " libverto-0.2.6-11.fc27.src.rpm", 
+            "Version": " 0.2.6", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 08 Aug 2017 10:32:49 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 11.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " libev module for libverto", 
+            "Size": " 10584"
+        }
+    }
+}

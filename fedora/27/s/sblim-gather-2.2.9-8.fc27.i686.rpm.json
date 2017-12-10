@@ -1,0 +1,1227 @@
+{
+    "results": {
+        "usr/bin/gatherctl": {
+            "report-functions": [
+                "ch_init", 
+                "rgather_init", 
+                "rgather_unload", 
+                "_ITM_deregisterTMCloneTable", 
+                "rmetricplugin_remove", 
+                "__printf_chk", 
+                "__cxa_finalize", 
+                "ch_release", 
+                "rgather_start", 
+                "rgather_terminate", 
+                "rmetricplugin_list", 
+                "rmetricplugin_add", 
+                "fgets", 
+                "__isoc99_sscanf", 
+                "_ITM_registerTMCloneTable", 
+                "__libc_start_main", 
+                "rgather_stop", 
+                "rgather_status", 
+                "__stack_chk_fail", 
+                "rgather_load"
+            ], 
+            "rpm": "sblim-gather-2.2.9-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/gatherctl"
+        }, 
+        "usr/lib/gather/rplug/librepositoryProcessor_so": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "__gmon_start__", 
+                "__isoc99_sscanf", 
+                "__stack_chk_fail", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "sblim-gather-2.2.9-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/gather/rplug/librepositoryProcessor.so"
+        }, 
+        "usr/lib/gather/mplug/libmetricNetworkPort_so": {
+            "report-functions": [
+                "fclose", 
+                "fopen", 
+                "time", 
+                "strlen", 
+                "__gmon_start__", 
+                "__isoc99_sscanf", 
+                "strchr", 
+                "fwrite", 
+                "free", 
+                "__stack_chk_fail", 
+                "__cxa_finalize", 
+                "strcpy", 
+                "_ITM_deregisterTMCloneTable", 
+                "__sprintf_chk", 
+                "__fprintf_chk", 
+                "fread"
+            ], 
+            "rpm": "sblim-gather-2.2.9-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/gather/mplug/libmetricNetworkPort.so"
+        }, 
+        "usr/lib/librrepos_so_0_0_0": {
+            "report-functions": [
+                "recv", 
+                "mcc_term", 
+                "strcpy", 
+                "__cxa_atexit", 
+                "system", 
+                "__errno_location", 
+                "gethostname", 
+                "strlen", 
+                "strcmp", 
+                "pthread_create", 
+                "ch_alloc", 
+                "__memcpy_chk", 
+                "socket", 
+                "rcc_init", 
+                "gathercfg_getitem", 
+                "pthread_mutex_lock", 
+                "pthread_mutex_unlock", 
+                "__cxa_finalize", 
+                "pthread_detach", 
+                "execlp", 
+                "waitpid", 
+                "rcc_request", 
+                "sleep", 
+                "unlink", 
+                "mcc_response", 
+                "bind", 
+                "strtol", 
+                "__stack_chk_fail", 
+                "mcc_init", 
+                "close", 
+                "malloc", 
+                "mkstemp", 
+                "free", 
+                "__gcc_personality_v0", 
+                "exit", 
+                "_Unwind_Resume", 
+                "__gmon_start__", 
+                "__strcpy_chk", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "sblim-gather-2.2.9-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/librrepos.so.0.0.0"
+        }, 
+        "usr/lib/gather/mplug/libmetricIPProtocolEndpoint_so": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "fopen", 
+                "__gmon_start__", 
+                "time", 
+                "strlen", 
+                "strcat", 
+                "strchr", 
+                "__fprintf_chk", 
+                "_ITM_deregisterTMCloneTable", 
+                "fwrite", 
+                "_ITM_registerTMCloneTable", 
+                "fread", 
+                "__sprintf_chk", 
+                "__isoc99_sscanf", 
+                "__stack_chk_fail", 
+                "calloc"
+            ], 
+            "rpm": "sblim-gather-2.2.9-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/gather/mplug/libmetricIPProtocolEndpoint.so"
+        }, 
+        "usr/lib/librcserv_so_0_0_0": {
+            "report-functions": [
+                "inet_ntoa", 
+                "accept", 
+                "m_seterrno", 
+                "m_setstrerror", 
+                "connect", 
+                "__h_errno_location", 
+                "sigaction", 
+                "__errno_location", 
+                "socket", 
+                "pthread_mutex_unlock", 
+                "__gmon_start__", 
+                "inet_aton", 
+                "_ITM_deregisterTMCloneTable", 
+                "__sprintf_chk", 
+                "write", 
+                "pthread_mutex_lock", 
+                "read", 
+                "_ITM_registerTMCloneTable", 
+                "setsockopt", 
+                "listen", 
+                "close", 
+                "bind", 
+                "hstrerror", 
+                "__cxa_finalize", 
+                "__stack_chk_fail", 
+                "strerror"
+            ], 
+            "rpm": "sblim-gather-2.2.9-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/librcserv.so.0.0.0"
+        }, 
+        "usr/lib/gather/rplug/librepositoryOperatingSystem_so": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "strtoll", 
+                "calloc", 
+                "ntohf", 
+                "__strncpy_chk", 
+                "strchr", 
+                "realloc", 
+                "_ITM_registerTMCloneTable", 
+                "__gmon_start__", 
+                "__fprintf_chk", 
+                "htonll", 
+                "__cxa_finalize", 
+                "_ITM_deregisterTMCloneTable", 
+                "strlen", 
+                "free", 
+                "strncpy"
+            ], 
+            "rpm": "sblim-gather-2.2.9-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/gather/rplug/librepositoryOperatingSystem.so"
+        }, 
+        "usr/lib/gather/mplug/libmetricProcessor_so": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "read", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "strcpy", 
+                "dup", 
+                "system", 
+                "free", 
+                "pipe", 
+                "fclose", 
+                "__cxa_finalize", 
+                "calloc", 
+                "time", 
+                "fwrite", 
+                "fopen", 
+                "strlen", 
+                "__stack_chk_fail", 
+                "strchr", 
+                "close", 
+                "fileno", 
+                "fread", 
+                "__fprintf_chk"
+            ], 
+            "rpm": "sblim-gather-2.2.9-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/gather/mplug/libmetricProcessor.so"
+        }, 
+        "usr/lib/libgatherutil_so_0_0_0": {
+            "report-functions": [
+                "fgets", 
+                "fputs", 
+                "__stack_chk_fail", 
+                "fnmatch", 
+                "fwrite", 
+                "strcasecmp", 
+                "feof", 
+                "strftime", 
+                "scandir", 
+                "calloc", 
+                "pthread_once", 
+                "strdup", 
+                "pthread_setspecific", 
+                "openlog", 
+                "fopen", 
+                "__snprintf_chk", 
+                "pthread_getspecific", 
+                "pthread_mutex_lock", 
+                "malloc", 
+                "_ITM_deregisterTMCloneTable", 
+                "__syslog_chk", 
+                "realloc", 
+                "gmtime_r", 
+                "gettimeofday", 
+                "fclose", 
+                "pthread_cond_wait", 
+                "strcmp", 
+                "__gmon_start__", 
+                "pthread_key_create", 
+                "strchr", 
+                "alphasort", 
+                "setlogmask", 
+                "__ctype_b_loc", 
+                "getpid", 
+                "strspn", 
+                "strlen", 
+                "pthread_self", 
+                "_ITM_registerTMCloneTable", 
+                "__cxa_finalize", 
+                "__vsnprintf_chk", 
+                "pthread_cond_broadcast"
+            ], 
+            "rpm": "sblim-gather-2.2.9-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libgatherutil.so.0.0.0"
+        }, 
+        "usr/lib/gather/mplug/libmetricStorage_so": {
+            "report-functions": [
+                "strcpy", 
+                "__isoc99_sscanf", 
+                "ioctl", 
+                "calloc", 
+                "strchr", 
+                "open", 
+                "strlen", 
+                "fread", 
+                "close", 
+                "__stack_chk_fail", 
+                "fwrite", 
+                "__cxa_finalize", 
+                "__fprintf_chk", 
+                "fopen", 
+                "_ITM_registerTMCloneTable", 
+                "__sprintf_chk", 
+                "__gmon_start__", 
+                "fclose", 
+                "free"
+            ], 
+            "rpm": "sblim-gather-2.2.9-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/gather/mplug/libmetricStorage.so"
+        }, 
+        "usr/lib/libmcserv_so_0_0_0": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "flock", 
+                "__stack_chk_fail", 
+                "open", 
+                "socket", 
+                "readv", 
+                "close", 
+                "m_seterrno", 
+                "__cxa_finalize", 
+                "pthread_mutex_lock", 
+                "unlink", 
+                "read", 
+                "connect", 
+                "__snprintf_chk", 
+                "pthread_mutex_unlock", 
+                "__strcpy_chk", 
+                "m_setstrerror", 
+                "__gmon_start__", 
+                "__errno_location", 
+                "m_log", 
+                "accept", 
+                "_ITM_deregisterTMCloneTable", 
+                "listen", 
+                "bind", 
+                "writev", 
+                "sigaction"
+            ], 
+            "rpm": "sblim-gather-2.2.9-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libmcserv.so.0.0.0"
+        }, 
+        "usr/sbin/gatherd": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "_ITM_deregisterTMCloneTable", 
+                "m_log", 
+                "mcs_accept", 
+                "gather_status", 
+                "malloc", 
+                "__cxa_finalize", 
+                "gather_start", 
+                "mcs_init", 
+                "ch_release", 
+                "metricplugin_list", 
+                "gather_stop", 
+                "realloc", 
+                "__stack_chk_fail", 
+                "gathercfg_init", 
+                "m_start_logging", 
+                "mcs_getrequest", 
+                "gather_init", 
+                "metricplugin_add", 
+                "gather_terminate", 
+                "strdup", 
+                "free", 
+                "strlen", 
+                "__libc_start_main", 
+                "mcs_sendresponse", 
+                "exit", 
+                "daemon", 
+                "gathercfg_getitem", 
+                "strncasecmp", 
+                "metricplugin_remove", 
+                "__gmon_start__", 
+                "strerror", 
+                "mcs_term", 
+                "ch_init"
+            ], 
+            "rpm": "sblim-gather-2.2.9-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/sbin/gatherd"
+        }, 
+        "usr/lib/gather/rplug/librepositoryUnixProcess_so": {
+            "report-functions": [
+                "__strncpy_chk", 
+                "__gmon_start__", 
+                "strrchr", 
+                "strtoll", 
+                "__cxa_finalize", 
+                "__stack_chk_fail", 
+                "_ITM_deregisterTMCloneTable", 
+                "strchr", 
+                "ntohll", 
+                "__strcpy_chk", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "sblim-gather-2.2.9-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/gather/rplug/librepositoryUnixProcess.so"
+        }, 
+        "usr/lib/gather/mplug/libmetricXen_so": {
+            "report-functions": [
+                "virNodeGetFreeMemory", 
+                "virConnectListDefinedDomains", 
+                "htonf", 
+                "virDomainBlockStats", 
+                "virConnectNumOfDomains", 
+                "openlog", 
+                "virConnectNumOfDefinedDomains", 
+                "virDomainGetName", 
+                "fopen", 
+                "fclose", 
+                "virDomainGetInfo", 
+                "strlen", 
+                "strcpy", 
+                "htonll", 
+                "tmpnam", 
+                "virDomainGetBlockInfo", 
+                "virSetErrorFunc", 
+                "fgets", 
+                "fputs", 
+                "virConnectListDomains", 
+                "malloc", 
+                "strncpy", 
+                "__vsnprintf_chk", 
+                "free", 
+                "__stack_chk_fail", 
+                "system", 
+                "time", 
+                "virDomainLookupByName", 
+                "__isoc99_sscanf", 
+                "__cxa_finalize", 
+                "strchr", 
+                "realloc", 
+                "virDomainLookupByID", 
+                "_ITM_registerTMCloneTable", 
+                "strstr", 
+                "setlogmask", 
+                "virConnectOpen", 
+                "remove", 
+                "calloc", 
+                "_ITM_deregisterTMCloneTable", 
+                "virConnectClose", 
+                "virDomainGetXMLDesc", 
+                "__sprintf_chk", 
+                "__gmon_start__", 
+                "virNodeGetInfo"
+            ], 
+            "rpm": "sblim-gather-2.2.9-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/gather/mplug/libmetricXen.so"
+        }, 
+        "usr/lib/gather/rplug/librepositoryNetworkPort_so": {
+            "report-functions": [
+                "__gmon_start__", 
+                "strlen", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable", 
+                "__stack_chk_fail", 
+                "strchr", 
+                "__cxa_finalize", 
+                "__fprintf_chk"
+            ], 
+            "rpm": "sblim-gather-2.2.9-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/gather/rplug/librepositoryNetworkPort.so"
+        }, 
+        "usr/lib/gather/mplug/libmetricUnixProcess_so": {
+            "report-functions": [
+                "closedir", 
+                "__sprintf_chk", 
+                "_ITM_deregisterTMCloneTable", 
+                "opendir", 
+                "strlen", 
+                "fwrite", 
+                "realloc", 
+                "__gmon_start__", 
+                "calloc", 
+                "fopen", 
+                "_ITM_registerTMCloneTable", 
+                "strcasecmp", 
+                "strcpy", 
+                "strstr", 
+                "fread", 
+                "time", 
+                "fclose", 
+                "htonll", 
+                "readdir", 
+                "__cxa_finalize", 
+                "__stpcpy_chk", 
+                "strncpy", 
+                "free", 
+                "__isoc99_fscanf", 
+                "__fprintf_chk", 
+                "__strcpy_chk", 
+                "__stack_chk_fail", 
+                "sysconf"
+            ], 
+            "rpm": "sblim-gather-2.2.9-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/gather/mplug/libmetricUnixProcess.so"
+        }, 
+        "usr/lib/gather/rplug/librepositoryStorage_so": {
+            "report-functions": [
+                "__strncpy_chk", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "__fprintf_chk", 
+                "strchr", 
+                "strlen", 
+                "strtoll", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "sblim-gather-2.2.9-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/gather/rplug/librepositoryStorage.so"
+        }, 
+        "usr/lib/gather/mplug/libmetricOperatingSystem_so": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "__isoc99_fscanf", 
+                "time", 
+                "__isoc99_sscanf", 
+                "_ITM_deregisterTMCloneTable", 
+                "__fprintf_chk", 
+                "uname", 
+                "fread", 
+                "fileno", 
+                "read", 
+                "dup2", 
+                "fopen", 
+                "strchr", 
+                "fclose", 
+                "dup", 
+                "__cxa_finalize", 
+                "close", 
+                "free", 
+                "__gmon_start__", 
+                "strncpy", 
+                "calloc", 
+                "fwrite", 
+                "htonf", 
+                "htonll", 
+                "strtol", 
+                "strstr", 
+                "pipe", 
+                "__sprintf_chk", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "sblim-gather-2.2.9-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/gather/mplug/libmetricOperatingSystem.so"
+        }, 
+        "usr/bin/reposctl": {
+            "report-functions": [
+                "ch_release", 
+                "rrepos_get", 
+                "rrepos_setglobalfilter", 
+                "strtol", 
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable", 
+                "__libc_start_main", 
+                "rreposplugin_add", 
+                "rrepos_init", 
+                "rrepos_unsubscribe", 
+                "__gmon_start__", 
+                "rrepos_subscribe", 
+                "_ITM_deregisterTMCloneTable", 
+                "rrepos_load", 
+                "rreposplugin_list", 
+                "rreposplugin_remove", 
+                "ctime", 
+                "rrepos_unload", 
+                "rreposresource_list", 
+                "__stack_chk_fail", 
+                "rrepos_status", 
+                "ch_init", 
+                "rrepos_getglobalfilter", 
+                "__printf_chk", 
+                "__isoc99_sscanf", 
+                "puts", 
+                "rrepos_getfiltered", 
+                "rrepos_terminate", 
+                "fgets"
+            ], 
+            "rpm": "sblim-gather-2.2.9-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/reposctl"
+        }, 
+        "usr/lib/gather/rplug/librepositoryIPProtocolEndpoint_so": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "_ITM_deregisterTMCloneTable", 
+                "__stack_chk_fail", 
+                "strchr", 
+                "__strncpy_chk", 
+                "strlen", 
+                "strtoll", 
+                "__gmon_start__"
+            ], 
+            "rpm": "sblim-gather-2.2.9-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/gather/rplug/librepositoryIPProtocolEndpoint.so"
+        }, 
+        "usr/lib/gather/rplug/librepositoryXen_so": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable", 
+                "ntohll", 
+                "ntohf", 
+                "_ITM_deregisterTMCloneTable", 
+                "strncpy", 
+                "__stack_chk_fail", 
+                "__gmon_start__"
+            ], 
+            "rpm": "sblim-gather-2.2.9-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/gather/rplug/librepositoryXen.so"
+        }, 
+        "usr/lib/gather/mplug/libmetricLocalFileSystem_so": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "calloc", 
+                "_ITM_registerTMCloneTable", 
+                "free", 
+                "time", 
+                "statfs", 
+                "__fprintf_chk", 
+                "__stack_chk_fail", 
+                "__xstat", 
+                "setmntent", 
+                "fwrite", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "realloc", 
+                "htonf", 
+                "htonll", 
+                "pthread_mutex_lock", 
+                "strlen", 
+                "getmntent", 
+                "strcpy", 
+                "endmntent"
+            ], 
+            "rpm": "sblim-gather-2.2.9-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/gather/mplug/libmetricLocalFileSystem.so"
+        }, 
+        "usr/lib/gather/rplug/librepositoryKvm_so": {
+            "report-functions": [
+                "strlen", 
+                "__stack_chk_fail", 
+                "ntohll", 
+                "strtoll", 
+                "_ITM_registerTMCloneTable", 
+                "_ITM_deregisterTMCloneTable", 
+                "ntohf", 
+                "__strncpy_chk", 
+                "strncpy", 
+                "strchr", 
+                "__isoc99_sscanf"
+            ], 
+            "rpm": "sblim-gather-2.2.9-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/gather/rplug/librepositoryKvm.so"
+        }, 
+        "usr/lib/librepos_so_0_0_0": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "ch_alloc", 
+                "strcpy", 
+                "m_log", 
+                "__stack_chk_fail", 
+                "ch_release", 
+                "ntohll", 
+                "calloc", 
+                "__memcpy_chk", 
+                "dlopen", 
+                "ch_init", 
+                "reposcfg_getitem", 
+                "_ITM_deregisterTMCloneTable", 
+                "strchr", 
+                "getfilelist", 
+                "MReadUnlock", 
+                "realloc", 
+                "dlsym", 
+                "time", 
+                "strcmp", 
+                "memmove", 
+                "memcmp", 
+                "__gmon_start__", 
+                "strtol", 
+                "dlerror", 
+                "MWriteLock", 
+                "MReadLock", 
+                "free", 
+                "malloc", 
+                "strtod", 
+                "strcat", 
+                "strdup", 
+                "dlclose", 
+                "_ITM_registerTMCloneTable", 
+                "strtoll", 
+                "MWriteUnlock"
+            ], 
+            "rpm": "sblim-gather-2.2.9-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/librepos.so.0.0.0"
+        }, 
+        "usr/lib/libgather_so_0_0_0": {
+            "report-functions": [
+                "fwrite", 
+                "strchr", 
+                "strlen", 
+                "pthread_attr_setdetachstate", 
+                "realloc", 
+                "pthread_cond_timedwait", 
+                "pthread_mutex_lock", 
+                "free", 
+                "pthread_attr_init", 
+                "time", 
+                "strdup", 
+                "pthread_mutex_unlock", 
+                "pthread_cond_init", 
+                "_ITM_registerTMCloneTable", 
+                "MWriteUnlock", 
+                "__cxa_finalize", 
+                "__fprintf_chk", 
+                "__isoc99_sscanf", 
+                "pthread_mutex_destroy", 
+                "releasefilelist", 
+                "dlsym", 
+                "pthread_create", 
+                "dlopen", 
+                "pthread_attr_destroy", 
+                "gathercfg_getitem", 
+                "MWriteLock", 
+                "__sprintf_chk", 
+                "pthread_mutex_init", 
+                "pthread_self", 
+                "dlerror", 
+                "pthread_cond_destroy", 
+                "malloc", 
+                "strcpy", 
+                "m_log", 
+                "pthread_cond_signal", 
+                "pthread_join", 
+                "ch_alloc", 
+                "hiccup", 
+                "MReadLock", 
+                "_ITM_deregisterTMCloneTable", 
+                "pthread_cond_wait", 
+                "__stack_chk_fail", 
+                "pthread_cond_broadcast", 
+                "MReadUnlock", 
+                "strcmp", 
+                "strcat", 
+                "rrepos_put", 
+                "__gmon_start__"
+            ], 
+            "rpm": "sblim-gather-2.2.9-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libgather.so.0.0.0"
+        }, 
+        "usr/lib/librgather_so_0_0_0": {
+            "report-functions": [
+                "__gmon_start__", 
+                "ch_alloc", 
+                "pthread_mutex_lock", 
+                "__stack_chk_fail", 
+                "strlen", 
+                "__cxa_finalize", 
+                "__memcpy_chk", 
+                "pthread_mutex_unlock", 
+                "fork", 
+                "execlp", 
+                "_ITM_deregisterTMCloneTable", 
+                "mcc_init", 
+                "exit", 
+                "mcc_request", 
+                "waitpid", 
+                "_ITM_registerTMCloneTable", 
+                "sleep", 
+                "mcc_term"
+            ], 
+            "rpm": "sblim-gather-2.2.9-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/librgather.so.0.0.0"
+        }, 
+        "usr/bin/reposdump": {
+            "report-functions": [
+                "__printf_chk", 
+                "reposcfg_getitem", 
+                "reposcfg_init", 
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "strtol", 
+                "ch_release", 
+                "fwrite", 
+                "__libc_start_main", 
+                "rreposplugin_list", 
+                "releasefilelist", 
+                "__strcpy_chk", 
+                "_ITM_registerTMCloneTable", 
+                "__sprintf_chk", 
+                "time", 
+                "__fprintf_chk", 
+                "fclose", 
+                "__cxa_finalize", 
+                "rrepos_get", 
+                "_ITM_deregisterTMCloneTable", 
+                "fopen", 
+                "ch_init"
+            ], 
+            "rpm": "sblim-gather-2.2.9-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/reposdump"
+        }, 
+        "usr/sbin/reposd": {
+            "report-functions": [
+                "mcs_sendresponse", 
+                "__errno_location", 
+                "reposplugin_remove", 
+                "ch_init", 
+                "reposplugin_list", 
+                "__gmon_start__", 
+                "reposcfg_init", 
+                "realloc", 
+                "__strcpy_chk", 
+                "pthread_mutex_unlock", 
+                "pthread_mutex_lock", 
+                "mcs_getrequest", 
+                "pthread_self", 
+                "repos_status", 
+                "unmarshal_fixed", 
+                "pthread_cond_signal", 
+                "marshal_reposplugindefinition", 
+                "strcmp", 
+                "rcs_accept", 
+                "repos_unsubscribe", 
+                "mcs_init", 
+                "__stack_chk_fail", 
+                "_ITM_deregisterTMCloneTable", 
+                "daemon", 
+                "reposvalue_getfiltered", 
+                "pthread_detach", 
+                "repos_subscribe", 
+                "sendto", 
+                "pthread_create", 
+                "strcpy", 
+                "reposvalue_get", 
+                "exit", 
+                "mcs_term", 
+                "unmarshal_subscriptionrequest", 
+                "repos_terminate", 
+                "m_start_logging", 
+                "malloc", 
+                "marshal_data", 
+                "__cxa_finalize", 
+                "pthread_cond_wait", 
+                "strlen", 
+                "reposresource_list", 
+                "socket", 
+                "reposvalue_put", 
+                "ch_release", 
+                "free", 
+                "repos_sessiontoken", 
+                "strtol", 
+                "memmove", 
+                "_ITM_registerTMCloneTable", 
+                "rcs_init", 
+                "m_log", 
+                "marshal_valuerequest", 
+                "__libc_start_main", 
+                "mcs_accept", 
+                "repos_init", 
+                "reposcfg_getitem", 
+                "strerror", 
+                "reposplugin_add"
+            ], 
+            "rpm": "sblim-gather-2.2.9-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/sbin/reposd"
+        }, 
+        "usr/lib/gather/mplug/libmetricKvm_so": {
+            "report-functions": [
+                "virNodeGetInfo", 
+                "strncpy", 
+                "fclose", 
+                "fopen", 
+                "tmpnam", 
+                "__syslog_chk", 
+                "__isoc99_sscanf", 
+                "virSetErrorFunc", 
+                "__stack_chk_fail", 
+                "strchr", 
+                "realloc", 
+                "virDomainGetXMLDesc", 
+                "strstr", 
+                "strcpy", 
+                "openlog", 
+                "strlen", 
+                "htonll", 
+                "virDomainGetInfo", 
+                "fputs", 
+                "setlogmask", 
+                "virConnectListDefinedDomains", 
+                "__cxa_finalize", 
+                "virNodeGetFreeMemory", 
+                "remove", 
+                "time", 
+                "malloc", 
+                "virDomainGetBlockInfo", 
+                "free", 
+                "__vsnprintf_chk", 
+                "virConnectClose", 
+                "virDomainGetName", 
+                "virConnectListDomains", 
+                "__gmon_start__", 
+                "virConnectNumOfDomains", 
+                "_ITM_registerTMCloneTable", 
+                "virDomainBlockStats", 
+                "calloc", 
+                "fgets", 
+                "virDomainLookupByID", 
+                "htonf", 
+                "virConnectNumOfDefinedDomains", 
+                "system", 
+                "__sprintf_chk", 
+                "virDomainFree", 
+                "virDomainLookupByName"
+            ], 
+            "rpm": "sblim-gather-2.2.9-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/gather/mplug/libmetricKvm.so"
+        }, 
+        "usr/lib/gather/rplug/librepositoryLocalFileSystem_so": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "__cxa_finalize", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "__fprintf_chk", 
+                "ntohf"
+            ], 
+            "rpm": "sblim-gather-2.2.9-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/gather/rplug/librepositoryLocalFileSystem.so"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Applications/System", 
+            "Name": " sblim-gather", 
+            "License": " EPL", 
+            "URL": " http://sourceforge.net/projects/sblim/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-17.phx2.fedoraproject.org", 
+            "Description": "\nStandards Based Linux Instrumentation for Manageability\nPerformance Data Gatherer Base.\nThis package contains the agents and control programs for gathering\nand providing performance data.\n", 
+            "Build Date": " Fri 04 Aug 2017 02:50:10 PM EDT", 
+            "Source RPM": " sblim-gather-2.2.9-8.fc27.src.rpm", 
+            "Version": " 2.2.9", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 05 Aug 2017 11:52:23 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 8.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " SBLIM Gatherer", 
+            "Size": " 523532"
+        }
+    }
+}

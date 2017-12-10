@@ -1,0 +1,60 @@
+{
+    "results": {
+        "usr/bin/tolua++": {
+            "report-functions": [
+                "lua_pushvalue", 
+                "fwrite", 
+                "luaL_openlibs", 
+                "lua_rawseti", 
+                "luaL_loadfilex", 
+                "lua_setglobal", 
+                "lua_gettop", 
+                "lua_settop", 
+                "lua_pcallk", 
+                "luaL_newstate", 
+                "__gmon_start__", 
+                "lua_rawlen", 
+                "exit", 
+                "lua_tolstring", 
+                "lua_createtable", 
+                "__libc_start_main", 
+                "__fprintf_chk", 
+                "lua_settable"
+            ], 
+            "rpm": "tolua++-devel-1.0.93-21.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/tolua++"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " tolua++-devel", 
+            "License": " MIT", 
+            "URL": " http://www.codenix.com/~tolua/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-24.phx2.fedoraproject.org", 
+            "Description": "\nDevelopment files for tolua++\n", 
+            "Build Date": " Fri 04 Aug 2017 08:46:19 PM EDT", 
+            "Source RPM": " tolua++-1.0.93-21.fc27.src.rpm", 
+            "Version": " 1.0.93", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 05 Aug 2017 07:13:54 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 21.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Development files for tolua++", 
+            "Size": " 17848"
+        }
+    }
+}

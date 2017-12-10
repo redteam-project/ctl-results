@@ -1,0 +1,92 @@
+{
+    "results": {
+        "usr/lib/libnetresolve-backend-aresdns_so_0_0_0": {
+            "report-functions": [
+                "ldns_rdf_data", 
+                "__snprintf_chk", 
+                "ares_fds", 
+                "ares_init_options", 
+                "__assert_fail", 
+                "ldns_rr_ttl", 
+                "netresolve_log", 
+                "netresolve_backend_set_secure", 
+                "netresolve_backend_get_dns_srv_lookup", 
+                "ares_library_init", 
+                "ares_process_fd", 
+                "netresolve_backend_get_servname", 
+                "_ITM_deregisterTMCloneTable", 
+                "ldns_pkt_ad", 
+                "__fdelt_chk", 
+                "ares_destroy", 
+                "realloc", 
+                "netresolve_backend_get_dns_query", 
+                "ldns_rdf2native_int16", 
+                "netresolve_backend_failed", 
+                "netresolve_backend_get_nodename", 
+                "netresolve_watch_remove", 
+                "netresolve_watch_add", 
+                "ldns_pkt_get_rcode", 
+                "netresolve_backend_get_address", 
+                "ldns_rr_get_type", 
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "calloc", 
+                "ldns_pkt_answer", 
+                "__asprintf_chk", 
+                "free", 
+                "netresolve_backend_get_protocol", 
+                "ldns_rr_descript", 
+                "ares_strerror", 
+                "ldns_wire2pkt", 
+                "ldns_pkt_free", 
+                "strdup", 
+                "netresolve_backend_finished", 
+                "_ITM_registerTMCloneTable", 
+                "netresolve_backend_get_family", 
+                "netresolve_backend_set_dns_answer", 
+                "ldns_pkt_question", 
+                "ldns_rdf2str", 
+                "ares_query", 
+                "netresolve_backend_new_priv", 
+                "netresolve_backend_add_path", 
+                "ldns_rr_rdf", 
+                "netresolve_backend_add_name_info", 
+                "netresolve_backend_get_priv"
+            ], 
+            "rpm": "netresolve-backends-aresdns-0.0.1-0.19.20160317git.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libnetresolve-backend-aresdns.so.0.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " netresolve-backends-aresdns", 
+            "License": " BSD", 
+            "URL": " https://sourceware.org/netresolve/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-14.phx2.fedoraproject.org", 
+            "Description": "\nThis package provides DNS capabilities including learning DNSSEC validity\nfrom the AD flag for netresolve using c-ares.\n", 
+            "Build Date": " Fri 04 Aug 2017 12:00:08 AM EDT", 
+            "Source RPM": " netresolve-0.0.1-0.19.20160317git.fc27.src.rpm", 
+            "Version": " 0.0.1", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 08:12:00 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 0.19.20160317git.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " DNS backend for netresolve based on aresdns", 
+            "Size": " 14764"
+        }
+    }
+}

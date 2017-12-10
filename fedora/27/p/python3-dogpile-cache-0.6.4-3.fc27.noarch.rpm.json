@@ -1,0 +1,25 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " python3-dogpile-cache", 
+            "License": " BSD", 
+            "URL": " https://pypi.io/project/dogpile.cache", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-29.phx2.fedoraproject.org", 
+            "Description": "\nDogpile consists of two subsystems, one building on top of the other.\n\ndogpile provides the concept of a \"dogpile lock\", a control structure\nwhich allows a single thread of execution to be selected as the\n\"creator\" of some resource, while allowing other threads of execution to\nrefer to the previous version of this resource as the creation proceeds;\nif there is no previous version, then those threads block until the\nobject is available.\n\ndogpile.cache is a caching API which provides a generic interface to\ncaching backends of any variety, and additionally provides API hooks\nwhich integrate these cache backends with the locking mechanism of\ndogpile.\n\nOverall, dogpile.cache is intended as a replacement to the Beaker\ncaching system, the internals of which are written by the same author.\nAll the ideas of Beaker which \"work\" are re- implemented in\ndogpile.cache in a more efficient and succinct manner, and all the cruft\n(Beaker's internals were first written in 2005) relegated to the trash\nheap.\n", 
+            "Build Date": " Fri 28 Jul 2017 12:44:40 PM EDT", 
+            "Source RPM": " python-dogpile-cache-0.6.4-3.fc27.src.rpm", 
+            "Version": " 0.6.4", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Sat 29 Jul 2017 12:56:55 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 3.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A caching front-end based on the Dogpile lock", 
+            "Size": " 400720"
+        }
+    }
+}

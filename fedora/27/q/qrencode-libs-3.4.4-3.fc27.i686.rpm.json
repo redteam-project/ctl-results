@@ -1,0 +1,55 @@
+{
+    "results": {
+        "usr/lib/libqrencode_so_3_4_4": {
+            "report-functions": [
+                "strlen", 
+                "__gmon_start__", 
+                "__stack_chk_fail", 
+                "strdup", 
+                "fwrite", 
+                "memmove", 
+                "free", 
+                "pthread_mutex_unlock", 
+                "__errno_location", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable", 
+                "malloc", 
+                "calloc"
+            ], 
+            "rpm": "qrencode-libs-3.4.4-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libqrencode.so.3.4.4"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " qrencode-libs", 
+            "License": " LGPLv2+", 
+            "URL": " http://fukuchi.org/works/qrencode/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-03.phx2.fedoraproject.org", 
+            "Description": "\nThe qrencode-libs package contains the shared libraries and header files for\napplications that use qrencode.\n", 
+            "Build Date": " Fri 04 Aug 2017 12:02:57 PM EDT", 
+            "Source RPM": " qrencode-3.4.4-3.fc27.src.rpm", 
+            "Version": " 3.4.4", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 05 Aug 2017 09:50:03 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 3.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " QR Code encoding library - Shared libraries", 
+            "Size": " 129845"
+        }
+    }
+}

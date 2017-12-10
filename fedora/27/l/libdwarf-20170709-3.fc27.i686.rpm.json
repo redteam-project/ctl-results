@@ -1,0 +1,82 @@
+{
+    "results": {
+        "usr/lib/libdwarf_so_1_20170709_0": {
+            "report-functions": [
+                "__vsnprintf_chk", 
+                "__snprintf_chk", 
+                "qsort", 
+                "__strcpy_chk", 
+                "__memcpy_chk", 
+                "elf64_getehdr", 
+                "strcat", 
+                "stpcpy", 
+                "abort", 
+                "__printf_chk", 
+                "elf_getident", 
+                "free", 
+                "realloc", 
+                "__gmon_start__", 
+                "elf_end", 
+                "__fxstat", 
+                "elf_getdata", 
+                "__fprintf_chk", 
+                "elf_begin", 
+                "strncmp", 
+                "malloc", 
+                "strcpy", 
+                "elf_getscn", 
+                "fflush", 
+                "elf32_getshdr", 
+                "ctime", 
+                "__sprintf_chk", 
+                "_ITM_deregisterTMCloneTable", 
+                "__stack_chk_fail", 
+                "strncpy", 
+                "elf_version", 
+                "strlen", 
+                "_ITM_registerTMCloneTable", 
+                "fwrite", 
+                "calloc", 
+                "__cxa_finalize", 
+                "elf_strptr", 
+                "memcpy", 
+                "uncompress", 
+                "elf32_getehdr"
+            ], 
+            "rpm": "libdwarf-20170709-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libdwarf.so.1.20170709.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " libdwarf", 
+            "License": " LGPLv2", 
+            "URL": " http://www.prevanders.net/dwarf.html", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-13.phx2.fedoraproject.org", 
+            "Description": "\nLibrary to access the DWARF debugging file format which supports\nsource level debugging of a number of procedural languages, such as C, C++,\nand Fortran.  Please see http://www.dwarfstd.org for DWARF specification.\n", 
+            "Build Date": " Thu 03 Aug 2017 02:05:26 PM EDT", 
+            "Source RPM": " libdwarf-20170709-3.fc27.src.rpm", 
+            "Version": " 20170709", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 07:25:00 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 3.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Library to access the DWARF Debugging file format", 
+            "Size": " 484037"
+        }
+    }
+}

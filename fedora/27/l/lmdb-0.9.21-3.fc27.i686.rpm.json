@@ -1,0 +1,194 @@
+{
+    "results": {
+        "usr/bin/mdb_load": {
+            "report-functions": [
+                "getopt", 
+                "__gmon_start__", 
+                "realloc", 
+                "mdb_cursor_open", 
+                "__errno_location", 
+                "strtol", 
+                "memchr", 
+                "puts", 
+                "__fprintf_chk", 
+                "fgetc", 
+                "free", 
+                "mdb_txn_begin", 
+                "mdb_dbi_close", 
+                "mdb_strerror", 
+                "__stack_chk_fail", 
+                "mdb_dbi_open", 
+                "mdb_env_set_mapsize", 
+                "mdb_env_create", 
+                "malloc", 
+                "fgets", 
+                "mdb_env_open", 
+                "mdb_cursor_put", 
+                "mdb_env_close", 
+                "exit", 
+                "__isoc99_sscanf", 
+                "mdb_env_get_maxkeysize", 
+                "strncmp", 
+                "freopen", 
+                "__ctype_b_loc", 
+                "mdb_env_set_maxdbs", 
+                "__libc_start_main", 
+                "mdb_env_set_maxreaders", 
+                "mdb_txn_commit", 
+                "strlen", 
+                "strdup"
+            ], 
+            "rpm": "lmdb-0.9.21-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/mdb_load"
+        }, 
+        "usr/bin/mdb_stat": {
+            "report-functions": [
+                "mdb_stat", 
+                "memchr", 
+                "exit", 
+                "mdb_reader_list", 
+                "puts", 
+                "mdb_txn_begin", 
+                "getopt", 
+                "mdb_cursor_get", 
+                "malloc", 
+                "fputs", 
+                "mdb_dbi_close", 
+                "mdb_env_create", 
+                "mdb_txn_abort", 
+                "__stack_chk_fail", 
+                "mdb_env_close", 
+                "__fprintf_chk", 
+                "free", 
+                "mdb_env_open", 
+                "mdb_env_stat", 
+                "mdb_cursor_open", 
+                "mdb_env_info", 
+                "__gmon_start__", 
+                "__libc_start_main", 
+                "mdb_cursor_close", 
+                "mdb_reader_check", 
+                "mdb_env_set_maxdbs", 
+                "mdb_strerror"
+            ], 
+            "rpm": "lmdb-0.9.21-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/mdb_stat"
+        }, 
+        "usr/bin/mdb_copy": {
+            "report-functions": [
+                "puts", 
+                "__stack_chk_fail", 
+                "mdb_env_create", 
+                "mdb_env_copyfd2", 
+                "mdb_env_open", 
+                "__gmon_start__", 
+                "mdb_env_copy2", 
+                "mdb_env_close", 
+                "signal", 
+                "mdb_strerror", 
+                "__libc_start_main"
+            ], 
+            "rpm": "lmdb-0.9.21-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/mdb_copy"
+        }, 
+        "usr/bin/mdb_dump": {
+            "report-functions": [
+                "mdb_stat", 
+                "mdb_txn_begin", 
+                "exit", 
+                "free", 
+                "mdb_dbi_close", 
+                "mdb_cursor_get", 
+                "mdb_dbi_open", 
+                "__gmon_start__", 
+                "signal", 
+                "mdb_txn_abort", 
+                "mdb_env_close", 
+                "memchr", 
+                "__errno_location", 
+                "__fprintf_chk", 
+                "mdb_cursor_close", 
+                "__printf_chk", 
+                "mdb_env_open", 
+                "__ctype_b_loc", 
+                "mdb_cursor_open", 
+                "mdb_txn_env", 
+                "getopt", 
+                "mdb_env_set_maxdbs", 
+                "puts", 
+                "__stack_chk_fail", 
+                "mdb_strerror", 
+                "_IO_putc", 
+                "mdb_dbi_flags", 
+                "malloc", 
+                "strerror", 
+                "__libc_start_main", 
+                "mdb_env_info"
+            ], 
+            "rpm": "lmdb-0.9.21-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/mdb_dump"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " lmdb", 
+            "License": " OpenLDAP", 
+            "URL": " http://symas.com/mdb/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-06.phx2.fedoraproject.org", 
+            "Description": "\nLMDB is an ultra-fast, ultra-compact key-value embedded data\nstore developed by Symas for the OpenLDAP Project. By using memory-mapped files,\nit provides the read performance of a pure in-memory database while still\noffering the persistence of standard disk-based databases, and is only limited\nto the size of the virtual address space.\n", 
+            "Build Date": " Thu 03 Aug 2017 06:14:02 PM EDT", 
+            "Source RPM": " lmdb-0.9.21-3.fc27.src.rpm", 
+            "Version": " 0.9.21", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 03:01:32 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 3.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Memory-mapped key-value database", 
+            "Size": " 47070"
+        }
+    }
+}

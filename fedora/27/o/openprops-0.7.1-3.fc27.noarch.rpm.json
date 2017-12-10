@@ -1,0 +1,25 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " openprops", 
+            "License": " GPLv2 with exceptions", 
+            "URL": " https://github.com/zanata/openprops", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-ppc64le-11.ppc.fedoraproject.org", 
+            "Description": "\nOpenProps is a tiny Java library which reads and writes .properties files\nusing the same code as java.util.Properties from the OpenJDK, but enhanced so\nthat it preserves the order of entries within the file, and it also preserves\ncomments in the file.\nThis means that a Properties editor or a file converter written to use\nOpenProps won't have to lose comments or mess up the order of entries.\n\nBy using OpenJDK code, OpenProps should handle all the old corner-cases in\nexactly the same way Java does.  The handling of whitespace and comments is\ntested by a number of JUnit tests.  But please let me know if you find a bug!\n\nNote the following differences from java.util.Properties:\n\n1. preserves comments and the order of entries in the file\n2. storeToXml doesn't use the Sun DTD (or any DTD) because it adds attributes\n   for comments.\n3. equals() and hashCode() won't work the same way as with java.util.Properties,\n   because they are no longer inherited from Hashtable.\n   All you get is identity equality/hashcode.\n\nAlso note that any header comment in the .properties file will be interpreted as\na comment attached to the first message.\n", 
+            "Build Date": " Thu 27 Jul 2017 11:40:58 PM EDT", 
+            "Source RPM": " openprops-0.7.1-3.fc27.src.rpm", 
+            "Version": " 0.7.1", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Fri 28 Jul 2017 04:28:18 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 3.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " An improved java.util.Properties from OpenJDK", 
+            "Size": " 193776"
+        }
+    }
+}

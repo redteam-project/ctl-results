@@ -1,0 +1,62 @@
+{
+    "results": {
+        "usr/lib/nx/libNX_Xfixes_so_3_0": {
+            "report-functions": [
+                "_XEatData", 
+                "XFree", 
+                "malloc", 
+                "XESetCloseDisplay", 
+                "__stack_chk_fail", 
+                "XESetWireToEvent", 
+                "_XSetLastRequestRead", 
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable", 
+                "XAddExtension", 
+                "_XReply", 
+                "_ITM_deregisterTMCloneTable", 
+                "memmove", 
+                "XInitExtension", 
+                "XESetEventToWire", 
+                "_XFlush", 
+                "strlen", 
+                "free", 
+                "_XReadPad", 
+                "_XSend"
+            ], 
+            "rpm": "libNX_Xfixes-3.5.0.32-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/nx/libNX_Xfixes.so.3.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " libNX_Xfixes", 
+            "License": " GPLv2+", 
+            "URL": " http://x2go.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-03.phx2.fedoraproject.org", 
+            "Description": "\nThe X Fixes extension provides applications with work-arounds for\nvarious limitations in the core protocol.\n", 
+            "Build Date": " Fri 04 Aug 2017 01:07:53 AM EDT", 
+            "Source RPM": " nx-libs-3.5.0.32-8.fc27.src.rpm", 
+            "Version": " 3.5.0.32", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 09:09:44 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 8.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " NX miscellaneous \"fixes\" extension library", 
+            "Size": " 22872"
+        }
+    }
+}

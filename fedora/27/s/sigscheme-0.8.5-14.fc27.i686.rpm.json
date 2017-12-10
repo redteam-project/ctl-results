@@ -1,0 +1,119 @@
+{
+    "results": {
+        "usr/bin/sscm": {
+            "report-functions": [
+                "scm_s_srfi34_guard", 
+                "scm_set_lib_path", 
+                "scm_make_cons", 
+                "scm_port_puts", 
+                "scm_symbol_value", 
+                "__libc_start_main", 
+                "scm_intern", 
+                "__cxa_finalize", 
+                "scm_eval", 
+                "scm_call_with_gc_ready_stack", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "scm_load", 
+                "scm_initialize", 
+                "__stack_chk_fail", 
+                "scm_plain_error", 
+                "scm_finalize", 
+                "scm_require_module", 
+                "getcwd"
+            ], 
+            "rpm": "sigscheme-0.8.5-14.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/sscm"
+        }, 
+        "usr/lib/libsscm_so_3_0_1": {
+            "report-functions": [
+                "__longjmp_chk", 
+                "_ITM_deregisterTMCloneTable", 
+                "fputc", 
+                "strcpy", 
+                "__stack_chk_fail", 
+                "strspn", 
+                "ungetc", 
+                "free", 
+                "__sigsetjmp", 
+                "__sprintf_chk", 
+                "memmove", 
+                "GCROOTS_init", 
+                "GCROOTS_is_protected", 
+                "GCROOTS_fin", 
+                "_ITM_registerTMCloneTable", 
+                "fflush", 
+                "strcspn", 
+                "GCROOTS_mark", 
+                "ferror", 
+                "strcasecmp", 
+                "exit", 
+                "strtol", 
+                "__gmon_start__", 
+                "fputs", 
+                "fopen", 
+                "abort", 
+                "strdup", 
+                "__cxa_finalize", 
+                "strncpy", 
+                "realloc", 
+                "fwrite", 
+                "fileno", 
+                "malloc", 
+                "calloc", 
+                "__fprintf_chk", 
+                "strlen", 
+                "strcmp", 
+                "__errno_location", 
+                "fclose", 
+                "GCROOTS_call_with_gc_ready_stack", 
+                "fgetc", 
+                "clearerr"
+            ], 
+            "rpm": "sigscheme-0.8.5-14.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libsscm.so.3.0.1"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Languages", 
+            "Name": " sigscheme", 
+            "License": " BSD", 
+            "URL": " http://code.google.com/p/sigscheme/wiki/SigScheme", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-06.phx2.fedoraproject.org", 
+            "Description": "\nsigscheme is a R5RS Scheme interpreter that features small footprint,\nlow memory consumption, multibytes characters handling and more.\n", 
+            "Build Date": " Fri 04 Aug 2017 04:10:22 PM EDT", 
+            "Source RPM": " sigscheme-0.8.5-14.fc27.src.rpm", 
+            "Version": " 0.8.5", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 05 Aug 2017 03:24:40 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 14.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " R5RS Scheme interpreter for embedded use", 
+            "Size": " 1659131"
+        }
+    }
+}

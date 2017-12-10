@@ -1,0 +1,67 @@
+{
+    "results": {
+        "usr/lib/libpoly2tri_so_1_0": {
+            "report-functions": [
+                "_ZNSt13runtime_errorC1EPKc", 
+                "_ZdlPvj", 
+                "_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_i", 
+                "_ZSt16__throw_bad_castv", 
+                "__cxa_finalize", 
+                "_ZNSt8ios_base4InitC1Ev", 
+                "__stack_chk_fail", 
+                "_Unwind_Resume", 
+                "memmove", 
+                "_ITM_deregisterTMCloneTable", 
+                "_Znwj", 
+                "_ZNSt13runtime_errorD1Ev", 
+                "_ZdlPv", 
+                "__assert_fail", 
+                "_ZNSo5flushEv", 
+                "_ZNSt8__detail15_List_node_base7_M_hookEPS0_", 
+                "_ZNSt8__detail15_List_node_base9_M_unhookEv", 
+                "_ZSt17__throw_bad_allocv", 
+                "_ZNSt8ios_base4InitD1Ev", 
+                "__cxa_atexit", 
+                "_ZNSo9_M_insertIdEERSoT_", 
+                "_ZNKSt5ctypeIcE13_M_widen_initEv", 
+                "atan2", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "poly2tri-0.0-14.20130501hg26242d0aa7b8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libpoly2tri.so.1.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " poly2tri", 
+            "License": " BSD", 
+            "URL": " https://code.google.com/p/poly2tri", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-12.phx2.fedoraproject.org", 
+            "Description": "\nLibrary based on the paper \"Sweep-line algorithm for constrained Delaunay\ntriangulation\" by V. Domiter and and B. Zalik.\n", 
+            "Build Date": " Fri 04 Aug 2017 07:19:52 AM EDT", 
+            "Source RPM": " poly2tri-0.0-14.20130501hg26242d0aa7b8.fc27.src.rpm", 
+            "Version": " 0.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 05 Aug 2017 04:01:04 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 14.20130501hg26242d0aa7b8.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A 2D constrained Delaunay triangulation library", 
+            "Size": " 51956"
+        }
+    }
+}

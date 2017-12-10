@@ -1,0 +1,25 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " xmlstreambuffer", 
+            "License": " CDDL or GPLv2 with exceptions", 
+            "URL": " http://java.net/projects/xmlstreambuffer/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-aarch64-12.arm.fedoraproject.org", 
+            "Description": "\nA stream buffer is a stream-based representation of an XML\ninfo-set in Java. Stream buffers are designed to: provide\nvery efficient stream-based memory representations of XML\ninfo-sets; and be created and processed using any Java-based\nXML API.\nConceptually a stream buffer is similar to the representation\nused in the Xerces deferred DOM implementation, with the crucial\ndifference that a stream buffer does not store hierarchical\ninformation like parent and sibling information. The deferred\nDOM implementation reduces memory usage when large XML documents\nare parsed but only a subset of the document needs to be processed.\n(Note that using deferred DOM will be more expensive than\nnon-deferred DOM in terms of memory and processing if all\nthe document is traversed.)\nStream buffers may be used as an efficient alternative to DOM where:\n* most or all of an XML info-set will eventually get traversed; and/or\n* targeted access to certain parts of an XML info-set are required\n and need to be efficiently processed using stream-based APIs like\n SAX or StAX.\n", 
+            "Build Date": " Fri 28 Jul 2017 06:52:36 AM EDT", 
+            "Source RPM": " xmlstreambuffer-1.5.4-6.fc27.src.rpm", 
+            "Version": " 1.5.4", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Fri 28 Jul 2017 05:08:30 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 6.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " XML Stream Buffer", 
+            "Size": " 115814"
+        }
+    }
+}

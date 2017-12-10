@@ -1,0 +1,192 @@
+{
+    "results": {
+        "usr/lib64/python2_7/site-packages/elfdata-0_6-py2_7_egg-info": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/elfdata-0.6-py2.7.egg-info", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python-elfdata-0.6-7.fc27.x86_64.rpm"
+        }, 
+        "python-elfdata-0_6-7_fc27_x86_64_rpm": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "python-elfdata-0.6-7.fc27.x86_64.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python-elfdata-0.6-7.fc27.x86_64.rpm"
+        }, 
+        "usr/share/doc/python-elfdata/COPYING": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/share/doc/python-elfdata/COPYING", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python-elfdata-0.6-7.fc27.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/elfdata_so": {
+            "find-libc-functions": [
+                "GI___obstack_vprintf", 
+                "GI___vasprintf", 
+                "GI___vdprintf", 
+                "GI___vfprintf", 
+                "GI___vfwprintf", 
+                "GI___vsnprintf", 
+                "GI___vsprintf", 
+                "GI___vswprintf", 
+                "GI___vsyslog", 
+                "__longjmp", 
+                "_fprintf", 
+                "_printf", 
+                "_snprintf", 
+                "_sprintf", 
+                "_vfprintf", 
+                "_vprintf", 
+                "_vsnprintf", 
+                "_vsprintf", 
+                "asprintf", 
+                "confstr", 
+                "dprintf", 
+                "explicit_bzero", 
+                "fdelt", 
+                "fgets", 
+                "fgets_unlocked", 
+                "fgetws", 
+                "fgetws_unlocked", 
+                "fprintf", 
+                "fread", 
+                "fread_unlocked", 
+                "fwprintf", 
+                "getcwd", 
+                "getdomainname", 
+                "getgroups", 
+                "gethostname", 
+                "getlogin_r", 
+                "gets", 
+                "getwd", 
+                "longjmp", 
+                "mbsnrtowcs", 
+                "mbsrtowcs", 
+                "mbstowcs", 
+                "memcpy", 
+                "memmove", 
+                "mempcpy", 
+                "memset", 
+                "obstack_printf", 
+                "obstack_vprintf", 
+                "poll", 
+                "ppoll", 
+                "pread64", 
+                "pread", 
+                "printf", 
+                "ptsname_r", 
+                "read", 
+                "readlink", 
+                "readlinkat", 
+                "realpath", 
+                "recv", 
+                "recvfrom", 
+                "snprintf", 
+                "sprintf", 
+                "stpcpy", 
+                "stpncpy", 
+                "strcat", 
+                "strcpy", 
+                "strncat", 
+                "strncpy", 
+                "swprintf", 
+                "syslog", 
+                "ttyname_r", 
+                "vasprintf", 
+                "vdprintf", 
+                "vfprintf", 
+                "vfwprintf", 
+                "vprintf", 
+                "vsnprintf", 
+                "vsprintf", 
+                "vswprintf", 
+                "vsyslog", 
+                "vwprintf", 
+                "wcpcpy", 
+                "wcpncpy", 
+                "wcrtomb", 
+                "wcscat", 
+                "wcscpy", 
+                "wcsncat", 
+                "wcsncpy", 
+                "wcsnrtombs", 
+                "wcsrtombs", 
+                "wcstombs", 
+                "wctomb", 
+                "wmemcpy", 
+                "wmemmove", 
+                "wmempcpy", 
+                "wmemset", 
+                "wprintf"
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/elfdata.so", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "dwelf_elf_gnu_build_id", 
+                "__stack_chk_fail", 
+                "elf_begin", 
+                "Py_InitModule4_64", 
+                "elf_version", 
+                "open64", 
+                "close", 
+                "PyString_FromString", 
+                "__strcat_chk", 
+                "__sprintf_chk", 
+                "__cxa_finalize", 
+                "__gmon_start__", 
+                "PyArg_ParseTuple", 
+                "elf_end"
+            ], 
+            "rpm": "python-elfdata-0.6-7.fc27.x86_64.rpm"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Languages", 
+            "Name": " python-elfdata", 
+            "License": " GPLv2", 
+            "URL": " https://github.com/kushaldas/elfdata", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-16.phx2.fedoraproject.org", 
+            "Description": "\nPython wrapper to get ELF data.\n", 
+            "Build Date": " Fri 04 Aug 2017 09:45:27 AM EDT", 
+            "Source RPM": " python-elfdata-0.6-7.fc27.src.rpm", 
+            "Version": " 0.6", 
+            "Architecture": " x86_64", 
+            "Signature": " RSA/SHA256, Sat 05 Aug 2017 06:39:46 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 7.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Python wrapper to get ELF data", 
+            "Size": " 29300"
+        }
+    }
+}

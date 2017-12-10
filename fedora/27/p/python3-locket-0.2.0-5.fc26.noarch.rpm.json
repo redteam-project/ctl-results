@@ -1,0 +1,25 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " python3-locket", 
+            "License": " BSD", 
+            "URL": " http://github.com/mwilliamson/locket.py/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-21.phx2.fedoraproject.org", 
+            "Description": "\nLocket implements a lock that can be used by multiple processes provided they\nuse the same path.\n\nLocks largely behave as (non-reentrant) Lock instances from the threading\nmodule in the standard library. Specifically, their behaviour is:\n\n * Locks are uniquely identified by the file being locked, both in the same\n   process and across different processes.\n * Locks are either in a locked or unlocked state.\n * When the lock is unlocked, calling acquire() returns immediately and\n   changes the lock state to locked.\n * When the lock is locked, calling acquire() will block until the lock state\n   changes to unlocked, or until the timeout expires.\n * If a process holds a lock, any thread in that process can call release()\n   to change the state to unlocked.\n * Behaviour of locks after fork is undefined.\n", 
+            "Build Date": " Sat 11 Feb 2017 02:36:54 PM EST", 
+            "Source RPM": " python-locket-0.2.0-5.fc26.src.rpm", 
+            "Version": " 0.2.0", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Sat 25 Feb 2017 11:18:13 AM EST, Key ID f55e7430f5282ee4", 
+            "Release": " 5.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " File-based locks for Python for Linux and Windows", 
+            "Size": " 20046"
+        }
+    }
+}

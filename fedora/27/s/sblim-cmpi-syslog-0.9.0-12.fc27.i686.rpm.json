@@ -1,0 +1,474 @@
+{
+    "results": {
+        "usr/lib/cmpi/libsyslogserviceutil_so_0_0_0": {
+            "report-functions": [
+                "fopen", 
+                "fgets", 
+                "strdup", 
+                "malloc", 
+                "__isoc99_sscanf", 
+                "tmpnam", 
+                "__stack_chk_fail", 
+                "system", 
+                "remove", 
+                "__sprintf_chk", 
+                "fclose"
+            ], 
+            "rpm": "sblim-cmpi-syslog-0.9.0-12.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/cmpi/libsyslogserviceutil.so.0.0.0"
+        }, 
+        "usr/lib/cmpi/libsysloglogutil_so_0_0_0": {
+            "report-functions": [
+                "__ctype_b_loc", 
+                "fclose", 
+                "remove", 
+                "timeformat", 
+                "fgets", 
+                "__isoc99_fscanf", 
+                "tmpnam", 
+                "getyear", 
+                "fopen", 
+                "calloc", 
+                "system", 
+                "strtok", 
+                "pclose", 
+                "malloc", 
+                "free", 
+                "strncpy", 
+                "popen", 
+                "strdup", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "sblim-cmpi-syslog-0.9.0-12.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/cmpi/libsysloglogutil.so.0.0.0"
+        }, 
+        "usr/lib/cmpi/libsyslogconfutil_so_0_0_0": {
+            "report-functions": [
+                "__isoc99_sscanf", 
+                "mkstemp", 
+                "remove", 
+                "__stack_chk_fail", 
+                "__snprintf_chk", 
+                "system", 
+                "unlink", 
+                "strcmp", 
+                "calloc", 
+                "fopen", 
+                "fdopen", 
+                "free", 
+                "fclose", 
+                "strncpy", 
+                "setting_read", 
+                "strlen"
+            ], 
+            "rpm": "sblim-cmpi-syslog-0.9.0-12.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/cmpi/libsyslogconfutil.so.0.0.0"
+        }, 
+        "usr/lib/cmpi/libSyslog_Configuration_so": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "Syslog_Conf_Next_Enum", 
+                "makeConfInstance", 
+                "__gmon_start__", 
+                "Syslog_Conf_End_Enum", 
+                "Syslog_Conf_Begin_Enum", 
+                "__stack_chk_fail", 
+                "makeConfPath"
+            ], 
+            "rpm": "sblim-cmpi-syslog-0.9.0-12.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/cmpi/libSyslog_Configuration.so"
+        }, 
+        "usr/lib/cmpi/libSyslog_Service_so": {
+            "report-functions": [
+                "__gmon_start__", 
+                "Syslog_Service_Operation", 
+                "Syslog_Service_End_Enum", 
+                "_ITM_deregisterTMCloneTable", 
+                "makeServicePath", 
+                "Syslog_Service_Begin_Enum", 
+                "__cxa_finalize", 
+                "Syslog_Service_Next_Enum", 
+                "__stack_chk_fail", 
+                "makeServiceInstance"
+            ], 
+            "rpm": "sblim-cmpi-syslog-0.9.0-12.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/cmpi/libSyslog_Service.so"
+        }, 
+        "usr/lib/cmpi/libSyslog_ConfUtils_so_0_0_0": {
+            "report-functions": [], 
+            "rpm": "sblim-cmpi-syslog-0.9.0-12.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/cmpi/libSyslog_ConfUtils.so.0.0.0"
+        }, 
+        "usr/lib/cmpi/libsyslogtimeparse_so_0_0_0": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "__strcpy_chk", 
+                "strcat", 
+                "time", 
+                "strtok", 
+                "__stpcpy_chk", 
+                "strcpy", 
+                "stpcpy", 
+                "__snprintf_chk", 
+                "free", 
+                "strcmp", 
+                "strtol", 
+                "localtime", 
+                "strdup", 
+                "strlen"
+            ], 
+            "rpm": "sblim-cmpi-syslog-0.9.0-12.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/cmpi/libsyslogtimeparse.so.0.0.0"
+        }, 
+        "usr/lib/cmpi/libSyslog_MessageLog_so": {
+            "report-functions": [
+                "makeMessageLogPath", 
+                "releaseMsgLogBuf", 
+                "strdup", 
+                "_ITM_deregisterTMCloneTable", 
+                "makeMessageLogInstance", 
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "Syslog_MessageLog_Begin_Enum", 
+                "Syslog_MessageLog_End_Enum", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "sblim-cmpi-syslog-0.9.0-12.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/cmpi/libSyslog_MessageLog.so"
+        }, 
+        "usr/lib/cmpi/libSyslog_LogUtils_so_0_0_0": {
+            "report-functions": [], 
+            "rpm": "sblim-cmpi-syslog-0.9.0-12.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/cmpi/libSyslog_LogUtils.so.0.0.0"
+        }, 
+        "usr/lib/cmpi/libSyslog_Setting_so": {
+            "report-functions": [
+                "makeSettingPath", 
+                "makeSettingInstance", 
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "setting_parse", 
+                "_ITM_registerTMCloneTable", 
+                "Syslog_Setting_Next_Enum", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize", 
+                "Syslog_Setting_End_Enum"
+            ], 
+            "rpm": "sblim-cmpi-syslog-0.9.0-12.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/cmpi/libSyslog_Setting.so"
+        }, 
+        "usr/lib/cmpi/libSyslog_RecordInLog_so": {
+            "report-functions": [
+                "__stpcpy_chk", 
+                "releaseLogRecBuf", 
+                "makeMessageLogInstance", 
+                "strdup", 
+                "makeLogRecordPath", 
+                "_ITM_registerTMCloneTable", 
+                "releaseMsgLogBuf", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "Syslog_LogRecord_End_Enum", 
+                "makeMessageLogPath", 
+                "__sprintf_chk", 
+                "makeLogRecordInstance", 
+                "Syslog_LogRecord_Begin_Enum", 
+                "__stack_chk_fail", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "sblim-cmpi-syslog-0.9.0-12.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/cmpi/libSyslog_RecordInLog.so"
+        }, 
+        "usr/lib/cmpi/libSyslog_SettingContext_so": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "__sprintf_chk", 
+                "Syslog_Conf_Begin_Enum", 
+                "makeConfInstance", 
+                "__cxa_finalize", 
+                "Syslog_Conf_Next_Enum", 
+                "_ITM_registerTMCloneTable", 
+                "makeSettingInstance", 
+                "makeConfPath", 
+                "makeSettingPath", 
+                "__gmon_start__", 
+                "Syslog_Conf_End_Enum", 
+                "Syslog_Setting_Begin_Enum", 
+                "Syslog_Setting_Next_Enum", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "sblim-cmpi-syslog-0.9.0-12.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/cmpi/libSyslog_SettingContext.so"
+        }, 
+        "usr/lib/cmpi/libSyslog_ServiceUtils_so_0_0_0": {
+            "report-functions": [], 
+            "rpm": "sblim-cmpi-syslog-0.9.0-12.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/cmpi/libSyslog_ServiceUtils.so.0.0.0"
+        }, 
+        "usr/lib/cmpi/libSyslog_ServiceProcess_so": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "strtol", 
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "makeServicePath", 
+                "Syslog_Service_Begin_Enum", 
+                "makeServiceInstance", 
+                "_ITM_deregisterTMCloneTable", 
+                "__sprintf_chk", 
+                "_ITM_registerTMCloneTable", 
+                "Syslog_Service_End_Enum"
+            ], 
+            "rpm": "sblim-cmpi-syslog-0.9.0-12.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/cmpi/libSyslog_ServiceProcess.so"
+        }, 
+        "usr/lib/cmpi/libsyslogsettingparse_so_0_0_0": {
+            "report-functions": [
+                "fclose", 
+                "strchr", 
+                "fgets", 
+                "pclose", 
+                "strncpy", 
+                "glob", 
+                "kill", 
+                "__strcat_chk", 
+                "strtol", 
+                "fopen", 
+                "fputs", 
+                "rename", 
+                "unlink", 
+                "popen", 
+                "__stpcpy_chk", 
+                "free", 
+                "__errno_location", 
+                "__sprintf_chk", 
+                "open", 
+                "write", 
+                "strcmp", 
+                "read", 
+                "__stack_chk_fail", 
+                "fputc", 
+                "chomp", 
+                "strstr", 
+                "strncmp", 
+                "strncasecmp", 
+                "strtok", 
+                "mktemp", 
+                "strdup", 
+                "globfree", 
+                "malloc", 
+                "strlen", 
+                "__ctype_b_loc", 
+                "calloc", 
+                "strcpy", 
+                "__snprintf_chk"
+            ], 
+            "rpm": "sblim-cmpi-syslog-0.9.0-12.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/cmpi/libsyslogsettingparse.so.0.0.0"
+        }, 
+        "usr/lib/cmpi/libSyslog_LogRecord_so": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "Syslog_MessageLog_Next_Enum", 
+                "__stack_chk_fail", 
+                "makeLogRecordPath", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "strncmp", 
+                "Syslog_LogRecord_End_Enum", 
+                "releaseLogRecBuf", 
+                "Syslog_MessageLog_End_Enum", 
+                "Syslog_LogRecord_Begin_Enum", 
+                "releaseMsgLogBuf", 
+                "Syslog_MessageLog_Begin_Enum", 
+                "strdup", 
+                "makeLogRecordInstance", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "sblim-cmpi-syslog-0.9.0-12.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/cmpi/libSyslog_LogRecord.so"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Applications/System", 
+            "Name": " sblim-cmpi-syslog", 
+            "License": " EPL", 
+            "URL": " http://sourceforge.net/projects/sblim/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-26.phx2.fedoraproject.org", 
+            "Description": "\nStandards Based Linux Instrumentation Syslog Providers\n", 
+            "Build Date": " Fri 04 Aug 2017 02:46:17 PM EDT", 
+            "Source RPM": " sblim-cmpi-syslog-0.9.0-12.fc27.src.rpm", 
+            "Version": " 0.9.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 05 Aug 2017 02:12:46 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 12.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " SBLIM syslog instrumentation", 
+            "Size": " 197071"
+        }
+    }
+}

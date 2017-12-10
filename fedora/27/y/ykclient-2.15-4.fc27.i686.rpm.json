@@ -1,0 +1,121 @@
+{
+    "results": {
+        "usr/lib/libykclient_so_3_6_0": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "calloc", 
+                "curl_free", 
+                "curl_easy_cleanup", 
+                "__fprintf_chk", 
+                "curl_multi_cleanup", 
+                "curl_easy_escape", 
+                "curl_multi_timeout", 
+                "_ITM_deregisterTMCloneTable", 
+                "curl_multi_add_handle", 
+                "curl_global_init", 
+                "strdup", 
+                "strspn", 
+                "curl_multi_strerror", 
+                "strcmp", 
+                "curl_global_cleanup", 
+                "__gmon_start__", 
+                "curl_multi_perform", 
+                "srandom", 
+                "__stack_chk_fail", 
+                "__isoc99_sscanf", 
+                "curl_easy_setopt", 
+                "free", 
+                "curl_easy_init", 
+                "curl_multi_remove_handle", 
+                "memcmp", 
+                "curl_easy_getinfo", 
+                "select", 
+                "curl_multi_info_read", 
+                "random", 
+                "_ITM_registerTMCloneTable", 
+                "strncmp", 
+                "curl_multi_init", 
+                "curl_multi_fdset", 
+                "strstr", 
+                "strncpy", 
+                "gettimeofday", 
+                "__snprintf_chk", 
+                "strlen", 
+                "malloc", 
+                "strcspn"
+            ], 
+            "rpm": "ykclient-2.15-4.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libykclient.so.3.6.0"
+        }, 
+        "usr/bin/ykclient": {
+            "report-functions": [
+                "__gmon_start__", 
+                "puts", 
+                "ykclient_get_last_url", 
+                "ykclient_set_ca_path", 
+                "__printf_chk", 
+                "__libc_start_main", 
+                "__fprintf_chk", 
+                "_ITM_registerTMCloneTable", 
+                "ykclient_get_server_response", 
+                "exit", 
+                "__stack_chk_fail", 
+                "ykclient_verify_otp_v2", 
+                "ykclient_strerror", 
+                "strtoul", 
+                "ykclient_done", 
+                "__cxa_finalize", 
+                "ykclient_set_proxy", 
+                "strncmp", 
+                "ykclient_init", 
+                "ykclient_set_ca_info", 
+                "getopt_long", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "ykclient-2.15-4.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/ykclient"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Applications/System", 
+            "Name": " ykclient", 
+            "License": " BSD", 
+            "URL": " http://opensource.yubico.com/yubico-c-client/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-15.phx2.fedoraproject.org", 
+            "Description": "\ncommandline for yubikeys\n", 
+            "Build Date": " Sat 05 Aug 2017 02:56:38 AM EDT", 
+            "Source RPM": " ykclient-2.15-4.fc27.src.rpm", 
+            "Version": " 2.15", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sun 06 Aug 2017 01:50:01 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 4.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Yubikey management library and client", 
+            "Size": " 61196"
+        }
+    }
+}

@@ -1,0 +1,93 @@
+{
+    "results": {
+        "usr/lib/libdrmaa_so_0_0_0": {
+            "report-functions": [
+                "__snprintf_chk", 
+                "_Z19drmaa_attrib_lookupPKcj", 
+                "sscanf", 
+                "fwrite", 
+                "_Z15pbs_statjob_erriPcP5attrlS_Pi", 
+                "pbs_disconnect", 
+                "calloc", 
+                "__assert_fail", 
+                "pbs_submit", 
+                "free", 
+                "pbs_holdjob", 
+                "pbs_sigjob", 
+                "strtol", 
+                "_Z17pbs_attrib_lookupPKcj", 
+                "malloc", 
+                "write", 
+                "_Jv_RegisterClasses", 
+                "fflush", 
+                "pbs_statfree", 
+                "strchr", 
+                "pbs_connect", 
+                "strstr", 
+                "realloc", 
+                "_ITM_registerTMCloneTable", 
+                "strcpy", 
+                "getenv", 
+                "__asprintf_chk", 
+                "__vasprintf_chk", 
+                "pthread_mutex_unlock", 
+                "__cxa_finalize", 
+                "__cxa_guard_acquire", 
+                "gethostname", 
+                "strlen", 
+                "__gmon_start__", 
+                "unlink", 
+                "strdup", 
+                "pthread_mutex_init", 
+                "__stack_chk_fail", 
+                "strcmp", 
+                "_ITM_deregisterTMCloneTable", 
+                "time", 
+                "sleep", 
+                "pthread_mutex_lock", 
+                "pbs_deljob", 
+                "close", 
+                "__sprintf_chk", 
+                "pthread_mutex_destroy", 
+                "__errno_location", 
+                "__cxa_guard_release", 
+                "pbs_rlsjob", 
+                "getpid"
+            ], 
+            "rpm": "torque-drmaa-4.2.10-10.fc25.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libdrmaa.so.0.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Daemons", 
+            "Name": " torque-drmaa", 
+            "License": " OpenPBS and TORQUEv1.1", 
+            "URL": " http://www.adaptivecomputing.com/products/open-source/torque/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-24.phx2.fedoraproject.org", 
+            "Description": "\nTORQUE (Tera-scale Open-source Resource and QUEue manager) is a resource\nmanager providing control over batch jobs and distributed compute nodes.\nTORQUE is based on OpenPBS version 2.3.12 and incorporates scalability,\nfault tolerance, and feature extension patches provided by USC, NCSA, OSC,\nthe U.S. Dept of Energy, Sandia, PNNL, U of Buffalo, TeraGrid, and many\nother leading edge HPC organizations.\n\nRun time files for working the DRMAA interface to torque.\nDRMAA is \"Distributed Resource Management Application API\"\n", 
+            "Build Date": " Sat 09 Apr 2016 09:08:11 AM EDT", 
+            "Source RPM": " torque-4.2.10-10.fc25.src.rpm", 
+            "Version": " 4.2.10", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 28 Feb 2017 12:30:44 AM EST, Key ID f55e7430f5282ee4", 
+            "Release": " 10.fc25", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Run time files for the drmaa interface", 
+            "Size": " 47668"
+        }
+    }
+}

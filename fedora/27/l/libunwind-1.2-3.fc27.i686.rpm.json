@@ -1,0 +1,136 @@
+{
+    "results": {
+        "usr/lib/libunwind_so_8_0_1": {
+            "report-functions": [
+                "setcontext", 
+                "pthread_mutex_init", 
+                "munmap", 
+                "pthread_mutex_unlock", 
+                "mmap", 
+                "sigprocmask", 
+                "read", 
+                "pthread_mutex_lock", 
+                "memset", 
+                "close", 
+                "dl_iterate_phdr", 
+                "mincore", 
+                "strlen", 
+                "free", 
+                "strncpy", 
+                "open", 
+                "sigfillset", 
+                "__fxstat", 
+                "__stack_chk_fail", 
+                "abort", 
+                "memmove", 
+                "sigreturn"
+            ], 
+            "rpm": "libunwind-1.2-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libunwind.so.8.0.1"
+        }, 
+        "usr/lib/libunwind-x86_so_8_0_1": {
+            "report-functions": [
+                "free", 
+                "mincore", 
+                "munmap", 
+                "memset", 
+                "close", 
+                "dl_iterate_phdr", 
+                "abort", 
+                "getpid", 
+                "setcontext", 
+                "sigprocmask", 
+                "read", 
+                "strlen", 
+                "pthread_mutex_init", 
+                "sigfillset", 
+                "open", 
+                "pthread_mutex_lock", 
+                "strncpy", 
+                "calloc", 
+                "_U_dyn_info_list_addr", 
+                "memmove", 
+                "sigreturn", 
+                "mmap", 
+                "pthread_mutex_unlock", 
+                "getpagesize"
+            ], 
+            "rpm": "libunwind-1.2-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libunwind-x86.so.8.0.1"
+        }, 
+        "usr/lib/libunwind-coredump_so_0_0_0": {
+            "report-functions": [
+                "_Ux86_dwarf_search_unwind_table", 
+                "_Ux86_get_elf_image", 
+                "calloc", 
+                "read", 
+                "mmap", 
+                "strncpy", 
+                "munmap", 
+                "strdup", 
+                "free", 
+                "open", 
+                "write", 
+                "__stack_chk_fail", 
+                "__fxstat", 
+                "_Ux86_dwarf_find_unwind_table", 
+                "strlen", 
+                "close"
+            ], 
+            "rpm": "libunwind-1.2-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libunwind-coredump.so.0.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Debuggers", 
+            "Name": " libunwind", 
+            "License": " BSD", 
+            "URL": " http://savannah.nongnu.org/projects/libunwind", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-02.phx2.fedoraproject.org", 
+            "Description": "\nLibunwind provides a C ABI to determine the call-chain of a program.\n", 
+            "Build Date": " Thu 03 Aug 2017 04:36:05 PM EDT", 
+            "Source RPM": " libunwind-1.2-3.fc27.src.rpm", 
+            "Version": " 1.2", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 03 Aug 2017 11:40:20 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 3.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " An unwinding library", 
+            "Size": " 138549"
+        }
+    }
+}

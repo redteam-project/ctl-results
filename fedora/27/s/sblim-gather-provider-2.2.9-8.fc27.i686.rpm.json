@@ -1,0 +1,767 @@
+{
+    "results": {
+        "usr/lib/gather/cplug/libcimplugKvm_so": {
+            "report-functions": [
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "strdup", 
+                "calloc", 
+                "_ITM_registerTMCloneTable", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "sblim-gather-provider-2.2.9-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/gather/cplug/libcimplugKvm.so"
+        }, 
+        "usr/lib/libOSBase_MetricUtil_so_0_0_0": {
+            "report-functions": [
+                "__sprintf_chk", 
+                "MWriteUnlock", 
+                "realloc", 
+                "dlsym", 
+                "__strcpy_chk", 
+                "MWriteLock", 
+                "strcpy", 
+                "rrepos_status", 
+                "strdup", 
+                "rreposplugin_list", 
+                "ch_release", 
+                "dlerror", 
+                "memmove", 
+                "_ITM_deregisterTMCloneTable", 
+                "strlen", 
+                "strcmp", 
+                "dlopen", 
+                "_ITM_registerTMCloneTable", 
+                "ch_init", 
+                "MReadLock", 
+                "__stack_chk_fail", 
+                "strncasecmp", 
+                "__cxa_finalize", 
+                "strchr", 
+                "strstr", 
+                "dlclose", 
+                "malloc", 
+                "_osbase_trace", 
+                "free", 
+                "_format_trace", 
+                "__gmon_start__", 
+                "__strncat_chk", 
+                "MReadUnlock", 
+                "strcasecmp"
+            ], 
+            "rpm": "sblim-gather-provider-2.2.9-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libOSBase_MetricUtil.so.0.0.0"
+        }, 
+        "usr/lib/cmpi/libOSBase_MetricElementConformsToProfileProvider_so": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "sblim-gather-provider-2.2.9-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/cmpi/libOSBase_MetricElementConformsToProfileProvider.so"
+        }, 
+        "usr/lib/cmpi/libOSBase_MetricGathererProvider_so": {
+            "report-functions": [
+                "rgather_stop", 
+                "strcasecmp", 
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "rgather_terminate", 
+                "__stack_chk_fail", 
+                "rgather_load", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable", 
+                "sleep", 
+                "rmetricplugin_add", 
+                "rgather_status"
+            ], 
+            "rpm": "sblim-gather-provider-2.2.9-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/cmpi/libOSBase_MetricGathererProvider.so"
+        }, 
+        "usr/lib/cmpi/libOSBase_MetricLifeCycleProvider_so": {
+            "report-functions": [
+                "pthread_mutex_unlock", 
+                "makeMetricDefIdFromCache", 
+                "rrepos_unsubscribe", 
+                "calloc", 
+                "rrepos_subscribe", 
+                "strdup", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable", 
+                "pthread_once", 
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "pthread_mutex_lock", 
+                "free", 
+                "pthread_setspecific", 
+                "makeMetricValueInst", 
+                "strstr", 
+                "pthread_key_create", 
+                "__fprintf_chk", 
+                "pthread_getspecific"
+            ], 
+            "rpm": "sblim-gather-provider-2.2.9-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/cmpi/libOSBase_MetricLifeCycleProvider.so"
+        }, 
+        "usr/lib/gather/cplug/libcimplugUnixProcess_so": {
+            "report-functions": [
+                "free", 
+                "__stack_chk_fail", 
+                "__cxa_finalize", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "calloc", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "sblim-gather-provider-2.2.9-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/gather/cplug/libcimplugUnixProcess.so"
+        }, 
+        "usr/lib/gather/cplug/libcimplugLocalFileSystem_so": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "__sprintf_chk", 
+                "calloc", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize", 
+                "strchr", 
+                "strlen", 
+                "strdup", 
+                "free", 
+                "strcasecmp", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "sblim-gather-provider-2.2.9-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/gather/cplug/libcimplugLocalFileSystem.so"
+        }, 
+        "usr/lib/cmpi/libOSBase_MetricRegisteredProfileProvider_so": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "sblim-gather-provider-2.2.9-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/cmpi/libOSBase_MetricRegisteredProfileProvider.so"
+        }, 
+        "usr/lib/cmpi/libOSBase_MetricInstanceProvider_so": {
+            "report-functions": [
+                "_osbase_trace", 
+                "_format_trace", 
+                "ch_init", 
+                "makeMetricValuePath", 
+                "makeMetricValueInst", 
+                "ch_release", 
+                "parseMetricDefId", 
+                "makeMetricDefPath", 
+                "checkRepositoryConnection", 
+                "__stack_chk_fail", 
+                "_ITM_registerTMCloneTable", 
+                "releaseMetricDefClasses", 
+                "rrepos_get", 
+                "metricDefClassName", 
+                "__gmon_start__", 
+                "makeMetricDefInst"
+            ], 
+            "rpm": "sblim-gather-provider-2.2.9-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/cmpi/libOSBase_MetricInstanceProvider.so"
+        }, 
+        "usr/lib/cmpi/libOSBase_RepositoryPluginProvider_so": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "strdup", 
+                "fclose", 
+                "free", 
+                "fscanf", 
+                "__fprintf_chk", 
+                "strcmp", 
+                "_ITM_registerTMCloneTable", 
+                "__cxa_finalize", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "sblim-gather-provider-2.2.9-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/cmpi/libOSBase_RepositoryPluginProvider.so"
+        }, 
+        "usr/lib/cmpi/libOSBase_MetricIndicationProvider_so": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "__stack_chk_fail", 
+                "val2string", 
+                "pthread_once", 
+                "pthread_getspecific", 
+                "makeMetricDefIdFromCache", 
+                "rrepos_unsubscribe", 
+                "pthread_key_create", 
+                "rrepos_subscribe", 
+                "parseMetricDefId", 
+                "pthread_setspecific", 
+                "strcasecmp", 
+                "strdup", 
+                "_ITM_registerTMCloneTable", 
+                "pthread_mutex_unlock", 
+                "__fprintf_chk", 
+                "pthread_mutex_lock", 
+                "free", 
+                "_ITM_deregisterTMCloneTable", 
+                "makeMetricValueIdFromCache"
+            ], 
+            "rpm": "sblim-gather-provider-2.2.9-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/cmpi/libOSBase_MetricIndicationProvider.so"
+        }, 
+        "usr/lib/cmpi/libOSBase_MetricDefinitionProvider_so": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "releaseMetricDefClasses", 
+                "parseMetricDefId", 
+                "makeMetricDefInst", 
+                "checkRepositoryConnection", 
+                "getMetricDefsForClass", 
+                "makeMetricDefPath", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "sblim-gather-provider-2.2.9-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/cmpi/libOSBase_MetricDefinitionProvider.so"
+        }, 
+        "usr/lib/cmpi/libOSBase_MetricForMEProvider_so": {
+            "report-functions": [
+                "makeMetricValuePath", 
+                "__cxa_finalize", 
+                "getMetricIdsForResourceClass", 
+                "__stack_chk_fail", 
+                "fwrite", 
+                "computeResourceNamespace", 
+                "parseMetricValueId", 
+                "ch_init", 
+                "checkRepositoryConnection", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable", 
+                "rrepos_get", 
+                "makeResourcePath", 
+                "releaseMetricIds", 
+                "ch_release"
+            ], 
+            "rpm": "sblim-gather-provider-2.2.9-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/cmpi/libOSBase_MetricForMEProvider.so"
+        }, 
+        "usr/lib/cmpi/libOSBase_MetricServiceAffectsElementProvider_so": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "sblim-gather-provider-2.2.9-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/cmpi/libOSBase_MetricServiceAffectsElementProvider.so"
+        }, 
+        "usr/lib/gather/cplug/libcimplugXen_so": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "__stack_chk_fail", 
+                "__cxa_finalize", 
+                "strdup", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "sblim-gather-provider-2.2.9-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/gather/cplug/libcimplugXen.so"
+        }, 
+        "usr/lib/cmpi/libOSBase_MetricHostedServiceProvider_so": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "__cxa_finalize", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "sblim-gather-provider-2.2.9-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/cmpi/libOSBase_MetricHostedServiceProvider.so"
+        }, 
+        "usr/lib/gather/cplug/libcimplugOperatingSystem_so": {
+            "report-functions": [
+                "strdup", 
+                "free", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable", 
+                "__stack_chk_fail", 
+                "calloc", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "sblim-gather-provider-2.2.9-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/gather/cplug/libcimplugOperatingSystem.so"
+        }, 
+        "usr/lib/cmpi/libOSBase_MetricRepositoryServiceProvider_so": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "rrepos_getglobalfilter", 
+                "rrepos_status", 
+                "rrepos_setglobalfilter", 
+                "_ITM_deregisterTMCloneTable", 
+                "strcasecmp", 
+                "rreposplugin_add", 
+                "__cxa_finalize", 
+                "rrepos_init", 
+                "rrepos_load", 
+                "__gmon_start__"
+            ], 
+            "rpm": "sblim-gather-provider-2.2.9-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/cmpi/libOSBase_MetricRepositoryServiceProvider.so"
+        }, 
+        "usr/lib/cmpi/libOSBase_MetricDefForMEProvider_so": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "parseMetricDefId", 
+                "__gmon_start__", 
+                "releaseMetricIds", 
+                "rreposresource_list", 
+                "checkRepositoryConnection", 
+                "makeMetricDefPath", 
+                "getMetricIdsForResourceClass", 
+                "ch_release", 
+                "_osbase_trace", 
+                "ch_init", 
+                "__stack_chk_fail", 
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable", 
+                "_format_trace", 
+                "computeResourceNamespace", 
+                "__sprintf_chk", 
+                "makeMetricDefInst"
+            ], 
+            "rpm": "sblim-gather-provider-2.2.9-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/cmpi/libOSBase_MetricDefForMEProvider.so"
+        }, 
+        "usr/lib/cmpi/libOSBase_MetricServiceProvider_so": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "strcasecmp", 
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "sblim-gather-provider-2.2.9-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/cmpi/libOSBase_MetricServiceProvider.so"
+        }, 
+        "usr/lib/gather/cplug/libcimplugNetworkPort_so": {
+            "report-functions": [
+                "calloc", 
+                "strdup", 
+                "strcasecmp", 
+                "__stack_chk_fail", 
+                "_ITM_deregisterTMCloneTable", 
+                "free", 
+                "_ITM_registerTMCloneTable", 
+                "strlen"
+            ], 
+            "rpm": "sblim-gather-provider-2.2.9-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/gather/cplug/libcimplugNetworkPort.so"
+        }, 
+        "usr/lib/cmpi/libOSBase_MetricValueProvider_so": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "rrepos_get", 
+                "releasePluginNames", 
+                "__gmon_start__", 
+                "ch_init", 
+                "parseMetricValueId", 
+                "checkRepositoryConnection", 
+                "makeMetricValueInst", 
+                "releaseMetricDefClasses", 
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable", 
+                "getPluginNamesForValueClass", 
+                "__stack_chk_fail", 
+                "rreposplugin_list"
+            ], 
+            "rpm": "sblim-gather-provider-2.2.9-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/cmpi/libOSBase_MetricValueProvider.so"
+        }, 
+        "usr/lib/gather/cplug/libcimplugProcessor_so": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable", 
+                "free", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "strlen", 
+                "strdup", 
+                "calloc"
+            ], 
+            "rpm": "sblim-gather-provider-2.2.9-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/gather/cplug/libcimplugProcessor.so"
+        }, 
+        "usr/lib/cmpi/libOSBase_MetricPluginProvider_so": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "free", 
+                "__stack_chk_fail", 
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable", 
+                "fclose", 
+                "fopen", 
+                "strcmp", 
+                "__gmon_start__", 
+                "strdup", 
+                "malloc"
+            ], 
+            "rpm": "sblim-gather-provider-2.2.9-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/cmpi/libOSBase_MetricPluginProvider.so"
+        }, 
+        "usr/lib/cmpi/libOSBase_MetricValueDefinitionProvider_so": {
+            "report-functions": [
+                "free", 
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "strdup", 
+                "fclose", 
+                "fscanf", 
+                "malloc", 
+                "fopen", 
+                "_ITM_registerTMCloneTable", 
+                "__cxa_finalize", 
+                "strcmp"
+            ], 
+            "rpm": "sblim-gather-provider-2.2.9-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/cmpi/libOSBase_MetricValueDefinitionProvider.so"
+        }, 
+        "usr/lib/cmpi/libOSBase_MetricServiceCapabilitiesProvider_so": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "_ITM_registerTMCloneTable", 
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "strcasecmp"
+            ], 
+            "rpm": "sblim-gather-provider-2.2.9-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/cmpi/libOSBase_MetricServiceCapabilitiesProvider.so"
+        }, 
+        "usr/lib/cmpi/libOSBase_MetricElementCapabilitiesProvider_so": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "sblim-gather-provider-2.2.9-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/cmpi/libOSBase_MetricElementCapabilitiesProvider.so"
+        }, 
+        "usr/lib/gather/cplug/libcimplugIPProtocolEndpoint_so": {
+            "report-functions": [
+                "strdup", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "calloc", 
+                "__stack_chk_fail", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "sblim-gather-provider-2.2.9-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/gather/cplug/libcimplugIPProtocolEndpoint.so"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Applications/System", 
+            "Name": " sblim-gather-provider", 
+            "License": " EPL", 
+            "URL": " http://sourceforge.net/projects/sblim/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-17.phx2.fedoraproject.org", 
+            "Description": "\nThe CIM (Common Information Model) Providers for the\nSBLIM (Standards Based Linux Instrumentation for Manageability)\nGatherer.\n", 
+            "Build Date": " Fri 04 Aug 2017 02:50:10 PM EDT", 
+            "Source RPM": " sblim-gather-2.2.9-8.fc27.src.rpm", 
+            "Version": " 2.2.9", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 05 Aug 2017 11:28:29 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 8.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " SBLIM Gatherer Provider", 
+            "Size": " 353297"
+        }
+    }
+}

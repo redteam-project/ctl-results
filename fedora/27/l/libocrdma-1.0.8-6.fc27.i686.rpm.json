@@ -1,0 +1,86 @@
+{
+    "results": {
+        "usr/lib/libocrdma-rdmav2_so": {
+            "report-functions": [
+                "ibv_cmd_reg_mr", 
+                "pthread_mutex_destroy", 
+                "malloc", 
+                "munmap", 
+                "ibv_cmd_query_srq", 
+                "ibv_cmd_create_cq", 
+                "sscanf", 
+                "__assert_fail", 
+                "ibv_cmd_dealloc_pd", 
+                "ibv_cmd_query_port", 
+                "ibv_register_driver", 
+                "ibv_cmd_get_context", 
+                "__gmon_start__", 
+                "ibv_cmd_destroy_srq", 
+                "pthread_mutex_init", 
+                "ibv_cmd_destroy_cq", 
+                "ibv_cmd_create_srq", 
+                "ibv_cmd_resize_cq", 
+                "pthread_mutex_lock", 
+                "ibv_cmd_query_qp", 
+                "ibv_cmd_query_device", 
+                "pthread_spin_unlock", 
+                "ibv_cmd_detach_mcast", 
+                "calloc", 
+                "pthread_mutex_unlock", 
+                "ibv_cmd_attach_mcast", 
+                "_ITM_deregisterTMCloneTable", 
+                "__printf_chk", 
+                "pthread_spin_lock", 
+                "ibv_cmd_destroy_qp", 
+                "ibv_cmd_create_qp", 
+                "pthread_spin_init", 
+                "__fprintf_chk", 
+                "ibv_cmd_modify_qp", 
+                "ibv_cmd_alloc_pd", 
+                "ibv_cmd_destroy_ah", 
+                "__cxa_finalize", 
+                "pthread_spin_destroy", 
+                "_ITM_registerTMCloneTable", 
+                "free", 
+                "ibv_read_sysfs_file", 
+                "__stack_chk_fail", 
+                "ibv_cmd_create_ah", 
+                "ibv_cmd_modify_srq"
+            ], 
+            "rpm": "libocrdma-1.0.8-6.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libocrdma-rdmav2.so"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " libocrdma", 
+            "License": " GPLv2 or BSD", 
+            "URL": " https://www.openfabrics.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-29.phx2.fedoraproject.org", 
+            "Description": "\nlibocrdma provides a device-specific user-space driver for Emulex\nOne Command RoCE Adapters for use with the libibverbs library.\n", 
+            "Build Date": " Thu 03 Aug 2017 03:14:06 PM EDT", 
+            "Source RPM": " libocrdma-1.0.8-6.fc27.src.rpm", 
+            "Version": " 1.0.8", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 11:49:20 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 6.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " User-space Library for Emulex ROCE Device", 
+            "Size": " 44786"
+        }
+    }
+}

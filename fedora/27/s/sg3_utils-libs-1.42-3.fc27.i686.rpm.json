@@ -1,0 +1,71 @@
+{
+    "results": {
+        "usr/lib/libsgutils2_so_2_0_0": {
+            "report-functions": [
+                "__open64_2", 
+                "strerror", 
+                "__memcpy_chk", 
+                "fgets", 
+                "strlen", 
+                "__errno_location", 
+                "__ctype_b_loc", 
+                "snprintf", 
+                "_ITM_registerTMCloneTable", 
+                "fclose", 
+                "__printf_chk", 
+                "calloc", 
+                "__vsnprintf_chk", 
+                "strchr", 
+                "__vfprintf_chk", 
+                "__isoc99_sscanf", 
+                "fopen64", 
+                "strpbrk", 
+                "__fprintf_chk", 
+                "__ctype_toupper_loc", 
+                "close", 
+                "__fxstat64", 
+                "__gmon_start__", 
+                "strspn", 
+                "__cxa_finalize", 
+                "free", 
+                "_ITM_deregisterTMCloneTable", 
+                "__stack_chk_fail", 
+                "ioctl"
+            ], 
+            "rpm": "sg3_utils-libs-1.42-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libsgutils2.so.2.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " sg3_utils-libs", 
+            "License": " GPLv2+ and BSD", 
+            "URL": " http://sg.danny.cz/sg/sg3_utils.html", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-23.phx2.fedoraproject.org", 
+            "Description": "\nThis package contains the shared library for sg3_utils.\n", 
+            "Build Date": " Fri 04 Aug 2017 03:54:10 PM EDT", 
+            "Source RPM": " sg3_utils-1.42-3.fc27.src.rpm", 
+            "Version": " 1.42", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 05 Aug 2017 03:08:18 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 3.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Shared library for sg3_utils", 
+            "Size": " 181807"
+        }
+    }
+}

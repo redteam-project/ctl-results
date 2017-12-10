@@ -1,0 +1,70 @@
+{
+    "results": {
+        "usr/lib/liblzma_so_5_2_3": {
+            "report-functions": [
+                "pthread_mutex_init", 
+                "pthread_condattr_setclock", 
+                "pthread_mutex_lock", 
+                "free", 
+                "pthread_cond_signal", 
+                "memcmp", 
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable", 
+                "memmove", 
+                "sched_getaffinity", 
+                "malloc", 
+                "pthread_join", 
+                "__gmon_start__", 
+                "pthread_condattr_destroy", 
+                "pthread_cond_timedwait", 
+                "_ITM_deregisterTMCloneTable", 
+                "pthread_cond_wait", 
+                "clock_gettime", 
+                "pthread_cond_init", 
+                "__stack_chk_fail", 
+                "pthread_create", 
+                "sysconf", 
+                "sigfillset", 
+                "pthread_mutex_unlock", 
+                "pthread_mutex_destroy", 
+                "__sched_cpucount", 
+                "pthread_sigmask", 
+                "pthread_condattr_init"
+            ], 
+            "rpm": "xz-libs-5.2.3-4.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/liblzma.so.5.2.3"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " xz-libs", 
+            "License": " Public Domain", 
+            "URL": " http://tukaani.org/xz/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-13.phx2.fedoraproject.org", 
+            "Description": "\nLibraries for decoding files compressed with LZMA or XZ utils.\n", 
+            "Build Date": " Sat 05 Aug 2017 02:03:50 AM EDT", 
+            "Source RPM": " xz-5.2.3-4.fc27.src.rpm", 
+            "Version": " 5.2.3", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sun 06 Aug 2017 01:37:20 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 4.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Libraries for decoding LZMA compression", 
+            "Size": " 175390"
+        }
+    }
+}

@@ -1,0 +1,84 @@
+{
+    "results": {
+        "usr/lib/libunuran_so_15_0_0": {
+            "report-functions": [
+                "log1p", 
+                "strtok", 
+                "__fprintf_chk", 
+                "strlen", 
+                "log", 
+                "acos", 
+                "sin", 
+                "fwrite", 
+                "_ITM_registerTMCloneTable", 
+                "fopen", 
+                "__snprintf_chk", 
+                "fclose", 
+                "sqrt", 
+                "malloc", 
+                "__ctype_b_loc", 
+                "exp", 
+                "sincos", 
+                "__ctype_tolower_loc", 
+                "strncpy", 
+                "fgets", 
+                "tanh", 
+                "strtod", 
+                "sinh", 
+                "qsort", 
+                "realloc", 
+                "fflush", 
+                "strchr", 
+                "gettimeofday", 
+                "feof", 
+                "exit", 
+                "cos", 
+                "strcmp", 
+                "strtol", 
+                "tan", 
+                "free", 
+                "strtoul", 
+                "atan", 
+                "pow", 
+                "fputc", 
+                "_ITM_deregisterTMCloneTable", 
+                "__vsnprintf_chk", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "unuran-1.8.1-4.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libunuran.so.15.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " unuran", 
+            "License": " GPLv2+", 
+            "URL": " http://statistik.wu-wien.ac.at/unuran", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-24.phx2.fedoraproject.org", 
+            "Description": "\n\nUNU.RAN  is an ANSI C library licensed under GPL.\nIt contains universal (also called automatic or black-box) algorithms\nthat can generate random numbers from large classes of continuous or\ndiscrete distributions, and also from practically all standard\ndistributions.\n\nThe library and an extensive online documentation are available at:\n\n          -------------------------------------------\n             http://statistik.wu-wien.ac.at/unuran/\n          -------------------------------------------\n", 
+            "Build Date": " Fri 04 Aug 2017 09:53:04 PM EDT", 
+            "Source RPM": " unuran-1.8.1-4.fc27.src.rpm", 
+            "Version": " 1.8.1", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 05 Aug 2017 08:17:03 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 4.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Universal Non-Uniform Random number generator", 
+            "Size": " 987954"
+        }
+    }
+}

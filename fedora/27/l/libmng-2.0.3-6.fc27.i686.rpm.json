@@ -1,0 +1,78 @@
+{
+    "results": {
+        "usr/lib/libmng_so_2_0_2": {
+            "report-functions": [
+                "jpeg_finish_output", 
+                "cmsCreateRGBProfile", 
+                "_ITM_deregisterTMCloneTable", 
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "jpeg_start_decompress", 
+                "_ITM_registerTMCloneTable", 
+                "inflate", 
+                "__longjmp_chk", 
+                "jpeg_read_header", 
+                "jpeg_destroy_compress", 
+                "cmsDoTransform", 
+                "_setjmp", 
+                "__cxa_finalize", 
+                "deflate", 
+                "jpeg_std_error", 
+                "cmsOpenProfileFromMem", 
+                "jpeg_start_output", 
+                "pow", 
+                "jpeg_read_scanlines", 
+                "jpeg_CreateDecompress", 
+                "jpeg_input_complete", 
+                "strcmp", 
+                "cmsDeleteTransform", 
+                "jpeg_has_multiple_scans", 
+                "jpeg_finish_decompress", 
+                "cmsOpenProfileFromFile", 
+                "deflateInit2_", 
+                "cmsCreateTransform", 
+                "jpeg_resync_to_restart", 
+                "inflateEnd", 
+                "cmsFreeToneCurve", 
+                "cmsBuildGamma", 
+                "cmsCloseProfile", 
+                "jpeg_destroy_decompress", 
+                "inflateInit_"
+            ], 
+            "rpm": "libmng-2.0.3-6.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libmng.so.2.0.2"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " libmng", 
+            "License": " zlib", 
+            "URL": " http://www.libmng.com/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-02.phx2.fedoraproject.org", 
+            "Description": "\nLibMNG is a library for accessing graphics in MNG (Multi-image Network\nGraphics) and JNG (JPEG Network Graphics) formats.  MNG graphics are\nbasically animated PNGs.  JNG graphics are basically JPEG streams\nintegrated into a PNG chunk.\n", 
+            "Build Date": " Thu 03 Aug 2017 02:57:24 PM EDT", 
+            "Source RPM": " libmng-2.0.3-6.fc27.src.rpm", 
+            "Version": " 2.0.3", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 10:56:08 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 6.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Library for Multiple-image Network Graphics support", 
+            "Size": " 558212"
+        }
+    }
+}

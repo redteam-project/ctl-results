@@ -1,0 +1,93 @@
+{
+    "results": {
+        "usr/lib/librw_so_0_0_0": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "malloc", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "rw-0.7-5.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/librw.so.0.0.0"
+        }, 
+        "usr/bin/rw": {
+            "report-functions": [
+                "igraph_is_directed", 
+                "fclose", 
+                "init_rw_dec", 
+                "igraph_destroy", 
+                "igraph_read_graph_gml", 
+                "igraph_read_graph_graphdb", 
+                "__gmon_start__", 
+                "fopen", 
+                "_ITM_registerTMCloneTable", 
+                "igraph_read_graph_graphml", 
+                "__cxa_finalize", 
+                "igraph_read_graph_edgelist", 
+                "igraph_is_simple", 
+                "get_rw", 
+                "igraph_read_graph_pajek", 
+                "_ITM_deregisterTMCloneTable", 
+                "__printf_chk", 
+                "__stack_chk_fail", 
+                "__libc_start_main", 
+                "calculate_level", 
+                "igraph_matrix_nrow", 
+                "igraph_matrix_destroy", 
+                "igraph_get_adjacency", 
+                "destroy_rw"
+            ], 
+            "rpm": "rw-0.7-5.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/rw"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " rw", 
+            "License": " GPLv2+", 
+            "URL": " http://pholia.tdi.informatik.uni-frankfurt.de/~philipp/software/rw.shtml", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-29.phx2.fedoraproject.org", 
+            "Description": "\nrw is a program that calculates rank-width and rank-decompositions.\nIt is based on ideas from \"Computing rank-width exactly\" by Sang-il Oum,\n\"Sopra una formula numerica\" by Ernesto Pascal, \"Generation of a Vector\nfrom the Lexicographical Index\" by B.P. Buckles and M. Lybanon and\n\"Fast additions on masked integers\" by Michael D. Adams and David S. Wise.\n", 
+            "Build Date": " Fri 04 Aug 2017 02:05:05 PM EDT", 
+            "Source RPM": " rw-0.7-5.fc27.src.rpm", 
+            "Version": " 0.7", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 05 Aug 2017 01:43:23 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 5.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Program that calculates rank-width and rank-decompositions", 
+            "Size": " 41387"
+        }
+    }
+}

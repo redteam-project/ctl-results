@@ -1,0 +1,59 @@
+{
+    "results": {
+        "usr/lib/libjalali_so_0_0_2": {
+            "report-functions": [
+                "strlen", 
+                "strchr", 
+                "__gmon_start__", 
+                "__memcpy_chk", 
+                "strstr", 
+                "snprintf", 
+                "__printf_chk", 
+                "__snprintf_chk", 
+                "strncpy", 
+                "_ITM_registerTMCloneTable", 
+                "strcat", 
+                "__stack_chk_fail", 
+                "strtol", 
+                "tzset", 
+                "gmtime_r", 
+                "strcasecmp", 
+                "localtime_r"
+            ], 
+            "rpm": "libjalali-0.4.1-13.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libjalali.so.0.0.2"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " libjalali", 
+            "License": " GPLv3+", 
+            "URL": " http://nongnu.org/jcal/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-31.phx2.fedoraproject.org", 
+            "Description": "\nJalali calendar is a small and portable free software library to manipulate\ndate and time in Jalali calendar system. It's written in C and has absolutely\nzero dependencies. It works on top of any POSIX.1-2001 (and later) compatible\nlibc implementations. Jalali calendar provides an API similar to that of\nlibc's timezone, date and time functions.\n", 
+            "Build Date": " Thu 03 Aug 2017 06:27:42 AM EDT", 
+            "Source RPM": " jcal-0.4.1-13.fc27.src.rpm", 
+            "Version": " 0.4.1", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 12:37:27 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 13.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A library providing Jalali calendar functions", 
+            "Size": " 23500"
+        }
+    }
+}

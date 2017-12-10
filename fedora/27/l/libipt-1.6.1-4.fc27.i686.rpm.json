@@ -1,0 +1,67 @@
+{
+    "results": {
+        "usr/lib/libipt_so_1_6_1": {
+            "report-functions": [
+                "malloc", 
+                "free", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "ftell", 
+                "fclose", 
+                "open", 
+                "sysconf", 
+                "mmap", 
+                "__xstat", 
+                "strcmp", 
+                "fdopen", 
+                "fread", 
+                "calloc", 
+                "pthread_mutex_destroy", 
+                "fseek", 
+                "__cxa_finalize", 
+                "__stack_chk_fail", 
+                "pthread_mutex_unlock", 
+                "pthread_mutex_init", 
+                "pthread_mutex_lock", 
+                "realloc", 
+                "_ITM_registerTMCloneTable", 
+                "__fxstat", 
+                "strlen"
+            ], 
+            "rpm": "libipt-1.6.1-4.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libipt.so.1.6.1"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " libipt", 
+            "License": " BSD", 
+            "URL": " https://github.com/01org/processor-trace", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-07.phx2.fedoraproject.org", 
+            "Description": "\nThe Intel Processor Trace (Intel PT) Decoder Library is Intel's reference\nimplementation for decoding Intel PT.  It can be used as a standalone library\nor it can be partially or fully integrated into your tool.\n", 
+            "Build Date": " Thu 03 Aug 2017 02:32:09 PM EDT", 
+            "Source RPM": " libipt-1.6.1-4.fc27.src.rpm", 
+            "Version": " 1.6.1", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 03 Aug 2017 02:35:00 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 4.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Intel Processor Trace Decoder Library", 
+            "Size": " 112835"
+        }
+    }
+}

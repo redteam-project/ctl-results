@@ -1,0 +1,70 @@
+{
+    "results": {
+        "usr/lib/libxcb-util_so_1_0_0": {
+            "report-functions": [
+                "__gmon_start__", 
+                "xcb_create_gc", 
+                "xcb_screen_next", 
+                "_ITM_registerTMCloneTable", 
+                "xcb_get_input_focus_reply", 
+                "xcb_change_gc_checked", 
+                "xcb_create_window", 
+                "__stack_chk_fail", 
+                "xcb_create_gc_checked", 
+                "xcb_change_window_attributes", 
+                "__vasprintf_chk", 
+                "_ITM_deregisterTMCloneTable", 
+                "xcb_clear_area", 
+                "strlen", 
+                "__cxa_finalize", 
+                "xcb_get_geometry", 
+                "xcb_get_geometry_reply", 
+                "xcb_visualtype_next", 
+                "xcb_get_setup", 
+                "xcb_depth_next", 
+                "xcb_change_keyboard_control", 
+                "xcb_setup_roots_iterator", 
+                "xcb_get_input_focus", 
+                "xcb_screen_allowed_depths_iterator", 
+                "free", 
+                "xcb_create_window_checked", 
+                "xcb_configure_window", 
+                "xcb_depth_visuals_iterator"
+            ], 
+            "rpm": "xcb-util-0.4.0-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libxcb-util.so.1.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " xcb-util", 
+            "License": " MIT", 
+            "URL": " http://xcb.freedesktop.org", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-17.phx2.fedoraproject.org", 
+            "Description": "\nThe xcb-util module provides a number of libraries which sit on top of\nlibxcb, the core X protocol library, and some of the extension\nlibraries. These experimental libraries provide convenience functions\nand interfaces which make the raw X protocol more usable. Some of the\nlibraries also provide client-side code which is not strictly part of\nthe X protocol but which have traditionally been provided by Xlib.\n", 
+            "Build Date": " Sat 05 Aug 2017 12:27:36 AM EDT", 
+            "Source RPM": " xcb-util-0.4.0-8.fc27.src.rpm", 
+            "Version": " 0.4.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sun 06 Aug 2017 12:00:24 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 8.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Convenience libraries sitting on top of libxcb", 
+            "Size": " 21631"
+        }
+    }
+}

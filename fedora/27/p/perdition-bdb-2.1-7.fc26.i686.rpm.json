@@ -1,0 +1,88 @@
+{
+    "results": {
+        "usr/bin/makebdb": {
+            "report-functions": [
+                "exit", 
+                "poptPeekArg", 
+                "_ITM_deregisterTMCloneTable", 
+                "poptGetContext", 
+                "__stack_chk_fail", 
+                "poptGetNextOpt", 
+                "db_strerror", 
+                "poptStrerror", 
+                "__libc_start_main", 
+                "fwrite", 
+                "poptGetArg", 
+                "__cxa_finalize", 
+                "fflush", 
+                "_ITM_registerTMCloneTable", 
+                "fgets", 
+                "__fprintf_chk", 
+                "poptGetOptArg", 
+                "poptBadOption", 
+                "db_create"
+            ], 
+            "rpm": "perdition-bdb-2.1-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/makebdb"
+        }, 
+        "usr/lib/libperditiondb_bdb_so_0_0_0": {
+            "report-functions": [
+                "_Jv_RegisterClasses", 
+                "strerror", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "_vanessa_logger_log_prefix", 
+                "db_create", 
+                "__errno_location", 
+                "_ITM_registerTMCloneTable", 
+                "vanessa_logger_log", 
+                "strlen", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "perdition-bdb-2.1-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libperditiondb_bdb.so.0.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Applications/Internet", 
+            "Name": " perdition-bdb", 
+            "License": " GPLv2+", 
+            "URL": " http://horms.net/projects/perdition/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-19.phx2.fedoraproject.org", 
+            "Description": "\nPerdition allows for arbitrary user database access through shared\nlibraries much in the manner of NSS in glibc. This package allows a user\ndatabase to be sourced from a Berkely DB.\n", 
+            "Build Date": " Tue 16 Aug 2016 05:20:41 PM EDT", 
+            "Source RPM": " perdition-2.1-7.fc26.src.rpm", 
+            "Version": " 2.1", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 27 Feb 2017 06:56:25 AM EST, Key ID f55e7430f5282ee4", 
+            "Release": " 7.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Library to allow perdition to access Berkely DB based pop maps", 
+            "Size": " 17942"
+        }
+    }
+}

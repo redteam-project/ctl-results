@@ -1,0 +1,73 @@
+{
+    "results": {
+        "usr/lib/libmarkdown_so_2_2_2": {
+            "report-functions": [
+                "random", 
+                "__gmon_start__", 
+                "memmove", 
+                "strtoul", 
+                "fputc", 
+                "__ctype_toupper_loc", 
+                "free", 
+                "malloc", 
+                "calloc", 
+                "fgetc", 
+                "_ITM_registerTMCloneTable", 
+                "qsort", 
+                "_IO_putc", 
+                "_ITM_deregisterTMCloneTable", 
+                "fwrite", 
+                "strstr", 
+                "__vsnprintf_chk", 
+                "__cxa_finalize", 
+                "__ctype_b_loc", 
+                "srandom", 
+                "__fprintf_chk", 
+                "strchr", 
+                "strdup", 
+                "fputs", 
+                "time", 
+                "realloc", 
+                "strncat", 
+                "strlen", 
+                "strncasecmp", 
+                "__ctype_tolower_loc", 
+                "__isoc99_sscanf"
+            ], 
+            "rpm": "libmarkdown-2.2.2-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libmarkdown.so.2.2.2"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " libmarkdown", 
+            "License": " BSD", 
+            "URL": " http://www.pell.portland.or.us/~orc/Code/discount", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-04.phx2.fedoraproject.org", 
+            "Description": "\nlibmarkdown is the library portion of discount, a fast Markdown language\nimplementation, written in C.\n", 
+            "Build Date": " Wed 02 Aug 2017 04:25:22 PM EDT", 
+            "Source RPM": " discount-2.2.2-3.fc27.src.rpm", 
+            "Version": " 2.2.2", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sun 06 Aug 2017 11:02:25 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 3.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A fast implementation of the Markdown language in C", 
+            "Size": " 73922"
+        }
+    }
+}

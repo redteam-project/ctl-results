@@ -1,0 +1,463 @@
+{
+    "results": {
+        "usr/lib/libamd_so_2_4_1": {
+            "report-functions": [
+                "__gmon_start__", 
+                "SuiteSparse_malloc", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable", 
+                "sqrt", 
+                "SuiteSparse_free"
+            ], 
+            "rpm": "suitesparse-4.4.6-10.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libamd.so.2.4.1"
+        }, 
+        "usr/lib/libcholmod_so_3_0_6": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "ztrsv_", 
+                "fflush", 
+                "_ITM_deregisterTMCloneTable", 
+                "camd_l2", 
+                "amd_l2", 
+                "sqrt", 
+                "dtrsv_", 
+                "__ctype_tolower_loc", 
+                "__gmon_start__", 
+                "ccolamd_l", 
+                "SuiteSparse_calloc", 
+                "zherk_", 
+                "ccolamd", 
+                "colamd", 
+                "camd_2", 
+                "ztrsm_", 
+                "dgemm_", 
+                "__isoc99_sscanf", 
+                "zpotrf_", 
+                "colamd_l_set_defaults", 
+                "dpotrf_", 
+                "__ctype_b_loc", 
+                "dgemv_", 
+                "SuiteSparse_time", 
+                "ccolamd_set_defaults", 
+                "colamd_l", 
+                "colamd_set_defaults", 
+                "SuiteSparse_realloc", 
+                "fclose", 
+                "qsort", 
+                "colamd_recommended", 
+                "SuiteSparse_malloc", 
+                "amd_2", 
+                "fputc", 
+                "csymamd_l", 
+                "dsyrk_", 
+                "zgemv_", 
+                "fopen64", 
+                "strlen", 
+                "csymamd", 
+                "__fprintf_chk", 
+                "__sprintf_chk", 
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable", 
+                "SuiteSparse_free", 
+                "ccolamd_l_set_defaults", 
+                "colamd_l_recommended", 
+                "ccolamd_l_recommended", 
+                "ccolamd_recommended", 
+                "dtrsm_", 
+                "fgets"
+            ], 
+            "rpm": "suitesparse-4.4.6-10.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libcholmod.so.3.0.6"
+        }, 
+        "usr/lib/libcxsparse_so_3_1_4": {
+            "report-functions": [
+                "srand", 
+                "_ITM_registerTMCloneTable", 
+                "__cxa_finalize", 
+                "__isoc99_fscanf", 
+                "__stack_chk_fail", 
+                "rand", 
+                "realloc", 
+                "__gmon_start__", 
+                "puts", 
+                "sqrt", 
+                "__printf_chk", 
+                "malloc", 
+                "calloc", 
+                "_ITM_deregisterTMCloneTable", 
+                "free"
+            ], 
+            "rpm": "suitesparse-4.4.6-10.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libcxsparse.so.3.1.4"
+        }, 
+        "usr/lib/libcolamd_so_2_9_1": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable", 
+                "sqrt", 
+                "__stack_chk_fail", 
+                "__gmon_start__"
+            ], 
+            "rpm": "suitesparse-4.4.6-10.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libcolamd.so.2.9.1"
+        }, 
+        "usr/lib/libspqr_so_2_0_1": {
+            "report-functions": [
+                "zlarf_", 
+                "dnrm2_", 
+                "cholmod_l_free_factor", 
+                "cholmod_l_allocate_dense", 
+                "zlarfg_", 
+                "_Unwind_Resume", 
+                "cholmod_l_analyze_p2", 
+                "cholmod_l_colamd", 
+                "memmove", 
+                "_ZNK3tbb8internal20allocate_child_proxy8allocateEj", 
+                "cholmod_l_free_sparse", 
+                "_ZN3tbb4task22spawn_and_wait_for_allERNS_9task_listE", 
+                "cholmod_l_free", 
+                "cholmod_l_malloc", 
+                "cholmod_l_nnz", 
+                "cholmod_l_dense_to_sparse", 
+                "dlarfg_", 
+                "dlarfb_", 
+                "_ZN3tbb4task13note_affinityEt", 
+                "_ITM_deregisterTMCloneTable", 
+                "cholmod_l_reallocate_sparse", 
+                "zlarfb_", 
+                "dlarft_", 
+                "cholmod_l_calloc", 
+                "_ITM_registerTMCloneTable", 
+                "cholmod_l_amd", 
+                "__cxa_finalize", 
+                "cholmod_l_free_dense", 
+                "cholmod_l_transpose", 
+                "cholmod_l_allocate_work", 
+                "dznrm2_", 
+                "SuiteSparse_time", 
+                "cholmod_l_realloc", 
+                "__muldc3", 
+                "sqrt", 
+                "_ZN3tbb8internal19allocate_root_proxy8allocateEj", 
+                "__gmon_start__", 
+                "__stack_chk_fail", 
+                "zlarft_", 
+                "cholmod_l_postorder", 
+                "_ZN3tbb19task_scheduler_init10initializeEij", 
+                "__gxx_personality_v0", 
+                "cholmod_l_sparse_to_dense", 
+                "cholmod_l_speye", 
+                "cholmod_l_error", 
+                "_ZdlPvj", 
+                "_ZN3tbb19task_scheduler_init9terminateEv"
+            ], 
+            "rpm": "suitesparse-4.4.6-10.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libspqr.so.2.0.1"
+        }, 
+        "usr/lib/libccolamd_so_2_9_1": {
+            "report-functions": [
+                "sqrt", 
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable", 
+                "__gmon_start__"
+            ], 
+            "rpm": "suitesparse-4.4.6-10.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libccolamd.so.2.9.1"
+        }, 
+        "usr/lib/libsuitesparseconfig_so_4_4_4": {
+            "report-functions": [
+                "free", 
+                "sqrt", 
+                "malloc", 
+                "__stack_chk_fail", 
+                "clock_gettime", 
+                "printf", 
+                "_ITM_deregisterTMCloneTable", 
+                "calloc", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "suitesparse-4.4.6-10.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libsuitesparseconfig.so.4.4.4"
+        }, 
+        "usr/lib/libldl_so_2_2_1": {
+            "report-functions": [
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "suitesparse-4.4.6-10.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libldl.so.2.2.1"
+        }, 
+        "usr/lib/libklu_so_1_3_3": {
+            "report-functions": [
+                "btf_l_strongcomp", 
+                "SuiteSparse_malloc", 
+                "btf_order", 
+                "_ITM_registerTMCloneTable", 
+                "amd_order", 
+                "__stack_chk_fail", 
+                "amd_l_order", 
+                "btf_strongcomp", 
+                "colamd_l_recommended", 
+                "_ITM_deregisterTMCloneTable", 
+                "sqrt", 
+                "__gmon_start__", 
+                "SuiteSparse_realloc", 
+                "SuiteSparse_free", 
+                "colamd", 
+                "colamd_recommended", 
+                "btf_l_order"
+            ], 
+            "rpm": "suitesparse-4.4.6-10.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libklu.so.1.3.3"
+        }, 
+        "usr/lib/librbio_so_2_2_1": {
+            "report-functions": [
+                "__fprintf_chk", 
+                "__sprintf_chk", 
+                "__gmon_start__", 
+                "fclose", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable", 
+                "__cxa_finalize", 
+                "__ctype_b_loc", 
+                "SuiteSparse_free", 
+                "strncpy", 
+                "__isoc99_sscanf", 
+                "SuiteSparse_malloc", 
+                "fgets", 
+                "fopen64"
+            ], 
+            "rpm": "suitesparse-4.4.6-10.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/librbio.so.2.2.1"
+        }, 
+        "usr/lib/libcamd_so_2_4_1": {
+            "report-functions": [
+                "fflush", 
+                "_ITM_registerTMCloneTable", 
+                "SuiteSparse_malloc", 
+                "sqrt", 
+                "SuiteSparse_free", 
+                "__gmon_start__"
+            ], 
+            "rpm": "suitesparse-4.4.6-10.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libcamd.so.2.4.1"
+        }, 
+        "usr/lib/libumfpack_so_5_7_1": {
+            "report-functions": [
+                "cholmod_free_sparse", 
+                "cholmod_transpose", 
+                "fread", 
+                "cholmod_l_transpose", 
+                "amd_aat", 
+                "sqrt", 
+                "__cxa_finalize", 
+                "zgemv_", 
+                "_ITM_registerTMCloneTable", 
+                "ferror", 
+                "amd_defaults", 
+                "cholmod_l_print_common", 
+                "dgemm_", 
+                "dgemv_", 
+                "_ITM_deregisterTMCloneTable", 
+                "SuiteSparse_time", 
+                "SuiteSparse_free", 
+                "amd_postorder", 
+                "amd_2", 
+                "fopen", 
+                "fclose", 
+                "fwrite", 
+                "cholmod_free_factor", 
+                "__gmon_start__", 
+                "cholmod_print_common", 
+                "__stack_chk_fail", 
+                "cholmod_finish", 
+                "dtrsm_", 
+                "amd_l_defaults", 
+                "amd_l_aat", 
+                "cholmod_l_free_sparse", 
+                "cholmod_analyze", 
+                "ztrsv_", 
+                "amd_l_postorder", 
+                "cholmod_l_start", 
+                "amd_valid", 
+                "SuiteSparse_malloc", 
+                "cholmod_l_analyze", 
+                "cholmod_start", 
+                "dtrsv_", 
+                "cholmod_l_finish", 
+                "ztrsm_", 
+                "zgemm_", 
+                "zgeru_", 
+                "cholmod_l_free_factor", 
+                "amd_l2", 
+                "fflush", 
+                "amd_l_valid"
+            ], 
+            "rpm": "suitesparse-4.4.6-10.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libumfpack.so.5.7.1"
+        }, 
+        "usr/lib/libbtf_so_1_2_1": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "suitesparse-4.4.6-10.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libbtf.so.1.2.1"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " suitesparse", 
+            "License": " (LGPLv2+ or BSD) and LGPLv2+ and GPLv2+", 
+            "URL": " http://faculty.cse.tamu.edu/davis/suitesparse.html", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-10.phx2.fedoraproject.org", 
+            "Description": "\nsuitesparse is a collection of libraries for computations involving sparse\nmatrices.  The package includes the following libraries:\n  AMD                 approximate minimum degree ordering\n  BTF                 permutation to block triangular form (beta)\n  CAMD                constrained approximate minimum degree ordering\n  COLAMD              column approximate minimum degree ordering\n  CCOLAMD             constrained column approximate minimum degree ordering\n  CHOLMOD             sparse Cholesky factorization\n  CSparse             a concise sparse matrix package\n  CXSparse            CSparse extended: complex matrix, int and long int support\n  KLU                 sparse LU factorization, primarily for circuit simulation\n  LDL                 a simple LDL factorization\n  SQPR                a multithread, multifrontal, rank-revealing sparse QR\n                      factorization method\n  UMFPACK             sparse LU factorization\n  SuiteSparse_config  configuration file for all the above packages.\n  RBio                read/write files in Rutherford/Boeing format\n", 
+            "Build Date": " Fri 04 Aug 2017 07:34:00 PM EDT", 
+            "Source RPM": " suitesparse-4.4.6-10.fc27.src.rpm", 
+            "Version": " 4.4.6", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 05 Aug 2017 05:35:08 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 10.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A collection of sparse matrix libraries", 
+            "Size": " 3262310"
+        }
+    }
+}

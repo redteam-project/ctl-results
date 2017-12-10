@@ -1,0 +1,212 @@
+{
+    "results": {
+        "usr/lib/libip4tc_so_0_1_0": {
+            "report-functions": [
+                "fcntl", 
+                "putchar", 
+                "strcmp", 
+                "__strcpy_chk", 
+                "socket", 
+                "_ITM_deregisterTMCloneTable", 
+                "calloc", 
+                "free", 
+                "abort", 
+                "malloc", 
+                "__errno_location", 
+                "setsockopt", 
+                "strncpy", 
+                "__gmon_start__", 
+                "__printf_chk", 
+                "strlen", 
+                "strerror", 
+                "__cxa_finalize", 
+                "close", 
+                "_ITM_registerTMCloneTable", 
+                "__fprintf_chk"
+            ], 
+            "rpm": "iptables-libs-1.6.1-4.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libip4tc.so.0.1.0"
+        }, 
+        "usr/lib/libxtables_so_12_0_0": {
+            "report-functions": [
+                "__memset_chk", 
+                "getservbyname", 
+                "getnetbyname", 
+                "fcntl", 
+                "fflush", 
+                "calloc", 
+                "__vsnprintf_chk", 
+                "wait", 
+                "strrchr", 
+                "_IO_putc", 
+                "malloc", 
+                "exit", 
+                "__sprintf_chk", 
+                "strncpy", 
+                "__xstat64", 
+                "__strtoull_internal", 
+                "__snprintf_chk", 
+                "_ITM_registerTMCloneTable", 
+                "execv", 
+                "getsockopt", 
+                "open64", 
+                "getprotobyname", 
+                "statfs64", 
+                "__errno_location", 
+                "getnameinfo", 
+                "__printf_chk", 
+                "getaddrinfo", 
+                "strdup", 
+                "gai_strerror", 
+                "inet_pton", 
+                "realloc", 
+                "strchr", 
+                "__vfprintf_chk", 
+                "__fprintf_chk", 
+                "strsep", 
+                "getenv", 
+                "__gmon_start__", 
+                "vfork", 
+                "strerror", 
+                "__strcpy_chk", 
+                "strspn", 
+                "__strcat_chk", 
+                "strtod", 
+                "fputc", 
+                "free", 
+                "_ITM_deregisterTMCloneTable", 
+                "fputs", 
+                "__stack_chk_fail", 
+                "strtoul", 
+                "dlerror", 
+                "fopen64", 
+                "strcasecmp", 
+                "close", 
+                "dlopen", 
+                "__ctype_b_loc", 
+                "__strncpy_chk", 
+                "inet_ntop", 
+                "__isoc99_sscanf", 
+                "memcmp", 
+                "strcmp", 
+                "uname", 
+                "strcpy", 
+                "strlen", 
+                "fwrite", 
+                "freeaddrinfo", 
+                "fgets", 
+                "read", 
+                "_exit", 
+                "__cxa_finalize", 
+                "strpbrk", 
+                "fclose", 
+                "__lxstat64", 
+                "getnetbyaddr"
+            ], 
+            "rpm": "iptables-libs-1.6.1-4.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libxtables.so.12.0.0"
+        }, 
+        "usr/lib/libiptc_so_0_0_0": {
+            "report-functions": [
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "iptables-libs-1.6.1-4.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libiptc.so.0.0.0"
+        }, 
+        "usr/lib/libip6tc_so_0_1_0": {
+            "report-functions": [
+                "strlen", 
+                "puts", 
+                "strcmp", 
+                "__printf_chk", 
+                "__errno_location", 
+                "_ITM_deregisterTMCloneTable", 
+                "strncpy", 
+                "_ITM_registerTMCloneTable", 
+                "_IO_putc", 
+                "putchar", 
+                "malloc", 
+                "fcntl", 
+                "strerror", 
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "getsockopt", 
+                "setsockopt", 
+                "__strcpy_chk", 
+                "free", 
+                "close", 
+                "socket", 
+                "calloc", 
+                "__stack_chk_fail", 
+                "__fprintf_chk", 
+                "abort"
+            ], 
+            "rpm": "iptables-libs-1.6.1-4.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libip6tc.so.0.1.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Base", 
+            "Name": " iptables-libs", 
+            "License": " GPLv2/Artistic Licence 2.0/ISC", 
+            "URL": " http://www.netfilter.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-03.phx2.fedoraproject.org", 
+            "Description": "\niptables libraries.\n\nPlease remember that libip*tc libraries do neither have a stable API nor a real so version.\n\nFor more information about this, please have a look at\n\n  http://www.netfilter.org/documentation/FAQ/netfilter-faq-4.html#ss4.5\n", 
+            "Build Date": " Thu 03 Aug 2017 06:03:37 AM EDT", 
+            "Source RPM": " iptables-1.6.1-4.fc27.src.rpm", 
+            "Version": " 1.6.1", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 12:16:07 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 4.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " iptables libraries", 
+            "Size": " 117332"
+        }
+    }
+}

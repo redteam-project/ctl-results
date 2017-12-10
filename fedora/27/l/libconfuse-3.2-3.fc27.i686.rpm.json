@@ -1,0 +1,90 @@
+{
+    "results": {
+        "usr/lib/libconfuse_so_1_1_0": {
+            "report-functions": [
+                "fileno", 
+                "dcgettext", 
+                "__fprintf_chk", 
+                "abort", 
+                "isatty", 
+                "getpwnam", 
+                "strtod", 
+                "fputc", 
+                "__assert_fail", 
+                "exit", 
+                "fputs", 
+                "sscanf", 
+                "__ctype_b_loc", 
+                "malloc", 
+                "clearerr", 
+                "fmemopen", 
+                "__stack_chk_fail", 
+                "strndup", 
+                "__gmon_start__", 
+                "strtol", 
+                "_ITM_deregisterTMCloneTable", 
+                "realloc", 
+                "fread", 
+                "ferror", 
+                "strchr", 
+                "__errno_location", 
+                "geteuid", 
+                "_IO_getc", 
+                "strncpy", 
+                "free", 
+                "fclose", 
+                "__snprintf_chk", 
+                "strlen", 
+                "strcspn", 
+                "strcasecmp", 
+                "strcmp", 
+                "bindtextdomain", 
+                "getpwuid", 
+                "fwrite", 
+                "__vfprintf_chk", 
+                "strspn", 
+                "_ITM_registerTMCloneTable", 
+                "calloc", 
+                "strerror", 
+                "memmove", 
+                "getenv", 
+                "fopen", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "libconfuse-3.2-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libconfuse.so.1.1.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " libconfuse", 
+            "License": " ISC", 
+            "URL": " https://github.com/martinh/libconfuse", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-13.phx2.fedoraproject.org", 
+            "Description": "\nlibConfuse is a configuration file parser library, licensed under\nthe terms of the ISC license, and written in C. It supports\nsections and (lists of) values (strings, integers, floats,\nbooleans or other sections), as well as some other features (such\nas single/double-quoted strings, environment variable expansion,\nfunctions and nested include statements). It makes it very\neasy to add configuration file capability to a program using\na simple API.\n\nThe goal of libConfuse is not to be the configuration file parser\nlibrary with a gazillion of features. Instead, it aims to be\neasy to use and quick to integrate with your code.\n", 
+            "Build Date": " Thu 03 Aug 2017 01:54:24 PM EDT", 
+            "Source RPM": " libconfuse-3.2-3.fc27.src.rpm", 
+            "Version": " 3.2", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 06:39:24 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 3.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A configuration file parser library", 
+            "Size": " 983631"
+        }
+    }
+}

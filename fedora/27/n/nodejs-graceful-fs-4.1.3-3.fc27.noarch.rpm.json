@@ -1,0 +1,25 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " nodejs-graceful-fs", 
+            "License": " BSD", 
+            "URL": " https://github.com/isaacs/node-graceful-fs", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-aarch64-20.arm.fedoraproject.org", 
+            "Description": "\nA drop-in replacement for fs, making various improvements.\n\nThe improvements are meant to normalize behavior across different\nplatforms and environments, and to make filesystem access more\nresilient to errors.\n\nImprovements over fs module\n\n* Queues up open and readdir calls, and retries them once something\n  closes if there is an EMFILE error from too many file descriptors.\n* Fixes lchmod for Node versions prior to 0.6.2.\n* Implements fs.lutimes if possible. Otherwise it becomes a noop.\n* Ignores EINVAL and EPERM errors in chown, fchown or lchown if the\n  user isn't root.\n* Makes lchmod and lchown become noops, if not available.\n* Retries reading a file if read results in EAGAIN error.\n\nOn Windows, it retries renaming a file for up to one second if EACCESS\nor EPERM error occurs, likely because antivirus software has locked the\ndirectory.\n", 
+            "Build Date": " Thu 27 Jul 2017 02:17:15 PM EDT", 
+            "Source RPM": " nodejs-graceful-fs-4.1.3-3.fc27.src.rpm", 
+            "Version": " 4.1.3", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Thu 27 Jul 2017 02:53:24 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 3.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A drop-in replacement for fs, making various improvements", 
+            "Size": " 19733"
+        }
+    }
+}

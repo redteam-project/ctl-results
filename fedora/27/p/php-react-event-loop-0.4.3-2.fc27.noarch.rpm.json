@@ -1,0 +1,25 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " php-react-event-loop", 
+            "License": " MIT", 
+            "URL": " https://github.com/reactphp/event-loop", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-32.phx2.fedoraproject.org", 
+            "Description": "\nEvent loop abstraction layer that libraries can use for evented I/O.\n\nIn order for async based libraries to be interoperable, they need to use\nthe same event loop. This component provides a common LoopInterface that\nany library can target. This allows them to be used in the same loop, with\none single run call that is controlled by the user.\n\nIn addition to the interface there are some implementations provided:\n* StreamSelectLoop: This is the only implementation which works out of the box\n      with PHP. It does a simple select system call. It's not the most\n      performant of loops, but still does the job quite well.\n* LibEventLoop: This uses the libevent pecl extension. libevent itself supports\n      a number of system-specific backends (epoll, kqueue).\n* LibEvLoop: This uses the libev pecl extension (github). It supports the same\n      backends as libevent.\n* ExtEventLoop: This uses the event pecl extension. It supports the same\n      backends as libevent.\n\nAll of the loops support these features:\n* File descriptor polling\n* One-off timers\n* Periodic timers\n* Deferred execution of callbacks\n\nAutoloader: /usr/share/php/React/EventLoop/autoload.php\n", 
+            "Build Date": " Fri 28 Jul 2017 08:59:23 AM EDT", 
+            "Source RPM": " php-react-event-loop-0.4.3-2.fc27.src.rpm", 
+            "Version": " 0.4.3", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Fri 28 Jul 2017 09:03:52 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 2.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Event loop abstraction layer that libraries can use for evented I/O", 
+            "Size": " 50103"
+        }
+    }
+}

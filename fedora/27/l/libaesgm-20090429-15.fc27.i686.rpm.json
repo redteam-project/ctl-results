@@ -1,0 +1,46 @@
+{
+    "results": {
+        "usr/lib/libaesgm_so_0_0_0": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable", 
+                "__gmon_start__", 
+                "__memset_chk"
+            ], 
+            "rpm": "libaesgm-20090429-15.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libaesgm.so.0.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " libaesgm", 
+            "License": " BSD", 
+            "URL": " http://gladman.plushost.co.uk/oldsite/AES/index.php", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-30.phx2.fedoraproject.org", 
+            "Description": "\nLibrary implementation of AES (Rijndael) cryptographic methods.\n", 
+            "Build Date": " Thu 03 Aug 2017 12:31:06 PM EDT", 
+            "Source RPM": " libaesgm-20090429-15.fc27.src.rpm", 
+            "Version": " 20090429", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 05:39:26 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 15.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Library implementation of AES (Rijndael) cryptographic methods", 
+            "Size": " 131777"
+        }
+    }
+}

@@ -1,0 +1,163 @@
+{
+    "results": {
+        "usr/bin/potrace": {
+            "report-functions": [
+                "deflateInit_", 
+                "__errno_location", 
+                "__stack_chk_fail", 
+                "round", 
+                "potrace_version", 
+                "fputc", 
+                "potrace_state_free", 
+                "fgetc", 
+                "strcmp", 
+                "fclose", 
+                "fwrite", 
+                "fflush", 
+                "__libc_start_main", 
+                "__vfprintf_chk", 
+                "strchr", 
+                "malloc", 
+                "strncasecmp", 
+                "strtod", 
+                "strcat", 
+                "floor", 
+                "strerror", 
+                "strdup", 
+                "exit", 
+                "potrace_trace", 
+                "getopt_long", 
+                "calloc", 
+                "sqrt", 
+                "__strcat_chk", 
+                "__vsprintf_chk", 
+                "__fprintf_chk", 
+                "potrace_param_free", 
+                "ceil", 
+                "strtol", 
+                "exp", 
+                "__cxa_finalize", 
+                "free", 
+                "strlen", 
+                "stpcpy", 
+                "strncpy", 
+                "strrchr", 
+                "deflate", 
+                "potrace_param_default", 
+                "log", 
+                "_ITM_registerTMCloneTable", 
+                "sincos", 
+                "ungetc", 
+                "_ITM_deregisterTMCloneTable", 
+                "fopen", 
+                "fputs", 
+                "__sprintf_chk", 
+                "__gmon_start__"
+            ], 
+            "rpm": "potrace-1.15-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/potrace"
+        }, 
+        "usr/bin/mkbitmap": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "ungetc", 
+                "exp", 
+                "malloc", 
+                "_ITM_registerTMCloneTable", 
+                "strrchr", 
+                "realloc", 
+                "fgetc", 
+                "exit", 
+                "__fprintf_chk", 
+                "fopen", 
+                "strcmp", 
+                "strtod", 
+                "getopt_long", 
+                "fputc", 
+                "__errno_location", 
+                "fclose", 
+                "log", 
+                "strcat", 
+                "__libc_start_main", 
+                "strerror", 
+                "__stack_chk_fail", 
+                "strtol", 
+                "__cxa_finalize", 
+                "__gmon_start__", 
+                "fwrite", 
+                "free", 
+                "calloc", 
+                "stpcpy"
+            ], 
+            "rpm": "potrace-1.15-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/mkbitmap"
+        }, 
+        "usr/lib/libpotrace_so_0_0_5": {
+            "report-functions": [
+                "realloc", 
+                "__cxa_finalize", 
+                "free", 
+                "calloc", 
+                "sqrt", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "malloc", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "potrace-1.15-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libpotrace.so.0.0.5"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Applications/Multimedia", 
+            "Name": " potrace", 
+            "License": " GPLv2+", 
+            "URL": " http://potrace.sourceforge.net", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-16.phx2.fedoraproject.org", 
+            "Description": "\nPotrace is a utility for tracing a bitmap, which means, transforming a bitmap\ninto a smooth, scalable image. The input is a bitmap (PBM, PGM, PPM, or BMP\nformat), and the default output is an encapsulated PostScript file (EPS).\nA typical use is to create EPS files from scanned data, such as company or\nuniversity logos, handwritten notes, etc. The resulting image is not \"jaggy\"\nlike a bitmap, but smooth. It can then be rendered at any resolution.\n\nPotrace can currently produce the following output formats: EPS, PostScript,\nPDF, SVG (scalable vector graphics), Xfig, Gimppath, and PGM (for easy\nantialiasing). Additional backends might be added in the future.\n\nMkbitmap is a program distributed with Potrace which can be used to pre-process\nthe input for better tracing behavior on greyscale and color images.\n", 
+            "Build Date": " Sat 05 Aug 2017 03:19:11 PM EDT", 
+            "Source RPM": " potrace-1.15-1.fc27.src.rpm", 
+            "Version": " 1.15", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 05 Aug 2017 10:53:03 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 1.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Transform bitmaps into vector graphics", 
+            "Size": " 255374"
+        }
+    }
+}

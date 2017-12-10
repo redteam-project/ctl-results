@@ -1,0 +1,54 @@
+{
+    "results": {
+        "usr/lib/libmsgpackc_so_2_0_0": {
+            "report-functions": [
+                "malloc", 
+                "__assert_fail", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "__fprintf_chk", 
+                "fputc", 
+                "memcmp", 
+                "_ITM_registerTMCloneTable", 
+                "fwrite", 
+                "realloc", 
+                "free", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "msgpack-1.4.2-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libmsgpackc.so.2.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " msgpack", 
+            "License": " Boost", 
+            "URL": " http://msgpack.org", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-05.phx2.fedoraproject.org", 
+            "Description": "\nMessagePack is a binary-based efficient object serialization\nlibrary. It enables to exchange structured objects between many\nlanguages like JSON. But unlike JSON, it is very fast and small.\n", 
+            "Build Date": " Thu 03 Aug 2017 11:08:46 PM EDT", 
+            "Source RPM": " msgpack-1.4.2-3.fc27.src.rpm", 
+            "Version": " 1.4.2", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 06:46:33 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 3.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Binary-based efficient object serialization library", 
+            "Size": " 46603"
+        }
+    }
+}

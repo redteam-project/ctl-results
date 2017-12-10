@@ -1,0 +1,25 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " perl-Test-Valgrind", 
+            "License": " GPL+ or Artistic", 
+            "URL": " http://search.cpan.org/dist/Test-Valgrind/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-ppc64le-08.ppc.fedoraproject.org", 
+            "Description": "\nThe Test::Valgrind::* API lets you run Perl code through the memcheck tool of\nthe valgrind memory debugger, to test for memory errors and leaks. The\nTest::Valgrind module itself is a front-end to this API. If they aren't\navailable yet, it will first generate suppressions for the current perl\ninterpreter and store them in the portable flavor of\n~/.perl/Test-Valgrind/suppressions/$VERSION. The actual run will then take\nplace, and tests will be passed or failed according to the result of the\nanalysis.\n\nThe complete API is much more versatile than this. By declaring an appropriate\nTest::Valgrind::Command class, you can run any executable (that is, not only\nPerl scripts) under valgrind, generate the corresponding suppressions\non-the-fly and convert the analysis result to TAP output so that it can be\nincorporated into your project's test suite. If you're not interested in\nproducing TAP, you can output the results in whatever format you like (for\nexample HTML pages) by defining your own Test::Valgrind::Action class.\n", 
+            "Build Date": " Fri 28 Jul 2017 06:53:34 AM EDT", 
+            "Source RPM": " perl-Test-Valgrind-1.19-4.fc27.src.rpm", 
+            "Version": " 1.19", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Fri 28 Jul 2017 05:10:31 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 4.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Generate suppressions, analyze and test any command with valgrind", 
+            "Size": " 201674"
+        }
+    }
+}

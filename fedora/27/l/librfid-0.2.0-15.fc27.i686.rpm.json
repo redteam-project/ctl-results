@@ -1,0 +1,205 @@
+{
+    "results": {
+        "usr/lib/librfid_so_0_0_0": {
+            "report-functions": [
+                "usb_open", 
+                "__sprintf_chk", 
+                "usb_bulk_read", 
+                "usb_find_busses", 
+                "usb_find_devices", 
+                "__fprintf_chk", 
+                "usb_get_busses", 
+                "usb_close", 
+                "usb_claim_interface", 
+                "fwrite", 
+                "fputc", 
+                "__printf_chk", 
+                "usleep", 
+                "__stack_chk_fail", 
+                "usb_set_configuration", 
+                "usb_bulk_write", 
+                "__snprintf_chk"
+            ], 
+            "rpm": "librfid-0.2.0-15.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/librfid.so.0.0.0"
+        }, 
+        "usr/bin/librfid-tool": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "rfid_layer2_name", 
+                "rfid_layer2_init", 
+                "fflush", 
+                "fwrite", 
+                "_ITM_registerTMCloneTable", 
+                "__snprintf_chk", 
+                "puts", 
+                "malloc", 
+                "__xpg_basename", 
+                "usleep", 
+                "mfcl_set_key", 
+                "rfid_init", 
+                "rfid_layer2_close", 
+                "rfid_protocol_getopt", 
+                "rfid_protocol_close", 
+                "exit", 
+                "rfid_protocol_init", 
+                "rfid_protocol_open", 
+                "rfid_protocol_transceive", 
+                "mfcl_auth", 
+                "rfid_reader_setopt", 
+                "_ITM_deregisterTMCloneTable", 
+                "strcasecmp", 
+                "rfid_layer2_getopt", 
+                "rfid_protocol_write", 
+                "__fprintf_chk", 
+                "rfid_layer2_open", 
+                "rfid_scan", 
+                "getopt_long", 
+                "rfid_protocol_name", 
+                "__libc_start_main", 
+                "putchar", 
+                "__gmon_start__", 
+                "mfcl_sector_blocks", 
+                "_IO_putc", 
+                "__printf_chk", 
+                "rfid_reader_close", 
+                "rfid_reader_open", 
+                "rc632_register_dump", 
+                "rfid_protocol_read"
+            ], 
+            "rpm": "librfid-0.2.0-15.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/librfid-tool"
+        }, 
+        "usr/bin/mifare-tool": {
+            "report-functions": [
+                "rfid_reader_open", 
+                "rfid_layer2_getopt", 
+                "__libc_start_main", 
+                "rfid_layer2_open", 
+                "__snprintf_chk", 
+                "rfid_protocol_read", 
+                "__printf_chk", 
+                "getopt_long", 
+                "_ITM_registerTMCloneTable", 
+                "rfid_init", 
+                "rfid_protocol_init", 
+                "mfcl_auth", 
+                "mfcl_access_to_exp", 
+                "putchar", 
+                "rfid_reader_close", 
+                "puts", 
+                "fwrite", 
+                "mfcl_parse_access", 
+                "__xpg_basename", 
+                "mfcl_access_exp_acc_stringify", 
+                "__cxa_finalize", 
+                "strlen", 
+                "__gmon_start__", 
+                "exit", 
+                "rfid_protocol_open", 
+                "__fprintf_chk", 
+                "_ITM_deregisterTMCloneTable", 
+                "mfcl_access_exp_stringify", 
+                "rfid_layer2_init", 
+                "mfcl_set_key"
+            ], 
+            "rpm": "librfid-0.2.0-15.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/mifare-tool"
+        }, 
+        "usr/bin/librfid-send_script": {
+            "report-functions": [
+                "_IO_getc", 
+                "perror", 
+                "__cxa_finalize", 
+                "calloc", 
+                "exit", 
+                "malloc", 
+                "__gmon_start__", 
+                "fwrite", 
+                "__snprintf_chk", 
+                "rfid_protocol_transceive", 
+                "rfid_protocol_open", 
+                "rfid_layer2_open", 
+                "puts", 
+                "rfid_reader_close", 
+                "__fprintf_chk", 
+                "free", 
+                "fgets", 
+                "rfid_reader_open", 
+                "rfid_init", 
+                "__libc_start_main", 
+                "_ITM_deregisterTMCloneTable", 
+                "fopen", 
+                "__ctype_b_loc", 
+                "_ITM_registerTMCloneTable", 
+                "__printf_chk", 
+                "strncmp", 
+                "rfid_layer2_init"
+            ], 
+            "rpm": "librfid-0.2.0-15.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/librfid-send_script"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " librfid", 
+            "License": " GPLv2", 
+            "URL": " http://www.openmrtd.org/projects/librfid/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-31.phx2.fedoraproject.org", 
+            "Description": "\nlibrfid is a Free Software RFID library. It implements the PCD (reader)\nside protocol stack of ISO 14443 A, ISO 14443 B, ISO 15693,\nMifare Ultralight and Mifare Classic. Support for iCODE and\nother 13.56MHz based transponders is planned.\n", 
+            "Build Date": " Thu 03 Aug 2017 04:06:10 PM EDT", 
+            "Source RPM": " librfid-0.2.0-15.fc27.src.rpm", 
+            "Version": " 0.2.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 01:24:56 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 15.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " The librfid is a Free Software RFID library", 
+            "Size": " 124643"
+        }
+    }
+}

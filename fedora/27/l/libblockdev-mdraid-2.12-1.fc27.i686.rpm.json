@@ -1,0 +1,91 @@
+{
+    "results": {
+        "usr/lib/libbd_mdraid_so_2_0_0": {
+            "report-functions": [
+                "g_strfreev", 
+                "g_str_has_prefix", 
+                "g_strchomp", 
+                "g_ascii_strtoull", 
+                "bd_utils_check_util_version", 
+                "strchr", 
+                "_ITM_registerTMCloneTable", 
+                "__stack_chk_fail", 
+                "g_prefix_error", 
+                "__gmon_start__", 
+                "g_strdup", 
+                "g_str_equal", 
+                "g_hash_table_insert", 
+                "g_set_error", 
+                "g_malloc0", 
+                "strftime", 
+                "g_file_get_contents", 
+                "g_regex_new", 
+                "g_regex_unref", 
+                "access", 
+                "g_quark_from_static_string", 
+                "bd_utils_exec_and_capture_output", 
+                "bd_utils_exec_and_report_error", 
+                "bs_clear_error", 
+                "g_strchug", 
+                "g_free", 
+                "g_strsplit_set", 
+                "bs_size_get_bytes", 
+                "g_hash_table_destroy", 
+                "g_hash_table_contains", 
+                "g_path_get_basename", 
+                "globfree", 
+                "g_hash_table_new_full", 
+                "g_strv_length", 
+                "__cxa_finalize", 
+                "_ITM_deregisterTMCloneTable", 
+                "g_log", 
+                "g_malloc0_n", 
+                "bs_size_new_from_str", 
+                "glob", 
+                "g_hash_table_lookup", 
+                "g_regex_match", 
+                "g_strdup_printf", 
+                "g_str_hash", 
+                "g_clear_error", 
+                "g_strcmp0", 
+                "strptime", 
+                "strstr", 
+                "bd_utils_echo_str_to_file"
+            ], 
+            "rpm": "libblockdev-mdraid-2.12-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libbd_mdraid.so.2.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " libblockdev-mdraid", 
+            "License": " LGPLv2+", 
+            "URL": " https://github.com/storaged-project/libblockdev", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-02.phx2.fedoraproject.org", 
+            "Description": "\nThe libblockdev library plugin (and in the same time a standalone library)\nproviding the functionality related to MD RAID.\n", 
+            "Build Date": " Wed 30 Aug 2017 03:57:24 AM EDT", 
+            "Source RPM": " libblockdev-2.12-1.fc27.src.rpm", 
+            "Version": " 2.12", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Wed 30 Aug 2017 04:07:49 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 1.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " The MD RAID plugin for the libblockdev library", 
+            "Size": " 22868"
+        }
+    }
+}

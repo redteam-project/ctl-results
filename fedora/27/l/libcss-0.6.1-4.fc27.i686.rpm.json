@@ -1,0 +1,81 @@
+{
+    "results": {
+        "usr/lib/libcss_so_0_6_1": {
+            "report-functions": [
+                "parserutils_stack_create", 
+                "_ITM_registerTMCloneTable", 
+                "lwc_string_destroy", 
+                "parserutils_vector_remove_last", 
+                "parserutils_buffer_create", 
+                "parserutils_stack_push", 
+                "__gmon_start__", 
+                "parserutils_inputstream_append", 
+                "memmove", 
+                "parserutils_vector_append", 
+                "parserutils_buffer_destroy", 
+                "strdup", 
+                "parserutils_vector_create", 
+                "__cxa_finalize", 
+                "calloc", 
+                "__stack_chk_fail", 
+                "lwc__intern_caseless_string", 
+                "strncasecmp", 
+                "parserutils_vector_clear", 
+                "parserutils_buffer_append", 
+                "parserutils_vector_iterate", 
+                "__assert_fail", 
+                "parserutils_stack_get_current", 
+                "parserutils_inputstream_create", 
+                "parserutils_charset_mibenum_from_name", 
+                "parserutils_vector_destroy", 
+                "strlen", 
+                "parserutils_charset_utf8_from_ucs4", 
+                "parserutils_stack_pop", 
+                "lwc_intern_string", 
+                "_ITM_deregisterTMCloneTable", 
+                "memcmp", 
+                "parserutils_inputstream_peek_slow", 
+                "free", 
+                "malloc", 
+                "parserutils_inputstream_read_charset", 
+                "realloc", 
+                "parserutils_vector_peek", 
+                "parserutils_stack_destroy"
+            ], 
+            "rpm": "libcss-0.6.1-4.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libcss.so.0.6.1"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " libcss", 
+            "License": " MIT", 
+            "URL": " http://www.netsurf-browser.org/projects/libcss/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-11.phx2.fedoraproject.org", 
+            "Description": "\nLibCSS is a CSS (Cascading Style Sheet) parser and selection engine,\nwritten in C. It was developed as part of the NetSurf project. For\nfurther details, see README.\n\nFeatures:\n* Parses CSS, good and bad\n* Simple C API\n* Low memory usage\n* Fast selection engine\n* Portable\n", 
+            "Build Date": " Thu 03 Aug 2017 01:55:18 PM EDT", 
+            "Source RPM": " libcss-0.6.1-4.fc27.src.rpm", 
+            "Version": " 0.6.1", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 06:43:17 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 4.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A CSS parser and selection engine", 
+            "Size": " 436171"
+        }
+    }
+}

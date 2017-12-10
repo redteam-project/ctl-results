@@ -1,0 +1,25 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " python-lazyarray", 
+            "License": " BSD", 
+            "URL": " http://bitbucket.org/apdavison/lazyarray/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-ppc64le-06.ppc.fedoraproject.org", 
+            "Description": "\nlazyarray is a Python package that provides a lazily-evaluated numerical array\nclass, ``larray``, based on and compatible with NumPy arrays.\n\nLazy evaluation means that any operations on the array (potentially including\narray construction) are not performed immediately, but are delayed until\nevaluation is specifically requested. Evaluation of only parts of the array is\nalso possible.\n\nUse of an ``larray`` can potentially save considerable computation time and\nmemory in cases where:\n\n    * arrays are used conditionally (i.e. there are cases in which the array is\n      never used)\n    * only parts of an array are used (for example in distributed computation,\n      in which each MPI node operates on a subset of the elements of the array)\n\nDocumentation: http://lazyarray.readthedocs.org/\n", 
+            "Build Date": " Fri 28 Jul 2017 01:11:01 PM EDT", 
+            "Source RPM": " python-lazyarray-0.2.8-7.fc27.src.rpm", 
+            "Version": " 0.2.8", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Sat 29 Jul 2017 01:41:43 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 7.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A lazily-evaluated numerical array class", 
+            "Size": " 66618"
+        }
+    }
+}

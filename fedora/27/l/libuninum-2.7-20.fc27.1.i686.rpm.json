@@ -1,0 +1,125 @@
+{
+    "results": {
+        "usr/lib/libuninum_so_5_3_0": {
+            "report-functions": [
+                "wcslen", 
+                "__gmpz_sizeinbase", 
+                "__gmpz_submul_ui", 
+                "free", 
+                "__gmpz_init_set_ui", 
+                "exit", 
+                "__gmpz_init_set_str", 
+                "__gmpz_set_ui", 
+                "__gmpz_add_ui", 
+                "__gmpz_sub_ui", 
+                "wcschr", 
+                "__gmpz_tdiv_q_ui", 
+                "__sprintf_chk", 
+                "__ctype_tolower_loc", 
+                "__gmpz_cmp", 
+                "__gmpz_set", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmpz_mul", 
+                "localeconv", 
+                "__gmpz_add", 
+                "__gmpz_get_str", 
+                "wcsrchr", 
+                "fwrite", 
+                "__gmpz_set_str", 
+                "__gmpz_init", 
+                "__cxa_finalize", 
+                "__gmpz_clear", 
+                "__gmpz_init_set", 
+                "__gmpz_cmp_ui", 
+                "wcscpy", 
+                "__gmpz_tdiv_qr_ui", 
+                "__gmpz_tdiv_qr", 
+                "_ITM_registerTMCloneTable", 
+                "strlen", 
+                "__stack_chk_fail", 
+                "setlocale", 
+                "malloc", 
+                "__gmpz_tdiv_q"
+            ], 
+            "rpm": "libuninum-2.7-20.fc27.1.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libuninum.so.5.3.0"
+        }, 
+        "usr/bin/numconv": {
+            "report-functions": [
+                "uninum_version", 
+                "NumberSystemToString", 
+                "_ITM_deregisterTMCloneTable", 
+                "GetLocaleGroupInfo", 
+                "__stack_chk_fail", 
+                "__cxa_finalize", 
+                "realloc", 
+                "read", 
+                "GuessNumberSystem", 
+                "fopen", 
+                "puts", 
+                "_IO_putc", 
+                "_ITM_registerTMCloneTable", 
+                "StringToNumberSystem", 
+                "perror", 
+                "ListNumberSystems", 
+                "__libc_start_main", 
+                "free", 
+                "__gmon_start__", 
+                "UninumStringMaximumValue", 
+                "exit", 
+                "IntToString", 
+                "__snprintf_chk", 
+                "fwrite", 
+                "strtol", 
+                "StringToInt", 
+                "getopt_long", 
+                "malloc"
+            ], 
+            "rpm": "libuninum-2.7-20.fc27.1.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/numconv"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " libuninum", 
+            "License": " GPLv2 and LGPLv2", 
+            "URL": " http://billposer.org/Software/libuninum.html", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-02.phx2.fedoraproject.org", 
+            "Description": "\nlibuninum is a library for converting Unicode strings to\nnumbers. Internal computation is done using arbitrary precision\narithmetic, so there is no limit on the size of the integer that can\nbe converted. The value is returned as an ASCII decimal string, a GNU\nMP object, or an unsigned long integer.  Auto-detection of the number\nsystem is provided. The number systems supported include Arabic,\nArmenian, Balinese, Bengali, Burmese, Chinese, Cyrillic, Devanagari,\nEgyptian, Ethiopic, Glagolitic, Greek, Gujarati, Gurmukhi, Hebrew,\nKannada, Khmer, Klingon, Lao, Limbu, Malayalam, Mongolian, New Tai\nLue, Nko, Old Italic, Old Persian, Oriya, Osmanya, Perso-Arabic,\nPhoenician, Roman Numerals, Tamil, Telugu, Tengwar, Thai, and Tibetan.\n", 
+            "Build Date": " Thu 03 Aug 2017 04:33:08 PM EDT", 
+            "Source RPM": " libuninum-2.7-20.fc27.1.src.rpm", 
+            "Version": " 2.7", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 02:03:55 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 20.fc27.1", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Library for converting unicode strings to numbers", 
+            "Size": " 170098"
+        }
+    }
+}

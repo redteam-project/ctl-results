@@ -1,0 +1,50 @@
+{
+    "results": {
+        "usr/share/doc/php-Analog/examples/gelf_php": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/share/doc/php-Analog/examples/gelf.php", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "php-Analog-1.0.9-3.fc27.noarch.rpm"
+        }, 
+        "usr/share/php/Analog/Handler/GELF_php": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/share/php/Analog/Handler/GELF.php", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "php-Analog-1.0.9-3.fc27.noarch.rpm"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " php-Analog", 
+            "License": " MIT", 
+            "URL": " https://github.com/jbroadway/analog", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-08.phx2.fedoraproject.org", 
+            "Description": "\nMicroPHP logging package based on the idea of using closures for\nconfigurability and extensibility. It functions as a static class,\nbut you can completely control the writing of log messages through\na closure function (aka anonymous functions).\n\nAnalog also comes with over a dozen pre-written handlers,\nwith examples for each in the examples folder. These include:\n- Amon - Send logs to the Amon server monitoring tool\n- Buffer - Buffer messages to send all at once (works with File,\n  Mail, Stderr, and Variable handlers)\n- File - Append messages to a file\n- FirePHP - Send messages to FirePHP browser plugin\n- GELF - Send message to the Graylog2 log management server\n- Ignore - Do nothing\n- LevelBuffer - Buffer messages and send only if sufficient error\n  level reached\n- Mail - Send email notices\n- Mongo - Save to MongoDB collection, requires php-pecl(mongo)\n  package to be installed\n- Multi - Send different log levels to different handlers\n- Post - Send messages over HTTP POST to another machine\n- Stderr - Send messages to STDERR\n- Syslog - Send messages to syslog\n- Variable - Buffer messages to a variable reference.\n\nSo while it's a micro class, it's highly extensible and very capable\nout of the box too.\n\nAutoloader: /usr/share/php/Analog/autoload.php\n", 
+            "Build Date": " Fri 28 Jul 2017 07:49:35 AM EDT", 
+            "Source RPM": " php-Analog-1.0.9-3.fc27.src.rpm", 
+            "Version": " 1.0.9", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Fri 28 Jul 2017 07:13:17 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 3.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " PHP micro logging package", 
+            "Size": " 54194"
+        }
+    }
+}

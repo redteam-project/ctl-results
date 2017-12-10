@@ -1,0 +1,72 @@
+{
+    "results": {
+        "lib/libsysfs_so_2_0_1": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "__lxstat", 
+                "readlink", 
+                "__stpcpy_chk", 
+                "readdir", 
+                "closedir", 
+                "__errno_location", 
+                "__cxa_finalize", 
+                "calloc", 
+                "_ITM_registerTMCloneTable", 
+                "getenv", 
+                "strstr", 
+                "read", 
+                "strrchr", 
+                "__xstat", 
+                "__strncpy_chk", 
+                "strlen", 
+                "_ITM_deregisterTMCloneTable", 
+                "close", 
+                "strcmp", 
+                "strncmp", 
+                "strncpy", 
+                "open", 
+                "malloc", 
+                "opendir", 
+                "strchr", 
+                "getpagesize", 
+                "free", 
+                "write", 
+                "__strncat_chk"
+            ], 
+            "rpm": "libsysfs-2.1.0-22.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "lib/libsysfs.so.2.0.1"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " libsysfs", 
+            "License": " LGPLv2+", 
+            "URL": " http://sourceforge.net/projects/linux-diag/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-17.phx2.fedoraproject.org", 
+            "Description": "\nLibrary used in handling linux kernel sysfs mounts and their various files.\n", 
+            "Build Date": " Fri 04 Aug 2017 07:50:28 PM EDT", 
+            "Source RPM": " sysfsutils-2.1.0-22.fc27.src.rpm", 
+            "Version": " 2.1.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 05 Aug 2017 05:53:33 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 22.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Shared library for interfacing with sysfs", 
+            "Size": " 148057"
+        }
+    }
+}

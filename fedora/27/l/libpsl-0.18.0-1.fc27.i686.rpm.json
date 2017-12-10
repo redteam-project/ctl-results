@@ -1,0 +1,72 @@
+{
+    "results": {
+        "usr/lib/libpsl_so_5_1_2": {
+            "report-functions": [
+                "strchr", 
+                "__xstat", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize", 
+                "__ctype_tolower_loc", 
+                "u8_strlen", 
+                "inet_pton", 
+                "_ITM_registerTMCloneTable", 
+                "fgets", 
+                "__gmon_start__", 
+                "strdup", 
+                "fread", 
+                "iconv_open", 
+                "u8_tolower", 
+                "strtol", 
+                "nl_langinfo", 
+                "strlen", 
+                "strcasecmp", 
+                "iconv", 
+                "strstr", 
+                "strcmp", 
+                "iconv_close", 
+                "__ctype_b_loc", 
+                "free", 
+                "idn2_lookup_u8", 
+                "qsort", 
+                "fopen", 
+                "malloc", 
+                "calloc", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "libpsl-0.18.0-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libpsl.so.5.1.2"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " libpsl", 
+            "License": " MIT", 
+            "URL": " https://rockdaboot.github.io/libpsl", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-09.phx2.fedoraproject.org", 
+            "Description": "\nlibpsl is a C library to handle the Public Suffix List. A \"public suffix\" is a\ndomain name under which Internet users can directly register own names.\n\nBrowsers and other web clients can use it to\n\n- Avoid privacy-leaking \"supercookies\";\n- Avoid privacy-leaking \"super domain\" certificates;\n- Domain highlighting parts of the domain in a user interface;\n- Sorting domain lists by site;\n\nLibpsl...\n\n- has built-in PSL data for fast access;\n- allows to load PSL data from files;\n- checks if a given domain is a \"public suffix\";\n- provides immediate cookie domain verification;\n- finds the longest public part of a given domain;\n- finds the shortest private part of a given domain;\n- works with international domains (UTF-8 and IDNA2008 Punycode);\n- is thread-safe;\n- handles IDNA2008 UTS#46;\n", 
+            "Build Date": " Fri 11 Aug 2017 02:10:00 AM EDT", 
+            "Source RPM": " libpsl-0.18.0-1.fc27.src.rpm", 
+            "Version": " 0.18.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 11 Aug 2017 02:14:09 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 1.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " C library for the Publix Suffix List", 
+            "Size": " 56712"
+        }
+    }
+}

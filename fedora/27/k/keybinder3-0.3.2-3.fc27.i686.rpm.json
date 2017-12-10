@@ -1,0 +1,79 @@
+{
+    "results": {
+        "usr/lib/libkeybinder-3_0_so_0_0_0": {
+            "report-functions": [
+                "gdk_keymap_get_entries_for_keyval", 
+                "__stack_chk_fail", 
+                "g_type_check_instance_is_a", 
+                "__cxa_finalize", 
+                "g_free", 
+                "gdk_error_trap_pop", 
+                "XkbGetMap", 
+                "XGrabKey", 
+                "g_log", 
+                "XLookupKeysym", 
+                "g_malloc0", 
+                "gdk_get_default_root_window", 
+                "gdk_keymap_get_default", 
+                "XOpenDisplay", 
+                "gdk_keymap_add_virtual_modifiers", 
+                "gdk_error_trap_push", 
+                "XUngrabKey", 
+                "gdk_keymap_translate_keyboard_state", 
+                "gdk_keymap_map_virtual_modifiers", 
+                "gdk_flush", 
+                "XkbFreeKeyboard", 
+                "gdk_window_add_filter", 
+                "gtk_accelerator_parse", 
+                "_ITM_deregisterTMCloneTable", 
+                "g_slist_prepend", 
+                "_ITM_registerTMCloneTable", 
+                "gdk_display_get_default", 
+                "gdk_x11_display_get_xdisplay", 
+                "g_slist_remove", 
+                "g_strdup", 
+                "g_signal_connect_data", 
+                "__gmon_start__", 
+                "gdk_keymap_have_bidi_layouts", 
+                "gdk_x11_display_get_type", 
+                "gdk_x11_window_get_xid", 
+                "gtk_accelerator_get_default_mod_mask", 
+                "gdk_window_get_display"
+            ], 
+            "rpm": "keybinder3-0.3.2-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libkeybinder-3.0.so.0.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " keybinder3", 
+            "License": " MIT", 
+            "URL": " https://github.com/kupferlauncher/keybinder", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-10.phx2.fedoraproject.org", 
+            "Description": "\nKeybinder is a library for registering global keyboard shortcuts.\nKeybinder works with GTK-based applications using the X Window System.\n\nThe library contains:\n- A C library, libkeybinder\n- Gobject-Introspection bindings\n", 
+            "Build Date": " Thu 03 Aug 2017 07:23:14 AM EDT", 
+            "Source RPM": " keybinder3-0.3.2-3.fc27.src.rpm", 
+            "Version": " 0.3.2", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 01:43:45 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 3.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A library for registering global keyboard shortcuts", 
+            "Size": " 23075"
+        }
+    }
+}

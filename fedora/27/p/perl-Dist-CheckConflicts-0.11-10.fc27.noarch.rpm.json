@@ -1,0 +1,25 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " perl-Dist-CheckConflicts", 
+            "License": " GPL+ or Artistic", 
+            "URL": " http://search.cpan.org/dist/Dist-CheckConflicts/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-aarch64-14.arm.fedoraproject.org", 
+            "Description": "\nOne shortcoming of the CPAN clients that currently exist is that they have no\nway of specifying conflicting downstream dependencies of modules. This module\nattempts to work around this issue by allowing you to specify conflicting\nversions of modules separately, and deal with them after the module is done\ninstalling.\n\nFor instance, say you have a module Foo, and some other module Bar uses Foo. If\nFoo were to change its API in a non-backwards-compatible way, this would cause\nBar to break until it is updated to use the new API. Foo can't just depend on\nthe fixed version of Bar, because this will cause a circular dependency\n(because Bar is already depending on Foo), and this doesn't express intent\nproperly anyway - Foo doesn't use Bar at all. The ideal solution would be for\nthere to be a way to specify conflicting versions of modules in a way that would\nlet CPAN clients update conflicting modules automatically after an existing\nmodule is upgraded, but until that happens, this module will allow users to do\nthis manually.\n", 
+            "Build Date": " Fri 28 Jul 2017 02:53:38 AM EDT", 
+            "Source RPM": " perl-Dist-CheckConflicts-0.11-10.fc27.src.rpm", 
+            "Version": " 0.11", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Fri 28 Jul 2017 11:05:29 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 10.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Declare version conflicts for your dist", 
+            "Size": " 32685"
+        }
+    }
+}

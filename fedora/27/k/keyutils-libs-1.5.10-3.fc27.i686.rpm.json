@@ -1,0 +1,59 @@
+{
+    "results": {
+        "usr/lib/libkeyutils_so_1_6": {
+            "report-functions": [
+                "strrchr", 
+                "__cxa_finalize", 
+                "free", 
+                "_ITM_deregisterTMCloneTable", 
+                "fgets", 
+                "__isoc99_sscanf", 
+                "__gmon_start__", 
+                "__errno_location", 
+                "fopen", 
+                "syscall", 
+                "memcmp", 
+                "strlen", 
+                "strchr", 
+                "fclose", 
+                "strcmp", 
+                "__fprintf_chk", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "keyutils-libs-1.5.10-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libkeyutils.so.1.6"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Base", 
+            "Name": " keyutils-libs", 
+            "License": " GPLv2+ and LGPLv2+", 
+            "URL": " http://people.redhat.com/~dhowells/keyutils/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-32.phx2.fedoraproject.org", 
+            "Description": "\nThis package provides a wrapper library for the key management facility system\ncalls.\n", 
+            "Build Date": " Thu 03 Aug 2017 07:24:20 AM EDT", 
+            "Source RPM": " keyutils-1.5.10-3.fc27.src.rpm", 
+            "Version": " 1.5.10", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 01:49:08 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 3.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Key utilities library", 
+            "Size": " 42350"
+        }
+    }
+}

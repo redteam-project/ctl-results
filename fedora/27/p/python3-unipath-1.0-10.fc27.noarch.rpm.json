@@ -1,0 +1,25 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Tools", 
+            "Name": " python3-unipath", 
+            "License": " Python", 
+            "URL": " http://pypi.python.org/pypi/Unipath/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-08.phx2.fedoraproject.org", 
+            "Description": "\nUnipath is a package for doing pathname calculations and filesystem\naccess in an object-oriented manner, an alternative to functions in\nos.path, shutil and glob, and even some functions in os.* It's based\non Jason Orendorff's path.py but does not adhere as strictly to the\nunderlying functions' syntax, in order to provide more user\nconvenience and higher-level functionality. For example:\n\n o p.mkdir() succeeds silently if the directory already exists, and\n o p.mkdir(True) creates intermediate directories a la os.makedirs.\n o p.rmtree(parents=True) combines shutil.rmtree, os.path.isdir,\n   os.remove, and os.removedirs, to recursively remove whatever it is\n   if it exists.\n o p.read_file(\"rb\") returns the file's contents in binary mode.\n o p.needs_update([other_path1, ...]) returns True if p doesn't exist\n   or has an older timestamp than any of the others.\n o extra convenience functions in the unipath.tools module. dict2dir\n   creates a directory hierarchy described by a dict. dump_path displays\n   an ASCII tree of a directory hierarchy.\n\nThis is the Python 3 build of Unipath\n", 
+            "Build Date": " Fri 28 Jul 2017 02:36:57 PM EDT", 
+            "Source RPM": " python-unipath-1.0-10.fc27.src.rpm", 
+            "Version": " 1.0", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Sat 29 Jul 2017 04:50:19 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 10.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Alternative to Python modules os, os.path and shutil", 
+            "Size": " 142638"
+        }
+    }
+}

@@ -1,0 +1,119 @@
+{
+    "results": {
+        "usr/lib/libGLESv1_CM_so_1_0_0": {
+            "report-functions": [
+                "strchr", 
+                "strcmp", 
+                "__cxa_finalize", 
+                "__stack_chk_fail", 
+                "realloc", 
+                "geteuid", 
+                "malloc", 
+                "munmap", 
+                "sysconf", 
+                "memmove", 
+                "strncmp", 
+                "_ITM_registerTMCloneTable", 
+                "__glDispatchFini", 
+                "mmap", 
+                "__vsnprintf_chk", 
+                "mkstemp", 
+                "_ITM_deregisterTMCloneTable", 
+                "getenv", 
+                "open", 
+                "ftruncate", 
+                "__fxstat", 
+                "unlink", 
+                "__gmon_start__", 
+                "strlen", 
+                "mprotect", 
+                "strdup", 
+                "getuid", 
+                "__glDispatchUnregisterStubCallbacks", 
+                "__glDispatchRegisterStubCallbacks", 
+                "free"
+            ], 
+            "rpm": "libglvnd-gles-0.2.999-24.20170818git8d4d03f.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libGLESv1_CM.so.1.0.0"
+        }, 
+        "usr/lib/libGLESv2_so_2_0_0": {
+            "report-functions": [
+                "close", 
+                "_ITM_registerTMCloneTable", 
+                "__cxa_finalize", 
+                "strdup", 
+                "__stack_chk_fail", 
+                "__glDispatchRegisterStubCallbacks", 
+                "strncmp", 
+                "__fxstat", 
+                "strchr", 
+                "open", 
+                "malloc", 
+                "memmove", 
+                "__glDispatchUnregisterStubCallbacks", 
+                "realloc", 
+                "mprotect", 
+                "unlink", 
+                "mkstemp", 
+                "__gmon_start__", 
+                "getenv", 
+                "munmap", 
+                "_ITM_deregisterTMCloneTable", 
+                "getuid", 
+                "__glDispatchInit", 
+                "free", 
+                "strlen", 
+                "sysconf", 
+                "mmap", 
+                "geteuid", 
+                "strcmp", 
+                "ftruncate"
+            ], 
+            "rpm": "libglvnd-gles-0.2.999-24.20170818git8d4d03f.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libGLESv2.so.2.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " libglvnd-gles", 
+            "License": " MIT", 
+            "URL": " https://github.com/NVIDIA/libglvnd", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-03.phx2.fedoraproject.org", 
+            "Source RPM": " libglvnd-0.2.999-24.20170818git8d4d03f.fc27.src.rpm", 
+            "Description": "\nlibGLESv[12] are the common dispatch interface for the GLES API.\n", 
+            "Build Date": " Wed 23 Aug 2017 04:54:38 AM EDT", 
+            "Epoch": " 1", 
+            "Version": " 0.2.999", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Wed 23 Aug 2017 04:59:03 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 24.20170818git8d4d03f.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " GLES support for libglvnd", 
+            "Size": " 90428"
+        }
+    }
+}

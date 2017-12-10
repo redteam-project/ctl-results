@@ -1,0 +1,55 @@
+{
+    "results": {
+        "usr/lib/python3_6/config-3_6m-i386-linux-gnu/python_o": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib/python3.6/config-3.6m-i386-linux-gnu/python.o", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "report-functions": [
+                "_GLOBAL_OFFSET_TABLE_", 
+                "Py_DecodeLocale", 
+                "_PyMem_SetupAllocators", 
+                "PyMem_RawFree", 
+                "_Py_CoerceLegacyLocale", 
+                "_Py_LegacyLocaleDetected", 
+                "PyMem_RawMalloc", 
+                "setlocale", 
+                "stderr", 
+                "_PyMem_RawStrdup"
+            ], 
+            "rpm": "python3-devel-3.6.2-13.fc27.i686.rpm"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " python3-devel", 
+            "License": " Python", 
+            "URL": " https://www.python.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-19.phx2.fedoraproject.org", 
+            "Description": "\nThis package contains the header files and configuration needed to compile\nPython extension modules (typically written in C or C++), to embed Python\ninto other programs, and to make binary distributions for Python libraries.\n\nIt also contains the necessary macros to build RPM packages with Python modules.\n", 
+            "Build Date": " Fri 01 Sep 2017 08:56:31 AM EDT", 
+            "Source RPM": " python3-3.6.2-13.fc27.src.rpm", 
+            "Version": " 3.6.2", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 01 Sep 2017 12:13:19 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 13.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Libraries and header files needed for Python development", 
+            "Size": " 2719276"
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " perl-Tie-EncryptedHash", 
+            "License": " GPL+ or Artistic", 
+            "URL": " http://search.cpan.org/dist/Tie-EncryptedHash/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-armv7-03.arm.fedoraproject.org", 
+            "Description": "\nTie::EncryptedHash augments Perl hash semantics to build secure, encrypting\ncontainers of data. Tie::EncryptedHash introduces special hash fields that are\ncoupled with encrypt/decrypt routines to encrypt assignments at STORE() and\ndecrypt retrievals at FETCH(). By design, encrypting fields are associated with\nkeys that begin in single underscore. The remaining keyspace is used for\naccessing normal hash fields, which are retained without modification.\n\nWhile the password is set, a Tie::EncryptedHash behaves exactly like a standard\nPerl hash. This is its transparent mode of access. Encrypting and normal fields\nare identical in this mode. When password is deleted, encrypting fields are\naccessible only as ciphertext. This is Tie::EncryptedHash's opaque mode of\naccess, optimized for serialization.\n\nEncryption is done with Crypt::CBC(3), which encrypts in the cipher block\nchaining mode with Blowfish, DES or IDEA. Tie::EncryptedHash uses Blowfish by\ndefault, but can be instructed to employ any cipher supported by Crypt::CBC(3).\n", 
+            "Build Date": " Fri 28 Jul 2017 07:07:00 AM EDT", 
+            "Source RPM": " perl-Tie-EncryptedHash-1.24-23.fc27.src.rpm", 
+            "Version": " 1.24", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Fri 28 Jul 2017 05:50:40 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 23.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Hashes (and objects based on hashes) with encrypting fields", 
+            "Size": " 34021"
+        }
+    }
+}

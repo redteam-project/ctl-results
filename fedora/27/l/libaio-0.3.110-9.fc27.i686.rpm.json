@@ -1,0 +1,55 @@
+{
+    "results": {
+        "usr/lib/libaio_so_1_0_1": {
+            "report-functions": [], 
+            "rpm": "libaio-0.3.110-9.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libaio.so.1.0.1"
+        }, 
+        "usr/lib/libaio_so_1_0_0": {
+            "report-functions": [], 
+            "rpm": "libaio-0.3.110-9.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libaio.so.1.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " libaio", 
+            "License": " LGPLv2+", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-28.phx2.fedoraproject.org", 
+            "Description": "\nThe Linux-native asynchronous I/O facility (\"async I/O\", or \"aio\") has a\nricher API and capability set than the simple POSIX async I/O facility.\nThis library, libaio, provides the Linux-native API for async I/O.\nThe POSIX async I/O facility requires this library in order to provide\nkernel-accelerated async I/O capabilities, as do applications which\nrequire the Linux-native async I/O API.\n", 
+            "Build Date": " Thu 03 Aug 2017 12:31:38 PM EDT", 
+            "Source RPM": " libaio-0.3.110-9.fc27.src.rpm", 
+            "Version": " 0.3.110", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 05:43:32 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 9.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Linux-native asynchronous I/O access library", 
+            "Size": " 38326"
+        }
+    }
+}

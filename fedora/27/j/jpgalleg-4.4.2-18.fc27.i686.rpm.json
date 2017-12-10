@@ -1,0 +1,68 @@
+{
+    "results": {
+        "usr/lib/libjpgalleg_so_4_4_2": {
+            "report-functions": [
+                "generate_332_palette", 
+                "__cxa_finalize", 
+                "select_palette", 
+                "pack_fread", 
+                "qsort", 
+                "destroy_bitmap", 
+                "__gmon_start__", 
+                "register_bitmap_file_type", 
+                "__stack_chk_fail", 
+                "_fixup_loaded_bitmap", 
+                "pack_fclose", 
+                "unselect_palette", 
+                "cos", 
+                "blit", 
+                "_ITM_deregisterTMCloneTable", 
+                "_color_load_depth", 
+                "_ITM_registerTMCloneTable", 
+                "file_size_ex", 
+                "free", 
+                "pack_fopen", 
+                "calloc", 
+                "pack_fwrite", 
+                "create_bitmap_ex", 
+                "memset", 
+                "malloc", 
+                "register_datafile_object"
+            ], 
+            "rpm": "jpgalleg-4.4.2-18.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libjpgalleg.so.4.4.2"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " jpgalleg", 
+            "License": " zlib", 
+            "URL": " http://www.ecplusplus.com/index.php?page=projects&pid=1", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-07.phx2.fedoraproject.org", 
+            "Description": "\njpgalleg is a jpeg library for use with the Allegro game library. It allows\nusing jpeg's as Allegro bitmaps.\n", 
+            "Build Date": " Wed 02 Aug 2017 01:50:21 PM EDT", 
+            "Source RPM": " allegro-4.4.2-18.fc27.src.rpm", 
+            "Version": " 4.4.2", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sun 06 Aug 2017 11:04:46 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 18.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " JPEG library for the Allegro game library", 
+            "Size": " 69205"
+        }
+    }
+}

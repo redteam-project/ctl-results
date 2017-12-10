@@ -1,0 +1,67 @@
+{
+    "results": {
+        "usr/lib/libnbdkitocaml_so_0_0_0": {
+            "report-functions": [
+                "malloc", 
+                "caml_copy_string", 
+                "caml_copy_int32", 
+                "caml_leave_blocking_section", 
+                "exit", 
+                "caml_callback2_exn", 
+                "caml_callback_exn", 
+                "caml_alloc_string", 
+                "__stack_chk_fail", 
+                "caml_register_generational_global_root", 
+                "_ITM_deregisterTMCloneTable", 
+                "caml_callback3_exn", 
+                "caml_remove_generational_global_root", 
+                "caml_callback", 
+                "nbdkit_error", 
+                "caml_startup", 
+                "free", 
+                "__gmon_start__", 
+                "caml_local_roots", 
+                "caml_copy_int64", 
+                "_ITM_registerTMCloneTable", 
+                "fwrite", 
+                "abort", 
+                "caml_format_exception", 
+                "caml_enter_blocking_section"
+            ], 
+            "rpm": "nbdkit-plugin-ocaml-1.1.14-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libnbdkitocaml.so.0.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " nbdkit-plugin-ocaml", 
+            "License": " BSD", 
+            "URL": " https://github.com/libguestfs/nbdkit", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-19.phx2.fedoraproject.org", 
+            "Description": "\nThis package lets you run OCaml plugins for nbdkit.\n\nTo compile OCaml plugins you will also need to install\nnbdkit-plugin-ocaml-devel.\n", 
+            "Build Date": " Fri 01 Sep 2017 10:46:23 AM EDT", 
+            "Source RPM": " nbdkit-1.1.14-1.fc27.src.rpm", 
+            "Version": " 1.1.14", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 01 Sep 2017 11:56:24 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 1.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " OCaml plugin for nbdkit", 
+            "Size": " 19556"
+        }
+    }
+}

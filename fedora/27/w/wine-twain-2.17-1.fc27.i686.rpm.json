@@ -1,0 +1,82 @@
+{
+    "results": {
+        "usr/lib/wine/sane_ds_so": {
+            "report-functions": [
+                "strrchr", 
+                "__cxa_finalize", 
+                "strcpy", 
+                "wine_dlclose", 
+                "system", 
+                "wine_dbg_log", 
+                "__gmon_start__", 
+                "sprintfW", 
+                "__wine_dll_register", 
+                "wine_dlopen", 
+                "__stack_chk_fail", 
+                "strtol", 
+                "sprintf", 
+                "wine_dlsym", 
+                "memcmp", 
+                "strcmp"
+            ], 
+            "rpm": "wine-twain-2.17-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/wine/sane.ds.so"
+        }, 
+        "usr/lib/wine/twain_32_dll_so": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize", 
+                "wine_dbg_log", 
+                "_ITM_registerTMCloneTable", 
+                "strcpy", 
+                "__gmon_start__", 
+                "__wine_dll_register", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "wine-twain-2.17-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/wine/twain_32.dll.so"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " wine-twain", 
+            "License": " LGPLv2+", 
+            "URL": " http://www.winehq.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-21.phx2.fedoraproject.org", 
+            "Description": "\nTwain support for wine\n", 
+            "Build Date": " Thu 21 Sep 2017 12:47:50 PM EDT", 
+            "Source RPM": " wine-2.17-1.fc27.src.rpm", 
+            "Version": " 2.17", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 21 Sep 2017 01:37:07 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 1.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Twain support for wine", 
+            "Size": " 221600"
+        }
+    }
+}

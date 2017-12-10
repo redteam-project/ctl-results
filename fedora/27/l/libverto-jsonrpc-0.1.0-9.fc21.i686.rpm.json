@@ -1,0 +1,89 @@
+{
+    "results": {
+        "usr/lib/libverto-jsonrpc_so_0_0_0": {
+            "report-functions": [
+                "free", 
+                "verto_add_io", 
+                "realloc", 
+                "__stack_chk_fail", 
+                "verto_get_flags", 
+                "malloc", 
+                "read", 
+                "__errno_location", 
+                "json_object_get", 
+                "_ITM_registerTMCloneTable", 
+                "json_tokener_parse", 
+                "memmove", 
+                "json_object_new_array", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize", 
+                "json_object_get_type", 
+                "json_tokener_free", 
+                "json_object_array_length", 
+                "json_object_object_get", 
+                "json_object_get_int", 
+                "json_object_new_object", 
+                "write", 
+                "json_tokener_parse_ex", 
+                "strlen", 
+                "verto_get_fd_state", 
+                "json_object_get_string", 
+                "verto_set_flags", 
+                "json_object_object_add", 
+                "verto_get_private", 
+                "__gmon_start__", 
+                "json_object_new_string", 
+                "json_object_new_int", 
+                "strncpy", 
+                "json_tokener_new", 
+                "json_object_array_add", 
+                "__strdup", 
+                "json_tokener_reset", 
+                "json_object_put", 
+                "verto_get_ctx", 
+                "strchr", 
+                "_Jv_RegisterClasses", 
+                "json_object_is_type", 
+                "__assert_fail", 
+                "verto_del", 
+                "verto_set_private", 
+                "json_object_array_put_idx", 
+                "json_object_to_json_string"
+            ], 
+            "rpm": "libverto-jsonrpc-0.1.0-9.fc21.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libverto-jsonrpc.so.0.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " libverto-jsonrpc", 
+            "License": " MIT", 
+            "URL": " https://fedorahosted.org/libverto", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-07.phx2.fedoraproject.org", 
+            "Description": "\nA library for doing JSON-RPC over a socket, using the libverto API.\n", 
+            "Build Date": " Sat 07 Jun 2014 03:36:02 AM EDT", 
+            "Source RPM": " libverto-jsonrpc-0.1.0-9.fc21.src.rpm", 
+            "Version": " 0.1.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sun 26 Feb 2017 03:24:41 PM EST, Key ID f55e7430f5282ee4", 
+            "Release": " 9.fc21", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " JSON-RPC support for libverto", 
+            "Size": " 23669"
+        }
+    }
+}

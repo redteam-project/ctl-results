@@ -1,0 +1,67 @@
+{
+    "results": {
+        "usr/lib/libbd_swap_so_2_0_0": {
+            "report-functions": [
+                "getpagesize", 
+                "g_io_channel_new_file", 
+                "swapoff", 
+                "g_file_get_contents", 
+                "bd_utils_exec_and_report_error", 
+                "g_io_channel_seek_position", 
+                "_ITM_registerTMCloneTable", 
+                "bd_utils_check_util_version", 
+                "strchr", 
+                "g_quark_from_static_string", 
+                "bd_utils_report_finished", 
+                "g_log", 
+                "__cxa_finalize", 
+                "bd_utils_report_started", 
+                "g_strdup_printf", 
+                "bd_utils_report_progress", 
+                "bd_utils_resolve_device", 
+                "g_set_error", 
+                "swapon", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "__stack_chk_fail", 
+                "g_free", 
+                "g_str_has_prefix", 
+                "g_clear_error"
+            ], 
+            "rpm": "libblockdev-swap-2.12-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libbd_swap.so.2.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " libblockdev-swap", 
+            "License": " LGPLv2+", 
+            "URL": " https://github.com/storaged-project/libblockdev", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-02.phx2.fedoraproject.org", 
+            "Description": "\nThe libblockdev library plugin (and in the same time a standalone library)\nproviding the functionality related to swap devices.\n", 
+            "Build Date": " Wed 30 Aug 2017 03:57:24 AM EDT", 
+            "Source RPM": " libblockdev-2.12-1.fc27.src.rpm", 
+            "Version": " 2.12", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Wed 30 Aug 2017 04:05:59 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 1.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " The swap plugin for the libblockdev library", 
+            "Size": " 10488"
+        }
+    }
+}

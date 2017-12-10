@@ -1,0 +1,566 @@
+{
+    "results": {
+        "usr/lib/libnetdude/0_11/protocols/libnd_fddi_so": {
+            "report-functions": [
+                "libnd_packet_get_end", 
+                "libnd_packet_add_proto_data", 
+                "libnd_proto_new", 
+                "__cxa_finalize", 
+                "libnd_raw_proto_get", 
+                "libnd_proto_registry_find", 
+                "libnd_packet_get_data", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "libnetdude-0.11-16.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libnetdude/0.11/protocols/libnd_fddi.so"
+        }, 
+        "usr/lib/libnetdude/0_11/protocols/libnd_tcp_so": {
+            "report-functions": [
+                "g_free", 
+                "__gmon_start__", 
+                "regexec", 
+                "libnd_tcpdump_options_reset", 
+                "libnd_misc_ones_complement_checksum", 
+                "libnd_raw_proto_get", 
+                "_ITM_deregisterTMCloneTable", 
+                "libnd_prefs_add_domain", 
+                "libnd_packet_add_proto_data", 
+                "g_hash_table_new", 
+                "libnd_reg_set_data", 
+                "__stack_chk_fail", 
+                "libnd_prefs_domain_add_apply_cb", 
+                "libnd_reg_del_data", 
+                "g_hash_table_lookup", 
+                "libnd_packet_get_trace", 
+                "g_hash_table_insert", 
+                "libnd_reg_get_data", 
+                "libnd_proto_registry_find", 
+                "g_malloc0", 
+                "regcomp", 
+                "g_snprintf", 
+                "libnd_proto_new", 
+                "libnd_prefs_get_int_item", 
+                "_ITM_registerTMCloneTable", 
+                "g_hash_table_destroy", 
+                "libnd_packet_get_index", 
+                "__cxa_finalize", 
+                "g_hash_table_foreach", 
+                "libnd_packet_get_end", 
+                "libnd_packet_modified"
+            ], 
+            "rpm": "libnetdude-0.11-16.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libnetdude/0.11/protocols/libnd_tcp.so"
+        }, 
+        "usr/lib/libnetdude/0_11/protocols/libnd_ethernet_so": {
+            "report-functions": [
+                "libnd_proto_registry_find", 
+                "libnd_packet_get_end", 
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable", 
+                "libnd_proto_new", 
+                "libnd_packet_get_data"
+            ], 
+            "rpm": "libnetdude-0.11-16.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libnetdude/0.11/protocols/libnd_ethernet.so"
+        }, 
+        "usr/lib/libnetdude/0_11/protocols/libnd_sll_so": {
+            "report-functions": [
+                "libnd_proto_new", 
+                "libnd_packet_add_proto_data", 
+                "__gmon_start__", 
+                "libnd_packet_get_end", 
+                "libnd_raw_proto_get", 
+                "libnd_proto_registry_find", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "libnetdude-0.11-16.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libnetdude/0.11/protocols/libnd_sll.so"
+        }, 
+        "usr/lib/libnetdude/0_11/protocols/libnd_icmp_so": {
+            "report-functions": [
+                "libnd_packet_modified", 
+                "__cxa_finalize", 
+                "libnd_proto_registry_find", 
+                "libnd_proto_new", 
+                "libnd_packet_get_data", 
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "libnd_misc_in_cksum", 
+                "libnd_packet_get_end", 
+                "_ITM_deregisterTMCloneTable", 
+                "libnd_packet_add_proto_data"
+            ], 
+            "rpm": "libnetdude-0.11-16.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libnetdude/0.11/protocols/libnd_icmp.so"
+        }, 
+        "usr/lib/libnetdude/0_11/protocols/libnd_ip_so": {
+            "report-functions": [
+                "libnd_proto_new", 
+                "__cxa_finalize", 
+                "libnd_raw_proto_get", 
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "libnd_packet_add_proto_data", 
+                "libnd_packet_get_end", 
+                "libnd_proto_registry_find", 
+                "libnd_packet_modified", 
+                "libnd_packet_foreach_proto_backward", 
+                "libnd_packet_get_data", 
+                "libnd_misc_in_cksum"
+            ], 
+            "rpm": "libnetdude-0.11-16.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libnetdude/0.11/protocols/libnd_ip.so"
+        }, 
+        "usr/lib/libnetdude/0_11/lndtool": {
+            "report-functions": [
+                "libnd_plugin_get_version", 
+                "_ITM_deregisterTMCloneTable", 
+                "__printf_chk", 
+                "_ITM_registerTMCloneTable", 
+                "libnd_init", 
+                "libnd_plugin_find", 
+                "exit", 
+                "__cxa_finalize", 
+                "libnd_plugin_run", 
+                "strcmp", 
+                "__libc_start_main", 
+                "__stack_chk_fail", 
+                "libnd_plugin_get_name", 
+                "libnd_plugin_foreach", 
+                "libnd_proto_registry_foreach_proto"
+            ], 
+            "rpm": "libnetdude-0.11-16.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libnetdude/0.11/lndtool"
+        }, 
+        "usr/lib/libnetdude/0_11/protocols/libnd_vlan_so": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "libnd_proto_registry_find", 
+                "libnd_raw_proto_get", 
+                "__cxa_finalize", 
+                "__gmon_start__", 
+                "libnd_proto_new", 
+                "_ITM_registerTMCloneTable", 
+                "libnd_packet_add_proto_data"
+            ], 
+            "rpm": "libnetdude-0.11-16.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libnetdude/0.11/protocols/libnd_vlan.so"
+        }, 
+        "usr/lib/libnetdude/0_11/protocols/libnd_udp_so": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "libnd_raw_proto_get", 
+                "libnd_packet_get_end", 
+                "libnd_misc_in_cksum", 
+                "_ITM_registerTMCloneTable", 
+                "libnd_packet_get_proto_data", 
+                "libnd_packet_add_proto_data", 
+                "libnd_proto_new", 
+                "__stack_chk_fail", 
+                "libnd_proto_registry_find", 
+                "__gmon_start__", 
+                "libnd_packet_modified"
+            ], 
+            "rpm": "libnetdude-0.11-16.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libnetdude/0.11/protocols/libnd_udp.so"
+        }, 
+        "usr/lib/libnetdude_so_0_0_0": {
+            "report-functions": [
+                "argz_create_sep", 
+                "strchr", 
+                "select", 
+                "access", 
+                "free", 
+                "g_snprintf", 
+                "rename", 
+                "ioctl", 
+                "g_list_prepend", 
+                "g_list_free", 
+                "socketpair", 
+                "pcapnav_next", 
+                "pcapnav_pcap", 
+                "dlsym", 
+                "__fprintf_chk", 
+                "realloc", 
+                "__lxstat64", 
+                "g_list_append", 
+                "__xstat64", 
+                "perror", 
+                "__isoc99_fscanf", 
+                "__gmon_start__", 
+                "g_hash_table_destroy", 
+                "g_strcasecmp", 
+                "__ctype_b_loc", 
+                "ctime", 
+                "execv", 
+                "dlclose", 
+                "g_free", 
+                "pcapnav_get_timespan", 
+                "pcapnav_get_pkthdr_size", 
+                "argz_append", 
+                "__sprintf_chk", 
+                "closedir", 
+                "pcapnav_get_offset", 
+                "pcapnav_goto_timestamp", 
+                "dlopen", 
+                "close", 
+                "unlink", 
+                "strncpy", 
+                "pcapnav_get_timestamp", 
+                "fopen", 
+                "pcapnav_set_offset", 
+                "strerror", 
+                "g_list_find_custom", 
+                "argz_insert", 
+                "pcapnav_get_size", 
+                "gmtime", 
+                "g_list_find", 
+                "g_basename", 
+                "pcap_next", 
+                "pcapnav_init", 
+                "strdup", 
+                "pcapnav_get_time_fraction", 
+                "pcapnav_get_file_header", 
+                "g_malloc0", 
+                "socket", 
+                "g_hash_table_new", 
+                "__errno_location", 
+                "fclose", 
+                "exit", 
+                "g_list_foreach", 
+                "putchar", 
+                "g_list_insert_sorted", 
+                "_ITM_registerTMCloneTable", 
+                "__cxa_finalize", 
+                "strcpy", 
+                "__vfprintf_chk", 
+                "dup2", 
+                "pcap_dump_open", 
+                "strcmp", 
+                "read", 
+                "readdir64", 
+                "g_list_remove", 
+                "g_hash_table_insert", 
+                "g_hash_table_foreach", 
+                "g_hash_table_lookup", 
+                "fopen64", 
+                "argz_stringify", 
+                "localtime", 
+                "pcap_dump", 
+                "pcapnav_close", 
+                "_ITM_deregisterTMCloneTable", 
+                "pcapnav_open_offline", 
+                "g_hash_table_remove", 
+                "strncat", 
+                "g_list_remove_link", 
+                "g_list_last", 
+                "malloc", 
+                "fgets", 
+                "pcap_dump_close", 
+                "g_list_length", 
+                "fork", 
+                "strlen", 
+                "stpcpy", 
+                "readdir", 
+                "mkdir", 
+                "g_str_equal", 
+                "dlerror", 
+                "__fdelt_chk", 
+                "g_list_first", 
+                "strrchr", 
+                "g_strdup", 
+                "g_realloc", 
+                "getenv", 
+                "write", 
+                "pcapnav_goto_offset", 
+                "waitpid", 
+                "pcapnav_has_next", 
+                "__printf_chk", 
+                "getpid", 
+                "g_str_hash", 
+                "pcapnav_timeval_cmp", 
+                "fread", 
+                "g_list_free_1", 
+                "fcntl", 
+                "__strncat_chk", 
+                "pcapnav_dump_open", 
+                "__assert_fail", 
+                "fflush", 
+                "time", 
+                "feof", 
+                "pcap_datalink", 
+                "g_hash_table_size", 
+                "kill", 
+                "pcapnav_get_current_timestamp", 
+                "__memcpy_chk", 
+                "puts", 
+                "calloc", 
+                "fwrite", 
+                "opendir"
+            ], 
+            "rpm": "libnetdude-0.11-16.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libnetdude.so.0.0.0"
+        }, 
+        "usr/lib/libnetdude/0_11/plugins/libnd_bpf_so": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "pcap_freecode", 
+                "_ITM_registerTMCloneTable", 
+                "libnd_filter_registry_add", 
+                "pcap_compile", 
+                "__cxa_finalize", 
+                "g_malloc0", 
+                "pcapnav_pcap", 
+                "g_free", 
+                "bpf_filter", 
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "g_strdup"
+            ], 
+            "rpm": "libnetdude-0.11-16.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libnetdude/0.11/plugins/libnd_bpf.so"
+        }, 
+        "usr/lib/libnetdude/0_11/protocols/libnd_arp_so": {
+            "report-functions": [
+                "libnd_proto_new", 
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable", 
+                "libnd_raw_proto_get", 
+                "libnd_packet_add_proto_data", 
+                "libnd_packet_get_data", 
+                "libnd_packet_get_end", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "libnetdude-0.11-16.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libnetdude/0.11/protocols/libnd_arp.so"
+        }, 
+        "usr/lib/libnetdude/0_11/plugins/libnd_cksumfix_so": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "fwrite", 
+                "libnd_trace_new", 
+                "libnd_pit_get", 
+                "puts", 
+                "libnd_packet_fix", 
+                "libnd_pit_init", 
+                "libnd_trace_get_pcap_handle", 
+                "__gmon_start__", 
+                "__fprintf_chk", 
+                "libnd_pit_next", 
+                "libnd_dumper_write", 
+                "__stack_chk_fail", 
+                "libnd_trace_free", 
+                "libnd_trace_set_dirty", 
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable", 
+                "libnd_dumper_new"
+            ], 
+            "rpm": "libnetdude-0.11-16.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libnetdude/0.11/plugins/libnd_cksumfix.so"
+        }, 
+        "usr/lib/libnetdude/0_11/protocols/libnd_snap_so": {
+            "report-functions": [
+                "__gmon_start__", 
+                "libnd_packet_get_data", 
+                "__cxa_finalize", 
+                "libnd_proto_registry_find", 
+                "libnd_packet_add_proto_data", 
+                "libnd_raw_proto_get", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "libnetdude-0.11-16.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libnetdude/0.11/protocols/libnd_snap.so"
+        }, 
+        "usr/lib/libnetdude/0_11/protocols/libnd_802_11_so": {
+            "report-functions": [
+                "libnd_packet_add_proto_data", 
+                "__cxa_finalize", 
+                "__gmon_start__", 
+                "libnd_proto_new", 
+                "libnd_packet_get_end", 
+                "_ITM_deregisterTMCloneTable", 
+                "libnd_proto_registry_find", 
+                "libnd_packet_get_data"
+            ], 
+            "rpm": "libnetdude-0.11-16.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libnetdude/0.11/protocols/libnd_802_11.so"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " libnetdude", 
+            "License": " MIT with advertising", 
+            "URL": " http://netdude.sourceforge.net/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-26.phx2.fedoraproject.org", 
+            "Description": "\nlibnetdude allows to implement trace file manipulations at a much higher level\nof abstraction than code written directly on top of the pcap library. It also\nprovides a command-line interface that directly lets you script all packet-\nmangling capabilities provided by the set of plugins you have installed.\n", 
+            "Build Date": " Thu 03 Aug 2017 03:15:34 PM EDT", 
+            "Source RPM": " libnetdude-0.11-16.fc27.src.rpm", 
+            "Version": " 0.11", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 12:24:20 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 16.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Management framework for pcap packet traces", 
+            "Size": " 247188"
+        }
+    }
+}

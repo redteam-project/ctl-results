@@ -1,0 +1,55 @@
+{
+    "results": {
+        "usr/lib/tcl8_6/zlib2_0_1/libzlib2_0_1_so": {
+            "report-functions": [
+                "inflate", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "adler32", 
+                "deflateInit2_", 
+                "inflateEnd", 
+                "__cxa_finalize", 
+                "inflateInit2_", 
+                "deflateEnd", 
+                "zError", 
+                "_ITM_registerTMCloneTable", 
+                "__stack_chk_fail", 
+                "deflate"
+            ], 
+            "rpm": "tcl-zlib-2.0.1-0.20.svn40.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/tcl8.6/zlib2.0.1/libzlib2.0.1.so"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " tcl-zlib", 
+            "License": " MIT", 
+            "URL": " http://svn.scheffers.net/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-28.phx2.fedoraproject.org", 
+            "Description": "\nThis is extension is a standalone version of the tclkit [zlib]\ncommand/extension. See http://wiki.tcl.tk/zlib for command syntax.\n", 
+            "Build Date": " Fri 04 Aug 2017 08:05:50 PM EDT", 
+            "Source RPM": " tcl-zlib-2.0.1-0.20.svn40.fc27.src.rpm", 
+            "Version": " 2.0.1", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 05 Aug 2017 06:16:29 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 0.20.svn40.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Tcl extension for zlib support", 
+            "Size": " 23484"
+        }
+    }
+}

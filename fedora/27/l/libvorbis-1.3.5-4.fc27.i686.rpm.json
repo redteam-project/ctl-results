@@ -1,0 +1,172 @@
+{
+    "results": {
+        "usr/lib/libvorbisfile_so_3_3_7": {
+            "report-functions": [
+                "ogg_stream_pagein", 
+                "__errno_location", 
+                "vorbis_comment_clear", 
+                "vorbis_info_clear", 
+                "ogg_stream_reset_serialno", 
+                "__stack_chk_fail", 
+                "fclose", 
+                "ogg_stream_packetpeek", 
+                "ogg_stream_clear", 
+                "ogg_page_serialno", 
+                "vorbis_synthesis_headerin", 
+                "ogg_page_granulepos", 
+                "malloc", 
+                "ogg_stream_init", 
+                "vorbis_block_clear", 
+                "ogg_page_continued", 
+                "free", 
+                "ogg_page_eos", 
+                "ogg_stream_reset", 
+                "ogg_stream_packetout", 
+                "ogg_sync_reset", 
+                "ogg_sync_clear", 
+                "ftell", 
+                "vorbis_info_init", 
+                "vorbis_comment_init", 
+                "vorbis_synthesis_blockin", 
+                "vorbis_info_blocksize", 
+                "vorbis_synthesis", 
+                "_ITM_deregisterTMCloneTable", 
+                "vorbis_window", 
+                "realloc", 
+                "ogg_sync_buffer", 
+                "vorbis_packet_blocksize", 
+                "vorbis_synthesis_idheader", 
+                "ogg_sync_init", 
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "fopen", 
+                "ogg_sync_pageseek", 
+                "ogg_sync_wrote", 
+                "calloc", 
+                "vorbis_synthesis_halfrate", 
+                "vorbis_synthesis_restart", 
+                "vorbis_synthesis_lapout", 
+                "vorbis_synthesis_read", 
+                "vorbis_synthesis_trackonly", 
+                "ogg_page_bos", 
+                "vorbis_synthesis_pcmout", 
+                "vorbis_synthesis_init", 
+                "vorbis_block_init", 
+                "fseek", 
+                "fread", 
+                "vorbis_synthesis_halfrate_p"
+            ], 
+            "rpm": "libvorbis-1.3.5-4.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libvorbisfile.so.3.3.7"
+        }, 
+        "usr/lib/libvorbisenc_so_2_0_11": {
+            "report-functions": [
+                "calloc", 
+                "__stack_chk_fail", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "malloc", 
+                "_ITM_registerTMCloneTable", 
+                "vorbis_info_clear"
+            ], 
+            "rpm": "libvorbis-1.3.5-4.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libvorbisenc.so.2.0.11"
+        }, 
+        "usr/lib/libvorbis_so_0_4_8": {
+            "report-functions": [
+                "sqrt", 
+                "floor", 
+                "realloc", 
+                "sincos", 
+                "__stack_chk_fail", 
+                "oggpack_read", 
+                "oggpack_get_buffer", 
+                "free", 
+                "__cxa_finalize", 
+                "calloc", 
+                "oggpack_writeinit", 
+                "oggpack_look", 
+                "qsort", 
+                "ldexp", 
+                "atan", 
+                "log", 
+                "strlen", 
+                "oggpack_write", 
+                "oggpack_readinit", 
+                "pow", 
+                "__gmon_start__", 
+                "oggpack_reset", 
+                "memset", 
+                "exit", 
+                "oggpack_writeclear", 
+                "malloc", 
+                "__ctype_toupper_loc", 
+                "strcpy", 
+                "_ITM_registerTMCloneTable", 
+                "oggpack_writetrunc", 
+                "oggpack_adv", 
+                "cos", 
+                "sin", 
+                "ceil", 
+                "exp", 
+                "oggpack_bytes", 
+                "memmove"
+            ], 
+            "rpm": "libvorbis-1.3.5-4.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libvorbis.so.0.4.8"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " libvorbis", 
+            "License": " BSD", 
+            "URL": " http://www.xiph.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-06.phx2.fedoraproject.org", 
+            "Source RPM": " libvorbis-1.3.5-4.fc27.src.rpm", 
+            "Description": "\nOgg Vorbis is a fully open, non-proprietary, patent- and royalty-free,\ngeneral-purpose compressed audio format for audio and music at fixed\nand variable bitrates.\n\nThe libvorbis package contains runtime libraries for use in programs\nthat support Ogg Vorbis.\n", 
+            "Build Date": " Thu 03 Aug 2017 04:58:17 PM EDT", 
+            "Epoch": " 1", 
+            "Version": " 1.3.5", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 02:16:49 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 4.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " The Vorbis General Audio Compression Codec", 
+            "Size": " 789261"
+        }
+    }
+}

@@ -1,0 +1,91 @@
+{
+    "results": {
+        "usr/lib/libspandsp_so_2_0_0": {
+            "report-functions": [
+                "calloc", 
+                "__strncpy_chk", 
+                "__vsnprintf_chk", 
+                "__ctype_toupper_loc", 
+                "TIFFReadScanline", 
+                "__snprintf_chk", 
+                "gettimeofday", 
+                "gethostname", 
+                "TIFFDefaultStripSize", 
+                "time", 
+                "strcmp", 
+                "__powf_finite", 
+                "__memset_chk", 
+                "memmove", 
+                "memcmp", 
+                "strlen", 
+                "__memcpy_chk", 
+                "strncmp", 
+                "TIFFSetField", 
+                "modf", 
+                "__isoc99_sscanf", 
+                "__ctype_tolower_loc", 
+                "TIFFClose", 
+                "realloc", 
+                "strdup", 
+                "__cxa_finalize", 
+                "fputs", 
+                "memset", 
+                "localtime", 
+                "TIFFOpen", 
+                "__ctype_b_loc", 
+                "__stack_chk_fail", 
+                "__pow_finite", 
+                "free", 
+                "_ITM_deregisterTMCloneTable", 
+                "TIFFWriteEncodedStrip", 
+                "__sprintf_chk", 
+                "malloc", 
+                "remove", 
+                "strncpy", 
+                "strchr", 
+                "gmtime", 
+                "TIFFSetDirectory", 
+                "strcpy", 
+                "TIFFWriteDirectory", 
+                "TIFFGetField", 
+                "__gmon_start__", 
+                "__printf_chk", 
+                "__strcpy_chk"
+            ], 
+            "rpm": "spandsp-0.0.6-5.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libspandsp.so.2.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " spandsp", 
+            "License": " LGPLv2 and GPLv2", 
+            "URL": " https://www.soft-switch.org", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-07.phx2.fedoraproject.org", 
+            "Description": "\nSpanDSP is a library of DSP functions for telephony, in the 8000\nsample per second world of E1s, T1s, and higher order PCM channels. It\ncontains low level functions, such as basic filters. It also contains\nhigher level functions, such as cadenced supervisory tone detection,\nand a complete software FAX machine. The software has been designed to\navoid intellectual property issues, using mature techniques where all\nrelevant patents have expired. See the file DueDiligence for important\ninformation about these intellectual property issues.\n", 
+            "Build Date": " Fri 04 Aug 2017 05:26:10 PM EDT", 
+            "Source RPM": " spandsp-0.0.6-5.fc27.src.rpm", 
+            "Version": " 0.0.6", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 05 Aug 2017 04:32:17 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 5.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A DSP library for telephony", 
+            "Size": " 868144"
+        }
+    }
+}

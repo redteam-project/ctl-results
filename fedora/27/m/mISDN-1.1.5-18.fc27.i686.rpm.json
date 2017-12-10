@@ -1,0 +1,156 @@
+{
+    "results": {
+        "usr/lib/libisdnnet_so_0_0_0": {
+            "report-functions": [
+                "strerror", 
+                "mISDN_set_stack", 
+                "strlen", 
+                "mISDN_get_stack_count", 
+                "_ITM_deregisterTMCloneTable", 
+                "pthread_exit", 
+                "_ITM_registerTMCloneTable", 
+                "sem_destroy", 
+                "free", 
+                "__vsprintf_chk", 
+                "pthread_create", 
+                "random", 
+                "mISDN_clear_stack", 
+                "fopen", 
+                "pthread_cancel", 
+                "mISDN_new_layer", 
+                "fflush", 
+                "pthread_mutex_destroy", 
+                "pthread_self", 
+                "write", 
+                "__fdelt_chk", 
+                "__vfprintf_chk", 
+                "__gmon_start__", 
+                "fclose", 
+                "freopen", 
+                "malloc", 
+                "__errno_location", 
+                "pthread_setcanceltype", 
+                "mISDN_close", 
+                "mISDN_write_frame", 
+                "memset", 
+                "strL2State", 
+                "sem_init", 
+                "strchr", 
+                "time", 
+                "sem_post", 
+                "__stack_chk_fail", 
+                "__fprintf_chk", 
+                "mISDN_read", 
+                "pthread_join", 
+                "pthread_setcancelstate", 
+                "mISDN_write", 
+                "sem_wait", 
+                "pthread_mutex_lock", 
+                "strcpy", 
+                "ctime", 
+                "mISDN_get_layerid", 
+                "mISDN_get_stack_info", 
+                "mISDN_open", 
+                "pthread_mutex_init", 
+                "localtime", 
+                "__gcc_personality_v0", 
+                "__sprintf_chk", 
+                "sem_trywait", 
+                "calloc", 
+                "mISDN_select", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "mISDN-1.1.5-18.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libisdnnet.so.0.0.0"
+        }, 
+        "usr/lib/libsuppserv_so_0_0_0": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "strlen", 
+                "__printf_chk", 
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable", 
+                "__gmon_start__", 
+                "strncpy"
+            ], 
+            "rpm": "mISDN-1.1.5-18.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libsuppserv.so.0.0.0"
+        }, 
+        "usr/lib/libmISDN_so_0_0_0": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "__gmon_start__", 
+                "free", 
+                "write", 
+                "__errno_location", 
+                "pthread_mutex_lock", 
+                "pthread_mutex_destroy", 
+                "close", 
+                "__stack_chk_fail", 
+                "_ITM_registerTMCloneTable", 
+                "open", 
+                "calloc", 
+                "read", 
+                "select", 
+                "malloc", 
+                "pthread_mutex_init", 
+                "__fprintf_chk", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "mISDN-1.1.5-18.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libmISDN.so.0.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " mISDN", 
+            "License": " LGPLv2+", 
+            "URL": " http://www.misdn.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-03.phx2.fedoraproject.org", 
+            "Description": "\nmISDN (modular ISDN) is intended to be the new ISDN stack for the\nLinux 2.6 kernel, from the maintainer of the existing isdn4linux\ncode. This package contains the userspace libraries required to\ninterface directly to mISDN.\n", 
+            "Build Date": " Thu 03 Aug 2017 08:29:15 PM EDT", 
+            "Source RPM": " mISDN-1.1.5-18.fc27.src.rpm", 
+            "Version": " 1.1.5", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 04:07:37 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 18.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Userspace part of Modular ISDN stack", 
+            "Size": " 256892"
+        }
+    }
+}

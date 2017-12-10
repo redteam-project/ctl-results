@@ -1,0 +1,79 @@
+{
+    "results": {
+        "usr/lib/libsss_nss_idmap_so_0_3_0": {
+            "report-functions": [
+                "strtoll", 
+                "pthread_setcancelstate", 
+                "connect", 
+                "getgid", 
+                "getpid", 
+                "calloc", 
+                "memchr", 
+                "pthread_mutex_lock", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize", 
+                "send", 
+                "getsockopt", 
+                "time", 
+                "strnlen", 
+                "malloc", 
+                "read", 
+                "dcgettext", 
+                "_ITM_registerTMCloneTable", 
+                "poll", 
+                "__fxstat64", 
+                "free", 
+                "strncpy", 
+                "strtoull", 
+                "rand", 
+                "__errno_location", 
+                "__gmon_start__", 
+                "close", 
+                "getenv", 
+                "__strncpy_chk", 
+                "sleep", 
+                "__stack_chk_fail", 
+                "socket", 
+                "__xstat64", 
+                "strdup", 
+                "getuid", 
+                "pthread_mutex_unlock", 
+                "fcntl"
+            ], 
+            "rpm": "libsss_nss_idmap-1.15.3-5.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libsss_nss_idmap.so.0.3.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " libsss_nss_idmap", 
+            "License": " LGPLv3+", 
+            "URL": " https://pagure.io/SSSD/sssd/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-10.phx2.fedoraproject.org", 
+            "Description": "\nUtility library for SID and certificate based lookups\n", 
+            "Build Date": " Wed 11 Oct 2017 11:56:24 AM EDT", 
+            "Source RPM": " sssd-1.15.3-5.fc27.src.rpm", 
+            "Version": " 1.15.3", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Wed 11 Oct 2017 07:34:40 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 5.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Library for SID and certificate based lookups", 
+            "Size": " 61838"
+        }
+    }
+}

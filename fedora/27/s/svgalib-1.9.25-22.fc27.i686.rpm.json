@@ -1,0 +1,383 @@
+{
+    "results": {
+        "usr/bin/restoretextmode": {
+            "report-functions": [
+                "vga_setmode", 
+                "__libc_start_main", 
+                "fclose", 
+                "fopen", 
+                "perror", 
+                "vga_init", 
+                "puts", 
+                "fread", 
+                "vga_settextmoderegs", 
+                "fwrite", 
+                "vga_gettextmoderegs", 
+                "__gmon_start__"
+            ], 
+            "rpm": "svgalib-1.9.25-22.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/restoretextmode"
+        }, 
+        "usr/lib/lib3dkit_so_1_9_25": {
+            "report-functions": [
+                "currentcontext", 
+                "_ITM_deregisterTMCloneTable", 
+                "vga_setpage", 
+                "malloc", 
+                "sqrt", 
+                "qsort", 
+                "__gmon_start__", 
+                "free", 
+                "_ITM_registerTMCloneTable", 
+                "sincos", 
+                "gl_setpixel", 
+                "__stack_chk_fail", 
+                "fwrite"
+            ], 
+            "rpm": "svgalib-1.9.25-22.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/lib3dkit.so.1.9.25"
+        }, 
+        "usr/bin/vga_reset": {
+            "report-functions": [
+                "fwrite", 
+                "mmap", 
+                "memmove", 
+                "__libc_start_main", 
+                "open", 
+                "__gmon_start__", 
+                "perror", 
+                "iopl", 
+                "ioperm", 
+                "fprintf", 
+                "close"
+            ], 
+            "rpm": "svgalib-1.9.25-22.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/vga_reset"
+        }, 
+        "usr/lib/libvga_so_1_9_25": {
+            "report-functions": [
+                "setreuid", 
+                "free", 
+                "strtoul", 
+                "__stack_chk_fail", 
+                "setpgid", 
+                "exit", 
+                "fopen", 
+                "__snprintf_chk", 
+                "ioctl", 
+                "strtod", 
+                "waitpid", 
+                "_IO_getc", 
+                "__cxa_finalize", 
+                "__cxa_atexit", 
+                "fcntl", 
+                "seteuid", 
+                "pow", 
+                "fork", 
+                "_ITM_registerTMCloneTable", 
+                "__isoc99_sscanf", 
+                "setegid", 
+                "__errno_location", 
+                "__xstat", 
+                "fputc", 
+                "ioperm", 
+                "random", 
+                "memmove", 
+                "fflush", 
+                "strcpy", 
+                "__sprintf_chk", 
+                "feof", 
+                "_ITM_deregisterTMCloneTable", 
+                "getgid", 
+                "fgetc", 
+                "execv", 
+                "fclose", 
+                "tcsetattr", 
+                "raise", 
+                "getenv", 
+                "dup", 
+                "__ctype_b_loc", 
+                "strncpy", 
+                "sigemptyset", 
+                "strsignal", 
+                "setsid", 
+                "sigaction", 
+                "getpid", 
+                "setgid", 
+                "setuid", 
+                "strrchr", 
+                "__fprintf_chk", 
+                "valloc", 
+                "usleep", 
+                "sigprocmask", 
+                "munmap", 
+                "strerror", 
+                "lseek", 
+                "__strcat_chk", 
+                "perror", 
+                "clock", 
+                "sigaddset", 
+                "close", 
+                "select", 
+                "fwrite", 
+                "calloc", 
+                "__ctype_tolower_loc", 
+                "log", 
+                "getppid", 
+                "strspn", 
+                "strncasecmp", 
+                "malloc", 
+                "ftruncate", 
+                "strtol", 
+                "nice", 
+                "iopl", 
+                "read", 
+                "strdup", 
+                "realloc", 
+                "freopen", 
+                "strlen", 
+                "__printf_chk", 
+                "strtok", 
+                "strcasecmp", 
+                "fputs", 
+                "__strcpy_chk", 
+                "puts", 
+                "memset", 
+                "__gmon_start__", 
+                "unlink", 
+                "__syslog_chk", 
+                "__memcpy_chk", 
+                "fgets", 
+                "__fdelt_chk", 
+                "getuid", 
+                "system", 
+                "fread", 
+                "__fxstat", 
+                "strcmp", 
+                "fileno", 
+                "mmap", 
+                "tcgetattr", 
+                "open", 
+                "write", 
+                "putchar"
+            ], 
+            "rpm": "svgalib-1.9.25-22.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libvga.so.1.9.25"
+        }, 
+        "usr/bin/mode3": {
+            "report-functions": [
+                "mmap", 
+                "memmove", 
+                "execlp", 
+                "puts", 
+                "ioperm", 
+                "iopl", 
+                "strcmp", 
+                "fwrite", 
+                "memset", 
+                "open", 
+                "__libc_start_main", 
+                "fprintf", 
+                "close", 
+                "perror"
+            ], 
+            "rpm": "svgalib-1.9.25-22.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/mode3"
+        }, 
+        "usr/bin/dumpreg": {
+            "report-functions": [
+                "__gmon_start__", 
+                "vga_init", 
+                "vga_screenon"
+            ], 
+            "rpm": "svgalib-1.9.25-22.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/dumpreg"
+        }, 
+        "usr/bin/restorefont": {
+            "report-functions": [
+                "fwrite", 
+                "vga_init", 
+                "__errno_location", 
+                "fileno", 
+                "__stack_chk_fail", 
+                "vga_gettextfont", 
+                "__gmon_start__", 
+                "vga_getmodeinfo", 
+                "__libc_start_main", 
+                "perror", 
+                "puts", 
+                "fopen", 
+                "vga_disabledriverreport", 
+                "vga_puttextfont", 
+                "fclose", 
+                "fread", 
+                "malloc", 
+                "vga_setchipset", 
+                "__fxstat"
+            ], 
+            "rpm": "svgalib-1.9.25-22.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/restorefont"
+        }, 
+        "usr/lib/libvgagl_so_1_9_25": {
+            "report-functions": [
+                "vga_copytoplanar256", 
+                "vga_setlinearaddressing", 
+                "vga_setdisplaystart", 
+                "vga_copytoplanar16", 
+                "puts", 
+                "__gmon_start__", 
+                "free", 
+                "__vsnprintf_chk", 
+                "vga_getcurrentmode", 
+                "vga_setpage", 
+                "vga_getpalette", 
+                "fputc", 
+                "malloc", 
+                "vga_ext_set", 
+                "_ITM_deregisterTMCloneTable", 
+                "vga_hasmode", 
+                "vga_accel", 
+                "vga_getgraphmem", 
+                "__stack_chk_fail", 
+                "vga_bitblt", 
+                "vga_getmodeinfo", 
+                "__cxa_finalize", 
+                "vga_setpalette", 
+                "fflush"
+            ], 
+            "rpm": "svgalib-1.9.25-22.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libvgagl.so.1.9.25"
+        }, 
+        "usr/bin/restorepalette": {
+            "report-functions": [
+                "__libc_start_main", 
+                "__isoc99_fscanf", 
+                "strerror", 
+                "vga_getcurrentchipset", 
+                "__stack_chk_fail", 
+                "feof", 
+                "__gmon_start__", 
+                "fopen", 
+                "__svgalib_port_in", 
+                "vga_setpalette", 
+                "__errno_location", 
+                "exit", 
+                "__fprintf_chk"
+            ], 
+            "rpm": "svgalib-1.9.25-22.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/restorepalette"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " svgalib", 
+            "License": " Public Domain", 
+            "URL": " http://www.svgalib.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-17.phx2.fedoraproject.org", 
+            "Description": "\nThe svgalib package provides the SVGAlib low-level graphics library\nfor Linux.  SVGAlib is a library which allows applications to use full\nscreen graphics on a variety of hardware platforms. Some games and\nutilities use SVGAlib for their graphics. For details on\nsupported chipsets, see man 7 svgalib (when svgalib is installed).\n", 
+            "Build Date": " Fri 04 Aug 2017 07:35:49 PM EDT", 
+            "Source RPM": " svgalib-1.9.25-22.fc27.src.rpm", 
+            "Version": " 1.9.25", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 09:35:06 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 22.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Low-level fullscreen SVGA graphics library", 
+            "Size": " 971242"
+        }
+    }
+}

@@ -1,0 +1,113 @@
+{
+    "results": {
+        "usr/lib/libossp-uuid_so_16_0_22": {
+            "report-functions": [
+                "open", 
+                "getifaddrs", 
+                "_ITM_registerTMCloneTable", 
+                "freeifaddrs", 
+                "realloc", 
+                "free", 
+                "__gmon_start__", 
+                "__stack_chk_fail", 
+                "gettimeofday", 
+                "strtoul", 
+                "__ctype_b_loc", 
+                "srand", 
+                "ioctl", 
+                "_ITM_deregisterTMCloneTable", 
+                "rand", 
+                "fcntl", 
+                "strftime", 
+                "memcmp", 
+                "gmtime", 
+                "getpid", 
+                "nanosleep", 
+                "malloc", 
+                "__memcpy_chk", 
+                "strlen", 
+                "strcmp", 
+                "socket", 
+                "read"
+            ], 
+            "rpm": "uuid-1.6.2-39.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libossp-uuid.so.16.0.22"
+        }, 
+        "usr/bin/uuid": {
+            "report-functions": [
+                "strerror", 
+                "uuid_create", 
+                "uuid_load", 
+                "__vfprintf_chk", 
+                "fclose", 
+                "fopen", 
+                "__libc_start_main", 
+                "uuid_make", 
+                "uuid_destroy", 
+                "getopt", 
+                "__fprintf_chk", 
+                "exit", 
+                "fread", 
+                "uuid_export", 
+                "strcasecmp", 
+                "uuid_error", 
+                "__gmon_start__", 
+                "uuid_import", 
+                "__cxa_finalize", 
+                "__errno_location", 
+                "strtol", 
+                "__stack_chk_fail", 
+                "free", 
+                "strcmp", 
+                "fputc", 
+                "_ITM_deregisterTMCloneTable", 
+                "strlen", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "uuid-1.6.2-39.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/uuid"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " uuid", 
+            "License": " MIT", 
+            "URL": " http://www.ossp.org/pkg/lib/uuid/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-24.phx2.fedoraproject.org", 
+            "Description": "\nOSSP uuid is a ISO-C:1999 application programming interface (API)\nand corresponding command line interface (CLI) for the generation\nof DCE 1.1, ISO/IEC 11578:1996 and RFC 4122 compliant Universally\nUnique Identifier (UUID). It supports DCE 1.1 variant UUIDs of version\n1 (time and node based), version 3 (name based, MD5), version 4\n(random number based) and version 5 (name based, SHA-1). Additional\nAPI bindings are provided for the languages ISO-C++:1998 and Perl:5\nOptional backward compatibility exists for the ISO-C DCE-1.1 and Perl\nData::UUID APIs.\n", 
+            "Build Date": " Fri 04 Aug 2017 10:08:12 PM EDT", 
+            "Source RPM": " uuid-1.6.2-39.fc27.src.rpm", 
+            "Version": " 1.6.2", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 05 Aug 2017 08:25:54 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 39.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Universally Unique Identifier library", 
+            "Size": " 117494"
+        }
+    }
+}

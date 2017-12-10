@@ -1,0 +1,430 @@
+{
+    "results": {
+        "usr/share/doc/LibRaw-devel/samples/bin_postprocessing_benchmark-postprocessing_benchmark_o": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/share/doc/LibRaw-devel/samples/bin_postprocessing_benchmark-postprocessing_benchmark.o", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "report-functions": [
+                "_ZN6LibRaw13dcraw_processEv", 
+                "_ZN6LibRaw7versionEv", 
+                "_ZN6LibRaw15dcraw_clear_memEP24libraw_processed_image_t", 
+                "__printf_chk", 
+                "_ZN6LibRaw20dcraw_make_mem_imageEPi", 
+                "_ZN6LibRaw6unpackEv", 
+                "strtod", 
+                "libraw_strerror", 
+                "__stack_chk_fail", 
+                "_ZN6LibRaw11cameraCountEv", 
+                "_ZN6LibRawD1Ev", 
+                "stderr", 
+                "__gxx_personality_v0", 
+                "_ZN6LibRaw9open_fileEPKcx", 
+                "__fprintf_chk", 
+                "_ZN6LibRaw22adjust_sizes_info_onlyEv", 
+                "gettimeofday", 
+                "_Unwind_Resume", 
+                "_ZN6LibRaw10free_imageEv", 
+                "strchr", 
+                "strtol"
+            ], 
+            "rpm": "LibRaw-devel-0.18.5-1.fc27.x86_64.rpm"
+        }, 
+        "usr/share/doc/LibRaw-devel/samples/bin_half_mt-half_mt_o": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/share/doc/LibRaw-devel/samples/bin_half_mt-half_mt.o", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "report-functions": [
+                "exit", 
+                "pthread_create", 
+                "libraw_close", 
+                "strtol", 
+                "calloc", 
+                "libraw_init", 
+                "libraw_open_file", 
+                "__fprintf_chk", 
+                "libraw_strerror", 
+                "libraw_unpack", 
+                "pthread_mutex_init", 
+                "__stack_chk_fail", 
+                "libraw_dcraw_ppm_tiff_writer", 
+                "__snprintf_chk", 
+                "puts", 
+                "__printf_chk", 
+                "pthread_join", 
+                "stderr", 
+                "pthread_mutex_unlock", 
+                "pthread_mutex_lock", 
+                "libraw_dcraw_process", 
+                "fwrite"
+            ], 
+            "rpm": "LibRaw-devel-0.18.5-1.fc27.x86_64.rpm"
+        }, 
+        "usr/share/doc/LibRaw-devel/samples/bin_unprocessed_raw-unprocessed_raw_o": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/share/doc/LibRaw-devel/samples/bin_unprocessed_raw-unprocessed_raw.o", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "report-functions": [
+                "time", 
+                "_ZN6LibRawC1Ej", 
+                "localtime", 
+                "strtol", 
+                "_ZN6LibRaw9open_fileEPKcx", 
+                "_GLOBAL_OFFSET_TABLE_", 
+                "fwrite", 
+                "__gxx_personality_v0", 
+                "_ZN6LibRaw11cameraCountEv", 
+                "__snprintf_chk", 
+                "__sprintf_chk", 
+                "_Unwind_Resume", 
+                "puts", 
+                "fopen", 
+                "_ZN6LibRaw7versionEv", 
+                "pow", 
+                "fclose", 
+                "stderr", 
+                "libraw_strerror", 
+                "__fprintf_chk", 
+                "_ZN6LibRawD1Ev", 
+                "_ZN6LibRaw6unpackEv"
+            ], 
+            "rpm": "LibRaw-devel-0.18.5-1.fc27.x86_64.rpm"
+        }, 
+        "usr/share/doc/LibRaw-devel/samples/bin_simple_dcraw-simple_dcraw_o": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/share/doc/LibRaw-devel/samples/bin_simple_dcraw-simple_dcraw.o", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "report-functions": [
+                "_ZN6LibRaw6unpackEv", 
+                "_ZN6LibRaw12unpack_thumbEv", 
+                "_ZN6LibRawC1Ej", 
+                "__snprintf_chk", 
+                "_ZN6LibRawD1Ev", 
+                "_ZN6LibRaw18dcraw_thumb_writerEPKc", 
+                "_ZN6LibRaw13dcraw_processEv", 
+                "_ZN6LibRaw11cameraCountEv", 
+                "exit", 
+                "_GLOBAL_OFFSET_TABLE_", 
+                "stderr", 
+                "__stack_chk_fail", 
+                "_ZN6LibRaw9open_fileEPKcx", 
+                "_Unwind_Resume", 
+                "puts", 
+                "_ZN6LibRaw10cameraListEv", 
+                "_ZN6LibRaw21dcraw_ppm_tiff_writerEPKc", 
+                "_ZN6LibRaw7versionEv", 
+                "__fprintf_chk", 
+                "libraw_strerror", 
+                "__gxx_personality_v0", 
+                "putenv"
+            ], 
+            "rpm": "LibRaw-devel-0.18.5-1.fc27.x86_64.rpm"
+        }, 
+        "usr/share/doc/LibRaw-devel/samples/bin_raw_identify-raw-identify_o": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/share/doc/LibRaw-devel/samples/bin_raw_identify-raw-identify.o", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "report-functions": [
+                "__stack_chk_fail", 
+                "_ZN6LibRawD1Ev", 
+                "strncasecmp", 
+                "strlen", 
+                "_ZN6LibRaw20unpack_function_nameEv", 
+                "stdout", 
+                "_ZN6LibRaw9open_fileEPKcx", 
+                "libraw_strerror", 
+                "_ZN6LibRaw7recycleEv", 
+                "_GLOBAL_OFFSET_TABLE_", 
+                "_ZN6LibRawC1Ej", 
+                "_ZN6LibRaw22adjust_sizes_info_onlyEv", 
+                "_IO_putc", 
+                "puts", 
+                "__snprintf_chk", 
+                "isspace", 
+                "_ZN6LibRaw4fcolEii", 
+                "_Unwind_Resume", 
+                "__gxx_personality_v0", 
+                "ctime", 
+                "strcmp", 
+                "memmove"
+            ], 
+            "rpm": "LibRaw-devel-0.18.5-1.fc27.x86_64.rpm"
+        }, 
+        "usr/share/doc/LibRaw-devel/samples/bin_dcraw_emu-dcraw_emu_o": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/share/doc/LibRaw-devel/samples/bin_dcraw_emu-dcraw_emu.o", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "report-functions": [
+                "_ZN6LibRaw6unpackEv", 
+                "strtol", 
+                "read", 
+                "__errno_location", 
+                "_ZN6LibRaw7recycleEv", 
+                "strtod", 
+                "exit", 
+                "_GLOBAL_OFFSET_TABLE_", 
+                "free", 
+                "puts", 
+                "__stack_chk_fail", 
+                "__gxx_personality_v0", 
+                "close", 
+                "strerror", 
+                "malloc", 
+                "__fprintf_chk", 
+                "__fxstat", 
+                "_ZN6LibRaw9open_fileEPKcx", 
+                "libraw_strerror", 
+                "_ZN6LibRawD1Ev", 
+                "putenv", 
+                "open", 
+                "_ZN6LibRaw11open_bufferEPvm", 
+                "_ZN6LibRaw21dcraw_ppm_tiff_writerEPKc", 
+                "strncpy", 
+                "_ZN6LibRaw13dcraw_processEv", 
+                "strchr", 
+                "getpagesize", 
+                "__printf_chk", 
+                "munmap", 
+                "__snprintf_chk", 
+                "omp_get_max_threads", 
+                "mmap", 
+                "libraw_strprogress", 
+                "stderr", 
+                "strcmp", 
+                "_ZN6LibRawC1Ej"
+            ], 
+            "rpm": "LibRaw-devel-0.18.5-1.fc27.x86_64.rpm"
+        }, 
+        "usr/share/doc/LibRaw-devel/samples/bin_dcraw_half-dcraw_half_o": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/share/doc/LibRaw-devel/samples/bin_dcraw_half-dcraw_half.o", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "report-functions": [
+                "libraw_unpack", 
+                "libraw_strerror", 
+                "exit", 
+                "__fprintf_chk", 
+                "stderr", 
+                "_GLOBAL_OFFSET_TABLE_", 
+                "libraw_init", 
+                "__stpcpy_chk", 
+                "__printf_chk", 
+                "libraw_dcraw_process", 
+                "fwrite", 
+                "libraw_open_file", 
+                "libraw_dcraw_ppm_tiff_writer"
+            ], 
+            "rpm": "LibRaw-devel-0.18.5-1.fc27.x86_64.rpm"
+        }, 
+        "usr/share/doc/LibRaw-devel/samples/bin_4channels-4channels_o": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/share/doc/LibRaw-devel/samples/bin_4channels-4channels.o", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "report-functions": [
+                "_ZN6LibRawC1Ej", 
+                "_ZN6LibRaw9open_fileEPKcx", 
+                "_ZN6LibRaw21dcraw_ppm_tiff_writerEPKc", 
+                "libraw_strerror", 
+                "__strcat_chk", 
+                "__printf_chk", 
+                "__snprintf_chk", 
+                "_ZN6LibRaw7versionEv", 
+                "stderr", 
+                "_ZN6LibRawD1Ev", 
+                "__stack_chk_fail", 
+                "_Unwind_Resume", 
+                "__fprintf_chk", 
+                "_ZN6LibRaw6unpackEv", 
+                "_ZN6LibRaw11cameraCountEv", 
+                "__gxx_personality_v0", 
+                "_GLOBAL_OFFSET_TABLE_", 
+                "_ZN6LibRaw9raw2imageEv"
+            ], 
+            "rpm": "LibRaw-devel-0.18.5-1.fc27.x86_64.rpm"
+        }, 
+        "usr/share/doc/LibRaw-devel/samples/bin_multirender_test-multirender_test_o": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/share/doc/LibRaw-devel/samples/bin_multirender_test-multirender_test.o", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "report-functions": [
+                "_ZN6LibRaw7recycleEv", 
+                "_GLOBAL_OFFSET_TABLE_", 
+                "__gxx_personality_v0", 
+                "_ZN6LibRaw21dcraw_ppm_tiff_writerEPKc", 
+                "__printf_chk", 
+                "_ZN6LibRaw13dcraw_processEv", 
+                "_ZN6LibRaw9open_fileEPKcx", 
+                "_ZN6LibRaw11cameraCountEv", 
+                "_Unwind_Resume", 
+                "__stack_chk_fail", 
+                "libraw_strerror", 
+                "__fprintf_chk", 
+                "_ZN6LibRaw7versionEv", 
+                "__snprintf_chk", 
+                "_ZN6LibRawD1Ev", 
+                "stderr"
+            ], 
+            "rpm": "LibRaw-devel-0.18.5-1.fc27.x86_64.rpm"
+        }, 
+        "usr/share/doc/LibRaw-devel/samples/bin_mem_image-mem_image_o": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/share/doc/LibRaw-devel/samples/bin_mem_image-mem_image.o", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "report-functions": [
+                "_ZN6LibRawC1Ej", 
+                "_ZN6LibRaw20dcraw_make_mem_thumbEPi", 
+                "_ZN6LibRaw7recycleEv", 
+                "_ZN6LibRaw12unpack_thumbEv", 
+                "_ZN6LibRaw15dcraw_clear_memEP24libraw_processed_image_t", 
+                "_ZN6LibRaw9open_fileEPKcx", 
+                "__gxx_personality_v0", 
+                "__fprintf_chk", 
+                "_ZN6LibRaw6unpackEv", 
+                "__snprintf_chk", 
+                "_ZN6LibRawD1Ev", 
+                "_ZN6LibRaw13dcraw_processEv", 
+                "putenv", 
+                "stderr", 
+                "_ZN6LibRaw20dcraw_make_mem_imageEPi", 
+                "fclose", 
+                "libraw_strerror", 
+                "__printf_chk", 
+                "fwrite", 
+                "fopen", 
+                "_Unwind_Resume"
+            ], 
+            "rpm": "LibRaw-devel-0.18.5-1.fc27.x86_64.rpm"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " LibRaw-devel", 
+            "License": " GPLv3+", 
+            "URL": " http://www.libraw.org", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-04.phx2.fedoraproject.org", 
+            "Description": "\nLibRaw development libraries.\n\nThis package contains libraries that applications can use to build\nagainst LibRaw.\n", 
+            "Build Date": " Fri 22 Sep 2017 09:38:24 AM EDT", 
+            "Source RPM": " LibRaw-0.18.5-1.fc27.src.rpm", 
+            "Version": " 0.18.5", 
+            "Architecture": " x86_64", 
+            "Signature": " RSA/SHA256, Fri 22 Sep 2017 09:48:19 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 1.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " LibRaw development libraries", 
+            "Size": " 1078304"
+        }
+    }
+}

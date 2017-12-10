@@ -1,0 +1,86 @@
+{
+    "results": {
+        "usr/lib/libloki_so_0_1_7": {
+            "report-functions": [
+                "_ZNSt11logic_errorD1Ev", 
+                "__cxa_pure_virtual", 
+                "_Jv_RegisterClasses", 
+                "_ZSt17__throw_bad_allocv", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERjj", 
+                "__gmon_start__", 
+                "__cxa_allocate_exception", 
+                "__cxa_free_exception", 
+                "_Unwind_Resume", 
+                "__cxa_finalize", 
+                "__popcountsi2", 
+                "_ZNSt9exceptionD2Ev", 
+                "_ITM_registerTMCloneTable", 
+                "_ZNSt8__detail15_List_node_base9_M_unhookEv", 
+                "pthread_mutex_trylock", 
+                "pthread_mutex_init", 
+                "___tls_get_addr", 
+                "pthread_mutex_destroy", 
+                "_ZSt24__throw_out_of_range_fmtPKcz", 
+                "pthread_mutex_unlock", 
+                "_Znwj", 
+                "__stack_chk_fail", 
+                "pthread_mutex_lock", 
+                "_ZdlPv", 
+                "sleep", 
+                "_ZNSo5writeEPKci", 
+                "memmove", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_replaceEjjPKcj", 
+                "malloc", 
+                "__cxa_call_unexpected", 
+                "__gxx_personality_v0", 
+                "_ZNSt8ios_base4InitC1Ev", 
+                "free", 
+                "__cxa_throw", 
+                "__cxa_atexit", 
+                "_ZNSt9bad_allocD1Ev", 
+                "_ZNSt8ios_base4InitD1Ev", 
+                "_ZSt20__throw_length_errorPKc", 
+                "_ZdaPv", 
+                "_ZNSt8__detail15_List_node_base7_M_hookEPS0_", 
+                "__cxa_begin_catch", 
+                "_ZNSt11logic_errorC1ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE", 
+                "_Znaj"
+            ], 
+            "rpm": "loki-lib-0.1.7-13.fc23.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libloki.so.0.1.7"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " loki-lib", 
+            "License": " MIT", 
+            "URL": " http://sourceforge.net/projects/loki-lib", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-11.phx2.fedoraproject.org", 
+            "Description": "\nA C++ library of designs, containing flexible implementations of common design\npatterns and idioms.\n", 
+            "Build Date": " Wed 17 Jun 2015 03:02:09 PM EDT", 
+            "Source RPM": " loki-lib-0.1.7-13.fc23.src.rpm", 
+            "Version": " 0.1.7", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 25 Feb 2017 04:35:54 PM EST, Key ID f55e7430f5282ee4", 
+            "Release": " 13.fc23", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Loki C++ Library of design patterns and idioms", 
+            "Size": " 62187"
+        }
+    }
+}

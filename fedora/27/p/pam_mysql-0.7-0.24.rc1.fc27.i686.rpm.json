@@ -1,0 +1,90 @@
+{
+    "results": {
+        "lib/security/pam_mysql_so": {
+            "report-functions": [
+                "strerror", 
+                "close", 
+                "getuid", 
+                "_ITM_deregisterTMCloneTable", 
+                "mysql_real_connect", 
+                "free", 
+                "pam_strerror", 
+                "mysql_select_db", 
+                "freeaddrinfo", 
+                "mysql_fetch_row", 
+                "mysql_close", 
+                "strchr", 
+                "strtol", 
+                "open", 
+                "mysql_real_escape_string", 
+                "__memcpy_chk", 
+                "mysql_store_result", 
+                "calloc", 
+                "__stack_chk_fail", 
+                "getpid", 
+                "strlen", 
+                "__cxa_finalize", 
+                "pam_set_data", 
+                "mysql_num_rows", 
+                "geteuid", 
+                "realloc", 
+                "__gmon_start__", 
+                "inet_ntop", 
+                "strcmp", 
+                "my_make_scrambled_password", 
+                "mysql_real_query", 
+                "read", 
+                "gethostname", 
+                "mysql_init", 
+                "mysql_error", 
+                "getaddrinfo", 
+                "mysql_free_result", 
+                "__errno_location", 
+                "MD5", 
+                "memcmp", 
+                "pam_get_user", 
+                "crypt", 
+                "pam_set_item", 
+                "pam_get_item", 
+                "SHA1", 
+                "pam_get_data", 
+                "strcasecmp"
+            ], 
+            "rpm": "pam_mysql-0.7-0.24.rc1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "lib/security/pam_mysql.so"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Base", 
+            "Name": " pam_mysql", 
+            "License": " GPLv2+", 
+            "URL": " http://sf.net/projects/pam-mysql/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-20.phx2.fedoraproject.org", 
+            "Source RPM": " pam_mysql-0.7-0.24.rc1.fc27.src.rpm", 
+            "Description": "\nPam_mysql aims to provide a backend neutral means of authenticating\nusers against an MySQL database.\n", 
+            "Build Date": " Fri 04 Aug 2017 03:32:35 AM EDT", 
+            "Epoch": " 1", 
+            "Version": " 0.7", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 11:32:51 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 0.24.rc1.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " PAM module for auth UNIX users using MySQL data base", 
+            "Size": " 92006"
+        }
+    }
+}

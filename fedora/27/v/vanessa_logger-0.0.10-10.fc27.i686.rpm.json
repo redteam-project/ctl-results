@@ -1,0 +1,70 @@
+{
+    "results": {
+        "usr/lib/libvanessa_logger_so_0_0_5": {
+            "report-functions": [
+                "__fprintf_chk", 
+                "malloc", 
+                "strerror", 
+                "__ctype_b_loc", 
+                "fopen", 
+                "__errno_location", 
+                "localtime", 
+                "fflush", 
+                "strlen", 
+                "free", 
+                "__sprintf_chk", 
+                "__gmon_start__", 
+                "perror", 
+                "getpid", 
+                "__vfprintf_chk", 
+                "closelog", 
+                "__snprintf_chk", 
+                "time", 
+                "_ITM_registerTMCloneTable", 
+                "vsyslog", 
+                "fclose", 
+                "_ITM_deregisterTMCloneTable", 
+                "strcmp", 
+                "__stack_chk_fail", 
+                "openlog", 
+                "snprintf", 
+                "strftime", 
+                "fwrite"
+            ], 
+            "rpm": "vanessa_logger-0.0.10-10.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libvanessa_logger.so.0.0.5"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " vanessa_logger", 
+            "License": " LGPLv2+", 
+            "URL": " http://www.vergenet.net/linux/vanessa/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-30.phx2.fedoraproject.org", 
+            "Description": "\nGeneric logging layer that may be used to log to one or more of syslog,\nan open file handle or a file name. Though due to limitations in the\nimplementation of syslog opening multiple syslog loggers doesn't makes\nsense. Includes the ability to limit which messages will be logged based\non priorities.\n", 
+            "Build Date": " Fri 04 Aug 2017 10:17:22 PM EDT", 
+            "Source RPM": " vanessa_logger-0.0.10-10.fc27.src.rpm", 
+            "Version": " 0.0.10", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 05 Aug 2017 08:30:26 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 10.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Generic logging layer", 
+            "Size": " 46557"
+        }
+    }
+}

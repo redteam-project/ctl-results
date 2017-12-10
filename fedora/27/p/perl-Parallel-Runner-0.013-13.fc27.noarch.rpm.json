@@ -1,0 +1,25 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " perl-Parallel-Runner", 
+            "License": " GPL+ or Artistic", 
+            "URL": " http://search.cpan.org/dist/Parallel-Runner/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-30.phx2.fedoraproject.org", 
+            "Description": "\nThere are several other modules to do this, you probably want one of them. This\nmodule exists as a super-specialized parallel task manager. You create the\nobject with a process limit and callbacks for what to do while waiting for a\nfree process slot, as well as a callback for what a process should do just\nbefore exiting.\n\nYou must explicitly call $runner->finish() when you are done. If the runner is\ndestroyed before its children are finished, a warning will be generated and\nyour child processes will be killed, by force if necessary.\n\nIf you specify a maximum of 1 then no forking will occur, and run() will block\nuntil the coderef returns. You can force a fork by providing a boolean true\nvalue as the second argument to run(), which will force the runner to fork\nbefore running the coderef; however, run() will still block until the child\nexits.\n", 
+            "Build Date": " Fri 28 Jul 2017 05:35:01 AM EDT", 
+            "Source RPM": " perl-Parallel-Runner-0.013-13.fc27.src.rpm", 
+            "Version": " 0.013", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Fri 28 Jul 2017 02:58:13 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 13.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " An object to manage running things in parallel processes", 
+            "Size": " 22647"
+        }
+    }
+}

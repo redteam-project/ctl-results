@@ -1,0 +1,56 @@
+{
+    "results": {
+        "usr/lib/platform-python3_6/config-3_6m-i386-linux-gnu/python_o": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib/platform-python3.6/config-3.6m-i386-linux-gnu/python.o", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "report-functions": [
+                "_Py_LegacyLocaleDetected", 
+                "_PyMem_SetupAllocators", 
+                "Py_DecodeLocale", 
+                "_PyMem_RawStrdup", 
+                "PyMem_RawFree", 
+                "_Py_CoerceLegacyLocale", 
+                "__fprintf_chk", 
+                "_GLOBAL_OFFSET_TABLE_", 
+                "stderr", 
+                "Py_Main", 
+                "PyMem_RawMalloc"
+            ], 
+            "rpm": "platform-python-devel-3.6.2-12.fc27.i686.rpm"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " platform-python-devel", 
+            "License": " Python", 
+            "URL": " https://www.python.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-14.phx2.fedoraproject.org", 
+            "Description": "\nThe Python programming language's interpreter can be extended with\ndynamically loaded extensions and can be embedded in other programs.\nThis package contains the header files and libraries needed to build tools\nthat extend or embed Platform Python.\n", 
+            "Build Date": " Thu 17 Aug 2017 01:31:05 PM EDT", 
+            "Source RPM": " platform-python-3.6.2-12.fc27.src.rpm", 
+            "Version": " 3.6.2", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 17 Aug 2017 01:32:40 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 12.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Libraries and header files needed for Platform Python development", 
+            "Size": " 2715262"
+        }
+    }
+}

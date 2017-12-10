@@ -1,0 +1,708 @@
+{
+    "results": {
+        "usr/lib/imlib2/loaders/lbm_so": {
+            "report-functions": [
+                "fseek", 
+                "getenv", 
+                "__stack_chk_fail", 
+                "_ITM_deregisterTMCloneTable", 
+                "free", 
+                "_ITM_registerTMCloneTable", 
+                "fread", 
+                "malloc", 
+                "__cxa_finalize", 
+                "fopen", 
+                "fclose", 
+                "ftell", 
+                "strdup"
+            ], 
+            "rpm": "imlib2-1.4.9-4.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: 'NoneType' object is not iterable"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/imlib2/loaders/lbm.so"
+        }, 
+        "usr/lib/imlib2/loaders/pnm_so": {
+            "report-functions": [
+                "fseek", 
+                "__ctype_b_loc", 
+                "_ITM_registerTMCloneTable", 
+                "fwrite", 
+                "__stack_chk_fail", 
+                "__fprintf_chk", 
+                "__cxa_finalize", 
+                "free", 
+                "fopen", 
+                "fgetc", 
+                "fclose", 
+                "__gmon_start__", 
+                "strtol", 
+                "_ITM_deregisterTMCloneTable", 
+                "fgets", 
+                "malloc", 
+                "strdup"
+            ], 
+            "rpm": "imlib2-1.4.9-4.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: 'NoneType' object is not iterable"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/imlib2/loaders/pnm.so"
+        }, 
+        "usr/lib/imlib2/loaders/argb_so": {
+            "report-functions": [
+                "fread", 
+                "__fprintf_chk", 
+                "fclose", 
+                "_ITM_deregisterTMCloneTable", 
+                "malloc", 
+                "free", 
+                "__stack_chk_fail", 
+                "strdup", 
+                "_ITM_registerTMCloneTable", 
+                "__cxa_finalize", 
+                "__isoc99_sscanf", 
+                "fwrite", 
+                "__gmon_start__"
+            ], 
+            "rpm": "imlib2-1.4.9-4.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: 'NoneType' object is not iterable"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/imlib2/loaders/argb.so"
+        }, 
+        "usr/lib/imlib2/loaders/zlib_so": {
+            "report-functions": [
+                "free", 
+                "__gmon_start__", 
+                "strrchr", 
+                "mkstemp", 
+                "strcasecmp", 
+                "strchr", 
+                "__stack_chk_fail", 
+                "__imlib_FindBestLoaderForFile", 
+                "strdup", 
+                "_ITM_registerTMCloneTable", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize", 
+                "__xstat", 
+                "close", 
+                "strndup", 
+                "write", 
+                "gzdopen", 
+                "malloc", 
+                "open", 
+                "gzclose", 
+                "gzread", 
+                "__assert_fail"
+            ], 
+            "rpm": "imlib2-1.4.9-4.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: 'NoneType' object is not iterable"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/imlib2/loaders/zlib.so"
+        }, 
+        "usr/lib/imlib2/loaders/xpm_so": {
+            "report-functions": [
+                "fopen", 
+                "__fprintf_chk", 
+                "fseek", 
+                "fgets", 
+                "strcasecmp", 
+                "__strcpy_chk", 
+                "__strncpy_chk", 
+                "fclose", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "realloc", 
+                "fread", 
+                "__strcat_chk", 
+                "memset", 
+                "__stack_chk_fail", 
+                "fgetc", 
+                "__memcpy_chk", 
+                "strcmp", 
+                "_ITM_registerTMCloneTable", 
+                "free", 
+                "__cxa_finalize", 
+                "malloc", 
+                "rewind", 
+                "strdup"
+            ], 
+            "rpm": "imlib2-1.4.9-4.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: 'NoneType' object is not iterable"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/imlib2/loaders/xpm.so"
+        }, 
+        "usr/lib/imlib2/loaders/gif_so": {
+            "report-functions": [
+                "DGifGetExtension", 
+                "DGifGetRecordType", 
+                "DGifCloseFile", 
+                "calloc", 
+                "DGifGetExtensionNext", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "DGifGetImageDesc", 
+                "free", 
+                "DGifGetLine", 
+                "strdup", 
+                "DGifOpenFileHandle", 
+                "close", 
+                "__stack_chk_fail", 
+                "_ITM_registerTMCloneTable", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "imlib2-1.4.9-4.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: 'NoneType' object is not iterable"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/imlib2/loaders/gif.so"
+        }, 
+        "usr/lib/libImlib2_so_1_4_9": {
+            "report-functions": [
+                "strrchr", 
+                "strstr", 
+                "shmdt", 
+                "XFree", 
+                "__stack_chk_fail", 
+                "XShapeGetRectangles", 
+                "free", 
+                "strcasecmp", 
+                "FT_Init_FreeType", 
+                "dlsym", 
+                "shmget", 
+                "XGetGeometry", 
+                "FT_Set_Pixel_Sizes", 
+                "__ctype_b_loc", 
+                "__snprintf_chk", 
+                "dlclose", 
+                "unlink", 
+                "FT_Get_Kerning", 
+                "XGetWindowAttributes", 
+                "qsort", 
+                "XUngrabServer", 
+                "__cxa_finalize", 
+                "XShmDetach", 
+                "XGrabServer", 
+                "shmctl", 
+                "XQueryColors", 
+                "XTranslateCoordinates", 
+                "hypot", 
+                "XPutImage", 
+                "FT_Get_Char_Index", 
+                "readdir", 
+                "XShmQueryExtension", 
+                "strtol", 
+                "getenv", 
+                "XAllocColor", 
+                "_ITM_registerTMCloneTable", 
+                "__sprintf_chk", 
+                "strchr", 
+                "getuid", 
+                "FT_Set_Char_Size", 
+                "XFreeColors", 
+                "__fprintf_chk", 
+                "sincos", 
+                "_ITM_deregisterTMCloneTable", 
+                "__xstat", 
+                "__errno_location", 
+                "FT_Done_Face", 
+                "XFillRectangle", 
+                "getpwuid", 
+                "FT_Select_Charmap", 
+                "floorf", 
+                "strcpy", 
+                "calloc", 
+                "XCreateImage", 
+                "XSync", 
+                "__assert_fail", 
+                "malloc", 
+                "strdup", 
+                "__ctype_tolower_loc", 
+                "access", 
+                "__gmon_start__", 
+                "FT_Load_Glyph", 
+                "XFreePixmap", 
+                "FT_Get_Glyph", 
+                "closedir", 
+                "FT_New_Face", 
+                "pow", 
+                "XShmAttach", 
+                "XCreatePixmap", 
+                "FT_Glyph_To_Bitmap", 
+                "memmove", 
+                "XCreateGC", 
+                "XGetImage", 
+                "XShmPutImage", 
+                "shmat", 
+                "time", 
+                "rewinddir", 
+                "XSetForeground", 
+                "XFreeGC", 
+                "XSetErrorHandler", 
+                "XShmCreateImage", 
+                "FT_Done_Glyph", 
+                "dlopen", 
+                "XVisualIDFromVisual", 
+                "XShmGetImage", 
+                "realloc", 
+                "strlen", 
+                "XGetVisualInfo", 
+                "strcmp"
+            ], 
+            "rpm": "imlib2-1.4.9-4.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libImlib2.so.1.4.9"
+        }, 
+        "usr/lib/imlib2/filters/bumpmap_so": {
+            "report-functions": [
+                "sincos", 
+                "strdup", 
+                "imlib_image_get_height", 
+                "malloc", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "imlib_image_get_data", 
+                "_ITM_registerTMCloneTable", 
+                "imlib_image_get_data_for_reading_only", 
+                "sqrt", 
+                "imlib_load_image", 
+                "imlib_free_image", 
+                "__stack_chk_fail", 
+                "strtol", 
+                "imlib_context_set_image"
+            ], 
+            "rpm": "imlib2-1.4.9-4.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: 'NoneType' object is not iterable"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/imlib2/filters/bumpmap.so"
+        }, 
+        "usr/lib/imlib2/filters/testfilter_so": {
+            "report-functions": [
+                "imlib_apply_color_modifier_to_rectangle", 
+                "imlib_context_set_color_modifier", 
+                "imlib_context_set_image", 
+                "imlib_set_color_modifier_tables", 
+                "imlib_create_color_modifier", 
+                "__stack_chk_fail", 
+                "imlib_image_fill_rectangle", 
+                "__cxa_finalize", 
+                "imlib_create_image", 
+                "imlib_free_image_and_decache", 
+                "imlib_free_color_modifier", 
+                "malloc", 
+                "strdup", 
+                "imlib_context_set_blend", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "imlib_context_set_color", 
+                "strtol", 
+                "imlib_image_get_height", 
+                "imlib_blend_image_onto_image", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "imlib2-1.4.9-4.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: 'NoneType' object is not iterable"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/imlib2/filters/testfilter.so"
+        }, 
+        "usr/lib/imlib2/loaders/jpeg_so": {
+            "report-functions": [
+                "jpeg_finish_decompress", 
+                "jpeg_destroy_decompress", 
+                "_ITM_deregisterTMCloneTable", 
+                "fclose", 
+                "__stack_chk_fail", 
+                "__longjmp_chk", 
+                "free", 
+                "__sigsetjmp", 
+                "jpeg_set_defaults", 
+                "jpeg_read_scanlines", 
+                "jpeg_std_error", 
+                "__imlib_GetTag", 
+                "_ITM_registerTMCloneTable", 
+                "jpeg_stdio_src", 
+                "strdup", 
+                "fopen", 
+                "jpeg_CreateCompress", 
+                "jpeg_read_header", 
+                "malloc", 
+                "__gmon_start__", 
+                "jpeg_start_compress", 
+                "jpeg_write_scanlines", 
+                "jpeg_CreateDecompress", 
+                "jpeg_destroy_compress", 
+                "jpeg_stdio_dest", 
+                "__cxa_finalize", 
+                "jpeg_start_decompress"
+            ], 
+            "rpm": "imlib2-1.4.9-4.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: 'NoneType' object is not iterable"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/imlib2/loaders/jpeg.so"
+        }, 
+        "usr/lib/imlib2/filters/colormod_so": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "strtod", 
+                "imlib_context_set_color_modifier", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "strdup", 
+                "strcmp", 
+                "__stack_chk_fail", 
+                "malloc", 
+                "imlib_create_color_modifier", 
+                "imlib_apply_color_modifier_to_rectangle", 
+                "imlib_context_set_image", 
+                "imlib_free_color_modifier", 
+                "imlib_image_get_height", 
+                "strtol", 
+                "_ITM_registerTMCloneTable", 
+                "pow"
+            ], 
+            "rpm": "imlib2-1.4.9-4.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: 'NoneType' object is not iterable"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/imlib2/filters/colormod.so"
+        }, 
+        "usr/lib/imlib2/loaders/tiff_so": {
+            "report-functions": [
+                "TIFFRGBAImageOK", 
+                "TIFFDefaultStripSize", 
+                "strdup", 
+                "fileno", 
+                "fclose", 
+                "__imlib_GetTag", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize", 
+                "TIFFRGBAImageEnd", 
+                "TIFFSetField", 
+                "fseek", 
+                "free", 
+                "dup", 
+                "fread", 
+                "lseek", 
+                "__stack_chk_fail", 
+                "_ITM_registerTMCloneTable", 
+                "TIFFScanlineSize", 
+                "malloc", 
+                "_TIFFfree", 
+                "fwrite", 
+                "TIFFClose", 
+                "__gmon_start__", 
+                "_TIFFmalloc", 
+                "TIFFFdOpen", 
+                "TIFFRGBAImageGet", 
+                "fopen", 
+                "TIFFRGBAImageBegin"
+            ], 
+            "rpm": "imlib2-1.4.9-4.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: 'NoneType' object is not iterable"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/imlib2/loaders/tiff.so"
+        }, 
+        "usr/lib/imlib2/loaders/ff_so": {
+            "report-functions": [
+                "fread", 
+                "fwrite", 
+                "fclose", 
+                "fopen", 
+                "__stack_chk_fail", 
+                "free", 
+                "_ITM_deregisterTMCloneTable", 
+                "strdup", 
+                "__gmon_start__", 
+                "malloc"
+            ], 
+            "rpm": "imlib2-1.4.9-4.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: 'NoneType' object is not iterable"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/imlib2/loaders/ff.so"
+        }, 
+        "usr/lib/imlib2/loaders/bz2_so": {
+            "report-functions": [
+                "strchr", 
+                "__assert_fail", 
+                "__cxa_finalize", 
+                "BZ2_bzReadClose", 
+                "__stack_chk_fail", 
+                "fclose", 
+                "malloc", 
+                "free", 
+                "__imlib_FindBestLoaderForFile", 
+                "close", 
+                "fopen", 
+                "_ITM_registerTMCloneTable", 
+                "unlink", 
+                "strdup", 
+                "BZ2_bzReadOpen", 
+                "write", 
+                "BZ2_bzRead", 
+                "mkstemp", 
+                "strndup", 
+                "strrchr", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "imlib2-1.4.9-4.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: 'NoneType' object is not iterable"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/imlib2/loaders/bz2.so"
+        }, 
+        "usr/lib/imlib2/loaders/bmp_so": {
+            "report-functions": [
+                "fclose", 
+                "fseek", 
+                "free", 
+                "__gmon_start__", 
+                "strdup", 
+                "__stack_chk_fail", 
+                "malloc", 
+                "__fread_chk", 
+                "_ITM_registerTMCloneTable", 
+                "__xstat", 
+                "fread", 
+                "fopen", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "imlib2-1.4.9-4.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: 'NoneType' object is not iterable"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/imlib2/loaders/bmp.so"
+        }, 
+        "usr/lib/imlib2/loaders/tga_so": {
+            "report-functions": [
+                "fwrite", 
+                "fclose", 
+                "_ITM_registerTMCloneTable", 
+                "close", 
+                "__gmon_start__", 
+                "__fxstat", 
+                "strdup", 
+                "free", 
+                "mmap", 
+                "__cxa_finalize", 
+                "malloc", 
+                "_ITM_deregisterTMCloneTable", 
+                "open", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "imlib2-1.4.9-4.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: 'NoneType' object is not iterable"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/imlib2/loaders/tga.so"
+        }, 
+        "usr/lib/imlib2/loaders/png_so": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "png_read_rows", 
+                "png_write_info", 
+                "png_create_info_struct", 
+                "png_sig_cmp", 
+                "__gmon_start__", 
+                "png_create_read_struct", 
+                "fread", 
+                "fclose", 
+                "__stack_chk_fail", 
+                "png_set_packing", 
+                "__longjmp_chk", 
+                "png_destroy_info_struct", 
+                "png_set_text", 
+                "free", 
+                "png_write_rows", 
+                "png_read_end", 
+                "png_set_filler", 
+                "png_init_io", 
+                "png_set_IHDR", 
+                "png_get_IHDR", 
+                "png_read_image", 
+                "png_create_write_struct", 
+                "_setjmp", 
+                "png_set_expand_gray_1_2_4_to_8", 
+                "fopen", 
+                "png_set_sBIT", 
+                "png_set_interlace_handling", 
+                "malloc", 
+                "png_write_end", 
+                "png_get_valid", 
+                "png_set_palette_to_rgb", 
+                "png_set_longjmp_fn", 
+                "png_set_strip_16", 
+                "png_set_gray_to_rgb", 
+                "png_destroy_write_struct", 
+                "png_destroy_read_struct", 
+                "png_read_info", 
+                "strdup", 
+                "png_get_text", 
+                "png_set_compression_level", 
+                "png_set_bgr", 
+                "rewind", 
+                "__imlib_AttachTag", 
+                "png_set_shift", 
+                "_ITM_deregisterTMCloneTable", 
+                "__imlib_GetTag"
+            ], 
+            "rpm": "imlib2-1.4.9-4.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: 'NoneType' object is not iterable"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/imlib2/loaders/png.so"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " imlib2", 
+            "License": " Imlib2", 
+            "URL": " http://docs.enlightenment.org/api/imlib2/html/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-10.phx2.fedoraproject.org", 
+            "Description": "\nImlib 2 is a library that does image file loading and saving as well\nas rendering, manipulation, arbitrary polygon support, etc.  It does\nALL of these operations FAST. Imlib2 also tries to be highly\nintelligent about doing them, so writing naive programs can be done\neasily, without sacrificing speed.  This is a complete rewrite over\nthe Imlib 1.x series. The architecture is more modular, simple, and\nflexible.\n", 
+            "Build Date": " Thu 03 Aug 2017 05:53:59 AM EDT", 
+            "Source RPM": " imlib2-1.4.9-4.fc27.src.rpm", 
+            "Version": " 1.4.9", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 03 Aug 2017 11:54:21 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 4.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Image loading, saving, rendering, and manipulation library", 
+            "Size": " 562857"
+        }
+    }
+}

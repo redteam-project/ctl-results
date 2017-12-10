@@ -1,0 +1,114 @@
+{
+    "results": {
+        "usr/share/syslinux/com32/include/sys/elf32_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/share/syslinux/com32/include/sys/elf32.h", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "syslinux-devel-6.04-0.5.fc27.x86_64.rpm"
+        }, 
+        "usr/share/syslinux/com32/include/sys/elf64_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/share/syslinux/com32/include/sys/elf64.h", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "syslinux-devel-6.04-0.5.fc27.x86_64.rpm"
+        }, 
+        "usr/share/syslinux/com32/include/elf_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/share/syslinux/com32/include/elf.h", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "syslinux-devel-6.04-0.5.fc27.x86_64.rpm"
+        }, 
+        "usr/share/syslinux/com32/include/sys/elfcommon_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/share/syslinux/com32/include/sys/elfcommon.h", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "syslinux-devel-6.04-0.5.fc27.x86_64.rpm"
+        }, 
+        "usr/share/syslinux/com32/libgpl_c32": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/share/syslinux/com32/libgpl.c32", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "lmalloc", 
+                "strnlen", 
+                "strncasecmp", 
+                "strlcpy", 
+                "__ctypes", 
+                "vfprintf", 
+                "strcat", 
+                "sprintf", 
+                "strcmp", 
+                "strncmp", 
+                "fprintf", 
+                "__intcall", 
+                "strcpy", 
+                "snprintf", 
+                "free", 
+                "malloc", 
+                "puts", 
+                "memcmp", 
+                "strtoul", 
+                "strstr", 
+                "pow"
+            ], 
+            "rpm": "syslinux-devel-6.04-0.5.fc27.x86_64.rpm"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " syslinux-devel", 
+            "License": " GPLv2+", 
+            "URL": " http://syslinux.zytor.com/wiki/index.php/The_Syslinux_Project", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-29.phx2.fedoraproject.org", 
+            "Description": "\nHeaders and libraries for syslinux development.\n", 
+            "Build Date": " Fri 04 Aug 2017 07:58:14 PM EDT", 
+            "Source RPM": " syslinux-6.04-0.5.fc27.src.rpm", 
+            "Version": " 6.04", 
+            "Architecture": " x86_64", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 09:47:34 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 0.5.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Headers and libraries for syslinux development.", 
+            "Size": " 786522"
+        }
+    }
+}

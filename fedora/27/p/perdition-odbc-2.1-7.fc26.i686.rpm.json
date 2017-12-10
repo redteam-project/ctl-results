@@ -1,0 +1,70 @@
+{
+    "results": {
+        "usr/lib/libperditiondb_odbc_so_0_0_0": {
+            "report-functions": [
+                "strcpy", 
+                "vanessa_logger_log", 
+                "SQLFetch", 
+                "__snprintf_chk", 
+                "__strdup", 
+                "SQLExecDirect", 
+                "strtol", 
+                "__gmon_start__", 
+                "SQLGetDiagRec", 
+                "malloc", 
+                "__cxa_finalize", 
+                "vanessa_dynamic_array_get_element", 
+                "vanessa_dynamic_array_get_count", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable", 
+                "_vanessa_logger_log_prefix", 
+                "strerror", 
+                "SQLConnect", 
+                "SQLFreeHandle", 
+                "__errno_location", 
+                "SQLSetEnvAttr", 
+                "SQLSetConnectAttr", 
+                "SQLAllocHandle", 
+                "free", 
+                "SQLDisconnect", 
+                "SQLBindCol", 
+                "__stack_chk_fail", 
+                "_Jv_RegisterClasses"
+            ], 
+            "rpm": "perdition-odbc-2.1-7.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libperditiondb_odbc.so.0.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Applications/Internet", 
+            "Name": " perdition-odbc", 
+            "License": " GPLv2+", 
+            "URL": " http://horms.net/projects/perdition/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-19.phx2.fedoraproject.org", 
+            "Description": "\nPerdition allows for arbitrary user database access through shared\nlibraries much in the manner of NSS in glibc. This package allows a user\naccess databases via ODBC.\n", 
+            "Build Date": " Tue 16 Aug 2016 05:20:41 PM EDT", 
+            "Source RPM": " perdition-2.1-7.fc26.src.rpm", 
+            "Version": " 2.1", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 25 Feb 2017 10:45:59 AM EST, Key ID f55e7430f5282ee4", 
+            "Release": " 7.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Library to allow perdition to access pop maps via ODBC", 
+            "Size": " 15914"
+        }
+    }
+}

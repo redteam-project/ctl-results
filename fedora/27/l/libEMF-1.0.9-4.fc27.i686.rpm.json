@@ -1,0 +1,115 @@
+{
+    "results": {
+        "usr/lib/libEMF_so_1_0_0": {
+            "report-functions": [
+                "__cxa_free_exception", 
+                "_ZdlPvj", 
+                "_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_", 
+                "__stack_chk_fail", 
+                "fwrite", 
+                "_ZSt18_Rb_tree_incrementPKSt18_Rb_tree_node_base", 
+                "__printf_chk", 
+                "ftell", 
+                "_ZdaPv", 
+                "__cxa_throw_bad_array_new_length", 
+                "_ZNSt8ios_base4InitC1Ev", 
+                "fread", 
+                "_ZdlPv", 
+                "iconv_close", 
+                "_ZNSo9_M_insertImEERSoT_", 
+                "_ZNSt13runtime_errorC1EPKc", 
+                "memmove", 
+                "fclose", 
+                "_IO_putc", 
+                "_ZSt29_Rb_tree_insert_and_rebalancebPSt18_Rb_tree_node_baseS0_RS_", 
+                "_ZSt18_Rb_tree_decrementPSt18_Rb_tree_node_base", 
+                "_ZSt18_Rb_tree_incrementPSt18_Rb_tree_node_base", 
+                "__cxa_throw", 
+                "fopen", 
+                "__gmon_start__", 
+                "fseek", 
+                "_ZNSt8ios_base4InitD1Ev", 
+                "__dynamic_cast", 
+                "iconv", 
+                "_ZSt20__throw_length_errorPKc", 
+                "_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_i", 
+                "floorf", 
+                "_Znaj", 
+                "iconv_open", 
+                "__cxa_atexit", 
+                "__errno_location", 
+                "puts", 
+                "_ZSt17__throw_bad_allocv", 
+                "__gxx_personality_v0", 
+                "__cxa_finalize", 
+                "strlen", 
+                "_ZNSt13runtime_errorD1Ev", 
+                "_Znwj", 
+                "__cxa_allocate_exception", 
+                "rewind", 
+                "ceilf", 
+                "_ITM_deregisterTMCloneTable", 
+                "feof", 
+                "_ITM_registerTMCloneTable", 
+                "_Unwind_Resume"
+            ], 
+            "rpm": "libEMF-1.0.9-4.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libEMF.so.1.0.0"
+        }, 
+        "usr/bin/printemf": {
+            "report-functions": [
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "_ITM_deregisterTMCloneTable", 
+                "__libc_start_main", 
+                "_ITM_registerTMCloneTable", 
+                "EditEnhMetaFile", 
+                "GetEnhMetaFileA"
+            ], 
+            "rpm": "libEMF-1.0.9-4.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/printemf"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " libEMF", 
+            "License": " LGPLv2+ and GPLv2+", 
+            "URL": " http://libemf.sourceforge.net/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-13.phx2.fedoraproject.org", 
+            "Description": "\nlibEMF is a library for generating Enhanced Metafiles on systems which\ndon't natively support the ECMA-234 Graphics Device Interface\n(GDI). The library is intended to be used as a driver for other\ngraphics programs such as Grace or gnuplot. Therefore, it implements a\nvery limited subset of the GDI.\n", 
+            "Build Date": " Thu 03 Aug 2017 12:03:26 PM EDT", 
+            "Source RPM": " libEMF-1.0.9-4.fc27.src.rpm", 
+            "Version": " 1.0.9", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 04:51:51 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 4.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A library for generating Enhanced Metafiles", 
+            "Size": " 271254"
+        }
+    }
+}

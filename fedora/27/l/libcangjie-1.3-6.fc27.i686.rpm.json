@@ -1,0 +1,61 @@
+{
+    "results": {
+        "usr/lib/libcangjie_so_2_0_1": {
+            "report-functions": [
+                "sqlite3_mprintf", 
+                "strchr", 
+                "sqlite3_prepare_v2", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize", 
+                "free", 
+                "sqlite3_step", 
+                "getenv", 
+                "sqlite3_free", 
+                "calloc", 
+                "sqlite3_finalize", 
+                "strncpy", 
+                "_ITM_registerTMCloneTable", 
+                "sqlite3_close", 
+                "sqlite3_column_text", 
+                "sqlite3_open_v2", 
+                "__gmon_start__", 
+                "sqlite3_column_int", 
+                "strcat"
+            ], 
+            "rpm": "libcangjie-1.3-6.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libcangjie.so.2.0.1"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " libcangjie", 
+            "License": " LGPLv3+", 
+            "URL": " http://cangjians.github.io/projects/libcangjie", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-11.phx2.fedoraproject.org", 
+            "Description": "\nLibrary implementing the Cangjie input method.\n", 
+            "Build Date": " Thu 03 Aug 2017 01:36:38 PM EDT", 
+            "Source RPM": " libcangjie-1.3-6.fc27.src.rpm", 
+            "Version": " 1.3", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 06:13:23 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 6.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Cangjie Input Method Library", 
+            "Size": " 25115"
+        }
+    }
+}

@@ -1,0 +1,90 @@
+{
+    "results": {
+        "usr/lib/gems/ruby/gstreamer-3_1_8/gstreamer_so": {
+            "report-functions": [
+                "rbgobj_ruby_object_from_instance", 
+                "__stack_chk_fail", 
+                "rbg_to_array", 
+                "g_type_info_get_interface", 
+                "rb_gi_callback_register_finder", 
+                "g_base_info_get_name", 
+                "g_object_class_find_property", 
+                "g_value_unset", 
+                "g_arg_info_load_type", 
+                "gst_value_list_get_value", 
+                "rb_const_get", 
+                "_ITM_registerTMCloneTable", 
+                "gst_child_proxy_get_type", 
+                "gst_bus_sync_reply_get_type", 
+                "rb_ary_new", 
+                "_ITM_deregisterTMCloneTable", 
+                "rbgobj_gvalue_to_rvalue", 
+                "rb_funcall", 
+                "rb_raise", 
+                "gst_value_list_get_size", 
+                "g_base_info_unref", 
+                "rbg_rval2cstr_accept_symbol", 
+                "g_type_check_instance_cast", 
+                "g_base_info_get_namespace", 
+                "rbg_cstr2rval", 
+                "rbgobj_make_boxed", 
+                "g_value_init", 
+                "rb_intern2", 
+                "rbgobj_lookup_class", 
+                "rbgobj_register_g2r_func", 
+                "mGLib", 
+                "gst_value_list_append_value", 
+                "rbgobj_get_enum", 
+                "rbg_inspect", 
+                "gst_element_factory_get_static_pad_templates", 
+                "strcmp", 
+                "rb_ary_push", 
+                "__gmon_start__", 
+                "rb_remove_method", 
+                "rb_ary_entry", 
+                "gst_child_proxy_set_property", 
+                "__cxa_finalize", 
+                "gst_element_factory_get_type", 
+                "rbgobj_instance_from_ruby_object", 
+                "rbgobj_rvalue_to_gvalue", 
+                "rbg_define_method", 
+                "rb_gi_callback_data_free", 
+                "rbgobj_register_r2g_func"
+            ], 
+            "rpm": "rubygem-gstreamer-3.1.8-3.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: 'NoneType' object is not iterable"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/gems/ruby/gstreamer-3.1.8/gstreamer.so"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Languages", 
+            "Name": " rubygem-gstreamer", 
+            "License": " LGPLv2", 
+            "URL": " http://ruby-gnome2.sourceforge.jp/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-31.phx2.fedoraproject.org", 
+            "Description": "\nRuby/GStreamer is a Ruby binding of GStreamer.\n", 
+            "Build Date": " Fri 04 Aug 2017 01:43:08 PM EDT", 
+            "Source RPM": " rubygem-gstreamer-3.1.8-3.fc27.src.rpm", 
+            "Version": " 3.1.8", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 05 Aug 2017 01:10:00 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 3.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Ruby binding of GStreamer", 
+            "Size": " 36296"
+        }
+    }
+}

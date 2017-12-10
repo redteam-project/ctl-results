@@ -1,0 +1,75 @@
+{
+    "results": {
+        "usr/lib/libnss_pgsql_so_2_0_0": {
+            "report-functions": [
+                "pthread_mutex_unlock", 
+                "_ITM_deregisterTMCloneTable", 
+                "__snprintf_chk", 
+                "asprintf", 
+                "PQnfields", 
+                "pthread_mutex_lock", 
+                "PQfinish", 
+                "PQgetvalue", 
+                "realloc", 
+                "__stack_chk_fail", 
+                "PQexecParams", 
+                "fgets", 
+                "free", 
+                "fclose", 
+                "strchr", 
+                "_ITM_registerTMCloneTable", 
+                "__isoc99_sscanf", 
+                "strtol", 
+                "PQclear", 
+                "__vfprintf_chk", 
+                "PQconnectdb", 
+                "PQexec", 
+                "__cxa_finalize", 
+                "PQstatus", 
+                "__errno_location", 
+                "strtoul", 
+                "strncpy", 
+                "PQresultStatus", 
+                "strlen", 
+                "fflush", 
+                "PQntuples", 
+                "__gmon_start__", 
+                "malloc"
+            ], 
+            "rpm": "libnss-pgsql-1.5.0-0.17.beta.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libnss_pgsql.so.2.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " libnss-pgsql", 
+            "License": " GPL+", 
+            "URL": " http://pgfoundry.org/projects/sysauth/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-25.phx2.fedoraproject.org", 
+            "Description": "\nName Service Switch library that interface with PostgreSQL.\nSee /usr/share/doc/libnss-pgsql/nss-pgsql.html for the config file.\n", 
+            "Build Date": " Thu 03 Aug 2017 03:13:33 PM EDT", 
+            "Source RPM": " libnss-pgsql-1.5.0-0.17.beta.fc27.src.rpm", 
+            "Version": " 1.5.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 11:46:13 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 0.17.beta.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Name Service Switch library that interface with PostgreSQL", 
+            "Size": " 65414"
+        }
+    }
+}

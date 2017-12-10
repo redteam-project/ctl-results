@@ -1,0 +1,91 @@
+{
+    "results": {
+        "usr/lib/libp8-platform_so_2_1_0": {
+            "report-functions": [
+                "__cxa_rethrow", 
+                "malloc", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev", 
+                "_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7compareEjjRKS4_", 
+                "wcslen", 
+                "memmove", 
+                "wmemcpy", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERjj", 
+                "isspace", 
+                "_ITM_registerTMCloneTable", 
+                "_ZSt24__throw_out_of_range_fmtPKcz", 
+                "_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE13find_first_ofEPKcjj", 
+                "_Unwind_Resume", 
+                "_ZdlPv", 
+                "__gxx_personality_v0", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_appendEPKcj", 
+                "rand", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_replaceEjjPKcj", 
+                "srand", 
+                "_ZNSt6localeD1Ev", 
+                "_ZNSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE9_M_createERjj", 
+                "__cxa_atexit", 
+                "_ZNKSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE4findEPKwjj", 
+                "_ITM_deregisterTMCloneTable", 
+                "__vswprintf_chk", 
+                "__cxa_finalize", 
+                "__cxa_end_catch", 
+                "_Znwj", 
+                "_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7compareEjjPKc", 
+                "realloc", 
+                "toupper", 
+                "tolower", 
+                "__stack_chk_fail", 
+                "__vsnprintf_chk", 
+                "_ZSt19__throw_logic_errorPKc", 
+                "_ZSt9use_facetINSt7__cxx117collateIwEEERKT_RKSt6locale", 
+                "_ZNSt6localeC1Ev", 
+                "time", 
+                "_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE16find_last_not_ofEPKcjj", 
+                "_ZSt20__throw_length_errorPKc", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_assignERKS4_", 
+                "_ZNSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE10_M_replaceEjjPKwj", 
+                "__cxa_begin_catch", 
+                "_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE4findEPKcjj", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE8_M_eraseEjj", 
+                "_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE17find_first_not_ofEPKcjj", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7reserveEj", 
+                "free", 
+                "strtol"
+            ], 
+            "rpm": "platform-2.1.0.1-4.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libp8-platform.so.2.1.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " platform", 
+            "License": " GPLv2+", 
+            "URL": " https://github.com/Pulse-Eight/platform/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-06.phx2.fedoraproject.org", 
+            "Description": "\nPlatform support library used by libCEC and binary add-ons for Kodi.\n", 
+            "Build Date": " Fri 04 Aug 2017 07:11:45 AM EDT", 
+            "Source RPM": " platform-2.1.0.1-4.fc27.src.rpm", 
+            "Version": " 2.1.0.1", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 05 Aug 2017 03:48:20 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 4.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Platform support library used by libCEC and binary add-ons for Kodi", 
+            "Size": " 64296"
+        }
+    }
+}

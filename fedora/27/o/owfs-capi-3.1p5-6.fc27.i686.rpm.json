@@ -1,0 +1,59 @@
+{
+    "results": {
+        "usr/lib/libowcapi-3_1_so_5_0_0": {
+            "report-functions": [
+                "API_init_args", 
+                "API_set_error_level", 
+                "API_setup", 
+                "_ITM_registerTMCloneTable", 
+                "FS_write", 
+                "__errno_location", 
+                "API_finish", 
+                "API_access_start", 
+                "FS_read", 
+                "_ITM_deregisterTMCloneTable", 
+                "__stack_chk_fail", 
+                "FS_get", 
+                "FS_ParsedName", 
+                "FS_ParsedName_destroy", 
+                "API_init", 
+                "API_set_error_print", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "owfs-capi-3.1p5-6.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libowcapi-3.1.so.5.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " owfs-capi", 
+            "License": " GPLv2", 
+            "URL": " http://www.owfs.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-18.phx2.fedoraproject.org", 
+            "Description": "\nowfs-capi library on top of libow providing an easy API to develop third-party\napplications to access to 1-Wire networks.\n", 
+            "Build Date": " Fri 04 Aug 2017 03:13:28 AM EDT", 
+            "Source RPM": " owfs-3.1p5-6.fc27.src.rpm", 
+            "Version": " 3.1p5", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 11:23:04 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 6.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " C-API to develop third-part applications which access 1-Wire networks", 
+            "Size": " 13825"
+        }
+    }
+}

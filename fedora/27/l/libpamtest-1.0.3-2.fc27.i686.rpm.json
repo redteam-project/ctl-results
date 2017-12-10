@@ -1,0 +1,56 @@
+{
+    "results": {
+        "usr/lib/libpamtest_so_0_0_2": {
+            "report-functions": [
+                "pam_start", 
+                "pam_end", 
+                "pam_open_session", 
+                "pam_chauthtok", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "strlen", 
+                "__cxa_finalize", 
+                "pam_authenticate", 
+                "pam_getenvlist", 
+                "_ITM_registerTMCloneTable", 
+                "pam_close_session", 
+                "pam_setcred", 
+                "free"
+            ], 
+            "rpm": "libpamtest-1.0.3-2.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libpamtest.so.0.0.2"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " libpamtest", 
+            "License": " GPLv3+", 
+            "URL": " http://cwrap.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-20.phx2.fedoraproject.org", 
+            "Description": "\nIf you plan to test a PAM module you can use this library, which simplifies\ntesting of modules.\n", 
+            "Build Date": " Wed 02 Aug 2017 08:08:19 AM EDT", 
+            "Source RPM": " pam_wrapper-1.0.3-2.fc27.src.rpm", 
+            "Version": " 1.0.3", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Wed 02 Aug 2017 08:12:06 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 2.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A tool to test PAM applications and PAM modules", 
+            "Size": " 10388"
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " perl-POE-Component-Logger", 
+            "License": " GPL+ or Artistic", 
+            "URL": " http://search.cpan.org/dist/POE-Component-Logger", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-07.phx2.fedoraproject.org", 
+            "Description": "\nPOE::Component::Logger provides a simple logging component that uses\nLog::Dispatch::Config to drive it, allowing you to log to multiple places at\nonce (e.g. to STDERR and Syslog at the same time) and also to flexibly define\nyour logger's output.\n\nIt is very simple to use, because it creates a Logger::log method (yes, this\nis namespace corruption, so shoot me). If you don't like this, feel free to\npost directly to your logger as follows:\n\n  $kernel->post('logger', 'log', \"An error occurred: $!\");\n\nAll logging is done in the background, so don't expect immediate output -\nthe output will only occur after control goes back to the kernel so it can\nprocess the next event.\n", 
+            "Build Date": " Fri 28 Jul 2017 05:26:47 AM EDT", 
+            "Source RPM": " perl-POE-Component-Logger-1.10-17.fc27.src.rpm", 
+            "Version": " 1.10", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Fri 28 Jul 2017 02:45:14 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 17.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A POE logging class", 
+            "Size": " 8810"
+        }
+    }
+}

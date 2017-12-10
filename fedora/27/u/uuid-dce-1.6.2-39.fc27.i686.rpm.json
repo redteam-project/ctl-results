@@ -1,0 +1,69 @@
+{
+    "results": {
+        "usr/lib/libossp-uuid_dce_so_16_0_22": {
+            "report-functions": [
+                "strtoul", 
+                "freeifaddrs", 
+                "__memcpy_chk", 
+                "fcntl", 
+                "__ctype_b_loc", 
+                "nanosleep", 
+                "strftime", 
+                "ioctl", 
+                "_ITM_deregisterTMCloneTable", 
+                "gettimeofday", 
+                "rand", 
+                "getpid", 
+                "strcmp", 
+                "_ITM_registerTMCloneTable", 
+                "gmtime", 
+                "memcmp", 
+                "read", 
+                "getifaddrs", 
+                "close", 
+                "free", 
+                "realloc", 
+                "__cxa_finalize", 
+                "strlen", 
+                "open", 
+                "__stack_chk_fail", 
+                "malloc", 
+                "srand"
+            ], 
+            "rpm": "uuid-dce-1.6.2-39.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libossp-uuid_dce.so.16.0.22"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " uuid-dce", 
+            "License": " MIT", 
+            "URL": " http://www.ossp.org/pkg/lib/uuid/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-24.phx2.fedoraproject.org", 
+            "Description": "\nDCE OSSP uuid library.\n", 
+            "Build Date": " Fri 04 Aug 2017 10:08:12 PM EDT", 
+            "Source RPM": " uuid-1.6.2-39.fc27.src.rpm", 
+            "Version": " 1.6.2", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 05 Aug 2017 08:25:54 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 39.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " DCE support for Universally Unique Identifier library", 
+            "Size": " 52972"
+        }
+    }
+}

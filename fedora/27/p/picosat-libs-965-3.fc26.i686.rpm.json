@@ -1,0 +1,95 @@
+{
+    "results": {
+        "usr/lib/libpicosat-trace_so_0_0_965": {
+            "report-functions": [
+                "__ctype_b_loc", 
+                "fwrite", 
+                "_ITM_registerTMCloneTable", 
+                "fputc", 
+                "strcpy", 
+                "__vfprintf_chk", 
+                "strlen", 
+                "fflush", 
+                "_IO_putc", 
+                "abort", 
+                "fputs", 
+                "realloc", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize", 
+                "getrusage", 
+                "__fprintf_chk", 
+                "free", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "picosat-libs-965-3.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libpicosat-trace.so.0.0.965"
+        }, 
+        "usr/lib/libpicosat_so_0_0_965": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "getrusage", 
+                "malloc", 
+                "__gmon_start__", 
+                "free", 
+                "realloc", 
+                "__ctype_b_loc", 
+                "fputc", 
+                "fputs", 
+                "__sprintf_chk", 
+                "fflush", 
+                "__stack_chk_fail", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize", 
+                "__fprintf_chk", 
+                "fwrite", 
+                "abort", 
+                "strcpy"
+            ], 
+            "rpm": "picosat-libs-965-3.fc26.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libpicosat.so.0.0.965"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " picosat-libs", 
+            "License": " MIT", 
+            "URL": " http://fmv.jku.at/picosat/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-29.phx2.fedoraproject.org", 
+            "Description": "\nThe PicoSAT library, which contains routines that solve the SAT problem.\nThe library has a simple API which is similar to that of previous\nsolvers by the same authors.\n", 
+            "Build Date": " Wed 15 Feb 2017 12:54:36 PM EST", 
+            "Source RPM": " picosat-965-3.fc26.src.rpm", 
+            "Version": " 965", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Wed 22 Feb 2017 09:49:27 PM EST, Key ID f55e7430f5282ee4", 
+            "Release": " 3.fc26", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " A SAT solver library", 
+            "Size": " 163802"
+        }
+    }
+}

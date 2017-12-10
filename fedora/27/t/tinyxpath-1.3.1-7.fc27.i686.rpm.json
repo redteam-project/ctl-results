@@ -1,0 +1,92 @@
+{
+    "results": {
+        "usr/lib/libtinyxpath_so_0_1": {
+            "report-functions": [
+                "__gmon_start__", 
+                "_ZSt19__throw_logic_errorPKc", 
+                "memcmp", 
+                "_Znaj", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ZSt20__throw_length_errorPKc", 
+                "qsort", 
+                "_ZNK9TiXmlNode18NextSiblingElementEPKc", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_assignERKS4_", 
+                "_ZNK14TiXmlAttribute4NextEv", 
+                "__assert_fail", 
+                "_ZdlPv", 
+                "__cxa_allocate_exception", 
+                "_ZNSt8ios_base4InitC1Ev", 
+                "_ZNSt8ios_base4InitD1Ev", 
+                "_ZdaPv", 
+                "_ITM_registerTMCloneTable", 
+                "_ZdlPvj", 
+                "__cxa_pure_virtual", 
+                "_ZNK9TiXmlNode17FirstChildElementEPKc", 
+                "strstr", 
+                "strtod", 
+                "fwrite", 
+                "_Unwind_Resume", 
+                "__cxa_finalize", 
+                "__cxa_throw", 
+                "__cxa_begin_catch", 
+                "_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7compareEPKc", 
+                "__stack_chk_fail", 
+                "__gxx_personality_v0", 
+                "strncpy", 
+                "ceil", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_replaceEjjPKcj", 
+                "_ZNK9TiXmlNode18NextSiblingElementEv", 
+                "__printf_chk", 
+                "floor", 
+                "_ZNK9TiXmlNode17FirstChildElementEv", 
+                "puts", 
+                "__cxa_end_catch", 
+                "__fprintf_chk", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERjj", 
+                "strchr", 
+                "__cxa_atexit", 
+                "fputs", 
+                "strncmp", 
+                "_Znwj", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_appendEPKcj", 
+                "__sprintf_chk", 
+                "strcmp", 
+                "strtol"
+            ], 
+            "rpm": "tinyxpath-1.3.1-7.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libtinyxpath.so.0.1"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " tinyxpath", 
+            "License": " zlib", 
+            "URL": " http://tinyxpath.sourceforge.net/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-11.phx2.fedoraproject.org", 
+            "Description": "\nTinyXPath is a small footprint XPath syntax decoder, written in C++.\n- Syntax decoding\n- Application to a TinyXML tree\n- Function to extract a result from a tree (string, node set or integer)\n", 
+            "Build Date": " Fri 04 Aug 2017 08:37:36 PM EDT", 
+            "Source RPM": " tinyxpath-1.3.1-7.fc27.src.rpm", 
+            "Version": " 1.3.1", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 05 Aug 2017 07:03:15 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 7.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Small XPath syntax decoder", 
+            "Size": " 122215"
+        }
+    }
+}

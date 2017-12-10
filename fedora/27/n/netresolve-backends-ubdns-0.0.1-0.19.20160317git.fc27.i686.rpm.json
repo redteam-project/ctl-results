@@ -1,0 +1,93 @@
+{
+    "results": {
+        "usr/lib/libnetresolve-backend-ubdns_so_0_0_0": {
+            "report-functions": [
+                "ub_resolve_async", 
+                "ub_ctx_delete", 
+                "ldns_rr_ttl", 
+                "_ITM_deregisterTMCloneTable", 
+                "ldns_rdf2native_int16", 
+                "_ITM_registerTMCloneTable", 
+                "__snprintf_chk", 
+                "abort", 
+                "ldns_pkt_ad", 
+                "ub_ctx_set_fwd", 
+                "ldns_pkt_get_rcode", 
+                "free", 
+                "__stack_chk_fail", 
+                "ub_ctx_resolvconf", 
+                "ldns_rr_get_type", 
+                "netresolve_backend_set_secure", 
+                "netresolve_log", 
+                "netresolve_watch_add", 
+                "netresolve_backend_get_family", 
+                "netresolve_backend_get_dns_query", 
+                "strdup", 
+                "ldns_pkt_answer", 
+                "ub_strerror", 
+                "ldns_rdf2str", 
+                "netresolve_backend_finished", 
+                "ub_process", 
+                "ub_fd", 
+                "calloc", 
+                "ldns_pkt_question", 
+                "netresolve_backend_set_dns_answer", 
+                "netresolve_backend_failed", 
+                "netresolve_backend_get_protocol", 
+                "__asprintf_chk", 
+                "netresolve_backend_get_address", 
+                "ub_ctx_create", 
+                "ub_resolve_free", 
+                "ub_ctx_add_ta_file", 
+                "netresolve_backend_new_priv", 
+                "netresolve_watch_remove", 
+                "__cxa_finalize", 
+                "ldns_rr_descript", 
+                "ldns_pkt_free", 
+                "netresolve_backend_add_name_info", 
+                "ldns_rdf_data", 
+                "netresolve_backend_get_servname", 
+                "netresolve_backend_get_nodename", 
+                "netresolve_backend_get_dns_srv_lookup", 
+                "ldns_wire2pkt", 
+                "netresolve_backend_get_priv", 
+                "__assert_fail", 
+                "netresolve_backend_add_path"
+            ], 
+            "rpm": "netresolve-backends-ubdns-0.0.1-0.19.20160317git.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libnetresolve-backend-ubdns.so.0.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " netresolve-backends-ubdns", 
+            "License": " BSD", 
+            "URL": " https://sourceware.org/netresolve/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-14.phx2.fedoraproject.org", 
+            "Description": "\nThis package provides DNS capabilities including DNSSEC validation to\nnetresolve using libunbound.\n", 
+            "Build Date": " Fri 04 Aug 2017 12:00:08 AM EDT", 
+            "Source RPM": " netresolve-0.0.1-0.19.20160317git.fc27.src.rpm", 
+            "Version": " 0.0.1", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 08:11:53 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 0.19.20160317git.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " DNS backend for netresolve based on libunbound", 
+            "Size": " 14608"
+        }
+    }
+}

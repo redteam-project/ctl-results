@@ -1,0 +1,274 @@
+{
+    "results": {
+        "usr/sbin/getcap": {
+            "report-functions": [
+                "__libc_start_main", 
+                "__fprintf_chk", 
+                "__cxa_finalize", 
+                "exit", 
+                "cap_get_file", 
+                "__stack_chk_fail", 
+                "fwrite", 
+                "__errno_location", 
+                "getopt", 
+                "strerror", 
+                "cap_free", 
+                "_ITM_registerTMCloneTable", 
+                "puts", 
+                "__gmon_start__", 
+                "cap_to_text", 
+                "__lxstat64", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "libcap-2.25-7.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/sbin/getcap"
+        }, 
+        "usr/sbin/setcap": {
+            "report-functions": [
+                "cap_set_flag", 
+                "cap_from_text", 
+                "cap_free", 
+                "__libc_start_main", 
+                "cap_set_proc", 
+                "perror", 
+                "strerror", 
+                "cap_compare", 
+                "_ITM_deregisterTMCloneTable", 
+                "exit", 
+                "cap_set_file", 
+                "__printf_chk", 
+                "_ITM_registerTMCloneTable", 
+                "__cxa_finalize", 
+                "read", 
+                "fwrite", 
+                "cap_get_flag", 
+                "__errno_location", 
+                "cap_get_file", 
+                "cap_get_proc"
+            ], 
+            "rpm": "libcap-2.25-7.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/sbin/setcap"
+        }, 
+        "usr/lib/libcap_so_2_25": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "capset", 
+                "strtoul", 
+                "prctl", 
+                "__errno_location", 
+                "__stack_chk_fail", 
+                "malloc", 
+                "__lxstat64", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "fsetxattr", 
+                "__ctype_tolower_loc", 
+                "setxattr", 
+                "fgetxattr", 
+                "__fxstat64", 
+                "strlen", 
+                "getxattr", 
+                "_ITM_deregisterTMCloneTable", 
+                "__asprintf_chk", 
+                "removexattr", 
+                "fremovexattr", 
+                "free", 
+                "__sprintf_chk"
+            ], 
+            "rpm": "libcap-2.25-7.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libcap.so.2.25"
+        }, 
+        "usr/sbin/capsh": {
+            "report-functions": [
+                "chdir", 
+                "exit", 
+                "getgrgid", 
+                "__ctype_b_loc", 
+                "perror", 
+                "calloc", 
+                "cap_from_name", 
+                "setgid", 
+                "_ITM_deregisterTMCloneTable", 
+                "getuid", 
+                "__cxa_finalize", 
+                "cap_free", 
+                "cap_from_text", 
+                "putchar", 
+                "cap_set_flag", 
+                "waitpid", 
+                "sysconf", 
+                "execve", 
+                "free", 
+                "sleep", 
+                "strtoull", 
+                "memcmp", 
+                "__sprintf_chk", 
+                "__printf_chk", 
+                "getgroups", 
+                "getpwnam", 
+                "getpwuid", 
+                "cap_set_proc", 
+                "cap_get_bound", 
+                "malloc", 
+                "setgroups", 
+                "strtok", 
+                "strdup", 
+                "cap_get_proc", 
+                "__libc_start_main", 
+                "_ITM_registerTMCloneTable", 
+                "kill", 
+                "fwrite", 
+                "cap_clear_flag", 
+                "strerror", 
+                "cap_to_text", 
+                "setuid", 
+                "fork", 
+                "cap_drop_bound", 
+                "strtoul", 
+                "prctl", 
+                "getgrouplist", 
+                "puts", 
+                "__gmon_start__", 
+                "chroot", 
+                "getgrnam_r", 
+                "cap_to_name", 
+                "strcmp", 
+                "strlen", 
+                "getgid", 
+                "__errno_location"
+            ], 
+            "rpm": "libcap-2.25-7.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/sbin/capsh"
+        }, 
+        "usr/lib/security/pam_cap_so": {
+            "report-functions": [
+                "cap_to_text", 
+                "_ITM_deregisterTMCloneTable", 
+                "strlen", 
+                "__gmon_start__", 
+                "malloc", 
+                "__stack_chk_fail", 
+                "free", 
+                "strdup", 
+                "_ITM_registerTMCloneTable", 
+                "fclose", 
+                "pam_get_user", 
+                "cap_free", 
+                "fopen64", 
+                "closelog", 
+                "cap_set_proc", 
+                "__cxa_finalize", 
+                "pam_get_item", 
+                "cap_get_proc", 
+                "strcmp", 
+                "__sprintf_chk", 
+                "openlog", 
+                "cap_from_text", 
+                "__vsyslog_chk"
+            ], 
+            "rpm": "libcap-2.25-7.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/security/pam_cap.so"
+        }, 
+        "usr/sbin/getpcaps": {
+            "report-functions": [
+                "cap_to_text", 
+                "__errno_location", 
+                "__cxa_finalize", 
+                "_ITM_deregisterTMCloneTable", 
+                "strerror", 
+                "cap_get_pid", 
+                "strtol", 
+                "fwrite", 
+                "cap_free", 
+                "__fprintf_chk", 
+                "__gmon_start__", 
+                "__stack_chk_fail", 
+                "exit"
+            ], 
+            "rpm": "libcap-2.25-7.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/sbin/getpcaps"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " libcap", 
+            "License": " GPLv2", 
+            "URL": " https://sites.google.com/site/fullycapable/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-13.phx2.fedoraproject.org", 
+            "Description": "\nlibcap is a library for getting and setting POSIX.1e (formerly POSIX 6)\ndraft 15 capabilities.\n", 
+            "Build Date": " Thu 03 Aug 2017 01:35:33 PM EDT", 
+            "Source RPM": " libcap-2.25-7.fc27.src.rpm", 
+            "Version": " 2.25", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 06:11:50 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 7.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Library for getting and setting POSIX.1e capabilities", 
+            "Size": " 101781"
+        }
+    }
+}

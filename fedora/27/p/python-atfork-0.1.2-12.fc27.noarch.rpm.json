@@ -1,0 +1,25 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Languages", 
+            "Name": " python-atfork", 
+            "License": " ASL 2.0", 
+            "URL": " https://code.google.com/p/python-atfork", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-ppc64le-08.ppc.fedoraproject.org", 
+            "Description": "\nAtfork provides a pthread_atfork() work-a-like API for Python 2.4, 2.5 and 2.6\nalong with fixers to monkey patch standard library modules at run time to be\nsafe in programs using both threading and forking.\n\nWhile mixing threads and forking in a program is generally considered to be a\nbad idea it need not be so painful.\n\nA missing API in the Python is an atfork mechanism so that locks can be\nacquired and released properly around fork calls.  This module adds that.  It\nalso provides monkey patchers that fix the standard library to properly\nregister callbacks for locks they create.\n", 
+            "Build Date": " Fri 28 Jul 2017 11:58:17 AM EDT", 
+            "Source RPM": " python-atfork-0.1.2-12.fc27.src.rpm", 
+            "Version": " 0.1.2", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Fri 28 Jul 2017 11:54:03 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 12.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Provides an API to register callbacks when forking", 
+            "Size": " 51664"
+        }
+    }
+}

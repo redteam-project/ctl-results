@@ -1,0 +1,88 @@
+{
+    "results": {
+        "usr/lib/libchromaprint_so_0_2_3": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "__gxx_personality_v0", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_appendEPKcj", 
+                "fftw_malloc", 
+                "__cxa_finalize", 
+                "log", 
+                "_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_i", 
+                "__gmon_start__", 
+                "sin", 
+                "_ZNSo3putEc", 
+                "_ZNSt8ios_base4InitD1Ev", 
+                "sqrt", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6resizeEjc", 
+                "_Znaj", 
+                "free", 
+                "fftw_destroy_plan", 
+                "_Unwind_Resume", 
+                "cos", 
+                "memmove", 
+                "fftw_plan_r2r_1d", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_mutateEjjPKcj", 
+                "_ITM_deregisterTMCloneTable", 
+                "fftw_free", 
+                "fftw_execute", 
+                "_ZNSo5flushEv", 
+                "__cxa_atexit", 
+                "_ZdlPv", 
+                "_ZNSt8ios_base4InitC1Ev", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERjj", 
+                "round", 
+                "_ZSt16__throw_bad_castv", 
+                "_ZNSolsEs", 
+                "_Znwj", 
+                "__assert_fail", 
+                "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructEjc", 
+                "__cxa_throw_bad_array_new_length", 
+                "_ZSt19__throw_logic_errorPKc", 
+                "_ZdlPvj", 
+                "calloc", 
+                "__divdi3", 
+                "_ZdaPv", 
+                "_ZNSolsEi", 
+                "_ITM_registerTMCloneTable", 
+                "ceil", 
+                "malloc", 
+                "_ZSt20__throw_length_errorPKc"
+            ], 
+            "rpm": "libchromaprint-1.2-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libchromaprint.so.0.2.3"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " System Environment/Libraries", 
+            "Name": " libchromaprint", 
+            "License": " LGPLv2+", 
+            "URL": " http://www.acoustid.org/chromaprint/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-04.phx2.fedoraproject.org", 
+            "Description": "\nChromaprint library is the core component of the AcoustID project. It's a\nclient-side library that implements a custom algorithm for extracting\nfingerprints from raw audio sources.\n\nThe library exposes a simple C API. The documentation for the C API can be\nfound in the main header file.\n", 
+            "Build Date": " Wed 02 Aug 2017 02:53:48 PM EDT", 
+            "Source RPM": " chromaprint-1.2-8.fc27.src.rpm", 
+            "Version": " 1.2", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 05 Aug 2017 01:14:34 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 8.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Library implementing the AcoustID fingerprinting", 
+            "Size": " 102924"
+        }
+    }
+}

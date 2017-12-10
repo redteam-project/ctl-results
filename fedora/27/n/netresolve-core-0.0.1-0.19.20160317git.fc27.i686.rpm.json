@@ -1,0 +1,358 @@
+{
+    "results": {
+        "usr/lib/libnetresolve-backend-unix_so_0_0_0": {
+            "report-functions": [
+                "__gmon_start__", 
+                "netresolve_backend_get_nodename", 
+                "netresolve_backend_set_secure", 
+                "__cxa_finalize", 
+                "netresolve_backend_finished", 
+                "netresolve_backend_failed", 
+                "_ITM_registerTMCloneTable", 
+                "_ITM_deregisterTMCloneTable", 
+                "netresolve_backend_get_family"
+            ], 
+            "rpm": "netresolve-core-0.0.1-0.19.20160317git.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libnetresolve-backend-unix.so.0.0.0"
+        }, 
+        "usr/lib/libnss_netresolve_so_2_0_0": {
+            "report-functions": [
+                "netresolve_query_getaddrinfo", 
+                "__h_errno_location", 
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable", 
+                "netresolve_query_getaddrinfo_done", 
+                "strlen", 
+                "netresolve_query_gethostbyaddr", 
+                "netresolve_freehostent", 
+                "__assert_fail", 
+                "__gmon_start__", 
+                "netresolve_context_new", 
+                "__stack_chk_fail", 
+                "netresolve_query_gethostbyaddr_done"
+            ], 
+            "rpm": "netresolve-core-0.0.1-0.19.20160317git.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libnss_netresolve.so.2.0.0"
+        }, 
+        "usr/lib/libnetresolve-backend-hosts_so_0_0_0": {
+            "report-functions": [
+                "netresolve_backend_parse_address", 
+                "netresolve_backend_failed", 
+                "strerror", 
+                "netresolve_backend_add_path", 
+                "_ITM_registerTMCloneTable", 
+                "strlen", 
+                "read", 
+                "close", 
+                "realloc", 
+                "open64", 
+                "__cxa_finalize", 
+                "netresolve_backend_get_nodename", 
+                "netresolve_log", 
+                "free", 
+                "strtok", 
+                "malloc", 
+                "netresolve_backend_set_secure", 
+                "__memmove_chk", 
+                "netresolve_backend_finished", 
+                "strcmp", 
+                "stpcpy", 
+                "getenv", 
+                "__gmon_start__", 
+                "__errno_location", 
+                "netresolve_backend_add_name_info", 
+                "netresolve_backend_get_family", 
+                "strdup", 
+                "netresolve_backend_get_address", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "netresolve-core-0.0.1-0.19.20160317git.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libnetresolve-backend-hosts.so.0.0.0"
+        }, 
+        "usr/lib/libnetresolve-backend-any_so_0_0_0": {
+            "report-functions": [
+                "netresolve_backend_get_family", 
+                "__gmon_start__", 
+                "netresolve_backend_add_path", 
+                "netresolve_backend_add_name_info", 
+                "netresolve_backend_get_address", 
+                "netresolve_backend_set_secure", 
+                "netresolve_backend_get_nodename", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable", 
+                "__cxa_finalize", 
+                "netresolve_backend_failed", 
+                "netresolve_backend_finished"
+            ], 
+            "rpm": "netresolve-core-0.0.1-0.19.20160317git.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libnetresolve-backend-any.so.0.0.0"
+        }, 
+        "usr/lib/libnetresolve-backend-hostname_so_0_0_0": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "strcmp", 
+                "netresolve_backend_finished", 
+                "_ITM_deregisterTMCloneTable", 
+                "netresolve_backend_set_canonical_name", 
+                "netresolve_backend_get_nodename", 
+                "uname", 
+                "netresolve_log", 
+                "netresolve_backend_add_path", 
+                "__cxa_finalize", 
+                "__gmon_start__", 
+                "netresolve_backend_failed"
+            ], 
+            "rpm": "netresolve-core-0.0.1-0.19.20160317git.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libnetresolve-backend-hostname.so.0.0.0"
+        }, 
+        "usr/lib/libnetresolve-backend-exec_so_0_0_0": {
+            "report-functions": [
+                "pipe", 
+                "__errno_location", 
+                "__assert_fail", 
+                "netresolve_backend_new_priv", 
+                "strdup", 
+                "strerror", 
+                "netresolve_log", 
+                "dup2", 
+                "free", 
+                "execvp", 
+                "__fprintf_chk", 
+                "abort", 
+                "strncmp", 
+                "netresolve_backend_finished", 
+                "netresolve_backend_failed", 
+                "kill", 
+                "read", 
+                "malloc", 
+                "write", 
+                "netresolve_get_request_string", 
+                "close", 
+                "netresolve_backend_parse_path", 
+                "memmove", 
+                "netresolve_watch_remove", 
+                "memchr", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable", 
+                "netresolve_watch_add", 
+                "netresolve_backend_parse_address", 
+                "__cxa_finalize", 
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "netresolve_backend_add_path"
+            ], 
+            "rpm": "netresolve-core-0.0.1-0.19.20160317git.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libnetresolve-backend-exec.so.0.0.0"
+        }, 
+        "usr/lib/libnetresolve-backend-numerichost_so_0_0_0": {
+            "report-functions": [
+                "netresolve_backend_set_canonical_name", 
+                "__stack_chk_fail", 
+                "netresolve_backend_get_nodename", 
+                "__cxa_finalize", 
+                "netresolve_backend_parse_address", 
+                "__gmon_start__", 
+                "netresolve_backend_set_secure", 
+                "netresolve_backend_add_path", 
+                "_ITM_deregisterTMCloneTable", 
+                "netresolve_backend_failed"
+            ], 
+            "rpm": "netresolve-core-0.0.1-0.19.20160317git.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libnetresolve-backend-numerichost.so.0.0.0"
+        }, 
+        "usr/lib/libnetresolve_so_0_0_0": {
+            "report-functions": [
+                "bind", 
+                "dlsym", 
+                "__stack_chk_fail", 
+                "epoll_wait", 
+                "fcntl", 
+                "ldns_pkt_free", 
+                "strerror", 
+                "strtoll", 
+                "malloc", 
+                "memmove", 
+                "ldns_pkt2str", 
+                "free", 
+                "dlopen", 
+                "inet_ntop", 
+                "__fdelt_chk", 
+                "strchr", 
+                "dlclose", 
+                "__assert_fail", 
+                "strcmp", 
+                "dlerror", 
+                "listen", 
+                "realloc", 
+                "eventfd", 
+                "if_indextoname", 
+                "secure_getenv", 
+                "calloc", 
+                "strtol", 
+                "epoll_create1", 
+                "inet_pton", 
+                "strndup", 
+                "setsockopt", 
+                "ldns_wire2pkt", 
+                "__cxa_finalize", 
+                "open64", 
+                "ldns_get_errorstr_by_id", 
+                "__memmove_chk", 
+                "__errno_location", 
+                "read", 
+                "__vsnprintf_chk", 
+                "if_nametoindex", 
+                "strncpy", 
+                "__vfprintf_chk", 
+                "abort", 
+                "__gmon_start__", 
+                "timerfd_settime", 
+                "select", 
+                "_ITM_deregisterTMCloneTable", 
+                "accept", 
+                "timerfd_create", 
+                "connect", 
+                "freeaddrinfo", 
+                "getsockopt", 
+                "strdup", 
+                "strlen", 
+                "strcasecmp", 
+                "_ITM_registerTMCloneTable", 
+                "socket", 
+                "epoll_ctl", 
+                "__snprintf_chk"
+            ], 
+            "rpm": "netresolve-core-0.0.1-0.19.20160317git.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libnetresolve.so.0.0.0"
+        }, 
+        "usr/lib/libnetresolve-backend-loopback_so_0_0_0": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "netresolve_backend_get_family", 
+                "netresolve_backend_set_secure", 
+                "_ITM_registerTMCloneTable", 
+                "netresolve_backend_finished", 
+                "netresolve_backend_get_address", 
+                "netresolve_backend_add_name_info", 
+                "netresolve_backend_get_nodename", 
+                "netresolve_backend_set_canonical_name", 
+                "__gmon_start__", 
+                "netresolve_backend_failed"
+            ], 
+            "rpm": "netresolve-core-0.0.1-0.19.20160317git.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libnetresolve-backend-loopback.so.0.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Libraries", 
+            "Name": " netresolve-core", 
+            "License": " BSD", 
+            "URL": " https://sourceware.org/netresolve/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-14.phx2.fedoraproject.org", 
+            "Description": "\nThis package provides core netresolve library with basic name resolution\ncapabilities for tools and application.\n", 
+            "Build Date": " Fri 04 Aug 2017 12:00:08 AM EDT", 
+            "Source RPM": " netresolve-0.0.1-0.19.20160317git.fc27.src.rpm", 
+            "Version": " 0.0.1", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 08:11:58 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 0.19.20160317git.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Core netresolve libraries", 
+            "Size": " 154379"
+        }
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "results": {
+        "usr/lib/python3_6/site-packages/gi/_gi_cairo_cpython-36m-i386-linux-gnu_so": {
+            "report-functions": [
+                "PyImport_ImportModule", 
+                "cairo_region_reference", 
+                "PyExc_ValueError", 
+                "PyCapsule_Import", 
+                "cairo_gobject_font_face_get_type", 
+                "cairo_gobject_scaled_font_get_type", 
+                "PyExc_TypeError", 
+                "cairo_surface_reference", 
+                "_Py_NoneStruct", 
+                "PyObject_GetAttrString", 
+                "PyExc_ImportError", 
+                "cairo_gobject_surface_get_type", 
+                "__stack_chk_fail", 
+                "cairo_gobject_context_get_type", 
+                "_PyArg_ParseTuple_SizeT", 
+                "cairo_font_options_copy", 
+                "cairo_path_destroy", 
+                "cairo_font_options_destroy", 
+                "__cxa_finalize", 
+                "PyErr_SetObject", 
+                "cairo_gobject_pattern_get_type", 
+                "g_assertion_message_expr", 
+                "g_value_dup_boxed", 
+                "cairo_region_destroy", 
+                "PyCapsule_Type", 
+                "PyErr_Occurred", 
+                "PyErr_Fetch", 
+                "PyErr_Format", 
+                "PyUnicode_FromFormat", 
+                "cairo_surface_destroy", 
+                "cairo_destroy", 
+                "__gmon_start__", 
+                "PyModule_Create2", 
+                "PyErr_SetString", 
+                "g_value_set_boxed", 
+                "_ITM_deregisterTMCloneTable", 
+                "cairo_reference", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "python3-gobject-3.26.0-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/python3.6/site-packages/gi/_gi_cairo.cpython-36m-i386-linux-gnu.so"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " python3-gobject", 
+            "License": " LGPLv2+ and MIT", 
+            "URL": " https://wiki.gnome.org/Projects/PyGObject", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-11.phx2.fedoraproject.org", 
+            "Description": "\nThe python3-gobject package provides a convenient wrapper for the GObject\nlibrary and and other libraries that are compatible with GObject Introspection,\nfor use in Python 3 programs.\n", 
+            "Build Date": " Thu 14 Sep 2017 07:23:43 PM EDT", 
+            "Source RPM": " pygobject3-3.26.0-1.fc27.src.rpm", 
+            "Version": " 3.26.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 15 Sep 2017 07:28:33 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 1.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Python 3 bindings for GObject Introspection", 
+            "Size": " 14820"
+        }
+    }
+}

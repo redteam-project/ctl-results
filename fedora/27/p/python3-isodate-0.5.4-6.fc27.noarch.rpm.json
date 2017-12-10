@@ -1,0 +1,25 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Group": " Development/Languages", 
+            "Name": " python3-isodate", 
+            "License": " BSD", 
+            "URL": " http://pypi.python.org/pypi/isodate", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-aarch64-03.arm.fedoraproject.org", 
+            "Description": "\nThis module implements ISO 8601 date, time and duration parsing. The\nimplementation follows ISO8601:2004 standard, and implements only date/time\nrepresentations mentioned in the standard. If something is not mentioned there,\nthen it is treated as non existent, and not as an allowed option.\n\nFor instance, ISO8601:2004 never mentions 2 digit years. So, it is not intended\nby this module to support 2 digit years. (while it may still be valid as ISO\ndate, because it is not explicitly forbidden.) Another example is, when no time\nzone information is given for a time, then it should be interpreted as local\ntime, and not UTC.\n\nAs this module maps ISO 8601 dates/times to standard Python data types, like\ndate, time, datetime and timedelta, it is not possible to convert all possible\nISO 8601 dates/times. For instance, dates before 0001-01-01 are not allowed by\nthe Python date and datetime classes. Additionally fractional seconds are\nlimited to microseconds. That means if the parser finds for instance\nnanoseconds it will round it to microseconds.\n", 
+            "Build Date": " Fri 28 Jul 2017 01:08:48 PM EDT", 
+            "Source RPM": " python-isodate-0.5.4-6.fc27.src.rpm", 
+            "Version": " 0.5.4", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Sat 29 Jul 2017 01:37:42 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 6.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " An ISO 8601 date/time/duration parser and formatter", 
+            "Size": " 280871"
+        }
+    }
+}

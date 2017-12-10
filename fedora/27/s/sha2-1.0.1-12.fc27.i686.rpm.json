@@ -1,0 +1,114 @@
+{
+    "results": {
+        "usr/bin/sha2speed": {
+            "report-functions": [
+                "SHA512_Update", 
+                "SHA256_End", 
+                "__libc_start_main", 
+                "SHA256_Init", 
+                "SHA512_End", 
+                "memset", 
+                "exit", 
+                "SHA512_Init", 
+                "__printf_chk", 
+                "__fprintf_chk", 
+                "strtol", 
+                "SHA256_Update", 
+                "gettimeofday", 
+                "SHA384_Update", 
+                "SHA384_End", 
+                "SHA384_Init"
+            ], 
+            "rpm": "sha2-1.0.1-12.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/sha2speed"
+        }, 
+        "usr/lib/libsha2_so_1_0_1": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "__gmon_start__", 
+                "__assert_fail", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "sha2-1.0.1-12.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libsha2.so.1.0.1"
+        }, 
+        "usr/bin/sha2": {
+            "report-functions": [
+                "strcmp", 
+                "fclose", 
+                "__stack_chk_fail", 
+                "SHA512_End", 
+                "SHA512_Update", 
+                "__libc_start_main", 
+                "puts", 
+                "fopen", 
+                "read", 
+                "SHA256_Update", 
+                "SHA256_End", 
+                "exit", 
+                "SHA384_End", 
+                "SHA384_Update", 
+                "__fprintf_chk", 
+                "perror", 
+                "fileno", 
+                "SHA512_Init", 
+                "__gmon_start__", 
+                "__printf_chk"
+            ], 
+            "rpm": "sha2-1.0.1-12.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/sha2"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " sha2", 
+            "License": " BSD", 
+            "URL": " http://www.aarongifford.com/computers/sha.html", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-23.phx2.fedoraproject.org", 
+            "Description": "\nThe library implements the SHA-256, SHA-384, and SHA-512 hash algorithms. The\ninterface is similar to the interface to SHA-1 found in the OpenSSL library.\n\nsha2 is a simple program that accepts input from either STDIN or reads one or\nmore files specified on the command line, and then generates the specified hash\n(either SHA-256, SHA-384, SHA-512, or any combination thereof, including all\nthree at once).\n", 
+            "Build Date": " Fri 04 Aug 2017 03:58:17 PM EDT", 
+            "Source RPM": " sha2-1.0.1-12.fc27.src.rpm", 
+            "Version": " 1.0.1", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 05 Aug 2017 03:09:21 PM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 12.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " SHA Implementation Library", 
+            "Size": " 52545"
+        }
+    }
+}

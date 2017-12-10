@@ -1,0 +1,181 @@
+{
+    "results": {
+        "usr/bin/JxrDecApp": {
+            "report-functions": [
+                "__printf_chk", 
+                "PKCreateFactory", 
+                "__cxa_finalize", 
+                "__libc_start_main", 
+                "PixelFormatLookup", 
+                "PKImageEncode_Transcode", 
+                "_ITM_registerTMCloneTable", 
+                "strrchr", 
+                "strtol", 
+                "memcmp", 
+                "_ITM_deregisterTMCloneTable", 
+                "PKTestFactory_CreateCodec", 
+                "GetTestEncodeIID", 
+                "puts", 
+                "__stack_chk_fail", 
+                "PKCreateCodecFactory"
+            ], 
+            "rpm": "jxrlib-1.1-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/JxrDecApp"
+        }, 
+        "usr/lib/libjxrglue_so_0_0_0": {
+            "report-functions": [
+                "__printf_chk", 
+                "__assert_fail", 
+                "ImageStrEncInit", 
+                "__sprintf_chk", 
+                "strncpy", 
+                "ImageStrDecTerm", 
+                "__stack_chk_fail", 
+                "CreateWS_Memory", 
+                "strrchr", 
+                "WMPFree", 
+                "ldexp", 
+                "strchr", 
+                "__ctype_tolower_loc", 
+                "ImageStrEncTerm", 
+                "__gmon_start__", 
+                "__isoc99_sscanf", 
+                "ImageStrDecInit", 
+                "__fprintf_chk", 
+                "ImageStrDecDecode", 
+                "free", 
+                "ImageStrDecGetInfo", 
+                "malloc", 
+                "puts", 
+                "wcslen", 
+                "strlen", 
+                "WMPAlloc", 
+                "strstr", 
+                "ImageStrEncEncode", 
+                "WMPhotoTranscode", 
+                "_ITM_registerTMCloneTable", 
+                "CreateWS_File", 
+                "frexp", 
+                "pow", 
+                "fgets", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "jxrlib-1.1-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libjxrglue.so.0.0.0"
+        }, 
+        "usr/lib/libjpegxr_so_0_0_0": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "puts", 
+                "__assert_fail", 
+                "_ITM_deregisterTMCloneTable", 
+                "strcpy", 
+                "feof", 
+                "malloc", 
+                "__gmon_start__", 
+                "fseek", 
+                "memset", 
+                "fread", 
+                "ftell", 
+                "free", 
+                "remove", 
+                "_ITM_registerTMCloneTable", 
+                "tmpnam", 
+                "fclose", 
+                "strstr", 
+                "__cxa_finalize", 
+                "__printf_chk", 
+                "rand", 
+                "fwrite", 
+                "fopen"
+            ], 
+            "rpm": "jxrlib-1.1-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libjpegxr.so.0.0.0"
+        }, 
+        "usr/bin/JxrEncApp": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "memset", 
+                "strtol", 
+                "__printf_chk", 
+                "puts", 
+                "PKCreateCodecFactory", 
+                "_ITM_deregisterTMCloneTable", 
+                "PixelFormatLookup", 
+                "memcmp", 
+                "PKCreateFactory", 
+                "strtod", 
+                "__cxa_finalize", 
+                "strrchr", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "PKCreateTestFactory", 
+                "__libc_start_main"
+            ], 
+            "rpm": "jxrlib-1.1-8.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/JxrEncApp"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " jxrlib", 
+            "License": " BSD", 
+            "URL": " https://jxrlib.codeplex.com/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-04.phx2.fedoraproject.org", 
+            "Description": "\nThis is an open source implementation of the jpegxr image format standard.\n", 
+            "Build Date": " Thu 03 Aug 2017 06:43:09 AM EDT", 
+            "Source RPM": " jxrlib-1.1-8.fc27.src.rpm", 
+            "Version": " 1.1", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 04 Aug 2017 12:56:00 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 8.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Open source implementation of jpegxr", 
+            "Size": " 718906"
+        }
+    }
+}

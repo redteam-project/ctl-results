@@ -1,0 +1,60 @@
+{
+    "results": {
+        "usr/lib/libpcre16_so_0_2_9": {
+            "report-functions": [
+                "memcmp", 
+                "free", 
+                "pthread_mutex_unlock", 
+                "sysconf", 
+                "munmap", 
+                "madvise", 
+                "__ctype_tolower_loc", 
+                "__ctype_b_loc", 
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "malloc", 
+                "pthread_mutex_lock", 
+                "_ITM_registerTMCloneTable", 
+                "mmap", 
+                "__memcpy_chk", 
+                "memmove", 
+                "strchr", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "pcre-utf16-8.41-1.fc27.2.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libpcre16.so.0.2.9"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " pcre-utf16", 
+            "License": " BSD", 
+            "URL": " http://www.pcre.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-30.phx2.fedoraproject.org", 
+            "Description": "\nThis is Perl-compatible regular expression library working on UTF-16 strings.\nDetailed change log is provided by pcre-doc package.\n", 
+            "Build Date": " Fri 04 Aug 2017 04:00:38 AM EDT", 
+            "Source RPM": " pcre-8.41-1.fc27.2.src.rpm", 
+            "Version": " 8.41", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 05 Aug 2017 12:12:54 AM EDT, Key ID f55e7430f5282ee4", 
+            "Release": " 1.fc27.2", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " UTF-16 variant of PCRE", 
+            "Size": " 459219"
+        }
+    }
+}
