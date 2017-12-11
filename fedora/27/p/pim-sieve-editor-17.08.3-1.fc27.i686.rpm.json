@@ -1,0 +1,88 @@
+{
+    "results": {
+        "usr/bin/sieveeditor": {
+            "report-functions": [
+                "__libc_start_main", 
+                "_ZN10KAboutData16setupCommandLineEP18QCommandLineParser", 
+                "_ZN9QListData11detach_growEPii", 
+                "__cxa_finalize", 
+                "_ZN10KAboutData9addAuthorERK7QStringS2_S2_S2_S2_", 
+                "_Znwj", 
+                "__gmon_start__", 
+                "_ZN12QApplicationD1Ev", 
+                "_ZN22Kdelibs4ConfigMigrator10setUiFilesERK11QStringList", 
+                "_ZN21SieveEditorMainWindowC1EP7QWidget", 
+                "_ZN16KLocalizedString20setApplicationDomainEPKc", 
+                "_ITM_registerTMCloneTable", 
+                "_ZN18QCommandLineParserD1Ev", 
+                "_ZN12QApplication13setWindowIconERK5QIcon", 
+                "_ZN5QIconD1Ev", 
+                "_ZN10KAboutData18setApplicationDataERKS_", 
+                "_ZN16KLocalizedStringD1Ev", 
+                "_ZN18QCommandLineParser13addHelpOptionEv", 
+                "_ZN18QCommandLineParser7processERK16QCoreApplication", 
+                "_ZN5QIcon9fromThemeERK7QString", 
+                "_ZN15QGuiApplication18setDesktopFileNameERK7QString", 
+                "_ZN22Kdelibs4ConfigMigrator7migrateEv", 
+                "_ZN12QApplication4execEv", 
+                "__stack_chk_fail", 
+                "_ZN18QCommandLineOptionD1Ev", 
+                "_ZN10KAboutDataD1Ev", 
+                "_ZN12KDBusServiceD1Ev", 
+                "_ZN12KDBusServiceC1E6QFlagsINS_13StartupOptionEEP7QObject", 
+                "_ZN12QApplicationC1ERiPPci", 
+                "_ZN9QListData7disposeEPNS_4DataE", 
+                "_ZN10KAboutDataC1ERK7QStringS2_S2_S2_N13KAboutLicense10LicenseKeyES2_S2_S2_S2_", 
+                "_ZN22Kdelibs4ConfigMigratorC1ERK7QString", 
+                "_ZN16QCoreApplication12setAttributeEN2Qt20ApplicationAttributeEb", 
+                "_ZN6KCrash10initializeEv", 
+                "_ZN10KAboutData18processCommandLineEP18QCommandLineParser", 
+                "_ZN9QListData6appendEv", 
+                "_ZN18QCommandLineParserC1Ev", 
+                "_ZNK16KLocalizedString8toStringEv", 
+                "_Z5ki18nPKc", 
+                "_ZN7QWidget4showEv", 
+                "_ZN22Kdelibs4ConfigMigrator14setConfigFilesERK11QStringList", 
+                "_ZN22Kdelibs4ConfigMigratorD1Ev", 
+                "_ZN18QCommandLineParser16addVersionOptionEv"
+            ], 
+            "rpm": "pim-sieve-editor-17.08.3-1.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/sieveeditor"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " pim-sieve-editor", 
+            "License": " GPLv2 and GFDL", 
+            "URL": " https://docs.kde.org/trunk5/en/pim/sieveeditor/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-07.phx2.fedoraproject.org", 
+            "Description": "\nSieve Editor is an editor for Sieve scripts used for email filtering\non a mail server.\n", 
+            "Build Date": " Wed 08 Nov 2017 04:35:33 PM EST", 
+            "Source RPM": " pim-sieve-editor-17.08.3-1.fc27.src.rpm", 
+            "Version": " 17.08.3", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 14 Nov 2017 03:26:49 PM EST, Key ID f55e7430f5282ee4", 
+            "Release": " 1.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " Sieve Editor", 
+            "Size": " 1473276"
+        }
+    }
+}

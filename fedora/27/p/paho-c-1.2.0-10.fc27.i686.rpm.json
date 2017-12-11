@@ -1,0 +1,188 @@
+{
+    "results": {
+        "usr/bin/paho_c_pub": {
+            "report-functions": [
+                "puts", 
+                "__cxa_finalize", 
+                "signal", 
+                "exit", 
+                "__sprintf_chk", 
+                "__gmon_start__", 
+                "MQTTAsync_destroy", 
+                "_ITM_registerTMCloneTable", 
+                "strtol", 
+                "free", 
+                "strlen", 
+                "_ITM_deregisterTMCloneTable", 
+                "_IO_getc", 
+                "MQTTAsync_send", 
+                "MQTTAsync_createWithOptions", 
+                "usleep", 
+                "MQTTAsync_disconnect", 
+                "MQTTAsync_connect", 
+                "malloc", 
+                "__printf_chk", 
+                "__libc_start_main", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "paho-c-1.2.0-10.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 13, 
+                    "afC": 328
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/paho_c_pub"
+        }, 
+        "usr/bin/paho_c_sub": {
+            "report-functions": [
+                "__gmon_start__", 
+                "strchr", 
+                "signal", 
+                "exit", 
+                "__cxa_finalize", 
+                "strtol", 
+                "__libc_start_main", 
+                "MQTTAsync_subscribe", 
+                "MQTTAsync_connect", 
+                "_ITM_deregisterTMCloneTable", 
+                "usleep", 
+                "fflush", 
+                "MQTTAsync_destroy", 
+                "MQTTAsync_freeMessage", 
+                "__sprintf_chk", 
+                "MQTTAsync_free", 
+                "MQTTAsync_create", 
+                "MQTTAsync_setCallbacks", 
+                "puts", 
+                "MQTTAsync_disconnect", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "paho-c-1.2.0-10.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 12, 
+                    "afC": 225
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/paho_c_sub"
+        }, 
+        "usr/bin/paho_cs_pub": {
+            "report-functions": [
+                "MQTTClient_create", 
+                "puts", 
+                "strtol", 
+                "__stack_chk_fail", 
+                "__cxa_finalize", 
+                "free", 
+                "__printf_chk", 
+                "MQTTClient_publish", 
+                "MQTTClient_destroy", 
+                "MQTTClient_disconnect", 
+                "_ITM_registerTMCloneTable", 
+                "signal", 
+                "strlen", 
+                "_IO_getc", 
+                "__libc_start_main", 
+                "malloc", 
+                "strncmp", 
+                "MQTTClient_connect", 
+                "MQTTClient_yield", 
+                "__gmon_start__", 
+                "MQTTClient_setCallbacks", 
+                "_ITM_deregisterTMCloneTable", 
+                "exit"
+            ], 
+            "rpm": "paho-c-1.2.0-10.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 12, 
+                    "afC": 332
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/paho_cs_pub"
+        }, 
+        "usr/bin/paho_cs_sub": {
+            "report-functions": [
+                "fflush", 
+                "MQTTClient_connect", 
+                "__sprintf_chk", 
+                "MQTTClient_free", 
+                "strchr", 
+                "__printf_chk", 
+                "__stack_chk_fail", 
+                "__cxa_finalize", 
+                "__gmon_start__", 
+                "signal", 
+                "MQTTClient_create", 
+                "__libc_start_main", 
+                "MQTTClient_destroy", 
+                "MQTTClient_receive", 
+                "MQTTClient_subscribe", 
+                "exit", 
+                "_ITM_registerTMCloneTable", 
+                "MQTTClient_freeMessage", 
+                "_ITM_deregisterTMCloneTable", 
+                "puts"
+            ], 
+            "rpm": "paho-c-1.2.0-10.fc27.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 13, 
+                    "afC": 306
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/paho_cs_sub"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Group": " Unspecified", 
+            "Name": " paho-c", 
+            "License": " BSD and EPL", 
+            "URL": " https://eclipse.org/paho/clients/c/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-26.phx2.fedoraproject.org", 
+            "Description": "\nThe Paho MQTT C Client is a fully fledged MQTT client written in C.\n", 
+            "Build Date": " Mon 06 Nov 2017 07:49:19 AM EST", 
+            "Source RPM": " paho-c-1.2.0-10.fc27.src.rpm", 
+            "Version": " 1.2.0", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 14 Nov 2017 12:59:51 PM EST, Key ID f55e7430f5282ee4", 
+            "Release": " 10.fc27", 
+            "Vendor": " Fedora Project", 
+            "Packager": " Fedora Project", 
+            "Summary": " MQTT C Client", 
+            "Size": " 656212"
+        }
+    }
+}
