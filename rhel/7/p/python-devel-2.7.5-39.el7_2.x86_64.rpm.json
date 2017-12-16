@@ -1,0 +1,45 @@
+{
+    "results": {
+        "usr/lib64/python2_7/config/python_o": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/config/python.o", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "report-functions": [], 
+            "rpm": "python-devel-2.7.5-39.el7_2.x86_64.rpm"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 2.7.5", 
+            "Name": " python-devel", 
+            "License": " Python", 
+            "URL": " http://www.python.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-039.build.eng.bos.redhat.com", 
+            "Description": "\nThe Python programming language's interpreter can be extended with\ndynamically loaded extensions and can be embedded in other programs.\nThis package contains the header files and libraries needed to do\nthese types of tasks.\n\nInstall python-devel if you want to develop Python extensions.  The\npython package will also need to be installed.  You'll probably also\nwant to install the python-docs package, which contains Python\ndocumentation.\n", 
+            "Build Date": " Mon 29 Aug 2016 10:35:19 AM EDT", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " python-2.7.5-39.el7_2.src.rpm", 
+            "warning": " /home/jason/fctl/swap/3/python-devel-2.7.5-39.el7_2.x86_64.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " x86_64", 
+            "Signature": " RSA/SHA256, Thu 01 Sep 2016 02:02:20 PM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 39.el7_2", 
+            "Group": " Development/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " The libraries and header files needed for Python development", 
+            "Size": " 1100201"
+        }
+    }
+}

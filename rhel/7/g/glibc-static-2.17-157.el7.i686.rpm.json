@@ -1,0 +1,48 @@
+{
+    "results": {
+        "usr/lib/libc_stubs_a": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib/libc_stubs.a", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 1, 
+                    "afC": 0
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "report-functions": [], 
+            "rpm": "glibc-static-2.17-157.el7.i686.rpm"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 2.17", 
+            "Name": " glibc-static", 
+            "License": " LGPLv2+ and LGPLv2+ with exceptions and GPLv2+", 
+            "URL": " http://www.gnu.org/software/glibc/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-024.build.eng.bos.redhat.com", 
+            "Description": "\nThe glibc-static package contains the C library static libraries\nfor -static linking.  You don't need these, unless you link statically,\nwhich is highly discouraged.\n", 
+            "Build Date": " Thu 11 Aug 2016 02:56:20 AM EDT", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " glibc-2.17-157.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/6/glibc-static-2.17-157.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 19 Sep 2016 09:14:12 AM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 157.el7", 
+            "Group": " Development/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " C library static libraries for -static linking.", 
+            "Size": " 5019686"
+        }
+    }
+}

@@ -1,0 +1,217 @@
+{
+    "results": {
+        "usr/lib/libIlmThread_so_6_0_0": {
+            "report-functions": [
+                "_ZdlPv", 
+                "pthread_mutex_unlock", 
+                "__cxa_guard_acquire", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize", 
+                "pthread_join", 
+                "_ZNSs4_Rep10_M_disposeERKSaIcE", 
+                "_Jv_RegisterClasses", 
+                "__cxa_throw", 
+                "__cxa_allocate_exception", 
+                "__assert_fail", 
+                "__pthread_key_create", 
+                "_Unwind_Resume", 
+                "sem_post", 
+                "__cxa_guard_abort", 
+                "_ZN3Iex7BaseExcC2EPKc", 
+                "__cxa_guard_release", 
+                "_Znwj", 
+                "sem_trywait", 
+                "pthread_mutex_destroy", 
+                "_ZNK3Iex7BaseExc4whatEv", 
+                "sem_wait", 
+                "_ZNSsC1EPKcRKSaIcE", 
+                "pthread_mutex_init", 
+                "pthread_mutex_lock", 
+                "_ITM_registerTMCloneTable", 
+                "__stack_chk_fail", 
+                "_ZNSt8__detail15_List_node_base7_M_hookEPS0_", 
+                "sem_init", 
+                "sem_getvalue", 
+                "__gxx_personality_v0", 
+                "__gmon_start__", 
+                "_ZN3Iex13throwErrnoExcERKSs", 
+                "__cxa_atexit", 
+                "_ZNSt8__detail15_List_node_base9_M_unhookEv", 
+                "__cxa_pure_virtual", 
+                "pthread_create", 
+                "_ZN3Iex7BaseExcD2Ev", 
+                "sem_destroy"
+            ], 
+            "rpm": "ilmbase-1.0.3-7.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libIlmThread.so.6.0.0"
+        }, 
+        "usr/lib/libHalf_so_6_0_0": {
+            "report-functions": [
+                "_ZNSt8ios_base4InitC1Ev", 
+                "_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_i", 
+                "_ZNSt8ios_base4InitD1Ev", 
+                "_ZNSo9_M_insertIdEERSoT_", 
+                "__stack_chk_fail", 
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable", 
+                "__cxa_atexit", 
+                "_ZNSi10_M_extractIfEERSiRT_", 
+                "_Jv_RegisterClasses"
+            ], 
+            "rpm": "ilmbase-1.0.3-7.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libHalf.so.6.0.0"
+        }, 
+        "usr/lib/libImath_so_6_0_0": {
+            "report-functions": [
+                "sqrtf", 
+                "__gxx_personality_v0", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_throw", 
+                "_ZNSt8ios_base4InitC1Ev", 
+                "__cxa_allocate_exception", 
+                "__cxa_call_unexpected", 
+                "__stack_chk_fail", 
+                "__cxa_atexit", 
+                "_ZdlPv", 
+                "_ZNK3Iex7BaseExc4whatEv", 
+                "_ZN3Iex7BaseExcC2EPKc", 
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable", 
+                "_ZNSt8ios_base4InitD1Ev", 
+                "_ZN3Iex7BaseExcD2Ev", 
+                "_Unwind_Resume"
+            ], 
+            "rpm": "ilmbase-1.0.3-7.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libImath.so.6.0.0"
+        }, 
+        "usr/lib/libIex_so_6_0_0": {
+            "report-functions": [
+                "_Jv_RegisterClasses", 
+                "__cxa_throw", 
+                "_ZNSsC2ERKSs", 
+                "_ZNSt9exceptionD2Ev", 
+                "__cxa_allocate_exception", 
+                "_ZNSsC2EPKcRKSaIcE", 
+                "_ITM_registerTMCloneTable", 
+                "strerror", 
+                "_ZNSsC1ERKSs", 
+                "_ZNSs4_Rep10_M_destroyERKSaIcE", 
+                "__cxa_call_unexpected", 
+                "_ZNSs4_Rep10_M_disposeERKSaIcE", 
+                "__pthread_key_create", 
+                "__gxx_personality_v0", 
+                "_ZNSs7replaceEjjPKcj", 
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "strlen", 
+                "_ZNKSs4findEPKcjj", 
+                "__cxa_finalize", 
+                "_ZNSs6assignERKSs", 
+                "__errno_location", 
+                "_ZNSs6appendERKSs", 
+                "_ZNSsC1EPKcRKSaIcE", 
+                "_Unwind_Resume", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ZNSs4_Rep9_S_createEjjRKSaIcE", 
+                "memcpy"
+            ], 
+            "rpm": "ilmbase-1.0.3-7.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libIex.so.6.0.0"
+        }, 
+        "usr/lib/libIexMath_so_6_0_0": {
+            "report-functions": [
+                "_ZNK3Iex7BaseExc4whatEv", 
+                "__cxa_finalize", 
+                "__gmon_start__", 
+                "__cxa_atexit", 
+                "_ITM_registerTMCloneTable", 
+                "_ZNSt8ios_base4InitD1Ev", 
+                "__cxa_allocate_exception", 
+                "__stack_chk_fail", 
+                "__cxa_throw", 
+                "_ZNSt8ios_base4InitC1Ev", 
+                "_Jv_RegisterClasses", 
+                "_ITM_deregisterTMCloneTable", 
+                "sigemptyset", 
+                "_ZN3Iex7BaseExcC2EPKc", 
+                "sigaction"
+            ], 
+            "rpm": "ilmbase-1.0.3-7.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libIexMath.so.6.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.0.3", 
+            "Name": " ilmbase", 
+            "License": " BSD", 
+            "URL": " http://www.openexr.com/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-024.build.eng.bos.redhat.com", 
+            "Description": "\nHalf is a class that encapsulates the ilm 16-bit floating-point format.\n\nIlmThread is a thread abstraction library for use with OpenEXR\nand other software packages.\n\nImath implements 2D and 3D vectors, 3x3 and 4x4 matrices, quaternions\nand other useful 2D and 3D math functions.\n\nIex is an exception-handling library.\n", 
+            "Build Date": " Fri 24 Jan 2014 10:01:19 PM EST", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " ilmbase-1.0.3-7.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/ilmbase-1.0.3-7.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 01 Apr 2014 02:21:04 PM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 7.el7", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " Abstraction/convenience libraries", 
+            "Size": " 492119"
+        }
+    }
+}

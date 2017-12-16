@@ -1,0 +1,74 @@
+{
+    "results": {
+        "usr/lib/libsgutils2_so_2_0_0": {
+            "report-functions": [
+                "fopen64", 
+                "free", 
+                "memcmp", 
+                "close", 
+                "__errno_location", 
+                "strerror", 
+                "__cxa_finalize", 
+                "__snprintf_chk", 
+                "calloc", 
+                "_ITM_deregisterTMCloneTable", 
+                "__stack_chk_fail", 
+                "strncpy", 
+                "memset", 
+                "__isoc99_sscanf", 
+                "memcpy", 
+                "_Jv_RegisterClasses", 
+                "ioctl", 
+                "__fxstat64", 
+                "strlen", 
+                "_ITM_registerTMCloneTable", 
+                "fclose", 
+                "__vsnprintf_chk", 
+                "fputc", 
+                "__printf_chk", 
+                "__gmon_start__", 
+                "__fprintf_chk", 
+                "fgets", 
+                "fwrite", 
+                "__ctype_toupper_loc", 
+                "fputs", 
+                "__memcpy_chk"
+            ], 
+            "rpm": "sg3_utils-libs-1.37-12.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libsgutils2.so.2.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.37", 
+            "Name": " sg3_utils-libs", 
+            "License": " GPLv2+ and BSD", 
+            "URL": " http://sg.danny.cz/sg/sg3_utils.html", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-037.build.eng.bos.redhat.com", 
+            "Description": "\nThis package contains the shared library for sg3_utils.\n", 
+            "Build Date": " Wed 10 May 2017 11:27:47 AM EDT", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " sg3_utils-1.37-12.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/3/sg3_utils-libs-1.37-12.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Wed 10 May 2017 11:45:15 AM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 12.el7", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " Shared library for sg3_utils", 
+            "Size": " 164267"
+        }
+    }
+}

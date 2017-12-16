@@ -1,0 +1,82 @@
+{
+    "results": {
+        "usr/lib/libsvrcore_so_0_0_0": {
+            "report-functions": [
+                "PK11_CheckUserPassword", 
+                "fclose", 
+                "PK11_TokenKeyGenWithFlags", 
+                "__stack_chk_fail", 
+                "fflush", 
+                "strlen", 
+                "tcsetattr", 
+                "fgets", 
+                "strcpy", 
+                "PK11_IsInternal", 
+                "malloc", 
+                "_ITM_registerTMCloneTable", 
+                "PK11_CipherOp", 
+                "_ITM_deregisterTMCloneTable", 
+                "PK11_GetTokenName", 
+                "tcgetattr", 
+                "_Jv_RegisterClasses", 
+                "putchar", 
+                "__cxa_finalize", 
+                "PK11_DestroyContext", 
+                "PK11_FreeSlot", 
+                "isatty", 
+                "fopen", 
+                "PK11_Finalize", 
+                "fileno", 
+                "memset", 
+                "strchr", 
+                "__strdup", 
+                "PK11_FindSlotByName", 
+                "strcmp", 
+                "__printf_chk", 
+                "__gmon_start__", 
+                "PK11_FreeSymKey", 
+                "PK11_CreateContextBySymKey", 
+                "PK11_GenerateNewParam", 
+                "__fprintf_chk", 
+                "free", 
+                "PK11_SetPasswordFunc", 
+                "SECITEM_ZfreeItem"
+            ], 
+            "rpm": "svrcore-4.0.4-11.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libsvrcore.so.0.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 4.0.4", 
+            "Name": " svrcore", 
+            "License": " MPLv1.1 or GPLv2+ or LGPLv2+", 
+            "URL": " http://www.mozilla.org/projects/security/pki/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-019.build.eng.bos.redhat.com", 
+            "Description": "\nsvrcore provides applications with several ways to handle secure PIN storage\ne.g. in an application that must be restarted, but needs the PIN to unlock\nthe private key and other crypto material, without user intervention.  svrcore\nuses the facilities provided by NSS.\n", 
+            "Build Date": " Mon 27 Jan 2014 07:48:23 AM EST", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " svrcore-4.0.4-11.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/3/svrcore-4.0.4-11.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Wed 02 Apr 2014 04:42:16 PM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 11.el7", 
+            "Group": " Development/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " Secure PIN handling using NSS crypto", 
+            "Size": " 23162"
+        }
+    }
+}

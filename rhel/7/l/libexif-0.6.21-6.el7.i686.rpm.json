@@ -1,0 +1,77 @@
+{
+    "results": {
+        "usr/lib/libexif_so_12_3_3": {
+            "report-functions": [
+                "strcpy", 
+                "fclose", 
+                "_ITM_registerTMCloneTable", 
+                "__stack_chk_fail", 
+                "strncmp", 
+                "bsearch", 
+                "memcpy", 
+                "_ITM_deregisterTMCloneTable", 
+                "bindtextdomain", 
+                "snprintf", 
+                "memchr", 
+                "memmove", 
+                "memcmp", 
+                "calloc", 
+                "__cxa_finalize", 
+                "fopen", 
+                "__printf_chk", 
+                "__gmon_start__", 
+                "strcmp", 
+                "strlen", 
+                "__snprintf_chk", 
+                "time", 
+                "pow", 
+                "strncat", 
+                "__ctype_b_loc", 
+                "fread", 
+                "__sprintf_chk", 
+                "dcgettext", 
+                "qsort", 
+                "_Jv_RegisterClasses", 
+                "localtime_r", 
+                "strncpy", 
+                "free", 
+                "log10"
+            ], 
+            "rpm": "libexif-0.6.21-6.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libexif.so.12.3.3"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 0.6.21", 
+            "Name": " libexif", 
+            "License": " LGPLv2+", 
+            "URL": " http://libexif.sourceforge.net/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-019.build.eng.bos.redhat.com", 
+            "Description": "\nMost digital cameras produce EXIF files, which are JPEG files with\nextra tags that contain information about the image. The EXIF library\nallows you to parse an EXIF file and read the data from those tags.\n", 
+            "Build Date": " Sun 26 Jan 2014 06:14:58 AM EST", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " libexif-0.6.21-6.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/libexif-0.6.21-6.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 01 Apr 2014 04:50:20 PM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 6.el7", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " Library for extracting extra information from image files", 
+            "Size": " 1890363"
+        }
+    }
+}

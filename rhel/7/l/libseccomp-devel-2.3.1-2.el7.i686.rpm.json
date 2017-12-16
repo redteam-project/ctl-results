@@ -1,0 +1,73 @@
+{
+    "results": {
+        "usr/bin/scmp_sys_resolver": {
+            "report-functions": [
+                "__ctype_b_loc", 
+                "__strdup", 
+                "exit", 
+                "getopt", 
+                "fclose", 
+                "malloc", 
+                "dup", 
+                "__stack_chk_fail", 
+                "__libc_start_main", 
+                "__fprintf_chk", 
+                "puts", 
+                "fwrite", 
+                "strcmp", 
+                "fdopen", 
+                "__assert_fail", 
+                "close", 
+                "memcmp", 
+                "__errno_location", 
+                "memcpy", 
+                "realloc", 
+                "memmove", 
+                "free", 
+                "syscall", 
+                "strtol", 
+                "fflush", 
+                "write", 
+                "prctl"
+            ], 
+            "rpm": "libseccomp-devel-2.3.1-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 9, 
+                    "afC": 124
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/scmp_sys_resolver"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 2.3.1", 
+            "Name": " libseccomp-devel", 
+            "License": " LGPLv2", 
+            "URL": " https://github.com/seccomp/libseccomp", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-034.build.eng.bos.redhat.com", 
+            "Description": "\nThe libseccomp library provides an easy to use interface to the Linux Kernel's\nsyscall filtering mechanism, seccomp.  The libseccomp API allows an application\nto specify which syscalls, and optionally which syscall arguments, the\napplication is allowed to execute, all of which are enforced by the Linux\nKernel.\n", 
+            "Build Date": " Thu 28 Apr 2016 01:43:59 PM EDT", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " libseccomp-2.3.1-2.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/7/libseccomp-devel-2.3.1-2.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Wed 21 Sep 2016 02:03:02 AM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 2.el7", 
+            "Group": " Development/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " Development files used to build applications with libseccomp support", 
+            "Size": " 161171"
+        }
+    }
+}

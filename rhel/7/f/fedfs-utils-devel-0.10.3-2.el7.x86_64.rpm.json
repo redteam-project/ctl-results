@@ -1,0 +1,26 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Version": " 0.10.3", 
+            "Name": " fedfs-utils-devel", 
+            "License": " GPLv2", 
+            "URL": " http://wiki.linux-nfs.org/wiki/index.php/FedFsUtilsProject", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-018.build.eng.bos.redhat.com", 
+            "Description": "\nThis package contains development files for the FedFS nfs-plugin\nlibrary.  This package must be present at nfs-utils build time for\nNFS and FedFS junction support to be enabled in nfs-utils.\n\nRFC 5716 introduces the Federated File System (FedFS, for short). FedFS\nis an extensible standardized mechanism by which system administrators\nconstruct a coherent file name space across multiple file servers using\nfile system referrals.\n\nA file system referral is like a symbolic link to another file system\nshare, but it is not visible to applications. It behaves like an\nauto-mounted directory where a new file system mount is done when an\napplication first accesses that directory. The arguments of the mount\noperation are controlled by information returned by the file server.\n\nToday, file system referral mechanisms exist in several network file\nsystem protocols. FedFS provides its file name space features by\nleveraging referral mechanisms already built in to network file system\nprotocols.  Thus no change to file system protocols or clients is\nrequired.\n\nCurrently, the Linux FedFS implementation supports only NFS version 4\nreferrals. More on NFS version 4 referrals can be found in RFC 3530.\nFedFS may support other network file system protocols in the future.\n", 
+            "Build Date": " Wed 22 Oct 2014 10:04:37 AM EDT", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " fedfs-utils-0.10.3-2.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/5/fedfs-utils-devel-0.10.3-2.el7.x86_64.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " x86_64", 
+            "Signature": " RSA/SHA256, Mon 19 Jan 2015 05:18:41 AM EST, Key ID 199e2f91fd431d51", 
+            "Release": " 2.el7", 
+            "Group": " System Environment/Daemons", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " Development files for the FedFS nfs-plugin", 
+            "Size": " 2452"
+        }
+    }
+}

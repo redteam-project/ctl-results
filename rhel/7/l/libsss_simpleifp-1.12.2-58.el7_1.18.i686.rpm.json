@@ -1,0 +1,82 @@
+{
+    "results": {
+        "usr/lib/libsss_simpleifp_so_0_0_1": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "memset", 
+                "dbus_message_unref", 
+                "_ITM_deregisterTMCloneTable", 
+                "hash_enter", 
+                "dbus_bus_get", 
+                "__cxa_finalize", 
+                "strncpy", 
+                "strcmp", 
+                "strncmp", 
+                "dbus_error_init", 
+                "dbus_message_iter_get_basic", 
+                "dbus_set_error", 
+                "__gmon_start__", 
+                "dbus_message_append_args_valist", 
+                "strlen", 
+                "dbus_message_new_method_call", 
+                "dbus_type_is_basic", 
+                "strcpy", 
+                "dbus_error_is_set", 
+                "dbus_message_iter_recurse", 
+                "dbus_message_iter_get_arg_type", 
+                "dbus_free_string_array", 
+                "dbus_connection_send_with_reply_and_block", 
+                "dbus_message_get_args", 
+                "stpcpy", 
+                "dbus_message_iter_next", 
+                "dbus_error_free", 
+                "hash_create_ex", 
+                "dbus_message_append_args", 
+                "dbus_message_iter_get_element_type", 
+                "__stack_chk_fail", 
+                "dbus_message_iter_init", 
+                "malloc", 
+                "dbus_connection_unref", 
+                "_Jv_RegisterClasses"
+            ], 
+            "rpm": "libsss_simpleifp-1.12.2-58.el7_1.18.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libsss_simpleifp.so.0.0.1"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.12.2", 
+            "Name": " libsss_simpleifp", 
+            "License": " GPLv3+", 
+            "URL": " http://fedorahosted.org/sssd/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-020.build.eng.bos.redhat.com", 
+            "Description": "\nProvides library that simplifies D-Bus API for the SSSD InfoPipe responder.\n", 
+            "Build Date": " Fri 02 Oct 2015 04:52:43 AM EDT", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " sssd-1.12.2-58.el7_1.18.src.rpm", 
+            "warning": " /home/jason/fctl/swap/7/libsss_simpleifp-1.12.2-58.el7_1.18.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sun 18 Oct 2015 10:42:48 PM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 58.el7_1.18", 
+            "Group": " Development/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " The SSSD D-Bus responder helper library", 
+            "Size": " 27292"
+        }
+    }
+}

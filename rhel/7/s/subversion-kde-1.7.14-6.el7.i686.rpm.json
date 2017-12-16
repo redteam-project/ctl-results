@@ -1,0 +1,92 @@
+{
+    "results": {
+        "usr/lib/libsvn_auth_kwallet-1_so_0_0_0": {
+            "report-functions": [
+                "_ZN7QString9fromAsciiEPKci", 
+                "_ZN16QCoreApplicationC1ERiPPci", 
+                "_Unwind_Resume", 
+                "__stack_chk_fail", 
+                "_ZdlPv", 
+                "svn_auth__simple_save_creds_helper", 
+                "_Znwj", 
+                "_ZNK7QString6toUtf8Ev", 
+                "svn_config_get", 
+                "apr_psprintf", 
+                "apr_pool_cleanup_null", 
+                "svn_auth__ssl_client_cert_pw_file_save_creds_helper", 
+                "__cxa_finalize", 
+                "_ITM_deregisterTMCloneTable", 
+                "svn_config_get_bool", 
+                "_ITM_registerTMCloneTable", 
+                "apr_hash_get", 
+                "_ZN7QString16fromAscii_helperEPKci", 
+                "svn_error_clear", 
+                "getenv", 
+                "svn_auth__simple_first_creds_helper", 
+                "_Z5ki18nPKc", 
+                "_ZN7KWallet6Wallet13NetworkWalletEv", 
+                "apr_pool_cleanup_register", 
+                "__gxx_personality_v0", 
+                "_ZN7KWallet6Wallet15keyDoesNotExistERK7QStringS3_S3_", 
+                "_ZN7KWallet6Wallet10openWalletERK7QStringmNS0_8OpenTypeE", 
+                "_Jv_RegisterClasses", 
+                "_ZN7QString8fromUtf8EPKci", 
+                "svn_auth__ssl_client_cert_pw_file_first_creds_helper", 
+                "_ZN14KComponentDataD1Ev", 
+                "_ZN10QByteArray7reallocEi", 
+                "_ZN16KLocalizedStringD1Ev", 
+                "_ZN10QByteArrayC1EPKc", 
+                "_ZN7QString4freeEPNS_4DataE", 
+                "_ZN7QString6appendERKS_", 
+                "_ZN7KWallet6Wallet6isOpenERK7QString", 
+                "apr_palloc", 
+                "apr_pstrmemdup", 
+                "_ZN12KCmdLineArgs9aboutDataEv", 
+                "dbus_bus_get", 
+                "getpid", 
+                "_Z5qFreePv", 
+                "_ZN12KCmdLineArgs4initEiPPcRK10QByteArrayS4_RK16KLocalizedStringS4_S7_6QFlagsINS_13StdCmdLineArgEE", 
+                "apr_hash_set", 
+                "svn_cstring_atoi64"
+            ], 
+            "rpm": "subversion-kde-1.7.14-6.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libsvn_auth_kwallet-1.so.0.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.7.14", 
+            "Name": " subversion-kde", 
+            "License": " ASL 2.0", 
+            "URL": " http://subversion.apache.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-025.build.eng.bos.redhat.com", 
+            "Description": "\nThe subversion-kde package adds support for storing Subversion\npasswords in the KDE Wallet.\n", 
+            "Build Date": " Wed 05 Mar 2014 11:32:30 AM EST", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " subversion-1.7.14-6.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/3/subversion-kde-1.7.14-6.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Wed 02 Apr 2014 04:38:58 PM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 6.el7", 
+            "Group": " Development/Tools", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " KDE Wallet support for Subversion", 
+            "Size": " 19180"
+        }
+    }
+}

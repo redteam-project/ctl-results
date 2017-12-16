@@ -1,0 +1,62 @@
+{
+    "results": {
+        "usr/lib/libipa_hbac_so_0_1_0": {
+            "report-functions": [
+                "__strdup", 
+                "g_malloc", 
+                "strftime", 
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "free", 
+                "g_utf8_strdown", 
+                "g_utf8_casefold", 
+                "localtime", 
+                "_ITM_deregisterTMCloneTable", 
+                "g_utf8_collate", 
+                "strcmp", 
+                "g_utf8_strlen", 
+                "malloc", 
+                "strlen", 
+                "_Jv_RegisterClasses", 
+                "g_free", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "libipa_hbac-1.14.0-43.el7_3.11.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libipa_hbac.so.0.1.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.14.0", 
+            "Name": " libipa_hbac", 
+            "License": " LGPLv3+", 
+            "URL": " http://fedorahosted.org/sssd/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-030.build.eng.bos.redhat.com", 
+            "Description": "\nUtility library to validate FreeIPA HBAC rules for authorization requests\n", 
+            "Build Date": " Tue 13 Dec 2016 11:31:53 AM EST", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " sssd-1.14.0-43.el7_3.11.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/libipa_hbac-1.14.0-43.el7_3.11.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 09 Jan 2017 04:30:48 AM EST, Key ID 199e2f91fd431d51", 
+            "Release": " 43.el7_3.11", 
+            "Group": " Development/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " FreeIPA HBAC Evaluator library", 
+            "Size": " 57602"
+        }
+    }
+}

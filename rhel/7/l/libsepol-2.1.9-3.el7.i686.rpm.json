@@ -1,0 +1,89 @@
+{
+    "results": {
+        "lib/libsepol_so_1": {
+            "report-functions": [
+                "__vfprintf_chk", 
+                "strncmp", 
+                "__errno_location", 
+                "__gmon_start__", 
+                "inet_ntop", 
+                "malloc", 
+                "ftell", 
+                "snprintf", 
+                "__fsetlocking", 
+                "strerror", 
+                "__printf_chk", 
+                "__assert_fail", 
+                "__strdup", 
+                "_Jv_RegisterClasses", 
+                "__strtok_r", 
+                "fputc", 
+                "__memcpy_chk", 
+                "_ITM_deregisterTMCloneTable", 
+                "realloc", 
+                "strcpy", 
+                "__getdelim", 
+                "fclose", 
+                "strlen", 
+                "memcpy", 
+                "memset", 
+                "fseek", 
+                "strchr", 
+                "__sprintf_chk", 
+                "free", 
+                "strrchr", 
+                "fopen", 
+                "strncasecmp", 
+                "strtol", 
+                "puts", 
+                "__stack_chk_fail", 
+                "fwrite", 
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable", 
+                "__snprintf_chk", 
+                "strncpy", 
+                "__fprintf_chk", 
+                "inet_pton", 
+                "__ctype_b_loc", 
+                "strcmp", 
+                "calloc", 
+                "fread"
+            ], 
+            "rpm": "libsepol-2.1.9-3.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "lib/libsepol.so.1"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 2.1.9", 
+            "Name": " libsepol", 
+            "License": " LGPLv2+", 
+            "URL": " http://www.selinuxproject.org", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-024.build.eng.bos.redhat.com", 
+            "Description": "\nSecurity-enhanced Linux is a feature of the Linux\u00ae kernel and a number\nof utilities with enhanced security functionality designed to add\nmandatory access controls to Linux.  The Security-enhanced Linux\nkernel contains new architectural components originally developed to\nimprove the security of the Flask operating system. These\narchitectural components provide general support for the enforcement\nof many kinds of mandatory access control policies, including those\nbased on the concepts of Type Enforcement\u00ae, Role-based Access\nControl, and Multi-level Security.\n\nlibsepol provides an API for the manipulation of SELinux binary policies.\nIt is used by checkpolicy (the policy compiler) and similar tools, as well\nas by programs like load_policy that need to perform specific transformations\non binary policies such as customizing policy boolean settings.\n", 
+            "Build Date": " Sun 26 Jan 2014 08:12:39 AM EST", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " libsepol-2.1.9-3.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/libsepol-2.1.9-3.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Wed 02 Apr 2014 10:39:07 AM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 3.el7", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " SELinux binary policy manipulation library", 
+            "Size": " 287572"
+        }
+    }
+}

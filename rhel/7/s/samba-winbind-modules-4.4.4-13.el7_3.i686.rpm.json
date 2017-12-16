@@ -1,0 +1,171 @@
+{
+    "results": {
+        "usr/lib/security/pam_winbind_so": {
+            "report-functions": [
+                "strcmp", 
+                "strerror", 
+                "bindtextdomain", 
+                "__strdup", 
+                "pam_putenv", 
+                "wbcLookupSid", 
+                "__xstat64", 
+                "wbcChangeUserPasswordEx", 
+                "chown", 
+                "strchr", 
+                "wbcLogoffUserEx", 
+                "pam_getenv", 
+                "strlen", 
+                "_talloc_zero", 
+                "__errno_location", 
+                "pam_set_item", 
+                "strrchr", 
+                "pam_vsyslog", 
+                "__gmon_start__", 
+                "fopen64", 
+                "malloc", 
+                "wbcInterfaceDetails", 
+                "pam_get_data", 
+                "__vasprintf_chk", 
+                "talloc_strdup", 
+                "__stack_chk_fail", 
+                "wbcLogonUser", 
+                "getpwnam", 
+                "wbcAddNamedBlob", 
+                "pam_strerror", 
+                "pam_get_user", 
+                "talloc_asprintf_append", 
+                "localtime_r", 
+                "wbcSidToStringBuf", 
+                "rep_strlcat", 
+                "realloc", 
+                "_Jv_RegisterClasses", 
+                "_ITM_registerTMCloneTable", 
+                "dcgettext", 
+                "wbcGetpwnam", 
+                "mkdir", 
+                "strncmp", 
+                "fclose", 
+                "strncasecmp", 
+                "wbcFreeMemory", 
+                "__cxa_finalize", 
+                "talloc_asprintf", 
+                "memcpy", 
+                "wbcLookupName", 
+                "__asprintf_chk", 
+                "__ctype_b_loc", 
+                "wbcErrorString", 
+                "fgetc", 
+                "pam_set_data", 
+                "getuid", 
+                "_talloc_set_destructor", 
+                "strcasecmp", 
+                "__strndup", 
+                "time", 
+                "free", 
+                "rep_strlcpy", 
+                "_talloc_free", 
+                "strtol"
+            ], 
+            "rpm": "samba-winbind-modules-4.4.4-13.el7_3.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/security/pam_winbind.so"
+        }, 
+        "usr/lib/libnss_winbind_so_2": {
+            "report-functions": [
+                "__gmon_start__", 
+                "pthread_mutex_unlock", 
+                "winbindd_free_response", 
+                "memcpy", 
+                "__errno_location", 
+                "strchr", 
+                "__snprintf_chk", 
+                "__stack_chk_fail", 
+                "strlen", 
+                "malloc", 
+                "_ITM_registerTMCloneTable", 
+                "realloc", 
+                "strcpy", 
+                "_Jv_RegisterClasses", 
+                "free", 
+                "strncpy", 
+                "pthread_mutex_lock", 
+                "winbindd_request_response", 
+                "strcmp"
+            ], 
+            "rpm": "samba-winbind-modules-4.4.4-13.el7_3.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libnss_winbind.so.2"
+        }, 
+        "usr/lib/libnss_wins_so_2": {
+            "report-functions": [
+                "rep_strlcpy", 
+                "memcpy", 
+                "inet_pton", 
+                "__cxa_finalize", 
+                "pthread_mutex_lock", 
+                "wbcFreeMemory", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "_Jv_RegisterClasses", 
+                "strchr", 
+                "wbcResolveWinsByName", 
+                "__errno_location", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "samba-winbind-modules-4.4.4-13.el7_3.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libnss_wins.so.2"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 4.4.4", 
+            "Name": " samba-winbind-modules", 
+            "License": " GPLv3+ and LGPLv3+", 
+            "URL": " http://www.samba.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-038.build.eng.bos.redhat.com", 
+            "Source RPM": " samba-4.4.4-13.el7_3.src.rpm", 
+            "Description": "\nThe samba-winbind-modules package provides the NSS library and a PAM module\nnecessary to communicate to the Winbind Daemon\n", 
+            "Build Date": " Wed 05 Apr 2017 05:38:19 AM EDT", 
+            "Vendor": " Red Hat, Inc.", 
+            "Epoch": " 0", 
+            "warning": " /home/jason/fctl/swap/3/samba-winbind-modules-4.4.4-13.el7_3.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Wed 05 Apr 2017 06:43:40 AM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 13.el7_3", 
+            "Group": " Applications/System", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " Samba winbind modules", 
+            "Size": " 78854"
+        }
+    }
+}

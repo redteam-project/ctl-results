@@ -1,0 +1,90 @@
+{
+    "results": {
+        "usr/lib/sasl2/libgs2_so_3_0_0": {
+            "report-functions": [
+                "_Jv_RegisterClasses", 
+                "gss_inquire_cred", 
+                "__snprintf_chk", 
+                "gss_encapsulate_token", 
+                "memchr", 
+                "__cxa_finalize", 
+                "strcat", 
+                "strlen", 
+                "gss_inquire_mech_for_saslname", 
+                "__gmon_start__", 
+                "__assert_fail", 
+                "gss_compare_name", 
+                "gss_inquire_saslname_for_mech", 
+                "strcmp", 
+                "strcpy", 
+                "strerror", 
+                "gss_decapsulate_token", 
+                "__memcpy_chk", 
+                "__ctype_b_loc", 
+                "gss_acquire_cred_with_password", 
+                "gss_delete_sec_context", 
+                "gss_init_sec_context", 
+                "strncpy", 
+                "__stack_chk_fail", 
+                "getaddrinfo", 
+                "gss_test_oid_set_member", 
+                "gss_release_name", 
+                "gss_display_status", 
+                "memcmp", 
+                "_ITM_registerTMCloneTable", 
+                "uname", 
+                "gss_indicate_mechs_by_attrs", 
+                "gss_inquire_attrs_for_mech", 
+                "gss_acquire_cred", 
+                "_ITM_deregisterTMCloneTable", 
+                "gss_inquire_context", 
+                "freeaddrinfo", 
+                "gss_release_cred", 
+                "memcpy", 
+                "gss_accept_sec_context", 
+                "strchr", 
+                "gss_release_buffer", 
+                "gss_display_name", 
+                "gss_release_oid_set"
+            ], 
+            "rpm": "cyrus-sasl-gs2-2.1.26-20.el7_2.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/sasl2/libgs2.so.3.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 2.1.26", 
+            "Name": " cyrus-sasl-gs2", 
+            "License": " BSD with advertising", 
+            "URL": " http://asg.web.cmu.edu/sasl/sasl-library.html", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-020.build.eng.bos.redhat.com", 
+            "Description": "\nThe cyrus-sasl-gs2 package contains the Cyrus SASL plugin which supports\nthe GS2 authentication scheme.\n", 
+            "Build Date": " Fri 04 Dec 2015 04:33:01 AM EST", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " cyrus-sasl-2.1.26-20.el7_2.src.rpm", 
+            "warning": " /home/jason/fctl/swap/5/cyrus-sasl-gs2-2.1.26-20.el7_2.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 18 Jan 2016 01:03:08 AM EST, Key ID 199e2f91fd431d51", 
+            "Release": " 20.el7_2", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " GS2 support for Cyrus SASL", 
+            "Size": " 35592"
+        }
+    }
+}

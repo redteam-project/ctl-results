@@ -1,0 +1,61 @@
+{
+    "results": {
+        "usr/lib/libsss_idmap_so_0_4_0": {
+            "report-functions": [
+                "__gmon_start__", 
+                "memcpy", 
+                "memset", 
+                "_Jv_RegisterClasses", 
+                "strtoul", 
+                "strtoull", 
+                "__cxa_finalize", 
+                "strcasecmp", 
+                "_ITM_registerTMCloneTable", 
+                "__stack_chk_fail", 
+                "_ITM_deregisterTMCloneTable", 
+                "strcmp", 
+                "free", 
+                "malloc", 
+                "strlen", 
+                "__ctype_b_loc", 
+                "__snprintf_chk", 
+                "__errno_location"
+            ], 
+            "rpm": "libsss_idmap-1.11.2-65.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libsss_idmap.so.0.4.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.11.2", 
+            "Name": " libsss_idmap", 
+            "License": " LGPLv3+", 
+            "URL": " http://fedorahosted.org/sssd/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-019.build.eng.bos.redhat.com", 
+            "Description": "\nUtility library to convert SIDs to Unix uids and gids\n", 
+            "Build Date": " Fri 04 Apr 2014 05:15:51 AM EDT", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " sssd-1.11.2-65.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/libsss_idmap-1.11.2-65.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 08 Apr 2014 04:28:56 AM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 65.el7", 
+            "Group": " Development/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " FreeIPA Idmap library", 
+            "Size": " 65698"
+        }
+    }
+}

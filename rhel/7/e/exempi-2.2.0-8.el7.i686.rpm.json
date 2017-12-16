@@ -1,0 +1,91 @@
+{
+    "results": {
+        "usr/bin/exempi": {
+            "report-functions": [
+                "xmp_parse", 
+                "xmp_prefix_namespace_uri", 
+                "__xstat", 
+                "fwrite", 
+                "xmp_init", 
+                "free", 
+                "fputs", 
+                "xmp_files_open_new", 
+                "_ZNSs6assignEPKc", 
+                "xmp_free", 
+                "xmp_files_close", 
+                "xmp_terminate", 
+                "fopen", 
+                "exit", 
+                "_ZNSs6assignERKSs", 
+                "getopt", 
+                "__gxx_personality_v0", 
+                "xmp_files_put_xmp", 
+                "fclose", 
+                "xmp_get_error", 
+                "xmp_serialize_and_format", 
+                "__gmon_start__", 
+                "xmp_files_get_new_xmp", 
+                "_ZNSs4_Rep10_M_destroyERKSaIcE", 
+                "__fprintf_chk", 
+                "xmp_string_new", 
+                "xmp_files_can_put_xmp", 
+                "perror", 
+                "_ZNSs4_Rep10_M_disposeERKSaIcE", 
+                "__stack_chk_fail", 
+                "__pthread_key_create", 
+                "_Unwind_Resume", 
+                "__libc_start_main", 
+                "xmp_get_property", 
+                "_ZNSsC1ERKSsjj", 
+                "fread", 
+                "_Jv_RegisterClasses", 
+                "_ZNKSs4findEcj", 
+                "xmp_files_free", 
+                "_ITM_registerTMCloneTable", 
+                "__printf_chk", 
+                "xmp_string_cstr", 
+                "xmp_new_empty", 
+                "xmp_string_free", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "exempi-2.2.0-8.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 1, 
+                    "afC": 42
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/exempi"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 2.2.0", 
+            "Name": " exempi", 
+            "License": " BSD", 
+            "URL": " http://libopenraw.freedesktop.org/wiki/Exempi", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-021.build.eng.bos.redhat.com", 
+            "Description": "\nExempi provides a library for easy parsing of XMP metadata. It is a port of\nAdobe XMP SDK to work on UNIX and to be build with GNU automake.\nIt includes XMPCore and XMPFiles.\n", 
+            "Build Date": " Fri 24 Jan 2014 04:22:23 PM EST", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " exempi-2.2.0-8.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/0/exempi-2.2.0-8.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 01 Apr 2014 11:15:28 AM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 8.el7", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " Library for easy parsing of XMP metadata", 
+            "Size": " 1177744"
+        }
+    }
+}

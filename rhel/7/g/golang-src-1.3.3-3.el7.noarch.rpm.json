@@ -1,0 +1,621 @@
+{
+    "results": {
+        "usr/lib/golang/src/pkg/runtime/race/race_linux_amd64_syso": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib/golang/src/pkg/runtime/race/race_linux_amd64.syso", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "report-functions": [
+                "getuid", 
+                "confstr", 
+                "sleep", 
+                "usleep", 
+                "abort", 
+                "__libc_stack_end", 
+                "getrlimit", 
+                "pthread_self", 
+                "exit", 
+                "_GLOBAL_OFFSET_TABLE_", 
+                "setrlimit", 
+                "prctl", 
+                "__libc_malloc", 
+                "__errno_location", 
+                "dl_iterate_phdr", 
+                "__libc_free", 
+                "madvise"
+            ], 
+            "rpm": "golang-src-1.3.3-3.el7.noarch.rpm"
+        }, 
+        "usr/lib/golang/src/pkg/debug/elf/elf_test_go": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib/golang/src/pkg/debug/elf/elf_test.go", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "golang-src-1.3.3-3.el7.noarch.rpm"
+        }, 
+        "usr/lib/golang/src/pkg/debug/elf/testdata/gcc-386-freebsd-exec": {
+            "report-functions": [
+                "atexit", 
+                "exit", 
+                "_Jv_RegisterClasses", 
+                "__register_frame_info", 
+                "__deregister_frame_info"
+            ], 
+            "rpm": "golang-src-1.3.3-3.el7.noarch.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 1, 
+                    "afC": 21
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/golang/src/pkg/debug/elf/testdata/gcc-386-freebsd-exec"
+        }, 
+        "usr/lib/golang/src/cmd/ld/ldelf_c": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib/golang/src/cmd/ld/ldelf.c", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "golang-src-1.3.3-3.el7.noarch.rpm"
+        }, 
+        "usr/lib/golang/src/pkg/debug/elf/testdata/gcc-amd64-linux-exec": {
+            "find-libc-functions": [
+                "GI___obstack_vprintf", 
+                "GI___vasprintf", 
+                "GI___vdprintf", 
+                "GI___vfprintf", 
+                "GI___vfwprintf", 
+                "GI___vsnprintf", 
+                "GI___vsprintf", 
+                "GI___vswprintf", 
+                "GI___vsyslog", 
+                "__longjmp", 
+                "_fprintf", 
+                "_printf", 
+                "_snprintf", 
+                "_sprintf", 
+                "_vfprintf", 
+                "_vprintf", 
+                "_vsnprintf", 
+                "_vsprintf", 
+                "asprintf", 
+                "confstr", 
+                "dprintf", 
+                "explicit_bzero", 
+                "fdelt", 
+                "fgets", 
+                "fgets_unlocked", 
+                "fgetws", 
+                "fgetws_unlocked", 
+                "fprintf", 
+                "fread", 
+                "fread_unlocked", 
+                "fwprintf", 
+                "getcwd", 
+                "getdomainname", 
+                "getgroups", 
+                "gethostname", 
+                "getlogin_r", 
+                "gets", 
+                "getwd", 
+                "longjmp", 
+                "mbsnrtowcs", 
+                "mbsrtowcs", 
+                "mbstowcs", 
+                "memcpy", 
+                "memmove", 
+                "mempcpy", 
+                "memset", 
+                "obstack_printf", 
+                "obstack_vprintf", 
+                "poll", 
+                "ppoll", 
+                "pread64", 
+                "pread", 
+                "printf", 
+                "ptsname_r", 
+                "read", 
+                "readlink", 
+                "readlinkat", 
+                "realpath", 
+                "recv", 
+                "recvfrom", 
+                "snprintf", 
+                "sprintf", 
+                "stpcpy", 
+                "stpncpy", 
+                "strcat", 
+                "strcpy", 
+                "strncat", 
+                "strncpy", 
+                "swprintf", 
+                "syslog", 
+                "ttyname_r", 
+                "vasprintf", 
+                "vdprintf", 
+                "vfprintf", 
+                "vfwprintf", 
+                "vprintf", 
+                "vsnprintf", 
+                "vsprintf", 
+                "vswprintf", 
+                "vsyslog", 
+                "vwprintf", 
+                "wcpcpy", 
+                "wcpncpy", 
+                "wcrtomb", 
+                "wcscat", 
+                "wcscpy", 
+                "wcsncat", 
+                "wcsncpy", 
+                "wcsnrtombs", 
+                "wcsrtombs", 
+                "wcstombs", 
+                "wctomb", 
+                "wmemcpy", 
+                "wmemmove", 
+                "wmempcpy", 
+                "wmemset", 
+                "wprintf"
+            ], 
+            "filename": "usr/lib/golang/src/pkg/debug/elf/testdata/gcc-amd64-linux-exec", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 1, 
+                    "afC": 14
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "__gmon_start__", 
+                "_Jv_RegisterClasses"
+            ], 
+            "rpm": "golang-src-1.3.3-3.el7.noarch.rpm"
+        }, 
+        "usr/lib/golang/src/pkg/debug/elf/elf_go": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib/golang/src/pkg/debug/elf/elf.go", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "golang-src-1.3.3-3.el7.noarch.rpm"
+        }, 
+        "usr/lib/golang/src/pkg/debug/dwarf/testdata/typedef_elf": {
+            "find-libc-functions": [
+                "GI___obstack_vprintf", 
+                "GI___vasprintf", 
+                "GI___vdprintf", 
+                "GI___vfprintf", 
+                "GI___vfwprintf", 
+                "GI___vsnprintf", 
+                "GI___vsprintf", 
+                "GI___vswprintf", 
+                "GI___vsyslog", 
+                "__longjmp", 
+                "_fprintf", 
+                "_printf", 
+                "_snprintf", 
+                "_sprintf", 
+                "_vfprintf", 
+                "_vprintf", 
+                "_vsnprintf", 
+                "_vsprintf", 
+                "asprintf", 
+                "confstr", 
+                "dprintf", 
+                "explicit_bzero", 
+                "fdelt", 
+                "fgets", 
+                "fgets_unlocked", 
+                "fgetws", 
+                "fgetws_unlocked", 
+                "fprintf", 
+                "fread", 
+                "fread_unlocked", 
+                "fwprintf", 
+                "getcwd", 
+                "getdomainname", 
+                "getgroups", 
+                "gethostname", 
+                "getlogin_r", 
+                "gets", 
+                "getwd", 
+                "longjmp", 
+                "mbsnrtowcs", 
+                "mbsrtowcs", 
+                "mbstowcs", 
+                "memcpy", 
+                "memmove", 
+                "mempcpy", 
+                "memset", 
+                "obstack_printf", 
+                "obstack_vprintf", 
+                "poll", 
+                "ppoll", 
+                "pread64", 
+                "pread", 
+                "printf", 
+                "ptsname_r", 
+                "read", 
+                "readlink", 
+                "readlinkat", 
+                "realpath", 
+                "recv", 
+                "recvfrom", 
+                "snprintf", 
+                "sprintf", 
+                "stpcpy", 
+                "stpncpy", 
+                "strcat", 
+                "strcpy", 
+                "strncat", 
+                "strncpy", 
+                "swprintf", 
+                "syslog", 
+                "ttyname_r", 
+                "vasprintf", 
+                "vdprintf", 
+                "vfprintf", 
+                "vfwprintf", 
+                "vprintf", 
+                "vsnprintf", 
+                "vsprintf", 
+                "vswprintf", 
+                "vsyslog", 
+                "vwprintf", 
+                "wcpcpy", 
+                "wcpncpy", 
+                "wcrtomb", 
+                "wcscat", 
+                "wcscpy", 
+                "wcsncat", 
+                "wcsncpy", 
+                "wcsnrtombs", 
+                "wcsrtombs", 
+                "wcstombs", 
+                "wctomb", 
+                "wmemcpy", 
+                "wmemmove", 
+                "wmempcpy", 
+                "wmemset", 
+                "wprintf"
+            ], 
+            "filename": "usr/lib/golang/src/pkg/debug/dwarf/testdata/typedef.elf", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 1, 
+                    "afC": 8
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "__gmon_start__", 
+                "__libc_start_main"
+            ], 
+            "rpm": "golang-src-1.3.3-3.el7.noarch.rpm"
+        }, 
+        "usr/lib/golang/src/pkg/debug/elf/testdata/go-relocation-test-gcc424-x86-64_obj": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib/golang/src/pkg/debug/elf/testdata/go-relocation-test-gcc424-x86-64.obj", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "report-functions": [], 
+            "rpm": "golang-src-1.3.3-3.el7.noarch.rpm"
+        }, 
+        "usr/lib/golang/src/cmd/nm/elf_go": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib/golang/src/cmd/nm/elf.go", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "golang-src-1.3.3-3.el7.noarch.rpm"
+        }, 
+        "usr/lib/golang/src/pkg/debug/elf/testdata/hello-world-core_gz": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib/golang/src/pkg/debug/elf/testdata/hello-world-core.gz", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "golang-src-1.3.3-3.el7.noarch.rpm"
+        }, 
+        "usr/lib/golang/src/pkg/debug/elf/testdata/gcc-amd64-openbsd-debug-with-rela_obj": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib/golang/src/pkg/debug/elf/testdata/gcc-amd64-openbsd-debug-with-rela.obj", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "report-functions": [], 
+            "rpm": "golang-src-1.3.3-3.el7.noarch.rpm"
+        }, 
+        "usr/lib/golang/src/pkg/debug/elf/testdata/hello_c": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib/golang/src/pkg/debug/elf/testdata/hello.c", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "golang-src-1.3.3-3.el7.noarch.rpm"
+        }, 
+        "usr/lib/golang/src/pkg/debug/elf/testdata/go-relocation-test-clang-x86_obj": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib/golang/src/pkg/debug/elf/testdata/go-relocation-test-clang-x86.obj", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "report-functions": [], 
+            "rpm": "golang-src-1.3.3-3.el7.noarch.rpm"
+        }, 
+        "usr/lib/golang/src/pkg/debug/elf/testdata/go-relocation-test-gcc441-x86_obj": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib/golang/src/pkg/debug/elf/testdata/go-relocation-test-gcc441-x86.obj", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "report-functions": [], 
+            "rpm": "golang-src-1.3.3-3.el7.noarch.rpm"
+        }, 
+        "usr/lib/golang/src/pkg/debug/dwarf/testdata/typedef_elf4": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib/golang/src/pkg/debug/dwarf/testdata/typedef.elf4", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "report-functions": [], 
+            "rpm": "golang-src-1.3.3-3.el7.noarch.rpm"
+        }, 
+        "usr/lib/golang/src/cmd/ld/elf_c": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib/golang/src/cmd/ld/elf.c", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "golang-src-1.3.3-3.el7.noarch.rpm"
+        }, 
+        "usr/lib/golang/src/pkg/debug/elf/testdata/go-relocation-test-gcc441-x86-64_obj": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib/golang/src/pkg/debug/elf/testdata/go-relocation-test-gcc441-x86-64.obj", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "report-functions": [], 
+            "rpm": "golang-src-1.3.3-3.el7.noarch.rpm"
+        }, 
+        "usr/lib/golang/src/cmd/ld/elf_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib/golang/src/cmd/ld/elf.h", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "golang-src-1.3.3-3.el7.noarch.rpm"
+        }, 
+        "usr/lib/golang/src/pkg/debug/elf/file_test_go": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib/golang/src/pkg/debug/elf/file_test.go", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "golang-src-1.3.3-3.el7.noarch.rpm"
+        }, 
+        "usr/lib/golang/src/pkg/debug/elf/file_go": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib/golang/src/pkg/debug/elf/file.go", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "golang-src-1.3.3-3.el7.noarch.rpm"
+        }, 
+        "usr/lib/golang/src/cmd/objdump/elf_go": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib/golang/src/cmd/objdump/elf.go", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "golang-src-1.3.3-3.el7.noarch.rpm"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.3.3", 
+            "Name": " golang-src", 
+            "License": " BSD", 
+            "URL": " http://golang.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-030.build.eng.bos.redhat.com", 
+            "Description": "\nGolang compiler source tree\n", 
+            "Build Date": " Wed 14 Jan 2015 08:08:15 AM EST", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " golang-1.3.3-3.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/6/golang-src-1.3.3-3.el7.noarch.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Thu 22 Jan 2015 07:45:52 AM EST, Key ID 199e2f91fd431d51", 
+            "Release": " 3.el7", 
+            "Group": " Unspecified", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " Golang compiler source tree", 
+            "Size": " 26125443"
+        }
+    }
+}

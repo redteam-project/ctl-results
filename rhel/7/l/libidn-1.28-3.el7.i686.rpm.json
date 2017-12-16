@@ -1,0 +1,131 @@
+{
+    "results": {
+        "usr/bin/idn": {
+            "report-functions": [
+                "stringprep_utf8_to_ucs4", 
+                "ferror", 
+                "__fprintf_chk", 
+                "free", 
+                "tld_strerror", 
+                "__gmon_start__", 
+                "dcgettext", 
+                "exit", 
+                "punycode_decode", 
+                "idna_to_ascii_4z", 
+                "feof", 
+                "fgets", 
+                "fopen64", 
+                "abort", 
+                "stringprep_utf8_nfkc_normalize", 
+                "punycode_strerror", 
+                "tld_check_4z", 
+                "malloc", 
+                "__errno_location", 
+                "stringprep_ucs4_to_utf8", 
+                "stringprep_utf8_to_locale", 
+                "isatty", 
+                "stringprep_locale_to_utf8", 
+                "idna_to_unicode_8z4z", 
+                "bindtextdomain", 
+                "memcpy", 
+                "fwrite", 
+                "idna_strerror", 
+                "fputs", 
+                "fileno", 
+                "punycode_encode", 
+                "stringprep_profile", 
+                "puts", 
+                "setlocale", 
+                "stringprep_strerror", 
+                "fclose", 
+                "strlen", 
+                "_ITM_deregisterTMCloneTable", 
+                "_Jv_RegisterClasses", 
+                "putchar", 
+                "__printf_chk", 
+                "error", 
+                "__stack_chk_fail", 
+                "__libc_start_main", 
+                "strncpy", 
+                "strrchr", 
+                "getopt_long", 
+                "stringprep_locale_charset"
+            ], 
+            "rpm": "libidn-1.28-3.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/idn"
+        }, 
+        "usr/lib/libidn_so_11_6_11": {
+            "report-functions": [
+                "realloc", 
+                "__cxa_finalize", 
+                "malloc", 
+                "dcgettext", 
+                "memcpy", 
+                "iconv_close", 
+                "calloc", 
+                "_Jv_RegisterClasses", 
+                "__strdup", 
+                "getenv", 
+                "_ITM_deregisterTMCloneTable", 
+                "strlen", 
+                "nl_langinfo", 
+                "__errno_location", 
+                "abort", 
+                "iconv_open", 
+                "memmove", 
+                "strverscmp", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "bindtextdomain", 
+                "strcmp", 
+                "__stack_chk_fail", 
+                "strcpy"
+            ], 
+            "rpm": "libidn-1.28-3.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libidn.so.11.6.11"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.28", 
+            "Name": " libidn", 
+            "License": " LGPLv2+ and GPLv3+ and GFDL", 
+            "URL": " http://www.gnu.org/software/libidn/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-019.build.eng.bos.redhat.com", 
+            "Description": "\nGNU Libidn is an implementation of the Stringprep, Punycode and\nIDNA specifications defined by the IETF Internationalized Domain\nNames (IDN) working group, used for internationalized domain\nnames.\n", 
+            "Build Date": " Sun 26 Jan 2014 06:54:13 AM EST", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " libidn-1.28-3.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/libidn-1.28-3.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 01 Apr 2014 05:12:45 PM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 3.el7", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " Internationalized Domain Name support library", 
+            "Size": " 628287"
+        }
+    }
+}

@@ -1,0 +1,85 @@
+{
+    "results": {
+        "usr/lib/libltdl_so_7_3_0": {
+            "report-functions": [
+                "fopen", 
+                "strrchr", 
+                "strncmp", 
+                "fwrite", 
+                "memcpy", 
+                "strcmp", 
+                "strchr", 
+                "dlclose", 
+                "argz_append", 
+                "opendir", 
+                "dlopen", 
+                "__ctype_b_loc", 
+                "malloc", 
+                "argz_stringify", 
+                "_ITM_registerTMCloneTable", 
+                "feof", 
+                "__gmon_start__", 
+                "stpcpy", 
+                "argz_create_sep", 
+                "fgets", 
+                "__rawmemchr", 
+                "_ITM_deregisterTMCloneTable", 
+                "_Jv_RegisterClasses", 
+                "realloc", 
+                "__stack_chk_fail", 
+                "memset", 
+                "__sprintf_chk", 
+                "strlen", 
+                "argz_insert", 
+                "access", 
+                "fclose", 
+                "__cxa_finalize", 
+                "getenv", 
+                "readdir", 
+                "exit", 
+                "strncpy", 
+                "strncat", 
+                "__assert_fail", 
+                "closedir", 
+                "free", 
+                "dlsym", 
+                "strcpy"
+            ], 
+            "rpm": "libtool-ltdl-2.4.2-22.el7_3.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libltdl.so.7.3.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 2.4.2", 
+            "Name": " libtool-ltdl", 
+            "License": " LGPLv2+", 
+            "URL": " http://www.gnu.org/software/libtool/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-017.build.eng.bos.redhat.com", 
+            "Description": "\nThe libtool-ltdl package contains the GNU Libtool Dynamic Module Loader, a\nlibrary that provides a consistent, portable interface which simplifies the\nprocess of using dynamic modules.\n\nThese runtime libraries are needed by programs that link directly to the\nsystem-installed ltdl libraries; they are not needed by software built using\nthe rest of the GNU Autotools (including GNU Autoconf and GNU Automake).\n", 
+            "Build Date": " Mon 13 Feb 2017 10:41:09 AM EST", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " libtool-2.4.2-22.el7_3.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/libtool-ltdl-2.4.2-22.el7_3.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 21 Feb 2017 09:30:09 AM EST, Key ID 199e2f91fd431d51", 
+            "Release": " 22.el7_3", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " Runtime libraries for GNU Libtool Dynamic Module Loader", 
+            "Size": " 66862"
+        }
+    }
+}

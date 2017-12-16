@@ -1,0 +1,2539 @@
+{
+    "results": {
+        "usr/lib/cmpi/libVirt_HostedDependency_so_0_6_3": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "stda_Associators", 
+                "get_domain_by_ref", 
+                "__stack_chk_fail", 
+                "libvirt_cim_init", 
+                "_ITM_deregisterTMCloneTable", 
+                "stda_References", 
+                "strncasecmp", 
+                "inst_list_add", 
+                "stda_AssociationCleanup", 
+                "make_reference", 
+                "match_hypervisor_prefix", 
+                "__gmon_start__", 
+                "stda_ReferenceNames", 
+                "stda_AssociatorNames", 
+                "__cxa_finalize", 
+                "enum_domains", 
+                "_Jv_RegisterClasses"
+            ], 
+            "rpm": "libvirt-cim-0.6.3-6.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/cmpi/libVirt_HostedDependency.so.0.6.3"
+        }, 
+        "usr/lib/cmpi/libVirt_RegisteredProfile_so_0_6_3": {
+            "report-functions": [
+                "virConnectClose", 
+                "__stack_chk_fail", 
+                "inst_list_add", 
+                "_Jv_RegisterClasses", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "cu_get_str_path", 
+                "cu_return_instances", 
+                "pfx_from_conn", 
+                "get_typed_instance", 
+                "cu_validate_ref", 
+                "cu_statusf", 
+                "strcmp", 
+                "inst_list_free", 
+                "_ITM_deregisterTMCloneTable", 
+                "inst_list_init", 
+                "__cxa_finalize", 
+                "libvirt_cim_init"
+            ], 
+            "rpm": "libvirt-cim-0.6.3-6.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/cmpi/libVirt_RegisteredProfile.so.0.6.3"
+        }, 
+        "usr/lib/cmpi/libVirt_ResourcePoolConfigurationCapabilities_so_0_6_3": {
+            "report-functions": [
+                "cu_validate_ref", 
+                "cu_return_instance_name", 
+                "__cxa_finalize", 
+                "virConnectClose", 
+                "_ITM_registerTMCloneTable", 
+                "__stack_chk_fail", 
+                "get_typed_instance", 
+                "_Jv_RegisterClasses", 
+                "cu_statusf", 
+                "libvirt_cim_init", 
+                "pfx_from_conn", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "libvirt-cim-0.6.3-6.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/cmpi/libVirt_ResourcePoolConfigurationCapabilities.so.0.6.3"
+        }, 
+        "usr/lib/cmpi/libVirt_AppliedFilterList_so_0_6_3": {
+            "report-functions": [
+                "stda_Associators", 
+                "get_devices", 
+                "virDomainGetName", 
+                "stda_AssociationCleanup", 
+                "__gmon_start__", 
+                "libvirt_cim_init", 
+                "virDomainDefineXML", 
+                "_ITM_registerTMCloneTable", 
+                "cleanup_virt_devices", 
+                "cu_statusf", 
+                "free", 
+                "get_device_by_name", 
+                "instance_from_filter", 
+                "cu_get_str_path", 
+                "stda_References", 
+                "_ITM_deregisterTMCloneTable", 
+                "get_filter_by_name", 
+                "stda_ReferenceNames", 
+                "__cxa_finalize", 
+                "_Jv_RegisterClasses", 
+                "virDomainLookupByName", 
+                "stda_AssociatorNames", 
+                "__strdup", 
+                "get_dominfo", 
+                "make_reference", 
+                "cleanup_filters", 
+                "get_domain_list", 
+                "inst_list_add", 
+                "cleanup_dominfo", 
+                "system_to_xml", 
+                "strcasecmp", 
+                "virConnectClose", 
+                "debug_print", 
+                "__stack_chk_fail", 
+                "virDomainFree", 
+                "connect_by_classname", 
+                "get_fq_devid"
+            ], 
+            "rpm": "libvirt-cim-0.6.3-6.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/cmpi/libVirt_AppliedFilterList.so.0.6.3"
+        }, 
+        "usr/lib/cmpi/libVirt_FilterEntry_so_0_6_3": {
+            "report-functions": [
+                "cu_return_instance_names", 
+                "inst_list_add", 
+                "__snprintf_chk", 
+                "inst_list_free", 
+                "get_filter_by_name", 
+                "calloc", 
+                "strtol", 
+                "__cxa_finalize", 
+                "strchr", 
+                "cu_return_instances", 
+                "__gmon_start__", 
+                "virConnectClose", 
+                "parse_rule_id", 
+                "_ITM_deregisterTMCloneTable", 
+                "libvirt_cim_init", 
+                "__strdup", 
+                "get_host_system_properties", 
+                "debug_print", 
+                "inet_pton", 
+                "cleanup_filters", 
+                "__stack_chk_fail", 
+                "malloc", 
+                "strstr", 
+                "strtoul", 
+                "strcasecmp", 
+                "_ITM_registerTMCloneTable", 
+                "connect_by_classname", 
+                "sscanf", 
+                "get_typed_instance", 
+                "cu_get_str_path", 
+                "free", 
+                "get_filters", 
+                "inst_list_init"
+            ], 
+            "rpm": "libvirt-cim-0.6.3-6.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/cmpi/libVirt_FilterEntry.so.0.6.3"
+        }, 
+        "usr/lib/cmpi/libVirt_SettingsDefineState_so_0_6_3": {
+            "report-functions": [
+                "cu_get_str_prop", 
+                "get_device_by_ref", 
+                "virConnectClose", 
+                "__stack_chk_fail", 
+                "sscanf", 
+                "stda_AssociatorNames", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable", 
+                "res_type_from_rasd_classname", 
+                "cleanup_virt_devices", 
+                "parse_fq_devid", 
+                "get_rasd_by_name", 
+                "__gmon_start__", 
+                "__asprintf_chk", 
+                "stda_Associators", 
+                "make_reference", 
+                "_Jv_RegisterClasses", 
+                "connect_by_classname", 
+                "get_domain_by_ref", 
+                "__strdup", 
+                "libvirt_cim_init", 
+                "debug_print", 
+                "cu_get_str_path", 
+                "get_vssd_by_ref", 
+                "res_type_from_device_classname", 
+                "get_device_by_name", 
+                "get_rasd_by_ref", 
+                "cu_statusf", 
+                "stda_References", 
+                "stda_ReferenceNames", 
+                "inst_list_add", 
+                "get_domain_by_name", 
+                "free", 
+                "list_rasds", 
+                "stda_AssociationCleanup", 
+                "get_vssd_by_name"
+            ], 
+            "rpm": "libvirt-cim-0.6.3-6.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/cmpi/libVirt_SettingsDefineState.so.0.6.3"
+        }, 
+        "usr/lib/cmpi/libVirt_NestedFilterList_so_0_6_3": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "get_filter_by_name", 
+                "virConnectClose", 
+                "_ITM_deregisterTMCloneTable", 
+                "cleanup_filters", 
+                "stda_ReferenceNames", 
+                "__stack_chk_fail", 
+                "connect_by_classname", 
+                "stda_AssociationCleanup", 
+                "stda_References", 
+                "list_node_next_node", 
+                "_Jv_RegisterClasses", 
+                "libvirt_cim_init", 
+                "cu_get_str_path", 
+                "inst_list_add", 
+                "cu_statusf", 
+                "instance_from_filter", 
+                "get_filters", 
+                "make_reference", 
+                "__gmon_start__", 
+                "stda_Associators", 
+                "list_first_node", 
+                "__strdup", 
+                "remove_filter_ref", 
+                "update_filter", 
+                "_ITM_registerTMCloneTable", 
+                "list_find_node", 
+                "list_node_data_get", 
+                "debug_print"
+            ], 
+            "rpm": "libvirt-cim-0.6.3-6.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/cmpi/libVirt_NestedFilterList.so.0.6.3"
+        }, 
+        "usr/lib/cmpi/libVirt_ConcreteComponent_so_0_6_3": {
+            "report-functions": [
+                "libvirt_cim_init", 
+                "__gmon_start__", 
+                "virNetworkLookupByName", 
+                "virNetworkFree", 
+                "match_hypervisor_prefix", 
+                "free", 
+                "_Jv_RegisterClasses", 
+                "stda_AssociatorNames", 
+                "__asprintf_chk", 
+                "virNetworkGetBridgeName", 
+                "debug_print", 
+                "connect_by_classname", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize", 
+                "stda_Associators", 
+                "stda_AssociationCleanup", 
+                "inst_list_add", 
+                "get_host_system_properties", 
+                "cu_get_str_path", 
+                "make_reference", 
+                "stda_References", 
+                "stda_ReferenceNames", 
+                "cu_statusf", 
+                "name_from_pool_id", 
+                "get_pool_by_name", 
+                "_ITM_registerTMCloneTable", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "libvirt-cim-0.6.3-6.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/cmpi/libVirt_ConcreteComponent.so.0.6.3"
+        }, 
+        "usr/lib/cmpi/libVirt_ResourceAllocationSettingDataIndication_so_0_6_3": {
+            "report-functions": [
+                "debug_print", 
+                "__cxa_finalize", 
+                "cu_statusf", 
+                "stdi_activate_filter", 
+                "_ITM_registerTMCloneTable", 
+                "libvirt_cim_init", 
+                "__stack_chk_fail", 
+                "stdi_handler", 
+                "_Jv_RegisterClasses", 
+                "__gmon_start__", 
+                "__strdup", 
+                "stdi_free_ind_args", 
+                "stdi_cleanup", 
+                "stdi_deactivate_filter", 
+                "stdi_enable_indications", 
+                "free", 
+                "stdi_disable_indications", 
+                "malloc"
+            ], 
+            "rpm": "libvirt-cim-0.6.3-6.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/cmpi/libVirt_ResourceAllocationSettingDataIndication.so.0.6.3"
+        }, 
+        "usr/lib/cmpi/libVirt_HostedResourcePool_so_0_6_3": {
+            "report-functions": [
+                "get_host", 
+                "stda_ReferenceNames", 
+                "strncasecmp", 
+                "convert_sblim_hostsystem", 
+                "stda_AssociatorNames", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "_Jv_RegisterClasses", 
+                "stda_Associators", 
+                "make_reference", 
+                "match_hypervisor_prefix", 
+                "__cxa_finalize", 
+                "get_pool_by_ref", 
+                "enum_pools", 
+                "stda_References", 
+                "__stack_chk_fail", 
+                "inst_list_add", 
+                "stda_AssociationCleanup"
+            ], 
+            "rpm": "libvirt-cim-0.6.3-6.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/cmpi/libVirt_HostedResourcePool.so.0.6.3"
+        }, 
+        "usr/lib/cmpi/libVirt_ServiceAffectsElement_so_0_6_3": {
+            "report-functions": [
+                "free", 
+                "get_console_rs", 
+                "stda_AssociatorNames", 
+                "stda_AssociationCleanup", 
+                "match_hypervisor_prefix", 
+                "make_reference", 
+                "enum_devices", 
+                "stda_ReferenceNames", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "stda_References", 
+                "enum_domains", 
+                "_ITM_registerTMCloneTable", 
+                "__cxa_finalize", 
+                "cu_get_str_prop", 
+                "get_device_by_ref", 
+                "__stack_chk_fail", 
+                "get_domain_by_ref", 
+                "_Jv_RegisterClasses", 
+                "stda_Associators", 
+                "strcasecmp", 
+                "libvirt_cim_init"
+            ], 
+            "rpm": "libvirt-cim-0.6.3-6.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/cmpi/libVirt_ServiceAffectsElement.so.0.6.3"
+        }, 
+        "usr/lib/cmpi/libVirt_ResourceAllocationFromPool_so_0_6_3": {
+            "report-functions": [
+                "inst_list_add", 
+                "free", 
+                "__stack_chk_fail", 
+                "inst_list_init", 
+                "get_pool_by_ref", 
+                "stda_ReferenceNames", 
+                "res_type_from_rasd_classname", 
+                "stda_Associators", 
+                "strcmp", 
+                "get_pool_by_name", 
+                "__gmon_start__", 
+                "make_reference", 
+                "cu_get_str_path", 
+                "_Jv_RegisterClasses", 
+                "_ITM_registerTMCloneTable", 
+                "pool_member_of", 
+                "enum_rasds", 
+                "stda_AssociatorNames", 
+                "cu_get_str_prop", 
+                "res_type_from_pool_id", 
+                "get_rasd_by_name", 
+                "stda_References", 
+                "match_hypervisor_prefix", 
+                "__cxa_finalize", 
+                "_ITM_deregisterTMCloneTable", 
+                "inst_list_free", 
+                "cu_statusf"
+            ], 
+            "rpm": "libvirt-cim-0.6.3-6.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/cmpi/libVirt_ResourceAllocationFromPool.so.0.6.3"
+        }, 
+        "usr/lib/cmpi/libVirt_ComputerSystemMigrationIndication_so_0_6_3": {
+            "report-functions": [
+                "stdi_activate_filter", 
+                "__cxa_finalize", 
+                "stdi_deactivate_filter", 
+                "stdi_cleanup", 
+                "_ITM_registerTMCloneTable", 
+                "_ITM_deregisterTMCloneTable", 
+                "stdi_handler", 
+                "_Jv_RegisterClasses", 
+                "__gmon_start__", 
+                "stdi_disable_indications"
+            ], 
+            "rpm": "libvirt-cim-0.6.3-6.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/cmpi/libVirt_ComputerSystemMigrationIndication.so.0.6.3"
+        }, 
+        "usr/lib/cmpi/libVirt_ReferencedProfile_so_0_6_3": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "strcmp", 
+                "__stack_chk_fail", 
+                "get_typed_instance", 
+                "set_reference", 
+                "free", 
+                "stda_AssociatorNames", 
+                "stda_AssociationCleanup", 
+                "cu_get_str_path", 
+                "libvirt_cim_init", 
+                "cu_statusf", 
+                "virConnectClose", 
+                "stda_References", 
+                "connect_by_classname", 
+                "_ITM_registerTMCloneTable", 
+                "class_base_name", 
+                "get_profile_by_ref", 
+                "__gmon_start__", 
+                "get_profile", 
+                "pfx_from_conn", 
+                "stda_ReferenceNames", 
+                "inst_list_add", 
+                "stda_Associators", 
+                "_Jv_RegisterClasses", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "libvirt-cim-0.6.3-6.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/cmpi/libVirt_ReferencedProfile.so.0.6.3"
+        }, 
+        "usr/lib/cmpi/libVirt_HostedFilterList_so_0_6_3": {
+            "report-functions": [
+                "get_host", 
+                "stda_ReferenceNames", 
+                "_ITM_deregisterTMCloneTable", 
+                "stda_Associators", 
+                "__stack_chk_fail", 
+                "stda_References", 
+                "libvirt_cim_init", 
+                "stda_AssociatorNames", 
+                "stda_AssociationCleanup", 
+                "get_filter_by_ref", 
+                "inst_list_add", 
+                "_Jv_RegisterClasses", 
+                "cu_validate_ref", 
+                "make_reference", 
+                "__gmon_start__", 
+                "enum_filter_lists"
+            ], 
+            "rpm": "libvirt-cim-0.6.3-6.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/cmpi/libVirt_HostedFilterList.so.0.6.3"
+        }, 
+        "usr/lib/cmpi/libVirt_VSSD_so_0_6_3": {
+            "report-functions": [
+                "get_domain_list", 
+                "_Jv_RegisterClasses", 
+                "_ITM_registerTMCloneTable", 
+                "class_prefix_name", 
+                "connect_by_classname", 
+                "get_dominfo", 
+                "cleanup_dominfo", 
+                "cu_return_instance_name", 
+                "pfx_from_conn", 
+                "libvirt_cim_init", 
+                "virDomainFree", 
+                "free", 
+                "get_typed_instance", 
+                "cu_validate_ref", 
+                "parse_instanceid", 
+                "cu_statusf", 
+                "__asprintf_chk", 
+                "strcasecmp", 
+                "debug_print", 
+                "virt_set_status", 
+                "virConnectClose", 
+                "__gmon_start__", 
+                "virDomainGetName", 
+                "__cxa_finalize", 
+                "virDomainLookupByName", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "libvirt-cim-0.6.3-6.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/cmpi/libVirt_VSSD.so.0.6.3"
+        }, 
+        "usr/lib/cmpi/libVirt_KVMRedirectionSAP_so_0_6_3": {
+            "report-functions": [
+                "pfx_from_conn", 
+                "fclose", 
+                "get_domain_list", 
+                "__stack_chk_fail", 
+                "inst_list_free", 
+                "fopen", 
+                "__getdelim", 
+                "debug_print", 
+                "_Jv_RegisterClasses", 
+                "__strdup", 
+                "inst_list_init", 
+                "libvirt_cim_init", 
+                "__gmon_start__", 
+                "free", 
+                "get_dominfo", 
+                "cu_statusf", 
+                "virConnectClose", 
+                "cleanup_dominfo", 
+                "__asprintf_chk", 
+                "free_domain_list", 
+                "get_typed_class", 
+                "get_typed_instance", 
+                "cu_return_instance_names", 
+                "cu_get_str_path", 
+                "__cxa_finalize", 
+                "inst_list_add", 
+                "strcasecmp", 
+                "sscanf", 
+                "virDomainLookupByName", 
+                "cu_return_instances", 
+                "connect_by_classname", 
+                "class_prefix_name", 
+                "virt_set_status", 
+                "_ITM_deregisterTMCloneTable", 
+                "cu_validate_ref", 
+                "malloc"
+            ], 
+            "rpm": "libvirt-cim-0.6.3-6.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/cmpi/libVirt_KVMRedirectionSAP.so.0.6.3"
+        }, 
+        "usr/lib/cmpi/libVirt_HostedAccessPoint_so_0_6_3": {
+            "report-functions": [
+                "make_reference", 
+                "__cxa_finalize", 
+                "__stack_chk_fail", 
+                "enum_console_sap", 
+                "_ITM_deregisterTMCloneTable", 
+                "convert_sblim_hostsystem", 
+                "stda_ReferenceNames", 
+                "stda_Associators", 
+                "get_console_sap_by_ref", 
+                "match_hypervisor_prefix", 
+                "stda_AssociationCleanup", 
+                "_ITM_registerTMCloneTable", 
+                "stda_References", 
+                "strncasecmp", 
+                "get_host", 
+                "__gmon_start__", 
+                "_Jv_RegisterClasses", 
+                "inst_list_add"
+            ], 
+            "rpm": "libvirt-cim-0.6.3-6.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/cmpi/libVirt_HostedAccessPoint.so.0.6.3"
+        }, 
+        "usr/lib/cmpi/libVirt_FilterList_so_0_6_3": {
+            "report-functions": [
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "debug_print", 
+                "__stack_chk_fail", 
+                "cleanup_filters", 
+                "get_host_system_properties", 
+                "cu_get_str_path", 
+                "malloc", 
+                "connect_by_classname", 
+                "_Jv_RegisterClasses", 
+                "inst_list_init", 
+                "_ITM_deregisterTMCloneTable", 
+                "inst_list_free", 
+                "libvirt_cim_init", 
+                "get_typed_instance", 
+                "_ITM_registerTMCloneTable", 
+                "delete_filter", 
+                "cu_return_instances", 
+                "cu_statusf", 
+                "cu_get_str_prop", 
+                "convert_priority", 
+                "get_filters", 
+                "__strdup", 
+                "cu_return_instance_names", 
+                "inst_list_add", 
+                "get_filter_by_name", 
+                "create_filter"
+            ], 
+            "rpm": "libvirt-cim-0.6.3-6.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/cmpi/libVirt_FilterList.so.0.6.3"
+        }, 
+        "usr/lib/cmpi/libVirt_EnabledLogicalElementCapabilities_so_0_6_3": {
+            "report-functions": [
+                "virDomainGetName", 
+                "cu_statusf", 
+                "virt_set_status", 
+                "libvirt_cim_init", 
+                "get_typed_instance", 
+                "virDomainLookupByName", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "virConnectClose", 
+                "get_domain_list", 
+                "free", 
+                "cu_return_instance_name", 
+                "_Jv_RegisterClasses", 
+                "__cxa_finalize", 
+                "cu_validate_ref", 
+                "virDomainFree", 
+                "connect_by_classname", 
+                "__stack_chk_fail", 
+                "_ITM_registerTMCloneTable", 
+                "pfx_from_conn"
+            ], 
+            "rpm": "libvirt-cim-0.6.3-6.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/cmpi/libVirt_EnabledLogicalElementCapabilities.so.0.6.3"
+        }, 
+        "usr/lib/cmpi/libVirt_ElementSettingData_so_0_6_3": {
+            "report-functions": [
+                "inst_list_add", 
+                "get_vssd_by_ref", 
+                "get_rasd_by_ref", 
+                "__gmon_start__", 
+                "libvirt_cim_init", 
+                "__cxa_finalize", 
+                "__stack_chk_fail", 
+                "match_hypervisor_prefix", 
+                "_ITM_deregisterTMCloneTable", 
+                "stda_ReferenceNames", 
+                "_Jv_RegisterClasses", 
+                "_ITM_registerTMCloneTable", 
+                "stda_References", 
+                "stda_AssociationCleanup", 
+                "stda_AssociatorNames"
+            ], 
+            "rpm": "libvirt-cim-0.6.3-6.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/cmpi/libVirt_ElementSettingData.so.0.6.3"
+        }, 
+        "usr/lib/cmpi/libVirt_Device_so_0_6_3": {
+            "report-functions": [
+                "cleanup_virt_devices", 
+                "get_fq_devid", 
+                "debug_print", 
+                "calloc", 
+                "inst_list_free", 
+                "cu_get_str_path", 
+                "libvirt_cim_init", 
+                "cu_return_instance_names", 
+                "get_devices", 
+                "pfx_from_conn", 
+                "cu_statusf", 
+                "virDomainLookupByName", 
+                "virDomainGetConnect", 
+                "__stack_chk_fail", 
+                "cu_validate_ref", 
+                "__cxa_finalize", 
+                "get_domain_list", 
+                "get_typed_instance", 
+                "inst_list_add", 
+                "virConnectClose", 
+                "sscanf", 
+                "strstr", 
+                "_ITM_deregisterTMCloneTable", 
+                "virDomainFree", 
+                "virDomainGetName", 
+                "cu_return_instances", 
+                "get_typed_class", 
+                "strcasecmp", 
+                "__gmon_start__", 
+                "virt_device_dup", 
+                "_Jv_RegisterClasses", 
+                "__strdup", 
+                "connect_by_classname", 
+                "_ITM_registerTMCloneTable", 
+                "__asprintf_chk", 
+                "inst_list_init", 
+                "free"
+            ], 
+            "rpm": "libvirt-cim-0.6.3-6.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/cmpi/libVirt_Device.so.0.6.3"
+        }, 
+        "usr/lib/cmpi/libVirt_SystemDevice_so_0_6_3": {
+            "report-functions": [
+                "enum_devices", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize", 
+                "stda_AssociationCleanup", 
+                "parse_fq_devid", 
+                "cu_get_str_path", 
+                "cu_statusf", 
+                "get_domain_by_ref", 
+                "stda_ReferenceNames", 
+                "free", 
+                "match_hypervisor_prefix", 
+                "__gmon_start__", 
+                "inst_list_add", 
+                "stda_References", 
+                "stda_AssociatorNames", 
+                "libvirt_cim_init", 
+                "_Jv_RegisterClasses", 
+                "stda_Associators", 
+                "make_reference", 
+                "get_domain_by_name", 
+                "get_device_by_ref"
+            ], 
+            "rpm": "libvirt-cim-0.6.3-6.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/cmpi/libVirt_SystemDevice.so.0.6.3"
+        }, 
+        "usr/lib/cmpi/libVirt_HostSystem_so_0_6_3": {
+            "report-functions": [
+                "connect_by_classname", 
+                "get_typed_instance", 
+                "libvirt_cim_init", 
+                "pfx_from_conn", 
+                "__cxa_finalize", 
+                "_Jv_RegisterClasses", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "gethostname", 
+                "strncpy", 
+                "debug_print", 
+                "cu_statusf", 
+                "cu_return_instance_name", 
+                "__stack_chk_fail", 
+                "strcasecmp", 
+                "strstr", 
+                "_ITM_registerTMCloneTable", 
+                "gethostbyname", 
+                "strchr", 
+                "cu_get_str_prop", 
+                "cu_validate_ref"
+            ], 
+            "rpm": "libvirt-cim-0.6.3-6.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/cmpi/libVirt_HostSystem.so.0.6.3"
+        }, 
+        "usr/lib/cmpi/libVirt_VirtualSystemSnapshotService_so_0_6_3": {
+            "report-functions": [
+                "unlink", 
+                "get_typed_instance", 
+                "cu_validate_ref", 
+                "virDomainGetName", 
+                "cu_return_instance_name", 
+                "cu_get_inst_arg", 
+                "__asprintf_chk", 
+                "__stack_chk_fail", 
+                "uuid_unparse", 
+                "parse_instanceid", 
+                "_std_invokemethod", 
+                "get_vssd_by_name", 
+                "get_host_system_properties", 
+                "_std_cleanup", 
+                "_Jv_RegisterClasses", 
+                "calloc", 
+                "libvirt_cim_init", 
+                "free", 
+                "cu_get_ref_arg", 
+                "virConnectClose", 
+                "virDomainFree", 
+                "virDomainRestore", 
+                "uuid_generate", 
+                "virDomainLookupByName", 
+                "__strdup", 
+                "cu_statusf", 
+                "__gmon_start__", 
+                "pfx_from_conn", 
+                "cu_get_str_path", 
+                "cu_get_u16_arg", 
+                "_ITM_registerTMCloneTable", 
+                "_ITM_deregisterTMCloneTable", 
+                "debug_print", 
+                "__cxa_finalize", 
+                "connect_by_classname"
+            ], 
+            "rpm": "libvirt-cim-0.6.3-6.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/cmpi/libVirt_VirtualSystemSnapshotService.so.0.6.3"
+        }, 
+        "usr/lib/cmpi/libVirt_VirtualSystemSnapshotServiceCapabilities_so_0_6_3": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "__stack_chk_fail", 
+                "_ITM_registerTMCloneTable", 
+                "__gmon_start__", 
+                "cu_validate_ref", 
+                "virConnectClose", 
+                "cu_statusf", 
+                "cu_return_instance_name", 
+                "libvirt_cim_init", 
+                "get_typed_instance", 
+                "pfx_from_conn", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "libvirt-cim-0.6.3-6.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/cmpi/libVirt_VirtualSystemSnapshotServiceCapabilities.so.0.6.3"
+        }, 
+        "usr/lib/cmpi/libVirt_ConsoleRedirectionServiceCapabilities_so_0_6_3": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "_ITM_deregisterTMCloneTable", 
+                "_Jv_RegisterClasses", 
+                "virConnectClose", 
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "connect_by_classname", 
+                "cu_validate_ref", 
+                "__stack_chk_fail", 
+                "libvirt_cim_init", 
+                "get_typed_instance", 
+                "pfx_from_conn"
+            ], 
+            "rpm": "libvirt-cim-0.6.3-6.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/cmpi/libVirt_ConsoleRedirectionServiceCapabilities.so.0.6.3"
+        }, 
+        "usr/lib/cmpi/libVirt_ComputerSystem_so_0_6_3": {
+            "report-functions": [
+                "virDomainShutdown", 
+                "inst_list_free", 
+                "_ITM_deregisterTMCloneTable", 
+                "cu_return_instance_names", 
+                "cleanup_dominfo", 
+                "inst_list_init", 
+                "infostore_open", 
+                "get_typed_instance", 
+                "infostore_get_u64", 
+                "gethostname", 
+                "virDomainCreate", 
+                "virDomainReboot", 
+                "calloc", 
+                "virDomainGetConnect", 
+                "get_domain_list", 
+                "virDomainFree", 
+                "infostore_get_bool", 
+                "infostore_close", 
+                "_std_invokemethod", 
+                "_Jv_RegisterClasses", 
+                "debug_print", 
+                "pfx_from_conn", 
+                "cu_get_str_path", 
+                "virConnectClose", 
+                "cu_get_u16_arg", 
+                "_std_cleanup", 
+                "__stack_chk_fail", 
+                "domain_online", 
+                "virDomainGetInfo", 
+                "free", 
+                "virDomainSuspend", 
+                "virDomainGetName", 
+                "stdi_raise_indication", 
+                "inst_list_add", 
+                "_ITM_registerTMCloneTable", 
+                "virDomainSetSchedulerParameters", 
+                "infostore_set_u64", 
+                "libvirt_cim_init", 
+                "virConnectGetType", 
+                "__strdup", 
+                "get_dominfo", 
+                "virDomainDestroy", 
+                "virDomainGetUUIDString", 
+                "virDomainLookupByName", 
+                "__cxa_finalize", 
+                "strcasecmp", 
+                "cu_validate_ref", 
+                "virDomainDefineXML", 
+                "get_typed_class", 
+                "cu_statusf", 
+                "cu_return_instances", 
+                "virDomainGetXMLDesc", 
+                "__gmon_start__", 
+                "__asprintf_chk", 
+                "vsss_has_save_image", 
+                "strncpy", 
+                "connect_by_classname"
+            ], 
+            "rpm": "libvirt-cim-0.6.3-6.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/cmpi/libVirt_ComputerSystem.so.0.6.3"
+        }, 
+        "usr/lib/cmpi/libVirt_VirtualSystemManagementService_so_0_6_3": {
+            "report-functions": [
+                "res_type_from_rasd_classname", 
+                "inst_list_add", 
+                "has_kvm_domain_type", 
+                "detach_device", 
+                "attach_device", 
+                "memcpy", 
+                "parse_id", 
+                "__strdup", 
+                "_std_cleanup", 
+                "__stack_chk_fail", 
+                "realloc", 
+                "virDomainLookupByName", 
+                "gettimeofday", 
+                "cu_get_ref_arg", 
+                "class_prefix_name", 
+                "strcasecmp", 
+                "_Jv_RegisterClasses", 
+                "stdi_raise_indication", 
+                "cu_get_str_prop", 
+                "get_rasd_by_name", 
+                "virConnectGetCapabilities", 
+                "strlen", 
+                "cu_get_array_arg", 
+                "virDomainGetConnect", 
+                "name_from_pool_id", 
+                "cu_get_u32_prop", 
+                "xmlDocGetRootElement", 
+                "connect_by_classname", 
+                "_ITM_registerTMCloneTable", 
+                "_std_invokemethod", 
+                "virDomainLookupByUUIDString", 
+                "virDomainDestroy", 
+                "virt_set_status", 
+                "cu_get_array_prop", 
+                "default_device_pool", 
+                "virDomainSetSchedulerParametersFlags", 
+                "virDomainGetAutostart", 
+                "infostore_delete", 
+                "cu_merge_instances", 
+                "cu_get_u64_prop", 
+                "get_key_from_ref_arg", 
+                "cu_validate_ref", 
+                "disk_type_from_file", 
+                "enum_rasds", 
+                "cleanup_dominfo", 
+                "get_disable_kvm", 
+                "get_domain_by_name", 
+                "xmlParseMemory", 
+                "get_host_system_properties", 
+                "domain_online", 
+                "system_to_xml", 
+                "inst_list_init", 
+                "strchr", 
+                "malloc", 
+                "__cxa_finalize", 
+                "cu_get_bool_prop", 
+                "infostore_set_u64", 
+                "rand_r", 
+                "change_device", 
+                "get_typed_class", 
+                "srand", 
+                "infostore_open", 
+                "cu_return_instance_name", 
+                "calloc", 
+                "get_dominfo", 
+                "cu_get_inst_arg", 
+                "__asprintf_chk", 
+                "parse_fq_devid", 
+                "stdi_trigger_indication", 
+                "debug_print", 
+                "_ITM_deregisterTMCloneTable", 
+                "free", 
+                "virGetVersion", 
+                "cu_get_u16_prop", 
+                "virDomainDefineXML", 
+                "sscanf", 
+                "cu_get_str_path", 
+                "virConnectClose", 
+                "pfx_from_conn", 
+                "virDomainUndefine", 
+                "parse_instanceid", 
+                "strncasecmp", 
+                "virConnectGetVersion", 
+                "set_source_inst_props", 
+                "cleanup_virt_device", 
+                "virDomainGetName", 
+                "virDomainFree", 
+                "get_typed_instance", 
+                "strncpy", 
+                "virDomainSetAutostart", 
+                "inst_list_free", 
+                "__gmon_start__", 
+                "strcmp", 
+                "libvirt_cim_init", 
+                "infostore_close"
+            ], 
+            "rpm": "libvirt-cim-0.6.3-6.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/cmpi/libVirt_VirtualSystemManagementService.so.0.6.3"
+        }, 
+        "usr/lib/libxkutil_so_0_6_3": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "strcmp", 
+                "virDomainGetAutostart", 
+                "virConnectListDefinedDomains", 
+                "virConnectOpen", 
+                "virInitialize", 
+                "xmlNodeSetContent", 
+                "xmlParseMemory", 
+                "virDomainGetXMLDesc", 
+                "malloc", 
+                "ftruncate", 
+                "xmlCtxtReadFd", 
+                "xmlFreeDoc", 
+                "virStorageVolFree", 
+                "virNetworkDefineXML", 
+                "virDomainSetSchedulerParameters", 
+                "uuid_generate", 
+                "virConnectListDomains", 
+                "realloc", 
+                "virConnectListNWFilters", 
+                "virDomainGetUUIDString", 
+                "__asprintf_chk", 
+                "xmlXPathFreeObject", 
+                "virDomainDetachDevice", 
+                "virStoragePoolRefresh", 
+                "virNetworkUndefine", 
+                "virDomainLookupByName", 
+                "xmlXPathCastToString", 
+                "virStoragePoolLookupByVolume", 
+                "__gmon_start__", 
+                "uuid_unparse", 
+                "virStoragePoolDestroy", 
+                "strcasecmp", 
+                "sscanf", 
+                "virDomainAttachDevice", 
+                "virConnResetLastError", 
+                "pthread_mutex_lock", 
+                "virNWFilterDefineXML", 
+                "virConnectGetURI", 
+                "virStorageVolDelete", 
+                "_Jv_RegisterClasses", 
+                "virNetworkLookupByName", 
+                "virConnectNumOfDomains", 
+                "virNWFilterGetXMLDesc", 
+                "cu_get_ref_arg", 
+                "virDomainSetMaxMemory", 
+                "xmlXPathEval", 
+                "calloc", 
+                "virConnectNumOfNWFilters", 
+                "virNetworkCreate", 
+                "xmlSaveToFd", 
+                "virDomainGetInfo", 
+                "lseek", 
+                "virStoragePoolDefineXML", 
+                "unlink", 
+                "virDomainGetVcpus", 
+                "virNWFilterUndefine", 
+                "virDomainGetName", 
+                "xmlNodeGetContent", 
+                "xmlXPathEvalExpression", 
+                "virNWFilterFree", 
+                "close", 
+                "cu_get_str_path", 
+                "strlen", 
+                "virDomainGetConnect", 
+                "xmlSaveToBuffer", 
+                "memcpy", 
+                "xmlXPathFreeContext", 
+                "virConnectGetType", 
+                "xmlSetGenericErrorFunc", 
+                "cu_statusf", 
+                "flock", 
+                "virDomainLookupByID", 
+                "virStorageVolLookupByPath", 
+                "set_reference", 
+                "virDomainFree", 
+                "xmlXPathNewContext", 
+                "strstr", 
+                "virNetworkFree", 
+                "xmlNewProp", 
+                "__vasprintf_chk", 
+                "debug_print", 
+                "xmlAddChild", 
+                "virStoragePoolCreate", 
+                "virConnectGetMaxVcpus", 
+                "virNetworkDestroy", 
+                "virStorageVolGetPath", 
+                "xmlSaveClose", 
+                "config_read_file", 
+                "xmlFreeParserCtxt", 
+                "strncpy", 
+                "_ITM_deregisterTMCloneTable", 
+                "virDomainSetMemory", 
+                "virNWFilterLookupByUUIDString", 
+                "xmlNewParserCtxt", 
+                "xmlDocGetRootElement", 
+                "config_init", 
+                "strchr", 
+                "__strdup", 
+                "freopen", 
+                "virStoragePoolSetAutostart", 
+                "virConnectNumOfDefinedDomains", 
+                "xmlBufferFree", 
+                "config_lookup_bool", 
+                "xmlGetProp", 
+                "virStoragePoolLookupByName", 
+                "_ITM_registerTMCloneTable", 
+                "xmlSaveDoc", 
+                "config_destroy", 
+                "xmlNewDocNode", 
+                "virGetLastError", 
+                "xmlBufferContent", 
+                "xmlBufferCreate", 
+                "virConnectOpenReadOnly", 
+                "xmlNewChild", 
+                "__cxa_finalize", 
+                "virDomainSetVcpus", 
+                "__fxstat", 
+                "__xstat64", 
+                "virNWFilterLookupByName", 
+                "virStorageVolCreateXML", 
+                "free", 
+                "open", 
+                "xmlFreeNode", 
+                "xmlStrEqual", 
+                "xmlNewDoc", 
+                "xmlSaveTree", 
+                "xmlDocSetRootElement", 
+                "xmlFree", 
+                "strncasecmp", 
+                "pthread_mutex_unlock", 
+                "virStoragePoolFree", 
+                "virConnGetLastError", 
+                "xmlNewNode"
+            ], 
+            "rpm": "libvirt-cim-0.6.3-6.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libxkutil.so.0.6.3"
+        }, 
+        "usr/lib/cmpi/libVirt_ConsoleRedirectionService_so_0_6_3": {
+            "report-functions": [
+                "debug_print", 
+                "cu_statusf", 
+                "__gmon_start__", 
+                "__stack_chk_fail", 
+                "__cxa_finalize", 
+                "pfx_from_conn", 
+                "get_host_system_properties", 
+                "libvirt_cim_init", 
+                "connect_by_classname", 
+                "_Jv_RegisterClasses", 
+                "cu_return_instance_name", 
+                "cu_validate_ref", 
+                "virConnectClose", 
+                "get_typed_instance"
+            ], 
+            "rpm": "libvirt-cim-0.6.3-6.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/cmpi/libVirt_ConsoleRedirectionService.so.0.6.3"
+        }, 
+        "usr/lib/cmpi/libVirt_VSMigrationCapabilities_so_0_6_3": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "libvirt_cim_init", 
+                "get_typed_instance", 
+                "pfx_from_conn", 
+                "__gmon_start__", 
+                "virConnectClose", 
+                "__cxa_finalize", 
+                "connect_by_classname", 
+                "cu_statusf", 
+                "cu_return_instance_name", 
+                "_Jv_RegisterClasses", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "libvirt-cim-0.6.3-6.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/cmpi/libVirt_VSMigrationCapabilities.so.0.6.3"
+        }, 
+        "usr/lib/cmpi/libVirt_HostedService_so_0_6_3": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "libvirt_cim_init", 
+                "stda_AssociationCleanup", 
+                "inst_list_add", 
+                "stda_AssociatorNames", 
+                "get_console_rs", 
+                "strncasecmp", 
+                "stda_ReferenceNames", 
+                "_ITM_deregisterTMCloneTable", 
+                "get_rpcs", 
+                "__gmon_start__", 
+                "stda_References", 
+                "free", 
+                "stda_Associators", 
+                "_ITM_registerTMCloneTable", 
+                "class_base_name", 
+                "get_migration_service", 
+                "get_vsms", 
+                "__stack_chk_fail", 
+                "get_host", 
+                "make_reference", 
+                "_Jv_RegisterClasses", 
+                "strcasecmp"
+            ], 
+            "rpm": "libvirt-cim-0.6.3-6.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/cmpi/libVirt_HostedService.so.0.6.3"
+        }, 
+        "usr/lib/cmpi/libVirt_ComputerSystemIndication_so_0_6_3": {
+            "report-functions": [
+                "libvirt_cim_init", 
+                "__gmon_start__", 
+                "_Jv_RegisterClasses", 
+                "clock_gettime", 
+                "stdi_deliver", 
+                "get_typed_instance", 
+                "calloc", 
+                "get_typed_class", 
+                "pthread_mutex_unlock", 
+                "stdi_handler", 
+                "sscanf", 
+                "malloc", 
+                "pthread_cond_signal", 
+                "_ITM_registerTMCloneTable", 
+                "__strdup", 
+                "instance_from_dominfo", 
+                "free_domain_list", 
+                "cu_statusf", 
+                "pthread_cond_timedwait", 
+                "stdi_enable_indications", 
+                "get_domain_by_ref", 
+                "stdi_deactivate_filter", 
+                "get_host_system_properties", 
+                "__stack_chk_fail", 
+                "stdi_free_ind_args", 
+                "get_dominfo_from_xml", 
+                "class_prefix_name", 
+                "_ITM_deregisterTMCloneTable", 
+                "connect_by_classname", 
+                "pthread_mutex_lock", 
+                "free", 
+                "debug_print", 
+                "__cxa_finalize", 
+                "strncasecmp", 
+                "virDomainGetInfo", 
+                "stdi_cleanup", 
+                "get_domain_by_name", 
+                "cleanup_dominfo", 
+                "virDomainGetUUIDString", 
+                "strstr", 
+                "stdi_activate_filter", 
+                "stdi_disable_indications", 
+                "virDomainGetXMLDesc", 
+                "get_domain_list", 
+                "virConnectClose"
+            ], 
+            "rpm": "libvirt-cim-0.6.3-6.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/cmpi/libVirt_ComputerSystemIndication.so.0.6.3"
+        }, 
+        "usr/lib/cmpi/libVirt_RASD_so_0_6_3": {
+            "report-functions": [
+                "cu_get_str_path", 
+                "cu_return_instances", 
+                "__stack_chk_fail", 
+                "__asprintf_chk", 
+                "_Jv_RegisterClasses", 
+                "virt_set_status", 
+                "malloc", 
+                "inst_list_init", 
+                "strcasecmp", 
+                "debug_print", 
+                "strcmp", 
+                "infostore_get_u64", 
+                "free", 
+                "infostore_close", 
+                "libvirt_cim_init", 
+                "virDomainGetSchedulerType", 
+                "class_base_name", 
+                "_ITM_registerTMCloneTable", 
+                "virDomainFree", 
+                "virt_device_dup", 
+                "virStoragePoolFree", 
+                "calloc", 
+                "cu_statusf", 
+                "cleanup_virt_devices", 
+                "get_input_dev_caption", 
+                "virConnectClose", 
+                "cu_return_instance_names", 
+                "__cxa_finalize", 
+                "get_devices", 
+                "virStoragePoolGetName", 
+                "__gmon_start__", 
+                "inst_list_add", 
+                "infostore_open", 
+                "domain_vcpu_count", 
+                "parse_fq_devid", 
+                "get_domain_list", 
+                "get_typed_instance", 
+                "cu_validate_ref", 
+                "virStorageVolGetInfo", 
+                "inst_list_free", 
+                "virDomainGetSchedulerParameters", 
+                "get_fq_devid", 
+                "connect_by_classname", 
+                "virStorageVolFree", 
+                "virConnectGetType", 
+                "virDomainLookupByName", 
+                "__xstat64", 
+                "virStoragePoolLookupByVolume", 
+                "domain_online", 
+                "virStorageVolLookupByPath"
+            ], 
+            "rpm": "libvirt-cim-0.6.3-6.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/cmpi/libVirt_RASD.so.0.6.3"
+        }, 
+        "usr/lib/cmpi/libVirt_VSMigrationService_so_0_6_3": {
+            "report-functions": [
+                "virDomainDefineXML", 
+                "__fprintf_chk", 
+                "cu_get_ref_arg", 
+                "setpgrp", 
+                "cu_get_inst_arg", 
+                "virDomainGetName", 
+                "umask", 
+                "debug_print", 
+                "killpg", 
+                "infostore_open", 
+                "__strdup", 
+                "uuid_generate", 
+                "perror", 
+                "_Jv_RegisterClasses", 
+                "realloc", 
+                "strncasecmp", 
+                "cu_get_str_path", 
+                "virDomainLookupByName", 
+                "get_migration_sd", 
+                "domain_exists", 
+                "fgets", 
+                "get_mig_ssh_tmp_key", 
+                "cu_validate_ref", 
+                "_ITM_deregisterTMCloneTable", 
+                "check_refs_pfx_match", 
+                "readdir", 
+                "virConnectGetURI", 
+                "__asprintf_chk", 
+                "pclose", 
+                "strcasecmp", 
+                "virDomainShutdown", 
+                "_std_cleanup", 
+                "cu_get_str_arg", 
+                "close", 
+                "popen", 
+                "usleep", 
+                "get_host_system_properties", 
+                "free", 
+                "virDomainFree", 
+                "__cxa_finalize", 
+                "virConnectGetVersion", 
+                "sleep", 
+                "malloc", 
+                "connect_by_classname", 
+                "virDomainMigrate", 
+                "cu_get_u16_prop", 
+                "uuid_unparse", 
+                "fork", 
+                "cu_get_array_prop", 
+                "get_typed_class", 
+                "__xstat64", 
+                "virDomainGetInfo", 
+                "virDomainCreate", 
+                "__gmon_start__", 
+                "virConnectOpen", 
+                "mkstemp", 
+                "get_domain_by_ref", 
+                "_std_invokemethod", 
+                "waitpid", 
+                "basename", 
+                "virDomainGetXMLDesc", 
+                "virDomainGetUUIDString", 
+                "infostore_close", 
+                "virDomainGetConnect", 
+                "pfx_from_conn", 
+                "get_typed_instance", 
+                "cu_dup_instance", 
+                "__stack_chk_fail", 
+                "virConnectClose", 
+                "infostore_set_bool", 
+                "domain_online", 
+                "__xstat", 
+                "fdopen", 
+                "unlink", 
+                "closedir", 
+                "strerror", 
+                "_ITM_registerTMCloneTable", 
+                "execl", 
+                "cu_return_instance_name", 
+                "virt_set_status", 
+                "fclose", 
+                "cu_statusf", 
+                "stdi_raise_indication", 
+                "__errno_location", 
+                "opendir", 
+                "libvirt_cim_init"
+            ], 
+            "rpm": "libvirt-cim-0.6.3-6.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/cmpi/libVirt_VSMigrationService.so.0.6.3"
+        }, 
+        "usr/lib/cmpi/libVirt_ElementAllocatedFromPool_so_0_6_3": {
+            "report-functions": [
+                "enum_pools", 
+                "get_device_by_ref", 
+                "_Jv_RegisterClasses", 
+                "res_type_from_pool_id", 
+                "cu_get_bool_prop", 
+                "enum_devices", 
+                "strcasecmp", 
+                "inst_list_add", 
+                "cu_get_str_prop", 
+                "stda_References", 
+                "inst_list_init", 
+                "debug_print", 
+                "stda_ReferenceNames", 
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "libvirt_cim_init", 
+                "cu_statusf", 
+                "stda_AssociatorNames", 
+                "get_pool_by_ref", 
+                "stda_AssociationCleanup", 
+                "stda_Associators", 
+                "free", 
+                "make_reference", 
+                "_ITM_registerTMCloneTable", 
+                "pool_member_of", 
+                "match_hypervisor_prefix", 
+                "__cxa_finalize", 
+                "strcmp", 
+                "res_type_from_device_classname", 
+                "inst_list_free", 
+                "_ITM_deregisterTMCloneTable", 
+                "cu_get_str_path"
+            ], 
+            "rpm": "libvirt-cim-0.6.3-6.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/cmpi/libVirt_ElementAllocatedFromPool.so.0.6.3"
+        }, 
+        "usr/lib/cmpi/libVirt_SAPAvailableForElement_so_0_6_3": {
+            "report-functions": [
+                "get_console_sap_by_ref", 
+                "inst_list_add", 
+                "match_hypervisor_prefix", 
+                "stda_ReferenceNames", 
+                "get_domain_by_name", 
+                "stda_AssociationCleanup", 
+                "stda_Associators", 
+                "cu_get_str_path", 
+                "_ITM_registerTMCloneTable", 
+                "inst_list_free", 
+                "_ITM_deregisterTMCloneTable", 
+                "get_domain_by_ref", 
+                "libvirt_cim_init", 
+                "cu_get_str_prop", 
+                "__gmon_start__", 
+                "_Jv_RegisterClasses", 
+                "__cxa_finalize", 
+                "inst_list_init", 
+                "__stack_chk_fail", 
+                "stda_AssociatorNames", 
+                "stda_References", 
+                "enum_console_sap"
+            ], 
+            "rpm": "libvirt-cim-0.6.3-6.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/cmpi/libVirt_SAPAvailableForElement.so.0.6.3"
+        }, 
+        "usr/lib/cmpi/libVirt_ElementConformsToProfile_so_0_6_3": {
+            "report-functions": [
+                "libvirt_cim_init", 
+                "strcasecmp", 
+                "stda_Associators", 
+                "_ITM_registerTMCloneTable", 
+                "inst_list_add", 
+                "stda_AssociatorNames", 
+                "free", 
+                "stda_References", 
+                "virConnectClose", 
+                "get_profile", 
+                "convert_sblim_hostsystem", 
+                "get_profile_by_ref", 
+                "connect_by_classname", 
+                "cu_get_str_path", 
+                "strncasecmp", 
+                "stda_AssociationCleanup", 
+                "get_host", 
+                "cu_statusf", 
+                "_ITM_deregisterTMCloneTable", 
+                "__stack_chk_fail", 
+                "class_base_name", 
+                "match_hypervisor_prefix", 
+                "make_reference", 
+                "stda_ReferenceNames", 
+                "__gmon_start__", 
+                "get_typed_class", 
+                "pfx_from_conn"
+            ], 
+            "rpm": "libvirt-cim-0.6.3-6.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/cmpi/libVirt_ElementConformsToProfile.so.0.6.3"
+        }, 
+        "usr/lib/cmpi/libVirt_SettingsDefineCapabilities_so_0_6_3": {
+            "report-functions": [
+                "stda_AssociatorNames", 
+                "virStoragePoolNumOfVolumes", 
+                "_ITM_deregisterTMCloneTable", 
+                "pool_rasd_classname_from_type", 
+                "uuid_generate", 
+                "cleanup_virt_pool", 
+                "free", 
+                "match_hypervisor_prefix", 
+                "uuid_unparse", 
+                "make_reference", 
+                "get_typed_instance", 
+                "pfx_from_conn", 
+                "strtol", 
+                "strstr", 
+                "virStoragePoolListVolumes", 
+                "__asprintf_chk", 
+                "virStorageVolGetInfo", 
+                "get_migration_caps", 
+                "rasd_classname_from_type", 
+                "virStoragePoolFree", 
+                "virConnectClose", 
+                "cu_get_u64_prop", 
+                "cu_get_str_prop", 
+                "stda_References", 
+                "stda_AssociationCleanup", 
+                "get_input_dev_caption", 
+                "_Jv_RegisterClasses", 
+                "virStoragePoolGetConnect", 
+                "get_migration_sd", 
+                "_ITM_registerTMCloneTable", 
+                "virConnectGetVersion", 
+                "__stack_chk_fail", 
+                "inst_list_add", 
+                "cu_get_bool_prop", 
+                "strtok", 
+                "class_prefix_name", 
+                "get_disk_pool", 
+                "malloc", 
+                "virStorageVolGetConnect", 
+                "cu_get_str_path", 
+                "cu_statusf", 
+                "virt_set_status", 
+                "get_alloc_cap_by_id", 
+                "connect_by_classname", 
+                "res_type_from_pool_id", 
+                "virStorageVolLookupByName", 
+                "virStorageVolFree", 
+                "strcasecmp", 
+                "__gmon_start__", 
+                "debug_print", 
+                "strncasecmp", 
+                "stda_Associators", 
+                "virConnectGetMaxVcpus", 
+                "get_pool_by_name", 
+                "virStorageVolGetPath", 
+                "virConnectGetCapabilities", 
+                "stda_ReferenceNames", 
+                "virStoragePoolLookupByName", 
+                "libvirt_cim_init"
+            ], 
+            "rpm": "libvirt-cim-0.6.3-6.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/cmpi/libVirt_SettingsDefineCapabilities.so.0.6.3"
+        }, 
+        "usr/lib/cmpi/libVirt_ElementCapabilities_so_0_6_3": {
+            "report-functions": [
+                "get_console_rs_caps", 
+                "get_vsm_cap", 
+                "_ITM_registerTMCloneTable", 
+                "__gmon_start__", 
+                "stda_References", 
+                "get_elec_by_ref", 
+                "make_reference", 
+                "stda_Associators", 
+                "get_migration_caps", 
+                "get_domain_by_ref", 
+                "get_host", 
+                "get_vsms", 
+                "_Jv_RegisterClasses", 
+                "get_migration_service", 
+                "debug_print", 
+                "get_domain_by_name", 
+                "__cxa_finalize", 
+                "cu_get_str_path", 
+                "_ITM_deregisterTMCloneTable", 
+                "free", 
+                "libvirt_cim_init", 
+                "enum_alloc_cap_instances", 
+                "__stack_chk_fail", 
+                "stda_AssociationCleanup", 
+                "strcasecmp", 
+                "inst_list_add", 
+                "convert_sblim_hostsystem", 
+                "get_elec_by_name", 
+                "stda_AssociatorNames", 
+                "get_alloc_cap_by_id", 
+                "cu_statusf", 
+                "strncasecmp", 
+                "get_pool_by_name", 
+                "get_console_rs", 
+                "match_hypervisor_prefix"
+            ], 
+            "rpm": "libvirt-cim-0.6.3-6.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/cmpi/libVirt_ElementCapabilities.so.0.6.3"
+        }, 
+        "usr/lib/cmpi/libVirt_VirtualSystemManagementCapabilities_so_0_6_3": {
+            "report-functions": [
+                "pfx_from_conn", 
+                "free", 
+                "class_prefix_name", 
+                "_Jv_RegisterClasses", 
+                "_ITM_deregisterTMCloneTable", 
+                "connect_by_classname", 
+                "libvirt_cim_init", 
+                "__cxa_finalize", 
+                "cu_return_instance_name", 
+                "cu_statusf", 
+                "_ITM_registerTMCloneTable", 
+                "virConnectClose", 
+                "cu_validate_ref", 
+                "get_typed_instance", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "libvirt-cim-0.6.3-6.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/cmpi/libVirt_VirtualSystemManagementCapabilities.so.0.6.3"
+        }, 
+        "usr/lib/cmpi/libVirt_ServiceAccessBySAP_so_0_6_3": {
+            "report-functions": [
+                "inst_list_add", 
+                "libvirt_cim_init", 
+                "_ITM_registerTMCloneTable", 
+                "__cxa_finalize", 
+                "stda_AssociatorNames", 
+                "make_reference", 
+                "stda_ReferenceNames", 
+                "enum_console_sap", 
+                "stda_AssociationCleanup", 
+                "stda_Associators", 
+                "stda_References", 
+                "__stack_chk_fail", 
+                "_ITM_deregisterTMCloneTable", 
+                "class_base_name", 
+                "get_console_sap_by_ref", 
+                "__gmon_start__", 
+                "free", 
+                "match_hypervisor_prefix"
+            ], 
+            "rpm": "libvirt-cim-0.6.3-6.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/cmpi/libVirt_ServiceAccessBySAP.so.0.6.3"
+        }, 
+        "usr/lib/cmpi/libVirt_AllocationCapabilities_so_0_6_3": {
+            "report-functions": [
+                "__gmon_start__", 
+                "get_typed_instance", 
+                "cu_return_instance_names", 
+                "cu_return_instances", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable", 
+                "__stack_chk_fail", 
+                "cu_get_str_prop", 
+                "cu_get_str_path", 
+                "strcmp", 
+                "inst_list_add", 
+                "enum_pools", 
+                "_Jv_RegisterClasses", 
+                "provider_is_responsible", 
+                "cu_copy_prop", 
+                "cu_validate_ref", 
+                "libvirt_cim_init", 
+                "cu_statusf", 
+                "__cxa_finalize", 
+                "inst_list_free"
+            ], 
+            "rpm": "libvirt-cim-0.6.3-6.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/cmpi/libVirt_AllocationCapabilities.so.0.6.3"
+        }, 
+        "usr/lib/cmpi/libVirt_VSMigrationSettingData_so_0_6_3": {
+            "report-functions": [
+                "get_typed_instance", 
+                "__gmon_start__", 
+                "libvirt_cim_init", 
+                "connect_by_classname", 
+                "_ITM_deregisterTMCloneTable", 
+                "__stack_chk_fail", 
+                "virConnectClose", 
+                "cu_statusf", 
+                "__cxa_finalize", 
+                "cu_validate_ref", 
+                "_Jv_RegisterClasses"
+            ], 
+            "rpm": "libvirt-cim-0.6.3-6.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/cmpi/libVirt_VSMigrationSettingData.so.0.6.3"
+        }, 
+        "usr/lib/cmpi/libVirt_SwitchService_so_0_6_3": {
+            "report-functions": [
+                "realloc", 
+                "cu_statusf", 
+                "popen", 
+                "libvirt_cim_init", 
+                "strncmp", 
+                "__gmon_start__", 
+                "debug_print", 
+                "__strdup", 
+                "virConnectClose", 
+                "__sprintf_chk", 
+                "get_vsi_support_key_string", 
+                "__strndup", 
+                "pclose", 
+                "__stack_chk_fail", 
+                "_ITM_registerTMCloneTable", 
+                "__cxa_finalize", 
+                "get_host_system_properties", 
+                "strlen", 
+                "fgets", 
+                "get_typed_instance", 
+                "connect_by_classname", 
+                "free", 
+                "_Jv_RegisterClasses", 
+                "cu_return_instance_name", 
+                "_ITM_deregisterTMCloneTable", 
+                "pfx_from_conn"
+            ], 
+            "rpm": "libvirt-cim-0.6.3-6.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/cmpi/libVirt_SwitchService.so.0.6.3"
+        }, 
+        "usr/lib/cmpi/libVirt_VSSDComponent_so_0_6_3": {
+            "report-functions": [
+                "libvirt_cim_init", 
+                "get_vssd_by_name", 
+                "stda_AssociationCleanup", 
+                "make_reference", 
+                "get_vssd_by_ref", 
+                "_ITM_registerTMCloneTable", 
+                "_ITM_deregisterTMCloneTable", 
+                "stda_Associators", 
+                "get_rasd_by_ref", 
+                "parse_instanceid", 
+                "stda_References", 
+                "__gmon_start__", 
+                "stda_AssociatorNames", 
+                "__stack_chk_fail", 
+                "_Jv_RegisterClasses", 
+                "cu_get_str_path", 
+                "stda_ReferenceNames", 
+                "inst_list_add", 
+                "enum_rasds", 
+                "parse_fq_devid", 
+                "__cxa_finalize", 
+                "free"
+            ], 
+            "rpm": "libvirt-cim-0.6.3-6.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/cmpi/libVirt_VSSDComponent.so.0.6.3"
+        }, 
+        "usr/lib/cmpi/libVirt_DevicePool_so_0_6_3": {
+            "report-functions": [
+                "virStorageVolFree", 
+                "__stack_chk_fail", 
+                "cu_statusf", 
+                "inst_list_init", 
+                "inst_list_free", 
+                "_Jv_RegisterClasses", 
+                "get_devices", 
+                "virConnectListDomains", 
+                "virStoragePoolGetInfo", 
+                "virNetworkLookupByName", 
+                "virConnectNumOfStoragePools", 
+                "virDomainLookupByName", 
+                "calloc", 
+                "parse_fq_devid", 
+                "strncasecmp", 
+                "virNetworkGetBridgeName", 
+                "virStoragePoolGetAutostart", 
+                "__cxa_finalize", 
+                "connect_by_classname", 
+                "sscanf", 
+                "virStoragePoolGetXMLDesc", 
+                "virNetworkFree", 
+                "libvirt_cim_init", 
+                "virConnectListStoragePools", 
+                "virt_set_status", 
+                "virDomainGetInfo", 
+                "cleanup_virt_pool", 
+                "cu_return_instances", 
+                "cu_get_bool_prop", 
+                "virStoragePoolGetName", 
+                "virConnectNumOfDomains", 
+                "_ITM_registerTMCloneTable", 
+                "virStoragePoolFree", 
+                "get_typed_instance", 
+                "virStorageVolLookupByPath", 
+                "__gmon_start__", 
+                "cu_validate_ref", 
+                "inst_list_add", 
+                "strstr", 
+                "virDomainFree", 
+                "__asprintf_chk", 
+                "virStoragePoolLookupByVolume", 
+                "get_disk_pool_type", 
+                "_ITM_deregisterTMCloneTable", 
+                "get_pool_from_xml", 
+                "virDomainLookupByID", 
+                "provider_is_responsible", 
+                "pfx_from_conn", 
+                "realloc", 
+                "debug_print", 
+                "strchr", 
+                "malloc", 
+                "__strdup", 
+                "virConnectListNetworks", 
+                "strcmp", 
+                "cu_return_instance_names", 
+                "virNodeGetInfo", 
+                "cu_get_str_path", 
+                "virConnectClose", 
+                "virNetworkGetName", 
+                "strcasecmp", 
+                "virConnectNumOfNetworks", 
+                "virStoragePoolLookupByName"
+            ], 
+            "rpm": "libvirt-cim-0.6.3-6.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/cmpi/libVirt_DevicePool.so.0.6.3"
+        }, 
+        "usr/lib/cmpi/libVirt_ResourcePoolConfigurationService_so_0_6_3": {
+            "report-functions": [
+                "delete_resource", 
+                "res_type_from_rasd_classname", 
+                "_ITM_registerTMCloneTable", 
+                "virt_set_status", 
+                "cu_validate_ref", 
+                "destroy_pool", 
+                "virStoragePoolLookupByName", 
+                "cu_get_ref_arg", 
+                "malloc", 
+                "cu_get_str_prop", 
+                "calloc", 
+                "cu_get_array_prop", 
+                "cu_get_array_arg", 
+                "__gmon_start__", 
+                "virStoragePoolRefresh", 
+                "debug_print", 
+                "res_type_from_pool_classname", 
+                "name_from_pool_id", 
+                "__stack_chk_fail", 
+                "cu_get_str_arg", 
+                "create_resource", 
+                "cleanup_virt_pool", 
+                "__strdup", 
+                "cu_get_str_path", 
+                "get_pool_by_name", 
+                "free", 
+                "define_pool", 
+                "__asprintf_chk", 
+                "libvirt_cim_init", 
+                "cu_statusf", 
+                "virStoragePoolFree", 
+                "pfx_from_conn", 
+                "pool_to_xml", 
+                "_std_cleanup", 
+                "get_typed_instance", 
+                "get_pool_by_ref", 
+                "__cxa_finalize", 
+                "_Jv_RegisterClasses", 
+                "_ITM_deregisterTMCloneTable", 
+                "connect_by_classname", 
+                "cu_return_instance_name", 
+                "cu_get_inst_arg", 
+                "cleanup_virt_pool_res", 
+                "virConnectClose", 
+                "get_host_system_properties", 
+                "_std_invokemethod"
+            ], 
+            "rpm": "libvirt-cim-0.6.3-6.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/cmpi/libVirt_ResourcePoolConfigurationService.so.0.6.3"
+        }, 
+        "usr/lib/cmpi/libVirt_EntriesInFilterList_so_0_6_3": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "instance_from_filter", 
+                "connect_by_classname", 
+                "__stack_chk_fail", 
+                "make_reference", 
+                "stda_ReferenceNames", 
+                "libvirt_cim_init", 
+                "cu_statusf", 
+                "_Jv_RegisterClasses", 
+                "_ITM_registerTMCloneTable", 
+                "stda_AssociationCleanup", 
+                "get_filter_by_name", 
+                "instance_from_rule", 
+                "strcasecmp", 
+                "debug_print", 
+                "inst_list_add", 
+                "cu_get_str_path", 
+                "stda_References", 
+                "__cxa_finalize", 
+                "stda_AssociatorNames", 
+                "get_filters", 
+                "virConnectClose", 
+                "stda_Associators", 
+                "cleanup_filters"
+            ], 
+            "rpm": "libvirt-cim-0.6.3-6.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/cmpi/libVirt_EntriesInFilterList.so.0.6.3"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 0.6.3", 
+            "Name": " libvirt-cim", 
+            "License": " LGPLv2+", 
+            "URL": " http://libvirt.org/CIM/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-019.build.eng.bos.redhat.com", 
+            "Description": "\nLibvirt-cim is a CMPI CIM provider that implements the DMTF SVPC\nvirtualization model. The goal is to support most of the features\nexported by libvirt itself, enabling management of multiple\nplatforms with a single provider.\n", 
+            "Build Date": " Mon 03 Mar 2014 05:18:46 AM EST", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " libvirt-cim-0.6.3-6.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/2/libvirt-cim-0.6.3-6.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Wed 02 Apr 2014 11:04:29 AM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 6.el7", 
+            "Group": " Development/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " A CIM provider for libvirt", 
+            "Size": " 2938005"
+        }
+    }
+}

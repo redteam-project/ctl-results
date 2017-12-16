@@ -1,0 +1,89 @@
+{
+    "results": {
+        "usr/bin/sip": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "__sprintf_chk", 
+                "__stack_chk_fail", 
+                "ctime", 
+                "clearerr", 
+                "isatty", 
+                "calloc", 
+                "fputc", 
+                "fgetc", 
+                "strchr", 
+                "ferror", 
+                "__gmon_start__", 
+                "__ctype_b_loc", 
+                "memcpy", 
+                "__strdup", 
+                "strtol", 
+                "realloc", 
+                "fwrite", 
+                "fclose", 
+                "__errno_location", 
+                "fread", 
+                "__libc_start_main", 
+                "strcat", 
+                "exit", 
+                "strncpy", 
+                "fopen", 
+                "_IO_getc", 
+                "__vfprintf_chk", 
+                "strcmp", 
+                "_Jv_RegisterClasses", 
+                "free", 
+                "strstr", 
+                "fileno", 
+                "strcpy", 
+                "strncmp", 
+                "__fprintf_chk", 
+                "memset", 
+                "strlen", 
+                "strrchr", 
+                "puts", 
+                "malloc", 
+                "_ITM_deregisterTMCloneTable", 
+                "fputs", 
+                "__printf_chk", 
+                "time", 
+                "qsort"
+            ], 
+            "rpm": "sip-devel-4.14.6-4.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/sip"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 4.14.6", 
+            "Name": " sip-devel", 
+            "License": " GPLv2 or GPLv3 and (GPLv3+ with exceptions)", 
+            "URL": " http://www.riverbankcomputing.com/software/sip/intro", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-019.build.eng.bos.redhat.com", 
+            "Description": "\nThis package contains files needed to generate Python bindings for any C++\nclasses library.\n", 
+            "Build Date": " Mon 03 Feb 2014 07:39:54 AM EST", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " sip-4.14.6-4.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/3/sip-devel-4.14.6-4.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Wed 02 Apr 2014 04:18:16 PM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 4.el7", 
+            "Group": " Development/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " Files needed to generate Python bindings for any C++ class library", 
+            "Size": " 379562"
+        }
+    }
+}

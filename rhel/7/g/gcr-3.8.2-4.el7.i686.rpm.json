@@ -1,0 +1,133 @@
+{
+    "results": {
+        "usr/bin/gcr-viewer": {
+            "report-functions": [
+                "g_error_free", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable", 
+                "gtk_widget_hide", 
+                "g_option_context_new", 
+                "setlocale", 
+                "g_set_application_name", 
+                "g_object_unref", 
+                "gtk_main_quit", 
+                "textdomain", 
+                "gtk_init", 
+                "gcr_viewer_window_get_type", 
+                "g_file_new_for_commandline_arg", 
+                "g_type_check_instance_cast", 
+                "g_print", 
+                "g_log", 
+                "g_option_context_set_translation_domain", 
+                "_Jv_RegisterClasses", 
+                "__libc_start_main", 
+                "dcgettext", 
+                "bindtextdomain", 
+                "gcr_viewer_window_load", 
+                "g_option_context_parse", 
+                "gtk_get_option_group", 
+                "__stack_chk_fail", 
+                "g_strfreev", 
+                "g_signal_connect_data", 
+                "g_idle_add", 
+                "bind_textdomain_codeset", 
+                "exit", 
+                "g_option_context_free", 
+                "gtk_widget_show", 
+                "gcr_viewer_window_new", 
+                "gtk_main", 
+                "g_option_context_add_main_entries"
+            ], 
+            "rpm": "gcr-3.8.2-4.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 2, 
+                    "afC": 161
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/gcr-viewer"
+        }, 
+        "usr/libexec/gcr-prompter": {
+            "report-functions": [
+                "gcr_prompt_dialog_get_type", 
+                "_Jv_RegisterClasses", 
+                "g_log_set_default_handler", 
+                "g_log_set_handler", 
+                "gcr_system_prompter_new", 
+                "gtk_init", 
+                "g_strcmp0", 
+                "_ITM_registerTMCloneTable", 
+                "g_bus_unown_name", 
+                "fputs", 
+                "gtk_main", 
+                "bindtextdomain", 
+                "g_source_remove", 
+                "g_log", 
+                "__libc_start_main", 
+                "__syslog_chk", 
+                "g_timeout_add_seconds", 
+                "__gmon_start__", 
+                "gtk_main_quit", 
+                "g_bus_own_name", 
+                "openlog", 
+                "g_getenv", 
+                "_ITM_deregisterTMCloneTable", 
+                "g_object_unref", 
+                "gcr_system_prompter_get_prompting", 
+                "textdomain", 
+                "g_log_default_handler", 
+                "gcr_system_prompter_unregister", 
+                "setlocale", 
+                "gcr_system_prompter_register", 
+                "g_signal_connect_data", 
+                "bind_textdomain_codeset"
+            ], 
+            "rpm": "gcr-3.8.2-4.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 2, 
+                    "afC": 171
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/libexec/gcr-prompter"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 3.8.2", 
+            "Name": " gcr", 
+            "License": " LGPLv2+", 
+            "URL": " http://live.gnome.org/CryptoGlue/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-020.build.eng.bos.redhat.com", 
+            "Description": "\ngcr is a library for displaying certificates, and crypto UI, accessing\nkey stores. It also provides a viewer for crypto files on the GNOME\ndesktop.\n\ngck is a library for accessing PKCS#11 modules like smart cards.\n", 
+            "Build Date": " Fri 24 Jan 2014 05:51:21 PM EST", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " gcr-3.8.2-4.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/0/gcr-3.8.2-4.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 01 Apr 2014 12:28:45 PM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 4.el7", 
+            "Group": " Development/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " A library for bits of crypto UI and parsing", 
+            "Size": " 2309766"
+        }
+    }
+}

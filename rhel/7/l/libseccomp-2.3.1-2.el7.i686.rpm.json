@@ -1,0 +1,67 @@
+{
+    "results": {
+        "usr/lib/libseccomp_so_2_3_1": {
+            "report-functions": [
+                "__fprintf_chk", 
+                "fwrite", 
+                "fdopen", 
+                "realloc", 
+                "dup", 
+                "__strdup", 
+                "memmove", 
+                "fflush", 
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "memcmp", 
+                "strcmp", 
+                "__assert_fail", 
+                "prctl", 
+                "write", 
+                "malloc", 
+                "__errno_location", 
+                "syscall", 
+                "__stack_chk_fail", 
+                "_Jv_RegisterClasses", 
+                "close", 
+                "_ITM_deregisterTMCloneTable", 
+                "memcpy", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "libseccomp-2.3.1-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libseccomp.so.2.3.1"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 2.3.1", 
+            "Name": " libseccomp", 
+            "License": " LGPLv2", 
+            "URL": " https://github.com/seccomp/libseccomp", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-034.build.eng.bos.redhat.com", 
+            "Description": "\nThe libseccomp library provides an easy to use interface to the Linux Kernel's\nsyscall filtering mechanism, seccomp.  The libseccomp API allows an application\nto specify which syscalls, and optionally which syscall arguments, the\napplication is allowed to execute, all of which are enforced by the Linux\nKernel.\n", 
+            "Build Date": " Thu 28 Apr 2016 01:43:59 PM EDT", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " libseccomp-2.3.1-2.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/libseccomp-2.3.1-2.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Wed 21 Sep 2016 02:03:02 AM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 2.el7", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " Enhanced seccomp library", 
+            "Size": " 180483"
+        }
+    }
+}

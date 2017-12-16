@@ -1,0 +1,62 @@
+{
+    "results": {
+        "lib/libgcc_s-4_8_3-20140911_so_1": {
+            "report-functions": [
+                "memcpy", 
+                "pthread_mutex_lock", 
+                "realloc", 
+                "memset", 
+                "pthread_mutex_unlock", 
+                "pthread_getspecific", 
+                "strlen", 
+                "_ITM_deregisterTMCloneTable", 
+                "pthread_setspecific", 
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "free", 
+                "abort", 
+                "_Jv_RegisterClasses", 
+                "_ITM_registerTMCloneTable", 
+                "calloc", 
+                "__pthread_key_create", 
+                "malloc", 
+                "dl_iterate_phdr"
+            ], 
+            "rpm": "libgcc-4.8.3-9.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "lib/libgcc_s-4.8.3-20140911.so.1"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 4.8.3", 
+            "Name": " libgcc", 
+            "License": " GPLv3+ and GPLv3+ with exceptions and GPLv2+ with exceptions and LGPLv2+ and BSD", 
+            "URL": " http://gcc.gnu.org", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-019.build.eng.bos.redhat.com", 
+            "Description": "\nThis package contains GCC shared support library which is needed\ne.g. for exception handling support.\n", 
+            "Build Date": " Fri 14 Nov 2014 10:54:17 AM EST", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " gcc-4.8.3-9.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/libgcc-4.8.3-9.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 26 Jan 2015 09:55:27 AM EST, Key ID 199e2f91fd431d51", 
+            "Release": " 9.el7", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " GCC version 4.8 shared support library", 
+            "Size": " 194740"
+        }
+    }
+}

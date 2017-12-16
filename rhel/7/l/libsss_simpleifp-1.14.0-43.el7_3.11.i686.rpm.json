@@ -1,0 +1,78 @@
+{
+    "results": {
+        "usr/lib/libsss_simpleifp_so_0_1_0": {
+            "report-functions": [
+                "dbus_error_is_set", 
+                "__stack_chk_fail", 
+                "dbus_message_unref", 
+                "dbus_message_iter_next", 
+                "_ITM_registerTMCloneTable", 
+                "strcpy", 
+                "strncpy", 
+                "dbus_connection_unref", 
+                "dbus_message_new_method_call", 
+                "free", 
+                "_ITM_deregisterTMCloneTable", 
+                "dbus_error_init", 
+                "hash_destroy", 
+                "dbus_type_is_basic", 
+                "dbus_message_append_args", 
+                "strlen", 
+                "dbus_message_append_args_valist", 
+                "dbus_message_iter_get_element_type", 
+                "strcmp", 
+                "_Jv_RegisterClasses", 
+                "hash_enter", 
+                "dbus_error_free", 
+                "dbus_free_string_array", 
+                "memset", 
+                "__cxa_finalize", 
+                "dbus_bus_get", 
+                "dbus_message_iter_init", 
+                "dbus_message_get_args", 
+                "dbus_set_error", 
+                "dbus_connection_send_with_reply_and_block", 
+                "__gmon_start__", 
+                "dbus_message_iter_get_arg_type", 
+                "dbus_message_iter_recurse", 
+                "malloc", 
+                "stpcpy"
+            ], 
+            "rpm": "libsss_simpleifp-1.14.0-43.el7_3.11.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libsss_simpleifp.so.0.1.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.14.0", 
+            "Name": " libsss_simpleifp", 
+            "License": " GPLv3+", 
+            "URL": " http://fedorahosted.org/sssd/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-030.build.eng.bos.redhat.com", 
+            "Description": "\nProvides library that simplifies D-Bus API for the SSSD InfoPipe responder.\n", 
+            "Build Date": " Tue 13 Dec 2016 11:31:53 AM EST", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " sssd-1.14.0-43.el7_3.11.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/libsss_simpleifp-1.14.0-43.el7_3.11.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 09 Jan 2017 04:30:44 AM EST, Key ID 199e2f91fd431d51", 
+            "Release": " 43.el7_3.11", 
+            "Group": " Development/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " The SSSD D-Bus responder helper library", 
+            "Size": " 27320"
+        }
+    }
+}

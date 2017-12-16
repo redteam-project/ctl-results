@@ -1,0 +1,1266 @@
+{
+    "results": {
+        "usr/include/mesa-private/llvm/Support/ELFRelocs/PowerPC_def": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/mesa-private/llvm/Support/ELFRelocs/PowerPC.def", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "mesa-private-llvm-devel-3.6.2-2.el7.x86_64.rpm"
+        }, 
+        "usr/include/mesa-private/llvm/Support/ELFRelocs/ARM_def": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/mesa-private/llvm/Support/ELFRelocs/ARM.def", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "mesa-private-llvm-devel-3.6.2-2.el7.x86_64.rpm"
+        }, 
+        "usr/bin/mesa-private-llvm-config-64": {
+            "find-libc-functions": [
+                "GI___obstack_vprintf", 
+                "GI___vasprintf", 
+                "GI___vdprintf", 
+                "GI___vfprintf", 
+                "GI___vfwprintf", 
+                "GI___vsnprintf", 
+                "GI___vsprintf", 
+                "GI___vswprintf", 
+                "GI___vsyslog", 
+                "__longjmp", 
+                "_fprintf", 
+                "_printf", 
+                "_snprintf", 
+                "_sprintf", 
+                "_vfprintf", 
+                "_vprintf", 
+                "_vsnprintf", 
+                "_vsprintf", 
+                "asprintf", 
+                "confstr", 
+                "dprintf", 
+                "explicit_bzero", 
+                "fdelt", 
+                "fgets", 
+                "fgets_unlocked", 
+                "fgetws", 
+                "fgetws_unlocked", 
+                "fprintf", 
+                "fread", 
+                "fread_unlocked", 
+                "fwprintf", 
+                "getcwd", 
+                "getdomainname", 
+                "getgroups", 
+                "gethostname", 
+                "getlogin_r", 
+                "gets", 
+                "getwd", 
+                "longjmp", 
+                "mbsnrtowcs", 
+                "mbsrtowcs", 
+                "mbstowcs", 
+                "memcpy", 
+                "memmove", 
+                "mempcpy", 
+                "memset", 
+                "obstack_printf", 
+                "obstack_vprintf", 
+                "poll", 
+                "ppoll", 
+                "pread64", 
+                "pread", 
+                "printf", 
+                "ptsname_r", 
+                "read", 
+                "readlink", 
+                "readlinkat", 
+                "realpath", 
+                "recv", 
+                "recvfrom", 
+                "snprintf", 
+                "sprintf", 
+                "stpcpy", 
+                "stpncpy", 
+                "strcat", 
+                "strcpy", 
+                "strncat", 
+                "strncpy", 
+                "swprintf", 
+                "syslog", 
+                "ttyname_r", 
+                "vasprintf", 
+                "vdprintf", 
+                "vfprintf", 
+                "vfwprintf", 
+                "vprintf", 
+                "vsnprintf", 
+                "vsprintf", 
+                "vswprintf", 
+                "vsyslog", 
+                "vwprintf", 
+                "wcpcpy", 
+                "wcpncpy", 
+                "wcrtomb", 
+                "wcscat", 
+                "wcscpy", 
+                "wcsncat", 
+                "wcsncpy", 
+                "wcsnrtombs", 
+                "wcsrtombs", 
+                "wcstombs", 
+                "wctomb", 
+                "wmemcpy", 
+                "wmemmove", 
+                "wmempcpy", 
+                "wmemset", 
+                "wprintf"
+            ], 
+            "filename": "usr/bin/mesa-private-llvm-config-64", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 79, 
+                    "afC": 1749
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "_Znam", 
+                "access", 
+                "__gxx_personality_v0", 
+                "_Jv_RegisterClasses", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ZNSs4_Rep10_M_destroyERKSaIcE", 
+                "_ITM_registerTMCloneTable", 
+                "realloc", 
+                "_Unwind_Resume", 
+                "_ZNSs4_Rep10_M_disposeERKSaIcE", 
+                "strdup", 
+                "isatty", 
+                "malloc", 
+                "exit", 
+                "unlink", 
+                "free", 
+                "memcmp", 
+                "pthread_mutex_init", 
+                "calloc", 
+                "_ZdlPv", 
+                "_ZNSs6assignERKSs", 
+                "_ZNSs7reserveEm", 
+                "_ZSt18_Rb_tree_decrementPSt18_Rb_tree_node_base", 
+                "lseek", 
+                "_ZNSs6appendEPKcm", 
+                "memcpy", 
+                "_ZNSsC1EPKcmRKSaIcE", 
+                "__cxa_atexit", 
+                "_ZdaPv", 
+                "strchr", 
+                "_ZNSsC1ERKSs", 
+                "_ZNSs6appendEPKc", 
+                "_ZNSsC1EmcRKSaIcE", 
+                "__snprintf_chk", 
+                "sigfillset", 
+                "memmove", 
+                "strsep", 
+                "__pthread_key_create", 
+                "pthread_mutexattr_settype", 
+                "__cxa_guard_acquire", 
+                "__cxa_guard_abort", 
+                "_ZNSs6assignEPKc", 
+                "readlink", 
+                "strlen", 
+                "close", 
+                "pthread_mutex_lock", 
+                "getcwd", 
+                "_ZNSs6appendERKSs", 
+                "getenv", 
+                "_ZSt29_Rb_tree_insert_and_rebalancebPSt18_Rb_tree_node_baseS0_RS_", 
+                "_ZNSs4swapERSs", 
+                "write", 
+                "_ZNSsC1EPKcRKSaIcE", 
+                "pthread_mutex_unlock", 
+                "_ZSt15system_categoryv", 
+                "_ZSt16generic_categoryv", 
+                "__xstat", 
+                "__errno_location", 
+                "__stack_chk_fail", 
+                "pthread_sigmask", 
+                "__cxa_guard_release", 
+                "pthread_mutexattr_destroy", 
+                "__libc_start_main", 
+                "_ZNSs12_M_leak_hardEv", 
+                "_Znwm", 
+                "pthread_mutex_destroy", 
+                "__fxstat", 
+                "__cxa_pure_virtual", 
+                "gettimeofday", 
+                "writev", 
+                "realpath"
+            ], 
+            "rpm": "mesa-private-llvm-devel-3.6.2-2.el7.x86_64.rpm"
+        }, 
+        "usr/include/mesa-private/llvm/Support/ELFRelocs/Sparc_def": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/mesa-private/llvm/Support/ELFRelocs/Sparc.def", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "mesa-private-llvm-devel-3.6.2-2.el7.x86_64.rpm"
+        }, 
+        "usr/include/mesa-private/llvm/Object/ELF_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/mesa-private/llvm/Object/ELF.h", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "mesa-private-llvm-devel-3.6.2-2.el7.x86_64.rpm"
+        }, 
+        "usr/include/mesa-private/llvm/Support/ELFRelocs/SystemZ_def": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/mesa-private/llvm/Support/ELFRelocs/SystemZ.def", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "mesa-private-llvm-devel-3.6.2-2.el7.x86_64.rpm"
+        }, 
+        "usr/include/mesa-private/llvm/Support/ELFRelocs/i386_def": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/mesa-private/llvm/Support/ELFRelocs/i386.def", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "mesa-private-llvm-devel-3.6.2-2.el7.x86_64.rpm"
+        }, 
+        "usr/lib/device-mapper/libdevmapper-event-lvm2snapshot_so": {
+            "report-functions": [
+                "dmeventd_lvm2_unlock", 
+                "fgets", 
+                "__cxa_finalize", 
+                "dmeventd_lvm2_init", 
+                "dm_pool_zalloc", 
+                "dm_pool_create", 
+                "dm_get_next_target", 
+                "fopen64", 
+                "exit", 
+                "fclose", 
+                "__stack_chk_fail", 
+                "dm_task_get_info", 
+                "__errno_location", 
+                "dmeventd_lvm2_exit", 
+                "__gmon_start__", 
+                "dm_pool_destroy", 
+                "__xstat64", 
+                "_Jv_RegisterClasses", 
+                "strerror", 
+                "waitpid", 
+                "dmeventd_lvm2_command", 
+                "__syslog_chk", 
+                "dm_get_status_snapshot", 
+                "dm_split_words", 
+                "dm_pool_free", 
+                "dm_task_get_name", 
+                "execvp", 
+                "fork", 
+                "feof", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "mesa-private-llvm-devel-3.6.2-2.el7.x86_64.rpm", 
+            "complexity": {
+                "r2aa": "failed: 'NoneType' object is not iterable"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/device-mapper/libdevmapper-event-lvm2snapshot.so"
+        }, 
+        "usr/include/mesa-private/llvm/Support/ELFRelocs/x86_64_def": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/mesa-private/llvm/Support/ELFRelocs/x86_64.def", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "mesa-private-llvm-devel-3.6.2-2.el7.x86_64.rpm"
+        }, 
+        "usr/include/mesa-private/llvm/MC/MCAsmInfoELF_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/mesa-private/llvm/MC/MCAsmInfoELF.h", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "mesa-private-llvm-devel-3.6.2-2.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/device-mapper/libdevmapper-event-lvm2snapshot_so": {
+            "find-libc-functions": [
+                "GI___obstack_vprintf", 
+                "GI___vasprintf", 
+                "GI___vdprintf", 
+                "GI___vfprintf", 
+                "GI___vfwprintf", 
+                "GI___vsnprintf", 
+                "GI___vsprintf", 
+                "GI___vswprintf", 
+                "GI___vsyslog", 
+                "__longjmp", 
+                "_fprintf", 
+                "_printf", 
+                "_snprintf", 
+                "_sprintf", 
+                "_vfprintf", 
+                "_vprintf", 
+                "_vsnprintf", 
+                "_vsprintf", 
+                "asprintf", 
+                "confstr", 
+                "dprintf", 
+                "explicit_bzero", 
+                "fdelt", 
+                "fgets", 
+                "fgets_unlocked", 
+                "fgetws", 
+                "fgetws_unlocked", 
+                "fprintf", 
+                "fread", 
+                "fread_unlocked", 
+                "fwprintf", 
+                "getcwd", 
+                "getdomainname", 
+                "getgroups", 
+                "gethostname", 
+                "getlogin_r", 
+                "gets", 
+                "getwd", 
+                "longjmp", 
+                "mbsnrtowcs", 
+                "mbsrtowcs", 
+                "mbstowcs", 
+                "memcpy", 
+                "memmove", 
+                "mempcpy", 
+                "memset", 
+                "obstack_printf", 
+                "obstack_vprintf", 
+                "poll", 
+                "ppoll", 
+                "pread64", 
+                "pread", 
+                "printf", 
+                "ptsname_r", 
+                "read", 
+                "readlink", 
+                "readlinkat", 
+                "realpath", 
+                "recv", 
+                "recvfrom", 
+                "snprintf", 
+                "sprintf", 
+                "stpcpy", 
+                "stpncpy", 
+                "strcat", 
+                "strcpy", 
+                "strncat", 
+                "strncpy", 
+                "swprintf", 
+                "syslog", 
+                "ttyname_r", 
+                "vasprintf", 
+                "vdprintf", 
+                "vfprintf", 
+                "vfwprintf", 
+                "vprintf", 
+                "vsnprintf", 
+                "vsprintf", 
+                "vswprintf", 
+                "vsyslog", 
+                "vwprintf", 
+                "wcpcpy", 
+                "wcpncpy", 
+                "wcrtomb", 
+                "wcscat", 
+                "wcscpy", 
+                "wcsncat", 
+                "wcsncpy", 
+                "wcsnrtombs", 
+                "wcsrtombs", 
+                "wcstombs", 
+                "wctomb", 
+                "wmemcpy", 
+                "wmemmove", 
+                "wmempcpy", 
+                "wmemset", 
+                "wprintf"
+            ], 
+            "filename": "usr/lib64/device-mapper/libdevmapper-event-lvm2snapshot.so", 
+            "complexity": {
+                "r2aa": "failed: 'NoneType' object is not iterable"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "dmeventd_lvm2_command", 
+                "execvp", 
+                "fopen64", 
+                "fclose", 
+                "dm_task_get_info", 
+                "dmeventd_lvm2_exit", 
+                "__cxa_finalize", 
+                "__syslog_chk", 
+                "fgets", 
+                "dm_task_get_name", 
+                "dmeventd_lvm2_lock", 
+                "dm_pool_destroy", 
+                "__errno_location", 
+                "dm_get_next_target", 
+                "dm_pool_zalloc", 
+                "dm_get_status_snapshot", 
+                "dmeventd_lvm2_run", 
+                "_Jv_RegisterClasses", 
+                "dm_pool_free", 
+                "__stack_chk_fail", 
+                "exit", 
+                "dmeventd_lvm2_unlock", 
+                "fork", 
+                "waitpid", 
+                "dm_pool_create", 
+                "_ITM_registerTMCloneTable", 
+                "feof", 
+                "_ITM_deregisterTMCloneTable", 
+                "dm_split_words", 
+                "dmeventd_lvm2_init", 
+                "strerror"
+            ], 
+            "rpm": "mesa-private-llvm-devel-3.6.2-2.el7.x86_64.rpm"
+        }, 
+        "usr/lib/device-mapper/libdevmapper-event-lvm2mirror_so": {
+            "report-functions": [
+                "dm_split_words", 
+                "__gmon_start__", 
+                "strcmp", 
+                "dmeventd_lvm2_unlock", 
+                "_ITM_registerTMCloneTable", 
+                "dmeventd_lvm2_init", 
+                "__syslog_chk", 
+                "dm_malloc_wrapper", 
+                "_Jv_RegisterClasses", 
+                "dmeventd_lvm2_exit", 
+                "dmeventd_lvm2_pool", 
+                "strtol", 
+                "strlen", 
+                "dm_get_next_target", 
+                "_ITM_deregisterTMCloneTable", 
+                "dmeventd_lvm2_command", 
+                "dm_free_wrapper", 
+                "dmeventd_lvm2_run", 
+                "__cxa_finalize", 
+                "dm_task_get_name", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "mesa-private-llvm-devel-3.6.2-2.el7.x86_64.rpm", 
+            "complexity": {
+                "r2aa": "failed: 'NoneType' object is not iterable"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/device-mapper/libdevmapper-event-lvm2mirror.so"
+        }, 
+        "usr/include/mesa-private/llvm/MC/MCSectionELF_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/mesa-private/llvm/MC/MCSectionELF.h", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "mesa-private-llvm-devel-3.6.2-2.el7.x86_64.rpm"
+        }, 
+        "usr/include/mesa-private/llvm/Object/ELFYAML_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/mesa-private/llvm/Object/ELFYAML.h", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "mesa-private-llvm-devel-3.6.2-2.el7.x86_64.rpm"
+        }, 
+        "usr/lib/device-mapper/libdevmapper-event-lvm2thin_so": {
+            "report-functions": [
+                "dm_pool_zalloc", 
+                "waitpid", 
+                "__syslog_chk", 
+                "dm_pool_free", 
+                "exit", 
+                "__stack_chk_fail", 
+                "__cxa_finalize", 
+                "dm_task_destroy", 
+                "dmeventd_lvm2_lock", 
+                "dm_task_get_name", 
+                "strerror", 
+                "dm_task_no_open_count", 
+                "dm_mountinfo_read", 
+                "dm_pool_create", 
+                "dmeventd_lvm2_command", 
+                "__errno_location", 
+                "dmeventd_lvm2_init", 
+                "dm_task_set_name", 
+                "fork", 
+                "dm_task_create", 
+                "dm_pool_destroy", 
+                "dm_task_get_names", 
+                "dm_get_status_thin_pool", 
+                "dm_task_get_deps", 
+                "dm_bitset_destroy", 
+                "dm_task_run", 
+                "dmeventd_lvm2_unlock", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "_Jv_RegisterClasses", 
+                "dmeventd_lvm2_exit", 
+                "execvp", 
+                "dmeventd_lvm2_run", 
+                "dm_get_next_target", 
+                "dm_bitset_create"
+            ], 
+            "rpm": "mesa-private-llvm-devel-3.6.2-2.el7.x86_64.rpm", 
+            "complexity": {
+                "r2aa": "failed: 'NoneType' object is not iterable"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/device-mapper/libdevmapper-event-lvm2thin.so"
+        }, 
+        "usr/lib/device-mapper/libdevmapper-event-lvm2raid_so": {
+            "report-functions": [
+                "dmeventd_lvm2_run", 
+                "dm_split_words", 
+                "dm_get_next_target", 
+                "strcmp", 
+                "strchr", 
+                "__syslog_chk", 
+                "_ITM_registerTMCloneTable", 
+                "__cxa_finalize", 
+                "__stack_chk_fail", 
+                "dm_task_get_name", 
+                "dmeventd_lvm2_unlock", 
+                "strtol", 
+                "_ITM_deregisterTMCloneTable", 
+                "dmeventd_lvm2_command", 
+                "dmeventd_lvm2_lock", 
+                "dmeventd_lvm2_exit", 
+                "dmeventd_lvm2_pool", 
+                "__gmon_start__"
+            ], 
+            "rpm": "mesa-private-llvm-devel-3.6.2-2.el7.x86_64.rpm", 
+            "complexity": {
+                "r2aa": "failed: 'NoneType' object is not iterable"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/device-mapper/libdevmapper-event-lvm2raid.so"
+        }, 
+        "usr/include/mesa-private/llvm/Support/ELFRelocs/Mips_def": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/mesa-private/llvm/Support/ELFRelocs/Mips.def", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "mesa-private-llvm-devel-3.6.2-2.el7.x86_64.rpm"
+        }, 
+        "usr/include/mesa-private/llvm/MC/MCELFObjectWriter_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/mesa-private/llvm/MC/MCELFObjectWriter.h", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "mesa-private-llvm-devel-3.6.2-2.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/device-mapper/libdevmapper-event-lvm2raid_so": {
+            "find-libc-functions": [
+                "GI___obstack_vprintf", 
+                "GI___vasprintf", 
+                "GI___vdprintf", 
+                "GI___vfprintf", 
+                "GI___vfwprintf", 
+                "GI___vsnprintf", 
+                "GI___vsprintf", 
+                "GI___vswprintf", 
+                "GI___vsyslog", 
+                "__longjmp", 
+                "_fprintf", 
+                "_printf", 
+                "_snprintf", 
+                "_sprintf", 
+                "_vfprintf", 
+                "_vprintf", 
+                "_vsnprintf", 
+                "_vsprintf", 
+                "asprintf", 
+                "confstr", 
+                "dprintf", 
+                "explicit_bzero", 
+                "fdelt", 
+                "fgets", 
+                "fgets_unlocked", 
+                "fgetws", 
+                "fgetws_unlocked", 
+                "fprintf", 
+                "fread", 
+                "fread_unlocked", 
+                "fwprintf", 
+                "getcwd", 
+                "getdomainname", 
+                "getgroups", 
+                "gethostname", 
+                "getlogin_r", 
+                "gets", 
+                "getwd", 
+                "longjmp", 
+                "mbsnrtowcs", 
+                "mbsrtowcs", 
+                "mbstowcs", 
+                "memcpy", 
+                "memmove", 
+                "mempcpy", 
+                "memset", 
+                "obstack_printf", 
+                "obstack_vprintf", 
+                "poll", 
+                "ppoll", 
+                "pread64", 
+                "pread", 
+                "printf", 
+                "ptsname_r", 
+                "read", 
+                "readlink", 
+                "readlinkat", 
+                "realpath", 
+                "recv", 
+                "recvfrom", 
+                "snprintf", 
+                "sprintf", 
+                "stpcpy", 
+                "stpncpy", 
+                "strcat", 
+                "strcpy", 
+                "strncat", 
+                "strncpy", 
+                "swprintf", 
+                "syslog", 
+                "ttyname_r", 
+                "vasprintf", 
+                "vdprintf", 
+                "vfprintf", 
+                "vfwprintf", 
+                "vprintf", 
+                "vsnprintf", 
+                "vsprintf", 
+                "vswprintf", 
+                "vsyslog", 
+                "vwprintf", 
+                "wcpcpy", 
+                "wcpncpy", 
+                "wcrtomb", 
+                "wcscat", 
+                "wcscpy", 
+                "wcsncat", 
+                "wcsncpy", 
+                "wcsnrtombs", 
+                "wcsrtombs", 
+                "wcstombs", 
+                "wctomb", 
+                "wmemcpy", 
+                "wmemmove", 
+                "wmempcpy", 
+                "wmemset", 
+                "wprintf"
+            ], 
+            "filename": "usr/lib64/device-mapper/libdevmapper-event-lvm2raid.so", 
+            "complexity": {
+                "r2aa": "failed: 'NoneType' object is not iterable"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "_Jv_RegisterClasses", 
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable", 
+                "dm_get_next_target", 
+                "dmeventd_lvm2_unlock", 
+                "_ITM_deregisterTMCloneTable", 
+                "dmeventd_lvm2_pool", 
+                "dm_task_get_name", 
+                "dmeventd_lvm2_exit", 
+                "__syslog_chk", 
+                "strchr", 
+                "strcmp", 
+                "__stack_chk_fail", 
+                "strtol", 
+                "dm_split_words", 
+                "dmeventd_lvm2_lock", 
+                "dmeventd_lvm2_init", 
+                "__gmon_start__"
+            ], 
+            "rpm": "mesa-private-llvm-devel-3.6.2-2.el7.x86_64.rpm"
+        }, 
+        "usr/include/mesa-private/llvm/Support/ELFRelocs/Hexagon_def": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/mesa-private/llvm/Support/ELFRelocs/Hexagon.def", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "mesa-private-llvm-devel-3.6.2-2.el7.x86_64.rpm"
+        }, 
+        "usr/include/mesa-private/llvm/Support/ELFRelocs/PowerPC64_def": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/mesa-private/llvm/Support/ELFRelocs/PowerPC64.def", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "mesa-private-llvm-devel-3.6.2-2.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/device-mapper/libdevmapper-event-lvm2thin_so": {
+            "find-libc-functions": [
+                "GI___obstack_vprintf", 
+                "GI___vasprintf", 
+                "GI___vdprintf", 
+                "GI___vfprintf", 
+                "GI___vfwprintf", 
+                "GI___vsnprintf", 
+                "GI___vsprintf", 
+                "GI___vswprintf", 
+                "GI___vsyslog", 
+                "__longjmp", 
+                "_fprintf", 
+                "_printf", 
+                "_snprintf", 
+                "_sprintf", 
+                "_vfprintf", 
+                "_vprintf", 
+                "_vsnprintf", 
+                "_vsprintf", 
+                "asprintf", 
+                "confstr", 
+                "dprintf", 
+                "explicit_bzero", 
+                "fdelt", 
+                "fgets", 
+                "fgets_unlocked", 
+                "fgetws", 
+                "fgetws_unlocked", 
+                "fprintf", 
+                "fread", 
+                "fread_unlocked", 
+                "fwprintf", 
+                "getcwd", 
+                "getdomainname", 
+                "getgroups", 
+                "gethostname", 
+                "getlogin_r", 
+                "gets", 
+                "getwd", 
+                "longjmp", 
+                "mbsnrtowcs", 
+                "mbsrtowcs", 
+                "mbstowcs", 
+                "memcpy", 
+                "memmove", 
+                "mempcpy", 
+                "memset", 
+                "obstack_printf", 
+                "obstack_vprintf", 
+                "poll", 
+                "ppoll", 
+                "pread64", 
+                "pread", 
+                "printf", 
+                "ptsname_r", 
+                "read", 
+                "readlink", 
+                "readlinkat", 
+                "realpath", 
+                "recv", 
+                "recvfrom", 
+                "snprintf", 
+                "sprintf", 
+                "stpcpy", 
+                "stpncpy", 
+                "strcat", 
+                "strcpy", 
+                "strncat", 
+                "strncpy", 
+                "swprintf", 
+                "syslog", 
+                "ttyname_r", 
+                "vasprintf", 
+                "vdprintf", 
+                "vfprintf", 
+                "vfwprintf", 
+                "vprintf", 
+                "vsnprintf", 
+                "vsprintf", 
+                "vswprintf", 
+                "vsyslog", 
+                "vwprintf", 
+                "wcpcpy", 
+                "wcpncpy", 
+                "wcrtomb", 
+                "wcscat", 
+                "wcscpy", 
+                "wcsncat", 
+                "wcsncpy", 
+                "wcsnrtombs", 
+                "wcsrtombs", 
+                "wcstombs", 
+                "wctomb", 
+                "wmemcpy", 
+                "wmemmove", 
+                "wmempcpy", 
+                "wmemset", 
+                "wprintf"
+            ], 
+            "filename": "usr/lib64/device-mapper/libdevmapper-event-lvm2thin.so", 
+            "complexity": {
+                "r2aa": "failed: 'NoneType' object is not iterable"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "dm_task_get_names", 
+                "exit", 
+                "dm_get_status_thin_pool", 
+                "dm_task_set_name", 
+                "dm_task_run", 
+                "execvp", 
+                "fork", 
+                "dm_task_get_deps", 
+                "dmeventd_lvm2_lock", 
+                "dm_task_get_name", 
+                "_ITM_registerTMCloneTable", 
+                "dm_pool_zalloc", 
+                "__stack_chk_fail", 
+                "dmeventd_lvm2_unlock", 
+                "dm_task_destroy", 
+                "dm_task_no_open_count", 
+                "waitpid", 
+                "__syslog_chk", 
+                "dm_pool_free", 
+                "__cxa_finalize", 
+                "dmeventd_lvm2_exit", 
+                "dmeventd_lvm2_run", 
+                "dm_get_next_target", 
+                "_ITM_deregisterTMCloneTable", 
+                "dm_bitset_destroy", 
+                "dmeventd_lvm2_init", 
+                "dm_mountinfo_read", 
+                "__gmon_start__", 
+                "_Jv_RegisterClasses", 
+                "dm_pool_create", 
+                "dm_task_create", 
+                "__errno_location", 
+                "dmeventd_lvm2_command", 
+                "dm_bitset_create", 
+                "strerror"
+            ], 
+            "rpm": "mesa-private-llvm-devel-3.6.2-2.el7.x86_64.rpm"
+        }, 
+        "usr/include/mesa-private/llvm/MC/MCELF_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/mesa-private/llvm/MC/MCELF.h", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "mesa-private-llvm-devel-3.6.2-2.el7.x86_64.rpm"
+        }, 
+        "usr/include/mesa-private/llvm/Object/ELFTypes_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/mesa-private/llvm/Object/ELFTypes.h", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "mesa-private-llvm-devel-3.6.2-2.el7.x86_64.rpm"
+        }, 
+        "usr/include/mesa-private/llvm/Support/ELFRelocs/AArch64_def": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/mesa-private/llvm/Support/ELFRelocs/AArch64.def", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "mesa-private-llvm-devel-3.6.2-2.el7.x86_64.rpm"
+        }, 
+        "usr/include/mesa-private/llvm/Support/ELF_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/mesa-private/llvm/Support/ELF.h", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "mesa-private-llvm-devel-3.6.2-2.el7.x86_64.rpm"
+        }, 
+        "usr/include/mesa-private/llvm/MC/MCELFSymbolFlags_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/mesa-private/llvm/MC/MCELFSymbolFlags.h", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "mesa-private-llvm-devel-3.6.2-2.el7.x86_64.rpm"
+        }, 
+        "usr/include/mesa-private/llvm/Object/ELFObjectFile_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/mesa-private/llvm/Object/ELFObjectFile.h", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "mesa-private-llvm-devel-3.6.2-2.el7.x86_64.rpm"
+        }, 
+        "usr/include/mesa-private/llvm/MC/MCELFStreamer_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/mesa-private/llvm/MC/MCELFStreamer.h", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "mesa-private-llvm-devel-3.6.2-2.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/device-mapper/libdevmapper-event-lvm2mirror_so": {
+            "find-libc-functions": [
+                "GI___obstack_vprintf", 
+                "GI___vasprintf", 
+                "GI___vdprintf", 
+                "GI___vfprintf", 
+                "GI___vfwprintf", 
+                "GI___vsnprintf", 
+                "GI___vsprintf", 
+                "GI___vswprintf", 
+                "GI___vsyslog", 
+                "__longjmp", 
+                "_fprintf", 
+                "_printf", 
+                "_snprintf", 
+                "_sprintf", 
+                "_vfprintf", 
+                "_vprintf", 
+                "_vsnprintf", 
+                "_vsprintf", 
+                "asprintf", 
+                "confstr", 
+                "dprintf", 
+                "explicit_bzero", 
+                "fdelt", 
+                "fgets", 
+                "fgets_unlocked", 
+                "fgetws", 
+                "fgetws_unlocked", 
+                "fprintf", 
+                "fread", 
+                "fread_unlocked", 
+                "fwprintf", 
+                "getcwd", 
+                "getdomainname", 
+                "getgroups", 
+                "gethostname", 
+                "getlogin_r", 
+                "gets", 
+                "getwd", 
+                "longjmp", 
+                "mbsnrtowcs", 
+                "mbsrtowcs", 
+                "mbstowcs", 
+                "memcpy", 
+                "memmove", 
+                "mempcpy", 
+                "memset", 
+                "obstack_printf", 
+                "obstack_vprintf", 
+                "poll", 
+                "ppoll", 
+                "pread64", 
+                "pread", 
+                "printf", 
+                "ptsname_r", 
+                "read", 
+                "readlink", 
+                "readlinkat", 
+                "realpath", 
+                "recv", 
+                "recvfrom", 
+                "snprintf", 
+                "sprintf", 
+                "stpcpy", 
+                "stpncpy", 
+                "strcat", 
+                "strcpy", 
+                "strncat", 
+                "strncpy", 
+                "swprintf", 
+                "syslog", 
+                "ttyname_r", 
+                "vasprintf", 
+                "vdprintf", 
+                "vfprintf", 
+                "vfwprintf", 
+                "vprintf", 
+                "vsnprintf", 
+                "vsprintf", 
+                "vswprintf", 
+                "vsyslog", 
+                "vwprintf", 
+                "wcpcpy", 
+                "wcpncpy", 
+                "wcrtomb", 
+                "wcscat", 
+                "wcscpy", 
+                "wcsncat", 
+                "wcsncpy", 
+                "wcsnrtombs", 
+                "wcsrtombs", 
+                "wcstombs", 
+                "wctomb", 
+                "wmemcpy", 
+                "wmemmove", 
+                "wmempcpy", 
+                "wmemset", 
+                "wprintf"
+            ], 
+            "filename": "usr/lib64/device-mapper/libdevmapper-event-lvm2mirror.so", 
+            "complexity": {
+                "r2aa": "failed: 'NoneType' object is not iterable"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "dm_get_next_target", 
+                "dm_free_wrapper", 
+                "dmeventd_lvm2_run", 
+                "dm_task_get_name", 
+                "_Jv_RegisterClasses", 
+                "dm_split_words", 
+                "_ITM_deregisterTMCloneTable", 
+                "strcmp", 
+                "_ITM_registerTMCloneTable", 
+                "dmeventd_lvm2_pool", 
+                "__syslog_chk", 
+                "__stack_chk_fail", 
+                "dmeventd_lvm2_exit", 
+                "dmeventd_lvm2_command", 
+                "strtol", 
+                "dm_malloc_wrapper", 
+                "dmeventd_lvm2_lock", 
+                "strlen", 
+                "strchr", 
+                "dmeventd_lvm2_unlock", 
+                "__cxa_finalize", 
+                "dmeventd_lvm2_init"
+            ], 
+            "rpm": "mesa-private-llvm-devel-3.6.2-2.el7.x86_64.rpm"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 3.6.2", 
+            "Name": " mesa-private-llvm-devel", 
+            "License": " NCSA", 
+            "URL": " http://llvm.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-024.build.eng.bos.redhat.com", 
+            "Description": "\nThis package contains library and header files needed to build the LLVM\nsupport in Mesa.\n", 
+            "Build Date": " Wed 14 Oct 2015 03:12:38 PM EDT", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " mesa-private-llvm-3.6.2-2.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/2/mesa-private-llvm-devel-3.6.2-2.el7.x86_64.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " x86_64", 
+            "Signature": " RSA/SHA256, Thu 15 Oct 2015 03:33:23 PM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 2.el7", 
+            "Group": " Development/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " Libraries and header files for Mesa's llvm engine", 
+            "Size": " 9453163"
+        }
+    }
+}

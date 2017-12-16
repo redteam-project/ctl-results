@@ -1,0 +1,121 @@
+{
+    "results": {
+        "usr/bin/libieee1284_test": {
+            "report-functions": [
+                "strchr", 
+                "ieee1284_get_irq_fd", 
+                "ieee1284_close", 
+                "ieee1284_release", 
+                "ieee1284_get_deviceid", 
+                "strstr", 
+                "__libc_start_main", 
+                "ieee1284_find_ports", 
+                "_ITM_deregisterTMCloneTable", 
+                "__stack_chk_fail", 
+                "ieee1284_clear_irq", 
+                "ieee1284_open", 
+                "ieee1284_claim", 
+                "__strdup", 
+                "_IO_putc", 
+                "_Jv_RegisterClasses", 
+                "ieee1284_free_ports", 
+                "_ITM_registerTMCloneTable", 
+                "__printf_chk"
+            ], 
+            "rpm": "libieee1284-0.2.11-15.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/libieee1284_test"
+        }, 
+        "usr/lib/libieee1284_so_3_2_2": {
+            "report-functions": [
+                "__vfprintf_chk", 
+                "readdir", 
+                "__ctype_b_loc", 
+                "__cxa_finalize", 
+                "_ITM_deregisterTMCloneTable", 
+                "strtoul", 
+                "localtime", 
+                "_ITM_registerTMCloneTable", 
+                "malloc", 
+                "close", 
+                "ioctl", 
+                "fclose", 
+                "fcntl", 
+                "__stack_chk_fail", 
+                "ioperm", 
+                "fopen", 
+                "strftime", 
+                "_Jv_RegisterClasses", 
+                "__strdup", 
+                "strspn", 
+                "__gmon_start__", 
+                "free", 
+                "__errno_location", 
+                "fgets", 
+                "lseek", 
+                "write", 
+                "strlen", 
+                "read", 
+                "strcmp", 
+                "__xstat", 
+                "strchr", 
+                "gettimeofday", 
+                "__sprintf_chk", 
+                "puts", 
+                "open", 
+                "opendir", 
+                "getenv", 
+                "qsort", 
+                "memset", 
+                "closedir", 
+                "select", 
+                "strstr", 
+                "__fdelt_chk"
+            ], 
+            "rpm": "libieee1284-0.2.11-15.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libieee1284.so.3.2.2"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 0.2.11", 
+            "Name": " libieee1284", 
+            "License": " GPLv2+", 
+            "URL": " http://cyberelk.net/tim/libieee1284/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-024.build.eng.bos.redhat.com", 
+            "Description": "\nThe libieee1284 library is for communicating with parallel port devices.\n", 
+            "Build Date": " Sun 26 Jan 2014 06:54:11 AM EST", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " libieee1284-0.2.11-15.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/libieee1284-0.2.11-15.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 01 Apr 2014 05:13:45 PM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 15.el7", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " A library for interfacing IEEE 1284-compatible devices", 
+            "Size": " 81769"
+        }
+    }
+}

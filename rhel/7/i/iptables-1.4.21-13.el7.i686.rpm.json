@@ -1,0 +1,3251 @@
+{
+    "results": {
+        "usr/lib/xtables/libxt_multiport_so": {
+            "report-functions": [
+                "__strdup", 
+                "_ITM_registerTMCloneTable", 
+                "getservbyport", 
+                "xtables_option_parse", 
+                "__cxa_finalize", 
+                "_Jv_RegisterClasses", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "__printf_chk", 
+                "putchar", 
+                "puts", 
+                "xtables_parse_port", 
+                "strchr"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libxt_multiport.so"
+        }, 
+        "usr/lib/xtables/libxt_RATEEST_so": {
+            "report-functions": [
+                "__printf_chk", 
+                "strtod", 
+                "log", 
+                "_ITM_registerTMCloneTable", 
+                "strcasecmp", 
+                "__stack_chk_fail", 
+                "xtables_register_target", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "_Jv_RegisterClasses", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libxt_RATEEST.so"
+        }, 
+        "usr/lib/xtables/libxt_devgroup_so": {
+            "report-functions": [
+                "xtables_strtoui", 
+                "puts", 
+                "strerror", 
+                "__errno_location", 
+                "xtables_lmap_id2name", 
+                "xtables_register_match", 
+                "_Jv_RegisterClasses", 
+                "xtables_lmap_name2id", 
+                "_ITM_deregisterTMCloneTable", 
+                "__printf_chk", 
+                "__stack_chk_fail", 
+                "_ITM_registerTMCloneTable", 
+                "xtables_option_parse", 
+                "__fprintf_chk", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libxt_devgroup.so"
+        }, 
+        "usr/lib/xtables/libipt_ULOG_so": {
+            "report-functions": [
+                "__gmon_start__", 
+                "_Jv_RegisterClasses", 
+                "xtables_save_string", 
+                "xtables_option_parse", 
+                "puts", 
+                "xtables_register_target", 
+                "__cxa_finalize", 
+                "fwrite", 
+                "_ITM_registerTMCloneTable", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libipt_ULOG.so"
+        }, 
+        "usr/lib/xtables/libip6t_SNAT_so": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "putchar", 
+                "__strdup", 
+                "get_kernel_version", 
+                "memcmp", 
+                "strchr", 
+                "puts", 
+                "__printf_chk", 
+                "xtables_option_parse", 
+                "_ITM_registerTMCloneTable", 
+                "_Jv_RegisterClasses", 
+                "xtables_ip6addr_to_numeric", 
+                "__cxa_finalize", 
+                "__gmon_start__", 
+                "xtables_register_target", 
+                "strtol"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libip6t_SNAT.so"
+        }, 
+        "usr/lib/xtables/libxt_hashlimit_so": {
+            "report-functions": [
+                "xtables_strtoul", 
+                "_IO_putc", 
+                "strstr", 
+                "__gmon_start__", 
+                "strtol", 
+                "strlen", 
+                "_Jv_RegisterClasses", 
+                "__stack_chk_fail", 
+                "__strdup", 
+                "_ITM_deregisterTMCloneTable", 
+                "strncasecmp", 
+                "xtables_option_parse", 
+                "xtables_param_act", 
+                "strtok", 
+                "fwrite", 
+                "_ITM_registerTMCloneTable", 
+                "__cxa_finalize", 
+                "__printf_chk", 
+                "free"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libxt_hashlimit.so"
+        }, 
+        "usr/lib/xtables/libxt_tos_so": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable", 
+                "_ITM_deregisterTMCloneTable", 
+                "__printf_chk", 
+                "_Jv_RegisterClasses", 
+                "xtables_register_matches", 
+                "__gmon_start__", 
+                "puts"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libxt_tos.so"
+        }, 
+        "usr/lib/xtables/libxt_u32_so": {
+            "report-functions": [
+                "__printf_chk", 
+                "putchar", 
+                "xtables_register_match", 
+                "_Jv_RegisterClasses", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable", 
+                "xtables_strtoui", 
+                "_IO_putc", 
+                "__cxa_finalize", 
+                "xtables_option_parse", 
+                "__gmon_start__", 
+                "__ctype_b_loc"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libxt_u32.so"
+        }, 
+        "usr/lib/xtables/libip6t_LOG_so": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "strchr", 
+                "xtables_register_target", 
+                "__printf_chk", 
+                "_Jv_RegisterClasses", 
+                "puts", 
+                "__gmon_start__", 
+                "xtables_save_string", 
+                "xtables_option_parse"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libip6t_LOG.so"
+        }, 
+        "usr/lib/xtables/libipt_NETMAP_so": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "_Jv_RegisterClasses", 
+                "xtables_ipaddr_to_numeric", 
+                "__printf_chk", 
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable", 
+                "xtables_option_parse", 
+                "xtables_register_target"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libipt_NETMAP.so"
+        }, 
+        "usr/lib/xtables/libipt_SAME_so": {
+            "report-functions": [
+                "free", 
+                "strchr", 
+                "__printf_chk", 
+                "__cxa_finalize", 
+                "xtables_option_parse", 
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "xtables_ipaddr_to_numeric", 
+                "_Jv_RegisterClasses", 
+                "__strdup", 
+                "_ITM_deregisterTMCloneTable", 
+                "xtables_numeric_to_ipaddr", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libipt_SAME.so"
+        }, 
+        "usr/lib/xtables/libxt_limit_so": {
+            "report-functions": [
+                "strtol", 
+                "xtables_option_parse", 
+                "__printf_chk", 
+                "_Jv_RegisterClasses", 
+                "_ITM_registerTMCloneTable", 
+                "xtables_register_match", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "strncasecmp", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libxt_limit.so"
+        }, 
+        "usr/lib/xtables/libipt_LOG_so": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "xtables_save_string", 
+                "_Jv_RegisterClasses", 
+                "xtables_register_target", 
+                "__printf_chk", 
+                "__cxa_finalize", 
+                "__gmon_start__", 
+                "strchr", 
+                "puts"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libipt_LOG.so"
+        }, 
+        "usr/lib/xtables/libxt_connbytes_so": {
+            "report-functions": [
+                "__printf_chk", 
+                "__gmon_start__", 
+                "xtables_option_parse", 
+                "puts", 
+                "fwrite", 
+                "xtables_register_match", 
+                "_Jv_RegisterClasses", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libxt_connbytes.so"
+        }, 
+        "usr/lib/xtables/libipt_icmp_so": {
+            "report-functions": [
+                "xtables_option_parse", 
+                "__printf_chk", 
+                "puts", 
+                "memcpy", 
+                "_ITM_registerTMCloneTable", 
+                "xtables_register_match", 
+                "_Jv_RegisterClasses", 
+                "strncasecmp", 
+                "xtables_strtoui", 
+                "strlen", 
+                "_ITM_deregisterTMCloneTable", 
+                "__stack_chk_fail", 
+                "putchar", 
+                "__gmon_start__"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libipt_icmp.so"
+        }, 
+        "usr/lib/xtables/libip6t_frag_so": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "__printf_chk", 
+                "xtables_option_parse", 
+                "_ITM_deregisterTMCloneTable", 
+                "_Jv_RegisterClasses"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libip6t_frag.so"
+        }, 
+        "usr/sbin/xtables-multi": {
+            "report-functions": [
+                "ip6tc_insert_entry", 
+                "__strdup", 
+                "iptc_rename_chain", 
+                "xtables_calloc", 
+                "time", 
+                "calloc", 
+                "dump_entries", 
+                "_IO_putc", 
+                "iptc_init", 
+                "fputc", 
+                "strcmp", 
+                "dump_entries6", 
+                "iptc_is_chain", 
+                "free", 
+                "strerror", 
+                "xtables_ip6addr_to_anyname", 
+                "__strcpy_chk", 
+                "xtables_parse_interface", 
+                "xtables_ipparse_multiple", 
+                "xtables_load_ko", 
+                "xtables_option_mfcall", 
+                "getopt_long", 
+                "ip6tc_next_rule", 
+                "getprotobynumber", 
+                "ip6tc_get_target", 
+                "iptc_delete_num_entry", 
+                "xtables_ipmask_to_numeric", 
+                "xtables_find_match", 
+                "iptc_first_chain", 
+                "iptc_flush_entries", 
+                "__libc_start_main", 
+                "xtables_set_params", 
+                "iptc_replace_entry", 
+                "iptc_free", 
+                "putchar", 
+                "iptc_delete_entry", 
+                "iptc_insert_entry", 
+                "ip6tc_rename_chain", 
+                "ip6tc_first_chain", 
+                "_ITM_registerTMCloneTable", 
+                "iptc_zero_counter", 
+                "xtables_merge_options", 
+                "xtables_free_opts", 
+                "ip6tc_replace_entry", 
+                "xtables_option_tpcall", 
+                "iptc_zero_entries", 
+                "__strncpy_chk", 
+                "fgets", 
+                "ip6tc_zero_counter", 
+                "ip6tc_get_policy", 
+                "ip6tc_flush_entries", 
+                "memcpy", 
+                "puts", 
+                "iptc_create_chain", 
+                "ip6tc_create_chain", 
+                "xtables_ip6mask_to_cidr", 
+                "iptc_append_entry", 
+                "_Jv_RegisterClasses", 
+                "fclose", 
+                "__strcat_chk", 
+                "ip6tc_strerror", 
+                "xtables_find_target", 
+                "xtables_malloc", 
+                "ip6tc_next_chain", 
+                "xtables_option_mpcall", 
+                "ip6tc_zero_entries", 
+                "ip6tc_is_chain", 
+                "__gmon_start__", 
+                "iptc_next_rule", 
+                "__fprintf_chk", 
+                "iptc_builtin", 
+                "socket", 
+                "ip6tc_delete_entry", 
+                "ip6tc_delete_num_entry", 
+                "ip6tc_free", 
+                "iptc_get_target", 
+                "ip6tc_get_references", 
+                "inet_ntop", 
+                "__ctype_b_loc", 
+                "xtables_print_num", 
+                "bind", 
+                "ip6tc_append_entry", 
+                "ip6tc_delete_chain", 
+                "memset", 
+                "ip6tc_check_entry", 
+                "ip6tc_init", 
+                "xtables_ipaddr_to_numeric", 
+                "__xpg_basename", 
+                "iptc_commit", 
+                "fflush", 
+                "strtok", 
+                "__stack_chk_fail", 
+                "iptc_get_references", 
+                "exit", 
+                "xtables_ipaddr_to_anyname", 
+                "xtables_parse_protocol", 
+                "iptc_get_policy", 
+                "memcmp", 
+                "ctime", 
+                "xtables_ip6parse_multiple", 
+                "strncpy", 
+                "__errno_location", 
+                "iptc_delete_chain", 
+                "iptc_check_entry", 
+                "ip6tc_first_rule", 
+                "__isoc99_sscanf", 
+                "fwrite", 
+                "iptc_set_policy", 
+                "iptc_first_rule", 
+                "fputs", 
+                "ip6tc_commit", 
+                "xtables_ip6mask_to_numeric", 
+                "__printf_chk", 
+                "iptc_next_chain", 
+                "ip6tc_builtin", 
+                "xtables_option_tfcall", 
+                "xtables_rule_matches_free", 
+                "iptc_strerror", 
+                "xtables_strtoui", 
+                "__ctype_tolower_loc", 
+                "xtables_init_all", 
+                "__vfprintf_chk", 
+                "xtables_options_xfrm", 
+                "strcpy", 
+                "strchr", 
+                "strlen", 
+                "sleep", 
+                "_ITM_deregisterTMCloneTable", 
+                "ip6tc_set_policy"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/sbin/xtables-multi"
+        }, 
+        "usr/lib/xtables/libip6t_icmp6_so": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "__gmon_start__", 
+                "xtables_register_match", 
+                "xtables_strtoui", 
+                "__stack_chk_fail", 
+                "memcpy", 
+                "putchar", 
+                "__cxa_finalize", 
+                "__printf_chk", 
+                "_Jv_RegisterClasses", 
+                "_ITM_deregisterTMCloneTable", 
+                "xtables_option_parse", 
+                "strlen", 
+                "puts", 
+                "strncasecmp"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libip6t_icmp6.so"
+        }, 
+        "usr/lib/xtables/libxt_NFLOG_so": {
+            "report-functions": [
+                "xtables_register_target", 
+                "__printf_chk", 
+                "_ITM_registerTMCloneTable", 
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "xtables_save_string", 
+                "strchr", 
+                "xtables_option_parse", 
+                "_ITM_deregisterTMCloneTable", 
+                "puts"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libxt_NFLOG.so"
+        }, 
+        "usr/lib/xtables/libxt_bpf_so": {
+            "report-functions": [
+                "__isoc99_sscanf", 
+                "_ITM_deregisterTMCloneTable", 
+                "strchr", 
+                "puts", 
+                "xtables_option_parse", 
+                "putchar", 
+                "__printf_chk", 
+                "xtables_register_match", 
+                "__gmon_start__", 
+                "_Jv_RegisterClasses", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libxt_bpf.so"
+        }, 
+        "usr/lib/xtables/libxt_standard_so": {
+            "report-functions": [
+                "__gmon_start__", 
+                "xtables_register_target", 
+                "puts", 
+                "_Jv_RegisterClasses", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libxt_standard.so"
+        }, 
+        "usr/lib/xtables/libipt_ah_so": {
+            "report-functions": [
+                "_Jv_RegisterClasses", 
+                "__printf_chk", 
+                "_ITM_deregisterTMCloneTable", 
+                "xtables_option_parse", 
+                "xtables_register_match", 
+                "__gmon_start__", 
+                "putchar", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libipt_ah.so"
+        }, 
+        "usr/lib/xtables/libxt_DSCP_so": {
+            "report-functions": [
+                "__printf_chk", 
+                "xtables_option_parse", 
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "xtables_register_target", 
+                "_Jv_RegisterClasses", 
+                "puts", 
+                "_ITM_registerTMCloneTable", 
+                "strncasecmp"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libxt_DSCP.so"
+        }, 
+        "usr/lib/xtables/libxt_CLASSIFY_so": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "xtables_option_parse", 
+                "__printf_chk", 
+                "__isoc99_sscanf", 
+                "_ITM_deregisterTMCloneTable", 
+                "xtables_register_target", 
+                "_Jv_RegisterClasses", 
+                "__cxa_finalize", 
+                "__gmon_start__"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libxt_CLASSIFY.so"
+        }, 
+        "usr/lib/xtables/libxt_IDLETIMER_so": {
+            "report-functions": [
+                "puts", 
+                "__gmon_start__", 
+                "xtables_register_target", 
+                "__printf_chk", 
+                "_ITM_registerTMCloneTable", 
+                "_ITM_deregisterTMCloneTable", 
+                "xtables_option_parse"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libxt_IDLETIMER.so"
+        }, 
+        "usr/lib/xtables/libxt_CT_so": {
+            "report-functions": [
+                "strcmp", 
+                "__printf_chk", 
+                "_ITM_deregisterTMCloneTable", 
+                "xtables_option_parse", 
+                "_Jv_RegisterClasses", 
+                "memcpy", 
+                "strlen", 
+                "puts", 
+                "__cxa_finalize", 
+                "xtables_register_targets", 
+                "__gmon_start__", 
+                "strchr"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libxt_CT.so"
+        }, 
+        "usr/lib/xtables/libxt_sctp_so": {
+            "report-functions": [
+                "_IO_putc", 
+                "putchar", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable", 
+                "__gmon_start__", 
+                "__strdup", 
+                "strchr", 
+                "xtables_register_match", 
+                "__ctype_toupper_loc", 
+                "puts", 
+                "strtok", 
+                "strcasecmp", 
+                "__ctype_tolower_loc", 
+                "__cxa_finalize", 
+                "xtables_parse_port", 
+                "strlen", 
+                "__printf_chk", 
+                "free", 
+                "_Jv_RegisterClasses"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libxt_sctp.so"
+        }, 
+        "usr/lib/xtables/libxt_tcp_so": {
+            "report-functions": [
+                "strchr", 
+                "free", 
+                "xtables_strtoui", 
+                "__cxa_finalize", 
+                "__stack_chk_fail", 
+                "getservbyport", 
+                "_ITM_registerTMCloneTable", 
+                "xtables_register_match", 
+                "puts", 
+                "xtables_parse_port", 
+                "strtok", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "strcasecmp", 
+                "__printf_chk", 
+                "__strdup"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libxt_tcp.so"
+        }, 
+        "usr/lib/xtables/libxt_connmark_so": {
+            "report-functions": [
+                "putchar", 
+                "_Jv_RegisterClasses", 
+                "__gmon_start__", 
+                "xtables_option_parse", 
+                "__cxa_finalize", 
+                "__printf_chk", 
+                "xtables_register_matches", 
+                "puts"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libxt_connmark.so"
+        }, 
+        "usr/lib/xtables/libxt_set_so": {
+            "report-functions": [
+                "xtables_register_matches", 
+                "_Jv_RegisterClasses", 
+                "close", 
+                "strerror", 
+                "free", 
+                "__stack_chk_fail", 
+                "fcntl", 
+                "strncpy", 
+                "strlen", 
+                "__gmon_start__", 
+                "strchr", 
+                "puts", 
+                "__errno_location", 
+                "__strdup", 
+                "__printf_chk", 
+                "socket", 
+                "__cxa_finalize", 
+                "fwrite", 
+                "_ITM_registerTMCloneTable", 
+                "xtables_strtoul"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libxt_set.so"
+        }, 
+        "usr/lib/xtables/libxt_state_so": {
+            "report-functions": [
+                "__strcat_chk", 
+                "_Jv_RegisterClasses", 
+                "__cxa_finalize", 
+                "strchr", 
+                "strcasecmp", 
+                "xtables_ipmask_to_numeric", 
+                "__gmon_start__", 
+                "xtables_ip6mask_to_numeric", 
+                "__strcpy_chk", 
+                "strncasecmp", 
+                "xtables_param_act", 
+                "__printf_chk", 
+                "xtables_ip6addr_to_numeric", 
+                "xtables_option_parse", 
+                "xtables_ipaddr_to_numeric", 
+                "_ITM_registerTMCloneTable", 
+                "__stack_chk_fail", 
+                "xtables_ipaddr_to_anyname", 
+                "xtables_register_matches", 
+                "strlen", 
+                "xtables_ip6addr_to_anyname"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libxt_state.so"
+        }, 
+        "usr/lib/xtables/libxt_HMARK_so": {
+            "report-functions": [
+                "puts", 
+                "__gmon_start__", 
+                "xtables_option_parse", 
+                "_ITM_deregisterTMCloneTable", 
+                "__printf_chk", 
+                "strncasecmp", 
+                "__cxa_finalize", 
+                "xtables_register_targets", 
+                "strlen", 
+                "xtables_ip6mask_to_numeric", 
+                "_ITM_registerTMCloneTable", 
+                "xtables_ipmask_to_cidr", 
+                "strchr"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libxt_HMARK.so"
+        }, 
+        "usr/lib/xtables/libxt_AUDIT_so": {
+            "report-functions": [
+                "__printf_chk", 
+                "_Jv_RegisterClasses", 
+                "__cxa_finalize", 
+                "__gmon_start__", 
+                "puts", 
+                "_ITM_registerTMCloneTable", 
+                "xtables_option_parse", 
+                "strcasecmp"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libxt_AUDIT.so"
+        }, 
+        "usr/lib/xtables/libxt_TEE_so": {
+            "report-functions": [
+                "__gmon_start__", 
+                "puts", 
+                "xtables_register_targets", 
+                "__printf_chk", 
+                "_Jv_RegisterClasses", 
+                "xtables_ipaddr_to_numeric", 
+                "__cxa_finalize", 
+                "xtables_ip6addr_to_anyname", 
+                "xtables_ip6addr_to_numeric", 
+                "_ITM_registerTMCloneTable", 
+                "xtables_option_parse"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libxt_TEE.so"
+        }, 
+        "usr/lib/xtables/libxt_pkttype_so": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize", 
+                "__printf_chk", 
+                "putchar", 
+                "__gmon_start__", 
+                "xtables_option_parse", 
+                "_Jv_RegisterClasses", 
+                "puts", 
+                "xtables_register_match"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libxt_pkttype.so"
+        }, 
+        "usr/lib/xtables/libxt_mark_so": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "puts", 
+                "__cxa_finalize", 
+                "_Jv_RegisterClasses", 
+                "xtables_option_parse", 
+                "_ITM_deregisterTMCloneTable", 
+                "xtables_register_matches"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libxt_mark.so"
+        }, 
+        "usr/lib/xtables/libipt_REJECT_so": {
+            "report-functions": [
+                "fwrite", 
+                "puts", 
+                "_Jv_RegisterClasses", 
+                "_ITM_registerTMCloneTable", 
+                "putchar", 
+                "__printf_chk", 
+                "strncasecmp", 
+                "__cxa_finalize", 
+                "xtables_register_target", 
+                "strlen", 
+                "__gmon_start__"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libipt_REJECT.so"
+        }, 
+        "usr/lib/xtables/libxt_CHECKSUM_so": {
+            "report-functions": [
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize", 
+                "puts", 
+                "__printf_chk", 
+                "xtables_option_parse", 
+                "_Jv_RegisterClasses"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libxt_CHECKSUM.so"
+        }, 
+        "usr/lib/xtables/libxt_LED_so": {
+            "report-functions": [
+                "xtables_register_target", 
+                "__strcpy_chk", 
+                "puts", 
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "__printf_chk", 
+                "xtables_strtoui", 
+                "_ITM_registerTMCloneTable", 
+                "_ITM_deregisterTMCloneTable", 
+                "_Jv_RegisterClasses", 
+                "xtables_option_parse"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libxt_LED.so"
+        }, 
+        "usr/lib/xtables/libip6t_hl_so": {
+            "report-functions": [
+                "xtables_register_match", 
+                "xtables_option_parse", 
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable", 
+                "puts", 
+                "__printf_chk", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libip6t_hl.so"
+        }, 
+        "usr/lib/xtables/libxt_physdev_so": {
+            "report-functions": [
+                "__gmon_start__", 
+                "_Jv_RegisterClasses", 
+                "xtables_parse_interface", 
+                "_ITM_registerTMCloneTable", 
+                "__printf_chk", 
+                "__cxa_finalize", 
+                "_ITM_deregisterTMCloneTable", 
+                "xtables_option_parse"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libxt_physdev.so"
+        }, 
+        "usr/lib/xtables/libxt_comment_so": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "_ITM_deregisterTMCloneTable", 
+                "xtables_register_match", 
+                "xtables_save_string", 
+                "__printf_chk", 
+                "puts", 
+                "xtables_option_parse", 
+                "_Jv_RegisterClasses"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libxt_comment.so"
+        }, 
+        "usr/lib/xtables/libxt_recent_so": {
+            "report-functions": [
+                "strncpy", 
+                "__cxa_finalize", 
+                "__printf_chk", 
+                "xtables_ip6addr_to_numeric", 
+                "_Jv_RegisterClasses", 
+                "puts", 
+                "__gmon_start__", 
+                "xtables_register_matches", 
+                "xtables_option_parse", 
+                "xtables_ipaddr_to_numeric", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libxt_recent.so"
+        }, 
+        "usr/lib/xtables/libxt_osf_so": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable", 
+                "_Jv_RegisterClasses", 
+                "xtables_register_match", 
+                "xtables_option_parse", 
+                "__printf_chk", 
+                "__gmon_start__", 
+                "puts", 
+                "strlen"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libxt_osf.so"
+        }, 
+        "usr/lib/xtables/libxt_helper_so": {
+            "report-functions": [
+                "puts", 
+                "_ITM_registerTMCloneTable", 
+                "xtables_option_parse", 
+                "__printf_chk", 
+                "xtables_register_match", 
+                "__cxa_finalize", 
+                "xtables_save_string", 
+                "__gmon_start__"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libxt_helper.so"
+        }, 
+        "usr/lib/xtables/libip6t_MASQUERADE_so": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "xtables_register_target", 
+                "__cxa_finalize", 
+                "__stack_chk_fail", 
+                "_Jv_RegisterClasses", 
+                "puts", 
+                "xtables_param_act", 
+                "xtables_option_parse", 
+                "_ITM_registerTMCloneTable", 
+                "__printf_chk"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libip6t_MASQUERADE.so"
+        }, 
+        "usr/lib/libiptc_so_0_0_0": {
+            "report-functions": [
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "_Jv_RegisterClasses"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libiptc.so.0.0.0"
+        }, 
+        "usr/lib/xtables/libxt_connlabel_so": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "xtables_register_match", 
+                "nfct_labelmap_new", 
+                "__fprintf_chk", 
+                "__cxa_finalize", 
+                "puts", 
+                "nfct_labelmap_get_name", 
+                "_ITM_registerTMCloneTable", 
+                "xtables_option_parse", 
+                "strerror", 
+                "nfct_labelmap_get_bit", 
+                "__errno_location"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libxt_connlabel.so"
+        }, 
+        "usr/lib/xtables/libipt_ECN_so": {
+            "report-functions": [
+                "puts", 
+                "_ITM_deregisterTMCloneTable", 
+                "__printf_chk", 
+                "__cxa_finalize", 
+                "xtables_register_target", 
+                "xtables_option_parse", 
+                "_Jv_RegisterClasses"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libipt_ECN.so"
+        }, 
+        "usr/lib/xtables/libipt_realm_so": {
+            "report-functions": [
+                "strtoul", 
+                "xtables_option_parse", 
+                "__fprintf_chk", 
+                "puts", 
+                "xtables_lmap_name2id", 
+                "strerror", 
+                "xtables_register_match", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "xtables_lmap_id2name", 
+                "__errno_location", 
+                "__stack_chk_fail", 
+                "__cxa_finalize", 
+                "_Jv_RegisterClasses", 
+                "xtables_lmap_init"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libipt_realm.so"
+        }, 
+        "usr/lib/xtables/libip6t_rt_so": {
+            "report-functions": [
+                "__strdup", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "_ITM_deregisterTMCloneTable", 
+                "putchar", 
+                "strchr", 
+                "inet_pton", 
+                "__printf_chk", 
+                "__cxa_finalize", 
+                "xtables_register_match", 
+                "xtables_option_parse", 
+                "_Jv_RegisterClasses"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libip6t_rt.so"
+        }, 
+        "usr/lib/xtables/libxt_TCPOPTSTRIP_so": {
+            "report-functions": [
+                "xtables_option_parse", 
+                "__stack_chk_fail", 
+                "xtables_strtoui", 
+                "__printf_chk", 
+                "_ITM_deregisterTMCloneTable", 
+                "putchar", 
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "_Jv_RegisterClasses", 
+                "strchr", 
+                "puts", 
+                "strcmp"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libxt_TCPOPTSTRIP.so"
+        }, 
+        "usr/lib/xtables/libipt_MASQUERADE_so": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "xtables_strtoui", 
+                "_ITM_registerTMCloneTable", 
+                "__printf_chk", 
+                "xtables_register_target", 
+                "_Jv_RegisterClasses", 
+                "__cxa_finalize", 
+                "_ITM_deregisterTMCloneTable", 
+                "xtables_param_act"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libipt_MASQUERADE.so"
+        }, 
+        "usr/lib/xtables/libxt_SECMARK_so": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "xtables_register_target", 
+                "_ITM_deregisterTMCloneTable", 
+                "xtables_option_parse", 
+                "puts", 
+                "__cxa_finalize", 
+                "_Jv_RegisterClasses", 
+                "__gmon_start__"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libxt_SECMARK.so"
+        }, 
+        "usr/lib/xtables/libxt_TOS_so": {
+            "report-functions": [
+                "__printf_chk", 
+                "__gmon_start__", 
+                "xtables_option_parse", 
+                "_Jv_RegisterClasses", 
+                "_ITM_deregisterTMCloneTable", 
+                "xtables_register_targets", 
+                "puts", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libxt_TOS.so"
+        }, 
+        "usr/lib/xtables/libxt_udp_so": {
+            "report-functions": [
+                "_Jv_RegisterClasses", 
+                "xtables_option_parse", 
+                "xtables_register_match", 
+                "__cxa_finalize", 
+                "puts", 
+                "getservbyport", 
+                "putchar", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libxt_udp.so"
+        }, 
+        "usr/lib/xtables/libxt_dccp_so": {
+            "report-functions": [
+                "putchar", 
+                "puts", 
+                "__strdup", 
+                "_Jv_RegisterClasses", 
+                "strtok", 
+                "_ITM_registerTMCloneTable", 
+                "_ITM_deregisterTMCloneTable", 
+                "free", 
+                "__gmon_start__", 
+                "__printf_chk", 
+                "getservbyport", 
+                "xtables_option_parse", 
+                "xtables_register_match"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libxt_dccp.so"
+        }, 
+        "usr/lib/xtables/libipt_ttl_so": {
+            "report-functions": [
+                "__gmon_start__", 
+                "xtables_option_parse", 
+                "_ITM_registerTMCloneTable", 
+                "_Jv_RegisterClasses", 
+                "__cxa_finalize", 
+                "__printf_chk", 
+                "xtables_register_match"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libipt_ttl.so"
+        }, 
+        "usr/lib/xtables/libip6t_NETMAP_so": {
+            "report-functions": [
+                "xtables_ip6mask_to_cidr", 
+                "_Jv_RegisterClasses", 
+                "__stack_chk_fail", 
+                "_ITM_deregisterTMCloneTable", 
+                "xtables_ip6addr_to_numeric", 
+                "__gmon_start__", 
+                "__printf_chk", 
+                "_ITM_registerTMCloneTable", 
+                "xtables_option_parse"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libip6t_NETMAP.so"
+        }, 
+        "usr/lib/xtables/libxt_iprange_so": {
+            "report-functions": [
+                "__strdup", 
+                "memcmp", 
+                "__cxa_finalize", 
+                "puts", 
+                "__gmon_start__", 
+                "_Jv_RegisterClasses", 
+                "__printf_chk", 
+                "free", 
+                "__stack_chk_fail", 
+                "_ITM_registerTMCloneTable", 
+                "_ITM_deregisterTMCloneTable", 
+                "xtables_register_matches", 
+                "strchr", 
+                "xtables_ipaddr_to_numeric", 
+                "xtables_numeric_to_ip6addr", 
+                "xtables_param_act", 
+                "__fprintf_chk", 
+                "xtables_option_parse"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libxt_iprange.so"
+        }, 
+        "usr/lib/xtables/libxt_NOTRACK_so": {
+            "report-functions": [
+                "xtables_option_parse", 
+                "_Jv_RegisterClasses", 
+                "strcmp", 
+                "_ITM_registerTMCloneTable", 
+                "strchr", 
+                "xtables_register_targets", 
+                "puts", 
+                "_ITM_deregisterTMCloneTable", 
+                "strlen", 
+                "__printf_chk", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libxt_NOTRACK.so"
+        }, 
+        "usr/lib/xtables/libip6t_REDIRECT_so": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "xtables_strtoui", 
+                "__cxa_finalize", 
+                "xtables_option_parse", 
+                "puts", 
+                "_ITM_registerTMCloneTable", 
+                "__printf_chk", 
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "xtables_param_act", 
+                "xtables_register_target"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libip6t_REDIRECT.so"
+        }, 
+        "usr/lib/xtables/libxt_dscp_so": {
+            "report-functions": [
+                "__gmon_start__", 
+                "puts", 
+                "__cxa_finalize", 
+                "__printf_chk", 
+                "_ITM_registerTMCloneTable", 
+                "strncasecmp", 
+                "_ITM_deregisterTMCloneTable", 
+                "xtables_option_parse", 
+                "_Jv_RegisterClasses"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libxt_dscp.so"
+        }, 
+        "usr/lib/xtables/libxt_MARK_so": {
+            "report-functions": [
+                "xtables_register_targets", 
+                "__printf_chk", 
+                "puts", 
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libxt_MARK.so"
+        }, 
+        "usr/lib/xtables/libipt_CLUSTERIP_so": {
+            "report-functions": [
+                "xtables_register_target", 
+                "__printf_chk", 
+                "__cxa_finalize", 
+                "_Jv_RegisterClasses", 
+                "puts", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libipt_CLUSTERIP.so"
+        }, 
+        "usr/lib/xtables/libxt_TCPMSS_so": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable", 
+                "__printf_chk", 
+                "xtables_option_parse", 
+                "xtables_register_targets", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libxt_TCPMSS.so"
+        }, 
+        "usr/lib/xtables/libxt_conntrack_so": {
+            "report-functions": [
+                "xtables_ipaddr_to_numeric", 
+                "__cxa_finalize", 
+                "xtables_option_parse", 
+                "xtables_ip6addr_to_numeric", 
+                "__printf_chk", 
+                "xtables_ip6mask_to_numeric", 
+                "__strcat_chk", 
+                "__strcpy_chk", 
+                "strchr", 
+                "puts", 
+                "xtables_ipmask_to_numeric", 
+                "xtables_ipaddr_to_anyname", 
+                "xtables_param_act", 
+                "xtables_register_matches", 
+                "strlen", 
+                "strcasecmp", 
+                "xtables_ip6addr_to_anyname", 
+                "_ITM_deregisterTMCloneTable", 
+                "__stack_chk_fail", 
+                "strncasecmp", 
+                "__gmon_start__"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libxt_conntrack.so"
+        }, 
+        "usr/lib/xtables/libxt_esp_so": {
+            "report-functions": [
+                "xtables_register_match", 
+                "_Jv_RegisterClasses", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable", 
+                "xtables_option_parse", 
+                "__gmon_start__"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libxt_esp.so"
+        }, 
+        "usr/lib/xtables/libxt_cpu_so": {
+            "report-functions": [
+                "puts", 
+                "_ITM_deregisterTMCloneTable", 
+                "__printf_chk", 
+                "xtables_register_match", 
+                "_ITM_registerTMCloneTable", 
+                "xtables_option_parse", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libxt_cpu.so"
+        }, 
+        "usr/lib/xtables/libxt_time_so": {
+            "report-functions": [
+                "__printf_chk", 
+                "putchar", 
+                "tzset", 
+                "__snprintf_chk", 
+                "strchr", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "strncmp", 
+                "__cxa_finalize", 
+                "mktime", 
+                "__stack_chk_fail", 
+                "puts", 
+                "_Jv_RegisterClasses", 
+                "_ITM_deregisterTMCloneTable", 
+                "gmtime", 
+                "snprintf", 
+                "fwrite", 
+                "xtables_option_parse", 
+                "perror", 
+                "setenv"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libxt_time.so"
+        }, 
+        "usr/lib/libip6tc_so_0_1_0": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "memcmp", 
+                "__strcpy_chk", 
+                "inet_ntop", 
+                "_ITM_registerTMCloneTable", 
+                "__stack_chk_fail", 
+                "strcmp", 
+                "puts", 
+                "memset", 
+                "putchar", 
+                "_IO_putc", 
+                "_Jv_RegisterClasses", 
+                "abort", 
+                "__errno_location", 
+                "__gmon_start__", 
+                "__fprintf_chk", 
+                "malloc", 
+                "memcpy", 
+                "free", 
+                "__printf_chk", 
+                "getsockopt", 
+                "strerror", 
+                "fcntl", 
+                "strlen", 
+                "_ITM_deregisterTMCloneTable", 
+                "setsockopt", 
+                "socket"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libip6tc.so.0.1.0"
+        }, 
+        "usr/lib/xtables/libipt_DNAT_so": {
+            "report-functions": [
+                "strtol", 
+                "xtables_numeric_to_ipaddr", 
+                "_ITM_registerTMCloneTable", 
+                "__stack_chk_fail", 
+                "xtables_register_target", 
+                "__strdup", 
+                "__gmon_start__", 
+                "realloc", 
+                "_Jv_RegisterClasses", 
+                "xtables_ipaddr_to_numeric", 
+                "_ITM_deregisterTMCloneTable", 
+                "putchar", 
+                "strchr", 
+                "xtables_option_parse", 
+                "puts", 
+                "get_kernel_version", 
+                "__printf_chk"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libipt_DNAT.so"
+        }, 
+        "usr/lib/xtables/libxt_addrtype_so": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "strncasecmp", 
+                "_ITM_deregisterTMCloneTable", 
+                "xtables_register_matches", 
+                "_ITM_registerTMCloneTable", 
+                "xtables_option_parse", 
+                "puts", 
+                "_Jv_RegisterClasses", 
+                "strlen", 
+                "__printf_chk", 
+                "strchr"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libxt_addrtype.so"
+        }, 
+        "usr/lib/xtables/libipt_MIRROR_so": {
+            "report-functions": [
+                "xtables_register_target", 
+                "_ITM_deregisterTMCloneTable", 
+                "_Jv_RegisterClasses", 
+                "__cxa_finalize", 
+                "__gmon_start__"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libipt_MIRROR.so"
+        }, 
+        "usr/lib/xtables/libxt_cluster_so": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "_Jv_RegisterClasses", 
+                "__gmon_start__", 
+                "xtables_option_parse", 
+                "xtables_register_match", 
+                "__printf_chk", 
+                "puts"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libxt_cluster.so"
+        }, 
+        "usr/lib/xtables/libip6t_REJECT_so": {
+            "report-functions": [
+                "strlen", 
+                "puts", 
+                "_Jv_RegisterClasses", 
+                "strncasecmp", 
+                "__cxa_finalize", 
+                "xtables_option_parse", 
+                "__printf_chk", 
+                "_ITM_registerTMCloneTable", 
+                "xtables_register_target", 
+                "putchar"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libip6t_REJECT.so"
+        }, 
+        "usr/lib/xtables/libxt_nfacct_so": {
+            "report-functions": [
+                "puts", 
+                "xtables_option_parse", 
+                "_Jv_RegisterClasses", 
+                "_ITM_registerTMCloneTable", 
+                "__printf_chk", 
+                "xtables_register_match", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "xtables_save_string"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libxt_nfacct.so"
+        }, 
+        "usr/lib/xtables/libxt_policy_so": {
+            "report-functions": [
+                "xtables_ipmask_to_numeric", 
+                "xtables_ip6addr_to_numeric", 
+                "_ITM_registerTMCloneTable", 
+                "__cxa_finalize", 
+                "xtables_ip6mask_to_numeric", 
+                "xtables_register_matches", 
+                "__printf_chk", 
+                "xtables_ipaddr_to_numeric", 
+                "__gmon_start__", 
+                "puts", 
+                "_ITM_deregisterTMCloneTable", 
+                "xtables_option_parse"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libxt_policy.so"
+        }, 
+        "usr/lib/xtables/libip6t_SNPT_so": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "xtables_option_parse", 
+                "_ITM_registerTMCloneTable", 
+                "__printf_chk", 
+                "xtables_ip6addr_to_numeric", 
+                "_Jv_RegisterClasses", 
+                "puts", 
+                "xtables_register_target", 
+                "__gmon_start__"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libip6t_SNPT.so"
+        }, 
+        "usr/lib/xtables/libip6t_dst_so": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "__stack_chk_fail", 
+                "strchr", 
+                "__strdup", 
+                "_Jv_RegisterClasses", 
+                "strtoul", 
+                "xtables_register_match", 
+                "__cxa_finalize", 
+                "__gmon_start__", 
+                "xtables_option_parse", 
+                "__printf_chk", 
+                "putchar", 
+                "free"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libip6t_dst.so"
+        }, 
+        "usr/lib/xtables/libip6t_hbh_so": {
+            "report-functions": [
+                "__printf_chk", 
+                "_Jv_RegisterClasses", 
+                "__errno_location", 
+                "putchar", 
+                "_ITM_registerTMCloneTable", 
+                "strtoul", 
+                "__gmon_start__", 
+                "strchr", 
+                "xtables_option_parse", 
+                "__strdup", 
+                "__cxa_finalize", 
+                "_ITM_deregisterTMCloneTable", 
+                "__stack_chk_fail", 
+                "xtables_register_match"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libip6t_hbh.so"
+        }, 
+        "usr/lib/xtables/libip6t_eui64_so": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable", 
+                "__gmon_start__", 
+                "_Jv_RegisterClasses"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libip6t_eui64.so"
+        }, 
+        "usr/lib/xtables/libipt_TTL_so": {
+            "report-functions": [
+                "__printf_chk", 
+                "_Jv_RegisterClasses", 
+                "xtables_option_parse", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "puts", 
+                "xtables_register_target"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libipt_TTL.so"
+        }, 
+        "usr/lib/xtables/libxt_SET_so": {
+            "report-functions": [
+                "fcntl", 
+                "strchr", 
+                "free", 
+                "socket", 
+                "__errno_location", 
+                "xtables_strtoui", 
+                "xtables_register_targets", 
+                "_ITM_registerTMCloneTable", 
+                "close", 
+                "__gmon_start__", 
+                "__printf_chk", 
+                "strerror", 
+                "_ITM_deregisterTMCloneTable", 
+                "strncpy", 
+                "puts", 
+                "strlen", 
+                "_Jv_RegisterClasses", 
+                "__strdup", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libxt_SET.so"
+        }, 
+        "usr/lib/libxtables_so_10_0_0": {
+            "report-functions": [
+                "fcntl", 
+                "strcasecmp", 
+                "__strdup", 
+                "__gmon_start__", 
+                "vfork", 
+                "__strcpy_chk", 
+                "fopen64", 
+                "__snprintf_chk", 
+                "_ITM_registerTMCloneTable", 
+                "strerror", 
+                "calloc", 
+                "memset", 
+                "getaddrinfo", 
+                "uname", 
+                "strspn", 
+                "_IO_putc", 
+                "fflush", 
+                "__memset_chk", 
+                "__xstat64", 
+                "inet_pton", 
+                "perror", 
+                "__strncpy_chk", 
+                "inet_ntop", 
+                "dlopen", 
+                "malloc", 
+                "__isoc99_sscanf", 
+                "strtod", 
+                "fclose", 
+                "statfs64", 
+                "realloc", 
+                "__cxa_finalize", 
+                "getservbyname", 
+                "_Jv_RegisterClasses", 
+                "dlerror", 
+                "freeaddrinfo", 
+                "strrchr", 
+                "memcpy", 
+                "wait", 
+                "fputs", 
+                "fputc", 
+                "open64", 
+                "execv", 
+                "getnetbyname", 
+                "__fprintf_chk", 
+                "__sprintf_chk", 
+                "getprotobyname", 
+                "socket", 
+                "getnameinfo", 
+                "__errno_location", 
+                "free", 
+                "__lxstat64", 
+                "memcmp", 
+                "strncpy", 
+                "__strtoull_internal", 
+                "__printf_chk", 
+                "read", 
+                "getenv", 
+                "gethostbyname", 
+                "fgets", 
+                "bsearch", 
+                "_ITM_deregisterTMCloneTable", 
+                "strcpy", 
+                "__vfprintf_chk", 
+                "strtoul", 
+                "strchr", 
+                "__stack_chk_fail", 
+                "getnetbyaddr", 
+                "gai_strerror", 
+                "exit", 
+                "fwrite", 
+                "getsockopt", 
+                "close", 
+                "gethostbyaddr", 
+                "strpbrk", 
+                "__ctype_b_loc", 
+                "strcmp"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libxtables.so.10.0.0"
+        }, 
+        "usr/lib/xtables/libip6t_HL_so": {
+            "report-functions": [
+                "_Jv_RegisterClasses", 
+                "puts", 
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "__printf_chk"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libip6t_HL.so"
+        }, 
+        "usr/lib/xtables/libip6t_mh_so": {
+            "report-functions": [
+                "xtables_strtoui", 
+                "xtables_option_parse", 
+                "__cxa_finalize", 
+                "putchar", 
+                "strlen", 
+                "__strdup", 
+                "strncasecmp", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable", 
+                "__gmon_start__", 
+                "__stack_chk_fail", 
+                "free", 
+                "_Jv_RegisterClasses", 
+                "__printf_chk", 
+                "puts"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libip6t_mh.so"
+        }, 
+        "usr/lib/xtables/libxt_socket_so": {
+            "report-functions": [
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "puts", 
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable", 
+                "__printf_chk", 
+                "_Jv_RegisterClasses"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libxt_socket.so"
+        }, 
+        "usr/lib/xtables/libxt_ecn_so": {
+            "report-functions": [
+                "puts", 
+                "_Jv_RegisterClasses", 
+                "_ITM_deregisterTMCloneTable", 
+                "__printf_chk", 
+                "xtables_option_parse", 
+                "__gmon_start__", 
+                "xtables_register_match"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libxt_ecn.so"
+        }, 
+        "usr/lib/xtables/libipt_SNAT_so": {
+            "report-functions": [
+                "xtables_option_parse", 
+                "xtables_register_target", 
+                "strchr", 
+                "xtables_ipaddr_to_numeric", 
+                "__cxa_finalize", 
+                "__printf_chk", 
+                "xtables_numeric_to_ipaddr", 
+                "__strdup", 
+                "_Jv_RegisterClasses", 
+                "_ITM_registerTMCloneTable", 
+                "putchar", 
+                "puts", 
+                "realloc", 
+                "_ITM_deregisterTMCloneTable", 
+                "get_kernel_version", 
+                "__gmon_start__", 
+                "strtol"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libipt_SNAT.so"
+        }, 
+        "usr/lib/xtables/libipt_REDIRECT_so": {
+            "report-functions": [
+                "_Jv_RegisterClasses", 
+                "xtables_service_to_port", 
+                "xtables_param_act", 
+                "xtables_register_target", 
+                "_ITM_registerTMCloneTable", 
+                "__printf_chk", 
+                "__cxa_finalize", 
+                "__stack_chk_fail", 
+                "xtables_option_parse", 
+                "xtables_strtoui", 
+                "puts"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libipt_REDIRECT.so"
+        }, 
+        "usr/lib/xtables/libxt_quota_so": {
+            "report-functions": [
+                "puts", 
+                "__printf_chk", 
+                "xtables_option_parse", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize", 
+                "xtables_register_match", 
+                "_Jv_RegisterClasses"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libxt_quota.so"
+        }, 
+        "usr/lib/xtables/libxt_string_so": {
+            "report-functions": [
+                "sscanf", 
+                "_ITM_registerTMCloneTable", 
+                "_Jv_RegisterClasses", 
+                "_ITM_deregisterTMCloneTable", 
+                "strnlen", 
+                "xtables_register_matches", 
+                "_IO_putc", 
+                "puts", 
+                "__stack_chk_fail", 
+                "__printf_chk", 
+                "__cxa_finalize", 
+                "strlen", 
+                "__ctype_b_loc", 
+                "putchar", 
+                "strncpy"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libxt_string.so"
+        }, 
+        "usr/lib/xtables/libipt_unclean_so": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "_ITM_deregisterTMCloneTable", 
+                "xtables_register_match", 
+                "_Jv_RegisterClasses"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libipt_unclean.so"
+        }, 
+        "usr/lib/xtables/libip6t_ah_so": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable", 
+                "_Jv_RegisterClasses", 
+                "__cxa_finalize", 
+                "puts", 
+                "__printf_chk", 
+                "xtables_option_parse"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libip6t_ah.so"
+        }, 
+        "usr/lib/xtables/libxt_rpfilter_so": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "_ITM_deregisterTMCloneTable", 
+                "xtables_register_match", 
+                "_Jv_RegisterClasses", 
+                "_ITM_registerTMCloneTable", 
+                "xtables_option_parse", 
+                "__gmon_start__"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libxt_rpfilter.so"
+        }, 
+        "usr/lib/xtables/libxt_tcpmss_so": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "xtables_register_match", 
+                "_ITM_deregisterTMCloneTable", 
+                "puts", 
+                "_Jv_RegisterClasses", 
+                "xtables_option_parse", 
+                "__printf_chk"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libxt_tcpmss.so"
+        }, 
+        "usr/lib/xtables/libxt_CONNSECMARK_so": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "__gmon_start__", 
+                "_Jv_RegisterClasses", 
+                "_ITM_registerTMCloneTable", 
+                "__printf_chk", 
+                "puts", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libxt_CONNSECMARK.so"
+        }, 
+        "usr/lib/xtables/libxt_TRACE_so": {
+            "report-functions": [
+                "_Jv_RegisterClasses", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libxt_TRACE.so"
+        }, 
+        "usr/lib/xtables/libxt_owner_so": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "puts", 
+                "getgrnam", 
+                "__printf_chk", 
+                "xtables_param_act", 
+                "xtables_option_parse", 
+                "__stack_chk_fail", 
+                "__cxa_finalize", 
+                "getpwnam", 
+                "_Jv_RegisterClasses", 
+                "xtables_register_matches", 
+                "_ITM_registerTMCloneTable", 
+                "__gmon_start__", 
+                "getpwuid"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libxt_owner.so"
+        }, 
+        "usr/lib/xtables/libxt_rateest_so": {
+            "report-functions": [
+                "_Jv_RegisterClasses", 
+                "_ITM_deregisterTMCloneTable", 
+                "strcasecmp", 
+                "_ITM_registerTMCloneTable", 
+                "__cxa_finalize", 
+                "strtod", 
+                "xtables_register_match", 
+                "strncpy", 
+                "exit", 
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "__printf_chk"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libxt_rateest.so"
+        }, 
+        "usr/lib/xtables/libxt_TPROXY_so": {
+            "report-functions": [
+                "xtables_ip6addr_to_numeric", 
+                "__cxa_finalize", 
+                "xtables_register_targets", 
+                "xtables_option_parse", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable", 
+                "__gmon_start__", 
+                "_Jv_RegisterClasses", 
+                "puts"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libxt_TPROXY.so"
+        }, 
+        "usr/lib/libip4tc_so_0_1_0": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize", 
+                "strcmp", 
+                "memset", 
+                "__printf_chk", 
+                "memcpy", 
+                "abort", 
+                "__errno_location", 
+                "_Jv_RegisterClasses", 
+                "fcntl", 
+                "strncpy", 
+                "__strcpy_chk", 
+                "malloc", 
+                "putchar", 
+                "__gmon_start__", 
+                "strlen", 
+                "__fprintf_chk", 
+                "free", 
+                "socket", 
+                "__stack_chk_fail", 
+                "getsockopt", 
+                "close", 
+                "setsockopt"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libip4tc.so.0.1.0"
+        }, 
+        "usr/lib/xtables/libip6t_ipv6header_so": {
+            "report-functions": [
+                "xtables_register_match", 
+                "free", 
+                "strcmp", 
+                "xtables_option_parse", 
+                "_ITM_registerTMCloneTable", 
+                "getprotobyname", 
+                "putchar", 
+                "getprotobynumber", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "puts", 
+                "__printf_chk", 
+                "_Jv_RegisterClasses", 
+                "__strdup", 
+                "strtok"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libip6t_ipv6header.so"
+        }, 
+        "usr/lib/xtables/libip6t_DNAT_so": {
+            "report-functions": [
+                "__strdup", 
+                "puts", 
+                "get_kernel_version", 
+                "xtables_numeric_to_ip6addr", 
+                "__printf_chk", 
+                "memcmp", 
+                "xtables_ip6addr_to_numeric", 
+                "xtables_register_target", 
+                "strtol", 
+                "__cxa_finalize", 
+                "xtables_option_parse", 
+                "_ITM_deregisterTMCloneTable", 
+                "strchr", 
+                "_Jv_RegisterClasses", 
+                "putchar", 
+                "free", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libip6t_DNAT.so"
+        }, 
+        "usr/lib/xtables/libxt_length_so": {
+            "report-functions": [
+                "__printf_chk", 
+                "_Jv_RegisterClasses", 
+                "__cxa_finalize", 
+                "xtables_register_match", 
+                "__gmon_start__", 
+                "xtables_option_parse", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libxt_length.so"
+        }, 
+        "usr/lib/xtables/libxt_connlimit_so": {
+            "report-functions": [
+                "__printf_chk", 
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable", 
+                "_Jv_RegisterClasses", 
+                "__gmon_start__", 
+                "puts", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libxt_connlimit.so"
+        }, 
+        "usr/lib/xtables/libxt_CONNMARK_so": {
+            "report-functions": [
+                "_Jv_RegisterClasses", 
+                "__printf_chk", 
+                "_ITM_registerTMCloneTable", 
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "xtables_register_targets", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libxt_CONNMARK.so"
+        }, 
+        "usr/lib/xtables/libxt_SYNPROXY_so": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "_ITM_deregisterTMCloneTable", 
+                "xtables_option_parse", 
+                "__cxa_finalize", 
+                "xtables_register_target", 
+                "__printf_chk", 
+                "puts"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libxt_SYNPROXY.so"
+        }, 
+        "usr/lib/xtables/libxt_mac_so": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "__printf_chk", 
+                "__cxa_finalize", 
+                "xtables_register_match", 
+                "puts", 
+                "_ITM_deregisterTMCloneTable", 
+                "_Jv_RegisterClasses"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libxt_mac.so"
+        }, 
+        "usr/lib/xtables/libxt_statistic_so": {
+            "report-functions": [
+                "xtables_register_match", 
+                "lround", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "_Jv_RegisterClasses", 
+                "__cxa_finalize", 
+                "__printf_chk", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libxt_statistic.so"
+        }, 
+        "usr/lib/xtables/libxt_ipvs_so": {
+            "report-functions": [
+                "xtables_option_parse", 
+                "xtables_ipaddr_to_anyname", 
+                "__printf_chk", 
+                "_Jv_RegisterClasses", 
+                "xtables_ipaddr_to_numeric", 
+                "xtables_param_act", 
+                "xtables_ip6addr_to_anyname", 
+                "_ITM_registerTMCloneTable", 
+                "puts", 
+                "xtables_ipmask_to_numeric", 
+                "__strcat_chk", 
+                "__stack_chk_fail", 
+                "__strcpy_chk", 
+                "xtables_ip6mask_to_numeric", 
+                "__cxa_finalize", 
+                "_ITM_deregisterTMCloneTable", 
+                "xtables_register_matches", 
+                "__gmon_start__", 
+                "strcasecmp"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libxt_ipvs.so"
+        }, 
+        "usr/lib/xtables/libip6t_DNPT_so": {
+            "report-functions": [
+                "memcmp", 
+                "__gmon_start__", 
+                "_Jv_RegisterClasses", 
+                "__cxa_finalize", 
+                "_ITM_deregisterTMCloneTable", 
+                "xtables_option_parse", 
+                "_ITM_registerTMCloneTable", 
+                "xtables_ip6addr_to_numeric", 
+                "xtables_register_target"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libip6t_DNPT.so"
+        }, 
+        "usr/lib/xtables/libxt_NFQUEUE_so": {
+            "report-functions": [
+                "xtables_register_targets", 
+                "_Jv_RegisterClasses", 
+                "xtables_option_parse", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "puts", 
+                "__printf_chk"
+            ], 
+            "rpm": "iptables-1.4.21-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/xtables/libxt_NFQUEUE.so"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.4.21", 
+            "Name": " iptables", 
+            "License": " GPLv2", 
+            "URL": " http://www.netfilter.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-021.build.eng.bos.redhat.com", 
+            "Description": "\nThe iptables utility controls the network packet filtering code in the\nLinux kernel. If you need to set up firewalls and/or IP masquerading,\nyou should install this package.\n", 
+            "Build Date": " Thu 27 Mar 2014 04:03:27 PM EDT", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " iptables-1.4.21-13.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/iptables-1.4.21-13.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 01 Apr 2014 02:32:29 PM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 13.el7", 
+            "Group": " System Environment/Base", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " Tools for managing Linux kernel packet filtering capabilities", 
+            "Size": " 1305019"
+        }
+    }
+}

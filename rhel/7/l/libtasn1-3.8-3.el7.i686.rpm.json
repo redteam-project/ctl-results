@@ -1,0 +1,81 @@
+{
+    "results": {
+        "usr/lib/libtasn1_so_6_2_3": {
+            "report-functions": [
+                "strncat", 
+                "strchr", 
+                "stpcpy", 
+                "fputs", 
+                "calloc", 
+                "memcmp", 
+                "strtoul", 
+                "fopen64", 
+                "fclose", 
+                "__fprintf_chk", 
+                "realloc", 
+                "__memcpy_chk", 
+                "strverscmp", 
+                "fgetc", 
+                "__strcpy_chk", 
+                "__strcat_chk", 
+                "memset", 
+                "__stack_chk_fail", 
+                "_ITM_registerTMCloneTable", 
+                "strcmp", 
+                "_Jv_RegisterClasses", 
+                "__snprintf_chk", 
+                "__ctype_b_loc", 
+                "malloc", 
+                "memcpy", 
+                "strlen", 
+                "snprintf", 
+                "__cxa_finalize", 
+                "fputc", 
+                "strcat", 
+                "ungetc", 
+                "__stpcpy_chk", 
+                "memmove", 
+                "fwrite", 
+                "strtoull", 
+                "_ITM_deregisterTMCloneTable", 
+                "strcpy", 
+                "__gmon_start__"
+            ], 
+            "rpm": "libtasn1-3.8-3.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libtasn1.so.6.2.3"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 3.8", 
+            "Name": " libtasn1", 
+            "License": " GPLv3+ and LGPLv2+", 
+            "URL": " http://www.gnu.org/software/libtasn1/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-017.build.eng.bos.redhat.com", 
+            "Description": "\nA library that provides Abstract Syntax Notation One (ASN.1, as specified\nby the X.680 ITU-T recommendation) parsing and structures management, and\nDistinguished Encoding Rules (DER, as per X.690) encoding and decoding functions.\n", 
+            "Build Date": " Fri 08 Jul 2016 08:16:39 AM EDT", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " libtasn1-3.8-3.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/libtasn1-3.8-3.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 21 Jul 2016 09:46:19 PM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 3.el7", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " The ASN.1 library used in GNUTLS", 
+            "Size": " 422318"
+        }
+    }
+}

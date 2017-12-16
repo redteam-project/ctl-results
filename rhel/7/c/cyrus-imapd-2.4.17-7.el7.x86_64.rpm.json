@@ -1,0 +1,26 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Version": " 2.4.17", 
+            "Name": " cyrus-imapd", 
+            "License": " BSD", 
+            "URL": " http://www.cyrusimap.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-025.build.eng.bos.redhat.com", 
+            "Description": "\nThe cyrus-imapd package contains the core of the Cyrus IMAP server.\nIt is a scaleable enterprise mail system designed for use from\nsmall to large enterprise environments using standards-based\ninternet mail technologies.\n\nA full Cyrus IMAP implementation allows a seamless mail and bulletin\nboard environment to be set up across multiple servers. It differs from\nother IMAP server implementations in that it is run on \"sealed\"\nservers, where users are not normally permitted to log in and have no\nsystem account on the server. The mailbox database is stored in parts\nof the file system that are private to the Cyrus IMAP server. All user\naccess to mail is through software using the IMAP, POP3 or KPOP\nprotocols. It also includes support for virtual domains, NNTP,\nmailbox annotations, and much more. The private mailbox database design\ngives the server large advantages in efficiency, scalability and\nadministratability. Multiple concurrent read/write connections to the\nsame mailbox are permitted. The server supports access control lists on\nmailboxes and storage quotas on mailbox hierarchies.\n\nThe Cyrus IMAP server supports the IMAP4rev1 protocol described\nin RFC 3501. IMAP4rev1 has been approved as a proposed standard.\nIt supports any authentication mechanism available from the SASL\nlibrary, imaps/pop3s/nntps (IMAP/POP3/NNTP encrypted using SSL and\nTLSv1) can be used for security. The server supports single instance\nstore where possible when an email message is addressed to multiple\nrecipients, SIEVE provides server side email filtering.\n", 
+            "Build Date": " Fri 24 Jan 2014 02:59:33 PM EST", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " cyrus-imapd-2.4.17-7.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/0/cyrus-imapd-2.4.17-7.el7.x86_64.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " x86_64", 
+            "Signature": " RSA/SHA256, Tue 01 Apr 2014 10:29:54 AM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 7.el7", 
+            "Group": " System Environment/Daemons", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " A high-performance mail server with IMAP, POP3, NNTP and SIEVE support", 
+            "Size": " 60096800"
+        }
+    }
+}

@@ -1,0 +1,77 @@
+{
+    "results": {
+        "usr/lib/libquadmath_so_0_0_0": {
+            "report-functions": [
+                "__ctype_tolower_loc", 
+                "__ctype_b_loc", 
+                "fwrite", 
+                "register_printf_modifier", 
+                "fesetround", 
+                "feholdexcept", 
+                "towctrans", 
+                "_IO_putc", 
+                "_Jv_RegisterClasses", 
+                "__errno_location", 
+                "qsort", 
+                "sqrtl", 
+                "nl_langinfo", 
+                "wctrans", 
+                "malloc", 
+                "fegetround", 
+                "__gmon_start__", 
+                "wcrtomb", 
+                "fesetenv", 
+                "putwc", 
+                "memcpy", 
+                "fetestexcept", 
+                "free", 
+                "feupdateenv", 
+                "sqrt", 
+                "strtoull", 
+                "memmove", 
+                "strlen", 
+                "feclearexcept", 
+                "_ITM_deregisterTMCloneTable", 
+                "scalbn", 
+                "register_printf_specifier", 
+                "__stack_chk_fail", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "libquadmath-4.8.2-16.2.el7_0.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libquadmath.so.0.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 4.8.2", 
+            "Name": " libquadmath", 
+            "License": " GPLv3+ and GPLv3+ with exceptions and GPLv2+ with exceptions and LGPLv2+ and BSD", 
+            "URL": " http://gcc.gnu.org", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-025.build.eng.bos.redhat.com", 
+            "Description": "\nThis package contains GCC shared support library which is needed\nfor __float128 math support and for Fortran REAL*16 support.\n", 
+            "Build Date": " Wed 06 Aug 2014 06:38:28 AM EDT", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " gcc-4.8.2-16.2.el7_0.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/libquadmath-4.8.2-16.2.el7_0.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 15 Aug 2014 09:38:43 AM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 16.2.el7_0", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " GCC __float128 shared support library", 
+            "Size": " 396471"
+        }
+    }
+}

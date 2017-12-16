@@ -1,0 +1,82 @@
+{
+    "results": {
+        "usr/sbin/rdma-ndd": {
+            "report-functions": [
+                "udev_monitor_enable_receiving", 
+                "udev_device_get_subsystem", 
+                "_Jv_RegisterClasses", 
+                "exit", 
+                "__gmon_start__", 
+                "daemon", 
+                "__syslog_chk", 
+                "_ITM_registerTMCloneTable", 
+                "__stack_chk_fail", 
+                "strncmp", 
+                "open", 
+                "read", 
+                "udev_device_get_sysname", 
+                "fopen", 
+                "_ITM_deregisterTMCloneTable", 
+                "udev_device_get_action", 
+                "fclose", 
+                "readdir", 
+                "getenv", 
+                "udev_monitor_receive_device", 
+                "udev_new", 
+                "__libc_start_main", 
+                "fputs", 
+                "closedir", 
+                "fgets", 
+                "puts", 
+                "__vsyslog_chk", 
+                "lseek", 
+                "getopt_long", 
+                "udev_monitor_get_fd", 
+                "openlog", 
+                "__snprintf_chk", 
+                "__poll_chk", 
+                "udev_device_unref", 
+                "malloc", 
+                "__strdup", 
+                "udev_monitor_filter_add_match_subsystem_devtype", 
+                "opendir", 
+                "udev_monitor_new_from_netlink"
+            ], 
+            "rpm": "rdma-core-13-7.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/sbin/rdma-ndd"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 13", 
+            "Name": " rdma-core", 
+            "License": " GPLv2 or BSD", 
+            "URL": " https://github.com/linux-rdma/rdma-core", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-020.build.eng.bos.redhat.com", 
+            "Description": "\nRDMA core userspace infrastructure and documentation, including initscripts,\nkernel driver-specific modprobe override configs, IPoIB network scripts,\ndracut rules, and the rdma-ndd utility.\n", 
+            "Build Date": " Tue 30 May 2017 05:14:25 PM EDT", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " rdma-core-13-7.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/3/rdma-core-13-7.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Wed 31 May 2017 03:43:13 AM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 7.el7", 
+            "Group": " Unspecified", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " RDMA core userspace libraries and daemons", 
+            "Size": " 96820"
+        }
+    }
+}

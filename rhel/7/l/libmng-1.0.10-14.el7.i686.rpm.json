@@ -1,0 +1,71 @@
+{
+    "results": {
+        "usr/lib/libmng_so_1_0_0": {
+            "report-functions": [
+                "jpeg_std_error", 
+                "__gmon_start__", 
+                "jpeg_has_multiple_scans", 
+                "jpeg_read_header", 
+                "jpeg_start_decompress", 
+                "jpeg_start_output", 
+                "jpeg_destroy_decompress", 
+                "jpeg_read_scanlines", 
+                "deflateEnd", 
+                "inflateInit_", 
+                "_Jv_RegisterClasses", 
+                "inflate", 
+                "__longjmp_chk", 
+                "memcpy", 
+                "__stack_chk_fail", 
+                "jpeg_resync_to_restart", 
+                "inflateEnd", 
+                "_setjmp", 
+                "jpeg_input_complete", 
+                "strcmp", 
+                "pow", 
+                "jpeg_CreateDecompress", 
+                "jpeg_destroy_compress", 
+                "deflate", 
+                "jpeg_finish_output", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize", 
+                "jpeg_finish_decompress"
+            ], 
+            "rpm": "libmng-1.0.10-14.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libmng.so.1.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.0.10", 
+            "Name": " libmng", 
+            "License": " zlib", 
+            "URL": " http://www.libmng.com/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-020.build.eng.bos.redhat.com", 
+            "Description": "\nLibMNG is a library for accessing graphics in MNG (Multi-image Network\nGraphics) and JNG (JPEG Network Graphics) formats.  MNG graphics are\nbasically animated PNGs.  JNG graphics are basically JPEG streams\nintegrated into a PNG chunk.\n", 
+            "Build Date": " Sun 26 Jan 2014 07:19:38 AM EST", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " libmng-1.0.10-14.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/libmng-1.0.10-14.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 01 Apr 2014 05:30:53 PM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 14.el7", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " Library for Multiple-image Network Graphics support", 
+            "Size": " 535528"
+        }
+    }
+}

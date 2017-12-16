@@ -1,0 +1,188 @@
+{
+    "results": {
+        "usr/lib/security/pam_pwquality_so": {
+            "report-functions": [
+                "pam_syslog", 
+                "dcgettext", 
+                "fclose", 
+                "pam_strerror", 
+                "fopen", 
+                "__errno_location", 
+                "_ITM_registerTMCloneTable", 
+                "pam_get_authtok_verify", 
+                "pwquality_default_settings", 
+                "_Jv_RegisterClasses", 
+                "pwquality_check", 
+                "pwquality_read_config", 
+                "strtol", 
+                "pam_get_item", 
+                "pam_set_item", 
+                "strcmp", 
+                "pwquality_strerror", 
+                "pwquality_set_option", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize", 
+                "pam_prompt", 
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "fgetpwent_r", 
+                "getuid", 
+                "pam_get_user", 
+                "pam_get_authtok_noverify"
+            ], 
+            "rpm": "libpwquality-1.2.3-4.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/security/pam_pwquality.so"
+        }, 
+        "usr/bin/pwmake": {
+            "report-functions": [
+                "__libc_start_main", 
+                "exit", 
+                "__gmon_start__", 
+                "dcgettext", 
+                "pwquality_generate", 
+                "textdomain", 
+                "strtol", 
+                "__xpg_basename", 
+                "_Jv_RegisterClasses", 
+                "pwquality_read_config", 
+                "setlocale", 
+                "puts", 
+                "__fprintf_chk", 
+                "pwquality_default_settings", 
+                "bindtextdomain", 
+                "_ITM_registerTMCloneTable", 
+                "_ITM_deregisterTMCloneTable", 
+                "pwquality_free_settings", 
+                "free", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "libpwquality-1.2.3-4.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/pwmake"
+        }, 
+        "usr/bin/pwscore": {
+            "report-functions": [
+                "pwquality_free_settings", 
+                "_Jv_RegisterClasses", 
+                "__fprintf_chk", 
+                "pwquality_default_settings", 
+                "exit", 
+                "__stack_chk_fail", 
+                "pwquality_read_config", 
+                "__xpg_basename", 
+                "_ITM_registerTMCloneTable", 
+                "__libc_start_main", 
+                "bindtextdomain", 
+                "textdomain", 
+                "__gmon_start__", 
+                "__printf_chk", 
+                "_ITM_deregisterTMCloneTable", 
+                "fgets", 
+                "pwquality_check", 
+                "pwquality_strerror"
+            ], 
+            "rpm": "libpwquality-1.2.3-4.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/pwscore"
+        }, 
+        "usr/lib/libpwquality_so_1_0_2": {
+            "report-functions": [
+                "strchr", 
+                "_Jv_RegisterClasses", 
+                "__ctype_b_loc", 
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "strlen", 
+                "__cxa_finalize", 
+                "fclose", 
+                "__snprintf_chk", 
+                "sysconf", 
+                "read", 
+                "strstr", 
+                "dcgettext", 
+                "strtol", 
+                "_ITM_registerTMCloneTable", 
+                "feof", 
+                "calloc", 
+                "memset", 
+                "fopen", 
+                "strcmp", 
+                "getpwnam_r", 
+                "__strncpy_chk", 
+                "fgets", 
+                "strcasecmp", 
+                "open", 
+                "__ctype_tolower_loc", 
+                "FascistCheck", 
+                "malloc", 
+                "memcpy", 
+                "close", 
+                "__strdup", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "libpwquality-1.2.3-4.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libpwquality.so.1.0.2"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.2.3", 
+            "Name": " libpwquality", 
+            "License": " BSD or GPLv2+", 
+            "URL": " http://libpwquality.fedorahosted.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-019.build.eng.bos.redhat.com", 
+            "Description": "\nThis is a library for password quality checks and generation\nof random passwords that pass the checks.\nThis library uses the cracklib and cracklib dictionaries\nto perform some of the checks.\n", 
+            "Build Date": " Sun 26 Jan 2014 08:00:58 AM EST", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " libpwquality-1.2.3-4.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/libpwquality-1.2.3-4.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 01 Apr 2014 05:58:10 PM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 4.el7", 
+            "Group": " System Environment/Base", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " A library for password generation and password quality checking", 
+            "Size": " 325169"
+        }
+    }
+}

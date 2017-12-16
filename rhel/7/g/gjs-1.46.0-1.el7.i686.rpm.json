@@ -1,0 +1,74 @@
+{
+    "results": {
+        "usr/bin/gjs-console": {
+            "report-functions": [
+                "g_object_new", 
+                "setlocale", 
+                "g_option_context_free", 
+                "exit", 
+                "g_option_context_new", 
+                "_Jv_RegisterClasses", 
+                "g_log", 
+                "gjs_context_eval", 
+                "__libc_start_main", 
+                "gjs_context_get_type", 
+                "g_option_context_set_help_enabled", 
+                "g_option_context_set_ignore_unknown_options", 
+                "g_printerr", 
+                "gjs_coverage_write_statistics", 
+                "g_option_context_get_help", 
+                "g_free", 
+                "g_strdup", 
+                "gjs_context_define_string_array", 
+                "__gmon_start__", 
+                "g_file_get_contents", 
+                "_ITM_deregisterTMCloneTable", 
+                "g_build_filename", 
+                "g_print", 
+                "gjs_coverage_new_from_cache", 
+                "strcmp", 
+                "g_object_unref", 
+                "g_clear_error", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "gjs-1.46.0-1.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 14, 
+                    "afC": 316
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/gjs-console"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.46.0", 
+            "Name": " gjs", 
+            "License": " MIT and (MPLv1.1 or GPLv2+ or LGPLv2+)", 
+            "URL": " https://wiki.gnome.org/Projects/Gjs", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-037.build.eng.bos.redhat.com", 
+            "Description": "\nGjs allows using GNOME libraries from Javascript. It's based on the\nSpidermonkey Javascript engine from Mozilla and the GObject introspection\nframework.\n", 
+            "Build Date": " Thu 09 Feb 2017 08:56:40 AM EST", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " gjs-1.46.0-1.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/0/gjs-1.46.0-1.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Wed 29 Mar 2017 05:35:08 PM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 1.el7", 
+            "Group": " Unspecified", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " Javascript Bindings for GNOME", 
+            "Size": " 848145"
+        }
+    }
+}

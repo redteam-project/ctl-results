@@ -1,0 +1,61 @@
+{
+    "results": {
+        "usr/lib/alsa-lib/libasound_module_pcm_vdownmix_so": {
+            "report-functions": [
+                "__gmon_start__", 
+                "malloc", 
+                "snd_config_iterator_next", 
+                "memcpy", 
+                "free", 
+                "snd_pcm_extplug_set_param_minmax", 
+                "_ITM_deregisterTMCloneTable", 
+                "calloc", 
+                "snd_pcm_extplug_set_slave_param_list", 
+                "__cxa_finalize", 
+                "snd_config_iterator_first", 
+                "snd_pcm_extplug_create", 
+                "snd_config_iterator_entry", 
+                "__stack_chk_fail", 
+                "snd_config_iterator_end", 
+                "_Jv_RegisterClasses", 
+                "_ITM_registerTMCloneTable", 
+                "snd_pcm_free_chmaps"
+            ], 
+            "rpm": "alsa-plugins-vdownmix-1.1.1-1.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: 'NoneType' object is not iterable"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/alsa-lib/libasound_module_pcm_vdownmix.so"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.1.1", 
+            "Name": " alsa-plugins-vdownmix", 
+            "License": " LGPLv2+", 
+            "URL": " http://www.alsa-project.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-024.build.eng.bos.redhat.com", 
+            "Description": "\nThe vdownmix plugin is a downmixer from 4-6 channels to 2-channel\nstereo headphone output.  This plugin processes the input signals with\na simple spacialization, so the output sounds like a kind of \"virtual\nsurround\".\n", 
+            "Build Date": " Tue 07 Jun 2016 08:12:38 AM EDT", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " alsa-plugins-1.1.1-1.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/5/alsa-plugins-vdownmix-1.1.1-1.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 12 Sep 2016 08:27:36 AM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 1.el7", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " Downmixer to stereo plugin for ALSA", 
+            "Size": " 55817"
+        }
+    }
+}

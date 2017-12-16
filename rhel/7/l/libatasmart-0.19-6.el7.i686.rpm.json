@@ -1,0 +1,155 @@
+{
+    "results": {
+        "usr/sbin/skdump": {
+            "report-functions": [
+                "strerror", 
+                "fread", 
+                "sk_disk_open", 
+                "sk_smart_overall_to_string", 
+                "getopt_long", 
+                "sk_disk_dump", 
+                "sk_disk_smart_get_temperature", 
+                "strrchr", 
+                "sk_disk_smart_get_bad", 
+                "__fprintf_chk", 
+                "_ITM_deregisterTMCloneTable", 
+                "sk_disk_smart_get_power_on", 
+                "__printf_chk", 
+                "sk_disk_smart_is_available", 
+                "_Jv_RegisterClasses", 
+                "sk_disk_get_blob", 
+                "__errno_location", 
+                "sk_disk_smart_get_overall", 
+                "fclose", 
+                "sk_disk_free", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "sk_disk_smart_status", 
+                "__libc_start_main", 
+                "fopen64", 
+                "sk_disk_smart_read_data", 
+                "sk_disk_smart_get_power_cycle", 
+                "sk_disk_set_blob", 
+                "fwrite"
+            ], 
+            "rpm": "libatasmart-0.19-6.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/sbin/skdump"
+        }, 
+        "usr/lib/libatasmart_so_4_0_5": {
+            "report-functions": [
+                "strlen", 
+                "memset", 
+                "__snprintf_chk", 
+                "_ITM_registerTMCloneTable", 
+                "__asprintf_chk", 
+                "udev_device_unref", 
+                "udev_unref", 
+                "strncmp", 
+                "__cxa_finalize", 
+                "fwrite", 
+                "regexec", 
+                "_Jv_RegisterClasses", 
+                "free", 
+                "isatty", 
+                "udev_device_new_from_devnum", 
+                "__stack_chk_fail", 
+                "__errno_location", 
+                "__fxstat64", 
+                "regcomp", 
+                "__printf_chk", 
+                "putchar", 
+                "udev_device_get_parent_with_subsystem_devtype", 
+                "udev_device_get_property_value", 
+                "calloc", 
+                "strcmp", 
+                "__assert_fail", 
+                "ioctl", 
+                "open64", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "sscanf", 
+                "strerror", 
+                "strncpy", 
+                "udev_new", 
+                "malloc", 
+                "memcpy", 
+                "close", 
+                "__strdup", 
+                "puts"
+            ], 
+            "rpm": "libatasmart-0.19-6.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libatasmart.so.4.0.5"
+        }, 
+        "usr/sbin/sktest": {
+            "report-functions": [
+                "sk_disk_smart_self_test", 
+                "_ITM_deregisterTMCloneTable", 
+                "__libc_start_main", 
+                "_ITM_registerTMCloneTable", 
+                "sk_disk_open", 
+                "__gmon_start__", 
+                "sk_disk_free", 
+                "__stack_chk_fail", 
+                "strerror", 
+                "__fprintf_chk", 
+                "strcasecmp", 
+                "_Jv_RegisterClasses"
+            ], 
+            "rpm": "libatasmart-0.19-6.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/sbin/sktest"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 0.19", 
+            "Name": " libatasmart", 
+            "License": " LGPLv2+", 
+            "URL": " http://git.0pointer.de/?p=libatasmart.git;a=summary", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-020.build.eng.bos.redhat.com", 
+            "Description": "\nA small and lightweight parser library for ATA S.M.A.R.T. hard disk\nhealth monitoring.\n", 
+            "Build Date": " Sun 26 Jan 2014 05:32:47 AM EST", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " libatasmart-0.19-6.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/libatasmart-0.19-6.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 01 Apr 2014 04:24:03 PM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 6.el7", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " ATA S.M.A.R.T. Disk Health Monitoring Library", 
+            "Size": " 97687"
+        }
+    }
+}

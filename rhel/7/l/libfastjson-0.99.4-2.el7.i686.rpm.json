@@ -1,0 +1,78 @@
+{
+    "results": {
+        "usr/lib/libfastjson_so_4_0_0": {
+            "report-functions": [
+                "strncmp", 
+                "malloc", 
+                "sscanf", 
+                "strlen", 
+                "_ITM_registerTMCloneTable", 
+                "__errno_location", 
+                "strerror", 
+                "_ITM_deregisterTMCloneTable", 
+                "strchr", 
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "__strdup", 
+                "__vsnprintf_chk", 
+                "memcpy", 
+                "read", 
+                "qsort", 
+                "__vfprintf_chk", 
+                "__ctype_b_loc", 
+                "__isnan", 
+                "bsearch", 
+                "__vsyslog_chk", 
+                "strcmp", 
+                "setlocale", 
+                "calloc", 
+                "open", 
+                "memset", 
+                "realloc", 
+                "__snprintf_chk", 
+                "write", 
+                "strncasecmp", 
+                "free", 
+                "strtod", 
+                "__vasprintf_chk", 
+                "__stack_chk_fail", 
+                "close"
+            ], 
+            "rpm": "libfastjson-0.99.4-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libfastjson.so.4.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 0.99.4", 
+            "Name": " libfastjson", 
+            "License": " MIT", 
+            "URL": " https://github.com/rsyslog/libfastjson", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-038.build.eng.bos.redhat.com", 
+            "Description": "\nLIBFASTJSON implements a reference counting object\nmodel that allows you to easily construct JSON\nobjects in C, output them as JSON formatted strings\nand parse JSON formatted strings back into the\nC representation of JSON objects.\n", 
+            "Build Date": " Tue 07 Mar 2017 08:41:58 AM EST", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " libfastjson-0.99.4-2.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/libfastjson-0.99.4-2.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 14 Mar 2017 09:48:30 AM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 2.el7", 
+            "Group": " Unspecified", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " A JSON implementation in C", 
+            "Size": " 56345"
+        }
+    }
+}

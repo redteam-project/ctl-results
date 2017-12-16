@@ -1,0 +1,75 @@
+{
+    "results": {
+        "usr/lib/libevdev_so_2_1_7": {
+            "report-functions": [
+                "strncpy", 
+                "memmove", 
+                "memcpy", 
+                "_ITM_deregisterTMCloneTable", 
+                "__fprintf_chk", 
+                "alphasort", 
+                "read", 
+                "bsearch", 
+                "__errno_location", 
+                "close", 
+                "ioctl", 
+                "strncmp", 
+                "__strdup", 
+                "__xstat", 
+                "__stack_chk_fail", 
+                "__asprintf_chk", 
+                "calloc", 
+                "open", 
+                "strlen", 
+                "_Jv_RegisterClasses", 
+                "malloc", 
+                "__gmon_start__", 
+                "__snprintf_chk", 
+                "free", 
+                "scandir", 
+                "_ITM_registerTMCloneTable", 
+                "abort", 
+                "memset", 
+                "__cxa_finalize", 
+                "poll", 
+                "strcmp", 
+                "__vfprintf_chk"
+            ], 
+            "rpm": "libevdev-1.4.1-1.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/libevdev.so.2.1.7"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.4.1", 
+            "Name": " libevdev", 
+            "License": " MIT", 
+            "URL": " http://www.freedesktop.org/wiki/Software/libevdev", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-035.build.eng.bos.redhat.com", 
+            "Description": "\nlibevdev is a library to wrap kernel evdev devices and provide a proper API\nto interact with those devices.\n", 
+            "Build Date": " Fri 10 Apr 2015 09:26:47 AM EDT", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " libevdev-1.4.1-1.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/libevdev-1.4.1-1.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 09 Oct 2015 10:39:51 AM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 1.el7", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " Kernel Evdev Device Wrapper Library", 
+            "Size": " 73766"
+        }
+    }
+}

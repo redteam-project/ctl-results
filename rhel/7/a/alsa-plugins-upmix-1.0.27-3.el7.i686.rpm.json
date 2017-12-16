@@ -1,0 +1,62 @@
+{
+    "results": {
+        "usr/lib/alsa-lib/libasound_module_pcm_upmix_so": {
+            "report-functions": [
+                "snd_config_iterator_entry", 
+                "free", 
+                "__cxa_finalize", 
+                "__gmon_start__", 
+                "snd_pcm_area_copy", 
+                "calloc", 
+                "_ITM_registerTMCloneTable", 
+                "snd_pcm_extplug_set_param_minmax", 
+                "snd_pcm_extplug_set_slave_param_minmax", 
+                "snd_config_get_integer", 
+                "snd_config_get_id", 
+                "_ITM_deregisterTMCloneTable", 
+                "__stack_chk_fail", 
+                "snd_config_iterator_next", 
+                "snd_pcm_extplug_set_param_list", 
+                "_Jv_RegisterClasses", 
+                "snd_config_iterator_first", 
+                "snd_pcm_extplug_set_slave_param_list", 
+                "snd_config_iterator_end"
+            ], 
+            "rpm": "alsa-plugins-upmix-1.0.27-3.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: 'NoneType' object is not iterable"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/alsa-lib/libasound_module_pcm_upmix.so"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.0.27", 
+            "Name": " alsa-plugins-upmix", 
+            "License": " LGPLv2+", 
+            "URL": " http://www.alsa-project.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-024.build.eng.bos.redhat.com", 
+            "Description": "\nThe upmix plugin is an easy-to-use plugin for upmixing to 4 or\n6-channel stream.  The number of channels to be expanded is determined\nby the slave PCM or explicitly via channel option.\n", 
+            "Build Date": " Wed 29 Jan 2014 06:59:03 AM EST", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " alsa-plugins-1.0.27-3.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/5/alsa-plugins-upmix-1.0.27-3.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 01 Apr 2014 08:49:07 AM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 3.el7", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " Upmixer channel expander plugin for ALSA", 
+            "Size": " 60578"
+        }
+    }
+}

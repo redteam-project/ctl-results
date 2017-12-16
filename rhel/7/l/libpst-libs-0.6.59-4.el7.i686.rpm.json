@@ -1,0 +1,96 @@
+{
+    "results": {
+        "usr/lib/libpst_so_4_1_8": {
+            "report-functions": [
+                "freopen64", 
+                "memmove", 
+                "gmtime_r", 
+                "strchr", 
+                "iconv_open", 
+                "strstr", 
+                "_ITM_registerTMCloneTable", 
+                "strcasecmp", 
+                "fread", 
+                "__strdup", 
+                "__memcpy_chk", 
+                "ferror", 
+                "realloc", 
+                "__printf_chk", 
+                "_ITM_deregisterTMCloneTable", 
+                "__fprintf_chk", 
+                "_Jv_RegisterClasses", 
+                "memset", 
+                "getpid", 
+                "__snprintf_chk", 
+                "__ctype_toupper_loc", 
+                "free", 
+                "feof", 
+                "iconv_close", 
+                "memcpy", 
+                "ctime_r", 
+                "perror", 
+                "time", 
+                "fopen64", 
+                "strftime", 
+                "__gmon_start__", 
+                "exit", 
+                "strlen", 
+                "fflush", 
+                "__stack_chk_fail", 
+                "fclose", 
+                "__cxa_finalize", 
+                "__ctype_b_loc", 
+                "strerror", 
+                "fwrite", 
+                "chdir", 
+                "fseeko64", 
+                "get_current_dir_name", 
+                "__errno_location", 
+                "iconv", 
+                "sem_wait", 
+                "__vfprintf_chk", 
+                "puts", 
+                "sem_post", 
+                "calloc"
+            ], 
+            "rpm": "libpst-libs-0.6.59-4.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libpst.so.4.1.8"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 0.6.59", 
+            "Name": " libpst-libs", 
+            "License": " GPLv2+", 
+            "URL": " http://www.five-ten-sg.com/libpst/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-017.build.eng.bos.redhat.com", 
+            "Description": "\nThe libpst-libs package contains the shared library used by the pst\nutilities.\n", 
+            "Build Date": " Sun 26 Jan 2014 08:04:25 AM EST", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " libpst-0.6.59-4.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/7/libpst-libs-0.6.59-4.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 01 Apr 2014 05:57:35 PM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 4.el7", 
+            "Group": " Development/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " Shared library used by the pst utilities", 
+            "Size": " 211244"
+        }
+    }
+}

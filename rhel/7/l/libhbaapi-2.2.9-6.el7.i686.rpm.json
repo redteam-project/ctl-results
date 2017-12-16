@@ -1,0 +1,66 @@
+{
+    "results": {
+        "usr/lib/libHBAAPI_so_2_0_2": {
+            "report-functions": [
+                "__strdup", 
+                "_ITM_registerTMCloneTable", 
+                "__printf_chk", 
+                "free", 
+                "strtok", 
+                "dlsym", 
+                "strcmp", 
+                "__gmon_start__", 
+                "fclose", 
+                "__sprintf_chk", 
+                "strcpy", 
+                "__cxa_finalize", 
+                "strlen", 
+                "dlclose", 
+                "fwrite", 
+                "__stack_chk_fail", 
+                "fgets", 
+                "calloc", 
+                "dlopen", 
+                "__fprintf_chk", 
+                "_ITM_deregisterTMCloneTable", 
+                "_Jv_RegisterClasses", 
+                "strtol"
+            ], 
+            "rpm": "libhbaapi-2.2.9-6.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libHBAAPI.so.2.0.2"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 2.2.9", 
+            "Name": " libhbaapi", 
+            "License": " SNIA", 
+            "URL": " http://open-fcoe.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-017.build.eng.bos.redhat.com", 
+            "Description": "\nThe SNIA HBA API library. C-level project to manage\nFibre Channel Host Bus Adapters.\n", 
+            "Build Date": " Fri 03 Oct 2014 05:20:34 PM EDT", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " libhbaapi-2.2.9-6.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/libhbaapi-2.2.9-6.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 12 Jan 2015 05:44:11 AM EST, Key ID 199e2f91fd431d51", 
+            "Release": " 6.el7", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " SNIA HBAAPI library", 
+            "Size": " 53846"
+        }
+    }
+}

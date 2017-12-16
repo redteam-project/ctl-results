@@ -1,0 +1,76 @@
+{
+    "results": {
+        "usr/lib/libmpx_so_0_0_0": {
+            "report-functions": [
+                "sigaction", 
+                "fwrite", 
+                "snprintf", 
+                "strcmp", 
+                "pthread_mutex_init", 
+                "exit", 
+                "remove", 
+                "_ITM_deregisterTMCloneTable", 
+                "fprintf", 
+                "calloc", 
+                "__register_atfork", 
+                "write", 
+                "fileno", 
+                "__stack_chk_fail", 
+                "fopen", 
+                "__assert_fail", 
+                "secure_getenv", 
+                "__gmon_start__", 
+                "_Jv_RegisterClasses", 
+                "sigprocmask", 
+                "strlen", 
+                "vfprintf", 
+                "getpid", 
+                "strcpy", 
+                "prctl", 
+                "pthread_mutex_unlock", 
+                "pthread_mutex_destroy", 
+                "munmap", 
+                "fflush", 
+                "pthread_mutex_lock", 
+                "fclose", 
+                "_ITM_registerTMCloneTable", 
+                "perror"
+            ], 
+            "rpm": "libmpx-5.2.1-2.1.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libmpx.so.0.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 5.2.1", 
+            "Name": " libmpx", 
+            "License": " GPLv3+ and GPLv3+ with exceptions and GPLv2+ with exceptions and LGPLv2+ and BSD", 
+            "URL": " http://gcc.gnu.org", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-018.build.eng.bos.redhat.com", 
+            "Description": "\nThis package contains the Memory Protection Extensions runtime libraries\nwhich is used for -fcheck-pointer-bounds -mmpx instrumented programs.\n", 
+            "Build Date": " Mon 20 Jul 2015 02:24:38 PM EDT", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " gcc-libraries-5.2.1-2.1.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/libmpx-5.2.1-2.1.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 26 Oct 2015 04:55:25 PM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 2.1.el7", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " The Memory Protection Extensions runtime libraries", 
+            "Size": " 58170"
+        }
+    }
+}

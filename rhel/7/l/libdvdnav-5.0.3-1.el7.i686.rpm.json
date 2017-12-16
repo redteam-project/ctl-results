@@ -1,0 +1,92 @@
+{
+    "results": {
+        "usr/lib/libdvdnav_so_4_2_0": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "DVDCloseFile", 
+                "pthread_mutex_destroy", 
+                "ifoRead_VTS_PTT_SRPT", 
+                "__ctype_b_loc", 
+                "realloc", 
+                "__stack_chk_fail", 
+                "_ITM_deregisterTMCloneTable", 
+                "ifoClose", 
+                "pthread_mutex_lock", 
+                "DVDReadBlocks", 
+                "ifoRead_PGCI_UT", 
+                "_Jv_RegisterClasses", 
+                "srand", 
+                "malloc", 
+                "read", 
+                "DVDOpenFile", 
+                "__fprintf_chk", 
+                "ifoRead_FP_PGC", 
+                "ifoRead_TT_SRPT", 
+                "close", 
+                "gettimeofday", 
+                "calloc", 
+                "navRead_DSI", 
+                "pthread_mutex_init", 
+                "ifoRead_VOBU_ADMAP", 
+                "strncpy", 
+                "ifoRead_VTS_ATRT", 
+                "ifoOpenVMGI", 
+                "ifoOpenVTSI", 
+                "fputc", 
+                "DVDOpen", 
+                "DVDClose", 
+                "lseek64", 
+                "ifoOpen", 
+                "free", 
+                "__assert_fail", 
+                "ifoRead_VTS_TMAPT", 
+                "ifoRead_TITLE_VOBU_ADMAP", 
+                "open64", 
+                "__strdup", 
+                "DVDOpenStream", 
+                "__snprintf_chk", 
+                "ifoRead_PTL_MAIT", 
+                "abort", 
+                "_ITM_registerTMCloneTable", 
+                "fwrite", 
+                "pthread_mutex_unlock", 
+                "__gmon_start__", 
+                "ifoRead_PGCIT"
+            ], 
+            "rpm": "libdvdnav-5.0.3-1.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libdvdnav.so.4.2.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 5.0.3", 
+            "Name": " libdvdnav", 
+            "License": " GPLv2+", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-017.build.eng.bos.redhat.com", 
+            "Description": "\nlibdvdnav provides a simple library for reading DVD video discs.\nThe code is based on Ogle and used in, among others, the Xine dvdnav plug-in.\n", 
+            "Build Date": " Thu 19 May 2016 10:11:20 AM EDT", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " libdvdnav-5.0.3-1.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/libdvdnav-5.0.3-1.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 16 Aug 2016 07:30:07 AM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 1.el7", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " A library for reading DVD video discs based on Ogle code", 
+            "Size": " 103755"
+        }
+    }
+}

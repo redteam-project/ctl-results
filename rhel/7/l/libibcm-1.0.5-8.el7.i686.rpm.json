@@ -1,0 +1,72 @@
+{
+    "results": {
+        "usr/lib/libibcm_so_1_0_0": {
+            "report-functions": [
+                "write", 
+                "ibv_copy_qp_attr_from_kern", 
+                "__stack_chk_fail", 
+                "free", 
+                "ibv_read_sysfs_file", 
+                "ibv_copy_path_rec_to_kern", 
+                "_ITM_deregisterTMCloneTable", 
+                "pthread_mutex_unlock", 
+                "pthread_cond_destroy", 
+                "__fprintf_chk", 
+                "pthread_mutex_init", 
+                "strtol", 
+                "__errno_location", 
+                "__cxa_finalize", 
+                "fwrite", 
+                "__asprintf_chk", 
+                "malloc", 
+                "pthread_cond_wait", 
+                "ibv_get_sysfs_path", 
+                "strcmp", 
+                "_ITM_registerTMCloneTable", 
+                "_Jv_RegisterClasses", 
+                "pthread_mutex_lock", 
+                "pthread_cond_init", 
+                "__gmon_start__", 
+                "close", 
+                "pthread_mutex_destroy", 
+                "pthread_cond_signal", 
+                "ibv_copy_path_rec_from_kern"
+            ], 
+            "rpm": "libibcm-1.0.5-8.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libibcm.so.1.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.0.5", 
+            "Name": " libibcm", 
+            "License": " GPLv2 or BSD", 
+            "URL": " http://www.openfabrics.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-019.build.eng.bos.redhat.com", 
+            "Description": "\nlibibcm provides a userspace library that handles the majority of the low\nlevel work required to open an RDMA connection between two machines.\n", 
+            "Build Date": " Sat 28 Dec 2013 07:17:04 AM EST", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " libibcm-1.0.5-8.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/libibcm-1.0.5-8.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 01 Apr 2014 05:08:43 PM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 8.el7", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " Userspace InfiniBand Connection Manager", 
+            "Size": " 39416"
+        }
+    }
+}

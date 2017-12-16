@@ -1,0 +1,83 @@
+{
+    "results": {
+        "usr/lib/libpfm_so_4_4_0": {
+            "report-functions": [
+                "__isoc99_fscanf", 
+                "open", 
+                "snprintf", 
+                "_ITM_registerTMCloneTable", 
+                "__cxa_finalize", 
+                "strstr", 
+                "getenv", 
+                "sprintf", 
+                "vfprintf", 
+                "strncasecmp", 
+                "strtoul", 
+                "free", 
+                "tolower", 
+                "realloc", 
+                "strdup", 
+                "access", 
+                "opendir", 
+                "qsort", 
+                "fclose", 
+                "malloc", 
+                "_ITM_deregisterTMCloneTable", 
+                "close", 
+                "calloc", 
+                "vsnprintf", 
+                "_Jv_RegisterClasses", 
+                "strlen", 
+                "closedir", 
+                "memset", 
+                "readdir", 
+                "memcpy", 
+                "fopen", 
+                "fprintf", 
+                "strcasecmp", 
+                "strcmp", 
+                "read", 
+                "dirfd", 
+                "strtoull", 
+                "strchr", 
+                "strncpy", 
+                "__ctype_b_loc"
+            ], 
+            "rpm": "libpfm-4.4.0-6.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libpfm.so.4.4.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 4.4.0", 
+            "Name": " libpfm", 
+            "License": " MIT", 
+            "URL": " http://perfmon2.sourceforge.net/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-019.build.eng.bos.redhat.com", 
+            "Description": "\n\nlibpfm4 is a library to help encode events for use with operating system\nkernels performance monitoring interfaces. The current version provides support\nfor the perf_events interface available in upstream Linux kernels since v2.6.31.\n", 
+            "Build Date": " Sun 26 Jan 2014 07:50:43 AM EST", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " libpfm-4.4.0-6.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/libpfm-4.4.0-6.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 01 Apr 2014 05:49:35 PM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 6.el7", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " Library to encode performance events for use by perf tool", 
+            "Size": " 903840"
+        }
+    }
+}

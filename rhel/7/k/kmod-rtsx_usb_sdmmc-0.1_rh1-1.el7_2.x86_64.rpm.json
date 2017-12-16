@@ -1,0 +1,92 @@
+{
+    "results": {
+        "lib/modules/3_10_0-327_el7_x86_64/extra/rtsx_usb_sdmmc/rtsx_usb_sdmmc_ko": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "lib/modules/3.10.0-327.el7.x86_64/extra/rtsx_usb_sdmmc/rtsx_usb_sdmmc.ko", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "report-functions": [
+                "sg_copy_to_buffer", 
+                "pm_runtime_enable", 
+                "__const_udelay", 
+                "cancel_work_sync", 
+                "__kmalloc", 
+                "snprintf", 
+                "__pm_runtime_idle", 
+                "__stack_chk_fail", 
+                "rtsx_usb_switch_clock", 
+                "rtsx_usb_ep0_read_register", 
+                "rtsx_usb_add_cmd", 
+                "mmc_alloc_host", 
+                "rtsx_usb_transfer_data", 
+                "usleep_range", 
+                "rtsx_usb_send_cmd", 
+                "mmc_request_done", 
+                "mutex_lock", 
+                "rtsx_usb_read_register", 
+                "system_wq", 
+                "rtsx_usb_card_exclusive_check", 
+                "led_classdev_unregister", 
+                "rtsx_usb_get_card_status", 
+                "__mutex_init", 
+                "platform_driver_unregister", 
+                "led_classdev_register", 
+                "queue_work_on", 
+                "__fentry__", 
+                "mutex_unlock", 
+                "rtsx_usb_write_register", 
+                "dev_err", 
+                "rtsx_usb_get_rsp", 
+                "__pm_runtime_disable", 
+                "rtsx_usb_write_ppbuf", 
+                "sg_copy_from_buffer", 
+                "kfree", 
+                "rtsx_usb_read_ppbuf", 
+                "mmc_add_host", 
+                "mmc_free_host", 
+                "__dynamic_dev_dbg", 
+                "platform_driver_register", 
+                "dev_set_drvdata", 
+                "rtsx_usb_ep0_write_register", 
+                "dev_get_drvdata"
+            ], 
+            "rpm": "kmod-rtsx_usb_sdmmc-0.1_rh1-1.el7_2.x86_64.rpm"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 0.1_rh1", 
+            "Name": " kmod-rtsx_usb_sdmmc", 
+            "License": " GPLv2", 
+            "URL": " http://www.kernel.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-019.build.eng.bos.redhat.com", 
+            "Description": "\nThis package provides the rtsx_usb_sdmmc kernel modules built for\nthe Linux kernel 3.10.0-327.el7.x86_64 for the x86_64\nfamily of processors.\n", 
+            "Build Date": " Mon 20 Jun 2016 11:38:00 AM EDT", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " rtsx_usb_sdmmc-0.1_rh1-1.el7_2.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/kmod-rtsx_usb_sdmmc-0.1_rh1-1.el7_2.x86_64.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " x86_64", 
+            "Signature": " RSA/SHA256, Tue 21 Jun 2016 08:50:11 AM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 1.el7_2", 
+            "Group": " System Environment/Kernel", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " rtsx_usb_sdmmc kernel module(s)", 
+            "Size": " 46793"
+        }
+    }
+}

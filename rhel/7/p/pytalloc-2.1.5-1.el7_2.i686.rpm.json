@@ -1,0 +1,86 @@
+{
+    "results": {
+        "usr/lib/libpytalloc-util_so_2_1_5": {
+            "report-functions": [
+                "PyImport_ImportModule", 
+                "__cxa_finalize", 
+                "PyObject_GetAttrString", 
+                "talloc_set_name_const", 
+                "_Jv_RegisterClasses", 
+                "_ITM_registerTMCloneTable", 
+                "_talloc_steal_loc", 
+                "talloc_named_const", 
+                "PyCObject_FromVoidPtr", 
+                "__gmon_start__", 
+                "PyType_IsSubtype", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "pytalloc-2.1.5-1.el7_2.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libpytalloc-util.so.2.1.5"
+        }, 
+        "usr/lib/python2_7/site-packages/talloc_so": {
+            "report-functions": [
+                "PyType_Ready", 
+                "_ITM_deregisterTMCloneTable", 
+                "talloc_total_blocks", 
+                "PyLong_FromLong", 
+                "talloc_report_full", 
+                "_ITM_registerTMCloneTable", 
+                "_Jv_RegisterClasses", 
+                "PyObject_Type", 
+                "__cxa_finalize", 
+                "PyString_FromFormat", 
+                "PyModule_AddObject", 
+                "talloc_enable_null_tracking", 
+                "talloc_unlink", 
+                "Py_InitModule4", 
+                "__gmon_start__"
+            ], 
+            "rpm": "pytalloc-2.1.5-1.el7_2.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/python2.7/site-packages/talloc.so"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 2.1.5", 
+            "Name": " pytalloc", 
+            "License": " LGPLv3+", 
+            "URL": " http://talloc.samba.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-017.build.eng.bos.redhat.com", 
+            "Description": "\nPytalloc libraries for creating python bindings using talloc\n", 
+            "Build Date": " Fri 01 Apr 2016 06:22:38 AM EDT", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " libtalloc-2.1.5-1.el7_2.src.rpm", 
+            "warning": " /home/jason/fctl/swap/3/pytalloc-2.1.5-1.el7_2.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 08 Apr 2016 12:45:10 PM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 1.el7_2", 
+            "Group": " Development/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " Developer tools for the Talloc library", 
+            "Size": " 21288"
+        }
+    }
+}

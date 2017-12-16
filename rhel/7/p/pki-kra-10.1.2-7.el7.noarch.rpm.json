@@ -1,0 +1,26 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Version": " 10.1.2", 
+            "Name": " pki-kra", 
+            "License": " GPLv2", 
+            "URL": " http://pki.fedoraproject.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-021.build.eng.bos.redhat.com", 
+            "Description": "\nThe Data Recovery Manager (DRM) is an optional PKI subsystem that can act\nas a Key Recovery Authority (KRA).  When configured in conjunction with the\nCertificate Authority (CA), the DRM stores private encryption keys as part of\nthe certificate enrollment process.  The key archival mechanism is triggered\nwhen a user enrolls in the PKI and creates the certificate request.  Using the\nCertificate Request Message Format (CRMF) request format, a request is\ngenerated for the user's private encryption key.  This key is then stored in\nthe DRM which is configured to store keys in an encrypted format that can only\nbe decrypted by several agents requesting the key at one time, providing for\nprotection of the public encryption keys for the users in the PKI deployment.\n\nNote that the DRM archives encryption keys; it does NOT archive signing keys,\nsince such archival would undermine non-repudiation properties of signing keys.\n\nThis package is one of the top-level java-based Tomcat PKI subsystems\nprovided by the PKI Core used by the Certificate System.\n\n\n==================================\n||  ABOUT \"CERTIFICATE SYSTEM\"  ||\n==================================\n\nCertificate System (CS) is an enterprise software system designed\nto manage enterprise Public Key Infrastructure (PKI) deployments.\n\nPKI Core contains ALL top-level java-based Tomcat PKI components:\n\n  * pki-symkey\n  * pki-base\n  * pki-tools\n  * pki-server\n  * pki-ca\n  * pki-kra\n  * pki-ocsp\n  * pki-tks\n  * pki-tps-tomcat\n  * pki-javadoc\n\nwhich comprise the following corresponding PKI subsystems:\n\n  * Certificate Authority (CA)\n  * Data Recovery Manager (DRM)\n  * Online Certificate Status Protocol (OCSP) Manager\n  * Token Key Service (TKS)\n  * Token Processing Service (TPS)\n\nFor deployment purposes, PKI Core contains fundamental packages\nrequired by BOTH native-based Apache AND java-based Tomcat\nCertificate System instances consisting of the following components:\n\n  * pki-tools\n\nAdditionally, PKI Core contains the following fundamental packages\nrequired ONLY by ALL java-based Tomcat Certificate System instances:\n\n  * pki-symkey\n  * pki-base\n  * pki-tools\n  * pki-server\n\nPKI Core also includes the following components:\n\n  * pki-javadoc\n\nFinally, if Certificate System is being deployed as an individual or\nset of standalone rather than embedded server(s)/service(s), it is\nstrongly recommended (though not explicitly required) to include at\nleast one PKI Theme package:\n\n  * dogtag-pki-theme (Dogtag Certificate System deployments)\n    * dogtag-pki-server-theme\n  * redhat-pki-server-theme (Red Hat Certificate System deployments)\n    * redhat-pki-server-theme\n  * customized pki theme (Customized Certificate System deployments)\n    * <customized>-pki-server-theme\n\n  NOTE:  As a convenience for standalone deployments, top-level meta\n         packages may be provided which bind a particular theme to\n         these certificate server packages.\n", 
+            "Build Date": " Wed 26 Nov 2014 03:08:37 PM EST", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " pki-core-10.1.2-7.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/3/pki-kra-10.1.2-7.el7.noarch.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Wed 07 Jan 2015 10:27:15 AM EST, Key ID 199e2f91fd431d51", 
+            "Release": " 7.el7", 
+            "Group": " System Environment/Daemons", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " Certificate System - Data Recovery Manager", 
+            "Size": " 564577"
+        }
+    }
+}

@@ -1,0 +1,242 @@
+{
+    "results": {
+        "usr/bin/munch": {
+            "report-functions": [
+                "fwrite", 
+                "memchr", 
+                "strncmp", 
+                "exit", 
+                "malloc", 
+                "memcpy", 
+                "__strcpy_chk", 
+                "calloc", 
+                "__stack_chk_fail", 
+                "strcpy", 
+                "strchr", 
+                "free", 
+                "fopen", 
+                "fgets", 
+                "strtol", 
+                "__gmon_start__", 
+                "strlen", 
+                "__memcpy_chk", 
+                "fclose", 
+                "strcmp"
+            ], 
+            "rpm": "hunspell-devel-1.3.2-15.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/munch"
+        }, 
+        "usr/bin/hunzip": {
+            "report-functions": [
+                "_Unwind_Resume", 
+                "_Jv_RegisterClasses", 
+                "_ITM_registerTMCloneTable", 
+                "__gxx_personality_v0", 
+                "__gmon_start__", 
+                "_ZN6Hunzip7getlineEv", 
+                "__libc_start_main", 
+                "_Znwj", 
+                "_ZN6HunzipC1EPKcS1_", 
+                "__fprintf_chk", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "hunspell-devel-1.3.2-15.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/hunzip"
+        }, 
+        "usr/bin/hzip": {
+            "report-functions": [
+                "malloc", 
+                "tmpfile", 
+                "fputc", 
+                "memmove", 
+                "rewind", 
+                "__memcpy_chk", 
+                "memset", 
+                "__gmon_start__", 
+                "free", 
+                "fclose", 
+                "__fprintf_chk", 
+                "__stpcpy_chk", 
+                "fopen", 
+                "fgets", 
+                "fwrite", 
+                "strcpy", 
+                "__libc_start_main"
+            ], 
+            "rpm": "hunspell-devel-1.3.2-15.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/hzip"
+        }, 
+        "usr/bin/unmunch": {
+            "report-functions": [
+                "__fprintf_chk", 
+                "malloc", 
+                "strchr", 
+                "strcpy", 
+                "fclose", 
+                "fgets", 
+                "__libc_start_main", 
+                "__strcpy_chk", 
+                "fopen", 
+                "strtol", 
+                "memcpy", 
+                "strcmp", 
+                "strncmp", 
+                "__stack_chk_fail", 
+                "strlen", 
+                "exit", 
+                "__gmon_start__", 
+                "free"
+            ], 
+            "rpm": "hunspell-devel-1.3.2-15.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/unmunch"
+        }, 
+        "usr/bin/analyze": {
+            "report-functions": [
+                "fclose", 
+                "_ZN8Hunspell8generateEPPPcPKcS4_", 
+                "__gmon_start__", 
+                "_ZN8Hunspell9free_listEPPPci", 
+                "_Unwind_Resume", 
+                "_Jv_RegisterClasses", 
+                "exit", 
+                "_ZN8HunspellD1Ev", 
+                "_ZN8HunspellC1EPKcS1_S1_", 
+                "strlen", 
+                "strchr", 
+                "_ZN8Hunspell5spellEPKcPiPPc", 
+                "__fprintf_chk", 
+                "_ZN8Hunspell7analyzeEPPPcPKc", 
+                "__stack_chk_fail", 
+                "_ITM_deregisterTMCloneTable", 
+                "fgets", 
+                "_ZdlPv", 
+                "fwrite", 
+                "fopen", 
+                "_Znwj", 
+                "__gxx_personality_v0", 
+                "__libc_start_main"
+            ], 
+            "rpm": "hunspell-devel-1.3.2-15.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/analyze"
+        }, 
+        "usr/bin/chmorph": {
+            "report-functions": [
+                "_Z14unicodeisalphat", 
+                "strlen", 
+                "_Z6u8_u16P6w_chariPKc", 
+                "strcat", 
+                "fopen", 
+                "__stack_chk_fail", 
+                "_Z12flag_bsearchPtti", 
+                "strncmp", 
+                "fgets", 
+                "__fprintf_chk", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "fclose", 
+                "_Unwind_Resume", 
+                "strncpy", 
+                "_Jv_RegisterClasses", 
+                "fwrite", 
+                "_ZN8HunspellC1EPKcS1_S1_", 
+                "_ITM_registerTMCloneTable", 
+                "_Z8mystrdupPKc", 
+                "exit", 
+                "__libc_start_main", 
+                "strstr", 
+                "_Znwj", 
+                "malloc", 
+                "_ZN8Hunspell9free_listEPPPci", 
+                "_ZN8Hunspell8generateEPPPcPKcS1_i", 
+                "free", 
+                "strcpy", 
+                "_ZN8Hunspell7analyzeEPPPcPKc"
+            ], 
+            "rpm": "hunspell-devel-1.3.2-15.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/chmorph"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.3.2", 
+            "Name": " hunspell-devel", 
+            "License": " LGPLv2+ or GPLv2+ or MPLv1.1", 
+            "URL": " http://hunspell.sourceforge.net/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-039.build.eng.bos.redhat.com", 
+            "Description": "\nIncludes and definitions for developing with hunspell\n", 
+            "Build Date": " Wed 10 Aug 2016 04:20:11 AM EDT", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " hunspell-1.3.2-15.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/hunspell-devel-1.3.2-15.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 11 Aug 2016 05:15:08 AM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 15.el7", 
+            "Group": " Development/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " Files for developing with hunspell", 
+            "Size": " 167113"
+        }
+    }
+}

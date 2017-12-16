@@ -1,0 +1,84 @@
+{
+    "results": {
+        "usr/lib/libdv_so_4_0_3": {
+            "report-functions": [
+                "__fprintf_chk", 
+                "__fread_chk", 
+                "lrint", 
+                "fopen", 
+                "_Jv_RegisterClasses", 
+                "sscanf", 
+                "memcmp", 
+                "ioctl", 
+                "localtime", 
+                "cos", 
+                "__cxa_finalize", 
+                "swab", 
+                "mktime", 
+                "__stack_chk_fail", 
+                "_ITM_registerTMCloneTable", 
+                "fread", 
+                "__printf_chk", 
+                "memcpy", 
+                "exit", 
+                "time", 
+                "free", 
+                "memset", 
+                "__sprintf_chk", 
+                "pthread_mutex_unlock", 
+                "localtime_r", 
+                "tan", 
+                "__longjmp_chk", 
+                "fwrite", 
+                "fclose", 
+                "open", 
+                "pthread_mutex_lock", 
+                "malloc", 
+                "calloc", 
+                "_setjmp", 
+                "feof", 
+                "fgets", 
+                "close", 
+                "__read_chk", 
+                "fputc", 
+                "__gmon_start__", 
+                "perror"
+            ], 
+            "rpm": "libdv-1.0.0-17.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libdv.so.4.0.3"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.0.0", 
+            "Name": " libdv", 
+            "License": " LGPLv2+", 
+            "URL": " http://libdv.sourceforge.net/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-024.build.eng.bos.redhat.com", 
+            "Description": "\nThe Quasar DV codec (libdv) is a software codec for DV video, the\nencoding format used by most digital camcorders, typically those that\nsupport the IEEE 1394 (a.k.a. FireWire or i.Link) interface. libdv was\ndeveloped according to the official standards for DV video: IEC 61834\nand SMPTE 314M.\n", 
+            "Build Date": " Sun 26 Jan 2014 06:04:22 AM EST", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " libdv-1.0.0-17.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/libdv-1.0.0-17.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 01 Apr 2014 04:44:04 PM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 17.el7", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " Software decoder for DV format video", 
+            "Size": " 173229"
+        }
+    }
+}

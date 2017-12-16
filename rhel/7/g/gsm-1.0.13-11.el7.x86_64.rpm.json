@@ -1,0 +1,26 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.0.13", 
+            "Name": " gsm", 
+            "License": " MIT", 
+            "URL": " http://www.quut.com/gsm/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-024.build.eng.bos.redhat.com", 
+            "Description": "\nContains runtime shared libraries for libgsm, an implementation of\nthe European GSM 06.10 provisional standard for full-rate speech\ntranscoding, prI-ETS 300 036, which uses RPE/LTP (residual pulse\nexcitation/long term prediction) coding at 13 kbit/s.\n\nGSM 06.10 compresses frames of 162 13-bit samples (8 kHz sampling\nrate, i.e. a frame rate of 50 Hz) into 260 bits; for compatibility\nwith typical UNIX applications, our implementation turns frames of 160\n16-bit linear samples into 33-byte frames (1650 Bytes/s).\nThe quality of the algorithm is good enough for reliable speaker\nrecognition; even music often survives transcoding in recognizable\nform (given the bandwidth limitations of 8 kHz sampling rate).\n\nThe interfaces offered are a front end modelled after compress(1), and\na library API.  Compression and decompression run faster than realtime\non most SPARCstations.  The implementation has been verified against the\nETSI standard test patterns.\n", 
+            "Build Date": " Fri 24 Jan 2014 08:17:40 PM EST", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " gsm-1.0.13-11.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/0/gsm-1.0.13-11.el7.x86_64.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " x86_64", 
+            "Signature": " RSA/SHA256, Tue 01 Apr 2014 01:24:16 PM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 11.el7", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " Shared libraries for GSM speech compressor", 
+            "Size": " 56172"
+        }
+    }
+}

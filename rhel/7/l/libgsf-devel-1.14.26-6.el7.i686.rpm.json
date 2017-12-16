@@ -1,0 +1,152 @@
+{
+    "results": {
+        "usr/bin/gsf-vba-dump": {
+            "report-functions": [
+                "g_log", 
+                "__stack_chk_fail", 
+                "g_error_free", 
+                "g_hash_table_foreach", 
+                "_ITM_deregisterTMCloneTable", 
+                "gsf_input_mmap_new", 
+                "g_object_unref", 
+                "gsf_infile_msvba_get_modules", 
+                "gsf_input_stdio_new", 
+                "gsf_init", 
+                "gsf_shutdown", 
+                "g_type_check_instance_cast", 
+                "_Jv_RegisterClasses", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "__printf_chk"
+            ], 
+            "rpm": "libgsf-devel-1.14.26-6.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 8, 
+                    "afC": 133
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/gsf-vba-dump"
+        }, 
+        "usr/bin/gsf": {
+            "report-functions": [
+                "g_filename_display_name", 
+                "gsf_input_size", 
+                "gsf_output_stdio_new", 
+                "g_option_context_add_main_entries", 
+                "gsf_doc_meta_data_read_from_msole", 
+                "g_strdup", 
+                "g_type_check_instance_cast", 
+                "g_file_info_get_size", 
+                "gsf_input_stdio_new", 
+                "gsf_output_get_type", 
+                "g_file_enumerator_next_file", 
+                "g_printerr", 
+                "g_type_check_instance_is_a", 
+                "g_log", 
+                "g_get_prgname", 
+                "_ITM_registerTMCloneTable", 
+                "g_assertion_message", 
+                "_ITM_deregisterTMCloneTable", 
+                "g_set_prgname", 
+                "gsf_infile_msole_new", 
+                "g_file_enumerate_children", 
+                "gsf_infile_child_by_name", 
+                "g_file_new_for_path", 
+                "g_slist_foreach", 
+                "strchr", 
+                "g_file_new_for_commandline_arg", 
+                "g_object_unref", 
+                "_Jv_RegisterClasses", 
+                "g_option_context_free", 
+                "g_strconcat", 
+                "g_file_info_get_name", 
+                "gsf_outfile_new_child", 
+                "g_build_filename", 
+                "g_file_get_path", 
+                "g_file_input_stream_query_info", 
+                "gsf_outfile_zip_new", 
+                "gsf_infile_child_by_index", 
+                "g_input_stream_read_all", 
+                "g_slist_free", 
+                "g_file_get_basename", 
+                "g_free", 
+                "gsf_infile_num_children", 
+                "g_option_context_new", 
+                "gsf_infile_tar_new", 
+                "gsf_input_get_type", 
+                "gsf_outfile_msole_new", 
+                "gsf_infile_msole_get_type", 
+                "gsf_output_write", 
+                "g_slist_sort", 
+                "gsf_input_dump", 
+                "g_file_read", 
+                "gsf_doc_meta_data_new", 
+                "gsf_init", 
+                "gsf_infile_get_type", 
+                "gsf_doc_meta_data_foreach", 
+                "gsf_outfile_get_type", 
+                "g_option_context_parse", 
+                "__libc_start_main", 
+                "__stack_chk_fail", 
+                "gsf_input_name", 
+                "strcmp", 
+                "gsf_doc_meta_data_lookup", 
+                "g_file_query_file_type", 
+                "g_error_free", 
+                "g_slist_prepend", 
+                "gsf_output_close", 
+                "dcgettext", 
+                "gsf_doc_prop_dump", 
+                "g_strndup", 
+                "g_print", 
+                "g_malloc"
+            ], 
+            "rpm": "libgsf-devel-1.14.26-6.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 30, 
+                    "afC": 561
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/gsf"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.14.26", 
+            "Name": " libgsf-devel", 
+            "License": " LGPLv2", 
+            "URL": " http://www.gnome.org/projects/libgsf/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-017.build.eng.bos.redhat.com", 
+            "Description": "\nLibraries, headers, and support files necessary to compile applications using\nlibgsf.\n", 
+            "Build Date": " Sun 26 Jan 2014 06:37:59 AM EST", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " libgsf-1.14.26-6.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/6/libgsf-devel-1.14.26-6.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 01 Apr 2014 05:01:36 PM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 6.el7", 
+            "Group": " Development/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " Support files necessary to compile applications with libgsf", 
+            "Size": " 881548"
+        }
+    }
+}

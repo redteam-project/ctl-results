@@ -1,0 +1,26 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Version": " 2.23.52.0.1", 
+            "Name": " binutils-devel", 
+            "License": " GPLv3+", 
+            "URL": " http://sources.redhat.com/binutils", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-025.build.eng.bos.redhat.com", 
+            "Description": "\nThis package contains BFD and opcodes static and dynamic libraries.\n\nThe dynamic libraries are in this package, rather than a seperate\nbase package because they are actually linker scripts that force\nthe use of the static libraries.  This is because the API of the\nBFD library is too unstable to be used dynamically.\n\nThe static libraries are here because they are now needed by the\ndynamic libraries.\n\nDevelopers starting new projects are strongly encouraged to consider\nusing libelf instead of BFD.\n", 
+            "Build Date": " Fri 24 Jan 2014 10:23:05 PM EST", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " binutils-2.23.52.0.1-16.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/0/binutils-devel-2.23.52.0.1-16.el7.x86_64.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " x86_64", 
+            "Signature": " RSA/SHA256, Tue 01 Apr 2014 09:28:57 AM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 16.el7", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " BFD and opcodes static and dynamic libraries and header files", 
+            "Size": " 3961357"
+        }
+    }
+}

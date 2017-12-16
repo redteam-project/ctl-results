@@ -1,0 +1,123 @@
+{
+    "results": {
+        "usr/lib/libpng12_so_0_50_0": {
+            "report-functions": [
+                "__fprintf_chk", 
+                "__memcpy_chk", 
+                "fputc", 
+                "pow", 
+                "free", 
+                "inflateInit_", 
+                "inflateEnd", 
+                "memset", 
+                "malloc", 
+                "_ITM_registerTMCloneTable", 
+                "fwrite", 
+                "strlen", 
+                "__snprintf_chk", 
+                "deflateEnd", 
+                "gmtime", 
+                "fflush", 
+                "memcmp", 
+                "fread", 
+                "__cxa_finalize", 
+                "__longjmp_chk", 
+                "deflate", 
+                "inflateReset", 
+                "_Jv_RegisterClasses", 
+                "_ITM_deregisterTMCloneTable", 
+                "__stack_chk_fail", 
+                "memcpy", 
+                "deflateInit2_", 
+                "strtod", 
+                "deflateReset", 
+                "abort", 
+                "_setjmp", 
+                "__gmon_start__"
+            ], 
+            "rpm": "libpng12-1.2.50-7.el7_2.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libpng12.so.0.50.0"
+        }, 
+        "usr/lib/libpng_so_3_50_0": {
+            "report-functions": [
+                "memcpy", 
+                "fwrite", 
+                "inflateInit_", 
+                "inflateEnd", 
+                "__gmon_start__", 
+                "deflateReset", 
+                "__fprintf_chk", 
+                "abort", 
+                "gmtime", 
+                "strtod", 
+                "_ITM_deregisterTMCloneTable", 
+                "__memcpy_chk", 
+                "fflush", 
+                "deflateEnd", 
+                "strlen", 
+                "memset", 
+                "free", 
+                "memcmp", 
+                "__stack_chk_fail", 
+                "fread", 
+                "fputc", 
+                "__longjmp_chk", 
+                "deflate", 
+                "pow", 
+                "deflateInit2_", 
+                "_Jv_RegisterClasses", 
+                "malloc", 
+                "__snprintf_chk", 
+                "inflateReset", 
+                "crc32", 
+                "_setjmp", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "libpng12-1.2.50-7.el7_2.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libpng.so.3.50.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.2.50", 
+            "Name": " libpng12", 
+            "License": " zlib", 
+            "URL": " http://www.libpng.org/pub/png/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-034.build.eng.bos.redhat.com", 
+            "Description": "\nThe libpng12 package provides libpng 1.2, an older version of the libpng\nlibrary for manipulating PNG (Portable Network Graphics) image format files.\nThis version should be used only if you are unable to use the current\nversion of libpng.\n", 
+            "Build Date": " Mon 23 Nov 2015 05:16:36 AM EST", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " libpng12-1.2.50-7.el7_2.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/libpng12-1.2.50-7.el7_2.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Wed 02 Dec 2015 08:00:08 AM EST, Key ID 199e2f91fd431d51", 
+            "Release": " 7.el7_2", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " Old version of libpng, needed to run old binaries", 
+            "Size": " 672841"
+        }
+    }
+}
