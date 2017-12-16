@@ -1,0 +1,86 @@
+{
+    "results": {
+        "usr/lib/libsss_nss_idmap_so_0_2_0": {
+            "report-functions": [
+                "fcntl", 
+                "send", 
+                "__stack_chk_fail", 
+                "pthread_mutex_init", 
+                "free", 
+                "pthread_mutex_consistent", 
+                "calloc", 
+                "strtoull", 
+                "getenv", 
+                "getsockopt", 
+                "malloc", 
+                "connect", 
+                "close", 
+                "getgid", 
+                "memchr", 
+                "time", 
+                "_ITM_deregisterTMCloneTable", 
+                "__strdup", 
+                "socket", 
+                "getuid", 
+                "strlen", 
+                "pthread_mutexattr_setrobust", 
+                "__strncpy_chk", 
+                "pthread_once", 
+                "pthread_mutex_unlock", 
+                "pthread_mutex_lock", 
+                "strtoll", 
+                "strncpy", 
+                "_Jv_RegisterClasses", 
+                "strerror", 
+                "__errno_location", 
+                "strnlen", 
+                "getpid", 
+                "__cxa_finalize", 
+                "pthread_mutexattr_init", 
+                "_ITM_registerTMCloneTable", 
+                "rand", 
+                "__fxstat64", 
+                "sleep", 
+                "poll", 
+                "dcgettext", 
+                "__xstat64", 
+                "read"
+            ], 
+            "rpm": "libsss_nss_idmap-1.14.0-43.el7_3.11.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libsss_nss_idmap.so.0.2.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.14.0", 
+            "Name": " libsss_nss_idmap", 
+            "License": " LGPLv3+", 
+            "URL": " http://fedorahosted.org/sssd/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-030.build.eng.bos.redhat.com", 
+            "Description": "\nUtility library for SID and certificate based lookups\n", 
+            "Build Date": " Tue 13 Dec 2016 11:31:53 AM EST", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " sssd-1.14.0-43.el7_3.11.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/libsss_nss_idmap-1.14.0-43.el7_3.11.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 09 Jan 2017 04:30:42 AM EST, Key ID 199e2f91fd431d51", 
+            "Release": " 43.el7_3.11", 
+            "Group": " Development/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " Library for SID and certificate based lookups", 
+            "Size": " 62210"
+        }
+    }
+}

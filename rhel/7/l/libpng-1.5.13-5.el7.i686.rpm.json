@@ -1,0 +1,77 @@
+{
+    "results": {
+        "usr/lib/libpng15_so_15_13_0": {
+            "report-functions": [
+                "__fprintf_chk", 
+                "inflateEnd", 
+                "__longjmp_chk", 
+                "modf", 
+                "gmtime", 
+                "crc32", 
+                "inflate", 
+                "fflush", 
+                "fwrite", 
+                "deflateInit2_", 
+                "_ITM_deregisterTMCloneTable", 
+                "deflateEnd", 
+                "frexp", 
+                "inflateReset", 
+                "memcpy", 
+                "_ITM_registerTMCloneTable", 
+                "_Jv_RegisterClasses", 
+                "pow", 
+                "strlen", 
+                "inflateInit_", 
+                "free", 
+                "deflateReset", 
+                "__memcpy_chk", 
+                "__cxa_finalize", 
+                "__gmon_start__", 
+                "_setjmp", 
+                "memset", 
+                "__stack_chk_fail", 
+                "malloc", 
+                "fputc", 
+                "memcmp", 
+                "deflate", 
+                "fread"
+            ], 
+            "rpm": "libpng-1.5.13-5.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libpng15.so.15.13.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.5.13", 
+            "Name": " libpng", 
+            "License": " zlib", 
+            "URL": " http://www.libpng.org/pub/png/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-021.build.eng.bos.redhat.com", 
+            "Source RPM": " libpng-1.5.13-5.el7.src.rpm", 
+            "Description": "\nThe libpng package contains a library of functions for creating and\nmanipulating PNG (Portable Network Graphics) image format files.  PNG\nis a bit-mapped graphics format similar to the GIF format.  PNG was\ncreated to replace the GIF format, since GIF uses a patented data\ncompression algorithm.\n\nLibpng should be installed if you need to manipulate PNG format image\nfiles.\n", 
+            "Build Date": " Wed 29 Jan 2014 09:33:02 AM EST", 
+            "Vendor": " Red Hat, Inc.", 
+            "Epoch": " 2", 
+            "warning": " /home/jason/fctl/swap/1/libpng-1.5.13-5.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 01 Apr 2014 05:53:39 PM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 5.el7", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " A library of functions for manipulating PNG image format files", 
+            "Size": " 619109"
+        }
+    }
+}

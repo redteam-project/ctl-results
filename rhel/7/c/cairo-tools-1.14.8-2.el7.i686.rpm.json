@@ -1,0 +1,153 @@
+{
+    "results": {
+        "usr/lib/cairo/cairo-sphinx_so_0_0_0": {
+            "report-functions": [
+                "dlsym", 
+                "__stack_chk_fail", 
+                "__errno_location", 
+                "__assert_fail", 
+                "strtol", 
+                "dlopen", 
+                "__gmon_start__", 
+                "write", 
+                "_ITM_deregisterTMCloneTable", 
+                "_Jv_RegisterClasses", 
+                "getenv"
+            ], 
+            "rpm": "cairo-tools-1.14.8-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/cairo/cairo-sphinx.so.0.0.0"
+        }, 
+        "usr/lib/cairo/cairo-fdr_so_0_0_0": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "__assert_fail", 
+                "_Jv_RegisterClasses", 
+                "dlopen", 
+                "__cxa_finalize", 
+                "dlsym", 
+                "__cxa_atexit", 
+                "__stack_chk_fail", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "cairo-tools-1.14.8-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/cairo/cairo-fdr.so.0.0.0"
+        }, 
+        "usr/lib/cairo/libcairo-trace_so_0_0_0": {
+            "report-functions": [
+                "memmove", 
+                "localeconv", 
+                "_ITM_deregisterTMCloneTable", 
+                "pthread_mutex_init", 
+                "__gmon_start__", 
+                "pthread_mutex_unlock", 
+                "fread", 
+                "flockfile", 
+                "getpid", 
+                "fgets", 
+                "__cxa_atexit", 
+                "strrchr", 
+                "__assert_fail", 
+                "strlen", 
+                "__stack_chk_fail", 
+                "getenv", 
+                "pthread_once", 
+                "deflate", 
+                "_ITM_registerTMCloneTable", 
+                "pthread_mutex_destroy", 
+                "strncmp", 
+                "__memmove_chk", 
+                "__fprintf_chk", 
+                "dlsym", 
+                "setenv", 
+                "__memcpy_chk", 
+                "fdopen", 
+                "strtol", 
+                "fopen64", 
+                "funlockfile", 
+                "strerror", 
+                "abort", 
+                "pthread_mutex_lock", 
+                "realloc", 
+                "fflush", 
+                "deflateEnd", 
+                "deflateInit_", 
+                "__cxa_finalize", 
+                "fwrite", 
+                "dlopen", 
+                "memcpy", 
+                "__ctype_b_loc", 
+                "free", 
+                "__snprintf_chk", 
+                "malloc", 
+                "fclose", 
+                "pthread_key_create", 
+                "strncpy", 
+                "_Jv_RegisterClasses"
+            ], 
+            "rpm": "cairo-tools-1.14.8-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/cairo/libcairo-trace.so.0.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.14.8", 
+            "Name": " cairo-tools", 
+            "License": " LGPLv2 or MPLv1.1", 
+            "URL": " http://cairographics.org", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-019.build.eng.bos.redhat.com", 
+            "Description": "\nCairo is a 2D graphics library designed to provide high-quality display\nand print output.\n\nThis package contains tools for working with the cairo graphics library.\n * cairo-trace: Record cairo library calls for later playback\n", 
+            "Build Date": " Wed 19 Apr 2017 11:18:01 AM EDT", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " cairo-1.14.8-2.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/5/cairo-tools-1.14.8-2.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Wed 19 Apr 2017 07:15:48 PM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 2.el7", 
+            "Group": " Unspecified", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " Development tools for cairo", 
+            "Size": " 155010"
+        }
+    }
+}

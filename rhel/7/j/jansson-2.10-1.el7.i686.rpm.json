@@ -1,0 +1,80 @@
+{
+    "results": {
+        "usr/lib/libjansson_so_4_10_0": {
+            "report-functions": [
+                "strchr", 
+                "write", 
+                "__isinf", 
+                "__vsnprintf_chk", 
+                "__cxa_finalize", 
+                "malloc", 
+                "fwrite", 
+                "qsort", 
+                "_ITM_deregisterTMCloneTable", 
+                "strcmp", 
+                "__strncpy_chk", 
+                "getpid", 
+                "__gmon_start__", 
+                "gettimeofday", 
+                "close", 
+                "fclose", 
+                "__isnan", 
+                "__snprintf_chk", 
+                "memcmp", 
+                "memchr", 
+                "__errno_location", 
+                "_Jv_RegisterClasses", 
+                "fopen", 
+                "memcpy", 
+                "strncpy", 
+                "localeconv", 
+                "strtoll", 
+                "strtod", 
+                "fgetc", 
+                "memmove", 
+                "strlen", 
+                "free", 
+                "__assert_fail", 
+                "strerror", 
+                "open", 
+                "read", 
+                "sched_yield"
+            ], 
+            "rpm": "jansson-2.10-1.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libjansson.so.4.10.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 2.10", 
+            "Name": " jansson", 
+            "License": " MIT", 
+            "URL": " http://www.digip.org/jansson/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-038.build.eng.bos.redhat.com", 
+            "Description": "\nSmall library for parsing and writing JSON documents.\n", 
+            "Build Date": " Fri 10 Mar 2017 10:51:27 PM EST", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " jansson-2.10-1.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/jansson-2.10-1.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 23 Mar 2017 03:31:00 AM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 1.el7", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " C library for encoding, decoding and manipulating JSON data", 
+            "Size": " 74026"
+        }
+    }
+}

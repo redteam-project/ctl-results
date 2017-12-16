@@ -1,0 +1,64 @@
+{
+    "results": {
+        "usr/libexec/atomic/dockertar-sha256-helper": {
+            "report-functions": [], 
+            "rpm": "atomic-1.10.5-5.el7.x86_64.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 1, 
+                    "afC": 3
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/libexec/atomic/dockertar-sha256-helper"
+        }, 
+        "usr/libexec/atomic/gotar": {
+            "report-functions": [], 
+            "rpm": "atomic-1.10.5-5.el7.x86_64.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 1, 
+                    "afC": 3
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/libexec/atomic/gotar"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.10.5", 
+            "Name": " atomic", 
+            "License": " LGPLv2+", 
+            "URL": " https://github.com/projectatomic/atomic", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-017.build.eng.bos.redhat.com", 
+            "Source RPM": " atomic-1.10.5-5.el7.src.rpm", 
+            "Description": "\nThe goal of Atomic is to provide a high level, coherent entrypoint to the\nsystem, and fill in gaps.\n\nFor Docker, atomic can make it easier to interact with special kinds of\ncontainers, such as super-privileged debugging tools and the like.\n\nThe atomic host subcommand wraps rpm-ostree, currently just providing a\nfriendlier name, but in the future Atomic may provide more unified\nmanagement.\n", 
+            "Build Date": " Wed 15 Jun 2016 02:58:44 PM EDT", 
+            "Vendor": " Red Hat, Inc.", 
+            "Epoch": " 1", 
+            "warning": " /home/jason/fctl/swap/4/atomic-1.10.5-5.el7.x86_64.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " x86_64", 
+            "Signature": " RSA/SHA256, Wed 15 Jun 2016 10:31:41 PM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 5.el7", 
+            "Group": " Unspecified", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " Tool for managing ProjectAtomic systems and containers", 
+            "Size": " 4107465"
+        }
+    }
+}

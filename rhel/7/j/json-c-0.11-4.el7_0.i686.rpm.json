@@ -1,0 +1,98 @@
+{
+    "results": {
+        "usr/lib/libjson-c_so_2_0_1": {
+            "report-functions": [
+                "close", 
+                "__xstat", 
+                "__vsnprintf_chk", 
+                "strlen", 
+                "strncmp", 
+                "_Jv_RegisterClasses", 
+                "strncasecmp", 
+                "__vsyslog_chk", 
+                "sscanf", 
+                "__stack_chk_fail", 
+                "exit", 
+                "open", 
+                "time", 
+                "strchr", 
+                "free", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "memcpy", 
+                "realloc", 
+                "__snprintf_chk", 
+                "__vasprintf_chk", 
+                "__errno_location", 
+                "malloc", 
+                "__strdup", 
+                "strerror", 
+                "__ctype_b_loc", 
+                "__fprintf_chk", 
+                "write", 
+                "qsort", 
+                "_ITM_registerTMCloneTable", 
+                "__vfprintf_chk", 
+                "strcmp", 
+                "read", 
+                "memset", 
+                "setlocale"
+            ], 
+            "rpm": "json-c-0.11-4.el7_0.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libjson-c.so.2.0.1"
+        }, 
+        "usr/lib/libjson_so_0_1_0": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "_Jv_RegisterClasses", 
+                "__cxa_finalize", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "json-c-0.11-4.el7_0.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libjson.so.0.1.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 0.11", 
+            "Name": " json-c", 
+            "License": " MIT", 
+            "URL": " https://github.com/json-c/json-c/wiki", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-030.build.eng.bos.redhat.com", 
+            "Description": "\nJSON-C implements a reference counting object model that allows you to easily\nconstruct JSON objects in C, output them as JSON formatted strings and parse\nJSON formatted strings back into the C representation of JSON objects.\n", 
+            "Build Date": " Thu 22 May 2014 09:55:53 AM EDT", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " json-c-0.11-4.el7_0.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/json-c-0.11-4.el7_0.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 22 May 2014 11:22:39 AM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 4.el7_0", 
+            "Group": " Development/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " A JSON implementation in C", 
+            "Size": " 63917"
+        }
+    }
+}

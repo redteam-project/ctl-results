@@ -1,0 +1,227 @@
+{
+    "results": {
+        "usr/lib/librom1394_so_0_3_0": {
+            "report-functions": [
+                "__errno_location", 
+                "memmove", 
+                "realloc", 
+                "free", 
+                "__fprintf_chk", 
+                "__gmon_start__", 
+                "raw1394_write", 
+                "strcpy", 
+                "raw1394_read", 
+                "_ITM_registerTMCloneTable", 
+                "pow", 
+                "__cxa_finalize", 
+                "strlen", 
+                "nanosleep", 
+                "_ITM_deregisterTMCloneTable", 
+                "calloc", 
+                "__stack_chk_fail", 
+                "_Jv_RegisterClasses"
+            ], 
+            "rpm": "libavc1394-0.5.3-14.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/librom1394.so.0.3.0"
+        }, 
+        "usr/bin/panelctl": {
+            "report-functions": [
+                "putchar", 
+                "strcmp", 
+                "_Jv_RegisterClasses", 
+                "raw1394_new_handle_on_port", 
+                "puts", 
+                "raw1394_get_nodecount", 
+                "perror", 
+                "__fprintf_chk", 
+                "rom1394_get_directory", 
+                "strlen", 
+                "__gmon_start__", 
+                "fwrite", 
+                "avc1394_transaction_block", 
+                "__printf_chk", 
+                "_ITM_registerTMCloneTable", 
+                "__errno_location", 
+                "_ITM_deregisterTMCloneTable", 
+                "__libc_start_main", 
+                "strtol", 
+                "usleep"
+            ], 
+            "rpm": "libavc1394-0.5.3-14.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/panelctl"
+        }, 
+        "usr/bin/dvcont": {
+            "report-functions": [
+                "avc1394_vcr_seek_timecode", 
+                "raw1394_get_nodecount", 
+                "exit", 
+                "__gmon_start__", 
+                "avc1394_vcr_status", 
+                "avc1394_vcr_stop", 
+                "avc1394_vcr_play", 
+                "avc1394_vcr_reverse", 
+                "_Jv_RegisterClasses", 
+                "avc1394_vcr_next", 
+                "avc1394_vcr_decode_status", 
+                "strcmp", 
+                "avc1394_vcr_previous_index", 
+                "avc1394_vcr_rewind", 
+                "avc1394_transaction_block_close", 
+                "avc1394_check_subunit_type", 
+                "_ITM_deregisterTMCloneTable", 
+                "avc1394_vcr_next_index", 
+                "raw1394_destroy_handle", 
+                "_ITM_registerTMCloneTable", 
+                "avc1394_vcr_forward", 
+                "avc1394_vcr_pause", 
+                "rom1394_get_node_type", 
+                "raw1394_get_local_id", 
+                "puts", 
+                "avc1394_vcr_previous", 
+                "__fprintf_chk", 
+                "raw1394_new_handle", 
+                "__stack_chk_fail", 
+                "raw1394_set_port", 
+                "perror", 
+                "avc1394_transaction_block", 
+                "avc1394_vcr_trick_play", 
+                "avc1394_vcr_record", 
+                "__printf_chk", 
+                "raw1394_get_generation", 
+                "avc1394_vcr_get_timecode2", 
+                "__errno_location", 
+                "rom1394_get_directory", 
+                "__libc_start_main", 
+                "strtol"
+            ], 
+            "rpm": "libavc1394-0.5.3-14.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/dvcont"
+        }, 
+        "usr/bin/mkrfc2734": {
+            "report-functions": [
+                "raw1394_get_config_rom", 
+                "raw1394_reset_bus", 
+                "rom1394_free_directory", 
+                "_ITM_registerTMCloneTable", 
+                "rom1394_add_unit", 
+                "__libc_start_main", 
+                "__gmon_start__", 
+                "__errno_location", 
+                "puts", 
+                "__printf_chk", 
+                "raw1394_new_handle", 
+                "_Jv_RegisterClasses", 
+                "rom1394_get_size", 
+                "raw1394_get_local_id", 
+                "perror", 
+                "exit", 
+                "rom1394_get_directory", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "libavc1394-0.5.3-14.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/mkrfc2734"
+        }, 
+        "usr/lib/libavc1394_so_0_3_0": {
+            "report-functions": [
+                "raw1394_get_fd", 
+                "raw1394_set_userdata", 
+                "free", 
+                "__stack_chk_fail", 
+                "nanosleep", 
+                "__printf_chk", 
+                "_ITM_registerTMCloneTable", 
+                "poll", 
+                "__gmon_start__", 
+                "memcpy", 
+                "raw1394_stop_fcp_listen", 
+                "cooked1394_write", 
+                "_Jv_RegisterClasses", 
+                "raw1394_loop_iterate", 
+                "raw1394_set_fcp_handler", 
+                "malloc", 
+                "__cxa_finalize", 
+                "__isoc99_sscanf", 
+                "__memcpy_chk", 
+                "raw1394_get_userdata", 
+                "calloc", 
+                "fwrite", 
+                "raw1394_start_fcp_listen"
+            ], 
+            "rpm": "libavc1394-0.5.3-14.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libavc1394.so.0.3.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 0.5.3", 
+            "Name": " libavc1394", 
+            "License": " GPLv2+ and LGPLv2+", 
+            "URL": " http://sourceforge.net/projects/libavc1394/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-019.build.eng.bos.redhat.com", 
+            "Description": "\nThe libavc1394 library allows utilities to control IEEE-1394 devices\nusing the AV/C specification.  Audio/Video Control allows applications\nto control devices like the tape on a VCR or camcorder.\n", 
+            "Build Date": " Sat 28 Dec 2013 05:54:19 AM EST", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " libavc1394-0.5.3-14.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/libavc1394-0.5.3-14.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 01 Apr 2014 04:24:26 PM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 14.el7", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " Audio/Video Control library for IEEE-1394 devices", 
+            "Size": " 115548"
+        }
+    }
+}

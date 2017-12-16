@@ -1,0 +1,48 @@
+{
+    "results": {
+        "lib/firmware/mixart/miXart8_elf": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "lib/firmware/mixart/miXart8.elf", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [], 
+            "rpm": "alsa-firmware-1.0.28-2.el7.noarch.rpm"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.0.28", 
+            "Name": " alsa-firmware", 
+            "License": " GPL+ and BSD and GPLv2+ and GPLv2 and LGPLv2+", 
+            "URL": " http://www.alsa-project.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " ppc-021.build.eng.bos.redhat.com", 
+            "Description": "\nThis package contains the firmware binaries for a number of sound cards.\nSome (but not all of these) require firmware loaders which are included in\nthe alsa-tools-firmware package.\n", 
+            "Build Date": " Fri 07 Nov 2014 06:32:16 AM EST", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " alsa-firmware-1.0.28-2.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/0/alsa-firmware-1.0.28-2.el7.noarch.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Wed 03 Dec 2014 01:36:04 PM EST, Key ID 199e2f91fd431d51", 
+            "Release": " 2.el7", 
+            "Group": " Applications/Multimedia", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " Firmware for several ALSA-supported sound cards", 
+            "Size": " 9572469"
+        }
+    }
+}

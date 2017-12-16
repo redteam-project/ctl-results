@@ -1,0 +1,88 @@
+{
+    "results": {
+        "usr/lib/libibmad_so_5_5_0": {
+            "report-functions": [
+                "fputs", 
+                "calloc", 
+                "umad_get_mad_addr", 
+                "__memset_chk", 
+                "umad_open_port", 
+                "memcpy", 
+                "__cxa_finalize", 
+                "umad_init", 
+                "__sprintf_chk", 
+                "umad_set_pkey", 
+                "time", 
+                "umad_recv", 
+                "inet_ntop", 
+                "umad_status", 
+                "snprintf", 
+                "umad_register_oui", 
+                "umad_size", 
+                "strtol", 
+                "free", 
+                "umad_get_mad", 
+                "umad_set_addr", 
+                "strlen", 
+                "__errno_location", 
+                "umad_register", 
+                "_ITM_deregisterTMCloneTable", 
+                "strchr", 
+                "exit", 
+                "umad_addr_dump", 
+                "umad_send", 
+                "inet_pton", 
+                "umad_close_port", 
+                "__fprintf_chk", 
+                "strerror", 
+                "__stack_chk_fail", 
+                "fputc", 
+                "getpid", 
+                "__gmon_start__", 
+                "random", 
+                "_ITM_registerTMCloneTable", 
+                "srandom", 
+                "__snprintf_chk", 
+                "strtoull", 
+                "strncpy", 
+                "malloc", 
+                "_Jv_RegisterClasses"
+            ], 
+            "rpm": "libibmad-1.3.12-1.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libibmad.so.5.5.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.3.12", 
+            "Name": " libibmad", 
+            "License": " GPLv2 or BSD", 
+            "URL": " http://www.openfabrics.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-030.build.eng.bos.redhat.com", 
+            "Description": "\nlibibmad provides low layer IB functions for use by the IB diagnostic\nand management programs. These include MAD, SA, SMP, and other basic\nIB functions.\n", 
+            "Build Date": " Fri 05 Jun 2015 03:30:03 PM EDT", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " libibmad-1.3.12-1.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/libibmad-1.3.12-1.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Wed 21 Oct 2015 07:03:11 AM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 1.el7", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " OpenFabrics Alliance InfiniBand MAD library", 
+            "Size": " 203874"
+        }
+    }
+}

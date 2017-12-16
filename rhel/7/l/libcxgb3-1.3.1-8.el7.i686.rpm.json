@@ -1,0 +1,82 @@
+{
+    "results": {
+        "usr/lib/libcxgb3-rdmav2_so": {
+            "report-functions": [
+                "munmap", 
+                "sscanf", 
+                "ibv_cmd_query_port", 
+                "sysconf", 
+                "memset", 
+                "ibv_read_sysfs_file", 
+                "strtok", 
+                "ibv_get_sysfs_path", 
+                "_ITM_deregisterTMCloneTable", 
+                "memcpy", 
+                "ibv_cmd_dealloc_pd", 
+                "ibv_cmd_dereg_mr", 
+                "ibv_cmd_destroy_qp", 
+                "__stack_chk_fail", 
+                "pthread_spin_unlock", 
+                "__cxa_finalize", 
+                "ibv_cmd_query_device", 
+                "__snprintf_chk", 
+                "pthread_spin_lock", 
+                "ibv_cmd_destroy_cq", 
+                "_Jv_RegisterClasses", 
+                "calloc", 
+                "ibv_cmd_post_recv", 
+                "ibv_cmd_req_notify_cq", 
+                "__fprintf_chk", 
+                "__gmon_start__", 
+                "ibv_cmd_reg_mr", 
+                "fflush", 
+                "ibv_cmd_get_context", 
+                "ibv_cmd_create_cq", 
+                "ibv_cmd_modify_qp", 
+                "free", 
+                "ibv_cmd_create_qp", 
+                "malloc", 
+                "pthread_spin_init", 
+                "ibv_cmd_alloc_pd", 
+                "mmap", 
+                "_ITM_registerTMCloneTable", 
+                "ibv_cmd_poll_cq"
+            ], 
+            "rpm": "libcxgb3-1.3.1-8.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: 'NoneType' object is not iterable"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libcxgb3-rdmav2.so"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.3.1", 
+            "Name": " libcxgb3", 
+            "License": " GPLv2 or BSD", 
+            "URL": " http://www.openfabrics.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-035.build.eng.bos.redhat.com", 
+            "Description": "\nUserspace hardware driver for use with the libibverbs InfiniBand/iWARP verbs\nlibrary.  This driver enables Chelsio iWARP capable ethernet devices.\n", 
+            "Build Date": " Fri 05 Jun 2015 08:41:06 PM EDT", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " libcxgb3-1.3.1-8.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/libcxgb3-1.3.1-8.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Wed 21 Oct 2015 07:15:57 AM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 8.el7", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " Chelsio T3 iWARP HCA Userspace Driver", 
+            "Size": " 29630"
+        }
+    }
+}

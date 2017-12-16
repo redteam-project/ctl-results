@@ -1,0 +1,60 @@
+{
+    "results": {
+        "usr/bin/gs": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "gsapi_delete_instance", 
+                "__stack_chk_fail", 
+                "fwrite", 
+                "__libc_start_main", 
+                "fileno", 
+                "gsapi_new_instance", 
+                "_Jv_RegisterClasses", 
+                "_ITM_registerTMCloneTable", 
+                "fflush", 
+                "gsapi_set_stdio", 
+                "gsapi_run_string", 
+                "gsapi_init_with_args"
+            ], 
+            "rpm": "ghostscript-9.07-20.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 7, 
+                    "afC": 126
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/gs"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 9.07", 
+            "Name": " ghostscript", 
+            "License": " AGPLv3+ and Redistributable, no modification permitted", 
+            "URL": " http://www.ghostscript.com/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-019.build.eng.bos.redhat.com", 
+            "Description": "\nGhostscript is a set of software that provides a PostScript\ninterpreter, a set of C procedures (the Ghostscript library, which\nimplements the graphics capabilities in the PostScript language) and\nan interpreter for Portable Document Format (PDF) files. Ghostscript\ntranslates PostScript code into many common, bitmapped formats, like\nthose understood by your printer or screen. Ghostscript is normally\nused to display PostScript files and to print PostScript files to\nnon-PostScript printers.\n\nIf you need to display PostScript files or print them to\nnon-PostScript printers, you should install ghostscript. If you\ninstall ghostscript, you also need to install the ghostscript-fonts\npackage.\n", 
+            "Build Date": " Wed 13 Jul 2016 09:58:00 AM EDT", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " ghostscript-9.07-20.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/0/ghostscript-9.07-20.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 20 Sep 2016 07:56:33 AM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 20.el7", 
+            "Group": " Applications/Publishing", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " A PostScript interpreter and renderer", 
+            "Size": " 16041796"
+        }
+    }
+}

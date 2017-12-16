@@ -1,0 +1,86 @@
+{
+    "results": {
+        "usr/lib/libvpx_so_1_2_0": {
+            "report-functions": [
+                "__fprintf_chk", 
+                "fwrite", 
+                "__assert_fail", 
+                "free", 
+                "malloc", 
+                "__longjmp_chk", 
+                "strtol", 
+                "memcpy", 
+                "calloc", 
+                "pthread_once", 
+                "sem_wait", 
+                "_setjmp", 
+                "strncmp", 
+                "__vsnprintf_chk", 
+                "exp", 
+                "realloc", 
+                "sem_destroy", 
+                "sem_post", 
+                "log10", 
+                "memmove", 
+                "fputc", 
+                "sched_yield", 
+                "_Jv_RegisterClasses", 
+                "pthread_create", 
+                "fopen64", 
+                "vsnprintf", 
+                "sem_init", 
+                "pow", 
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable", 
+                "getenv", 
+                "pthread_join", 
+                "__gmon_start__", 
+                "fclose", 
+                "memset", 
+                "log", 
+                "_ITM_deregisterTMCloneTable", 
+                "gettimeofday", 
+                "rand", 
+                "sysconf"
+            ], 
+            "rpm": "libvpx-1.2.0-4.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libvpx.so.1.2.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.2.0", 
+            "Name": " libvpx", 
+            "License": " BSD", 
+            "URL": " http://www.webmproject.org/tools/vp8-sdk/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-021.build.eng.bos.redhat.com", 
+            "Description": "\nlibvpx provides the VP8 SDK, which allows you to integrate your applications\nwith the VP8 video codec, a high quality, royalty free, open source codec\ndeployed on millions of computers and devices worldwide.\n", 
+            "Build Date": " Sun 26 Jan 2014 09:23:09 AM EST", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " libvpx-1.2.0-4.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/2/libvpx-1.2.0-4.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Wed 02 Apr 2014 11:09:57 AM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 4.el7", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " VP8 Video Codec SDK", 
+            "Size": " 523046"
+        }
+    }
+}

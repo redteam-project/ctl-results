@@ -1,0 +1,413 @@
+{
+    "results": {
+        "usr/lib/jvm/java-1_8_0-openjdk-1_8_0_144-0_b01_el7_4_i386-debug/demo/jvmti/gctest/lib/libgctest_so": {
+            "report-functions": [
+                "strcat", 
+                "exit", 
+                "__cxa_finalize", 
+                "memset", 
+                "strncpy", 
+                "strcpy", 
+                "__stack_chk_fail", 
+                "strspn", 
+                "_ITM_deregisterTMCloneTable", 
+                "vfprintf", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "strncmp", 
+                "strcspn", 
+                "strlen"
+            ], 
+            "rpm": "java-1.8.0-openjdk-demo-debug-1.8.0.144-0.b01.el7_4.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: 'NoneType' object is not iterable"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/jvm/java-1.8.0-openjdk-1.8.0.144-0.b01.el7_4.i386-debug/demo/jvmti/gctest/lib/libgctest.so"
+        }, 
+        "usr/lib/jvm/java-1_8_0-openjdk-1_8_0_144-0_b01_el7_4_i386-debug/demo/jvmti/minst/lib/libminst_so": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "strcmp", 
+                "fprintf", 
+                "free", 
+                "strdup", 
+                "memcpy", 
+                "strncmp", 
+                "vfprintf", 
+                "snprintf", 
+                "exit", 
+                "_ITM_deregisterTMCloneTable", 
+                "__stack_chk_fail", 
+                "fflush", 
+                "calloc", 
+                "realloc", 
+                "sprintf", 
+                "_ITM_registerTMCloneTable", 
+                "malloc", 
+                "strncpy", 
+                "abort", 
+                "strcspn", 
+                "strchr", 
+                "strlen", 
+                "strcat", 
+                "__gmon_start__", 
+                "memset", 
+                "strspn"
+            ], 
+            "rpm": "java-1.8.0-openjdk-demo-debug-1.8.0.144-0.b01.el7_4.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: 'NoneType' object is not iterable"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/jvm/java-1.8.0-openjdk-1.8.0.144-0.b01.el7_4.i386-debug/demo/jvmti/minst/lib/libminst.so"
+        }, 
+        "usr/lib/jvm/java-1_8_0-openjdk-1_8_0_144-0_b01_el7_4_i386-debug/demo/jvmti/heapTracker/lib/libheapTracker_so": {
+            "report-functions": [
+                "memcmp", 
+                "strcmp", 
+                "vfprintf", 
+                "exit", 
+                "malloc", 
+                "strdup", 
+                "qsort", 
+                "abort", 
+                "strspn", 
+                "strncmp", 
+                "calloc", 
+                "strcpy", 
+                "__stack_chk_fail", 
+                "strlen", 
+                "strcspn", 
+                "atoi", 
+                "memset", 
+                "strchr", 
+                "free", 
+                "fflush", 
+                "strcat", 
+                "_Jv_RegisterClasses", 
+                "sprintf", 
+                "__cxa_finalize", 
+                "fprintf", 
+                "snprintf", 
+                "_ITM_deregisterTMCloneTable", 
+                "realloc", 
+                "memcpy", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "java-1.8.0-openjdk-demo-debug-1.8.0.144-0.b01.el7_4.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: 'NoneType' object is not iterable"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/jvm/java-1.8.0-openjdk-1.8.0.144-0.b01.el7_4.i386-debug/demo/jvmti/heapTracker/lib/libheapTracker.so"
+        }, 
+        "usr/lib/jvm/java-1_8_0-openjdk-1_8_0_144-0_b01_el7_4_i386-debug/demo/jvmti/heapViewer/lib/libheapViewer_so": {
+            "report-functions": [
+                "vfprintf", 
+                "fflush", 
+                "memset", 
+                "strlen", 
+                "exit", 
+                "__stack_chk_fail", 
+                "strcat", 
+                "strspn", 
+                "_ITM_registerTMCloneTable", 
+                "strncmp", 
+                "__cxa_finalize", 
+                "_Jv_RegisterClasses", 
+                "strncpy", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "strdup", 
+                "calloc", 
+                "qsort", 
+                "free"
+            ], 
+            "rpm": "java-1.8.0-openjdk-demo-debug-1.8.0.144-0.b01.el7_4.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: 'NoneType' object is not iterable"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/jvm/java-1.8.0-openjdk-1.8.0.144-0.b01.el7_4.i386-debug/demo/jvmti/heapViewer/lib/libheapViewer.so"
+        }, 
+        "usr/lib/jvm/java-1_8_0-openjdk-1_8_0_144-0_b01_el7_4_i386-debug/demo/jvmti/versionCheck/lib/libversionCheck_so": {
+            "report-functions": [
+                "vfprintf", 
+                "memset", 
+                "strcat", 
+                "strlen", 
+                "__cxa_finalize", 
+                "_ITM_deregisterTMCloneTable", 
+                "_Jv_RegisterClasses", 
+                "exit", 
+                "strncpy", 
+                "strcspn", 
+                "_ITM_registerTMCloneTable", 
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "fflush", 
+                "strncmp"
+            ], 
+            "rpm": "java-1.8.0-openjdk-demo-debug-1.8.0.144-0.b01.el7_4.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: 'NoneType' object is not iterable"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/jvm/java-1.8.0-openjdk-1.8.0.144-0.b01.el7_4.i386-debug/demo/jvmti/versionCheck/lib/libversionCheck.so"
+        }, 
+        "usr/lib/jvm/java-1_8_0-openjdk-1_8_0_144-0_b01_el7_4_i386-debug/demo/jvmti/waiters/lib/libwaiters_so": {
+            "report-functions": [
+                "strcat", 
+                "free", 
+                "_ZdlPv", 
+                "__cxa_finalize", 
+                "malloc", 
+                "realloc", 
+                "exit", 
+                "strspn", 
+                "strcpy", 
+                "strlen", 
+                "strcspn", 
+                "__gxx_personality_v0", 
+                "fflush", 
+                "vfprintf", 
+                "_Jv_RegisterClasses", 
+                "_ITM_registerTMCloneTable", 
+                "_Znwj", 
+                "__gmon_start__", 
+                "_Unwind_Resume", 
+                "__stack_chk_fail", 
+                "_ITM_deregisterTMCloneTable", 
+                "strncpy"
+            ], 
+            "rpm": "java-1.8.0-openjdk-demo-debug-1.8.0.144-0.b01.el7_4.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: 'NoneType' object is not iterable"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/jvm/java-1.8.0-openjdk-1.8.0.144-0.b01.el7_4.i386-debug/demo/jvmti/waiters/lib/libwaiters.so"
+        }, 
+        "usr/lib/jvm/java-1_8_0-openjdk-1_8_0_144-0_b01_el7_4_i386-debug/demo/jvmti/mtrace/lib/libmtrace_so": {
+            "report-functions": [
+                "strdup", 
+                "strlen", 
+                "realloc", 
+                "sprintf", 
+                "atoi", 
+                "__cxa_finalize", 
+                "_ITM_deregisterTMCloneTable", 
+                "strncmp", 
+                "abort", 
+                "memcpy", 
+                "strcmp", 
+                "strspn", 
+                "malloc", 
+                "_ITM_registerTMCloneTable", 
+                "__stack_chk_fail", 
+                "strchr", 
+                "_Jv_RegisterClasses", 
+                "fflush", 
+                "free", 
+                "__gmon_start__", 
+                "strcat", 
+                "calloc", 
+                "strncpy", 
+                "strcspn", 
+                "vfprintf", 
+                "memset", 
+                "exit", 
+                "strcpy", 
+                "fprintf"
+            ], 
+            "rpm": "java-1.8.0-openjdk-demo-debug-1.8.0.144-0.b01.el7_4.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: 'NoneType' object is not iterable"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/jvm/java-1.8.0-openjdk-1.8.0.144-0.b01.el7_4.i386-debug/demo/jvmti/mtrace/lib/libmtrace.so"
+        }, 
+        "usr/lib/jvm/java-1_8_0-openjdk-1_8_0_144-0_b01_el7_4_i386-debug/demo/jvmti/compiledMethodLoad/lib/libcompiledMethodLoad_so": {
+            "report-functions": [
+                "fflush", 
+                "strlen", 
+                "strncmp", 
+                "_ITM_deregisterTMCloneTable", 
+                "vfprintf", 
+                "fprintf", 
+                "_ITM_registerTMCloneTable", 
+                "__stack_chk_fail", 
+                "__cxa_finalize", 
+                "strcpy", 
+                "fwrite", 
+                "memset", 
+                "strcat", 
+                "fopen", 
+                "__gmon_start__", 
+                "exit", 
+                "strcspn", 
+                "_Jv_RegisterClasses"
+            ], 
+            "rpm": "java-1.8.0-openjdk-demo-debug-1.8.0.144-0.b01.el7_4.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: 'NoneType' object is not iterable"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/jvm/java-1.8.0-openjdk-1.8.0.144-0.b01.el7_4.i386-debug/demo/jvmti/compiledMethodLoad/lib/libcompiledMethodLoad.so"
+        }, 
+        "usr/lib/jvm/java-1_8_0-openjdk-1_8_0_144-0_b01_el7_4_i386-debug/demo/jvmti/hprof/lib/libhprof_so": {
+            "report-functions": [
+                "realloc", 
+                "malloc", 
+                "fprintf", 
+                "recv", 
+                "memcpy", 
+                "strdup", 
+                "getenv", 
+                "dlclose", 
+                "strncmp", 
+                "strcat", 
+                "_ITM_deregisterTMCloneTable", 
+                "read", 
+                "abort", 
+                "dlsym", 
+                "memset", 
+                "strerror", 
+                "signal", 
+                "snprintf", 
+                "qsort", 
+                "shutdown", 
+                "send", 
+                "strtod", 
+                "tolower", 
+                "time", 
+                "__errno_location", 
+                "__gmon_start__", 
+                "sleep", 
+                "connect", 
+                "dlopen", 
+                "gethostbyname", 
+                "strtol", 
+                "sprintf", 
+                "strncpy", 
+                "gettimeofday", 
+                "_Jv_RegisterClasses", 
+                "htons", 
+                "vfprintf", 
+                "strlen", 
+                "strcpy", 
+                "getpid", 
+                "free", 
+                "__stack_chk_fail", 
+                "fwrite", 
+                "dlerror", 
+                "_ITM_registerTMCloneTable", 
+                "ctime", 
+                "remove", 
+                "calloc", 
+                "__ctype_b_loc", 
+                "__cxa_finalize", 
+                "strtok_r", 
+                "lseek", 
+                "dladdr", 
+                "socket", 
+                "vsnprintf", 
+                "htonl", 
+                "open", 
+                "ntohl", 
+                "strcmp", 
+                "write", 
+                "exit", 
+                "fputc", 
+                "fflush", 
+                "strrchr", 
+                "strchr", 
+                "close"
+            ], 
+            "rpm": "java-1.8.0-openjdk-demo-debug-1.8.0.144-0.b01.el7_4.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: 'NoneType' object is not iterable"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/jvm/java-1.8.0-openjdk-1.8.0.144-0.b01.el7_4.i386-debug/demo/jvmti/hprof/lib/libhprof.so"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.8.0.144", 
+            "Name": " java-1.8.0-openjdk-demo-debug", 
+            "License": " ASL 1.1 and ASL 2.0 and GPL+ and GPLv2 and GPLv2 with exceptions and LGPL+ and LGPLv2 and MPLv1.0 and MPLv1.1 and Public Domain and W3C", 
+            "URL": " http://openjdk.java.net/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-041.build.eng.bos.redhat.com", 
+            "Source RPM": " java-1.8.0-openjdk-1.8.0.144-0.b01.el7_4.src.rpm", 
+            "Description": "\nThe OpenJDK demos.\nThis package have full debug on. Install only in need, and remove asap.\n", 
+            "Build Date": " Wed 16 Aug 2017 02:29:36 PM EDT", 
+            "Vendor": " Red Hat, Inc.", 
+            "Epoch": " 1", 
+            "warning": " /home/jason/fctl/swap/6/java-1.8.0-openjdk-demo-debug-1.8.0.144-0.b01.el7_4.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 21 Aug 2017 10:27:32 PM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 0.b01.el7_4", 
+            "Group": " Development/Languages", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " OpenJDK Demos with full debug on", 
+            "Size": " 4420180"
+        }
+    }
+}

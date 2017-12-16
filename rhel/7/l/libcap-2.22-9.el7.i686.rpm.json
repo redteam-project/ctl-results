@@ -1,0 +1,282 @@
+{
+    "results": {
+        "usr/lib/libcap_so_2_22": {
+            "report-functions": [
+                "strtoul", 
+                "strcpy", 
+                "fremovexattr", 
+                "__errno_location", 
+                "capget", 
+                "_ITM_registerTMCloneTable", 
+                "malloc", 
+                "setxattr", 
+                "memcmp", 
+                "memset", 
+                "__gmon_start__", 
+                "fgetxattr", 
+                "__asprintf_chk", 
+                "__ctype_b_loc", 
+                "__lxstat64", 
+                "__cxa_finalize", 
+                "free", 
+                "prctl", 
+                "getxattr", 
+                "strlen", 
+                "_Jv_RegisterClasses", 
+                "capset", 
+                "fsetxattr", 
+                "removexattr", 
+                "__fxstat64", 
+                "_ITM_deregisterTMCloneTable", 
+                "__sprintf_chk"
+            ], 
+            "rpm": "libcap-2.22-9.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libcap.so.2.22"
+        }, 
+        "usr/sbin/setcap": {
+            "report-functions": [
+                "fwrite", 
+                "read", 
+                "__fprintf_chk", 
+                "__gmon_start__", 
+                "exit", 
+                "__libc_start_main", 
+                "cap_set_flag", 
+                "cap_free", 
+                "cap_get_file", 
+                "cap_set_proc", 
+                "_Jv_RegisterClasses", 
+                "strerror", 
+                "cap_get_proc", 
+                "perror", 
+                "_ITM_registerTMCloneTable", 
+                "__errno_location", 
+                "cap_set_file", 
+                "cap_compare", 
+                "cap_from_text"
+            ], 
+            "rpm": "libcap-2.22-9.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/sbin/setcap"
+        }, 
+        "usr/sbin/getcap": {
+            "report-functions": [
+                "puts", 
+                "_ITM_registerTMCloneTable", 
+                "__gmon_start__", 
+                "fwrite", 
+                "__lxstat64", 
+                "strerror", 
+                "__libc_start_main", 
+                "exit", 
+                "cap_get_file", 
+                "__errno_location", 
+                "_Jv_RegisterClasses", 
+                "_ITM_deregisterTMCloneTable", 
+                "cap_free", 
+                "__stack_chk_fail", 
+                "__fprintf_chk", 
+                "nftw64", 
+                "getopt"
+            ], 
+            "rpm": "libcap-2.22-9.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/sbin/getcap"
+        }, 
+        "usr/sbin/capsh": {
+            "report-functions": [
+                "sysconf", 
+                "waitpid", 
+                "cap_dup", 
+                "kill", 
+                "getgid", 
+                "_Jv_RegisterClasses", 
+                "getgrgid", 
+                "cap_set_proc", 
+                "cap_from_text", 
+                "getuid", 
+                "__strdup", 
+                "sleep", 
+                "strerror", 
+                "setuid", 
+                "cap_to_text", 
+                "memcmp", 
+                "getgrouplist", 
+                "cap_get_bound", 
+                "memcpy", 
+                "fwrite", 
+                "putchar", 
+                "calloc", 
+                "puts", 
+                "malloc", 
+                "setgroups", 
+                "__errno_location", 
+                "cap_set_flag", 
+                "getgrnam_r", 
+                "__ctype_b_loc", 
+                "getgroups", 
+                "getpwuid", 
+                "_ITM_registerTMCloneTable", 
+                "prctl", 
+                "cap_get_proc", 
+                "strtoul", 
+                "cap_free", 
+                "perror", 
+                "execve", 
+                "strtok", 
+                "cap_to_name", 
+                "chdir", 
+                "fork", 
+                "exit", 
+                "__printf_chk", 
+                "__sprintf_chk", 
+                "cap_drop_bound", 
+                "strlen", 
+                "cap_from_name", 
+                "cap_clear_flag", 
+                "setgid", 
+                "strtoull", 
+                "getpwnam", 
+                "_ITM_deregisterTMCloneTable", 
+                "strcmp", 
+                "chroot", 
+                "__fprintf_chk", 
+                "free"
+            ], 
+            "rpm": "libcap-2.22-9.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/sbin/capsh"
+        }, 
+        "usr/lib/security/pam_cap_so": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "malloc", 
+                "cap_set_proc", 
+                "fclose", 
+                "_ITM_deregisterTMCloneTable", 
+                "strcpy", 
+                "__stack_chk_fail", 
+                "cap_free", 
+                "cap_from_text", 
+                "cap_to_text", 
+                "strlen", 
+                "_Jv_RegisterClasses", 
+                "fgets", 
+                "fopen64", 
+                "cap_get_proc", 
+                "__strdup", 
+                "pam_get_user", 
+                "closelog", 
+                "__cxa_finalize", 
+                "strcmp", 
+                "strtok", 
+                "memcmp", 
+                "__vsyslog_chk", 
+                "__gmon_start__", 
+                "free", 
+                "pam_get_item"
+            ], 
+            "rpm": "libcap-2.22-9.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/security/pam_cap.so"
+        }, 
+        "usr/sbin/getpcaps": {
+            "report-functions": [
+                "_Jv_RegisterClasses", 
+                "__fprintf_chk", 
+                "_ITM_deregisterTMCloneTable", 
+                "__stack_chk_fail", 
+                "exit", 
+                "__libc_start_main", 
+                "cap_free", 
+                "strtol", 
+                "_ITM_registerTMCloneTable", 
+                "__gmon_start__", 
+                "__errno_location", 
+                "cap_to_text", 
+                "strerror"
+            ], 
+            "rpm": "libcap-2.22-9.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/sbin/getpcaps"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 2.22", 
+            "Name": " libcap", 
+            "License": " LGPLv2+", 
+            "URL": " http://ftp.kernel.org/pub/linux/libs/security/linux-privs/kernel-2.6/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-034.build.eng.bos.redhat.com", 
+            "Description": "\nlibcap is a library for getting and setting POSIX.1e (formerly POSIX 6)\ndraft 15 capabilities.\n", 
+            "Build Date": " Mon 06 Mar 2017 05:29:14 AM EST", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " libcap-2.22-9.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/libcap-2.22-9.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 24 Mar 2017 04:14:45 AM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 9.el7", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " Library for getting and setting POSIX.1e capabilities", 
+            "Size": " 102477"
+        }
+    }
+}

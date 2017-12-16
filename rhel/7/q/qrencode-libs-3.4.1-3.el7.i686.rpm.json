@@ -1,0 +1,59 @@
+{
+    "results": {
+        "usr/lib/libqrencode_so_3_4_1": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "memmove", 
+                "memcpy", 
+                "_Jv_RegisterClasses", 
+                "fwrite", 
+                "pthread_mutex_lock", 
+                "__errno_location", 
+                "__strdup", 
+                "pthread_mutex_unlock", 
+                "__gmon_start__", 
+                "strlen", 
+                "calloc", 
+                "malloc", 
+                "_ITM_deregisterTMCloneTable", 
+                "memset", 
+                "free"
+            ], 
+            "rpm": "qrencode-libs-3.4.1-3.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libqrencode.so.3.4.1"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 3.4.1", 
+            "Name": " qrencode-libs", 
+            "License": " LGPLv2+", 
+            "URL": " http://megaui.net/fukuchi/works/qrencode/index.en.html", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-020.build.eng.bos.redhat.com", 
+            "Description": "\nThe qrencode-libs package contains the shared libraries and header files for\napplications that use qrencode.\n", 
+            "Build Date": " Mon 27 Jan 2014 03:13:57 AM EST", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " qrencode-3.4.1-3.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/3/qrencode-libs-3.4.1-3.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Wed 02 Apr 2014 03:18:05 PM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 3.el7", 
+            "Group": " Unspecified", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " QR Code encoding library - Shared libraries", 
+            "Size": " 125716"
+        }
+    }
+}

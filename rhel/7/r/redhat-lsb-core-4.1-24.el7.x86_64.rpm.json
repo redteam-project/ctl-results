@@ -1,0 +1,42 @@
+{
+    "results": {
+        "usr/sbin/redhat_lsb_trigger_x86_64": {
+            "report-functions": [], 
+            "rpm": "redhat-lsb-core-4.1-24.el7.x86_64.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/sbin/redhat_lsb_trigger.x86_64"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 4.1", 
+            "Name": " redhat-lsb-core", 
+            "License": " GPLv2", 
+            "URL": " http://www.linuxfoundation.org/collaborate/workgroups/lsb", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-021.build.eng.bos.redhat.com", 
+            "Description": "\nThe Linux Standard Base (LSB) Core module support provides the fundamental\nsystem interfaces, libraries, and runtime environment upon which all conforming\napplications and libraries depend.\n", 
+            "Build Date": " Mon 27 Jan 2014 04:14:49 AM EST", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " redhat-lsb-4.1-24.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/3/redhat-lsb-core-4.1-24.el7.x86_64.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " x86_64", 
+            "Signature": " RSA/SHA256, Wed 02 Apr 2014 03:33:57 PM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 24.el7", 
+            "Group": " System Environment/Base", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " LSB Core module support", 
+            "Size": " 45791"
+        }
+    }
+}

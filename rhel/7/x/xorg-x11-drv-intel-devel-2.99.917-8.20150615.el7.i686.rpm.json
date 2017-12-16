@@ -1,0 +1,127 @@
+{
+    "results": {
+        "usr/bin/intel-gen4asm": {
+            "report-functions": [
+                "strcasecmp", 
+                "realloc", 
+                "__gmon_start__", 
+                "puts", 
+                "__assert_fail", 
+                "exit", 
+                "memmove", 
+                "fclose", 
+                "_ITM_deregisterTMCloneTable", 
+                "memset", 
+                "__vsnprintf_chk", 
+                "strtoul", 
+                "_ITM_registerTMCloneTable", 
+                "__vfprintf_chk", 
+                "_IO_getc", 
+                "__gcc_personality_v0", 
+                "__fprintf_chk", 
+                "fflush", 
+                "calloc", 
+                "getopt_long", 
+                "perror", 
+                "memcpy", 
+                "strcmp", 
+                "__stack_chk_fail", 
+                "__libc_start_main", 
+                "strlen", 
+                "__cxa_atexit", 
+                "clearerr", 
+                "fopen", 
+                "malloc", 
+                "strtod", 
+                "free", 
+                "ferror", 
+                "fread", 
+                "strtol", 
+                "_Jv_RegisterClasses", 
+                "unlink", 
+                "_IO_putc", 
+                "fileno", 
+                "memcmp", 
+                "__strdup", 
+                "__printf_chk", 
+                "fgets", 
+                "fwrite", 
+                "isatty", 
+                "_Unwind_Resume"
+            ], 
+            "rpm": "xorg-x11-drv-intel-devel-2.99.917-8.20150615.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": -1, 
+                    "afC": 40
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/intel-gen4asm"
+        }, 
+        "usr/bin/intel-gen4disasm": {
+            "report-functions": [
+                "fputs", 
+                "__assert_fail", 
+                "__vsnprintf_chk", 
+                "__isoc99_fscanf", 
+                "fopen", 
+                "__fprintf_chk", 
+                "strlen", 
+                "getopt_long", 
+                "exit", 
+                "malloc", 
+                "perror", 
+                "__gmon_start__", 
+                "_IO_putc", 
+                "fwrite", 
+                "__libc_start_main", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "xorg-x11-drv-intel-devel-2.99.917-8.20150615.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 21, 
+                    "afC": 269
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/intel-gen4disasm"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 2.99.917", 
+            "Name": " xorg-x11-drv-intel-devel", 
+            "License": " MIT", 
+            "URL": " http://www.x.org", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-034.build.eng.bos.redhat.com", 
+            "Description": "\nX.Org X11 Intel video driver development package.\n", 
+            "Build Date": " Mon 15 Jun 2015 08:05:51 PM EDT", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " xorg-x11-drv-intel-2.99.917-8.20150615.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/3/xorg-x11-drv-intel-devel-2.99.917-8.20150615.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 09 Oct 2015 12:27:00 PM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 8.20150615.el7", 
+            "Group": " Development/System", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " Xorg X11 Intel video driver development package", 
+            "Size": " 201043"
+        }
+    }
+}

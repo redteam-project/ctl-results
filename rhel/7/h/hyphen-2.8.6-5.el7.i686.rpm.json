@@ -1,0 +1,63 @@
+{
+    "results": {
+        "usr/lib/libhyphen_so_0_2_1": {
+            "report-functions": [
+                "free", 
+                "__cxa_finalize", 
+                "exit", 
+                "__gmon_start__", 
+                "strstr", 
+                "__fprintf_chk", 
+                "fgets", 
+                "strncpy", 
+                "calloc", 
+                "_Jv_RegisterClasses", 
+                "strcmp", 
+                "_ITM_deregisterTMCloneTable", 
+                "__stack_chk_fail", 
+                "strtol", 
+                "memcpy", 
+                "strlen", 
+                "_ITM_registerTMCloneTable", 
+                "fopen", 
+                "fclose", 
+                "malloc"
+            ], 
+            "rpm": "hyphen-2.8.6-5.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libhyphen.so.0.2.1"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 2.8.6", 
+            "Name": " hyphen", 
+            "License": " GPLv2 or LGPLv2+ or MPLv1.1", 
+            "URL": " http://hunspell.sf.net", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-025.build.eng.bos.redhat.com", 
+            "Description": "\nHyphen is a library for high quality hyphenation and justification.\n", 
+            "Build Date": " Fri 24 Jan 2014 09:38:26 PM EST", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " hyphen-2.8.6-5.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/hyphen-2.8.6-5.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 01 Apr 2014 02:08:11 PM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 5.el7", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " A text hyphenation library", 
+            "Size": " 43261"
+        }
+    }
+}

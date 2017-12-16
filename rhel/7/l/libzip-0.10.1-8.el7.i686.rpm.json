@@ -1,0 +1,226 @@
+{
+    "results": {
+        "usr/bin/ziptorrent": {
+            "report-functions": [
+                "zip_set_archive_flag", 
+                "_ITM_registerTMCloneTable", 
+                "__errno_location", 
+                "zip_get_archive_flag", 
+                "__fprintf_chk", 
+                "__stack_chk_fail", 
+                "zip_unchange_all", 
+                "__printf_chk", 
+                "zip_open", 
+                "__gmon_start__", 
+                "zip_error_to_str", 
+                "fputs", 
+                "exit", 
+                "__libc_start_main", 
+                "getopt", 
+                "_ITM_deregisterTMCloneTable", 
+                "zip_strerror"
+            ], 
+            "rpm": "libzip-0.10.1-8.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 6, 
+                    "afC": 124
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/ziptorrent"
+        }, 
+        "usr/bin/zipcmp": {
+            "report-functions": [
+                "zip_stat_index", 
+                "exit", 
+                "_ITM_registerTMCloneTable", 
+                "__strdup", 
+                "zip_fclose", 
+                "strcmp", 
+                "zip_strerror", 
+                "getopt", 
+                "zip_open", 
+                "zip_file_strerror", 
+                "qsort", 
+                "crc32", 
+                "zip_error_to_str", 
+                "malloc", 
+                "strcasecmp", 
+                "zip_fopen_index", 
+                "_ITM_deregisterTMCloneTable", 
+                "__errno_location", 
+                "zip_get_num_files", 
+                "__gmon_start__", 
+                "__libc_start_main", 
+                "__fprintf_chk", 
+                "__stack_chk_fail", 
+                "zip_fread", 
+                "__printf_chk", 
+                "fputs"
+            ], 
+            "rpm": "libzip-0.10.1-8.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": -1, 
+                    "afC": 34
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/zipcmp"
+        }, 
+        "usr/bin/zipmerge": {
+            "report-functions": [
+                "__libc_start_main", 
+                "__ctype_tolower_loc", 
+                "fputs", 
+                "__fprintf_chk", 
+                "zip_error_to_str", 
+                "malloc", 
+                "zip_add", 
+                "zip_name_locate", 
+                "strerror", 
+                "zip_source_zip", 
+                "_ITM_registerTMCloneTable", 
+                "zip_strerror", 
+                "exit", 
+                "zip_get_name", 
+                "zip_stat_index", 
+                "__gmon_start__", 
+                "_Jv_RegisterClasses", 
+                "zip_close", 
+                "__errno_location", 
+                "fgets", 
+                "zip_replace", 
+                "fflush", 
+                "zip_source_free", 
+                "_ITM_deregisterTMCloneTable", 
+                "zip_open", 
+                "__printf_chk"
+            ], 
+            "rpm": "libzip-0.10.1-8.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": -1, 
+                    "afC": 36
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/zipmerge"
+        }, 
+        "usr/lib/libzip_so_2_1_0": {
+            "report-functions": [
+                "fopen", 
+                "deflate", 
+                "__stack_chk_fail", 
+                "malloc", 
+                "fileno", 
+                "inflateInit2_", 
+                "fwrite", 
+                "realloc", 
+                "time", 
+                "_IO_putc", 
+                "deflateEnd", 
+                "clearerr", 
+                "deflateInit2_", 
+                "__gmon_start__", 
+                "localtime", 
+                "close", 
+                "memcpy", 
+                "fread", 
+                "_ITM_deregisterTMCloneTable", 
+                "inflate", 
+                "__fxstat", 
+                "rename", 
+                "_ITM_registerTMCloneTable", 
+                "__fread_chk", 
+                "strrchr", 
+                "fseeko", 
+                "crc32", 
+                "qsort", 
+                "mkstemp", 
+                "__snprintf_chk", 
+                "strcasecmp", 
+                "strlen", 
+                "chmod", 
+                "remove", 
+                "ftello", 
+                "__xstat", 
+                "dup", 
+                "mktime", 
+                "__cxa_finalize", 
+                "inflateEnd", 
+                "fdopen", 
+                "strtoul", 
+                "umask", 
+                "zError", 
+                "__errno_location", 
+                "get_crc_table", 
+                "strerror", 
+                "memcmp", 
+                "ferror", 
+                "__sprintf_chk", 
+                "memchr", 
+                "_Jv_RegisterClasses", 
+                "fclose", 
+                "__strdup"
+            ], 
+            "rpm": "libzip-0.10.1-8.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libzip.so.2.1.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 0.10.1", 
+            "Name": " libzip", 
+            "License": " BSD", 
+            "URL": " http://www.nih.at/libzip/index.html", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-024.build.eng.bos.redhat.com", 
+            "Description": "\nlibzip is a C library for reading, creating, and modifying zip archives. Files\ncan be added from data buffers, files, or compressed data copied directly from\nother zip archives. Changes made without closing the archive can be reverted.\nThe API is documented by man pages.\n", 
+            "Build Date": " Sun 26 Jan 2014 09:41:48 AM EST", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " libzip-0.10.1-8.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/2/libzip-0.10.1-8.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Wed 02 Apr 2014 11:20:22 AM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 8.el7", 
+            "Group": " Unspecified", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " C library for reading, creating, and modifying zip archives", 
+            "Size": " 98723"
+        }
+    }
+}

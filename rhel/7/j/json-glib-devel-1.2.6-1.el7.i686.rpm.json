@@ -1,0 +1,125 @@
+{
+    "results": {
+        "usr/bin/json-glib-validate": {
+            "report-functions": [
+                "json_parser_load_from_stream", 
+                "setlocale", 
+                "g_file_read", 
+                "g_free", 
+                "__libc_start_main", 
+                "g_file_get_uri", 
+                "g_error_free", 
+                "g_option_context_add_main_entries", 
+                "g_file_new_for_commandline_arg", 
+                "_Jv_RegisterClasses", 
+                "dcgettext", 
+                "g_strdup_printf", 
+                "g_option_context_set_summary", 
+                "g_printerr", 
+                "_ITM_registerTMCloneTable", 
+                "__stack_chk_fail", 
+                "textdomain", 
+                "g_option_context_free", 
+                "json_parser_new", 
+                "g_object_unref", 
+                "__gmon_start__", 
+                "g_option_context_parse", 
+                "g_option_context_set_description", 
+                "bind_textdomain_codeset", 
+                "bindtextdomain", 
+                "g_option_context_new", 
+                "g_get_prgname", 
+                "g_clear_error"
+            ], 
+            "rpm": "json-glib-devel-1.2.6-1.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/json-glib-validate"
+        }, 
+        "usr/bin/json-glib-format": {
+            "report-functions": [
+                "g_file_new_for_commandline_arg", 
+                "setlocale", 
+                "g_option_context_free", 
+                "json_generator_to_data", 
+                "json_generator_new", 
+                "dcgettext", 
+                "json_parser_load_from_stream", 
+                "json_generator_set_indent", 
+                "g_log", 
+                "__errno_location", 
+                "g_object_unref", 
+                "_ITM_deregisterTMCloneTable", 
+                "write", 
+                "_Jv_RegisterClasses", 
+                "g_strdup_printf", 
+                "json_parser_new", 
+                "textdomain", 
+                "json_parser_get_root", 
+                "g_option_context_parse", 
+                "g_option_context_new", 
+                "__libc_start_main", 
+                "bindtextdomain", 
+                "g_clear_error", 
+                "bind_textdomain_codeset", 
+                "g_printerr", 
+                "g_file_get_uri", 
+                "g_option_context_set_summary", 
+                "g_strerror", 
+                "g_get_prgname", 
+                "g_option_context_set_description", 
+                "__stack_chk_fail", 
+                "g_input_stream_close", 
+                "g_free", 
+                "json_generator_set_root", 
+                "json_generator_set_pretty", 
+                "_ITM_registerTMCloneTable", 
+                "g_file_read", 
+                "g_error_free"
+            ], 
+            "rpm": "json-glib-devel-1.2.6-1.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/json-glib-format"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.2.6", 
+            "Name": " json-glib-devel", 
+            "License": " LGPLv2+", 
+            "URL": " https://wiki.gnome.org/Projects/JsonGlib", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-034.build.eng.bos.redhat.com", 
+            "Description": "\nThe json-glib-devel package contains libraries and header files for\ndeveloping applications that use json-glib.\n", 
+            "Build Date": " Mon 13 Mar 2017 05:08:12 PM EDT", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " json-glib-1.2.6-1.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/json-glib-devel-1.2.6-1.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Wed 29 Mar 2017 07:07:53 AM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 1.el7", 
+            "Group": " Development/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " Development files for json-glib", 
+            "Size": " 1184239"
+        }
+    }
+}

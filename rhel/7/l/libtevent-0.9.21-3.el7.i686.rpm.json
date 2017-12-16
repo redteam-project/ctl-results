@@ -1,0 +1,90 @@
+{
+    "results": {
+        "usr/lib/libtevent_so_0_9_21": {
+            "report-functions": [
+                "poll", 
+                "_talloc_zero_array", 
+                "_Jv_RegisterClasses", 
+                "epoll_ctl", 
+                "talloc_strdup", 
+                "_talloc_free", 
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable", 
+                "read", 
+                "sigprocmask", 
+                "strerror", 
+                "write", 
+                "talloc_check_name", 
+                "sigaction", 
+                "_talloc_steal_loc", 
+                "strnlen", 
+                "__gmon_start__", 
+                "select", 
+                "close", 
+                "talloc_get_name", 
+                "_ITM_deregisterTMCloneTable", 
+                "getpid", 
+                "pipe", 
+                "_talloc_zero", 
+                "talloc_parent", 
+                "abort", 
+                "strlen", 
+                "_talloc_pooled_object", 
+                "fcntl", 
+                "__errno_location", 
+                "sigemptyset", 
+                "getsockopt", 
+                "talloc_named_const", 
+                "_talloc_reference_loc", 
+                "memcpy", 
+                "_talloc_realloc_array", 
+                "__fdelt_chk", 
+                "_talloc_get_type_abort", 
+                "strcmp", 
+                "__stack_chk_fail", 
+                "talloc_asprintf", 
+                "epoll_create", 
+                "talloc_get_size", 
+                "gettimeofday", 
+                "talloc_set_name_const", 
+                "epoll_wait", 
+                "sigaddset"
+            ], 
+            "rpm": "libtevent-0.9.21-3.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libtevent.so.0.9.21"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 0.9.21", 
+            "Name": " libtevent", 
+            "License": " LGPLv3+", 
+            "URL": " http://tevent.samba.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-018.build.eng.bos.redhat.com", 
+            "Description": "\nTevent is an event system based on the talloc memory management library.\nTevent has support for many event types, including timers, signals, and\nthe classic file descriptor events.\nTevent also provide helpers to deal with asynchronous code providing the\ntevent_req (Tevent Request) functions.\n", 
+            "Build Date": " Mon 24 Nov 2014 02:20:25 PM EST", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " libtevent-0.9.21-3.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/libtevent-0.9.21-3.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Wed 14 Jan 2015 06:47:53 AM EST, Key ID 199e2f91fd431d51", 
+            "Release": " 3.el7", 
+            "Group": " System Environment/Daemons", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " The tevent library", 
+            "Size": " 57052"
+        }
+    }
+}

@@ -1,0 +1,111 @@
+{
+    "results": {
+        "usr/lib/samba/libwinbind-client_so": {
+            "report-functions": [
+                "__errno_location", 
+                "rand", 
+                "__cxa_finalize", 
+                "read", 
+                "__gmon_start__", 
+                "strncpy", 
+                "_ITM_registerTMCloneTable", 
+                "write", 
+                "__stack_chk_fail", 
+                "malloc", 
+                "geteuid", 
+                "_ITM_deregisterTMCloneTable", 
+                "getsockopt", 
+                "getpid", 
+                "close", 
+                "fcntl", 
+                "free", 
+                "socket", 
+                "__asprintf_chk", 
+                "poll", 
+                "getenv", 
+                "sleep", 
+                "__lxstat64"
+            ], 
+            "rpm": "libwbclient-4.1.12-23.el7_1.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: 'NoneType' object is not iterable"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/samba/libwinbind-client.so"
+        }, 
+        "usr/lib/samba/wbclient/libwbclient_so_0_11": {
+            "report-functions": [
+                "realloc", 
+                "strncpy", 
+                "sscanf", 
+                "rep_strlcpy", 
+                "winbindd_free_response", 
+                "winbindd_priv_request_response", 
+                "winbindd_request_response", 
+                "strlen", 
+                "__snprintf_chk", 
+                "_Jv_RegisterClasses", 
+                "strtoul", 
+                "__strndup", 
+                "__cxa_finalize", 
+                "strcasecmp", 
+                "__strdup", 
+                "free", 
+                "_ITM_registerTMCloneTable", 
+                "strtol", 
+                "calloc", 
+                "strchr", 
+                "__memcpy_chk", 
+                "malloc", 
+                "getuid", 
+                "__stack_chk_fail", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "libwbclient-4.1.12-23.el7_1.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/lib/samba/wbclient/libwbclient.so.0.11"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 4.1.12", 
+            "Name": " libwbclient", 
+            "License": " GPLv3+ and LGPLv3+", 
+            "URL": " http://www.samba.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-034.build.eng.bos.redhat.com", 
+            "Source RPM": " samba-4.1.12-23.el7_1.src.rpm", 
+            "Description": "\nThe libwbclient package contains the winbind client library from the Samba suite.\n", 
+            "Build Date": " Thu 09 Apr 2015 06:13:03 AM EDT", 
+            "Vendor": " Red Hat, Inc.", 
+            "Epoch": " 0", 
+            "warning": " /home/jason/fctl/swap/2/libwbclient-4.1.12-23.el7_1.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 20 Apr 2015 09:48:06 AM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 23.el7_1", 
+            "Group": " Applications/System", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " The winbind client library", 
+            "Size": " 54592"
+        }
+    }
+}

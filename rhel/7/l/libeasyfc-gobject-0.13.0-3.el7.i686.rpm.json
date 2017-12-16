@@ -1,0 +1,56 @@
+{
+    "results": {
+        "usr/lib/libeasyfc-gobject_so_0_6_0": {
+            "report-functions": [
+                "__gmon_start__", 
+                "g_once_init_leave", 
+                "ezfc_font_ref", 
+                "g_intern_static_string", 
+                "g_once_init_enter", 
+                "ezfc_alias_ref", 
+                "ezfc_font_unref", 
+                "ezfc_alias_unref", 
+                "_ITM_registerTMCloneTable", 
+                "_ITM_deregisterTMCloneTable", 
+                "ezfc_config_ref", 
+                "g_boxed_type_register_static", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "libeasyfc-gobject-0.13.0-3.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libeasyfc-gobject.so.0.6.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 0.13.0", 
+            "Name": " libeasyfc-gobject", 
+            "License": " LGPLv3+", 
+            "URL": " http://tagoh.bitbucket.org/libeasyfc/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-019.build.eng.bos.redhat.com", 
+            "Description": "\nlibeasyfc aims to provide an easy interface to generate\nfontconfig configuration on demand.\n\nThis package contains an interface for GObject.\n", 
+            "Build Date": " Sun 26 Jan 2014 06:11:12 AM EST", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " libeasyfc-0.13.0-3.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/libeasyfc-gobject-0.13.0-3.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 01 Apr 2014 04:46:35 PM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 3.el7", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " GObject interface for libeasyfc", 
+            "Size": " 14940"
+        }
+    }
+}

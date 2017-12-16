@@ -1,0 +1,111 @@
+{
+    "results": {
+        "lib/modules/3_10_0-327_el7_x86_64/extra/qed/qed_ko": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "lib/modules/3.10.0-327.el7.x86_64/extra/qed/qed.ko", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "report-functions": [
+                "mutex_unlock", 
+                "__udelay", 
+                "memset", 
+                "pci_save_state", 
+                "bitmap_clear", 
+                "x86_dma_fallback_dev", 
+                "pci_release_regions", 
+                "pci_disable_msix", 
+                "pv_irq_ops", 
+                "pci_read_config_word", 
+                "msleep", 
+                "pci_ioremap_bar", 
+                "printk", 
+                "pci_request_regions", 
+                "synchronize_irq", 
+                "pci_enable_msi_range", 
+                "dma_supported", 
+                "pci_disable_device", 
+                "tasklet_init", 
+                "vfree", 
+                "zlib_inflate", 
+                "mutex_lock", 
+                "__smp_mb__after_atomic", 
+                "__tasklet_schedule", 
+                "release_firmware", 
+                "pci_enable_msix_range", 
+                "pci_find_capability", 
+                "zlib_inflate_workspacesize", 
+                "__list_add", 
+                "pci_set_master", 
+                "bitmap_set", 
+                "dma_ops", 
+                "memcpy", 
+                "request_threaded_irq", 
+                "kmalloc_caches", 
+                "list_del", 
+                "get_random_bytes", 
+                "kmalloc_order_trace", 
+                "pci_read_config_byte", 
+                "__const_udelay", 
+                "__fentry__", 
+                "ioremap_wc", 
+                "_raw_spin_unlock_bh", 
+                "zlib_inflateEnd", 
+                "request_firmware", 
+                "warn_slowpath_null", 
+                "__kmalloc", 
+                "zlib_inflateInit2", 
+                "vzalloc", 
+                "strlcpy", 
+                "snprintf", 
+                "find_first_zero_bit", 
+                "dma_set_mask", 
+                "pci_enable_device", 
+                "free_irq", 
+                "kfree", 
+                "pci_disable_msi", 
+                "__mutex_init", 
+                "pci_is_pcie", 
+                "_raw_spin_lock_bh", 
+                "kmem_cache_alloc_trace", 
+                "usleep_range"
+            ], 
+            "rpm": "kmod-qed-8.7.1.20-1.el7_2.x86_64.rpm"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 8.7.1.20", 
+            "Name": " kmod-qed", 
+            "License": " GPLv2", 
+            "URL": " http://www.kernel.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-019.build.eng.bos.redhat.com", 
+            "Description": "\nThis package provides the qed kernel modules built for\nthe Linux kernel 3.10.0-327.el7.x86_64 for the x86_64\nfamily of processors.\n", 
+            "Build Date": " Thu 22 Sep 2016 01:40:23 AM EDT", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " qed-8.7.1.20-1.el7_2.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/kmod-qed-8.7.1.20-1.el7_2.x86_64.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " x86_64", 
+            "Signature": " RSA/SHA256, Thu 29 Sep 2016 11:14:10 AM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 1.el7_2", 
+            "Group": " System Environment/Kernel", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " qed kernel module(s)", 
+            "Size": " 288910"
+        }
+    }
+}

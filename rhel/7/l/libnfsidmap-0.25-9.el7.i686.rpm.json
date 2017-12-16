@@ -1,0 +1,207 @@
+{
+    "results": {
+        "lib/libnfsidmap/static_so": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "getgrouplist", 
+                "sysconf", 
+                "getgrnam_r", 
+                "__strdup", 
+                "free", 
+                "idmap_log_func", 
+                "malloc", 
+                "_Jv_RegisterClasses", 
+                "_ITM_registerTMCloneTable", 
+                "conf_get_str", 
+                "warnx", 
+                "getpwnam_r", 
+                "conf_get_tag_list", 
+                "calloc", 
+                "__gmon_start__", 
+                "__stack_chk_fail", 
+                "strcpy"
+            ], 
+            "rpm": "libnfsidmap-0.25-9.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "lib/libnfsidmap/static.so"
+        }, 
+        "lib/libnfsidmap/umich_ldap_so": {
+            "report-functions": [
+                "ldap_memfree", 
+                "__stack_chk_fail", 
+                "ldap_get_option", 
+                "strtoul", 
+                "idmap_verbosity", 
+                "ldap_set_option", 
+                "freeaddrinfo", 
+                "ldap_first_attribute", 
+                "_ITM_deregisterTMCloneTable", 
+                "strlen", 
+                "ldap_err2string", 
+                "conf_get_num", 
+                "ldap_count_entries", 
+                "idmap_log_func", 
+                "__strcat_chk", 
+                "_Jv_RegisterClasses", 
+                "conf_get_str", 
+                "ldap_count_values", 
+                "__snprintf_chk", 
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "gai_strerror", 
+                "ldap_msgfree", 
+                "ldap_simple_bind_s", 
+                "__errno_location", 
+                "memcpy", 
+                "ldap_result2error", 
+                "strcasecmp", 
+                "__strdup", 
+                "ldap_unbind", 
+                "ldap_search_st", 
+                "ldap_initialize", 
+                "ldap_get_values", 
+                "ber_free", 
+                "getaddrinfo", 
+                "ldap_first_entry", 
+                "strchr", 
+                "ldap_next_attribute", 
+                "conf_get_str_with_def", 
+                "ldap_value_free", 
+                "getnameinfo"
+            ], 
+            "rpm": "libnfsidmap-0.25-9.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "lib/libnfsidmap/umich_ldap.so"
+        }, 
+        "lib/libnfsidmap_so_0_3_0": {
+            "report-functions": [
+                "__strdup", 
+                "free", 
+                "__vsyslog_chk", 
+                "warnx", 
+                "__ctype_tolower_loc", 
+                "strchr", 
+                "strlen", 
+                "strcpy", 
+                "_Jv_RegisterClasses", 
+                "dlerror", 
+                "_ITM_deregisterTMCloneTable", 
+                "__snprintf_chk", 
+                "__gmon_start__", 
+                "dlsym", 
+                "__sprintf_chk", 
+                "strcasecmp", 
+                "__errno_location", 
+                "strtol", 
+                "__isoc99_sscanf", 
+                "close", 
+                "malloc", 
+                "dlclose", 
+                "__cxa_finalize", 
+                "__stack_chk_fail", 
+                "strcmp", 
+                "calloc", 
+                "gethostname", 
+                "__xstat", 
+                "gethostbyname", 
+                "dlopen", 
+                "__ctype_toupper_loc", 
+                "read", 
+                "strcat", 
+                "memcpy", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "libnfsidmap-0.25-9.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "lib/libnfsidmap.so.0.3.0"
+        }, 
+        "lib/libnfsidmap/nsswitch_so": {
+            "report-functions": [
+                "idmap_log_func", 
+                "_ITM_registerTMCloneTable", 
+                "__gmon_start__", 
+                "get_local_realms", 
+                "idmap_verbosity", 
+                "getgrgid_r", 
+                "free", 
+                "getpwnam_r", 
+                "_Jv_RegisterClasses", 
+                "strlen", 
+                "getgrouplist", 
+                "getpwuid_r", 
+                "strcpy", 
+                "sysconf", 
+                "get_default_domain", 
+                "strcasecmp", 
+                "__cxa_finalize", 
+                "strchr", 
+                "_ITM_deregisterTMCloneTable", 
+                "malloc", 
+                "getgrnam_r", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "libnfsidmap-0.25-9.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "lib/libnfsidmap/nsswitch.so"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 0.25", 
+            "Name": " libnfsidmap", 
+            "License": " BSD", 
+            "URL": " http://www.citi.umich.edu/projects/nfsv4/linux/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-019.build.eng.bos.redhat.com", 
+            "Description": "\nLibrary that handles mapping between names and ids for NFSv4.\n", 
+            "Build Date": " Sun 26 Jan 2014 07:33:31 AM EST", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " libnfsidmap-0.25-9.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/libnfsidmap-0.25-9.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 01 Apr 2014 05:39:53 PM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 9.el7", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " NFSv4 User and Group ID Mapping Library", 
+            "Size": " 93072"
+        }
+    }
+}

@@ -1,0 +1,86 @@
+{
+    "results": {
+        "usr/lib/libacl_so_1_1_0": {
+            "report-functions": [
+                "__errno_location", 
+                "fsetxattr", 
+                "__lxstat64", 
+                "_ITM_registerTMCloneTable", 
+                "dcgettext", 
+                "chmod", 
+                "fgetxattr", 
+                "telldir", 
+                "getpagesize", 
+                "fgets", 
+                "getxattr", 
+                "strchr", 
+                "memcpy", 
+                "strncmp", 
+                "_Jv_RegisterClasses", 
+                "feof", 
+                "readdir64", 
+                "free", 
+                "__rawmemchr", 
+                "__cxa_finalize", 
+                "getgrnam", 
+                "strcpy", 
+                "strlen", 
+                "removexattr", 
+                "setxattr", 
+                "getpwnam", 
+                "__memcpy_chk", 
+                "opendir", 
+                "__fxstat64", 
+                "strtol", 
+                "seekdir", 
+                "qsort", 
+                "__xstat64", 
+                "fchmod", 
+                "_ITM_deregisterTMCloneTable", 
+                "getpwuid", 
+                "malloc", 
+                "closedir", 
+                "getgrgid", 
+                "__stack_chk_fail", 
+                "lgetxattr", 
+                "__gmon_start__", 
+                "getrlimit64"
+            ], 
+            "rpm": "libacl-2.2.51-12.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libacl.so.1.1.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 2.2.51", 
+            "Name": " libacl", 
+            "License": " LGPLv2+", 
+            "URL": " http://acl.bestbits.at/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-020.build.eng.bos.redhat.com", 
+            "Description": "\nThis package contains the libacl.so dynamic library which contains\nthe POSIX 1003.1e draft standard 17 functions for manipulating access\ncontrol lists.\n", 
+            "Build Date": " Tue 28 Jan 2014 04:15:51 AM EST", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " acl-2.2.51-12.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/libacl-2.2.51-12.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 01 Apr 2014 08:43:56 AM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 12.el7", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " Dynamic library for access control list support", 
+            "Size": " 32004"
+        }
+    }
+}

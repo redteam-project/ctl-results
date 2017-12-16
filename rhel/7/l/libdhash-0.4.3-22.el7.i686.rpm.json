@@ -1,0 +1,53 @@
+{
+    "results": {
+        "usr/lib/libdhash_so_1_0_1": {
+            "report-functions": [
+                "free", 
+                "_Jv_RegisterClasses", 
+                "_ITM_registerTMCloneTable", 
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "memset", 
+                "malloc", 
+                "__cxa_finalize", 
+                "_ITM_deregisterTMCloneTable", 
+                "strcmp"
+            ], 
+            "rpm": "libdhash-0.4.3-22.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libdhash.so.1.0.1"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 0.4.3", 
+            "Name": " libdhash", 
+            "License": " LGPLv3+", 
+            "URL": " http://fedorahosted.org/sssd/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-025.build.eng.bos.redhat.com", 
+            "Description": "\nA hash table which will dynamically resize to achieve optimal storage & access\ntime properties\n", 
+            "Build Date": " Fri 24 Jan 2014 03:34:25 PM EST", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " ding-libs-0.3.0.1-22.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/libdhash-0.4.3-22.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 01 Apr 2014 10:43:58 AM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 22.el7", 
+            "Group": " Development/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " Dynamic hash table", 
+            "Size": " 57550"
+        }
+    }
+}

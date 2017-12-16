@@ -1,0 +1,79 @@
+{
+    "results": {
+        "usr/include/unicode/selfmt_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/unicode/selfmt.h", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "libicu-devel-50.1.2-15.el7.i686.rpm"
+        }, 
+        "usr/bin/icuinfo": {
+            "report-functions": [
+                "uplug_getPluginFile_50", 
+                "u_cleanup_50", 
+                "uplug_getPlugInternal_50", 
+                "__stack_chk_fail", 
+                "uplug_getConfiguration_50", 
+                "u_parseArgs", 
+                "__fprintf_chk", 
+                "uplug_getLibraryName_50", 
+                "_Jv_RegisterClasses", 
+                "uplug_getPlugLoadStatus_50", 
+                "u_init_50", 
+                "_ITM_registerTMCloneTable", 
+                "__libc_start_main", 
+                "uplug_getSymbolName_50", 
+                "u_setDataDirectory_50", 
+                "uplug_getPlugName_50", 
+                "fclose", 
+                "udbg_writeIcuInfo", 
+                "fopen", 
+                "udbg_enumName", 
+                "__printf_chk", 
+                "u_errorName_50", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__"
+            ], 
+            "rpm": "libicu-devel-50.1.2-15.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/icuinfo"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 50.1.2", 
+            "Name": " libicu-devel", 
+            "License": " MIT and UCD and Public Domain", 
+            "URL": " http://www.icu-project.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-019.build.eng.bos.redhat.com", 
+            "Description": "\nIncludes and definitions for developing with icu.\n", 
+            "Build Date": " Tue 19 Aug 2014 12:16:05 PM EDT", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " icu-50.1.2-15.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/libicu-devel-50.1.2-15.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 05 Oct 2015 12:11:30 PM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 15.el7", 
+            "Group": " Development/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " Development files for International Components for Unicode", 
+            "Size": " 4035173"
+        }
+    }
+}

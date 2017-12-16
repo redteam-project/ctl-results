@@ -1,0 +1,26 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Version": " 10.1.2", 
+            "Name": " pki-tks", 
+            "License": " GPLv2", 
+            "URL": " http://pki.fedoraproject.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-021.build.eng.bos.redhat.com", 
+            "Description": "\nThe Token Key Service (TKS) is an optional PKI subsystem that manages the\nmaster key(s) and the transport key(s) required to generate and distribute\nkeys for hardware tokens.  TKS provides the security between tokens and an\ninstance of Token Processing System (TPS), where the security relies upon the\nrelationship between the master key and the token keys.  A TPS communicates\nwith a TKS over SSL using client authentication.\n\nTKS helps establish a secure channel (signed and encrypted) between the token\nand the TPS, provides proof of presence of the security token during\nenrollment, and supports key changeover when the master key changes on the\nTKS.  Tokens with older keys will get new token keys.\n\nBecause of the sensitivity of the data that TKS manages, TKS should be set up\nbehind the firewall with restricted access.\n\nThis package is one of the top-level java-based Tomcat PKI subsystems\nprovided by the PKI Core used by the Certificate System.\n\n\n==================================\n||  ABOUT \"CERTIFICATE SYSTEM\"  ||\n==================================\n\nCertificate System (CS) is an enterprise software system designed\nto manage enterprise Public Key Infrastructure (PKI) deployments.\n\nPKI Core contains ALL top-level java-based Tomcat PKI components:\n\n  * pki-symkey\n  * pki-base\n  * pki-tools\n  * pki-server\n  * pki-ca\n  * pki-kra\n  * pki-ocsp\n  * pki-tks\n  * pki-tps-tomcat\n  * pki-javadoc\n\nwhich comprise the following corresponding PKI subsystems:\n\n  * Certificate Authority (CA)\n  * Data Recovery Manager (DRM)\n  * Online Certificate Status Protocol (OCSP) Manager\n  * Token Key Service (TKS)\n  * Token Processing Service (TPS)\n\nFor deployment purposes, PKI Core contains fundamental packages\nrequired by BOTH native-based Apache AND java-based Tomcat\nCertificate System instances consisting of the following components:\n\n  * pki-tools\n\nAdditionally, PKI Core contains the following fundamental packages\nrequired ONLY by ALL java-based Tomcat Certificate System instances:\n\n  * pki-symkey\n  * pki-base\n  * pki-tools\n  * pki-server\n\nPKI Core also includes the following components:\n\n  * pki-javadoc\n\nFinally, if Certificate System is being deployed as an individual or\nset of standalone rather than embedded server(s)/service(s), it is\nstrongly recommended (though not explicitly required) to include at\nleast one PKI Theme package:\n\n  * dogtag-pki-theme (Dogtag Certificate System deployments)\n    * dogtag-pki-server-theme\n  * redhat-pki-server-theme (Red Hat Certificate System deployments)\n    * redhat-pki-server-theme\n  * customized pki theme (Customized Certificate System deployments)\n    * <customized>-pki-server-theme\n\n  NOTE:  As a convenience for standalone deployments, top-level meta\n         packages may be provided which bind a particular theme to\n         these certificate server packages.\n", 
+            "Build Date": " Wed 26 Nov 2014 03:08:37 PM EST", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " pki-core-10.1.2-7.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/3/pki-tks-10.1.2-7.el7.noarch.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Wed 07 Jan 2015 10:27:17 AM EST, Key ID 199e2f91fd431d51", 
+            "Release": " 7.el7", 
+            "Group": " System Environment/Daemons", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " Certificate System - Token Key Service", 
+            "Size": " 288312"
+        }
+    }
+}

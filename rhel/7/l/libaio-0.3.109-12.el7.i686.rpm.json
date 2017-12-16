@@ -1,0 +1,56 @@
+{
+    "results": {
+        "lib/libaio_so_1_0_0": {
+            "report-functions": [], 
+            "rpm": "libaio-0.3.109-12.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "lib/libaio.so.1.0.0"
+        }, 
+        "lib/libaio_so_1_0_1": {
+            "report-functions": [], 
+            "rpm": "libaio-0.3.109-12.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "lib/libaio.so.1.0.1"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 0.3.109", 
+            "Name": " libaio", 
+            "License": " LGPLv2+", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-020.build.eng.bos.redhat.com", 
+            "Description": "\nThe Linux-native asynchronous I/O facility (\"async I/O\", or \"aio\") has a\nricher API and capability set than the simple POSIX async I/O facility.\nThis library, libaio, provides the Linux-native API for async I/O.\nThe POSIX async I/O facility requires this library in order to provide\nkernel-accelerated async I/O capabilities, as do applications which\nrequire the Linux-native async I/O API.\n", 
+            "Build Date": " Sun 26 Jan 2014 05:24:17 AM EST", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " libaio-0.3.109-12.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/libaio-0.3.109-12.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 01 Apr 2014 04:19:40 PM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 12.el7", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " Linux-native asynchronous I/O access library", 
+            "Size": " 38230"
+        }
+    }
+}

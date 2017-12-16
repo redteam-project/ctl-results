@@ -1,0 +1,89 @@
+{
+    "results": {
+        "usr/bin/gsound-play": {
+            "report-functions": [
+                "g_main_loop_new", 
+                "g_simple_async_result_new", 
+                "g_quark_to_string", 
+                "g_log", 
+                "g_error_free", 
+                "g_simple_async_result_propagate_error", 
+                "g_slice_free1", 
+                "g_simple_async_result_complete_in_idle", 
+                "g_print", 
+                "gsound_context_play_fullv", 
+                "g_simple_async_result_get_type", 
+                "_ITM_registerTMCloneTable", 
+                "g_hash_table_insert", 
+                "_ITM_deregisterTMCloneTable", 
+                "_Jv_RegisterClasses", 
+                "g_str_hash", 
+                "g_assertion_message_expr", 
+                "gsound_context_set_attributes", 
+                "g_option_context_new", 
+                "g_hash_table_unref", 
+                "g_option_context_free", 
+                "g_option_context_add_main_entries", 
+                "g_strdup", 
+                "g_malloc0", 
+                "g_ascii_dtostr", 
+                "g_simple_async_result_get_op_res_gpointer", 
+                "g_main_loop_run", 
+                "g_free", 
+                "gsound_context_set_driver", 
+                "g_clear_error", 
+                "g_main_loop_quit", 
+                "__libc_start_main", 
+                "g_return_if_fail_warning", 
+                "g_simple_async_result_complete", 
+                "g_str_equal", 
+                "gsound_context_new", 
+                "g_option_context_parse", 
+                "g_object_unref", 
+                "g_simple_async_result_set_op_res_gpointer", 
+                "__gmon_start__", 
+                "g_slice_alloc0", 
+                "__stack_chk_fail", 
+                "g_simple_async_result_set_from_error", 
+                "g_main_loop_unref", 
+                "gsound_context_play_full_finish", 
+                "g_type_check_instance_cast"
+            ], 
+            "rpm": "gsound-1.0.2-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/gsound-play"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.0.2", 
+            "Name": " gsound", 
+            "License": " LGPLv2", 
+            "URL": " https://wiki.gnome.org/Projects/GSound", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-039.build.eng.bos.redhat.com", 
+            "Description": "\nGSound is a small library for playing system sounds.\nIt's designed to be used via GObject Introspection,\nand is a thin wrapper around the libcanberra C library\n", 
+            "Build Date": " Tue 07 Mar 2017 10:34:09 AM EST", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " gsound-1.0.2-2.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/0/gsound-1.0.2-2.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Wed 29 Mar 2017 06:59:31 AM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 2.el7", 
+            "Group": " Unspecified", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " Small gobject library for playing system sounds", 
+            "Size": " 64180"
+        }
+    }
+}

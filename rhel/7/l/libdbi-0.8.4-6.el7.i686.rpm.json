@@ -1,0 +1,78 @@
+{
+    "results": {
+        "usr/lib/libdbi_so_0_0_5": {
+            "report-functions": [
+                "log", 
+                "strcmp", 
+                "calloc", 
+                "__gmon_start__", 
+                "dlopen", 
+                "__asprintf_chk", 
+                "strchr", 
+                "__strdup", 
+                "closedir", 
+                "_ITM_deregisterTMCloneTable", 
+                "fwrite", 
+                "strrchr", 
+                "fputc", 
+                "opendir", 
+                "strlen", 
+                "__snprintf_chk", 
+                "readdir", 
+                "free", 
+                "dlsym", 
+                "memcpy", 
+                "__fprintf_chk", 
+                "realloc", 
+                "__xstat", 
+                "__stack_chk_fail", 
+                "__vasprintf_chk", 
+                "dlclose", 
+                "dlerror", 
+                "memmove", 
+                "__cxa_finalize", 
+                "strcasecmp", 
+                "timegm", 
+                "_ITM_registerTMCloneTable", 
+                "strtol", 
+                "__vfprintf_chk", 
+                "_Jv_RegisterClasses"
+            ], 
+            "rpm": "libdbi-0.8.4-6.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libdbi.so.0.0.5"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 0.8.4", 
+            "Name": " libdbi", 
+            "License": " LGPLv2+", 
+            "URL": " http://libdbi.sourceforge.net/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-021.build.eng.bos.redhat.com", 
+            "Description": "\nlibdbi implements a database-independent abstraction layer in C, similar to the\nDBI/DBD layer in Perl. Writing one generic set of code, programmers can\nleverage the power of multiple databases and multiple simultaneous database\nconnections by using this framework.\n\nThe libdbi package contains just the libdbi framework.  To make use of\nlibdbi you will also need one or more plugins from libdbi-drivers, which\ncontains the plugins needed to interface to specific database servers.\n", 
+            "Build Date": " Sun 26 Jan 2014 05:57:42 AM EST", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " libdbi-0.8.4-6.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/libdbi-0.8.4-6.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 01 Apr 2014 04:39:38 PM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 6.el7", 
+            "Group": " Development/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " Database Independent Abstraction Layer for C", 
+            "Size": " 96301"
+        }
+    }
+}

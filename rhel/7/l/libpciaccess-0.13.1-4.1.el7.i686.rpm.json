@@ -1,0 +1,89 @@
+{
+    "results": {
+        "usr/lib/libpciaccess_so_0_11_1": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "strtoull", 
+                "read", 
+                "strncpy", 
+                "__stack_chk_fail", 
+                "ioctl", 
+                "malloc", 
+                "__ctype_b_loc", 
+                "strtoul", 
+                "__strdup", 
+                "mmap", 
+                "mprotect", 
+                "write", 
+                "_ITM_deregisterTMCloneTable", 
+                "alphasort", 
+                "__xstat", 
+                "munmap", 
+                "memmove", 
+                "__fprintf_chk", 
+                "__open_2", 
+                "iopl", 
+                "memset", 
+                "__snprintf_chk", 
+                "__printf_chk", 
+                "close", 
+                "strchr", 
+                "__fxstat", 
+                "fgets", 
+                "__errno_location", 
+                "fclose", 
+                "__cxa_finalize", 
+                "lseek", 
+                "strerror", 
+                "free", 
+                "pwrite64", 
+                "pwrite", 
+                "pread64", 
+                "calloc", 
+                "scandir", 
+                "__gmon_start__", 
+                "fopen64", 
+                "open", 
+                "pread", 
+                "_Jv_RegisterClasses", 
+                "fwrite", 
+                "realloc"
+            ], 
+            "rpm": "libpciaccess-0.13.1-4.1.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libpciaccess.so.0.11.1"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 0.13.1", 
+            "Name": " libpciaccess", 
+            "License": " MIT", 
+            "URL": " http://gitweb.freedesktop.org/?p=xorg/lib/libpciaccess.git", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-021.build.eng.bos.redhat.com", 
+            "Description": "\nlibpciaccess is a library for portable PCI access routines across multiple\noperating systems.\n", 
+            "Build Date": " Wed 12 Feb 2014 11:26:40 AM EST", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " libpciaccess-0.13.1-4.1.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/libpciaccess-0.13.1-4.1.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 01 Apr 2014 05:48:51 PM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 4.1.el7", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " PCI access library", 
+            "Size": " 43415"
+        }
+    }
+}

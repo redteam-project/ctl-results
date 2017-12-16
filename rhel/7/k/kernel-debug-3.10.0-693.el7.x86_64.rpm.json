@@ -1,0 +1,87 @@
+{
+    "results": {
+        "lib/modules/3_10_0-693_el7_x86_64_debug/vdso/vdso32-sysenter_so": {
+            "report-functions": [], 
+            "rpm": "kernel-debug-3.10.0-693.el7.x86_64.rpm", 
+            "complexity": {
+                "r2aa": "failed: 'NoneType' object is not iterable"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "lib/modules/3.10.0-693.el7.x86_64.debug/vdso/vdso32-sysenter.so"
+        }, 
+        "lib/modules/3_10_0-693_el7_x86_64_debug/vdso/vdso32-int80_so": {
+            "report-functions": [], 
+            "rpm": "kernel-debug-3.10.0-693.el7.x86_64.rpm", 
+            "complexity": {
+                "r2aa": "failed: 'NoneType' object is not iterable"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "lib/modules/3.10.0-693.el7.x86_64.debug/vdso/vdso32-int80.so"
+        }, 
+        "lib/modules/3_10_0-693_el7_x86_64_debug/vdso/vdso_so": {
+            "report-functions": [], 
+            "rpm": "kernel-debug-3.10.0-693.el7.x86_64.rpm", 
+            "complexity": {
+                "r2aa": "failed: 'NoneType' object is not iterable"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "lib/modules/3.10.0-693.el7.x86_64.debug/vdso/vdso.so"
+        }, 
+        "lib/modules/3_10_0-693_el7_x86_64_debug/vdso/vdso32-syscall_so": {
+            "report-functions": [], 
+            "rpm": "kernel-debug-3.10.0-693.el7.x86_64.rpm", 
+            "complexity": {
+                "r2aa": "failed: 'NoneType' object is not iterable"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "lib/modules/3.10.0-693.el7.x86_64.debug/vdso/vdso32-syscall.so"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 3.10.0", 
+            "Name": " kernel-debug", 
+            "License": " GPLv2", 
+            "URL": " http://www.kernel.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-038.build.eng.bos.redhat.com", 
+            "Description": "\nThe kernel package contains the Linux kernel (vmlinuz), the core of any\nLinux operating system.  The kernel handles the basic functions\nof the operating system:  memory allocation, process allocation, device\ninput and output, etc.\n\nThis variant of the kernel has numerous debugging options enabled.\nIt should only be installed when trying to gather additional information\non kernel bugs, as some of these options impact performance noticably.\n", 
+            "Build Date": " Thu 06 Jul 2017 08:20:29 PM EDT", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " kernel-3.10.0-693.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/kernel-debug-3.10.0-693.el7.x86_64.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " x86_64", 
+            "Signature": " RSA/SHA256, Fri 07 Jul 2017 08:47:00 PM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 693.el7", 
+            "Group": " System Environment/Kernel", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " The Linux kernel compiled with extra debugging enabled", 
+            "Size": " 64450656"
+        }
+    }
+}

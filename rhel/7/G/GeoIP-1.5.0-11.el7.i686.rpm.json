@@ -1,0 +1,157 @@
+{
+    "results": {
+        "usr/bin/geoiplookup": {
+            "report-functions": [
+                "GeoIP_record_by_ipnum", 
+                "__gmon_start__", 
+                "GeoIP_region_by_ipnum", 
+                "GeoIP_database_info", 
+                "_ITM_deregisterTMCloneTable", 
+                "GeoIP_database_edition", 
+                "__sprintf_chk", 
+                "_GeoIP_setup_dbfilename", 
+                "free", 
+                "__libc_start_main", 
+                "GeoIP_open", 
+                "GeoIP_region_name_by_code", 
+                "GeoIP_name_by_ipnum", 
+                "GeoIPRegion_delete", 
+                "GeoIP_delete", 
+                "_ITM_registerTMCloneTable", 
+                "GeoIP_range_by_ip_delete", 
+                "__printf_chk", 
+                "GeoIP_id_by_ipnum", 
+                "GeoIP_last_netmask", 
+                "GeoIP_db_avail", 
+                "_GeoIP_lookupaddress", 
+                "exit", 
+                "_Jv_RegisterClasses", 
+                "GeoIP_open_type", 
+                "fwrite", 
+                "GeoIP_setup_custom_directory", 
+                "GeoIP_org_by_ipnum", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "GeoIP-1.5.0-11.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 27, 
+                    "afC": 266
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/geoiplookup"
+        }, 
+        "usr/bin/geoipupdate": {
+            "report-functions": [
+                "GeoIP_setup_custom_directory", 
+                "strncpy", 
+                "fopen", 
+                "__gmon_start__", 
+                "fclose", 
+                "strcpy", 
+                "free", 
+                "GeoIP_update_database", 
+                "GeoIP_get_error_message", 
+                "__fprintf_chk", 
+                "_ITM_deregisterTMCloneTable", 
+                "__libc_start_main", 
+                "_ITM_registerTMCloneTable", 
+                "__printf_chk", 
+                "GeoIP_update_database_general", 
+                "fgetc", 
+                "abort", 
+                "realloc", 
+                "strstr", 
+                "exit", 
+                "_Jv_RegisterClasses", 
+                "__ctype_b_loc", 
+                "fwrite"
+            ], 
+            "rpm": "GeoIP-1.5.0-11.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 41, 
+                    "afC": 601
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/geoipupdate"
+        }, 
+        "usr/bin/geoiplookup6": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "__libc_start_main", 
+                "GeoIP_id_by_ipnum_v6", 
+                "GeoIP_record_by_ipnum_v6", 
+                "GeoIP_db_avail", 
+                "_GeoIP_lookupaddress_v6", 
+                "_GeoIP_setup_dbfilename", 
+                "__stack_chk_fail", 
+                "GeoIP_setup_custom_directory", 
+                "fwrite", 
+                "GeoIP_open_type", 
+                "__GEOIP_V6_IS_NULL", 
+                "GeoIP_name_by_ipnum_v6", 
+                "__printf_chk", 
+                "__gmon_start__", 
+                "free", 
+                "GeoIP_database_edition", 
+                "_ITM_deregisterTMCloneTable", 
+                "_Jv_RegisterClasses", 
+                "GeoIP_delete", 
+                "exit"
+            ], 
+            "rpm": "GeoIP-1.5.0-11.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 19, 
+                    "afC": 236
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/geoiplookup6"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.5.0", 
+            "Name": " GeoIP", 
+            "License": " LGPLv2+ and GPLv2+ and CC-BY-SA", 
+            "URL": " http://www.maxmind.com/app/c", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-037.build.eng.bos.redhat.com", 
+            "Description": "\nGeoIP is a C library that enables the user to find the country that any IP\naddress or hostname originates from. It uses a file based database that is\naccurate as of June 2007 and can optionally be updated on a weekly\nbasis by installing the GeoIP-update package. This database simply contains IP\nblocks as keys, and countries as values. This database should be more complete\nand accurate than using reverse DNS lookups.\n\nThis package includes GeoLite data created by MaxMind, available from\nhttp://www.maxmind.com/\n", 
+            "Build Date": " Wed 29 Jun 2016 09:35:31 AM EDT", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " GeoIP-1.5.0-11.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/0/GeoIP-1.5.0-11.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 19 Sep 2016 09:20:00 AM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 11.el7", 
+            "Group": " Development/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " Library for country/city/organization to IP address or hostname mapping", 
+            "Size": " 2902500"
+        }
+    }
+}

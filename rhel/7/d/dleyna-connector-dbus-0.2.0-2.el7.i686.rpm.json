@@ -1,0 +1,77 @@
+{
+    "results": {
+        "usr/lib/dleyna-1_0/connectors/libdleyna-connector-dbus_so": {
+            "report-functions": [
+                "g_direct_equal", 
+                "g_dbus_method_invocation_return_value", 
+                "g_dbus_node_info_new_for_xml", 
+                "g_dbus_connection_unregister_object", 
+                "g_free", 
+                "g_hash_table_unref", 
+                "g_dbus_error_register_error", 
+                "g_bus_own_name", 
+                "g_dbus_interface_info_ref", 
+                "g_str_equal", 
+                "g_bus_unwatch_name", 
+                "g_dbus_method_invocation_return_gerror", 
+                "g_dbus_connection_register_subtree", 
+                "g_direct_hash", 
+                "_Jv_RegisterClasses", 
+                "g_dbus_connection_unregister_subtree", 
+                "strcmp", 
+                "_ITM_deregisterTMCloneTable", 
+                "g_malloc0_n", 
+                "g_bus_unown_name", 
+                "g_hash_table_new_full", 
+                "g_strdup", 
+                "g_malloc", 
+                "g_hash_table_insert", 
+                "g_hash_table_lookup", 
+                "__cxa_finalize", 
+                "g_bus_watch_name", 
+                "g_dbus_connection_register_object", 
+                "g_malloc0", 
+                "g_dbus_connection_emit_signal", 
+                "g_object_unref", 
+                "_ITM_registerTMCloneTable", 
+                "g_hash_table_remove", 
+                "g_str_hash"
+            ], 
+            "rpm": "dleyna-connector-dbus-0.2.0-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: 'NoneType' object is not iterable"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/dleyna-1.0/connectors/libdleyna-connector-dbus.so"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 0.2.0", 
+            "Name": " dleyna-connector-dbus", 
+            "License": " LGPLv2", 
+            "URL": " https://01.org/dleyna/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-017.build.eng.bos.redhat.com", 
+            "Description": "\nD-Bus connector for dLeyna services.\n", 
+            "Build Date": " Fri 10 Mar 2017 12:23:46 PM EST", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " dleyna-connector-dbus-0.2.0-2.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/5/dleyna-connector-dbus-0.2.0-2.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Wed 29 Mar 2017 02:28:13 PM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 2.el7", 
+            "Group": " Unspecified", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " D-Bus connector for dLeyna services", 
+            "Size": " 43615"
+        }
+    }
+}

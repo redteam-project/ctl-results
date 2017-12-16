@@ -1,0 +1,79 @@
+{
+    "results": {
+        "usr/lib/libitm_so_1_0_0": {
+            "report-functions": [
+                "_Jv_RegisterClasses", 
+                "__cxa_allocate_exception", 
+                "__cxa_end_catch", 
+                "getenv", 
+                "memcpy", 
+                "__assert_fail", 
+                "_ZdlPvRKSt9nothrow_t", 
+                "_ZnwjRKSt9nothrow_t", 
+                "calloc", 
+                "memset", 
+                "_ZdaPvRKSt9nothrow_t", 
+                "_ZnajRKSt9nothrow_t", 
+                "_Znaj", 
+                "pthread_once", 
+                "strerror", 
+                "_ZdaPv", 
+                "__cxa_finalize", 
+                "memmove", 
+                "free", 
+                "__cxa_tm_cleanup", 
+                "abort", 
+                "__cxa_begin_catch", 
+                "qsort", 
+                "_Znwj", 
+                "_Unwind_DeleteException", 
+                "exit", 
+                "pthread_setspecific", 
+                "__cxa_throw", 
+                "pthread_key_create", 
+                "__ctype_b_loc", 
+                "__gmon_start__", 
+                "__stack_chk_fail", 
+                "vfprintf", 
+                "malloc", 
+                "fputc", 
+                "realloc"
+            ], 
+            "rpm": "libitm-4.8.5-16.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libitm.so.1.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 4.8.5", 
+            "Name": " libitm", 
+            "License": " GPLv3+ and GPLv3+ with exceptions and GPLv2+ with exceptions and LGPLv2+ and BSD", 
+            "URL": " http://gcc.gnu.org", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-038.build.eng.bos.redhat.com", 
+            "Description": "\nThis package contains the GNU Transactional Memory library\nwhich is a GCC transactional memory support runtime library.\n", 
+            "Build Date": " Fri 02 Jun 2017 03:28:08 AM EDT", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " gcc-4.8.5-16.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/libitm-4.8.5-16.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 06 Jun 2017 07:28:16 AM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 16.el7", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " The GNU Transactional Memory library", 
+            "Size": " 139721"
+        }
+    }
+}

@@ -1,0 +1,86 @@
+{
+    "results": {
+        "usr/lib/libuuid_so_1_3_0": {
+            "report-functions": [
+                "close", 
+                "syscall", 
+                "_Jv_RegisterClasses", 
+                "memcmp", 
+                "fscanf", 
+                "__fprintf_chk", 
+                "__sprintf_chk", 
+                "fdopen", 
+                "time", 
+                "srandom", 
+                "fcntl", 
+                "__gmon_start__", 
+                "__xstat64", 
+                "fflush", 
+                "socket", 
+                "strtoul", 
+                "ftruncate64", 
+                "__stack_chk_fail", 
+                "connect", 
+                "jrand48", 
+                "getpid", 
+                "open64", 
+                "__ctype_b_loc", 
+                "random", 
+                "strlen", 
+                "_ITM_deregisterTMCloneTable", 
+                "strncpy", 
+                "rewind", 
+                "ioctl", 
+                "fclose", 
+                "fwrite", 
+                "_ITM_registerTMCloneTable", 
+                "write", 
+                "__errno_location", 
+                "flock", 
+                "read", 
+                "umask", 
+                "getuid", 
+                "__cxa_finalize", 
+                "___tls_get_addr"
+            ], 
+            "rpm": "libuuid-2.23.2-16.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libuuid.so.1.3.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 2.23.2", 
+            "Name": " libuuid", 
+            "License": " BSD", 
+            "URL": " http://en.wikipedia.org/wiki/Util-linux", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-025.build.eng.bos.redhat.com", 
+            "Description": "\nThis is the universally unique ID library, part of util-linux.\n\nThe libuuid library generates and parses 128-bit universally unique\nid's (UUID's).  A UUID is an identifier that is unique across both\nspace and time, with respect to the space of all UUIDs.  A UUID can\nbe used for multiple purposes, from tagging objects with an extremely\nshort lifetime, to reliably identifying very persistent objects\nacross a network.\n\nSee also the \"uuid\" package, which is a separate implementation.\n", 
+            "Build Date": " Fri 28 Mar 2014 10:57:14 AM EDT", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " util-linux-2.23.2-16.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/2/libuuid-2.23.2-16.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Wed 02 Apr 2014 05:43:55 PM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 16.el7", 
+            "Group": " Development/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " Universally unique ID library", 
+            "Size": " 19374"
+        }
+    }
+}

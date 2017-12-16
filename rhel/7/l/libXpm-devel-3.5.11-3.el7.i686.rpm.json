@@ -1,0 +1,148 @@
+{
+    "results": {
+        "usr/bin/sxpm": {
+            "report-functions": [
+                "XFreeColors", 
+                "XpmLibraryVersion", 
+                "_ITM_deregisterTMCloneTable", 
+                "XCreateSimpleWindow", 
+                "XStoreName", 
+                "XSetWindowBackgroundPixmap", 
+                "XpmFreeAttributes", 
+                "XtSetValues", 
+                "dcgettext", 
+                "XtMalloc", 
+                "__sprintf_chk", 
+                "XSetWMNormalHints", 
+                "exit", 
+                "XpmCreatePixmapFromData", 
+                "XCreateColormap", 
+                "__fprintf_chk", 
+                "XDefaultColormapOfScreen", 
+                "strncmp", 
+                "XtSetLanguageProc", 
+                "XpmReadFileToPixmap", 
+                "XtMainLoop", 
+                "XtInitialize", 
+                "XSetIconName", 
+                "XAllocNamedColor", 
+                "__libc_start_main", 
+                "strlen", 
+                "XtRealizeWidget", 
+                "XtFree", 
+                "XParseGeometry", 
+                "XFreePixmap", 
+                "XShapeCombineMask", 
+                "XtAddEventHandler", 
+                "XMapWindow", 
+                "textdomain", 
+                "XLookupString", 
+                "_Jv_RegisterClasses", 
+                "XClearWindow", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "XtResizeWidget", 
+                "XBlackPixelOfScreen", 
+                "XRootWindowOfScreen", 
+                "XrmGetResource", 
+                "XSetWindowColormap", 
+                "XpmWriteFileFromPixmap", 
+                "strcmp", 
+                "bindtextdomain", 
+                "strtol"
+            ], 
+            "rpm": "libXpm-devel-3.5.11-3.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 69, 
+                    "afC": 1108
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/sxpm"
+        }, 
+        "usr/bin/cxpm": {
+            "report-functions": [
+                "strncpy", 
+                "exit", 
+                "strncmp", 
+                "__fprintf_chk", 
+                "__memcpy_chk", 
+                "bindtextdomain", 
+                "ungetc", 
+                "_exit", 
+                "memcpy", 
+                "__errno_location", 
+                "__stack_chk_fail", 
+                "perror", 
+                "strcmp", 
+                "realloc", 
+                "close", 
+                "strchr", 
+                "textdomain", 
+                "fork", 
+                "free", 
+                "calloc", 
+                "dup2", 
+                "fclose", 
+                "open", 
+                "__libc_start_main", 
+                "waitpid", 
+                "dcgettext", 
+                "strlen", 
+                "setlocale", 
+                "malloc", 
+                "fdopen", 
+                "memset", 
+                "__ctype_b_loc", 
+                "_IO_getc", 
+                "strrchr", 
+                "execlp"
+            ], 
+            "rpm": "libXpm-devel-3.5.11-3.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 18, 
+                    "afC": 253
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/cxpm"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 3.5.11", 
+            "Name": " libXpm-devel", 
+            "License": " MIT", 
+            "URL": " http://www.x.org", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-024.build.eng.bos.redhat.com", 
+            "Description": "\nX.Org X11 libXpm development package\n", 
+            "Build Date": " Thu 09 Apr 2015 05:40:57 PM EDT", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " libXpm-3.5.11-3.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/2/libXpm-devel-3.5.11-3.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 09 Oct 2015 10:43:42 AM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 3.el7", 
+            "Group": " Development/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " X.Org X11 libXpm development package", 
+            "Size": " 62447"
+        }
+    }
+}

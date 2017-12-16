@@ -1,0 +1,2825 @@
+{
+    "results": {
+        "usr/sbin/nl-class-list": {
+            "report-functions": [
+                "nl_cache_foreach", 
+                "nl_cli_class_alloc_cache", 
+                "__libc_start_main", 
+                "exit", 
+                "_Jv_RegisterClasses", 
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "nl_cli_link_alloc_cache", 
+                "nl_cli_connect", 
+                "nl_cli_tc_parse_parent", 
+                "_ITM_deregisterTMCloneTable", 
+                "nl_cli_tc_parse_dev", 
+                "getopt_long", 
+                "_ITM_registerTMCloneTable", 
+                "nl_cli_tc_parse_kind", 
+                "rtnl_tc_get_ifindex", 
+                "rtnl_link_get_ifindex", 
+                "nl_cli_alloc_socket", 
+                "puts", 
+                "nl_cli_tc_parse_handle", 
+                "nl_cache_dump_filter"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/sbin/nl-class-list"
+        }, 
+        "usr/bin/nl-list-sockets": {
+            "report-functions": [
+                "__printf_chk", 
+                "_Jv_RegisterClasses", 
+                "fopen", 
+                "nl_nlfamily2str", 
+                "_ITM_deregisterTMCloneTable", 
+                "perror", 
+                "sscanf", 
+                "fclose", 
+                "_ITM_registerTMCloneTable", 
+                "__stack_chk_fail", 
+                "__libc_start_main", 
+                "__gmon_start__"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nl-list-sockets"
+        }, 
+        "usr/sbin/nl-classid-lookup": {
+            "report-functions": [
+                "__gmon_start__", 
+                "nl_geterror", 
+                "rtnl_tc_handle2str", 
+                "__printf_chk", 
+                "_ITM_deregisterTMCloneTable", 
+                "nl_cli_print_version", 
+                "_Jv_RegisterClasses", 
+                "exit", 
+                "getopt_long", 
+                "_ITM_registerTMCloneTable", 
+                "puts", 
+                "nl_cli_fatal", 
+                "__libc_start_main"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/sbin/nl-classid-lookup"
+        }, 
+        "usr/bin/nl-link-stats": {
+            "report-functions": [
+                "rtnl_link_get_name", 
+                "nl_cli_link_parse_ifindex", 
+                "nl_cli_link_alloc", 
+                "nl_cli_connect", 
+                "rtnl_link_str2stat", 
+                "nl_cli_link_alloc_cache", 
+                "_Jv_RegisterClasses", 
+                "__stack_chk_fail", 
+                "nl_cli_link_parse_name", 
+                "nl_cli_alloc_socket", 
+                "_ITM_deregisterTMCloneTable", 
+                "__printf_chk", 
+                "exit", 
+                "rtnl_link_get_stat", 
+                "puts", 
+                "rtnl_link_stat2str", 
+                "__gmon_start__", 
+                "getopt_long", 
+                "nl_cli_print_version", 
+                "nl_cache_foreach_filter", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nl-link-stats"
+        }, 
+        "usr/bin/nf-ct-add": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "__stack_chk_fail", 
+                "puts", 
+                "nl_cli_ct_parse_zone", 
+                "nl_cli_ct_parse_family", 
+                "nl_cli_alloc_socket", 
+                "__gmon_start__", 
+                "nl_cli_ct_parse_src_port", 
+                "nl_cli_print_version", 
+                "nl_cli_ct_parse_status", 
+                "nl_cli_ct_parse_dst", 
+                "nl_cli_ct_parse_src", 
+                "__libc_start_main", 
+                "getopt_long", 
+                "nfnl_ct_add", 
+                "nl_cli_ct_parse_timeout", 
+                "nfnl_ct_set_family", 
+                "nl_cli_ct_alloc", 
+                "__printf_chk", 
+                "_Jv_RegisterClasses", 
+                "nl_geterror", 
+                "nl_cli_fatal", 
+                "exit", 
+                "_ITM_deregisterTMCloneTable", 
+                "nl_cli_ct_parse_protocol", 
+                "nl_object_dump", 
+                "nl_cli_connect"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nf-ct-add"
+        }, 
+        "usr/bin/nl-class-list": {
+            "report-functions": [
+                "nl_cli_alloc_socket", 
+                "exit", 
+                "nl_cli_connect", 
+                "nl_cli_print_version", 
+                "_ITM_registerTMCloneTable", 
+                "nl_cache_dump_filter", 
+                "nl_cli_link_alloc_cache", 
+                "nl_cache_foreach", 
+                "nl_cli_tc_parse_kind", 
+                "__stack_chk_fail", 
+                "rtnl_tc_get_ifindex", 
+                "rtnl_link_get_ifindex", 
+                "__libc_start_main", 
+                "nl_cli_tc_parse_parent", 
+                "puts", 
+                "nl_cli_class_alloc_cache", 
+                "nl_cli_tc_parse_handle", 
+                "nl_cli_class_alloc", 
+                "_ITM_deregisterTMCloneTable", 
+                "getopt_long", 
+                "_Jv_RegisterClasses"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nl-class-list"
+        }, 
+        "usr/bin/nf-ct-list": {
+            "report-functions": [
+                "nl_cli_ct_alloc", 
+                "getopt_long", 
+                "nl_cli_ct_parse_status", 
+                "nl_cli_ct_parse_src_port", 
+                "nl_cli_connect", 
+                "nl_cli_parse_dumptype", 
+                "__gmon_start__", 
+                "__stack_chk_fail", 
+                "__libc_start_main", 
+                "nl_cli_ct_parse_dst", 
+                "nl_cli_print_version", 
+                "puts", 
+                "nl_cli_ct_parse_tcp_state", 
+                "nl_cli_ct_parse_timeout", 
+                "_Jv_RegisterClasses", 
+                "nl_cli_ct_parse_src", 
+                "nl_cli_ct_parse_dst_port", 
+                "_ITM_deregisterTMCloneTable", 
+                "nl_cli_ct_parse_id", 
+                "_ITM_registerTMCloneTable", 
+                "nl_cli_ct_parse_protocol", 
+                "nl_cli_ct_parse_use", 
+                "nfnl_ct_set_family", 
+                "nl_cli_ct_alloc_cache", 
+                "nl_cache_dump_filter", 
+                "nl_cli_alloc_socket", 
+                "exit"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nf-ct-list"
+        }, 
+        "usr/sbin/nl-class-delete": {
+            "report-functions": [
+                "nl_cli_tc_parse_dev", 
+                "rtnl_class_delete", 
+                "__printf_chk", 
+                "nl_cli_class_alloc", 
+                "puts", 
+                "nl_geterror", 
+                "_ITM_registerTMCloneTable", 
+                "_Jv_RegisterClasses", 
+                "exit", 
+                "nl_cli_print_version", 
+                "nl_cli_fatal", 
+                "nl_cli_class_alloc_cache", 
+                "nl_cli_tc_parse_parent", 
+                "nl_cache_foreach_filter", 
+                "nl_cli_link_alloc_cache", 
+                "nl_object_dump", 
+                "_ITM_deregisterTMCloneTable", 
+                "getopt_long", 
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "rtnl_tc_get_ifindex", 
+                "__libc_start_main", 
+                "nl_cli_connect", 
+                "nl_cli_alloc_socket", 
+                "nl_cli_tc_parse_kind"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/sbin/nl-class-delete"
+        }, 
+        "usr/bin/nf-exp-delete": {
+            "report-functions": [
+                "nl_cli_alloc_socket", 
+                "__printf_chk", 
+                "nl_cli_print_version", 
+                "nl_cli_exp_parse_timeout", 
+                "nfnl_exp_set_family", 
+                "nl_cli_exp_parse_src", 
+                "nl_geterror", 
+                "nl_cli_connect", 
+                "getopt_long", 
+                "nl_cli_exp_parse_flags", 
+                "nl_cli_exp_parse_l4protonum", 
+                "nl_cli_exp_parse_src_port", 
+                "_ITM_registerTMCloneTable", 
+                "puts", 
+                "nl_cli_fatal", 
+                "nl_cli_exp_parse_dst", 
+                "nl_cli_exp_parse_helper_name", 
+                "__gmon_start__", 
+                "nl_cli_exp_parse_dst_port", 
+                "nl_object_dump", 
+                "nl_cli_exp_alloc", 
+                "nl_cli_exp_parse_id", 
+                "__libc_start_main", 
+                "__stack_chk_fail", 
+                "nfnl_exp_del", 
+                "exit", 
+                "_Jv_RegisterClasses"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nf-exp-delete"
+        }, 
+        "usr/lib/libnl-cli-3_so_200_23_0": {
+            "report-functions": [
+                "nl_cache_mngt_provide", 
+                "nfnl_exp_get_icmp_id", 
+                "rtnl_tc_set_linktype", 
+                "nfnl_ct_get_family", 
+                "rtnl_addr_set_local", 
+                "nfnl_ct_set_use", 
+                "nfnl_ct_set_family", 
+                "_ITM_registerTMCloneTable", 
+                "rtnl_addr_set_ifindex", 
+                "nfnl_exp_get_src_port", 
+                "nfnl_exp_set_id", 
+                "rtnl_tc_set_mtu", 
+                "rtnl_neigh_set_lladdr", 
+                "rtnl_cls_alloc", 
+                "puts", 
+                "nfnl_exp_set_src", 
+                "rtnl_addr_set_peer", 
+                "nfnl_ct_set_proto", 
+                "rtnl_route_set_metric", 
+                "nfnl_exp_set_timeout", 
+                "rtnl_addr_set_broadcast", 
+                "fputc", 
+                "rtnl_link_name2i", 
+                "rtnl_route_set_family", 
+                "rtnl_route_set_scope", 
+                "rtnl_neigh_get_family", 
+                "nfnl_ct_set_zone", 
+                "nl_connect", 
+                "rtnl_neigh_set_dst", 
+                "rtnl_link_set_ifindex", 
+                "rtnl_route_get_family", 
+                "nfnl_ct_set_id", 
+                "nfnl_exp_set_icmp", 
+                "rtnl_link_set_family", 
+                "rtnl_route_add_nexthop", 
+                "getsubopt", 
+                "free", 
+                "rtnl_route_alloc_cache", 
+                "rtnl_qdisc_alloc", 
+                "exit", 
+                "rtnl_neigh_str2state", 
+                "nfnl_ct_str2status", 
+                "fgets", 
+                "nfnl_exp_set_class", 
+                "rtnl_route_nh_set_ifindex", 
+                "rtnl_classid_generate", 
+                "rtnl_route_str2table", 
+                "nl_geterror", 
+                "rtnl_link_set_txqlen", 
+                "__snprintf_chk", 
+                "rtnl_tc_set_mpu", 
+                "rtnl_route_set_protocol", 
+                "__cxa_finalize", 
+                "rtnl_link_set_mtu", 
+                "rtnl_route_str2proto", 
+                "rtnl_cls_set_protocol", 
+                "nl_addr_put", 
+                "nl_str2llproto", 
+                "nfnl_ct_alloc_cache", 
+                "rtnl_tc_set_handle", 
+                "nfnl_ct_str2tcp_state", 
+                "dlerror", 
+                "rtnl_link_set_name", 
+                "nfnl_ct_set_mark", 
+                "rtnl_route_set_table", 
+                "rtnl_neigh_set_state", 
+                "nfnl_exp_set_fn", 
+                "nl_socket_alloc", 
+                "nfnl_ct_set_dst", 
+                "nfnl_exp_alloc", 
+                "rtnl_link_set_ifalias", 
+                "nl_str2ether_proto", 
+                "nfnl_exp_set_ports", 
+                "nfnl_exp_set_dst", 
+                "rtnl_addr_set_preferred_lifetime", 
+                "strlen", 
+                "strerror_r", 
+                "nfnl_exp_set_l4protonum", 
+                "nl_str2af", 
+                "__stack_chk_fail", 
+                "nfnl_ct_alloc", 
+                "nl_addr_parse", 
+                "rtnl_str2scope", 
+                "rtnl_route_set_priority", 
+                "nl_str2msec", 
+                "rtnl_link_alloc_cache_flags", 
+                "rtnl_addr_set_scope", 
+                "rtnl_tc_get_parent", 
+                "nfnl_ct_set_src_port", 
+                "nfnl_exp_set_flags", 
+                "rtnl_class_alloc", 
+                "rtnl_addr_set_family", 
+                "nfnl_exp_get_icmp_type", 
+                "nfnl_ct_set_src", 
+                "rtnl_addr_alloc", 
+                "strtoul", 
+                "rtnl_ematch_parse_expr", 
+                "__ctype_tolower_loc", 
+                "rtnl_tc_set_parent", 
+                "rtnl_rule_alloc", 
+                "rtnl_route_set_dst", 
+                "rtnl_route_nh_set_weight", 
+                "nl_object_dump", 
+                "rtnl_tc_set_link", 
+                "rtnl_route_set_type", 
+                "nfnl_ct_set_timeout", 
+                "rtnl_addr_set_label", 
+                "nl_str2ip_proto", 
+                "rtnl_rule_set_family", 
+                "strcasecmp", 
+                "rtnl_route_set_iif", 
+                "rtnl_route_set_pref_src", 
+                "nfnl_exp_set_family", 
+                "rtnl_route_set_src", 
+                "__printf_chk", 
+                "nfnl_exp_get_dst_port", 
+                "rtnl_neigh_set_family", 
+                "rtnl_neigh_set_ifindex", 
+                "rtnl_route_nh_set_gateway", 
+                "rtnl_rule_alloc_cache", 
+                "rtnl_neigh_alloc", 
+                "rtnl_link_put", 
+                "nfnl_ct_set_tcp_state", 
+                "rtnl_tc_str2handle", 
+                "__fprintf_chk", 
+                "nfnl_exp_set_nat_dir", 
+                "rtnl_tc_set_overhead", 
+                "nfnl_exp_get_family", 
+                "rtnl_tc_set_kind", 
+                "nfnl_ct_set_status", 
+                "__vfprintf_chk", 
+                "rtnl_tc_lookup_ops", 
+                "__gmon_start__", 
+                "nfnl_exp_alloc_cache", 
+                "rtnl_addr_get_family", 
+                "nfnl_ct_set_dst_port", 
+                "nl_str2rtntype", 
+                "rtnl_cls_alloc_cache", 
+                "_ITM_deregisterTMCloneTable", 
+                "rtnl_link_get_by_name", 
+                "rtnl_class_alloc_cache", 
+                "rtnl_route_nh_alloc", 
+                "rtnl_link_alloc", 
+                "nfnl_exp_get_icmp_code", 
+                "fwrite", 
+                "_Jv_RegisterClasses", 
+                "nfnl_exp_set_helper_name", 
+                "nfnl_exp_set_zone", 
+                "dlopen"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libnl-cli-3.so.200.23.0"
+        }, 
+        "usr/sbin/nl-class-add": {
+            "report-functions": [
+                "_Jv_RegisterClasses", 
+                "nl_object_dump", 
+                "getopt_long", 
+                "nl_cli_tc_parse_mtu", 
+                "nl_cli_tc_parse_overhead", 
+                "nl_cli_tc_parse_dev", 
+                "rtnl_tc_set_kind", 
+                "nl_cli_class_alloc", 
+                "__printf_chk", 
+                "rtnl_tc_get_parent", 
+                "nl_cli_tc_parse_parent", 
+                "nl_cli_print_version", 
+                "rtnl_tc_get_ifindex", 
+                "__strdup", 
+                "_ITM_registerTMCloneTable", 
+                "__gmon_start__", 
+                "free", 
+                "__stack_chk_fail", 
+                "nl_cli_tc_lookup", 
+                "_ITM_deregisterTMCloneTable", 
+                "__libc_start_main", 
+                "nl_cli_tc_parse_handle", 
+                "nl_cli_tc_parse_mpu", 
+                "nl_cli_link_alloc_cache", 
+                "nl_cli_connect", 
+                "nl_geterror", 
+                "rtnl_tc_get_ops", 
+                "nl_cli_fatal", 
+                "puts", 
+                "exit", 
+                "rtnl_class_add"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/sbin/nl-class-add"
+        }, 
+        "usr/bin/nl-link-release": {
+            "report-functions": [
+                "_Jv_RegisterClasses", 
+                "__gmon_start__", 
+                "__fprintf_chk", 
+                "nl_cli_alloc_socket", 
+                "_ITM_registerTMCloneTable", 
+                "nl_geterror", 
+                "_ITM_deregisterTMCloneTable", 
+                "nl_cli_connect", 
+                "__libc_start_main", 
+                "rtnl_link_bond_release", 
+                "fwrite"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nl-link-release"
+        }, 
+        "usr/bin/nl-monitor": {
+            "report-functions": [
+                "nl_geterror", 
+                "nl_cli_link_alloc_cache", 
+                "__libc_start_main", 
+                "fwrite", 
+                "__fprintf_chk", 
+                "nl_recvmsgs_default", 
+                "__printf_chk", 
+                "nl_socket_get_fd", 
+                "__gmon_start__", 
+                "strcmp", 
+                "puts", 
+                "nl_socket_modify_cb", 
+                "_Jv_RegisterClasses", 
+                "nl_socket_disable_seq_check", 
+                "nl_socket_add_membership", 
+                "nl_object_dump", 
+                "_ITM_registerTMCloneTable", 
+                "nl_msg_parse", 
+                "nl_cli_alloc_socket", 
+                "select", 
+                "nl_cli_fatal", 
+                "strcasecmp", 
+                "_ITM_deregisterTMCloneTable", 
+                "__fdelt_chk", 
+                "nl_cli_connect"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nl-monitor"
+        }, 
+        "usr/bin/nl-route-add": {
+            "report-functions": [
+                "__libc_start_main", 
+                "nl_cli_fatal", 
+                "rtnl_route_add", 
+                "nl_cli_alloc_socket", 
+                "nl_cli_route_alloc", 
+                "nl_cli_route_parse_pref_src", 
+                "_ITM_registerTMCloneTable", 
+                "nl_cli_route_parse_type", 
+                "nl_cli_route_parse_prio", 
+                "nl_cli_link_alloc_cache", 
+                "nl_cli_route_parse_dst", 
+                "exit", 
+                "nl_cli_route_parse_iif", 
+                "_ITM_deregisterTMCloneTable", 
+                "_Jv_RegisterClasses", 
+                "nl_cli_route_alloc_cache", 
+                "nl_cli_connect", 
+                "__printf_chk", 
+                "nl_cli_route_parse_table", 
+                "getopt_long", 
+                "nl_cli_route_parse_nexthop", 
+                "nl_geterror", 
+                "nl_cli_route_parse_protocol", 
+                "nl_cli_print_version", 
+                "nl_cli_route_parse_src", 
+                "__gmon_start__", 
+                "nl_cli_route_parse_metric", 
+                "nl_object_dump", 
+                "__stack_chk_fail", 
+                "nl_cli_route_parse_scope"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nl-route-add"
+        }, 
+        "usr/bin/nl-classid-lookup": {
+            "report-functions": [
+                "exit", 
+                "nl_cli_print_version", 
+                "_Jv_RegisterClasses", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable", 
+                "nl_geterror", 
+                "__printf_chk", 
+                "rtnl_tc_handle2str", 
+                "nl_cli_fatal", 
+                "rtnl_tc_str2handle", 
+                "getopt_long", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nl-classid-lookup"
+        }, 
+        "usr/bin/nl-qdisc-delete": {
+            "report-functions": [
+                "getopt_long", 
+                "nl_cli_tc_parse_dev", 
+                "nl_cli_print_version", 
+                "nl_cli_alloc_cache", 
+                "nl_cli_alloc_socket", 
+                "rtnl_qdisc_delete", 
+                "__gmon_start__", 
+                "nl_cli_tc_parse_handle", 
+                "nl_cli_fatal", 
+                "__printf_chk", 
+                "nl_cache_foreach_filter", 
+                "nl_geterror", 
+                "puts", 
+                "nl_cli_tc_parse_parent", 
+                "__libc_start_main", 
+                "nl_object_dump", 
+                "_ITM_deregisterTMCloneTable", 
+                "nl_cli_link_alloc_cache", 
+                "nl_cli_connect", 
+                "__stack_chk_fail", 
+                "nl_cli_qdisc_alloc", 
+                "_ITM_registerTMCloneTable", 
+                "rtnl_qdisc_alloc_cache", 
+                "exit", 
+                "nl_cli_confirm", 
+                "_Jv_RegisterClasses"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nl-qdisc-delete"
+        }, 
+        "usr/bin/nl-qdisc-list": {
+            "report-functions": [
+                "rtnl_tc_get_parent", 
+                "_ITM_deregisterTMCloneTable", 
+                "nl_cli_class_alloc", 
+                "nl_cli_link_alloc_cache", 
+                "__libc_start_main", 
+                "exit", 
+                "rtnl_qdisc_alloc_cache", 
+                "nl_cli_tc_parse_dev", 
+                "__stack_chk_fail", 
+                "nl_cli_alloc_socket", 
+                "rtnl_tc_get_ifindex", 
+                "nl_cli_connect", 
+                "getopt_long", 
+                "_Jv_RegisterClasses", 
+                "rtnl_class_put", 
+                "nl_cache_dump", 
+                "nl_cli_tc_parse_handle", 
+                "nl_cli_tc_parse_parent", 
+                "rtnl_tc_get_handle", 
+                "__gmon_start__", 
+                "nl_cli_print_version", 
+                "rtnl_qdisc_put", 
+                "nl_cli_qdisc_alloc", 
+                "nl_cli_tc_parse_kind", 
+                "nl_object_dump", 
+                "rtnl_tc_set_ifindex", 
+                "nl_cli_cls_alloc_cache", 
+                "nl_cache_free", 
+                "nl_cache_foreach_filter", 
+                "nl_cli_class_alloc_cache", 
+                "nl_cache_dump_filter", 
+                "puts", 
+                "_ITM_registerTMCloneTable", 
+                "rtnl_tc_set_parent"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nl-qdisc-list"
+        }, 
+        "usr/sbin/nl-qdisc-list": {
+            "report-functions": [
+                "rtnl_qdisc_put", 
+                "__gmon_start__", 
+                "rtnl_tc_get_handle", 
+                "nl_cli_qdisc_alloc", 
+                "nl_object_dump", 
+                "__libc_start_main", 
+                "nl_cache_dump_filter", 
+                "rtnl_tc_get_parent", 
+                "nl_cli_tc_parse_kind", 
+                "getopt_long", 
+                "nl_cli_tc_parse_parent", 
+                "nl_cli_connect", 
+                "puts", 
+                "nl_cli_class_alloc_cache", 
+                "nl_cli_alloc_cache", 
+                "rtnl_tc_get_ifindex", 
+                "nl_cli_tc_parse_handle", 
+                "nl_cli_cls_alloc_cache", 
+                "nl_cli_alloc_socket", 
+                "rtnl_qdisc_alloc_cache", 
+                "exit", 
+                "_Jv_RegisterClasses", 
+                "rtnl_tc_set_parent", 
+                "rtnl_class_put", 
+                "nl_cache_dump", 
+                "nl_cache_foreach_filter", 
+                "_ITM_deregisterTMCloneTable", 
+                "nl_cache_free", 
+                "nl_cli_tc_parse_dev", 
+                "nl_cli_class_alloc", 
+                "__stack_chk_fail", 
+                "nl_cli_link_alloc_cache", 
+                "rtnl_tc_set_ifindex"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/sbin/nl-qdisc-list"
+        }, 
+        "usr/bin/nl-util-addr": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "nl_addr_resolve", 
+                "puts", 
+                "__libc_start_main", 
+                "nl_geterror", 
+                "__gmon_start__", 
+                "_Jv_RegisterClasses", 
+                "nl_cli_addr_parse", 
+                "fwrite", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nl-util-addr"
+        }, 
+        "usr/bin/genl-ctrl-list": {
+            "report-functions": [
+                "nl_cli_connect", 
+                "nl_cache_dump", 
+                "_ITM_deregisterTMCloneTable", 
+                "getopt_long", 
+                "__libc_start_main", 
+                "_ITM_registerTMCloneTable", 
+                "exit", 
+                "puts", 
+                "_Jv_RegisterClasses", 
+                "__gmon_start__", 
+                "nl_cli_alloc_cache", 
+                "nl_cli_print_version", 
+                "nl_cli_parse_dumptype", 
+                "nl_cli_alloc_socket"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/genl-ctrl-list"
+        }, 
+        "usr/bin/nf-exp-add": {
+            "report-functions": [
+                "nl_object_dump", 
+                "_ITM_deregisterTMCloneTable", 
+                "getopt_long", 
+                "nl_cli_exp_parse_src", 
+                "nl_cli_exp_parse_l4protonum", 
+                "__printf_chk", 
+                "_ITM_registerTMCloneTable", 
+                "nl_cli_connect", 
+                "nl_cli_exp_parse_helper_name", 
+                "nfnl_exp_add", 
+                "puts", 
+                "nl_cli_fatal", 
+                "nl_cli_print_version", 
+                "nl_cli_alloc_socket", 
+                "nl_cli_exp_parse_dst", 
+                "__libc_start_main", 
+                "nl_cli_exp_parse_timeout", 
+                "nl_cli_exp_parse_nat_dir", 
+                "nl_geterror", 
+                "nfnl_exp_set_family", 
+                "nl_cli_exp_parse_src_port", 
+                "nl_cli_exp_parse_flags", 
+                "nl_cli_exp_parse_family", 
+                "nl_cli_exp_parse_dst_port", 
+                "nl_cli_exp_alloc", 
+                "__gmon_start__", 
+                "_Jv_RegisterClasses", 
+                "exit", 
+                "nl_cli_exp_parse_id"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nf-exp-add"
+        }, 
+        "usr/lib/libnl/cli/qdisc/htb_so": {
+            "report-functions": [
+                "rtnl_htb_set_cbuffer", 
+                "rtnl_htb_set_quantum", 
+                "rtnl_htb_set_rate", 
+                "__cxa_finalize", 
+                "rtnl_htb_set_ceil", 
+                "_ITM_deregisterTMCloneTable", 
+                "nl_cli_parse_u32", 
+                "nl_size2int", 
+                "rtnl_htb_set_rbuffer", 
+                "rtnl_htb_set_prio", 
+                "__gmon_start__", 
+                "_Jv_RegisterClasses", 
+                "nl_cli_tc_register", 
+                "puts", 
+                "getopt_long", 
+                "rtnl_htb_set_defcls", 
+                "rtnl_htb_set_rate2quantum", 
+                "_ITM_registerTMCloneTable", 
+                "nl_cli_tc_unregister"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libnl/cli/qdisc/htb.so"
+        }, 
+        "usr/lib/libnl/cli/qdisc/plug_so": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "_Jv_RegisterClasses", 
+                "_ITM_registerTMCloneTable", 
+                "rtnl_qdisc_plug_buffer", 
+                "getopt_long", 
+                "nl_cli_tc_register", 
+                "_ITM_deregisterTMCloneTable", 
+                "nl_cli_tc_unregister", 
+                "__stack_chk_fail", 
+                "rtnl_qdisc_plug_release_one", 
+                "rtnl_qdisc_plug_release_indefinite", 
+                "puts", 
+                "__gmon_start__", 
+                "rtnl_qdisc_plug_set_limit"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libnl/cli/qdisc/plug.so"
+        }, 
+        "usr/bin/nl-fib-lookup": {
+            "report-functions": [
+                "nl_addr_parse", 
+                "_ITM_deregisterTMCloneTable", 
+                "flnl_request_set_scope", 
+                "nl_addr_put", 
+                "__stack_chk_fail", 
+                "flnl_request_set_table", 
+                "strtoul", 
+                "nl_cache_dump", 
+                "__libc_start_main", 
+                "exit", 
+                "nl_cli_alloc_socket", 
+                "nl_geterror", 
+                "nl_cli_fatal", 
+                "flnl_request_set_fwmark", 
+                "flnl_result_alloc_cache", 
+                "__gmon_start__", 
+                "flnl_lookup", 
+                "_ITM_registerTMCloneTable", 
+                "flnl_request_set_tos", 
+                "puts", 
+                "flnl_request_alloc", 
+                "getopt_long", 
+                "_Jv_RegisterClasses"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nl-fib-lookup"
+        }, 
+        "usr/bin/nl-link-name2ifindex": {
+            "report-functions": [
+                "nl_cli_link_alloc_cache", 
+                "_Jv_RegisterClasses", 
+                "nl_cli_connect", 
+                "__libc_start_main", 
+                "nl_cli_alloc_socket", 
+                "__gmon_start__", 
+                "rtnl_link_name2i", 
+                "nl_cli_fatal", 
+                "puts", 
+                "_ITM_registerTMCloneTable", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nl-link-name2ifindex"
+        }, 
+        "usr/bin/nf-exp-list": {
+            "report-functions": [
+                "nl_cli_exp_parse_timeout", 
+                "nl_cli_exp_alloc_cache", 
+                "_ITM_deregisterTMCloneTable", 
+                "__libc_start_main", 
+                "nl_cli_exp_parse_src", 
+                "nl_cli_exp_parse_id", 
+                "nl_cli_exp_parse_l4protonum", 
+                "nl_cli_parse_dumptype", 
+                "puts", 
+                "nl_cli_print_version", 
+                "nl_cli_alloc_socket", 
+                "nl_cli_exp_alloc", 
+                "_Jv_RegisterClasses", 
+                "nl_cli_exp_parse_flags", 
+                "nfnl_exp_set_family", 
+                "nl_cli_exp_parse_family", 
+                "nl_cli_connect", 
+                "nl_cache_dump_filter", 
+                "_ITM_registerTMCloneTable", 
+                "nl_cli_exp_parse_dst", 
+                "nl_cli_exp_parse_helper_name", 
+                "nl_cli_exp_parse_src_port", 
+                "getopt_long", 
+                "exit", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nf-exp-list"
+        }, 
+        "usr/sbin/nl-cls-delete": {
+            "report-functions": [
+                "nl_cache_foreach", 
+                "nl_cli_parse_u32", 
+                "nl_cli_confirm", 
+                "__printf_chk", 
+                "nl_cli_cls_alloc", 
+                "__libc_start_main", 
+                "exit", 
+                "rtnl_link_get_ifindex", 
+                "nl_cli_tc_parse_dev", 
+                "_ITM_registerTMCloneTable", 
+                "nl_cache_free", 
+                "nl_cli_cls_parse_proto", 
+                "nl_geterror", 
+                "nl_cli_tc_parse_handle", 
+                "nl_cli_cls_alloc_cache", 
+                "__stack_chk_fail", 
+                "rtnl_tc_get_parent", 
+                "nl_cli_print_version", 
+                "__gmon_start__", 
+                "nl_cli_tc_parse_parent", 
+                "rtnl_cls_set_prio", 
+                "nl_cli_tc_parse_kind", 
+                "_ITM_deregisterTMCloneTable", 
+                "nl_cli_link_alloc_cache", 
+                "rtnl_tc_get_ifindex", 
+                "puts", 
+                "rtnl_cls_delete", 
+                "nl_cli_alloc_socket", 
+                "nl_cli_connect", 
+                "nl_cache_foreach_filter", 
+                "nl_cli_fatal", 
+                "getopt_long"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/sbin/nl-cls-delete"
+        }, 
+        "usr/bin/nl-link-list": {
+            "report-functions": [
+                "nl_cli_link_parse_ifindex", 
+                "nl_cli_link_parse_family", 
+                "nl_cache_dump_filter", 
+                "puts", 
+                "nl_cli_print_version", 
+                "nl_cli_link_parse_txqlen", 
+                "getopt_long", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "__libc_start_main", 
+                "exit", 
+                "_ITM_registerTMCloneTable", 
+                "nl_cli_alloc_socket", 
+                "__stack_chk_fail", 
+                "nl_cli_connect", 
+                "_Jv_RegisterClasses", 
+                "nl_cli_link_parse_weight", 
+                "nl_cli_link_alloc_cache_family", 
+                "nl_cli_link_parse_mtu", 
+                "rtnl_link_get_family"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nl-link-list"
+        }, 
+        "usr/bin/nl-route-delete": {
+            "report-functions": [
+                "nl_cli_route_parse_prio", 
+                "fwrite", 
+                "_Jv_RegisterClasses", 
+                "getopt_long", 
+                "nl_cli_route_parse_dst", 
+                "nl_cli_route_parse_scope", 
+                "nl_cli_alloc_socket", 
+                "nl_cli_route_parse_nexthop", 
+                "nl_geterror", 
+                "__printf_chk", 
+                "nl_cli_confirm", 
+                "nl_cli_route_parse_pref_src", 
+                "exit", 
+                "__libc_start_main", 
+                "nl_cli_route_parse_protocol", 
+                "nl_cli_route_parse_src", 
+                "_ITM_registerTMCloneTable", 
+                "_ITM_deregisterTMCloneTable", 
+                "nl_cli_route_parse_metric", 
+                "nl_cli_route_parse_table", 
+                "nl_object_dump", 
+                "nl_cache_foreach_filter", 
+                "__stack_chk_fail", 
+                "nl_cli_route_alloc_cache", 
+                "rtnl_route_delete", 
+                "nl_cli_route_parse_iif", 
+                "nl_cli_route_parse_family", 
+                "__gmon_start__", 
+                "puts", 
+                "nl_cli_fatal", 
+                "nl_cli_link_alloc_cache", 
+                "__fprintf_chk", 
+                "nl_cli_connect"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nl-route-delete"
+        }, 
+        "usr/lib/libnl/cli/qdisc/hfsc_so": {
+            "report-functions": [
+                "strchr", 
+                "__strdup", 
+                "_ITM_deregisterTMCloneTable", 
+                "strtoul", 
+                "nl_cli_tc_register", 
+                "rtnl_class_hfsc_set_fsc", 
+                "__cxa_finalize", 
+                "rtnl_qdisc_hfsc_set_defcls", 
+                "getopt_long", 
+                "puts", 
+                "rtnl_class_hfsc_set_rsc", 
+                "__stack_chk_fail", 
+                "_Jv_RegisterClasses", 
+                "nl_cli_fatal", 
+                "__gmon_start__", 
+                "nl_cli_tc_unregister", 
+                "_ITM_registerTMCloneTable", 
+                "strstr", 
+                "free"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libnl/cli/qdisc/hfsc.so"
+        }, 
+        "usr/bin/nf-log": {
+            "report-functions": [
+                "nfnl_log_pf_bind", 
+                "nfnl_log_set_copy_range", 
+                "select", 
+                "nl_cli_alloc_socket", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "nl_object_dump", 
+                "nl_socket_disable_seq_check", 
+                "__printf_chk", 
+                "nl_msg_parse", 
+                "puts", 
+                "nl_socket_get_fd", 
+                "fwrite", 
+                "nl_geterror", 
+                "nl_socket_modify_cb", 
+                "nl_cli_link_alloc_cache", 
+                "__stack_chk_fail", 
+                "__fdelt_chk", 
+                "nfnl_log_str2copy_mode", 
+                "nl_recvmsgs_default", 
+                "nl_cli_fatal", 
+                "nl_str2af", 
+                "nfnl_log_pf_unbind", 
+                "_ITM_registerTMCloneTable", 
+                "__libc_start_main", 
+                "_Jv_RegisterClasses", 
+                "nfnl_log_set_copy_mode", 
+                "strtol", 
+                "nfnl_log_alloc", 
+                "nl_cli_connect", 
+                "nfnl_log_create"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nf-log"
+        }, 
+        "usr/bin/nl-addr-add": {
+            "report-functions": [
+                "exit", 
+                "__gmon_start__", 
+                "nl_cli_addr_parse_valid", 
+                "nl_cli_addr_parse_broadcast", 
+                "nl_cli_addr_parse_peer", 
+                "nl_cli_addr_parse_family", 
+                "nl_cli_addr_parse_label", 
+                "__stack_chk_fail", 
+                "nl_cli_connect", 
+                "nl_object_dump", 
+                "nl_cli_link_alloc_cache", 
+                "nl_geterror", 
+                "nl_cli_addr_alloc", 
+                "__libc_start_main", 
+                "_ITM_registerTMCloneTable", 
+                "_Jv_RegisterClasses", 
+                "rtnl_addr_add", 
+                "nl_cli_addr_parse_preferred", 
+                "nl_cli_alloc_socket", 
+                "nl_cli_print_version", 
+                "puts", 
+                "nl_cli_addr_parse_dev", 
+                "nl_cli_addr_parse_scope", 
+                "nl_cli_addr_parse_local", 
+                "__printf_chk", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nl-addr-add"
+        }, 
+        "usr/bin/idiag-socket-details": {
+            "report-functions": [
+                "nl_cli_alloc_socket", 
+                "__libc_start_main", 
+                "nl_geterror", 
+                "_ITM_registerTMCloneTable", 
+                "nl_cache_dump_filter", 
+                "_Jv_RegisterClasses", 
+                "nl_cli_connect", 
+                "nl_cache_free", 
+                "nl_cli_print_version", 
+                "idiagnl_msg_alloc_cache", 
+                "nl_cache_mngt_unprovide", 
+                "_ITM_deregisterTMCloneTable", 
+                "exit", 
+                "nl_cli_fatal", 
+                "getopt_long", 
+                "puts", 
+                "__gmon_start__", 
+                "nl_cache_mngt_provide"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/idiag-socket-details"
+        }, 
+        "usr/bin/nl-neigh-delete": {
+            "report-functions": [
+                "exit", 
+                "nl_geterror", 
+                "__gmon_start__", 
+                "nl_cli_neigh_parse_dev", 
+                "nl_cli_alloc_cache_flags", 
+                "nl_cli_neigh_parse_state", 
+                "nl_cli_fatal", 
+                "__stack_chk_fail", 
+                "nl_cli_confirm", 
+                "nl_cache_foreach_filter", 
+                "_Jv_RegisterClasses", 
+                "__libc_start_main", 
+                "_ITM_registerTMCloneTable", 
+                "nl_cli_neigh_parse_lladdr", 
+                "nl_cli_link_alloc_cache", 
+                "getopt_long", 
+                "nl_cli_neigh_parse_family", 
+                "nl_cli_neigh_alloc", 
+                "rtnl_neigh_delete", 
+                "nl_cli_print_version", 
+                "nl_cli_alloc_socket", 
+                "nl_cli_neigh_parse_dst", 
+                "nl_cli_connect", 
+                "rtnl_neigh_alloc_cache_flags", 
+                "puts", 
+                "__printf_chk"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nl-neigh-delete"
+        }, 
+        "usr/bin/nl-link-enslave": {
+            "report-functions": [
+                "nl_cli_connect", 
+                "__libc_start_main", 
+                "__gmon_start__", 
+                "nl_cli_alloc_socket", 
+                "nl_geterror", 
+                "fwrite", 
+                "rtnl_link_bond_enslave", 
+                "_ITM_deregisterTMCloneTable", 
+                "rtnl_link_get_by_name", 
+                "__fprintf_chk", 
+                "nl_cli_link_alloc_cache"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nl-link-enslave"
+        }, 
+        "usr/lib/libnl/cli/qdisc/fq_codel_so": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "rtnl_qdisc_fq_codel_set_interval", 
+                "_ITM_registerTMCloneTable", 
+                "_Jv_RegisterClasses", 
+                "_ITM_deregisterTMCloneTable", 
+                "puts", 
+                "nl_cli_parse_u32", 
+                "nl_cli_tc_register", 
+                "rtnl_qdisc_fq_codel_set_quantum", 
+                "nl_cli_tc_unregister", 
+                "rtnl_qdisc_fq_codel_set_flows", 
+                "rtnl_qdisc_fq_codel_set_target", 
+                "__gmon_start__", 
+                "rtnl_qdisc_fq_codel_set_limit"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libnl/cli/qdisc/fq_codel.so"
+        }, 
+        "usr/bin/nl-class-add": {
+            "report-functions": [
+                "nl_cli_link_alloc_cache", 
+                "nl_cli_tc_parse_overhead", 
+                "nl_cli_tc_parse_mtu", 
+                "rtnl_tc_set_kind", 
+                "__gmon_start__", 
+                "getopt_long", 
+                "__printf_chk", 
+                "puts", 
+                "_ITM_registerTMCloneTable", 
+                "nl_cli_tc_parse_mpu", 
+                "__stack_chk_fail", 
+                "nl_cli_tc_lookup", 
+                "nl_cli_tc_parse_parent", 
+                "__strdup", 
+                "rtnl_class_add", 
+                "exit", 
+                "rtnl_tc_get_ifindex", 
+                "_Jv_RegisterClasses", 
+                "nl_cli_tc_parse_dev", 
+                "_ITM_deregisterTMCloneTable", 
+                "rtnl_tc_get_ops", 
+                "nl_cli_connect", 
+                "nl_cli_tc_parse_handle", 
+                "rtnl_tc_get_parent", 
+                "nl_geterror", 
+                "free", 
+                "nl_cli_alloc_socket", 
+                "nl_cli_print_version", 
+                "__libc_start_main", 
+                "nl_cli_tc_parse_linktype", 
+                "nl_object_dump"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nl-class-add"
+        }, 
+        "usr/bin/nl-cls-list": {
+            "report-functions": [
+                "nl_cli_tc_parse_handle", 
+                "__gmon_start__", 
+                "rtnl_tc_get_ifindex", 
+                "__libc_start_main", 
+                "nl_cli_tc_parse_dev", 
+                "nl_cli_tc_parse_parent", 
+                "nl_cli_tc_parse_kind", 
+                "nl_cli_print_version", 
+                "_Jv_RegisterClasses", 
+                "nl_cli_link_alloc_cache", 
+                "nl_cli_connect", 
+                "nl_cli_alloc_socket", 
+                "exit", 
+                "rtnl_cls_set_prio", 
+                "rtnl_tc_get_parent", 
+                "nl_cache_free", 
+                "rtnl_link_get_ifindex", 
+                "nl_cli_cls_alloc", 
+                "_ITM_registerTMCloneTable", 
+                "nl_cache_dump_filter", 
+                "getopt_long", 
+                "_ITM_deregisterTMCloneTable", 
+                "nl_cache_foreach", 
+                "puts", 
+                "__stack_chk_fail", 
+                "nl_cli_cls_alloc_cache"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nl-cls-list"
+        }, 
+        "usr/bin/nl-addr-delete": {
+            "report-functions": [
+                "rtnl_addr_delete", 
+                "nl_cli_addr_parse_dev", 
+                "_Jv_RegisterClasses", 
+                "nl_cli_addr_parse_scope", 
+                "getopt_long", 
+                "nl_cli_alloc_cache", 
+                "__printf_chk", 
+                "_ITM_registerTMCloneTable", 
+                "nl_cli_addr_parse_valid", 
+                "nl_cli_connect", 
+                "__libc_start_main", 
+                "nl_cli_addr_parse_family", 
+                "rtnl_addr_alloc_cache", 
+                "nl_object_dump", 
+                "nl_cli_addr_parse_local", 
+                "nl_cli_addr_parse_broadcast", 
+                "nl_cli_print_version", 
+                "nl_cli_addr_parse_peer", 
+                "nl_cli_confirm", 
+                "exit", 
+                "nl_geterror", 
+                "nl_cli_addr_alloc", 
+                "nl_cli_link_alloc_cache", 
+                "nl_cli_addr_parse_label", 
+                "nl_cli_fatal", 
+                "nl_cache_foreach_filter", 
+                "_ITM_deregisterTMCloneTable", 
+                "nl_cli_alloc_socket", 
+                "nl_cli_addr_parse_preferred", 
+                "__gmon_start__"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nl-addr-delete"
+        }, 
+        "usr/bin/nf-monitor": {
+            "report-functions": [
+                "strcmp", 
+                "nl_recvmsgs_default", 
+                "_ITM_deregisterTMCloneTable", 
+                "strcasecmp", 
+                "nl_socket_modify_cb", 
+                "__stack_chk_fail", 
+                "puts", 
+                "__libc_start_main", 
+                "__printf_chk", 
+                "nl_socket_get_fd", 
+                "nl_cli_alloc_socket", 
+                "nl_cli_fatal", 
+                "select", 
+                "nl_geterror", 
+                "fwrite", 
+                "nl_msg_parse", 
+                "nl_object_dump", 
+                "putchar", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "_Jv_RegisterClasses", 
+                "nl_socket_add_membership", 
+                "nl_socket_disable_seq_check"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nf-monitor"
+        }, 
+        "usr/lib/libnl/cli/qdisc/pfifo_so": {
+            "report-functions": [
+                "nl_cli_tc_unregister", 
+                "nl_cli_parse_u32", 
+                "__stack_chk_fail", 
+                "puts", 
+                "_Jv_RegisterClasses", 
+                "__gmon_start__", 
+                "getopt_long", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libnl/cli/qdisc/pfifo.so"
+        }, 
+        "usr/bin/nl-neigh-add": {
+            "report-functions": [
+                "nl_cli_alloc_socket", 
+                "nl_geterror", 
+                "nl_cli_print_version", 
+                "__printf_chk", 
+                "nl_cli_neigh_parse_lladdr", 
+                "nl_cli_link_alloc_cache", 
+                "_ITM_registerTMCloneTable", 
+                "exit", 
+                "nl_cli_neigh_parse_dst", 
+                "rtnl_neigh_add", 
+                "nl_object_dump", 
+                "nl_cli_connect", 
+                "__gmon_start__", 
+                "nl_cli_fatal", 
+                "_ITM_deregisterTMCloneTable", 
+                "nl_cli_neigh_alloc", 
+                "getopt_long", 
+                "__libc_start_main", 
+                "nl_cli_neigh_parse_state", 
+                "puts", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nl-neigh-add"
+        }, 
+        "usr/bin/nl-qdisc-add": {
+            "report-functions": [
+                "rtnl_tc_get_ifindex", 
+                "_ITM_deregisterTMCloneTable", 
+                "rtnl_tc_get_ops", 
+                "nl_cli_tc_parse_parent", 
+                "free", 
+                "exit", 
+                "rtnl_tc_set_kind", 
+                "__strdup", 
+                "__stack_chk_fail", 
+                "nl_cli_connect", 
+                "__gmon_start__", 
+                "nl_geterror", 
+                "_Jv_RegisterClasses", 
+                "getopt_long", 
+                "_ITM_registerTMCloneTable", 
+                "__printf_chk", 
+                "nl_cli_print_version", 
+                "nl_cli_alloc_socket", 
+                "nl_object_dump", 
+                "puts", 
+                "nl_cli_tc_parse_dev", 
+                "__libc_start_main", 
+                "nl_cli_qdisc_alloc", 
+                "rtnl_qdisc_add", 
+                "nl_cli_link_alloc_cache", 
+                "nl_cli_fatal", 
+                "rtnl_tc_get_parent"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nl-qdisc-add"
+        }, 
+        "usr/sbin/nl-link-list": {
+            "report-functions": [
+                "__libc_start_main", 
+                "nl_cli_connect", 
+                "nl_cli_link_parse_family", 
+                "nl_cli_print_version", 
+                "exit", 
+                "__gmon_start__", 
+                "nl_cli_link_alloc", 
+                "puts", 
+                "nl_cli_link_parse_txqlen", 
+                "_ITM_registerTMCloneTable", 
+                "rtnl_link_get_family", 
+                "_ITM_deregisterTMCloneTable", 
+                "nl_cli_link_parse_ifindex", 
+                "nl_cli_link_alloc_cache_family", 
+                "getopt_long", 
+                "nl_cli_link_parse_weight", 
+                "nl_cli_alloc_socket", 
+                "_Jv_RegisterClasses", 
+                "nl_cli_link_parse_mtu", 
+                "nl_cache_dump_filter"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/sbin/nl-link-list"
+        }, 
+        "usr/sbin/genl-ctrl-list": {
+            "report-functions": [
+                "nl_cache_dump", 
+                "nl_cli_parse_dumptype", 
+                "puts", 
+                "nl_cli_print_version", 
+                "nl_cli_alloc_socket", 
+                "exit", 
+                "nl_cli_connect", 
+                "genl_ctrl_alloc_cache", 
+                "_ITM_registerTMCloneTable", 
+                "_ITM_deregisterTMCloneTable", 
+                "_Jv_RegisterClasses", 
+                "nl_cli_alloc_cache", 
+                "__stack_chk_fail", 
+                "__gmon_start__"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/sbin/genl-ctrl-list"
+        }, 
+        "usr/lib/libnl/cli/qdisc/bfifo_so": {
+            "report-functions": [
+                "nl_cli_tc_register", 
+                "puts", 
+                "nl_cli_fatal", 
+                "getopt_long", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable", 
+                "rtnl_qdisc_fifo_set_limit", 
+                "_Jv_RegisterClasses", 
+                "__cxa_finalize", 
+                "nl_size2int", 
+                "nl_cli_tc_unregister"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libnl/cli/qdisc/bfifo.so"
+        }, 
+        "usr/lib/libnl/cli/cls/cgroup_so": {
+            "report-functions": [
+                "__cxa_finalize", 
+                "getopt_long", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable", 
+                "nl_cli_tc_register", 
+                "exit", 
+                "puts", 
+                "nl_cli_cls_parse_ematch", 
+                "__stack_chk_fail", 
+                "_Jv_RegisterClasses", 
+                "rtnl_cgroup_set_ematch"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libnl/cli/cls/cgroup.so"
+        }, 
+        "usr/lib/libnl/cli/qdisc/blackhole_so": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "nl_cli_tc_register", 
+                "__cxa_finalize", 
+                "nl_cli_tc_unregister", 
+                "__stack_chk_fail", 
+                "_ITM_registerTMCloneTable", 
+                "_Jv_RegisterClasses", 
+                "getopt_long"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libnl/cli/qdisc/blackhole.so"
+        }, 
+        "usr/bin/nl-neightbl-list": {
+            "report-functions": [
+                "nl_cli_print_version", 
+                "nl_cli_parse_dumptype", 
+                "nl_cli_alloc_cache", 
+                "__gmon_start__", 
+                "__stack_chk_fail", 
+                "exit", 
+                "getopt_long", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable", 
+                "nl_cli_alloc_socket", 
+                "nl_cli_link_alloc_cache", 
+                "_Jv_RegisterClasses", 
+                "puts", 
+                "nl_cache_dump", 
+                "__libc_start_main"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nl-neightbl-list"
+        }, 
+        "usr/bin/nl-neigh-list": {
+            "report-functions": [
+                "nl_cli_alloc_cache_flags", 
+                "nl_cli_connect", 
+                "_ITM_registerTMCloneTable", 
+                "__libc_start_main", 
+                "rtnl_neigh_alloc_cache_flags", 
+                "nl_cli_alloc_socket", 
+                "_ITM_deregisterTMCloneTable", 
+                "nl_cli_print_version", 
+                "nl_cli_neigh_parse_dev", 
+                "nl_cli_neigh_parse_state", 
+                "nl_cli_neigh_alloc", 
+                "nl_cli_parse_dumptype", 
+                "puts", 
+                "_Jv_RegisterClasses", 
+                "nl_cli_link_alloc_cache_flags", 
+                "__gmon_start__", 
+                "nl_cli_neigh_parse_family", 
+                "__stack_chk_fail", 
+                "getopt_long", 
+                "nl_cli_neigh_parse_dst", 
+                "exit"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nl-neigh-list"
+        }, 
+        "usr/sbin/nl-cls-add": {
+            "report-functions": [
+                "exit", 
+                "rtnl_tc_get_ifindex", 
+                "free", 
+                "nl_cli_link_alloc_cache", 
+                "nl_cli_tc_lookup", 
+                "nl_cli_print_version", 
+                "rtnl_tc_get_parent", 
+                "nl_cli_cls_alloc", 
+                "__printf_chk", 
+                "rtnl_cls_add", 
+                "__gmon_start__", 
+                "__strdup", 
+                "_Jv_RegisterClasses", 
+                "nl_cli_alloc_socket", 
+                "nl_cli_tc_parse_overhead", 
+                "nl_cli_fatal", 
+                "nl_cli_tc_parse_mpu", 
+                "getopt_long", 
+                "nl_object_dump", 
+                "_ITM_deregisterTMCloneTable", 
+                "nl_cli_tc_parse_dev", 
+                "_ITM_registerTMCloneTable", 
+                "nl_cli_parse_u32", 
+                "nl_cli_cls_parse_proto", 
+                "rtnl_tc_set_kind", 
+                "nl_cli_connect", 
+                "nl_geterror", 
+                "puts", 
+                "rtnl_tc_get_ops", 
+                "nl_cli_tc_parse_parent", 
+                "nl_cli_tc_parse_linktype", 
+                "nl_cli_tc_parse_mtu", 
+                "nl_cli_tc_parse_handle", 
+                "rtnl_cls_set_prio"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/sbin/nl-cls-add"
+        }, 
+        "usr/bin/nl-cls-delete": {
+            "report-functions": [
+                "nl_cache_foreach_filter", 
+                "rtnl_link_get_ifindex", 
+                "nl_cli_print_version", 
+                "nl_cli_tc_parse_kind", 
+                "nl_cli_tc_parse_dev", 
+                "nl_cli_cls_alloc_cache", 
+                "puts", 
+                "nl_cache_foreach", 
+                "nl_geterror", 
+                "nl_cli_tc_parse_parent", 
+                "__printf_chk", 
+                "rtnl_tc_get_parent", 
+                "rtnl_tc_get_ifindex", 
+                "__gmon_start__", 
+                "rtnl_cls_set_prio", 
+                "nl_cli_cls_alloc", 
+                "nl_cli_parse_u32", 
+                "nl_object_dump", 
+                "__stack_chk_fail", 
+                "exit", 
+                "nl_cli_alloc_socket", 
+                "_Jv_RegisterClasses", 
+                "__libc_start_main", 
+                "nl_cli_fatal", 
+                "nl_cli_connect", 
+                "nl_cli_cls_parse_proto", 
+                "nl_cli_link_alloc_cache", 
+                "_ITM_deregisterTMCloneTable", 
+                "nl_cli_tc_parse_handle", 
+                "nl_cli_confirm", 
+                "rtnl_cls_delete", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nl-cls-delete"
+        }, 
+        "usr/bin/nl-pktloc-lookup": {
+            "report-functions": [
+                "getopt_long", 
+                "rtnl_pktloc_foreach", 
+                "__stack_chk_fail", 
+                "_Jv_RegisterClasses", 
+                "nl_cli_parse_u32", 
+                "rtnl_pktloc_lookup", 
+                "puts", 
+                "__snprintf_chk", 
+                "__strcpy_chk", 
+                "exit", 
+                "nl_geterror", 
+                "__printf_chk", 
+                "_ITM_registerTMCloneTable", 
+                "nl_cli_print_version", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nl-pktloc-lookup"
+        }, 
+        "usr/bin/nl-cls-add": {
+            "report-functions": [
+                "nl_cli_fatal", 
+                "__printf_chk", 
+                "nl_cli_tc_lookup", 
+                "nl_cli_print_version", 
+                "nl_geterror", 
+                "puts", 
+                "__gmon_start__", 
+                "rtnl_tc_get_ops", 
+                "nl_cli_connect", 
+                "rtnl_tc_get_parent", 
+                "exit", 
+                "rtnl_tc_get_ifindex", 
+                "rtnl_cls_add", 
+                "__stack_chk_fail", 
+                "_ITM_registerTMCloneTable", 
+                "nl_cli_tc_parse_overhead", 
+                "rtnl_cls_set_prio", 
+                "free", 
+                "nl_object_dump", 
+                "nl_cli_tc_parse_mpu", 
+                "nl_cli_tc_parse_handle", 
+                "nl_cli_cls_parse_proto", 
+                "__libc_start_main", 
+                "__strdup", 
+                "nl_cli_alloc_socket", 
+                "nl_cli_link_alloc_cache", 
+                "nl_cli_tc_parse_dev", 
+                "getopt_long", 
+                "nl_cli_tc_parse_mtu", 
+                "nl_cli_cls_alloc", 
+                "_Jv_RegisterClasses", 
+                "nl_cli_parse_u32", 
+                "_ITM_deregisterTMCloneTable", 
+                "rtnl_tc_set_kind"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nl-cls-add"
+        }, 
+        "usr/lib/libnl/cli/qdisc/ingress_so": {
+            "report-functions": [
+                "__gmon_start__", 
+                "_Jv_RegisterClasses", 
+                "getopt_long", 
+                "_ITM_deregisterTMCloneTable", 
+                "nl_cli_tc_unregister", 
+                "puts", 
+                "__stack_chk_fail", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libnl/cli/qdisc/ingress.so"
+        }, 
+        "usr/bin/nl-tctree-list": {
+            "report-functions": [
+                "nl_cli_alloc_socket", 
+                "rtnl_qdisc_alloc_cache", 
+                "rtnl_cls_alloc_cache", 
+                "nl_cli_alloc_cache", 
+                "nl_cache_foreach", 
+                "rtnl_tc_get_ifindex", 
+                "__stack_chk_fail", 
+                "_ITM_deregisterTMCloneTable", 
+                "rtnl_class_leaf_qdisc", 
+                "nl_cli_connect", 
+                "rtnl_class_alloc_cache", 
+                "__libc_start_main", 
+                "rtnl_link_get_ifindex", 
+                "_ITM_registerTMCloneTable", 
+                "nl_cache_dump", 
+                "getopt_long", 
+                "exit", 
+                "nl_cache_free", 
+                "nl_cache_foreach_filter", 
+                "_Jv_RegisterClasses", 
+                "__gmon_start__", 
+                "nl_object_dump", 
+                "rtnl_class_put", 
+                "rtnl_qdisc_put", 
+                "nl_cli_class_alloc", 
+                "nl_cli_print_version", 
+                "puts", 
+                "rtnl_tc_set_ifindex", 
+                "rtnl_tc_get_handle", 
+                "rtnl_tc_set_parent", 
+                "nl_cli_link_alloc_cache"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nl-tctree-list"
+        }, 
+        "usr/bin/nf-queue": {
+            "report-functions": [
+                "strcasecmp", 
+                "nl_socket_disable_seq_check", 
+                "nl_geterror", 
+                "nfnl_queue_str2copy_mode", 
+                "_ITM_deregisterTMCloneTable", 
+                "nl_cli_alloc_socket", 
+                "puts", 
+                "nl_socket_modify_cb", 
+                "nfnl_queue_set_copy_range", 
+                "__gmon_start__", 
+                "nfnl_queue_msg_send_verdict", 
+                "nl_str2af", 
+                "nfnl_queue_set_copy_mode", 
+                "nfnl_queue_create", 
+                "nfnl_queue_alloc", 
+                "select", 
+                "nl_cli_link_alloc_cache", 
+                "nfnl_queue_pf_unbind", 
+                "fwrite", 
+                "nl_object_dump", 
+                "nfnl_queue_pf_bind", 
+                "_Jv_RegisterClasses", 
+                "nfnl_queue_set_group", 
+                "nl_socket_get_fd", 
+                "__stack_chk_fail", 
+                "nl_recvmsgs_default", 
+                "strtol", 
+                "nl_cli_connect", 
+                "nfnl_queue_msg_set_verdict", 
+                "nl_msg_parse", 
+                "__fdelt_chk", 
+                "__libc_start_main", 
+                "nl_socket_set_buffer_size", 
+                "nl_cli_fatal"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nf-queue"
+        }, 
+        "usr/bin/nl-link-set": {
+            "report-functions": [
+                "strcmp", 
+                "nl_cli_link_parse_ifindex", 
+                "__gmon_start__", 
+                "__printf_chk", 
+                "nl_cli_print_version", 
+                "nl_cli_fatal", 
+                "rtnl_link_change", 
+                "exit", 
+                "nl_cli_link_parse_txqlen", 
+                "nl_cache_foreach_filter", 
+                "_ITM_deregisterTMCloneTable", 
+                "_Jv_RegisterClasses", 
+                "nl_cli_link_alloc", 
+                "nl_cli_link_parse_ifalias", 
+                "_ITM_registerTMCloneTable", 
+                "nl_cli_link_parse_weight", 
+                "nl_cli_link_parse_name", 
+                "__stack_chk_fail", 
+                "getopt_long", 
+                "nl_object_dump", 
+                "puts", 
+                "rtnl_link_set_flags", 
+                "nl_geterror", 
+                "rtnl_link_unset_flags", 
+                "nl_cli_alloc_socket", 
+                "__libc_start_main", 
+                "nl_cli_connect"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nl-link-set"
+        }, 
+        "usr/sbin/nl-cls-list": {
+            "report-functions": [
+                "__gmon_start__", 
+                "nl_cli_print_version", 
+                "_Jv_RegisterClasses", 
+                "rtnl_link_get_ifindex", 
+                "nl_cli_tc_parse_handle", 
+                "nl_cache_foreach", 
+                "nl_cli_tc_parse_kind", 
+                "__stack_chk_fail", 
+                "nl_cli_tc_parse_dev", 
+                "rtnl_tc_get_ifindex", 
+                "nl_cli_alloc_socket", 
+                "nl_cli_parse_u32", 
+                "_ITM_registerTMCloneTable", 
+                "nl_cache_free", 
+                "_ITM_deregisterTMCloneTable", 
+                "nl_cli_cls_parse_proto", 
+                "rtnl_cls_set_prio", 
+                "nl_cli_tc_parse_parent", 
+                "nl_cli_link_alloc_cache", 
+                "getopt_long", 
+                "__libc_start_main", 
+                "exit", 
+                "nl_cache_dump_filter", 
+                "rtnl_tc_get_parent", 
+                "puts", 
+                "nl_cli_cls_alloc_cache"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/sbin/nl-cls-list"
+        }, 
+        "usr/bin/nl-link-ifindex2name": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "exit", 
+                "__stack_chk_fail", 
+                "nl_cli_link_alloc_cache", 
+                "puts", 
+                "_Jv_RegisterClasses", 
+                "__gmon_start__", 
+                "nl_cli_parse_u32", 
+                "nl_cli_fatal", 
+                "_ITM_deregisterTMCloneTable", 
+                "rtnl_link_i2name", 
+                "__libc_start_main", 
+                "nl_cli_connect"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nl-link-ifindex2name"
+        }, 
+        "usr/bin/nl-route-list": {
+            "report-functions": [
+                "nl_cli_route_parse_prio", 
+                "nl_cli_alloc_socket", 
+                "__gmon_start__", 
+                "puts", 
+                "nl_cli_route_parse_family", 
+                "nl_cli_route_parse_type", 
+                "nl_cli_route_parse_protocol", 
+                "nl_cli_route_parse_table", 
+                "nl_cli_route_parse_pref_src", 
+                "exit", 
+                "nl_cli_connect", 
+                "_ITM_deregisterTMCloneTable", 
+                "nl_cli_route_alloc", 
+                "getopt_long", 
+                "nl_cache_dump_filter", 
+                "nl_cli_route_alloc_cache", 
+                "nl_cli_route_parse_scope", 
+                "__stack_chk_fail", 
+                "_ITM_registerTMCloneTable", 
+                "nl_cli_link_alloc_cache", 
+                "nl_cli_route_parse_iif", 
+                "nl_cli_parse_dumptype", 
+                "nl_cli_route_parse_metric", 
+                "nl_cli_print_version", 
+                "_Jv_RegisterClasses", 
+                "__libc_start_main", 
+                "nl_cli_route_parse_src"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nl-route-list"
+        }, 
+        "usr/lib/libnl/cli/cls/basic_so": {
+            "report-functions": [
+                "nl_cli_fatal", 
+                "nl_cli_cls_parse_ematch", 
+                "_Jv_RegisterClasses", 
+                "__cxa_finalize", 
+                "exit", 
+                "__stack_chk_fail", 
+                "_ITM_registerTMCloneTable", 
+                "puts", 
+                "__gmon_start__", 
+                "nl_cli_tc_unregister", 
+                "_ITM_deregisterTMCloneTable", 
+                "rtnl_basic_set_target", 
+                "rtnl_basic_set_ematch", 
+                "rtnl_tc_str2handle", 
+                "getopt_long"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libnl/cli/cls/basic.so"
+        }, 
+        "usr/bin/nl-list-caches": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "__printf_chk", 
+                "putchar", 
+                "puts", 
+                "strcasecmp", 
+                "_Jv_RegisterClasses", 
+                "nl_nlfamily2str", 
+                "fwrite", 
+                "__gmon_start__", 
+                "exit", 
+                "nl_cache_ops_foreach", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nl-list-caches"
+        }, 
+        "usr/sbin/nl-qdisc-add": {
+            "report-functions": [
+                "puts", 
+                "nl_cli_connect", 
+                "rtnl_tc_get_ops", 
+                "nl_geterror", 
+                "rtnl_tc_get_parent", 
+                "nl_cli_alloc_socket", 
+                "nl_cli_tc_parse_dev", 
+                "rtnl_tc_set_kind", 
+                "exit", 
+                "getopt_long", 
+                "nl_cli_qdisc_alloc", 
+                "rtnl_qdisc_add", 
+                "__libc_start_main", 
+                "__stack_chk_fail", 
+                "__printf_chk", 
+                "nl_object_dump", 
+                "__strdup", 
+                "nl_cli_tc_lookup", 
+                "nl_cli_fatal", 
+                "_ITM_deregisterTMCloneTable", 
+                "nl_cli_link_alloc_cache", 
+                "nl_cli_print_version", 
+                "__gmon_start__", 
+                "_Jv_RegisterClasses", 
+                "rtnl_tc_get_ifindex", 
+                "nl_cli_tc_parse_parent", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/sbin/nl-qdisc-add"
+        }, 
+        "usr/bin/nl-class-delete": {
+            "report-functions": [
+                "__gmon_start__", 
+                "rtnl_class_delete", 
+                "_ITM_deregisterTMCloneTable", 
+                "nl_cli_link_alloc_cache", 
+                "nl_cli_class_alloc_cache", 
+                "_Jv_RegisterClasses", 
+                "nl_cli_tc_parse_handle", 
+                "nl_cli_alloc_socket", 
+                "nl_geterror", 
+                "__printf_chk", 
+                "nl_cli_connect", 
+                "nl_cli_confirm", 
+                "nl_cli_class_alloc", 
+                "nl_cache_foreach_filter", 
+                "getopt_long", 
+                "nl_cli_fatal", 
+                "_ITM_registerTMCloneTable", 
+                "__libc_start_main", 
+                "rtnl_tc_get_ifindex", 
+                "nl_cli_tc_parse_parent", 
+                "puts", 
+                "nl_object_dump", 
+                "__stack_chk_fail", 
+                "nl_cli_tc_parse_kind", 
+                "nl_cli_tc_parse_dev"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nl-class-delete"
+        }, 
+        "usr/bin/nl-addr-list": {
+            "report-functions": [
+                "nl_cache_foreach_filter", 
+                "nl_cli_addr_parse_dev", 
+                "puts", 
+                "_Jv_RegisterClasses", 
+                "nl_cli_addr_parse_scope", 
+                "nl_cli_alloc_cache", 
+                "rtnl_addr_get_label", 
+                "nl_cli_addr_parse_valid", 
+                "rtnl_addr_get_ifindex", 
+                "nl_cli_connect", 
+                "rtnl_addr_get_broadcast", 
+                "nl_cache_mngt_require_safe", 
+                "rtnl_addr_get_scope", 
+                "rtnl_addr_flags2str", 
+                "rtnl_scope2str", 
+                "nl_cli_addr_alloc", 
+                "__libc_start_main", 
+                "__stack_chk_fail", 
+                "rtnl_link_i2name", 
+                "nl_cache_put", 
+                "rtnl_addr_get_valid_lifetime", 
+                "nl_dump", 
+                "nl_af2str", 
+                "nl_cli_addr_parse_preferred", 
+                "getopt_long", 
+                "_ITM_deregisterTMCloneTable", 
+                "__snprintf_chk", 
+                "__strdup", 
+                "nl_cli_addr_parse_label", 
+                "rtnl_addr_set_family", 
+                "nl_cache_dump_filter", 
+                "nl_cli_alloc_socket", 
+                "rtnl_addr_get_local", 
+                "nl_cli_print_version", 
+                "rtnl_addr_alloc_cache", 
+                "nl_dump_line", 
+                "nl_cli_addr_parse_peer", 
+                "rtnl_addr_get_flags", 
+                "nl_addr2str", 
+                "nl_cli_addr_parse_local", 
+                "nl_cli_link_alloc_cache", 
+                "nl_cli_addr_parse_broadcast", 
+                "exit", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "rtnl_addr_get_family"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nl-addr-list"
+        }, 
+        "usr/sbin/nl-qdisc-delete": {
+            "report-functions": [
+                "nl_cli_tc_parse_dev", 
+                "exit", 
+                "nl_cli_link_alloc_cache", 
+                "rtnl_qdisc_alloc_cache", 
+                "nl_cli_connect", 
+                "nl_cli_qdisc_alloc", 
+                "nl_cli_confirm", 
+                "puts", 
+                "getopt_long", 
+                "rtnl_tc_get_handle", 
+                "nl_cli_alloc_socket", 
+                "_ITM_deregisterTMCloneTable", 
+                "__libc_start_main", 
+                "nl_geterror", 
+                "__printf_chk", 
+                "_ITM_registerTMCloneTable", 
+                "nl_cli_tc_parse_handle", 
+                "nl_cli_alloc_cache", 
+                "nl_cli_fatal", 
+                "__stack_chk_fail", 
+                "nl_cli_print_version", 
+                "nl_cli_tc_parse_kind", 
+                "nl_cli_tc_parse_parent", 
+                "_Jv_RegisterClasses", 
+                "nl_cache_foreach_filter", 
+                "nl_object_dump"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/sbin/nl-qdisc-delete"
+        }, 
+        "usr/sbin/nl-pktloc-lookup": {
+            "report-functions": [
+                "rtnl_pktloc_foreach", 
+                "_Jv_RegisterClasses", 
+                "__gmon_start__", 
+                "__snprintf_chk", 
+                "rtnl_pktloc_lookup", 
+                "getopt_long", 
+                "_ITM_deregisterTMCloneTable", 
+                "__stack_chk_fail", 
+                "_ITM_registerTMCloneTable", 
+                "nl_cli_fatal", 
+                "__libc_start_main", 
+                "nl_geterror", 
+                "nl_cli_parse_u32", 
+                "__strcpy_chk", 
+                "nl_cli_print_version", 
+                "__printf_chk"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/sbin/nl-pktloc-lookup"
+        }, 
+        "usr/bin/nl-rule-list": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "__libc_start_main", 
+                "exit", 
+                "getopt_long", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "_Jv_RegisterClasses", 
+                "nl_cli_link_alloc_cache", 
+                "nl_cli_print_version", 
+                "nl_cache_dump_filter", 
+                "nl_cli_parse_dumptype", 
+                "nl_cli_rule_parse_family", 
+                "nl_cli_alloc_socket", 
+                "nl_cli_rule_alloc_cache", 
+                "puts", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nl-rule-list"
+        }, 
+        "usr/bin/nl-route-get": {
+            "report-functions": [
+                "nl_send_auto_complete", 
+                "_ITM_deregisterTMCloneTable", 
+                "exit", 
+                "nl_addr_get_family", 
+                "nl_cli_fatal", 
+                "_Jv_RegisterClasses", 
+                "nl_object_dump", 
+                "nlmsg_append", 
+                "_ITM_registerTMCloneTable", 
+                "nl_addr_get_prefixlen", 
+                "nlmsg_free", 
+                "nl_cli_connect", 
+                "nl_geterror", 
+                "nla_put_addr", 
+                "__gmon_start__", 
+                "nlmsg_alloc_simple", 
+                "nl_cli_alloc_socket", 
+                "nl_msg_parse", 
+                "__stack_chk_fail", 
+                "nl_socket_modify_cb", 
+                "nl_cli_link_alloc_cache", 
+                "puts", 
+                "nl_recvmsgs_default", 
+                "nl_cli_addr_parse"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nl-route-get"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 3.2.28", 
+            "Name": " libnl3-cli", 
+            "License": " LGPLv2", 
+            "URL": " http://www.infradead.org/~tgr/libnl/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-019.build.eng.bos.redhat.com", 
+            "Description": "\nThis package contains various libnl3 utils and additional\nlibraries on which they depend\n", 
+            "Build Date": " Fri 26 Aug 2016 11:27:33 AM EDT", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " libnl3-3.2.28-2.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/libnl3-cli-3.2.28-2.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 27 Sep 2016 04:25:24 AM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 2.el7", 
+            "Group": " Development/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " Command line interface utils for libnl3", 
+            "Size": " 600302"
+        }
+    }
+}

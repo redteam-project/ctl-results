@@ -1,0 +1,82 @@
+{
+    "results": {
+        "usr/lib/alsa-lib/libasound_module_pcm_usb_stream_so": {
+            "report-functions": [
+                "__fprintf_chk", 
+                "poll", 
+                "snd_config_get_id", 
+                "memset", 
+                "mmap", 
+                "_ITM_deregisterTMCloneTable", 
+                "snd_config_iterator_end", 
+                "snd_config_get_string", 
+                "__assert_fail", 
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "snd_config_iterator_next", 
+                "snd_pcm_ioplug_delete", 
+                "__stack_chk_fail", 
+                "snd_pcm_ioplug_set_param_minmax", 
+                "snd_hwdep_ioctl", 
+                "strlen", 
+                "snd_pcm_ioplug_set_param_list", 
+                "strcmp", 
+                "pthread_mutex_lock", 
+                "snd_config_get_type", 
+                "pthread_mutex_unlock", 
+                "snd_hwdep_close", 
+                "__strcpy_chk", 
+                "memcpy", 
+                "snd_config_iterator_entry", 
+                "perror", 
+                "snd_config_iterator_first", 
+                "_Jv_RegisterClasses", 
+                "__errno_location", 
+                "snd_pcm_ioplug_create", 
+                "free", 
+                "__snprintf_chk", 
+                "snd_hwdep_open", 
+                "snd_config_get_integer", 
+                "mremap", 
+                "snd_hwdep_poll_descriptors", 
+                "memcmp", 
+                "munmap"
+            ], 
+            "rpm": "alsa-plugins-usbstream-1.0.27-3.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: 'NoneType' object is not iterable"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/alsa-lib/libasound_module_pcm_usb_stream.so"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.0.27", 
+            "Name": " alsa-plugins-usbstream", 
+            "License": " LGPLv2+", 
+            "URL": " http://www.alsa-project.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-024.build.eng.bos.redhat.com", 
+            "Description": "\nThe usbstream plugin is for snd-usb-us122l driver. It converts PCM\nstream to USB specific stream.\n", 
+            "Build Date": " Wed 29 Jan 2014 06:59:03 AM EST", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " alsa-plugins-1.0.27-3.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/5/alsa-plugins-usbstream-1.0.27-3.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 01 Apr 2014 08:49:10 AM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 3.el7", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " USB stream plugin for ALSA", 
+            "Size": " 59390"
+        }
+    }
+}

@@ -1,0 +1,79 @@
+{
+    "results": {
+        "usr/lib/libcom_err_so_2_1": {
+            "report-functions": [
+                "free", 
+                "fputc", 
+                "strtoul", 
+                "__gmon_start__", 
+                "__vfprintf_chk", 
+                "fflush", 
+                "__cxa_finalize", 
+                "getuid", 
+                "fputs", 
+                "isatty", 
+                "prctl", 
+                "___tls_get_addr", 
+                "_ITM_registerTMCloneTable", 
+                "sem_wait", 
+                "getegid", 
+                "getenv", 
+                "strlen", 
+                "malloc", 
+                "_Jv_RegisterClasses", 
+                "getgid", 
+                "__stack_chk_fail", 
+                "fcntl", 
+                "__errno_location", 
+                "fopen", 
+                "strerror", 
+                "_ITM_deregisterTMCloneTable", 
+                "__fprintf_chk", 
+                "secure_getenv", 
+                "geteuid", 
+                "sem_init", 
+                "strncpy", 
+                "sem_destroy", 
+                "tcgetattr", 
+                "fileno", 
+                "fwrite", 
+                "sem_post"
+            ], 
+            "rpm": "libcom_err-1.42.9-9.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libcom_err.so.2.1"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.42.9", 
+            "Name": " libcom_err", 
+            "License": " MIT", 
+            "URL": " http://e2fsprogs.sourceforge.net/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-020.build.eng.bos.redhat.com", 
+            "Description": "\nThis is the common error description library, part of e2fsprogs.\n\nlibcom_err is an attempt to present a common error-handling mechanism.\n", 
+            "Build Date": " Mon 13 Jun 2016 11:24:38 AM EDT", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " e2fsprogs-1.42.9-9.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/libcom_err-1.42.9-9.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 19 Sep 2016 11:16:12 PM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 9.el7", 
+            "Group": " Development/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " Common error description library", 
+            "Size": " 59549"
+        }
+    }
+}

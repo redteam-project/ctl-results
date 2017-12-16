@@ -1,0 +1,102 @@
+{
+    "results": {
+        "usr/lib/alsa-lib/libasound_module_rate_speexrate_so": {
+            "report-functions": [
+                "speex_resampler_init_frac", 
+                "speex_resampler_process_interleaved_int", 
+                "__cxa_finalize", 
+                "__gmon_start__", 
+                "speex_resampler_destroy", 
+                "_ITM_registerTMCloneTable", 
+                "speex_resampler_get_ratio", 
+                "free", 
+                "speex_resampler_set_rate_frac", 
+                "_Jv_RegisterClasses", 
+                "calloc", 
+                "snd_output_printf", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "alsa-plugins-speex-1.0.27-3.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: 'NoneType' object is not iterable"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/alsa-lib/libasound_module_rate_speexrate.so"
+        }, 
+        "usr/lib/alsa-lib/libasound_module_pcm_speex_so": {
+            "report-functions": [
+                "snd_pcm_extplug_set_param_list", 
+                "memset", 
+                "snd_config_get_ireal", 
+                "_ITM_deregisterTMCloneTable", 
+                "snd_config_get_id", 
+                "speex_preprocess_run", 
+                "_ITM_registerTMCloneTable", 
+                "snd_config_iterator_entry", 
+                "snd_config_iterator_first", 
+                "memcpy", 
+                "snd_config_get_bool", 
+                "snd_config_iterator_end", 
+                "speex_echo_ctl", 
+                "snd_config_iterator_next", 
+                "strcmp", 
+                "snd_pcm_extplug_create", 
+                "speex_preprocess_state_init", 
+                "free", 
+                "speex_echo_state_destroy", 
+                "_Jv_RegisterClasses", 
+                "__gmon_start__", 
+                "speex_preprocess_ctl", 
+                "__stack_chk_fail", 
+                "malloc", 
+                "snd_pcm_extplug_set_slave_param_list", 
+                "speex_echo_capture", 
+                "calloc", 
+                "snd_config_get_integer", 
+                "speex_echo_state_init", 
+                "speex_preprocess_state_destroy"
+            ], 
+            "rpm": "alsa-plugins-speex-1.0.27-3.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: 'NoneType' object is not iterable"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/alsa-lib/libasound_module_pcm_speex.so"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.0.27", 
+            "Name": " alsa-plugins-speex", 
+            "License": " LGPLv2+", 
+            "URL": " http://www.alsa-project.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-024.build.eng.bos.redhat.com", 
+            "Description": "\nThe rate plugin is an external rate converter using the Speex resampler\n(aka Public Parrot Hack) by Jean-Marc Valin. The pcm plugin provides\npre-processing of a mono stream like denoise using libspeex DSP API.\n", 
+            "Build Date": " Wed 29 Jan 2014 06:59:03 AM EST", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " alsa-plugins-1.0.27-3.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/5/alsa-plugins-speex-1.0.27-3.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 01 Apr 2014 08:49:05 AM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 3.el7", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " Rate Converter Plugin Using Speex Resampler", 
+            "Size": " 68050"
+        }
+    }
+}

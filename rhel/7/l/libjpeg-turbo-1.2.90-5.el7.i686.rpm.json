@@ -1,0 +1,60 @@
+{
+    "results": {
+        "usr/lib/libjpeg_so_62_1_0": {
+            "report-functions": [
+                "fflush", 
+                "malloc", 
+                "fread", 
+                "__gmon_start__", 
+                "__fprintf_chk", 
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable", 
+                "_Jv_RegisterClasses", 
+                "__sprintf_chk", 
+                "__stack_chk_fail", 
+                "exit", 
+                "free", 
+                "fwrite", 
+                "__isoc99_sscanf", 
+                "ferror", 
+                "_ITM_deregisterTMCloneTable", 
+                "memset"
+            ], 
+            "rpm": "libjpeg-turbo-1.2.90-5.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libjpeg.so.62.1.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.2.90", 
+            "Name": " libjpeg-turbo", 
+            "License": " IJG", 
+            "URL": " http://sourceforge.net/projects/libjpeg-turbo", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-025.build.eng.bos.redhat.com", 
+            "Description": "\nThe libjpeg-turbo package contains a library of functions for manipulating\nJPEG images.\n", 
+            "Build Date": " Sun 26 Jan 2014 06:57:53 AM EST", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " libjpeg-turbo-1.2.90-5.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/libjpeg-turbo-1.2.90-5.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 01 Apr 2014 05:17:38 PM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 5.el7", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " A MMX/SSE2 accelerated library for manipulating JPEG image files", 
+            "Size": " 370123"
+        }
+    }
+}

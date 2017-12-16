@@ -1,0 +1,70 @@
+{
+    "results": {
+        "usr/lib/libart_lgpl_2_so_2_3_21": {
+            "report-functions": [
+                "free", 
+                "atan2", 
+                "_ITM_registerTMCloneTable", 
+                "pow", 
+                "ceil", 
+                "fwrite", 
+                "exit", 
+                "floor", 
+                "qsort", 
+                "rand", 
+                "__vfprintf_chk", 
+                "memmove", 
+                "__printf_chk", 
+                "memcpy", 
+                "tan", 
+                "hypot", 
+                "_Jv_RegisterClasses", 
+                "__gmon_start__", 
+                "__sprintf_chk", 
+                "_ITM_deregisterTMCloneTable", 
+                "puts", 
+                "__stack_chk_fail", 
+                "sqrt", 
+                "__cxa_finalize", 
+                "__assert_fail", 
+                "malloc", 
+                "realloc"
+            ], 
+            "rpm": "libart_lgpl-2.3.21-9.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libart_lgpl_2.so.2.3.21"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 2.3.21", 
+            "Name": " libart_lgpl", 
+            "License": " LGPLv2+", 
+            "URL": " http://www.gnome.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-019.build.eng.bos.redhat.com", 
+            "Description": "\nGraphics routines used by the GnomeCanvas widget and some other\napplications. libart renders vector paths and the like.\n", 
+            "Build Date": " Sun 26 Jan 2014 05:28:26 AM EST", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " libart_lgpl-2.3.21-9.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/libart_lgpl-2.3.21-9.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 01 Apr 2014 04:22:08 PM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 9.el7", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " Library of graphics routines used by libgnomecanvas", 
+            "Size": " 133272"
+        }
+    }
+}

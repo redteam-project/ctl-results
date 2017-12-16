@@ -1,0 +1,90 @@
+{
+    "results": {
+        "usr/lib/libmthca-rdmav2_so": {
+            "report-functions": [
+                "ibv_cmd_modify_qp", 
+                "ibv_cmd_dealloc_pd", 
+                "ibv_cmd_attach_mcast", 
+                "pthread_mutex_lock", 
+                "ibv_cmd_detach_mcast", 
+                "calloc", 
+                "pthread_spin_lock", 
+                "__stack_chk_fail", 
+                "pthread_mutex_init", 
+                "sysconf", 
+                "free", 
+                "ibv_cmd_destroy_cq", 
+                "__gmon_start__", 
+                "sscanf", 
+                "memcpy", 
+                "munmap", 
+                "ibv_cmd_resize_cq", 
+                "_ITM_deregisterTMCloneTable", 
+                "ibv_cmd_create_cq", 
+                "ibv_register_driver", 
+                "ibv_dontfork_range", 
+                "ibv_cmd_destroy_srq", 
+                "ibv_cmd_modify_srq", 
+                "ibv_cmd_alloc_pd", 
+                "pthread_spin_unlock", 
+                "ibv_cmd_destroy_qp", 
+                "pthread_spin_init", 
+                "ibv_cmd_reg_mr", 
+                "malloc", 
+                "__errno_location", 
+                "mmap", 
+                "ibv_cmd_create_qp", 
+                "pthread_mutex_unlock", 
+                "__cxa_finalize", 
+                "__printf_chk", 
+                "__snprintf_chk", 
+                "ibv_cmd_query_port", 
+                "_Jv_RegisterClasses", 
+                "ibv_cmd_query_srq", 
+                "ibv_cmd_query_device", 
+                "__fprintf_chk", 
+                "memset", 
+                "ibv_cmd_dereg_mr", 
+                "_ITM_registerTMCloneTable", 
+                "ibv_cmd_get_context", 
+                "ibv_dofork_range", 
+                "ibv_read_sysfs_file"
+            ], 
+            "rpm": "libmthca-1.0.6-12.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libmthca-rdmav2.so"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.0.6", 
+            "Name": " libmthca", 
+            "License": " GPLv2 or BSD", 
+            "URL": " http://www.openfabrics.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-017.build.eng.bos.redhat.com", 
+            "Description": "\nlibmthca provides a device-specific userspace driver for Mellanox HCAs\n(MT23108 InfiniHost and MT25208 InfiniHost III Ex) for use with the\nlibibverbs library.\n", 
+            "Build Date": " Tue 23 Dec 2014 08:10:56 PM EST", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " libmthca-1.0.6-12.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/libmthca-1.0.6-12.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 31 Jan 2015 01:17:14 AM EST, Key ID 199e2f91fd431d51", 
+            "Release": " 12.el7", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " Mellanox InfiniBand HCA Userspace Driver", 
+            "Size": " 71925"
+        }
+    }
+}

@@ -1,0 +1,92 @@
+{
+    "results": {
+        "usr/lib/liblcms2_so_2_0_5": {
+            "report-functions": [
+                "strcpy", 
+                "toupper", 
+                "__assert_fail", 
+                "cos", 
+                "exp", 
+                "ceil", 
+                "__ctype_b_loc", 
+                "trunc", 
+                "__cxa_finalize", 
+                "__gmon_start__", 
+                "log10", 
+                "gmtime", 
+                "atan2", 
+                "memcmp", 
+                "fgetc", 
+                "fopen", 
+                "malloc", 
+                "time", 
+                "ftell", 
+                "memmove", 
+                "__isoc99_sscanf", 
+                "fseek", 
+                "fread", 
+                "sin", 
+                "remove", 
+                "ctime", 
+                "atoi", 
+                "memcpy", 
+                "strspn", 
+                "strchr", 
+                "memset", 
+                "atan", 
+                "strncpy", 
+                "free", 
+                "floor", 
+                "_ITM_registerTMCloneTable", 
+                "fwrite", 
+                "pow", 
+                "sqrt", 
+                "feof", 
+                "strcat", 
+                "log", 
+                "sprintf", 
+                "fclose", 
+                "realloc", 
+                "_Jv_RegisterClasses", 
+                "_ITM_deregisterTMCloneTable", 
+                "snprintf", 
+                "strrchr"
+            ], 
+            "rpm": "lcms2-2.5-4.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/liblcms2.so.2.0.5"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 2.5", 
+            "Name": " lcms2", 
+            "License": " MIT", 
+            "URL": " http://www.littlecms.com/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-020.build.eng.bos.redhat.com", 
+            "Description": "\nLittleCMS intends to be a small-footprint, speed optimized color management\nengine in open source form. LCMS2 is the current version of LCMS, and can be\nparallel installed with the original (deprecated) lcms.\n", 
+            "Build Date": " Sun 26 Jan 2014 05:17:49 AM EST", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " lcms2-2.5-4.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/lcms2-2.5-4.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 01 Apr 2014 04:01:51 PM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 4.el7", 
+            "Group": " Unspecified", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " Color Management Engine", 
+            "Size": " 385019"
+        }
+    }
+}

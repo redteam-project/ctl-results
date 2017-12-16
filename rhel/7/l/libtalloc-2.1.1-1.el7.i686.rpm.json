@@ -1,0 +1,67 @@
+{
+    "results": {
+        "usr/lib/libtalloc_so_2_1_1": {
+            "report-functions": [
+                "__fprintf_chk", 
+                "fwrite", 
+                "abort", 
+                "memset", 
+                "fputs", 
+                "__errno_location", 
+                "_ITM_deregisterTMCloneTable", 
+                "__stack_chk_fail", 
+                "fflush", 
+                "strnlen", 
+                "getenv", 
+                "strtoul", 
+                "__cxa_atexit", 
+                "getsockopt", 
+                "memmove", 
+                "strcmp", 
+                "memcpy", 
+                "malloc", 
+                "_ITM_registerTMCloneTable", 
+                "free", 
+                "_Jv_RegisterClasses", 
+                "__vsnprintf_chk", 
+                "__gmon_start__", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "libtalloc-2.1.1-1.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libtalloc.so.2.1.1"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 2.1.1", 
+            "Name": " libtalloc", 
+            "License": " LGPLv3+", 
+            "URL": " http://talloc.samba.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-024.build.eng.bos.redhat.com", 
+            "Description": "\nA library that implements a hierarchical allocator with destructors.\n", 
+            "Build Date": " Fri 05 Sep 2014 04:16:47 AM EDT", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " libtalloc-2.1.1-1.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/libtalloc-2.1.1-1.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Wed 14 Jan 2015 06:48:32 AM EST, Key ID 199e2f91fd431d51", 
+            "Release": " 1.el7", 
+            "Group": " System Environment/Daemons", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " The talloc library", 
+            "Size": " 56424"
+        }
+    }
+}

@@ -1,0 +1,124 @@
+{
+    "results": {
+        "usr/bin/gtk-query-immodules-3_0-32": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "g_module_close", 
+                "g_str_hash", 
+                "g_hash_table_destroy", 
+                "g_strdup", 
+                "g_fprintf", 
+                "gtk_rc_get_im_module_path", 
+                "g_path_is_absolute", 
+                "g_string_append_printf", 
+                "_ITM_registerTMCloneTable", 
+                "g_module_error", 
+                "g_dir_close", 
+                "g_get_current_dir", 
+                "gtk_rc_get_im_module_file", 
+                "g_dir_read_name", 
+                "__gmon_start__", 
+                "g_build_filename", 
+                "g_hash_table_lookup", 
+                "g_module_open", 
+                "g_hash_table_insert", 
+                "g_module_symbol", 
+                "g_free", 
+                "g_str_equal", 
+                "g_dir_open", 
+                "g_string_new", 
+                "g_str_has_suffix", 
+                "g_file_set_contents", 
+                "g_string_insert_c", 
+                "g_hash_table_new_full", 
+                "__libc_start_main", 
+                "g_string_append", 
+                "_Jv_RegisterClasses", 
+                "pango_split_file_list"
+            ], 
+            "rpm": "gtk3-3.14.13-20.el7_3.1.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/gtk-query-immodules-3.0-32"
+        }, 
+        "usr/bin/gtk-launch": {
+            "report-functions": [
+                "g_desktop_app_info_new", 
+                "g_list_free_full", 
+                "bindtextdomain", 
+                "textdomain", 
+                "_ITM_deregisterTMCloneTable", 
+                "g_option_context_set_summary", 
+                "g_list_append", 
+                "bind_textdomain_codeset", 
+                "g_option_context_add_main_entries", 
+                "g_file_new_for_commandline_arg", 
+                "_Jv_RegisterClasses", 
+                "g_strconcat", 
+                "gdk_display_get_app_launch_context", 
+                "g_option_context_free", 
+                "g_error_free", 
+                "__gmon_start__", 
+                "gtk_get_option_group", 
+                "gtk_init", 
+                "_ITM_registerTMCloneTable", 
+                "__libc_start_main", 
+                "g_option_context_new", 
+                "g_printerr", 
+                "g_free", 
+                "g_app_info_launch", 
+                "setlocale", 
+                "__stack_chk_fail", 
+                "g_str_has_suffix", 
+                "g_object_unref", 
+                "g_get_prgname", 
+                "g_strdup", 
+                "g_option_context_add_group", 
+                "g_option_context_parse"
+            ], 
+            "rpm": "gtk3-3.14.13-20.el7_3.1.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/gtk-launch"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 3.14.13", 
+            "Name": " gtk3", 
+            "License": " LGPLv2+", 
+            "URL": " http://www.gtk.org", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-037.build.eng.bos.redhat.com", 
+            "Description": "\nGTK+ is a multi-platform toolkit for creating graphical user\ninterfaces. Offering a complete set of widgets, GTK+ is suitable for\nprojects ranging from small one-off tools to complete application\nsuites.\n\nThis package contains version 3 of GTK+.\n", 
+            "Build Date": " Mon 24 Apr 2017 11:10:06 AM EDT", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " gtk3-3.14.13-20.el7_3.1.src.rpm", 
+            "warning": " /home/jason/fctl/swap/0/gtk3-3.14.13-20.el7_3.1.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 25 Apr 2017 02:11:25 AM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 20.el7_3.1", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " The GIMP ToolKit (GTK+), a library for creating GUIs for X", 
+            "Size": " 16244438"
+        }
+    }
+}

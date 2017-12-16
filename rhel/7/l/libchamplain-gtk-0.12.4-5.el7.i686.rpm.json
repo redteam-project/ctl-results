@@ -1,0 +1,87 @@
+{
+    "results": {
+        "usr/lib/libchamplain-gtk-0_12_so_0_2_2": {
+            "report-functions": [
+                "g_type_check_class_cast", 
+                "g_object_unref", 
+                "_ITM_deregisterTMCloneTable", 
+                "g_signal_connect_data", 
+                "g_type_class_peek_parent", 
+                "_ITM_registerTMCloneTable", 
+                "gtk_style_context_get_color", 
+                "g_return_if_fail_warning", 
+                "clutter_actor_set_size", 
+                "g_type_check_instance_cast", 
+                "g_type_check_instance_is_a", 
+                "gtk_clutter_embed_new", 
+                "gtk_style_context_get_background_color", 
+                "g_once_init_leave", 
+                "g_intern_static_string", 
+                "gtk_container_add", 
+                "champlain_view_new", 
+                "champlain_view_get_type", 
+                "gtk_widget_get_style_context", 
+                "clutter_actor_remove_child", 
+                "g_type_instance_get_private", 
+                "gtk_widget_get_window", 
+                "g_log", 
+                "g_once_init_enter", 
+                "g_type_name", 
+                "gtk_clutter_embed_get_type", 
+                "gtk_container_get_type", 
+                "champlain_marker_set_selection_color", 
+                "_Jv_RegisterClasses", 
+                "gdk_cursor_new", 
+                "g_type_class_add_private", 
+                "g_param_spec_object", 
+                "g_object_class_install_property", 
+                "g_type_class_adjust_private_offset", 
+                "clutter_actor_get_type", 
+                "gtk_clutter_embed_get_stage", 
+                "__cxa_finalize", 
+                "clutter_actor_add_child", 
+                "gtk_alignment_get_type", 
+                "g_type_register_static_simple", 
+                "g_value_set_object", 
+                "__gmon_start__", 
+                "champlain_marker_set_selection_text_color", 
+                "gdk_window_set_cursor"
+            ], 
+            "rpm": "libchamplain-gtk-0.12.4-5.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libchamplain-gtk-0.12.so.0.2.2"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 0.12.4", 
+            "Name": " libchamplain-gtk", 
+            "License": " LGPLv2+", 
+            "URL": " http://projects.gnome.org/libchamplain/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-018.build.eng.bos.redhat.com", 
+            "Description": "\nLibchamplain-gtk is a library providing a GtkWidget to embed libchamplain\ninto Gtk+ applications.\n", 
+            "Build Date": " Wed 13 May 2015 10:27:24 AM EDT", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " libchamplain-0.12.4-5.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/libchamplain-gtk-0.12.4-5.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 06 Oct 2015 07:30:08 AM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 5.el7", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " Gtk+ widget wrapper for libchamplain", 
+            "Size": " 11712"
+        }
+    }
+}

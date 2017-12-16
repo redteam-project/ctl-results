@@ -1,0 +1,246 @@
+{
+    "results": {
+        "usr/lib/cmpi/libcmpiOSBase_HostedFileSystemProvider_so": {
+            "report-functions": [
+                "_assoc_create_inst_1toN", 
+                "_assoc_check_parameter_const", 
+                "_assoc_get_inst", 
+                "_assoc_create_refs_1toN", 
+                "_format_trace", 
+                "__gmon_start__", 
+                "_Jv_RegisterClasses", 
+                "_osbase_trace", 
+                "_ITM_registerTMCloneTable", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "sblim-cmpi-fsvol-1.5.1-12.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/cmpi/libcmpiOSBase_HostedFileSystemProvider.so"
+        }, 
+        "usr/lib/cmpi/libcmpiOSBase_BootOSFromFSProvider_so": {
+            "report-functions": [
+                "_osbase_trace", 
+                "__stack_chk_fail", 
+                "_format_trace", 
+                "strcasecmp", 
+                "_Jv_RegisterClasses", 
+                "free", 
+                "_assoc_check_parameter_const", 
+                "CIM_HOST_NAME", 
+                "get_fs_of_dir", 
+                "__cxa_finalize", 
+                "strcmp", 
+                "__gmon_start__", 
+                "CSCreationClassName", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "sblim-cmpi-fsvol-1.5.1-12.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/cmpi/libcmpiOSBase_BootOSFromFSProvider.so"
+        }, 
+        "usr/lib/cmpi/libcmpiOSBase_BlockStorageStatisticalDataProvider_so": {
+            "report-functions": [
+                "stpcpy", 
+                "_ITM_registerTMCloneTable", 
+                "strrchr", 
+                "malloc", 
+                "CIM_HOST_NAME", 
+                "fclose", 
+                "strcasecmp", 
+                "_Jv_RegisterClasses", 
+                "calloc", 
+                "__gmon_start__", 
+                "__errno_location", 
+                "strlen", 
+                "free", 
+                "strerror", 
+                "_format_trace", 
+                "__cxa_finalize", 
+                "fgets", 
+                "strncpy", 
+                "__stack_chk_fail", 
+                "freeresultbuf", 
+                "__isoc99_sscanf", 
+                "runcommand", 
+                "fopen", 
+                "_osbase_trace"
+            ], 
+            "rpm": "sblim-cmpi-fsvol-1.5.1-12.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/cmpi/libcmpiOSBase_BlockStorageStatisticalDataProvider.so"
+        }, 
+        "usr/lib/libcmpiOSBase_CommonFsvol_so_0_0_0": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "free", 
+                "strlen", 
+                "_ITM_registerTMCloneTable", 
+                "_format_trace", 
+                "_osbase_trace", 
+                "strerror", 
+                "__gmon_start__", 
+                "getmntent_r", 
+                "calloc", 
+                "memset", 
+                "_ITM_deregisterTMCloneTable", 
+                "strstr", 
+                "freeresultbuf", 
+                "_Jv_RegisterClasses", 
+                "memcpy", 
+                "__errno_location", 
+                "setmntent", 
+                "realpath", 
+                "__strcat_chk", 
+                "strncmp", 
+                "malloc", 
+                "__cxa_finalize", 
+                "strcmp", 
+                "strcpy", 
+                "__strdup"
+            ], 
+            "rpm": "sblim-cmpi-fsvol-1.5.1-12.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libcmpiOSBase_CommonFsvol.so.0.0.0"
+        }, 
+        "usr/lib/cmpi/libcmpiOSBase_NFSProvider_so": {
+            "report-functions": [
+                "free_mntlist", 
+                "free_mntent", 
+                "setmntent", 
+                "_ITM_registerTMCloneTable", 
+                "free", 
+                "malloc", 
+                "_osbase_trace", 
+                "_Jv_RegisterClasses", 
+                "strcmp", 
+                "_cpy_fs_data", 
+                "CIM_HOST_NAME", 
+                "hasmntopt", 
+                "_format_trace", 
+                "fs_mount_status", 
+                "__cxa_finalize", 
+                "get_fs_data", 
+                "statfs", 
+                "__gmon_start__", 
+                "__stack_chk_fail", 
+                "getmntent_r", 
+                "_ITM_deregisterTMCloneTable", 
+                "calloc", 
+                "_check_system_key_value_pairs", 
+                "CSCreationClassName"
+            ], 
+            "rpm": "sblim-cmpi-fsvol-1.5.1-12.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/cmpi/libcmpiOSBase_NFSProvider.so"
+        }, 
+        "usr/lib/cmpi/libcmpiOSBase_LocalFileSystemProvider_so": {
+            "report-functions": [
+                "_format_trace", 
+                "_cpy_fs_data", 
+                "statfs", 
+                "CIM_HOST_NAME", 
+                "fs_mount_status", 
+                "calloc", 
+                "fs_default_mount_status", 
+                "__stack_chk_fail", 
+                "CSCreationClassName", 
+                "strcmp", 
+                "hasmntopt", 
+                "endmntent", 
+                "setmntent", 
+                "get_fs_data", 
+                "malloc", 
+                "free_mntlist", 
+                "_check_system_key_value_pairs", 
+                "_osbase_trace", 
+                "free", 
+                "_Jv_RegisterClasses", 
+                "_ITM_registerTMCloneTable", 
+                "getmntent_r", 
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "sblim-cmpi-fsvol-1.5.1-12.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/cmpi/libcmpiOSBase_LocalFileSystemProvider.so"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.5.1", 
+            "Name": " sblim-cmpi-fsvol", 
+            "License": " EPL", 
+            "URL": " http://sourceforge.net/projects/sblim/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-039.build.eng.bos.redhat.com", 
+            "Description": "\nStandards Based Linux Instrumentation Fsvol Providers\n", 
+            "Build Date": " Thu 09 Mar 2017 04:46:03 AM EST", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " sblim-cmpi-fsvol-1.5.1-12.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/3/sblim-cmpi-fsvol-1.5.1-12.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Mon 20 Mar 2017 05:58:45 AM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 12.el7", 
+            "Group": " Applications/System", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " SBLIM fsvol instrumentation", 
+            "Size": " 158948"
+        }
+    }
+}

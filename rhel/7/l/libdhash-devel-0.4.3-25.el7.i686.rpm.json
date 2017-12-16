@@ -1,0 +1,124 @@
+{
+    "results": {
+        "usr/share/doc/libdhash-devel-0_4_3/examples/dhash_test_o": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/share/doc/libdhash-devel-0.4.3/examples/dhash_test.o", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "report-functions": [
+                "strtoul", 
+                "hash_get_statistics", 
+                "__snprintf_chk", 
+                "new_hash_iter_context", 
+                "exit", 
+                "hash_enter", 
+                "hash_iterate", 
+                "stderr", 
+                "random", 
+                "putchar", 
+                "memcmp", 
+                "hash_create_ex", 
+                "hash_count", 
+                "hash_values", 
+                "time", 
+                "hash_lookup", 
+                "fwrite", 
+                "strcmp", 
+                "optarg", 
+                "puts", 
+                "hash_destroy", 
+                "__strdup", 
+                "__fprintf_chk", 
+                "__printf_chk", 
+                "hash_delete", 
+                "calloc", 
+                "strtol", 
+                "free", 
+                "hash_error_string", 
+                "getopt_long", 
+                "hash_keys", 
+                "hash_entries", 
+                "malloc", 
+                "strerror", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "libdhash-devel-0.4.3-25.el7.i686.rpm"
+        }, 
+        "usr/share/doc/libdhash-devel-0_4_3/examples/dhash_example_o": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/share/doc/libdhash-devel-0.4.3/examples/dhash_example.o", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "report-functions": [
+                "hash_iterate", 
+                "stderr", 
+                "new_hash_iter_context", 
+                "__fprintf_chk", 
+                "hash_lookup", 
+                "hash_keys", 
+                "strncpy", 
+                "__printf_chk", 
+                "__assert_fail", 
+                "malloc", 
+                "hash_destroy", 
+                "hash_enter", 
+                "hash_has_key", 
+                "__stack_chk_fail", 
+                "hash_delete", 
+                "puts", 
+                "hash_create", 
+                "hash_count"
+            ], 
+            "rpm": "libdhash-devel-0.4.3-25.el7.i686.rpm"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 0.4.3", 
+            "Name": " libdhash-devel", 
+            "License": " LGPLv3+", 
+            "URL": " http://fedorahosted.org/sssd/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-024.build.eng.bos.redhat.com", 
+            "Description": "\nA hash table which will dynamically resize to achieve optimal storage & access\ntime properties\n", 
+            "Build Date": " Tue 23 Jun 2015 02:52:28 PM EDT", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " ding-libs-0.5.0-25.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/6/libdhash-devel-0.4.3-25.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 01 Oct 2015 01:45:56 AM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 25.el7", 
+            "Group": " Development/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " Development files for libdhash", 
+            "Size": " 104875"
+        }
+    }
+}

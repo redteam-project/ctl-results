@@ -1,0 +1,261 @@
+{
+    "results": {
+        "usr/lib/cmpi/libcmpiOSBase_CSNetworkPortProvider_so": {
+            "report-functions": [
+                "_osbase_trace", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "_Jv_RegisterClasses", 
+                "__cxa_finalize", 
+                "_assoc_create_inst_1toN", 
+                "_assoc_create_refs_1toN", 
+                "_ITM_registerTMCloneTable", 
+                "_assoc_check_parameter_const", 
+                "_format_trace"
+            ], 
+            "rpm": "sblim-cmpi-network-1.4.0-11.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/cmpi/libcmpiOSBase_CSNetworkPortProvider.so"
+        }, 
+        "usr/lib/cmpi/libcmpiOSBase_TokenRingPortProvider_so": {
+            "report-functions": [
+                "free_netPortList", 
+                "free", 
+                "__stack_chk_fail", 
+                "get_netPort_data", 
+                "_check_system_key_value_pairs", 
+                "calloc", 
+                "_ITM_deregisterTMCloneTable", 
+                "free_netPort", 
+                "malloc", 
+                "_Jv_RegisterClasses", 
+                "_osbase_trace", 
+                "strcasecmp", 
+                "_ITM_registerTMCloneTable", 
+                "__gmon_start__", 
+                "CIM_HOST_NAME", 
+                "enum_all_netPorts", 
+                "CSCreationClassName"
+            ], 
+            "rpm": "sblim-cmpi-network-1.4.0-11.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/cmpi/libcmpiOSBase_TokenRingPortProvider.so"
+        }, 
+        "usr/lib/cmpi/libcmpiOSBase_NetworkPortImplementsIPEndpointProvider_so": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "CIM_HOST_NAME", 
+                "calloc", 
+                "_ITM_deregisterTMCloneTable", 
+                "_assoc_get_inst", 
+                "strcasecmp", 
+                "__gmon_start__", 
+                "_assoc_check_parameter_const", 
+                "strlen", 
+                "CSCreationClassName", 
+                "_format_trace", 
+                "_get_ipProtocolEndpoint_name", 
+                "free", 
+                "__cxa_finalize", 
+                "_Jv_RegisterClasses", 
+                "_assoc_targetClass_Name", 
+                "__stack_chk_fail", 
+                "strcpy"
+            ], 
+            "rpm": "sblim-cmpi-network-1.4.0-11.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/cmpi/libcmpiOSBase_NetworkPortImplementsIPEndpointProvider.so"
+        }, 
+        "usr/lib/cmpi/libcmpiOSBase_IPProtocolEndpointProvider_so": {
+            "report-functions": [
+                "_format_trace", 
+                "__isoc99_sscanf", 
+                "malloc", 
+                "strcmp", 
+                "free", 
+                "__strdup", 
+                "__cxa_finalize", 
+                "freeresultbuf", 
+                "_check_system_key_value_pairs", 
+                "runcommand", 
+                "CSCreationClassName", 
+                "calloc", 
+                "__stack_chk_fail", 
+                "strstr", 
+                "strlen", 
+                "_ITM_registerTMCloneTable", 
+                "_get_ipProtocolEndpoint_name", 
+                "CIM_HOST_NAME", 
+                "_osbase_trace", 
+                "strchr", 
+                "_Jv_RegisterClasses", 
+                "strncpy", 
+                "strcpy", 
+                "_get_port_status"
+            ], 
+            "rpm": "sblim-cmpi-network-1.4.0-11.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/cmpi/libcmpiOSBase_IPProtocolEndpointProvider.so"
+        }, 
+        "usr/lib/cmpi/libcmpiOSBase_EthernetPortProvider_so": {
+            "report-functions": [
+                "free_netPort", 
+                "strcasecmp", 
+                "enum_all_netPorts", 
+                "get_netPort_data", 
+                "malloc", 
+                "__cxa_finalize", 
+                "free_netPortList", 
+                "_ITM_registerTMCloneTable", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "_osbase_trace", 
+                "_format_trace", 
+                "free", 
+                "_check_system_key_value_pairs", 
+                "_Jv_RegisterClasses", 
+                "CIM_HOST_NAME", 
+                "CSCreationClassName"
+            ], 
+            "rpm": "sblim-cmpi-network-1.4.0-11.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/cmpi/libcmpiOSBase_EthernetPortProvider.so"
+        }, 
+        "usr/lib/cmpi/libcmpiOSBase_LocalLoopbackPortProvider_so": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "CIM_HOST_NAME", 
+                "free_netPort", 
+                "_format_trace", 
+                "calloc", 
+                "_Jv_RegisterClasses", 
+                "CSCreationClassName", 
+                "strcasecmp", 
+                "free", 
+                "malloc", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "enum_all_netPorts", 
+                "_osbase_trace", 
+                "_check_system_key_value_pairs", 
+                "free_netPortList", 
+                "__cxa_finalize"
+            ], 
+            "rpm": "sblim-cmpi-network-1.4.0-11.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/cmpi/libcmpiOSBase_LocalLoopbackPortProvider.so"
+        }, 
+        "usr/lib/libOSBase_CommonNetwork_so_0_0_0": {
+            "report-functions": [
+                "strchr", 
+                "freeresultbuf", 
+                "runcommand", 
+                "_osbase_trace", 
+                "__cxa_finalize", 
+                "__strcpy_chk", 
+                "calloc", 
+                "__isoc99_sscanf", 
+                "__strdup", 
+                "_ITM_registerTMCloneTable", 
+                "strlen", 
+                "strncpy", 
+                "__gmon_start__", 
+                "_format_trace", 
+                "free", 
+                "_ITM_deregisterTMCloneTable", 
+                "__stack_chk_fail", 
+                "strcmp", 
+                "_Jv_RegisterClasses"
+            ], 
+            "rpm": "sblim-cmpi-network-1.4.0-11.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libOSBase_CommonNetwork.so.0.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.4.0", 
+            "Name": " sblim-cmpi-network", 
+            "License": " EPL", 
+            "URL": " http://sblim.wiki.sourceforge.net/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-020.build.eng.bos.redhat.com", 
+            "Description": "\nStandards Based Linux Instrumentation Network Providers\n", 
+            "Build Date": " Mon 27 Jan 2014 05:36:21 AM EST", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " sblim-cmpi-network-1.4.0-11.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/3/sblim-cmpi-network-1.4.0-11.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Wed 02 Apr 2014 04:00:20 PM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 11.el7", 
+            "Group": " Applications/System", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " SBLIM Network Instrumentation", 
+            "Size": " 170778"
+        }
+    }
+}

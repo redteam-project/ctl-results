@@ -1,0 +1,61 @@
+{
+    "results": {
+        "usr/lib/libQt5X11Extras_so_5_6_2": {
+            "report-functions": [
+                "_ZN9QListData6detachEi", 
+                "_Jv_RegisterClasses", 
+                "_ZN10QByteArrayC1EPKci", 
+                "_ZN15QGuiApplication7screensEv", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ZNK14QMessageLogger7warningEPKcz", 
+                "_ZN15QGuiApplication16platformFunctionERK10QByteArray", 
+                "__gmon_start__", 
+                "_ZN15QGuiApplication12platformNameEv", 
+                "_ITM_registerTMCloneTable", 
+                "_ZNK7QScreen19logicalDotsPerInchXEv", 
+                "_ZNK7QScreen19logicalDotsPerInchYEv", 
+                "memcpy", 
+                "_ZN10QArrayData10deallocateEPS_jj", 
+                "__cxa_finalize", 
+                "_ZNK7QStringeqE13QLatin1String", 
+                "__stack_chk_fail", 
+                "_ZN15QGuiApplication13primaryScreenEv"
+            ], 
+            "rpm": "qt5-qtx11extras-5.6.2-1.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libQt5X11Extras.so.5.6.2"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 5.6.2", 
+            "Name": " qt5-qtx11extras", 
+            "License": " LGPLv2 with exceptions or GPLv3 with exceptions", 
+            "URL": " http://www.qt.io", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-038.build.eng.bos.redhat.com", 
+            "Description": "\nThe X11 Extras module provides features specific to platforms using X11, e.g.\nLinux and UNIX-like systems including embedded Linux systems that use the X\nWindow System.\n", 
+            "Build Date": " Wed 15 Feb 2017 05:21:53 AM EST", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " qt5-qtx11extras-5.6.2-1.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/3/qt5-qtx11extras-5.6.2-1.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Wed 29 Mar 2017 08:24:02 AM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 1.el7", 
+            "Group": " Unspecified", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " Qt5 - X11 support library", 
+            "Size": " 51190"
+        }
+    }
+}

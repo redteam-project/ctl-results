@@ -1,0 +1,73 @@
+{
+    "results": {
+        "usr/lib/libibumad_so_3_0_13": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "write", 
+                "strncmp", 
+                "strrchr", 
+                "__fprintf_chk", 
+                "free", 
+                "calloc", 
+                "opendir", 
+                "getpid", 
+                "close", 
+                "strtol", 
+                "strtoul", 
+                "ioctl", 
+                "__errno_location", 
+                "scandir", 
+                "alphasort", 
+                "strncpy", 
+                "poll", 
+                "__cxa_finalize", 
+                "__ctype_b_loc", 
+                "__strsep_g", 
+                "snprintf", 
+                "__stack_chk_fail", 
+                "strtoull", 
+                "read", 
+                "open", 
+                "strerror", 
+                "closedir", 
+                "_Jv_RegisterClasses", 
+                "__gmon_start__"
+            ], 
+            "rpm": "libibumad-13-7.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libibumad.so.3.0.13"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 13", 
+            "Name": " libibumad", 
+            "License": " GPLv2 or BSD", 
+            "URL": " https://github.com/linux-rdma/rdma-core", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-020.build.eng.bos.redhat.com", 
+            "Description": "\nlibibumad provides the userspace management datagram (umad) library\nfunctions, which sit on top of the umad modules in the kernel. These\nare used by the IB diagnostic and management tools, including OpenSM.\n", 
+            "Build Date": " Tue 30 May 2017 05:14:25 PM EDT", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " rdma-core-13-7.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/libibumad-13-7.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Wed 31 May 2017 03:42:14 AM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 7.el7", 
+            "Group": " Unspecified", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " OpenFabrics Alliance InfiniBand umad (userspace management datagram) library", 
+            "Size": " 35696"
+        }
+    }
+}

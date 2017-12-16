@@ -1,0 +1,89 @@
+{
+    "results": {
+        "sbin/dmraid": {
+            "report-functions": [
+                "libdmraid_date", 
+                "__ctype_tolower_loc", 
+                "__gmon_start__", 
+                "libdmraid_exit", 
+                "_dbg_free", 
+                "change_set", 
+                "lib_perform", 
+                "dm_version", 
+                "_Jv_RegisterClasses", 
+                "group_set", 
+                "add_delimiter", 
+                "get_set_name", 
+                "strncmp", 
+                "remove_delimiter", 
+                "plog", 
+                "lc_opt", 
+                "remove_white_space", 
+                "erase_metadata", 
+                "getopt_long", 
+                "discover_partitions", 
+                "lc_stralloc_opt", 
+                "list_formats", 
+                "exit", 
+                "display_set", 
+                "_dbg_strdup", 
+                "rebuild_raidset", 
+                "delete_raidsets", 
+                "_ITM_registerTMCloneTable", 
+                "lc_strcat_opt", 
+                "__libc_start_main", 
+                "libdmraid_init", 
+                "check_valid_format", 
+                "display_devices", 
+                "strchr", 
+                "__stack_chk_fail", 
+                "libdmraid_version", 
+                "hot_spare_add", 
+                "process_sets", 
+                "lc_inc_opt", 
+                "memmove", 
+                "_ITM_deregisterTMCloneTable", 
+                "get_set_type", 
+                "log_alloc_err"
+            ], 
+            "rpm": "dmraid-1.0.0.rc16-25.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 3, 
+                    "afC": 68
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "sbin/dmraid"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.0.0.rc16", 
+            "Name": " dmraid", 
+            "License": " GPLv2+", 
+            "URL": " http://people.redhat.com/heinzm/sw/dmraid", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-020.build.eng.bos.redhat.com", 
+            "Description": "\nDMRAID supports RAID device discovery, RAID set activation, creation,\nremoval, rebuild and display of properties for ATARAID/DDF1 metadata on\nLinux >= 2.4 using device-mapper.\n", 
+            "Build Date": " Fri 18 Jul 2014 12:16:01 PM EDT", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " dmraid-1.0.0.rc16-25.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/0/dmraid-1.0.0.rc16-25.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Wed 21 Jan 2015 02:08:45 AM EST, Key ID 199e2f91fd431d51", 
+            "Release": " 25.el7", 
+            "Group": " System Environment/Base", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " dmraid (Device-mapper RAID tool and library)", 
+            "Size": " 352048"
+        }
+    }
+}

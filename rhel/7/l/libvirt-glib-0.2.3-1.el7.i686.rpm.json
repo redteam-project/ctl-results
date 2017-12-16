@@ -1,0 +1,77 @@
+{
+    "results": {
+        "usr/lib/libvirt-glib-1_0_so_0_2_3": {
+            "report-functions": [
+                "bindtextdomain", 
+                "_Jv_RegisterClasses", 
+                "g_io_add_watch", 
+                "g_io_channel_unref", 
+                "virGetLastError", 
+                "g_source_remove", 
+                "g_error_new", 
+                "_ITM_registerTMCloneTable", 
+                "g_free", 
+                "g_warn_message", 
+                "g_mutex_lock", 
+                "g_malloc0", 
+                "virSetErrorFunc", 
+                "virEventRegisterImpl", 
+                "g_mutex_unlock", 
+                "g_timeout_add", 
+                "__gmon_start__", 
+                "g_once_impl", 
+                "_ITM_deregisterTMCloneTable", 
+                "g_log", 
+                "g_return_if_fail_warning", 
+                "g_ptr_array_new_with_free_func", 
+                "__stack_chk_fail", 
+                "__cxa_finalize", 
+                "g_idle_add", 
+                "g_ptr_array_add", 
+                "g_io_channel_unix_new", 
+                "getenv", 
+                "g_strdup_vprintf", 
+                "g_ptr_array_remove_fast", 
+                "__fprintf_chk"
+            ], 
+            "rpm": "libvirt-glib-0.2.3-1.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libvirt-glib-1.0.so.0.2.3"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 0.2.3", 
+            "Name": " libvirt-glib", 
+            "License": " LGPLv2+", 
+            "URL": " http://libvirt.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-020.build.eng.bos.redhat.com", 
+            "Description": "\nThis package provides integration between libvirt and the glib\nevent loop.\n", 
+            "Build Date": " Tue 10 May 2016 11:35:16 AM EDT", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " libvirt-glib-0.2.3-1.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/2/libvirt-glib-0.2.3-1.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sat 20 Aug 2016 12:46:18 AM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 1.el7", 
+            "Group": " Development/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " libvirt glib integration for events", 
+            "Size": " 255894"
+        }
+    }
+}

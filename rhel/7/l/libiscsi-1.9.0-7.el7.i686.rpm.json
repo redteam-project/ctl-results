@@ -1,0 +1,91 @@
+{
+    "results": {
+        "usr/lib/iscsi/libiscsi_so_2_0_10900": {
+            "report-functions": [
+                "strtol", 
+                "time", 
+                "close", 
+                "gcry_md_write", 
+                "fcntl", 
+                "recv", 
+                "dup2", 
+                "connect", 
+                "__vsnprintf_chk", 
+                "__fprintf_chk", 
+                "memcpy", 
+                "realloc", 
+                "strrchr", 
+                "rand", 
+                "strncpy", 
+                "__memmove_chk", 
+                "strerror", 
+                "__errno_location", 
+                "getpid", 
+                "freeaddrinfo", 
+                "readv", 
+                "getsockname", 
+                "_ITM_registerTMCloneTable", 
+                "_ITM_deregisterTMCloneTable", 
+                "writev", 
+                "__stack_chk_fail", 
+                "srand", 
+                "getaddrinfo", 
+                "setsockopt", 
+                "getsockopt", 
+                "memchr", 
+                "inet_ntoa", 
+                "__cxa_finalize", 
+                "strchr", 
+                "sleep", 
+                "__snprintf_chk", 
+                "send", 
+                "malloc", 
+                "gcry_md_read", 
+                "strlen", 
+                "poll", 
+                "getenv", 
+                "__strdup", 
+                "gcry_md_close", 
+                "memset", 
+                "__gmon_start__", 
+                "free", 
+                "socket"
+            ], 
+            "rpm": "libiscsi-1.9.0-7.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/iscsi/libiscsi.so.2.0.10900"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.9.0", 
+            "Name": " libiscsi", 
+            "License": " LGPLv2+", 
+            "URL": " https://github.com/sahlberg/libiscsi", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-017.build.eng.bos.redhat.com", 
+            "Description": "\nlibiscsi is a library for attaching to iSCSI resources across\na network.\n", 
+            "Build Date": " Thu 26 May 2016 03:44:10 AM EDT", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " libiscsi-1.9.0-7.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/libiscsi-1.9.0-7.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Wed 21 Sep 2016 03:00:16 AM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 7.el7", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " iSCSI client library", 
+            "Size": " 158436"
+        }
+    }
+}

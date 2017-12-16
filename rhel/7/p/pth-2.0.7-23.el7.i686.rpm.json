@@ -1,0 +1,99 @@
+{
+    "results": {
+        "usr/lib/libpth_so_20_0_27": {
+            "report-functions": [
+                "accept", 
+                "waitpid", 
+                "usleep", 
+                "memcpy", 
+                "__ctype_b_loc", 
+                "sigaction", 
+                "sigdelset", 
+                "__errno_location", 
+                "execl", 
+                "writev", 
+                "exit", 
+                "fork", 
+                "recvfrom", 
+                "_ITM_deregisterTMCloneTable", 
+                "__fdelt_chk", 
+                "sigismember", 
+                "recv", 
+                "malloc", 
+                "readv", 
+                "kill", 
+                "abort", 
+                "getsockopt", 
+                "sendto", 
+                "pipe", 
+                "sigpending", 
+                "select", 
+                "time", 
+                "write", 
+                "connect", 
+                "close", 
+                "_Jv_RegisterClasses", 
+                "lseek64", 
+                "sigprocmask", 
+                "__fprintf_chk", 
+                "sigsuspend", 
+                "free", 
+                "read", 
+                "strcmp", 
+                "sigfillset", 
+                "sigemptyset", 
+                "getcontext", 
+                "sigaddset", 
+                "__stack_chk_fail", 
+                "_ITM_registerTMCloneTable", 
+                "makecontext", 
+                "swapcontext", 
+                "gettimeofday", 
+                "calloc", 
+                "__cxa_finalize", 
+                "getpid", 
+                "__gmon_start__", 
+                "__xstat64", 
+                "fcntl"
+            ], 
+            "rpm": "pth-2.0.7-23.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libpth.so.20.0.27"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 2.0.7", 
+            "Name": " pth", 
+            "License": " LGPLv2+", 
+            "URL": " http://www.gnu.org/software/pth/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-030.build.eng.bos.redhat.com", 
+            "Description": "\nPth is a very portable POSIX/ANSI-C based library for Unix platforms\nwhich provides non-preemptive priority-based scheduling for multiple\nthreads of execution (\"multithreading\") inside server applications.\nAll threads run in the same address space of the server application,\nbut each thread has it's own individual program-counter, run-time\nstack, signal mask and errno variable.\n", 
+            "Build Date": " Mon 04 Aug 2014 02:27:45 PM EDT", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " pth-2.0.7-23.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/3/pth-2.0.7-23.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 07 Aug 2015 09:48:46 AM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 23.el7", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " The GNU Portable Threads library", 
+            "Size": " 262423"
+        }
+    }
+}

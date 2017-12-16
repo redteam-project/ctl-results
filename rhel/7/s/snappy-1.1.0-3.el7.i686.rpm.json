@@ -1,0 +1,59 @@
+{
+    "results": {
+        "usr/lib/libsnappy_so_1_1_4": {
+            "report-functions": [
+                "_ZNSs12_M_leak_hardEv", 
+                "_Znaj", 
+                "_ITM_registerTMCloneTable", 
+                "__cxa_finalize", 
+                "__gxx_personality_v0", 
+                "_ITM_deregisterTMCloneTable", 
+                "_Jv_RegisterClasses", 
+                "memcpy", 
+                "__stack_chk_fail", 
+                "_ZNSs6resizeEjc", 
+                "_ZdlPv", 
+                "_ZNSs6appendEPKcj", 
+                "memmove", 
+                "_Unwind_Resume", 
+                "memset", 
+                "__cxa_pure_virtual"
+            ], 
+            "rpm": "snappy-1.1.0-3.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libsnappy.so.1.1.4"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.1.0", 
+            "Name": " snappy", 
+            "License": " BSD", 
+            "URL": " http://code.google.com/p/snappy/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-019.build.eng.bos.redhat.com", 
+            "Description": "\nSnappy is a compression/decompression library. It does not aim for maximum\ncompression, or compatibility with any other compression library; instead, it\naims for very high speeds and reasonable compression. For instance, compared to\nthe fastest mode of zlib, Snappy is an order of magnitude faster for most\ninputs, but the resulting compressed files are anywhere from 20% to 100%\nbigger.\n", 
+            "Build Date": " Mon 27 Jan 2014 07:02:38 AM EST", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " snappy-1.1.0-3.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/3/snappy-1.1.0-3.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Wed 02 Apr 2014 04:22:27 PM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 3.el7", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " Fast compression and decompression library", 
+            "Size": " 114609"
+        }
+    }
+}

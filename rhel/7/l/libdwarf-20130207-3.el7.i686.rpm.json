@@ -1,0 +1,83 @@
+{
+    "results": {
+        "usr/lib/libdwarf_so_0_20130207_0": {
+            "report-functions": [
+                "memcmp", 
+                "memset", 
+                "abort", 
+                "strcmp", 
+                "elf64_getehdr", 
+                "strcpy", 
+                "_Jv_RegisterClasses", 
+                "putchar", 
+                "__printf_chk", 
+                "elf_version", 
+                "memcpy", 
+                "__fprintf_chk", 
+                "elf64_getshdr", 
+                "strlen", 
+                "malloc", 
+                "puts", 
+                "elf32_getshdr", 
+                "_ITM_deregisterTMCloneTable", 
+                "free", 
+                "calloc", 
+                "elf_end", 
+                "_ITM_registerTMCloneTable", 
+                "__sprintf_chk", 
+                "elf_getscn", 
+                "__gmon_start__", 
+                "stpcpy", 
+                "elf_strptr", 
+                "elf_begin", 
+                "elf_getdata", 
+                "realloc", 
+                "strncpy", 
+                "__cxa_finalize", 
+                "fflush", 
+                "__snprintf_chk", 
+                "__fxstat", 
+                "strcat", 
+                "ctime", 
+                "elf_getident", 
+                "fwrite", 
+                "qsort"
+            ], 
+            "rpm": "libdwarf-20130207-3.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libdwarf.so.0.20130207.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 20130207", 
+            "Name": " libdwarf", 
+            "License": " LGPLv2", 
+            "URL": " http://reality.sgiweb.org/davea/dwarf.html", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-025.build.eng.bos.redhat.com", 
+            "Description": "\nLibrary to access the DWARF debugging file format which supports\nsource level debugging of a number of procedural languages, such as C, C++,\nand Fortran.  Please see http://www.dwarfstd.org for DWARF specification.\n", 
+            "Build Date": " Sun 26 Jan 2014 06:11:47 AM EST", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " libdwarf-20130207-3.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/libdwarf-20130207-3.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 01 Apr 2014 04:45:40 PM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 3.el7", 
+            "Group": " Development/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " Library to access the DWARF Debugging file format", 
+            "Size": " 313747"
+        }
+    }
+}

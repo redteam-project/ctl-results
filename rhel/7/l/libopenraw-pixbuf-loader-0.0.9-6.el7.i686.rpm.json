@@ -1,0 +1,62 @@
+{
+    "results": {
+        "usr/lib/gdk-pixbuf-2_0/2_10_0/loaders/libopenraw_pixbuf_so": {
+            "report-functions": [
+                "or_bitmapdata_dimensions", 
+                "gdk_pixbuf_new_from_data", 
+                "g_byte_array_new", 
+                "_ITM_registerTMCloneTable", 
+                "__stack_chk_fail", 
+                "_ITM_deregisterTMCloneTable", 
+                "gdk_pixbuf_get_height", 
+                "__cxa_finalize", 
+                "or_bitmapdata_release", 
+                "or_rawfile_release", 
+                "free", 
+                "or_rawfile_get_rendered_image", 
+                "or_bitmapdata_new", 
+                "gdk_pixbuf_get_width", 
+                "or_bitmapdata_data", 
+                "calloc", 
+                "__gmon_start__", 
+                "g_byte_array_free", 
+                "g_byte_array_append"
+            ], 
+            "rpm": "libopenraw-pixbuf-loader-0.0.9-6.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: 'NoneType' object is not iterable"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/libopenraw_pixbuf.so"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 0.0.9", 
+            "Name": " libopenraw-pixbuf-loader", 
+            "License": " LGPLv3+", 
+            "URL": " http://libopenraw.freedesktop.org/wiki", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-017.build.eng.bos.redhat.com", 
+            "Description": "\nlibopenraw-pixbuf-loader contains a plugin to load RAW images, as created by\ndigital cameras, in GTK+ applications.\n", 
+            "Build Date": " Sun 26 Jan 2014 07:46:43 AM EST", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " libopenraw-0.0.9-6.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/7/libopenraw-pixbuf-loader-0.0.9-6.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 01 Apr 2014 05:45:47 PM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 6.el7", 
+            "Group": " Unspecified", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " RAW image loader for GTK+ applications", 
+            "Size": " 10800"
+        }
+    }
+}

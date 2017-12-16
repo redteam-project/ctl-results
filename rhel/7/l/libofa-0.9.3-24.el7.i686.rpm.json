@@ -1,0 +1,80 @@
+{
+    "results": {
+        "usr/lib/libofa_so_0_0_0": {
+            "report-functions": [
+                "__cxa_get_exception_ptr", 
+                "_Unwind_Resume", 
+                "cos", 
+                "memset", 
+                "_Znaj", 
+                "_ZdlPv", 
+                "__cxa_finalize", 
+                "_ZNSsC1EPKcRKSaIcE", 
+                "_Jv_RegisterClasses", 
+                "floor", 
+                "hypot", 
+                "_ZNSs4_Rep10_M_disposeERKSaIcE", 
+                "log", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_throw", 
+                "__cxa_atexit", 
+                "_ZNSs6assignERKSs", 
+                "_ZNSt8ios_base4InitD1Ev", 
+                "__pthread_key_create", 
+                "sscanf", 
+                "__gxx_personality_v0", 
+                "sqrt", 
+                "__cxa_free_exception", 
+                "_ZdaPv", 
+                "_ITM_registerTMCloneTable", 
+                "__cxa_allocate_exception", 
+                "__cxa_begin_catch", 
+                "_ZNSsC1ERKSs", 
+                "__stack_chk_fail", 
+                "_ZNSs4_Rep10_M_destroyERKSaIcE", 
+                "_Znwj", 
+                "fftw_plan_r2r_1d", 
+                "__gmon_start__", 
+                "_ZNSt8ios_base4InitC1Ev", 
+                "fftw_destroy_plan", 
+                "fftw_execute", 
+                "__cxa_end_catch"
+            ], 
+            "rpm": "libofa-0.9.3-24.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libofa.so.0.0.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 0.9.3", 
+            "Name": " libofa", 
+            "License": " GPLv2", 
+            "URL": " http://code.google.com/p/musicip-libofa/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-024.build.eng.bos.redhat.com", 
+            "Description": "\nCurrently, MusicDNS and the Open Fingerprint Architecture are being used to:\n* identify duplicate tracks, even when the metadata is different, MusicIP\n  identifies the master recording.\n* fix metadata\n* find out more about tracks by connecting to MusicBrainz\n", 
+            "Build Date": " Sun 26 Jan 2014 07:43:28 AM EST", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " libofa-0.9.3-24.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/libofa-0.9.3-24.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Tue 01 Apr 2014 05:44:03 PM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 24.el7", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " Open Fingerprint Architecture library", 
+            "Size": " 158205"
+        }
+    }
+}

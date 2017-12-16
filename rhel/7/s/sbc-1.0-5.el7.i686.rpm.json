@@ -1,0 +1,149 @@
+{
+    "results": {
+        "usr/bin/sbcinfo": {
+            "report-functions": [
+                "__xpg_basename", 
+                "read", 
+                "lseek", 
+                "open", 
+                "__stack_chk_fail", 
+                "putchar", 
+                "__fprintf_chk", 
+                "fwrite", 
+                "__libc_start_main", 
+                "__errno_location", 
+                "perror", 
+                "exit", 
+                "fileno", 
+                "__printf_chk", 
+                "close"
+            ], 
+            "rpm": "sbc-1.0-5.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/sbcinfo"
+        }, 
+        "usr/bin/sbcenc": {
+            "report-functions": [
+                "perror", 
+                "__errno_location", 
+                "write", 
+                "getopt_long", 
+                "puts", 
+                "open", 
+                "free", 
+                "read", 
+                "__gmon_start__", 
+                "fileno", 
+                "strtol", 
+                "strerror", 
+                "malloc", 
+                "__libc_start_main", 
+                "__stack_chk_fail", 
+                "fwrite", 
+                "__read_chk", 
+                "__fprintf_chk", 
+                "__printf_chk"
+            ], 
+            "rpm": "sbc-1.0-5.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/sbcenc"
+        }, 
+        "usr/lib/libsbc_so_1_0_0": {
+            "report-functions": [
+                "free", 
+                "malloc", 
+                "_Jv_RegisterClasses", 
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "sbc-1.0-5.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/libsbc.so.1.0.0"
+        }, 
+        "usr/bin/sbcdec": {
+            "report-functions": [
+                "open", 
+                "strerror", 
+                "free", 
+                "exit", 
+                "puts", 
+                "__fprintf_chk", 
+                "fwrite", 
+                "ioctl", 
+                "__errno_location", 
+                "__gmon_start__", 
+                "getopt_long", 
+                "__stack_chk_fail", 
+                "__xstat", 
+                "__printf_chk", 
+                "__libc_start_main", 
+                "__strdup", 
+                "read", 
+                "malloc"
+            ], 
+            "rpm": "sbc-1.0-5.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": "failed: ERROR: Cannot find radare2 in PATH"
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/sbcdec"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.0", 
+            "Name": " sbc", 
+            "License": " GPLv2 and LGPLv2+", 
+            "URL": " http://www.bluez.org", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " x86-019.build.eng.bos.redhat.com", 
+            "Description": "\nSBC (Sub Band Codec) is a low-complexity audio codec used in the Advanced Audio\nDistribution Profile (A2DP) bluetooth standard but can be used standalone. It\nuses 4 or 8 subbands, an adaptive bit allocation algorithm in combination with\nan adaptive block PCM quantizers.\n", 
+            "Build Date": " Mon 27 Jan 2014 04:59:54 AM EST", 
+            "Vendor": " Red Hat, Inc.", 
+            "Source RPM": " sbc-1.0-5.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/3/sbc-1.0-5.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID fd431d51: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Wed 02 Apr 2014 03:57:55 PM EDT, Key ID 199e2f91fd431d51", 
+            "Release": " 5.el7", 
+            "Group": " Unspecified", 
+            "Packager": " Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla>", 
+            "Summary": " Sub Band Codec used by bluetooth A2DP", 
+            "Size": " 217684"
+        }
+    }
+}
