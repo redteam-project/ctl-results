@@ -1,0 +1,77 @@
+{
+    "results": {
+        "lib/libsysfs_so_2_0_1": {
+            "report-functions": [
+                "strchr", 
+                "__lxstat", 
+                "malloc", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "strncpy", 
+                "write", 
+                "strncmp", 
+                "closedir", 
+                "strcmp", 
+                "__strncpy_chk", 
+                "_Jv_RegisterClasses", 
+                "read", 
+                "getpagesize", 
+                "open", 
+                "readdir", 
+                "__cxa_finalize", 
+                "strstr", 
+                "__errno_location", 
+                "__stpcpy_chk", 
+                "free", 
+                "strlen", 
+                "__strncat_chk", 
+                "calloc", 
+                "strrchr", 
+                "readlink", 
+                "_ITM_registerTMCloneTable", 
+                "getenv", 
+                "__stack_chk_fail", 
+                "close", 
+                "realloc"
+            ], 
+            "rpm": "libsysfs-2.1.0-16.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": "9", 
+                    "afC": "97"
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "lib/libsysfs.so.2.0.1"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 2.1.0", 
+            "Name": " libsysfs", 
+            "License": " LGPLv2+", 
+            "URL": " http://sourceforge.net/projects/linux-diag/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " worker1.bsys.centos.org", 
+            "Description": "\nLibrary used in handling linux kernel sysfs mounts and their various files.\n", 
+            "Build Date": " Wed 11 Jun 2014 12:55:38 AM EDT", 
+            "Vendor": " CentOS", 
+            "Source RPM": " sysfsutils-2.1.0-16.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/0/libsysfs-2.1.0-16.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID f4a80eb5: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 03 Jul 2014 11:19:59 PM EDT, Key ID 24c6a8a7f4a80eb5", 
+            "Release": " 16.el7", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " CentOS BuildSystem <http://bugs.centos.org>", 
+            "Summary": " Shared library for interfacing with sysfs", 
+            "Size": " 148393"
+        }
+    }
+}

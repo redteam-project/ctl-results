@@ -1,0 +1,26 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.14", 
+            "Name": " perl-Test-Valgrind", 
+            "License": " GPL+ or Artistic", 
+            "URL": " http://search.cpan.org/dist/Test-Valgrind/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-14.phx2.fedoraproject.org", 
+            "Description": "\nThe Test::Valgrind::* API lets you run Perl code through the memcheck tool of\nthe valgrind memory debugger, to test for memory errors and leaks. The\nTest::Valgrind module itself is a front-end to this API. If they aren't\navailable yet, it will first generate suppressions for the current perl\ninterpreter and store them in the portable flavor of\n~/.perl/Test-Valgrind/suppressions/$VERSION. The actual run will then take\nplace, and tests will be passed or failed according to the result of the\nanalysis.\n\nThe complete API is much more versatile than this. By declaring an appropriate\nTest::Valgrind::Command class, you can run any executable (that is, not only\nPerl scripts) under valgrind, generate the corresponding suppressions\non-the-fly and convert the analysis result to TAP output so that it can be\nincorporated into your project's test suite. If you're not interested in\nproducing TAP, you can output the results in whatever format you like (for\nexample HTML pages) by defining your own Test::Valgrind::Action class.\n", 
+            "Build Date": " Wed 22 Jan 2014 12:05:49 PM EST", 
+            "Vendor": " Fedora Project", 
+            "Source RPM": " perl-Test-Valgrind-1.14-1.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/perl-Test-Valgrind-1.14-1.el7.noarch.rpm: Header V3 RSA/SHA256 Signature, key ID 352c64e5: NOKEY", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Tue 04 Feb 2014 11:45:51 PM EST, Key ID 6a2faea2352c64e5", 
+            "Release": " 1.el7", 
+            "Group": " Development/Libraries", 
+            "Packager": " Fedora Project", 
+            "Summary": " Generate suppressions, analyze and test any command with valgrind", 
+            "Size": " 195914"
+        }
+    }
+}

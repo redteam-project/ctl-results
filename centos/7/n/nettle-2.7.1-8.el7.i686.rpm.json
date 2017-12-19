@@ -1,0 +1,209 @@
+{
+    "results": {
+        "usr/bin/nettle-lfib-stream": {
+            "report-functions": [
+                "fflush", 
+                "_Jv_RegisterClasses", 
+                "nettle_knuth_lfib_init", 
+                "time", 
+                "_ITM_registerTMCloneTable", 
+                "__stack_chk_fail", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "nettle_knuth_lfib_random", 
+                "__libc_start_main"
+            ], 
+            "rpm": "nettle-2.7.1-8.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 6, 
+                    "afC": 127
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nettle-lfib-stream"
+        }, 
+        "usr/bin/nettle-hash": {
+            "report-functions": [
+                "__libc_start_main", 
+                "fread", 
+                "strerror", 
+                "fflush", 
+                "__vfprintf_chk", 
+                "getopt_long", 
+                "_ITM_deregisterTMCloneTable", 
+                "strcmp", 
+                "__errno_location", 
+                "feof", 
+                "fwrite", 
+                "exit", 
+                "_ITM_registerTMCloneTable", 
+                "nettle_base16_encode_update", 
+                "__printf_chk", 
+                "fopen", 
+                "__gmon_start__", 
+                "free", 
+                "puts", 
+                "fclose", 
+                "malloc", 
+                "_Jv_RegisterClasses", 
+                "abort", 
+                "ferror"
+            ], 
+            "rpm": "nettle-2.7.1-8.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 21, 
+                    "afC": 338
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nettle-hash"
+        }, 
+        "usr/bin/pkcs1-conv": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "_Jv_RegisterClasses", 
+                "puts", 
+                "nettle_asn1_der_iterator_first", 
+                "nettle_dsa_public_key_init", 
+                "nettle_asn1_der_iterator_next", 
+                "ferror", 
+                "_IO_getc", 
+                "nettle_buffer_grow", 
+                "__gmon_start__", 
+                "nettle_dsa_private_key_clear", 
+                "__libc_start_main", 
+                "__errno_location", 
+                "fwrite", 
+                "nettle_base64_decode_final", 
+                "memcmp", 
+                "nettle_dsa_keypair_to_sexp", 
+                "nettle_base64_decode_update", 
+                "getopt_long", 
+                "nettle_rsa_public_key_clear", 
+                "nettle_asn1_der_decode_constructed", 
+                "__stack_chk_fail", 
+                "nettle_rsa_keypair_to_sexp", 
+                "nettle_rsa_private_key_clear", 
+                "strerror", 
+                "nettle_openssl_provate_key_from_der", 
+                "nettle_base64_decode_init", 
+                "exit", 
+                "nettle_buffer_init_realloc", 
+                "nettle_dsa_params_from_der_iterator", 
+                "__vfprintf_chk", 
+                "nettle_rsa_public_key_init", 
+                "nettle_dsa_public_key_clear", 
+                "nettle_rsa_keypair_from_der", 
+                "nettle_dsa_private_key_init", 
+                "nettle_buffer_reset", 
+                "nettle_buffer_clear", 
+                "abort", 
+                "nettle_asn1_der_decode_bitstring_last", 
+                "nettle_xrealloc", 
+                "fopen", 
+                "_ITM_registerTMCloneTable", 
+                "nettle_rsa_public_key_from_der_iterator", 
+                "malloc", 
+                "fclose", 
+                "nettle_rsa_private_key_init"
+            ], 
+            "rpm": "nettle-2.7.1-8.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 15, 
+                    "afC": 221
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/pkcs1-conv"
+        }, 
+        "usr/bin/sexp-conv": {
+            "report-functions": [
+                "nettle_buffer_clear", 
+                "puts", 
+                "__errno_location", 
+                "__stack_chk_fail", 
+                "ferror", 
+                "strcmp", 
+                "abort", 
+                "__gmon_start__", 
+                "__assert_fail", 
+                "nettle_buffer_init", 
+                "nettle_buffer_grow", 
+                "getopt_long", 
+                "fflush", 
+                "__vfprintf_chk", 
+                "strerror", 
+                "malloc", 
+                "fcntl", 
+                "__libc_start_main", 
+                "nettle_buffer_reset", 
+                "_ITM_registerTMCloneTable", 
+                "_Jv_RegisterClasses", 
+                "__printf_chk", 
+                "_IO_getc", 
+                "exit", 
+                "_IO_putc", 
+                "strtol"
+            ], 
+            "rpm": "nettle-2.7.1-8.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 32, 
+                    "afC": 498
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/sexp-conv"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 2.7.1", 
+            "Name": " nettle", 
+            "License": " LGPLv2+", 
+            "URL": " http://www.lysator.liu.se/~nisse/nettle/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " worker1.bsys.centos.org", 
+            "Description": "\nNettle is a cryptographic library that is designed to fit easily in more\nor less any context: In crypto toolkits for object-oriented languages\n(C++, Python, Pike, ...), in applications like LSH or GNUPG, or even in\nkernel space.\n", 
+            "Build Date": " Sat 05 Nov 2016 08:19:12 PM EDT", 
+            "Vendor": " CentOS", 
+            "Source RPM": " nettle-2.7.1-8.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/0/nettle-2.7.1-8.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID f4a80eb5: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sun 20 Nov 2016 02:36:37 PM EST, Key ID 24c6a8a7f4a80eb5", 
+            "Release": " 8.el7", 
+            "Group": " Development/Libraries", 
+            "Packager": " CentOS BuildSystem <http://bugs.centos.org>", 
+            "Summary": " A low-level cryptographic library", 
+            "Size": " 767562"
+        }
+    }
+}

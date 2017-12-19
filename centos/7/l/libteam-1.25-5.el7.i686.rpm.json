@@ -1,0 +1,94 @@
+{
+    "results": {
+        "usr/bin/teamnl": {
+            "report-functions": [
+                "team_option_str", 
+                "team_change_handler_register", 
+                "team_free", 
+                "team_get_next_port", 
+                "signalfd", 
+                "__libc_start_main", 
+                "strlen", 
+                "__printf_chk", 
+                "team_change_handler_unregister", 
+                "__cxa_finalize", 
+                "team_get_port_ifindex", 
+                "select", 
+                "team_handle_events", 
+                "__errno_location", 
+                "close", 
+                "strncmp", 
+                "team_init", 
+                "sigemptyset", 
+                "team_get_next_option", 
+                "team_port_str", 
+                "team_get_option", 
+                "free", 
+                "team_set_option_value_from_string", 
+                "team_ifname2ifindex", 
+                "__gmon_start__", 
+                "puts", 
+                "__stack_chk_fail", 
+                "_ITM_deregisterTMCloneTable", 
+                "team_ifinfo_str", 
+                "getopt_long", 
+                "team_get_next_ifinfo", 
+                "team_is_option_changed", 
+                "team_option_value_str", 
+                "team_is_port_changed", 
+                "read", 
+                "strtoul", 
+                "__strdup", 
+                "_ITM_registerTMCloneTable", 
+                "sigaddset", 
+                "putchar", 
+                "sigprocmask", 
+                "strerror", 
+                "__fdelt_chk", 
+                "fwrite", 
+                "team_alloc", 
+                "realloc", 
+                "_Jv_RegisterClasses", 
+                "__fprintf_chk"
+            ], 
+            "rpm": "libteam-1.25-5.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 25, 
+                    "afC": 462
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/teamnl"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.25", 
+            "Name": " libteam", 
+            "License": " LGPLv2+", 
+            "URL": " http://www.libteam.org", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " c1bm.rdu2.centos.org", 
+            "Description": "\nThis package contains a library which is a user-space\ncounterpart for team network driver. It provides an API\nto control team network devices.\n", 
+            "Build Date": " Thu 03 Aug 2017 03:10:48 AM EDT", 
+            "Vendor": " CentOS", 
+            "Source RPM": " libteam-1.25-5.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/0/libteam-1.25-5.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID f4a80eb5: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 10 Aug 2017 01:59:18 PM EDT, Key ID 24c6a8a7f4a80eb5", 
+            "Release": " 5.el7", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " CentOS BuildSystem <http://bugs.centos.org>", 
+            "Summary": " Library for controlling team network device", 
+            "Size": " 90652"
+        }
+    }
+}

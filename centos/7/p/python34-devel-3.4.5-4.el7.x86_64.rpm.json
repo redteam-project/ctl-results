@@ -1,0 +1,57 @@
+{
+    "results": {
+        "usr/lib64/python3_4/config-3_4m/python_o": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python3.4/config-3.4m/python.o", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "report-functions": [
+                "_PyMem_RawStrdup", 
+                "PyMem_RawFree", 
+                "_GLOBAL_OFFSET_TABLE_", 
+                "_Py_char2wchar", 
+                "setlocale", 
+                "fwrite", 
+                "stderr", 
+                "PyMem_RawMalloc"
+            ], 
+            "rpm": "python34-devel-3.4.5-4.el7.x86_64.rpm"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 3.4.5", 
+            "Name": " python34-devel", 
+            "License": " Python", 
+            "URL": " http://www.python.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-31.phx2.fedoraproject.org", 
+            "Description": "\nThis package contains libraries and header files used to build applications\nwith and native libraries for Python 3\n", 
+            "Build Date": " Mon 29 May 2017 12:07:32 PM EDT", 
+            "Vendor": " Fedora Project", 
+            "Source RPM": " python34-3.4.5-4.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/python34-devel-3.4.5-4.el7.x86_64.rpm: Header V3 RSA/SHA256 Signature, key ID 352c64e5: NOKEY", 
+            "Architecture": " x86_64", 
+            "Signature": " RSA/SHA256, Mon 29 May 2017 01:13:54 PM EDT, Key ID 6a2faea2352c64e5", 
+            "Release": " 4.el7", 
+            "Group": " Development/Libraries", 
+            "Packager": " Fedora Project", 
+            "Summary": " Libraries and header files needed for Python 3 development", 
+            "Size": " 572971"
+        }
+    }
+}

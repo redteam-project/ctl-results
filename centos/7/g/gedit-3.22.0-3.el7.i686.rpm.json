@@ -1,0 +1,66 @@
+{
+    "results": {
+        "usr/bin/gedit": {
+            "report-functions": [
+                "g_object_run_dispose", 
+                "g_application_get_type", 
+                "bind_textdomain_codeset", 
+                "_ITM_deregisterTMCloneTable", 
+                "g_object_unref", 
+                "setlocale", 
+                "bindtextdomain", 
+                "textdomain", 
+                "g_object_add_weak_pointer", 
+                "g_application_run", 
+                "__libc_start_main", 
+                "g_type_check_instance_cast", 
+                "gedit_app_x11_get_type", 
+                "gedit_dirs_get_gedit_locale_dir", 
+                "_ITM_registerTMCloneTable", 
+                "gedit_debug_message", 
+                "_Jv_RegisterClasses", 
+                "gedit_dirs_init", 
+                "g_object_new"
+            ], 
+            "rpm": "gedit-3.22.0-3.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 2, 
+                    "afC": 130
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/gedit"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 3.22.0", 
+            "Name": " gedit", 
+            "License": " GPLv2+ and GFDL", 
+            "URL": " https://wiki.gnome.org/Apps/Gedit", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " c1bm.rdu2.centos.org", 
+            "Source RPM": " gedit-3.22.0-3.el7.src.rpm", 
+            "Description": "\ngedit is a small, but powerful text editor designed specifically for\nthe GNOME desktop. It has most standard text editor functions and fully\nsupports international text in Unicode. Advanced features include syntax\nhighlighting and automatic indentation of source code, printing and editing\nof multiple documents in one window.\n\ngedit is extensible through a plugin system, which currently includes\nsupport for spell checking, comparing files, viewing CVS ChangeLogs, and\nadjusting indentation levels. Further plugins can be found in the\ngedit-plugins package.\n", 
+            "Build Date": " Sun 06 Aug 2017 11:29:48 PM EDT", 
+            "Vendor": " CentOS", 
+            "Epoch": " 2", 
+            "warning": " /home/jason/fctl/swap/0/gedit-3.22.0-3.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID f4a80eb5: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 10 Aug 2017 12:03:16 PM EDT, Key ID 24c6a8a7f4a80eb5", 
+            "Release": " 3.el7", 
+            "Group": " Unspecified", 
+            "Packager": " CentOS BuildSystem <http://bugs.centos.org>", 
+            "Summary": " Text editor for the GNOME desktop", 
+            "Size": " 14276676"
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Version": " 0.95", 
+            "Name": " driverctl", 
+            "License": " LGPLv2", 
+            "URL": " https://gitlab.com/driverctl/driverctl", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " c1bm.rdu2.centos.org", 
+            "Description": "\ndriverctl is a tool for manipulating and inspecting the system\ndevice driver choices.\n\nDevices are normally assigned to their sole designated kernel driver\nby default. However in some situations it may be desireable to\noverride that default, for example to try an older driver to\nwork around a regression in a driver or to try an experimental alternative\ndriver. Another common use-case is pass-through drivers and driver\nstubs to allow userspace to drive the device, such as in case of\nvirtualization.\n\ndriverctl integrates with udev to support overriding\ndriver selection for both cold- and hotplugged devices from the\nmoment of discovery, but can also change already assigned drivers,\nassuming they are not in use by the system. The driver overrides\ncreated by driverctl are persistent across system reboots\nby default.\n", 
+            "Build Date": " Thu 07 Sep 2017 02:16:14 PM EDT", 
+            "Vendor": " CentOS", 
+            "Source RPM": " driverctl-0.95-1.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/driverctl-0.95-1.el7.noarch.rpm: Header V3 RSA/SHA256 Signature, key ID f4a80eb5: NOKEY", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Thu 07 Sep 2017 05:13:45 PM EDT, Key ID 24c6a8a7f4a80eb5", 
+            "Release": " 1.el7", 
+            "Group": " System Environment/Kernel", 
+            "Packager": " CentOS BuildSystem <http://bugs.centos.org>", 
+            "Summary": " Device driver control utility", 
+            "Size": " 38751"
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Version": " 0.2.6", 
+            "Name": " python-pygeoip", 
+            "License": " LGPLv3+", 
+            "URL": " http://pypi.python.org/pypi/pygeoip", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-18.phx2.fedoraproject.org", 
+            "Description": "\nPure Python GeoIP API based on MaxMind's C-based Python API\nbut the code itself is ported from the Pure PHP GeoIP API.\n\nCreate your GeoIP instance with appropriate access flag. `STANDARD` reads\ndata from disk when needed, `MEMORY_CACHE` loads database into memory on\ninstantiation and `MMAP_CACHE` loads database into memory using mmap.\n\n    import pygeoip\n    gi = pygeoip.GeoIP('/usr/share/geoip/GeoIP.dat', pygeoip.MEMORY_CACHE)\n\nCountry lookup\n\n    >>> gi.country_code_by_name('google.com')\n    'US'\n    >>> gi.country_code_by_addr('64.233.161.99')\n    'US'\n    >>> gi.country_name_by_addr('64.233.161.99')\n    'United States'\n\nCity lookup\n\n    >>> gi = pygeoip.GeoIP('/usr/share/geoip/GeoLiteCity.dat')\n    >>> gi.record_by_addr('64.233.161.99')\n    {\n        'city': 'Mountain View',\n        'region_name': 'CA',\n        'area_code': 650,\n        'longitude': -122.0574,\n        'country_code3': 'USA',\n        'latitude': 37.419199999999989,\n        'postal_code': '94043',\n        'dma_code': 807,\n        'country_code': 'US',\n        'country_name': 'United States'\n    }\n    >>> gi.time_zone_by_addr('64.233.161.99')\n    'America/Los_Angeles'\n\nFor more information, check out the full API documentation at\nhttp://packages.python.org/pygeoip.\n", 
+            "Build Date": " Thu 15 Jan 2015 10:10:59 AM EST", 
+            "Vendor": " Fedora Project", 
+            "Source RPM": " python-pygeoip-0.2.6-5.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/python-pygeoip-0.2.6-5.el7.noarch.rpm: Header V3 RSA/SHA256 Signature, key ID 352c64e5: NOKEY", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Fri 16 Jan 2015 11:40:21 AM EST, Key ID 6a2faea2352c64e5", 
+            "Release": " 5.el7", 
+            "Group": " Development/Libraries", 
+            "Packager": " Fedora Project", 
+            "Summary": " Pure Python GeoIP API", 
+            "Size": " 1043078"
+        }
+    }
+}

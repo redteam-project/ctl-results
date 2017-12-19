@@ -1,0 +1,62 @@
+{
+    "results": {
+        "lib/libaio_so_1_0_0": {
+            "report-functions": [], 
+            "rpm": "libaio-0.3.109-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": "7", 
+                    "afC": "49"
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "lib/libaio.so.1.0.0"
+        }, 
+        "lib/libaio_so_1_0_1": {
+            "report-functions": [], 
+            "rpm": "libaio-0.3.109-13.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": "7", 
+                    "afC": "49"
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "lib/libaio.so.1.0.1"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 0.3.109", 
+            "Name": " libaio", 
+            "License": " LGPLv2+", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " worker1.bsys.centos.org", 
+            "Description": "\nThe Linux-native asynchronous I/O facility (\"async I/O\", or \"aio\") has a\nricher API and capability set than the simple POSIX async I/O facility.\nThis library, libaio, provides the Linux-native API for async I/O.\nThe POSIX async I/O facility requires this library in order to provide\nkernel-accelerated async I/O capabilities, as do applications which\nrequire the Linux-native async I/O API.\n", 
+            "Build Date": " Fri 20 Nov 2015 01:36:03 AM EST", 
+            "Vendor": " CentOS", 
+            "Source RPM": " libaio-0.3.109-13.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/0/libaio-0.3.109-13.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID f4a80eb5: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Wed 25 Nov 2015 09:50:53 AM EST, Key ID 24c6a8a7f4a80eb5", 
+            "Release": " 13.el7", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " CentOS BuildSystem <http://bugs.centos.org>", 
+            "Summary": " Linux-native asynchronous I/O access library", 
+            "Size": " 38230"
+        }
+    }
+}

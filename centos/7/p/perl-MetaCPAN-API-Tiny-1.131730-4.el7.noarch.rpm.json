@@ -1,0 +1,26 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.131730", 
+            "Name": " perl-MetaCPAN-API-Tiny", 
+            "License": " GPL+ or Artistic", 
+            "URL": " https://metacpan.org/release/MetaCPAN-API-Tiny", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-23.phx2.fedoraproject.org", 
+            "Description": "\nThis is the Tiny version of MetaCPAN::API. It implements a compatible API with\na few notable exceptions:\n\nAttributes are direct hash access\n\n * The attributes defined using Mo(o|u)se are now accessed via the blessed hash\n   directly. There are no accessors defined to access this elements.\n\nException handling\n\n * Instead of using Try::Tiny, raw evals are used. This could potentially cause\n   issues, so just be aware.\n\nTesting\n\n * Test::Fatal was replaced with an eval implementation of exception().\n   Test::TinyMocker usage is retained, but may be absorbed since it is pure\n   perl.\n", 
+            "Build Date": " Wed 28 Jun 2017 05:45:43 AM EDT", 
+            "Vendor": " Fedora Project", 
+            "Source RPM": " perl-MetaCPAN-API-Tiny-1.131730-4.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/perl-MetaCPAN-API-Tiny-1.131730-4.el7.noarch.rpm: Header V3 RSA/SHA256 Signature, key ID 352c64e5: NOKEY", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Wed 28 Jun 2017 05:56:31 AM EDT, Key ID 6a2faea2352c64e5", 
+            "Release": " 4.el7", 
+            "Group": " Unspecified", 
+            "Packager": " Fedora Project", 
+            "Summary": " A Tiny API client for MetaCPAN", 
+            "Size": " 33407"
+        }
+    }
+}

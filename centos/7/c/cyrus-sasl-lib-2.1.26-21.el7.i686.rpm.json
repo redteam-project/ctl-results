@@ -1,0 +1,123 @@
+{
+    "results": {
+        "usr/sbin/sasldblistusers2": {
+            "report-functions": [
+                "__libc_start_main", 
+                "db_strerror", 
+                "strncpy", 
+                "fwrite", 
+                "__cxa_finalize", 
+                "exit", 
+                "db_create", 
+                "__gmon_start__", 
+                "sasl_server_new", 
+                "sasl_version", 
+                "memcpy", 
+                "getopt", 
+                "__stack_chk_fail", 
+                "_ITM_deregisterTMCloneTable", 
+                "strlen", 
+                "_ITM_registerTMCloneTable", 
+                "strrchr", 
+                "sasl_dispose", 
+                "__fprintf_chk", 
+                "__printf_chk", 
+                "sasl_server_init", 
+                "sasl_done"
+            ], 
+            "rpm": "cyrus-sasl-lib-2.1.26-21.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 14, 
+                    "afC": 314
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/sbin/sasldblistusers2"
+        }, 
+        "usr/sbin/saslpasswd2": {
+            "report-functions": [
+                "sasl_setpass", 
+                "tcgetattr", 
+                "sasl_server_new", 
+                "getopt", 
+                "gethostname", 
+                "prop_dispose", 
+                "__libc_start_main", 
+                "prop_request", 
+                "fflush", 
+                "sasl_done", 
+                "sasl_dispose", 
+                "memcpy", 
+                "__stack_chk_fail", 
+                "sasl_errstring", 
+                "perror", 
+                "fwrite", 
+                "sasl_auxprop_store", 
+                "_IO_putc", 
+                "strrchr", 
+                "strchr", 
+                "memcmp", 
+                "__gmon_start__", 
+                "fputs", 
+                "_ITM_deregisterTMCloneTable", 
+                "prop_set", 
+                "strlen", 
+                "sasl_version", 
+                "sasl_server_init", 
+                "prop_new", 
+                "malloc", 
+                "tcsetattr", 
+                "isatty", 
+                "_Jv_RegisterClasses", 
+                "_ITM_registerTMCloneTable", 
+                "__cxa_finalize", 
+                "__fprintf_chk"
+            ], 
+            "rpm": "cyrus-sasl-lib-2.1.26-21.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 22, 
+                    "afC": 422
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/sbin/saslpasswd2"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 2.1.26", 
+            "Name": " cyrus-sasl-lib", 
+            "License": " BSD with advertising", 
+            "URL": " http://asg.web.cmu.edu/sasl/sasl-library.html", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " c1bm.rdu2.centos.org", 
+            "Description": "\nThe cyrus-sasl-lib package contains shared libraries which are needed by\napplications which use the Cyrus SASL library.\n", 
+            "Build Date": " Wed 02 Aug 2017 03:12:02 PM EDT", 
+            "Vendor": " CentOS", 
+            "Source RPM": " cyrus-sasl-2.1.26-21.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/0/cyrus-sasl-lib-2.1.26-21.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID f4a80eb5: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 10 Aug 2017 11:32:07 AM EDT, Key ID 24c6a8a7f4a80eb5", 
+            "Release": " 21.el7", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " CentOS BuildSystem <http://bugs.centos.org>", 
+            "Summary": " Shared libraries needed by applications which use Cyrus SASL", 
+            "Size": " 388155"
+        }
+    }
+}

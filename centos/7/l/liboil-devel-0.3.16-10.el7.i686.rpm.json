@@ -1,0 +1,57 @@
+{
+    "results": {
+        "usr/bin/oil-bugreport": {
+            "report-functions": [
+                "oil_class_get_n_classes", 
+                "_Jv_RegisterClasses", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "__vfprintf_chk", 
+                "_ITM_deregisterTMCloneTable", 
+                "oil_class_get_by_index", 
+                "oil_init", 
+                "__printf_chk", 
+                "fputc", 
+                "oil_debug_set_print_function"
+            ], 
+            "rpm": "liboil-devel-0.3.16-10.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 5, 
+                    "afC": 80
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/oil-bugreport"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 0.3.16", 
+            "Name": " liboil-devel", 
+            "License": " BSD", 
+            "URL": " http://liboil.freedesktop.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " worker1.bsys.centos.org", 
+            "Description": "\nLiboil is a library of simple functions that are optimized for various CPUs.\nThese functions are generally loops implementing simple algorithms, such as\nconverting an array of N integers to floating-poing numbers or multiplying\nand summing an array of N numbers. Clearly such functions are candidates for\nsignificant optimization using various techniques, especially by using\nextended instructions provided by modern CPUs (Altivec, MMX, SSE, etc.).\n", 
+            "Build Date": " Tue 10 Jun 2014 09:35:17 PM EDT", 
+            "Vendor": " CentOS", 
+            "Source RPM": " liboil-0.3.16-10.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/0/liboil-devel-0.3.16-10.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID f4a80eb5: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 03 Jul 2014 11:03:49 PM EDT, Key ID 24c6a8a7f4a80eb5", 
+            "Release": " 10.el7", 
+            "Group": " Development/Libraries", 
+            "Packager": " CentOS BuildSystem <http://bugs.centos.org>", 
+            "Summary": " Development files and static library for liboil", 
+            "Size": " 1031367"
+        }
+    }
+}

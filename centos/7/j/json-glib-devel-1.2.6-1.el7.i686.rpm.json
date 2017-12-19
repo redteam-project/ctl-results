@@ -1,0 +1,131 @@
+{
+    "results": {
+        "usr/bin/json-glib-validate": {
+            "report-functions": [
+                "__gmon_start__", 
+                "g_file_read", 
+                "g_file_get_uri", 
+                "__stack_chk_fail", 
+                "g_free", 
+                "json_parser_load_from_stream", 
+                "g_file_new_for_commandline_arg", 
+                "g_clear_error", 
+                "_ITM_registerTMCloneTable", 
+                "g_error_free", 
+                "bind_textdomain_codeset", 
+                "g_option_context_add_main_entries", 
+                "g_option_context_free", 
+                "bindtextdomain", 
+                "textdomain", 
+                "setlocale", 
+                "dcgettext", 
+                "_Jv_RegisterClasses", 
+                "g_option_context_new", 
+                "g_strdup_printf", 
+                "g_option_context_set_summary", 
+                "g_option_context_set_description", 
+                "g_input_stream_close", 
+                "_ITM_deregisterTMCloneTable", 
+                "__libc_start_main", 
+                "g_printerr", 
+                "json_parser_new", 
+                "g_object_unref"
+            ], 
+            "rpm": "json-glib-devel-1.2.6-1.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 9, 
+                    "afC": 392
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/json-glib-validate"
+        }, 
+        "usr/bin/json-glib-format": {
+            "report-functions": [
+                "json_generator_set_pretty", 
+                "__stack_chk_fail", 
+                "bind_textdomain_codeset", 
+                "g_input_stream_close", 
+                "g_strdup_printf", 
+                "_ITM_deregisterTMCloneTable", 
+                "write", 
+                "g_option_context_set_summary", 
+                "g_option_context_add_main_entries", 
+                "g_option_context_parse", 
+                "g_get_prgname", 
+                "g_file_read", 
+                "g_log", 
+                "_Jv_RegisterClasses", 
+                "g_clear_error", 
+                "setlocale", 
+                "json_parser_get_root", 
+                "g_free", 
+                "g_strerror", 
+                "__errno_location", 
+                "dcgettext", 
+                "g_option_context_new", 
+                "g_file_get_uri", 
+                "g_option_context_set_description", 
+                "__libc_start_main", 
+                "textdomain", 
+                "json_generator_to_data", 
+                "__gmon_start__", 
+                "bindtextdomain", 
+                "json_parser_load_from_stream", 
+                "g_file_new_for_commandline_arg", 
+                "g_error_free", 
+                "json_generator_set_root", 
+                "_ITM_registerTMCloneTable", 
+                "json_parser_new", 
+                "json_generator_new", 
+                "g_object_unref", 
+                "g_printerr"
+            ], 
+            "rpm": "json-glib-devel-1.2.6-1.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 14, 
+                    "afC": 526
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/json-glib-format"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.2.6", 
+            "Name": " json-glib-devel", 
+            "License": " LGPLv2+", 
+            "URL": " https://wiki.gnome.org/Projects/JsonGlib", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " c1bm.rdu2.centos.org", 
+            "Description": "\nThe json-glib-devel package contains libraries and header files for\ndeveloping applications that use json-glib.\n", 
+            "Build Date": " Wed 02 Aug 2017 09:22:58 PM EDT", 
+            "Vendor": " CentOS", 
+            "Source RPM": " json-glib-1.2.6-1.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/0/json-glib-devel-1.2.6-1.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID f4a80eb5: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 10 Aug 2017 12:55:59 PM EDT, Key ID 24c6a8a7f4a80eb5", 
+            "Release": " 1.el7", 
+            "Group": " Development/Libraries", 
+            "Packager": " CentOS BuildSystem <http://bugs.centos.org>", 
+            "Summary": " Development files for json-glib", 
+            "Size": " 1184595"
+        }
+    }
+}

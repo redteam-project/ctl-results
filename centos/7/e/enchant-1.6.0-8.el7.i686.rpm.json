@@ -1,0 +1,123 @@
+{
+    "results": {
+        "usr/bin/enchant": {
+            "report-functions": [
+                "g_free", 
+                "g_string_insert_c", 
+                "__fprintf_chk", 
+                "fclose", 
+                "g_strdup", 
+                "g_string_truncate", 
+                "g_string_append_unichar", 
+                "enchant_broker_request_dict", 
+                "__stack_chk_fail", 
+                "g_slist_append", 
+                "g_string_new", 
+                "g_utf8_pointer_to_offset", 
+                "strlen", 
+                "_Jv_RegisterClasses", 
+                "g_string_new_len", 
+                "enchant_dict_check", 
+                "g_locale_from_utf8", 
+                "setlocale", 
+                "_ITM_registerTMCloneTable", 
+                "enchant_dict_suggest", 
+                "enchant_get_user_language", 
+                "__gmon_start__", 
+                "g_slist_free", 
+                "fwrite", 
+                "enchant_fopen", 
+                "g_unichar_type", 
+                "enchant_broker_free_dict", 
+                "fflush", 
+                "g_string_assign", 
+                "__libc_start_main", 
+                "fputc", 
+                "g_utf8_get_char", 
+                "strcmp", 
+                "enchant_dict_free_string_list", 
+                "_ITM_deregisterTMCloneTable", 
+                "enchant_broker_init", 
+                "enchant_broker_free", 
+                "g_string_free", 
+                "fgetc"
+            ], 
+            "rpm": "enchant-1.6.0-8.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 78, 
+                    "afC": 993
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/enchant"
+        }, 
+        "usr/bin/enchant-lsmod": {
+            "report-functions": [
+                "__printf_chk", 
+                "enchant_get_user_language", 
+                "__fprintf_chk", 
+                "g_strdup", 
+                "enchant_broker_init", 
+                "_ITM_registerTMCloneTable", 
+                "puts", 
+                "__gmon_start__", 
+                "enchant_broker_request_dict", 
+                "_ITM_deregisterTMCloneTable", 
+                "enchant_broker_describe", 
+                "__libc_start_main", 
+                "enchant_broker_free_dict", 
+                "strcmp", 
+                "g_free", 
+                "enchant_broker_list_dicts", 
+                "_Jv_RegisterClasses", 
+                "enchant_broker_free"
+            ], 
+            "rpm": "enchant-1.6.0-8.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 27, 
+                    "afC": 289
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/enchant-lsmod"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.6.0", 
+            "Name": " enchant", 
+            "License": " LGPLv2+", 
+            "URL": " http://www.abisource.com/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " worker1.bsys.centos.org", 
+            "Source RPM": " enchant-1.6.0-8.el7.src.rpm", 
+            "Description": "\nA library that wraps other spell checking backends.\n", 
+            "Build Date": " Tue 10 Jun 2014 05:51:43 PM EDT", 
+            "Vendor": " CentOS", 
+            "Epoch": " 1", 
+            "warning": " /home/jason/fctl/swap/0/enchant-1.6.0-8.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID f4a80eb5: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 03 Jul 2014 09:13:31 PM EDT, Key ID 24c6a8a7f4a80eb5", 
+            "Release": " 8.el7", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " CentOS BuildSystem <http://bugs.centos.org>", 
+            "Summary": " An Enchanting Spell Checking Library", 
+            "Size": " 123186"
+        }
+    }
+}

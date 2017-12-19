@@ -1,0 +1,26 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Version": " 0.5", 
+            "Name": " ghc-tf-random", 
+            "License": " BSD and Public Domain", 
+            "URL": " https://hackage.haskell.org/package/tf-random", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-10.phx2.fedoraproject.org", 
+            "Description": "\nThis package contains an implementation of a high-quality splittable\npseudorandom number generator. The generator is based on a cryptographic hash\nfunction built on top of the ThreeFish block cipher. See the paper /Splittable\nPseudorandom Number Generators Using Cryptographic Hashing/ by Claessen, Pa\u0142ka\nfor details and the rationale of the design.\n\nThe package provides the following:\n\n* A splittable PRNG that implements the standard 'System.Random.RandomGen'\nclass.\n\n* The generator also implements an alternative version of the\n'System.Random.TF.Gen.RandomGen' class (exported from \"System.Random.TF.Gen\"),\nwhich requires the generator to return pseudorandom integers from the full\n32-bit range, and contains an n-way split function.\n\n* An alternative version of the 'Random' class is provided, which is linked to\nthe new 'RandomGen' class, together with 'Random' instances for some integral\ntypes.\n\n* Two functions for initialising the generator with a non-deterministic seed:\none using the system time, and one using the '/dev/urandom' UNIX special file.\n\nThe package uses an adapted version of the reference C implementation of\nThreeFish from the reference package of the Skein hash function\n(<https://www.schneier.com/skein.html>), originally written by Doug Whiting.\n\nPlease note that even though the generator provides very high-quality\npseudorandom numbers, it has not been designed with cryptographic applications\nin mind.\n", 
+            "Build Date": " Sat 03 Dec 2016 04:41:08 PM EST", 
+            "Vendor": " Fedora Project", 
+            "Source RPM": " ghc-tf-random-0.5-4.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/0/ghc-tf-random-0.5-4.el7.x86_64.rpm: Header V3 RSA/SHA256 Signature, key ID 352c64e5: NOKEY", 
+            "Architecture": " x86_64", 
+            "Signature": " RSA/SHA256, Fri 09 Dec 2016 01:11:39 AM EST, Key ID 6a2faea2352c64e5", 
+            "Release": " 4.el7", 
+            "Group": " Unspecified", 
+            "Packager": " Fedora Project", 
+            "Summary": " High-quality splittable pseudorandom number generator", 
+            "Size": " 186370"
+        }
+    }
+}

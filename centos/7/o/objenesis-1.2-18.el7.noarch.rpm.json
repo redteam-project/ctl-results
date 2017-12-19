@@ -1,0 +1,26 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.2", 
+            "Name": " objenesis", 
+            "License": " ASL 2.0", 
+            "URL": " http://objenesis.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-04.phx2.fedoraproject.org", 
+            "Description": "\nObjenesis is a small Java library that serves one purpose: to instantiate\na new object of a particular class.\nJava supports dynamic instantiation of classes using Class.newInstance();\nhowever, this only works if the class has an appropriate constructor. There\nare many times when a class cannot be instantiated this way, such as when\nthe class contains constructors that require arguments, that have side effects,\nand/or that throw exceptions. As a result, it is common to see restrictions\nin libraries stating that classes must require a default constructor.\nObjenesis aims to overcome these restrictions by bypassing the constructor\non object instantiation. Needing to instantiate an object without calling\nthe constructor is a fairly specialized task, however there are certain cases\nwhen this is useful:\n* Serialization, Remoting and Persistence - Objects need to be instantiated\n  and restored to a specific state, without invoking code.\n* Proxies, AOP Libraries and Mock Objects - Classes can be sub-classed without\n  needing to worry about the super() constructor.\n* Container Frameworks - Objects can be dynamically instantiated in\n  non-standard ways.\n", 
+            "Build Date": " Fri 08 Aug 2014 08:56:49 AM EDT", 
+            "Vendor": " Fedora Project", 
+            "Source RPM": " objenesis-1.2-18.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/0/objenesis-1.2-18.el7.noarch.rpm: Header V3 RSA/SHA256 Signature, key ID 352c64e5: NOKEY", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Tue 12 Aug 2014 03:53:31 PM EDT, Key ID 6a2faea2352c64e5", 
+            "Release": " 18.el7", 
+            "Group": " Development/Libraries", 
+            "Packager": " Fedora Project", 
+            "Summary": " A library for instantiating Java objects", 
+            "Size": " 135572"
+        }
+    }
+}

@@ -1,0 +1,408 @@
+{
+    "results": {
+        "usr/bin/fc-cat": {
+            "report-functions": [
+                "_Jv_RegisterClasses", 
+                "__fprintf_chk", 
+                "FcCacheNumSubdir", 
+                "FcFini", 
+                "fwrite", 
+                "perror", 
+                "FcCacheDir", 
+                "FcStrListDone", 
+                "fputc", 
+                "__stack_chk_fail", 
+                "__libc_start_main", 
+                "FcDirCacheLoadFile", 
+                "FcConfigGetFontDirs", 
+                "_ITM_deregisterTMCloneTable", 
+                "FcStrSetAdd", 
+                "FcStrSetDestroy", 
+                "FcPatternFormat", 
+                "strncmp", 
+                "putchar", 
+                "__printf_chk", 
+                "FcStrFree", 
+                "_ITM_registerTMCloneTable", 
+                "FcStrSetAddFilename", 
+                "strlen", 
+                "puts", 
+                "FcCacheSubdir", 
+                "getopt_long", 
+                "FcCacheCopySet", 
+                "FcFontSetDestroy", 
+                "FcStrListCreate", 
+                "FcStrSetCreate", 
+                "__overflow", 
+                "FcFileIsDir", 
+                "__gmon_start__", 
+                "FcInitLoadConfig", 
+                "FcDirCacheUnload", 
+                "FcDirCacheLoad", 
+                "exit"
+            ], 
+            "rpm": "fontconfig-2.10.95-11.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 40, 
+                    "afC": 526
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/fc-cat"
+        }, 
+        "usr/bin/fc-list": {
+            "report-functions": [
+                "__gmon_start__", 
+                "FcPatternPrint", 
+                "exit", 
+                "FcPatternDestroy", 
+                "_ITM_deregisterTMCloneTable", 
+                "fputc", 
+                "FcNameParse", 
+                "FcPatternFormat", 
+                "FcObjectSetAdd", 
+                "__strdup", 
+                "FcFontList", 
+                "FcObjectSetDestroy", 
+                "getopt_long", 
+                "FcObjectSetCreate", 
+                "FcFini", 
+                "FcObjectSetBuild", 
+                "fwrite", 
+                "FcPatternCreate", 
+                "__fprintf_chk", 
+                "__libc_start_main", 
+                "FcFontSetDestroy", 
+                "_Jv_RegisterClasses", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "fontconfig-2.10.95-11.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": -1, 
+                    "afC": 34
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/fc-list"
+        }, 
+        "usr/bin/fc-cache": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "puts", 
+                "FcStrSetDestroy", 
+                "FcConfigGetCacheDirs", 
+                "FcConfigGetConfigDirs", 
+                "FcConfigSetSysRoot", 
+                "FcConfigGetCurrent", 
+                "FcDirCacheClean", 
+                "FcCacheNumFont", 
+                "FcStrListNext", 
+                "FcStrSetAdd", 
+                "FcStrListDone", 
+                "FcConfigEnableHome", 
+                "FcDirCacheRead", 
+                "__gmon_start__", 
+                "fflush", 
+                "perror", 
+                "fputc", 
+                "FcCacheNumSubdir", 
+                "FcStrCopy", 
+                "exit", 
+                "FcFini", 
+                "FcInitLoadConfig", 
+                "FcStrSetCreate", 
+                "_ITM_deregisterTMCloneTable", 
+                "_Jv_RegisterClasses", 
+                "fwrite", 
+                "FcDirCacheLoad", 
+                "FcConfigDestroy", 
+                "FcStrListCreate", 
+                "FcDirCacheUnlink", 
+                "FcCacheSubdir", 
+                "FcCacheCreateTagFile", 
+                "sleep", 
+                "FcConfigSetCurrent", 
+                "FcStrFree", 
+                "__xstat64", 
+                "__fprintf_chk", 
+                "FcDirCacheUnload", 
+                "FcStrListFirst", 
+                "__stack_chk_fail", 
+                "FcDirCacheValid", 
+                "FcStrSetAddFilename", 
+                "__libc_start_main", 
+                "__printf_chk", 
+                "__errno_location"
+            ], 
+            "rpm": "fontconfig-2.10.95-11.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": -1, 
+                    "afC": 39
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/fc-cache"
+        }, 
+        "usr/bin/fc-validate": {
+            "report-functions": [
+                "FcLangGetCharSet", 
+                "FcFini", 
+                "FcStrFree", 
+                "FT_New_Face", 
+                "FcCharSetFirstPage", 
+                "FcFreeTypeCharSet", 
+                "__fprintf_chk", 
+                "FcCharSetDestroy", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable", 
+                "__printf_chk", 
+                "__gmon_start__", 
+                "FcLangNormalize", 
+                "FcCharSetSubtract", 
+                "_Jv_RegisterClasses", 
+                "FT_Init_FreeType", 
+                "setlocale", 
+                "FcCharSetCount", 
+                "__stack_chk_fail", 
+                "fputc", 
+                "FT_Done_FreeType", 
+                "getopt_long", 
+                "exit", 
+                "fwrite", 
+                "FT_Done_Face", 
+                "strtol"
+            ], 
+            "rpm": "fontconfig-2.10.95-11.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": -1, 
+                    "afC": 45
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/fc-validate"
+        }, 
+        "usr/bin/fc-pattern": {
+            "report-functions": [
+                "__printf_chk", 
+                "__fprintf_chk", 
+                "__gmon_start__", 
+                "FcPatternPrint", 
+                "FcObjectSetAdd", 
+                "FcDefaultSubstitute", 
+                "FcFini", 
+                "__libc_start_main", 
+                "getopt_long", 
+                "FcObjectSetDestroy", 
+                "FcObjectSetCreate", 
+                "FcPatternFormat", 
+                "_Jv_RegisterClasses", 
+                "FcNameParse", 
+                "FcPatternDestroy", 
+                "FcPatternFilter", 
+                "_ITM_deregisterTMCloneTable", 
+                "FcStrFree", 
+                "__strdup", 
+                "exit", 
+                "FcConfigSubstitute", 
+                "fwrite", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "fontconfig-2.10.95-11.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": -1, 
+                    "afC": 34
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/fc-pattern"
+        }, 
+        "usr/bin/fc-query": {
+            "report-functions": [
+                "__printf_chk", 
+                "FcFreeTypeQuery", 
+                "_Jv_RegisterClasses", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable", 
+                "__strdup", 
+                "getopt_long", 
+                "__fprintf_chk", 
+                "FcPatternFormat", 
+                "exit", 
+                "__stack_chk_fail", 
+                "FcStrFree", 
+                "__libc_start_main", 
+                "strtol", 
+                "fwrite", 
+                "FcPatternDestroy", 
+                "fputc"
+            ], 
+            "rpm": "fontconfig-2.10.95-11.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 13, 
+                    "afC": 194
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/fc-query"
+        }, 
+        "usr/bin/fc-match": {
+            "report-functions": [
+                "FcFontRenderPrepare", 
+                "__strdup", 
+                "__gmon_start__", 
+                "FcDefaultSubstitute", 
+                "FcPatternFilter", 
+                "FcPatternPrint", 
+                "FcFontMatch", 
+                "FcObjectSetDestroy", 
+                "FcPatternCreate", 
+                "_Jv_RegisterClasses", 
+                "_ITM_registerTMCloneTable", 
+                "exit", 
+                "FcFontSetAdd", 
+                "FcPatternFormat", 
+                "FcStrFree", 
+                "getopt_long", 
+                "FcFontSort", 
+                "_ITM_deregisterTMCloneTable", 
+                "FcFontSetDestroy", 
+                "FcObjectSetAdd", 
+                "FcFini", 
+                "fwrite", 
+                "FcConfigSubstitute", 
+                "FcFontSetCreate", 
+                "fputc", 
+                "__fprintf_chk", 
+                "FcPatternDestroy", 
+                "__printf_chk", 
+                "__stack_chk_fail", 
+                "__libc_start_main", 
+                "FcObjectSetCreate"
+            ], 
+            "rpm": "fontconfig-2.10.95-11.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": -1, 
+                    "afC": 38
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/fc-match"
+        }, 
+        "usr/bin/fc-scan": {
+            "report-functions": [
+                "FcFileIsDir", 
+                "FcStrSetDestroy", 
+                "FcFontSetCreate", 
+                "_ITM_registerTMCloneTable", 
+                "FcPatternFormat", 
+                "__libc_start_main", 
+                "__gmon_start__", 
+                "fwrite", 
+                "__printf_chk", 
+                "FcStrSetCreate", 
+                "FcPatternPrint", 
+                "__strdup", 
+                "fputc", 
+                "FcStrListCreate", 
+                "_Jv_RegisterClasses", 
+                "FcStrListDone", 
+                "__fprintf_chk", 
+                "FcDirScan", 
+                "FcStrFree", 
+                "FcFileScan", 
+                "FcFontSetDestroy", 
+                "FcFini", 
+                "FcStrListNext", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "fontconfig-2.10.95-11.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 11, 
+                    "afC": 202
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/fc-scan"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 2.10.95", 
+            "Name": " fontconfig", 
+            "License": " MIT and Public Domain and UCD", 
+            "URL": " http://fontconfig.org", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " c1bm.rdu2.centos.org", 
+            "Description": "\nFontconfig is designed to locate fonts within the\nsystem and select them according to requirements specified by\napplications.\n", 
+            "Build Date": " Wed 02 Aug 2017 11:02:57 AM EDT", 
+            "Vendor": " CentOS", 
+            "Source RPM": " fontconfig-2.10.95-11.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/0/fontconfig-2.10.95-11.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID f4a80eb5: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 10 Aug 2017 11:56:30 AM EDT, Key ID 24c6a8a7f4a80eb5", 
+            "Release": " 11.el7", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " CentOS BuildSystem <http://bugs.centos.org>", 
+            "Summary": " Font configuration and customization library", 
+            "Size": " 558472"
+        }
+    }
+}

@@ -1,0 +1,262 @@
+{
+    "results": {
+        "usr/bin/munch": {
+            "report-functions": [
+                "malloc", 
+                "fopen", 
+                "strlen", 
+                "fgets", 
+                "memcpy", 
+                "fclose", 
+                "strchr", 
+                "strtol", 
+                "__stack_chk_fail", 
+                "free", 
+                "strcmp", 
+                "fwrite", 
+                "memchr", 
+                "calloc", 
+                "__memcpy_chk", 
+                "strncmp", 
+                "strcpy", 
+                "exit", 
+                "__strcpy_chk", 
+                "__gmon_start__", 
+                "__libc_start_main"
+            ], 
+            "rpm": "hunspell-devel-1.3.2-15.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 96, 
+                    "afC": 821
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/munch"
+        }, 
+        "usr/bin/hunzip": {
+            "report-functions": [
+                "__gxx_personality_v0", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable", 
+                "_Znwj", 
+                "__fprintf_chk", 
+                "__printf_chk", 
+                "__libc_start_main", 
+                "_ZdlPv", 
+                "__gmon_start__", 
+                "_Jv_RegisterClasses", 
+                "_ZN6Hunzip7getlineEv"
+            ], 
+            "rpm": "hunspell-devel-1.3.2-15.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 5, 
+                    "afC": 84
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/hunzip"
+        }, 
+        "usr/bin/hzip": {
+            "report-functions": [
+                "__libc_start_main", 
+                "__stack_chk_fail", 
+                "malloc", 
+                "fclose", 
+                "__memcpy_chk", 
+                "_IO_getc", 
+                "memmove", 
+                "tmpfile", 
+                "fwrite", 
+                "rewind", 
+                "__fprintf_chk", 
+                "free", 
+                "strcpy", 
+                "fopen", 
+                "__stpcpy_chk", 
+                "memset", 
+                "fgets", 
+                "__gmon_start__"
+            ], 
+            "rpm": "hunspell-devel-1.3.2-15.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 10, 
+                    "afC": 100
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/hzip"
+        }, 
+        "usr/bin/unmunch": {
+            "report-functions": [
+                "fgets", 
+                "memcpy", 
+                "fclose", 
+                "free", 
+                "exit", 
+                "strcpy", 
+                "__fprintf_chk", 
+                "strlen", 
+                "__gmon_start__", 
+                "strtol", 
+                "strncmp", 
+                "strchr", 
+                "fwrite", 
+                "fopen", 
+                "__strcpy_chk", 
+                "memchr", 
+                "__libc_start_main", 
+                "malloc"
+            ], 
+            "rpm": "hunspell-devel-1.3.2-15.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 15, 
+                    "afC": 328
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/unmunch"
+        }, 
+        "usr/bin/analyze": {
+            "report-functions": [
+                "_Znwj", 
+                "_ZN8Hunspell8generateEPPPcPKcS4_", 
+                "strchr", 
+                "__fprintf_chk", 
+                "__stack_chk_fail", 
+                "fgets", 
+                "_ZN8Hunspell9free_listEPPPci", 
+                "fopen", 
+                "_Jv_RegisterClasses", 
+                "__gmon_start__", 
+                "exit", 
+                "fwrite", 
+                "_ZdlPv", 
+                "_ITM_registerTMCloneTable", 
+                "strlen", 
+                "_ZN8Hunspell5spellEPKcPiPPc", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ZN8Hunspell7analyzeEPPPcPKc", 
+                "__libc_start_main", 
+                "_ZN8Hunspell4stemEPPPcPKc", 
+                "fclose", 
+                "_ZN8HunspellC1EPKcS1_S1_", 
+                "_ZN8HunspellD1Ev"
+            ], 
+            "rpm": "hunspell-devel-1.3.2-15.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 24, 
+                    "afC": 469
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/analyze"
+        }, 
+        "usr/bin/chmorph": {
+            "report-functions": [
+                "_Z8mystrdupPKc", 
+                "fgets", 
+                "_Z14unicodeisalphat", 
+                "_Z6u8_u16P6w_chariPKc", 
+                "fwrite", 
+                "__libc_start_main", 
+                "__gmon_start__", 
+                "__stack_chk_fail", 
+                "exit", 
+                "_ITM_registerTMCloneTable", 
+                "__fprintf_chk", 
+                "free", 
+                "strcat", 
+                "strncmp", 
+                "_ZdlPv", 
+                "_ZN8Hunspell8generateEPPPcPKcS1_i", 
+                "_ZN8Hunspell9free_listEPPPci", 
+                "_Jv_RegisterClasses", 
+                "strcpy", 
+                "_ZN8HunspellC1EPKcS1_S1_", 
+                "_ITM_deregisterTMCloneTable", 
+                "malloc", 
+                "strncpy", 
+                "fclose", 
+                "_Unwind_Resume", 
+                "_Z12flag_bsearchPtti", 
+                "strstr", 
+                "strlen", 
+                "fopen", 
+                "__gxx_personality_v0"
+            ], 
+            "rpm": "hunspell-devel-1.3.2-15.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 16, 
+                    "afC": 356
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/chmorph"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.3.2", 
+            "Name": " hunspell-devel", 
+            "License": " LGPLv2+ or GPLv2+ or MPLv1.1", 
+            "URL": " http://hunspell.sourceforge.net/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " worker1.bsys.centos.org", 
+            "Description": "\nIncludes and definitions for developing with hunspell\n", 
+            "Build Date": " Sat 05 Nov 2016 08:57:59 PM EDT", 
+            "Vendor": " CentOS", 
+            "Source RPM": " hunspell-1.3.2-15.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/0/hunspell-devel-1.3.2-15.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID f4a80eb5: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sun 20 Nov 2016 01:14:31 PM EST, Key ID 24c6a8a7f4a80eb5", 
+            "Release": " 15.el7", 
+            "Group": " Development/Libraries", 
+            "Packager": " CentOS BuildSystem <http://bugs.centos.org>", 
+            "Summary": " Files for developing with hunspell", 
+            "Size": " 167205"
+        }
+    }
+}

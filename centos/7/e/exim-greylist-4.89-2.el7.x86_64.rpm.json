@@ -1,0 +1,26 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Version": " 4.89", 
+            "Name": " exim-greylist", 
+            "License": " GPLv2+", 
+            "URL": " http://www.exim.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-08.phx2.fedoraproject.org", 
+            "Description": "\nThis package contains a simple example of how to do greylisting in Exim's\nACL configuration. It contains a cron job to remove old entries from the\ngreylisting database, and an ACL subroutine which needs to be included\nfrom the main exim.conf file.\n\nTo enable greylisting, install this package and then uncomment the lines\nin Exim's configuration /etc/exim.conf which enable it. You need to\nuncomment at least two lines -- the '.include' directive which includes\nthe new ACL subroutine, and the line which invokes the new subroutine.\n\nBy default, this implementation only greylists mails which appears\n'suspicious' in some way. During normal processing of the ACLs we collect\na list of 'offended' which it's committed, which may include having\nSpamAssassin points, lacking a Message-ID: header, coming from a blacklisted\nhost, etc. There are examples of these in the default configuration file,\nmostly commented out. These should be sufficient for you to you trigger\ngreylisting for whatever 'offences' you can dream of, or even to make\ngreylisting unconditional.\n", 
+            "Build Date": " Fri 18 Aug 2017 11:21:30 AM EDT", 
+            "Vendor": " Fedora Project", 
+            "Source RPM": " exim-4.89-2.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/0/exim-greylist-4.89-2.el7.x86_64.rpm: Header V3 RSA/SHA256 Signature, key ID 352c64e5: NOKEY", 
+            "Architecture": " x86_64", 
+            "Signature": " RSA/SHA256, Fri 18 Aug 2017 02:11:26 PM EDT, Key ID 6a2faea2352c64e5", 
+            "Release": " 2.el7", 
+            "Group": " System Environment/Daemons", 
+            "Packager": " Fedora Project", 
+            "Summary": " Example configuration for greylisting using Exim", 
+            "Size": " 6502"
+        }
+    }
+}

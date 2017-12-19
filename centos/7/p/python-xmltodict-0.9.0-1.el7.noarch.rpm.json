@@ -1,0 +1,26 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Version": " 0.9.0", 
+            "Name": " python-xmltodict", 
+            "License": " MIT", 
+            "URL": " https://github.com/martinblech/xmltodict", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-04.phx2.fedoraproject.org", 
+            "Description": "\nxmltodict is a Python module that makes working with XML feel like you are\nworking with JSON.  It's very fast (Expat-based) and has a streaming mode\nwith a small memory footprint, suitable for big XML dumps like Discogs or\nWikipedia.\n\n    >>> doc = xmltodict.parse(\"\"\"\n    ... <mydocument has=\"an attribute\">\n    ...   <and>\n    ...     <many>elements</many>\n    ...     <many>more elements</many>\n    ...   </and>\n    ...   <plus a=\"complex\">\n    ...     element as well\n    ...   </plus>\n    ... </mydocument>\n    ... \"\"\")\n    >>>\n    >>> doc['mydocument']['@has']\n    u'an attribute'\n    >>> doc['mydocument']['and']['many']\n    [u'elements', u'more elements']\n    >>> doc['mydocument']['plus']['@a']\n    u'complex'\n    >>> doc['mydocument']['plus']['#text']\n    u'element as well'\n", 
+            "Build Date": " Thu 02 Oct 2014 05:41:50 PM EDT", 
+            "Vendor": " Fedora Project", 
+            "Source RPM": " python-xmltodict-0.9.0-1.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/python-xmltodict-0.9.0-1.el7.noarch.rpm: Header V3 RSA/SHA256 Signature, key ID 352c64e5: NOKEY", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Fri 03 Oct 2014 09:33:04 AM EDT, Key ID 6a2faea2352c64e5", 
+            "Release": " 1.el7", 
+            "Group": " Development/Libraries", 
+            "Packager": " Fedora Project", 
+            "Summary": " Makes working with XML feel like you are working with JSON", 
+            "Size": " 31358"
+        }
+    }
+}

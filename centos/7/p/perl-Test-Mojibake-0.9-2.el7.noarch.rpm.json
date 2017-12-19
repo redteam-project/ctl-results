@@ -1,0 +1,26 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Version": " 0.9", 
+            "Name": " perl-Test-Mojibake", 
+            "License": " GPL+ or Artistic", 
+            "URL": " http://search.cpan.org/dist/Test-Mojibake/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-05.phx2.fedoraproject.org", 
+            "Description": "\nMany modern text editors automatically save files using UTF-8 codification.\nHowever, the perl interpreter does not expect it by default. Whilst this does\nnot represent a big deal on (most) backend-oriented programs, Web framework\n(Catalyst, Mojolicious) based applications will suffer so-called Mojibake\n(literally: \"unintelligible sequence of characters\"). Even worse: if an editor\nsaves BOM (Byte Order Mark, U+FEFF character in Unicode) at the start of a\nscript with the executable bit set (on Unix systems), it won't execute at all,\ndue to shebang corruption.\n\nAvoiding codification problems is quite simple:\n\n * Always use utf8/use common::sense when saving source as UTF-8\n * Always specify =encoding utf8 when saving POD as UTF-8\n * Do neither of above when saving as ISO-8859-1\n * Never save BOM (not that it's wrong; just avoid it as you'll barely\n   notice its presence when in trouble)\n\nHowever, if you find yourself upgrading old code to use UTF-8 or trying to\nstandardize a big project with many developers, each one using a different\nplatform/editor, reviewing all files manually can be quite painful, especially\nin cases where some files have multiple encodings (note: it all started when I\nrealized that gedit and derivatives are unable to open files with character\nconversion tables).\n\nEnter the Test::Mojibake ;)\n", 
+            "Build Date": " Mon 27 Jan 2014 04:22:28 PM EST", 
+            "Vendor": " Fedora Project", 
+            "Source RPM": " perl-Test-Mojibake-0.9-2.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/perl-Test-Mojibake-0.9-2.el7.noarch.rpm: Header V3 RSA/SHA256 Signature, key ID 352c64e5: NOKEY", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Tue 04 Feb 2014 11:40:26 PM EST, Key ID 6a2faea2352c64e5", 
+            "Release": " 2.el7", 
+            "Group": " Development/Libraries", 
+            "Packager": " Fedora Project", 
+            "Summary": " Check your source for encoding misbehavior", 
+            "Size": " 50510"
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Version": " 0.12", 
+            "Name": " perl-Devel-GlobalDestruction", 
+            "License": " GPL+ or Artistic", 
+            "URL": " http://search.cpan.org/dist/Devel-GlobalDestruction", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-05.phx2.fedoraproject.org", 
+            "Description": "\nPerl's global destruction is a little tricky to deal with with respect to\nfinalizers because it's not ordered and objects can sometimes disappear.\n\nWriting defensive destructors is hard and annoying, and usually if global\ndestruction is happening you only need the destructors that free up non\nprocess local resources to actually execute.\n\nFor these constructors you can avoid the mess by simply bailing out if\nglobal destruction is in effect.\n", 
+            "Build Date": " Wed 22 Jan 2014 08:54:08 AM EST", 
+            "Vendor": " Fedora Project", 
+            "Source RPM": " perl-Devel-GlobalDestruction-0.12-1.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/perl-Devel-GlobalDestruction-0.12-1.el7.noarch.rpm: Header V3 RSA/SHA256 Signature, key ID 352c64e5: NOKEY", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Tue 04 Feb 2014 11:55:57 PM EST, Key ID 6a2faea2352c64e5", 
+            "Release": " 1.el7", 
+            "Group": " Development/Libraries", 
+            "Packager": " Fedora Project", 
+            "Summary": " Expose PL_dirty, the flag that marks global destruction", 
+            "Size": " 15896"
+        }
+    }
+}

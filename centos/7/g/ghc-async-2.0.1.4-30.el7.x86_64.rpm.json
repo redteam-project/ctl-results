@@ -1,0 +1,26 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Version": " 2.0.1.4", 
+            "Name": " ghc-async", 
+            "License": " BSD", 
+            "URL": " http://hackage.haskell.org/package/async", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-07.phx2.fedoraproject.org", 
+            "Description": "\nThis package provides a higher-level interface over threads, in which an\n\"Async a\" is a concurrent thread that will eventually deliver a value of\ntype \"a\". The package provides ways to create \"Async\" computations,\nwait for their results, and cancel them.\n\nUsing Async is safer than using threads in two ways:\n\n* When waiting for a thread to return a result, if the thread dies with an\nexception then the caller must either re-throw the exception ('wait') or handle\nit ('waitCatch'); the exception cannot be ignored.\n\n* The API makes it possible to build a tree of threads that are automatically\nkilled when their parent dies (see 'withAsync').\n", 
+            "Build Date": " Thu 01 Dec 2016 11:23:05 PM EST", 
+            "Vendor": " Fedora Project", 
+            "Source RPM": " ghc-async-2.0.1.4-30.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/0/ghc-async-2.0.1.4-30.el7.x86_64.rpm: Header V3 RSA/SHA256 Signature, key ID 352c64e5: NOKEY", 
+            "Architecture": " x86_64", 
+            "Signature": " RSA/SHA256, Fri 09 Dec 2016 01:46:38 AM EST, Key ID 6a2faea2352c64e5", 
+            "Release": " 30.el7", 
+            "Group": " Unspecified", 
+            "Packager": " Fedora Project", 
+            "Summary": " Asynchronous IO operations", 
+            "Size": " 87658"
+        }
+    }
+}

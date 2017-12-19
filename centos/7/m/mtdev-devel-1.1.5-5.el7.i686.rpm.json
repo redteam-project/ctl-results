@@ -1,0 +1,60 @@
+{
+    "results": {
+        "usr/bin/mtdev-test": {
+            "report-functions": [
+                "mtdev_get", 
+                "ioctl", 
+                "__stack_chk_fail", 
+                "mtdev_has_mt_event", 
+                "mtdev_close", 
+                "__gmon_start__", 
+                "close", 
+                "open", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable", 
+                "mtdev_open", 
+                "_Jv_RegisterClasses", 
+                "__libc_start_main", 
+                "mtdev_idle"
+            ], 
+            "rpm": "mtdev-devel-1.1.5-5.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 4, 
+                    "afC": 88
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/mtdev-test"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.1.5", 
+            "Name": " mtdev-devel", 
+            "License": " MIT", 
+            "URL": " http://bitmath.org/code/mtdev/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " worker1.bsys.centos.org", 
+            "Description": "\nMultitouch protocol translation library development package.\n", 
+            "Build Date": " Fri 20 Nov 2015 02:39:02 AM EST", 
+            "Vendor": " CentOS", 
+            "Source RPM": " mtdev-1.1.5-5.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/0/mtdev-devel-1.1.5-5.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID f4a80eb5: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Wed 25 Nov 2015 10:19:17 AM EST, Key ID 24c6a8a7f4a80eb5", 
+            "Release": " 5.el7", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " CentOS BuildSystem <http://bugs.centos.org>", 
+            "Summary": " Multitouch Protocol Translation Library Development Package", 
+            "Size": " 25344"
+        }
+    }
+}

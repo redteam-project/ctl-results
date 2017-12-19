@@ -1,0 +1,26 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.000001", 
+            "Name": " perl-Carp-Fix-1_25", 
+            "License": " GPL+ or Artistic", 
+            "URL": " https://metacpan.org/release/Carp-Fix-1_25", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-09.phx2.fedoraproject.org", 
+            "Description": "\nCarp 1.25 made a change to its formatting, adding a period at the end of the\nmessage. This can mess up tests and code that are looking for error messages.\nCarp::Fix::1_25 makes the message consistent, regardless of what version of\nCarp you're using.\n\nCarp::Fix::1_25 exports its own carp functions, which change the Carp message\nto match the 1.25 version. Carp::Fix::1_25 otherwise acts exactly like Carp and\nit will honor Carp global variables such as @CARP_NOT and %Carp::Internal.\n\nWhy do this instead of just upgrading Carp? Upgrading Carp would affect all\ninstalled code all at once. You might not be ready for that, or you might not\nwant your module to foist that on its users. This lets you fix things one\nnamespace at a time.\n", 
+            "Build Date": " Mon 13 Jan 2014 02:16:47 PM EST", 
+            "Vendor": " Fedora Project", 
+            "Source RPM": " perl-Carp-Fix-1_25-1.000001-3.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/perl-Carp-Fix-1_25-1.000001-3.el7.noarch.rpm: Header V3 RSA/SHA256 Signature, key ID 352c64e5: NOKEY", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Mon 13 Jan 2014 10:33:17 PM EST, Key ID 6a2faea2352c64e5", 
+            "Release": " 3.el7", 
+            "Group": " Development/Libraries", 
+            "Packager": " Fedora Project", 
+            "Summary": " Smooth over incompatible changes in Carp 1.25", 
+            "Size": " 26693"
+        }
+    }
+}

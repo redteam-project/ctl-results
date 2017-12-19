@@ -1,0 +1,26 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Version": " 3.0.13", 
+            "Name": " libffi", 
+            "License": " MIT and Public Domain", 
+            "URL": " http://sourceware.org/libffi", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " worker1.bsys.centos.org", 
+            "Description": "\nCompilers for high level languages generate code that follow certain\nconventions.  These conventions are necessary, in part, for separate\ncompilation to work.  One such convention is the \"calling convention\".\nThe calling convention is a set of assumptions made by the compiler\nabout where function arguments will be found on entry to a function.  A\ncalling convention also specifies where the return value for a function\nis found.\n\nSome programs may not know at the time of compilation what arguments\nare to be passed to a function.  For instance, an interpreter may be\ntold at run-time about the number and types of arguments used to call a\ngiven function.  `Libffi' can be used in such programs to provide a\nbridge from the interpreter program to compiled code.\n\nThe `libffi' library provides a portable, high level programming\ninterface to various calling conventions.  This allows a programmer to\ncall any function specified by a call interface description at run time.\n\nFFI stands for Foreign Function Interface.  A foreign function\ninterface is the popular name for the interface that allows code\nwritten in one language to call code written in another language.  The\n`libffi' library really only provides the lowest, machine dependent\nlayer of a fully featured foreign function interface.  A layer must\nexist above `libffi' that handles type conversions for values passed\nbetween the two languages.\n", 
+            "Build Date": " Sat 05 Nov 2016 12:30:28 PM EDT", 
+            "Vendor": " CentOS", 
+            "Source RPM": " libffi-3.0.13-18.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/0/libffi-3.0.13-18.el7.x86_64.rpm: Header V3 RSA/SHA256 Signature, key ID f4a80eb5: NOKEY", 
+            "Architecture": " x86_64", 
+            "Signature": " RSA/SHA256, Sun 20 Nov 2016 01:39:28 PM EST, Key ID 24c6a8a7f4a80eb5", 
+            "Release": " 18.el7", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " CentOS BuildSystem <http://bugs.centos.org>", 
+            "Summary": " A portable foreign function interface library", 
+            "Size": " 47766"
+        }
+    }
+}

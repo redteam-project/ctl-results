@@ -1,0 +1,26 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Version": " 0.10.5", 
+            "Name": " fedfs-utils-common", 
+            "License": " GPLv2", 
+            "URL": " http://wiki.linux-nfs.org/wiki/index.php/FedFsUtilsProject", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " worker1.bsys.centos.org", 
+            "Description": "\nThis package contains files common to all of the fedfs packages.\n\nRFC 5716 introduces the Federated File System (FedFS, for short). FedFS\nis an extensible standardized mechanism by which system administrators\nconstruct a coherent file name space across multiple file servers using\nfile system referrals.\n\nA file system referral is like a symbolic link to another file system\nshare, but it is not visible to applications. It behaves like an\nauto-mounted directory where a new file system mount is done when an\napplication first accesses that directory. The arguments of the mount\noperation are controlled by information returned by the file server.\n\nToday, file system referral mechanisms exist in several network file\nsystem protocols. FedFS provides its file name space features by\nleveraging referral mechanisms already built in to network file system\nprotocols.  Thus no change to file system protocols or clients is\nrequired.\n\nCurrently, the Linux FedFS implementation supports only NFS version 4\nreferrals. More on NFS version 4 referrals can be found in RFC 3530.\nFedFS may support other network file system protocols in the future.\n", 
+            "Build Date": " Sat 05 Nov 2016 12:33:34 PM EDT", 
+            "Vendor": " CentOS", 
+            "Source RPM": " fedfs-utils-0.10.5-0.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/0/fedfs-utils-common-0.10.5-0.el7.noarch.rpm: Header V3 RSA/SHA256 Signature, key ID f4a80eb5: NOKEY", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Sun 20 Nov 2016 12:39:13 PM EST, Key ID 24c6a8a7f4a80eb5", 
+            "Release": " 0.el7", 
+            "Group": " System Environment/Daemons", 
+            "Packager": " CentOS BuildSystem <http://bugs.centos.org>", 
+            "Summary": " Common files for FedFS", 
+            "Size": " 332780"
+        }
+    }
+}

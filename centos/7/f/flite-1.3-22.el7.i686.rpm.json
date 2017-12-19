@@ -1,0 +1,116 @@
+{
+    "results": {
+        "usr/bin/flite_time": {
+            "report-functions": [
+                "new_cst_regex", 
+                "__stack_chk_fail", 
+                "puts", 
+                "flite_init", 
+                "flite_text_to_speech", 
+                "_ITM_registerTMCloneTable", 
+                "delete_cst_regex", 
+                "__libc_start_main", 
+                "__gmon_start__", 
+                "fwrite", 
+                "strtol", 
+                "_ITM_deregisterTMCloneTable", 
+                "exit", 
+                "__sprintf_chk", 
+                "_Jv_RegisterClasses"
+            ], 
+            "rpm": "flite-1.3-22.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 33, 
+                    "afC": 339
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/flite_time"
+        }, 
+        "usr/bin/flite": {
+            "report-functions": [
+                "utt_relation", 
+                "flite_text_to_speech", 
+                "item_next", 
+                "register_cmu_us_kal", 
+                "_ITM_deregisterTMCloneTable", 
+                "flite_init", 
+                "__fprintf_chk", 
+                "puts", 
+                "uttfunc_val", 
+                "strtol", 
+                "feat_copy_into", 
+                "feat_string", 
+                "unregister_cmu_us_kal", 
+                "strcmp", 
+                "strtod", 
+                "new_features", 
+                "__stack_chk_fail", 
+                "feat_set_string", 
+                "relation_head", 
+                "strchr", 
+                "cst_regex_match", 
+                "item_feat_string", 
+                "_Jv_RegisterClasses", 
+                "feat_set", 
+                "flite_phones_to_speech", 
+                "flite_file_to_speech", 
+                "gettimeofday", 
+                "exit", 
+                "__gmon_start__", 
+                "feat_set_float", 
+                "putchar", 
+                "feat_set_int", 
+                "cst_strdup", 
+                "_ITM_registerTMCloneTable", 
+                "__libc_start_main", 
+                "delete_features"
+            ], 
+            "rpm": "flite-1.3-22.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 59, 
+                    "afC": 616
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/flite"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.3", 
+            "Name": " flite", 
+            "License": " MIT", 
+            "URL": " http://www.speech.cs.cmu.edu/flite/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " worker1.bsys.centos.org", 
+            "Description": "\nFlite (festival-lite) is a small, fast run-time speech synthesis engine\ndeveloped at CMU and primarily designed for small embedded machines and/or\nlarge servers. Flite is designed as an alternative synthesis engine to\nFestival for voices built using the FestVox suite of voice building tools.\n", 
+            "Build Date": " Tue 10 Jun 2014 06:09:28 PM EDT", 
+            "Vendor": " CentOS", 
+            "Source RPM": " flite-1.3-22.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/0/flite-1.3-22.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID f4a80eb5: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 03 Jul 2014 09:21:44 PM EDT, Key ID 24c6a8a7f4a80eb5", 
+            "Release": " 22.el7", 
+            "Group": " Applications/Multimedia", 
+            "Packager": " CentOS BuildSystem <http://bugs.centos.org>", 
+            "Summary": " Small, fast speech synthesis engine (text-to-speech)", 
+            "Size": " 10524227"
+        }
+    }
+}

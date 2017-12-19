@@ -1,0 +1,87 @@
+{
+    "results": {
+        "usr/bin/orc-bugreport": {
+            "report-functions": [
+                "orc_program_add_constant", 
+                "orc_program_new", 
+                "orc_program_set_constant_n", 
+                "_ITM_registerTMCloneTable", 
+                "__sprintf_chk", 
+                "putchar", 
+                "orc_program_add_destination", 
+                "orc_program_append_dds_str", 
+                "orc_get_cpu_family_model_stepping", 
+                "orc_opcode_set_get", 
+                "orc_program_set_name", 
+                "fread", 
+                "orc_program_add_parameter", 
+                "fopen", 
+                "orc_test_init", 
+                "__libc_start_main", 
+                "orc_test_compare_output_full", 
+                "puts", 
+                "__printf_chk", 
+                "orc_init", 
+                "fseek", 
+                "orc_program_add_source", 
+                "orc_target_get_default_flags", 
+                "_Jv_RegisterClasses", 
+                "orc_get_cpu_name", 
+                "orc_target_get_flag_name", 
+                "ftell", 
+                "_ITM_deregisterTMCloneTable", 
+                "fclose", 
+                "orc_program_free", 
+                "orc_get_data_cache_sizes", 
+                "orc_target_get_name", 
+                "exit", 
+                "__gmon_start__", 
+                "orc_program_append_str", 
+                "orc_program_add_accumulator", 
+                "orc_program_append_2", 
+                "malloc", 
+                "orc_parse", 
+                "orc_program_set_2d", 
+                "free"
+            ], 
+            "rpm": "orc-0.4.26-1.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 16, 
+                    "afC": 430
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/orc-bugreport"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 0.4.26", 
+            "Name": " orc", 
+            "License": " BSD", 
+            "URL": " http://cgit.freedesktop.org/gstreamer/orc/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " c1bm.rdu2.centos.org", 
+            "Description": "\nOrc is a library and set of tools for compiling and executing\nvery simple programs that operate on arrays of data.  The \"language\"\nis a generic assembly language that represents many of the features\navailable in SIMD architectures, including saturated addition and\nsubtraction, and many arithmetic operations.\n", 
+            "Build Date": " Wed 02 Aug 2017 06:02:16 PM EDT", 
+            "Vendor": " CentOS", 
+            "Source RPM": " orc-0.4.26-1.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/0/orc-0.4.26-1.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID f4a80eb5: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 10 Aug 2017 02:43:38 PM EDT, Key ID 24c6a8a7f4a80eb5", 
+            "Release": " 1.el7", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " CentOS BuildSystem <http://bugs.centos.org>", 
+            "Summary": " The Oil Run-time Compiler", 
+            "Size": " 650888"
+        }
+    }
+}

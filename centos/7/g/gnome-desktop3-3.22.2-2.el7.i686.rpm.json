@@ -1,0 +1,79 @@
+{
+    "results": {
+        "usr/libexec/gnome-rr-debug": {
+            "report-functions": [
+                "gnome_rr_mode_get_is_tiled", 
+                "gnome_rr_mode_get_height", 
+                "g_print", 
+                "gtk_init", 
+                "g_free", 
+                "gnome_rr_output_get_backlight", 
+                "g_log", 
+                "gnome_rr_mode_get_freq", 
+                "gnome_rr_screen_list_outputs", 
+                "gnome_rr_output_list_modes", 
+                "gnome_rr_output_is_builtin_display", 
+                "gnome_rr_output_get_edid_data", 
+                "__stack_chk_fail", 
+                "g_object_unref", 
+                "gnome_rr_screen_new", 
+                "gtk_main", 
+                "_ITM_deregisterTMCloneTable", 
+                "__libc_start_main", 
+                "gnome_rr_mode_get_is_interlaced", 
+                "_ITM_registerTMCloneTable", 
+                "gnome_rr_output_get_physical_size", 
+                "gnome_rr_screen_get_dpms_mode", 
+                "__gmon_start__", 
+                "_Jv_RegisterClasses", 
+                "gnome_rr_output_get_min_backlight_step", 
+                "gnome_rr_output_get_ids_from_edid", 
+                "gnome_rr_mode_get_id", 
+                "gnome_rr_output_get_name", 
+                "g_error_free", 
+                "gnome_rr_output_get_id", 
+                "g_signal_connect_data", 
+                "g_assertion_message_expr", 
+                "gdk_screen_get_default"
+            ], 
+            "rpm": "gnome-desktop3-3.22.2-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 4, 
+                    "afC": 130
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/libexec/gnome-rr-debug"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 3.22.2", 
+            "Name": " gnome-desktop3", 
+            "License": " GPLv2+ and LGPLv2+", 
+            "URL": " http://www.gnome.org", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " c1bm.rdu2.centos.org", 
+            "Description": "\n\nThe gnome-desktop3 package contains an internal library\n(libgnomedesktop) used to implement some portions of the GNOME\ndesktop, and also some data files and other shared components of the\nGNOME user environment.\n", 
+            "Build Date": " Sun 06 Aug 2017 05:33:42 PM EDT", 
+            "Vendor": " CentOS", 
+            "Source RPM": " gnome-desktop3-3.22.2-2.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/0/gnome-desktop3-3.22.2-2.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID f4a80eb5: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 10 Aug 2017 12:16:08 PM EDT, Key ID 24c6a8a7f4a80eb5", 
+            "Release": " 2.el7", 
+            "Group": " Unspecified", 
+            "Packager": " CentOS BuildSystem <http://bugs.centos.org>", 
+            "Summary": " Shared code among gnome-panel, gnome-session, nautilus, etc", 
+            "Size": " 2678272"
+        }
+    }
+}

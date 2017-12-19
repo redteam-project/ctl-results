@@ -1,0 +1,26 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.0", 
+            "Name": " munge-maven-plugin", 
+            "License": " CDDL", 
+            "URL": " http://github.com/sonatype/munge-maven-plugin", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " worker1.bsys.centos.org", 
+            "Description": "\nMunge is a purposely-simple Java preprocessor. It only supports\nconditional inclusion of source based on defined strings of the\nform \"if[tag]\", \"if_not[tag]\", \"else[tag]\", and \"end[tag]\".\nUnlike traditional preprocessors, comments, and formatting are all\npreserved for the included lines. This is on purpose, as the output\nof Munge will be distributed as human-readable source code.\n\nTo avoid creating a separate Java dialect, the conditional tags are\ncontained in Java comments. This allows one build to compile the\nsource files without pre-processing, to facilitate faster incremental\ndevelopment. Other builds from the same source have their code contained\nwithin that comment. The format of the tags is a little verbose, so\nthat the tags won't accidentally be used by other comment readers\nsuch as javadoc. Munge tags must be in C-style comments;\nC++-style comments may be used to comment code within a comment.\n\nLike any preprocessor, developers must be careful not to abuse its\ncapabilities so that their code becomes unreadable. Please use it\nas little as possible.\n", 
+            "Build Date": " Mon 09 Jun 2014 03:05:42 PM EDT", 
+            "Vendor": " CentOS", 
+            "Source RPM": " munge-maven-plugin-1.0-2.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/0/munge-maven-plugin-1.0-2.el7.noarch.rpm: Header V3 RSA/SHA256 Signature, key ID f4a80eb5: NOKEY", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Thu 03 Jul 2014 11:51:33 PM EDT, Key ID 24c6a8a7f4a80eb5", 
+            "Release": " 2.el7", 
+            "Group": " Unspecified", 
+            "Packager": " CentOS BuildSystem <http://bugs.centos.org>", 
+            "Summary": " Munge Maven Plugin", 
+            "Size": " 37540"
+        }
+    }
+}

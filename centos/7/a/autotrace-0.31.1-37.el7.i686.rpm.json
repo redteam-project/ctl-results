@@ -1,0 +1,99 @@
+{
+    "results": {
+        "usr/bin/autotrace": {
+            "report-functions": [
+                "getenv", 
+                "at_bitmap_free", 
+                "at_input_get_handler_by_suffix", 
+                "at_fitting_opts_free", 
+                "at_output_list_free", 
+                "at_input_shortlist", 
+                "at_color_copy", 
+                "strchr", 
+                "memcpy", 
+                "at_splines_write", 
+                "__libc_start_main", 
+                "__fprintf_chk", 
+                "__gmon_start__", 
+                "fwrite", 
+                "at_input_list_free", 
+                "__assert_fail", 
+                "_ITM_deregisterTMCloneTable", 
+                "at_output_get_handler_by_suffix", 
+                "malloc", 
+                "fputc", 
+                "__printf_chk", 
+                "strlen", 
+                "at_version", 
+                "strrchr", 
+                "at_input_get_handler", 
+                "_Jv_RegisterClasses", 
+                "at_output_get_handler", 
+                "remove_suffix", 
+                "at_home_site", 
+                "free", 
+                "strtod", 
+                "at_output_shortlist", 
+                "xfopen", 
+                "at_splines_free", 
+                "extend_filename", 
+                "fclose", 
+                "at_input_list_new", 
+                "at_color_new", 
+                "at_bitmap_read", 
+                "at_bitmap_get_height", 
+                "at_fitting_opts_new", 
+                "at_output_list_new", 
+                "at_bitmap_get_width", 
+                "strgnicmp", 
+                "strtol", 
+                "exit", 
+                "__stack_chk_fail", 
+                "at_bitmap_get_planes", 
+                "at_input_opts_new", 
+                "at_input_opts_free", 
+                "_ITM_registerTMCloneTable", 
+                "strgicmp", 
+                "at_output_opts_new"
+            ], 
+            "rpm": "autotrace-0.31.1-37.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 23, 
+                    "afC": 494
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/autotrace"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 0.31.1", 
+            "Name": " autotrace", 
+            "License": " GPLv2+ and LGPLv2+", 
+            "URL": " http://autotrace.sourceforge.net/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " worker1.bsys.centos.org", 
+            "Description": "\nAutoTrace is a program for converting bitmaps to vector graphics.\n\nSupported input formats include BMP, TGA, PNM, PPM, and any format\nsupported by ImageMagick, whereas output can be produced in\nPostscript, SVG, xfig, SWF, and others.\n", 
+            "Build Date": " Tue 10 Jun 2014 05:13:28 PM EDT", 
+            "Vendor": " CentOS", 
+            "Source RPM": " autotrace-0.31.1-37.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/0/autotrace-0.31.1-37.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID f4a80eb5: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 03 Jul 2014 08:44:26 PM EDT, Key ID 24c6a8a7f4a80eb5", 
+            "Release": " 37.el7", 
+            "Group": " Applications/Multimedia", 
+            "Packager": " CentOS BuildSystem <http://bugs.centos.org>", 
+            "Summary": " Utility for converting bitmaps to vector graphics", 
+            "Size": " 350486"
+        }
+    }
+}

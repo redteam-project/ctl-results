@@ -1,0 +1,26 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.1.0", 
+            "Name": " nodejs-dep-graph", 
+            "License": " MIT", 
+            "URL": " https://github.com/TrevorBurnham/dep-graph", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-24.phx2.fedoraproject.org", 
+            "Description": "\nThis is a Node.js module for simple dependency graph management in JavaScript.\n\nSay you have a set of resources that depend on each other in some way. These\nresources can be anything (eg, files, chains of command etc.).\nAll that matters is that each one has a unique string identifier, and a list\nof direct dependencies.\n\ndep-graph makes it easy to compute \"chains\" of dependencies, with guaranteed\nlogical ordering and no duplicates. That's trivial in most cases, but if A\ndepends on B and B depends on A, a na\u00efve dependency graph would get trapped\nin an infinite loop. dep-graph throws an error if any such \"cycles\" are\ndetected.\n", 
+            "Build Date": " Tue 29 Jul 2014 11:43:58 PM EDT", 
+            "Vendor": " Fedora Project", 
+            "Source RPM": " nodejs-dep-graph-1.1.0-6.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/0/nodejs-dep-graph-1.1.0-6.el7.noarch.rpm: Header V3 RSA/SHA256 Signature, key ID 352c64e5: NOKEY", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Wed 30 Jul 2014 08:48:25 AM EDT, Key ID 6a2faea2352c64e5", 
+            "Release": " 6.el7", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " Fedora Project", 
+            "Summary": " Simple dependency graph management in JavaScript", 
+            "Size": " 23051"
+        }
+    }
+}

@@ -1,0 +1,153 @@
+{
+    "results": {
+        "usr/bin/luac": {
+            "report-functions": [
+                "fopen", 
+                "_IO_getc", 
+                "strerror", 
+                "__longjmp_chk", 
+                "__fprintf_chk", 
+                "feof", 
+                "_Jv_RegisterClasses", 
+                "strcat", 
+                "_setjmp", 
+                "strlen", 
+                "memcpy", 
+                "putchar", 
+                "exit", 
+                "__stack_chk_fail", 
+                "memcmp", 
+                "strncpy", 
+                "strncat", 
+                "__ctype_b_loc", 
+                "strtod", 
+                "__libc_start_main", 
+                "ungetc", 
+                "_ITM_registerTMCloneTable", 
+                "strchr", 
+                "ferror", 
+                "localeconv", 
+                "_IO_putc", 
+                "pow", 
+                "strcmp", 
+                "__gmon_start__", 
+                "free", 
+                "strcoll", 
+                "fclose", 
+                "strcpy", 
+                "__printf_chk", 
+                "strstr", 
+                "fwrite", 
+                "fread", 
+                "strtoul", 
+                "__errno_location", 
+                "realloc", 
+                "freopen"
+            ], 
+            "rpm": "lua-5.1.4-15.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 30, 
+                    "afC": 272
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/luac"
+        }, 
+        "usr/bin/lua": {
+            "report-functions": [
+                "luaL_openlibs", 
+                "lua_pushinteger", 
+                "_ITM_deregisterTMCloneTable", 
+                "lua_insert", 
+                "isatty", 
+                "fflush", 
+                "lua_tolstring", 
+                "lua_gc", 
+                "lua_pushstring", 
+                "lua_concat", 
+                "lua_remove", 
+                "luaL_error", 
+                "lua_pcall", 
+                "lua_pushlstring", 
+                "lua_setfield", 
+                "lua_close", 
+                "getenv", 
+                "add_history", 
+                "__libc_start_main", 
+                "lua_call", 
+                "lua_touserdata", 
+                "lua_sethook", 
+                "strlen", 
+                "_ITM_registerTMCloneTable", 
+                "lua_cpcall", 
+                "lua_getfield", 
+                "__fprintf_chk", 
+                "free", 
+                "_Jv_RegisterClasses", 
+                "lua_type", 
+                "lua_gettop", 
+                "lua_objlen", 
+                "lua_pushvalue", 
+                "strstr", 
+                "luaL_checkstack", 
+                "lua_isstring", 
+                "luaL_newstate", 
+                "luaL_loadfile", 
+                "lua_pushcclosure", 
+                "lua_createtable", 
+                "lua_pushfstring", 
+                "lua_rawseti", 
+                "luaL_loadbuffer", 
+                "__gmon_start__", 
+                "__stack_chk_fail", 
+                "readline", 
+                "fputc"
+            ], 
+            "rpm": "lua-5.1.4-15.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 3, 
+                    "afC": 71
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/lua"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 5.1.4", 
+            "Name": " lua", 
+            "License": " MIT", 
+            "URL": " http://www.lua.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " worker1.bsys.centos.org", 
+            "Description": "\nLua is a powerful light-weight programming language designed for\nextending applications. Lua is also frequently used as a\ngeneral-purpose, stand-alone language. Lua is free software.\nLua combines simple procedural syntax with powerful data description\nconstructs based on associative arrays and extensible semantics. Lua\nis dynamically typed, interpreted from bytecodes, and has automatic\nmemory management with garbage collection, making it ideal for\nconfiguration, scripting, and rapid prototyping.\n", 
+            "Build Date": " Sat 05 Nov 2016 10:46:16 PM EDT", 
+            "Vendor": " CentOS", 
+            "Source RPM": " lua-5.1.4-15.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/0/lua-5.1.4-15.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID f4a80eb5: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Sun 20 Nov 2016 02:22:34 PM EST, Key ID 24c6a8a7f4a80eb5", 
+            "Release": " 15.el7", 
+            "Group": " Development/Languages", 
+            "Packager": " CentOS BuildSystem <http://bugs.centos.org>", 
+            "Summary": " Powerful light-weight programming language", 
+            "Size": " 633247"
+        }
+    }
+}

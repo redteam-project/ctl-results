@@ -1,0 +1,45 @@
+{
+    "results": {
+        "usr/bin/cscppc": {
+            "report-functions": [], 
+            "rpm": "cscppc-1.3.3-1.el7.x86_64.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 23, 
+                    "afC": 387
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/cscppc"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.3.3", 
+            "Name": " cscppc", 
+            "License": " GPLv3+", 
+            "URL": " https://github.com/kdudka/cscppc", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-32.phx2.fedoraproject.org", 
+            "Description": "\nThis package contains the cscppc compiler wrapper that runs cppcheck in\nbackground fully transparently.\n", 
+            "Build Date": " Thu 20 Jul 2017 03:39:12 PM EDT", 
+            "Vendor": " Fedora Project", 
+            "Source RPM": " cscppc-1.3.3-1.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/0/cscppc-1.3.3-1.el7.x86_64.rpm: Header V3 RSA/SHA256 Signature, key ID 352c64e5: NOKEY", 
+            "Architecture": " x86_64", 
+            "Signature": " RSA/SHA256, Thu 20 Jul 2017 04:03:58 PM EDT, Key ID 6a2faea2352c64e5", 
+            "Release": " 1.el7", 
+            "Group": " Development/Tools", 
+            "Packager": " Fedora Project", 
+            "Summary": " A compiler wrapper that runs cppcheck in background", 
+            "Size": " 938581"
+        }
+    }
+}

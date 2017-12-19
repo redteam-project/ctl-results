@@ -1,0 +1,87 @@
+{
+    "results": {
+        "lib/libusb-0_1_so_4_4_4": {
+            "report-functions": [
+                "libusb_close", 
+                "libusb_bulk_transfer", 
+                "_ITM_registerTMCloneTable", 
+                "libusb_detach_kernel_driver", 
+                "memcpy", 
+                "libusb_claim_interface", 
+                "libusb_set_interface_alt_setting", 
+                "libusb_clear_halt", 
+                "libusb_unref_device", 
+                "__sprintf_chk", 
+                "snprintf", 
+                "libusb_get_device_list", 
+                "fputc", 
+                "libusb_control_transfer", 
+                "libusb_interrupt_transfer", 
+                "__stack_chk_fail", 
+                "__vfprintf_chk", 
+                "malloc", 
+                "__errno_location", 
+                "free", 
+                "__gmon_start__", 
+                "libusb_reset_device", 
+                "libusb_free_device_list", 
+                "libusb_get_bus_number", 
+                "__fprintf_chk", 
+                "libusb_get_device_address", 
+                "libusb_get_config_descriptor", 
+                "libusb_ref_device", 
+                "memset", 
+                "libusb_set_configuration", 
+                "libusb_set_debug", 
+                "__cxa_finalize", 
+                "strerror", 
+                "libusb_kernel_driver_active", 
+                "libusb_open", 
+                "libusb_get_device_descriptor", 
+                "_Jv_RegisterClasses", 
+                "libusb_free_config_descriptor", 
+                "libusb_init", 
+                "libusb_get_string_descriptor_ascii"
+            ], 
+            "rpm": "libusb-0.1.4-3.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": "92", 
+                    "afC": "9"
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "lib/libusb-0.1.so.4.4.4"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 0.1.4", 
+            "Name": " libusb", 
+            "License": " LGPLv2+", 
+            "URL": " http://sourceforge.net/projects/libusb/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " worker1.bsys.centos.org", 
+            "Source RPM": " libusb-0.1.4-3.el7.src.rpm", 
+            "Description": "\nThis package provides a way for applications to access USB devices.\nLegacy libusb-0.1 is no longer supported by upstream, therefore content of this\npackage was replaced by libusb-compat. It provides compatibility layer allowing\napplications written for libusb-0.1 to work with libusb-1.0.\n", 
+            "Build Date": " Tue 10 Jun 2014 09:58:58 PM EDT", 
+            "Vendor": " CentOS", 
+            "Epoch": " 1", 
+            "warning": " /home/jason/fctl/swap/0/libusb-0.1.4-3.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID f4a80eb5: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 03 Jul 2014 11:22:50 PM EDT, Key ID 24c6a8a7f4a80eb5", 
+            "Release": " 3.el7", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " CentOS BuildSystem <http://bugs.centos.org>", 
+            "Summary": " A library which allows userspace access to USB devices", 
+            "Size": " 19032"
+        }
+    }
+}

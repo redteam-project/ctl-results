@@ -1,0 +1,26 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.27", 
+            "Name": " perl-constant", 
+            "License": " GPL+ or Artistic", 
+            "URL": " http://search.cpan.org/dist/constant/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " worker1.bsys.centos.org", 
+            "Description": "\nThis pragma allows you to declare constants at compile-time:\n\nuse constant PI => 4 * atan2(1, 1);\n\nWhen you declare a constant such as \"PI\" using the method shown above,\neach machine your script runs upon can have as many digits of accuracy\nas it can use. Also, your program will be easier to read, more likely\nto be maintained (and maintained correctly), and far less likely to\nsend a space probe to the wrong planet because nobody noticed the one\nequation in which you wrote 3.14195.\n\nWhen a constant is used in an expression, Perl replaces it with its\nvalue at compile time, and may then optimize the expression further.\nIn particular, any code in an \"if (CONSTANT)\" block will be optimized\naway if the constant is false.\n", 
+            "Build Date": " Mon 09 Jun 2014 10:51:22 PM EDT", 
+            "Vendor": " CentOS", 
+            "Source RPM": " perl-constant-1.27-2.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/perl-constant-1.27-2.el7.noarch.rpm: Header V3 RSA/SHA256 Signature, key ID f4a80eb5: NOKEY", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Fri 04 Jul 2014 12:15:39 AM EDT, Key ID 24c6a8a7f4a80eb5", 
+            "Release": " 2.el7", 
+            "Group": " Development/Libraries", 
+            "Packager": " CentOS BuildSystem <http://bugs.centos.org>", 
+            "Summary": " Perl pragma to declare constants", 
+            "Size": " 26364"
+        }
+    }
+}

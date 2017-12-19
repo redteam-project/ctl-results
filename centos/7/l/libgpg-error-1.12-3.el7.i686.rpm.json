@@ -1,0 +1,96 @@
+{
+    "results": {
+        "lib/libgpg-error_so_0_10_0": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "__gmon_start__", 
+                "bindtextdomain", 
+                "strerror_r", 
+                "_Jv_RegisterClasses", 
+                "strlen", 
+                "__stack_chk_fail", 
+                "memcpy", 
+                "__cxa_finalize", 
+                "dcgettext", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "libgpg-error-1.12-3.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": "7", 
+                    "afC": "86"
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "lib/libgpg-error.so.0.10.0"
+        }, 
+        "usr/bin/gpg-error": {
+            "report-functions": [
+                "__gmon_start__", 
+                "__fprintf_chk", 
+                "strtoul", 
+                "bindtextdomain", 
+                "strcmp", 
+                "_ITM_registerTMCloneTable", 
+                "strcasecmp", 
+                "strncasecmp", 
+                "_Jv_RegisterClasses", 
+                "textdomain", 
+                "_ITM_deregisterTMCloneTable", 
+                "exit", 
+                "__errno_location", 
+                "gpg_strsource", 
+                "dcgettext", 
+                "gpg_err_set_errno", 
+                "fwrite", 
+                "__libc_start_main", 
+                "__printf_chk", 
+                "strrchr"
+            ], 
+            "rpm": "libgpg-error-1.12-3.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 42, 
+                    "afC": 492
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/gpg-error"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.12", 
+            "Name": " libgpg-error", 
+            "License": " LGPLv2+", 
+            "URL": " ftp://ftp.gnupg.org/gcrypt/libgpg-error/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " worker1.bsys.centos.org", 
+            "Description": "\nThis is a library that defines common error values for all GnuPG\ncomponents.  Among these are GPG, GPGSM, GPGME, GPG-Agent, libgcrypt,\npinentry, SmartCard Daemon and possibly more in the future.\n", 
+            "Build Date": " Tue 10 Jun 2014 09:09:56 PM EDT", 
+            "Vendor": " CentOS", 
+            "Source RPM": " libgpg-error-1.12-3.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/0/libgpg-error-1.12-3.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID f4a80eb5: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 03 Jul 2014 10:49:20 PM EDT, Key ID 24c6a8a7f4a80eb5", 
+            "Release": " 3.el7", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " CentOS BuildSystem <http://bugs.centos.org>", 
+            "Summary": " Library for error values used by GnuPG components", 
+            "Size": " 345297"
+        }
+    }
+}

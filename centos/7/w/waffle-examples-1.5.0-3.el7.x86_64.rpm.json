@@ -1,0 +1,122 @@
+{
+    "results": {
+        "usr/share/doc/waffle-examples-1_5_0/examples/CMakeFiles/simple-x11-egl_dir/simple-x11-egl_c_o": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/share/doc/waffle-examples-1.5.0/examples/CMakeFiles/simple-x11-egl.dir/simple-x11-egl.c.o", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "report-functions": [
+                "waffle_window_create", 
+                "waffle_config_choose", 
+                "waffle_config_destroy", 
+                "waffle_window_swap_buffers", 
+                "waffle_make_current", 
+                "waffle_init", 
+                "waffle_display_connect", 
+                "waffle_context_destroy", 
+                "waffle_dl_can_open", 
+                "waffle_display_supports_context_api", 
+                "sleep", 
+                "__stack_chk_fail", 
+                "waffle_context_create", 
+                "waffle_dl_sym", 
+                "waffle_display_disconnect", 
+                "waffle_window_destroy"
+            ], 
+            "rpm": "waffle-examples-1.5.0-3.el7.x86_64.rpm"
+        }, 
+        "usr/share/doc/waffle-examples-1_5_0/examples/CMakeFiles/gl_basic_dir/gl_basic_c_o": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/share/doc/waffle-examples-1.5.0/examples/CMakeFiles/gl_basic.dir/gl_basic.c.o", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, non-ELF (ignored)", 
+                " Position Independent Executable": "not a known ELF type!? ()", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, non-ELF (ignored)"
+            }, 
+            "report-functions": [
+                "waffle_init", 
+                "nanosleep", 
+                "optarg", 
+                "__fprintf_chk", 
+                "strcmp", 
+                "waffle_make_current", 
+                "waffle_window_swap_buffers", 
+                "free", 
+                "waffle_config_destroy", 
+                "stdout", 
+                "waffle_window_resize", 
+                "abort", 
+                "stderr", 
+                "strlen", 
+                "waffle_display_connect", 
+                "waffle_error_to_string", 
+                "waffle_context_create", 
+                "strncmp", 
+                "exit", 
+                "fflush", 
+                "waffle_context_destroy", 
+                "waffle_enum_to_string", 
+                "__stack_chk_fail", 
+                "__printf_chk", 
+                "waffle_display_supports_context_api", 
+                "waffle_display_disconnect", 
+                "__isoc99_sscanf", 
+                "waffle_config_choose", 
+                "optind", 
+                "calloc", 
+                "waffle_window_destroy", 
+                "__vfprintf_chk", 
+                "waffle_window_show", 
+                "waffle_window_create", 
+                "getopt_long"
+            ], 
+            "rpm": "waffle-examples-1.5.0-3.el7.x86_64.rpm"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.5.0", 
+            "Name": " waffle-examples", 
+            "License": " MIT", 
+            "URL": " http://people.freedesktop.org/~chadversary/waffle/releases.html", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-07.phx2.fedoraproject.org", 
+            "Description": "\nExample programs using waffle.\n", 
+            "Build Date": " Mon 05 Jan 2015 05:17:40 PM EST", 
+            "Vendor": " Fedora Project", 
+            "Source RPM": " waffle-1.5.0-3.el7.src.rpm", 
+            "warning": " /home/jason/fctl/3/waffle-examples-1.5.0-3.el7.x86_64.rpm: Header V3 RSA/SHA256 Signature, key ID 352c64e5: NOKEY", 
+            "Architecture": " x86_64", 
+            "Signature": " RSA/SHA256, Tue 06 Jan 2015 11:53:17 AM EST, Key ID 6a2faea2352c64e5", 
+            "Release": " 3.el7", 
+            "Group": " Development/Tools", 
+            "Packager": " Fedora Project", 
+            "Summary": " Example programs using waffle", 
+            "Size": " 129108"
+        }
+    }
+}

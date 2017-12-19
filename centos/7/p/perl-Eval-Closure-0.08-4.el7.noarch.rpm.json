@@ -1,0 +1,26 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Version": " 0.08", 
+            "Name": " perl-Eval-Closure", 
+            "License": " GPL+ or Artistic", 
+            "URL": " http://search.cpan.org/dist/Eval-Closure/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-04.phx2.fedoraproject.org", 
+            "Description": "\nString eval is often used for dynamic code generation. For instance, Moose uses\nit heavily, to generate inlined versions of accessors and constructors, which\nspeeds code up at runtime by a significant amount. String eval is not without\nits issues however - it's difficult to control the scope it's used in (which\ndetermines which variables are in scope inside the eval), and it's easy to miss\ncompilation errors, since eval catches them and sticks them in $@ instead.\n\nThis module attempts to solve these problems. It provides an eval_closure\nfunction, which evals a string in a clean environment, other than a fixed list\nof specified variables. Compilation errors are rethrown automatically.\n", 
+            "Build Date": " Wed 22 Jan 2014 09:13:04 AM EST", 
+            "Vendor": " Fedora Project", 
+            "Source RPM": " perl-Eval-Closure-0.08-4.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/perl-Eval-Closure-0.08-4.el7.noarch.rpm: Header V3 RSA/SHA256 Signature, key ID 352c64e5: NOKEY", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Tue 04 Feb 2014 11:56:02 PM EST, Key ID 6a2faea2352c64e5", 
+            "Release": " 4.el7", 
+            "Group": " Development/Libraries", 
+            "Packager": " Fedora Project", 
+            "Summary": " Safely and cleanly create closures via string eval", 
+            "Size": " 32187"
+        }
+    }
+}

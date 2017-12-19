@@ -1,0 +1,26 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.2", 
+            "Name": " buildnumber-maven-plugin", 
+            "License": " MIT and ASL 2.0", 
+            "URL": " http://svn.codehaus.org/mojo/tags/buildnumber-maven-plugin-1.2", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " worker1.bsys.centos.org", 
+            "Description": "\nThis mojo is designed to get a unique build number for each time you build\nyour project. So while your version may remain constant at 1.0-SNAPSHOT\nfor many iterations until release, you will have a build number that can\nuniquely identify each build during that time. The build number is obtained\nfrom scm, and in particular, at this time, from svn. You can then place that\nbuild number in metadata, which can be accessed from your app, if desired.\n\nThe mojo also has a couple of extra functions to ensure you get the proper\nbuild number. First, your local repository is checked to make sure it is\nup to date. Second, your local repository is automatically updated, so that\nyou get the latest build number. Both these functions can be suppressed,\nif desired.\n\nOptionally, you can configure this mojo to produce a revision based on a\ntimestamp, or on a sequence, without requiring any interaction with an\nSCM system. Note that currently, the only supported SCM is subversion.\n", 
+            "Build Date": " Tue 10 Jun 2014 01:44:57 AM EDT", 
+            "Vendor": " CentOS", 
+            "Source RPM": " buildnumber-maven-plugin-1.2-7.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/0/buildnumber-maven-plugin-1.2-7.el7.noarch.rpm: Header V3 RSA/SHA256 Signature, key ID f4a80eb5: NOKEY", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Thu 03 Jul 2014 08:54:31 PM EDT, Key ID 24c6a8a7f4a80eb5", 
+            "Release": " 7.el7", 
+            "Group": " Development/Libraries", 
+            "Packager": " CentOS BuildSystem <http://bugs.centos.org>", 
+            "Summary": " Build Number Maven Plugin", 
+            "Size": " 58910"
+        }
+    }
+}

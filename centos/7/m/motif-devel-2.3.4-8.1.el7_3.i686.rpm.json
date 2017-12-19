@@ -1,0 +1,72 @@
+{
+    "results": {
+        "usr/bin/uil": {
+            "report-functions": [
+                "lst_output_listing", 
+                "src_initialize_source", 
+                "diag_issue_summary", 
+                "lex_initialize_analyzer", 
+                "sym_initialize_storage", 
+                "lst_open_listing", 
+                "sem_resolve_forward_refs", 
+                "setlocale", 
+                "diag_initialize_diagnostics", 
+                "__libc_start_main", 
+                "sem_validation", 
+                "yyparse", 
+                "__gmon_start__", 
+                "key_initialize", 
+                "Uil_lex_cleanup_analyzer", 
+                "Uil_lst_cleanup_listing", 
+                "Uil_src_cleanup_source", 
+                "db_incorporate", 
+                "UrmIdbCloseFile", 
+                "sar_initialize", 
+                "_Jv_RegisterClasses", 
+                "exit", 
+                "diag_issue_diagnostic", 
+                "_ITM_deregisterTMCloneTable", 
+                "sem_output_uid_file", 
+                "cmd_decode_command_line"
+            ], 
+            "rpm": "motif-devel-2.3.4-8.1.el7_3.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 6, 
+                    "afC": 105
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/uil"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 2.3.4", 
+            "Name": " motif-devel", 
+            "License": " LGPLv2+", 
+            "URL": " http://www.motifzone.net/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " c1bm.rdu2.centos.org", 
+            "Description": "\nThis is the Motif 2.3.4 development environment. It includes the\nheader files and also static libraries necessary to build Motif applications.\n", 
+            "Build Date": " Fri 03 Mar 2017 02:49:20 AM EST", 
+            "Vendor": " CentOS", 
+            "Source RPM": " motif-2.3.4-8.1.el7_3.src.rpm", 
+            "warning": " /home/jason/fctl/swap/0/motif-devel-2.3.4-8.1.el7_3.i686.rpm: Header V3 RSA/SHA256 Signature, key ID f4a80eb5: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Fri 03 Mar 2017 06:44:23 AM EST, Key ID 24c6a8a7f4a80eb5", 
+            "Release": " 8.1.el7_3", 
+            "Group": " Development/Libraries", 
+            "Packager": " CentOS BuildSystem <http://bugs.centos.org>", 
+            "Summary": " Development libraries and header files", 
+            "Size": " 2378108"
+        }
+    }
+}

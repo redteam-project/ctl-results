@@ -1,0 +1,90 @@
+{
+    "results": {
+        "usr/bin/espeak": {
+            "report-functions": [
+                "fflush", 
+                "strrchr", 
+                "__gmon_start__", 
+                "espeak_ListVoices", 
+                "fputc", 
+                "fread", 
+                "fclose", 
+                "espeak_SetPhonemeTrace", 
+                "espeak_CompileDictionary", 
+                "putchar", 
+                "espeak_SetSynthCallback", 
+                "fgetc", 
+                "feof", 
+                "ftell", 
+                "espeak_Synth", 
+                "espeak_Initialize", 
+                "__ctype_b_loc", 
+                "_ITM_registerTMCloneTable", 
+                "malloc", 
+                "espeak_SetParameter", 
+                "__printf_chk", 
+                "sscanf", 
+                "strncpy", 
+                "__sprintf_chk", 
+                "__fprintf_chk", 
+                "strlen", 
+                "__libc_start_main", 
+                "realloc", 
+                "espeak_Info", 
+                "fopen", 
+                "strtol", 
+                "fwrite", 
+                "espeak_SetVoiceByName", 
+                "fgets", 
+                "puts", 
+                "fseek", 
+                "_ITM_deregisterTMCloneTable", 
+                "espeak_Synchronize", 
+                "exit", 
+                "espeak_SetPunctuationList", 
+                "__stack_chk_fail", 
+                "__xstat", 
+                "getopt_long", 
+                "espeak_SetVoiceByProperties"
+            ], 
+            "rpm": "espeak-1.47.11-4.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": -1, 
+                    "afC": 60
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/espeak"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.47.11", 
+            "Name": " espeak", 
+            "License": " GPLv3+", 
+            "URL": " http://espeak.sourceforge.net", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " worker1.bsys.centos.org", 
+            "Description": "\neSpeak is a software speech synthesizer for English and other languages.\n\neSpeak produces good quality English speech. It uses a different synthesis\nmethod from other open source TTS engines, and sounds quite different.\nIt's perhaps not as natural or \"smooth\", but some people may find the\narticulation clearer and easier to listen to for long periods. eSpeak supports\nseveral languages, however in most cases these are initial drafts and need more\nwork to improve them.\n\nIt can run as a command line program to speak text from a file or from stdin.\n", 
+            "Build Date": " Tue 10 Jun 2014 05:53:09 PM EDT", 
+            "Vendor": " CentOS", 
+            "Source RPM": " espeak-1.47.11-4.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/0/espeak-1.47.11-4.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID f4a80eb5: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 03 Jul 2014 09:14:00 PM EDT, Key ID 24c6a8a7f4a80eb5", 
+            "Release": " 4.el7", 
+            "Group": " Applications/Multimedia", 
+            "Packager": " CentOS BuildSystem <http://bugs.centos.org>", 
+            "Summary": " Software speech synthesizer (text-to-speech)", 
+            "Size": " 2312244"
+        }
+    }
+}

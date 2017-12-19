@@ -1,0 +1,26 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Version": " 0.2.1", 
+            "Name": " nodejs-stringset", 
+            "License": " MIT", 
+            "URL": " https://www.npmjs.org/package/stringset", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-26.phx2.fedoraproject.org", 
+            "Description": "\nA fast and robust stringset implementation that can hold any string items,\nincluding __proto__, with minimal overhead compared to a plain object. Works in\nnode and browsers.\n\nThe API is created to be as close to the ES6 Set API as possible. Prefer\nss.remove(\"key\") for deleting a key. ES6 Set uses set.delete(\"key\") instead and\nfor that reason ss['delete'](\"key\") is available as a stringset alias as well.\nNever do ss.delete(\"key\") unless you're certain to be in the land of ES5 or\nlater.\n", 
+            "Build Date": " Wed 23 Jul 2014 02:56:19 PM EDT", 
+            "Vendor": " Fedora Project", 
+            "Source RPM": " nodejs-stringset-0.2.1-1.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/0/nodejs-stringset-0.2.1-1.el7.noarch.rpm: Header V3 RSA/SHA256 Signature, key ID 352c64e5: NOKEY", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Fri 25 Jul 2014 07:11:43 PM EDT, Key ID 6a2faea2352c64e5", 
+            "Release": " 1.el7", 
+            "Group": " Development/Libraries", 
+            "Packager": " Fedora Project", 
+            "Summary": " Fast and robust stringset", 
+            "Size": " 9452"
+        }
+    }
+}

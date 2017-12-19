@@ -1,0 +1,106 @@
+{
+    "results": {
+        "usr/sbin/skdump": {
+            "report-functions": [
+                "__fprintf_chk", 
+                "sk_disk_smart_get_power_cycle", 
+                "_ITM_deregisterTMCloneTable", 
+                "__stack_chk_fail", 
+                "sk_disk_free", 
+                "sk_disk_smart_get_power_on", 
+                "strrchr", 
+                "__libc_start_main", 
+                "fwrite", 
+                "sk_disk_smart_get_temperature", 
+                "fclose", 
+                "__errno_location", 
+                "sk_disk_smart_get_overall", 
+                "_Jv_RegisterClasses", 
+                "sk_disk_set_blob", 
+                "__gmon_start__", 
+                "sk_disk_open", 
+                "fopen64", 
+                "sk_disk_smart_status", 
+                "sk_disk_smart_get_bad", 
+                "getopt_long", 
+                "sk_disk_get_blob", 
+                "sk_disk_smart_is_available", 
+                "strerror", 
+                "_ITM_registerTMCloneTable", 
+                "puts", 
+                "fread", 
+                "sk_smart_overall_to_string", 
+                "sk_disk_smart_read_data"
+            ], 
+            "rpm": "libatasmart-0.19-6.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 21, 
+                    "afC": 318
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/sbin/skdump"
+        }, 
+        "usr/sbin/sktest": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "sk_smart_self_test_to_string", 
+                "_ITM_registerTMCloneTable", 
+                "sk_disk_smart_self_test", 
+                "strerror", 
+                "strcasecmp", 
+                "__fprintf_chk", 
+                "__libc_start_main", 
+                "sk_disk_open", 
+                "__errno_location", 
+                "__stack_chk_fail", 
+                "__gmon_start__"
+            ], 
+            "rpm": "libatasmart-0.19-6.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 8, 
+                    "afC": 164
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/sbin/sktest"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 0.19", 
+            "Name": " libatasmart", 
+            "License": " LGPLv2+", 
+            "URL": " http://git.0pointer.de/?p=libatasmart.git;a=summary", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " worker1.bsys.centos.org", 
+            "Description": "\nA small and lightweight parser library for ATA S.M.A.R.T. hard disk\nhealth monitoring.\n", 
+            "Build Date": " Tue 10 Jun 2014 08:48:01 PM EDT", 
+            "Vendor": " CentOS", 
+            "Source RPM": " libatasmart-0.19-6.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/0/libatasmart-0.19-6.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID f4a80eb5: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 03 Jul 2014 10:36:12 PM EDT, Key ID 24c6a8a7f4a80eb5", 
+            "Release": " 6.el7", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " CentOS BuildSystem <http://bugs.centos.org>", 
+            "Summary": " ATA S.M.A.R.T. Disk Health Monitoring Library", 
+            "Size": " 97687"
+        }
+    }
+}

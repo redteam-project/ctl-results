@@ -1,0 +1,100 @@
+{
+    "results": {
+        "usr/bin/xsltproc": {
+            "report-functions": [
+                "xmlFreeDoc", 
+                "strcmp", 
+                "xsltSetCtxtParseOptions", 
+                "xmlNoNetExternalEntityLoader", 
+                "xsltSetSecurityPrefs", 
+                "xsltRunStylesheetUser", 
+                "xmlStrdup", 
+                "xmlXIncludeProcessFlags", 
+                "xsltSetGenericDebugFunc", 
+                "xsltApplyStylesheetUser", 
+                "xmlDebugDumpDocument", 
+                "__stack_chk_fail", 
+                "xmlSetExternalEntityLoader", 
+                "xmlStrlen", 
+                "xmlCheckVersion", 
+                "xsltSetDefaultSecurityPrefs", 
+                "xmlReadFile", 
+                "__fprintf_chk", 
+                "xmlStrcat", 
+                "htmlReadFile", 
+                "__printf_chk", 
+                "_Jv_RegisterClasses", 
+                "xmlGetExternalEntityLoader", 
+                "xsltNewTransformContext", 
+                "xsltFreeSecurityPrefs", 
+                "xsltApplyStylesheet", 
+                "xsltLoadStylesheetPI", 
+                "xsltParseStylesheetDoc", 
+                "_ITM_registerTMCloneTable", 
+                "puts", 
+                "xmlStrndup", 
+                "xmlStrchr", 
+                "xsltSetXIncludeDefault", 
+                "xmlInitMemory", 
+                "xsltSecurityForbid", 
+                "xsltFreeTransformContext", 
+                "xsltFreeStylesheet", 
+                "xmlStrEqual", 
+                "xsltSaveResultToFile", 
+                "fwrite", 
+                "exsltRegisterAll", 
+                "sscanf", 
+                "xsltCleanupGlobals", 
+                "__libc_start_main", 
+                "__gmon_start__", 
+                "getenv", 
+                "xmlMemoryDump", 
+                "xmlStrncmp", 
+                "xmlLoadCatalogs", 
+                "xsltRegisterTestModule", 
+                "gettimeofday", 
+                "xsltDebugDumpExtensions", 
+                "xmlCleanupParser", 
+                "xsltNewSecurityPrefs"
+            ], 
+            "rpm": "libxslt-1.1.28-5.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 141, 
+                    "afC": 1534
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/xsltproc"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.1.28", 
+            "Name": " libxslt", 
+            "License": " MIT", 
+            "URL": " http://xmlsoft.org/XSLT/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " worker1.bsys.centos.org", 
+            "Description": "\nThis C library allows to transform XML files into other XML files\n(or HTML, text, ...) using the standard XSLT stylesheet transformation\nmechanism. To use it you need to have a version of libxml2 >= 2.6.27\ninstalled. The xsltproc command is a command line interface to the XSLT engine\n", 
+            "Build Date": " Tue 10 Jun 2014 10:41:19 PM EDT", 
+            "Vendor": " CentOS", 
+            "Source RPM": " libxslt-1.1.28-5.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/0/libxslt-1.1.28-5.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID f4a80eb5: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 03 Jul 2014 11:32:19 PM EDT, Key ID 24c6a8a7f4a80eb5", 
+            "Release": " 5.el7", 
+            "Group": " Development/Libraries", 
+            "Packager": " CentOS BuildSystem <http://bugs.centos.org>", 
+            "Summary": " Library providing the Gnome XSLT engine", 
+            "Size": " 489206"
+        }
+    }
+}

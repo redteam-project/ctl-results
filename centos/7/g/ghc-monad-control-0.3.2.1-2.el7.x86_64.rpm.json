@@ -1,0 +1,26 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Version": " 0.3.2.1", 
+            "Name": " ghc-monad-control", 
+            "License": " BSD", 
+            "URL": " http://hackage.haskell.org/package/monad-control", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-11.phx2.fedoraproject.org", 
+            "Description": "\nThis package defines the type class MonadBaseControl, a subset of\nMonadBase into which generic control operations such as catch can be\nlifted from IO or any other base monad. Instances are based on monad\ntransformers in MonadTransControl, which includes all standard monad\ntransformers in the transformers library except ContT.\n\nSee the lifted-base package which uses monad-control to lift IO\noperations from the base library (like catch or bracket) into any\nmonad that is an instance of MonadBase or MonadBaseControl.\n\nThis package is a rewrite of Anders Kaseorg's monad-peel library.\nThe main difference is that this package provides CPS style operators\nand exploits the RankNTypes and TypeFamilies language extensions to\nsimplify and speedup most definitions.  A criterion-based benchmark shows\nthat monad-control is on average about 99% faster than monad-peel.\n", 
+            "Build Date": " Fri 02 Dec 2016 01:26:46 AM EST", 
+            "Vendor": " Fedora Project", 
+            "Source RPM": " ghc-monad-control-0.3.2.1-2.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/0/ghc-monad-control-0.3.2.1-2.el7.x86_64.rpm: Header V3 RSA/SHA256 Signature, key ID 352c64e5: NOKEY", 
+            "Architecture": " x86_64", 
+            "Signature": " RSA/SHA256, Fri 09 Dec 2016 01:26:44 AM EST, Key ID 6a2faea2352c64e5", 
+            "Release": " 2.el7", 
+            "Group": " Unspecified", 
+            "Packager": " Fedora Project", 
+            "Summary": " Lift control operations through monad transformers", 
+            "Size": " 107628"
+        }
+    }
+}

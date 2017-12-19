@@ -1,0 +1,26 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.5.4", 
+            "Name": " xmlstreambuffer", 
+            "License": " CDDL or GPLv2 with exceptions", 
+            "URL": " http://java.net/projects/xmlstreambuffer/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-18.phx2.fedoraproject.org", 
+            "Description": "\nA stream buffer is a stream-based representation of an XML\ninfo-set in Java. Stream buffers are designed to: provide\nvery efficient stream-based memory representations of XML\ninfo-sets; and be created and processed using any Java-based\nXML API.\nConceptually a stream buffer is similar to the representation\nused in the Xerces deferred DOM implementation, with the crucial\ndifference that a stream buffer does not store hierarchical\ninformation like parent and sibling information. The deferred\nDOM implementation reduces memory usage when large XML documents\nare parsed but only a subset of the document needs to be processed.\n(Note that using deferred DOM will be more expensive than\nnon-deferred DOM in terms of memory and processing if all\nthe document is traversed.)\nStream buffers may be used as an efficient alternative to DOM where:\n* most or all of an XML info-set will eventually get traversed; and/or\n* targeted access to certain parts of an XML info-set are required\n and need to be efficiently processed using stream-based APIs like\n SAX or StAX.\n", 
+            "Build Date": " Wed 10 May 2017 07:36:14 AM EDT", 
+            "Vendor": " Fedora Project", 
+            "Source RPM": " xmlstreambuffer-1.5.4-5.el7.src.rpm", 
+            "warning": " /home/jason/fctl/3/xmlstreambuffer-1.5.4-5.el7.noarch.rpm: Header V3 RSA/SHA256 Signature, key ID 352c64e5: NOKEY", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Wed 10 May 2017 07:38:10 AM EDT, Key ID 6a2faea2352c64e5", 
+            "Release": " 5.el7", 
+            "Group": " Unspecified", 
+            "Packager": " Fedora Project", 
+            "Summary": " XML Stream Buffer", 
+            "Size": " 113985"
+        }
+    }
+}

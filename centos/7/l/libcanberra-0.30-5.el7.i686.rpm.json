@@ -1,0 +1,87 @@
+{
+    "results": {
+        "usr/bin/canberra-boot": {
+            "report-functions": [
+                "__gmon_start__", 
+                "ca_proplist_destroy", 
+                "read", 
+                "ca_context_create", 
+                "__errno_location", 
+                "__stack_chk_fail", 
+                "close", 
+                "udev_device_unref", 
+                "ca_context_destroy", 
+                "udev_enumerate_unref", 
+                "__snprintf_chk", 
+                "_ITM_deregisterTMCloneTable", 
+                "strtol", 
+                "udev_enumerate_add_match_subsystem", 
+                "eventfd", 
+                "udev_enumerate_get_list_entry", 
+                "ca_context_set_driver", 
+                "udev_enumerate_new", 
+                "strcmp", 
+                "udev_device_get_property_value", 
+                "ca_context_play_full", 
+                "access", 
+                "udev_new", 
+                "ca_strerror", 
+                "udev_device_new_from_syspath", 
+                "write", 
+                "strerror", 
+                "free", 
+                "udev_unref", 
+                "udev_list_entry_get_next", 
+                "ca_proplist_sets", 
+                "udev_enumerate_scan_devices", 
+                "strrchr", 
+                "__libc_start_main", 
+                "exit", 
+                "__fprintf_chk", 
+                "fwrite", 
+                "_Jv_RegisterClasses", 
+                "_ITM_registerTMCloneTable", 
+                "ca_context_change_device", 
+                "ca_proplist_create"
+            ], 
+            "rpm": "libcanberra-0.30-5.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 42, 
+                    "afC": 582
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/canberra-boot"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 0.30", 
+            "Name": " libcanberra", 
+            "License": " LGPLv2+", 
+            "URL": " http://git.0pointer.de/?p=libcanberra.git;a=summary", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " worker1.bsys.centos.org", 
+            "Description": "\nA small and lightweight implementation of the XDG Sound Theme Specification\n(http://0pointer.de/public/sound-theme-spec.html).\n", 
+            "Build Date": " Tue 10 Jun 2014 08:51:44 PM EDT", 
+            "Vendor": " CentOS", 
+            "Source RPM": " libcanberra-0.30-5.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/0/libcanberra-0.30-5.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID f4a80eb5: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 03 Jul 2014 10:38:02 PM EDT, Key ID 24c6a8a7f4a80eb5", 
+            "Release": " 5.el7", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " CentOS BuildSystem <http://bugs.centos.org>", 
+            "Summary": " Portable Sound Event Library", 
+            "Size": " 204484"
+        }
+    }
+}

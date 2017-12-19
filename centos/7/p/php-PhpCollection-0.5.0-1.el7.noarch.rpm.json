@@ -1,0 +1,26 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Version": " 0.5.0", 
+            "Name": " php-PhpCollection", 
+            "License": " ASL 2.0", 
+            "URL": " http://jmsyst.com/libs/php-collection", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-10.phx2.fedoraproject.org", 
+            "Description": "\nThis library adds basic collections for PHP.\n\nCollections can be seen as more specialized arrays for which certain contracts\nare guaranteed.\n\nSupported Collections:\n* Sequences\n** Keys: numerical, consequentially increasing, no gaps\n** Values: anything, duplicates allowed\n** Classes: Sequence, SortedSequence\n* Maps\n** Keys: strings or objects, duplicate keys not allowed\n** Values: anything, duplicates allowed\n** Classes: Map, ObjectMap (not yet implemented)\n* Sets (not yet implemented)\n** Keys: not meaningful\n** Values: anything, each value must be unique (===)\n** Classes: Set\n\nGeneral Characteristics:\n* Collections are mutable (new elements may be added, existing elements may be\n  modified or removed). Specialized immutable versions may be added in the\n  future though.\n* Equality comparison between elements are always performed using the shallow\n  comparison operator (===).\n* Sorting algorithms are unstable, that means the order for equal elements is\n  undefined (the default, and only PHP behavior).\n\nAutoloader: /usr/share/php/PhpCollection/autoload.php\n", 
+            "Build Date": " Tue 11 Jul 2017 06:53:31 PM EDT", 
+            "Vendor": " Fedora Project", 
+            "Source RPM": " php-PhpCollection-0.5.0-1.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/php-PhpCollection-0.5.0-1.el7.noarch.rpm: Header V3 RSA/SHA256 Signature, key ID 352c64e5: NOKEY", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Tue 11 Jul 2017 07:16:14 PM EDT, Key ID 6a2faea2352c64e5", 
+            "Release": " 1.el7", 
+            "Group": " Development/Libraries", 
+            "Packager": " Fedora Project", 
+            "Summary": " General purpose collection library for PHP", 
+            "Size": " 70673"
+        }
+    }
+}

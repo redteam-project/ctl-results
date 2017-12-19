@@ -1,0 +1,26 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Version": " 0.5.0", 
+            "Name": " python-isodate", 
+            "License": " BSD", 
+            "URL": " http://pypi.python.org/pypi/isodate", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildppc-01.phx2.fedoraproject.org", 
+            "Description": "\nThis module implements ISO 8601 date, time and duration parsing. The\nimplementation follows ISO8601:2004 standard, and implements only date/time\nrepresentations mentioned in the standard. If something is not mentioned there,\nthen it is treated as non existent, and not as an allowed option.\n\nFor instance, ISO8601:2004 never mentions 2 digit years. So, it is not intended\nby this module to support 2 digit years. (while it may still be valid as ISO\ndate, because it is not explicitly forbidden.) Another example is, when no time\nzone information is given for a time, then it should be interpreted as local\ntime, and not UTC.\n\nAs this module maps ISO 8601 dates/times to standard Python data types, like\ndate, time, datetime and timedelta, it is not possible to convert all possible\nISO 8601 dates/times. For instance, dates before 0001-01-01 are not allowed by\nthe Python date and datetime classes. Additionally fractional seconds are\nlimited to microseconds. That means if the parser finds for instance\nnanoseconds it will round it to microseconds.\n", 
+            "Build Date": " Mon 20 Oct 2014 08:08:12 AM EDT", 
+            "Vendor": " Fedora Project", 
+            "Source RPM": " python-isodate-0.5.0-3.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/python-isodate-0.5.0-3.el7.noarch.rpm: Header V3 RSA/SHA256 Signature, key ID 352c64e5: NOKEY", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Thu 23 Oct 2014 09:57:47 AM EDT, Key ID 6a2faea2352c64e5", 
+            "Release": " 3.el7", 
+            "Group": " Development/Languages", 
+            "Packager": " Fedora Project", 
+            "Summary": " An ISO 8601 date/time/duration parser and formatter", 
+            "Size": " 212092"
+        }
+    }
+}

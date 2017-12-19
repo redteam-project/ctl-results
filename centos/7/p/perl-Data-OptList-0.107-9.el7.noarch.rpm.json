@@ -1,0 +1,26 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Version": " 0.107", 
+            "Name": " perl-Data-OptList", 
+            "License": " GPL+ or Artistic", 
+            "URL": " http://search.cpan.org/dist/Data-OptList/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " worker1.bsys.centos.org", 
+            "Description": "\nHashes are great for storing named data, but if you want more than one entry\nfor a name, you have to use a list of pairs. Even then, this is really boring\nto write:\n\n$values = [\n    foo => undef,\n    bar => undef,\n    baz => undef,\n    xyz => { ... },\n];\n\nWith Data::OptList, you can do this instead:\n\n$values = Data::OptList::mkopt([\n    qw(foo bar baz),\n    xyz => { ... },\n]);\n\nThis works by assuming that any defined scalar is a name and any reference\nfollowing a name is its value.\n", 
+            "Build Date": " Mon 09 Jun 2014 04:40:31 PM EDT", 
+            "Vendor": " CentOS", 
+            "Source RPM": " perl-Data-OptList-0.107-9.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/perl-Data-OptList-0.107-9.el7.noarch.rpm: Header V3 RSA/SHA256 Signature, key ID f4a80eb5: NOKEY", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Fri 04 Jul 2014 12:16:15 AM EDT, Key ID 24c6a8a7f4a80eb5", 
+            "Release": " 9.el7", 
+            "Group": " Development/Libraries", 
+            "Packager": " CentOS BuildSystem <http://bugs.centos.org>", 
+            "Summary": " Parse and validate simple name/value option pairs", 
+            "Size": " 37311"
+        }
+    }
+}

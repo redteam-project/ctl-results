@@ -1,0 +1,65 @@
+{
+    "results": {
+        "usr/libexec/dleyna-server-service": {
+            "report-functions": [
+                "g_source_remove", 
+                "g_io_channel_unix_new", 
+                "_ITM_registerTMCloneTable", 
+                "g_io_channel_set_encoding", 
+                "g_io_channel_unref", 
+                "__stack_chk_fail", 
+                "g_io_add_watch", 
+                "dleyna_main_loop_start", 
+                "sigprocmask", 
+                "__libc_start_main", 
+                "g_io_channel_set_close_on_unref", 
+                "dleyna_main_loop_quit", 
+                "g_io_channel_set_flags", 
+                "signalfd", 
+                "_Jv_RegisterClasses", 
+                "__gmon_start__", 
+                "dleyna_control_point_get_server", 
+                "sigemptyset", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "dleyna-server-0.5.0-1.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 8, 
+                    "afC": 135
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/libexec/dleyna-server-service"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 0.5.0", 
+            "Name": " dleyna-server", 
+            "License": " LGPLv2", 
+            "URL": " https://01.org/dleyna/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " c1bm.rdu2.centos.org", 
+            "Description": "\nD-Bus service for clients to discover and manipulate DLNA Digital Media\nServers (DMSes).\n", 
+            "Build Date": " Wed 02 Aug 2017 07:54:32 PM EDT", 
+            "Vendor": " CentOS", 
+            "Source RPM": " dleyna-server-0.5.0-1.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/0/dleyna-server-0.5.0-1.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID f4a80eb5: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 10 Aug 2017 11:37:25 AM EDT, Key ID 24c6a8a7f4a80eb5", 
+            "Release": " 1.el7", 
+            "Group": " Unspecified", 
+            "Packager": " CentOS BuildSystem <http://bugs.centos.org>", 
+            "Summary": " Service for interacting with Digital Media Servers", 
+            "Size": " 203665"
+        }
+    }
+}

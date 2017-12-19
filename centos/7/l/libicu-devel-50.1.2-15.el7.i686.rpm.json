@@ -1,0 +1,85 @@
+{
+    "results": {
+        "usr/include/unicode/selfmt_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/unicode/selfmt.h", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "libicu-devel-50.1.2-15.el7.i686.rpm"
+        }, 
+        "usr/bin/icuinfo": {
+            "report-functions": [
+                "fopen", 
+                "__libc_start_main", 
+                "uplug_getConfiguration_50", 
+                "udbg_enumName", 
+                "u_init_50", 
+                "uplug_getPlugLevel_50", 
+                "__gmon_start__", 
+                "fclose", 
+                "_ITM_registerTMCloneTable", 
+                "uplug_getPlugName_50", 
+                "u_errorName_50", 
+                "uplug_getPlugLoadStatus_50", 
+                "u_cleanup_50", 
+                "uplug_getLibraryName_50", 
+                "u_parseArgs", 
+                "udbg_writeIcuInfo", 
+                "uprv_getUTCtime_50", 
+                "uplug_getSymbolName_50", 
+                "_Jv_RegisterClasses", 
+                "__stack_chk_fail", 
+                "u_setDataDirectory_50", 
+                "_ITM_deregisterTMCloneTable", 
+                "__printf_chk", 
+                "uplug_getPluginFile_50"
+            ], 
+            "rpm": "libicu-devel-50.1.2-15.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 13, 
+                    "afC": 192
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/icuinfo"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 50.1.2", 
+            "Name": " libicu-devel", 
+            "License": " MIT and UCD and Public Domain", 
+            "URL": " http://www.icu-project.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " worker1.bsys.centos.org", 
+            "Description": "\nIncludes and definitions for developing with icu.\n", 
+            "Build Date": " Fri 20 Nov 2015 01:23:29 AM EST", 
+            "Vendor": " CentOS", 
+            "Source RPM": " icu-50.1.2-15.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/0/libicu-devel-50.1.2-15.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID f4a80eb5: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Wed 25 Nov 2015 09:58:20 AM EST, Key ID 24c6a8a7f4a80eb5", 
+            "Release": " 15.el7", 
+            "Group": " Development/Libraries", 
+            "Packager": " CentOS BuildSystem <http://bugs.centos.org>", 
+            "Summary": " Development files for International Components for Unicode", 
+            "Size": " 4035173"
+        }
+    }
+}

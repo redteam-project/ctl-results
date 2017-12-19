@@ -1,0 +1,5224 @@
+{
+    "results": {
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Random/OSRNG/test_posix_pyc": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Random/OSRNG/test_posix.pyc", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Protocol/__init___py": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Protocol/__init__.py", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Random/OSRNG/test_posix_pyo": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Random/OSRNG/test_posix.pyo", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/Cipher/_XOR_so": {
+            "find-libc-functions": [
+                "GI___obstack_vprintf", 
+                "GI___vasprintf", 
+                "GI___vdprintf", 
+                "GI___vfprintf", 
+                "GI___vfwprintf", 
+                "GI___vsnprintf", 
+                "GI___vsprintf", 
+                "GI___vswprintf", 
+                "GI___vsyslog", 
+                "__longjmp", 
+                "_fprintf", 
+                "_printf", 
+                "_snprintf", 
+                "_sprintf", 
+                "_vfprintf", 
+                "_vprintf", 
+                "_vsnprintf", 
+                "_vsprintf", 
+                "asprintf", 
+                "confstr", 
+                "dprintf", 
+                "explicit_bzero", 
+                "fdelt", 
+                "fgets", 
+                "fgets_unlocked", 
+                "fgetws", 
+                "fgetws_unlocked", 
+                "fprintf", 
+                "fread", 
+                "fread_unlocked", 
+                "fwprintf", 
+                "getcwd", 
+                "getdomainname", 
+                "getgroups", 
+                "gethostname", 
+                "getlogin_r", 
+                "gets", 
+                "getwd", 
+                "longjmp", 
+                "mbsnrtowcs", 
+                "mbsrtowcs", 
+                "mbstowcs", 
+                "memcpy", 
+                "memmove", 
+                "mempcpy", 
+                "memset", 
+                "obstack_printf", 
+                "obstack_vprintf", 
+                "poll", 
+                "ppoll", 
+                "pread64", 
+                "pread", 
+                "printf", 
+                "ptsname_r", 
+                "read", 
+                "readlink", 
+                "readlinkat", 
+                "realpath", 
+                "recv", 
+                "recvfrom", 
+                "snprintf", 
+                "sprintf", 
+                "stpcpy", 
+                "stpncpy", 
+                "strcat", 
+                "strcpy", 
+                "strncat", 
+                "strncpy", 
+                "swprintf", 
+                "syslog", 
+                "ttyname_r", 
+                "vasprintf", 
+                "vdprintf", 
+                "vfprintf", 
+                "vfwprintf", 
+                "vprintf", 
+                "vsnprintf", 
+                "vsprintf", 
+                "vswprintf", 
+                "vsyslog", 
+                "vwprintf", 
+                "wcpcpy", 
+                "wcpncpy", 
+                "wcrtomb", 
+                "wcscat", 
+                "wcscpy", 
+                "wcsncat", 
+                "wcsncpy", 
+                "wcsnrtombs", 
+                "wcsrtombs", 
+                "wcstombs", 
+                "wctomb", 
+                "wmemcpy", 
+                "wmemmove", 
+                "wmempcpy", 
+                "wmemset", 
+                "wprintf"
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/Cipher/_XOR.so", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": "4", 
+                    "afC": "61"
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "_Jv_RegisterClasses", 
+                "Py_FindMethod", 
+                "__gmon_start__", 
+                "free", 
+                "PyObject_Free", 
+                "Py_FatalError", 
+                "PyEval_RestoreThread", 
+                "_PyObject_New", 
+                "PyUnicodeUCS4_FromString", 
+                "PyErr_Occurred", 
+                "PyArg_ParseTupleAndKeywords", 
+                "malloc", 
+                "PyInt_FromLong", 
+                "Py_InitModule4_64", 
+                "memcpy", 
+                "_ITM_registerTMCloneTable", 
+                "PyErr_SetString", 
+                "__stack_chk_fail", 
+                "PyErr_Format", 
+                "PyArg_Parse", 
+                "PyDict_SetItemString", 
+                "PyModule_AddIntConstant", 
+                "PyModule_GetDict", 
+                "PyString_FromStringAndSize", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/PublicKey/test_ElGamal_py": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/PublicKey/test_ElGamal.py", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/st_common_py": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/st_common.py", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/PublicKey/test_ElGamal_pyo": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/PublicKey/test_ElGamal.pyo", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Util/test_winrandom_pyc": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Util/test_winrandom.pyc", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Protocol/test_rfc1751_py": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Protocol/test_rfc1751.py", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Util/test_winrandom_pyo": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Util/test_winrandom.pyo", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/PublicKey/test_ElGamal_pyc": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/PublicKey/test_ElGamal.pyc", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Random/Fortuna/test_SHAd256_py": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Random/Fortuna/test_SHAd256.py", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Random/OSRNG/test_winrandom_pyo": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Random/OSRNG/test_winrandom.pyo", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Signature/test_pkcs1_pss_py": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Signature/test_pkcs1_pss.py", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Hash/test_SHA256_py": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Hash/test_SHA256.py", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Random/Fortuna/__init___pyo": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Random/Fortuna/__init__.pyo", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Protocol/test_chaffing_py": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Protocol/test_chaffing.py", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Util/test_Counter_pyo": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Util/test_Counter.pyo", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Random/Fortuna/__init___pyc": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Random/Fortuna/__init__.pyc", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Hash/__init___pyc": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Hash/__init__.pyc", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/PublicKey/__init___pyo": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/PublicKey/__init__.pyo", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/Util/strxor_so": {
+            "find-libc-functions": [
+                "GI___obstack_vprintf", 
+                "GI___vasprintf", 
+                "GI___vdprintf", 
+                "GI___vfprintf", 
+                "GI___vfwprintf", 
+                "GI___vsnprintf", 
+                "GI___vsprintf", 
+                "GI___vswprintf", 
+                "GI___vsyslog", 
+                "__longjmp", 
+                "_fprintf", 
+                "_printf", 
+                "_snprintf", 
+                "_sprintf", 
+                "_vfprintf", 
+                "_vprintf", 
+                "_vsnprintf", 
+                "_vsprintf", 
+                "asprintf", 
+                "confstr", 
+                "dprintf", 
+                "explicit_bzero", 
+                "fdelt", 
+                "fgets", 
+                "fgets_unlocked", 
+                "fgetws", 
+                "fgetws_unlocked", 
+                "fprintf", 
+                "fread", 
+                "fread_unlocked", 
+                "fwprintf", 
+                "getcwd", 
+                "getdomainname", 
+                "getgroups", 
+                "gethostname", 
+                "getlogin_r", 
+                "gets", 
+                "getwd", 
+                "longjmp", 
+                "mbsnrtowcs", 
+                "mbsrtowcs", 
+                "mbstowcs", 
+                "memcpy", 
+                "memmove", 
+                "mempcpy", 
+                "memset", 
+                "obstack_printf", 
+                "obstack_vprintf", 
+                "poll", 
+                "ppoll", 
+                "pread64", 
+                "pread", 
+                "printf", 
+                "ptsname_r", 
+                "read", 
+                "readlink", 
+                "readlinkat", 
+                "realpath", 
+                "recv", 
+                "recvfrom", 
+                "snprintf", 
+                "sprintf", 
+                "stpcpy", 
+                "stpncpy", 
+                "strcat", 
+                "strcpy", 
+                "strncat", 
+                "strncpy", 
+                "swprintf", 
+                "syslog", 
+                "ttyname_r", 
+                "vasprintf", 
+                "vdprintf", 
+                "vfprintf", 
+                "vfwprintf", 
+                "vprintf", 
+                "vsnprintf", 
+                "vsprintf", 
+                "vswprintf", 
+                "vsyslog", 
+                "vwprintf", 
+                "wcpcpy", 
+                "wcpncpy", 
+                "wcrtomb", 
+                "wcscat", 
+                "wcscpy", 
+                "wcsncat", 
+                "wcsncpy", 
+                "wcsnrtombs", 
+                "wcsrtombs", 
+                "wcstombs", 
+                "wctomb", 
+                "wmemcpy", 
+                "wmemmove", 
+                "wmempcpy", 
+                "wmemset", 
+                "wprintf"
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/Util/strxor.so", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": "4", 
+                    "afC": "5"
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "PyErr_Format", 
+                "__cxa_finalize", 
+                "PyErr_SetString", 
+                "_ITM_registerTMCloneTable", 
+                "Py_InitModule4_64", 
+                "memcmp", 
+                "__gmon_start__", 
+                "_Jv_RegisterClasses", 
+                "_ITM_deregisterTMCloneTable", 
+                "PyArg_ParseTuple", 
+                "__assert_fail", 
+                "PyString_FromStringAndSize"
+            ], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Cipher/test_DES_pyc": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Cipher/test_DES.pyc", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Cipher/test_DES_pyo": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Cipher/test_DES.pyo", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Random/test__UserFriendlyRNG_pyo": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Random/test__UserFriendlyRNG.pyo", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Hash/__init___pyo": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Hash/__init__.pyo", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/PublicKey/test_RSA_py": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/PublicKey/test_RSA.py", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/Cipher/_AES_so": {
+            "find-libc-functions": [
+                "GI___obstack_vprintf", 
+                "GI___vasprintf", 
+                "GI___vdprintf", 
+                "GI___vfprintf", 
+                "GI___vfwprintf", 
+                "GI___vsnprintf", 
+                "GI___vsprintf", 
+                "GI___vswprintf", 
+                "GI___vsyslog", 
+                "__longjmp", 
+                "_fprintf", 
+                "_printf", 
+                "_snprintf", 
+                "_sprintf", 
+                "_vfprintf", 
+                "_vprintf", 
+                "_vsnprintf", 
+                "_vsprintf", 
+                "asprintf", 
+                "confstr", 
+                "dprintf", 
+                "explicit_bzero", 
+                "fdelt", 
+                "fgets", 
+                "fgets_unlocked", 
+                "fgetws", 
+                "fgetws_unlocked", 
+                "fprintf", 
+                "fread", 
+                "fread_unlocked", 
+                "fwprintf", 
+                "getcwd", 
+                "getdomainname", 
+                "getgroups", 
+                "gethostname", 
+                "getlogin_r", 
+                "gets", 
+                "getwd", 
+                "longjmp", 
+                "mbsnrtowcs", 
+                "mbsrtowcs", 
+                "mbstowcs", 
+                "memcpy", 
+                "memmove", 
+                "mempcpy", 
+                "memset", 
+                "obstack_printf", 
+                "obstack_vprintf", 
+                "poll", 
+                "ppoll", 
+                "pread64", 
+                "pread", 
+                "printf", 
+                "ptsname_r", 
+                "read", 
+                "readlink", 
+                "readlinkat", 
+                "realpath", 
+                "recv", 
+                "recvfrom", 
+                "snprintf", 
+                "sprintf", 
+                "stpcpy", 
+                "stpncpy", 
+                "strcat", 
+                "strcpy", 
+                "strncat", 
+                "strncpy", 
+                "swprintf", 
+                "syslog", 
+                "ttyname_r", 
+                "vasprintf", 
+                "vdprintf", 
+                "vfprintf", 
+                "vfwprintf", 
+                "vprintf", 
+                "vsnprintf", 
+                "vsprintf", 
+                "vswprintf", 
+                "vsyslog", 
+                "vwprintf", 
+                "wcpcpy", 
+                "wcpncpy", 
+                "wcrtomb", 
+                "wcscat", 
+                "wcscpy", 
+                "wcsncat", 
+                "wcsncpy", 
+                "wcsnrtombs", 
+                "wcsrtombs", 
+                "wcstombs", 
+                "wctomb", 
+                "wmemcpy", 
+                "wmemmove", 
+                "wmempcpy", 
+                "wmemset", 
+                "wprintf"
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/Cipher/_AES.so", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": "4", 
+                    "afC": "71"
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "_PyObject_New", 
+                "Py_InitModule4_64", 
+                "PyEval_SaveThread", 
+                "PyCallable_Check", 
+                "__stack_chk_fail", 
+                "PyObject_Free", 
+                "_ITM_deregisterTMCloneTable", 
+                "PyInt_FromLong", 
+                "__assert_fail", 
+                "_ITM_registerTMCloneTable", 
+                "PyErr_Format", 
+                "PyObject_HasAttrString", 
+                "PyModule_AddIntConstant", 
+                "PyErr_SetString", 
+                "memmove", 
+                "Py_FatalError", 
+                "PyErr_Occurred", 
+                "PyObject_CallObject", 
+                "PyString_Size", 
+                "PyString_AsString", 
+                "Py_FindMethod", 
+                "PyString_FromStringAndSize", 
+                "free", 
+                "PyEval_RestoreThread", 
+                "__cxa_finalize", 
+                "__gmon_start__", 
+                "PyArg_ParseTupleAndKeywords", 
+                "malloc", 
+                "PyArg_Parse"
+            ], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/Hash/_RIPEMD160_so": {
+            "find-libc-functions": [
+                "GI___obstack_vprintf", 
+                "GI___vasprintf", 
+                "GI___vdprintf", 
+                "GI___vfprintf", 
+                "GI___vfwprintf", 
+                "GI___vsnprintf", 
+                "GI___vsprintf", 
+                "GI___vswprintf", 
+                "GI___vsyslog", 
+                "__longjmp", 
+                "_fprintf", 
+                "_printf", 
+                "_snprintf", 
+                "_sprintf", 
+                "_vfprintf", 
+                "_vprintf", 
+                "_vsnprintf", 
+                "_vsprintf", 
+                "asprintf", 
+                "confstr", 
+                "dprintf", 
+                "explicit_bzero", 
+                "fdelt", 
+                "fgets", 
+                "fgets_unlocked", 
+                "fgetws", 
+                "fgetws_unlocked", 
+                "fprintf", 
+                "fread", 
+                "fread_unlocked", 
+                "fwprintf", 
+                "getcwd", 
+                "getdomainname", 
+                "getgroups", 
+                "gethostname", 
+                "getlogin_r", 
+                "gets", 
+                "getwd", 
+                "longjmp", 
+                "mbsnrtowcs", 
+                "mbsrtowcs", 
+                "mbstowcs", 
+                "memcpy", 
+                "memmove", 
+                "mempcpy", 
+                "memset", 
+                "obstack_printf", 
+                "obstack_vprintf", 
+                "poll", 
+                "ppoll", 
+                "pread64", 
+                "pread", 
+                "printf", 
+                "ptsname_r", 
+                "read", 
+                "readlink", 
+                "readlinkat", 
+                "realpath", 
+                "recv", 
+                "recvfrom", 
+                "snprintf", 
+                "sprintf", 
+                "stpcpy", 
+                "stpncpy", 
+                "strcat", 
+                "strcpy", 
+                "strncat", 
+                "strncpy", 
+                "swprintf", 
+                "syslog", 
+                "ttyname_r", 
+                "vasprintf", 
+                "vdprintf", 
+                "vfprintf", 
+                "vfwprintf", 
+                "vprintf", 
+                "vsnprintf", 
+                "vsprintf", 
+                "vswprintf", 
+                "vsyslog", 
+                "vwprintf", 
+                "wcpcpy", 
+                "wcpncpy", 
+                "wcrtomb", 
+                "wcscat", 
+                "wcscpy", 
+                "wcsncat", 
+                "wcsncpy", 
+                "wcsnrtombs", 
+                "wcsrtombs", 
+                "wcstombs", 
+                "wctomb", 
+                "wmemcpy", 
+                "wmemmove", 
+                "wmempcpy", 
+                "wmemset", 
+                "wprintf"
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/Hash/_RIPEMD160.so", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": "4", 
+                    "afC": "5"
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "memcpy", 
+                "PyErr_SetString", 
+                "_Jv_RegisterClasses", 
+                "PyString_FromStringAndSize", 
+                "PyString_AsString", 
+                "Py_FatalError", 
+                "_PyObject_New", 
+                "PyErr_Occurred", 
+                "PyEval_SaveThread", 
+                "__cxa_finalize", 
+                "_ITM_registerTMCloneTable", 
+                "_ITM_deregisterTMCloneTable", 
+                "Py_InitModule4_64", 
+                "__gmon_start__", 
+                "PyObject_Free", 
+                "__assert_fail", 
+                "Py_FindMethod", 
+                "__stack_chk_fail", 
+                "PyString_Size", 
+                "PyArg_ParseTuple", 
+                "PyEval_RestoreThread"
+            ], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Cipher/test_pkcs1_oaep_py": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Cipher/test_pkcs1_oaep.py", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Cipher/test_Blowfish_pyo": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Cipher/test_Blowfish.pyo", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Cipher/test_Blowfish_pyc": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Cipher/test_Blowfish.pyc", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Hash/__init___py": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Hash/__init__.py", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Random/test__UserFriendlyRNG_pyc": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Random/test__UserFriendlyRNG.pyc", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Cipher/test_DES_py": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Cipher/test_DES.py", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Cipher/test_CAST_py": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Cipher/test_CAST.py", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Cipher/__init___py": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Cipher/__init__.py", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Random/OSRNG/test_generic_pyo": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Random/OSRNG/test_generic.pyo", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/__init___pyc": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/__init__.pyc", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Hash/test_SHA256_pyo": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Hash/test_SHA256.pyo", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Random/OSRNG/test_nt_pyc": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Random/OSRNG/test_nt.pyc", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/__init___pyo": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/__init__.pyo", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Hash/test_SHA256_pyc": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Hash/test_SHA256.pyc", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Random/OSRNG/test_nt_pyo": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Random/OSRNG/test_nt.pyo", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Random/OSRNG/test_generic_pyc": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Random/OSRNG/test_generic.pyc", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Hash/test_SHA_pyc": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Hash/test_SHA.pyc", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Signature/__init___pyo": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Signature/__init__.pyo", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Hash/test_SHA_pyo": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Hash/test_SHA.pyo", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Hash/test_MD2_py": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Hash/test_MD2.py", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Signature/__init___pyc": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Signature/__init__.pyc", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Hash/common_pyc": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Hash/common.pyc", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/Hash/_MD4_so": {
+            "find-libc-functions": [
+                "GI___obstack_vprintf", 
+                "GI___vasprintf", 
+                "GI___vdprintf", 
+                "GI___vfprintf", 
+                "GI___vfwprintf", 
+                "GI___vsnprintf", 
+                "GI___vsprintf", 
+                "GI___vswprintf", 
+                "GI___vsyslog", 
+                "__longjmp", 
+                "_fprintf", 
+                "_printf", 
+                "_snprintf", 
+                "_sprintf", 
+                "_vfprintf", 
+                "_vprintf", 
+                "_vsnprintf", 
+                "_vsprintf", 
+                "asprintf", 
+                "confstr", 
+                "dprintf", 
+                "explicit_bzero", 
+                "fdelt", 
+                "fgets", 
+                "fgets_unlocked", 
+                "fgetws", 
+                "fgetws_unlocked", 
+                "fprintf", 
+                "fread", 
+                "fread_unlocked", 
+                "fwprintf", 
+                "getcwd", 
+                "getdomainname", 
+                "getgroups", 
+                "gethostname", 
+                "getlogin_r", 
+                "gets", 
+                "getwd", 
+                "longjmp", 
+                "mbsnrtowcs", 
+                "mbsrtowcs", 
+                "mbstowcs", 
+                "memcpy", 
+                "memmove", 
+                "mempcpy", 
+                "memset", 
+                "obstack_printf", 
+                "obstack_vprintf", 
+                "poll", 
+                "ppoll", 
+                "pread64", 
+                "pread", 
+                "printf", 
+                "ptsname_r", 
+                "read", 
+                "readlink", 
+                "readlinkat", 
+                "realpath", 
+                "recv", 
+                "recvfrom", 
+                "snprintf", 
+                "sprintf", 
+                "stpcpy", 
+                "stpncpy", 
+                "strcat", 
+                "strcpy", 
+                "strncat", 
+                "strncpy", 
+                "swprintf", 
+                "syslog", 
+                "ttyname_r", 
+                "vasprintf", 
+                "vdprintf", 
+                "vfprintf", 
+                "vfwprintf", 
+                "vprintf", 
+                "vsnprintf", 
+                "vsprintf", 
+                "vswprintf", 
+                "vsyslog", 
+                "vwprintf", 
+                "wcpcpy", 
+                "wcpncpy", 
+                "wcrtomb", 
+                "wcscat", 
+                "wcscpy", 
+                "wcsncat", 
+                "wcsncpy", 
+                "wcsnrtombs", 
+                "wcsrtombs", 
+                "wcstombs", 
+                "wctomb", 
+                "wmemcpy", 
+                "wmemmove", 
+                "wmempcpy", 
+                "wmemset", 
+                "wprintf"
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/Hash/_MD4.so", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": "4", 
+                    "afC": "5"
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "__stack_chk_fail", 
+                "PyEval_RestoreThread", 
+                "PyString_FromStringAndSize", 
+                "PyArg_ParseTuple", 
+                "__gmon_start__", 
+                "Py_InitModule4_64", 
+                "PyErr_Occurred", 
+                "PyString_AsString", 
+                "Py_FindMethod", 
+                "_ITM_deregisterTMCloneTable", 
+                "memcpy", 
+                "PyObject_Free", 
+                "Py_FatalError", 
+                "__cxa_finalize", 
+                "PyEval_SaveThread", 
+                "_PyObject_New", 
+                "_ITM_registerTMCloneTable", 
+                "PyInt_FromLong", 
+                "PyModule_AddIntConstant", 
+                "PyString_Size"
+            ], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Cipher/test_AES_pyo": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Cipher/test_AES.pyo", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Cipher/test_AES_pyc": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Cipher/test_AES.pyc", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Hash/test_SHA384_py": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Hash/test_SHA384.py", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Random/Fortuna/test_SHAd256_pyo": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Random/Fortuna/test_SHAd256.pyo", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Hash/test_SHA384_pyo": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Hash/test_SHA384.pyo", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Cipher/test_XOR_py": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Cipher/test_XOR.py", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Hash/test_MD5_py": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Hash/test_MD5.py", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Hash/test_SHA384_pyc": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Hash/test_SHA384.pyc", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/Hash/_SHA384_so": {
+            "find-libc-functions": [
+                "GI___obstack_vprintf", 
+                "GI___vasprintf", 
+                "GI___vdprintf", 
+                "GI___vfprintf", 
+                "GI___vfwprintf", 
+                "GI___vsnprintf", 
+                "GI___vsprintf", 
+                "GI___vswprintf", 
+                "GI___vsyslog", 
+                "__longjmp", 
+                "_fprintf", 
+                "_printf", 
+                "_snprintf", 
+                "_sprintf", 
+                "_vfprintf", 
+                "_vprintf", 
+                "_vsnprintf", 
+                "_vsprintf", 
+                "asprintf", 
+                "confstr", 
+                "dprintf", 
+                "explicit_bzero", 
+                "fdelt", 
+                "fgets", 
+                "fgets_unlocked", 
+                "fgetws", 
+                "fgetws_unlocked", 
+                "fprintf", 
+                "fread", 
+                "fread_unlocked", 
+                "fwprintf", 
+                "getcwd", 
+                "getdomainname", 
+                "getgroups", 
+                "gethostname", 
+                "getlogin_r", 
+                "gets", 
+                "getwd", 
+                "longjmp", 
+                "mbsnrtowcs", 
+                "mbsrtowcs", 
+                "mbstowcs", 
+                "memcpy", 
+                "memmove", 
+                "mempcpy", 
+                "memset", 
+                "obstack_printf", 
+                "obstack_vprintf", 
+                "poll", 
+                "ppoll", 
+                "pread64", 
+                "pread", 
+                "printf", 
+                "ptsname_r", 
+                "read", 
+                "readlink", 
+                "readlinkat", 
+                "realpath", 
+                "recv", 
+                "recvfrom", 
+                "snprintf", 
+                "sprintf", 
+                "stpcpy", 
+                "stpncpy", 
+                "strcat", 
+                "strcpy", 
+                "strncat", 
+                "strncpy", 
+                "swprintf", 
+                "syslog", 
+                "ttyname_r", 
+                "vasprintf", 
+                "vdprintf", 
+                "vfprintf", 
+                "vfwprintf", 
+                "vprintf", 
+                "vsnprintf", 
+                "vsprintf", 
+                "vswprintf", 
+                "vsyslog", 
+                "vwprintf", 
+                "wcpcpy", 
+                "wcpncpy", 
+                "wcrtomb", 
+                "wcscat", 
+                "wcscpy", 
+                "wcsncat", 
+                "wcsncpy", 
+                "wcsnrtombs", 
+                "wcsrtombs", 
+                "wcstombs", 
+                "wctomb", 
+                "wmemcpy", 
+                "wmemmove", 
+                "wmempcpy", 
+                "wmemset", 
+                "wprintf"
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/Hash/_SHA384.so", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": "4", 
+                    "afC": "5"
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "__cxa_finalize", 
+                "_Jv_RegisterClasses", 
+                "PyObject_Free", 
+                "Py_InitModule4_64", 
+                "__stack_chk_fail", 
+                "PyEval_RestoreThread", 
+                "PyString_Size", 
+                "__gmon_start__", 
+                "PyArg_ParseTuple", 
+                "PyEval_SaveThread", 
+                "PyString_FromStringAndSize", 
+                "Py_FatalError", 
+                "Py_FindMethod", 
+                "PyString_AsString", 
+                "_ITM_deregisterTMCloneTable", 
+                "PyModule_AddIntConstant", 
+                "_PyObject_New", 
+                "_ITM_registerTMCloneTable", 
+                "PyErr_Occurred"
+            ], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Random/Fortuna/test_FortunaAccumulator_pyo": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Random/Fortuna/test_FortunaAccumulator.pyo", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Random/Fortuna/test_SHAd256_pyc": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Random/Fortuna/test_SHAd256.pyc", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Cipher/test_AES_py": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Cipher/test_AES.py", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Random/test_random_pyo": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Random/test_random.pyo", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Random/test_random_py": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Random/test_random.py", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Cipher/test_XOR_pyc": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Cipher/test_XOR.pyc", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Hash/test_RIPEMD_py": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Hash/test_RIPEMD.py", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/PublicKey/test_DSA_py": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/PublicKey/test_DSA.py", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Cipher/test_XOR_pyo": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Cipher/test_XOR.pyo", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Signature/test_pkcs1_15_py": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Signature/test_pkcs1_15.py", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Signature/__init___py": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Signature/__init__.py", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/Util/_counter_so": {
+            "find-libc-functions": [
+                "GI___obstack_vprintf", 
+                "GI___vasprintf", 
+                "GI___vdprintf", 
+                "GI___vfprintf", 
+                "GI___vfwprintf", 
+                "GI___vsnprintf", 
+                "GI___vsprintf", 
+                "GI___vswprintf", 
+                "GI___vsyslog", 
+                "__longjmp", 
+                "_fprintf", 
+                "_printf", 
+                "_snprintf", 
+                "_sprintf", 
+                "_vfprintf", 
+                "_vprintf", 
+                "_vsnprintf", 
+                "_vsprintf", 
+                "asprintf", 
+                "confstr", 
+                "dprintf", 
+                "explicit_bzero", 
+                "fdelt", 
+                "fgets", 
+                "fgets_unlocked", 
+                "fgetws", 
+                "fgetws_unlocked", 
+                "fprintf", 
+                "fread", 
+                "fread_unlocked", 
+                "fwprintf", 
+                "getcwd", 
+                "getdomainname", 
+                "getgroups", 
+                "gethostname", 
+                "getlogin_r", 
+                "gets", 
+                "getwd", 
+                "longjmp", 
+                "mbsnrtowcs", 
+                "mbsrtowcs", 
+                "mbstowcs", 
+                "memcpy", 
+                "memmove", 
+                "mempcpy", 
+                "memset", 
+                "obstack_printf", 
+                "obstack_vprintf", 
+                "poll", 
+                "ppoll", 
+                "pread64", 
+                "pread", 
+                "printf", 
+                "ptsname_r", 
+                "read", 
+                "readlink", 
+                "readlinkat", 
+                "realpath", 
+                "recv", 
+                "recvfrom", 
+                "snprintf", 
+                "sprintf", 
+                "stpcpy", 
+                "stpncpy", 
+                "strcat", 
+                "strcpy", 
+                "strncat", 
+                "strncpy", 
+                "swprintf", 
+                "syslog", 
+                "ttyname_r", 
+                "vasprintf", 
+                "vdprintf", 
+                "vfprintf", 
+                "vfwprintf", 
+                "vprintf", 
+                "vsnprintf", 
+                "vsprintf", 
+                "vswprintf", 
+                "vsyslog", 
+                "vwprintf", 
+                "wcpcpy", 
+                "wcpncpy", 
+                "wcrtomb", 
+                "wcscat", 
+                "wcscpy", 
+                "wcsncat", 
+                "wcsncpy", 
+                "wcsnrtombs", 
+                "wcsrtombs", 
+                "wcstombs", 
+                "wctomb", 
+                "wmemcpy", 
+                "wmemmove", 
+                "wmempcpy", 
+                "wmemset", 
+                "wprintf"
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/Util/_counter.so", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": "4", 
+                    "afC": "5"
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "__cxa_finalize", 
+                "_Jv_RegisterClasses", 
+                "PyString_FromStringAndSize", 
+                "_PyObject_New", 
+                "PyLong_FromUnsignedLong", 
+                "__assert_fail", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "PyObject_Free", 
+                "PyArg_ParseTupleAndKeywords", 
+                "Py_FindMethod", 
+                "PyNumber_Or", 
+                "Py_InitModule4_64", 
+                "PyMem_Malloc", 
+                "PyInt_FromLong", 
+                "memset", 
+                "PyErr_SetString", 
+                "_ITM_registerTMCloneTable", 
+                "memcpy", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Random/__init___pyc": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Random/__init__.pyc", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Hash/test_SHA224_pyc": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Hash/test_SHA224.pyc", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Cipher/test_DES3_pyc": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Cipher/test_DES3.pyc", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Hash/test_HMAC_pyo": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Hash/test_HMAC.pyo", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Hash/test_SHA512_py": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Hash/test_SHA512.py", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Cipher/test_DES3_pyo": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Cipher/test_DES3.pyo", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Cipher/test_ARC2_py": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Cipher/test_ARC2.py", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Hash/test_SHA224_pyo": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Hash/test_SHA224.pyo", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/Hash/_SHA512_so": {
+            "find-libc-functions": [
+                "GI___obstack_vprintf", 
+                "GI___vasprintf", 
+                "GI___vdprintf", 
+                "GI___vfprintf", 
+                "GI___vfwprintf", 
+                "GI___vsnprintf", 
+                "GI___vsprintf", 
+                "GI___vswprintf", 
+                "GI___vsyslog", 
+                "__longjmp", 
+                "_fprintf", 
+                "_printf", 
+                "_snprintf", 
+                "_sprintf", 
+                "_vfprintf", 
+                "_vprintf", 
+                "_vsnprintf", 
+                "_vsprintf", 
+                "asprintf", 
+                "confstr", 
+                "dprintf", 
+                "explicit_bzero", 
+                "fdelt", 
+                "fgets", 
+                "fgets_unlocked", 
+                "fgetws", 
+                "fgetws_unlocked", 
+                "fprintf", 
+                "fread", 
+                "fread_unlocked", 
+                "fwprintf", 
+                "getcwd", 
+                "getdomainname", 
+                "getgroups", 
+                "gethostname", 
+                "getlogin_r", 
+                "gets", 
+                "getwd", 
+                "longjmp", 
+                "mbsnrtowcs", 
+                "mbsrtowcs", 
+                "mbstowcs", 
+                "memcpy", 
+                "memmove", 
+                "mempcpy", 
+                "memset", 
+                "obstack_printf", 
+                "obstack_vprintf", 
+                "poll", 
+                "ppoll", 
+                "pread64", 
+                "pread", 
+                "printf", 
+                "ptsname_r", 
+                "read", 
+                "readlink", 
+                "readlinkat", 
+                "realpath", 
+                "recv", 
+                "recvfrom", 
+                "snprintf", 
+                "sprintf", 
+                "stpcpy", 
+                "stpncpy", 
+                "strcat", 
+                "strcpy", 
+                "strncat", 
+                "strncpy", 
+                "swprintf", 
+                "syslog", 
+                "ttyname_r", 
+                "vasprintf", 
+                "vdprintf", 
+                "vfprintf", 
+                "vfwprintf", 
+                "vprintf", 
+                "vsnprintf", 
+                "vsprintf", 
+                "vswprintf", 
+                "vsyslog", 
+                "vwprintf", 
+                "wcpcpy", 
+                "wcpncpy", 
+                "wcrtomb", 
+                "wcscat", 
+                "wcscpy", 
+                "wcsncat", 
+                "wcsncpy", 
+                "wcsnrtombs", 
+                "wcsrtombs", 
+                "wcstombs", 
+                "wctomb", 
+                "wmemcpy", 
+                "wmemmove", 
+                "wmempcpy", 
+                "wmemset", 
+                "wprintf"
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/Hash/_SHA512.so", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": "4", 
+                    "afC": "5"
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "Py_InitModule4_64", 
+                "PyEval_SaveThread", 
+                "PyString_Size", 
+                "PyInt_FromLong", 
+                "PyObject_Free", 
+                "Py_FatalError", 
+                "PyEval_RestoreThread", 
+                "__cxa_finalize", 
+                "__gmon_start__", 
+                "_PyObject_New", 
+                "_Jv_RegisterClasses", 
+                "Py_FindMethod", 
+                "_ITM_deregisterTMCloneTable", 
+                "PyString_AsString", 
+                "PyErr_Occurred", 
+                "PyArg_ParseTuple", 
+                "__stack_chk_fail", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Random/OSRNG/test_winrandom_pyc": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Random/OSRNG/test_winrandom.pyc", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Protocol/test_AllOrNothing_pyo": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Protocol/test_AllOrNothing.pyo", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/PublicKey/test_importKey_pyo": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/PublicKey/test_importKey.pyo", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Util/test_Counter_py": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Util/test_Counter.py", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Random/Fortuna/test_FortunaAccumulator_py": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Random/Fortuna/test_FortunaAccumulator.py", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/PublicKey/test_importKey_py": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/PublicKey/test_importKey.py", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Protocol/test_AllOrNothing_pyc": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Protocol/test_AllOrNothing.pyc", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Random/OSRNG/test_nt_py": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Random/OSRNG/test_nt.py", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Hash/test_SHA_py": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Hash/test_SHA.py", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Protocol/test_AllOrNothing_py": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Protocol/test_AllOrNothing.py", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Hash/test_HMAC_py": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Hash/test_HMAC.py", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/__init___py": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/__init__.py", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Protocol/test_chaffing_pyo": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Protocol/test_chaffing.pyo", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Hash/test_HMAC_pyc": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Hash/test_HMAC.pyc", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Hash/test_MD4_pyo": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Hash/test_MD4.pyo", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Protocol/test_KDF_pyc": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Protocol/test_KDF.pyc", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Protocol/test_KDF_pyo": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Protocol/test_KDF.pyo", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Protocol/test_chaffing_pyc": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Protocol/test_chaffing.pyc", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Random/OSRNG/test_generic_py": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Random/OSRNG/test_generic.py", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Signature/test_pkcs1_15_pyo": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Signature/test_pkcs1_15.pyo", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Hash/test_SHA512_pyc": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Hash/test_SHA512.pyc", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Signature/test_pkcs1_15_pyc": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Signature/test_pkcs1_15.pyc", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Random/Fortuna/test_FortunaAccumulator_pyc": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Random/Fortuna/test_FortunaAccumulator.pyc", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Hash/test_SHA512_pyo": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Hash/test_SHA512.pyo", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Util/__init___py": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Util/__init__.py", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Util/test_number_pyc": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Util/test_number.pyc", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Hash/test_MD2_pyc": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Hash/test_MD2.pyc", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/PublicKey/test_DSA_pyc": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/PublicKey/test_DSA.pyc", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Hash/test_MD2_pyo": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Hash/test_MD2.pyo", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/PublicKey/test_DSA_pyo": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/PublicKey/test_DSA.pyo", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Hash/common_py": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Hash/common.py", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/Cipher/_ARC4_so": {
+            "find-libc-functions": [
+                "GI___obstack_vprintf", 
+                "GI___vasprintf", 
+                "GI___vdprintf", 
+                "GI___vfprintf", 
+                "GI___vfwprintf", 
+                "GI___vsnprintf", 
+                "GI___vsprintf", 
+                "GI___vswprintf", 
+                "GI___vsyslog", 
+                "__longjmp", 
+                "_fprintf", 
+                "_printf", 
+                "_snprintf", 
+                "_sprintf", 
+                "_vfprintf", 
+                "_vprintf", 
+                "_vsnprintf", 
+                "_vsprintf", 
+                "asprintf", 
+                "confstr", 
+                "dprintf", 
+                "explicit_bzero", 
+                "fdelt", 
+                "fgets", 
+                "fgets_unlocked", 
+                "fgetws", 
+                "fgetws_unlocked", 
+                "fprintf", 
+                "fread", 
+                "fread_unlocked", 
+                "fwprintf", 
+                "getcwd", 
+                "getdomainname", 
+                "getgroups", 
+                "gethostname", 
+                "getlogin_r", 
+                "gets", 
+                "getwd", 
+                "longjmp", 
+                "mbsnrtowcs", 
+                "mbsrtowcs", 
+                "mbstowcs", 
+                "memcpy", 
+                "memmove", 
+                "mempcpy", 
+                "memset", 
+                "obstack_printf", 
+                "obstack_vprintf", 
+                "poll", 
+                "ppoll", 
+                "pread64", 
+                "pread", 
+                "printf", 
+                "ptsname_r", 
+                "read", 
+                "readlink", 
+                "readlinkat", 
+                "realpath", 
+                "recv", 
+                "recvfrom", 
+                "snprintf", 
+                "sprintf", 
+                "stpcpy", 
+                "stpncpy", 
+                "strcat", 
+                "strcpy", 
+                "strncat", 
+                "strncpy", 
+                "swprintf", 
+                "syslog", 
+                "ttyname_r", 
+                "vasprintf", 
+                "vdprintf", 
+                "vfprintf", 
+                "vfwprintf", 
+                "vprintf", 
+                "vsnprintf", 
+                "vsprintf", 
+                "vswprintf", 
+                "vsyslog", 
+                "vwprintf", 
+                "wcpcpy", 
+                "wcpncpy", 
+                "wcrtomb", 
+                "wcscat", 
+                "wcscpy", 
+                "wcsncat", 
+                "wcsncpy", 
+                "wcsnrtombs", 
+                "wcsrtombs", 
+                "wcstombs", 
+                "wctomb", 
+                "wmemcpy", 
+                "wmemmove", 
+                "wmempcpy", 
+                "wmemset", 
+                "wprintf"
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/Cipher/_ARC4.so", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": "4", 
+                    "afC": "61"
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "PyArg_ParseTupleAndKeywords", 
+                "PyUnicodeUCS4_FromString", 
+                "PyArg_Parse", 
+                "PyEval_RestoreThread", 
+                "PyEval_SaveThread", 
+                "PyDict_SetItemString", 
+                "PyString_FromStringAndSize", 
+                "Py_InitModule4_64", 
+                "Py_FatalError", 
+                "PyErr_Occurred", 
+                "__cxa_finalize", 
+                "free", 
+                "_Jv_RegisterClasses", 
+                "_PyObject_New", 
+                "PyInt_FromLong", 
+                "PyModule_AddIntConstant", 
+                "_ITM_deregisterTMCloneTable", 
+                "PyModule_GetDict", 
+                "__stack_chk_fail", 
+                "_ITM_registerTMCloneTable", 
+                "PyObject_Free", 
+                "PyErr_SetString", 
+                "Py_FindMethod", 
+                "__gmon_start__"
+            ], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/PublicKey/__init___py": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/PublicKey/__init__.py", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Util/test_number_pyo": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Util/test_number.pyo", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Protocol/test_rfc1751_pyo": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Protocol/test_rfc1751.pyo", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Util/__init___pyc": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Util/__init__.pyc", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Random/test_random_pyc": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Random/test_random.pyc", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Random/Fortuna/__init___py": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Random/Fortuna/__init__.py", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/Hash/_SHA256_so": {
+            "find-libc-functions": [
+                "GI___obstack_vprintf", 
+                "GI___vasprintf", 
+                "GI___vdprintf", 
+                "GI___vfprintf", 
+                "GI___vfwprintf", 
+                "GI___vsnprintf", 
+                "GI___vsprintf", 
+                "GI___vswprintf", 
+                "GI___vsyslog", 
+                "__longjmp", 
+                "_fprintf", 
+                "_printf", 
+                "_snprintf", 
+                "_sprintf", 
+                "_vfprintf", 
+                "_vprintf", 
+                "_vsnprintf", 
+                "_vsprintf", 
+                "asprintf", 
+                "confstr", 
+                "dprintf", 
+                "explicit_bzero", 
+                "fdelt", 
+                "fgets", 
+                "fgets_unlocked", 
+                "fgetws", 
+                "fgetws_unlocked", 
+                "fprintf", 
+                "fread", 
+                "fread_unlocked", 
+                "fwprintf", 
+                "getcwd", 
+                "getdomainname", 
+                "getgroups", 
+                "gethostname", 
+                "getlogin_r", 
+                "gets", 
+                "getwd", 
+                "longjmp", 
+                "mbsnrtowcs", 
+                "mbsrtowcs", 
+                "mbstowcs", 
+                "memcpy", 
+                "memmove", 
+                "mempcpy", 
+                "memset", 
+                "obstack_printf", 
+                "obstack_vprintf", 
+                "poll", 
+                "ppoll", 
+                "pread64", 
+                "pread", 
+                "printf", 
+                "ptsname_r", 
+                "read", 
+                "readlink", 
+                "readlinkat", 
+                "realpath", 
+                "recv", 
+                "recvfrom", 
+                "snprintf", 
+                "sprintf", 
+                "stpcpy", 
+                "stpncpy", 
+                "strcat", 
+                "strcpy", 
+                "strncat", 
+                "strncpy", 
+                "swprintf", 
+                "syslog", 
+                "ttyname_r", 
+                "vasprintf", 
+                "vdprintf", 
+                "vfprintf", 
+                "vfwprintf", 
+                "vprintf", 
+                "vsnprintf", 
+                "vsprintf", 
+                "vswprintf", 
+                "vsyslog", 
+                "vwprintf", 
+                "wcpcpy", 
+                "wcpncpy", 
+                "wcrtomb", 
+                "wcscat", 
+                "wcscpy", 
+                "wcsncat", 
+                "wcsncpy", 
+                "wcsnrtombs", 
+                "wcsrtombs", 
+                "wcstombs", 
+                "wctomb", 
+                "wmemcpy", 
+                "wmemmove", 
+                "wmempcpy", 
+                "wmemset", 
+                "wprintf"
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/Hash/_SHA256.so", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": "4", 
+                    "afC": "5"
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "Py_InitModule4_64", 
+                "_ITM_deregisterTMCloneTable", 
+                "Py_FatalError", 
+                "PyString_FromStringAndSize", 
+                "Py_FindMethod", 
+                "_PyObject_New", 
+                "PyObject_Free", 
+                "__cxa_finalize", 
+                "_Jv_RegisterClasses", 
+                "PyInt_FromLong", 
+                "__stack_chk_fail", 
+                "PyEval_RestoreThread", 
+                "PyModule_AddIntConstant", 
+                "_ITM_registerTMCloneTable", 
+                "PyString_AsString", 
+                "PyEval_SaveThread", 
+                "__gmon_start__", 
+                "PyArg_ParseTuple", 
+                "PyErr_Occurred"
+            ], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Util/test_winrandom_py": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Util/test_winrandom.py", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Protocol/test_rfc1751_pyc": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Protocol/test_rfc1751.pyc", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/PublicKey/_fastmath_so": {
+            "find-libc-functions": [
+                "GI___obstack_vprintf", 
+                "GI___vasprintf", 
+                "GI___vdprintf", 
+                "GI___vfprintf", 
+                "GI___vfwprintf", 
+                "GI___vsnprintf", 
+                "GI___vsprintf", 
+                "GI___vswprintf", 
+                "GI___vsyslog", 
+                "__longjmp", 
+                "_fprintf", 
+                "_printf", 
+                "_snprintf", 
+                "_sprintf", 
+                "_vfprintf", 
+                "_vprintf", 
+                "_vsnprintf", 
+                "_vsprintf", 
+                "asprintf", 
+                "confstr", 
+                "dprintf", 
+                "explicit_bzero", 
+                "fdelt", 
+                "fgets", 
+                "fgets_unlocked", 
+                "fgetws", 
+                "fgetws_unlocked", 
+                "fprintf", 
+                "fread", 
+                "fread_unlocked", 
+                "fwprintf", 
+                "getcwd", 
+                "getdomainname", 
+                "getgroups", 
+                "gethostname", 
+                "getlogin_r", 
+                "gets", 
+                "getwd", 
+                "longjmp", 
+                "mbsnrtowcs", 
+                "mbsrtowcs", 
+                "mbstowcs", 
+                "memcpy", 
+                "memmove", 
+                "mempcpy", 
+                "memset", 
+                "obstack_printf", 
+                "obstack_vprintf", 
+                "poll", 
+                "ppoll", 
+                "pread64", 
+                "pread", 
+                "printf", 
+                "ptsname_r", 
+                "read", 
+                "readlink", 
+                "readlinkat", 
+                "realpath", 
+                "recv", 
+                "recvfrom", 
+                "snprintf", 
+                "sprintf", 
+                "stpcpy", 
+                "stpncpy", 
+                "strcat", 
+                "strcpy", 
+                "strncat", 
+                "strncpy", 
+                "swprintf", 
+                "syslog", 
+                "ttyname_r", 
+                "vasprintf", 
+                "vdprintf", 
+                "vfprintf", 
+                "vfwprintf", 
+                "vprintf", 
+                "vsnprintf", 
+                "vsprintf", 
+                "vswprintf", 
+                "vsyslog", 
+                "vwprintf", 
+                "wcpcpy", 
+                "wcpncpy", 
+                "wcrtomb", 
+                "wcscat", 
+                "wcscpy", 
+                "wcsncat", 
+                "wcsncpy", 
+                "wcsnrtombs", 
+                "wcsrtombs", 
+                "wcstombs", 
+                "wctomb", 
+                "wmemcpy", 
+                "wmemmove", 
+                "wmempcpy", 
+                "wmemset", 
+                "wprintf"
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/PublicKey/_fastmath.so", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": "4", 
+                    "afC": "84"
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "PyObject_Free", 
+                "__gmpf_ceil", 
+                "PyEval_RestoreThread", 
+                "Py_FindMethod", 
+                "calloc", 
+                "__gmpz_sub", 
+                "__gmpz_invert", 
+                "__gmpz_clear", 
+                "__stack_chk_fail", 
+                "__gmpz_set_f", 
+                "PyArg_ParseTupleAndKeywords", 
+                "PyArg_ParseTuple", 
+                "__gmpz_mul_ui", 
+                "__gmpz_fdiv_r_ui", 
+                "Py_BuildValue", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmpz_divexact", 
+                "__gmpz_gcd_ui", 
+                "__gmpz_divexact_ui", 
+                "PyEval_SaveThread", 
+                "__gmpz_fdiv_r", 
+                "__gmpf_sqrt_ui", 
+                "__gmpz_powm", 
+                "__gmpz_set", 
+                "__gmpz_tstbit", 
+                "__gmpz_mul", 
+                "__gmpz_sizeinbase", 
+                "PyDict_SetItemString", 
+                "__gmpz_sub_ui", 
+                "PyErr_SetString", 
+                "__gmpz_divisible_ui_p", 
+                "__gmpz_scan1", 
+                "Py_InitModule4_64", 
+                "__gmpz_init", 
+                "__gmon_start__", 
+                "free", 
+                "_PyLong_New", 
+                "log", 
+                "PyErr_NewException", 
+                "_ITM_registerTMCloneTable", 
+                "PyObject_CallObject", 
+                "__gmpz_mul_si", 
+                "_PyObject_New", 
+                "__gmpf_mul_2exp", 
+                "__gmpz_cmp_ui", 
+                "__gmpz_gcd", 
+                "PyModule_GetDict", 
+                "__gmpz_add", 
+                "__gmpz_add_ui", 
+                "PyErr_WarnEx", 
+                "__gmpz_init_set", 
+                "__cxa_finalize", 
+                "PyCallable_Check", 
+                "__gmpz_cmp", 
+                "_Jv_RegisterClasses", 
+                "__gmpz_powm_ui", 
+                "__gmpf_init", 
+                "__gmpz_setbit", 
+                "__gmpz_set_ui", 
+                "PyModule_AddIntConstant", 
+                "__gmpz_mod", 
+                "__gmpz_mul_2exp", 
+                "__gmpz_powm_sec", 
+                "PyString_AsString", 
+                "ceil", 
+                "PyDict_GetItemString", 
+                "PyObject_GetAttrString", 
+                "__gmpz_init2"
+            ], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Cipher/test_CAST_pyc": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Cipher/test_CAST.pyc", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Cipher/test_CAST_pyo": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Cipher/test_CAST.pyo", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/Cipher/_DES_so": {
+            "find-libc-functions": [
+                "GI___obstack_vprintf", 
+                "GI___vasprintf", 
+                "GI___vdprintf", 
+                "GI___vfprintf", 
+                "GI___vfwprintf", 
+                "GI___vsnprintf", 
+                "GI___vsprintf", 
+                "GI___vswprintf", 
+                "GI___vsyslog", 
+                "__longjmp", 
+                "_fprintf", 
+                "_printf", 
+                "_snprintf", 
+                "_sprintf", 
+                "_vfprintf", 
+                "_vprintf", 
+                "_vsnprintf", 
+                "_vsprintf", 
+                "asprintf", 
+                "confstr", 
+                "dprintf", 
+                "explicit_bzero", 
+                "fdelt", 
+                "fgets", 
+                "fgets_unlocked", 
+                "fgetws", 
+                "fgetws_unlocked", 
+                "fprintf", 
+                "fread", 
+                "fread_unlocked", 
+                "fwprintf", 
+                "getcwd", 
+                "getdomainname", 
+                "getgroups", 
+                "gethostname", 
+                "getlogin_r", 
+                "gets", 
+                "getwd", 
+                "longjmp", 
+                "mbsnrtowcs", 
+                "mbsrtowcs", 
+                "mbstowcs", 
+                "memcpy", 
+                "memmove", 
+                "mempcpy", 
+                "memset", 
+                "obstack_printf", 
+                "obstack_vprintf", 
+                "poll", 
+                "ppoll", 
+                "pread64", 
+                "pread", 
+                "printf", 
+                "ptsname_r", 
+                "read", 
+                "readlink", 
+                "readlinkat", 
+                "realpath", 
+                "recv", 
+                "recvfrom", 
+                "snprintf", 
+                "sprintf", 
+                "stpcpy", 
+                "stpncpy", 
+                "strcat", 
+                "strcpy", 
+                "strncat", 
+                "strncpy", 
+                "swprintf", 
+                "syslog", 
+                "ttyname_r", 
+                "vasprintf", 
+                "vdprintf", 
+                "vfprintf", 
+                "vfwprintf", 
+                "vprintf", 
+                "vsnprintf", 
+                "vsprintf", 
+                "vswprintf", 
+                "vsyslog", 
+                "vwprintf", 
+                "wcpcpy", 
+                "wcpncpy", 
+                "wcrtomb", 
+                "wcscat", 
+                "wcscpy", 
+                "wcsncat", 
+                "wcsncpy", 
+                "wcsnrtombs", 
+                "wcsrtombs", 
+                "wcstombs", 
+                "wctomb", 
+                "wmemcpy", 
+                "wmemmove", 
+                "wmempcpy", 
+                "wmemset", 
+                "wprintf"
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/Cipher/_DES.so", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": "4", 
+                    "afC": "9"
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "Py_FindMethod", 
+                "PyObject_HasAttrString", 
+                "PyErr_SetString", 
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "memmove", 
+                "__cxa_finalize", 
+                "des_ecb_decrypt", 
+                "PyObject_Free", 
+                "_Jv_RegisterClasses", 
+                "PyInt_FromLong", 
+                "__assert_fail", 
+                "PyEval_SaveThread", 
+                "PyString_FromStringAndSize", 
+                "_PyObject_New", 
+                "Py_InitModule4_64", 
+                "free", 
+                "des_ecb_encrypt", 
+                "PyString_AsString", 
+                "PyArg_ParseTupleAndKeywords", 
+                "PyObject_CallObject", 
+                "PyErr_Format", 
+                "malloc", 
+                "Py_FatalError", 
+                "memcpy", 
+                "_ITM_deregisterTMCloneTable", 
+                "des_setup", 
+                "PyModule_AddIntConstant", 
+                "PyErr_Occurred", 
+                "PyString_Size", 
+                "PyArg_Parse", 
+                "PyEval_RestoreThread"
+            ], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Random/OSRNG/test_fallback_py": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Random/OSRNG/test_fallback.py", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Cipher/test_ARC2_pyo": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Cipher/test_ARC2.pyo", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Random/Fortuna/test_FortunaGenerator_pyc": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Random/Fortuna/test_FortunaGenerator.pyc", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Hash/test_MD5_pyc": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Hash/test_MD5.pyc", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Random/OSRNG/__init___pyc": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Random/OSRNG/__init__.pyc", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Hash/test_SHA224_py": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Hash/test_SHA224.py", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Random/Fortuna/test_FortunaGenerator_pyo": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Random/Fortuna/test_FortunaGenerator.pyo", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Random/OSRNG/__init___pyo": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Random/OSRNG/__init__.pyo", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Random/__init___py": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Random/__init__.py", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Cipher/test_ARC2_pyc": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Cipher/test_ARC2.pyc", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Util/test_asn1_py": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Util/test_asn1.py", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/PublicKey/test_RSA_pyc": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/PublicKey/test_RSA.pyc", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/Cipher/_ARC2_so": {
+            "find-libc-functions": [
+                "GI___obstack_vprintf", 
+                "GI___vasprintf", 
+                "GI___vdprintf", 
+                "GI___vfprintf", 
+                "GI___vfwprintf", 
+                "GI___vsnprintf", 
+                "GI___vsprintf", 
+                "GI___vswprintf", 
+                "GI___vsyslog", 
+                "__longjmp", 
+                "_fprintf", 
+                "_printf", 
+                "_snprintf", 
+                "_sprintf", 
+                "_vfprintf", 
+                "_vprintf", 
+                "_vsnprintf", 
+                "_vsprintf", 
+                "asprintf", 
+                "confstr", 
+                "dprintf", 
+                "explicit_bzero", 
+                "fdelt", 
+                "fgets", 
+                "fgets_unlocked", 
+                "fgetws", 
+                "fgetws_unlocked", 
+                "fprintf", 
+                "fread", 
+                "fread_unlocked", 
+                "fwprintf", 
+                "getcwd", 
+                "getdomainname", 
+                "getgroups", 
+                "gethostname", 
+                "getlogin_r", 
+                "gets", 
+                "getwd", 
+                "longjmp", 
+                "mbsnrtowcs", 
+                "mbsrtowcs", 
+                "mbstowcs", 
+                "memcpy", 
+                "memmove", 
+                "mempcpy", 
+                "memset", 
+                "obstack_printf", 
+                "obstack_vprintf", 
+                "poll", 
+                "ppoll", 
+                "pread64", 
+                "pread", 
+                "printf", 
+                "ptsname_r", 
+                "read", 
+                "readlink", 
+                "readlinkat", 
+                "realpath", 
+                "recv", 
+                "recvfrom", 
+                "snprintf", 
+                "sprintf", 
+                "stpcpy", 
+                "stpncpy", 
+                "strcat", 
+                "strcpy", 
+                "strncat", 
+                "strncpy", 
+                "swprintf", 
+                "syslog", 
+                "ttyname_r", 
+                "vasprintf", 
+                "vdprintf", 
+                "vfprintf", 
+                "vfwprintf", 
+                "vprintf", 
+                "vsnprintf", 
+                "vsprintf", 
+                "vswprintf", 
+                "vsyslog", 
+                "vwprintf", 
+                "wcpcpy", 
+                "wcpncpy", 
+                "wcrtomb", 
+                "wcscat", 
+                "wcscpy", 
+                "wcsncat", 
+                "wcsncpy", 
+                "wcsnrtombs", 
+                "wcsrtombs", 
+                "wcstombs", 
+                "wctomb", 
+                "wmemcpy", 
+                "wmemmove", 
+                "wmempcpy", 
+                "wmemset", 
+                "wprintf"
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/Cipher/_ARC2.so", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": "4", 
+                    "afC": "71"
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "malloc", 
+                "__cxa_finalize", 
+                "Py_FindMethod", 
+                "memmove", 
+                "PyCallable_Check", 
+                "__stack_chk_fail", 
+                "Py_InitModule4_64", 
+                "PyObject_HasAttrString", 
+                "PyString_Size", 
+                "_ITM_registerTMCloneTable", 
+                "PyEval_SaveThread", 
+                "PyString_FromStringAndSize", 
+                "PyObject_CallObject", 
+                "_ITM_deregisterTMCloneTable", 
+                "PyArg_Parse", 
+                "free", 
+                "_PyObject_New", 
+                "PyErr_Occurred", 
+                "Py_FatalError", 
+                "__gmon_start__", 
+                "PyInt_FromLong", 
+                "__assert_fail", 
+                "PyString_AsString", 
+                "PyObject_Free", 
+                "_Jv_RegisterClasses", 
+                "PyErr_SetString", 
+                "PyEval_RestoreThread", 
+                "PyModule_AddIntConstant", 
+                "PyErr_Format"
+            ], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/PublicKey/test_RSA_pyo": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/PublicKey/test_RSA.pyo", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Hash/test_MD4_pyc": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Hash/test_MD4.pyc", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/Cipher/_CAST_so": {
+            "find-libc-functions": [
+                "GI___obstack_vprintf", 
+                "GI___vasprintf", 
+                "GI___vdprintf", 
+                "GI___vfprintf", 
+                "GI___vfwprintf", 
+                "GI___vsnprintf", 
+                "GI___vsprintf", 
+                "GI___vswprintf", 
+                "GI___vsyslog", 
+                "__longjmp", 
+                "_fprintf", 
+                "_printf", 
+                "_snprintf", 
+                "_sprintf", 
+                "_vfprintf", 
+                "_vprintf", 
+                "_vsnprintf", 
+                "_vsprintf", 
+                "asprintf", 
+                "confstr", 
+                "dprintf", 
+                "explicit_bzero", 
+                "fdelt", 
+                "fgets", 
+                "fgets_unlocked", 
+                "fgetws", 
+                "fgetws_unlocked", 
+                "fprintf", 
+                "fread", 
+                "fread_unlocked", 
+                "fwprintf", 
+                "getcwd", 
+                "getdomainname", 
+                "getgroups", 
+                "gethostname", 
+                "getlogin_r", 
+                "gets", 
+                "getwd", 
+                "longjmp", 
+                "mbsnrtowcs", 
+                "mbsrtowcs", 
+                "mbstowcs", 
+                "memcpy", 
+                "memmove", 
+                "mempcpy", 
+                "memset", 
+                "obstack_printf", 
+                "obstack_vprintf", 
+                "poll", 
+                "ppoll", 
+                "pread64", 
+                "pread", 
+                "printf", 
+                "ptsname_r", 
+                "read", 
+                "readlink", 
+                "readlinkat", 
+                "realpath", 
+                "recv", 
+                "recvfrom", 
+                "snprintf", 
+                "sprintf", 
+                "stpcpy", 
+                "stpncpy", 
+                "strcat", 
+                "strcpy", 
+                "strncat", 
+                "strncpy", 
+                "swprintf", 
+                "syslog", 
+                "ttyname_r", 
+                "vasprintf", 
+                "vdprintf", 
+                "vfprintf", 
+                "vfwprintf", 
+                "vprintf", 
+                "vsnprintf", 
+                "vsprintf", 
+                "vswprintf", 
+                "vsyslog", 
+                "vwprintf", 
+                "wcpcpy", 
+                "wcpncpy", 
+                "wcrtomb", 
+                "wcscat", 
+                "wcscpy", 
+                "wcsncat", 
+                "wcsncpy", 
+                "wcsnrtombs", 
+                "wcsrtombs", 
+                "wcstombs", 
+                "wctomb", 
+                "wmemcpy", 
+                "wmemmove", 
+                "wmempcpy", 
+                "wmemset", 
+                "wprintf"
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/Cipher/_CAST.so", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": "4", 
+                    "afC": "71"
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "Py_FatalError", 
+                "PyCallable_Check", 
+                "PyString_FromStringAndSize", 
+                "memmove", 
+                "PyObject_HasAttrString", 
+                "malloc", 
+                "PyInt_FromLong", 
+                "_ITM_deregisterTMCloneTable", 
+                "PyArg_Parse", 
+                "PyEval_SaveThread", 
+                "Py_FindMethod", 
+                "_Jv_RegisterClasses", 
+                "PyObject_CallObject", 
+                "_PyObject_New", 
+                "PyErr_Occurred", 
+                "__gmon_start__", 
+                "PyEval_RestoreThread", 
+                "PyObject_Free", 
+                "Py_InitModule4_64", 
+                "__assert_fail", 
+                "_ITM_registerTMCloneTable", 
+                "PyModule_AddIntConstant", 
+                "__cxa_finalize", 
+                "PyErr_Format", 
+                "__stack_chk_fail", 
+                "PyErr_SetString", 
+                "free", 
+                "PyString_Size", 
+                "memcpy"
+            ], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Protocol/test_KDF_py": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Protocol/test_KDF.py", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Hash/test_RIPEMD_pyc": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Hash/test_RIPEMD.pyc", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/Cipher/_Blowfish_so": {
+            "find-libc-functions": [
+                "GI___obstack_vprintf", 
+                "GI___vasprintf", 
+                "GI___vdprintf", 
+                "GI___vfprintf", 
+                "GI___vfwprintf", 
+                "GI___vsnprintf", 
+                "GI___vsprintf", 
+                "GI___vswprintf", 
+                "GI___vsyslog", 
+                "__longjmp", 
+                "_fprintf", 
+                "_printf", 
+                "_snprintf", 
+                "_sprintf", 
+                "_vfprintf", 
+                "_vprintf", 
+                "_vsnprintf", 
+                "_vsprintf", 
+                "asprintf", 
+                "confstr", 
+                "dprintf", 
+                "explicit_bzero", 
+                "fdelt", 
+                "fgets", 
+                "fgets_unlocked", 
+                "fgetws", 
+                "fgetws_unlocked", 
+                "fprintf", 
+                "fread", 
+                "fread_unlocked", 
+                "fwprintf", 
+                "getcwd", 
+                "getdomainname", 
+                "getgroups", 
+                "gethostname", 
+                "getlogin_r", 
+                "gets", 
+                "getwd", 
+                "longjmp", 
+                "mbsnrtowcs", 
+                "mbsrtowcs", 
+                "mbstowcs", 
+                "memcpy", 
+                "memmove", 
+                "mempcpy", 
+                "memset", 
+                "obstack_printf", 
+                "obstack_vprintf", 
+                "poll", 
+                "ppoll", 
+                "pread64", 
+                "pread", 
+                "printf", 
+                "ptsname_r", 
+                "read", 
+                "readlink", 
+                "readlinkat", 
+                "realpath", 
+                "recv", 
+                "recvfrom", 
+                "snprintf", 
+                "sprintf", 
+                "stpcpy", 
+                "stpncpy", 
+                "strcat", 
+                "strcpy", 
+                "strncat", 
+                "strncpy", 
+                "swprintf", 
+                "syslog", 
+                "ttyname_r", 
+                "vasprintf", 
+                "vdprintf", 
+                "vfprintf", 
+                "vfwprintf", 
+                "vprintf", 
+                "vsnprintf", 
+                "vsprintf", 
+                "vswprintf", 
+                "vsyslog", 
+                "vwprintf", 
+                "wcpcpy", 
+                "wcpncpy", 
+                "wcrtomb", 
+                "wcscat", 
+                "wcscpy", 
+                "wcsncat", 
+                "wcsncpy", 
+                "wcsnrtombs", 
+                "wcsrtombs", 
+                "wcstombs", 
+                "wctomb", 
+                "wmemcpy", 
+                "wmemmove", 
+                "wmempcpy", 
+                "wmemset", 
+                "wprintf"
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/Cipher/_Blowfish.so", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": "4", 
+                    "afC": "71"
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "malloc", 
+                "PyModule_AddIntConstant", 
+                "PyEval_SaveThread", 
+                "__stack_chk_fail", 
+                "Py_FindMethod", 
+                "PyErr_Occurred", 
+                "PyArg_Parse", 
+                "PyString_Size", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "free", 
+                "PyEval_RestoreThread", 
+                "memcpy", 
+                "__cxa_finalize", 
+                "_PyObject_New", 
+                "memmove", 
+                "PyInt_FromLong", 
+                "PyObject_HasAttrString", 
+                "Py_InitModule4_64", 
+                "PyString_AsString", 
+                "PyObject_CallObject", 
+                "Py_FatalError", 
+                "__assert_fail", 
+                "PyString_FromStringAndSize", 
+                "PyObject_Free", 
+                "PyArg_ParseTupleAndKeywords", 
+                "_ITM_deregisterTMCloneTable", 
+                "_Jv_RegisterClasses", 
+                "PyErr_Format"
+            ], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Hash/test_RIPEMD_pyo": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Hash/test_RIPEMD.pyo", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Util/test_Counter_pyc": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Util/test_Counter.pyc", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Util/__init___pyo": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Util/__init__.pyo", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Random/Fortuna/test_FortunaGenerator_py": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Random/Fortuna/test_FortunaGenerator.py", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Random/test_rpoolcompat_pyo": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Random/test_rpoolcompat.pyo", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Signature/test_pkcs1_pss_pyo": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Signature/test_pkcs1_pss.pyo", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/PublicKey/__init___pyc": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/PublicKey/__init__.pyc", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Cipher/common_pyc": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Cipher/common.pyc", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/Cipher/_DES3_so": {
+            "find-libc-functions": [
+                "GI___obstack_vprintf", 
+                "GI___vasprintf", 
+                "GI___vdprintf", 
+                "GI___vfprintf", 
+                "GI___vfwprintf", 
+                "GI___vsnprintf", 
+                "GI___vsprintf", 
+                "GI___vswprintf", 
+                "GI___vsyslog", 
+                "__longjmp", 
+                "_fprintf", 
+                "_printf", 
+                "_snprintf", 
+                "_sprintf", 
+                "_vfprintf", 
+                "_vprintf", 
+                "_vsnprintf", 
+                "_vsprintf", 
+                "asprintf", 
+                "confstr", 
+                "dprintf", 
+                "explicit_bzero", 
+                "fdelt", 
+                "fgets", 
+                "fgets_unlocked", 
+                "fgetws", 
+                "fgetws_unlocked", 
+                "fprintf", 
+                "fread", 
+                "fread_unlocked", 
+                "fwprintf", 
+                "getcwd", 
+                "getdomainname", 
+                "getgroups", 
+                "gethostname", 
+                "getlogin_r", 
+                "gets", 
+                "getwd", 
+                "longjmp", 
+                "mbsnrtowcs", 
+                "mbsrtowcs", 
+                "mbstowcs", 
+                "memcpy", 
+                "memmove", 
+                "mempcpy", 
+                "memset", 
+                "obstack_printf", 
+                "obstack_vprintf", 
+                "poll", 
+                "ppoll", 
+                "pread64", 
+                "pread", 
+                "printf", 
+                "ptsname_r", 
+                "read", 
+                "readlink", 
+                "readlinkat", 
+                "realpath", 
+                "recv", 
+                "recvfrom", 
+                "snprintf", 
+                "sprintf", 
+                "stpcpy", 
+                "stpncpy", 
+                "strcat", 
+                "strcpy", 
+                "strncat", 
+                "strncpy", 
+                "swprintf", 
+                "syslog", 
+                "ttyname_r", 
+                "vasprintf", 
+                "vdprintf", 
+                "vfprintf", 
+                "vfwprintf", 
+                "vprintf", 
+                "vsnprintf", 
+                "vsprintf", 
+                "vswprintf", 
+                "vsyslog", 
+                "vwprintf", 
+                "wcpcpy", 
+                "wcpncpy", 
+                "wcrtomb", 
+                "wcscat", 
+                "wcscpy", 
+                "wcsncat", 
+                "wcsncpy", 
+                "wcsnrtombs", 
+                "wcsrtombs", 
+                "wcstombs", 
+                "wctomb", 
+                "wmemcpy", 
+                "wmemmove", 
+                "wmempcpy", 
+                "wmemset", 
+                "wprintf"
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/Cipher/_DES3.so", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": "4", 
+                    "afC": "9"
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "PyCallable_Check", 
+                "PyString_Size", 
+                "PyErr_Occurred", 
+                "memmove", 
+                "__stack_chk_fail", 
+                "PyEval_RestoreThread", 
+                "PyString_AsString", 
+                "des3_ecb_decrypt", 
+                "Py_FatalError", 
+                "_PyObject_New", 
+                "PyErr_SetString", 
+                "__cxa_finalize", 
+                "des3_setup", 
+                "PyObject_CallObject", 
+                "malloc", 
+                "PyEval_SaveThread", 
+                "Py_InitModule4_64", 
+                "PyString_FromStringAndSize", 
+                "_ITM_deregisterTMCloneTable", 
+                "memcpy", 
+                "PyObject_Free", 
+                "PyObject_HasAttrString", 
+                "_Jv_RegisterClasses", 
+                "_ITM_registerTMCloneTable", 
+                "PyInt_FromLong", 
+                "__gmon_start__", 
+                "des3_ecb_encrypt", 
+                "PyModule_AddIntConstant", 
+                "free", 
+                "PyArg_Parse", 
+                "__assert_fail", 
+                "PyErr_Format"
+            ], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Cipher/common_pyo": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Cipher/common.pyo", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Signature/test_pkcs1_pss_pyc": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Signature/test_pkcs1_pss.pyc", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Random/test_rpoolcompat_pyc": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Random/test_rpoolcompat.pyc", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Random/test_rpoolcompat_py": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Random/test_rpoolcompat.py", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Cipher/__init___pyo": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Cipher/__init__.pyo", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Protocol/__init___pyc": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Protocol/__init__.pyc", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Random/__init___pyo": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Random/__init__.pyo", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Hash/test_MD5_pyo": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Hash/test_MD5.pyo", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/Hash/_SHA224_so": {
+            "find-libc-functions": [
+                "GI___obstack_vprintf", 
+                "GI___vasprintf", 
+                "GI___vdprintf", 
+                "GI___vfprintf", 
+                "GI___vfwprintf", 
+                "GI___vsnprintf", 
+                "GI___vsprintf", 
+                "GI___vswprintf", 
+                "GI___vsyslog", 
+                "__longjmp", 
+                "_fprintf", 
+                "_printf", 
+                "_snprintf", 
+                "_sprintf", 
+                "_vfprintf", 
+                "_vprintf", 
+                "_vsnprintf", 
+                "_vsprintf", 
+                "asprintf", 
+                "confstr", 
+                "dprintf", 
+                "explicit_bzero", 
+                "fdelt", 
+                "fgets", 
+                "fgets_unlocked", 
+                "fgetws", 
+                "fgetws_unlocked", 
+                "fprintf", 
+                "fread", 
+                "fread_unlocked", 
+                "fwprintf", 
+                "getcwd", 
+                "getdomainname", 
+                "getgroups", 
+                "gethostname", 
+                "getlogin_r", 
+                "gets", 
+                "getwd", 
+                "longjmp", 
+                "mbsnrtowcs", 
+                "mbsrtowcs", 
+                "mbstowcs", 
+                "memcpy", 
+                "memmove", 
+                "mempcpy", 
+                "memset", 
+                "obstack_printf", 
+                "obstack_vprintf", 
+                "poll", 
+                "ppoll", 
+                "pread64", 
+                "pread", 
+                "printf", 
+                "ptsname_r", 
+                "read", 
+                "readlink", 
+                "readlinkat", 
+                "realpath", 
+                "recv", 
+                "recvfrom", 
+                "snprintf", 
+                "sprintf", 
+                "stpcpy", 
+                "stpncpy", 
+                "strcat", 
+                "strcpy", 
+                "strncat", 
+                "strncpy", 
+                "swprintf", 
+                "syslog", 
+                "ttyname_r", 
+                "vasprintf", 
+                "vdprintf", 
+                "vfprintf", 
+                "vfwprintf", 
+                "vprintf", 
+                "vsnprintf", 
+                "vsprintf", 
+                "vswprintf", 
+                "vsyslog", 
+                "vwprintf", 
+                "wcpcpy", 
+                "wcpncpy", 
+                "wcrtomb", 
+                "wcscat", 
+                "wcscpy", 
+                "wcsncat", 
+                "wcsncpy", 
+                "wcsnrtombs", 
+                "wcsrtombs", 
+                "wcstombs", 
+                "wctomb", 
+                "wmemcpy", 
+                "wmemmove", 
+                "wmempcpy", 
+                "wmemset", 
+                "wprintf"
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/Hash/_SHA224.so", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": "4", 
+                    "afC": "5"
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "Py_FatalError", 
+                "PyArg_ParseTuple", 
+                "PyObject_Free", 
+                "__cxa_finalize", 
+                "PyInt_FromLong", 
+                "PyModule_AddIntConstant", 
+                "PyEval_SaveThread", 
+                "Py_InitModule4_64", 
+                "PyString_Size", 
+                "_PyObject_New", 
+                "PyString_AsString", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "PyErr_Occurred", 
+                "PyEval_RestoreThread", 
+                "__stack_chk_fail", 
+                "Py_FindMethod"
+            ], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/Hash/_MD2_so": {
+            "find-libc-functions": [
+                "GI___obstack_vprintf", 
+                "GI___vasprintf", 
+                "GI___vdprintf", 
+                "GI___vfprintf", 
+                "GI___vfwprintf", 
+                "GI___vsnprintf", 
+                "GI___vsprintf", 
+                "GI___vswprintf", 
+                "GI___vsyslog", 
+                "__longjmp", 
+                "_fprintf", 
+                "_printf", 
+                "_snprintf", 
+                "_sprintf", 
+                "_vfprintf", 
+                "_vprintf", 
+                "_vsnprintf", 
+                "_vsprintf", 
+                "asprintf", 
+                "confstr", 
+                "dprintf", 
+                "explicit_bzero", 
+                "fdelt", 
+                "fgets", 
+                "fgets_unlocked", 
+                "fgetws", 
+                "fgetws_unlocked", 
+                "fprintf", 
+                "fread", 
+                "fread_unlocked", 
+                "fwprintf", 
+                "getcwd", 
+                "getdomainname", 
+                "getgroups", 
+                "gethostname", 
+                "getlogin_r", 
+                "gets", 
+                "getwd", 
+                "longjmp", 
+                "mbsnrtowcs", 
+                "mbsrtowcs", 
+                "mbstowcs", 
+                "memcpy", 
+                "memmove", 
+                "mempcpy", 
+                "memset", 
+                "obstack_printf", 
+                "obstack_vprintf", 
+                "poll", 
+                "ppoll", 
+                "pread64", 
+                "pread", 
+                "printf", 
+                "ptsname_r", 
+                "read", 
+                "readlink", 
+                "readlinkat", 
+                "realpath", 
+                "recv", 
+                "recvfrom", 
+                "snprintf", 
+                "sprintf", 
+                "stpcpy", 
+                "stpncpy", 
+                "strcat", 
+                "strcpy", 
+                "strncat", 
+                "strncpy", 
+                "swprintf", 
+                "syslog", 
+                "ttyname_r", 
+                "vasprintf", 
+                "vdprintf", 
+                "vfprintf", 
+                "vfwprintf", 
+                "vprintf", 
+                "vsnprintf", 
+                "vsprintf", 
+                "vswprintf", 
+                "vsyslog", 
+                "vwprintf", 
+                "wcpcpy", 
+                "wcpncpy", 
+                "wcrtomb", 
+                "wcscat", 
+                "wcscpy", 
+                "wcsncat", 
+                "wcsncpy", 
+                "wcsnrtombs", 
+                "wcsrtombs", 
+                "wcstombs", 
+                "wctomb", 
+                "wmemcpy", 
+                "wmemmove", 
+                "wmempcpy", 
+                "wmemset", 
+                "wprintf"
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/Hash/_MD2.so", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": "4", 
+                    "afC": "5"
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "_Jv_RegisterClasses", 
+                "PyErr_Occurred", 
+                "PyString_FromStringAndSize", 
+                "PyModule_AddIntConstant", 
+                "__gmon_start__", 
+                "__cxa_finalize", 
+                "PyString_AsString", 
+                "PyEval_SaveThread", 
+                "_PyObject_New", 
+                "Py_FatalError", 
+                "PyObject_Free", 
+                "Py_InitModule4_64", 
+                "__stack_chk_fail", 
+                "PyInt_FromLong", 
+                "PyEval_RestoreThread", 
+                "Py_FindMethod", 
+                "PyString_Size", 
+                "PyArg_ParseTuple", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Hash/test_MD4_py": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Hash/test_MD4.py", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Protocol/__init___pyo": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Protocol/__init__.pyo", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Random/OSRNG/test_posix_py": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Random/OSRNG/test_posix.py", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Hash/common_pyo": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Hash/common.pyo", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Random/OSRNG/test_winrandom_py": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Random/OSRNG/test_winrandom.py", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Cipher/test_DES3_py": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Cipher/test_DES3.py", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Cipher/test_pkcs1_15_pyc": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Cipher/test_pkcs1_15.pyc", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Cipher/__init___pyc": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Cipher/__init__.pyc", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/PublicKey/test_importKey_pyc": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/PublicKey/test_importKey.pyc", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Cipher/test_ARC4_py": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Cipher/test_ARC4.py", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Cipher/test_pkcs1_15_pyo": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Cipher/test_pkcs1_15.pyo", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Cipher/test_pkcs1_15_py": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Cipher/test_pkcs1_15.py", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Util/test_asn1_pyc": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Util/test_asn1.pyc", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/st_common_pyo": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/st_common.pyo", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Random/OSRNG/test_fallback_pyc": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Random/OSRNG/test_fallback.pyc", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Util/test_number_py": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Util/test_number.py", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Random/OSRNG/test_fallback_pyo": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Random/OSRNG/test_fallback.pyo", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Util/test_asn1_pyo": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Util/test_asn1.pyo", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/st_common_pyc": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/st_common.pyc", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Cipher/test_Blowfish_py": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Cipher/test_Blowfish.py", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Cipher/common_py": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Cipher/common.py", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Cipher/test_ARC4_pyc": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Cipher/test_ARC4.pyc", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Cipher/test_pkcs1_oaep_pyc": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Cipher/test_pkcs1_oaep.pyc", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Cipher/test_pkcs1_oaep_pyo": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Cipher/test_pkcs1_oaep.pyo", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Random/OSRNG/__init___py": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Random/OSRNG/__init__.py", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Cipher/test_ARC4_pyo": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Cipher/test_ARC4.pyo", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/Crypto/SelfTest/Random/test__UserFriendlyRNG_py": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/Crypto/SelfTest/Random/test__UserFriendlyRNG.py", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python2-crypto-2.6.1-15.el7.x86_64.rpm"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 2.6.1", 
+            "Name": " python2-crypto", 
+            "License": " Public Domain and Python", 
+            "URL": " http://www.pycrypto.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " c1bm.rdu2.centos.org", 
+            "Description": "\nPyCrypto is a collection of both secure hash functions (such as MD5 and\nSHA), and various encryption algorithms (AES, DES, RSA, ElGamal, etc.).\n\nThis is the Python 2 build of the package.\n", 
+            "Build Date": " Thu 07 Sep 2017 03:21:03 PM EDT", 
+            "Vendor": " CentOS", 
+            "Source RPM": " python-crypto-2.6.1-15.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/python2-crypto-2.6.1-15.el7.x86_64.rpm: Header V3 RSA/SHA256 Signature, key ID f4a80eb5: NOKEY", 
+            "Architecture": " x86_64", 
+            "Signature": " RSA/SHA256, Thu 07 Sep 2017 05:16:13 PM EDT, Key ID 24c6a8a7f4a80eb5", 
+            "Release": " 15.el7", 
+            "Group": " Unspecified", 
+            "Packager": " CentOS BuildSystem <http://bugs.centos.org>", 
+            "Summary": " Cryptography library for Python 2", 
+            "Size": " 2330821"
+        }
+    }
+}

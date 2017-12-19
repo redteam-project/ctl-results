@@ -1,0 +1,1209 @@
+{
+    "results": {
+        "usr/bin/llvm-private-ar-64": {
+            "find-libc-functions": [
+                "GI___obstack_vprintf", 
+                "GI___vasprintf", 
+                "GI___vdprintf", 
+                "GI___vfprintf", 
+                "GI___vfwprintf", 
+                "GI___vsnprintf", 
+                "GI___vsprintf", 
+                "GI___vswprintf", 
+                "GI___vsyslog", 
+                "__longjmp", 
+                "_fprintf", 
+                "_printf", 
+                "_snprintf", 
+                "_sprintf", 
+                "_vfprintf", 
+                "_vprintf", 
+                "_vsnprintf", 
+                "_vsprintf", 
+                "asprintf", 
+                "confstr", 
+                "dprintf", 
+                "explicit_bzero", 
+                "fdelt", 
+                "fgets", 
+                "fgets_unlocked", 
+                "fgetws", 
+                "fgetws_unlocked", 
+                "fprintf", 
+                "fread", 
+                "fread_unlocked", 
+                "fwprintf", 
+                "getcwd", 
+                "getdomainname", 
+                "getgroups", 
+                "gethostname", 
+                "getlogin_r", 
+                "gets", 
+                "getwd", 
+                "longjmp", 
+                "mbsnrtowcs", 
+                "mbsrtowcs", 
+                "mbstowcs", 
+                "memcpy", 
+                "memmove", 
+                "mempcpy", 
+                "memset", 
+                "obstack_printf", 
+                "obstack_vprintf", 
+                "poll", 
+                "ppoll", 
+                "pread64", 
+                "pread", 
+                "printf", 
+                "ptsname_r", 
+                "read", 
+                "readlink", 
+                "readlinkat", 
+                "realpath", 
+                "recv", 
+                "recvfrom", 
+                "snprintf", 
+                "sprintf", 
+                "stpcpy", 
+                "stpncpy", 
+                "strcat", 
+                "strcpy", 
+                "strncat", 
+                "strncpy", 
+                "swprintf", 
+                "syslog", 
+                "ttyname_r", 
+                "vasprintf", 
+                "vdprintf", 
+                "vfprintf", 
+                "vfwprintf", 
+                "vprintf", 
+                "vsnprintf", 
+                "vsprintf", 
+                "vswprintf", 
+                "vsyslog", 
+                "vwprintf", 
+                "wcpcpy", 
+                "wcpncpy", 
+                "wcrtomb", 
+                "wcscat", 
+                "wcscpy", 
+                "wcsncat", 
+                "wcsncpy", 
+                "wcsnrtombs", 
+                "wcsrtombs", 
+                "wcstombs", 
+                "wctomb", 
+                "wmemcpy", 
+                "wmemmove", 
+                "wmempcpy", 
+                "wmemset", 
+                "wprintf"
+            ], 
+            "filename": "usr/bin/llvm-private-ar-64", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 30, 
+                    "afC": 498
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "_ZNK4llvm2cl17basic_parser_impl14getOptionWidthERKNS0_6OptionE", 
+                "_ZNKSs7compareEPKc", 
+                "_ZN4llvm6TripleC1ERKNS_5TwineE", 
+                "_ZN4llvm21PrettyStackTraceEntryC2Ev", 
+                "_ZNSs4_Rep10_M_disposeERKSaIcE", 
+                "_ZN4llvm12MemoryBuffer7getFileERKNS_5TwineElbb", 
+                "_ZNSs6appendEPKc", 
+                "_ZNSs12_M_leak_hardEv", 
+                "__pthread_key_create", 
+                "_ZNK4llvm2cl19generic_parser_base22printGenericOptionDiffERKNS0_6OptionERKNS0_18GenericOptionValueES7_m", 
+                "_ZN4llvm2cl6Option11addArgumentEv", 
+                "_ZSt15system_categoryv", 
+                "_ZNSs4swapERSs", 
+                "_ZNK4llvm6object19ArchiveMemberHeader6getUIDEv", 
+                "_ZNK4llvm6object7Archive5Child7getNextEv", 
+                "_ZN4llvm2cl6Option9setArgStrENS_9StringRefE", 
+                "_ZN4llvm2cl16AddLiteralOptionERNS0_6OptionEPKc", 
+                "memcmp", 
+                "_ZN4llvm13line_iteratorC1ERKNS_12MemoryBufferEbc", 
+                "LLVMInitializeX86TargetInfo", 
+                "_ZNK4llvm6object7Archive5Child9getBufferEv", 
+                "__stack_chk_fail", 
+                "__libc_start_main", 
+                "_ZNSsC1EPKcmRKSaIcE", 
+                "_ZNK4llvm9StringRef5lowerEv", 
+                "_Znwm", 
+                "memchr", 
+                "_ZN4llvm6object10ObjectFile16createObjectFileENS_15MemoryBufferRefENS_3sys2fs10file_magicE", 
+                "__gmon_start__", 
+                "_ZNK4llvm6object7Archive9child_endEv", 
+                "_ZN4llvm11raw_ostream5writeEPKcm", 
+                "_ZN4llvm14raw_fd_ostreamD1Ev", 
+                "_ZNK4llvm5Twine3strEv", 
+                "_ZN4llvm11raw_ostream14flush_nonemptyEv", 
+                "_ZN4llvm4errsEv", 
+                "_ZN4llvm14raw_fd_ostreamC1Eibb", 
+                "_ZNSs7reserveEm", 
+                "_ZN4llvm11raw_ostreamlsERKNS_18format_object_baseE", 
+                "_ZNK4llvm9StringRef17find_first_not_ofES0_m", 
+                "close", 
+                "_ZN4llvm3sys2fs6statusERKNS_5TwineERNS1_11file_statusE", 
+                "_ZN4llvm16errorToErrorCodeENS_5ErrorE", 
+                "_ZN4llvm2cl18GenericOptionValue6anchorEv", 
+                "_ZN4llvm12writeArchiveENS_9StringRefERSt6vectorINS_16NewArchiveMemberESaIS2_EEbNS_6object7Archive4KindEbbSt10unique_ptrINS_12MemoryBufferESt14default_deleteISA_EE", 
+                "_ZNSsC1EPKcRKSaIcE", 
+                "_ZNSs6appendERKSs", 
+                "_ZN4llvm6object7ArchiveC1ENS_15MemoryBufferRefERNS_5ErrorE", 
+                "_ZN4llvm2cl23ParseCommandLineOptionsEiPKPKcS2_b", 
+                "_ZN4llvm3sys4path4stemENS_9StringRefE", 
+                "exit", 
+                "_ZNK4llvm3sys2fs11file_status23getLastModificationTimeEv", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ZNK4llvm5Twine5printERNS_11raw_ostreamE", 
+                "_ZN4llvm6object6BinaryD2Ev", 
+                "_ZN4llvm13llvm_shutdownEv", 
+                "_ZN4llvm2cl6Option6anchorEv", 
+                "_Jv_RegisterClasses", 
+                "_ZN4llvm3sys2fs16openFileForWriteERKNS_5TwineERiNS1_9OpenFlagsEj", 
+                "free", 
+                "_ZN4llvm18raw_string_ostreamD1Ev", 
+                "_ZNSsC1ERKSs", 
+                "_ZN4llvm6object7Archive6createENS_15MemoryBufferRefE", 
+                "_ZN4llvm21PrettyStackTraceEntryD2Ev", 
+                "__cxa_pure_virtual", 
+                "_ZNK4llvm9StringRef4findES0_m", 
+                "_ZNK4llvm6object19ArchiveMemberHeader13getAccessModeEv", 
+                "__cxa_atexit", 
+                "_ZN4llvm16NewArchiveMember12getOldMemberERKNS_6object7Archive5ChildEb", 
+                "_ZN4llvm16NewArchiveMember7getFileENS_9StringRefEb", 
+                "_ZNK4llvm3sys9TimeValue3strEv", 
+                "strlen", 
+                "_ZN4llvm13ErrorInfoBase6anchorEv", 
+                "_ZN4llvm11raw_ostreamlsEm", 
+                "_ZN4llvm22EnablePrettyStackTraceEv", 
+                "_ZNK4llvm6object19ArchiveMemberHeader6getGIDEv", 
+                "_ZN4llvm3sys16getProcessTripleEv", 
+                "_ZN4llvm2cl6Option5errorERKNS_5TwineENS_9StringRefE", 
+                "_ZNK4llvm2cl19generic_parser_base14getOptionWidthERKNS0_6OptionE", 
+                "_ZNSsD1Ev", 
+                "_ZdlPv", 
+                "LLVMInitializeAMDGPUTargetInfo", 
+                "_ZNK4llvm6object19ArchiveMemberHeader15getLastModifiedEv", 
+                "_ZN4llvm11raw_ostream5writeEh", 
+                "__snprintf_chk", 
+                "_ZN4llvm18format_object_base4homeEv", 
+                "_ZN4llvm15SmallVectorBase8grow_podEPvmm", 
+                "_ZNK4llvm6object7Archive5Child7getNameEv", 
+                "_ZNK4llvm2cl17basic_parser_impl15printOptionInfoERKNS0_6OptionEm", 
+                "_ZN4llvm3sys9TimeValue9normalizeEv", 
+                "memcpy", 
+                "_ZN4llvm2cl9extrahelpC1EPKc", 
+                "memmove", 
+                "_ZN4llvm4outsEv", 
+                "_ZN4llvm13libDriverMainENS_8ArrayRefIPKcEE", 
+                "_ZN4llvm2cl6Option13addOccurrenceEjNS_9StringRefES2_b", 
+                "_ZNSs6appendEPKcm", 
+                "LLVMInitializeX86TargetMC", 
+                "malloc", 
+                "LLVMInitializeX86AsmParser", 
+                "_ZN4llvm3sys4path8filenameENS_9StringRefE", 
+                "_ZNSs6assignERKSs", 
+                "_ZNK4llvm2cl19generic_parser_base15printOptionInfoERKNS0_6OptionEm", 
+                "_ZN4llvm3sys28PrintStackTraceOnErrorSignalENS_9StringRefEb", 
+                "_ZNSs4_Rep10_M_destroyERKSaIcE", 
+                "LLVMInitializeAMDGPUTargetMC", 
+                "_ZNK4llvm12MemoryBuffer15getMemBufferRefEv", 
+                "_ZN4llvm13line_iterator7advanceEv", 
+                "_ITM_registerTMCloneTable", 
+                "_ZSt16generic_categoryv", 
+                "_ZNK4llvm6object7Archive5Child7getSizeEv", 
+                "LLVMInitializeAMDGPUAsmParser", 
+                "_ZN4llvm12MemoryBuffer8getSTDINEv", 
+                "_ZNK4llvm6object7Archive14hasSymbolTableEv", 
+                "_ZN4llvm3sys2fs32setLastModificationAndAccessTimeEiNS0_9TimeValueE", 
+                "_ZN4llvm16errorCodeToErrorESt10error_code", 
+                "_ZN4llvm2cl16PrintHelpMessageEbb", 
+                "_ZNK4llvm6object7Archive11child_beginERNS_5ErrorEb"
+            ], 
+            "rpm": "llvm-private-devel-3.9.1-9.el7.x86_64.rpm"
+        }, 
+        "usr/include/llvm-private/llvm/MC/MCELFObjectWriter_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/llvm-private/llvm/MC/MCELFObjectWriter.h", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "llvm-private-devel-3.9.1-9.el7.x86_64.rpm"
+        }, 
+        "usr/bin/llvm-private-as-64": {
+            "find-libc-functions": [
+                "GI___obstack_vprintf", 
+                "GI___vasprintf", 
+                "GI___vdprintf", 
+                "GI___vfprintf", 
+                "GI___vfwprintf", 
+                "GI___vsnprintf", 
+                "GI___vsprintf", 
+                "GI___vswprintf", 
+                "GI___vsyslog", 
+                "__longjmp", 
+                "_fprintf", 
+                "_printf", 
+                "_snprintf", 
+                "_sprintf", 
+                "_vfprintf", 
+                "_vprintf", 
+                "_vsnprintf", 
+                "_vsprintf", 
+                "asprintf", 
+                "confstr", 
+                "dprintf", 
+                "explicit_bzero", 
+                "fdelt", 
+                "fgets", 
+                "fgets_unlocked", 
+                "fgetws", 
+                "fgetws_unlocked", 
+                "fprintf", 
+                "fread", 
+                "fread_unlocked", 
+                "fwprintf", 
+                "getcwd", 
+                "getdomainname", 
+                "getgroups", 
+                "gethostname", 
+                "getlogin_r", 
+                "gets", 
+                "getwd", 
+                "longjmp", 
+                "mbsnrtowcs", 
+                "mbsrtowcs", 
+                "mbstowcs", 
+                "memcpy", 
+                "memmove", 
+                "mempcpy", 
+                "memset", 
+                "obstack_printf", 
+                "obstack_vprintf", 
+                "poll", 
+                "ppoll", 
+                "pread64", 
+                "pread", 
+                "printf", 
+                "ptsname_r", 
+                "read", 
+                "readlink", 
+                "readlinkat", 
+                "realpath", 
+                "recv", 
+                "recvfrom", 
+                "snprintf", 
+                "sprintf", 
+                "stpcpy", 
+                "stpncpy", 
+                "strcat", 
+                "strcpy", 
+                "strncat", 
+                "strncpy", 
+                "swprintf", 
+                "syslog", 
+                "ttyname_r", 
+                "vasprintf", 
+                "vdprintf", 
+                "vfprintf", 
+                "vfwprintf", 
+                "vprintf", 
+                "vsnprintf", 
+                "vsprintf", 
+                "vswprintf", 
+                "vsyslog", 
+                "vwprintf", 
+                "wcpcpy", 
+                "wcpncpy", 
+                "wcrtomb", 
+                "wcscat", 
+                "wcscpy", 
+                "wcsncat", 
+                "wcsncpy", 
+                "wcsnrtombs", 
+                "wcsrtombs", 
+                "wcstombs", 
+                "wctomb", 
+                "wmemcpy", 
+                "wmemmove", 
+                "wmempcpy", 
+                "wmemset", 
+                "wprintf"
+            ], 
+            "filename": "usr/bin/llvm-private-as-64", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 22, 
+                    "afC": 506
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "_ZN4llvm16tool_output_fileC1ENS_9StringRefERSt10error_codeNS_3sys2fs9OpenFlagsE", 
+                "_ZN4llvm2cl6Option11addArgumentEv", 
+                "_ZN4llvm2cl6Option9setArgStrENS_9StringRefE", 
+                "_ITM_registerTMCloneTable", 
+                "_ZNSsC1EPKcmRKSaIcE", 
+                "__gmon_start__", 
+                "_ZN4llvm16tool_output_file16CleanupInstallerD1Ev", 
+                "__stack_chk_fail", 
+                "__libc_start_main", 
+                "_ZdlPv", 
+                "_ZN4llvm11raw_ostream5writeEh", 
+                "_ZNK4llvm12SMDiagnostic5printEPKcRNS_11raw_ostreamEbb", 
+                "_Znwm", 
+                "_ZN4llvm11raw_ostream14flush_nonemptyEv", 
+                "_ZN4llvm22EnablePrettyStackTraceEv", 
+                "_ZN4llvm3sys28PrintStackTraceOnErrorSignalENS_9StringRefEb", 
+                "_ZN4llvm11LLVMContextC1Ev", 
+                "_ZN4llvm21PrettyStackTraceEntryD2Ev", 
+                "exit", 
+                "_ZN4llvm14raw_fd_ostreamD1Ev", 
+                "__cxa_atexit", 
+                "_ZN4llvm4errsEv", 
+                "memcmp", 
+                "_ZN4llvm17parseAssemblyFileENS_9StringRefERNS_12SMDiagnosticERNS_11LLVMContextEPNS_11SlotMappingE", 
+                "free", 
+                "_ZN4llvm13llvm_shutdownEv", 
+                "_Jv_RegisterClasses", 
+                "_ZSt15system_categoryv", 
+                "_ZNSs6assignEPKcm", 
+                "memcpy", 
+                "_ZN4llvm6ModuleD1Ev", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ZN4llvm27CheckBitcodeOutputToConsoleERNS_11raw_ostreamEb", 
+                "_ZN4llvm18WriteBitcodeToFileEPKNS_6ModuleERNS_11raw_ostreamEbPKNS_18ModuleSummaryIndexEb", 
+                "_ZNSs6appendEPKc", 
+                "_ZN4llvm2cl23ParseCommandLineOptionsEiPKPKcS2_b", 
+                "_ZN4llvm12verifyModuleERKNS_6ModuleEPNS_11raw_ostreamEPb", 
+                "_ZNSs6assignERKSs", 
+                "_ZN4llvm21PrettyStackTraceEntryC2Ev", 
+                "_ZN4llvm11raw_ostream5writeEPKcm", 
+                "_ZNSs4_Rep10_M_destroyERKSaIcE", 
+                "_ZNKSs7compareEPKc", 
+                "strlen", 
+                "_ZNSsC1EPKcRKSaIcE", 
+                "_ZN4llvm11LLVMContextD1Ev", 
+                "_ZN4llvm18raw_string_ostreamD1Ev", 
+                "_ZNK4llvm6Module5printERNS_11raw_ostreamEPNS_24AssemblyAnnotationWriterEbb", 
+                "_ZN4llvm2cl18GenericOptionValue6anchorEv"
+            ], 
+            "rpm": "llvm-private-devel-3.9.1-9.el7.x86_64.rpm"
+        }, 
+        "usr/include/llvm-private/llvm/Support/ELFRelocs/Mips_def": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/llvm-private/llvm/Support/ELFRelocs/Mips.def", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "llvm-private-devel-3.9.1-9.el7.x86_64.rpm"
+        }, 
+        "usr/include/llvm-private/llvm/Support/ELFRelocs/SystemZ_def": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/llvm-private/llvm/Support/ELFRelocs/SystemZ.def", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "llvm-private-devel-3.9.1-9.el7.x86_64.rpm"
+        }, 
+        "usr/include/llvm-private/llvm/Support/ELFRelocs/ARM_def": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/llvm-private/llvm/Support/ELFRelocs/ARM.def", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "llvm-private-devel-3.9.1-9.el7.x86_64.rpm"
+        }, 
+        "usr/include/llvm-private/llvm/Support/ELFRelocs/PowerPC_def": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/llvm-private/llvm/Support/ELFRelocs/PowerPC.def", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "llvm-private-devel-3.9.1-9.el7.x86_64.rpm"
+        }, 
+        "usr/bin/llvm-private-config-64": {
+            "find-libc-functions": [
+                "GI___obstack_vprintf", 
+                "GI___vasprintf", 
+                "GI___vdprintf", 
+                "GI___vfprintf", 
+                "GI___vfwprintf", 
+                "GI___vsnprintf", 
+                "GI___vsprintf", 
+                "GI___vswprintf", 
+                "GI___vsyslog", 
+                "__longjmp", 
+                "_fprintf", 
+                "_printf", 
+                "_snprintf", 
+                "_sprintf", 
+                "_vfprintf", 
+                "_vprintf", 
+                "_vsnprintf", 
+                "_vsprintf", 
+                "asprintf", 
+                "confstr", 
+                "dprintf", 
+                "explicit_bzero", 
+                "fdelt", 
+                "fgets", 
+                "fgets_unlocked", 
+                "fgetws", 
+                "fgetws_unlocked", 
+                "fprintf", 
+                "fread", 
+                "fread_unlocked", 
+                "fwprintf", 
+                "getcwd", 
+                "getdomainname", 
+                "getgroups", 
+                "gethostname", 
+                "getlogin_r", 
+                "gets", 
+                "getwd", 
+                "longjmp", 
+                "mbsnrtowcs", 
+                "mbsrtowcs", 
+                "mbstowcs", 
+                "memcpy", 
+                "memmove", 
+                "mempcpy", 
+                "memset", 
+                "obstack_printf", 
+                "obstack_vprintf", 
+                "poll", 
+                "ppoll", 
+                "pread64", 
+                "pread", 
+                "printf", 
+                "ptsname_r", 
+                "read", 
+                "readlink", 
+                "readlinkat", 
+                "realpath", 
+                "recv", 
+                "recvfrom", 
+                "snprintf", 
+                "sprintf", 
+                "stpcpy", 
+                "stpncpy", 
+                "strcat", 
+                "strcpy", 
+                "strncat", 
+                "strncpy", 
+                "swprintf", 
+                "syslog", 
+                "ttyname_r", 
+                "vasprintf", 
+                "vdprintf", 
+                "vfprintf", 
+                "vfwprintf", 
+                "vprintf", 
+                "vsnprintf", 
+                "vsprintf", 
+                "vswprintf", 
+                "vsyslog", 
+                "vwprintf", 
+                "wcpcpy", 
+                "wcpncpy", 
+                "wcrtomb", 
+                "wcscat", 
+                "wcscpy", 
+                "wcsncat", 
+                "wcsncpy", 
+                "wcsnrtombs", 
+                "wcsrtombs", 
+                "wcstombs", 
+                "wctomb", 
+                "wmemcpy", 
+                "wmemmove", 
+                "wmempcpy", 
+                "wmemset", 
+                "wprintf"
+            ], 
+            "filename": "usr/bin/llvm-private-config-64", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 225, 
+                    "afC": 3202
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "_ZNSsC1ERKSs", 
+                "_ZNKSt8__detail20_Prime_rehash_policy14_M_need_rehashEmmm", 
+                "__stack_chk_fail", 
+                "_ZNSs3endEv", 
+                "_ZNK4llvm5Twine3strEv", 
+                "_ZNKSt8__detail20_Prime_rehash_policy11_M_next_bktEm", 
+                "malloc", 
+                "_ZNSs6appendEPKcm", 
+                "_Jv_RegisterClasses", 
+                "__gmon_start__", 
+                "_ZN4llvm4errsEv", 
+                "_Znwm", 
+                "_ZN4llvm13StringMapImpl11RehashTableEj", 
+                "_ITM_deregisterTMCloneTable", 
+                "exit", 
+                "_ZN4llvm4outsEv", 
+                "_ZNSs4_Rep10_M_destroyERKSaIcE", 
+                "memcpy", 
+                "__pthread_key_create", 
+                "memset", 
+                "_ZN4llvm3sys2fs10equivalentERKNS_5TwineES4_Rb", 
+                "_ZNK4llvm9StringRef5lowerEv", 
+                "_ZNSs6assignERKSs", 
+                "_ZNSs4swapERSs", 
+                "_ZSt11_Hash_bytesPKvmm", 
+                "_ZNK4llvm13StringMapImpl7FindKeyENS_9StringRefE", 
+                "__libc_start_main", 
+                "_ZNSs6assignEPKc", 
+                "_ZSt18_Rb_tree_decrementPSt18_Rb_tree_node_base", 
+                "_ZN4llvm11raw_ostream5writeEh", 
+                "_ZNSs4_Rep10_M_disposeERKSaIcE", 
+                "_ZdlPv", 
+                "free", 
+                "_ZNSs12_M_leak_hardEv", 
+                "_ZNSs6appendEPKc", 
+                "_ZN4llvm18report_fatal_errorEPKcb", 
+                "_ZSt17__throw_bad_allocv", 
+                "_ZN4llvm15SmallVectorBase8grow_podEPvmm", 
+                "_ZNSsC1EPKcmRKSaIcE", 
+                "_ZSt29_Rb_tree_insert_and_rebalancebPSt18_Rb_tree_node_baseS0_RS_", 
+                "_ZNSsC1EPKcRKSaIcE", 
+                "_ZN4llvm3sys2fs13make_absoluteERNS_15SmallVectorImplIcEE", 
+                "_ZN4llvm3sys4path11parent_pathENS_9StringRefE", 
+                "_ZNSs6appendERKSs", 
+                "_ZN4llvm6Triple9normalizeENS_9StringRefE", 
+                "_ZSt25__throw_bad_function_callv", 
+                "strlen", 
+                "memcmp", 
+                "_ZNKSs7compareEPKc", 
+                "_ITM_registerTMCloneTable", 
+                "_ZNSs7reserveEm", 
+                "_ZN4llvm3sys2fs6accessERKNS_5TwineENS1_10AccessModeE", 
+                "_ZN4llvm3sys2fs17getMainExecutableEPKcPv", 
+                "_ZN4llvm6TripleC1ERKNS_5TwineE"
+            ], 
+            "rpm": "llvm-private-devel-3.9.1-9.el7.x86_64.rpm"
+        }, 
+        "usr/include/llvm-private/llvm/ObjectYAML/ELFYAML_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/llvm-private/llvm/ObjectYAML/ELFYAML.h", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "llvm-private-devel-3.9.1-9.el7.x86_64.rpm"
+        }, 
+        "usr/include/llvm-private/llvm/Support/ELFRelocs/Lanai_def": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/llvm-private/llvm/Support/ELFRelocs/Lanai.def", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "llvm-private-devel-3.9.1-9.el7.x86_64.rpm"
+        }, 
+        "usr/include/llvm-private/llvm/Support/ELFRelocs/i386_def": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/llvm-private/llvm/Support/ELFRelocs/i386.def", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "llvm-private-devel-3.9.1-9.el7.x86_64.rpm"
+        }, 
+        "usr/include/llvm-private/llvm/Support/ELFRelocs/Sparc_def": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/llvm-private/llvm/Support/ELFRelocs/Sparc.def", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "llvm-private-devel-3.9.1-9.el7.x86_64.rpm"
+        }, 
+        "usr/include/llvm-private/llvm/MC/MCAsmInfoELF_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/llvm-private/llvm/MC/MCAsmInfoELF.h", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "llvm-private-devel-3.9.1-9.el7.x86_64.rpm"
+        }, 
+        "usr/include/llvm-private/llvm/Support/ELFRelocs/PowerPC64_def": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/llvm-private/llvm/Support/ELFRelocs/PowerPC64.def", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "llvm-private-devel-3.9.1-9.el7.x86_64.rpm"
+        }, 
+        "usr/include/llvm-private/llvm/Support/ELFRelocs/x86_64_def": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/llvm-private/llvm/Support/ELFRelocs/x86_64.def", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "llvm-private-devel-3.9.1-9.el7.x86_64.rpm"
+        }, 
+        "usr/include/llvm-private/llvm/Support/ELFRelocs/BPF_def": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/llvm-private/llvm/Support/ELFRelocs/BPF.def", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "llvm-private-devel-3.9.1-9.el7.x86_64.rpm"
+        }, 
+        "usr/bin/llvm-private-mc-64": {
+            "find-libc-functions": [
+                "GI___obstack_vprintf", 
+                "GI___vasprintf", 
+                "GI___vdprintf", 
+                "GI___vfprintf", 
+                "GI___vfwprintf", 
+                "GI___vsnprintf", 
+                "GI___vsprintf", 
+                "GI___vswprintf", 
+                "GI___vsyslog", 
+                "__longjmp", 
+                "_fprintf", 
+                "_printf", 
+                "_snprintf", 
+                "_sprintf", 
+                "_vfprintf", 
+                "_vprintf", 
+                "_vsnprintf", 
+                "_vsprintf", 
+                "asprintf", 
+                "confstr", 
+                "dprintf", 
+                "explicit_bzero", 
+                "fdelt", 
+                "fgets", 
+                "fgets_unlocked", 
+                "fgetws", 
+                "fgetws_unlocked", 
+                "fprintf", 
+                "fread", 
+                "fread_unlocked", 
+                "fwprintf", 
+                "getcwd", 
+                "getdomainname", 
+                "getgroups", 
+                "gethostname", 
+                "getlogin_r", 
+                "gets", 
+                "getwd", 
+                "longjmp", 
+                "mbsnrtowcs", 
+                "mbsrtowcs", 
+                "mbstowcs", 
+                "memcpy", 
+                "memmove", 
+                "mempcpy", 
+                "memset", 
+                "obstack_printf", 
+                "obstack_vprintf", 
+                "poll", 
+                "ppoll", 
+                "pread64", 
+                "pread", 
+                "printf", 
+                "ptsname_r", 
+                "read", 
+                "readlink", 
+                "readlinkat", 
+                "realpath", 
+                "recv", 
+                "recvfrom", 
+                "snprintf", 
+                "sprintf", 
+                "stpcpy", 
+                "stpncpy", 
+                "strcat", 
+                "strcpy", 
+                "strncat", 
+                "strncpy", 
+                "swprintf", 
+                "syslog", 
+                "ttyname_r", 
+                "vasprintf", 
+                "vdprintf", 
+                "vfprintf", 
+                "vfwprintf", 
+                "vprintf", 
+                "vsnprintf", 
+                "vsprintf", 
+                "vswprintf", 
+                "vsyslog", 
+                "vwprintf", 
+                "wcpcpy", 
+                "wcpncpy", 
+                "wcrtomb", 
+                "wcscat", 
+                "wcscpy", 
+                "wcsncat", 
+                "wcsncpy", 
+                "wcsnrtombs", 
+                "wcsrtombs", 
+                "wcstombs", 
+                "wctomb", 
+                "wmemcpy", 
+                "wmemmove", 
+                "wmempcpy", 
+                "wmemset", 
+                "wprintf"
+            ], 
+            "filename": "usr/bin/llvm-private-mc-64", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 109, 
+                    "afC": 2020
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "_ZN4llvm11MCAsmParser15setTargetParserERNS_17MCTargetAsmParserE", 
+                "_ITM_registerTMCloneTable", 
+                "_ZNSsD1Ev", 
+                "_ZN4llvm5APInt14AssignSlowCaseERKS0_", 
+                "_ZNSs4_Rep10_M_destroyERKSaIcE", 
+                "_ZN4llvm11raw_ostream16SetBufferAndModeEPcmNS0_10BufferKindE", 
+                "_ZN4llvm12MemoryBuffer14getFileOrSTDINERKNS_5TwineElb", 
+                "LLVMInitializeX86TargetMC", 
+                "_ZN4llvm15SmallVectorBase8grow_podEPvmm", 
+                "__gmon_start__", 
+                "_ZNK4llvm2cl19generic_parser_base15printOptionInfoERKNS0_6OptionEm", 
+                "LLVMInitializeAMDGPUTargetInfo", 
+                "_ZN4llvm8AsmLexerC1ERKNS_9MCAsmInfoE", 
+                "_Znwm", 
+                "__stack_chk_fail", 
+                "_ZdlPv", 
+                "_Jv_RegisterClasses", 
+                "_ZN4llvm11raw_ostreamlsEm", 
+                "_ZN4llvm19raw_svector_ostream11pwrite_implEPKcmm", 
+                "_ZN4llvm11raw_ostream14flush_nonemptyEv", 
+                "_ZNK4llvm19raw_svector_ostream11current_posEv", 
+                "__cxa_pure_virtual", 
+                "getenv", 
+                "malloc", 
+                "_ZNK4llvm2cl17basic_parser_impl15printOptionInfoERKNS0_6OptionEm", 
+                "_ZN4llvm5APInt12initSlowCaseERKS0_", 
+                "LLVMInitializeAMDGPUTargetMC", 
+                "_ZN4llvm8AsmLexer8LexTokenEv", 
+                "_ZN4llvm19createMachOStreamerERNS_9MCContextERNS_12MCAsmBackendERNS_17raw_pwrite_streamEPNS_13MCCodeEmitterEbbb", 
+                "_ZN4llvm9MCContextC1EPKNS_9MCAsmInfoEPKNS_14MCRegisterInfoEPKNS_16MCObjectFileInfoEPKNS_9SourceMgrEb", 
+                "_ZN4llvm15MCTargetOptionsC1Ev", 
+                "_ZN4llvm2cl6Option5errorERKNS_5TwineENS_9StringRefE", 
+                "_ZN4llvm2cl6Option6anchorEv", 
+                "strlen", 
+                "memcpy", 
+                "_ZN4llvm3sys2fs12current_pathERNS_15SmallVectorImplIcEE", 
+                "_ZN4llvm8AsmLexer9setBufferENS_9StringRefEPKc", 
+                "_ZN4llvm17createAsmStreamerERNS_9MCContextESt10unique_ptrINS_21formatted_raw_ostreamESt14default_deleteIS3_EEbbPNS_13MCInstPrinterEPNS_13MCCodeEmitterEPNS_12MCAsmBackendEb", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ZN4llvm11raw_ostream13write_escapedENS_9StringRefEb", 
+                "_ZNSsC1ERKSs", 
+                "_ZN4llvm22EnablePrettyStackTraceEv", 
+                "LLVMInitializeX86Disassembler", 
+                "_ZN4llvm14TargetRegistry32printRegisteredTargetsForVersionEv", 
+                "_ZN4llvm2cl6Option11addArgumentEv", 
+                "_ZNK4llvm17SubtargetFeatures9getStringEv", 
+                "free", 
+                "_ZNK4llvm2cl19generic_parser_base14getOptionWidthERKNS0_6OptionE", 
+                "_ZN4llvm13llvm_shutdownEv", 
+                "_ZN4llvm6Triple9normalizeENS_9StringRefE", 
+                "_ZN4llvm21PrettyStackTraceEntryC2Ev", 
+                "_ZN4llvm18createNullStreamerERNS_9MCContextE", 
+                "_ZN4llvm4zlib11isAvailableEv", 
+                "_ZN4llvm2cl16AddLiteralOptionERNS0_6OptionEPKc", 
+                "_ZNK4llvm9SourceMgr12PrintMessageENS_5SMLocENS0_8DiagKindERKNS_5TwineENS_8ArrayRefINS_7SMRangeEEENS6_INS_7SMFixItEEEb", 
+                "_ZN4llvm14raw_fd_ostreamD1Ev", 
+                "_ZN4llvm20getAsUnsignedIntegerENS_9StringRefEjRy", 
+                "_ZN4llvm17SubtargetFeatures10AddFeatureENS_9StringRefEb", 
+                "_ZSt20__throw_length_errorPKc", 
+                "_ZN4llvm2cl18GenericOptionValue6anchorEv", 
+                "_ZN4llvm3sys28PrintStackTraceOnErrorSignalENS_9StringRefEb", 
+                "_ZN4llvm17createELFStreamerERNS_9MCContextERNS_12MCAsmBackendERNS_17raw_pwrite_streamEPNS_13MCCodeEmitterEb", 
+                "_ZN4llvm11raw_ostream5writeEPKcm", 
+                "_ZN4llvm11raw_ostream5writeEh", 
+                "_ZN4llvm19raw_svector_ostream10write_implEPKcm", 
+                "_ZNSsC1EPKcRKSaIcE", 
+                "__cxa_atexit", 
+                "_ZSt15system_categoryv", 
+                "__pthread_key_create", 
+                "_ZNSs6appendEPKc", 
+                "_ZN4llvm17createMCAsmParserERNS_9SourceMgrERNS_9MCContextERNS_10MCStreamerERKNS_9MCAsmInfoE", 
+                "_ZNSsC1EPKcmRKSaIcE", 
+                "_ZN4llvm2cl23ParseCommandLineOptionsEiPKPKcS2_b", 
+                "_ZN4llvm14TargetRegistry12lookupTargetERKSsRNS_6TripleERSs", 
+                "_ZN4llvm14MCConstantExpr6createElRNS_9MCContextE", 
+                "_ZN4llvm9MCContext17getOrCreateSymbolERKNS_5TwineE", 
+                "_ZN4llvm9MCContextD1Ev", 
+                "_ZN4llvm5nullsEv", 
+                "_ZN4llvm16tool_output_file16CleanupInstallerD1Ev", 
+                "_ZN4llvm2cl22AddExtraVersionPrinterEPFvvE", 
+                "_ZNK4llvm9StringRef17find_first_not_ofES0_m", 
+                "_ZSt17__throw_bad_allocv", 
+                "LLVMInitializeAMDGPUDisassembler", 
+                "_Znam", 
+                "_ZNSs6assignERKSs", 
+                "_ZdaPv", 
+                "_ZN4llvm17SubtargetFeaturesC1ENS_9StringRefE", 
+                "_ZNK4llvm9StringRef13find_first_ofES0_m", 
+                "_ZN4llvm11raw_ostreamD2Ev", 
+                "_ZN4llvm21PrettyStackTraceEntryD2Ev", 
+                "_ZNSs4_Rep10_M_disposeERKSaIcE", 
+                "_ZNSs6assignEPKcm", 
+                "_ZN4llvm6TripleC1ERKNS_5TwineE", 
+                "_ZNK4llvm11raw_ostream21preferred_buffer_sizeEv", 
+                "_ZN4llvm9SourceMgrD1Ev", 
+                "_ZN4llvm8AsmLexerD1Ev", 
+                "memcmp", 
+                "_ZNSs6appendEPKcm", 
+                "_ZNSs4swapERSs", 
+                "memchr", 
+                "_ZN4llvm19SmallPtrSetImplBase8CopyFromERKS0_", 
+                "_ZNKSs7compareEPKc", 
+                "LLVMInitializeX86TargetInfo", 
+                "LLVMInitializeAMDGPUAsmParser", 
+                "__libc_start_main", 
+                "_ZN4llvm18getAsSignedIntegerENS_9StringRefEjRx", 
+                "memmove", 
+                "_ZN4llvm4errsEv", 
+                "_ZN4llvm16tool_output_fileC1ENS_9StringRefERSt10error_codeNS_3sys2fs9OpenFlagsE", 
+                "_ZN4llvm2cl6Option9setArgStrENS_9StringRefE", 
+                "_ZN4llvm16MCObjectFileInfo20InitMCObjectFileInfoERKNS_6TripleEbNS_9CodeModel5ModelERNS_9MCContextE", 
+                "_ZN4llvm2cl6Option13addOccurrenceEjNS_9StringRefES2_b", 
+                "_ZN4llvm11raw_ostream6handleEv", 
+                "LLVMInitializeX86AsmParser", 
+                "_ZNK4llvm2cl17basic_parser_impl14getOptionWidthERKNS0_6OptionE", 
+                "_ZNK4llvm10MCAsmLexer6getLocEv"
+            ], 
+            "rpm": "llvm-private-devel-3.9.1-9.el7.x86_64.rpm"
+        }, 
+        "usr/include/llvm-private/llvm/Object/ELFObjectFile_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/llvm-private/llvm/Object/ELFObjectFile.h", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "llvm-private-devel-3.9.1-9.el7.x86_64.rpm"
+        }, 
+        "usr/include/llvm-private/llvm/MC/MCELFStreamer_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/llvm-private/llvm/MC/MCELFStreamer.h", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "llvm-private-devel-3.9.1-9.el7.x86_64.rpm"
+        }, 
+        "usr/include/llvm-private/llvm/MC/MCSectionELF_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/llvm-private/llvm/MC/MCSectionELF.h", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "llvm-private-devel-3.9.1-9.el7.x86_64.rpm"
+        }, 
+        "usr/include/llvm-private/llvm/Support/ELF_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/llvm-private/llvm/Support/ELF.h", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "llvm-private-devel-3.9.1-9.el7.x86_64.rpm"
+        }, 
+        "usr/include/llvm-private/llvm/Support/ELFRelocs/Hexagon_def": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/llvm-private/llvm/Support/ELFRelocs/Hexagon.def", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "llvm-private-devel-3.9.1-9.el7.x86_64.rpm"
+        }, 
+        "usr/include/llvm-private/llvm/Support/ELFRelocs/AArch64_def": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/llvm-private/llvm/Support/ELFRelocs/AArch64.def", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "llvm-private-devel-3.9.1-9.el7.x86_64.rpm"
+        }, 
+        "usr/include/llvm-private/llvm/Support/ELFRelocs/AMDGPU_def": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/llvm-private/llvm/Support/ELFRelocs/AMDGPU.def", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "llvm-private-devel-3.9.1-9.el7.x86_64.rpm"
+        }, 
+        "usr/include/llvm-private/llvm/Support/ELFRelocs/WebAssembly_def": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/llvm-private/llvm/Support/ELFRelocs/WebAssembly.def", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "llvm-private-devel-3.9.1-9.el7.x86_64.rpm"
+        }, 
+        "usr/include/llvm-private/llvm/Support/ELFRelocs/AVR_def": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/llvm-private/llvm/Support/ELFRelocs/AVR.def", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "llvm-private-devel-3.9.1-9.el7.x86_64.rpm"
+        }, 
+        "usr/include/llvm-private/llvm/Object/ELFTypes_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/llvm-private/llvm/Object/ELFTypes.h", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "llvm-private-devel-3.9.1-9.el7.x86_64.rpm"
+        }, 
+        "usr/include/llvm-private/llvm/MC/MCSymbolELF_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/llvm-private/llvm/MC/MCSymbolELF.h", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "llvm-private-devel-3.9.1-9.el7.x86_64.rpm"
+        }, 
+        "usr/include/llvm-private/llvm/Object/ELF_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/llvm-private/llvm/Object/ELF.h", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "llvm-private-devel-3.9.1-9.el7.x86_64.rpm"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 3.9.1", 
+            "Name": " llvm-private-devel", 
+            "License": " NCSA", 
+            "URL": " http://llvm.org", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " c1bm.rdu2.centos.org", 
+            "Description": "\nThis package contains library and header files needed to build the LLVM\nsupport in Mesa.\n", 
+            "Build Date": " Fri 04 Aug 2017 08:46:54 AM EDT", 
+            "Vendor": " CentOS", 
+            "Source RPM": " llvm-private-3.9.1-9.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/0/llvm-private-devel-3.9.1-9.el7.x86_64.rpm: Header V3 RSA/SHA256 Signature, key ID f4a80eb5: NOKEY", 
+            "Architecture": " x86_64", 
+            "Signature": " RSA/SHA256, Thu 10 Aug 2017 02:15:04 PM EDT, Key ID 24c6a8a7f4a80eb5", 
+            "Release": " 9.el7", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " CentOS BuildSystem <http://bugs.centos.org>", 
+            "Summary": " Libraries and header files for LLVM", 
+            "Size": " 27057391"
+        }
+    }
+}

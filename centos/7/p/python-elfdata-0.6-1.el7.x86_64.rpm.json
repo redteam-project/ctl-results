@@ -1,0 +1,205 @@
+{
+    "results": {
+        "python-elfdata-0_6-1_el7_x86_64_rpm": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "python-elfdata-0.6-1.el7.x86_64.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python-elfdata-0.6-1.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/elfdata-0_6-py2_7_egg-info": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/elfdata-0.6-py2.7.egg-info", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python-elfdata-0.6-1.el7.x86_64.rpm"
+        }, 
+        "usr/share/doc/python-elfdata-0_6/COPYING": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/share/doc/python-elfdata-0.6/COPYING", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "python-elfdata-0.6-1.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/python2_7/site-packages/elfdata_so": {
+            "find-libc-functions": [
+                "GI___obstack_vprintf", 
+                "GI___vasprintf", 
+                "GI___vdprintf", 
+                "GI___vfprintf", 
+                "GI___vfwprintf", 
+                "GI___vsnprintf", 
+                "GI___vsprintf", 
+                "GI___vswprintf", 
+                "GI___vsyslog", 
+                "__longjmp", 
+                "_fprintf", 
+                "_printf", 
+                "_snprintf", 
+                "_sprintf", 
+                "_vfprintf", 
+                "_vprintf", 
+                "_vsnprintf", 
+                "_vsprintf", 
+                "asprintf", 
+                "confstr", 
+                "dprintf", 
+                "explicit_bzero", 
+                "fdelt", 
+                "fgets", 
+                "fgets_unlocked", 
+                "fgetws", 
+                "fgetws_unlocked", 
+                "fprintf", 
+                "fread", 
+                "fread_unlocked", 
+                "fwprintf", 
+                "getcwd", 
+                "getdomainname", 
+                "getgroups", 
+                "gethostname", 
+                "getlogin_r", 
+                "gets", 
+                "getwd", 
+                "longjmp", 
+                "mbsnrtowcs", 
+                "mbsrtowcs", 
+                "mbstowcs", 
+                "memcpy", 
+                "memmove", 
+                "mempcpy", 
+                "memset", 
+                "obstack_printf", 
+                "obstack_vprintf", 
+                "poll", 
+                "ppoll", 
+                "pread64", 
+                "pread", 
+                "printf", 
+                "ptsname_r", 
+                "read", 
+                "readlink", 
+                "readlinkat", 
+                "realpath", 
+                "recv", 
+                "recvfrom", 
+                "snprintf", 
+                "sprintf", 
+                "stpcpy", 
+                "stpncpy", 
+                "strcat", 
+                "strcpy", 
+                "strncat", 
+                "strncpy", 
+                "swprintf", 
+                "syslog", 
+                "ttyname_r", 
+                "vasprintf", 
+                "vdprintf", 
+                "vfprintf", 
+                "vfwprintf", 
+                "vprintf", 
+                "vsnprintf", 
+                "vsprintf", 
+                "vswprintf", 
+                "vsyslog", 
+                "vwprintf", 
+                "wcpcpy", 
+                "wcpncpy", 
+                "wcrtomb", 
+                "wcscat", 
+                "wcscpy", 
+                "wcsncat", 
+                "wcsncpy", 
+                "wcsnrtombs", 
+                "wcsrtombs", 
+                "wcstombs", 
+                "wctomb", 
+                "wmemcpy", 
+                "wmemmove", 
+                "wmempcpy", 
+                "wmemset", 
+                "wprintf"
+            ], 
+            "filename": "usr/lib64/python2.7/site-packages/elfdata.so", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": "4", 
+                    "afC": "7"
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "__gmon_start__", 
+                "__sprintf_chk", 
+                "elf_begin", 
+                "PyString_FromString", 
+                "dwelf_elf_gnu_build_id", 
+                "_ITM_deregisterTMCloneTable", 
+                "__cxa_finalize", 
+                "__stack_chk_fail", 
+                "elf_version", 
+                "PyArg_ParseTuple", 
+                "_Jv_RegisterClasses", 
+                "_ITM_registerTMCloneTable", 
+                "close", 
+                "open64", 
+                "elf_end"
+            ], 
+            "rpm": "python-elfdata-0.6-1.el7.x86_64.rpm"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 0.6", 
+            "Name": " python-elfdata", 
+            "License": " GPLv2", 
+            "URL": " https://github.com/kushaldas/elfdata", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-03.phx2.fedoraproject.org", 
+            "Description": "\nPython wrapper to get ELF data.\n", 
+            "Build Date": " Mon 04 Jan 2016 12:00:48 PM EST", 
+            "Vendor": " Fedora Project", 
+            "Source RPM": " python-elfdata-0.6-1.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/python-elfdata-0.6-1.el7.x86_64.rpm: Header V3 RSA/SHA256 Signature, key ID 352c64e5: NOKEY", 
+            "Architecture": " x86_64", 
+            "Signature": " RSA/SHA256, Wed 27 Jan 2016 09:53:40 AM EST, Key ID 6a2faea2352c64e5", 
+            "Release": " 1.el7", 
+            "Group": " Development/Languages", 
+            "Packager": " Fedora Project", 
+            "Summary": " Python wrapper to get ELF data", 
+            "Size": " 29516"
+        }
+    }
+}

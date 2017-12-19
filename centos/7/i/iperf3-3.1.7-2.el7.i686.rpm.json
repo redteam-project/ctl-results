@@ -1,0 +1,71 @@
+{
+    "results": {
+        "usr/bin/iperf3": {
+            "report-functions": [
+                "__longjmp_chk", 
+                "iperf_parse_arguments", 
+                "exit", 
+                "iperf_reset_test", 
+                "iperf_strerror", 
+                "iperf_err", 
+                "__libc_start_main", 
+                "iperf_create_pidfile", 
+                "iperf_errexit", 
+                "__gmon_start__", 
+                "iperf_run_server", 
+                "iperf_got_sigend", 
+                "iperf_defaults", 
+                "iperf_delete_pidfile", 
+                "usage", 
+                "fputc", 
+                "_ITM_registerTMCloneTable", 
+                "iperf_run_client", 
+                "iperf_free_test", 
+                "_Jv_RegisterClasses", 
+                "iperf_new_test", 
+                "iperf_catch_sigend", 
+                "daemon", 
+                "iperf_get_test_one_off", 
+                "_setjmp"
+            ], 
+            "rpm": "iperf3-3.1.7-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 3, 
+                    "afC": 92
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/iperf3"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 3.1.7", 
+            "Name": " iperf3", 
+            "License": " BSD", 
+            "URL": " http://downloads.es.net/pub/iperf/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " c1bm.rdu2.centos.org", 
+            "Description": "\nIperf is a tool to measure maximum TCP bandwidth, allowing the tuning of\nvarious parameters and UDP characteristics. Iperf reports bandwidth, delay\njitter, data-gram loss.\n", 
+            "Build Date": " Wed 02 Aug 2017 07:09:54 PM EDT", 
+            "Vendor": " CentOS", 
+            "Source RPM": " iperf3-3.1.7-2.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/0/iperf3-3.1.7-2.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID f4a80eb5: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 10 Aug 2017 12:45:29 PM EDT, Key ID 24c6a8a7f4a80eb5", 
+            "Release": " 2.el7", 
+            "Group": " Applications/Internet", 
+            "Packager": " CentOS BuildSystem <http://bugs.centos.org>", 
+            "Summary": " Measurement tool for TCP/UDP bandwidth performance", 
+            "Size": " 194215"
+        }
+    }
+}

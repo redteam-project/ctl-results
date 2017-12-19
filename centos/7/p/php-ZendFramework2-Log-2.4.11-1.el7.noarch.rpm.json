@@ -1,0 +1,26 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Version": " 2.4.11", 
+            "Name": " php-ZendFramework2-Log", 
+            "License": " BSD", 
+            "URL": " http://framework.zend.com/manual/2.3/en/modules/zend.log.overview.html", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-aarch64-07.arm.fedoraproject.org", 
+            "Description": "\nZend\\Log\\Logger is a component for general purpose logging. It supports multiple\nlog backends, formatting messages sent to the log, and filtering messages from\nbeing logged. These functions are divided into the following objects:\n\n* A Logger (instance of Zend\\Log\\Logger) is the object that your application\n  uses the most. You can have as many Logger objects as you like; they do not\n  interact. A Logger object must contain at least one Writer, and can optionally\n  contain one or more Filters.\n* A Writer (inherits from Zend\\Log\\Writer\\AbstractWriter) is responsible for\n  saving data to storage.\n* A Filter (implements Zend\\Log\\Filter\\FilterInterface) blocks log data from\n  being saved. A filter is applied to an individual writer. Filters can be\n  chained.\n* A Formatter (implements Zend\\Log\\Formatter\\FormatterInterface) can format the\n  log data before it is written by a Writer. Each Writer has exactly one\n  Formatter.\n\nOptional: MongoDB (php-pecl-mongo)\n", 
+            "Build Date": " Mon 09 Jan 2017 03:14:54 PM EST", 
+            "Vendor": " Fedora Project", 
+            "Source RPM": " php-ZendFramework2-2.4.11-1.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/php-ZendFramework2-Log-2.4.11-1.el7.noarch.rpm: Header V3 RSA/SHA256 Signature, key ID 352c64e5: NOKEY", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Mon 09 Jan 2017 06:14:04 PM EST, Key ID 6a2faea2352c64e5", 
+            "Release": " 1.el7", 
+            "Group": " Development/Libraries", 
+            "Packager": " Fedora Project", 
+            "Summary": " Zend Framework 2: Log Component", 
+            "Size": " 146835"
+        }
+    }
+}

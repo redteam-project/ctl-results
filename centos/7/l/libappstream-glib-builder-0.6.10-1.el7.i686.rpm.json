@@ -1,0 +1,100 @@
+{
+    "results": {
+        "usr/bin/appstream-builder": {
+            "report-functions": [
+                "_Jv_RegisterClasses", 
+                "g_setenv", 
+                "g_timer_new", 
+                "asb_context_process", 
+                "g_option_context_parse", 
+                "asb_context_set_origin", 
+                "asb_context_set_api_version", 
+                "__libc_start_main", 
+                "_ITM_deregisterTMCloneTable", 
+                "asb_context_set_output_dir", 
+                "g_timer_reset", 
+                "g_ptr_array_add", 
+                "bindtextdomain", 
+                "asb_context_set_min_icon_size", 
+                "bind_textdomain_codeset", 
+                "setlocale", 
+                "asb_context_setup", 
+                "g_build_filename", 
+                "g_error_free", 
+                "_ITM_registerTMCloneTable", 
+                "g_ptr_array_unref", 
+                "g_free", 
+                "g_print", 
+                "asb_context_set_flags", 
+                "g_log", 
+                "g_strcmp0", 
+                "asb_context_new", 
+                "_Unwind_Resume", 
+                "g_dir_read_name", 
+                "asb_context_set_icons_dir", 
+                "g_strfreev", 
+                "g_strdup", 
+                "asb_context_set_basename", 
+                "textdomain", 
+                "g_timer_destroy", 
+                "asb_context_set_old_metadata", 
+                "g_ptr_array_new_with_free_func", 
+                "dcgettext", 
+                "__stack_chk_fail", 
+                "g_option_context_add_main_entries", 
+                "asb_context_set_max_threads", 
+                "__gcc_personality_v0", 
+                "g_object_unref", 
+                "g_dir_close", 
+                "g_option_context_new", 
+                "asb_context_set_log_dir", 
+                "g_dir_open", 
+                "asb_context_set_temp_dir", 
+                "asb_context_set_cache_dir", 
+                "g_file_test", 
+                "__cxa_finalize", 
+                "g_option_context_free", 
+                "asb_context_add_filename", 
+                "g_timer_elapsed"
+            ], 
+            "rpm": "libappstream-glib-builder-0.6.10-1.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 1, 
+                    "afC": 188
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/appstream-builder"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 0.6.10", 
+            "Name": " libappstream-glib-builder", 
+            "License": " LGPLv2+", 
+            "URL": " http://people.freedesktop.org/~hughsient/appstream-glib/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " c1bm.rdu2.centos.org", 
+            "Description": "\nThis library and command line tool is used for building AppStream metadata\nfrom a directory of packages.\n", 
+            "Build Date": " Sun 06 Aug 2017 12:47:29 PM EDT", 
+            "Vendor": " CentOS", 
+            "Source RPM": " libappstream-glib-0.6.10-1.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/0/libappstream-glib-builder-0.6.10-1.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID f4a80eb5: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 10 Aug 2017 01:00:45 PM EDT, Key ID 24c6a8a7f4a80eb5", 
+            "Release": " 1.el7", 
+            "Group": " Unspecified", 
+            "Packager": " CentOS BuildSystem <http://bugs.centos.org>", 
+            "Summary": " Library and command line tools for building AppStream metadata", 
+            "Size": " 227562"
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Version": " 0.2.5", 
+            "Name": " libverto", 
+            "License": " MIT", 
+            "URL": " https://fedorahosted.org/libverto/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " worker1.bsys.centos.org", 
+            "Description": "\nlibverto provides a way for libraries to expose asynchronous interfaces\nwithout having to choose a particular event loop, offloading this\ndecision to the end application which consumes the library.\n\nIf you are packaging an application, not library, based on libverto,\nyou should depend either on a specific implementation module or you\ncan depend on the virtual provides 'libverto-module-base'. This will\nensure that you have at least one module installed that provides io,\ntimeout and signal functionality. Currently glib is the only module\nthat does not provide these three because it lacks signal. However,\nglib will support signal in the future.\n", 
+            "Build Date": " Tue 10 Jun 2014 10:02:35 PM EDT", 
+            "Vendor": " CentOS", 
+            "Source RPM": " libverto-0.2.5-4.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/0/libverto-0.2.5-4.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID f4a80eb5: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 03 Jul 2014 11:23:46 PM EDT, Key ID 24c6a8a7f4a80eb5", 
+            "Release": " 4.el7", 
+            "Group": " Unspecified", 
+            "Packager": " CentOS BuildSystem <http://bugs.centos.org>", 
+            "Summary": " Main loop abstraction library", 
+            "Size": " 22304"
+        }
+    }
+}

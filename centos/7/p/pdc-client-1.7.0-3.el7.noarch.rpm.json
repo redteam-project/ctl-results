@@ -1,0 +1,26 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.7.0", 
+            "Name": " pdc-client", 
+            "License": " MIT", 
+            "URL": " https://github.com/product-definition-center/pdc-client", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-02.phx2.fedoraproject.org", 
+            "Description": "\nThis client package contains two separate Product Definition Center clients and\nAPI module. Both clients contain extensive built-in help. Just run the\nexecutable with -h or --help argument.\n\n1. pdc_client\n\nThis is a very simple client. Essentially this is just a little more convenient\nthan using curl manually. Each invocation of this client obtains a token and\nthen performs a single request.\n\nThis client is not meant for direct usage, but just as a helper for integrating\nwith PDC from languages where it might be easier than performing the network\nrequests manually.\n\n2. pdc\n\nThis is much more user friendly user interface. A single invocation can perform\nmultiple requests depending on what subcommand you used.\n\nThe pdc client supports Bash completion if argcomplete Python package is\ninstalled.\n\n3. Python API (pdc_client)\n\nWhen writing a client code interfacing with PDC server, you might find\npdc_client module handy. It provides access to the configuration defined above\nand automates obtaining authorization token.\n", 
+            "Build Date": " Fri 08 Sep 2017 06:03:20 AM EDT", 
+            "Vendor": " Fedora Project", 
+            "Source RPM": " pdc-client-1.7.0-3.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/pdc-client-1.7.0-3.el7.noarch.rpm: Header V3 RSA/SHA256 Signature, key ID 352c64e5: NOKEY", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Fri 08 Sep 2017 06:21:52 AM EDT, Key ID 6a2faea2352c64e5", 
+            "Release": " 3.el7", 
+            "Group": " Development/Libraries", 
+            "Packager": " Fedora Project", 
+            "Summary": " Console client for interacting with Product Definition Center", 
+            "Size": " 224289"
+        }
+    }
+}

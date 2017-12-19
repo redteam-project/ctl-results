@@ -1,0 +1,26 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.0", 
+            "Name": " python2-psycogreen", 
+            "License": " BSD", 
+            "URL": " https://pypi.python.org/pypi/psycogreen", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-12.phx2.fedoraproject.org", 
+            "Description": "\n\nThe psycogreen package enables psycopg2 to work with co-routine libraries,\nusing asynchronous calls internally but offering a blocking interface so\nthat regular code can run unmodified.  Psycopg offers co-routines support\nsince release 2.2.  Because the main module is a C extension it cannot be\nmonkey-patched to become co-routine-friendly.  Instead it exposes a hook\nthat co-routine libraries can use to install a function integrating with\ntheir event scheduler.  Psycopg will call the function whenever it\nexecutes a libpq call that may block.  Psycogreen is a collection of \u201cwait\ncallbacks\u201d useful to integrate Psycopg with different co-routine libraries.\n", 
+            "Build Date": " Sat 08 Oct 2016 11:17:59 AM EDT", 
+            "Vendor": " Fedora Project", 
+            "Source RPM": " python-psycogreen-1.0-1.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/python2-psycogreen-1.0-1.el7.noarch.rpm: Header V3 RSA/SHA256 Signature, key ID 352c64e5: NOKEY", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Sat 08 Oct 2016 11:20:29 AM EDT, Key ID 6a2faea2352c64e5", 
+            "Release": " 1.el7", 
+            "Group": " Unspecified", 
+            "Packager": " Fedora Project", 
+            "Summary": " Psycopg2 integration with co-routine libraries", 
+            "Size": " 20727"
+        }
+    }
+}

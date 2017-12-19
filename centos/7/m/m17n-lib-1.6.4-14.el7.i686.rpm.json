@@ -1,0 +1,79 @@
+{
+    "results": {
+        "usr/bin/m17n-conv": {
+            "report-functions": [
+                "__libc_start_main", 
+                "msymbol", 
+                "m17n_object_unref", 
+                "mtext_get_prop", 
+                "mtext_prop_range", 
+                "m17n_init", 
+                "__printf_chk", 
+                "mconv_stream_converter", 
+                "__gmon_start__", 
+                "mconv_resolve_coding", 
+                "mconv_decode", 
+                "strlen", 
+                "mconv_free_converter", 
+                "fputc", 
+                "mconv_list_codings", 
+                "putchar", 
+                "free", 
+                "_ITM_registerTMCloneTable", 
+                "_Jv_RegisterClasses", 
+                "fwrite", 
+                "strcmp", 
+                "__stack_chk_fail", 
+                "m17n_fini", 
+                "fopen", 
+                "mtext_ref_char", 
+                "mconv_encode", 
+                "fclose", 
+                "_ITM_deregisterTMCloneTable", 
+                "mtext", 
+                "__fprintf_chk", 
+                "qsort", 
+                "mtext_len", 
+                "msymbol_name"
+            ], 
+            "rpm": "m17n-lib-1.6.4-14.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 39, 
+                    "afC": 460
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/m17n-conv"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.6.4", 
+            "Name": " m17n-lib", 
+            "License": " LGPLv2+", 
+            "URL": " http://www.nongnu.org/m17n/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " worker1.bsys.centos.org", 
+            "Description": "\nm17n-lib is a multilingual text library used primarily to allow\nthe input of many languages with the input table maps from m17n-db.\n\nThe package provides the core and input method backend libraries.\n", 
+            "Build Date": " Fri 20 Nov 2015 02:25:48 AM EST", 
+            "Vendor": " CentOS", 
+            "Source RPM": " m17n-lib-1.6.4-14.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/0/m17n-lib-1.6.4-14.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID f4a80eb5: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Wed 25 Nov 2015 10:15:51 AM EST, Key ID 24c6a8a7f4a80eb5", 
+            "Release": " 14.el7", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " CentOS BuildSystem <http://bugs.centos.org>", 
+            "Summary": " Multilingual text library", 
+            "Size": " 413431"
+        }
+    }
+}

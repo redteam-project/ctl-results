@@ -1,0 +1,152 @@
+{
+    "results": {
+        "usr/bin/gsf-vba-dump": {
+            "report-functions": [
+                "g_log", 
+                "gsf_input_stdio_new", 
+                "__printf_chk", 
+                "gsf_infile_msvba_get_modules", 
+                "g_type_check_instance_cast", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable", 
+                "g_object_unref", 
+                "_Jv_RegisterClasses", 
+                "__stack_chk_fail", 
+                "gsf_input_find_vba", 
+                "gsf_input_mmap_new", 
+                "__gmon_start__", 
+                "g_error_free", 
+                "__libc_start_main", 
+                "gsf_init"
+            ], 
+            "rpm": "libgsf-devel-1.14.26-7.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 8, 
+                    "afC": 133
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/gsf-vba-dump"
+        }, 
+        "usr/bin/gsf": {
+            "report-functions": [
+                "gsf_input_get_type", 
+                "_ITM_registerTMCloneTable", 
+                "gsf_doc_meta_data_lookup", 
+                "g_file_new_for_path", 
+                "g_slist_sort", 
+                "g_object_unref", 
+                "gsf_input_stdio_new", 
+                "gsf_infile_tar_new", 
+                "gsf_output_write", 
+                "gsf_output_close", 
+                "gsf_input_name", 
+                "g_slist_prepend", 
+                "gsf_outfile_msole_new", 
+                "g_free", 
+                "g_strdup", 
+                "gsf_outfile_new_child", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "strchr", 
+                "g_type_check_instance_is_a", 
+                "gsf_outfile_zip_new", 
+                "dcgettext", 
+                "g_log", 
+                "g_option_context_free", 
+                "g_malloc", 
+                "g_file_enumerate_children", 
+                "__stack_chk_fail", 
+                "gsf_outfile_get_type", 
+                "gsf_infile_get_type", 
+                "gsf_infile_child_by_index", 
+                "_Jv_RegisterClasses", 
+                "gsf_input_dump", 
+                "__libc_start_main", 
+                "g_file_info_get_name", 
+                "gsf_init", 
+                "g_option_context_add_main_entries", 
+                "g_slist_free", 
+                "g_strconcat", 
+                "g_file_get_basename", 
+                "gsf_doc_prop_dump", 
+                "strcmp", 
+                "gsf_doc_meta_data_read_from_msole", 
+                "g_file_new_for_commandline_arg", 
+                "gsf_infile_msole_get_type", 
+                "gsf_infile_zip_new", 
+                "g_file_input_stream_query_info", 
+                "gsf_output_stdio_new", 
+                "g_file_read", 
+                "g_get_prgname", 
+                "g_error_free", 
+                "gsf_doc_meta_data_new", 
+                "gsf_infile_msole_new", 
+                "g_file_get_path", 
+                "gsf_doc_meta_data_foreach", 
+                "g_print", 
+                "g_file_enumerator_next_file", 
+                "gsf_infile_child_by_name", 
+                "g_option_context_new", 
+                "g_file_query_file_type", 
+                "g_filename_display_name", 
+                "gsf_input_size", 
+                "gsf_output_get_type", 
+                "g_set_prgname", 
+                "g_option_context_parse", 
+                "g_printerr", 
+                "g_build_filename", 
+                "g_input_stream_read_all", 
+                "g_file_info_get_size", 
+                "g_slist_foreach", 
+                "gsf_infile_num_children", 
+                "g_assertion_message_expr"
+            ], 
+            "rpm": "libgsf-devel-1.14.26-7.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 30, 
+                    "afC": 562
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/gsf"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.14.26", 
+            "Name": " libgsf-devel", 
+            "License": " LGPLv2", 
+            "URL": " http://www.gnome.org/projects/libgsf/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " worker1.bsys.centos.org", 
+            "Description": "\nLibraries, headers, and support files necessary to compile applications using\nlibgsf.\n", 
+            "Build Date": " Fri 20 Nov 2015 08:06:05 AM EST", 
+            "Vendor": " CentOS", 
+            "Source RPM": " libgsf-1.14.26-7.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/0/libgsf-devel-1.14.26-7.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID f4a80eb5: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Wed 25 Nov 2015 09:56:20 AM EST, Key ID 24c6a8a7f4a80eb5", 
+            "Release": " 7.el7", 
+            "Group": " Development/Libraries", 
+            "Packager": " CentOS BuildSystem <http://bugs.centos.org>", 
+            "Summary": " Support files necessary to compile applications with libgsf", 
+            "Size": " 881544"
+        }
+    }
+}

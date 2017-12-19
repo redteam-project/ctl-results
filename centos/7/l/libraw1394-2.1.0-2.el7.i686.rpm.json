@@ -1,0 +1,179 @@
+{
+    "results": {
+        "usr/bin/testlibraw": {
+            "report-functions": [
+                "raw1394_echo_request", 
+                "_Jv_RegisterClasses", 
+                "putchar", 
+                "raw1394_set_tag_handler", 
+                "raw1394_set_fcp_handler", 
+                "raw1394_start_read", 
+                "raw1394_new_handle", 
+                "raw1394_destroy_handle", 
+                "_ITM_deregisterTMCloneTable", 
+                "raw1394_read", 
+                "raw1394_get_speed", 
+                "__libc_start_main", 
+                "raw1394_get_fd", 
+                "raw1394_get_port_info", 
+                "__errno_location", 
+                "raw1394_read_cycle_timer", 
+                "raw1394_set_port", 
+                "strerror", 
+                "raw1394_start_fcp_listen", 
+                "ctime", 
+                "raw1394_get_irm_id", 
+                "raw1394_read_cycle_timer_and_clock", 
+                "raw1394_write", 
+                "malloc", 
+                "raw1394_add_config_rom_descriptor", 
+                "free", 
+                "raw1394_update_config_rom", 
+                "raw1394_get_local_id", 
+                "raw1394_loop_iterate", 
+                "sleep", 
+                "fflush", 
+                "raw1394_get_generation", 
+                "raw1394_remove_config_rom_descriptor", 
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "raw1394_get_config_rom", 
+                "perror", 
+                "raw1394_get_nodecount", 
+                "poll", 
+                "raw1394_errcode_to_errno", 
+                "__printf_chk"
+            ], 
+            "rpm": "libraw1394-2.1.0-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 2, 
+                    "afC": 23
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/testlibraw"
+        }, 
+        "usr/bin/sendiso": {
+            "report-functions": [
+                "exit", 
+                "raw1394_new_handle", 
+                "perror", 
+                "_ITM_registerTMCloneTable", 
+                "__read_chk", 
+                "getopt_long", 
+                "raw1394_destroy_handle", 
+                "abort", 
+                "__libc_start_main", 
+                "__fprintf_chk", 
+                "read", 
+                "raw1394_set_port", 
+                "raw1394_iso_xmit_start", 
+                "_Jv_RegisterClasses", 
+                "_ITM_deregisterTMCloneTable", 
+                "strtoul", 
+                "memcmp", 
+                "fwrite", 
+                "raw1394_iso_shutdown", 
+                "fileno", 
+                "__stack_chk_fail", 
+                "raw1394_iso_xmit_init", 
+                "raw1394_iso_xmit_write", 
+                "fputc", 
+                "__gmon_start__", 
+                "raw1394_get_port_info", 
+                "__errno_location"
+            ], 
+            "rpm": "libraw1394-2.1.0-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 5, 
+                    "afC": 131
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/sendiso"
+        }, 
+        "usr/bin/dumpiso": {
+            "report-functions": [
+                "abort", 
+                "raw1394_iso_shutdown", 
+                "raw1394_set_port", 
+                "raw1394_iso_recv_set_channel_mask", 
+                "raw1394_iso_recv_init", 
+                "creat", 
+                "raw1394_loop_iterate", 
+                "strtoul", 
+                "_Jv_RegisterClasses", 
+                "exit", 
+                "getopt_long", 
+                "write", 
+                "raw1394_iso_recv_start", 
+                "__libc_start_main", 
+                "raw1394_new_handle", 
+                "raw1394_get_port_info", 
+                "_ITM_deregisterTMCloneTable", 
+                "perror", 
+                "__gmon_start__", 
+                "__errno_location", 
+                "__stack_chk_fail", 
+                "fputc", 
+                "raw1394_iso_multichannel_recv_init", 
+                "raw1394_destroy_handle", 
+                "fwrite", 
+                "fileno"
+            ], 
+            "rpm": "libraw1394-2.1.0-2.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 9, 
+                    "afC": 205
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/dumpiso"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 2.1.0", 
+            "Name": " libraw1394", 
+            "License": " LGPLv2+", 
+            "URL": " http://www.dennedy.org/libraw1394/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " worker1.bsys.centos.org", 
+            "Description": "\nThe libraw1394 library provides direct access to the IEEE-1394 bus.\nSupport for both the obsolete ieee1394 interface and the new firewire\nintererface are included, with run-time detection of the active stack.\n", 
+            "Build Date": " Tue 10 Jun 2014 09:41:30 PM EDT", 
+            "Vendor": " CentOS", 
+            "Source RPM": " libraw1394-2.1.0-2.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/0/libraw1394-2.1.0-2.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID f4a80eb5: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 03 Jul 2014 11:08:19 PM EDT, Key ID 24c6a8a7f4a80eb5", 
+            "Release": " 2.el7", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " CentOS BuildSystem <http://bugs.centos.org>", 
+            "Summary": " Library providing low-level IEEE-1394 access", 
+            "Size": " 146133"
+        }
+    }
+}

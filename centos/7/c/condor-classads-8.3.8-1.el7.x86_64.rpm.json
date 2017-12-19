@@ -1,0 +1,26 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Version": " 8.3.8", 
+            "Name": " condor-classads", 
+            "License": " ASL 2.0", 
+            "URL": " http://research.cs.wisc.edu/htcondor/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildhw-08-nfs.phx2.fedoraproject.org", 
+            "Description": "\nClassified Advertisements (classads) are the lingua franca of\nHTCondor. They are used for describing jobs, workstations, and other\nresources. They are exchanged by HTCondor processes to schedule\njobs. They are logged to files for statistical and debugging\npurposes. They are used to enquire about current state of the system.\n\nA classad is a mapping from attribute names to expressions. In the\nsimplest cases, the expressions are simple constants (integer,\nfloating point, or string). A classad is thus a form of property\nlist. Attribute expressions can also be more complicated. There is a\nprotocol for evaluating an attribute expression of a classad vis a vis\nanother ad. For example, the expression \"other.size > 3\" in one ad\nevaluates to true if the other ad has an attribute named size and the\nvalue of that attribute is (or evaluates to) an integer greater than\nthree. Two classads match if each ad has an attribute requirements\nthat evaluates to true in the context of the other ad. Classad\nmatching is used by the HTCondor central manager to determine the\ncompatibility of jobs and workstations where they may be run.\n", 
+            "Build Date": " Thu 14 Jan 2016 06:59:21 PM EST", 
+            "Vendor": " Fedora Project", 
+            "Source RPM": " condor-8.3.8-1.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/0/condor-classads-8.3.8-1.el7.x86_64.rpm: Header V3 RSA/SHA256 Signature, key ID 352c64e5: NOKEY", 
+            "Architecture": " x86_64", 
+            "Signature": " RSA/SHA256, Thu 14 Jan 2016 11:25:38 PM EST, Key ID 6a2faea2352c64e5", 
+            "Release": " 1.el7", 
+            "Group": " Development/Libraries", 
+            "Packager": " Fedora Project", 
+            "Summary": " HTCondor's classified advertisement language", 
+            "Size": " 607584"
+        }
+    }
+}

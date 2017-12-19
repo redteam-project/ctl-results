@@ -1,0 +1,26 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.5.0", 
+            "Name": " php-PhpOption", 
+            "License": " ASL 2.0", 
+            "URL": " https://github.com/schmittjoh/php-option", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-02.phx2.fedoraproject.org", 
+            "Description": "\nThis package adds an Option type for PHP.\n\nThe Option type is intended for cases where you sometimes might return a value\n(typically an object), and sometimes you might return no value (typically null)\ndepending on arguments, or other runtime factors.\n\nOften times, you forget to handle the case where no value is returned. Not\nintentionally of course, but maybe you did not account for all possible states\nof the system; or maybe you indeed covered all cases, then time goes on, code\nis refactored, some of these your checks might become invalid, or incomplete.\nSuddenly, without noticing, the no value case is not handled anymore. As a\nresult, you might sometimes get fatal PHP errors telling you that you called a\nmethod on a non-object; users might see blank pages, or worse.\n\nOn one hand, the Option type forces a developer to consciously think about both\ncases (returning a value, or returning no value). That in itself will already\nmake your code more robust. On the other hand, the Option type also allows the\nAPI developer to provide more concise API methods, and empowers the API user in\nhow he consumes these methods.\n\nAutoloader: /usr/share/php/PhpOption/autoload.php\n", 
+            "Build Date": " Sun 04 Jun 2017 10:00:48 AM EDT", 
+            "Vendor": " Fedora Project", 
+            "Source RPM": " php-PhpOption-1.5.0-1.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/php-PhpOption-1.5.0-1.el7.noarch.rpm: Header V3 RSA/SHA256 Signature, key ID 352c64e5: NOKEY", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Tue 11 Jul 2017 07:16:08 PM EDT, Key ID 6a2faea2352c64e5", 
+            "Release": " 1.el7", 
+            "Group": " Development/Libraries", 
+            "Packager": " Fedora Project", 
+            "Summary": " Option type for PHP", 
+            "Size": " 38457"
+        }
+    }
+}

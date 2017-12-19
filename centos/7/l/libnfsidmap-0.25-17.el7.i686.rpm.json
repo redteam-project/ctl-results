@@ -1,0 +1,234 @@
+{
+    "results": {
+        "lib/libnfsidmap/static_so": {
+            "report-functions": [
+                "__strdup", 
+                "free", 
+                "getgrnam_r", 
+                "conf_get_str", 
+                "__cxa_finalize", 
+                "_Jv_RegisterClasses", 
+                "_ITM_deregisterTMCloneTable", 
+                "strcpy", 
+                "conf_get_tag_list", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "idmap_log_func", 
+                "getgrouplist", 
+                "sysconf", 
+                "calloc", 
+                "malloc", 
+                "__stack_chk_fail", 
+                "getpwnam_r"
+            ], 
+            "rpm": "libnfsidmap-0.25-17.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": "5", 
+                    "afC": "8"
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "lib/libnfsidmap/static.so"
+        }, 
+        "lib/libnfsidmap/umich_ldap_so": {
+            "report-functions": [
+                "ldap_get_values", 
+                "ldap_next_entry", 
+                "idmap_verbosity", 
+                "ldap_count_entries", 
+                "ldap_get_option", 
+                "ldap_simple_bind_s", 
+                "__snprintf_chk", 
+                "strchr", 
+                "ber_free", 
+                "ldap_count_values", 
+                "__strcat_chk", 
+                "conf_get_str_with_def", 
+                "__cxa_finalize", 
+                "conf_get_num", 
+                "ldap_result2error", 
+                "gai_strerror", 
+                "memcpy", 
+                "ldap_value_free", 
+                "strtoul", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "__stack_chk_fail", 
+                "ldap_msgfree", 
+                "getaddrinfo", 
+                "idmap_log_func", 
+                "ldap_memfree", 
+                "ldap_first_attribute", 
+                "__errno_location", 
+                "ldap_next_attribute", 
+                "getnameinfo", 
+                "ldap_first_entry", 
+                "_ITM_registerTMCloneTable", 
+                "ldap_set_option", 
+                "ldap_err2string", 
+                "strlen", 
+                "ldap_initialize", 
+                "_Jv_RegisterClasses", 
+                "freeaddrinfo", 
+                "strcasecmp", 
+                "ldap_unbind", 
+                "ldap_search_st"
+            ], 
+            "rpm": "libnfsidmap-0.25-17.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": "5", 
+                    "afC": "8"
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "lib/libnfsidmap/umich_ldap.so"
+        }, 
+        "lib/libnfsidmap_so_0_3_0": {
+            "report-functions": [
+                "__memcpy_chk", 
+                "__xstat", 
+                "malloc", 
+                "getpwnam_r", 
+                "strtol", 
+                "strcat", 
+                "dlopen", 
+                "gethostbyname", 
+                "__isoc99_sscanf", 
+                "hstrerror", 
+                "__dn_skipname", 
+                "__res_querydomain", 
+                "free", 
+                "__sprintf_chk", 
+                "getgrnam_r", 
+                "dlsym", 
+                "open", 
+                "read", 
+                "sysconf", 
+                "warnx", 
+                "__ctype_b_loc", 
+                "__ctype_toupper_loc", 
+                "__vsyslog_chk", 
+                "strcpy", 
+                "dlclose", 
+                "__snprintf_chk", 
+                "__res_init", 
+                "strcasecmp", 
+                "strerror", 
+                "memcpy", 
+                "__h_errno_location", 
+                "calloc", 
+                "_ITM_registerTMCloneTable", 
+                "__ctype_tolower_loc", 
+                "close", 
+                "strchr", 
+                "__dn_expand", 
+                "gethostname", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "__strdup", 
+                "__stack_chk_fail", 
+                "strcmp", 
+                "_Jv_RegisterClasses", 
+                "dlerror", 
+                "strlen"
+            ], 
+            "rpm": "libnfsidmap-0.25-17.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": "9", 
+                    "afC": "86"
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "lib/libnfsidmap.so.0.3.0"
+        }, 
+        "lib/libnfsidmap/nsswitch_so": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "getgrnam_r", 
+                "get_default_domain", 
+                "getpwuid_r", 
+                "strcpy", 
+                "__cxa_finalize", 
+                "get_local_realms", 
+                "_Jv_RegisterClasses", 
+                "idmap_log_func", 
+                "getgrgid_r", 
+                "getpwnam_r", 
+                "malloc", 
+                "strlen", 
+                "strchr", 
+                "getgrouplist", 
+                "reformat_group", 
+                "strrchr", 
+                "no_strip", 
+                "idmap_verbosity", 
+                "strcmp", 
+                "memcpy", 
+                "_ITM_deregisterTMCloneTable", 
+                "free", 
+                "_ITM_registerTMCloneTable", 
+                "sysconf", 
+                "__ctype_toupper_loc"
+            ], 
+            "rpm": "libnfsidmap-0.25-17.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": "5", 
+                    "afC": "8"
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "lib/libnfsidmap/nsswitch.so"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 0.25", 
+            "Name": " libnfsidmap", 
+            "License": " BSD", 
+            "URL": " http://www.citi.umich.edu/projects/nfsv4/linux/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " c1bm.rdu2.centos.org", 
+            "Description": "\nLibrary that handles mapping between names and ids for NFSv4.\n", 
+            "Build Date": " Wed 02 Aug 2017 07:24:18 AM EDT", 
+            "Vendor": " CentOS", 
+            "Source RPM": " libnfsidmap-0.25-17.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/0/libnfsidmap-0.25-17.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID f4a80eb5: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 10 Aug 2017 01:22:09 PM EDT, Key ID 24c6a8a7f4a80eb5", 
+            "Release": " 17.el7", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " CentOS BuildSystem <http://bugs.centos.org>", 
+            "Summary": " NFSv4 User and Group ID Mapping Library", 
+            "Size": " 103200"
+        }
+    }
+}

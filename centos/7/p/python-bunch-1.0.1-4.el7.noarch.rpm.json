@@ -1,0 +1,26 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.0.1", 
+            "Name": " python-bunch", 
+            "License": " MIT", 
+            "URL": " http://github.com/dsc/bunch", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-19.phx2.fedoraproject.org", 
+            "Description": "\npython-bunch provides a python class which can perform as a dict whose keys are\nalso accessible as attributes, similar to JavaScript objects.  For instance::\n\n  >>> import bunch\n  >>> people = bunch.Bunch({'alice': 'here', 'bob': 'there'})\n  >>> print people['alice'], people.alice\n  here here\n\nThe piece of python-bunch that sets it apart from similar modules found inside\nother projects is the bunchify() function which recursively converts from\na dict to a Bunch::\n\n  >>> multi_level = {'array': ['scalar', {'mapping': 'to show recursion'} ]}\n  >>> bunch.bunchify(multi_level)\n  Bunch(array=['scalar', Bunch(mapping='to show recursion')])\n", 
+            "Build Date": " Tue 17 Dec 2013 09:32:01 PM EST", 
+            "Vendor": " Fedora Project", 
+            "Source RPM": " python-bunch-1.0.1-4.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/python-bunch-1.0.1-4.el7.noarch.rpm: Header V3 RSA/SHA256 Signature, key ID 352c64e5: NOKEY", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Wed 18 Dec 2013 01:56:43 AM EST, Key ID 6a2faea2352c64e5", 
+            "Release": " 4.el7", 
+            "Group": " Development/Languages", 
+            "Packager": " Fedora Project", 
+            "Summary": " Python dictionary with attribute-style access", 
+            "Size": " 35857"
+        }
+    }
+}

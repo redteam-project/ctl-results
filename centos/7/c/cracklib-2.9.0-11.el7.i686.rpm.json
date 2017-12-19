@@ -1,0 +1,116 @@
+{
+    "results": {
+        "usr/sbin/cracklib-packer": {
+            "report-functions": [
+                "fgets", 
+                "__gmon_start__", 
+                "__libc_start_main", 
+                "PWClose", 
+                "strcmp", 
+                "__fprintf_chk", 
+                "PutPW", 
+                "_ITM_registerTMCloneTable", 
+                "_ITM_deregisterTMCloneTable", 
+                "perror", 
+                "Chop", 
+                "PWOpen", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "cracklib-2.9.0-11.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 11, 
+                    "afC": 163
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/sbin/cracklib-packer"
+        }, 
+        "usr/sbin/cracklib-check": {
+            "report-functions": [
+                "__printf_chk", 
+                "__libc_start_main", 
+                "strchr", 
+                "_ITM_deregisterTMCloneTable", 
+                "_Jv_RegisterClasses", 
+                "textdomain", 
+                "setlocale", 
+                "fgets", 
+                "__stack_chk_fail", 
+                "__gmon_start__"
+            ], 
+            "rpm": "cracklib-2.9.0-11.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 8, 
+                    "afC": 120
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/sbin/cracklib-check"
+        }, 
+        "usr/sbin/cracklib-unpacker": {
+            "report-functions": [
+                "perror", 
+                "__libc_start_main", 
+                "PWOpen", 
+                "_ITM_registerTMCloneTable", 
+                "puts", 
+                "_ITM_deregisterTMCloneTable", 
+                "_Jv_RegisterClasses", 
+                "GetPW", 
+                "__gmon_start__"
+            ], 
+            "rpm": "cracklib-2.9.0-11.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 7, 
+                    "afC": 86
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/sbin/cracklib-unpacker"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 2.9.0", 
+            "Name": " cracklib", 
+            "License": " LGPLv2+", 
+            "URL": " http://sourceforge.net/projects/cracklib/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " worker1.bsys.centos.org", 
+            "Description": "\nCrackLib tests passwords to determine whether they match certain\nsecurity-oriented characteristics, with the purpose of stopping users\nfrom choosing passwords that are easy to guess. CrackLib performs\nseveral tests on passwords: it tries to generate words from a username\nand gecos entry and checks those words against the password; it checks\nfor simplistic patterns in passwords; and it checks for the password\nin a dictionary.\n\nCrackLib is actually a library containing a particular C function\nwhich is used to check the password, as well as other C\nfunctions. CrackLib is not a replacement for a passwd program; it must\nbe used in conjunction with an existing passwd program.\n\nInstall the cracklib package if you need a program to check users'\npasswords to see if they are at least minimally secure. If you install\nCrackLib, you will also want to install the cracklib-dicts package.\n", 
+            "Build Date": " Tue 10 Jun 2014 05:36:49 PM EDT", 
+            "Vendor": " CentOS", 
+            "Source RPM": " cracklib-2.9.0-11.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/0/cracklib-2.9.0-11.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID f4a80eb5: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 03 Jul 2014 09:02:09 PM EDT, Key ID 24c6a8a7f4a80eb5", 
+            "Release": " 11.el7", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " CentOS BuildSystem <http://bugs.centos.org>", 
+            "Summary": " A password-checking library", 
+            "Size": " 190118"
+        }
+    }
+}

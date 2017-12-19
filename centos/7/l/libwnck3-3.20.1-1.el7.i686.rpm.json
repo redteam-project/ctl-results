@@ -1,0 +1,80 @@
+{
+    "results": {
+        "usr/bin/wnck-urgency-monitor": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "gtk_status_icon_set_from_pixbuf", 
+                "gtk_status_icon_set_visible", 
+                "g_option_context_set_summary", 
+                "wnck_window_get_icon_is_fallback", 
+                "g_object_unref", 
+                "g_object_set_data", 
+                "g_printerr", 
+                "wnck_window_activate", 
+                "gtk_main", 
+                "_Jv_RegisterClasses", 
+                "__gmon_start__", 
+                "g_option_context_new", 
+                "g_signal_connect_data", 
+                "gtk_status_icon_new", 
+                "wnck_set_client_type", 
+                "wnck_window_get_mini_icon", 
+                "wnck_window_get_workspace", 
+                "__stack_chk_fail", 
+                "_ITM_deregisterTMCloneTable", 
+                "wnck_window_get_name", 
+                "gtk_status_icon_set_tooltip_text", 
+                "g_option_context_free", 
+                "g_error_free", 
+                "g_option_context_add_group", 
+                "__libc_start_main", 
+                "gtk_status_icon_set_from_icon_name", 
+                "g_type_check_instance_cast", 
+                "gtk_get_option_group", 
+                "wnck_screen_get_default", 
+                "wnck_window_or_transient_needs_attention", 
+                "g_option_context_parse", 
+                "gtk_get_current_event_time", 
+                "g_object_get_data"
+            ], 
+            "rpm": "libwnck3-3.20.1-1.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 2, 
+                    "afC": 120
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/wnck-urgency-monitor"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 3.20.1", 
+            "Name": " libwnck3", 
+            "License": " LGPLv2+", 
+            "URL": " http://download.gnome.org/sources/libwnck/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " c1bm.rdu2.centos.org", 
+            "Description": "\nlibwnck (pronounced \"libwink\") is used to implement pagers, tasklists,\nand other such things. It allows applications to monitor information\nabout open windows, workspaces, their names/icons, and so forth.\n", 
+            "Build Date": " Sat 05 Aug 2017 11:52:53 PM EDT", 
+            "Vendor": " CentOS", 
+            "Source RPM": " libwnck3-3.20.1-1.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/0/libwnck3-3.20.1-1.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID f4a80eb5: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 10 Aug 2017 02:08:13 PM EDT, Key ID 24c6a8a7f4a80eb5", 
+            "Release": " 1.el7", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " CentOS BuildSystem <http://bugs.centos.org>", 
+            "Summary": " Window Navigator Construction Kit", 
+            "Size": " 2124843"
+        }
+    }
+}

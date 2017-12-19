@@ -1,0 +1,45 @@
+{
+    "results": {
+        "usr/bin/vet": {
+            "report-functions": [], 
+            "rpm": "golang-vet-0-1.0.hgd32b5854c941.el7.x86_64.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/vet"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 0", 
+            "Name": " golang-vet", 
+            "License": " BSD", 
+            "URL": " http://code.google.com/p/go.tools", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-16.phx2.fedoraproject.org", 
+            "Description": "\nVet examines Go source code and reports suspicious constructs, such as\nPrintf calls whose arguments do not align with the format string. Vet\nuses heuristics that do not guarantee all reports are genuine problems,\nbut it can find errors not caught by the compilers.\n", 
+            "Build Date": " Wed 20 Aug 2014 02:06:01 PM EDT", 
+            "Vendor": " Fedora Project", 
+            "Source RPM": " golang-googlecode-tools-0-1.0.hgd32b5854c941.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/0/golang-vet-0-1.0.hgd32b5854c941.el7.x86_64.rpm: Header V3 RSA/SHA256 Signature, key ID 352c64e5: NOKEY", 
+            "Architecture": " x86_64", 
+            "Signature": " RSA/SHA256, Wed 20 Aug 2014 06:18:48 PM EDT, Key ID 6a2faea2352c64e5", 
+            "Release": " 1.0.hgd32b5854c941.el7", 
+            "Group": " Unspecified", 
+            "Packager": " Fedora Project", 
+            "Summary": " Go programming language code vetting tool", 
+            "Size": " 5764251"
+        }
+    }
+}

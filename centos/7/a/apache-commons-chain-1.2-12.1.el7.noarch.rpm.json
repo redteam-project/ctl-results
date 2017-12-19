@@ -1,0 +1,26 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.2", 
+            "Name": " apache-commons-chain", 
+            "License": " ASL 2.0", 
+            "URL": " http://commons.apache.org/chain/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-04.phx2.fedoraproject.org", 
+            "Description": "\nA popular technique for organizing the execution of complex\nprocessing flows is the \"Chain of Responsibility\" pattern, as\ndescribed (among many other places) in the classic \"Gang of Four\"\ndesign patterns book. Although the fundamental API contracts\nrequired to implement this design pattern are extremely simple,\nit is useful to have a base API that facilitates using the pattern,\nand (more importantly) encouraging composition of command\nimplementations from multiple diverse sources.\nTowards that end, the Chain API models a computation as a series\nof \"commands\" that can be combined into a \"chain\". The API for a\ncommand consists of a single method (execute()), which is passed\na \"context\" parameter containing the dynamic state of the\ncomputation, and whose return value is a boolean that determines\nwhether or not processing for the current chain has been completed\n(true), or whether processing should be delegated to the next\ncommand in the chain (false).\n", 
+            "Build Date": " Thu 11 May 2017 02:09:39 AM EDT", 
+            "Vendor": " Fedora Project", 
+            "Source RPM": " apache-commons-chain-1.2-12.1.el7.src.rpm", 
+            "warning": " /home/jason/fctl/3/apache-commons-chain-1.2-12.1.el7.noarch.rpm: Header V3 RSA/SHA256 Signature, key ID 352c64e5: NOKEY", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Thu 11 May 2017 02:14:22 AM EDT, Key ID 6a2faea2352c64e5", 
+            "Release": " 12.1.el7", 
+            "Group": " Unspecified", 
+            "Packager": " Fedora Project", 
+            "Summary": " An implementation of the GoF Chain of Responsibility pattern", 
+            "Size": " 115311"
+        }
+    }
+}

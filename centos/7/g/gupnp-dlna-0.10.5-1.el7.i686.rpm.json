@@ -1,0 +1,125 @@
+{
+    "results": {
+        "usr/bin/gupnp-dlna-ls-profiles-2_0": {
+            "report-functions": [
+                "g_option_context_free", 
+                "_ITM_deregisterTMCloneTable", 
+                "gupnp_dlna_profile_get_mime", 
+                "g_option_context_parse", 
+                "gupnp_dlna_profile_get_name", 
+                "gupnp_dlna_profile_get_extended", 
+                "g_list_foreach", 
+                "setlocale", 
+                "g_print", 
+                "gupnp_dlna_profile_guesser_list_profiles", 
+                "g_error_free", 
+                "exit", 
+                "g_object_unref", 
+                "__stack_chk_fail", 
+                "__libc_start_main", 
+                "_Jv_RegisterClasses", 
+                "_ITM_registerTMCloneTable", 
+                "g_option_context_new", 
+                "gupnp_dlna_profile_guesser_new", 
+                "__gmon_start__"
+            ], 
+            "rpm": "gupnp-dlna-0.10.5-1.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 1, 
+                    "afC": 139
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/gupnp-dlna-ls-profiles-2.0"
+        }, 
+        "usr/bin/gupnp-dlna-info-2_0": {
+            "report-functions": [
+                "g_free", 
+                "g_log", 
+                "g_option_context_parse", 
+                "g_main_loop_unref", 
+                "g_idle_add", 
+                "_ITM_deregisterTMCloneTable", 
+                "g_option_context_add_main_entries", 
+                "g_main_loop_run", 
+                "g_slice_free1", 
+                "__gmon_start__", 
+                "g_path_is_absolute", 
+                "g_slice_alloc0", 
+                "gupnp_dlna_profile_guesser_cleanup", 
+                "g_option_context_free", 
+                "__libc_start_main", 
+                "g_build_filename", 
+                "g_uri_parse_scheme", 
+                "g_error_free", 
+                "g_strdup", 
+                "gupnp_dlna_profile_guesser_new", 
+                "gupnp_dlna_profile_get_mime", 
+                "g_main_loop_quit", 
+                "gupnp_dlna_information_get_uri", 
+                "g_object_unref", 
+                "g_dir_open", 
+                "gupnp_dlna_profile_guesser_guess_profile_sync", 
+                "_ITM_registerTMCloneTable", 
+                "g_main_loop_new", 
+                "gupnp_dlna_profile_guesser_guess_profile_async", 
+                "g_dir_close", 
+                "g_print", 
+                "exit", 
+                "g_file_test", 
+                "g_filename_to_uri", 
+                "g_dir_read_name", 
+                "__stack_chk_fail", 
+                "g_get_current_dir", 
+                "g_option_context_new", 
+                "setlocale", 
+                "_Jv_RegisterClasses"
+            ], 
+            "rpm": "gupnp-dlna-0.10.5-1.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 4, 
+                    "afC": 239
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/gupnp-dlna-info-2.0"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 0.10.5", 
+            "Name": " gupnp-dlna", 
+            "License": " LGPLv2+", 
+            "URL": " http://www.gupnp.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " c1bm.rdu2.centos.org", 
+            "Description": "\nGUPnP is an object-oriented open source framework for creating UPnP\ndevices and control points, written in C using GObject and libsoup.\nThe GUPnP API is intended to be easy to use, efficient and flexible.\n\nGUPnP-dlna is a collection of helpers for building DLNA (Digital\nLiving Network Alliance) compliant applications using GUPnP.\n", 
+            "Build Date": " Wed 02 Aug 2017 02:26:48 PM EDT", 
+            "Vendor": " CentOS", 
+            "Source RPM": " gupnp-dlna-0.10.5-1.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/0/gupnp-dlna-0.10.5-1.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID f4a80eb5: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 10 Aug 2017 12:35:38 PM EDT, Key ID 24c6a8a7f4a80eb5", 
+            "Release": " 1.el7", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " CentOS BuildSystem <http://bugs.centos.org>", 
+            "Summary": " A collection of helpers for building UPnP AV applications", 
+            "Size": " 344633"
+        }
+    }
+}

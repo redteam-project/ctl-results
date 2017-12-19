@@ -1,0 +1,26 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Version": " 0.005", 
+            "Name": " perl-Data-Tumbler", 
+            "License": " GPL+ or Artistic", 
+            "URL": " http://search.cpan.org/dist/Data-Tumbler/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-08.phx2.fedoraproject.org", 
+            "Description": "\nThe tumble() method calls a sequence of 'provider' code references, each of\nwhich returns a hash. The first provider is called and then, for each hash item\nit returns, the tumble() method recurses to call the next provider. The\nrecursion continues until there are no more providers to call, at which point\nthe consumer code reference is called. Effectively the providers create a tree\nof combinations and the consumer is called at the leaves of the tree. If a\nprovider returns no items then that part of the tree is pruned. Further\nproviders, if any, are not called and the consumer is not called.\n\nDuring a call to tumble() three values are passed down through the tree and\ninto the consumer: path, context, and payload. The path and context are derived\nfrom the names and values of the hashes returned by the providers. Typically\nthe path defines the current \"path\" through the tree of combinations. The\nproviders are passed the current path, context, and payload. The payload is\ncloned at each level of recursion so that any changes made to it by providers\nare only visible within the scope of the generated sub-tree.\n", 
+            "Build Date": " Tue 08 Apr 2014 08:41:35 AM EDT", 
+            "Vendor": " Fedora Project", 
+            "Source RPM": " perl-Data-Tumbler-0.005-2.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/1/perl-Data-Tumbler-0.005-2.el7.noarch.rpm: Header V3 RSA/SHA256 Signature, key ID 352c64e5: NOKEY", 
+            "Architecture": " noarch", 
+            "Signature": " RSA/SHA256, Tue 08 Apr 2014 09:20:20 PM EDT, Key ID 6a2faea2352c64e5", 
+            "Release": " 2.el7", 
+            "Group": " Unspecified", 
+            "Packager": " Fedora Project", 
+            "Summary": " Dynamic generation of nested combinations", 
+            "Size": " 12874"
+        }
+    }
+}

@@ -1,0 +1,2547 @@
+{
+    "results": {
+        "usr/bin/nl-list-sockets": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "_ITM_registerTMCloneTable", 
+                "__libc_start_main", 
+                "sscanf", 
+                "fopen", 
+                "perror", 
+                "puts", 
+                "__gmon_start__", 
+                "nl_nlfamily2str", 
+                "__printf_chk", 
+                "fgets", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-4.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 4, 
+                    "afC": 132
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nl-list-sockets"
+        }, 
+        "usr/sbin/nl-classid-lookup": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "nl_cli_print_version", 
+                "__gmon_start__", 
+                "_Jv_RegisterClasses", 
+                "exit", 
+                "nl_cli_fatal", 
+                "_ITM_registerTMCloneTable", 
+                "nl_geterror", 
+                "puts", 
+                "rtnl_tc_handle2str", 
+                "__printf_chk", 
+                "__libc_start_main", 
+                "getopt_long"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-4.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 10, 
+                    "afC": 143
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/sbin/nl-classid-lookup"
+        }, 
+        "usr/bin/nl-link-stats": {
+            "report-functions": [
+                "rtnl_link_str2stat", 
+                "__gmon_start__", 
+                "nl_cli_connect", 
+                "_ITM_deregisterTMCloneTable", 
+                "nl_cli_link_parse_ifindex", 
+                "nl_cli_print_version", 
+                "nl_cache_foreach_filter", 
+                "__libc_start_main", 
+                "__fprintf_chk", 
+                "rtnl_link_get_stat", 
+                "_ITM_registerTMCloneTable", 
+                "rtnl_link_get_name", 
+                "getopt_long", 
+                "exit", 
+                "rtnl_link_stat2str", 
+                "puts", 
+                "nl_cli_link_parse_name", 
+                "__printf_chk", 
+                "nl_cli_link_alloc_cache", 
+                "nl_cli_alloc_socket", 
+                "_Jv_RegisterClasses"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-4.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 1, 
+                    "afC": 54
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nl-link-stats"
+        }, 
+        "usr/bin/nf-ct-add": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "nl_cli_print_version", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "nl_cli_ct_parse_src_port", 
+                "nl_cli_ct_parse_protocol", 
+                "nl_cli_ct_parse_zone", 
+                "nl_cli_alloc_socket", 
+                "exit", 
+                "nl_object_dump", 
+                "nl_cli_ct_parse_dst", 
+                "nl_cli_ct_parse_family", 
+                "__libc_start_main", 
+                "nl_cli_fatal", 
+                "nl_cli_connect", 
+                "nl_cli_ct_parse_status", 
+                "nl_cli_ct_parse_src", 
+                "nl_cli_ct_parse_timeout", 
+                "_Jv_RegisterClasses", 
+                "nfnl_ct_add", 
+                "getopt_long", 
+                "nl_geterror", 
+                "nl_cli_ct_parse_mark", 
+                "nl_cli_ct_alloc", 
+                "puts", 
+                "nl_cli_ct_parse_dst_port", 
+                "__printf_chk"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-4.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 29, 
+                    "afC": 351
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nf-ct-add"
+        }, 
+        "usr/bin/nl-class-list": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "exit", 
+                "nl_cli_tc_parse_handle", 
+                "rtnl_tc_get_ifindex", 
+                "nl_cli_tc_parse_parent", 
+                "nl_cli_tc_parse_kind", 
+                "nl_cache_foreach", 
+                "getopt_long", 
+                "nl_cache_dump_filter", 
+                "puts", 
+                "nl_cli_class_alloc_cache", 
+                "_ITM_registerTMCloneTable", 
+                "nl_cli_link_alloc_cache", 
+                "nl_cli_connect", 
+                "rtnl_link_get_ifindex", 
+                "_ITM_deregisterTMCloneTable", 
+                "nl_cli_alloc_socket", 
+                "nl_cli_tc_parse_dev", 
+                "nl_cli_class_alloc", 
+                "_Jv_RegisterClasses", 
+                "nl_cli_print_version"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-4.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 12, 
+                    "afC": 186
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nl-class-list"
+        }, 
+        "usr/bin/nf-ct-list": {
+            "report-functions": [
+                "exit", 
+                "nl_cli_ct_alloc", 
+                "nl_cli_ct_alloc_cache", 
+                "nl_cli_ct_parse_status", 
+                "getopt_long", 
+                "nl_cli_ct_parse_src_port", 
+                "_ITM_registerTMCloneTable", 
+                "nl_cli_ct_parse_id", 
+                "nl_cli_alloc_socket", 
+                "nl_cli_ct_parse_protocol", 
+                "nl_cli_ct_parse_timeout", 
+                "nl_cli_ct_parse_dst", 
+                "nl_cli_ct_parse_family", 
+                "__gmon_start__", 
+                "__libc_start_main", 
+                "nl_cli_ct_parse_dst_port", 
+                "nfnl_ct_set_family", 
+                "nl_cli_ct_parse_mark", 
+                "nl_cli_ct_parse_src", 
+                "nl_cli_connect", 
+                "puts", 
+                "nl_cache_dump_filter", 
+                "nl_cli_ct_parse_use", 
+                "nl_cli_ct_parse_tcp_state", 
+                "_Jv_RegisterClasses", 
+                "_ITM_deregisterTMCloneTable", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-4.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 1, 
+                    "afC": 46
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nf-ct-list"
+        }, 
+        "usr/sbin/nl-class-delete": {
+            "report-functions": [
+                "nl_cli_print_version", 
+                "nl_cli_tc_parse_dev", 
+                "puts", 
+                "_ITM_deregisterTMCloneTable", 
+                "nl_cli_fatal", 
+                "exit", 
+                "__libc_start_main", 
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "_Jv_RegisterClasses", 
+                "rtnl_class_delete", 
+                "nl_cli_alloc_socket", 
+                "nl_object_dump", 
+                "nl_cli_class_alloc_cache", 
+                "__printf_chk", 
+                "rtnl_tc_get_ifindex", 
+                "getopt_long", 
+                "_ITM_registerTMCloneTable", 
+                "nl_cli_tc_parse_handle", 
+                "nl_geterror", 
+                "nl_cli_class_alloc", 
+                "nl_cli_link_alloc_cache", 
+                "nl_cli_confirm", 
+                "nl_cache_foreach_filter", 
+                "nl_cli_tc_parse_kind"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-4.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 16, 
+                    "afC": 217
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/sbin/nl-class-delete"
+        }, 
+        "usr/bin/nf-exp-delete": {
+            "report-functions": [
+                "nl_cli_connect", 
+                "nl_cli_exp_parse_id", 
+                "__libc_start_main", 
+                "__gmon_start__", 
+                "nfnl_exp_set_family", 
+                "__printf_chk", 
+                "nl_cli_exp_parse_family", 
+                "nl_cli_exp_parse_flags", 
+                "puts", 
+                "nl_cli_fatal", 
+                "nl_cli_exp_alloc", 
+                "nl_cli_exp_parse_src", 
+                "nl_cli_exp_parse_timeout", 
+                "nl_cli_print_version", 
+                "__stack_chk_fail", 
+                "nl_cli_exp_parse_l4protonum", 
+                "nl_cli_exp_parse_dst", 
+                "_Jv_RegisterClasses", 
+                "nl_cli_exp_parse_helper_name", 
+                "_ITM_deregisterTMCloneTable", 
+                "getopt_long", 
+                "nl_geterror", 
+                "nl_cli_alloc_socket", 
+                "nl_cli_exp_parse_dst_port", 
+                "nl_object_dump", 
+                "nl_cli_exp_parse_src_port", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-4.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 1, 
+                    "afC": 46
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nf-exp-delete"
+        }, 
+        "usr/sbin/nl-class-add": {
+            "report-functions": [
+                "nl_cli_tc_parse_mtu", 
+                "_Jv_RegisterClasses", 
+                "nl_cli_fatal", 
+                "nl_cli_tc_lookup", 
+                "free", 
+                "nl_cli_tc_parse_handle", 
+                "nl_cli_tc_parse_overhead", 
+                "nl_cli_alloc_socket", 
+                "nl_object_dump", 
+                "getopt_long", 
+                "nl_cli_tc_parse_parent", 
+                "nl_cli_link_alloc_cache", 
+                "nl_cli_print_version", 
+                "rtnl_class_add", 
+                "nl_cli_tc_parse_dev", 
+                "rtnl_tc_set_kind", 
+                "_ITM_registerTMCloneTable", 
+                "nl_cli_tc_parse_linktype", 
+                "_ITM_deregisterTMCloneTable", 
+                "nl_cli_tc_parse_mpu", 
+                "rtnl_tc_get_ifindex", 
+                "__strdup", 
+                "nl_cli_connect", 
+                "__stack_chk_fail", 
+                "nl_cli_class_alloc", 
+                "rtnl_tc_get_ops", 
+                "exit", 
+                "puts", 
+                "__libc_start_main", 
+                "__printf_chk", 
+                "__gmon_start__"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-4.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 24, 
+                    "afC": 340
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/sbin/nl-class-add"
+        }, 
+        "usr/bin/nl-link-release": {
+            "report-functions": [
+                "nl_cli_link_alloc_cache", 
+                "rtnl_link_get_by_name", 
+                "nl_cli_connect", 
+                "fwrite", 
+                "_ITM_registerTMCloneTable", 
+                "__gmon_start__", 
+                "_Jv_RegisterClasses", 
+                "__libc_start_main", 
+                "__fprintf_chk", 
+                "nl_cli_alloc_socket", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-4.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 4, 
+                    "afC": 92
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nl-link-release"
+        }, 
+        "usr/bin/nl-monitor": {
+            "report-functions": [
+                "nl_socket_get_fd", 
+                "nl_socket_add_membership", 
+                "nl_recvmsgs_default", 
+                "nl_socket_disable_seq_check", 
+                "nl_cli_link_alloc_cache", 
+                "__printf_chk", 
+                "nl_msg_parse", 
+                "strcasecmp", 
+                "nl_cli_fatal", 
+                "select", 
+                "nl_cli_alloc_socket", 
+                "nl_geterror", 
+                "nl_cli_connect", 
+                "nl_socket_modify_cb", 
+                "puts", 
+                "__stack_chk_fail", 
+                "putchar", 
+                "nl_object_dump", 
+                "fwrite", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable", 
+                "__fdelt_chk", 
+                "__gmon_start__", 
+                "__fprintf_chk", 
+                "_Jv_RegisterClasses"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-4.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 9, 
+                    "afC": 215
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nl-monitor"
+        }, 
+        "usr/bin/nl-route-add": {
+            "report-functions": [
+                "nl_cli_fatal", 
+                "nl_cli_route_parse_table", 
+                "__gmon_start__", 
+                "nl_cli_route_parse_nexthop", 
+                "nl_cli_route_parse_metric", 
+                "nl_geterror", 
+                "nl_cli_route_parse_pref_src", 
+                "nl_cli_route_parse_iif", 
+                "_Jv_RegisterClasses", 
+                "nl_cli_route_parse_prio", 
+                "nl_cli_print_version", 
+                "_ITM_registerTMCloneTable", 
+                "nl_cli_route_parse_type", 
+                "nl_cli_route_parse_src", 
+                "getopt_long", 
+                "nl_cli_connect", 
+                "puts", 
+                "nl_cli_route_parse_scope", 
+                "rtnl_route_add", 
+                "exit", 
+                "nl_cli_route_alloc", 
+                "nl_cli_route_parse_dst", 
+                "nl_object_dump", 
+                "__stack_chk_fail", 
+                "nl_cli_link_alloc_cache", 
+                "nl_cli_route_parse_family", 
+                "__printf_chk", 
+                "nl_cli_route_alloc_cache", 
+                "__libc_start_main", 
+                "nl_cli_alloc_socket"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-4.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 20, 
+                    "afC": 295
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nl-route-add"
+        }, 
+        "usr/bin/nl-classid-lookup": {
+            "report-functions": [
+                "__printf_chk", 
+                "_ITM_registerTMCloneTable", 
+                "puts", 
+                "nl_cli_fatal", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "rtnl_tc_str2handle", 
+                "__stack_chk_fail", 
+                "exit", 
+                "__libc_start_main", 
+                "getopt_long", 
+                "nl_geterror", 
+                "nl_cli_print_version"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-4.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 10, 
+                    "afC": 143
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nl-classid-lookup"
+        }, 
+        "usr/bin/nl-qdisc-delete": {
+            "report-functions": [
+                "nl_cli_confirm", 
+                "nl_cache_foreach_filter", 
+                "rtnl_qdisc_alloc_cache", 
+                "nl_cli_link_alloc_cache", 
+                "_Jv_RegisterClasses", 
+                "nl_cli_connect", 
+                "nl_cli_tc_parse_dev", 
+                "__libc_start_main", 
+                "getopt_long", 
+                "nl_cli_alloc_cache", 
+                "nl_cli_tc_parse_parent", 
+                "__gmon_start__", 
+                "nl_cli_qdisc_alloc", 
+                "rtnl_tc_get_handle", 
+                "_ITM_registerTMCloneTable", 
+                "rtnl_qdisc_delete", 
+                "nl_cli_alloc_socket", 
+                "nl_geterror", 
+                "nl_cli_tc_parse_handle", 
+                "__printf_chk", 
+                "_ITM_deregisterTMCloneTable", 
+                "nl_object_dump", 
+                "nl_cli_print_version", 
+                "nl_cli_tc_parse_kind", 
+                "puts", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-4.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 18, 
+                    "afC": 222
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nl-qdisc-delete"
+        }, 
+        "usr/bin/nl-qdisc-list": {
+            "report-functions": [
+                "rtnl_tc_set_parent", 
+                "_Jv_RegisterClasses", 
+                "nl_cli_class_alloc", 
+                "nl_cli_connect", 
+                "__libc_start_main", 
+                "nl_cli_alloc_cache", 
+                "puts", 
+                "nl_cli_class_alloc_cache", 
+                "rtnl_class_put", 
+                "nl_cli_tc_parse_parent", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "exit", 
+                "nl_cli_link_alloc_cache", 
+                "nl_cli_tc_parse_handle", 
+                "rtnl_tc_set_ifindex", 
+                "rtnl_tc_get_parent", 
+                "nl_cli_print_version", 
+                "nl_cli_tc_parse_kind", 
+                "nl_cli_tc_parse_dev", 
+                "getopt_long", 
+                "nl_cache_free", 
+                "nl_cli_qdisc_alloc", 
+                "rtnl_tc_get_ifindex", 
+                "nl_cache_dump_filter", 
+                "nl_object_dump", 
+                "rtnl_qdisc_alloc_cache", 
+                "nl_cache_foreach_filter", 
+                "nl_cli_cls_alloc_cache", 
+                "nl_cache_dump", 
+                "__stack_chk_fail", 
+                "nl_cli_alloc_socket"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-4.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 14, 
+                    "afC": 193
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nl-qdisc-list"
+        }, 
+        "usr/sbin/nl-qdisc-list": {
+            "report-functions": [
+                "nl_cache_dump_filter", 
+                "rtnl_tc_get_parent", 
+                "nl_cli_class_alloc_cache", 
+                "nl_cli_alloc_cache", 
+                "nl_object_dump", 
+                "_ITM_deregisterTMCloneTable", 
+                "nl_cli_tc_parse_handle", 
+                "nl_cli_connect", 
+                "rtnl_qdisc_alloc_cache", 
+                "nl_cli_qdisc_alloc", 
+                "getopt_long", 
+                "nl_cli_link_alloc_cache", 
+                "_ITM_registerTMCloneTable", 
+                "rtnl_tc_get_handle", 
+                "nl_cli_print_version", 
+                "__stack_chk_fail", 
+                "nl_cache_free", 
+                "exit", 
+                "nl_cli_tc_parse_kind", 
+                "nl_cache_dump", 
+                "rtnl_qdisc_put", 
+                "rtnl_tc_set_parent", 
+                "__libc_start_main", 
+                "nl_cli_cls_alloc_cache", 
+                "rtnl_tc_get_ifindex", 
+                "rtnl_class_put", 
+                "_Jv_RegisterClasses", 
+                "nl_cli_alloc_socket", 
+                "nl_cli_class_alloc", 
+                "rtnl_tc_set_ifindex", 
+                "nl_cli_tc_parse_parent", 
+                "nl_cli_tc_parse_dev", 
+                "__gmon_start__"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-4.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 14, 
+                    "afC": 193
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/sbin/nl-qdisc-list"
+        }, 
+        "usr/bin/nl-util-addr": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "__libc_start_main", 
+                "fwrite", 
+                "nl_addr_resolve", 
+                "nl_geterror", 
+                "nl_cli_fatal", 
+                "_Jv_RegisterClasses", 
+                "__gmon_start__", 
+                "nl_cli_addr_parse", 
+                "puts"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-4.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 3, 
+                    "afC": 80
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nl-util-addr"
+        }, 
+        "usr/bin/genl-ctrl-list": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "_Jv_RegisterClasses", 
+                "genl_ctrl_alloc_cache", 
+                "_ITM_registerTMCloneTable", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "nl_cli_connect", 
+                "puts", 
+                "getopt_long", 
+                "exit", 
+                "nl_cli_alloc_socket", 
+                "nl_cache_dump", 
+                "__libc_start_main", 
+                "nl_cli_parse_dumptype"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-4.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 6, 
+                    "afC": 116
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/genl-ctrl-list"
+        }, 
+        "usr/bin/nf-exp-add": {
+            "report-functions": [
+                "nl_cli_exp_parse_dst", 
+                "nfnl_exp_set_family", 
+                "__stack_chk_fail", 
+                "nl_cli_exp_parse_flags", 
+                "nl_object_dump", 
+                "nl_cli_alloc_socket", 
+                "nfnl_exp_add", 
+                "getopt_long", 
+                "__printf_chk", 
+                "__gmon_start__", 
+                "nl_cli_exp_parse_id", 
+                "nl_cli_exp_parse_src_port", 
+                "nl_cli_exp_parse_l4protonum", 
+                "nl_geterror", 
+                "_ITM_registerTMCloneTable", 
+                "_Jv_RegisterClasses", 
+                "nl_cli_exp_parse_timeout", 
+                "nl_cli_exp_parse_family", 
+                "nl_cli_exp_parse_dst_port", 
+                "nl_cli_exp_parse_helper_name", 
+                "puts", 
+                "__libc_start_main", 
+                "nl_cli_exp_parse_nat_dir", 
+                "nl_cli_fatal", 
+                "nl_cli_print_version", 
+                "nl_cli_exp_parse_src", 
+                "nl_cli_connect", 
+                "nl_cli_exp_alloc"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-4.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 1, 
+                    "afC": 47
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nf-exp-add"
+        }, 
+        "usr/sbin/nl-pktloc-lookup": {
+            "report-functions": [
+                "__printf_chk", 
+                "__gmon_start__", 
+                "rtnl_pktloc_foreach", 
+                "exit", 
+                "rtnl_pktloc_lookup", 
+                "nl_geterror", 
+                "nl_cli_print_version", 
+                "_Jv_RegisterClasses", 
+                "_ITM_deregisterTMCloneTable", 
+                "__strcpy_chk", 
+                "_ITM_registerTMCloneTable", 
+                "nl_cli_parse_u32", 
+                "puts", 
+                "__stack_chk_fail", 
+                "nl_cli_fatal", 
+                "getopt_long"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-4.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 13, 
+                    "afC": 209
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/sbin/nl-pktloc-lookup"
+        }, 
+        "usr/bin/nl-fib-lookup": {
+            "report-functions": [
+                "__gmon_start__", 
+                "nl_cache_dump", 
+                "getopt_long", 
+                "exit", 
+                "__stack_chk_fail", 
+                "nl_cli_connect", 
+                "flnl_request_set_table", 
+                "nl_addr_put", 
+                "_ITM_registerTMCloneTable", 
+                "_ITM_deregisterTMCloneTable", 
+                "__libc_start_main", 
+                "flnl_lookup", 
+                "_Jv_RegisterClasses", 
+                "flnl_request_set_addr", 
+                "puts", 
+                "strtoul", 
+                "nl_geterror", 
+                "nl_addr_parse", 
+                "flnl_request_set_fwmark", 
+                "nl_cli_fatal", 
+                "flnl_request_alloc", 
+                "flnl_request_set_tos", 
+                "nl_cli_alloc_socket"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-4.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 13, 
+                    "afC": 266
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nl-fib-lookup"
+        }, 
+        "usr/bin/nl-link-name2ifindex": {
+            "report-functions": [
+                "_Jv_RegisterClasses", 
+                "exit", 
+                "rtnl_link_name2i", 
+                "_ITM_deregisterTMCloneTable", 
+                "nl_cli_alloc_socket", 
+                "nl_cli_connect", 
+                "nl_cli_fatal", 
+                "_ITM_registerTMCloneTable", 
+                "puts", 
+                "__gmon_start__", 
+                "__printf_chk"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-4.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 2, 
+                    "afC": 65
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nl-link-name2ifindex"
+        }, 
+        "usr/bin/nf-exp-list": {
+            "report-functions": [
+                "nl_cli_exp_parse_dst", 
+                "_Jv_RegisterClasses", 
+                "__gmon_start__", 
+                "nl_cli_exp_parse_id", 
+                "nl_cli_exp_parse_family", 
+                "nl_cache_dump_filter", 
+                "nfnl_exp_set_family", 
+                "nl_cli_print_version", 
+                "nl_cli_exp_alloc", 
+                "exit", 
+                "__libc_start_main", 
+                "nl_cli_exp_parse_flags", 
+                "nl_cli_parse_dumptype", 
+                "_ITM_deregisterTMCloneTable", 
+                "nl_cli_connect", 
+                "__stack_chk_fail", 
+                "nl_cli_alloc_socket", 
+                "_ITM_registerTMCloneTable", 
+                "puts", 
+                "nl_cli_exp_parse_timeout", 
+                "nl_cli_exp_parse_helper_name", 
+                "nl_cli_exp_parse_src", 
+                "nl_cli_exp_parse_l4protonum", 
+                "nl_cli_exp_parse_src_port", 
+                "getopt_long"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-4.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 27, 
+                    "afC": 327
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nf-exp-list"
+        }, 
+        "usr/sbin/nl-cls-delete": {
+            "report-functions": [
+                "nl_cli_cls_parse_proto", 
+                "getopt_long", 
+                "nl_cli_fatal", 
+                "nl_cli_cls_alloc", 
+                "rtnl_tc_get_parent", 
+                "nl_cli_parse_u32", 
+                "_Jv_RegisterClasses", 
+                "nl_cli_cls_alloc_cache", 
+                "nl_cli_tc_parse_handle", 
+                "nl_cli_tc_parse_kind", 
+                "nl_cache_foreach", 
+                "_ITM_deregisterTMCloneTable", 
+                "nl_cache_foreach_filter", 
+                "puts", 
+                "__printf_chk", 
+                "__gmon_start__", 
+                "nl_cli_print_version", 
+                "nl_object_dump", 
+                "nl_cache_free", 
+                "__stack_chk_fail", 
+                "nl_cli_tc_parse_dev", 
+                "nl_cli_link_alloc_cache", 
+                "rtnl_link_get_ifindex", 
+                "rtnl_tc_get_ifindex", 
+                "nl_cli_confirm", 
+                "nl_cli_connect", 
+                "exit", 
+                "nl_geterror", 
+                "rtnl_cls_delete", 
+                "_ITM_registerTMCloneTable", 
+                "nl_cli_alloc_socket", 
+                "nl_cli_tc_parse_parent"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-4.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 18, 
+                    "afC": 233
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/sbin/nl-cls-delete"
+        }, 
+        "usr/bin/nl-link-list": {
+            "report-functions": [
+                "_Jv_RegisterClasses", 
+                "nl_cli_connect", 
+                "__gmon_start__", 
+                "nl_cli_link_alloc_cache_family", 
+                "getopt_long", 
+                "nl_cli_link_parse_txqlen", 
+                "nl_cli_link_parse_weight", 
+                "nl_cache_dump_filter", 
+                "puts", 
+                "__stack_chk_fail", 
+                "nl_cli_alloc_socket", 
+                "_ITM_deregisterTMCloneTable", 
+                "nl_cli_link_parse_family", 
+                "_ITM_registerTMCloneTable", 
+                "rtnl_link_get_family", 
+                "nl_cli_link_alloc", 
+                "nl_cli_link_parse_ifindex", 
+                "__libc_start_main", 
+                "exit", 
+                "nl_cli_link_parse_mtu"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-4.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 14, 
+                    "afC": 195
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nl-link-list"
+        }, 
+        "usr/bin/nl-route-delete": {
+            "report-functions": [
+                "getopt_long", 
+                "nl_cli_route_parse_src", 
+                "nl_cli_route_parse_scope", 
+                "nl_cache_foreach_filter", 
+                "nl_object_dump", 
+                "nl_cli_connect", 
+                "nl_cli_route_parse_protocol", 
+                "_Jv_RegisterClasses", 
+                "nl_cli_route_parse_dst", 
+                "nl_cli_route_parse_iif", 
+                "nl_cli_route_alloc_cache", 
+                "exit", 
+                "nl_cli_route_parse_prio", 
+                "nl_cli_route_parse_nexthop", 
+                "rtnl_route_delete", 
+                "nl_cli_alloc_socket", 
+                "nl_cli_route_parse_table", 
+                "__printf_chk", 
+                "nl_cli_route_parse_family", 
+                "_ITM_registerTMCloneTable", 
+                "__gmon_start__", 
+                "nl_cli_route_parse_type", 
+                "nl_cli_route_parse_pref_src", 
+                "nl_cli_fatal", 
+                "nl_cli_confirm", 
+                "fwrite", 
+                "__stack_chk_fail", 
+                "puts", 
+                "nl_cli_link_alloc_cache", 
+                "_ITM_deregisterTMCloneTable", 
+                "nl_geterror", 
+                "nl_cli_route_parse_metric", 
+                "__libc_start_main"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-4.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 1, 
+                    "afC": 64
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nl-route-delete"
+        }, 
+        "usr/bin/nf-log": {
+            "report-functions": [
+                "nfnl_log_create", 
+                "__stack_chk_fail", 
+                "nl_msg_parse", 
+                "_ITM_deregisterTMCloneTable", 
+                "nfnl_log_set_group", 
+                "nfnl_log_set_copy_mode", 
+                "fwrite", 
+                "__gmon_start__", 
+                "select", 
+                "nfnl_log_str2copy_mode", 
+                "nl_object_dump", 
+                "puts", 
+                "nfnl_log_set_copy_range", 
+                "nfnl_log_pf_unbind", 
+                "strcasecmp", 
+                "__fdelt_chk", 
+                "nl_cli_fatal", 
+                "nfnl_log_pf_bind", 
+                "nfnl_log_alloc", 
+                "__libc_start_main", 
+                "nl_cli_connect", 
+                "nl_cli_link_alloc_cache", 
+                "nl_socket_modify_cb", 
+                "nl_socket_disable_seq_check", 
+                "nl_socket_get_fd", 
+                "_Jv_RegisterClasses", 
+                "nl_cli_alloc_socket", 
+                "nl_recvmsgs_default", 
+                "strtol", 
+                "nl_str2af", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-4.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 14, 
+                    "afC": 354
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nf-log"
+        }, 
+        "usr/bin/nl-addr-add": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "nl_cli_addr_parse_valid", 
+                "nl_cli_addr_alloc", 
+                "nl_cli_addr_parse_family", 
+                "nl_cli_link_alloc_cache", 
+                "nl_cli_addr_parse_label", 
+                "nl_cli_connect", 
+                "nl_geterror", 
+                "getopt_long", 
+                "nl_cli_addr_parse_preferred", 
+                "__libc_start_main", 
+                "nl_cli_addr_parse_scope", 
+                "__stack_chk_fail", 
+                "nl_cli_addr_parse_local", 
+                "exit", 
+                "rtnl_addr_add", 
+                "nl_cli_addr_parse_broadcast", 
+                "__printf_chk", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "nl_cli_fatal", 
+                "puts", 
+                "_Jv_RegisterClasses", 
+                "nl_object_dump", 
+                "nl_cli_print_version", 
+                "nl_cli_addr_parse_peer"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-4.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 18, 
+                    "afC": 261
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nl-addr-add"
+        }, 
+        "usr/bin/idiag-socket-details": {
+            "report-functions": [
+                "nl_cli_fatal", 
+                "__gmon_start__", 
+                "exit", 
+                "_ITM_deregisterTMCloneTable", 
+                "getopt_long", 
+                "nl_cache_mngt_unprovide", 
+                "nl_cache_free", 
+                "puts", 
+                "nl_cli_alloc_socket", 
+                "nl_cache_dump_filter", 
+                "nl_cli_connect", 
+                "idiagnl_msg_alloc_cache", 
+                "nl_cli_print_version", 
+                "nl_geterror", 
+                "nl_cache_mngt_provide", 
+                "_Jv_RegisterClasses", 
+                "__libc_start_main", 
+                "nl_socket_free"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-4.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 8, 
+                    "afC": 155
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/idiag-socket-details"
+        }, 
+        "usr/bin/nl-neigh-delete": {
+            "report-functions": [
+                "nl_cli_neigh_parse_family", 
+                "getopt_long", 
+                "exit", 
+                "nl_cli_neigh_parse_dst", 
+                "_Jv_RegisterClasses", 
+                "__printf_chk", 
+                "nl_cli_link_alloc_cache", 
+                "rtnl_neigh_delete", 
+                "__gmon_start__", 
+                "rtnl_neigh_alloc_cache_flags", 
+                "nl_cli_fatal", 
+                "nl_cli_alloc_cache_flags", 
+                "nl_cli_confirm", 
+                "nl_cache_foreach_filter", 
+                "nl_cli_neigh_parse_dev", 
+                "nl_geterror", 
+                "__libc_start_main", 
+                "nl_cli_print_version", 
+                "_ITM_deregisterTMCloneTable", 
+                "nl_cli_neigh_parse_state", 
+                "nl_object_dump", 
+                "nl_cli_connect", 
+                "__stack_chk_fail", 
+                "nl_cli_neigh_parse_lladdr", 
+                "_ITM_registerTMCloneTable", 
+                "puts"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-4.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 15, 
+                    "afC": 203
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nl-neigh-delete"
+        }, 
+        "usr/bin/nl-link-enslave": {
+            "report-functions": [
+                "__libc_start_main", 
+                "rtnl_link_bond_enslave", 
+                "nl_cli_connect", 
+                "__fprintf_chk", 
+                "nl_geterror", 
+                "fwrite", 
+                "nl_cli_alloc_socket", 
+                "_Jv_RegisterClasses", 
+                "rtnl_link_get_by_name", 
+                "nl_cli_link_alloc_cache", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-4.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 5, 
+                    "afC": 113
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nl-link-enslave"
+        }, 
+        "usr/bin/nl-class-add": {
+            "report-functions": [
+                "nl_cli_tc_parse_linktype", 
+                "rtnl_tc_get_parent", 
+                "nl_cli_alloc_socket", 
+                "nl_cli_tc_parse_mtu", 
+                "getopt_long", 
+                "nl_cli_tc_parse_handle", 
+                "free", 
+                "nl_cli_print_version", 
+                "__libc_start_main", 
+                "__gmon_start__", 
+                "rtnl_tc_get_ifindex", 
+                "nl_cli_tc_parse_parent", 
+                "rtnl_tc_set_kind", 
+                "rtnl_tc_get_ops", 
+                "puts", 
+                "nl_cli_tc_parse_mpu", 
+                "__printf_chk", 
+                "__strdup", 
+                "exit", 
+                "nl_cli_class_alloc", 
+                "_ITM_deregisterTMCloneTable", 
+                "nl_geterror", 
+                "nl_object_dump", 
+                "nl_cli_fatal", 
+                "nl_cli_tc_parse_overhead", 
+                "nl_cli_connect", 
+                "_Jv_RegisterClasses", 
+                "rtnl_class_add", 
+                "_ITM_registerTMCloneTable", 
+                "nl_cli_link_alloc_cache", 
+                "nl_cli_tc_lookup"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-4.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 24, 
+                    "afC": 340
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nl-class-add"
+        }, 
+        "usr/bin/nl-cls-list": {
+            "report-functions": [
+                "nl_cli_tc_parse_kind", 
+                "rtnl_link_get_ifindex", 
+                "exit", 
+                "nl_cache_foreach", 
+                "__gmon_start__", 
+                "nl_cli_cls_alloc_cache", 
+                "nl_cli_tc_parse_handle", 
+                "rtnl_cls_set_prio", 
+                "nl_cache_dump_filter", 
+                "nl_cli_link_alloc_cache", 
+                "nl_cli_cls_alloc", 
+                "rtnl_tc_get_ifindex", 
+                "nl_cli_tc_parse_parent", 
+                "nl_cli_tc_parse_dev", 
+                "__stack_chk_fail", 
+                "rtnl_tc_get_parent", 
+                "puts", 
+                "nl_cli_connect", 
+                "nl_cli_alloc_socket", 
+                "__libc_start_main", 
+                "nl_cli_cls_parse_proto", 
+                "nl_cli_print_version", 
+                "_Jv_RegisterClasses", 
+                "_ITM_deregisterTMCloneTable", 
+                "getopt_long", 
+                "nl_cli_parse_u32"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-4.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 15, 
+                    "afC": 207
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nl-cls-list"
+        }, 
+        "usr/bin/nl-addr-delete": {
+            "report-functions": [
+                "nl_cli_addr_parse_preferred", 
+                "nl_object_dump", 
+                "__printf_chk", 
+                "getopt_long", 
+                "nl_cli_addr_parse_label", 
+                "nl_cli_link_alloc_cache", 
+                "_ITM_registerTMCloneTable", 
+                "nl_geterror", 
+                "nl_cli_addr_alloc", 
+                "__libc_start_main", 
+                "nl_cli_alloc_cache", 
+                "__gmon_start__", 
+                "nl_cli_connect", 
+                "nl_cli_addr_parse_family", 
+                "_Jv_RegisterClasses", 
+                "nl_cli_addr_parse_peer", 
+                "nl_cli_addr_parse_broadcast", 
+                "nl_cli_print_version", 
+                "_ITM_deregisterTMCloneTable", 
+                "puts", 
+                "nl_cli_fatal", 
+                "nl_cli_addr_parse_valid", 
+                "nl_cache_foreach_filter", 
+                "__stack_chk_fail", 
+                "rtnl_addr_alloc_cache", 
+                "nl_cli_confirm", 
+                "exit", 
+                "nl_cli_addr_parse_scope", 
+                "nl_cli_addr_parse_local", 
+                "nl_cli_alloc_socket"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-4.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 18, 
+                    "afC": 243
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nl-addr-delete"
+        }, 
+        "usr/bin/nf-monitor": {
+            "report-functions": [
+                "select", 
+                "__fdelt_chk", 
+                "_Jv_RegisterClasses", 
+                "nl_cli_connect", 
+                "strcmp", 
+                "nl_geterror", 
+                "nl_recvmsgs_default", 
+                "__gmon_start__", 
+                "fwrite", 
+                "nl_socket_add_membership", 
+                "puts", 
+                "strcasecmp", 
+                "nl_cli_fatal", 
+                "nl_object_dump", 
+                "nl_cli_alloc_socket", 
+                "nl_msg_parse", 
+                "_ITM_registerTMCloneTable", 
+                "__printf_chk", 
+                "__stack_chk_fail", 
+                "__libc_start_main", 
+                "nl_socket_get_fd", 
+                "putchar", 
+                "nl_socket_disable_seq_check"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-4.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 9, 
+                    "afC": 200
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nf-monitor"
+        }, 
+        "usr/bin/nl-neigh-add": {
+            "report-functions": [
+                "nl_cli_fatal", 
+                "nl_cli_alloc_socket", 
+                "__stack_chk_fail", 
+                "__libc_start_main", 
+                "nl_cli_connect", 
+                "__gmon_start__", 
+                "rtnl_neigh_add", 
+                "nl_cli_neigh_parse_state", 
+                "__printf_chk", 
+                "nl_cli_neigh_parse_dev", 
+                "_Jv_RegisterClasses", 
+                "_ITM_registerTMCloneTable", 
+                "nl_cli_link_alloc_cache", 
+                "nl_geterror", 
+                "nl_cli_neigh_alloc", 
+                "nl_object_dump", 
+                "nl_cli_neigh_parse_dst", 
+                "puts", 
+                "_ITM_deregisterTMCloneTable", 
+                "getopt_long", 
+                "nl_cli_print_version"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-4.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 17, 
+                    "afC": 209
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nl-neigh-add"
+        }, 
+        "usr/bin/nl-qdisc-add": {
+            "report-functions": [
+                "nl_cli_alloc_socket", 
+                "nl_cli_tc_lookup", 
+                "nl_cli_connect", 
+                "nl_cli_print_version", 
+                "rtnl_qdisc_add", 
+                "nl_cli_qdisc_alloc", 
+                "__printf_chk", 
+                "_Jv_RegisterClasses", 
+                "getopt_long", 
+                "rtnl_tc_get_ifindex", 
+                "__stack_chk_fail", 
+                "nl_cli_link_alloc_cache", 
+                "nl_cli_tc_parse_parent", 
+                "nl_cli_fatal", 
+                "_ITM_deregisterTMCloneTable", 
+                "free", 
+                "rtnl_tc_set_kind", 
+                "nl_geterror", 
+                "nl_cli_tc_parse_handle", 
+                "rtnl_tc_get_ops", 
+                "nl_cli_tc_parse_dev", 
+                "puts", 
+                "__strdup", 
+                "rtnl_tc_get_parent", 
+                "__libc_start_main", 
+                "nl_object_dump", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-4.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 21, 
+                    "afC": 303
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nl-qdisc-add"
+        }, 
+        "usr/sbin/nl-link-list": {
+            "report-functions": [
+                "rtnl_link_get_family", 
+                "getopt_long", 
+                "nl_cli_print_version", 
+                "_Jv_RegisterClasses", 
+                "nl_cli_link_alloc_cache_family", 
+                "nl_cache_dump_filter", 
+                "__gmon_start__", 
+                "nl_cli_link_parse_mtu", 
+                "nl_cli_link_parse_ifindex", 
+                "_ITM_deregisterTMCloneTable", 
+                "exit", 
+                "nl_cli_link_parse_txqlen", 
+                "nl_cli_link_alloc", 
+                "nl_cli_link_parse_weight", 
+                "_ITM_registerTMCloneTable", 
+                "puts", 
+                "nl_cli_alloc_socket", 
+                "__stack_chk_fail", 
+                "nl_cli_link_parse_name", 
+                "__libc_start_main"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-4.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 14, 
+                    "afC": 195
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/sbin/nl-link-list"
+        }, 
+        "usr/sbin/nl-class-list": {
+            "report-functions": [
+                "rtnl_tc_get_ifindex", 
+                "nl_cli_tc_parse_kind", 
+                "nl_cli_link_alloc_cache", 
+                "getopt_long", 
+                "rtnl_link_get_ifindex", 
+                "__stack_chk_fail", 
+                "_ITM_deregisterTMCloneTable", 
+                "exit", 
+                "__gmon_start__", 
+                "nl_cli_tc_parse_parent", 
+                "nl_cli_print_version", 
+                "nl_cli_tc_parse_handle", 
+                "nl_cli_class_alloc", 
+                "puts", 
+                "nl_cli_class_alloc_cache", 
+                "nl_cli_alloc_socket", 
+                "nl_cache_foreach", 
+                "_ITM_registerTMCloneTable", 
+                "_Jv_RegisterClasses", 
+                "nl_cache_dump_filter", 
+                "nl_cli_connect"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-4.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 12, 
+                    "afC": 186
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/sbin/nl-class-list"
+        }, 
+        "usr/bin/nl-neightbl-list": {
+            "report-functions": [
+                "__gmon_start__", 
+                "nl_cli_parse_dumptype", 
+                "nl_cli_alloc_socket", 
+                "exit", 
+                "nl_cli_link_alloc_cache", 
+                "getopt_long", 
+                "_Jv_RegisterClasses", 
+                "nl_cli_connect", 
+                "rtnl_neightbl_alloc_cache", 
+                "nl_cli_print_version", 
+                "puts", 
+                "nl_cache_dump", 
+                "_ITM_deregisterTMCloneTable", 
+                "__libc_start_main", 
+                "nl_cli_alloc_cache"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-4.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 4, 
+                    "afC": 107
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nl-neightbl-list"
+        }, 
+        "usr/bin/nl-neigh-list": {
+            "report-functions": [
+                "nl_cli_alloc_socket", 
+                "nl_cli_print_version", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "exit", 
+                "nl_cli_neigh_parse_dst", 
+                "__stack_chk_fail", 
+                "puts", 
+                "nl_cache_dump_filter", 
+                "nl_cli_neigh_parse_lladdr", 
+                "__libc_start_main", 
+                "nl_cli_neigh_parse_dev", 
+                "rtnl_neigh_alloc_cache_flags", 
+                "nl_cli_parse_dumptype", 
+                "nl_cli_alloc_cache_flags", 
+                "_Jv_RegisterClasses", 
+                "_ITM_registerTMCloneTable", 
+                "nl_cli_neigh_alloc", 
+                "getopt_long", 
+                "nl_cli_neigh_parse_state", 
+                "nl_cli_neigh_parse_family"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-4.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 11, 
+                    "afC": 185
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nl-neigh-list"
+        }, 
+        "usr/sbin/nl-cls-add": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "nl_cli_tc_parse_parent", 
+                "nl_cli_cls_parse_proto", 
+                "nl_cli_cls_alloc", 
+                "nl_cli_tc_parse_mpu", 
+                "getopt_long", 
+                "nl_geterror", 
+                "__strdup", 
+                "rtnl_tc_get_ops", 
+                "nl_cli_alloc_socket", 
+                "nl_object_dump", 
+                "nl_cli_tc_parse_handle", 
+                "exit", 
+                "nl_cli_tc_parse_linktype", 
+                "_ITM_registerTMCloneTable", 
+                "__libc_start_main", 
+                "rtnl_cls_set_prio", 
+                "rtnl_cls_add", 
+                "nl_cli_tc_lookup", 
+                "_Jv_RegisterClasses", 
+                "_ITM_deregisterTMCloneTable", 
+                "nl_cli_parse_u32", 
+                "nl_cli_tc_parse_overhead", 
+                "nl_cli_fatal", 
+                "puts", 
+                "nl_cli_tc_parse_mtu", 
+                "nl_cli_link_alloc_cache", 
+                "__gmon_start__", 
+                "free", 
+                "nl_cli_connect", 
+                "rtnl_tc_get_ifindex", 
+                "nl_cli_print_version", 
+                "__printf_chk", 
+                "rtnl_tc_set_kind"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-4.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 26, 
+                    "afC": 364
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/sbin/nl-cls-add"
+        }, 
+        "usr/bin/nl-cls-delete": {
+            "report-functions": [
+                "nl_cli_fatal", 
+                "__printf_chk", 
+                "__libc_start_main", 
+                "_ITM_registerTMCloneTable", 
+                "getopt_long", 
+                "nl_cli_tc_parse_dev", 
+                "nl_cli_cls_alloc", 
+                "exit", 
+                "nl_cli_parse_u32", 
+                "nl_cli_print_version", 
+                "__stack_chk_fail", 
+                "nl_cli_alloc_socket", 
+                "rtnl_cls_delete", 
+                "nl_cli_cls_alloc_cache", 
+                "nl_object_dump", 
+                "rtnl_tc_get_parent", 
+                "nl_cache_foreach", 
+                "rtnl_tc_get_ifindex", 
+                "rtnl_cls_set_prio", 
+                "_Jv_RegisterClasses", 
+                "nl_cli_confirm", 
+                "nl_cache_free", 
+                "nl_cli_link_alloc_cache", 
+                "nl_cli_tc_parse_kind", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "nl_cli_tc_parse_handle", 
+                "nl_cli_cls_parse_proto", 
+                "nl_geterror", 
+                "rtnl_link_get_ifindex", 
+                "nl_cache_foreach_filter", 
+                "nl_cli_tc_parse_parent"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-4.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 18, 
+                    "afC": 233
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nl-cls-delete"
+        }, 
+        "usr/bin/nl-pktloc-lookup": {
+            "report-functions": [
+                "_ITM_deregisterTMCloneTable", 
+                "__libc_start_main", 
+                "nl_cli_parse_u32", 
+                "nl_geterror", 
+                "__stack_chk_fail", 
+                "__snprintf_chk", 
+                "rtnl_pktloc_lookup", 
+                "nl_cli_fatal", 
+                "nl_cli_print_version", 
+                "__strcpy_chk", 
+                "rtnl_pktloc_foreach", 
+                "puts", 
+                "_Jv_RegisterClasses", 
+                "getopt_long", 
+                "__gmon_start__", 
+                "exit"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-4.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 13, 
+                    "afC": 209
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nl-pktloc-lookup"
+        }, 
+        "usr/bin/nl-cls-add": {
+            "report-functions": [
+                "nl_cli_cls_alloc", 
+                "nl_cli_tc_parse_overhead", 
+                "rtnl_cls_add", 
+                "rtnl_tc_get_ifindex", 
+                "rtnl_tc_set_kind", 
+                "nl_cli_tc_parse_parent", 
+                "__gmon_start__", 
+                "nl_object_dump", 
+                "_Jv_RegisterClasses", 
+                "nl_cli_fatal", 
+                "rtnl_cls_set_prio", 
+                "nl_geterror", 
+                "nl_cli_tc_parse_mpu", 
+                "nl_cli_link_alloc_cache", 
+                "nl_cli_parse_u32", 
+                "_ITM_registerTMCloneTable", 
+                "getopt_long", 
+                "__stack_chk_fail", 
+                "nl_cli_print_version", 
+                "rtnl_tc_get_parent", 
+                "exit", 
+                "_ITM_deregisterTMCloneTable", 
+                "__strdup", 
+                "nl_cli_connect", 
+                "nl_cli_tc_parse_mtu", 
+                "rtnl_tc_get_ops", 
+                "nl_cli_tc_parse_handle", 
+                "nl_cli_alloc_socket", 
+                "nl_cli_tc_lookup", 
+                "free", 
+                "puts", 
+                "nl_cli_cls_parse_proto", 
+                "__libc_start_main", 
+                "nl_cli_tc_parse_linktype"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-4.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 26, 
+                    "afC": 364
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nl-cls-add"
+        }, 
+        "usr/bin/nl-tctree-list": {
+            "report-functions": [
+                "nl_cli_link_alloc_cache", 
+                "rtnl_tc_set_parent", 
+                "nl_cli_parse_dumptype", 
+                "_ITM_deregisterTMCloneTable", 
+                "rtnl_qdisc_alloc_cache", 
+                "rtnl_link_get_ifindex", 
+                "_ITM_registerTMCloneTable", 
+                "nl_cache_foreach", 
+                "rtnl_tc_get_ifindex", 
+                "__libc_start_main", 
+                "rtnl_class_leaf_qdisc", 
+                "rtnl_cls_alloc_cache", 
+                "rtnl_tc_get_handle", 
+                "nl_cache_dump", 
+                "rtnl_tc_set_ifindex", 
+                "nl_cache_foreach_filter", 
+                "puts", 
+                "rtnl_class_put", 
+                "_Jv_RegisterClasses", 
+                "nl_cli_print_version", 
+                "__gmon_start__", 
+                "getopt_long", 
+                "exit", 
+                "rtnl_qdisc_put", 
+                "nl_cli_alloc_socket", 
+                "nl_cli_alloc_cache", 
+                "nl_cli_connect", 
+                "__stack_chk_fail", 
+                "nl_cache_free", 
+                "nl_object_dump", 
+                "rtnl_class_alloc_cache"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-4.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 4, 
+                    "afC": 108
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nl-tctree-list"
+        }, 
+        "usr/bin/nf-queue": {
+            "report-functions": [
+                "nfnl_queue_pf_bind", 
+                "nfnl_queue_msg_send_verdict", 
+                "__stack_chk_fail", 
+                "nl_str2af", 
+                "nl_recvmsgs_default", 
+                "nfnl_queue_str2copy_mode", 
+                "fwrite", 
+                "_ITM_deregisterTMCloneTable", 
+                "nl_cli_alloc_socket", 
+                "__fdelt_chk", 
+                "nfnl_queue_socket_alloc", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "strcasecmp", 
+                "nl_socket_modify_cb", 
+                "nfnl_queue_set_copy_mode", 
+                "nfnl_queue_alloc", 
+                "nl_socket_get_fd", 
+                "nl_msg_parse", 
+                "nl_geterror", 
+                "nl_cli_connect", 
+                "nfnl_queue_set_group", 
+                "nfnl_queue_create", 
+                "__libc_start_main", 
+                "select", 
+                "nl_socket_disable_seq_check", 
+                "nfnl_queue_pf_unbind", 
+                "nl_cli_link_alloc_cache", 
+                "nl_cli_fatal", 
+                "nfnl_queue_set_copy_range", 
+                "nfnl_queue_msg_set_verdict", 
+                "_Jv_RegisterClasses", 
+                "nl_object_dump", 
+                "puts"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-4.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 15, 
+                    "afC": 361
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nf-queue"
+        }, 
+        "usr/bin/nl-link-set": {
+            "report-functions": [
+                "nl_cli_link_parse_ifindex", 
+                "__gmon_start__", 
+                "__printf_chk", 
+                "_Jv_RegisterClasses", 
+                "__stack_chk_fail", 
+                "rtnl_link_unset_flags", 
+                "exit", 
+                "nl_cli_link_parse_txqlen", 
+                "rtnl_link_set_flags", 
+                "__libc_start_main", 
+                "_ITM_registerTMCloneTable", 
+                "nl_cli_link_alloc", 
+                "_ITM_deregisterTMCloneTable", 
+                "nl_cli_link_parse_weight", 
+                "nl_cli_alloc_socket", 
+                "getopt_long", 
+                "nl_cli_link_parse_name", 
+                "puts", 
+                "strcmp", 
+                "nl_cli_link_alloc_cache", 
+                "nl_object_dump", 
+                "nl_cli_connect", 
+                "nl_cli_fatal", 
+                "nl_geterror", 
+                "nl_cli_link_parse_mtu", 
+                "nl_cli_print_version", 
+                "nl_cache_foreach_filter"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-4.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 21, 
+                    "afC": 238
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nl-link-set"
+        }, 
+        "usr/sbin/nl-cls-list": {
+            "report-functions": [
+                "rtnl_link_get_ifindex", 
+                "nl_cli_parse_u32", 
+                "nl_cli_cls_alloc_cache", 
+                "nl_cli_tc_parse_kind", 
+                "rtnl_tc_get_ifindex", 
+                "nl_cli_tc_parse_handle", 
+                "puts", 
+                "rtnl_tc_get_parent", 
+                "nl_cli_cls_alloc", 
+                "nl_cli_tc_parse_dev", 
+                "_ITM_registerTMCloneTable", 
+                "nl_cli_cls_parse_proto", 
+                "_ITM_deregisterTMCloneTable", 
+                "nl_cli_tc_parse_parent", 
+                "nl_cli_connect", 
+                "nl_cli_alloc_socket", 
+                "getopt_long", 
+                "__stack_chk_fail", 
+                "nl_cache_dump_filter", 
+                "nl_cache_free", 
+                "nl_cli_print_version", 
+                "__libc_start_main", 
+                "_Jv_RegisterClasses", 
+                "__gmon_start__", 
+                "rtnl_cls_set_prio", 
+                "nl_cli_link_alloc_cache"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-4.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 15, 
+                    "afC": 207
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/sbin/nl-cls-list"
+        }, 
+        "usr/bin/nl-link-ifindex2name": {
+            "report-functions": [
+                "nl_cli_link_alloc_cache", 
+                "_Jv_RegisterClasses", 
+                "nl_cli_fatal", 
+                "_ITM_registerTMCloneTable", 
+                "nl_cli_alloc_socket", 
+                "exit", 
+                "__gmon_start__", 
+                "__stack_chk_fail", 
+                "_ITM_deregisterTMCloneTable", 
+                "nl_cli_connect", 
+                "rtnl_link_i2name", 
+                "__libc_start_main", 
+                "puts"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-4.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 2, 
+                    "afC": 85
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nl-link-ifindex2name"
+        }, 
+        "usr/bin/nl-route-list": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "nl_cli_route_parse_src", 
+                "exit", 
+                "nl_cli_connect", 
+                "nl_cli_route_parse_scope", 
+                "nl_cli_route_parse_metric", 
+                "getopt_long", 
+                "nl_cli_route_parse_protocol", 
+                "nl_cli_route_parse_type", 
+                "nl_cli_route_parse_prio", 
+                "__libc_start_main", 
+                "nl_cli_route_parse_pref_src", 
+                "nl_cli_link_alloc_cache", 
+                "nl_cli_alloc_socket", 
+                "nl_cli_parse_dumptype", 
+                "_ITM_deregisterTMCloneTable", 
+                "nl_cli_route_parse_iif", 
+                "_ITM_registerTMCloneTable", 
+                "nl_cli_route_alloc_cache", 
+                "_Jv_RegisterClasses", 
+                "nl_cli_route_alloc", 
+                "nl_cli_route_parse_family", 
+                "__gmon_start__", 
+                "nl_cli_route_parse_nexthop", 
+                "nl_cache_dump_filter", 
+                "nl_cli_route_parse_dst", 
+                "nl_cli_print_version"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-4.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 18, 
+                    "afC": 273
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nl-route-list"
+        }, 
+        "usr/sbin/genl-ctrl-list": {
+            "report-functions": [
+                "getopt_long", 
+                "nl_cli_connect", 
+                "nl_cli_parse_dumptype", 
+                "nl_cli_alloc_cache", 
+                "nl_cli_alloc_socket", 
+                "genl_ctrl_alloc_cache", 
+                "_ITM_registerTMCloneTable", 
+                "__stack_chk_fail", 
+                "__gmon_start__", 
+                "nl_cli_print_version", 
+                "__libc_start_main", 
+                "puts", 
+                "nl_cache_dump", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-4.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 6, 
+                    "afC": 116
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/sbin/genl-ctrl-list"
+        }, 
+        "usr/bin/nl-list-caches": {
+            "report-functions": [
+                "puts", 
+                "putchar", 
+                "_Jv_RegisterClasses", 
+                "exit", 
+                "nl_nlfamily2str", 
+                "fwrite", 
+                "__gmon_start__", 
+                "_ITM_registerTMCloneTable", 
+                "__stack_chk_fail", 
+                "nl_cache_ops_foreach", 
+                "__printf_chk", 
+                "_ITM_deregisterTMCloneTable"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-4.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 2, 
+                    "afC": 40
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nl-list-caches"
+        }, 
+        "usr/sbin/nl-qdisc-add": {
+            "report-functions": [
+                "__printf_chk", 
+                "__stack_chk_fail", 
+                "rtnl_tc_get_parent", 
+                "rtnl_tc_set_kind", 
+                "nl_cli_tc_parse_dev", 
+                "nl_object_dump", 
+                "__gmon_start__", 
+                "nl_cli_tc_parse_parent", 
+                "nl_cli_link_alloc_cache", 
+                "exit", 
+                "nl_cli_tc_parse_handle", 
+                "free", 
+                "nl_cli_qdisc_alloc", 
+                "__libc_start_main", 
+                "_ITM_deregisterTMCloneTable", 
+                "nl_cli_print_version", 
+                "nl_cli_connect", 
+                "rtnl_tc_get_ops", 
+                "puts", 
+                "_ITM_registerTMCloneTable", 
+                "nl_cli_fatal", 
+                "__strdup", 
+                "nl_cli_tc_lookup", 
+                "rtnl_tc_get_ifindex", 
+                "_Jv_RegisterClasses", 
+                "nl_geterror", 
+                "nl_cli_alloc_socket"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-4.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 21, 
+                    "afC": 303
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/sbin/nl-qdisc-add"
+        }, 
+        "usr/bin/nl-class-delete": {
+            "report-functions": [
+                "nl_cli_print_version", 
+                "rtnl_class_delete", 
+                "nl_object_dump", 
+                "nl_cli_tc_parse_handle", 
+                "__stack_chk_fail", 
+                "__libc_start_main", 
+                "nl_cli_alloc_socket", 
+                "_Jv_RegisterClasses", 
+                "_ITM_registerTMCloneTable", 
+                "nl_cli_confirm", 
+                "nl_cli_link_alloc_cache", 
+                "exit", 
+                "_ITM_deregisterTMCloneTable", 
+                "nl_cli_tc_parse_kind", 
+                "nl_cli_tc_parse_parent", 
+                "__printf_chk", 
+                "nl_cli_fatal", 
+                "nl_cli_class_alloc", 
+                "rtnl_tc_get_ifindex", 
+                "nl_cache_foreach_filter", 
+                "nl_cli_class_alloc_cache", 
+                "__gmon_start__", 
+                "puts", 
+                "nl_cli_tc_parse_dev", 
+                "nl_geterror"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-4.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 16, 
+                    "afC": 217
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nl-class-delete"
+        }, 
+        "usr/bin/nl-addr-list": {
+            "report-functions": [
+                "nl_addr2str", 
+                "nl_cli_addr_parse_broadcast", 
+                "getopt_long", 
+                "nl_af2str", 
+                "rtnl_addr_get_scope", 
+                "nl_cli_addr_parse_local", 
+                "nl_cli_alloc_socket", 
+                "nl_cli_addr_parse_preferred", 
+                "nl_cache_mngt_require_safe", 
+                "nl_cli_addr_parse_label", 
+                "nl_cli_addr_parse_scope", 
+                "rtnl_addr_get_peer", 
+                "rtnl_addr_set_family", 
+                "rtnl_addr_get_family", 
+                "_ITM_registerTMCloneTable", 
+                "nl_cli_addr_parse_valid", 
+                "nl_cli_connect", 
+                "__libc_start_main", 
+                "rtnl_addr_get_broadcast", 
+                "rtnl_scope2str", 
+                "nl_cli_addr_parse_family", 
+                "_Jv_RegisterClasses", 
+                "rtnl_addr_get_valid_lifetime", 
+                "rtnl_addr_get_flags", 
+                "nl_cli_alloc_cache", 
+                "__snprintf_chk", 
+                "rtnl_addr_alloc_cache", 
+                "nl_cli_link_alloc_cache", 
+                "nl_cli_addr_parse_peer", 
+                "exit", 
+                "rtnl_link_i2name", 
+                "nl_dump", 
+                "__gmon_start__", 
+                "nl_cache_foreach_filter", 
+                "_ITM_deregisterTMCloneTable", 
+                "rtnl_addr_flags2str", 
+                "__stack_chk_fail", 
+                "rtnl_addr_get_label", 
+                "rtnl_addr_get_ifindex", 
+                "nl_dump_line", 
+                "rtnl_addr_get_local", 
+                "nl_cli_addr_parse_dev", 
+                "nl_cache_dump_filter", 
+                "puts", 
+                "__strdup", 
+                "nl_cli_addr_alloc"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-4.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 21, 
+                    "afC": 288
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nl-addr-list"
+        }, 
+        "usr/sbin/nl-qdisc-delete": {
+            "report-functions": [
+                "exit", 
+                "_ITM_deregisterTMCloneTable", 
+                "rtnl_qdisc_alloc_cache", 
+                "_Jv_RegisterClasses", 
+                "nl_cli_tc_parse_kind", 
+                "__stack_chk_fail", 
+                "__printf_chk", 
+                "nl_cli_fatal", 
+                "__gmon_start__", 
+                "nl_cli_link_alloc_cache", 
+                "nl_cli_qdisc_alloc", 
+                "_ITM_registerTMCloneTable", 
+                "nl_cli_tc_parse_dev", 
+                "nl_cli_confirm", 
+                "getopt_long", 
+                "puts", 
+                "rtnl_qdisc_delete", 
+                "nl_cli_print_version", 
+                "__libc_start_main", 
+                "nl_cli_alloc_cache", 
+                "rtnl_tc_get_handle", 
+                "nl_cli_connect", 
+                "nl_cli_tc_parse_parent", 
+                "nl_object_dump", 
+                "nl_geterror", 
+                "nl_cli_alloc_socket"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-4.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 18, 
+                    "afC": 222
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/sbin/nl-qdisc-delete"
+        }, 
+        "usr/bin/nl-rule-list": {
+            "report-functions": [
+                "__stack_chk_fail", 
+                "nl_cli_print_version", 
+                "nl_cache_dump_filter", 
+                "nl_cli_rule_alloc_cache", 
+                "_Jv_RegisterClasses", 
+                "_ITM_registerTMCloneTable", 
+                "nl_cli_alloc_socket", 
+                "nl_cli_rule_alloc", 
+                "nl_cli_parse_dumptype", 
+                "nl_cli_link_alloc_cache", 
+                "exit", 
+                "nl_cli_connect", 
+                "nl_cli_rule_parse_family", 
+                "__gmon_start__", 
+                "_ITM_deregisterTMCloneTable", 
+                "getopt_long"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-4.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 6, 
+                    "afC": 126
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nl-rule-list"
+        }, 
+        "usr/bin/nl-route-get": {
+            "report-functions": [
+                "nl_cli_connect", 
+                "_ITM_registerTMCloneTable", 
+                "nlmsg_append", 
+                "puts", 
+                "nla_put_addr", 
+                "nlmsg_free", 
+                "__stack_chk_fail", 
+                "nl_cli_fatal", 
+                "nlmsg_alloc_simple", 
+                "nl_cli_addr_parse", 
+                "nl_object_dump", 
+                "nl_cli_link_alloc_cache", 
+                "nl_socket_modify_cb", 
+                "__libc_start_main", 
+                "_ITM_deregisterTMCloneTable", 
+                "nl_cli_alloc_socket", 
+                "nl_addr_get_family", 
+                "nl_send_auto_complete", 
+                "nl_msg_parse", 
+                "nl_geterror", 
+                "_Jv_RegisterClasses", 
+                "nl_cli_route_alloc_cache", 
+                "exit", 
+                "nl_recvmsgs_default"
+            ], 
+            "rpm": "libnl3-cli-3.2.28-4.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 9, 
+                    "afC": 192
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/nl-route-get"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 3.2.28", 
+            "Name": " libnl3-cli", 
+            "License": " LGPLv2", 
+            "URL": " http://www.infradead.org/~tgr/libnl/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " c1bm.rdu2.centos.org", 
+            "Description": "\nThis package contains various libnl3 utils and additional\nlibraries on which they depend\n", 
+            "Build Date": " Thu 03 Aug 2017 03:46:06 PM EDT", 
+            "Vendor": " CentOS", 
+            "Source RPM": " libnl3-3.2.28-4.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/0/libnl3-cli-3.2.28-4.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID f4a80eb5: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 10 Aug 2017 01:22:48 PM EDT, Key ID 24c6a8a7f4a80eb5", 
+            "Release": " 4.el7", 
+            "Group": " Development/Libraries", 
+            "Packager": " CentOS BuildSystem <http://bugs.centos.org>", 
+            "Summary": " Command line interface utils for libnl3", 
+            "Size": " 600302"
+        }
+    }
+}

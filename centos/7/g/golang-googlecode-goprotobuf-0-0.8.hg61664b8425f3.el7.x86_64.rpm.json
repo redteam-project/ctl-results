@@ -1,0 +1,45 @@
+{
+    "results": {
+        "usr/bin/protoc-gen-go": {
+            "report-functions": [], 
+            "rpm": "golang-googlecode-goprotobuf-0-0.8.hg61664b8425f3.el7.x86_64.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 1, 
+                    "afC": 3
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "no, not found!", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "no, not found!", 
+                " Fortify Source functions": "unknown, no protectable libc functions used", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/protoc-gen-go"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 0", 
+            "Name": " golang-googlecode-goprotobuf", 
+            "License": " BSD", 
+            "URL": " http://code.google.com/p/goprotobuf", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-22.phx2.fedoraproject.org", 
+            "Description": "\nThis package provides support for protocol buffers in the form of a protocol\ncompiler plugin which generates Go source files that, once compiled, can access\nand manage protocol buffers.\n\nInstall golang-googlecode-goprotobuf-devel for the associated support library.\n", 
+            "Build Date": " Wed 23 Jul 2014 09:51:24 AM EDT", 
+            "Vendor": " Fedora Project", 
+            "Source RPM": " golang-googlecode-goprotobuf-0-0.8.hg61664b8425f3.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/0/golang-googlecode-goprotobuf-0-0.8.hg61664b8425f3.el7.x86_64.rpm: Header V3 RSA/SHA256 Signature, key ID 352c64e5: NOKEY", 
+            "Architecture": " x86_64", 
+            "Signature": " RSA/SHA256, Fri 25 Jul 2014 07:11:49 PM EDT, Key ID 6a2faea2352c64e5", 
+            "Release": " 0.8.hg61664b8425f3.el7", 
+            "Group": " Unspecified", 
+            "Packager": " Fedora Project", 
+            "Summary": " Go support for Google protocol buffers", 
+            "Size": " 4391422"
+        }
+    }
+}

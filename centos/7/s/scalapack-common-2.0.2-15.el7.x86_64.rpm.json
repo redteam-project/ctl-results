@@ -1,0 +1,26 @@
+{
+    "results": "no elfs found", 
+    "metadata": {
+        "spec_data": {
+            "Version": " 2.0.2", 
+            "Name": " scalapack-common", 
+            "License": " Public Domain", 
+            "URL": " http://www.netlib.org/scalapack/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-23.phx2.fedoraproject.org", 
+            "Description": "\nThe ScaLAPACK (or Scalable LAPACK) library includes a subset\nof LAPACK routines redesigned for distributed memory MIMD\nparallel computers. It is currently written in a\nSingle-Program-Multiple-Data style using explicit message\npassing for inter-processor communication. It assumes\nmatrices are laid out in a two-dimensional block cyclic\ndecomposition.\n\nScaLAPACK is designed for heterogeneous computing and is\nportable on any computer that supports MPI or PVM.\n\nLike LAPACK, the ScaLAPACK routines are based on\nblock-partitioned algorithms in order to minimize the frequency\nof data movement between different levels of the memory hierarchy.\n(For such machines, the memory hierarchy includes the off-processor\nmemory of other processors, in addition to the hierarchy of registers,\ncache, and local memory on each processor.) The fundamental building\nblocks of the ScaLAPACK library are distributed memory versions (PBLAS)\nof the Level 1, 2 and 3 BLAS, and a set of Basic Linear Algebra\nCommunication Subprograms (BLACS) for communication tasks that arise\nfrequently in parallel linear algebra computations. In the ScaLAPACK\nroutines, all inter-processor communication occurs within the PBLAS and the\nBLACS. One of the design goals of ScaLAPACK was to have the ScaLAPACK\nroutines resemble their LAPACK equivalents as much as possible.\n\nThis package contains common files which are not specific\nto any MPI implementation.\n", 
+            "Build Date": " Thu 28 Jul 2016 11:03:13 AM EDT", 
+            "Vendor": " Fedora Project", 
+            "Source RPM": " scalapack-2.0.2-15.el7.src.rpm", 
+            "warning": " /home/jason/fctl/3/scalapack-common-2.0.2-15.el7.x86_64.rpm: Header V3 RSA/SHA256 Signature, key ID 352c64e5: NOKEY", 
+            "Architecture": " x86_64", 
+            "Signature": " RSA/SHA256, Thu 28 Jul 2016 04:53:15 PM EDT, Key ID 6a2faea2352c64e5", 
+            "Release": " 15.el7", 
+            "Group": " Development/Libraries", 
+            "Packager": " Fedora Project", 
+            "Summary": " Common files for scalapack", 
+            "Size": " 4862"
+        }
+    }
+}

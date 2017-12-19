@@ -1,0 +1,96 @@
+{
+    "results": {
+        "usr/bin/gegl": {
+            "report-functions": [
+                "g_list_find", 
+                "__gmon_start__", 
+                "g_string_free", 
+                "exit", 
+                "__libc_start_main", 
+                "gegl_node_get_producer", 
+                "gegl_node_new_from_xml", 
+                "g_printf", 
+                "gegl_path_add_type", 
+                "g_string_new", 
+                "gegl_node_get_output_proxy", 
+                "realpath", 
+                "gegl_exit", 
+                "SpiroCPsToBezier", 
+                "__cxa_finalize", 
+                "fgets", 
+                "stpcpy", 
+                "g_main_loop_new", 
+                "g_log", 
+                "gegl_path_list_append", 
+                "_Jv_RegisterClasses", 
+                "g_file_get_contents", 
+                "g_list_append", 
+                "g_path_get_dirname", 
+                "__fprintf_chk", 
+                "g_strdup", 
+                "gegl_init", 
+                "g_string_append", 
+                "_ITM_deregisterTMCloneTable", 
+                "g_thread_init", 
+                "g_malloc0", 
+                "g_print", 
+                "gegl_path_add_flattener", 
+                "gegl_node_new_child", 
+                "g_log_set_always_fatal", 
+                "g_malloc", 
+                "g_clear_error", 
+                "g_main_loop_run", 
+                "gegl_node_link_many", 
+                "gegl_node_connect_from", 
+                "g_malloc0_n", 
+                "g_object_unref", 
+                "__stack_chk_fail", 
+                "g_list_free_full", 
+                "strrchr", 
+                "_ITM_registerTMCloneTable", 
+                "g_get_current_dir", 
+                "g_free", 
+                "gegl_node_process", 
+                "gegl_node_to_xml"
+            ], 
+            "rpm": "gegl-0.2.0-19.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 36, 
+                    "afC": 613
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "yes", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "yes"
+            }, 
+            "filename": "usr/bin/gegl"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 0.2.0", 
+            "Name": " gegl", 
+            "License": " LGPLv3+ and GPLv3+", 
+            "URL": " http://www.gegl.org/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " c1bm.rdu2.centos.org", 
+            "Description": "\nGEGL (Generic Graphics Library) is a graph based image processing framework.\nGEGLs original design was made to scratch GIMPs itches for a new\ncompositing and processing core. This core is being designed to have\nminimal dependencies. and a simple well defined API.\n", 
+            "Build Date": " Tue 01 Aug 2017 07:47:08 PM EDT", 
+            "Vendor": " CentOS", 
+            "Source RPM": " gegl-0.2.0-19.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/0/gegl-0.2.0-19.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID f4a80eb5: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Thu 10 Aug 2017 12:05:54 PM EDT, Key ID 24c6a8a7f4a80eb5", 
+            "Release": " 19.el7", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " CentOS BuildSystem <http://bugs.centos.org>", 
+            "Summary": " A graph based image processing framework", 
+            "Size": " 2910033"
+        }
+    }
+}

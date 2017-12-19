@@ -1,0 +1,94 @@
+{
+    "results": {
+        "usr/bin/idn": {
+            "report-functions": [
+                "abort", 
+                "_ITM_registerTMCloneTable", 
+                "__stack_chk_fail", 
+                "fwrite", 
+                "fopen64", 
+                "stringprep_utf8_to_ucs4", 
+                "bindtextdomain", 
+                "punycode_decode", 
+                "stringprep_locale_charset", 
+                "strrchr", 
+                "dcgettext", 
+                "textdomain", 
+                "putchar", 
+                "setlocale", 
+                "error", 
+                "free", 
+                "stringprep_ucs4_to_utf8", 
+                "idna_to_unicode_8z4z", 
+                "stringprep_strerror", 
+                "malloc", 
+                "__printf_chk", 
+                "strncpy", 
+                "strlen", 
+                "__libc_start_main", 
+                "exit", 
+                "puts", 
+                "ferror", 
+                "_Jv_RegisterClasses", 
+                "stringprep_profile", 
+                "punycode_encode", 
+                "feof", 
+                "idna_to_ascii_4z", 
+                "tld_check_4z", 
+                "fgets", 
+                "fclose", 
+                "_ITM_deregisterTMCloneTable", 
+                "getopt_long", 
+                "stringprep_utf8_to_locale", 
+                "fileno", 
+                "idna_strerror", 
+                "punycode_strerror", 
+                "stringprep_locale_to_utf8", 
+                "stringprep_utf8_nfkc_normalize", 
+                "tld_strerror", 
+                "memcpy", 
+                "isatty", 
+                "__fprintf_chk", 
+                "__errno_location"
+            ], 
+            "rpm": "libidn-1.28-4.el7.i686.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 104, 
+                    "afC": 1967
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/bin/idn"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 1.28", 
+            "Name": " libidn", 
+            "License": " LGPLv2+ and GPLv3+ and GFDL", 
+            "URL": " http://www.gnu.org/software/libidn/", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " worker1.bsys.centos.org", 
+            "Description": "\nGNU Libidn is an implementation of the Stringprep, Punycode and\nIDNA specifications defined by the IETF Internationalized Domain\nNames (IDN) working group, used for internationalized domain\nnames.\n", 
+            "Build Date": " Sat 21 Nov 2015 11:58:10 AM EST", 
+            "Vendor": " CentOS", 
+            "Source RPM": " libidn-1.28-4.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/0/libidn-1.28-4.el7.i686.rpm: Header V3 RSA/SHA256 Signature, key ID f4a80eb5: NOKEY", 
+            "Architecture": " i686", 
+            "Signature": " RSA/SHA256, Wed 25 Nov 2015 09:58:26 AM EST, Key ID 24c6a8a7f4a80eb5", 
+            "Release": " 4.el7", 
+            "Group": " System Environment/Libraries", 
+            "Packager": " CentOS BuildSystem <http://bugs.centos.org>", 
+            "Summary": " Internationalized Domain Name support library", 
+            "Size": " 628287"
+        }
+    }
+}

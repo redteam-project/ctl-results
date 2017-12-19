@@ -1,0 +1,1333 @@
+{
+    "results": {
+        "usr/include/llvm3_9/llvm/Object/ELF_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/llvm3.9/llvm/Object/ELF.h", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "llvm3.9-devel-3.9.1-7.el7.x86_64.rpm"
+        }, 
+        "usr/include/llvm3_9/llvm/Support/ELFRelocs/WebAssembly_def": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/llvm3.9/llvm/Support/ELFRelocs/WebAssembly.def", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "llvm3.9-devel-3.9.1-7.el7.x86_64.rpm"
+        }, 
+        "usr/include/llvm3_9/llvm/MC/MCELFStreamer_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/llvm3.9/llvm/MC/MCELFStreamer.h", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "llvm3.9-devel-3.9.1-7.el7.x86_64.rpm"
+        }, 
+        "usr/include/llvm3_9/llvm/Support/ELFRelocs/Lanai_def": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/llvm3.9/llvm/Support/ELFRelocs/Lanai.def", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "llvm3.9-devel-3.9.1-7.el7.x86_64.rpm"
+        }, 
+        "usr/include/llvm3_9/llvm/Support/ELFRelocs/BPF_def": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/llvm3.9/llvm/Support/ELFRelocs/BPF.def", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "llvm3.9-devel-3.9.1-7.el7.x86_64.rpm"
+        }, 
+        "usr/include/llvm3_9/llvm/Object/ELFObjectFile_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/llvm3.9/llvm/Object/ELFObjectFile.h", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "llvm3.9-devel-3.9.1-7.el7.x86_64.rpm"
+        }, 
+        "usr/lib/device-mapper/libdevmapper-event-lvm2snapshot_so": {
+            "report-functions": [
+                "dmeventd_lvm2_exit", 
+                "dmeventd_lvm2_run", 
+                "__errno_location", 
+                "feof", 
+                "dmeventd_lvm2_command", 
+                "dm_task_get_info", 
+                "__cxa_finalize", 
+                "dmeventd_lvm2_unlock", 
+                "__xstat64", 
+                "dmeventd_lvm2_init", 
+                "fgets", 
+                "dm_task_get_name", 
+                "execvp", 
+                "dm_get_status_snapshot", 
+                "fopen64", 
+                "__stack_chk_fail", 
+                "dm_pool_create", 
+                "_ITM_registerTMCloneTable", 
+                "dmeventd_lvm2_lock", 
+                "_ITM_deregisterTMCloneTable", 
+                "_Jv_RegisterClasses", 
+                "dm_pool_zalloc", 
+                "dm_split_words", 
+                "exit", 
+                "fclose", 
+                "waitpid", 
+                "__gmon_start__", 
+                "strerror", 
+                "__syslog_chk", 
+                "dm_get_next_target", 
+                "dm_pool_destroy"
+            ], 
+            "rpm": "llvm3.9-devel-3.9.1-7.el7.x86_64.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": "5", 
+                    "afC": "65"
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/device-mapper/libdevmapper-event-lvm2snapshot.so"
+        }, 
+        "usr/include/llvm3_9/llvm/Support/ELFRelocs/i386_def": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/llvm3.9/llvm/Support/ELFRelocs/i386.def", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "llvm3.9-devel-3.9.1-7.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/device-mapper/libdevmapper-event-lvm2snapshot_so": {
+            "find-libc-functions": [
+                "GI___obstack_vprintf", 
+                "GI___vasprintf", 
+                "GI___vdprintf", 
+                "GI___vfprintf", 
+                "GI___vfwprintf", 
+                "GI___vsnprintf", 
+                "GI___vsprintf", 
+                "GI___vswprintf", 
+                "GI___vsyslog", 
+                "__longjmp", 
+                "_fprintf", 
+                "_printf", 
+                "_snprintf", 
+                "_sprintf", 
+                "_vfprintf", 
+                "_vprintf", 
+                "_vsnprintf", 
+                "_vsprintf", 
+                "asprintf", 
+                "confstr", 
+                "dprintf", 
+                "explicit_bzero", 
+                "fdelt", 
+                "fgets", 
+                "fgets_unlocked", 
+                "fgetws", 
+                "fgetws_unlocked", 
+                "fprintf", 
+                "fread", 
+                "fread_unlocked", 
+                "fwprintf", 
+                "getcwd", 
+                "getdomainname", 
+                "getgroups", 
+                "gethostname", 
+                "getlogin_r", 
+                "gets", 
+                "getwd", 
+                "longjmp", 
+                "mbsnrtowcs", 
+                "mbsrtowcs", 
+                "mbstowcs", 
+                "memcpy", 
+                "memmove", 
+                "mempcpy", 
+                "memset", 
+                "obstack_printf", 
+                "obstack_vprintf", 
+                "poll", 
+                "ppoll", 
+                "pread64", 
+                "pread", 
+                "printf", 
+                "ptsname_r", 
+                "read", 
+                "readlink", 
+                "readlinkat", 
+                "realpath", 
+                "recv", 
+                "recvfrom", 
+                "snprintf", 
+                "sprintf", 
+                "stpcpy", 
+                "stpncpy", 
+                "strcat", 
+                "strcpy", 
+                "strncat", 
+                "strncpy", 
+                "swprintf", 
+                "syslog", 
+                "ttyname_r", 
+                "vasprintf", 
+                "vdprintf", 
+                "vfprintf", 
+                "vfwprintf", 
+                "vprintf", 
+                "vsnprintf", 
+                "vsprintf", 
+                "vswprintf", 
+                "vsyslog", 
+                "vwprintf", 
+                "wcpcpy", 
+                "wcpncpy", 
+                "wcrtomb", 
+                "wcscat", 
+                "wcscpy", 
+                "wcsncat", 
+                "wcsncpy", 
+                "wcsnrtombs", 
+                "wcsrtombs", 
+                "wcstombs", 
+                "wctomb", 
+                "wmemcpy", 
+                "wmemmove", 
+                "wmempcpy", 
+                "wmemset", 
+                "wprintf"
+            ], 
+            "filename": "usr/lib64/device-mapper/libdevmapper-event-lvm2snapshot.so", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": "5", 
+                    "afC": "84"
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes (some protected functions found)", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "dmeventd_lvm2_command", 
+                "_ITM_deregisterTMCloneTable", 
+                "dmeventd_lvm2_lock", 
+                "__stack_chk_fail", 
+                "dm_task_get_name", 
+                "dmeventd_lvm2_exit", 
+                "dm_get_status_snapshot", 
+                "dm_pool_destroy", 
+                "dm_pool_create", 
+                "dm_task_get_info", 
+                "__cxa_finalize", 
+                "feof", 
+                "dmeventd_lvm2_run", 
+                "dm_pool_free", 
+                "dm_split_words", 
+                "fopen64", 
+                "execvp", 
+                "__errno_location", 
+                "__xstat64", 
+                "waitpid", 
+                "dm_pool_zalloc", 
+                "fclose", 
+                "strerror", 
+                "__gmon_start__", 
+                "__syslog_chk", 
+                "fork", 
+                "_Jv_RegisterClasses", 
+                "_ITM_registerTMCloneTable", 
+                "dm_get_next_target", 
+                "dmeventd_lvm2_init", 
+                "exit"
+            ], 
+            "rpm": "llvm3.9-devel-3.9.1-7.el7.x86_64.rpm"
+        }, 
+        "usr/include/llvm3_9/llvm/Support/ELF_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/llvm3.9/llvm/Support/ELF.h", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "llvm3.9-devel-3.9.1-7.el7.x86_64.rpm"
+        }, 
+        "usr/lib/device-mapper/libdevmapper-event-lvm2mirror_so": {
+            "report-functions": [
+                "dmeventd_lvm2_init", 
+                "dmeventd_lvm2_exit", 
+                "_Jv_RegisterClasses", 
+                "strtol", 
+                "strlen", 
+                "dm_get_next_target", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "dmeventd_lvm2_command", 
+                "dm_task_get_name", 
+                "dmeventd_lvm2_pool", 
+                "__cxa_finalize", 
+                "dmeventd_lvm2_lock", 
+                "__syslog_chk", 
+                "dmeventd_lvm2_unlock", 
+                "dm_malloc_wrapper", 
+                "_ITM_registerTMCloneTable", 
+                "dm_split_words", 
+                "strcmp", 
+                "dm_free_wrapper", 
+                "__stack_chk_fail"
+            ], 
+            "rpm": "llvm3.9-devel-3.9.1-7.el7.x86_64.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": "5", 
+                    "afC": "65"
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/device-mapper/libdevmapper-event-lvm2mirror.so"
+        }, 
+        "usr/include/llvm3_9/llvm/Support/ELFRelocs/SystemZ_def": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/llvm3.9/llvm/Support/ELFRelocs/SystemZ.def", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "llvm3.9-devel-3.9.1-7.el7.x86_64.rpm"
+        }, 
+        "usr/include/llvm3_9/llvm/Support/ELFRelocs/AArch64_def": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/llvm3.9/llvm/Support/ELFRelocs/AArch64.def", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "llvm3.9-devel-3.9.1-7.el7.x86_64.rpm"
+        }, 
+        "usr/include/llvm3_9/llvm/Support/ELFRelocs/x86_64_def": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/llvm3.9/llvm/Support/ELFRelocs/x86_64.def", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "llvm3.9-devel-3.9.1-7.el7.x86_64.rpm"
+        }, 
+        "usr/include/llvm3_9/llvm/MC/MCELFObjectWriter_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/llvm3.9/llvm/MC/MCELFObjectWriter.h", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "llvm3.9-devel-3.9.1-7.el7.x86_64.rpm"
+        }, 
+        "usr/lib/device-mapper/libdevmapper-event-lvm2thin_so": {
+            "report-functions": [
+                "dm_bitset_create", 
+                "fork", 
+                "dm_pool_destroy", 
+                "dmeventd_lvm2_unlock", 
+                "dmeventd_lvm2_exit", 
+                "dm_task_get_info", 
+                "_ITM_registerTMCloneTable", 
+                "dm_mountinfo_read", 
+                "dm_get_next_target", 
+                "__gmon_start__", 
+                "dmeventd_lvm2_init", 
+                "strerror", 
+                "exit", 
+                "dm_task_get_name", 
+                "dmeventd_lvm2_lock", 
+                "dm_task_get_deps", 
+                "dmeventd_lvm2_run", 
+                "dm_get_status_thin_pool", 
+                "execvp", 
+                "dm_bitset_destroy", 
+                "dm_task_no_open_count", 
+                "__syslog_chk", 
+                "dmeventd_lvm2_command", 
+                "waitpid", 
+                "dm_task_create", 
+                "__cxa_finalize", 
+                "dm_task_run", 
+                "_ITM_deregisterTMCloneTable", 
+                "dm_pool_create", 
+                "dm_task_destroy", 
+                "dm_pool_free", 
+                "__errno_location", 
+                "_Jv_RegisterClasses", 
+                "dm_task_get_names", 
+                "dm_task_set_name"
+            ], 
+            "rpm": "llvm3.9-devel-3.9.1-7.el7.x86_64.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": "5", 
+                    "afC": "65"
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/device-mapper/libdevmapper-event-lvm2thin.so"
+        }, 
+        "usr/include/llvm3_9/llvm/MC/MCSymbolELF_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/llvm3.9/llvm/MC/MCSymbolELF.h", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "llvm3.9-devel-3.9.1-7.el7.x86_64.rpm"
+        }, 
+        "usr/lib/device-mapper/libdevmapper-event-lvm2raid_so": {
+            "report-functions": [
+                "_ITM_registerTMCloneTable", 
+                "strchr", 
+                "strtol", 
+                "dmeventd_lvm2_lock", 
+                "dmeventd_lvm2_pool", 
+                "dm_get_next_target", 
+                "dmeventd_lvm2_init", 
+                "dmeventd_lvm2_exit", 
+                "__stack_chk_fail", 
+                "_ITM_deregisterTMCloneTable", 
+                "dm_task_get_name", 
+                "dmeventd_lvm2_command", 
+                "__syslog_chk", 
+                "__gmon_start__", 
+                "dmeventd_lvm2_run", 
+                "strcmp", 
+                "dm_split_words", 
+                "dmeventd_lvm2_unlock"
+            ], 
+            "rpm": "llvm3.9-devel-3.9.1-7.el7.x86_64.rpm", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": "5", 
+                    "afC": "65"
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "filename": "usr/lib/device-mapper/libdevmapper-event-lvm2raid.so"
+        }, 
+        "usr/include/llvm3_9/llvm/Support/ELFRelocs/PowerPC_def": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/llvm3.9/llvm/Support/ELFRelocs/PowerPC.def", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "llvm3.9-devel-3.9.1-7.el7.x86_64.rpm"
+        }, 
+        "usr/include/llvm3_9/llvm/MC/MCSectionELF_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/llvm3.9/llvm/MC/MCSectionELF.h", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "llvm3.9-devel-3.9.1-7.el7.x86_64.rpm"
+        }, 
+        "usr/include/llvm3_9/llvm/MC/MCAsmInfoELF_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/llvm3.9/llvm/MC/MCAsmInfoELF.h", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "llvm3.9-devel-3.9.1-7.el7.x86_64.rpm"
+        }, 
+        "usr/include/llvm3_9/llvm/Support/ELFRelocs/Mips_def": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/llvm3.9/llvm/Support/ELFRelocs/Mips.def", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "llvm3.9-devel-3.9.1-7.el7.x86_64.rpm"
+        }, 
+        "usr/include/llvm3_9/llvm/Support/ELFRelocs/Sparc_def": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/llvm3.9/llvm/Support/ELFRelocs/Sparc.def", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "llvm3.9-devel-3.9.1-7.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/device-mapper/libdevmapper-event-lvm2raid_so": {
+            "find-libc-functions": [
+                "GI___obstack_vprintf", 
+                "GI___vasprintf", 
+                "GI___vdprintf", 
+                "GI___vfprintf", 
+                "GI___vfwprintf", 
+                "GI___vsnprintf", 
+                "GI___vsprintf", 
+                "GI___vswprintf", 
+                "GI___vsyslog", 
+                "__longjmp", 
+                "_fprintf", 
+                "_printf", 
+                "_snprintf", 
+                "_sprintf", 
+                "_vfprintf", 
+                "_vprintf", 
+                "_vsnprintf", 
+                "_vsprintf", 
+                "asprintf", 
+                "confstr", 
+                "dprintf", 
+                "explicit_bzero", 
+                "fdelt", 
+                "fgets", 
+                "fgets_unlocked", 
+                "fgetws", 
+                "fgetws_unlocked", 
+                "fprintf", 
+                "fread", 
+                "fread_unlocked", 
+                "fwprintf", 
+                "getcwd", 
+                "getdomainname", 
+                "getgroups", 
+                "gethostname", 
+                "getlogin_r", 
+                "gets", 
+                "getwd", 
+                "longjmp", 
+                "mbsnrtowcs", 
+                "mbsrtowcs", 
+                "mbstowcs", 
+                "memcpy", 
+                "memmove", 
+                "mempcpy", 
+                "memset", 
+                "obstack_printf", 
+                "obstack_vprintf", 
+                "poll", 
+                "ppoll", 
+                "pread64", 
+                "pread", 
+                "printf", 
+                "ptsname_r", 
+                "read", 
+                "readlink", 
+                "readlinkat", 
+                "realpath", 
+                "recv", 
+                "recvfrom", 
+                "snprintf", 
+                "sprintf", 
+                "stpcpy", 
+                "stpncpy", 
+                "strcat", 
+                "strcpy", 
+                "strncat", 
+                "strncpy", 
+                "swprintf", 
+                "syslog", 
+                "ttyname_r", 
+                "vasprintf", 
+                "vdprintf", 
+                "vfprintf", 
+                "vfwprintf", 
+                "vprintf", 
+                "vsnprintf", 
+                "vsprintf", 
+                "vswprintf", 
+                "vsyslog", 
+                "vwprintf", 
+                "wcpcpy", 
+                "wcpncpy", 
+                "wcrtomb", 
+                "wcscat", 
+                "wcscpy", 
+                "wcsncat", 
+                "wcsncpy", 
+                "wcsnrtombs", 
+                "wcsrtombs", 
+                "wcstombs", 
+                "wctomb", 
+                "wmemcpy", 
+                "wmemmove", 
+                "wmempcpy", 
+                "wmemset", 
+                "wprintf"
+            ], 
+            "filename": "usr/lib64/device-mapper/libdevmapper-event-lvm2raid.so", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": "4", 
+                    "afC": "44"
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "__stack_chk_fail", 
+                "dm_get_next_target", 
+                "dmeventd_lvm2_run", 
+                "__gmon_start__", 
+                "dmeventd_lvm2_init", 
+                "_ITM_registerTMCloneTable", 
+                "_Jv_RegisterClasses", 
+                "dmeventd_lvm2_exit", 
+                "_ITM_deregisterTMCloneTable", 
+                "strchr", 
+                "dmeventd_lvm2_unlock", 
+                "strcmp", 
+                "dm_split_words", 
+                "__syslog_chk", 
+                "strtol", 
+                "__cxa_finalize", 
+                "dmeventd_lvm2_command", 
+                "dmeventd_lvm2_pool"
+            ], 
+            "rpm": "llvm3.9-devel-3.9.1-7.el7.x86_64.rpm"
+        }, 
+        "usr/include/llvm3_9/llvm/Support/ELFRelocs/AMDGPU_def": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/llvm3.9/llvm/Support/ELFRelocs/AMDGPU.def", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "llvm3.9-devel-3.9.1-7.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/llvm3_9/bin/llvm-config": {
+            "find-libc-functions": [
+                "GI___obstack_vprintf", 
+                "GI___vasprintf", 
+                "GI___vdprintf", 
+                "GI___vfprintf", 
+                "GI___vfwprintf", 
+                "GI___vsnprintf", 
+                "GI___vsprintf", 
+                "GI___vswprintf", 
+                "GI___vsyslog", 
+                "__longjmp", 
+                "_fprintf", 
+                "_printf", 
+                "_snprintf", 
+                "_sprintf", 
+                "_vfprintf", 
+                "_vprintf", 
+                "_vsnprintf", 
+                "_vsprintf", 
+                "asprintf", 
+                "confstr", 
+                "dprintf", 
+                "explicit_bzero", 
+                "fdelt", 
+                "fgets", 
+                "fgets_unlocked", 
+                "fgetws", 
+                "fgetws_unlocked", 
+                "fprintf", 
+                "fread", 
+                "fread_unlocked", 
+                "fwprintf", 
+                "getcwd", 
+                "getdomainname", 
+                "getgroups", 
+                "gethostname", 
+                "getlogin_r", 
+                "gets", 
+                "getwd", 
+                "longjmp", 
+                "mbsnrtowcs", 
+                "mbsrtowcs", 
+                "mbstowcs", 
+                "memcpy", 
+                "memmove", 
+                "mempcpy", 
+                "memset", 
+                "obstack_printf", 
+                "obstack_vprintf", 
+                "poll", 
+                "ppoll", 
+                "pread64", 
+                "pread", 
+                "printf", 
+                "ptsname_r", 
+                "read", 
+                "readlink", 
+                "readlinkat", 
+                "realpath", 
+                "recv", 
+                "recvfrom", 
+                "snprintf", 
+                "sprintf", 
+                "stpcpy", 
+                "stpncpy", 
+                "strcat", 
+                "strcpy", 
+                "strncat", 
+                "strncpy", 
+                "swprintf", 
+                "syslog", 
+                "ttyname_r", 
+                "vasprintf", 
+                "vdprintf", 
+                "vfprintf", 
+                "vfwprintf", 
+                "vprintf", 
+                "vsnprintf", 
+                "vsprintf", 
+                "vswprintf", 
+                "vsyslog", 
+                "vwprintf", 
+                "wcpcpy", 
+                "wcpncpy", 
+                "wcrtomb", 
+                "wcscat", 
+                "wcscpy", 
+                "wcsncat", 
+                "wcsncpy", 
+                "wcsnrtombs", 
+                "wcsrtombs", 
+                "wcstombs", 
+                "wctomb", 
+                "wmemcpy", 
+                "wmemmove", 
+                "wmempcpy", 
+                "wmemset", 
+                "wprintf"
+            ], 
+            "filename": "usr/lib64/llvm3.9/bin/llvm-config", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": 225, 
+                    "afC": 3293
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, normal executable!", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "no, only unprotected functions found!", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "_ZN4llvm15SmallVectorBase8grow_podEPvmm", 
+                "_ZN4llvm6TripleC1ERKNS_5TwineE", 
+                "_ZNSsC1ERKSs", 
+                "_ZN4llvm6Triple9normalizeENS_9StringRefE", 
+                "_ZNK4llvm9StringRef5lowerEv", 
+                "_ZdlPv", 
+                "_ZN4llvm3sys2fs17getMainExecutableEPKcPv", 
+                "_ZNSs4_Rep10_M_disposeERKSaIcE", 
+                "_ZN4llvm3sys4path11parent_pathENS_9StringRefE", 
+                "_ZNSs6assignERKSs", 
+                "_ZSt29_Rb_tree_insert_and_rebalancebPSt18_Rb_tree_node_baseS0_RS_", 
+                "_ITM_registerTMCloneTable", 
+                "_ZSt18_Rb_tree_decrementPSt18_Rb_tree_node_base", 
+                "_ZNKSt8__detail20_Prime_rehash_policy14_M_need_rehashEmmm", 
+                "__pthread_key_create", 
+                "_ZSt11_Hash_bytesPKvmm", 
+                "_ZNK4llvm5Twine3strEv", 
+                "_ZN4llvm4outsEv", 
+                "_ZNSs4swapERSs", 
+                "__stack_chk_fail", 
+                "strlen", 
+                "_ZNSs6appendERKSs", 
+                "_ZSt25__throw_bad_function_callv", 
+                "_ZNSs6appendEPKcm", 
+                "_ZN4llvm18report_fatal_errorEPKcb", 
+                "memset", 
+                "_ZNSsC1EPKcmRKSaIcE", 
+                "_ZNSs7reserveEm", 
+                "_ZNKSt8__detail20_Prime_rehash_policy11_M_next_bktEm", 
+                "_ZN4llvm13StringMapImpl11RehashTableEj", 
+                "_ZNSsC1EPKcRKSaIcE", 
+                "memcpy", 
+                "_ZNKSs7compareEPKc", 
+                "_ZN4llvm11raw_ostream5writeEPKcm", 
+                "_ZN4llvm4errsEv", 
+                "_Znwm", 
+                "_ZNSs6assignEPKc", 
+                "__gmon_start__", 
+                "_ZN4llvm11raw_ostream5writeEh", 
+                "malloc", 
+                "_ZN4llvm3sys2fs13make_absoluteERNS_15SmallVectorImplIcEE", 
+                "_ZNSs3endEv", 
+                "_ZN4llvm3sys2fs6accessERKNS_5TwineENS1_10AccessModeE", 
+                "__libc_start_main", 
+                "_ZSt17__throw_bad_allocv", 
+                "_ZN4llvm13StringMapImpl15LookupBucketForENS_9StringRefE", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ZN4llvm3sys2fs10equivalentERKNS_5TwineES4_Rb", 
+                "_ZNK4llvm13StringMapImpl7FindKeyENS_9StringRefE", 
+                "memcmp", 
+                "exit", 
+                "_ZNSs4_Rep10_M_destroyERKSaIcE", 
+                "free", 
+                "_ZNSs6appendEPKc"
+            ], 
+            "rpm": "llvm3.9-devel-3.9.1-7.el7.x86_64.rpm"
+        }, 
+        "usr/include/llvm3_9/llvm/Support/ELFRelocs/ARM_def": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/llvm3.9/llvm/Support/ELFRelocs/ARM.def", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "llvm3.9-devel-3.9.1-7.el7.x86_64.rpm"
+        }, 
+        "usr/include/llvm3_9/llvm/Support/ELFRelocs/Hexagon_def": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/llvm3.9/llvm/Support/ELFRelocs/Hexagon.def", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "llvm3.9-devel-3.9.1-7.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/device-mapper/libdevmapper-event-lvm2thin_so": {
+            "find-libc-functions": [
+                "GI___obstack_vprintf", 
+                "GI___vasprintf", 
+                "GI___vdprintf", 
+                "GI___vfprintf", 
+                "GI___vfwprintf", 
+                "GI___vsnprintf", 
+                "GI___vsprintf", 
+                "GI___vswprintf", 
+                "GI___vsyslog", 
+                "__longjmp", 
+                "_fprintf", 
+                "_printf", 
+                "_snprintf", 
+                "_sprintf", 
+                "_vfprintf", 
+                "_vprintf", 
+                "_vsnprintf", 
+                "_vsprintf", 
+                "asprintf", 
+                "confstr", 
+                "dprintf", 
+                "explicit_bzero", 
+                "fdelt", 
+                "fgets", 
+                "fgets_unlocked", 
+                "fgetws", 
+                "fgetws_unlocked", 
+                "fprintf", 
+                "fread", 
+                "fread_unlocked", 
+                "fwprintf", 
+                "getcwd", 
+                "getdomainname", 
+                "getgroups", 
+                "gethostname", 
+                "getlogin_r", 
+                "gets", 
+                "getwd", 
+                "longjmp", 
+                "mbsnrtowcs", 
+                "mbsrtowcs", 
+                "mbstowcs", 
+                "memcpy", 
+                "memmove", 
+                "mempcpy", 
+                "memset", 
+                "obstack_printf", 
+                "obstack_vprintf", 
+                "poll", 
+                "ppoll", 
+                "pread64", 
+                "pread", 
+                "printf", 
+                "ptsname_r", 
+                "read", 
+                "readlink", 
+                "readlinkat", 
+                "realpath", 
+                "recv", 
+                "recvfrom", 
+                "snprintf", 
+                "sprintf", 
+                "stpcpy", 
+                "stpncpy", 
+                "strcat", 
+                "strcpy", 
+                "strncat", 
+                "strncpy", 
+                "swprintf", 
+                "syslog", 
+                "ttyname_r", 
+                "vasprintf", 
+                "vdprintf", 
+                "vfprintf", 
+                "vfwprintf", 
+                "vprintf", 
+                "vsnprintf", 
+                "vsprintf", 
+                "vswprintf", 
+                "vsyslog", 
+                "vwprintf", 
+                "wcpcpy", 
+                "wcpncpy", 
+                "wcrtomb", 
+                "wcscat", 
+                "wcscpy", 
+                "wcsncat", 
+                "wcsncpy", 
+                "wcsnrtombs", 
+                "wcsrtombs", 
+                "wcstombs", 
+                "wctomb", 
+                "wmemcpy", 
+                "wmemmove", 
+                "wmempcpy", 
+                "wmemset", 
+                "wprintf"
+            ], 
+            "filename": "usr/lib64/device-mapper/libdevmapper-event-lvm2thin.so", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": "5", 
+                    "afC": "85"
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "dm_mountinfo_read", 
+                "dm_task_get_name", 
+                "__errno_location", 
+                "fork", 
+                "dmeventd_lvm2_command", 
+                "_ITM_registerTMCloneTable", 
+                "dm_bitset_destroy", 
+                "dm_task_create", 
+                "dm_task_get_names", 
+                "dm_get_next_target", 
+                "dm_pool_free", 
+                "dmeventd_lvm2_exit", 
+                "dm_task_get_info", 
+                "dm_get_status_thin_pool", 
+                "dm_task_get_deps", 
+                "waitpid", 
+                "dmeventd_lvm2_lock", 
+                "strerror", 
+                "__syslog_chk", 
+                "dm_pool_create", 
+                "exit", 
+                "dmeventd_lvm2_unlock", 
+                "_Jv_RegisterClasses", 
+                "dmeventd_lvm2_run", 
+                "dm_bitset_create", 
+                "dm_task_destroy", 
+                "_ITM_deregisterTMCloneTable", 
+                "__gmon_start__", 
+                "dm_pool_destroy", 
+                "__stack_chk_fail", 
+                "dmeventd_lvm2_init", 
+                "dm_task_set_name", 
+                "dm_pool_zalloc", 
+                "dm_task_no_open_count", 
+                "dm_task_run"
+            ], 
+            "rpm": "llvm3.9-devel-3.9.1-7.el7.x86_64.rpm"
+        }, 
+        "usr/include/llvm3_9/llvm/Support/ELFRelocs/AVR_def": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/llvm3.9/llvm/Support/ELFRelocs/AVR.def", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "llvm3.9-devel-3.9.1-7.el7.x86_64.rpm"
+        }, 
+        "usr/include/llvm3_9/llvm/ObjectYAML/ELFYAML_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/llvm3.9/llvm/ObjectYAML/ELFYAML.h", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "llvm3.9-devel-3.9.1-7.el7.x86_64.rpm"
+        }, 
+        "usr/include/llvm3_9/llvm/Support/ELFRelocs/PowerPC64_def": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/llvm3.9/llvm/Support/ELFRelocs/PowerPC64.def", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "llvm3.9-devel-3.9.1-7.el7.x86_64.rpm"
+        }, 
+        "usr/lib64/device-mapper/libdevmapper-event-lvm2mirror_so": {
+            "find-libc-functions": [
+                "GI___obstack_vprintf", 
+                "GI___vasprintf", 
+                "GI___vdprintf", 
+                "GI___vfprintf", 
+                "GI___vfwprintf", 
+                "GI___vsnprintf", 
+                "GI___vsprintf", 
+                "GI___vswprintf", 
+                "GI___vsyslog", 
+                "__longjmp", 
+                "_fprintf", 
+                "_printf", 
+                "_snprintf", 
+                "_sprintf", 
+                "_vfprintf", 
+                "_vprintf", 
+                "_vsnprintf", 
+                "_vsprintf", 
+                "asprintf", 
+                "confstr", 
+                "dprintf", 
+                "explicit_bzero", 
+                "fdelt", 
+                "fgets", 
+                "fgets_unlocked", 
+                "fgetws", 
+                "fgetws_unlocked", 
+                "fprintf", 
+                "fread", 
+                "fread_unlocked", 
+                "fwprintf", 
+                "getcwd", 
+                "getdomainname", 
+                "getgroups", 
+                "gethostname", 
+                "getlogin_r", 
+                "gets", 
+                "getwd", 
+                "longjmp", 
+                "mbsnrtowcs", 
+                "mbsrtowcs", 
+                "mbstowcs", 
+                "memcpy", 
+                "memmove", 
+                "mempcpy", 
+                "memset", 
+                "obstack_printf", 
+                "obstack_vprintf", 
+                "poll", 
+                "ppoll", 
+                "pread64", 
+                "pread", 
+                "printf", 
+                "ptsname_r", 
+                "read", 
+                "readlink", 
+                "readlinkat", 
+                "realpath", 
+                "recv", 
+                "recvfrom", 
+                "snprintf", 
+                "sprintf", 
+                "stpcpy", 
+                "stpncpy", 
+                "strcat", 
+                "strcpy", 
+                "strncat", 
+                "strncpy", 
+                "swprintf", 
+                "syslog", 
+                "ttyname_r", 
+                "vasprintf", 
+                "vdprintf", 
+                "vfprintf", 
+                "vfwprintf", 
+                "vprintf", 
+                "vsnprintf", 
+                "vsprintf", 
+                "vswprintf", 
+                "vsyslog", 
+                "vwprintf", 
+                "wcpcpy", 
+                "wcpncpy", 
+                "wcrtomb", 
+                "wcscat", 
+                "wcscpy", 
+                "wcsncat", 
+                "wcsncpy", 
+                "wcsnrtombs", 
+                "wcsrtombs", 
+                "wcstombs", 
+                "wctomb", 
+                "wmemcpy", 
+                "wmemmove", 
+                "wmempcpy", 
+                "wmemset", 
+                "wprintf"
+            ], 
+            "filename": "usr/lib64/device-mapper/libdevmapper-event-lvm2mirror.so", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": "4", 
+                    "afC": "44"
+                }
+            }, 
+            "hardening-check": {
+                " Read-only relocations": "yes", 
+                " Position Independent Executable": "no, regular shared library (ignored)", 
+                " Stack protected": "yes", 
+                " Fortify Source functions": "yes", 
+                " Immediate binding": "no, not found!"
+            }, 
+            "report-functions": [
+                "__cxa_finalize", 
+                "dm_malloc_wrapper", 
+                "dmeventd_lvm2_run", 
+                "dmeventd_lvm2_init", 
+                "dmeventd_lvm2_lock", 
+                "dmeventd_lvm2_pool", 
+                "dmeventd_lvm2_exit", 
+                "__gmon_start__", 
+                "dmeventd_lvm2_unlock", 
+                "strchr", 
+                "dm_get_next_target", 
+                "_ITM_deregisterTMCloneTable", 
+                "_ITM_registerTMCloneTable", 
+                "dm_free_wrapper", 
+                "dmeventd_lvm2_command", 
+                "dm_split_words", 
+                "strlen", 
+                "dm_task_get_name", 
+                "__syslog_chk", 
+                "strcmp", 
+                "strtol", 
+                "_Jv_RegisterClasses"
+            ], 
+            "rpm": "llvm3.9-devel-3.9.1-7.el7.x86_64.rpm"
+        }, 
+        "usr/include/llvm3_9/llvm/Object/ELFTypes_h": {
+            "find-libc-functions": [
+                ""
+            ], 
+            "filename": "usr/include/llvm3.9/llvm/Object/ELFTypes.h", 
+            "complexity": {
+                "r2aa": {
+                    "afCc": null, 
+                    "afC": null
+                }
+            }, 
+            "hardening-check": {}, 
+            "report-functions": [], 
+            "rpm": "llvm3.9-devel-3.9.1-7.el7.x86_64.rpm"
+        }
+    }, 
+    "metadata": {
+        "spec_data": {
+            "Version": " 3.9.1", 
+            "Name": " llvm3.9-devel", 
+            "License": " NCSA", 
+            "URL": " http://llvm.org", 
+            "Relocations": " (not relocatable)", 
+            "Install Date": " (not installed)", 
+            "Build Host": " buildvm-05.phx2.fedoraproject.org", 
+            "Description": "\nThis package contains library and header files needed to develop new native\nprograms that use the LLVM infrastructure.\n\nThis package contains LLVM 3.9 and can be installed\nin parallel with other LLVM versions.\n", 
+            "Build Date": " Thu 20 Apr 2017 04:12:44 PM EDT", 
+            "Vendor": " Fedora Project", 
+            "Source RPM": " llvm3.9-3.9.1-7.el7.src.rpm", 
+            "warning": " /home/jason/fctl/swap/2/llvm3.9-devel-3.9.1-7.el7.x86_64.rpm: Header V3 RSA/SHA256 Signature, key ID 352c64e5: NOKEY", 
+            "Architecture": " x86_64", 
+            "Signature": " RSA/SHA256, Fri 28 Apr 2017 04:45:03 PM EDT, Key ID 6a2faea2352c64e5", 
+            "Release": " 7.el7", 
+            "Group": " Unspecified", 
+            "Packager": " Fedora Project", 
+            "Summary": " Libraries and header files for LLVM 3.9", 
+            "Size": " 12028185"
+        }
+    }
+}
