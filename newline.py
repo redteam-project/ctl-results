@@ -24,7 +24,7 @@ for filename in file_list:
         try:
             j = json.loads(f.read())
             k = fix_dict(j)
-            # print(str(k))
-            o.write(str(k))
+            print(filename.rstrip())
+            o.write(str(k) + '\n')
         except Exception as e:
             continue
